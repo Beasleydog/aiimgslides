@@ -91,24 +91,18 @@ def load_dataset(data_dir, limit=None):
 
 def load_model_and_processor(model_name):
     import torch
-    from transformers import AutoProcessor, BitsAndBytesConfig, Qwen2_5_VLForConditionalGeneration
+    from transformers import AutoProcessor, Qwen2_5_VLForConditionalGeneration
 
     compute_dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
-    quantization = BitsAndBytesConfig(
-        load_in_4bit=True,
-        bnb_4bit_compute_dtype=compute_dtype,
-        bnb_4bit_quant_type="nf4",
-        bnb_4bit_use_double_quant=True,
-    )
     model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
         model_name,
-        quantization_config=quantization,
         device_map="auto",
         dtype=compute_dtype,
         attn_implementation="eager",
     )
-    model.lm_head = model.lm_head.to(dtype=compute_dtype)
+    model.config.use_cache = False
     model.config.torch_dtype = compute_dtype
+    model.gradient_checkpointing_enable()
     processor = AutoProcessor.from_pretrained(model_name, use_fast=True)
     return model, processor
 
@@ -247,7 +241,7 @@ def train(args):
             "report_to": "none",
             "bf16": gpu["bf16"],
             "fp16": not gpu["bf16"],
-            "optim": "adamw_8bit",
+            "optim": "adamw_torch",
             "temperature": 0.8,
             "top_p": 0.95,
             "generation_kwargs": {
