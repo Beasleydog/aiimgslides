@@ -1,10 +1,26 @@
 import random
+import re
+from pathlib import Path
 
 from PIL import ImageFont
 from pptx.dml.color import RGBColor
 
 import config
-from words import WORDS
+
+
+_WORDS = None
+FALLBACK_WORDS = [
+    "signal",
+    "vector",
+    "canvas",
+    "metric",
+    "frame",
+    "orbit",
+    "focus",
+    "pattern",
+    "stream",
+    "module",
+]
 
 
 def rand_color(alpha=False):
@@ -12,8 +28,27 @@ def rand_color(alpha=False):
     return (*values, random.randint(90, 210)) if alpha else tuple(values)
 
 
+def load_words():
+    global _WORDS
+    if _WORDS is not None:
+        return _WORDS
+
+    path = Path(config.WORDS_FILE)
+    if path.exists():
+        text = path.read_text(encoding="utf-8", errors="ignore")
+        words = re.findall(r"[A-Za-z][A-Za-z-]*", text)
+        _WORDS = [word.lower() for word in words if 2 <= len(word) <= 18]
+    else:
+        _WORDS = FALLBACK_WORDS
+
+    if not _WORDS:
+        _WORDS = FALLBACK_WORDS
+    return _WORDS
+
+
 def rand_text(min_words=1, max_words=6):
-    return " ".join(random.choice(WORDS) for _ in range(random.randint(min_words, max_words)))
+    words = load_words()
+    return " ".join(random.choice(words) for _ in range(random.randint(min_words, max_words)))
 
 
 def weighted_choice(weights):

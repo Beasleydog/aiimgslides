@@ -7,6 +7,10 @@ OUTPUT_PNG = "random_slide.png"
 # Every generated image element uses this URL for now.
 EXAMPLE_IMAGE_URL = "https://picsum.photos/seed/aiimgslides/900/600"
 
+# Random text source. Keep this as a plain text file with words separated by
+# spaces; utils.py loads it once and samples from it.
+WORDS_FILE = "words.txt"
+
 # Counts per element type. Keep every object type nonzero, but avoid making the
 # single slide too dense unless you explicitly want chaotic overlap.
 TEXT_COUNT = 5
@@ -18,6 +22,30 @@ CHART_COUNT = 1
 FREEFORM_COUNT = 1
 SVG_COUNT = 1
 SVG_IMAGE_COUNT = 1
+
+# Each slide gets 1-4 main focus elements. These are placed before everything
+# else, use larger size ranges, and are not allowed to overlap each other.
+FOCUS_COUNT_RANGE = (1, 4)
+FOCUS_PLACEMENT_ATTEMPTS = 1200
+FOCUS_KIND_WEIGHTS = {
+    "text": 1.4,
+    "image": 1.2,
+    "svg_image": 1.2,
+    "chart": 1.0,
+    "table": 0.9,
+    "shape": 0.9,
+    "freeform": 0.6,
+}
+
+# Focus ranges by number of focus elements: (min_w, max_w, min_h, max_h).
+# One focus element can be very large; four focus elements are still prominent
+# but sized so they can fit together without overlap.
+FOCUS_SIZE_RANGES_BY_COUNT = {
+    1: (4.8, 7.0, 3.0, 4.6),
+    2: (3.4, 5.2, 2.2, 3.6),
+    3: (2.5, 4.1, 1.7, 3.0),
+    4: (2.0, 3.3, 1.4, 2.5),
+}
 
 # Slide geometry in PowerPoint inches. 13.333 x 7.5 is widescreen 16:9.
 SLIDE_W = 13.333
@@ -34,6 +62,10 @@ SEED = None
 # Higher values usually reduce overlap, but generation takes a little longer.
 PLACEMENT_ATTEMPTS = 140
 
+# If a regular element cannot land under this score, skip it instead of forcing
+# clutter into a bad spot. Raise this for denser slides; lower it for cleaner ones.
+MAX_REGULAR_PLACEMENT_SCORE = 18.0
+
 # Higher values make overlap more expensive during placement.
 # 0 means elements ignore each other and can freely stack.
 OVERLAP_PENALTY_WEIGHT = 55.0
@@ -41,6 +73,10 @@ OVERLAP_PENALTY_WEIGHT = 55.0
 # Extra overlap penalty when two elements of the same kind collide.
 # Useful if, for example, text-on-text overlap is harder to read than text-on-shape.
 SAME_KIND_OVERLAP_WEIGHT = 28.0
+
+# Extra multiplier when a regular element would collide with a focus element.
+# This keeps the main objects visually protected after they are placed.
+FOCUS_COLLISION_MULTIPLIER = 5.0
 
 # Small penalty for placing an element very close to slide edges.
 # Raise this to push content inward; set to 0 to allow edge-hugging layouts.

@@ -1,0 +1,40 @@
+# Python/runtime cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments / local env
+.venv/
+venv/
+env/
+.env
+.env.*
+
+# Generated PowerPoint/image artifacts
+*.pptx
+*.ppt
+*.png
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.zip
+
+# Generated output folders
+benchmark_deck_output/
+benchmark_output/
+benchmark_batch_output/
+output_folder/
+twenty_image_output/
+aiimgslides_20_package/
+
+# Temporary helper assets
+_example_image.jpg
+~$*.pptx
+
+# Editor/OS noise
+.DS_Store
+Thumbs.db
