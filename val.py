@@ -107,6 +107,8 @@ def load_model(model_dir, base_model):
         model = PeftModel.from_pretrained(model, model_dir)
     processor_source = model_dir if (model_dir / "preprocessor_config.json").exists() else base_model
     processor = AutoProcessor.from_pretrained(processor_source, use_fast=True)
+    if hasattr(processor, "tokenizer"):
+        processor.tokenizer.model_max_length = 131072
     model.eval()
     return model, processor
 
@@ -125,7 +127,7 @@ def generate_scene(model, processor, image_path, max_new_tokens):
         }
     ]
     prompt = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-    inputs = processor(text=[prompt], images=[image], return_tensors="pt")
+    inputs = processor(text=[prompt], images=[image], return_tensors="pt", padding=True, truncation=False)
     device = next(model.parameters()).device
     inputs = {key: value.to(device) if hasattr(value, "to") else value for key, value in inputs.items()}
     with torch.inference_mode():
