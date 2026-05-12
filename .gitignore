@@ -24,6 +24,8 @@ env/
 *.zip
 
 # Generated output folders
+output/
+model_output/
 benchmark_deck_output/
 benchmark_separate_output/
 benchmark_output/
@@ -31,9 +33,12 @@ benchmark_batch_output/
 output_folder/
 twenty_image_output/
 aiimgslides_20_package/
+_smoke_output/
 
 # Temporary helper assets
 _example_image.jpg
+*.log
+*.err
 ~$*.pptx
 
 # Editor/OS noise
