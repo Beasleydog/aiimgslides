@@ -1,4 +1,5 @@
 import os
+import tempfile
 from pathlib import Path
 
 import config
@@ -45,6 +46,36 @@ def export_slides_with_app(app, pptx_path, output_folder, image_format="JPG"):
     finally:
         if presentation is not None:
             presentation.Close()
+
+    return exported_files(output_path, image_format)
+
+
+def export_slides_with_svg_with_app(
+    app,
+    pptx_path,
+    output_folder,
+    slide_elements,
+    image_path,
+    image_format="JPG",
+    save_pptx=True,
+):
+    from svg_element import insert_svg_elements_into_presentation
+
+    output_path = Path(output_folder)
+    output_path.mkdir(parents=True, exist_ok=True)
+
+    presentation = None
+    with tempfile.TemporaryDirectory() as tmp:
+        try:
+            presentation = app.Presentations.Open(os.path.abspath(pptx_path), WithWindow=False)
+            if config.INSERT_SVG_WITH_POWERPOINT:
+                insert_svg_elements_into_presentation(presentation, slide_elements, image_path, Path(tmp))
+                if save_pptx:
+                    presentation.Save()
+            presentation.Export(os.path.abspath(output_path), image_format)
+        finally:
+            if presentation is not None:
+                presentation.Close()
 
     return exported_files(output_path, image_format)
 

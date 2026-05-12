@@ -92,8 +92,8 @@ def clip_path(clip):
     return "M40 102 C82 26 146 16 200 58 C266 110 330 48 368 118 C406 188 318 286 214 260 C126 238 82 298 38 230 C6 180 12 140 40 102 Z"
 
 
-def svg_image_markup(el, image_path):
-    encoded = base64.b64encode(Path(image_path).read_bytes()).decode("ascii")
+def svg_image_markup(el, image_path=None, encoded_image=None):
+    encoded = encoded_image or base64.b64encode(Path(image_path).read_bytes()).decode("ascii")
     path = clip_path(el.data["clip"])
     line = svg_color(el.data["line"])
     width = el.data["line_width"]
@@ -155,30 +155,41 @@ def insert_svg_elements_with_app(app, pptx_path, slide_elements, image_path=None
     pptx_path = Path(pptx_path).resolve()
     presentation = None
     with tempfile.TemporaryDirectory() as tmp:
-        tmp_path = Path(tmp)
         try:
             presentation = app.Presentations.Open(str(pptx_path), WithWindow=False)
-            for slide_index, elements in enumerate(slide_elements, start=1):
-                slide = presentation.Slides(slide_index)
-                svg_elements = [e for e in elements if e.kind in {"svg", "svg_image"}]
-                for svg_index, el in enumerate(svg_elements, start=1):
-                    svg_path = tmp_path / f"slide_{slide_index}_svg_{svg_index}.svg"
-                    if el.kind == "svg_image":
-                        if image_path is None:
-                            continue
-                        svg_path.write_text(svg_image_markup(el, image_path), encoding="utf-8")
-                    else:
-                        svg_path.write_text(el.data["svg"], encoding="utf-8")
-                    slide.Shapes.AddPicture(
-                        str(svg_path.resolve()),
-                        False,
-                        True,
-                        el.x * 72,
-                        el.y * 72,
-                        el.w * 72,
-                        el.h * 72,
-                    )
+            insert_svg_elements_into_presentation(presentation, slide_elements, image_path, Path(tmp))
             presentation.Save()
         finally:
             if presentation is not None:
                 presentation.Close()
+
+
+def insert_svg_elements_into_presentation(presentation, slide_elements, image_path=None, tmp_path=None):
+    tmp_path = Path(tmp_path) if tmp_path is not None else Path(tempfile.mkdtemp())
+    needs_encoded_image = image_path is not None and any(
+        el.kind == "svg_image"
+        for elements in slide_elements
+        for el in elements
+    )
+    encoded_image = base64.b64encode(Path(image_path).read_bytes()).decode("ascii") if needs_encoded_image else None
+
+    for slide_index, elements in enumerate(slide_elements, start=1):
+        slide = presentation.Slides(slide_index)
+        svg_elements = [e for e in elements if e.kind in {"svg", "svg_image"}]
+        for svg_index, el in enumerate(svg_elements, start=1):
+            svg_path = tmp_path / f"slide_{slide_index}_svg_{svg_index}.svg"
+            if el.kind == "svg_image":
+                if image_path is None:
+                    continue
+                svg_path.write_text(svg_image_markup(el, encoded_image=encoded_image), encoding="utf-8")
+            else:
+                svg_path.write_text(el.data["svg"], encoding="utf-8")
+            slide.Shapes.AddPicture(
+                str(svg_path.resolve()),
+                False,
+                True,
+                el.x * 72,
+                el.y * 72,
+                el.w * 72,
+                el.h * 72,
+            )

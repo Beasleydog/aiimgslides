@@ -1,5 +1,6 @@
 import random
 import re
+from functools import lru_cache
 from pathlib import Path
 
 from PIL import ImageFont
@@ -69,6 +70,7 @@ def px_box(el):
     )
 
 
+@lru_cache(maxsize=128)
 def font(size, bold=False):
     names = [
         "arialbd.ttf" if bold else "arial.ttf",

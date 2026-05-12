@@ -4,11 +4,10 @@ from pathlib import Path
 
 import win32com.client
 
-from export_powerpoint import export_slides_with_app
+from export_powerpoint import export_slides_with_svg_with_app
 from generator import make_elements
 from image_element import download_image
 from render import add_deck_to_pptx
-from svg_element import insert_svg_elements_with_app
 
 
 RUNS = 20
@@ -20,6 +19,7 @@ def main():
     export_dir = OUTPUT_DIR / "images"
     if export_dir.exists():
         shutil.rmtree(export_dir)
+    export_dir.mkdir(parents=True, exist_ok=True)
 
     image = download_image()
     image_path = OUTPUT_DIR / "_example_image.jpg"
@@ -33,8 +33,11 @@ def main():
 
         app = win32com.client.Dispatch("PowerPoint.Application")
         try:
-            insert_svg_elements_with_app(app, pptx_path, slide_elements, image_path)
-            exported = export_slides_with_app(app, pptx_path, export_dir, "JPG")
+            try:
+                app.DisplayAlerts = 0
+            except Exception:
+                pass
+            exported = export_slides_with_svg_with_app(app, pptx_path, export_dir, slide_elements, image_path, "JPG")
         finally:
             app.Quit()
     finally:

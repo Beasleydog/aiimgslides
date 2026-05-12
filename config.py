@@ -156,6 +156,33 @@ SHAPE_OUTLINE_ONLY_PROBABILITY = 0.18
 # How often shape outlines use dash patterns instead of solid lines.
 SHAPE_DASHED_LINE_PROBABILITY = 0.35
 
+# After the main slide structure is generated, add a few small random elements
+# on top. These improve long-tail object/property coverage without controlling
+# the core layout.
+OVERLAY_ELEMENT_COUNT_RANGE = (3, 9)
+OVERLAY_TEXT_PROBABILITY = 0.28
+OVERLAY_SHAPE_PROBABILITY = 0.42
+OVERLAY_CONNECTOR_PROBABILITY = 0.16
+OVERLAY_SVG_PROBABILITY = 0.14
+
+# Most slides use a coherent structure, but colors/properties should vary a lot
+# for training coverage. Higher values move elements away from the sampled theme.
+RANDOM_COLOR_VARIATION_PROBABILITY = 0.55
+RANDOM_PROPERTY_VARIATION_PROBABILITY = 0.55
+
+# Make background colors and large background shapes visibly diverse.
+COLORFUL_BACKGROUND_PROBABILITY = 0.65
+BACKGROUND_SHAPE_COUNT_RANGE = (1, 4)
+BACKGROUND_SHAPE_PROBABILITY = 0.85
+BACKGROUND_STYLE_WEIGHTS = {
+    "solid": 1.4,      # plain slide fill
+    "gradient": 1.8,   # native PowerPoint gradient fill
+    "pattern": 1.5,    # native PowerPoint pattern fill
+}
+
+# Larger borders improve object boundary coverage for reconstruction.
+BORDER_WIDTH_MULTIPLIER = 1.8
+
 # Table structure and style variation. Wider ranges create more chaotic tables.
 TABLE_ROW_RANGE = (2, 7)
 TABLE_COL_RANGE = (2, 6)
@@ -176,6 +203,6 @@ IMAGE_MASK_OVERLAY_PROBABILITY = 0.35
 # generated SVG assets as real SVG pictures.
 INSERT_SVG_WITH_POWERPOINT = True
 
-# Benchmark settings for the fast path: generate many slides into one deck and
-# call PowerPoint Export once. This preserves PowerPoint rendering.
+# Benchmark settings for generating one long PPTX with many independently
+# generated slides, then exporting that deck once for speed.
 DECK_EXPORT_BENCHMARK_SLIDES = 100
