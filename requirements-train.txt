@@ -6,6 +6,7 @@ accelerate>=1.12,<2
 peft>=0.18,<0.19
 qwen-vl-utils>=0.0.14
 Pillow>=10,<13
+python-pptx>=1.0,<2
 
 # Colab already ships a CUDA-matched torch. Keep this broad so pip does not
 # try to replace it unless the runtime is missing torch.
