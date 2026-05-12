@@ -93,9 +93,10 @@ def load_model_and_processor(model_name):
     import torch
     from transformers import AutoProcessor, BitsAndBytesConfig, Qwen2_5_VLForConditionalGeneration
 
+    compute_dtype = torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16
     quantization = BitsAndBytesConfig(
         load_in_4bit=True,
-        bnb_4bit_compute_dtype=torch.float16,
+        bnb_4bit_compute_dtype=compute_dtype,
         bnb_4bit_quant_type="nf4",
         bnb_4bit_use_double_quant=True,
     )
@@ -103,9 +104,11 @@ def load_model_and_processor(model_name):
         model_name,
         quantization_config=quantization,
         device_map="auto",
-        dtype=torch.float16,
+        dtype=compute_dtype,
         attn_implementation="eager",
     )
+    model.lm_head = model.lm_head.to(dtype=compute_dtype)
+    model.config.torch_dtype = compute_dtype
     processor = AutoProcessor.from_pretrained(model_name, use_fast=True)
     return model, processor
 
@@ -242,11 +245,15 @@ def train(args):
             "max_completion_length": MAX_COMPLETION_LENGTH,
             "num_generations": NUM_GENERATIONS,
             "report_to": "none",
-            "bf16": False,
-            "fp16": True,
+            "bf16": gpu["bf16"],
+            "fp16": not gpu["bf16"],
             "optim": "adamw_8bit",
             "temperature": 0.8,
             "top_p": 0.95,
+            "generation_kwargs": {
+                "remove_invalid_values": True,
+                "renormalize_logits": True,
+            },
             "beta": 0.0,
         },
     )
