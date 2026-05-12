@@ -14,9 +14,9 @@ DATA_DIR = Path("output")
 OUTPUT_DIR = Path("model_output/slide_json_grpo")
 MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct"
 
-MAX_STEPS = 1000
+MAX_STEPS = 150
 MAX_PROMPT_LENGTH = 2048
-MAX_COMPLETION_LENGTH = 2048
+MAX_COMPLETION_LENGTH = 768
 PER_DEVICE_BATCH_SIZE = 2
 GRADIENT_ACCUMULATION_STEPS = 4
 NUM_GENERATIONS = 2
@@ -28,6 +28,8 @@ WEIGHT_DECAY = 0.01
 MAX_GRAD_NORM = 0.3
 SAVE_STEPS = 50
 SAVE_TOTAL_LIMIT = 3
+IMAGE_MIN_PIXELS = 256 * 28 * 28
+IMAGE_MAX_PIXELS = 512 * 512
 
 os.environ["WANDB_MODE"] = "disabled"
 os.environ["WANDB_PROJECT"] = "disabled"
@@ -109,7 +111,12 @@ def load_model_and_processor(model_name):
     model.config.use_cache = False
     model.config.torch_dtype = compute_dtype
     model.gradient_checkpointing_enable()
-    processor = AutoProcessor.from_pretrained(model_name, use_fast=True)
+    processor = AutoProcessor.from_pretrained(
+        model_name,
+        use_fast=True,
+        min_pixels=IMAGE_MIN_PIXELS,
+        max_pixels=IMAGE_MAX_PIXELS,
+    )
     return model, processor
 
 

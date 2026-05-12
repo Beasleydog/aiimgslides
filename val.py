@@ -12,6 +12,7 @@ from pptx.enum.shapes import MSO_AUTO_SHAPE_TYPE
 from pptx.util import Inches, Pt
 
 from train import MODEL_NAME, OUTPUT_DIR, USER_PROMPT, balanced_json_slice
+from train import IMAGE_MAX_PIXELS, IMAGE_MIN_PIXELS
 
 
 DEFAULT_IMAGE = Path("realslide.png")
@@ -106,7 +107,12 @@ def load_model(model_dir, base_model):
     if (model_dir / "adapter_config.json").exists():
         model = PeftModel.from_pretrained(model, model_dir)
     processor_source = model_dir if (model_dir / "preprocessor_config.json").exists() else base_model
-    processor = AutoProcessor.from_pretrained(processor_source, use_fast=True)
+    processor = AutoProcessor.from_pretrained(
+        processor_source,
+        use_fast=True,
+        min_pixels=IMAGE_MIN_PIXELS,
+        max_pixels=IMAGE_MAX_PIXELS,
+    )
     if hasattr(processor, "tokenizer"):
         processor.tokenizer.model_max_length = 131072
     model.eval()
