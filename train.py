@@ -3,64 +3,30 @@ import json
 import math
 import os
 import re
-import shutil
 from pathlib import Path
 
-# This avoids stale/mismatched generated GRPO wrappers like:
-# grpo_accumulated_loss() missing old_logps/ref_logps.
-shutil.rmtree("unsloth_compiled_cache", ignore_errors=True)
-os.environ["UNSLOTH_COMPILE_DISABLE"] = "1"
-os.environ["TORCHDYNAMO_DISABLE"] = "1"
-os.environ["TORCH_COMPILE_DISABLE"] = "1"
-os.environ["TORCHINDUCTOR_DISABLE"] = "1"
-os.environ["WANDB_MODE"] = "disabled"
-os.environ["WANDB_PROJECT"] = "disabled"
-
-try:
-    import torch
-
-    torch._dynamo.config.suppress_errors = True
-    torch._dynamo.disable()
-except Exception:
-    pass
-
-try:
-    import unsloth  # Must be imported before trl/transformers/peft when installed.
-    from unsloth import FastVisionModel
-except ModuleNotFoundError:
-    FastVisionModel = None
+from PIL import Image
 
 from grader import grade_json, schema_reward
 
 
 DATA_DIR = Path("output")
-MODEL_CANDIDATES = [
-    "unsloth/gemma-4-E2B-it-unsloth-bnb-4bit",
-    "unsloth/gemma-4-E4B-it-unsloth-bnb-4bit",
-    "unsloth/gemma-4-E4B-it",
-    "google/gemma-4-E4B-it",
-    "unsloth/Qwen2.5-VL-3B-Instruct-unsloth-bnb-4bit",
-    "unsloth/gemma-3-4b-it-unsloth-bnb-4bit",
-]
-EXPLICIT_ONLY_MODELS = [
-    # Qwen3-VL currently loads, but Unsloth GRPO can fail at step 0 with:
-    # mat1 and mat2 shapes cannot be multiplied (... x vocab, hidden x vocab).
-    "unsloth/Qwen3-VL-4B-Instruct-unsloth-bnb-4bit",
-    "unsloth/Qwen3-VL-2B-Instruct-unsloth-bnb-4bit",
-]
 OUTPUT_DIR = Path("model_output/slide_json_grpo")
-MAX_SEQ_LENGTH = 2048
+MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct"
+
 MAX_STEPS = 200
+MAX_PROMPT_LENGTH = 2048
+MAX_COMPLETION_LENGTH = 1024
 PER_DEVICE_BATCH_SIZE = 2
 GRADIENT_ACCUMULATION_STEPS = 4
+NUM_GENERATIONS = 2
 LEARNING_RATE = 2e-6
 LORA_R = 16
-NUM_GENERATIONS = 2
-MAX_COMPLETION_LENGTH = 1024
 
-SYSTEM_PROMPT = """<|think|>
-You are reconstructing editable PowerPoint slides from screenshots.
-Think briefly about the slide structure, then output only a <json>...</json> block."""
+os.environ["WANDB_MODE"] = "disabled"
+os.environ["WANDB_PROJECT"] = "disabled"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 
 USER_PROMPT = """Infer the PowerPoint-like scene graph from this slide image.
 
@@ -73,16 +39,15 @@ Return exactly:
 }</json>
 
 Each object needs: id, type, z_order, bbox {x,y,w,h}, properties.
-Use inches. The image appears before this instruction. Do not include markdown."""
+Use inches. Do not include markdown."""
 
 
 def require_gpu():
     import torch
 
     if not torch.cuda.is_available():
-        raise RuntimeError("No CUDA GPU detected. Gemma 4 vision GRPO with Unsloth needs an NVIDIA GPU.")
-    index = torch.cuda.current_device()
-    props = torch.cuda.get_device_properties(index)
+        raise RuntimeError("No CUDA GPU detected.")
+    props = torch.cuda.get_device_properties(torch.cuda.current_device())
     return {
         "name": props.name,
         "total_gb": round(props.total_memory / 1024**3, 2),
@@ -91,9 +56,8 @@ def require_gpu():
 
 
 def paired_examples(data_dir):
-    data_dir = Path(data_dir)
     examples = []
-    for json_path in sorted(data_dir.glob("slide_*.json")):
+    for json_path in sorted(Path(data_dir).glob("slide_*.json")):
         image_path = json_path.with_suffix(".jpg")
         if image_path.exists():
             examples.append({"target_json": str(json_path), "image_path": str(image_path)})
@@ -102,102 +66,48 @@ def paired_examples(data_dir):
     return examples
 
 
-def build_prompt(example):
-    return [
-        {"role": "system", "content": [{"type": "text", "text": SYSTEM_PROMPT}]},
-        {
-            "role": "user",
-            "content": [
-                {"type": "image", "image": example["image_path"]},
-                {"type": "text", "text": USER_PROMPT},
-            ],
-        },
-    ]
-
-
-def load_grpo_dataset(data_dir, limit=None):
+def load_dataset(data_dir, limit=None):
     from datasets import Dataset
 
     rows = []
     for example in paired_examples(data_dir)[:limit]:
         rows.append(
             {
-                "prompt": build_prompt(example),
+                "prompt": [
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "image"},
+                            {"type": "text", "text": USER_PROMPT},
+                        ],
+                    }
+                ],
+                "image": Image.open(example["image_path"]).convert("RGB"),
                 "target_json": example["target_json"],
-                "image_path": example["image_path"],
             }
         )
     return Dataset.from_list(rows)
 
 
-def from_pretrained_compat(**kwargs):
-    try:
-        return FastVisionModel.from_pretrained(**kwargs, fast_inference=False)
-    except TypeError:
-        return FastVisionModel.from_pretrained(**kwargs)
+def load_model_and_processor(model_name):
+    import torch
+    from transformers import AutoProcessor, BitsAndBytesConfig, Qwen2_5_VLForConditionalGeneration
 
-
-def load_model(model_name=None):
-    if FastVisionModel is None:
-        raise ModuleNotFoundError(
-            "Unsloth is not installed. In Colab, install it before training with:\n"
-            'pip install --upgrade --no-cache-dir "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"\n'
-            'pip install --upgrade --no-cache-dir "git+https://github.com/unslothai/unsloth-zoo.git"'
-        )
-    candidates = [model_name] if model_name else MODEL_CANDIDATES
-    errors = []
-    kwargs = dict(
-        max_seq_length=MAX_SEQ_LENGTH,
+    quantization = BitsAndBytesConfig(
         load_in_4bit=True,
-        use_gradient_checkpointing="unsloth",
+        bnb_4bit_compute_dtype=torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_use_double_quant=True,
     )
-
-    model = tokenizer = None
-    loaded_name = None
-    for candidate in candidates:
-        try:
-            print(f"Trying model: {candidate}")
-            model, tokenizer = from_pretrained_compat(model_name=candidate, **kwargs)
-            loaded_name = candidate
-            break
-        except NotImplementedError as exc:
-            errors.append(f"{candidate}: {exc}")
-            continue
-        except OSError as exc:
-            errors.append(f"{candidate}: {exc}")
-            continue
-        except ValueError as exc:
-            errors.append(f"{candidate}: {exc}")
-            continue
-
-    if model is None:
-        message = "\n\n".join(errors)
-        raise RuntimeError(
-            "Could not load any configured vision model. If you need Gemma 4 specifically, update Unsloth in Colab with:\n"
-            'pip uninstall unsloth unsloth_zoo -y\n'
-            'pip install --upgrade --no-cache-dir "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"\n'
-            'pip install --upgrade --no-cache-dir "git+https://github.com/unslothai/unsloth-zoo.git"\n\n'
-            "Qwen3-VL is intentionally not in the default GRPO fallback list because current Unsloth GRPO can load it "
-            "but fail on log-prob shape math at step 0. You can still force it with --model-name if testing a newer stack.\n\n"
-            f"Load errors:\n{message}"
-        )
-    print(f"Loaded model: {loaded_name}")
-
-    model = FastVisionModel.get_peft_model(
-        model,
-        finetune_vision_layers=False,
-        finetune_language_layers=True,
-        finetune_attention_modules=True,
-        finetune_mlp_modules=True,
-        r=LORA_R,
-        lora_alpha=LORA_R,
-        lora_dropout=0,
-        bias="none",
-        target_modules="all-linear",
+    model = Qwen2_5_VLForConditionalGeneration.from_pretrained(
+        model_name,
+        quantization_config=quantization,
+        device_map="auto",
+        torch_dtype=torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16,
+        attn_implementation="eager",
     )
-    if hasattr(FastVisionModel, "for_training"):
-        FastVisionModel.for_training(model)
-    return model, tokenizer
+    processor = AutoProcessor.from_pretrained(model_name, use_fast=True)
+    return model, processor
 
 
 def completion_to_text(completion):
@@ -209,10 +119,7 @@ def completion_to_text(completion):
         parts = []
         for item in completion:
             if isinstance(item, dict):
-                if "text" in item:
-                    parts.append(str(item["text"]))
-                else:
-                    parts.append(completion_to_text(item.get("content", "")))
+                parts.append(str(item.get("text", completion_to_text(item.get("content", "")))))
             else:
                 parts.append(str(item))
         return "".join(parts)
@@ -249,8 +156,7 @@ def balanced_json_slice(text):
 
 def extract_json(text):
     match = re.search(r"<json>\s*(.*?)\s*</json>", text, flags=re.DOTALL | re.IGNORECASE)
-    candidate = match.group(1) if match else balanced_json_slice(text)
-    return json.loads(candidate)
+    return json.loads(match.group(1) if match else balanced_json_slice(text))
 
 
 def completion_format_reward(text):
@@ -289,59 +195,13 @@ def slide_json_reward_func(completions, target_json=None, **kwargs):
     return rewards
 
 
-def train(args):
-    from trl import GRPOConfig, GRPOTrainer
-    from unsloth.trainer import UnslothVisionDataCollator
-
-    gpu = require_gpu()
-    print(f"GPU: {gpu['name']} ({gpu['total_gb']} GB), bf16={gpu['bf16']}")
-    dataset = load_grpo_dataset(args.data_dir, args.limit)
-    model, tokenizer = load_model(args.model_name)
-
-    grpo_kwargs = dict(
-        output_dir=str(args.output_dir),
-        per_device_train_batch_size=PER_DEVICE_BATCH_SIZE,
-        gradient_accumulation_steps=GRADIENT_ACCUMULATION_STEPS,
-        learning_rate=LEARNING_RATE,
-        max_steps=args.max_steps,
-        logging_steps=1,
-        remove_unused_columns=False,
-        max_completion_length=MAX_COMPLETION_LENGTH,
-        num_generations=NUM_GENERATIONS,
-        report_to="none",
-        bf16=gpu["bf16"],
-        fp16=not gpu["bf16"],
-        optim="adamw_8bit",
-        temperature=0.8,
-        top_p=0.95,
-        max_grad_norm=0.1,
-        unsloth_grpo_mini_batch=1,
-        unsloth_logit_chunk_multiplier=4,
-    )
-    config = make_grpo_config(GRPOConfig, grpo_kwargs)
-
-    trainer = GRPOTrainer(
-        model=model,
-        processing_class=tokenizer,
-        reward_funcs=[slide_json_reward_func],
-        train_dataset=dataset,
-        data_collator=UnslothVisionDataCollator(model, tokenizer),
-        args=config,
-    )
-    trainer.train()
-    model.save_pretrained(args.output_dir)
-    tokenizer.save_pretrained(args.output_dir)
-
-
 def make_grpo_config(config_cls, kwargs):
     kwargs = dict(kwargs)
-    kwargs["use_vllm"] = False
     while True:
         try:
             return config_cls(**kwargs)
         except TypeError as exc:
-            message = str(exc)
-            match = re.search(r"unexpected keyword argument '([^']+)'", message)
+            match = re.search(r"unexpected keyword argument '([^']+)'", str(exc))
             if not match:
                 raise
             removed = match.group(1)
@@ -349,15 +209,65 @@ def make_grpo_config(config_cls, kwargs):
             print(f"GRPOConfig does not support {removed}; continuing without it.")
 
 
+def train(args):
+    import torch
+    from peft import LoraConfig
+    from trl import GRPOConfig, GRPOTrainer
+
+    gpu = require_gpu()
+    print(f"GPU: {gpu['name']} ({gpu['total_gb']} GB), bf16={gpu['bf16']}")
+
+    dataset = load_dataset(args.data_dir, args.limit)
+    model, processor = load_model_and_processor(args.model_name)
+
+    peft_config = LoraConfig(
+        r=LORA_R,
+        lora_alpha=LORA_R,
+        lora_dropout=0.0,
+        bias="none",
+        task_type="CAUSAL_LM",
+        target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+    )
+    grpo_config = make_grpo_config(
+        GRPOConfig,
+        {
+            "output_dir": str(args.output_dir),
+            "per_device_train_batch_size": PER_DEVICE_BATCH_SIZE,
+            "gradient_accumulation_steps": GRADIENT_ACCUMULATION_STEPS,
+            "learning_rate": LEARNING_RATE,
+            "max_steps": args.max_steps,
+            "logging_steps": 1,
+            "remove_unused_columns": False,
+            "max_prompt_length": MAX_PROMPT_LENGTH,
+            "max_completion_length": MAX_COMPLETION_LENGTH,
+            "num_generations": NUM_GENERATIONS,
+            "report_to": "none",
+            "bf16": gpu["bf16"],
+            "fp16": not gpu["bf16"],
+            "optim": "adamw_8bit",
+            "temperature": 0.8,
+            "top_p": 0.95,
+            "beta": 0.0,
+        },
+    )
+    trainer = GRPOTrainer(
+        model=model,
+        processing_class=processor,
+        reward_funcs=[slide_json_reward_func],
+        args=grpo_config,
+        train_dataset=dataset,
+        peft_config=peft_config,
+    )
+    trainer.train()
+    trainer.save_model(args.output_dir)
+    processor.save_pretrained(args.output_dir)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
     parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR)
-    parser.add_argument(
-        "--model-name",
-        default=None,
-        help="Override model. Defaults to Gemma 4, then Qwen2.5-VL-3B, then Gemma 3. Qwen3-VL is explicit-only for now.",
-    )
+    parser.add_argument("--model-name", default=MODEL_NAME)
     parser.add_argument("--max-steps", type=int, default=MAX_STEPS)
     parser.add_argument("--limit", type=int, default=None)
     args = parser.parse_args()
