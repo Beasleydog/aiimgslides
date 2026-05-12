@@ -1,7 +1,7 @@
 # Colab / training dependencies.
 # Install after requirements.txt in a fresh runtime.
 datasets>=3.6,<5
-trl>=0.25,<0.26
+trl>=0.18.2,<=0.24.0,!=0.19.0
 transformers>=4.57,<4.58
 accelerate>=1.12,<2
 peft>=0.18,<0.19
