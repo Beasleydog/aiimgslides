@@ -1,8 +1,17 @@
 import argparse
 import json
 import math
+import os
 import re
+import shutil
 from pathlib import Path
+
+# This avoids stale/mismatched generated GRPO wrappers like:
+# grpo_accumulated_loss() missing old_logps/ref_logps.
+shutil.rmtree("unsloth_compiled_cache", ignore_errors=True)
+os.environ.setdefault("UNSLOTH_COMPILE_DISABLE", "1")
+os.environ.setdefault("WANDB_DISABLED", "true")
+os.environ.setdefault("WANDB_MODE", "disabled")
 
 try:
     import unsloth  # Must be imported before trl/transformers/peft when installed.
@@ -15,20 +24,24 @@ from grader import grade_json, schema_reward
 
 DATA_DIR = Path("output")
 MODEL_CANDIDATES = [
+    "unsloth/gemma-4-E2B-it-unsloth-bnb-4bit",
     "unsloth/gemma-4-E4B-it-unsloth-bnb-4bit",
     "unsloth/gemma-4-E4B-it",
-    "google/gemma-4-e4b-it",
+    "google/gemma-4-E4B-it",
+    "unsloth/Qwen3-VL-4B-Instruct-unsloth-bnb-4bit",
+    "unsloth/Qwen3-VL-2B-Instruct-unsloth-bnb-4bit",
+    "unsloth/Qwen2.5-VL-3B-Instruct-unsloth-bnb-4bit",
     "unsloth/gemma-3-4b-it-unsloth-bnb-4bit",
 ]
-OUTPUT_DIR = Path("model_output/gemma4_slide_json_grpo")
-MAX_SEQ_LENGTH = 4096
+OUTPUT_DIR = Path("model_output/slide_json_grpo")
+MAX_SEQ_LENGTH = 2048
 MAX_STEPS = 200
-PER_DEVICE_BATCH_SIZE = 1
+PER_DEVICE_BATCH_SIZE = 2
 GRADIENT_ACCUMULATION_STEPS = 4
 LEARNING_RATE = 2e-6
 LORA_R = 16
-NUM_GENERATIONS = 4
-MAX_COMPLETION_LENGTH = 4096
+NUM_GENERATIONS = 2
+MAX_COMPLETION_LENGTH = 1024
 
 SYSTEM_PROMPT = """<|think|>
 You are reconstructing editable PowerPoint slides from screenshots.
@@ -278,11 +291,17 @@ def train(args):
         remove_unused_columns=False,
         max_completion_length=MAX_COMPLETION_LENGTH,
         num_generations=NUM_GENERATIONS,
+        report_to="none",
+        bf16=gpu["bf16"],
+        fp16=not gpu["bf16"],
+        optim="adamw_8bit",
+        temperature=0.8,
+        top_p=0.95,
+        max_grad_norm=0.1,
+        unsloth_grpo_mini_batch=1,
+        unsloth_logit_chunk_multiplier=4,
     )
-    try:
-        config = GRPOConfig(**grpo_kwargs, use_vllm=False)
-    except TypeError:
-        config = GRPOConfig(**grpo_kwargs)
+    config = make_grpo_config(GRPOConfig, grpo_kwargs)
 
     trainer = GRPOTrainer(
         model=model,
@@ -295,6 +314,22 @@ def train(args):
     trainer.train()
     model.save_pretrained(args.output_dir)
     tokenizer.save_pretrained(args.output_dir)
+
+
+def make_grpo_config(config_cls, kwargs):
+    kwargs = dict(kwargs)
+    kwargs["use_vllm"] = False
+    while True:
+        try:
+            return config_cls(**kwargs)
+        except TypeError as exc:
+            message = str(exc)
+            match = re.search(r"unexpected keyword argument '([^']+)'", message)
+            if not match:
+                raise
+            removed = match.group(1)
+            kwargs.pop(removed, None)
+            print(f"GRPOConfig does not support {removed}; continuing without it.")
 
 
 def main():
