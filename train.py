@@ -7,6 +7,7 @@ from pathlib import Path
 
 from PIL import Image
 
+from compact_schema import compact_json_len, compact_schema_reward, compact_to_full
 from grader import grade_json, schema_reward
 
 
@@ -16,7 +17,7 @@ MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct"
 
 MAX_STEPS = 50
 MAX_PROMPT_LENGTH = 2048
-MAX_COMPLETION_LENGTH = 384
+MAX_COMPLETION_LENGTH = 3072
 PER_DEVICE_BATCH_SIZE = 2
 GRADIENT_ACCUMULATION_STEPS = 4
 NUM_GENERATIONS = 2
@@ -38,16 +39,18 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 USER_PROMPT = """Infer the PowerPoint-like scene graph from this slide image.
 
-Return exactly:
-<json>{
-  "version": 1,
-  "slide": {"width": 13.333, "height": 7.5, "image_file": null},
-  "background": object_or_null,
-  "objects": [object, ...]
-}</json>
+Return only compact JSON in this exact shape:
+<json>{"v":1,"s":[13.333,7.5],"bg":["solid",[255,255,255]],"o":[object_rows]}</json>
 
-Each object needs: id, type, z_order, bbox {x,y,w,h}, properties.
-Use inches. Do not include markdown."""
+Each object row is [type,x,y,w,h,props]. Use inches.
+Types: tx text, sh shape, tb table, im image, cn connector, ch chart, ff freeform, sv svg, si svg_image.
+Common props:
+tx {"t":"text","fs":24,"ff":"Arial","c":[0,0,0],"b":1}
+sh {"sh":"rect","f":[230,230,230],"l":[40,40,40],"lw":1}
+tb {"r":3,"c":3,"cells":[["a","b"]],"hd":[0,0,0],"bd":[255,255,255],"tc":[0,0,0],"fs":10}
+im {}
+ch {"ct":"column","cat":["A","B"],"ser":[{"name":"S","values":[1,2]}]}
+Do not include markdown or explanatory text."""
 
 
 def require_gpu():
@@ -191,11 +194,15 @@ def slide_json_reward_func(completions, target_json=None, **kwargs):
         text = completion_to_text(completion)
         format_score = completion_format_reward(text)
         try:
-            prediction = extract_json(text)
+            raw_prediction = extract_json(text)
+            prediction = compact_to_full(raw_prediction)
             grade = grade_json(target_path, prediction)
-            structure_score = (schema_reward(prediction) + 1.0) / 2.0
+            if isinstance(raw_prediction, dict) and "o" in raw_prediction:
+                structure_score = (compact_schema_reward(raw_prediction) + 1.0) / 2.0
+            else:
+                structure_score = (schema_reward(prediction) + 1.0) / 2.0
             task_score = (float(grade["reward"]) + 1.0) / 2.0
-            target_len = len(Path(target_path).read_text(encoding="utf-8"))
+            target_len = compact_json_len(target_path)
             length_score = math.exp(-abs(len(text) - target_len) / max(750, target_len * 0.9))
             unit_reward = 0.06 * format_score + 0.10 * structure_score + 0.09 * length_score + 0.75 * task_score
             unit_reward -= completion_bloat_penalty(text, target_len)

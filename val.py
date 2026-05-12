@@ -11,6 +11,7 @@ from pptx.enum.chart import XL_CHART_TYPE
 from pptx.enum.shapes import MSO_AUTO_SHAPE_TYPE
 from pptx.util import Inches, Pt
 
+from compact_schema import compact_to_full
 from train import MODEL_NAME, OUTPUT_DIR, USER_PROMPT, balanced_json_slice
 from train import IMAGE_MAX_PIXELS, IMAGE_MIN_PIXELS
 
@@ -146,7 +147,7 @@ def generate_scene(model, processor, image_path, max_new_tokens):
         )
     generated = output_ids[:, inputs["input_ids"].shape[1] :]
     text = processor.batch_decode(generated, skip_special_tokens=True)[0]
-    return text, extract_scene(text)
+    return text, compact_to_full(extract_scene(text), image_file=str(image_path))
 
 
 def add_text(slide, obj):
