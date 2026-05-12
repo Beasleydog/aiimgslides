@@ -39,10 +39,14 @@ MODEL_CANDIDATES = [
     "unsloth/gemma-4-E4B-it-unsloth-bnb-4bit",
     "unsloth/gemma-4-E4B-it",
     "google/gemma-4-E4B-it",
-    "unsloth/Qwen3-VL-4B-Instruct-unsloth-bnb-4bit",
-    "unsloth/Qwen3-VL-2B-Instruct-unsloth-bnb-4bit",
     "unsloth/Qwen2.5-VL-3B-Instruct-unsloth-bnb-4bit",
     "unsloth/gemma-3-4b-it-unsloth-bnb-4bit",
+]
+EXPLICIT_ONLY_MODELS = [
+    # Qwen3-VL currently loads, but Unsloth GRPO can fail at step 0 with:
+    # mat1 and mat2 shapes cannot be multiplied (... x vocab, hidden x vocab).
+    "unsloth/Qwen3-VL-4B-Instruct-unsloth-bnb-4bit",
+    "unsloth/Qwen3-VL-2B-Instruct-unsloth-bnb-4bit",
 ]
 OUTPUT_DIR = Path("model_output/slide_json_grpo")
 MAX_SEQ_LENGTH = 2048
@@ -173,6 +177,8 @@ def load_model(model_name=None):
             'pip uninstall unsloth unsloth_zoo -y\n'
             'pip install --upgrade --no-cache-dir "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"\n'
             'pip install --upgrade --no-cache-dir "git+https://github.com/unslothai/unsloth-zoo.git"\n\n'
+            "Qwen3-VL is intentionally not in the default GRPO fallback list because current Unsloth GRPO can load it "
+            "but fail on log-prob shape math at step 0. You can still force it with --model-name if testing a newer stack.\n\n"
             f"Load errors:\n{message}"
         )
     print(f"Loaded model: {loaded_name}")
@@ -347,7 +353,11 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
     parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR)
-    parser.add_argument("--model-name", default=None, help="Override model. Defaults to Gemma 4 candidates, then Gemma 3 vision fallback.")
+    parser.add_argument(
+        "--model-name",
+        default=None,
+        help="Override model. Defaults to Gemma 4, then Qwen2.5-VL-3B, then Gemma 3. Qwen3-VL is explicit-only for now.",
+    )
     parser.add_argument("--max-steps", type=int, default=MAX_STEPS)
     parser.add_argument("--limit", type=int, default=None)
     args = parser.parse_args()
