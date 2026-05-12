@@ -14,14 +14,20 @@ DATA_DIR = Path("output")
 OUTPUT_DIR = Path("model_output/slide_json_grpo")
 MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct"
 
-MAX_STEPS = 200
+MAX_STEPS = 1000
 MAX_PROMPT_LENGTH = 2048
-MAX_COMPLETION_LENGTH = 1024
+MAX_COMPLETION_LENGTH = 2048
 PER_DEVICE_BATCH_SIZE = 2
 GRADIENT_ACCUMULATION_STEPS = 4
 NUM_GENERATIONS = 2
-LEARNING_RATE = 2e-6
-LORA_R = 16
+LEARNING_RATE = 1e-5
+LORA_R = 32
+LORA_ALPHA = 64
+WARMUP_RATIO = 0.03
+WEIGHT_DECAY = 0.01
+MAX_GRAD_NORM = 0.3
+SAVE_STEPS = 50
+SAVE_TOTAL_LIMIT = 3
 
 os.environ["WANDB_MODE"] = "disabled"
 os.environ["WANDB_PROJECT"] = "disabled"
@@ -219,7 +225,7 @@ def train(args):
 
     peft_config = LoraConfig(
         r=LORA_R,
-        lora_alpha=LORA_R,
+        lora_alpha=LORA_ALPHA,
         lora_dropout=0.0,
         bias="none",
         task_type="CAUSAL_LM",
@@ -234,6 +240,8 @@ def train(args):
             "learning_rate": LEARNING_RATE,
             "max_steps": args.max_steps,
             "logging_steps": 1,
+            "save_steps": SAVE_STEPS,
+            "save_total_limit": SAVE_TOTAL_LIMIT,
             "remove_unused_columns": False,
             "max_prompt_length": MAX_PROMPT_LENGTH,
             "max_completion_length": MAX_COMPLETION_LENGTH,
@@ -242,6 +250,10 @@ def train(args):
             "bf16": gpu["bf16"],
             "fp16": not gpu["bf16"],
             "optim": "adamw_torch",
+            "warmup_ratio": WARMUP_RATIO,
+            "lr_scheduler_type": "cosine",
+            "weight_decay": WEIGHT_DECAY,
+            "max_grad_norm": MAX_GRAD_NORM,
             "temperature": 0.8,
             "top_p": 0.95,
             "generation_kwargs": {
