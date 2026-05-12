@@ -4,11 +4,22 @@ import math
 import re
 from pathlib import Path
 
+try:
+    import unsloth  # Must be imported before trl/transformers/peft when installed.
+    from unsloth import FastVisionModel
+except ModuleNotFoundError:
+    FastVisionModel = None
+
 from grader import grade_json, schema_reward
 
 
 DATA_DIR = Path("output")
-MODEL_NAME = "unsloth/gemma-4-E4B-it"
+MODEL_CANDIDATES = [
+    "unsloth/gemma-4-E4B-it-unsloth-bnb-4bit",
+    "unsloth/gemma-4-E4B-it",
+    "google/gemma-4-e4b-it",
+    "unsloth/gemma-3-4b-it-unsloth-bnb-4bit",
+]
 OUTPUT_DIR = Path("model_output/gemma4_slide_json_grpo")
 MAX_SEQ_LENGTH = 4096
 MAX_STEPS = 200
@@ -91,19 +102,56 @@ def load_grpo_dataset(data_dir, limit=None):
     return Dataset.from_list(rows)
 
 
-def load_model():
-    from unsloth import FastVisionModel
+def from_pretrained_compat(**kwargs):
+    try:
+        return FastVisionModel.from_pretrained(**kwargs, fast_inference=False)
+    except TypeError:
+        return FastVisionModel.from_pretrained(**kwargs)
 
+
+def load_model(model_name=None):
+    if FastVisionModel is None:
+        raise ModuleNotFoundError(
+            "Unsloth is not installed. In Colab, install it before training with:\n"
+            'pip install --upgrade --no-cache-dir "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"\n'
+            'pip install --upgrade --no-cache-dir "git+https://github.com/unslothai/unsloth-zoo.git"'
+        )
+    candidates = [model_name] if model_name else MODEL_CANDIDATES
+    errors = []
     kwargs = dict(
-        model_name=MODEL_NAME,
         max_seq_length=MAX_SEQ_LENGTH,
         load_in_4bit=True,
         use_gradient_checkpointing="unsloth",
     )
-    try:
-        model, tokenizer = FastVisionModel.from_pretrained(**kwargs, fast_inference=False)
-    except TypeError:
-        model, tokenizer = FastVisionModel.from_pretrained(**kwargs)
+
+    model = tokenizer = None
+    loaded_name = None
+    for candidate in candidates:
+        try:
+            print(f"Trying model: {candidate}")
+            model, tokenizer = from_pretrained_compat(model_name=candidate, **kwargs)
+            loaded_name = candidate
+            break
+        except NotImplementedError as exc:
+            errors.append(f"{candidate}: {exc}")
+            continue
+        except OSError as exc:
+            errors.append(f"{candidate}: {exc}")
+            continue
+        except ValueError as exc:
+            errors.append(f"{candidate}: {exc}")
+            continue
+
+    if model is None:
+        message = "\n\n".join(errors)
+        raise RuntimeError(
+            "Could not load any configured vision model. If you need Gemma 4 specifically, update Unsloth in Colab with:\n"
+            'pip uninstall unsloth unsloth_zoo -y\n'
+            'pip install --upgrade --no-cache-dir "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"\n'
+            'pip install --upgrade --no-cache-dir "git+https://github.com/unslothai/unsloth-zoo.git"\n\n'
+            f"Load errors:\n{message}"
+        )
+    print(f"Loaded model: {loaded_name}")
 
     model = FastVisionModel.get_peft_model(
         model,
@@ -218,7 +266,7 @@ def train(args):
     gpu = require_gpu()
     print(f"GPU: {gpu['name']} ({gpu['total_gb']} GB), bf16={gpu['bf16']}")
     dataset = load_grpo_dataset(args.data_dir, args.limit)
-    model, tokenizer = load_model()
+    model, tokenizer = load_model(args.model_name)
 
     grpo_kwargs = dict(
         output_dir=str(args.output_dir),
@@ -253,6 +301,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
     parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR)
+    parser.add_argument("--model-name", default=None, help="Override model. Defaults to Gemma 4 candidates, then Gemma 3 vision fallback.")
     parser.add_argument("--max-steps", type=int, default=MAX_STEPS)
     parser.add_argument("--limit", type=int, default=None)
     args = parser.parse_args()
