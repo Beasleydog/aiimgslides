@@ -95,7 +95,7 @@ def load_model_and_processor(model_name):
 
     quantization = BitsAndBytesConfig(
         load_in_4bit=True,
-        bnb_4bit_compute_dtype=torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16,
+        bnb_4bit_compute_dtype=torch.float16,
         bnb_4bit_quant_type="nf4",
         bnb_4bit_use_double_quant=True,
     )
@@ -103,7 +103,7 @@ def load_model_and_processor(model_name):
         model_name,
         quantization_config=quantization,
         device_map="auto",
-        torch_dtype=torch.bfloat16 if torch.cuda.is_bf16_supported() else torch.float16,
+        dtype=torch.float16,
         attn_implementation="eager",
     )
     processor = AutoProcessor.from_pretrained(model_name, use_fast=True)
@@ -242,8 +242,8 @@ def train(args):
             "max_completion_length": MAX_COMPLETION_LENGTH,
             "num_generations": NUM_GENERATIONS,
             "report_to": "none",
-            "bf16": gpu["bf16"],
-            "fp16": not gpu["bf16"],
+            "bf16": False,
+            "fp16": True,
             "optim": "adamw_8bit",
             "temperature": 0.8,
             "top_p": 0.95,
