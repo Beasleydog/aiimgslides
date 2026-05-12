@@ -9,9 +9,20 @@ from pathlib import Path
 # This avoids stale/mismatched generated GRPO wrappers like:
 # grpo_accumulated_loss() missing old_logps/ref_logps.
 shutil.rmtree("unsloth_compiled_cache", ignore_errors=True)
-os.environ.setdefault("UNSLOTH_COMPILE_DISABLE", "1")
-os.environ.setdefault("WANDB_DISABLED", "true")
-os.environ.setdefault("WANDB_MODE", "disabled")
+os.environ["UNSLOTH_COMPILE_DISABLE"] = "1"
+os.environ["TORCHDYNAMO_DISABLE"] = "1"
+os.environ["TORCH_COMPILE_DISABLE"] = "1"
+os.environ["TORCHINDUCTOR_DISABLE"] = "1"
+os.environ["WANDB_MODE"] = "disabled"
+os.environ["WANDB_PROJECT"] = "disabled"
+
+try:
+    import torch
+
+    torch._dynamo.config.suppress_errors = True
+    torch._dynamo.disable()
+except Exception:
+    pass
 
 try:
     import unsloth  # Must be imported before trl/transformers/peft when installed.
