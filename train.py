@@ -5,6 +5,11 @@ import os
 import re
 from pathlib import Path
 
+os.environ["PYTORCH_CUDA_ALLOC_CONF"] = "expandable_segments:True"
+os.environ["WANDB_MODE"] = "disabled"
+os.environ["WANDB_PROJECT"] = "disabled"
+os.environ["TOKENIZERS_PARALLELISM"] = "false"
+
 from PIL import Image
 
 from compact_schema import compact_json_len, compact_schema_reward, compact_to_full
@@ -17,13 +22,13 @@ MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct"
 
 MAX_STEPS = 50
 MAX_PROMPT_LENGTH = 2048
-MAX_COMPLETION_LENGTH = 3072
+MAX_COMPLETION_LENGTH = 1024
 PER_DEVICE_BATCH_SIZE = 2
 GRADIENT_ACCUMULATION_STEPS = 4
 NUM_GENERATIONS = 2
 LEARNING_RATE = 1e-5
-LORA_R = 32
-LORA_ALPHA = 64
+LORA_R = 16
+LORA_ALPHA = 32
 WARMUP_RATIO = 0.03
 WEIGHT_DECAY = 0.01
 MAX_GRAD_NORM = 0.3
@@ -31,11 +36,6 @@ SAVE_STEPS = 25
 SAVE_TOTAL_LIMIT = 3
 IMAGE_MIN_PIXELS = 128 * 28 * 28
 IMAGE_MAX_PIXELS = 384 * 384
-
-os.environ["WANDB_MODE"] = "disabled"
-os.environ["WANDB_PROJECT"] = "disabled"
-os.environ["TOKENIZERS_PARALLELISM"] = "false"
-
 
 USER_PROMPT = """Infer the PowerPoint-like scene graph from this slide image.
 
@@ -243,7 +243,7 @@ def train(args):
         lora_dropout=0.0,
         bias="none",
         task_type="CAUSAL_LM",
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
+        target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
     )
     grpo_config = make_grpo_config(
         GRPOConfig,
@@ -258,7 +258,7 @@ def train(args):
             "save_total_limit": SAVE_TOTAL_LIMIT,
             "remove_unused_columns": False,
             "max_prompt_length": MAX_PROMPT_LENGTH,
-            "max_completion_length": MAX_COMPLETION_LENGTH,
+            "max_completion_length": args.max_completion_length,
             "num_generations": NUM_GENERATIONS,
             "report_to": "none",
             "bf16": gpu["bf16"],
@@ -296,6 +296,7 @@ def main():
     parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR)
     parser.add_argument("--model-name", default=MODEL_NAME)
     parser.add_argument("--max-steps", type=int, default=MAX_STEPS)
+    parser.add_argument("--max-completion-length", type=int, default=MAX_COMPLETION_LENGTH)
     parser.add_argument("--limit", type=int, default=None)
     args = parser.parse_args()
 
