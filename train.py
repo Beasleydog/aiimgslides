@@ -2,6 +2,7 @@ import argparse
 import json
 import math
 import os
+import random
 import re
 from pathlib import Path
 
@@ -328,7 +329,6 @@ def generate_validation_completion(model, processor, image_path, max_new_tokens)
 
 
 def evaluate_level(model, processor, examples, args, max_eval_tokens=None):
-    import random
     if max_eval_tokens is None:
         max_eval_tokens = args.max_eval_completion_length
     model.eval()
