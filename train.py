@@ -433,7 +433,7 @@ def main():
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--curriculum", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--curriculum-stage-steps", type=int, default=8)
-    parser.add_argument("--curriculum-eval-samples", type=int, default=10)
+    parser.add_argument("--curriculum-eval-samples", type=int, default=5)
     parser.add_argument("--curriculum-accuracy-threshold", type=float, default=0.62)
     parser.add_argument("--curriculum-max-repeats", type=int, default=999)
     args = parser.parse_args()
