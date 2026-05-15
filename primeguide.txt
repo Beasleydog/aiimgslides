@@ -1,0 +1,67 @@
+# PrimeIntellect GPU Guide
+
+## Running prime CLI
+Must run from WSL:
+  wsl bash -lc "prime pods list"
+
+## Listing available GPUs
+  prime availability list
+  prime availability list --gpu-type L4_24GB
+
+Valid gpu-type values: CPU_NODE, A10_24GB, A100_80GB, A100_40GB, A30_24GB,
+  A40_48GB, RTX4090_24GB, L4_24GB, L40_48GB, L40S_48GB, A6000_48GB, H100_80GB,
+  RTX6000Ada_48GB, RTX8000_48GB, ... (see error message from bad query for full list)
+
+## Creating a pod
+  prime pods create --id <ID> --name <name> --disk-size <GB> --image <image> --yes
+
+Supported images (not all work on all providers):
+  ubuntu_22_cuda_12          # works on runpod; base Ubuntu + CUDA, no Python ML stack
+  cuda_12_4_pytorch_2_6      # NOT supported on runpod or massedcompute — avoid
+  cuda_12_6_pytorch_2_7      # try for massedcompute/other providers
+
+Provider gotchas:
+  - runpod: supports ubuntu_22_cuda_12; does NOT support cuda_12_x_pytorch_x images
+  - massedcompute: does NOT support cuda_12_4_pytorch_2_6 either; try ubuntu_22_cuda_12
+
+## Managing pods
+  prime pods list
+  prime pods status <pod-id>
+  prime pods terminate <pod-id> --yes
+  prime pods history               # see terminated pods
+
+## SSH into a pod
+  prime pods ssh <pod-id>          # interactive only — no command passthrough
+
+  To run commands non-interactively, use SSH directly (key is at ~/.ssh/id_rsa):
+    ssh -o StrictHostKeyChecking=no -p <PORT> root@<IP> '<command>'
+
+  The pod's IP and port are shown in: prime pods status <pod-id>
+  e.g.  SSH: root@157.157.221.29 -p 43589
+
+## Using tmux to drive prime pods ssh
+  tmux new-session -d -s <name>
+  tmux send-keys -t <name> 'prime pods ssh <pod-id>' Enter
+  sleep 8   # wait for connection
+  tmux send-keys -t <name> '<command>' Enter
+  sleep <N>
+  tmux capture-pane -t <name> -p   # read output
+
+## Cheap GPU options for ML training (as of 2026-05-15)
+  Best value for training a 3B VL model quickly:
+    a121b4  L40_48GB  x1  US  massedcompute  ~$0.xx/hr   (Ada Lovelace, fast tensor cores)
+    ea69b8  A6000_48GB x1  US  massedcompute  ~$0.xx/hr  (Ampere, 48GB, solid)
+    0eabc6  A40_48GB  x2  CA  runpod          ~$0.xx/hr  (storage listed as "Low")
+    f5f6fe  A100_80GB x1  US  sxm             ~$1.xx/hr  (best perf, costs more)
+    e2c2b8  A100_40GB x1  US  lam             ~$1.xx/hr
+
+  Avoid multi-GPU runpod nodes for training (L4 x2 etc.) — single A100/L40 is faster
+  due to no inter-GPU comms overhead for small models.
+
+## Workflow for training
+  1. Repo already has output/ training data committed — just git clone on pod
+  2. Create pod, wait for ACTIVE status
+  3. git clone the repo
+  4. pip install deps (transformers, trl, peft, datasets, qwen-vl-utils etc.)
+  5. Run training inside tmux so it survives disconnects
+  6. Watch with: tmux attach -t <session>  or  tmux capture-pane -t <name> -p
