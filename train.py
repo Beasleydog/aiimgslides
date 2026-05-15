@@ -313,7 +313,8 @@ def generate_validation_completion(model, processor, image_path, max_new_tokens)
 
 
 def evaluate_level(model, processor, examples, args):
-    sample = examples[: max(1, args.curriculum_eval_samples)]
+    import random
+    sample = random.sample(examples, min(len(examples), max(1, args.curriculum_eval_samples)))
     completions = [generate_validation_completion(model, processor, item["image_path"], args.max_completion_length) for item in sample]
     rewards = slide_json_reward_func(completions, target_json=[item["target_json"] for item in sample])
     mean_reward = sum(rewards) / max(1, len(rewards))
@@ -413,7 +414,7 @@ def main():
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--curriculum", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--curriculum-stage-steps", type=int, default=8)
-    parser.add_argument("--curriculum-eval-samples", type=int, default=2)
+    parser.add_argument("--curriculum-eval-samples", type=int, default=10)
     parser.add_argument("--curriculum-accuracy-threshold", type=float, default=0.62)
     parser.add_argument("--curriculum-max-repeats", type=int, default=999)
     args = parser.parse_args()
