@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          66,
-          222,
-          180
-        ],
-        [
-          82,
-          96,
-          214
-        ]
+      "back_color": [
+        250,
+        250,
+        248
       ],
       "fill": [
-        66,
-        222,
-        180
+        250,
+        250,
+        248
       ],
-      "focus": "bottom_left",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Moon Dry"
+      "fore_color": [
+        180,
+        70,
+        53
+      ],
+      "pattern": 29,
+      "style": "pattern",
+      "theme_topic": "Fix Gather"
     },
     "type": "background",
     "z_order": 0
@@ -45,159 +41,169 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.5083,
-        "w": 1.0253,
-        "x": 12.2931,
-        "y": 0.0168
+        "h": 5.1722,
+        "w": 4.9614,
+        "x": 4.1144,
+        "y": 0.1733
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          56,
-          189,
-          153
+          147,
+          219,
+          212
         ],
+        "focus": false,
         "line": [
-          56,
-          189,
-          153
+          59,
+          166,
+          177
         ],
-        "line_width": 4.343825872505778,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Moon Dry"
+        "line_width": 5.144460581179135,
+        "outline_only": true,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Fix Gather"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.5736,
-        "w": 2.8727,
-        "x": 0.629,
-        "y": 0.7314
+        "h": 2.1249,
+        "w": 6.3664,
+        "x": 5.4194,
+        "y": 2.6731
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          175,
+          198,
+          107
         ],
-        "font_face": "Arial",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Melodic Cruel Garrulous",
-        "theme_topic": "Moon Dry",
-        "underline": false
+        "focus": false,
+        "line": [
+          31,
+          33,
+          134
+        ],
+        "line_width": 2.3322928944354486,
+        "outline_only": false,
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Fix Gather"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.0122,
-        "w": 2.7597,
-        "x": 9.9632,
-        "y": 3.8764
+        "h": 2.185,
+        "w": 3.4647,
+        "x": 6.1089,
+        "y": -0.4526
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "arrows",
         "fill": [
-          56,
-          189,
-          153
+          177,
+          137,
+          138
         ],
+        "focus": false,
         "line": [
-          56,
-          189,
-          153
+          99,
+          81,
+          55
         ],
-        "line_width": 0.9086795286199973,
+        "line_width": 3.596121168055002,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Moon Dry"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Fix Gather"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.1317,
-        "w": 2.3925,
-        "x": 10.1614,
-        "y": 4.5002
+        "h": 4.0083,
+        "w": 7.3301,
+        "x": 1.7878,
+        "y": 1.0892
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 3,
+        "family": "basic",
+        "fill": [
+          187,
+          228,
+          180
         ],
-        "font_face": "Arial",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "384",
-        "theme_topic": "Moon Dry",
-        "underline": false
+        "focus": false,
+        "line": [
+          229,
+          166,
+          136
+        ],
+        "line_width": 3.890581887432913,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Fix Gather"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.7063,
-        "w": 2.4073,
-        "x": 10.1455,
-        "y": 5.7008
+        "h": 7.503,
+        "w": 6.313,
+        "x": 0.0002,
+        "y": -0.0004
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          239,
+          239,
+          235
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "mountainous squalid ducks agree contain best notebook stay",
-        "theme_topic": "Moon Dry",
-        "underline": false
+        "line": [
+          239,
+          239,
+          235
+        ],
+        "line_width": 1.069251700421174,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Fix Gather"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.8776,
-        "w": 2.6969,
-        "x": 6.873,
-        "y": 4.4942
+        "h": 1.1327,
+        "w": 7.0122,
+        "x": 3.4273,
+        "y": 0.6421
       },
       "id": "object_006",
       "properties": {
@@ -205,78 +211,134 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          207,
-          171,
-          195
+          28,
+          28,
+          28
         ],
-        "font_face": "Arial",
-        "font_size": 21,
+        "font_face": "Trebuchet MS",
+        "font_size": 37,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Dance Language",
-        "theme_topic": "Moon Dry",
-        "underline": true
+        "text": "Roasted Fit Ready",
+        "theme_topic": "Fix Gather",
+        "underline": false
       },
       "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.1688,
-        "w": 2.7337,
-        "x": 6.8885,
-        "y": 5.596
+        "h": 4.9494,
+        "w": 6.9059,
+        "x": 5.8535,
+        "y": 2.0685
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          45,
-          116,
-          100
+        "band": [
+          74,
+          27,
+          69
         ],
-        "font_face": "Arial",
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          239,
+          239,
+          235
+        ],
+        "border": [
+          115,
+          115,
+          115
+        ],
+        "border_dash": "solid",
+        "border_width": 1.018908167527277,
+        "cells": [
+          [
+            "tease",
+            "thought lowly",
+            "scary"
+          ],
+          [
+            "rambunctious perfect",
+            "interfere spicy",
+            "attractive strip"
+          ],
+          [
+            "tested",
+            "appear",
+            "empty flippant"
+          ],
+          [
+            "annoy building",
+            "evanescent",
+            "tested free"
+          ],
+          [
+            "symptomatic",
+            "example",
+            "domineering"
+          ],
+          [
+            "cats",
+            "live",
+            "brash"
+          ],
+          [
+            "advertisement protest",
+            "fireman keen",
+            "unusual"
+          ]
+        ],
+        "cols": 3,
         "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "range history closed boast heartbreaking rail increase secret statuesque flagrant embarrass cable bolt gamy suspend snotty belong",
-        "theme_topic": "Moon Dry",
-        "underline": false
+        "has_header": false,
+        "header": [
+          102,
+          141,
+          201
+        ],
+        "rows": 7,
+        "text_color": [
+          28,
+          28,
+          28
+        ],
+        "theme_topic": "Fix Gather"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.481,
-        "w": 1.926,
-        "x": 1.3588,
-        "y": 2.1309
+        "h": 5.0585,
+        "w": 4.9727,
+        "x": 0.5205,
+        "y": 1.9697
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          48,
-          214,
-          185
+        "crop": [
+          0.275392989635445,
+          0.09877854220538641,
+          0.09174205525073591,
+          0.22503967466348385
         ],
-        "font_face": "Arial",
-        "font_size": 6,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "meal division pale shave gate",
-        "theme_topic": "Moon Dry",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          81,
+          185,
+          106
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Fix Gather",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 8
     }
   ],

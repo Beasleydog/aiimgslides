@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        32,
-        52,
-        79
+        61,
+        64,
+        91
       ],
       "fill": [
-        67,
-        116,
-        136
+        61,
+        64,
+        91
       ],
       "fore_color": [
-        105,
-        185,
-        207
+        255,
+        211,
+        88
       ],
-      "pattern": 49,
+      "pattern": 44,
       "style": "pattern",
-      "theme_topic": "Chin"
+      "theme_topic": "Sassy Berry"
     },
     "type": "background",
     "z_order": 0
@@ -41,62 +41,60 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.8164,
-        "w": 4.14,
-        "x": 9.1564,
-        "y": 0.012
+        "h": 1.2849,
+        "w": 5.6142,
+        "x": 0.5499,
+        "y": 0.3563
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          90,
-          133,
-          150
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          90,
-          133,
-          150
-        ],
-        "line_width": 0.7033765707765195,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Chin"
+        "font_face": "Aptos Display",
+        "font_size": 42,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Summer Trouble",
+        "theme_topic": "Sassy Berry",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.6039,
-        "w": 6.0463,
-        "x": 0.9658,
-        "y": 4.9985
+        "h": 2.1125,
+        "w": 3.5625,
+        "x": 0.7203,
+        "y": 1.9664
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          165,
-          188,
-          199
+        "crop": [
+          0.09212561378333599,
+          0.12183645223142497,
+          0.07434025763934067,
+          0.21805023291862904
         ],
-        "font_face": "Arial",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "plucky smart scissors driving half existence functional oafish marry smoggy caring obtain team high-pitched laugh dreary ritzy rush aromatic mindless",
-        "theme_topic": "Chin",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          71,
+          221,
+          181
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Sassy Berry",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 2
     }
   ],

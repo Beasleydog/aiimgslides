@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "fill": [
-        126,
-        58,
-        173
+      "colors": [
+        [
+          148,
+          194,
+          146
+        ],
+        [
+          255,
+          206,
+          86
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Typical"
+      "fill": [
+        157,
+        123,
+        65
+      ],
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Jealous"
     },
     "type": "background",
     "z_order": 0
@@ -30,74 +45,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.6996,
-        "w": 5.8273,
-        "x": 4.9756,
-        "y": 2.4226
+        "h": 4.5332,
+        "w": 5.3594,
+        "x": -1.0775,
+        "y": 0.1336
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          104,
-          40,
-          119
+          85,
+          63,
+          35
         ],
         "focus": false,
         "line": [
-          131,
-          210,
-          126
+          47,
+          217,
+          50
         ],
-        "line_width": 4.825659685000459,
-        "outline_only": false,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Typical"
+        "line_width": 2.6267026416807018,
+        "outline_only": true,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Jealous"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9099,
-        "w": 7.6968,
-        "x": 5.0268,
-        "y": 3.4586
+        "h": 3.5341,
+        "w": 8.0174,
+        "x": 0.5483,
+        "y": 4.5339
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 5,
+        "family": "symbols",
         "fill": [
-          139,
-          126,
-          107
+          75,
+          188,
+          153
         ],
         "focus": false,
         "line": [
-          29,
-          186,
-          53
+          34,
+          63,
+          113
         ],
-        "line_width": 4.267341141790233,
+        "line_width": 7.415412233467676,
         "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Typical"
+        "ppt_type": 172,
+        "shape": "gear6",
+        "theme_topic": "Jealous"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.528,
-        "w": 2.8299,
-        "x": 0.6268,
-        "y": 0.7391
+        "h": 1.176,
+        "w": 5.9757,
+        "x": 0.5413,
+        "y": 0.3312
       },
       "id": "object_003",
       "properties": {
@@ -109,13 +124,13 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 30,
+        "font_face": "Aptos Display",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Peck Sprout Add",
-        "theme_topic": "Typical",
+        "text": "Secret Envious Shaggy Increase",
+        "theme_topic": "Jealous",
         "underline": false
       },
       "type": "text",
@@ -123,41 +138,39 @@
     },
     {
       "bbox": {
-        "h": 3.3503,
-        "w": 4.3566,
-        "x": 3.7322,
-        "y": 0.6307
+        "h": 5.1162,
+        "w": 6.3732,
+        "x": 6.4592,
+        "y": 1.8731
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          168,
-          122,
-          199
+        "crop": [
+          0.20898494779124172,
+          0.0291884318824577,
+          0.2937141943751771,
+          0.318419535002088
         ],
-        "line": [
+        "focus": true,
+        "mask_line": [
+          98,
           168,
-          122,
-          199
+          80
         ],
-        "line_width": 5.086893020210773,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Typical"
+        "mask_overlay": false,
+        "theme_topic": "Jealous",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.454,
-        "w": 3.8535,
-        "x": 4.0042,
-        "y": 1.5425
+        "h": 0.2648,
+        "w": 5.9262,
+        "x": 6.6343,
+        "y": 6.5558
       },
       "id": "object_005",
       "properties": {
@@ -165,17 +178,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          51,
+          63,
+          101
         ],
-        "font_face": "Arial",
+        "font_face": "Aptos",
         "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Iron Abstracted",
-        "theme_topic": "Typical",
+        "text": "Neighborly Intelligent Undress",
+        "theme_topic": "Jealous",
         "underline": false
       },
       "type": "text",
@@ -183,88 +196,142 @@
     },
     {
       "bbox": {
-        "h": 1.6845,
-        "w": 3.8385,
-        "x": 3.9937,
-        "y": 2.1048
+        "h": 5.0498,
+        "w": 5.3678,
+        "x": 0.5971,
+        "y": 1.879
       },
       "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          191,
+          169,
+          132
+        ],
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          134,
+          208,
+          188
+        ],
+        "border": [
+          205,
+          191,
+          167
+        ],
+        "border_dash": "dashDot",
+        "border_width": 1.511858125980252,
+        "cells": [
+          [
+            "fasten sincere",
+            "spell vanish",
+            "stupid welcome",
+            "fish",
+            "beautiful"
+          ],
+          [
+            "limping",
+            "ducks feigned",
+            "gate feigned",
+            "order",
+            "swift shelf"
+          ],
+          [
+            "spill",
+            "pail",
+            "women cow",
+            "silent wiry",
+            "fairies mice"
+          ],
+          [
+            "feeling",
+            "crow receptive",
+            "dirt car",
+            "maddening tax",
+            "mother contain"
+          ],
+          [
+            "aggressive woman",
+            "things alert",
+            "recognise digestion",
+            "disastrous jar",
+            "spot"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 7,
+        "has_header": false,
+        "header": [
+          56,
+          206,
+          89
+        ],
+        "rows": 5,
+        "text_color": [
+          81,
+          70,
+          156
+        ],
+        "theme_topic": "Jealous"
+      },
+      "type": "table",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.4056,
+        "w": 1.62,
+        "x": 0.1512,
+        "y": 5.596
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          192,
-          162,
-          216
+          156,
+          208,
+          184
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 18,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "mountain appreciate subdued spicy stupendous brash consider absorbing suck",
-        "theme_topic": "Typical",
+        "text": "quarter",
+        "theme_topic": "Jealous",
         "underline": false
       },
       "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 3.3342,
-        "w": 4.4261,
-        "x": 8.3072,
-        "y": 0.6535
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          168,
-          122,
-          199
-        ],
-        "line": [
-          168,
-          122,
-          199
-        ],
-        "line_width": 1.8601816853761468,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Typical"
-      },
-      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4723,
-        "w": 3.8953,
-        "x": 8.54,
-        "y": 1.5714
+        "h": 0.3164,
+        "w": 1.9511,
+        "x": 10.6497,
+        "y": 2.9525
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          38,
-          132,
-          88
+          174,
+          173,
+          73
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Basin",
-        "theme_topic": "Typical",
+        "text": "Window",
+        "theme_topic": "Jealous",
         "underline": false
       },
       "type": "text",
@@ -272,198 +339,234 @@
     },
     {
       "bbox": {
-        "h": 1.6877,
-        "w": 3.8979,
-        "x": 8.5701,
-        "y": 2.0914
+        "h": 0.7086,
+        "w": 1.5913,
+        "x": 9.2733,
+        "y": 0.8453
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          192,
-          162,
-          216
+        "fill": [
+          31,
+          95,
+          151
         ],
-        "font_face": "Arial",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "jellyfish plate rely road kindly feigned push cross puzzling flower numerous",
-        "theme_topic": "Typical",
-        "underline": false
+        "line": [
+          174,
+          207,
+          170
+        ],
+        "line_width": 2.650022710687365,
+        "pattern": "badge",
+        "points": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.62,
+            0.25
+          ],
+          [
+            0.92,
+            0.18
+          ],
+          [
+            0.75,
+            0.5
+          ],
+          [
+            0.98,
+            0.78
+          ],
+          [
+            0.62,
+            0.72
+          ],
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0.38,
+            0.72
+          ],
+          [
+            0.02,
+            0.78
+          ],
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.08,
+            0.18
+          ],
+          [
+            0.38,
+            0.25
+          ]
+        ],
+        "theme_topic": "Jealous"
       },
-      "type": "text",
+      "type": "freeform",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 2.4928,
-        "w": 2.3138,
-        "x": 6.8851,
-        "y": 4.4053
+        "h": 0.5611,
+        "w": 0.3749,
+        "x": 0.6961,
+        "y": 6.0589
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "arrows",
         "fill": [
-          168,
-          122,
-          199
+          90,
+          119,
+          145
         ],
+        "focus": false,
         "line": [
-          168,
-          122,
-          199
+          105,
+          195,
+          59
         ],
-        "line_width": 1.8951097595717727,
+        "line_width": 1.3765554668508893,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Typical"
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Jealous"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 2.157,
-        "w": 2.0209,
-        "x": 7.0091,
-        "y": 4.5783
+        "h": 0.6016,
+        "w": 0.2399,
+        "x": 12.4142,
+        "y": 0.5581
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.10077089131722947,
-          0.21904078663146637,
-          0.0978121714044288,
-          0.14326131638669934
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          35,
+          218,
+          39
         ],
         "focus": false,
-        "mask_line": [
-          38,
-          132,
-          88
+        "line": [
+          162,
+          125,
+          219
         ],
-        "mask_overlay": false,
-        "theme_topic": "Typical",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 5.286428722500901,
+        "outline_only": false,
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Jealous"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 2.472,
-        "w": 2.8466,
-        "x": 3.7543,
-        "y": 4.4209
+        "h": 0.4139,
+        "w": 0.6042,
+        "x": 9.2311,
+        "y": 4.5005
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          168,
-          122,
-          199
+          180,
+          121,
+          186
         ],
+        "focus": false,
         "line": [
-          168,
-          122,
-          199
+          89,
+          37,
+          158
         ],
-        "line_width": 1.9690207202555365,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Typical"
+        "line_width": 3.5024508783562465,
+        "outline_only": true,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Jealous"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 2.0069,
-        "w": 2.327,
-        "x": 3.9936,
-        "y": 4.6371
+        "h": 0.8605,
+        "w": 0.4288,
+        "x": 1.4848,
+        "y": 0.7428
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "cracker",
-          "cuddly",
-          "vivacious",
-          "test",
-          "elated",
-          "youthful"
+        "dash": 7,
+        "family": "callouts",
+        "fill": [
+          174,
+          147,
+          48
         ],
-        "chart": "doughnut",
         "focus": false,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              99,
-              70,
-              46
-            ],
-            "name": "lame abject",
-            "values": [
-              51,
-              12,
-              55,
-              17,
-              18,
-              34
-            ]
-          }
+        "line": [
+          134,
+          160,
+          221
         ],
-        "theme_topic": "Typical",
-        "title": "swim drum scold"
+        "line_width": 3.222680439297104,
+        "outline_only": true,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Jealous"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.5664,
-        "w": 1.275,
-        "x": 0.5962,
-        "y": 6.5398
+        "h": 1.0199,
+        "w": 1.337,
+        "x": 9.6611,
+        "y": 5.896
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          118,
-          202,
-          92
+        "pattern": "swoop",
+        "primary": [
+          163,
+          219,
+          175
         ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Swim Rural",
-        "theme_topic": "Typical",
-        "underline": false
+        "secondary": [
+          91,
+          52,
+          116
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#a373d8\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#685070\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
+        "theme_topic": "Jealous"
       },
-      "type": "text",
+      "type": "svg",
       "z_order": 14
     }
   ],

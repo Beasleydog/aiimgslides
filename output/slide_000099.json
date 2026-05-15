@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 135,
+      "angle": 270,
       "archetype": "atomic_composition",
       "colors": [
         [
-          64,
-          70,
-          128
+          249,
+          203,
+          91
         ],
         [
-          222,
-          133,
-          62
+          168,
+          54,
+          94
         ]
       ],
       "fill": [
-        247,
-        248,
-        246
+        240,
+        176,
+        54
       ],
       "focus": "center",
-      "gradient_type": "linear",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Sigh"
+      "theme_topic": "Rate Extend"
     },
     "type": "background",
     "z_order": 0
@@ -45,94 +45,91 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.2893,
-        "w": 7.9592,
-        "x": 4.9223,
-        "y": 0.8318
+        "h": 5.4808,
+        "w": 8.938,
+        "x": 0.7122,
+        "y": 0.5726
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          224,
-          117,
-          109
+          245,
+          193,
+          78
         ],
-        "focus": false,
         "line": [
-          40,
-          145,
-          95
+          249,
+          203,
+          91
         ],
-        "line_width": 4.842401602720029,
-        "outline_only": true,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Sigh"
+        "line_width": 2.1471911181588914,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Rate Extend"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.4979,
-        "w": 13.3269,
-        "x": -0.0004,
-        "y": 3.3954
+        "h": 5.5255,
+        "w": 2.8565,
+        "x": 0.6286,
+        "y": 0.7451
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          236,
-          240,
-          242
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          40,
+          38,
+          28
         ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 1.43650183289254,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Sigh"
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Unsuitable Puncture",
+        "theme_topic": "Rate Extend",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.2457,
-        "w": 8.6779,
-        "x": 3.8709,
-        "y": 5.4877
+        "h": 4.2509,
+        "w": 3.6608,
+        "x": 8.8947,
+        "y": 2.55
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.18959595630519946,
-          0.03395282442284437,
-          0.20769010627512757,
-          0.02416466030467122
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          94,
+          82,
+          58
         ],
-        "focus": true,
-        "mask_line": [
-          146,
-          224,
-          84
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Sigh",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "blush narrow animal paste various weigh lip abashed",
+        "theme_topic": "Rate Extend",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 3
     }
   ],

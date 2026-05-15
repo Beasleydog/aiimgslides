@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 120,
+      "angle": 90,
       "archetype": "atomic_composition",
       "colors": [
         [
-          116,
-          83,
-          67
+          129,
+          94,
+          122
         ],
         [
-          48,
-          78,
-          140
+          32,
+          119,
+          149
         ]
       ],
       "fill": [
-        28,
-        143,
-        112
+        106,
+        64,
+        97
       ],
-      "focus": "bottom_left",
-      "gradient_type": "rectangular",
+      "focus": "top_right",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Crown"
+      "theme_topic": "Acidic"
     },
     "type": "background",
     "z_order": 0
@@ -45,73 +45,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.4102,
-        "w": 8.3853,
-        "x": 3.8823,
-        "y": 0.6856
+        "h": 1.4488,
+        "w": 5.1732,
+        "x": -0.7317,
+        "y": 5.194
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          105,
-          195,
-          89
+          135,
+          96,
+          68
         ],
         "focus": false,
         "line": [
-          164,
-          184,
-          183
+          116,
+          35,
+          171
         ],
-        "line_width": 6.529240758550129,
-        "outline_only": true,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Crown"
+        "line_width": 5.646227947585198,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Acidic"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.9663,
-        "w": 4.0691,
-        "x": 9.2795,
-        "y": 3.5175
+        "h": 3.9945,
+        "w": 7.6394,
+        "x": 5.6118,
+        "y": -0.1589
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 2,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          43,
-          162,
-          130
+          152,
+          119,
+          111
         ],
+        "focus": false,
         "line": [
-          43,
-          162,
-          130
+          182,
+          91,
+          119
         ],
-        "line_width": 0.6149293651905721,
+        "line_width": 3.6656525726217284,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Crown"
+        "ppt_type": 7,
+        "shape": "triangle",
+        "theme_topic": "Acidic"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.2137,
-        "w": 8.0088,
-        "x": 0.534,
-        "y": 0.3385
+        "h": 0.9447,
+        "w": 5.9606,
+        "x": 0.5583,
+        "y": 0.3638
       },
       "id": "object_003",
       "properties": {
@@ -119,17 +120,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
+          246,
           248,
-          255,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 27,
+        "font_face": "Georgia",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Awesome Hook Potato",
-        "theme_topic": "Crown",
+        "text": "Possessive Miniature",
+        "theme_topic": "Acidic",
         "underline": false
       },
       "type": "text",
@@ -137,41 +138,39 @@
     },
     {
       "bbox": {
-        "h": 0.4697,
-        "w": 0.4868,
-        "x": 2.0424,
-        "y": 5.9599
+        "h": 0.8692,
+        "w": 5.6911,
+        "x": 0.72,
+        "y": 1.9472
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          255,
-          238,
-          103
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          114,
+          185,
+          183
         ],
-        "line": [
-          43,
-          162,
-          130
-        ],
-        "line_width": 1.9260564937004798,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Crown"
+        "font_face": "Georgia",
+        "font_size": 31,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Mice",
+        "theme_topic": "Acidic",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.457,
-        "w": 3.3344,
-        "x": 0.6057,
-        "y": 6.4351
+        "h": 1.1212,
+        "w": 5.6896,
+        "x": 0.6943,
+        "y": 3.0771
       },
       "id": "object_005",
       "properties": {
@@ -179,17 +178,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          248,
-          255,
-          252
+          183,
+          165,
+          182
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "flowers jeans window",
-        "theme_topic": "Crown",
+        "text": "spicy lopsided instinctive expansion trick excuse alert curvy fire responsible",
+        "theme_topic": "Acidic",
         "underline": false
       },
       "type": "text",
@@ -197,117 +196,165 @@
     },
     {
       "bbox": {
-        "h": 0.4911,
-        "w": 4.7529,
-        "x": 4.2719,
-        "y": 6.4331
+        "h": 2.1302,
+        "w": 12.1352,
+        "x": 0.6139,
+        "y": 4.8357
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          248,
-          255,
-          252
+        "band": [
+          145,
+          186,
+          213
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "thoughtful hill zipper play accessible",
-        "theme_topic": "Crown",
-        "underline": false
+        "band_cols": true,
+        "band_rows": false,
+        "body": [
+          98,
+          38,
+          175
+        ],
+        "border": [
+          104,
+          90,
+          224
+        ],
+        "border_dash": "solid",
+        "border_width": 1.8283395450457591,
+        "cells": [
+          [
+            "assorted admit",
+            "thin",
+            "half",
+            "quince"
+          ],
+          [
+            "testy ultra",
+            "advertisement",
+            "dramatic sign",
+            "functional"
+          ],
+          [
+            "annoying cream",
+            "womanly ants",
+            "low",
+            "interest"
+          ],
+          [
+            "thin",
+            "ball",
+            "ambitious quarrelsome",
+            "sand"
+          ]
+        ],
+        "cols": 4,
+        "font_size": 15,
+        "has_header": false,
+        "header": [
+          132,
+          74,
+          174
+        ],
+        "rows": 4,
+        "text_color": [
+          139,
+          80,
+          227
+        ],
+        "theme_topic": "Acidic"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.49,
-        "w": 0.4744,
-        "x": 10.2632,
-        "y": 6.1558
+        "h": 2.502,
+        "w": 1.9254,
+        "x": 6.9426,
+        "y": 1.8488
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          255,
-          238,
-          103
+          129,
+          94,
+          122
         ],
         "line": [
-          43,
-          162,
-          130
+          129,
+          94,
+          122
         ],
-        "line_width": 5.172732915044811,
+        "line_width": 3.495693296455043,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Crown"
+        "theme_topic": "Acidic"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4848,
-        "w": 3.4191,
-        "x": 9.3191,
-        "y": 6.4246
+        "h": 0.5194,
+        "w": 0.5865,
+        "x": 7.1916,
+        "y": 2.0619
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          248,
-          255,
-          252
+        "dash": 3,
+        "family": "arrows",
+        "fill": [
+          224,
+          202,
+          219
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "grouchy complain enter",
-        "theme_topic": "Crown",
-        "underline": false
+        "focus": false,
+        "line": [
+          32,
+          119,
+          149
+        ],
+        "line_width": 4.285996739511014,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Acidic"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4128,
-        "w": 2.0773,
-        "x": 0.6165,
-        "y": 4.7761
+        "h": 0.4622,
+        "w": 1.4373,
+        "x": 7.1913,
+        "y": 2.7581
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          248,
-          255,
-          252
+          32,
+          119,
+          149
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "choke scared languid knowledgeable",
-        "theme_topic": "Crown",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Flippant Night",
+        "theme_topic": "Acidic",
         "underline": false
       },
       "type": "text",
@@ -315,10 +362,10 @@
     },
     {
       "bbox": {
-        "h": 0.4281,
-        "w": 2.3096,
-        "x": 2.9878,
-        "y": 4.812
+        "h": 0.8582,
+        "w": 1.4553,
+        "x": 7.1854,
+        "y": 3.3076
       },
       "id": "object_010",
       "properties": {
@@ -326,17 +373,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          248,
-          255,
-          252
+          183,
+          165,
+          182
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "night fax defeated dry macho",
-        "theme_topic": "Crown",
+        "text": "orange respect fool tricky picture odd materialistic straight",
+        "theme_topic": "Acidic",
         "underline": false
       },
       "type": "text",
@@ -344,99 +391,102 @@
     },
     {
       "bbox": {
-        "h": 0.4086,
-        "w": 2.1059,
-        "x": 5.5776,
-        "y": 4.7988
+        "h": 2.4902,
+        "w": 1.7392,
+        "x": 9.1218,
+        "y": 1.8545
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          248,
-          255,
-          252
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          129,
+          94,
+          122
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "current brief sin",
-        "theme_topic": "Crown",
-        "underline": false
+        "line": [
+          129,
+          94,
+          122
+        ],
+        "line_width": 1.2635913071970495,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Acidic"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.3975,
-        "w": 2.1045,
-        "x": 8.0059,
-        "y": 4.8082
+        "h": 0.5511,
+        "w": 0.5645,
+        "x": 9.339,
+        "y": 2.0395
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          248,
-          255,
-          252
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          168,
+          54,
+          94
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "vest guarantee rude descriptive doubt cruel mouth",
-        "theme_topic": "Crown",
-        "underline": false
+        "focus": false,
+        "line": [
+          210,
+          98,
+          206
+        ],
+        "line_width": 3.4158749826622605,
+        "outline_only": false,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Acidic"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.4369,
-        "w": 0.448,
-        "x": 11.4595,
-        "y": 4.4404
+        "h": 0.4621,
+        "w": 1.2434,
+        "x": 9.3415,
+        "y": 2.7406
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          255,
-          238,
-          103
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
         ],
-        "line": [
-          43,
-          162,
-          130
-        ],
-        "line_width": 2.1272782097282343,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Crown"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Shelf",
+        "theme_topic": "Acidic",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.4382,
-        "w": 2.3261,
-        "x": 10.4411,
-        "y": 4.7992
+        "h": 0.8214,
+        "w": 1.2222,
+        "x": 9.3654,
+        "y": 3.2912
       },
       "id": "object_014",
       "properties": {
@@ -444,17 +494,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          248,
-          255,
-          252
+          183,
+          165,
+          182
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "industrious abounding pale",
-        "theme_topic": "Crown",
+        "text": "roasted teeny-tiny minute stretch rigid selective boundary cave permissible reproduce drum close resolute dysfunctional",
+        "theme_topic": "Acidic",
         "underline": false
       },
       "type": "text",
@@ -462,55 +512,59 @@
     },
     {
       "bbox": {
-        "h": 1.9296,
-        "w": 12.2466,
-        "x": 0.567,
-        "y": 1.8787
+        "h": 2.4951,
+        "w": 1.7417,
+        "x": 11.0343,
+        "y": 1.8664
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          196,
-          34,
-          223
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          129,
+          94,
+          122
         ],
-        "line_width": 17,
-        "theme_topic": "Crown"
+        "line": [
+          129,
+          94,
+          122
+        ],
+        "line_width": 1.2821333157803247,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Acidic"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.5952,
-        "w": 2.1076,
-        "x": 10.4399,
-        "y": 0.4492
+        "h": 0.4455,
+        "w": 1.2165,
+        "x": 11.2734,
+        "y": 2.7399
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          38,
-          40,
-          140
-        ],
+        "bg_color": null,
         "bold": true,
         "color": [
-          198,
-          105,
-          57
+          32,
+          119,
+          149
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "productive bore marry injure successful",
-        "theme_topic": "Crown",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Wiry Sock",
+        "theme_topic": "Acidic",
         "underline": false
       },
       "type": "text",
@@ -518,185 +572,174 @@
     },
     {
       "bbox": {
-        "h": 0.5203,
-        "w": 1.1379,
-        "x": 8.01,
-        "y": 0.9119
+        "h": 0.8271,
+        "w": 1.245,
+        "x": 11.2783,
+        "y": 3.2907
       },
       "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          48,
-          54,
-          217
-        ],
-        "focus": false,
-        "line": [
-          64,
-          74,
-          221
-        ],
-        "line_width": 5.2977068479399625,
-        "outline_only": true,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Crown"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.536,
-        "w": 0.3404,
-        "x": 1.8318,
-        "y": 6.4157
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          200,
-          65,
-          157
-        ],
-        "focus": false,
-        "line": [
-          32,
-          212,
-          145
-        ],
-        "line_width": 4.455183240703527,
-        "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Crown"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.4195,
-        "w": 0.6317,
-        "x": 10.9294,
-        "y": 4.8158
-      },
-      "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          135,
-          209,
-          226
+          183,
+          165,
+          182
         ],
-        "font_face": "Verdana",
-        "font_size": 6,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "wreck person toothbrush ticket fax",
-        "theme_topic": "Crown",
-        "underline": true
+        "text": "blushing earthy female wound kittens tooth polite consider cart caring airplane measure rot detailed",
+        "theme_topic": "Acidic",
+        "underline": false
       },
       "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 1.153,
+        "w": 1.4305,
+        "x": 8.6996,
+        "y": 2.909
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "pattern": "swoop",
+        "primary": [
+          32,
+          119,
+          149
+        ],
+        "secondary": [
+          167,
+          148,
+          192
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#1b94db\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#d0c540\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
+        "theme_topic": "Acidic"
+      },
+      "type": "svg",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.2926,
+        "w": 1.0822,
+        "x": 4.3191,
+        "y": 6.9543
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "pattern": "ribbon_path",
+        "primary": [
+          114,
+          223,
+          52
+        ],
+        "secondary": [
+          37,
+          192,
+          150
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#1fe43a\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#a76f85\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
+        "theme_topic": "Acidic"
+      },
+      "type": "svg",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.3987,
-        "w": 0.7209,
-        "x": 6.5071,
-        "y": 4.6366
+        "h": 0.8533,
+        "w": 0.9359,
+        "x": 8.9539,
+        "y": 2.9576
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 1,
         "family": "basic",
         "fill": [
-          56,
-          123,
-          39
+          147,
+          124,
+          209
         ],
         "focus": false,
         "line": [
-          146,
-          29,
-          137
+          54,
+          85,
+          223
         ],
-        "line_width": 4.632441409571483,
-        "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Crown"
+        "line_width": 4.921305067510825,
+        "outline_only": true,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Acidic"
       },
       "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.6068,
-        "w": 0.9027,
-        "x": 3.7262,
-        "y": 5.3378
+        "h": 0.9221,
+        "w": 0.5239,
+        "x": 5.6579,
+        "y": 0.678
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          128,
-          60,
-          53
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          73,
+          82,
+          119
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "hug late wound judge teaching",
-        "theme_topic": "Crown",
-        "underline": true
+        "focus": false,
+        "line": [
+          96,
+          165,
+          72
+        ],
+        "line_width": 2.8503826604595317,
+        "outline_only": false,
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Acidic"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.3002,
-        "w": 0.7226,
-        "x": 9.3969,
-        "y": 1.3728
+        "h": 0.1012,
+        "w": 1.1197,
+        "x": 1.4311,
+        "y": 5.2234
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
         "color": [
-          137,
-          91,
-          65
+          28,
+          87,
+          151
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "imported colour",
-        "theme_topic": "Crown",
-        "underline": false
+        "connector": "curve",
+        "dash": 7,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Acidic",
+        "width": 1.7589259562542645
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 22
     }
   ],

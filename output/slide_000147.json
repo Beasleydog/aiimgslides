@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        33,
-        125,
-        171
-      ],
       "fill": [
-        33,
-        125,
-        171
+        29,
+        151,
+        112
       ],
-      "fore_color": [
-        51,
-        63,
-        101
-      ],
-      "pattern": 5,
-      "style": "pattern",
-      "theme_topic": "Leather"
+      "style": "solid",
+      "theme_topic": "Arch Flock"
     },
     "type": "background",
     "z_order": 0
@@ -41,164 +30,127 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.7495,
-        "w": 4.7707,
-        "x": -1.11,
-        "y": 0.7857
+        "h": 4.2035,
+        "w": 4.1286,
+        "x": 1.6685,
+        "y": -0.8013
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
           117,
-          110,
-          108
+          163,
+          152
         ],
         "focus": false,
         "line": [
-          92,
-          154,
-          216
+          104,
+          227,
+          70
         ],
-        "line_width": 7.3256034223225655,
-        "outline_only": true,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Leather"
+        "line_width": 3.8541791971300636,
+        "outline_only": false,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Arch Flock"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.9812,
-        "w": 7.0096,
-        "x": 7.0802,
-        "y": -0.7591
+        "h": 3.2804,
+        "w": 6.0842,
+        "x": 0.6839,
+        "y": 3.3134
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          116,
-          72,
-          187
+          126,
+          139,
+          153
         ],
         "focus": false,
         "line": [
-          93,
-          76,
-          82
+          66,
+          122,
+          105
         ],
-        "line_width": 4.299982155173889,
+        "line_width": 2.731184536261234,
         "outline_only": true,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Leather"
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Arch Flock"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.9679,
-        "w": 4.9989,
-        "x": 8.9208,
-        "y": 4.2015
+        "h": 3.7154,
+        "w": 4.6406,
+        "x": -0.2782,
+        "y": -0.7571
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 4,
+        "family": "symbols",
         "fill": [
-          175,
-          121,
-          120
+          106,
+          98,
+          109
         ],
         "focus": false,
         "line": [
-          147,
-          90,
-          70
+          131,
+          106,
+          177
         ],
-        "line_width": 4.254425208407151,
+        "line_width": 7.734709441876257,
         "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Leather"
+        "ppt_type": 22,
+        "shape": "lightning",
+        "theme_topic": "Arch Flock"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.462,
-        "w": 6.4503,
-        "x": 0.6137,
-        "y": 1.5066
+        "h": 5.5564,
+        "w": 2.8563,
+        "x": 0.6553,
+        "y": 0.7746
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          207,
-          32,
-          166
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "band_cols": true,
-        "band_rows": true,
-        "body": [
-          225,
-          86,
-          176
-        ],
-        "border": [
-          43,
-          43,
-          196
-        ],
-        "border_dash": "dash",
-        "border_width": 2.7975990179453225,
-        "cells": [
-          [
-            "cowardly languid",
-            "rings haunt"
-          ],
-          [
-            "daffy",
-            "allow"
-          ],
-          [
-            "lake",
-            "back smell"
-          ],
-          [
-            "disillusioned",
-            "card sign"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 11,
-        "has_header": true,
-        "header": [
-          51,
-          63,
-          101
-        ],
-        "rows": 4,
-        "text_color": [
-          193,
-          123,
-          178
-        ],
-        "theme_topic": "Leather"
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Post Intelligent",
+        "theme_topic": "Arch Flock",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 4
     }
   ],

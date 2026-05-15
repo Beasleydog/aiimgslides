@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        210,
-        72,
-        94
+      "colors": [
+        [
+          210,
+          180,
+          140
+        ],
+        [
+          255,
+          198,
+          74
+        ]
       ],
       "fill": [
-        210,
-        72,
-        94
+        59,
+        69,
+        61
       ],
-      "fore_color": [
-        107,
-        184,
-        41
-      ],
-      "pattern": 15,
-      "style": "pattern",
-      "theme_topic": "Enter Hug"
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Plantation Elated"
     },
     "type": "background",
     "z_order": 0
@@ -41,82 +45,89 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.3134,
-        "w": 6.5407,
-        "x": 6.187,
-        "y": 5.7308
+        "h": 5.0858,
+        "w": 4.8077,
+        "x": 4.1619,
+        "y": 0.3517
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          51,
-          63,
-          101
+        "dash": 3,
+        "family": "arrows",
+        "fill": [
+          152,
+          68,
+          93
         ],
-        "line_width": 13,
-        "theme_topic": "Enter Hug"
+        "focus": false,
+        "line": [
+          102,
+          142,
+          158
+        ],
+        "line_width": 4.308931110440865,
+        "outline_only": false,
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Plantation Elated"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0539,
-        "w": 5.3117,
-        "x": 0.5504,
-        "y": 2.0127
+        "h": 1.1691,
+        "w": 7.4125,
+        "x": 2.4998,
+        "y": 0.6409
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          225,
-          94,
-          113
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 2.007419561174237,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Enter Hug"
+        "font_face": "Georgia",
+        "font_size": 38,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Lopsided Outrageous",
+        "theme_topic": "Plantation Elated",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.7842,
-        "w": 5.0074,
-        "x": 0.6654,
-        "y": 2.1666
+        "h": 2.1856,
+        "w": 4.1172,
+        "x": 0.5212,
+        "y": 1.9908
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.028819233637469025,
-          0.2997251245821656,
-          0.17800786651388903,
-          0.23410233464454835
+          0.01343238782047237,
+          0.0017923106532406318,
+          0.16903249603030718,
+          0.17463490714567095
         ],
         "focus": true,
         "mask_line": [
-          51,
-          63,
-          101
+          255,
+          198,
+          74
         ],
-        "mask_overlay": true,
-        "theme_topic": "Enter Hug",
+        "mask_overlay": false,
+        "theme_topic": "Plantation Elated",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",

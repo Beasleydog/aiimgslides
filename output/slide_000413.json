@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        28,
-        143,
-        112
+      "colors": [
+        [
+          200,
+          114,
+          58
+        ],
+        [
+          38,
+          132,
+          88
+        ]
       ],
       "fill": [
-        28,
-        143,
-        112
+        198,
+        64,
+        91
       ],
-      "fore_color": [
-        184,
-        141,
-        171
-      ],
-      "pattern": 25,
-      "style": "pattern",
-      "theme_topic": "Soft Stamp"
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Seat Cumbersome"
     },
     "type": "background",
     "z_order": 0
@@ -41,137 +45,138 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.9575,
-        "w": 5.1016,
-        "x": 8.049,
-        "y": 1.5011
+        "h": 2.9926,
+        "w": 8.08,
+        "x": -1.0854,
+        "y": 2.3541
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 7,
         "family": "symbols",
         "fill": [
-          80,
-          78,
-          95
+          176,
+          86,
+          119
         ],
         "focus": false,
         "line": [
-          101,
-          36,
-          177
+          213,
+          73,
+          175
         ],
-        "line_width": 2.8618698447441515,
+        "line_width": 2.402766915292215,
         "outline_only": false,
-        "ppt_type": 13,
-        "shape": "can",
-        "theme_topic": "Soft Stamp"
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Seat Cumbersome"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.2153,
-        "w": 6.3914,
-        "x": 7.4301,
-        "y": -0.7132
+        "h": 1.6605,
+        "w": 4.8792,
+        "x": 5.9638,
+        "y": 2.5341
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "symbols",
+        "family": "basic",
         "fill": [
-          44,
-          168,
-          114
+          216,
+          155,
+          166
         ],
         "focus": false,
         "line": [
-          198,
-          27,
-          197
+          59,
+          205,
+          131
         ],
-        "line_width": 7.609591453200318,
+        "line_width": 2.4373903766789695,
         "outline_only": false,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Soft Stamp"
+        "ppt_type": 103,
+        "shape": "wave",
+        "theme_topic": "Seat Cumbersome"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.6618,
-        "w": 3.402,
-        "x": 7.7007,
-        "y": 3.3213
+        "h": 1.7757,
+        "w": 3.6577,
+        "x": -0.4994,
+        "y": 2.1896
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 3,
+        "family": "callouts",
         "fill": [
-          134,
-          161,
-          160
+          113,
+          53,
+          114
         ],
         "focus": false,
         "line": [
-          76,
-          131,
-          193
+          32,
+          95,
+          58
         ],
-        "line_width": 6.3194152426274774,
-        "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Soft Stamp"
+        "line_width": 2.1274995117256967,
+        "outline_only": true,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Seat Cumbersome"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.8679,
-        "w": 5.8237,
-        "x": 0.0115,
-        "y": -0.0069
+        "h": 4.8521,
+        "w": 5.4402,
+        "x": -1.0472,
+        "y": 2.6347
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "symbols",
         "fill": [
-          43,
-          162,
-          130
+          216,
+          186,
+          103
         ],
+        "focus": false,
         "line": [
-          43,
-          162,
-          130
+          69,
+          40,
+          230
         ],
-        "line_width": 4.356584459830578,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Soft Stamp"
+        "line_width": 5.076955602836433,
+        "outline_only": true,
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Seat Cumbersome"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.3024,
-        "w": 8.621,
-        "x": 0.5303,
-        "y": 0.3736
+        "h": 0.8874,
+        "w": 5.7355,
+        "x": 3.3002,
+        "y": 1.0807
       },
       "id": "object_005",
       "properties": {
@@ -179,17 +184,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
+          246,
           248,
-          255,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 28,
+        "font_face": "Aptos Display",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Mouth Pan Pear Ruin",
-        "theme_topic": "Soft Stamp",
+        "text": "Cook Prick Pies",
+        "theme_topic": "Seat Cumbersome",
         "underline": false
       },
       "type": "text",
@@ -197,64 +202,68 @@
     },
     {
       "bbox": {
-        "h": 5.1486,
-        "w": 5.8021,
-        "x": 0.5612,
-        "y": 1.8336
+        "h": 0.2869,
+        "w": 3.4068,
+        "x": 4.5533,
+        "y": 2.8345
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          43,
-          162,
-          130
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          38,
+          132,
+          88
         ],
-        "line": [
-          43,
-          162,
-          130
-        ],
-        "line_width": 1.1510641672590887,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Soft Stamp"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "PLAUSIBLE",
+        "theme_topic": "Seat Cumbersome",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 4.8567,
-        "w": 5.4719,
-        "x": 0.6727,
-        "y": 1.986
+        "h": 0.2289,
+        "w": 3.4151,
+        "x": 4.5541,
+        "y": 3.3121
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          255,
-          238,
-          103
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line_width": 17,
-        "theme_topic": "Soft Stamp"
+        "font_face": "Aptos Display",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Near",
+        "theme_topic": "Seat Cumbersome",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2558,
-        "w": 5.3974,
-        "x": 0.7602,
-        "y": 6.5407
+        "h": 0.3128,
+        "w": 3.7961,
+        "x": 5.5168,
+        "y": 3.9757
       },
       "id": "object_008",
       "properties": {
@@ -262,17 +271,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Aptos Display",
+        "font_size": 18,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Spiders Colorful",
-        "theme_topic": "Soft Stamp",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Abject",
+        "theme_topic": "Seat Cumbersome",
         "underline": false
       },
       "type": "text",
@@ -280,28 +289,28 @@
     },
     {
       "bbox": {
-        "h": 1.0519,
-        "w": 5.811,
-        "x": 6.8174,
-        "y": 1.952
+        "h": 0.2453,
+        "w": 1.6642,
+        "x": 0.2876,
+        "y": 1.9423
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          93,
-          228,
-          110
+          62,
+          53,
+          60
         ],
-        "font_face": "Arial",
-        "font_size": 36,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Roof Edge Puzzling",
-        "theme_topic": "Soft Stamp",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Humor",
+        "theme_topic": "Seat Cumbersome",
         "underline": false
       },
       "type": "text",
@@ -309,10 +318,10 @@
     },
     {
       "bbox": {
-        "h": 3.6172,
-        "w": 5.8003,
-        "x": 6.8161,
-        "y": 3.2527
+        "h": 0.4728,
+        "w": 2.08,
+        "x": 9.8128,
+        "y": 3.0525
       },
       "id": "object_010",
       "properties": {
@@ -320,17 +329,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          205,
-          241,
-          230
+          134,
+          73,
+          191
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "calculate hand delirious expansion invention abundant acidic caring current vase unique clam wry hysterical",
-        "theme_topic": "Soft Stamp",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Adjustment Whip Float",
+        "theme_topic": "Seat Cumbersome",
         "underline": false
       },
       "type": "text",
@@ -338,28 +347,32 @@
     },
     {
       "bbox": {
-        "h": 0.5359,
-        "w": 1.7473,
-        "x": 2.1706,
-        "y": 0.4395
+        "h": 0.4319,
+        "w": 1.104,
+        "x": 6.4857,
+        "y": 1.0107
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          66,
-          109,
-          141
+        "bg_color": [
+          59,
+          25,
+          216
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "bold": true,
+        "color": [
+          91,
+          206,
+          73
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Play Nerve",
-        "theme_topic": "Soft Stamp",
+        "text": "Wail Keen Cuddly",
+        "theme_topic": "Seat Cumbersome",
         "underline": true
       },
       "type": "text",

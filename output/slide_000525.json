@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        68,
-        155,
-        170
+      "colors": [
+        [
+          151,
+          37,
+          188
+        ],
+        [
+          36,
+          145,
+          192
+        ]
       ],
       "fill": [
-        18,
-        129,
-        148
+        252,
+        249,
+        244
       ],
-      "fore_color": [
-        71,
-        221,
-        181
-      ],
-      "pattern": 9,
-      "style": "pattern",
-      "theme_topic": "Observant Obnoxious"
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Beautiful"
     },
     "type": "background",
     "z_order": 0
@@ -41,220 +45,227 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.3768,
-        "w": 6.4925,
-        "x": 0.2376,
-        "y": 0.5254
+        "h": 3.9537,
+        "w": 7.3416,
+        "x": 3.5815,
+        "y": 1.7393
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          33,
-          125,
-          209
+          211,
+          222,
+          152
         ],
         "focus": false,
         "line": [
-          48,
-          67,
-          35
+          163,
+          88,
+          106
         ],
-        "line_width": 4.195552468870864,
-        "outline_only": false,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Observant Obnoxious"
+        "line_width": 6.761920838963769,
+        "outline_only": true,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Beautiful"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5109,
-        "w": 1.2864,
-        "x": 12.0758,
-        "y": 0.0119
+        "h": 4.3045,
+        "w": 6.9836,
+        "x": -0.2172,
+        "y": 2.0455
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 7,
+        "family": "callouts",
         "fill": [
-          68,
-          155,
-          170
+          133,
+          102,
+          210
         ],
+        "focus": false,
         "line": [
-          68,
-          155,
-          170
+          94,
+          147,
+          62
         ],
-        "line_width": 4.198763642800706,
+        "line_width": 7.550179902422772,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Observant Obnoxious"
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Beautiful"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9153,
-        "w": 4.8887,
-        "x": 3.4064,
-        "y": 0.734
+        "h": 2.1634,
+        "w": 7.7405,
+        "x": 5.2185,
+        "y": 2.2994
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          127,
+          100,
+          156
         ],
-        "font_face": "Georgia",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Vase Notebook",
-        "theme_topic": "Observant Obnoxious",
-        "underline": false
+        "focus": false,
+        "line": [
+          30,
+          199,
+          81
+        ],
+        "line_width": 4.220700678292912,
+        "outline_only": false,
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Beautiful"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.7098,
-        "w": 5.363,
-        "x": 7.2204,
-        "y": 4.9996
+        "h": 2.4985,
+        "w": 3.8768,
+        "x": 0.6754,
+        "y": 4.3132
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          179,
-          113,
-          163
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          237,
+          139,
+          217
         ],
-        "font_face": "Georgia",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Billowy Table Notebook",
-        "theme_topic": "Observant Obnoxious",
-        "underline": false
+        "focus": false,
+        "line": [
+          226,
+          35,
+          185
+        ],
+        "line_width": 3.4714405843361993,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Beautiful"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.9354,
-        "w": 5.3728,
-        "x": 7.2545,
-        "y": 5.982
+        "h": 0.7911,
+        "w": 13.326,
+        "x": 0.0156,
+        "y": 0.015
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          143,
-          194,
-          205
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "truck trap zip fit post busy makeshift busy",
-        "theme_topic": "Observant Obnoxious",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.5416,
-        "w": 6.1967,
-        "x": 0.5505,
-        "y": 1.4487
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 4,
         "family": "panel",
         "fill": [
-          68,
-          155,
-          170
+          242,
+          233,
+          222
         ],
         "line": [
-          68,
-          155,
-          170
+          242,
+          233,
+          222
         ],
-        "line_width": 1.8364096042476354,
+        "line_width": 5.222875833723752,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Observant Obnoxious"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Beautiful"
       },
       "type": "shape",
-      "z_order": 6
+      "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.1351,
-        "w": 5.8357,
-        "x": 0.7128,
-        "y": 2.4791
+        "h": 1.3122,
+        "w": 5.9111,
+        "x": 0.5397,
+        "y": 0.337
       },
-      "id": "object_007",
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          36,
+          32,
+          29
         ],
-        "font_face": "Georgia",
-        "font_size": 41,
+        "font_face": "Arial",
+        "font_size": 37,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "9x",
-        "theme_topic": "Observant Obnoxious",
+        "text": "Chief Cut Program",
+        "theme_topic": "Beautiful",
         "underline": false
       },
       "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 1.1333,
+        "w": 6.8822,
+        "x": 3.2388,
+        "y": 5.8439
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.2655920975850335,
+          0.27840210405882854,
+          0.3145052760864387,
+          0.1937056031835997
+        ],
+        "focus": false,
+        "mask_line": [
+          219,
+          111,
+          56
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Beautiful",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.7003,
-        "w": 5.8026,
-        "x": 0.7137,
-        "y": 4.8591
+        "h": 1.2382,
+        "w": 0.9758,
+        "x": 3.5023,
+        "y": 4.2377
       },
       "id": "object_008",
       "properties": {
@@ -262,17 +273,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          123,
+          113,
+          103
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "division tranquil fearless care pedal",
-        "theme_topic": "Observant Obnoxious",
+        "text": "point wing punish remind hysterical tramp halting rescue quarter",
+        "theme_topic": "Beautiful",
         "underline": false
       },
       "type": "text",
@@ -280,10 +291,10 @@
     },
     {
       "bbox": {
-        "h": 0.6203,
-        "w": 0.7748,
-        "x": 4.1273,
-        "y": 2.6824
+        "h": 1.2165,
+        "w": 1.4464,
+        "x": 5.2022,
+        "y": 4.2195
       },
       "id": "object_009",
       "properties": {
@@ -291,17 +302,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          151,
-          193,
-          157
+          123,
+          113,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "spiteful meat plain",
-        "theme_topic": "Observant Obnoxious",
+        "text": "concentrate suggestion dusty recondite basket pray tiresome floor",
+        "theme_topic": "Beautiful",
         "underline": false
       },
       "type": "text",
@@ -309,42 +320,39 @@
     },
     {
       "bbox": {
-        "h": 0.9348,
-        "w": 0.9066,
-        "x": 5.1383,
-        "y": 5.7495
+        "h": 1.2404,
+        "w": 1.0631,
+        "x": 7.3724,
+        "y": 4.2023
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
-        "fill": [
-          205,
-          192,
-          97
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
         ],
-        "focus": false,
-        "line": [
-          187,
-          149,
-          81
-        ],
-        "line_width": 3.692728497088067,
-        "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Observant Obnoxious"
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "scream stretch cars system exotic jail abiding peaceful foot unite history choke ship extend",
+        "theme_topic": "Beautiful",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.2679,
-        "w": 2.2594,
-        "x": 3.742,
-        "y": 2.8041
+        "h": 1.2504,
+        "w": 0.7251,
+        "x": 9.1184,
+        "y": 4.2462
       },
       "id": "object_011",
       "properties": {
@@ -352,17 +360,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          130,
-          211,
-          128
+          123,
+          113,
+          103
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 8,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Cautious",
-        "theme_topic": "Observant Obnoxious",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "dinner greet meal cycle yummy awful tank degree stain faint quack sofa laugh",
+        "theme_topic": "Beautiful",
         "underline": false
       },
       "type": "text",
@@ -370,98 +378,89 @@
     },
     {
       "bbox": {
-        "h": 0.8288,
-        "w": 0.801,
-        "x": 10.8619,
-        "y": 6.3938
+        "h": 5.1646,
+        "w": 2.208,
+        "x": 0.5161,
+        "y": 1.8728
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          68,
-          154,
-          77
+        "crop": [
+          0.09239317999176969,
+          0.18773181335180722,
+          0.3201062422232868,
+          0.12916358603594932
         ],
-        "focus": false,
-        "line": [
-          216,
-          49,
-          215
+        "focus": true,
+        "mask_line": [
+          174,
+          73,
+          92
         ],
-        "line_width": 4.182836189661321,
-        "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Observant Obnoxious"
+        "mask_overlay": false,
+        "theme_topic": "Beautiful",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.4917,
-        "w": 0.6299,
-        "x": 1.5874,
-        "y": 2.5206
+        "h": 0.3367,
+        "w": 2.1198,
+        "x": 10.6558,
+        "y": 2.4173
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          88,
-          27,
-          119
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          36,
+          32,
+          29
         ],
-        "focus": false,
-        "line": [
-          94,
-          56,
-          162
-        ],
-        "line_width": 4.5761857531196455,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Observant Obnoxious"
+        "font_face": "Arial",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "lie hook clammy cumbersome lunchroom scattered animated",
+        "theme_topic": "Beautiful",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.647,
-        "w": 0.8884,
-        "x": 2.8949,
-        "y": 3.1685
+        "h": 0.3208,
+        "w": 2.1024,
+        "x": 10.6182,
+        "y": 4.5061
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          154,
-          145,
-          50
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          36,
+          32,
+          29
         ],
-        "focus": false,
-        "line": [
-          189,
-          128,
-          222
-        ],
-        "line_width": 2.010611425067359,
-        "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Observant Obnoxious"
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "hose lip adjustment bikes",
+        "theme_topic": "Beautiful",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 14
     }
   ],

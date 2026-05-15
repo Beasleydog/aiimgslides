@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        86,
-        109,
-        63
-      ],
       "fill": [
-        86,
-        109,
-        63
+        111,
+        88,
+        201
       ],
-      "fore_color": [
-        192,
-        222,
-        74
-      ],
-      "pattern": 10,
-      "style": "pattern",
-      "theme_topic": "Lucky Unwieldy"
+      "style": "solid",
+      "theme_topic": "Alive Noise"
     },
     "type": "background",
     "z_order": 0
@@ -41,114 +30,159 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.2038,
-        "w": 5.7129,
-        "x": 0.549,
-        "y": 0.3489
+        "h": 5.1374,
+        "w": 4.5903,
+        "x": 7.9931,
+        "y": 3.1416
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          176,
+          53,
+          96
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Hug Camera Sharp",
-        "theme_topic": "Lucky Unwieldy",
-        "underline": false
+        "focus": false,
+        "line": [
+          183,
+          144,
+          222
+        ],
+        "line_width": 4.529406298423689,
+        "outline_only": false,
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Alive Noise"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.6812,
-        "w": 6.6534,
-        "x": 0.5429,
-        "y": 4.3177
+        "h": 7.5043,
+        "w": 5.7016,
+        "x": 0.0139,
+        "y": 0.0102
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 5,
         "family": "panel",
         "fill": [
-          112,
-          131,
-          93
+          153,
+          137,
+          217
         ],
         "line": [
-          112,
-          131,
-          93
+          153,
+          137,
+          217
         ],
-        "line_width": 5.023438992028608,
+        "line_width": 1.6126864010317163,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Lucky Unwieldy"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Alive Noise"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.3561,
-        "w": 6.3603,
-        "x": 0.7151,
-        "y": 4.4911
+        "h": 2.8415,
+        "w": 12.1613,
+        "x": 0.5884,
+        "y": 4.1334
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.12915415726762336,
-          0.2173361264499114,
-          0.13656755370813192,
-          0.1407577490727779
+        "band": [
+          124,
+          196,
+          32
         ],
-        "focus": true,
-        "mask_line": [
-          98,
-          116,
-          156
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          153,
+          137,
+          217
         ],
-        "mask_overlay": false,
-        "theme_topic": "Lucky Unwieldy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "border": [
+          25,
+          188,
+          112
+        ],
+        "border_dash": "solid",
+        "border_width": 2.001612293081875,
+        "cells": [
+          [
+            "chivalrous equal",
+            "vivacious table",
+            "dear clammy"
+          ],
+          [
+            "coherent children",
+            "vein delay",
+            "faulty handsomely"
+          ],
+          [
+            "cap",
+            "slave",
+            "fresh resolute"
+          ]
+        ],
+        "cols": 3,
+        "font_size": 8,
+        "has_header": true,
+        "header": [
+          162,
+          135,
+          115
+        ],
+        "rows": 3,
+        "text_color": [
+          28,
+          30,
+          36
+        ],
+        "theme_topic": "Alive Noise"
       },
-      "type": "image",
+      "type": "table",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.9971,
-        "w": 12.2541,
-        "x": 0.572,
-        "y": 1.8346
+        "h": 1.6345,
+        "w": 5.9392,
+        "x": 6.6818,
+        "y": 1.9863
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          135,
-          125,
-          145
+        "crop": [
+          0.04028942341267552,
+          0.3265498155446844,
+          0.012621472824157364,
+          0.16716851865151608
         ],
-        "line_width": 8,
-        "theme_topic": "Lucky Unwieldy"
+        "focus": true,
+        "mask_line": [
+          255,
+          198,
+          74
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Alive Noise",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg_image",
+      "type": "image",
       "z_order": 4
     }
   ],

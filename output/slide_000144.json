@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          232,
-          237,
-          247
-        ],
-        [
-          36,
-          178,
-          149
-        ]
-      ],
       "fill": [
-        245,
-        247,
-        252
+        232,
+        163,
+        45
       ],
-      "focus": "bottom_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Harsh"
+      "style": "solid",
+      "theme_topic": "Tub Cold"
     },
     "type": "background",
     "z_order": 0
@@ -45,118 +30,121 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.7092,
-        "w": 5.8457,
-        "x": 1.464,
-        "y": -0.0453
+        "h": 4.2693,
+        "w": 4.8606,
+        "x": -0.7987,
+        "y": 1.2076
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 5,
+        "family": "callouts",
         "fill": [
-          176,
-          219,
-          91
+          168,
+          124,
+          133
         ],
         "focus": false,
         "line": [
-          104,
-          30,
-          70
+          93,
+          166,
+          90
         ],
-        "line_width": 6.283907659971943,
+        "line_width": 5.084108283016204,
         "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Harsh"
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Tub Cold"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.3508,
-        "w": 5.2458,
-        "x": 5.8353,
-        "y": 0.8316
+        "h": 5.5354,
+        "w": 2.8431,
+        "x": 0.6699,
+        "y": 0.7278
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "symbols",
-        "fill": [
-          165,
-          173,
-          126
-        ],
-        "focus": false,
-        "line": [
-          95,
-          28,
-          57
-        ],
-        "line_width": 7.6350724278173265,
-        "outline_only": false,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Harsh"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.8936,
-        "w": 4.6643,
-        "x": 5.7606,
-        "y": 0.8885
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          28,
+          30,
+          36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 23,
+        "font_face": "Aptos Display",
+        "font_size": 26,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Illustrious Mess Present",
-        "theme_topic": "Harsh",
+        "text": "Mug Approve",
+        "theme_topic": "Tub Cold",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 6.2606,
+        "w": 2.5505,
+        "x": 10.1734,
+        "y": 0.6244
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "focus": true,
+        "mask_line": [
+          255,
+          238,
+          103
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Tub Cold",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.9371,
-        "w": 12.2357,
-        "x": 0.5584,
-        "y": 1.4679
+        "h": 5.9486,
+        "w": 2.4113,
+        "x": 7.2712,
+        "y": 0.7869
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          66,
-          53,
-          228
+        "crop": [
+          0.3220463270482677,
+          0.16380097379165495,
+          0.3022692152733264,
+          0.001695004789776249
         ],
-        "line_width": 15,
-        "theme_topic": "Harsh"
+        "focus": true,
+        "mask_line": [
+          140,
+          65,
+          54
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Tub Cold",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg_image",
+      "type": "image",
       "z_order": 4
     }
   ],

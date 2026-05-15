@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        31,
-        87,
-        166
+      "back_color": [
+        213,
+        115,
+        135
       ],
-      "style": "solid",
-      "theme_topic": "Unfasten Paint"
+      "fill": [
+        198,
+        64,
+        91
+      ],
+      "fore_color": [
+        51,
+        63,
+        101
+      ],
+      "pattern": 16,
+      "style": "pattern",
+      "theme_topic": "Kill"
     },
     "type": "background",
     "z_order": 0
@@ -30,76 +41,43 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.432,
-        "w": 3.6866,
-        "x": 8.5408,
-        "y": 2.0558
+        "h": 3.8455,
+        "w": 6.7762,
+        "x": 6.5421,
+        "y": 3.6535
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          58,
+          213,
           115,
-          136
+          135
         ],
-        "focus": false,
         "line": [
-          44,
-          27,
-          163
+          213,
+          115,
+          135
         ],
-        "line_width": 6.189100913378448,
+        "line_width": 2.92813555156873,
         "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Unfasten Paint"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Kill"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0696,
-        "w": 4.6247,
-        "x": -0.0505,
-        "y": 3.1454
+        "h": 1.1573,
+        "w": 7.8324,
+        "x": 2.2362,
+        "y": 0.6448
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          34,
-          94,
-          157
-        ],
-        "focus": false,
-        "line": [
-          140,
-          49,
-          60
-        ],
-        "line_width": 3.738113089488257,
-        "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Unfasten Paint"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 5.5436,
-        "w": 2.8569,
-        "x": 0.6481,
-        "y": 0.7459
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -109,76 +87,105 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 22,
+        "font_face": "Trebuchet MS",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Trousers",
-        "theme_topic": "Unfasten Paint",
+        "text": "Happy Drag Nutty Chicken",
+        "theme_topic": "Kill",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 2.189,
+        "w": 3.8093,
+        "x": 0.5372,
+        "y": 2.011
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          213,
+          115,
+          135
+        ],
+        "line": [
+          213,
+          115,
+          135
+        ],
+        "line_width": 1.5801559187655756,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Kill"
+      },
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 3.2789,
-        "w": 4.9874,
-        "x": 7.728,
-        "y": 0.6687
+        "h": 1.8591,
+        "w": 3.5453,
+        "x": 0.734,
+        "y": 2.1274
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          85,
-          128,
-          187
+        "crop": [
+          0.03647493254345734,
+          0.05138061480592026,
+          0.10693622465551703,
+          0.0991329912562249
         ],
-        "line": [
-          85,
-          128,
-          187
+        "focus": false,
+        "mask_line": [
+          51,
+          63,
+          101
         ],
-        "line_width": 4.757051173215587,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Unfasten Paint"
+        "mask_overlay": false,
+        "theme_topic": "Kill",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.9984,
-        "w": 4.6735,
-        "x": 7.8939,
-        "y": 0.7897
+        "h": 0.9533,
+        "w": 3.448,
+        "x": 4.7858,
+        "y": 3.0932
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.05102837276387367,
-          0.07766658818948631,
-          0.1456735870997464,
-          0.20248422229825147
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          224,
+          165,
+          179
         ],
-        "focus": true,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Unfasten Paint",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "rightful tumble profit important grin women stereotyped rampant godly blink chunky disagree cart digestion feeling gorgeous bedroom salty",
+        "theme_topic": "Kill",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 5
     }
   ],

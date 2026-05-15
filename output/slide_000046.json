@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        63,
-        111,
-        179
-      ],
       "fill": [
-        31,
-        87,
-        166
+        61,
+        64,
+        91
       ],
-      "fore_color": [
-        255,
-        238,
-        103
-      ],
-      "pattern": 17,
-      "style": "pattern",
-      "theme_topic": "Card"
+      "style": "solid",
+      "theme_topic": "Ban"
     },
     "type": "background",
     "z_order": 0
@@ -41,109 +30,60 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.2906,
-        "w": 7.862,
-        "x": 0.5459,
-        "y": 0.3274
+        "h": 3.0803,
+        "w": 3.8685,
+        "x": 0.5507,
+        "y": 3.9134
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "font_face": "Aptos Display",
-        "font_size": 40,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Float Amount Page Stranger",
-        "theme_topic": "Card",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          31,
+          117,
+          161
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Ban",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0736,
-        "w": 6.0908,
-        "x": 0.6129,
-        "y": 1.9056
+        "h": 3.0825,
+        "w": 3.8734,
+        "x": 4.7185,
+        "y": 3.902
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          63,
-          111,
-          179
+        "crop": [
+          0.010901391291878934,
+          0.14180575225355868,
+          0.007145279134301046,
+          0.057938114255602906
         ],
-        "band_cols": true,
-        "band_rows": false,
-        "body": [
-          63,
-          111,
-          179
+        "focus": true,
+        "mask_line": [
+          31,
+          117,
+          161
         ],
-        "border": [
-          121,
-          209,
-          167
-        ],
-        "border_dash": "solid",
-        "border_width": 2.1571116816956564,
-        "cells": [
-          [
-            "silk",
-            "spell"
-          ],
-          [
-            "wry",
-            "imported"
-          ],
-          [
-            "chess blot",
-            "wiggly"
-          ],
-          [
-            "stomach depressed",
-            "help hanging"
-          ],
-          [
-            "crowd weather",
-            "government feeling"
-          ],
-          [
-            "lethal",
-            "interrupt"
-          ],
-          [
-            "electric bone",
-            "store"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 7,
-        "has_header": true,
-        "header": [
-          51,
-          111,
-          140
-        ],
-        "rows": 7,
-        "text_color": [
-          68,
-          89,
-          88
-        ],
-        "theme_topic": "Card"
+        "mask_overlay": false,
+        "theme_topic": "Ban",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "table",
+      "type": "image",
       "z_order": 2
     }
   ],

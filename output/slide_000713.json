@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        249,
-        203,
-        91
+      "colors": [
+        [
+          183,
+          202,
+          157
+        ],
+        [
+          88,
+          158,
+          123
+        ]
       ],
       "fill": [
-        240,
-        176,
-        54
+        183,
+        202,
+        157
       ],
-      "fore_color": [
-        168,
-        54,
-        94
-      ],
-      "pattern": 27,
-      "style": "pattern",
-      "theme_topic": "Frightening"
+      "focus": "center",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Thought"
     },
     "type": "background",
     "z_order": 0
@@ -41,136 +45,138 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.0852,
-        "w": 7.676,
-        "x": 1.4162,
-        "y": 1.9322
+        "h": 3.5237,
+        "w": 7.1749,
+        "x": 6.2283,
+        "y": -0.6241
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 5,
+        "family": "symbols",
         "fill": [
-          173,
           102,
-          95
+          168,
+          108
         ],
         "focus": false,
         "line": [
-          32,
-          180,
-          45
+          214,
+          176,
+          81
         ],
-        "line_width": 5.765165262587244,
+        "line_width": 3.8006964592934587,
         "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Frightening"
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Thought"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.1126,
-        "w": 4.3287,
-        "x": 7.6608,
-        "y": 3.8615
+        "h": 1.9551,
+        "w": 8.2937,
+        "x": 4.0033,
+        "y": 3.3867
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "ribbons",
         "fill": [
-          180,
-          197,
-          96
+          89,
+          203,
+          146
         ],
         "focus": false,
         "line": [
-          170,
-          114,
-          92
+          111,
+          79,
+          173
         ],
-        "line_width": 7.076508573287748,
-        "outline_only": true,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Frightening"
+        "line_width": 4.2389618079032125,
+        "outline_only": false,
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Thought"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.8576,
-        "x": 0.8134,
-        "y": 6.4257
+        "h": 4.7481,
+        "w": 6.4485,
+        "x": -0.3608,
+        "y": 3.4499
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 4,
+        "family": "stars",
         "fill": [
-          32,
-          119,
-          149
+          126,
+          86,
+          202
         ],
+        "focus": false,
         "line": [
-          249,
-          203,
-          91
+          185,
+          90,
+          92
         ],
-        "line_width": 1.922173901342487,
+        "line_width": 3.803861534193672,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Frightening"
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Thought"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.9633,
-        "x": 2.0285,
-        "y": 2.6324
+        "h": 3.4021,
+        "w": 8.7162,
+        "x": 1.6679,
+        "y": 4.0493
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 2,
+        "family": "stars",
         "fill": [
-          32,
-          119,
-          149
+          177,
+          146,
+          183
         ],
+        "focus": false,
         "line": [
-          249,
-          203,
-          91
+          69,
+          198,
+          42
         ],
-        "line_width": 2.7821411026906993,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Frightening"
+        "line_width": 2.2570120564631235,
+        "outline_only": true,
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Thought"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.0935,
-        "w": 6.1114,
-        "x": 0.5706,
-        "y": 0.3367
+        "h": 1.1623,
+        "w": 6.5765,
+        "x": 0.5458,
+        "y": 0.3674
       },
       "id": "object_005",
       "properties": {
@@ -178,17 +184,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          40,
-          38,
-          28
+          28,
+          30,
+          36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 42,
+        "font_face": "Arial",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Stimulating Graceful",
-        "theme_topic": "Frightening",
+        "text": "Evanescent Knowing",
+        "theme_topic": "Thought",
         "underline": false
       },
       "type": "text",
@@ -196,28 +202,28 @@
     },
     {
       "bbox": {
-        "h": 0.3939,
-        "w": 1.7556,
-        "x": 3.2886,
-        "y": 6.5138
+        "h": 0.2566,
+        "w": 3.4929,
+        "x": 2.3084,
+        "y": 2.7682
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          40,
-          38,
-          28
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "remain close sip",
-        "theme_topic": "Frightening",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "ELFIN WINDOW",
+        "theme_topic": "Thought",
         "underline": false
       },
       "type": "text",
@@ -225,28 +231,28 @@
     },
     {
       "bbox": {
-        "h": 0.3771,
-        "w": 1.3883,
-        "x": 5.3445,
-        "y": 6.5335
+        "h": 0.2854,
+        "w": 3.4607,
+        "x": 2.295,
+        "y": 3.2428
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          40,
-          38,
-          28
+          28,
+          30,
+          36
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 18,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "greedy ocean nosy hideous apologise",
-        "theme_topic": "Frightening",
+        "text": "Quizzical",
+        "theme_topic": "Thought",
         "underline": false
       },
       "type": "text",
@@ -254,10 +260,10 @@
     },
     {
       "bbox": {
-        "h": 0.4087,
-        "w": 0.4136,
-        "x": 7.7129,
-        "y": 6.2591
+        "h": 2.8137,
+        "w": 1.8274,
+        "x": 4.5731,
+        "y": 2.7343
       },
       "id": "object_008",
       "properties": {
@@ -265,48 +271,48 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          32,
-          119,
-          149
+          164,
+          181,
+          140
         ],
         "line": [
-          249,
-          203,
-          91
+          164,
+          181,
+          140
         ],
-        "line_width": 1.6604454207957917,
+        "line_width": 0.7887567624094136,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Frightening"
+        "theme_topic": "Thought"
       },
       "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.3697,
-        "w": 1.4768,
-        "x": 7.0493,
-        "y": 6.5121
+        "h": 0.7323,
+        "w": 1.438,
+        "x": 4.7684,
+        "y": 2.9051
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          40,
-          38,
-          28
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 38,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "zinc enchanting shallow scary",
-        "theme_topic": "Frightening",
+        "text": "4.1x",
+        "theme_topic": "Thought",
         "underline": false
       },
       "type": "text",
@@ -314,10 +320,10 @@
     },
     {
       "bbox": {
-        "h": 0.3919,
-        "w": 1.1725,
-        "x": 8.8749,
-        "y": 6.5392
+        "h": 1.7628,
+        "w": 1.4485,
+        "x": 4.7732,
+        "y": 3.6352
       },
       "id": "object_010",
       "properties": {
@@ -325,17 +331,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          40,
-          38,
-          28
+          97,
+          107,
+          90
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "general wacky press channel oceanic gray",
-        "theme_topic": "Frightening",
+        "text": "sofa abstracted stamp abundant torpid funny slow",
+        "theme_topic": "Thought",
         "underline": false
       },
       "type": "text",
@@ -343,59 +349,57 @@
     },
     {
       "bbox": {
-        "h": 5.1427,
-        "w": 2.1943,
-        "x": 0.5468,
-        "y": 1.8521
+        "h": 0.7612,
+        "w": 1.2422,
+        "x": 6.7688,
+        "y": 2.9321
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          32,
-          119,
-          149
-        ],
-        "line": [
-          249,
-          203,
-          91
-        ],
-        "line_width": 0.951621131096949,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Frightening"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 1.1275,
-        "w": 1.8518,
-        "x": 0.746,
-        "y": 2.7866
-      },
-      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          240,
-          176,
-          54
+          31,
+          117,
+          161
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 48,
+        "font_face": "Arial",
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "281",
-        "theme_topic": "Frightening",
+        "text": "2.1x",
+        "theme_topic": "Thought",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 1.763,
+        "w": 1.2379,
+        "x": 6.7406,
+        "y": 3.6669
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          97,
+          107,
+          90
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "obey needle believe weary confused writing female",
+        "theme_topic": "Thought",
         "underline": false
       },
       "type": "text",
@@ -403,28 +407,28 @@
     },
     {
       "bbox": {
-        "h": 0.6797,
-        "w": 1.8253,
-        "x": 0.7111,
-        "y": 4.9971
+        "h": 0.7618,
+        "w": 1.653,
+        "x": 8.5378,
+        "y": 2.9245
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          40,
-          38,
-          28
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 36,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "interesting late sail angry girl ablaze guiltless axiomatic near",
-        "theme_topic": "Frightening",
+        "text": "6.4x",
+        "theme_topic": "Thought",
         "underline": false
       },
       "type": "text",
@@ -432,28 +436,28 @@
     },
     {
       "bbox": {
-        "h": 0.367,
-        "w": 0.748,
-        "x": 2.3927,
-        "y": 3.2622
+        "h": 1.7988,
+        "w": 1.6815,
+        "x": 8.5365,
+        "y": 3.6423
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          106,
-          205,
-          209
+          97,
+          107,
+          90
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Bushes Beautiful War",
-        "theme_topic": "Frightening",
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "friction wing beautiful bait piquant",
+        "theme_topic": "Thought",
         "underline": false
       },
       "type": "text",
@@ -461,60 +465,59 @@
     },
     {
       "bbox": {
-        "h": 0.734,
-        "w": 0.531,
-        "x": 6.9769,
-        "y": 3.4134
+        "h": 2.7943,
+        "w": 1.8927,
+        "x": 10.5511,
+        "y": 2.7189
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          50,
-          72,
-          76
+          77,
+          57,
+          144
         ],
-        "focus": false,
         "line": [
-          123,
-          128,
-          107
+          164,
+          181,
+          140
         ],
-        "line_width": 4.340202773099608,
+        "line_width": 3.1755255430672706,
         "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Frightening"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Thought"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.596,
-        "w": 2.3498,
-        "x": 9.6355,
-        "y": 1.6218
+        "h": 0.7611,
+        "w": 1.509,
+        "x": 10.6936,
+        "y": 2.9183
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          201,
-          63,
-          187
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 16,
+        "font_face": "Arial",
+        "font_size": 22,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Hapless",
-        "theme_topic": "Frightening",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "79%",
+        "theme_topic": "Thought",
         "underline": false
       },
       "type": "text",
@@ -522,42 +525,39 @@
     },
     {
       "bbox": {
-        "h": 0.9618,
-        "w": 0.7786,
-        "x": 2.198,
-        "y": 2.1036
+        "h": 1.7873,
+        "w": 1.5358,
+        "x": 10.7094,
+        "y": 3.6534
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          71,
-          119,
-          173
-        ],
-        "focus": false,
-        "line": [
-          119,
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          97,
           107,
-          64
+          90
         ],
-        "line_width": 4.607544847383933,
-        "outline_only": true,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Frightening"
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "crayon smooth frail dislike egg coat",
+        "theme_topic": "Thought",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.254,
-        "w": 0.9455,
-        "x": 4.6446,
-        "y": 2.2962
+        "h": 0.279,
+        "w": 2.0704,
+        "x": 8.553,
+        "y": 5.0245
       },
       "id": "object_018",
       "properties": {
@@ -565,17 +565,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          80,
-          93,
-          205
+          157,
+          74,
+          109
         ],
-        "font_face": "Verdana",
+        "font_face": "Arial",
         "font_size": 7,
         "italic": true,
         "kind": "body",
         "margin": 0.04,
-        "text": "value polite uttermost",
-        "theme_topic": "Frightening",
+        "text": "cooperative card inconclusive",
+        "theme_topic": "Thought",
         "underline": false
       },
       "type": "text",

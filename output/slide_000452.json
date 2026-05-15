@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "fill": [
-        47,
-        163,
-        97
+      "colors": [
+        [
+          38,
+          146,
+          187
+        ],
+        [
+          180,
+          70,
+          53
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Plan"
+      "fill": [
+        38,
+        146,
+        187
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Humdrum"
     },
     "type": "background",
     "z_order": 0
@@ -30,139 +45,12 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.3084,
-        "w": 3.7366,
-        "x": 7.6917,
-        "y": -0.3986
+        "h": 5.8169,
+        "w": 3.2112,
+        "x": 9.4205,
+        "y": 0.6593
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          116,
-          177,
-          76
-        ],
-        "focus": false,
-        "line": [
-          76,
-          175,
-          80
-        ],
-        "line_width": 3.07253479345881,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Plan"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 4.6813,
-        "w": 3.6369,
-        "x": 8.9964,
-        "y": 1.0577
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          93,
-          114,
-          150
-        ],
-        "focus": false,
-        "line": [
-          70,
-          161,
-          146
-        ],
-        "line_width": 6.816116268750869,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Plan"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 4.3054,
-        "w": 6.8963,
-        "x": 7.4071,
-        "y": 1.1917
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          169,
-          121,
-          189
-        ],
-        "focus": false,
-        "line": [
-          196,
-          223,
-          193
-        ],
-        "line_width": 2.5928244327209953,
-        "outline_only": false,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Plan"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.5514,
-        "w": 6.8509,
-        "x": -0.0039,
-        "y": 0.0088
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          113,
-          192,
-          147
-        ],
-        "line": [
-          113,
-          192,
-          147
-        ],
-        "line_width": 1.1128807727516337,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Plan"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.5381,
-        "w": 2.8592,
-        "x": 0.6435,
-        "y": 0.7438
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -177,37 +65,157 @@
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Car",
-        "theme_topic": "Plan",
+        "text": "Married Pleasant",
+        "theme_topic": "Humdrum",
         "underline": false
       },
       "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 6.1543,
+        "w": 1.1683,
+        "x": 0.7168,
+        "y": 0.7056
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          78,
+          166,
+          199
+        ],
+        "line": [
+          78,
+          166,
+          199
+        ],
+        "line_width": 0.8770038084668437,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Humdrum"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 5.8254,
+        "w": 0.8669,
+        "x": 0.8538,
+        "y": 0.8319
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.001122660927368606,
+          0.04495902270325567,
+          0.15956792853781773,
+          0.17377220332499874
+        ],
+        "focus": false,
+        "mask_line": [
+          38,
+          132,
+          88
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Humdrum",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.2554,
+        "w": 0.7753,
+        "x": 0.8935,
+        "y": 6.4144
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          38,
+          132,
+          88
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Jar Snatch",
+        "theme_topic": "Humdrum",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 6.1473,
+        "w": 1.1856,
+        "x": 2.0533,
+        "y": 0.7101
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          78,
+          166,
+          199
+        ],
+        "line": [
+          78,
+          166,
+          199
+        ],
+        "line_width": 5.273876999619942,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Humdrum"
+      },
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.2473,
-        "w": 2.366,
-        "x": 10.3077,
-        "y": 4.6066
+        "h": 5.8836,
+        "w": 0.862,
+        "x": 2.1923,
+        "y": 0.8736
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.14331522804134222,
-          0.29864453895804455,
-          0.053578222455533654,
-          0.2413400590119553
+          0.08274628472401731,
+          0.11936090692989702,
+          0.10847926420690125,
+          0.023573482851204083
         ],
         "focus": false,
         "mask_line": [
-          46,
-          91,
-          26
+          89,
+          25,
+          47
         ],
         "mask_overlay": true,
-        "theme_topic": "Plan",
+        "theme_topic": "Humdrum",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -215,119 +223,117 @@
     },
     {
       "bbox": {
-        "h": 3.5515,
-        "w": 2.254,
-        "x": 3.7337,
-        "y": 0.6645
+        "h": 0.2893,
+        "w": 0.78,
+        "x": 2.2383,
+        "y": 6.3848
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          113,
-          192,
-          147
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          38,
+          132,
+          88
         ],
-        "line": [
-          113,
-          192,
-          147
-        ],
-        "line_width": 2.525735634329004,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Plan"
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Behavior Dark",
+        "theme_topic": "Humdrum",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.8825,
-        "w": 1.734,
-        "x": 4.0235,
-        "y": 2.0847
+        "h": 6.1359,
+        "w": 1.1914,
+        "x": 3.3617,
+        "y": 0.6961
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          156,
-          209,
-          182
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          78,
+          166,
+          199
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "payment ink rightful dance stomach throat winter obtain groan axiomatic phone free airport wind",
-        "theme_topic": "Plan",
-        "underline": false
+        "line": [
+          78,
+          166,
+          199
+        ],
+        "line_width": 2.1204374585042767,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Humdrum"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 3.5444,
-        "w": 2.2892,
-        "x": 6.1952,
-        "y": 0.6555
+        "h": 5.8774,
+        "w": 0.909,
+        "x": 3.514,
+        "y": 0.8793
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          113,
-          192,
-          147
+        "crop": [
+          0.18931937277135769,
+          0.28992483857411994,
+          0.13768687896318685,
+          0.31187000557144184
         ],
-        "line": [
-          113,
-          192,
-          147
+        "focus": false,
+        "mask_line": [
+          38,
+          132,
+          88
         ],
-        "line_width": 4.232196457618332,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Plan"
+        "mask_overlay": false,
+        "theme_topic": "Humdrum",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.8967,
-        "w": 1.8159,
-        "x": 6.4344,
-        "y": 2.0987
+        "h": 1.0631,
+        "w": 3.4212,
+        "x": 5.2876,
+        "y": 0.7679
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          156,
-          209,
-          182
+          104,
+          134,
+          169
         ],
         "font_face": "Arial",
-        "font_size": 12,
+        "font_size": 29,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "twist vessel dolls mice sip chief brief run nifty cool slap",
-        "theme_topic": "Plan",
+        "text": "Exercise Verse Voice Cooing",
+        "theme_topic": "Humdrum",
         "underline": false
       },
       "type": "text",
@@ -335,10 +341,10 @@
     },
     {
       "bbox": {
-        "h": 1.8662,
-        "w": 1.4811,
-        "x": 9.0099,
-        "y": 2.1084
+        "h": 4.6952,
+        "w": 3.4067,
+        "x": 5.3108,
+        "y": 2.051
       },
       "id": "object_011",
       "properties": {
@@ -346,17 +352,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          156,
-          209,
-          182
+          152,
+          202,
+          222
         ],
         "font_face": "Arial",
-        "font_size": 13,
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "preserve good cake smart rob dolls fang overjoyed moon crib radiate excuse",
-        "theme_topic": "Plan",
+        "text": "rare groan snow tap big useful rub tongue futuristic wicked shy choke rich stew hose hug ultra queue drag care",
+        "theme_topic": "Humdrum",
         "underline": false
       },
       "type": "text",
@@ -364,28 +370,28 @@
     },
     {
       "bbox": {
-        "h": 1.905,
-        "w": 1.2704,
-        "x": 11.1821,
-        "y": 2.0784
+        "h": 0.5162,
+        "w": 1.5007,
+        "x": 2.0801,
+        "y": 5.5203
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          156,
-          209,
-          182
+          200,
+          215,
+          221
         ],
         "font_face": "Arial",
-        "font_size": 12,
+        "font_size": 8,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "skip giant combative ink boring disturbed collect descriptive materialistic pig steep hover",
-        "theme_topic": "Plan",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Petite Hover Complain",
+        "theme_topic": "Humdrum",
         "underline": false
       },
       "type": "text",

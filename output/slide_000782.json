@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        118,
-        84,
-        86
+      "colors": [
+        [
+          123,
+          73,
+          53
+        ],
+        [
+          48,
+          78,
+          140
+        ]
       ],
       "fill": [
-        25,
-        30,
-        39
+        123,
+        73,
+        53
       ],
-      "fore_color": [
-        244,
-        180,
-        76
-      ],
-      "pattern": 49,
-      "style": "pattern",
-      "theme_topic": "Choke"
+      "focus": "bottom_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Sneaky Workable"
     },
     "type": "background",
     "z_order": 0
@@ -41,94 +45,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.4066,
-        "w": 8.9109,
-        "x": 2.6535,
-        "y": 2.5217
+        "h": 2.1085,
+        "w": 4.4041,
+        "x": 4.6208,
+        "y": 1.1716
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          58,
-          92,
-          58
+          127,
+          61,
+          113
         ],
         "focus": false,
         "line": [
-          120,
-          105,
-          62
+          99,
+          78,
+          230
         ],
-        "line_width": 4.368558452979223,
+        "line_width": 3.0504465942373997,
         "outline_only": false,
-        "ppt_type": 164,
-        "shape": "minus",
-        "theme_topic": "Choke"
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Sneaky Workable"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9082,
-        "w": 6.8298,
-        "x": 0.7278,
-        "y": 5.8285
+        "h": 3.4598,
+        "w": 3.1484,
+        "x": 9.2686,
+        "y": 1.1727
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          247,
-          249
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          72,
+          152,
+          67
         ],
-        "font_face": "Arial",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Closed Moaning",
-        "theme_topic": "Choke",
-        "underline": false
+        "focus": false,
+        "line": [
+          57,
+          43,
+          230
+        ],
+        "line_width": 3.944337880355395,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Sneaky Workable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.1757,
-        "w": 3.9237,
-        "x": 0.5747,
-        "y": 3.3474
+        "h": 4.1993,
+        "w": 6.0974,
+        "x": 5.6454,
+        "y": 2.8892
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          197,
-          90,
-          106
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          138,
+          86,
+          151
         ],
-        "line_width": 17,
-        "theme_topic": "Choke"
+        "focus": false,
+        "line": [
+          130,
+          59,
+          51
+        ],
+        "line_width": 6.9289493116247005,
+        "outline_only": true,
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Sneaky Workable"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.27,
-        "w": 3.521,
-        "x": 0.782,
-        "y": 5.0728
+        "h": 1.2639,
+        "w": 8.1609,
+        "x": 0.563,
+        "y": 0.3473
       },
       "id": "object_004",
       "properties": {
@@ -136,17 +152,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 11,
+        "font_size": 30,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Include",
-        "theme_topic": "Choke",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Bite-Sized Drop Lunch",
+        "theme_topic": "Sneaky Workable",
         "underline": false
       },
       "type": "text",
@@ -154,57 +170,59 @@
     },
     {
       "bbox": {
-        "h": 2.2036,
-        "w": 3.9471,
-        "x": 4.7319,
-        "y": 3.342
+        "h": 0.4935,
+        "w": 0.4762,
+        "x": 1.1786,
+        "y": 4.0155
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.27921114819197784,
-          0.11208388934967832,
-          0.10347672710701614,
-          0.29629175571488997
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
         ],
-        "focus": true,
-        "mask_line": [
-          96,
-          165,
-          250
+        "line": [
+          170,
+          138,
+          125
         ],
-        "mask_overlay": true,
-        "theme_topic": "Choke",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 2.318626900999441,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sneaky Workable"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.276,
-        "w": 3.5468,
-        "x": 4.8806,
-        "y": 5.0691
+        "h": 1.7579,
+        "w": 1.2695,
+        "x": 0.6026,
+        "y": 4.8434
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          96,
-          165,
-          250
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 12,
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Industry",
-        "theme_topic": "Choke",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "expensive aggressive screw summer",
+        "theme_topic": "Sneaky Workable",
         "underline": false
       },
       "type": "text",
@@ -212,99 +230,101 @@
     },
     {
       "bbox": {
-        "h": 2.2024,
-        "w": 3.9322,
-        "x": 8.782,
-        "y": 3.3274
+        "h": 0.5697,
+        "w": 0.5673,
+        "x": 2.764,
+        "y": 3.1369
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 2,
         "family": "panel",
         "fill": [
-          43,
-          51,
-          64
+          255,
+          238,
+          103
         ],
         "line": [
-          43,
-          51,
-          64
+          170,
+          138,
+          125
         ],
-        "line_width": 1.896072263333535,
+        "line_width": 1.913395275483485,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Choke"
+        "theme_topic": "Sneaky Workable"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.875,
-        "w": 3.6594,
-        "x": 8.9332,
-        "y": 3.4642
+        "h": 1.7381,
+        "w": 1.5639,
+        "x": 2.1733,
+        "y": 4.8521
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.31419907439536904,
-          0.15741356471386603,
-          0.06008412120293783,
-          0.1465027645265651
-        ],
-        "focus": false,
-        "mask_line": [
-          96,
-          165,
-          250
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Choke",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4426,
-        "w": 0.5895,
-        "x": 6.473,
-        "y": 1.4345
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          96,
-          165,
-          250
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
         "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Evasive",
-        "theme_topic": "Choke",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "raspy bear attend attraction",
+        "theme_topic": "Sneaky Workable",
         "underline": false
       },
       "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.5689,
+        "w": 0.5554,
+        "x": 4.7221,
+        "y": 3.4414
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          170,
+          138,
+          125
+        ],
+        "line_width": 1.0463678699140349,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sneaky Workable"
+      },
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.6877,
-        "w": 0.6337,
-        "x": 6.4934,
-        "y": 2.0207
+        "h": 1.7687,
+        "w": 1.5045,
+        "x": 4.0612,
+        "y": 4.8197
       },
       "id": "object_010",
       "properties": {
@@ -312,17 +332,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          177,
-          185,
-          196
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 7,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "deceive strong crime handle peel cause dam channel",
-        "theme_topic": "Choke",
+        "text": "oafish quaint wood cheer pastoral womanly",
+        "theme_topic": "Sneaky Workable",
         "underline": false
       },
       "type": "text",
@@ -330,39 +350,41 @@
     },
     {
       "bbox": {
-        "h": 0.4716,
-        "w": 1.0339,
-        "x": 7.8149,
-        "y": 1.4424
+        "h": 0.5661,
+        "w": 0.578,
+        "x": 6.678,
+        "y": 3.8206
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Powder Big",
-        "theme_topic": "Choke",
-        "underline": false
+        "line": [
+          170,
+          138,
+          125
+        ],
+        "line_width": 1.028225828743125,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sneaky Workable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.6707,
-        "w": 1.0532,
-        "x": 7.8193,
-        "y": 2.0224
+        "h": 1.7394,
+        "w": 1.5442,
+        "x": 5.9064,
+        "y": 4.8455
       },
       "id": "object_012",
       "properties": {
@@ -370,17 +392,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          177,
-          185,
-          196
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 9,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "calculate dinner abandoned yoke foamy annoying save gentle park",
-        "theme_topic": "Choke",
+        "text": "building spooky giddy hat",
+        "theme_topic": "Sneaky Workable",
         "underline": false
       },
       "type": "text",
@@ -388,179 +410,174 @@
     },
     {
       "bbox": {
-        "h": 2.3289,
-        "w": 1.6856,
-        "x": 9.3184,
-        "y": 0.5591
+        "h": 0.2892,
+        "w": 1.9649,
+        "x": 3.0454,
+        "y": 3.4398
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          43,
-          51,
-          64
+        "color": [
+          190,
+          169,
+          162
         ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 0.7488919924774587,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Choke"
+        "connector": "elbow",
+        "dash": 3,
+        "flip": true,
+        "ppt_type": 2,
+        "theme_topic": "Sneaky Workable",
+        "width": 0.5349063430840247
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.4602,
-        "w": 1.2248,
-        "x": 9.5644,
-        "y": 1.4533
+        "h": 0.3985,
+        "w": 1.961,
+        "x": 5.0103,
+        "y": 3.729
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
         "color": [
-          96,
-          165,
-          250
+          190,
+          169,
+          162
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Hideous",
-        "theme_topic": "Choke",
-        "underline": false
+        "connector": "curve",
+        "dash": 5,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Sneaky Workable",
+        "width": 3.4606466527909125
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.6871,
-        "w": 1.2148,
-        "x": 9.5661,
-        "y": 1.993
+        "h": 5.1565,
+        "w": 4.8606,
+        "x": 7.8955,
+        "y": 1.8534
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          177,
-          185,
-          196
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          170,
+          138,
+          125
         ],
-        "font_face": "Arial",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "alcoholic oranges scarecrow nonstop harass abnormal end degree baseball entertain",
-        "theme_topic": "Choke",
-        "underline": false
+        "line": [
+          170,
+          138,
+          125
+        ],
+        "line_width": 4.717822968320864,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sneaky Workable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.4563,
-        "w": 1.0508,
-        "x": 11.4962,
-        "y": 1.4277
+        "h": 4.8276,
+        "w": 4.6,
+        "x": 8.0302,
+        "y": 2.0262
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "crop": [
+          0.2270571782403175,
+          0.313592470454133,
+          0.31824880330234734,
+          0.24266029283995363
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Far-Flung Plot",
-        "theme_topic": "Choke",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          168,
+          176,
+          165
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Sneaky Workable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.6469,
-        "w": 1.0674,
-        "x": 11.5044,
-        "y": 2.0002
+        "h": 0.4288,
+        "w": 0.6375,
+        "x": 10.8454,
+        "y": 3.8171
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          177,
-          185,
-          196
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          170,
+          138,
+          125
         ],
-        "font_face": "Arial",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "depend paltry spiky absorbed attack rob coil machine abandoned strong relieved frighten whirl",
-        "theme_topic": "Choke",
-        "underline": false
+        "focus": false,
+        "line": [
+          137,
+          148,
+          184
+        ],
+        "line_width": 1.526781381456295,
+        "outline_only": false,
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Sneaky Workable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.4849,
-        "w": 0.7106,
-        "x": 10.6108,
-        "y": 0.6022
+        "h": 0.2722,
+        "w": 2.3458,
+        "x": 3.8542,
+        "y": 4.9312
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": [
-          94,
-          168,
-          69
+          51,
+          197,
+          66
         ],
         "bold": false,
         "color": [
-          225,
-          99,
-          68
+          30,
+          49,
+          151
         ],
         "font_face": "Arial",
-        "font_size": 7,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "helpless whisper wriggle colour towering",
-        "theme_topic": "Choke",
+        "font_size": 13,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Future Abject Assorted",
+        "theme_topic": "Sneaky Workable",
         "underline": false
       },
       "type": "text",
@@ -568,60 +585,66 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.2494,
-        "x": 2.0942,
-        "y": 4.2417
+        "h": 0.7999,
+        "w": 0.7934,
+        "x": 3.6506,
+        "y": 1.7304
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          159,
-          110,
-          175
+        "dash": 5,
+        "family": "flowchart",
+        "fill": [
+          105,
+          36,
+          178
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Letters",
-        "theme_topic": "Choke",
-        "underline": false
+        "focus": false,
+        "line": [
+          190,
+          169,
+          162
+        ],
+        "line_width": 2.6580168901387435,
+        "outline_only": true,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Sneaky Workable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.2428,
-        "w": 0.6083,
-        "x": 3.3057,
-        "y": 2.9425
+        "h": 0.6845,
+        "w": 0.2421,
+        "x": 4.8467,
+        "y": 5.0168
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          56,
-          172,
-          196
+        "dash": 7,
+        "family": "flowchart",
+        "fill": [
+          190,
+          136,
+          190
         ],
-        "font_face": "Arial",
-        "font_size": 5,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Knowledgeable Wiggly",
-        "theme_topic": "Choke",
-        "underline": false
+        "focus": false,
+        "line": [
+          98,
+          144,
+          165
+        ],
+        "line_width": 2.4999194513545877,
+        "outline_only": true,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Sneaky Workable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 20
     }
   ],

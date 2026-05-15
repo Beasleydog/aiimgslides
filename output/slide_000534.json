@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "fill": [
-        89,
-        107,
-        181
+      "colors": [
+        [
+          185,
+          160,
+          138
+        ],
+        [
+          96,
+          165,
+          250
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Possessive Neighborly"
+      "fill": [
+        158,
+        123,
+        93
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Neck"
     },
     "type": "background",
     "z_order": 0
@@ -30,73 +45,73 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.8695,
-        "w": 5.8179,
-        "x": 6.1682,
-        "y": 2.6353
+        "h": 4.6998,
+        "w": 5.2378,
+        "x": 6.2592,
+        "y": -0.4849
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 5,
+        "family": "ribbons",
         "fill": [
-          137,
-          173,
-          199
+          80,
+          103,
+          166
         ],
         "focus": false,
         "line": [
-          63,
-          161,
-          120
+          133,
+          177,
+          197
         ],
-        "line_width": 7.3330069611941155,
+        "line_width": 4.570602284087756,
         "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Possessive Neighborly"
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Neck"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9681,
-        "w": 8.1067,
-        "x": 1.0027,
-        "y": 1.2515
+        "h": 2.8308,
+        "w": 4.6458,
+        "x": 8.6864,
+        "y": -0.0167
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 3,
         "family": "panel",
         "fill": [
-          122,
-          136,
-          195
+          185,
+          160,
+          138
         ],
         "line": [
-          140,
-          152,
-          203
+          185,
+          160,
+          138
         ],
-        "line_width": 1.0393652963467148,
+        "line_width": 0.7215927718329203,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Possessive Neighborly"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Neck"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9078,
-        "w": 5.7705,
-        "x": 4.0468,
-        "y": 1.3854
+        "h": 1.145,
+        "w": 8.5262,
+        "x": 3.3026,
+        "y": 0.645
       },
       "id": "object_003",
       "properties": {
@@ -109,12 +124,12 @@
           252
         ],
         "font_face": "Arial",
-        "font_size": 31,
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Vest Walk Taste Disgusting",
-        "theme_topic": "Possessive Neighborly",
+        "text": "Pumped Flock Earsplitting Cause Spiky",
+        "theme_topic": "Neck",
         "underline": false
       },
       "type": "text",
@@ -122,59 +137,57 @@
     },
     {
       "bbox": {
-        "h": 1.1823,
-        "w": 4.7059,
-        "x": 8.0881,
-        "y": 1.453
+        "h": 0.5428,
+        "w": 2.446,
+        "x": 2.0057,
+        "y": 4.3629
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          140,
-          152,
-          203
-        ],
-        "line": [
-          140,
-          152,
-          203
-        ],
-        "line_width": 2.043448016042224,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Possessive Neighborly"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.4452,
-        "w": 4.1798,
-        "x": 8.341,
-        "y": 2.3418
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          74,
+          68,
+          225
         ],
         "font_face": "Arial",
-        "font_size": 11,
+        "font_size": 26,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Powerful",
-        "theme_topic": "Possessive Neighborly",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Death",
+        "theme_topic": "Neck",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.6296,
+        "w": 2.448,
+        "x": 1.9997,
+        "y": 5.1333
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          206,
+          191,
+          180
+        ],
+        "font_face": "Arial",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "curvy odd piquant aunt pastoral rail brick rule delirious successful suck servant agreeable daughter careful various elated chivalrous",
+        "theme_topic": "Neck",
         "underline": false
       },
       "type": "text",
@@ -182,70 +195,70 @@
     },
     {
       "bbox": {
-        "h": 0.4455,
-        "w": 4.2047,
-        "x": 8.3296,
-        "y": 3.7244
+        "h": 3.2313,
+        "w": 7.7154,
+        "x": 0.548,
+        "y": 2.0671
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Brainy",
-        "theme_topic": "Possessive Neighborly",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.2375,
-        "w": 4.6807,
-        "x": 8.1099,
-        "y": 4.179
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          140,
-          152,
-          203
+          185,
+          160,
+          138
         ],
         "line": [
-          140,
-          152,
-          203
+          185,
+          160,
+          138
         ],
-        "line_width": 1.2437183868155548,
+        "line_width": 1.138797306503518,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Possessive Neighborly"
+        "theme_topic": "Neck"
       },
       "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 2.9027,
+        "w": 7.4348,
+        "x": 0.7146,
+        "y": 2.2609
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.1519542495671533,
+          0.15414343686840792,
+          0.2501793715679507,
+          0.13638035767853338
+        ],
+        "focus": true,
+        "mask_line": [
+          42,
+          54,
+          62
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Neck",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4383,
-        "w": 4.1649,
-        "x": 8.3488,
-        "y": 5.0536
+        "h": 0.7677,
+        "w": 0.5822,
+        "x": 2.3516,
+        "y": 2.7964
       },
       "id": "object_008",
       "properties": {
@@ -258,12 +271,12 @@
           250
         ],
         "font_face": "Arial",
-        "font_size": 9,
+        "font_size": 21,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Filthy Fall",
-        "theme_topic": "Possessive Neighborly",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "94%",
+        "theme_topic": "Neck",
         "underline": false
       },
       "type": "text",
@@ -271,41 +284,39 @@
     },
     {
       "bbox": {
-        "h": 1.4089,
-        "w": 4.6996,
-        "x": 8.0905,
-        "y": 5.5858
+        "h": 0.631,
+        "w": 0.5836,
+        "x": 2.3185,
+        "y": 3.5664
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          140,
-          152,
-          203
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          206,
+          191,
+          180
         ],
-        "line": [
-          140,
-          152,
-          203
-        ],
-        "line_width": 2.730387292966929,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Possessive Neighborly"
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "alleged lucky attack argument dear bubble",
+        "theme_topic": "Neck",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4377,
-        "w": 4.1836,
-        "x": 8.3496,
-        "y": 6.4706
+        "h": 0.7597,
+        "w": 0.8018,
+        "x": 3.4537,
+        "y": 2.814
       },
       "id": "object_010",
       "properties": {
@@ -318,12 +329,12 @@
           250
         ],
         "font_face": "Arial",
-        "font_size": 11,
+        "font_size": 27,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Crow Encourage",
-        "theme_topic": "Possessive Neighborly",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "3.6x",
+        "theme_topic": "Neck",
         "underline": false
       },
       "type": "text",
@@ -331,28 +342,28 @@
     },
     {
       "bbox": {
-        "h": 1.2208,
-        "w": 6.7772,
-        "x": 0.769,
-        "y": 4.8392
+        "h": 0.6618,
+        "w": 0.8242,
+        "x": 3.4578,
+        "y": 3.5578
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          246,
-          248,
-          252
+          206,
+          191,
+          180
         ],
         "font_face": "Arial",
-        "font_size": 34,
-        "italic": true,
-        "kind": "header",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "Thin Skillful Coal Weak Feigned Wheel Unknown",
-        "theme_topic": "Possessive Neighborly",
+        "text": "panoramic grubby lewd abrupt history",
+        "theme_topic": "Neck",
         "underline": false
       },
       "type": "text",
@@ -360,10 +371,10 @@
     },
     {
       "bbox": {
-        "h": 0.3746,
-        "w": 3.743,
-        "x": 0.7559,
-        "y": 6.2281
+        "h": 0.7695,
+        "w": 0.5082,
+        "x": 4.8154,
+        "y": 2.7927
       },
       "id": "object_012",
       "properties": {
@@ -376,12 +387,12 @@
           250
         ],
         "font_face": "Arial",
-        "font_size": 9,
+        "font_size": 21,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "BRICK",
-        "theme_topic": "Possessive Neighborly",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "208",
+        "theme_topic": "Neck",
         "underline": false
       },
       "type": "text",
@@ -389,51 +400,61 @@
     },
     {
       "bbox": {
-        "h": 2.9168,
-        "w": 7.1556,
-        "x": 0.5775,
-        "y": 1.4222
+        "h": 0.6306,
+        "w": 0.4981,
+        "x": 4.8024,
+        "y": 3.5382
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          96,
-          165,
-          250
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          206,
+          191,
+          180
         ],
-        "line_width": 17,
-        "theme_topic": "Possessive Neighborly"
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "nostalgic smoggy dog ad aggressive",
+        "theme_topic": "Neck",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.2617,
-        "w": 6.7965,
-        "x": 0.7625,
-        "y": 3.9057
+        "h": 0.4611,
+        "w": 2.399,
+        "x": 3.9576,
+        "y": 0.1723
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          108,
+          218,
+          91
+        ],
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          82,
+          150,
+          54
         ],
         "font_face": "Arial",
-        "font_size": 11,
+        "font_size": 15,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Extend",
-        "theme_topic": "Possessive Neighborly",
+        "text": "Fair Messy Brick",
+        "theme_topic": "Neck",
         "underline": false
       },
       "type": "text",

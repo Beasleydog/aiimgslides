@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
+      "angle": 90,
       "archetype": "atomic_composition",
       "colors": [
         [
-          41,
-          89,
-          39
+          142,
+          84,
+          192
         ],
         [
-          255,
-          117,
-          117
+          222,
+          133,
+          62
         ]
       ],
       "fill": [
-        197,
-        100,
-        34
+        116,
+        43,
+        178
       ],
-      "focus": "top_left",
-      "gradient_type": "shape",
+      "focus": "bottom_left",
+      "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Puffy Piquant"
+      "theme_topic": "Jittery"
     },
     "type": "background",
     "z_order": 0
@@ -45,64 +45,31 @@
   "objects": [
     {
       "bbox": {
-        "h": 6.1261,
-        "w": 3.4436,
-        "x": 3.8016,
-        "y": 0.7273
+        "h": 3.0393,
+        "w": 6.6468,
+        "x": 3.3087,
+        "y": 2.8449
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          204,
-          120,
-          62
+        "crop": [
+          0.12431259838989728,
+          0.0586842468405407,
+          0.2428167781356697,
+          0.003568756690989188
         ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          204,
-          120,
-          62
+        "focus": true,
+        "mask_line": [
+          140,
+          139,
+          72
         ],
-        "border": [
-          223,
-          181,
-          153
-        ],
-        "border_dash": "solid",
-        "border_width": 1.6581106506290726,
-        "cells": [
-          [
-            "bath books",
-            "trade wriggle"
-          ],
-          [
-            "remarkable",
-            "servant"
-          ],
-          [
-            "pump",
-            "ban"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 10,
-        "has_header": true,
-        "header": [
-          255,
-          198,
-          74
-        ],
-        "rows": 3,
-        "text_color": [
-          68,
-          52,
-          33
-        ],
-        "theme_topic": "Puffy Piquant"
+        "mask_overlay": true,
+        "theme_topic": "Jittery",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "table",
+      "type": "image",
       "z_order": 1
     }
   ],

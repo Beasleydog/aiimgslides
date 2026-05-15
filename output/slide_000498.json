@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "back_color": [
-        44,
-        180,
-        63
+      "colors": [
+        [
+          111,
+          88,
+          201
+        ],
+        [
+          111,
+          102,
+          52
+        ]
       ],
       "fill": [
-        240,
-        176,
-        54
+        111,
+        88,
+        201
       ],
-      "fore_color": [
-        168,
-        54,
-        94
-      ],
-      "pattern": 32,
-      "style": "pattern",
-      "theme_topic": "Driving Skirt"
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Stage"
     },
     "type": "background",
     "z_order": 0
@@ -41,267 +45,226 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5141,
-        "w": 4.8326,
-        "x": 0.0469,
-        "y": 2.3604
+        "h": 2.6514,
+        "w": 6.905,
+        "x": 6.7014,
+        "y": 4.0725
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "stars",
         "fill": [
-          222,
-          132,
-          50
+          75,
+          88,
+          218
         ],
         "focus": false,
         "line": [
+          33,
           64,
-          153,
-          193
+          30
         ],
-        "line_width": 6.806836268667647,
+        "line_width": 4.9881527451848555,
         "outline_only": false,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Driving Skirt"
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Stage"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.057,
-        "w": 5.5685,
-        "x": 2.3971,
-        "y": 2.6198
+        "h": 3.6616,
+        "w": 3.3202,
+        "x": 0.1552,
+        "y": 0.163
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 4,
+        "family": "arrows",
         "fill": [
-          171,
-          190,
-          158
+          116,
+          76,
+          185
         ],
         "focus": false,
         "line": [
-          192,
-          225,
-          114
+          76,
+          217,
+          47
         ],
-        "line_width": 5.868122402984779,
+        "line_width": 4.8770794036359755,
         "outline_only": false,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Driving Skirt"
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Stage"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.7919,
-        "w": 3.1959,
-        "x": 9.421,
-        "y": 0.6414
+        "h": 2.7223,
+        "w": 7.1746,
+        "x": -1.0748,
+        "y": 3.9498
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          102,
+          52,
+          218
+        ],
+        "focus": false,
+        "line": [
+          188,
+          155,
+          52
+        ],
+        "line_width": 5.0593127598330945,
+        "outline_only": false,
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Stage"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.2042,
+        "w": 6.4795,
+        "x": 0.5733,
+        "y": 0.3348
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          40,
-          38,
-          28
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos Display",
         "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Space Bee",
-        "theme_topic": "Driving Skirt",
+        "text": "Strengthen Limit Exultant Yielding",
+        "theme_topic": "Stage",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
+      "z_order": 4
     },
     {
       "bbox": {
-        "h": 3.1627,
-        "w": 8.2,
-        "x": 0.6363,
-        "y": 3.758
+        "h": 1.3675,
+        "w": 5.9058,
+        "x": 0.5571,
+        "y": 1.8455
       },
-      "id": "object_004",
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 4,
         "family": "panel",
         "fill": [
-          249,
-          203,
-          91
+          137,
+          118,
+          211
         ],
         "line": [
-          249,
-          203,
-          91
+          137,
+          118,
+          211
         ],
-        "line_width": 2.0418269105683686,
+        "line_width": 3.676554722642491,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Driving Skirt"
+        "theme_topic": "Stage"
       },
       "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.6302,
-        "w": 7.7025,
-        "x": 0.8796,
-        "y": 3.9794
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "depressed",
-          "gamy",
-          "popcorn",
-          "haircut",
-          "dirt"
-        ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              123,
-              74,
-              52
-            ],
-            "name": "shiny grouchy",
-            "values": [
-              25,
-              92,
-              35,
-              30,
-              93
-            ]
-          },
-          {
-            "color": [
-              142,
-              138,
-              176
-            ],
-            "name": "trees airplane",
-            "values": [
-              32,
-              12,
-              16,
-              21,
-              22
-            ]
-          },
-          {
-            "color": [
-              119,
-              139,
-              77
-            ],
-            "name": "zealous",
-            "values": [
-              59,
-              88,
-              49,
-              91,
-              75
-            ]
-          }
-        ],
-        "theme_topic": "Driving Skirt",
-        "title": "overwrought smell attach bad"
-      },
-      "type": "chart",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.7515,
-        "w": 2.5603,
-        "x": 0.6685,
-        "y": 0.7342
+        "h": 0.4558,
+        "w": 5.4198,
+        "x": 0.7842,
+        "y": 2.7381
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.05082427124905811,
-          0.17140862427533465,
-          0.021928281615059463,
-          0.08697159621181128
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
         ],
-        "focus": false,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Driving Skirt",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Uptight Gamy",
+        "theme_topic": "Stage",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.7058,
-        "w": 2.6176,
-        "x": 3.4287,
-        "y": 0.6904
+        "h": 1.8564,
+        "w": 5.9339,
+        "x": 0.5688,
+        "y": 3.4087
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.26399050450275946,
-          0.10861619555758167,
-          0.2338538115403536,
-          0.04788861169476079
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          137,
+          118,
+          211
         ],
-        "focus": false,
-        "mask_line": [
-          93,
-          173,
-          125
+        "line": [
+          137,
+          118,
+          211
         ],
-        "mask_overlay": false,
-        "theme_topic": "Driving Skirt",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 2.0935343519772633,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stage"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2721,
-        "w": 2.2026,
-        "x": 3.6393,
-        "y": 3.0052
+        "h": 0.4371,
+        "w": 5.406,
+        "x": 0.7795,
+        "y": 4.2838
       },
       "id": "object_008",
       "properties": {
@@ -309,17 +272,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          174,
+          73,
+          92
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Actor",
-        "theme_topic": "Driving Skirt",
+        "text": "Signal Bow",
+        "theme_topic": "Stage",
         "underline": false
       },
       "type": "text",
@@ -327,191 +290,153 @@
     },
     {
       "bbox": {
-        "h": 0.535,
-        "w": 0.8558,
-        "x": 10.9551,
-        "y": 1.91
+        "h": 0.209,
+        "w": 5.4144,
+        "x": 0.8249,
+        "y": 4.8522
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          201,
-          188,
-          177
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          65,
+          56,
+          110
         ],
-        "line": [
-          189,
-          137,
-          211
-        ],
-        "line_width": 1.1674249619206225,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Driving Skirt"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "suspect straight mundane rich tickle lowly puzzled club insect pat",
+        "theme_topic": "Stage",
+        "underline": false
       },
-      "type": "freeform",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.5339,
-        "w": 1.2576,
-        "x": 2.4863,
-        "y": 0.7652
+        "h": 1.5699,
+        "w": 5.9133,
+        "x": 0.5692,
+        "y": 5.4532
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "panel",
         "fill": [
-          62,
-          66,
-          70
+          137,
+          118,
+          211
         ],
-        "focus": false,
         "line": [
-          216,
-          221,
-          25
+          137,
+          118,
+          211
         ],
-        "line_width": 3.2160241738731217,
-        "outline_only": true,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Driving Skirt"
+        "line_width": 1.9287399892103765,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stage"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4075,
-        "w": 0.8101,
-        "x": 6.1882,
-        "y": 3.1694
+        "h": 0.462,
+        "w": 5.4222,
+        "x": 0.7882,
+        "y": 6.3601
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          31,
-          81,
-          114
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
         ],
-        "focus": false,
-        "line": [
-          221,
-          85,
-          97
-        ],
-        "line_width": 2.111175751497963,
-        "outline_only": false,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Driving Skirt"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Satisfying Impulse",
+        "theme_topic": "Stage",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.886,
-        "w": 1.4416,
-        "x": 2.4752,
-        "y": 2.0389
+        "h": 5.1289,
+        "w": 5.7836,
+        "x": 7.0414,
+        "y": 1.8201
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          52,
-          69,
-          117
+        "crop": [
+          0.10066255964098147,
+          0.2539076770565901,
+          0.10578113122148547,
+          0.31076680428727876
         ],
-        "focus": false,
-        "line": [
-          32,
-          119,
-          149
+        "focus": true,
+        "mask_line": [
+          84,
+          55,
+          98
         ],
-        "line_width": 1.0520646473514488,
-        "outline_only": false,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Driving Skirt"
+        "mask_overlay": false,
+        "theme_topic": "Stage",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.0532,
-        "x": 5.655,
-        "y": 6.0954
+        "h": 0.649,
+        "w": 1.8853,
+        "x": 8.9972,
+        "y": 5.8565
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "symbols",
-        "fill": [
-          102,
-          226,
-          46
+        "bg_color": [
+          126,
+          142,
+          144
         ],
-        "focus": false,
-        "line": [
-          57,
-          128,
-          204
+        "bold": false,
+        "color": [
+          52,
+          212,
+          111
         ],
-        "line_width": 3.205549850228117,
-        "outline_only": false,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Driving Skirt"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "squirrel",
+        "theme_topic": "Stage",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     }
   ],

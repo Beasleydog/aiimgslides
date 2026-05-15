@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          187,
-          131,
-          36
-        ],
-        [
-          255,
-          206,
-          86
-        ]
+      "back_color": [
+        47,
+        136,
+        190
       ],
       "fill": [
-        232,
-        163,
-        45
+        33,
+        115,
+        169
       ],
-      "focus": "bottom_left",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Nine Move"
+      "fore_color": [
+        255,
+        117,
+        117
+      ],
+      "pattern": 6,
+      "style": "pattern",
+      "theme_topic": "Bad Request"
     },
     "type": "background",
     "z_order": 0
@@ -45,28 +41,28 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.1283,
-        "w": 2.18,
-        "x": 10.584,
-        "y": 1.8789
+        "h": 5.1755,
+        "w": 3.832,
+        "x": 8.9521,
+        "y": 1.8278
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0,
-          0,
-          0,
-          0
+          0.05989023893941747,
+          0.08387381771364957,
+          0.1873885328466705,
+          0.17020283756394747
         ],
         "focus": true,
         "mask_line": [
-          51,
-          63,
-          101
+          255,
+          198,
+          74
         ],
-        "mask_overlay": false,
-        "theme_topic": "Nine Move",
+        "mask_overlay": true,
+        "theme_topic": "Bad Request",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",

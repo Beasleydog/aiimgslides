@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        247,
-        248,
-        246
+      "back_color": [
+        196,
+        156,
+        144
       ],
-      "style": "solid",
-      "theme_topic": "Zealous"
+      "fill": [
+        38,
+        143,
+        76
+      ],
+      "fore_color": [
+        174,
+        73,
+        92
+      ],
+      "pattern": 9,
+      "style": "pattern",
+      "theme_topic": "Fog Stupid"
     },
     "type": "background",
     "z_order": 0
@@ -30,131 +41,137 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.9876,
-        "w": 3.847,
-        "x": 4.0053,
-        "y": 2.282
+        "h": 2.1598,
+        "w": 8.6346,
+        "x": 3.588,
+        "y": -0.1596
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 3,
+        "family": "callouts",
         "fill": [
-          233,
-          204,
-          159
+          150,
+          95,
+          139
         ],
         "focus": false,
         "line": [
-          153,
-          96,
-          126
+          119,
+          145,
+          68
         ],
-        "line_width": 3.243496792356363,
+        "line_width": 6.155699929171327,
         "outline_only": true,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Zealous"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Fog Stupid"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5132,
-        "w": 13.3275,
-        "x": 0.0005,
-        "y": 4.3039
+        "h": 3.4118,
+        "w": 7.2216,
+        "x": 1.4494,
+        "y": 2.7888
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 7,
+        "family": "flowchart",
         "fill": [
-          236,
-          240,
-          242
+          122,
+          148,
+          115
         ],
+        "focus": false,
         "line": [
-          236,
-          240,
-          242
+          160,
+          74,
+          166
         ],
-        "line_width": 2.20045435105416,
+        "line_width": 4.123270772753739,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Zealous"
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Fog Stupid"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1559,
-        "w": 7.5858,
-        "x": 0.5483,
-        "y": 0.3618
+        "h": 1.5569,
+        "w": 6.7312,
+        "x": 2.9914,
+        "y": 3.2577
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          30,
-          35,
-          42
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          57,
+          94,
+          189
         ],
-        "font_face": "Aptos Display",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Snobbish Uptight Macho",
-        "theme_topic": "Zealous",
-        "underline": false
+        "focus": false,
+        "line": [
+          32,
+          225,
+          158
+        ],
+        "line_width": 4.813691358812755,
+        "outline_only": false,
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Fog Stupid"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.2512,
-        "w": 6.4911,
-        "x": 0.5543,
-        "y": 1.8329
+        "h": 7.4981,
+        "w": 0.8227,
+        "x": -0.0169,
+        "y": -0.0031
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.07915275312296836,
-          0.04759147304745961,
-          0.21472846308409085,
-          0.29631954071339267
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          82,
+          165,
+          112
         ],
-        "focus": true,
-        "mask_line": [
-          31,
-          117,
-          161
+        "line": [
+          82,
+          165,
+          112
         ],
-        "mask_overlay": false,
-        "theme_topic": "Zealous",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 4.984046314435052,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Fog Stupid"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.2656,
-        "w": 6.2104,
-        "x": 0.6909,
-        "y": 4.5153
+        "h": 5.5337,
+        "w": 2.862,
+        "x": 0.6499,
+        "y": 0.7387
       },
       "id": "object_005",
       "properties": {
@@ -162,17 +179,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Aptos Display",
+        "font_size": 21,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "STRANGER COLOSSAL",
-        "theme_topic": "Zealous",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Sniff",
+        "theme_topic": "Fog Stupid",
         "underline": false
       },
       "type": "text",
@@ -180,122 +197,126 @@
     },
     {
       "bbox": {
-        "h": 0.7128,
-        "w": 6.1951,
-        "x": 0.7062,
-        "y": 5.0021
+        "h": 1.807,
+        "w": 2.2134,
+        "x": 4.539,
+        "y": 1.5479
       },
       "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "focus": false,
+        "mask_line": [
+          144,
+          196,
+          116
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Fog Stupid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 1.488,
+        "w": 2.1844,
+        "x": 8.2325,
+        "y": 3.4009
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.06907092859940095,
+          0.0561662060876052,
+          0.10885134693151345,
+          0.17039897118644898
+        ],
+        "focus": false,
+        "mask_line": [
+          184,
+          126,
+          136
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Fog Stupid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.6987,
+        "w": 2.6084,
+        "x": 6.7148,
+        "y": 4.9265
+      },
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          171,
-          165,
-          203
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos Display",
-        "font_size": 35,
+        "font_size": 19,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Interesting Plausible Easy",
-        "theme_topic": "Zealous",
-        "underline": true
+        "text": "Ablaze Violent Blushing Silent",
+        "theme_topic": "Fog Stupid",
+        "underline": false
       },
       "type": "text",
-      "z_order": 6
+      "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.8885,
-        "w": 6.1847,
-        "x": 0.6926,
-        "y": 5.9552
+        "h": 0.9035,
+        "w": 2.6125,
+        "x": 6.735,
+        "y": 5.8728
       },
-      "id": "object_007",
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          115,
-          124,
-          135
+          152,
+          200,
+          172
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "giants windy whistle lacking colour cooing form promise nutritious automatic full frequent guarantee luxuriant descriptive",
-        "theme_topic": "Zealous",
+        "text": "ocean roof fix reduce lamentable dramatic dull soak rhetorical street stupid telephone kill exultant",
+        "theme_topic": "Fog Stupid",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 5.1339,
-        "w": 5.3733,
-        "x": 7.3922,
-        "y": 1.8459
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          236,
-          240,
-          242
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 5.3394368170746205,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Zealous"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 4.8509,
-        "w": 5.0763,
-        "x": 7.5572,
-        "y": 2.0087
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          53,
-          45,
-          148
-        ],
-        "line_width": 10,
-        "theme_topic": "Zealous"
-      },
-      "type": "svg_image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.6285,
-        "w": 0.7879,
-        "x": 4.588,
-        "y": 4.3688
+        "h": 0.4302,
+        "w": 1.7246,
+        "x": 4.2582,
+        "y": 2.2545
       },
       "id": "object_010",
       "properties": {
@@ -303,17 +324,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          63,
-          204,
-          177
+          181,
+          48,
+          106
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 7,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "graceful limping peck coal",
-        "theme_topic": "Zealous",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Cook",
+        "theme_topic": "Fog Stupid",
         "underline": false
       },
       "type": "text",
@@ -321,32 +342,32 @@
     },
     {
       "bbox": {
-        "h": 0.5457,
-        "w": 1.8754,
-        "x": 0.8505,
-        "y": 3.0085
+        "h": 0.5013,
+        "w": 2.2001,
+        "x": 9.123,
+        "y": 5.3278
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": [
-          100,
-          229,
-          161
+          154,
+          56,
+          219
         ],
         "bold": true,
         "color": [
-          93,
-          38,
-          190
+          204,
+          56,
+          209
         ],
         "font_face": "Aptos",
-        "font_size": 11,
-        "italic": true,
+        "font_size": 18,
+        "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Gorgeous Notice Giant",
-        "theme_topic": "Zealous",
+        "text": "Tender",
+        "theme_topic": "Fog Stupid",
         "underline": false
       },
       "type": "text",
@@ -354,10 +375,10 @@
     },
     {
       "bbox": {
-        "h": 0.3271,
-        "w": 1.0685,
-        "x": 10.7566,
-        "y": 2.8404
+        "h": 0.6012,
+        "w": 0.7857,
+        "x": 6.3065,
+        "y": 6.0272
       },
       "id": "object_012",
       "properties": {
@@ -365,17 +386,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          217,
-          146,
-          195
+          204,
+          103,
+          42
         ],
         "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
+        "font_size": 16,
+        "italic": true,
         "kind": "body",
         "margin": 0.04,
-        "text": "nauseating hydrant classy chivalrous snail",
-        "theme_topic": "Zealous",
+        "text": "hand snow",
+        "theme_topic": "Fog Stupid",
         "underline": false
       },
       "type": "text",
@@ -383,34 +404,31 @@
     },
     {
       "bbox": {
-        "h": 1.0661,
-        "w": 0.3915,
-        "x": 2.3244,
-        "y": 4.0297
+        "h": 0.2281,
+        "w": 1.9651,
+        "x": 10.5367,
+        "y": 5.6491
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          31,
-          117,
-          161
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          212,
+          114,
+          228
         ],
-        "focus": false,
-        "line": [
-          99,
-          99,
-          184
-        ],
-        "line_width": 5.671202310013383,
-        "outline_only": true,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Zealous"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "possess dispensable receptive wrist",
+        "theme_topic": "Fog Stupid",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     }
   ],

@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
+      "angle": 180,
       "archetype": "atomic_composition",
       "colors": [
         [
-          155,
-          105,
-          147
+          252,
+          249,
+          244
         ],
         [
-          222,
-          133,
-          62
+          161,
+          117,
+          174
         ]
       ],
       "fill": [
-        107,
-        32,
-        95
+        252,
+        249,
+        244
       ],
       "focus": "center",
-      "gradient_type": "linear",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Whip"
+      "theme_topic": "Pick"
     },
     "type": "background",
     "z_order": 0
@@ -45,181 +45,150 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.29,
-        "w": 6.1963,
-        "x": 0.5561,
-        "y": 0.366
+        "h": 2.0713,
+        "w": 3.0198,
+        "x": 6.5062,
+        "y": 2.6809
       },
       "id": "object_001",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          139,
+          187,
+          84
+        ],
+        "focus": false,
+        "line": [
+          229,
+          132,
+          155
+        ],
+        "line_width": 5.008016457830637,
+        "outline_only": false,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Pick"
+      },
+      "type": "shape",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 4.8711,
+        "w": 4.6583,
+        "x": 4.6866,
+        "y": 2.2124
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          163,
+          91,
+          133
+        ],
+        "focus": false,
+        "line": [
+          175,
+          189,
+          153
+        ],
+        "line_width": 5.064832409563342,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Pick"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.1431,
+        "w": 6.0817,
+        "x": 2.9726,
+        "y": 0.6573
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          36,
+          32,
+          29
         ],
-        "font_face": "Arial",
-        "font_size": 38,
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Count Oafish Cherries",
-        "theme_topic": "Whip",
+        "text": "Edge Ill-Fated Chess Grin",
+        "theme_topic": "Pick",
         "underline": false
       },
       "type": "text",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 5.0427,
-        "w": 3.2663,
-        "x": 9.4503,
-        "y": 1.9009
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          155,
-          105,
-          147
-        ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          155,
-          105,
-          147
-        ],
-        "border": [
-          121,
-          95,
-          48
-        ],
-        "border_dash": "solid",
-        "border_width": 2.987515840697324,
-        "cells": [
-          [
-            "jealous rainstorm",
-            "quilt",
-            "root",
-            "relation ghost",
-            "carve jail",
-            "tickle carve"
-          ],
-          [
-            "salt",
-            "charming invincible",
-            "nutritious",
-            "flower",
-            "fold",
-            "deceive"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 8,
-        "has_header": true,
-        "header": [
-          31,
-          117,
-          161
-        ],
-        "rows": 2,
-        "text_color": [
-          246,
-          248,
-          252
-        ],
-        "theme_topic": "Whip"
-      },
-      "type": "table",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 5.1824,
-        "w": 4.6265,
-        "x": 0.5429,
-        "y": 1.8726
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.09419932255856926,
-          0.16962464388009194,
-          0.2716000739206545,
-          0.32287082155336827
-        ],
-        "focus": true,
-        "mask_line": [
-          184,
-          163,
-          53
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Whip",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.182,
-        "w": 3.4863,
-        "x": 5.5508,
-        "y": 1.8311
+        "h": 0.7076,
+        "w": 1.737,
+        "x": 8.7468,
+        "y": 3.4353
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.08019909459507912,
-          0.10934130033616941,
-          0.014752506293260824,
-          0.06049739099469154
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
         ],
-        "focus": true,
-        "mask_line": [
-          146,
-          217,
-          119
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Whip",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "clap exchange moan offend moan drawer include behave sparkling gun female strange wandering tremendous land",
+        "theme_topic": "Pick",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.2711,
-        "w": 3.128,
-        "x": 5.7393,
-        "y": 6.5428
+        "h": 0.7387,
+        "w": 1.3263,
+        "x": 11.1965,
+        "y": 3.452
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          31,
-          117,
-          161
+          123,
+          113,
+          103
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Itch Meat Brick",
-        "theme_topic": "Whip",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "drunk toad cherry air marry judge basin gamy premium gold clever hellish basin",
+        "theme_topic": "Pick",
         "underline": false
       },
       "type": "text",
@@ -227,99 +196,97 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.2854,
-        "x": 0.9397,
-        "y": 2.6542
+        "h": 1.2414,
+        "w": 5.5578,
+        "x": 0.7694,
+        "y": 2.206
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          115,
-          139,
-          230
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          36,
+          32,
+          29
         ],
-        "focus": false,
-        "line": [
-          149,
-          153,
-          196
-        ],
-        "line_width": 3.1525999583487123,
-        "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Whip"
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Melted Skate Melodic Park Skirt",
+        "theme_topic": "Pick",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.494,
-        "w": 1.3715,
-        "x": 10.2715,
-        "y": 4.7392
+        "h": 0.3658,
+        "w": 3.0478,
+        "x": 0.7518,
+        "y": 3.625
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          219,
-          138,
-          38
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
         ],
-        "focus": false,
-        "line": [
-          146,
-          123,
-          169
-        ],
-        "line_width": 5.082786468396736,
-        "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Whip"
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "ABSENT",
+        "theme_topic": "Pick",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.9527,
-        "w": 1.434,
-        "x": 3.923,
-        "y": 4.1608
+        "h": 0.8106,
+        "w": 1.267,
+        "x": 6.8811,
+        "y": 6.0567
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          164,
-          26,
-          49
+          36,
+          32,
+          29
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Whip",
-        "width": 0.3499790835550014
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "idea thing frighten general fetch like",
+        "theme_topic": "Pick",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.5464,
-        "w": 1.0171,
-        "x": 11.5057,
-        "y": 6.3544
+        "h": 0.8027,
+        "w": 1.3973,
+        "x": 8.43,
+        "y": 6.067
       },
       "id": "object_009",
       "properties": {
@@ -327,84 +294,78 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          187,
-          75,
-          185
+          36,
+          32,
+          29
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": true,
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "face industrious thrill",
-        "theme_topic": "Whip",
-        "underline": true
+        "text": "calculator hammer useful limping",
+        "theme_topic": "Pick",
+        "underline": false
       },
       "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.8987,
-        "w": 1.1564,
-        "x": 10.3291,
-        "y": 2.231
+        "h": 0.7882,
+        "w": 5.6861,
+        "x": 0.6977,
+        "y": 4.7848
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
-        "fill": [
-          105,
-          105,
-          74
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          90,
+          132,
+          73
         ],
-        "focus": false,
-        "line": [
-          115,
-          104,
-          142
-        ],
-        "line_width": 5.216159766439887,
-        "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Whip"
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Sturdy Close Spooky Current",
+        "theme_topic": "Pick",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4613,
-        "w": 1.09,
-        "x": 8.6756,
-        "y": 3.1304
+        "h": 1.0932,
+        "w": 5.6596,
+        "x": 0.6896,
+        "y": 5.8731
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          72,
-          151,
-          43
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
         ],
-        "focus": false,
-        "line": [
-          31,
-          117,
-          161
-        ],
-        "line_width": 1.7219647092421537,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Whip"
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "frail pizzas brainy silent devilish heavy offend tiny release shoe",
+        "theme_topic": "Pick",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     }
   ],

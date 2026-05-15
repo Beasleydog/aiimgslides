@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "fill": [
-        149,
-        197,
-        87
+      "colors": [
+        [
+          28,
+          62,
+          151
+        ],
+        [
+          32,
+          119,
+          149
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Collect Cave"
+      "fill": [
+        207,
+        61,
+        148
+      ],
+      "focus": "center",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Functional"
     },
     "type": "background",
     "z_order": 0
@@ -30,10 +45,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.1719,
-        "w": 7.4052,
-        "x": 3.1999,
-        "y": 4.7951
+        "h": 4.9969,
+        "w": 6.0132,
+        "x": 6.1534,
+        "y": -0.3231
       },
       "id": "object_001",
       "properties": {
@@ -41,160 +56,97 @@
         "dash": 1,
         "family": "basic",
         "fill": [
-          59,
-          75,
-          118
+          120,
+          96,
+          136
         ],
         "focus": false,
         "line": [
-          60,
-          96,
-          204
+          47,
+          156,
+          173
         ],
-        "line_width": 6.5040733550189245,
-        "outline_only": true,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Collect Cave"
+        "line_width": 4.451687575132457,
+        "outline_only": false,
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Functional"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.0561,
-        "w": 7.3444,
-        "x": 1.4699,
-        "y": -0.1061
+        "h": 2.176,
+        "w": 3.0419,
+        "x": 7.576,
+        "y": -0.3259
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "symbols",
+        "family": "arrows",
         "fill": [
-          92,
-          123,
-          129
+          115,
+          43,
+          202
         ],
         "focus": false,
         "line": [
-          75,
-          102,
-          96
+          163,
+          204,
+          53
         ],
-        "line_width": 6.562225054763965,
+        "line_width": 7.75633843917115,
         "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Collect Cave"
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Functional"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.6205,
-        "w": 6.9429,
-        "x": 0.1882,
-        "y": 3.765
+        "h": 4.4045,
+        "w": 6.6131,
+        "x": 1.0859,
+        "y": 3.8863
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "arrows",
         "fill": [
-          137,
-          179,
-          83
+          76,
+          63,
+          159
         ],
         "focus": false,
         "line": [
-          148,
-          63,
-          131
+          170,
+          94,
+          163
         ],
-        "line_width": 4.882975043465306,
+        "line_width": 2.014206584432302,
         "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Collect Cave"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Functional"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.4927,
-        "w": 4.5931,
-        "x": 9.4739,
-        "y": -0.1709
+        "h": 1.1622,
+        "w": 8.5686,
+        "x": 3.2616,
+        "y": 0.6603
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          96,
-          116,
-          114
-        ],
-        "focus": false,
-        "line": [
-          92,
-          42,
-          58
-        ],
-        "line_width": 3.6314012650526752,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Collect Cave"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 4.4223,
-        "w": 4.6988,
-        "x": 8.6147,
-        "y": 3.0915
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          135,
-          179,
-          79
-        ],
-        "line": [
-          135,
-          179,
-          79
-        ],
-        "line_width": 2.7020392155796418,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Collect Cave"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.1353,
-        "w": 7.7906,
-        "x": 3.4864,
-        "y": 0.6628
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -204,13 +156,73 @@
           30,
           36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 30,
+        "font_face": "Aptos Display",
+        "font_size": 38,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Farm Creepy Cuddly Truck Event",
-        "theme_topic": "Collect Cave",
+        "text": "Look Noxious",
+        "theme_topic": "Functional",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 2.4462,
+        "w": 12.2301,
+        "x": 0.5342,
+        "y": 4.642
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          214,
+          92,
+          165
+        ],
+        "line": [
+          214,
+          92,
+          165
+        ],
+        "line_width": 4.265749043931884,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Functional"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.933,
+        "w": 11.8889,
+        "x": 0.7398,
+        "y": 5.1396
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          207,
+          61,
+          148
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 41,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "13%",
+        "theme_topic": "Functional",
         "underline": false
       },
       "type": "text",
@@ -218,10 +230,10 @@
     },
     {
       "bbox": {
-        "h": 0.8707,
-        "w": 0.9446,
-        "x": 0.6192,
-        "y": 5.9805
+        "h": 0.5735,
+        "w": 11.8633,
+        "x": 0.7091,
+        "y": 6.0768
       },
       "id": "object_007",
       "properties": {
@@ -233,13 +245,13 @@
           30,
           36
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "provide grumpy zinc truthful",
-        "theme_topic": "Collect Cave",
+        "text": "sassy island guarantee murder nondescript reproduce obnoxious groan desk",
+        "theme_topic": "Functional",
         "underline": false
       },
       "type": "text",
@@ -247,57 +259,57 @@
     },
     {
       "bbox": {
-        "h": 0.8799,
-        "w": 0.8272,
-        "x": 1.8539,
-        "y": 5.9771
+        "h": 2.2766,
+        "w": 3.8307,
+        "x": 8.9541,
+        "y": 2.0243
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
+        "crop": [
+          0.32231355968184683,
+          0.16242788767277844,
+          0.04206218208892038,
+          0.2265478890068984
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "psychotic purpose smoke erratic woozy",
-        "theme_topic": "Collect Cave",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          214,
+          200,
+          193
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Functional",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.8867,
-        "w": 0.9483,
-        "x": 3.9983,
-        "y": 5.9689
+        "h": 0.2803,
+        "w": 3.467,
+        "x": 9.1023,
+        "y": 3.8609
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          28,
-          30,
-          36
+          32,
+          119,
+          149
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "lunchroom brief appreciate harsh vase ripe zippy",
-        "theme_topic": "Collect Cave",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Half Breathe",
+        "theme_topic": "Functional",
         "underline": false
       },
       "type": "text",
@@ -305,28 +317,28 @@
     },
     {
       "bbox": {
-        "h": 0.8777,
-        "w": 0.9782,
-        "x": 5.2641,
-        "y": 5.9647
+        "h": 0.786,
+        "w": 3.7101,
+        "x": 0.6907,
+        "y": 2.1294
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
           28,
           30,
           36
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
+        "font_face": "Aptos Display",
+        "font_size": 26,
+        "italic": true,
+        "kind": "header",
         "margin": 0.04,
-        "text": "bell bang dry familiar educate",
-        "theme_topic": "Collect Cave",
+        "text": "Shaggy Button Crazy",
+        "theme_topic": "Functional",
         "underline": false
       },
       "type": "text",
@@ -334,80 +346,31 @@
     },
     {
       "bbox": {
-        "h": 1.9315,
-        "w": 12.1614,
-        "x": 0.5949,
-        "y": 2.0457
+        "h": 1.0131,
+        "w": 3.6704,
+        "x": 0.6848,
+        "y": 3.1621
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          135,
-          179,
-          79
-        ],
-        "band_cols": true,
-        "band_rows": false,
-        "body": [
-          128,
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          108,
           43,
-          48
+          86
         ],
-        "border": [
-          181,
-          219,
-          31
-        ],
-        "border_dash": "dash",
-        "border_width": 3.268336730385521,
-        "cells": [
-          [
-            "puny",
-            "teaching"
-          ],
-          [
-            "loutish busy",
-            "calculating"
-          ],
-          [
-            "drip",
-            "soup"
-          ],
-          [
-            "wail afraid",
-            "bag"
-          ],
-          [
-            "soda rush",
-            "amusement"
-          ],
-          [
-            "synonymous limping",
-            "earsplitting"
-          ],
-          [
-            "answer",
-            "rinse protective"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 14,
-        "has_header": true,
-        "header": [
-          50,
-          149,
-          169
-        ],
-        "rows": 7,
-        "text_color": [
-          193,
-          174,
-          35
-        ],
-        "theme_topic": "Collect Cave"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "rest tan descriptive fax bed legal undress cable flaky tomatoes filthy chemical taboo known enthusiastic verse price ship grieving attach breezy",
+        "theme_topic": "Functional",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 11
     }
   ],

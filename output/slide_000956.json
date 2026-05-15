@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
+      "angle": 135,
       "archetype": "atomic_composition",
       "colors": [
         [
-          195,
-          223,
-          64
+          18,
+          129,
+          148
         ],
         [
-          174,
-          73,
-          92
+          128,
+          93,
+          70
         ]
       ],
       "fill": [
-        252,
-        249,
-        244
+        18,
+        129,
+        148
       ],
-      "focus": "top_right",
-      "gradient_type": "shape",
+      "focus": "bottom_right",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Flock"
+      "theme_topic": "Grandiose"
     },
     "type": "background",
     "z_order": 0
@@ -45,120 +45,121 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.8206,
-        "w": 4.2626,
-        "x": -0.6088,
-        "y": 1.6203
+        "h": 2.3271,
+        "w": 4.2402,
+        "x": 2.95,
+        "y": 1.5957
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "callouts",
         "fill": [
-          163,
-          88,
-          209
+          175,
+          207,
+          208
         ],
         "focus": false,
         "line": [
-          161,
-          83,
-          157
+          39,
+          65,
+          194
         ],
-        "line_width": 4.430591611489907,
+        "line_width": 7.3016611777594616,
         "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Flock"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Grandiose"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.5532,
-        "w": 2.8382,
-        "x": 0.6643,
-        "y": 0.7683
+        "h": 2.4192,
+        "w": 4.9246,
+        "x": 0.4115,
+        "y": 1.9942
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "flowchart",
+        "fill": [
+          74,
+          162,
+          138
+        ],
+        "focus": false,
+        "line": [
+          198,
+          35,
+          75
+        ],
+        "line_width": 3.340644344811584,
+        "outline_only": true,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Grandiose"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.0218,
+        "w": 6.6078,
+        "x": 0.5341,
+        "y": 0.344
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          36,
-          32,
-          29
+          246,
+          248,
+          252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
+        "font_face": "Aptos Display",
+        "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hurry Different Wacky",
-        "theme_topic": "Flock",
+        "text": "Ruddy Prepare",
+        "theme_topic": "Grandiose",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.6255,
-        "w": 0.6125,
-        "x": 7.4079,
-        "y": 1.2606
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          174,
-          73,
-          92
-        ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 4.205353654241898,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Flock"
-      },
-      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.7304,
-        "w": 2.0483,
-        "x": 6.6303,
-        "y": 1.8947
+        "h": 0.4647,
+        "w": 1.2257,
+        "x": 7.044,
+        "y": 5.4178
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          36,
-          32,
-          29
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "decide brown wrong adaptable better",
-        "theme_topic": "Flock",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Unpack Sniff",
+        "theme_topic": "Grandiose",
         "underline": false
       },
       "type": "text",
@@ -166,59 +167,57 @@
     },
     {
       "bbox": {
-        "h": 0.6005,
-        "w": 0.5866,
-        "x": 7.5487,
-        "y": 3.6439
+        "h": 0.8064,
+        "w": 1.2133,
+        "x": 7.0212,
+        "y": 5.995
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          174,
-          73,
-          92
-        ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 5.338131804563155,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Flock"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.5772,
-        "w": 2.0281,
-        "x": 6.646,
-        "y": 3.9913
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          36,
-          32,
-          29
+          143,
+          194,
+          205
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "coast digestion sharp tart",
-        "theme_topic": "Flock",
+        "text": "mourn quince arrogant youthful detect object honey better trees tearful spicy file",
+        "theme_topic": "Grandiose",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.4632,
+        "w": 1.3246,
+        "x": 8.9457,
+        "y": 5.4354
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          117,
+          161
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Evasive Dapper",
+        "theme_topic": "Grandiose",
         "underline": false
       },
       "type": "text",
@@ -226,120 +225,128 @@
     },
     {
       "bbox": {
-        "h": 0.6196,
-        "w": 0.6155,
-        "x": 7.5209,
-        "y": 5.6514
+        "h": 0.809,
+        "w": 1.3264,
+        "x": 8.9323,
+        "y": 5.9728
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          174,
-          73,
-          92
-        ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 5.019044135734727,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Flock"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.6521,
-        "w": 2.0394,
-        "x": 6.6113,
-        "y": 6.0475
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          36,
-          32,
-          29
+          143,
+          194,
+          205
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "refuse burly decide thin innocent",
-        "theme_topic": "Flock",
+        "text": "committee downtown sedate back creator condemned available bells",
+        "theme_topic": "Grandiose",
         "underline": false
       },
       "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 2.4586,
+        "w": 2.0181,
+        "x": 10.7527,
+        "y": 4.5485
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          85,
+          164,
+          178
+        ],
+        "line": [
+          85,
+          164,
+          178
+        ],
+        "line_width": 3.94396423402857,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Grandiose"
+      },
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 2.3612,
-        "w": 0.1443,
-        "x": 7.7109,
-        "y": 1.577
+        "h": 0.435,
+        "w": 1.5446,
+        "x": 10.9976,
+        "y": 5.414
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          123,
-          113,
-          103
+          31,
+          117,
+          161
         ],
-        "connector": "curve",
-        "dash": 5,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Flock",
-        "width": 3.401311985501053
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "General",
+        "theme_topic": "Grandiose",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 2.0116,
-        "w": 0.1,
-        "x": 7.8552,
-        "y": 3.9382
+        "h": 0.8232,
+        "w": 1.5185,
+        "x": 11.0075,
+        "y": 5.9651
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          123,
-          113,
-          103
+          143,
+          194,
+          205
         ],
-        "connector": "straight",
-        "dash": 7,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Flock",
-        "width": 1.047616248412063
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "overt rings picture supply venomous door railway search sniff bustling wilderness minister ladybug rural color",
+        "theme_topic": "Grandiose",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.2896,
-        "w": 2.125,
-        "x": 3.8831,
-        "y": 0.7721
+        "h": 0.4513,
+        "w": 0.8221,
+        "x": 0.8024,
+        "y": 5.4605
       },
       "id": "object_011",
       "properties": {
@@ -347,17 +354,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "WEALTH CONCENTRATE",
-        "theme_topic": "Flock",
+        "text": "Day",
+        "theme_topic": "Grandiose",
         "underline": false
       },
       "type": "text",
@@ -365,28 +372,28 @@
     },
     {
       "bbox": {
-        "h": 1.0252,
-        "w": 2.1293,
-        "x": 3.8814,
-        "y": 1.234
+        "h": 0.7966,
+        "w": 0.8443,
+        "x": 0.7922,
+        "y": 5.9941
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          36,
-          32,
-          29
+          143,
+          194,
+          205
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 19,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Help Beds Flock Intelligent",
-        "theme_topic": "Flock",
+        "text": "hospital detailed radiate mountainous snakes desire shocking pointless sock throat",
+        "theme_topic": "Grandiose",
         "underline": false
       },
       "type": "text",
@@ -394,28 +401,28 @@
     },
     {
       "bbox": {
-        "h": 4.2196,
-        "w": 2.1269,
-        "x": 3.907,
-        "y": 2.5345
+        "h": 0.4376,
+        "w": 0.6081,
+        "x": 2.3471,
+        "y": 5.4548
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          123,
-          113,
-          103
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "heady venomous detail narrow questionable enchanting prefer inquisitive scintillating plain live oatmeal omniscient",
-        "theme_topic": "Flock",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Naive",
+        "theme_topic": "Grandiose",
         "underline": false
       },
       "type": "text",
@@ -423,41 +430,39 @@
     },
     {
       "bbox": {
-        "h": 6.2693,
-        "w": 3.6072,
-        "x": 9.1071,
-        "y": 0.6345
+        "h": 0.7891,
+        "w": 0.5912,
+        "x": 2.3754,
+        "y": 5.9979
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          242,
-          233,
-          222
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          143,
+          194,
+          205
         ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 0.8701998212670956,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Flock"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "spiffy belligerent shock farm hole jobless deserve idea",
+        "theme_topic": "Grandiose",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 1.1266,
-        "w": 3.2505,
-        "x": 9.3226,
-        "y": 1.7694
+        "h": 0.4276,
+        "w": 0.955,
+        "x": 3.7206,
+        "y": 5.4156
       },
       "id": "object_015",
       "properties": {
@@ -465,17 +470,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          252,
-          249,
-          244
+          31,
+          117,
+          161
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 42,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "47%",
-        "theme_topic": "Flock",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Slim Annoyed",
+        "theme_topic": "Grandiose",
         "underline": false
       },
       "type": "text",
@@ -483,10 +488,10 @@
     },
     {
       "bbox": {
-        "h": 0.692,
-        "w": 3.258,
-        "x": 9.3117,
-        "y": 4.4899
+        "h": 0.8284,
+        "w": 0.9502,
+        "x": 3.6797,
+        "y": 5.9906
       },
       "id": "object_016",
       "properties": {
@@ -494,17 +499,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          36,
-          32,
-          29
+          143,
+          194,
+          205
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "alert limping cruel prepare wrathful minister",
-        "theme_topic": "Flock",
+        "text": "bike vacation melt wild abaft electric spiffy soup wind fancy",
+        "theme_topic": "Grandiose",
         "underline": false
       },
       "type": "text",
@@ -512,156 +517,155 @@
     },
     {
       "bbox": {
-        "h": 1.2819,
-        "w": 1.7487,
-        "x": 3.45,
-        "y": 3.0419
+        "h": 0.4663,
+        "w": 0.9122,
+        "x": 5.3979,
+        "y": 5.4155
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          181,
-          151,
-          134
+          31,
+          117,
+          161
         ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Flock",
-        "width": 1.8306905587600926
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Produce Squalid",
+        "theme_topic": "Grandiose",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.8394,
-        "w": 0.7935,
-        "x": 2.7298,
-        "y": 1.5956
+        "h": 0.7966,
+        "w": 0.9285,
+        "x": 5.3866,
+        "y": 5.98
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          85,
-          102,
-          167
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          143,
+          194,
+          205
         ],
-        "focus": false,
-        "line": [
-          140,
-          149,
-          76
-        ],
-        "line_width": 1.1502087457457204,
-        "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Flock"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "past warm one gullible womanly turn unknown amuse profit broken abaft recondite loutish",
+        "theme_topic": "Grandiose",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.3258,
-        "w": 1.2895,
-        "x": 4.3251,
-        "y": 0.1756
+        "h": 2.4921,
+        "w": 5.9836,
+        "x": 0.5338,
+        "y": 1.8579
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          95,
-          31,
-          211
+        "crop": [
+          0.0026178252499490127,
+          0.16087048978308105,
+          0.17806607072680802,
+          0.13084510523747442
         ],
-        "focus": false,
-        "line": [
-          138,
-          135,
-          51
+        "focus": true,
+        "mask_line": [
+          45,
+          225,
+          32
         ],
-        "line_width": 1.9619830869830617,
-        "outline_only": true,
-        "ppt_type": 22,
-        "shape": "lightning",
-        "theme_topic": "Flock"
+        "mask_overlay": true,
+        "theme_topic": "Grandiose",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.2658,
-        "w": 0.6978,
-        "x": 8.8431,
-        "y": 4.8906
+        "h": 0.2593,
+        "w": 5.5857,
+        "x": 0.7633,
+        "y": 3.8735
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
-        "fill": [
-          29,
-          227,
-          48
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          117,
+          161
         ],
-        "focus": false,
-        "line": [
-          134,
-          36,
-          212
-        ],
-        "line_width": 5.873898234592154,
-        "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Flock"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Guide Hurried Pail",
+        "theme_topic": "Grandiose",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.3895,
-        "w": 0.7999,
-        "x": 6.2763,
-        "y": 1.6699
+        "h": 0.8274,
+        "w": 5.7056,
+        "x": 6.9531,
+        "y": 1.9684
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          69,
-          28,
-          171
+          246,
+          248,
+          252
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Flock",
-        "width": 0.4629254471676304
+        "font_face": "Aptos Display",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Thing Bell Necessary",
+        "theme_topic": "Grandiose",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.5269,
-        "w": 1.1271,
-        "x": 8.0477,
-        "y": 2.9355
+        "h": 1.1488,
+        "w": 5.7227,
+        "x": 6.9371,
+        "y": 3.046
       },
       "id": "object_022",
       "properties": {
@@ -669,17 +673,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          209,
-          179,
-          47
+          143,
+          194,
+          205
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "nose complete",
-        "theme_topic": "Flock",
+        "text": "well-groomed bait fang grade ill-fated lean rake umbrella broad",
+        "theme_topic": "Grandiose",
         "underline": false
       },
       "type": "text",
@@ -687,59 +691,60 @@
     },
     {
       "bbox": {
-        "h": 0.7679,
-        "w": 0.3064,
-        "x": 7.0675,
-        "y": 3.705
+        "h": 0.4311,
+        "w": 0.9767,
+        "x": 6.3861,
+        "y": 4.2368
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          102,
-          118,
-          186
-        ],
-        "focus": false,
-        "line": [
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          46,
           94,
-          69,
-          46
+          50
         ],
-        "line_width": 1.619263118068536,
-        "outline_only": false,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Flock"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Mourn Numberless Governor",
+        "theme_topic": "Grandiose",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.9629,
-        "w": 1.5569,
-        "x": 8.1173,
-        "y": 1.3713
+        "h": 0.5177,
+        "w": 1.8836,
+        "x": 10.3164,
+        "y": 0.42
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          182,
-          91,
-          41
+          135,
+          139,
+          180
         ],
-        "connector": "straight",
-        "dash": 7,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Flock",
-        "width": 0.9129224795826112
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Switch Rat",
+        "theme_topic": "Grandiose",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 24
     }
   ],

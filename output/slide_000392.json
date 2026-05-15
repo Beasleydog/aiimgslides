@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 90,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          202,
-          134,
-          200
-        ],
-        [
-          174,
-          73,
-          92
-        ]
-      ],
       "fill": [
-        175,
-        70,
-        172
+        206,
+        60,
+        214
       ],
-      "focus": "bottom_left",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Eye"
+      "style": "solid",
+      "theme_topic": "Board"
     },
     "type": "background",
     "z_order": 0
@@ -45,156 +30,152 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.0611,
-        "w": 3.3682,
-        "x": 7.7434,
-        "y": -0.6915
+        "h": 1.6314,
+        "w": 6.8202,
+        "x": 6.1089,
+        "y": 1.5843
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          195,
-          132,
-          143
+          113,
+          59,
+          93
         ],
         "focus": false,
         "line": [
-          160,
-          119,
-          41
+          80,
+          146,
+          64
         ],
-        "line_width": 6.83791805158673,
-        "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Eye"
+        "line_width": 5.451318436721214,
+        "outline_only": true,
+        "ppt_type": 142,
+        "shape": "pie",
+        "theme_topic": "Board"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.8445,
-        "w": 7.6356,
-        "x": 3.5952,
-        "y": 0.1018
+        "h": 2.2501,
+        "w": 4.4626,
+        "x": 5.6863,
+        "y": 1.6542
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          93,
-          78,
-          127
+          132,
+          143,
+          103
         ],
         "focus": false,
         "line": [
-          155,
-          170,
-          94
+          80,
+          27,
+          161
         ],
-        "line_width": 5.284783030922137,
-        "outline_only": false,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Eye"
+        "line_width": 4.133895524236616,
+        "outline_only": true,
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Board"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.5984,
-        "w": 7.832,
-        "x": 0.9772,
-        "y": 2.9567
+        "h": 7.4894,
+        "w": 0.7815,
+        "x": 0.0146,
+        "y": 0.019
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "math",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          111,
-          185,
-          169
+          178,
+          52,
+          185
         ],
-        "focus": false,
         "line": [
-          136,
-          151,
-          156
+          178,
+          52,
+          185
         ],
-        "line_width": 3.9963024530894593,
+        "line_width": 2.5947042048752715,
         "outline_only": false,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Eye"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Board"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.5424,
-        "w": 5.1294,
-        "x": 3.6536,
-        "y": 1.8276
+        "h": 0.6279,
+        "w": 2.7702,
+        "x": 3.4415,
+        "y": 5.7152
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
-        "fill": [
-          178,
-          53,
-          153
-        ],
-        "focus": false,
-        "line": [
-          218,
-          220,
-          74
-        ],
-        "line_width": 4.735955571125169,
-        "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Eye"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.1329,
-        "w": 6.8902,
-        "x": 3.0764,
-        "y": 0.6381
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          51,
+          63,
+          101
         ],
-        "font_face": "Aptos Display",
-        "font_size": 34,
+        "font_face": "Georgia",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Muddle Coil Ludicrous",
-        "theme_topic": "Eye",
+        "text": "98%",
+        "theme_topic": "Board",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.3639,
+        "w": 2.7908,
+        "x": 3.4101,
+        "y": 6.4454
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          108,
+          43,
+          116
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "authority hurry six colour joyous tow high-pitched",
+        "theme_topic": "Board",
         "underline": false
       },
       "type": "text",
@@ -202,70 +183,70 @@
     },
     {
       "bbox": {
-        "h": 1.2362,
-        "w": 6.0952,
-        "x": 0.5503,
-        "y": 3.7711
+        "h": 1.39,
+        "w": 3.5272,
+        "x": 6.559,
+        "y": 5.5518
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 2,
         "family": "panel",
         "fill": [
-          202,
-          134,
-          200
+          117,
+          81,
+          63
         ],
         "line": [
-          202,
-          134,
-          200
+          178,
+          52,
+          185
         ],
-        "line_width": 1.8505643232531679,
+        "line_width": 1.4546810734150197,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Eye"
+        "theme_topic": "Board"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.9726,
-        "w": 5.81,
-        "x": 0.6846,
-        "y": 3.933
+        "h": 0.6287,
+        "w": 3.1762,
+        "x": 6.7661,
+        "y": 5.734
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1760764851615878,
-          7.698556315405614e-05,
-          0.11770033789048819,
-          0.27708766800503215
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          51,
+          63,
+          101
         ],
-        "focus": false,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Eye",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Georgia",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "63%",
+        "theme_topic": "Board",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.7379,
-        "w": 3.1055,
-        "x": 0.7058,
-        "y": 6.22
+        "h": 0.3989,
+        "w": 3.1581,
+        "x": 6.7468,
+        "y": 6.4829
       },
       "id": "object_008",
       "properties": {
@@ -273,17 +254,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          94,
-          48,
-          97
+          108,
+          43,
+          116
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "light join breakable drag",
-        "theme_topic": "Eye",
+        "text": "exultant exist iron creepy broken",
+        "theme_topic": "Board",
         "underline": false
       },
       "type": "text",
@@ -291,39 +272,95 @@
     },
     {
       "bbox": {
-        "h": 0.4623,
-        "w": 5.3087,
-        "x": 7.2436,
-        "y": 2.8849
+        "h": 3.4814,
+        "w": 6.7411,
+        "x": 3.2852,
+        "y": 1.7811
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
+        "band": [
+          178,
+          52,
+          185
         ],
-        "font_face": "Aptos",
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          230,
+          115,
+          52
+        ],
+        "border": [
+          155,
+          69,
+          217
+        ],
+        "border_dash": "solid",
+        "border_width": 1.7515529853988285,
+        "cells": [
+          [
+            "sheep week",
+            "hammer ceaseless",
+            "spurious deafening",
+            "impossible",
+            "teaching"
+          ],
+          [
+            "temporary",
+            "salty",
+            "skirt full",
+            "realize lip",
+            "massive big"
+          ],
+          [
+            "reply",
+            "delirious zephyr",
+            "normal mint",
+            "selective",
+            "vagabond daily"
+          ],
+          [
+            "fact",
+            "likeable tap",
+            "rings bizarre",
+            "shivering",
+            "trousers party"
+          ],
+          [
+            "economic",
+            "whip angry",
+            "plate",
+            "work ticket",
+            "tan"
+          ]
+        ],
+        "cols": 5,
         "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Flower",
-        "theme_topic": "Eye",
-        "underline": false
+        "has_header": false,
+        "header": [
+          208,
+          205,
+          104
+        ],
+        "rows": 5,
+        "text_color": [
+          47,
+          124,
+          68
+        ],
+        "theme_topic": "Board"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4667,
-        "w": 5.3247,
-        "x": 7.2203,
-        "y": 4.2932
+        "h": 0.5347,
+        "w": 1.3529,
+        "x": 10.1796,
+        "y": 2.5926
       },
       "id": "object_010",
       "properties": {
@@ -331,17 +368,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          210,
+          213,
+          144
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 5,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Harmony",
-        "theme_topic": "Eye",
+        "text": "Breath Scarf",
+        "theme_topic": "Board",
         "underline": false
       },
       "type": "text",

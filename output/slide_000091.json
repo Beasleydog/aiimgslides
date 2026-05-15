@@ -8,13 +8,13 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 180,
+      "angle": 30,
       "archetype": "atomic_composition",
       "colors": [
         [
-          93,
-          113,
-          191
+          148,
+          236,
+          141
         ],
         [
           244,
@@ -23,14 +23,14 @@
         ]
       ],
       "fill": [
-        109,
-        133,
-        223
+        90,
+        226,
+        79
       ],
-      "focus": "bottom_right",
-      "gradient_type": "linear",
+      "focus": "top_left",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Tickle Queen"
+      "theme_topic": "Swing Blushing"
     },
     "type": "background",
     "z_order": 0
@@ -45,117 +45,95 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.9458,
-        "w": 5.7839,
-        "x": 6.998,
-        "y": 5.0591
+        "h": 1.7177,
+        "w": 7.7189,
+        "x": 0.173,
+        "y": 6.4921
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "north",
-          "rain",
-          "river",
-          "women"
+        "dash": 4,
+        "family": "symbols",
+        "fill": [
+          166,
+          150,
+          98
         ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              208,
-              215,
-              140
-            ],
-            "name": "fit",
-            "values": [
-              65,
-              78,
-              72,
-              67
-            ]
-          },
-          {
-            "color": [
-              78,
-              142,
-              95
-            ],
-            "name": "miniature",
-            "values": [
-              69,
-              22,
-              43,
-              36
-            ]
-          }
+        "focus": false,
+        "line": [
+          197,
+          89,
+          34
         ],
-        "theme_topic": "Tickle Queen",
-        "title": "likeable invent mice"
+        "line_width": 7.8428783818096806,
+        "outline_only": true,
+        "ppt_type": 174,
+        "shape": "funnel",
+        "theme_topic": "Swing Blushing"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.8579,
-        "w": 5.6361,
-        "x": 0.7008,
-        "y": 1.966
+        "h": 2.3713,
+        "w": 7.9423,
+        "x": 4.4398,
+        "y": 3.0586
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.08419061918792571,
-          0.028442279134061138,
-          0.05486200846688526,
-          0.17091372695142035
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          81,
+          87,
+          102
         ],
-        "focus": true,
-        "mask_line": [
-          96,
-          165,
-          250
+        "focus": false,
+        "line": [
+          35,
+          87,
+          107
         ],
-        "mask_overlay": false,
-        "theme_topic": "Tickle Queen",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 2.5006550886907006,
+        "outline_only": false,
+        "ppt_type": 142,
+        "shape": "pie",
+        "theme_topic": "Swing Blushing"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.4438,
-        "w": 5.7641,
-        "x": 7.0186,
-        "y": 3.3489
+        "h": 1.1556,
+        "w": 5.559,
+        "x": 0.5641,
+        "y": 0.3701
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.16066346900408135,
-          0.2912448675886445,
-          0.19412533791344105,
-          0.15302686653768025
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": true,
-        "mask_line": [
-          133,
-          176,
-          133
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Tickle Queen",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Awake Goofy Actually",
+        "theme_topic": "Swing Blushing",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 3
     }
   ],

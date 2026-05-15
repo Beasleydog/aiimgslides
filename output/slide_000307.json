@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        171,
-        111,
-        173
+      "colors": [
+        [
+          228,
+          88,
+          220
+        ],
+        [
+          36,
+          178,
+          149
+        ]
       ],
       "fill": [
-        132,
-        44,
-        135
+        62,
+        84,
+        30
       ],
-      "fore_color": [
-        226,
-        229,
-        59
-      ],
-      "pattern": 7,
-      "style": "pattern",
-      "theme_topic": "Team Air"
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Far-Flung"
     },
     "type": "background",
     "z_order": 0
@@ -41,104 +45,103 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.861,
-        "w": 5.5927,
-        "x": 7.4142,
-        "y": 0.9902
+        "h": 3.4672,
+        "w": 4.5075,
+        "x": -0.8751,
+        "y": 4.5094
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 7,
+        "family": "arrows",
         "fill": [
-          162,
-          32,
-          111
+          103,
+          155,
+          54
         ],
         "focus": false,
         "line": [
-          64,
-          138,
-          70
+          222,
+          68,
+          160
         ],
-        "line_width": 4.131251846640382,
+        "line_width": 4.2667828355569695,
         "outline_only": true,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Team Air"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Far-Flung"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0663,
-        "w": 7.2696,
-        "x": 1.6246,
-        "y": 1.4421
+        "h": 2.6658,
+        "w": 7.4587,
+        "x": 6.4606,
+        "y": 0.066
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 4,
+        "family": "symbols",
         "fill": [
-          157,
-          87,
-          159
+          140,
+          158,
+          42
         ],
+        "focus": false,
         "line": [
-          171,
-          111,
-          173
+          217,
+          186,
+          42
         ],
-        "line_width": 1.6017209639089494,
+        "line_width": 7.422637384742281,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Team Air"
+        "ppt_type": 173,
+        "shape": "gear9",
+        "theme_topic": "Far-Flung"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.0175,
-        "w": 12.2482,
-        "x": 0.568,
-        "y": 3.9605
+        "h": 5.5473,
+        "w": 2.8641,
+        "x": 0.6544,
+        "y": 0.7297
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          171,
-          111,
-          173
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          171,
-          111,
-          173
-        ],
-        "line_width": 0.7812823586444921,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Team Air"
+        "font_face": "Georgia",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Trail Crayon",
+        "theme_topic": "Far-Flung",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.14,
-        "w": 11.8576,
-        "x": 0.7299,
-        "y": 4.5605
+        "h": 0.3502,
+        "w": 2.1128,
+        "x": 8.2673,
+        "y": 2.4629
       },
       "id": "object_004",
       "properties": {
@@ -150,13 +153,13 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 35,
+        "font_face": "Georgia",
+        "font_size": 18,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "299",
-        "theme_topic": "Team Air",
+        "text": "Silly",
+        "theme_topic": "Far-Flung",
         "underline": false
       },
       "type": "text",
@@ -164,10 +167,10 @@
     },
     {
       "bbox": {
-        "h": 0.6956,
-        "w": 11.8755,
-        "x": 0.7251,
-        "y": 5.7461
+        "h": 0.3408,
+        "w": 2.1013,
+        "x": 8.2702,
+        "y": 3.0595
       },
       "id": "object_005",
       "properties": {
@@ -175,17 +178,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          163,
+          174,
+          152
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "oranges eggnog wiry rescue absurd",
-        "theme_topic": "Team Air",
+        "text": "bag busy machine quixotic quickest satisfy purple color fold",
+        "theme_topic": "Far-Flung",
         "underline": false
       },
       "type": "text",
@@ -193,41 +196,39 @@
     },
     {
       "bbox": {
-        "h": 2.9542,
-        "w": 12.2441,
-        "x": 0.5511,
-        "y": 0.5639
+        "h": 0.4303,
+        "w": 1.2072,
+        "x": 7.0433,
+        "y": 4.2602
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          171,
-          111,
-          173
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          156,
+          64,
+          175
         ],
-        "line": [
-          171,
-          111,
-          173
-        ],
-        "line_width": 0.8748315665534929,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Team Air"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Condemned Juggle Placid",
+        "theme_topic": "Far-Flung",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.133,
-        "w": 11.8587,
-        "x": 0.754,
-        "y": 1.1597
+        "h": 0.4452,
+        "w": 2.3924,
+        "x": 9.6529,
+        "y": 5.4401
       },
       "id": "object_007",
       "properties": {
@@ -235,17 +236,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          190,
+          154,
+          116
         ],
-        "font_face": "Arial",
-        "font_size": 36,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "377",
-        "theme_topic": "Team Air",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Wander Donkey",
+        "theme_topic": "Far-Flung",
         "underline": false
       },
       "type": "text",
@@ -253,28 +254,28 @@
     },
     {
       "bbox": {
-        "h": 0.714,
-        "w": 11.8839,
-        "x": 0.7471,
-        "y": 2.3394
+        "h": 0.3056,
+        "w": 1.7864,
+        "x": 6.8076,
+        "y": 3.2678
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          131,
+          127,
+          129
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "vague gamy well-made unsuitable stamp agonizing zonked education",
-        "theme_topic": "Team Air",
+        "text": "furniture pancake future miscreant",
+        "theme_topic": "Far-Flung",
         "underline": false
       },
       "type": "text",

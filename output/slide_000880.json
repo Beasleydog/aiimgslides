@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        106,
-        90,
-        54
+      "colors": [
+        [
+          43,
+          51,
+          64
+        ],
+        [
+          96,
+          165,
+          250
+        ]
       ],
       "fill": [
         25,
         30,
         39
       ],
-      "fore_color": [
-        244,
-        180,
-        76
-      ],
-      "pattern": 43,
-      "style": "pattern",
-      "theme_topic": "Seat"
+      "focus": "bottom_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Prefer"
     },
     "type": "background",
     "z_order": 0
@@ -41,42 +45,42 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.8028,
-        "w": 4.9705,
-        "x": -0.77,
-        "y": -0.7698
+        "h": 2.2229,
+        "w": 5.661,
+        "x": -1.1167,
+        "y": 3.4135
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          89,
-          67,
-          103
+          42,
+          34,
+          166
         ],
         "focus": false,
         "line": [
-          85,
-          202,
-          72
+          226,
+          167,
+          208
         ],
-        "line_width": 7.9590427744016505,
+        "line_width": 4.471631243553069,
         "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Seat"
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Prefer"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0234,
-        "w": 4.7903,
-        "x": 1.641,
-        "y": 0.2519
+        "h": 3.9148,
+        "w": 4.7165,
+        "x": 8.2113,
+        "y": 4.1876
       },
       "id": "object_002",
       "properties": {
@@ -84,33 +88,97 @@
         "dash": 1,
         "family": "arrows",
         "fill": [
-          51,
-          120,
-          89
+          26,
+          135,
+          40
         ],
         "focus": false,
         "line": [
-          127,
-          128,
-          215
+          183,
+          173,
+          153
         ],
-        "line_width": 2.209822003493792,
+        "line_width": 7.628903215725285,
         "outline_only": true,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Seat"
+        "ppt_type": 49,
+        "shape": "striped_right_arrow",
+        "theme_topic": "Prefer"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5716,
-        "w": 2.84,
-        "x": 0.6678,
-        "y": 0.7649
+        "h": 4.9505,
+        "w": 6.8974,
+        "x": 7.2927,
+        "y": 0.0077
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          167,
+          142,
+          115
+        ],
+        "focus": false,
+        "line": [
+          127,
+          133,
+          153
+        ],
+        "line_width": 4.659551120996671,
+        "outline_only": true,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Prefer"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.7542,
+        "w": 3.3265,
+        "x": 8.1194,
+        "y": 1.1632
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          136,
+          27,
+          47
+        ],
+        "focus": false,
+        "line": [
+          113,
+          144,
+          152
+        ],
+        "line_width": 7.732517033419094,
+        "outline_only": false,
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Prefer"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.1363,
+        "w": 6.365,
+        "x": 2.5215,
+        "y": 0.6282
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -120,73 +188,13 @@
           247,
           249
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
+        "font_face": "Arial",
+        "font_size": 37,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Questionable Rural Better",
-        "theme_topic": "Seat",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 6.2549,
-        "w": 0.8801,
-        "x": 9.0359,
-        "y": 0.6528
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          44,
-          67,
-          98
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 5.051416646962034,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Seat"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.7471,
-        "w": 0.5303,
-        "x": 9.2356,
-        "y": 0.8273
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 20,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "12%",
-        "theme_topic": "Seat",
+        "text": "Mark Bake Servant Sticks",
+        "theme_topic": "Prefer",
         "underline": false
       },
       "type": "text",
@@ -194,72 +202,43 @@
     },
     {
       "bbox": {
-        "h": 5.2547,
-        "w": 0.5152,
-        "x": 9.2244,
-        "y": 1.5746
+        "h": 0.9115,
+        "w": 6.8188,
+        "x": 0.5621,
+        "y": 1.9827
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          177,
-          185,
-          196
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "different snatch brick possess ban cultured creator",
-        "theme_topic": "Seat",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 6.2575,
-        "w": 0.6823,
-        "x": 10.1089,
-        "y": 0.661
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 7,
         "family": "panel",
         "fill": [
-          64,
-          54,
-          55
+          43,
+          51,
+          64
         ],
         "line": [
           43,
           51,
           64
         ],
-        "line_width": 4.271385965657536,
+        "line_width": 4.6877198068198735,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Seat"
+        "theme_topic": "Prefer"
       },
       "type": "shape",
-      "z_order": 7
+      "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.7354,
-        "w": 0.322,
-        "x": 10.2905,
-        "y": 0.8064
+        "h": 0.4372,
+        "w": 6.2811,
+        "x": 0.8173,
+        "y": 2.9131
       },
-      "id": "object_008",
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -269,42 +248,73 @@
           165,
           250
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 20,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "78",
-        "theme_topic": "Seat",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Knowing",
+        "theme_topic": "Prefer",
         "underline": false
       },
       "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 1.2543,
+        "w": 6.8206,
+        "x": 0.5623,
+        "y": 3.0996
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 2.2655938697350235,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Prefer"
+      },
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 5.2266,
-        "w": 0.3329,
-        "x": 10.2953,
-        "y": 1.5451
+        "h": 0.4405,
+        "w": 6.2995,
+        "x": 0.7952,
+        "y": 3.9972
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          177,
-          185,
-          196
+          96,
+          165,
+          250
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "squalid flood morning beds",
-        "theme_topic": "Seat",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Scatter",
+        "theme_topic": "Prefer",
         "underline": false
       },
       "type": "text",
@@ -312,12 +322,43 @@
     },
     {
       "bbox": {
-        "h": 0.7597,
-        "w": 0.3566,
-        "x": 11.1451,
-        "y": 0.8154
+        "h": 1.0458,
+        "w": 6.8053,
+        "x": 0.5613,
+        "y": 4.5461
       },
       "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 0.8835907822971969,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Prefer"
+      },
+      "type": "shape",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.4385,
+        "w": 6.3029,
+        "x": 0.778,
+        "y": 5.4599
+      },
+      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -327,42 +368,13 @@
           165,
           250
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 20,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "147",
-        "theme_topic": "Seat",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 5.2269,
-        "w": 0.359,
-        "x": 11.1846,
-        "y": 1.5683
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          177,
-          185,
-          196
-        ],
-        "font_face": "Verdana",
+        "font_face": "Arial",
         "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "equal ablaze melted used hanging",
-        "theme_topic": "Seat",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Drink Parcel",
+        "theme_topic": "Prefer",
         "underline": false
       },
       "type": "text",
@@ -370,10 +382,10 @@
     },
     {
       "bbox": {
-        "h": 6.2588,
-        "w": 0.8706,
-        "x": 11.8881,
-        "y": 0.6688
+        "h": 1.2227,
+        "w": 6.7993,
+        "x": 0.5575,
+        "y": 5.825
       },
       "id": "object_012",
       "properties": {
@@ -390,21 +402,21 @@
           51,
           64
         ],
-        "line_width": 0.880459565271098,
+        "line_width": 1.5250317941418179,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Seat"
+        "theme_topic": "Prefer"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.7612,
-        "w": 0.5032,
-        "x": 12.0392,
-        "y": 0.8137
+        "h": 0.4264,
+        "w": 6.3196,
+        "x": 0.8179,
+        "y": 6.7215
       },
       "id": "object_013",
       "properties": {
@@ -416,13 +428,13 @@
           165,
           250
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 20,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "88%",
-        "theme_topic": "Seat",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Teaching",
+        "theme_topic": "Prefer",
         "underline": false
       },
       "type": "text",
@@ -430,12 +442,41 @@
     },
     {
       "bbox": {
-        "h": 5.2134,
-        "w": 0.4939,
-        "x": 12.0353,
-        "y": 1.5489
+        "h": 1.0514,
+        "w": 4.7194,
+        "x": 7.9069,
+        "y": 2.1322
       },
       "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          102,
+          100,
+          119
+        ],
+        "font_face": "Arial",
+        "font_size": 31,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Boat Stroke",
+        "theme_topic": "Prefer",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 3.5024,
+        "w": 4.7251,
+        "x": 7.9132,
+        "y": 3.4183
+      },
+      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -445,65 +486,42 @@
           185,
           196
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "penitent waste destroy excite",
-        "theme_topic": "Seat",
+        "text": "ban ahead girls pickle vegetable trains believe grab",
+        "theme_topic": "Prefer",
         "underline": false
       },
       "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 6.2442,
-        "w": 4.7015,
-        "x": 3.7394,
-        "y": 0.6583
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          96,
-          165,
-          250
-        ],
-        "line_width": 15,
-        "theme_topic": "Seat"
-      },
-      "type": "svg_image",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.2556,
-        "w": 4.3076,
-        "x": 3.9367,
-        "y": 6.4421
+        "h": 0.553,
+        "w": 0.75,
+        "x": 4.5482,
+        "y": 1.5939
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          96,
-          165,
-          250
+          228,
+          215,
+          115
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 7,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Male",
-        "theme_topic": "Seat",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "drown impress observe wacky abstracted",
+        "theme_topic": "Prefer",
         "underline": false
       },
       "type": "text",
@@ -511,71 +529,67 @@
     },
     {
       "bbox": {
-        "h": 0.4963,
-        "w": 0.5643,
-        "x": 12.5503,
-        "y": 2.7078
+        "h": 0.2473,
+        "w": 1.8127,
+        "x": 10.469,
+        "y": 5.5495
       },
       "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "color": [
+          179,
+          43,
+          211
+        ],
+        "connector": "curve",
+        "dash": 7,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Prefer",
+        "width": 0.40553713193129576
+      },
+      "type": "connector",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.5637,
+        "w": 0.9164,
+        "x": 9.7565,
+        "y": 1.9824
+      },
+      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "arrows",
         "fill": [
-          116,
-          177,
-          69
+          213,
+          64,
+          112
         ],
         "focus": false,
         "line": [
-          104,
-          168,
-          173
+          152,
+          200,
+          202
         ],
-        "line_width": 1.4431834149819283,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Seat"
+        "line_width": 0.8769839638158071,
+        "outline_only": true,
+        "ppt_type": 49,
+        "shape": "striped_right_arrow",
+        "theme_topic": "Prefer"
       },
       "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.4958,
-        "w": 2.1835,
-        "x": 8.8572,
-        "y": 5.8048
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          140,
-          149
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Ban Feeble",
-        "theme_topic": "Seat",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.6194,
-        "w": 1.9515,
-        "x": 6.174,
-        "y": 4.3957
+        "h": 0.3778,
+        "w": 2.1849,
+        "x": 0.5477,
+        "y": 1.3547
       },
       "id": "object_019",
       "properties": {
@@ -583,114 +597,109 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          196,
-          209,
-          190
+          226,
+          93,
+          129
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "cabbage high-pitched expand",
-        "theme_topic": "Seat",
-        "underline": false
+        "text": "neat abandoned warlike repair didactic",
+        "theme_topic": "Prefer",
+        "underline": true
       },
       "type": "text",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.4057,
-        "w": 0.798,
-        "x": 11.1661,
-        "y": 4.936
+        "h": 1.1054,
+        "w": 1.5541,
+        "x": 9.208,
+        "y": 1.3642
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          77,
-          113,
-          55
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          130,
+          100,
+          66
         ],
-        "bold": false,
-        "color": [
-          142,
-          221,
-          25
+        "focus": false,
+        "line": [
+          79,
+          82,
+          188
         ],
-        "font_face": "Verdana",
-        "font_size": 16,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Greasy",
-        "theme_topic": "Seat",
-        "underline": false
+        "line_width": 6.473698751351907,
+        "outline_only": false,
+        "ppt_type": 174,
+        "shape": "funnel",
+        "theme_topic": "Prefer"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.4755,
-        "w": 1.4062,
-        "x": 3.0408,
-        "y": 3.7014
+        "h": 0.3772,
+        "w": 0.9174,
+        "x": 9.4861,
+        "y": 6.679
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
+        "color": [
+          178,
+          53,
+          161
+        ],
+        "connector": "straight",
         "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          43,
-          51,
-          64
-        ],
-        "focus": false,
-        "line": [
-          103,
-          68,
-          171
-        ],
-        "line_width": 6.3586975587239705,
-        "outline_only": false,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Seat"
+        "flip": true,
+        "ppt_type": 1,
+        "theme_topic": "Prefer",
+        "width": 2.34926915026439
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.6147,
-        "w": 1.6967,
-        "x": 3.8378,
-        "y": 4.7881
+        "h": 0.6715,
+        "w": 0.2385,
+        "x": 8.5665,
+        "y": 2.5069
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          66,
-          213,
-          224
+        "dash": 2,
+        "family": "basic",
+        "fill": [
+          84,
+          122,
+          135
         ],
-        "font_face": "Verdana",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Tickle Way",
-        "theme_topic": "Seat",
-        "underline": false
+        "focus": false,
+        "line": [
+          40,
+          113,
+          213
+        ],
+        "line_width": 3.5463403927411217,
+        "outline_only": false,
+        "ppt_type": 7,
+        "shape": "triangle",
+        "theme_topic": "Prefer"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 22
     }
   ],

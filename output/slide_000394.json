@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        240,
-        176,
-        54
-      ],
       "fill": [
-        240,
-        176,
-        54
+        25,
+        30,
+        39
       ],
-      "fore_color": [
-        63,
-        104,
-        31
-      ],
-      "pattern": 7,
-      "style": "pattern",
-      "theme_topic": "Lighten Bright"
+      "style": "solid",
+      "theme_topic": "Whirl"
     },
     "type": "background",
     "z_order": 0
@@ -41,163 +30,159 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.6774,
-        "w": 4.1776,
-        "x": 7.3614,
-        "y": 0.7637
+        "h": 0.902,
+        "w": 13.3276,
+        "x": -0.0028,
+        "y": 0.0118
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "panel",
         "fill": [
-          176,
-          150,
-          79
+          43,
+          51,
+          64
         ],
-        "focus": false,
         "line": [
-          25,
-          103,
-          25
+          43,
+          51,
+          64
         ],
-        "line_width": 3.554927171241059,
+        "line_width": 3.7566724722004534,
         "outline_only": false,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Lighten Bright"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Whirl"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.175,
-        "w": 3.7467,
-        "x": 1.7976,
-        "y": 0.2339
+        "h": 5.5507,
+        "w": 2.8683,
+        "x": 0.6665,
+        "y": 0.731
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          117,
-          154,
-          89
-        ],
-        "focus": false,
-        "line": [
-          155,
-          60,
-          156
-        ],
-        "line_width": 6.766311806709519,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Lighten Bright"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 7.5064,
-        "w": 1.2468,
-        "x": 12.1037,
-        "y": 0.003
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          249,
-          203,
-          91
-        ],
-        "line": [
-          249,
-          203,
-          91
-        ],
-        "line_width": 0.9180999785989172,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Lighten Bright"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.1424,
-        "w": 7.8223,
-        "x": 3.4948,
-        "y": 0.6583
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          40,
-          38,
-          28
+          246,
+          247,
+          249
         ],
         "font_face": "Aptos Display",
-        "font_size": 33,
+        "font_size": 20,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Verse Joyous",
-        "theme_topic": "Lighten Bright",
+        "text": "Cat Skate Plate",
+        "theme_topic": "Whirl",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 6.2193,
+        "w": 2.827,
+        "x": 9.9178,
+        "y": 0.6225
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.28884228856704763,
+          0.18098199993316366,
+          0.127058939650066,
+          0.059092929926768185
+        ],
+        "focus": true,
+        "mask_line": [
+          96,
+          165,
+          250
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Whirl",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.1723,
+        "w": 3.1363,
+        "x": 6.3986,
+        "y": 0.646
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 4.348573727319113,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Whirl"
+      },
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.4748,
-        "w": 12.2119,
-        "x": 0.5623,
-        "y": 2.0306
+        "h": 0.4508,
+        "w": 2.6166,
+        "x": 6.6552,
+        "y": 1.5734
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          165,
+          250
         ],
-        "focus": true,
-        "mask_line": [
-          197,
-          212,
-          168
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Lighten Bright",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Abnormal Health",
+        "theme_topic": "Whirl",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.2907,
-        "w": 11.8146,
-        "x": 0.7718,
-        "y": 4.0095
+        "h": 0.4535,
+        "w": 2.6148,
+        "x": 6.6252,
+        "y": 3.9043
       },
       "id": "object_006",
       "properties": {
@@ -205,17 +190,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Pick Agreement",
-        "theme_topic": "Lighten Bright",
+        "text": "Fasten Man",
+        "theme_topic": "Whirl",
         "underline": false
       },
       "type": "text",
@@ -223,28 +208,28 @@
     },
     {
       "bbox": {
-        "h": 1.1322,
-        "w": 1.2572,
-        "x": 7.6839,
-        "y": 5.8038
+        "h": 0.472,
+        "w": 2.6347,
+        "x": 6.6277,
+        "y": 6.1101
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          94,
-          82,
-          58
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "inquisitive listen juggle tranquil avoid hose",
-        "theme_topic": "Lighten Bright",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Languid Amount",
+        "theme_topic": "Whirl",
         "underline": false
       },
       "type": "text",
@@ -252,57 +237,59 @@
     },
     {
       "bbox": {
-        "h": 1.1589,
-        "w": 1.4169,
-        "x": 9.5136,
-        "y": 5.8112
+        "h": 6.2646,
+        "w": 2.2506,
+        "x": 3.7426,
+        "y": 0.6487
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wink decay stare fixed",
-        "theme_topic": "Lighten Bright",
-        "underline": false
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 1.1590622740526526,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Whirl"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.1592,
-        "w": 1.129,
-        "x": 11.452,
-        "y": 5.816
+        "h": 1.1519,
+        "w": 1.8602,
+        "x": 3.9111,
+        "y": 1.7694
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          94,
-          82,
-          58
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Aptos Display",
+        "font_size": 44,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "pump dusty error quarter torpid knowledgeable joyous",
-        "theme_topic": "Lighten Bright",
+        "text": "80%",
+        "theme_topic": "Whirl",
         "underline": false
       },
       "type": "text",
@@ -310,10 +297,10 @@
     },
     {
       "bbox": {
-        "h": 0.3794,
-        "w": 2.338,
-        "x": 6.2599,
-        "y": 6.4294
+        "h": 0.6873,
+        "w": 1.8729,
+        "x": 3.9265,
+        "y": 4.4791
       },
       "id": "object_010",
       "properties": {
@@ -321,17 +308,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          171,
-          101,
-          46
+          246,
+          247,
+          249
         ],
         "font_face": "Aptos",
-        "font_size": 16,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Miscreant",
-        "theme_topic": "Lighten Bright",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "value gray scattered cheer cow roasted private righteous window",
+        "theme_topic": "Whirl",
         "underline": false
       },
       "type": "text",

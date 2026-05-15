@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        105,
-        142,
-        195
-      ],
       "fill": [
-        31,
-        87,
-        166
+        61,
+        64,
+        91
       ],
-      "fore_color": [
-        174,
-        73,
-        92
-      ],
-      "pattern": 22,
-      "style": "pattern",
-      "theme_topic": "Devilish Glow"
+      "style": "solid",
+      "theme_topic": "Gabby"
     },
     "type": "background",
     "z_order": 0
@@ -41,44 +30,171 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.132,
-        "w": 5.0121,
-        "x": 0.8683,
-        "y": -0.8199
+        "h": 4.6494,
+        "w": 4.7414,
+        "x": 6.8956,
+        "y": 1.6936
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 7,
+        "family": "callouts",
         "fill": [
-          135,
-          140,
-          85
+          131,
+          126,
+          135
         ],
         "focus": false,
         "line": [
-          195,
-          180,
-          93
+          91,
+          200,
+          83
         ],
-        "line_width": 6.093464799159323,
+        "line_width": 2.153932937543363,
         "outline_only": true,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Devilish Glow"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Gabby"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9579,
-        "w": 5.5929,
-        "x": 0.5501,
-        "y": 0.3406
+        "h": 4.4885,
+        "w": 3.2036,
+        "x": 7.1002,
+        "y": 0.266
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          38,
+          147,
+          79
+        ],
+        "focus": false,
+        "line": [
+          100,
+          172,
+          107
+        ],
+        "line_width": 4.844133959769873,
+        "outline_only": true,
+        "ppt_type": 173,
+        "shape": "gear9",
+        "theme_topic": "Gabby"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 5.0832,
+        "w": 4.9956,
+        "x": 3.6777,
+        "y": 0.8138
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          61,
+          182,
+          103
+        ],
+        "focus": false,
+        "line": [
+          204,
+          172,
+          182
+        ],
+        "line_width": 3.2076811675482713,
+        "outline_only": true,
+        "ppt_type": 165,
+        "shape": "multiply",
+        "theme_topic": "Gabby"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 4.3406,
+        "w": 8.8438,
+        "x": 1.0857,
+        "y": 3.401
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          63,
+          83,
+          90
+        ],
+        "focus": false,
+        "line": [
+          46,
+          128,
+          47
+        ],
+        "line_width": 6.727258424767161,
+        "outline_only": false,
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Gabby"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 3.4134,
+        "w": 4.821,
+        "x": 8.5026,
+        "y": 4.1223
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          103,
+          106,
+          127
+        ],
+        "line": [
+          103,
+          106,
+          127
+        ],
+        "line_width": 1.9765764095908254,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Gabby"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.0579,
+        "w": 8.2146,
+        "x": 0.539,
+        "y": 0.3677
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -88,142 +204,24 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 26,
+        "font_face": "Georgia",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Crawl Oceanic",
-        "theme_topic": "Devilish Glow",
+        "text": "Pour Tiresome Plain",
+        "theme_topic": "Gabby",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.7728,
-        "w": 1.1787,
-        "x": 7.2998,
-        "y": 4.8234
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "spiky plastic repeat electric giants measure",
-        "theme_topic": "Devilish Glow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.7462,
-        "w": 1.8776,
-        "x": 8.8104,
-        "y": 4.8453
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "park oranges meek pocket",
-        "theme_topic": "Devilish Glow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.7468,
-        "w": 1.7103,
-        "x": 11.0379,
-        "y": 4.834
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "sour bomb approve silly butter",
-        "theme_topic": "Devilish Glow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.8483,
-        "w": 6.3191,
-        "x": 0.5421,
-        "y": 1.8623
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          105,
-          142,
-          195
-        ],
-        "line": [
-          105,
-          142,
-          195
-        ],
-        "line_width": 0.7156192654829169,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Devilish Glow"
-      },
-      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4403,
-        "w": 5.816,
-        "x": 0.8198,
-        "y": 2.7478
+        "h": 1.0345,
+        "w": 4.0323,
+        "x": 8.5961,
+        "y": 2.4289
       },
       "id": "object_007",
       "properties": {
@@ -231,17 +229,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          54,
+          160,
+          55
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Georgia",
+        "font_size": 46,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Reaction Rabbits",
-        "theme_topic": "Devilish Glow",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Juggle",
+        "theme_topic": "Gabby",
         "underline": false
       },
       "type": "text",
@@ -249,10 +247,10 @@
     },
     {
       "bbox": {
-        "h": 1.2266,
-        "w": 5.8123,
-        "x": 0.7903,
-        "y": 3.3174
+        "h": 3.135,
+        "w": 4.0354,
+        "x": 8.6261,
+        "y": 3.7583
       },
       "id": "object_008",
       "properties": {
@@ -260,17 +258,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          149,
-          175,
-          213
+          162,
+          165,
+          179
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "avoid profuse lowly nerve stale snail crooked addicted",
-        "theme_topic": "Devilish Glow",
+        "text": "gabby pigs walk sturdy groan judicious engine well-groomed history unaccountable automatic north territory male hapless grumpy form ski trains railway shame thoughtful",
+        "theme_topic": "Gabby",
         "underline": false
       },
       "type": "text",
@@ -278,10 +276,10 @@
     },
     {
       "bbox": {
-        "h": 2.0943,
-        "w": 6.334,
-        "x": 0.5514,
-        "y": 4.9081
+        "h": 5.1325,
+        "w": 3.5366,
+        "x": 0.5677,
+        "y": 1.8537
       },
       "id": "object_009",
       "properties": {
@@ -289,30 +287,30 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          105,
-          142,
-          195
+          103,
+          106,
+          127
         ],
         "line": [
-          105,
-          142,
-          195
+          103,
+          106,
+          127
         ],
-        "line_width": 4.060826618412905,
+        "line_width": 3.5333918522587906,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Devilish Glow"
+        "theme_topic": "Gabby"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4645,
-        "w": 5.8284,
-        "x": 0.8076,
-        "y": 5.8186
+        "h": 1.1571,
+        "w": 3.1731,
+        "x": 0.7364,
+        "y": 2.7893
       },
       "id": "object_010",
       "properties": {
@@ -320,17 +318,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          61,
+          64,
+          91
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Georgia",
+        "font_size": 54,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Hum",
-        "theme_topic": "Devilish Glow",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "12x",
+        "theme_topic": "Gabby",
         "underline": false
       },
       "type": "text",
@@ -338,10 +336,10 @@
     },
     {
       "bbox": {
-        "h": 0.4316,
-        "w": 5.8204,
-        "x": 0.7997,
-        "y": 6.3677
+        "h": 0.7221,
+        "w": 3.1813,
+        "x": 0.7239,
+        "y": 5.0092
       },
       "id": "object_011",
       "properties": {
@@ -349,17 +347,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          149,
-          175,
-          213
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "furtive fear quack towering depressed price throat muddled decorous murder girls makeshift guitar fail",
-        "theme_topic": "Devilish Glow",
+        "text": "ashamed quixotic applaud cumbersome flood acrid grandfather radiate torpid",
+        "theme_topic": "Gabby",
         "underline": false
       },
       "type": "text",
@@ -367,28 +365,28 @@
     },
     {
       "bbox": {
-        "h": 0.5466,
-        "w": 1.7955,
-        "x": 5.4604,
-        "y": 0.6269
+        "h": 0.4746,
+        "w": 3.0793,
+        "x": 4.7199,
+        "y": 2.7438
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          57,
-          120,
-          149
+          51,
+          63,
+          101
         ],
         "font_face": "Aptos",
-        "font_size": 6,
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "high-pitched economic time count",
-        "theme_topic": "Devilish Glow",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Signal Scared",
+        "theme_topic": "Gabby",
         "underline": false
       },
       "type": "text",

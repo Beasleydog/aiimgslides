@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        247,
-        248,
-        246
+      "colors": [
+        [
+          102,
+          224,
+          220
+        ],
+        [
+          32,
+          119,
+          149
+        ]
       ],
       "fill": [
-        247,
-        248,
-        246
+        61,
+        64,
+        91
       ],
-      "fore_color": [
-        222,
-        133,
-        62
-      ],
-      "pattern": 53,
-      "style": "pattern",
-      "theme_topic": "Subtract"
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Up Farm"
     },
     "type": "background",
     "z_order": 0
@@ -41,319 +45,260 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.4479,
-        "w": 6.2609,
-        "x": 6.4276,
-        "y": 4.2749
+        "h": 1.4363,
+        "w": 3.82,
+        "x": 2.9673,
+        "y": 1.3643
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          174,
-          170,
-          143
+          106,
+          101,
+          113
         ],
         "focus": false,
         "line": [
-          200,
-          125,
-          135
+          176,
+          134,
+          211
         ],
-        "line_width": 4.153809884261262,
+        "line_width": 4.554738881579717,
         "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Subtract"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Up Farm"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.0504,
-        "w": 7.9656,
-        "x": 4.9616,
-        "y": 0.9749
+        "h": 5.7835,
+        "w": 3.2017,
+        "x": 9.3812,
+        "y": 0.6445
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "symbols",
-        "fill": [
-          219,
-          176,
-          154
-        ],
-        "focus": false,
-        "line": [
-          191,
-          34,
-          61
-        ],
-        "line_width": 7.78410949206864,
-        "outline_only": false,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Subtract"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.3276,
-        "w": 8.4691,
-        "x": 0.5373,
-        "y": 0.3716
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          30,
-          35,
-          42
+          246,
+          248,
+          252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 32,
+        "font_face": "Arial",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Known Magnificent Daily",
-        "theme_topic": "Subtract",
+        "text": "Pickle Morning",
+        "theme_topic": "Up Farm",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 6.2622,
+        "w": 3.0788,
+        "x": 5.7606,
+        "y": 0.6322
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          32,
+          119,
+          149
+        ],
+        "line": [
+          116,
+          119,
+          138
+        ],
+        "line_width": 2.637961110510594,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Up Farm"
+      },
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.3596,
-        "w": 12.1401,
-        "x": 0.5913,
-        "y": 4.5977
+        "h": 1.1386,
+        "w": 2.7343,
+        "x": 5.9769,
+        "y": 1.7839
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          205,
-          105,
-          142
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          61,
+          64,
+          91
         ],
-        "band_cols": true,
-        "band_rows": true,
-        "body": [
-          85,
-          197,
-          196
-        ],
-        "border": [
-          198,
-          192,
-          123
-        ],
-        "border_dash": "solid",
-        "border_width": 1.9451347828289909,
-        "cells": [
-          [
-            "arrogant wild",
-            "whip"
-          ],
-          [
-            "rabid assorted",
-            "peace"
-          ],
-          [
-            "yellow powder",
-            "crayon"
-          ],
-          [
-            "burn",
-            "flesh best"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 12,
-        "has_header": true,
-        "header": [
-          31,
-          117,
-          161
-        ],
-        "rows": 4,
-        "text_color": [
-          30,
-          35,
-          42
-        ],
-        "theme_topic": "Subtract"
+        "font_face": "Arial",
+        "font_size": 44,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "4x",
+        "theme_topic": "Up Farm",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.2751,
-        "w": 12.2576,
-        "x": 0.5173,
-        "y": 1.8594
+        "h": 0.6799,
+        "w": 2.7102,
+        "x": 5.9454,
+        "y": 4.4838
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2506347632062815,
-          0.28362732147153974,
-          0.1594915292288539,
-          0.12096796801736964
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": true,
-        "mask_line": [
-          69,
-          160,
-          160
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Subtract",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fit wren waiting vanish electric judge",
+        "theme_topic": "Up Farm",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.3998,
-        "w": 0.4966,
-        "x": 2.7355,
-        "y": 6.8172
+        "h": 6.2403,
+        "w": 4.6162,
+        "x": 0.6662,
+        "y": 0.6637
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 3,
-        "family": "symbols",
+        "family": "panel",
         "fill": [
-          59,
-          221,
-          150
+          116,
+          119,
+          138
         ],
-        "focus": false,
         "line": [
-          87,
-          111,
-          158
+          116,
+          119,
+          138
         ],
-        "line_width": 3.030469611631911,
+        "line_width": 2.665565466040766,
         "outline_only": false,
-        "ppt_type": 173,
-        "shape": "gear9",
-        "theme_topic": "Subtract"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Up Farm"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4124,
-        "w": 2.1702,
-        "x": 8.2504,
-        "y": 1.2976
+        "h": 5.9655,
+        "w": 4.3328,
+        "x": 0.8187,
+        "y": 0.7784
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          204,
-          181,
-          37
+        "clip": "blob",
+        "focus": true,
+        "line": [
+          33,
+          57,
+          209
         ],
-        "bold": false,
-        "color": [
-          68,
-          116,
-          41
-        ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pathetic scatter calculate endurable overconfident",
-        "theme_topic": "Subtract",
-        "underline": false
+        "line_width": 16,
+        "theme_topic": "Up Farm"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.9139,
-        "w": 1.3715,
-        "x": 0.1057,
-        "y": 1.476
+        "h": 0.4309,
+        "w": 0.6626,
+        "x": 9.4963,
+        "y": 4.5759
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          96,
-          88,
-          210
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          74,
+          184,
+          75
         ],
-        "focus": false,
-        "line": [
-          129,
-          92,
-          136
-        ],
-        "line_width": 0.6680330109734472,
-        "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Subtract"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fold breathe",
+        "theme_topic": "Up Farm",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.6898,
-        "x": 9.2799,
-        "y": 2.0745
+        "h": 1.2657,
+        "w": 1.9713,
+        "x": 9.243,
+        "y": 2.6558
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
-        "fill": [
-          166,
-          150,
-          82
+        "color": [
+          76,
+          137,
+          190
         ],
-        "focus": false,
-        "line": [
-          139,
-          210,
-          42
-        ],
-        "line_width": 1.6471974943091499,
-        "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Subtract"
+        "connector": "straight",
+        "dash": 1,
+        "flip": false,
+        "ppt_type": 1,
+        "theme_topic": "Up Farm",
+        "width": 2.9860758830787297
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 9
     }
   ],

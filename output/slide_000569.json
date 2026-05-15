@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        47,
-        136,
-        190
+      "colors": [
+        [
+          141,
+          123,
+          212
+        ],
+        [
+          36,
+          178,
+          149
+        ]
       ],
       "fill": [
-        33,
-        115,
-        169
+        111,
+        88,
+        201
       ],
-      "fore_color": [
-        198,
-        164,
-        226
-      ],
-      "pattern": 21,
-      "style": "pattern",
-      "theme_topic": "Knot"
+      "focus": "top_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Ink"
     },
     "type": "background",
     "z_order": 0
@@ -41,180 +45,187 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.7753,
-        "w": 6.3603,
-        "x": 0.401,
-        "y": 0.8702
+        "h": 1.4512,
+        "w": 6.6219,
+        "x": 0.0081,
+        "y": 4.9272
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          129,
-          49,
-          131
+          92,
+          115,
+          204
         ],
         "focus": false,
         "line": [
-          206,
-          135,
-          215
+          170,
+          93,
+          153
         ],
-        "line_width": 2.660711690542959,
+        "line_width": 4.526613032469936,
         "outline_only": true,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Knot"
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Ink"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.4861,
-        "w": 6.8495,
-        "x": 0.004,
-        "y": 0.0146
+        "h": 3.7807,
+        "w": 6.9278,
+        "x": 1.6432,
+        "y": 3.9755
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          47,
-          136,
-          190
+          161,
+          61,
+          161
         ],
+        "focus": false,
         "line": [
-          47,
-          136,
-          190
+          143,
+          226,
+          221
         ],
-        "line_width": 4.260045452353935,
+        "line_width": 4.797077908605503,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Knot"
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Ink"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.3235,
-        "w": 8.9571,
-        "x": 0.57,
-        "y": 0.3724
+        "h": 5.1093,
+        "w": 7.4698,
+        "x": 2.5732,
+        "y": -0.005
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          250,
-          252,
-          255
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          155,
+          146,
+          154
         ],
-        "font_face": "Arial",
-        "font_size": 42,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Refuse Penitent",
-        "theme_topic": "Knot",
-        "underline": false
+        "focus": false,
+        "line": [
+          138,
+          137,
+          81
+        ],
+        "line_width": 6.1735957028051995,
+        "outline_only": false,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Ink"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.1578,
-        "w": 3.6988,
-        "x": 0.5647,
-        "y": 1.8321
+        "h": 5.0097,
+        "w": 8.8144,
+        "x": 1.8725,
+        "y": 0.8761
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "symbols",
         "fill": [
-          47,
-          136,
-          190
+          180,
+          141,
+          108
         ],
+        "focus": false,
         "line": [
-          47,
-          136,
-          190
+          219,
+          72,
+          220
         ],
-        "line_width": 1.360815487713177,
+        "line_width": 2.331863447931502,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Knot"
+        "ppt_type": 14,
+        "shape": "cube",
+        "theme_topic": "Ink"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.7603,
-        "w": 3.3253,
-        "x": 0.7347,
-        "y": 2.0484
+        "h": 7.4922,
+        "w": 13.3144,
+        "x": 0.0114,
+        "y": 3.7818
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          141,
+          123,
+          212
         ],
-        "font_face": "Arial",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "101",
-        "theme_topic": "Knot",
-        "underline": false
+        "line": [
+          141,
+          123,
+          212
+        ],
+        "line_width": 1.3036672989647224,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Ink"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 4.1083,
-        "w": 3.358,
-        "x": 0.7215,
-        "y": 2.7847
+        "h": 5.5746,
+        "w": 2.8596,
+        "x": 0.64,
+        "y": 0.7441
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          218,
-          235,
-          245
+          28,
+          30,
+          36
         ],
         "font_face": "Arial",
-        "font_size": 15,
+        "font_size": 30,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "person angry suspend condemned gifted",
-        "theme_topic": "Knot",
+        "text": "Private Tranquil Group",
+        "theme_topic": "Ink",
         "underline": false
       },
       "type": "text",
@@ -222,88 +233,82 @@
     },
     {
       "bbox": {
-        "h": 5.1307,
-        "w": 2.3344,
-        "x": 4.4397,
-        "y": 1.8481
+        "h": 6.2528,
+        "w": 3.2981,
+        "x": 6.4834,
+        "y": 0.6795
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          95,
-          138,
-          142
-        ],
+        "clip": "hex",
+        "focus": true,
         "line": [
-          47,
-          136,
-          190
+          82,
+          96,
+          214
         ],
-        "line_width": 1.0596756472586717,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Knot"
+        "line_width": 10,
+        "theme_topic": "Ink"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.7482,
-        "w": 1.9763,
-        "x": 4.5895,
-        "y": 2.0099
+        "h": 6.2336,
+        "w": 2.371,
+        "x": 3.7561,
+        "y": 0.6555
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          82,
+          96,
+          214
         ],
-        "font_face": "Arial",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "134",
-        "theme_topic": "Knot",
-        "underline": false
+        "line": [
+          141,
+          123,
+          212
+        ],
+        "line_width": 1.9526613981544307,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ink"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 4.1107,
-        "w": 1.9777,
-        "x": 4.6227,
-        "y": 2.7744
+        "h": 1.146,
+        "w": 2.0453,
+        "x": 3.9437,
+        "y": 1.7763
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          218,
-          235,
-          245
+          28,
+          30,
+          36
         ],
         "font_face": "Arial",
-        "font_size": 13,
+        "font_size": 44,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "lethal chess flap oranges",
-        "theme_topic": "Knot",
+        "text": "45%",
+        "theme_topic": "Ink",
         "underline": false
       },
       "type": "text",
@@ -311,28 +316,28 @@
     },
     {
       "bbox": {
-        "h": 1.0676,
-        "w": 5.3288,
-        "x": 7.3003,
-        "y": 1.9509
+        "h": 0.691,
+        "w": 2.0041,
+        "x": 3.9546,
+        "y": 4.4711
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          250,
-          252,
-          255
+          28,
+          30,
+          36
         ],
         "font_face": "Arial",
-        "font_size": 37,
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Thank",
-        "theme_topic": "Knot",
+        "text": "famous handsomely ceaseless noisy",
+        "theme_topic": "Ink",
         "underline": false
       },
       "type": "text",
@@ -340,157 +345,150 @@
     },
     {
       "bbox": {
-        "h": 3.6308,
-        "w": 5.2924,
-        "x": 7.3067,
-        "y": 3.2866
+        "h": 0.7741,
+        "w": 0.6423,
+        "x": 2.3183,
+        "y": 3.9771
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          218,
-          235,
-          245
+          47,
+          64,
+          85
         ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "harass taboo cheese crayon paltry jobless sweater strange aloof death yard men cheese day light pathetic arch frogs multiply fair dazzling",
-        "theme_topic": "Knot",
-        "underline": false
+        "connector": "curve",
+        "dash": 5,
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "Ink",
+        "width": 2.3164868075239338
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.2882,
-        "w": 0.4026,
-        "x": 9.4616,
-        "y": 5.2449
+        "h": 0.2427,
+        "w": 1.0531,
+        "x": 3.434,
+        "y": 0.8486
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          165,
-          63,
-          114
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          162,
+          214,
+          172
         ],
-        "focus": false,
-        "line": [
-          198,
-          157,
-          225
-        ],
-        "line_width": 1.4241067641329321,
-        "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Knot"
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "raspy elastic meek",
+        "theme_topic": "Ink",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.949,
-        "w": 1.0154,
-        "x": 5.1244,
-        "y": 6.0029
+        "h": 0.2638,
+        "w": 0.5791,
+        "x": 8.6907,
+        "y": 2.8109
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          190,
-          195,
-          224
+          134,
+          171,
+          49
         ],
         "focus": false,
         "line": [
-          45,
-          111,
-          117
+          57,
+          82,
+          135
         ],
-        "line_width": 3.7431719619112602,
-        "outline_only": true,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Knot"
+        "line_width": 5.198820541685824,
+        "outline_only": false,
+        "ppt_type": 7,
+        "shape": "triangle",
+        "theme_topic": "Ink"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.3279,
-        "w": 1.1983,
-        "x": 9.5824,
-        "y": 3.8519
+        "h": 0.7399,
+        "w": 0.9874,
+        "x": 8.7579,
+        "y": 4.8224
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 4,
+        "family": "arrows",
         "fill": [
-          220,
-          120,
-          81
+          106,
+          213,
+          135
         ],
         "focus": false,
         "line": [
-          144,
-          196,
-          166
+          198,
+          67,
+          205
         ],
-        "line_width": 0.37745953044807523,
+        "line_width": 3.1501987776343174,
         "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Knot"
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Ink"
       },
       "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.2513,
-        "w": 1.1517,
-        "x": 11.9132,
-        "y": 4.6283
+        "h": 0.4018,
+        "w": 0.959,
+        "x": 2.5429,
+        "y": 6.1104
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "math",
         "fill": [
-          129,
-          70,
-          198
+          171,
+          131,
+          152
         ],
         "focus": false,
         "line": [
-          163,
-          194,
-          226
+          208,
+          121,
+          89
         ],
-        "line_width": 2.445862783544492,
-        "outline_only": true,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Knot"
+        "line_width": 2.6819432309477524,
+        "outline_only": false,
+        "ppt_type": 165,
+        "shape": "multiply",
+        "theme_topic": "Ink"
       },
       "type": "shape",
       "z_order": 15

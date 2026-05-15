@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "fill": [
-        120,
-        58,
-        170
+      "colors": [
+        [
+          47,
+          136,
+          190
+        ],
+        [
+          201,
+          128,
+          229
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Obsequious"
+      "fill": [
+        33,
+        115,
+        169
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Vase"
     },
     "type": "background",
     "z_order": 0
@@ -30,105 +45,100 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.8561,
-        "w": 5.5827,
-        "x": 2.1975,
-        "y": 0.0491
+        "h": 2.7089,
+        "w": 3.8457,
+        "x": 0.2995,
+        "y": 2.0894
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
+        "dash": 5,
+        "family": "basic",
         "fill": [
-          197,
-          161,
-          135
+          189,
+          98,
+          204
         ],
         "focus": false,
         "line": [
-          173,
-          71,
-          47
+          56,
+          147,
+          143
         ],
-        "line_width": 5.019078499032201,
-        "outline_only": false,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Obsequious"
+        "line_width": 2.5748119633648208,
+        "outline_only": true,
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Vase"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.5347,
-        "w": 5.6658,
-        "x": 7.2641,
-        "y": -0.0817
+        "h": 5.555,
+        "w": 2.8292,
+        "x": 0.6391,
+        "y": 0.726
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "stars",
-        "fill": [
-          176,
-          58,
-          186
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          250,
+          252,
+          255
         ],
-        "focus": false,
-        "line": [
-          36,
-          189,
-          134
-        ],
-        "line_width": 2.0415397941579867,
-        "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Obsequious"
+        "font_face": "Aptos Display",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Capricious",
+        "theme_topic": "Vase",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.4981,
-        "w": 5.8694,
-        "x": 0.0095,
-        "y": 0.0099
+        "h": 3.3938,
+        "w": 5.7535,
+        "x": 4.626,
+        "y": 2.3418
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "line": [
-          139,
-          78,
-          190
+        "focus": true,
+        "mask_line": [
+          255,
+          198,
+          74
         ],
-        "line_width": 4.29519701595474,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Obsequious"
+        "mask_overlay": false,
+        "theme_topic": "Vase",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.7895,
-        "w": 3.2048,
-        "x": 9.3974,
-        "y": 0.6711
+        "h": 0.2814,
+        "w": 5.3556,
+        "x": 4.8134,
+        "y": 5.3101
       },
       "id": "object_004",
       "properties": {
@@ -137,16 +147,16 @@
         "bold": true,
         "color": [
           255,
-          250,
-          255
+          198,
+          74
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 20,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Expensive",
-        "theme_topic": "Obsequious",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Collect Committee Ugly",
+        "theme_topic": "Vase",
         "underline": false
       },
       "type": "text",
@@ -154,70 +164,68 @@
     },
     {
       "bbox": {
-        "h": 2.0653,
-        "w": 1.6646,
-        "x": 0.812,
-        "y": 0.7991
+        "h": 0.5064,
+        "w": 2.35,
+        "x": 8.9713,
+        "y": 1.6324
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.015119002380513417,
-          0.21689260048390985,
-          0.016984922338489174,
-          0.08554202953127021
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          250,
+          252,
+          255
         ],
-        "focus": false,
-        "mask_line": [
-          78,
-          170,
-          102
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Obsequious",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos Display",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "41%",
+        "theme_topic": "Vase",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 3.5933,
-        "w": 4.8592,
-        "x": 0.6595,
-        "y": 3.3284
+        "h": 0.3182,
+        "w": 2.3147,
+        "x": 8.9491,
+        "y": 2.1515
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          250,
+          252,
+          255
         ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 1.84961756872002,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Obsequious"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ad alleged giddy polite youthful astonishing immense pleasure foot",
+        "theme_topic": "Vase",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4606,
-        "w": 4.3547,
-        "x": 0.9025,
-        "y": 4.2282
+        "h": 0.2739,
+        "w": 2.3001,
+        "x": 10.025,
+        "y": 0.8539
       },
       "id": "object_007",
       "properties": {
@@ -225,17 +233,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          255,
+          198,
+          74
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Applaud Cart",
-        "theme_topic": "Obsequious",
+        "text": "DOCTOR FREE",
+        "theme_topic": "Vase",
         "underline": false
       },
       "type": "text",
@@ -243,28 +251,28 @@
     },
     {
       "bbox": {
-        "h": 1.9223,
-        "w": 4.3243,
-        "x": 0.9123,
-        "y": 4.7967
+        "h": 0.3378,
+        "w": 2.3142,
+        "x": 10.0616,
+        "y": 1.3429
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          230,
-          210,
-          240
+          117,
+          152,
+          170
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos Display",
+        "font_size": 18,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "annoyed teeth workable empty burst plough desire want tire chief use damaged",
-        "theme_topic": "Obsequious",
+        "text": "March",
+        "theme_topic": "Vase",
         "underline": false
       },
       "type": "text",
@@ -272,60 +280,58 @@
     },
     {
       "bbox": {
-        "h": 3.5692,
-        "w": 3.1372,
-        "x": 5.6976,
-        "y": 3.345
+        "h": 0.2722,
+        "w": 1.8034,
+        "x": 1.9336,
+        "y": 6.7895
       },
       "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
-        ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 0.8804195497081503,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Obsequious"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 1.9172,
-        "w": 2.6334,
-        "x": 5.9857,
-        "y": 4.7979
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          230,
-          210,
-          240
+          204,
+          58,
+          60
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Flowery",
+        "theme_topic": "Vase",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.273,
+        "w": 1.776,
+        "x": 4.7093,
+        "y": 2.2436
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          45,
+          31
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "friction square erect slow dolls incredible light cracker quill",
-        "theme_topic": "Obsequious",
-        "underline": false
+        "text": "jewel",
+        "theme_topic": "Vase",
+        "underline": true
       },
       "type": "text",
       "z_order": 10

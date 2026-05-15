@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        252,
-        249,
-        244
+      "back_color": [
+        121,
+        222,
+        172
       ],
-      "style": "solid",
-      "theme_topic": "Yoke Bumpy"
+      "fill": [
+        65,
+        209,
+        137
+      ],
+      "fore_color": [
+        82,
+        96,
+        214
+      ],
+      "pattern": 8,
+      "style": "pattern",
+      "theme_topic": "Standing Visit"
     },
     "type": "background",
     "z_order": 0
@@ -30,105 +41,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.6919,
-        "w": 8.5122,
-        "x": 3.6721,
-        "y": 4.2311
+        "h": 2.688,
+        "w": 3.3708,
+        "x": 4.475,
+        "y": 4.9315
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 4,
+        "family": "flowchart",
         "fill": [
-          201,
-          175,
-          178
+          113,
+          155,
+          168
         ],
         "focus": false,
         "line": [
-          216,
-          135,
-          65
+          176,
+          196,
+          185
         ],
-        "line_width": 3.151440128766785,
+        "line_width": 6.607811100148943,
         "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Yoke Bumpy"
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Standing Visit"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.8041,
-        "w": 8.6362,
-        "x": 1.7246,
-        "y": 6.4549
+        "h": 3.5341,
+        "w": 7.9706,
+        "x": 0.1384,
+        "y": 3.5776
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          197,
-          81,
-          183
+          45,
+          106,
+          125
         ],
         "focus": false,
         "line": [
-          140,
-          135,
-          201
+          65,
+          202,
+          62
         ],
-        "line_width": 3.147228430033535,
-        "outline_only": true,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Yoke Bumpy"
+        "line_width": 5.631138308387257,
+        "outline_only": false,
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Standing Visit"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.5193,
-        "w": 4.9109,
-        "x": 0.0186,
-        "y": -0.0162
+        "h": 5.0626,
+        "w": 8.426,
+        "x": 1.9175,
+        "y": 0.9103
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 2,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          242,
-          233,
-          222
+          42,
+          154,
+          94
         ],
+        "focus": false,
         "line": [
-          242,
-          233,
-          222
+          195,
+          152,
+          150
         ],
-        "line_width": 5.3081264597538915,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Yoke Bumpy"
+        "line_width": 5.523880014561032,
+        "outline_only": true,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Standing Visit"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.2319,
-        "w": 7.8259,
-        "x": 0.5645,
-        "y": 0.3729
+        "h": 1.1347,
+        "w": 6.003,
+        "x": 2.4836,
+        "y": 0.6323
       },
       "id": "object_004",
       "properties": {
@@ -136,17 +148,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          36,
-          32,
-          29
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 36,
+        "font_face": "Georgia",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Five Electric Scream Muddled",
-        "theme_topic": "Yoke Bumpy",
+        "text": "Governor Swim",
+        "theme_topic": "Standing Visit",
         "underline": false
       },
       "type": "text",
@@ -154,203 +166,217 @@
     },
     {
       "bbox": {
-        "h": 2.3741,
-        "w": 6.2724,
-        "x": 0.5705,
-        "y": 1.8209
+        "h": 5.0595,
+        "w": 2.1856,
+        "x": 10.5635,
+        "y": 2.0106
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          174,
-          73,
-          92
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          82,
+          96,
+          214
         ],
-        "line_width": 8,
-        "theme_topic": "Yoke Bumpy"
+        "line": [
+          121,
+          222,
+          172
+        ],
+        "line_width": 2.1774102232083457,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Standing Visit"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.047,
-        "w": 6.0014,
-        "x": 0.5904,
-        "y": 4.6512
+        "h": 1.168,
+        "w": 1.8266,
+        "x": 10.763,
+        "y": 2.9054
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          242,
-          233,
-          222
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 2.253517943275867,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Yoke Bumpy"
+        "font_face": "Georgia",
+        "font_size": 38,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "506",
+        "theme_topic": "Standing Visit",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.7829,
-        "w": 5.7025,
-        "x": 0.7646,
-        "y": 4.8372
+        "h": 0.7064,
+        "w": 1.865,
+        "x": 10.7439,
+        "y": 5.0803
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1458122460357633,
-          0.060897493033607974,
-          0.021891565637771882,
-          0.09695334204121357
-        ],
-        "focus": false,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Yoke Bumpy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 1.0662,
-        "w": 5.9796,
-        "x": 6.7578,
-        "y": 4.6873
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          242,
-          233,
-          222
-        ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 4.572616802159709,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Yoke Bumpy"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.7417,
-        "w": 5.6732,
-        "x": 6.8736,
-        "y": 4.8289
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.15612869882511032,
-          0.11498765648200346,
-          0.0751950032863415,
-          0.07435023882214169
-        ],
-        "focus": false,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Yoke Bumpy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 1.0946,
-        "w": 5.9925,
-        "x": 0.6266,
-        "y": 5.8705
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.16587379219097084,
-          0.18904856726836025,
-          0.12134962122946763,
-          0.13040048955319095
-        ],
-        "focus": false,
-        "mask_line": [
-          40,
-          55,
-          183
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Yoke Bumpy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.4149,
-        "w": 2.1816,
-        "x": 7.6865,
-        "y": 2.6044
-      },
-      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          57,
-          122,
-          143
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos",
-        "font_size": 9,
-        "italic": true,
+        "font_size": 15,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "detect ski tired",
-        "theme_topic": "Yoke Bumpy",
-        "underline": true
+        "text": "terrible report bruise fire taste",
+        "theme_topic": "Standing Visit",
+        "underline": false
       },
       "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.2959,
+        "w": 6.5301,
+        "x": 3.4092,
+        "y": 6.0504
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "STOVE",
+        "theme_topic": "Standing Visit",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 6.5493,
+        "x": 3.3739,
+        "y": 6.5298
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          152,
+          104,
+          121
+        ],
+        "bold": true,
+        "color": [
+          135,
+          42,
+          106
+        ],
+        "font_face": "Georgia",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Vest",
+        "theme_topic": "Standing Visit",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.7861,
+        "w": 1.2141,
+        "x": 10.3347,
+        "y": 0.7843
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "callouts",
+        "fill": [
+          25,
+          218,
+          29
+        ],
+        "focus": false,
+        "line": [
+          96,
+          112,
+          169
+        ],
+        "line_width": 1.1619222832207663,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Standing Visit"
+      },
+      "type": "shape",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.6126,
+        "w": 0.2362,
+        "x": 6.1221,
+        "y": 5.3757
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          141,
+          128,
+          45
+        ],
+        "focus": false,
+        "line": [
+          127,
+          165,
+          49
+        ],
+        "line_width": 3.4222384823811005,
+        "outline_only": true,
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Standing Visit"
+      },
+      "type": "shape",
       "z_order": 11
     }
   ],

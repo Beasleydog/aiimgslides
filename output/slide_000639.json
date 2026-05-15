@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "fill": [
-        217,
-        146,
-        167
+      "colors": [
+        [
+          59,
+          183,
+          226
+        ],
+        [
+          38,
+          132,
+          88
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Sincere Dad"
+      "fill": [
+        59,
+        183,
+        226
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Effect Flag"
     },
     "type": "background",
     "z_order": 0
@@ -30,139 +45,76 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.6304,
-        "w": 8.5297,
-        "x": 4.0609,
-        "y": 1.5556
+        "h": 4.4524,
+        "w": 4.3919,
+        "x": 1.5004,
+        "y": 0.5595
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 5,
+        "family": "arrows",
         "fill": [
-          139,
-          123,
+          86,
+          68,
           97
         ],
         "focus": false,
         "line": [
-          51,
-          88,
-          211
+          208,
+          186,
+          156
         ],
-        "line_width": 4.110381496761934,
+        "line_width": 4.0850864702219205,
         "outline_only": true,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Sincere Dad"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Effect Flag"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.5351,
-        "w": 8.0208,
-        "x": 4.5352,
-        "y": 4.6953
+        "h": 2.0245,
+        "w": 3.2938,
+        "x": 2.6873,
+        "y": 2.9444
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "ribbons",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          215,
-          119,
-          180
+          168,
+          192,
+          111
         ],
         "focus": false,
         "line": [
-          135,
-          201,
-          211
+          133,
+          189,
+          157
         ],
-        "line_width": 4.890629268537849,
+        "line_width": 5.416797264016416,
         "outline_only": true,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Sincere Dad"
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Effect Flag"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.0072,
-        "w": 5.272,
-        "x": 4.4471,
-        "y": 3.3573
+        "h": 1.1576,
+        "w": 8.23,
+        "x": 2.4673,
+        "y": 0.6736
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          163,
-          146,
-          133
-        ],
-        "focus": false,
-        "line": [
-          213,
-          125,
-          87
-        ],
-        "line_width": 5.723092701706745,
-        "outline_only": true,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Sincere Dad"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.087,
-        "w": 5.9703,
-        "x": 2.3051,
-        "y": 0.5925
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          201,
-          135,
-          154
-        ],
-        "line": [
-          193,
-          130,
-          148
-        ],
-        "line_width": 4.743463563091417,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Sincere Dad"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.529,
-        "w": 2.8352,
-        "x": 0.6588,
-        "y": 0.7742
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -172,13 +124,71 @@
           30,
           36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 23,
+        "font_face": "Georgia",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Secret Imminent",
-        "theme_topic": "Sincere Dad",
+        "text": "Warlike Change Bee Quixotic",
+        "theme_topic": "Effect Flag",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.8283,
+        "w": 3.5795,
+        "x": 9.0602,
+        "y": 4.7909
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Georgia",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Spiffy Meaty Best Small",
+        "theme_topic": "Effect Flag",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.0612,
+        "w": 3.5965,
+        "x": 9.0295,
+        "y": 5.833
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          41,
+          98,
+          121
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ink therapeutic spiteful shelf present airport mother tumble seemly signal appreciate vast calculating bike productive land helpless",
+        "theme_topic": "Effect Flag",
         "underline": false
       },
       "type": "text",
@@ -186,59 +196,61 @@
     },
     {
       "bbox": {
-        "h": 3.0463,
-        "w": 4.3724,
-        "x": 3.7417,
-        "y": 3.8621
+        "h": 0.269,
+        "w": 3.5878,
+        "x": 9.0673,
+        "y": 2.0972
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          193,
-          130,
-          148
-        ],
-        "line": [
-          193,
-          130,
-          148
-        ],
-        "line_width": 1.2443262145448941,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Sincere Dad"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.44,
-        "w": 3.8428,
-        "x": 4.0232,
-        "y": 4.7699
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          38,
+          132,
+          88
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Measure",
-        "theme_topic": "Sincere Dad",
+        "text": "RATTY NEEDY",
+        "theme_topic": "Effect Flag",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.6156,
+        "w": 3.5787,
+        "x": 9.0264,
+        "y": 2.6024
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          206,
+          136,
+          164
+        ],
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Georgia",
+        "font_size": 21,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Pastoral Destroy Chicken",
+        "theme_topic": "Effect Flag",
         "underline": false
       },
       "type": "text",
@@ -246,10 +258,10 @@
     },
     {
       "bbox": {
-        "h": 1.4071,
-        "w": 3.8696,
-        "x": 4.0055,
-        "y": 5.3013
+        "h": 0.7931,
+        "w": 3.6127,
+        "x": 9.0362,
+        "y": 3.5051
       },
       "id": "object_008",
       "properties": {
@@ -257,17 +269,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          113,
-          82,
-          94
+          41,
+          98,
+          121
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "search rose clip team toad parsimonious knotty inject",
-        "theme_topic": "Sincere Dad",
+        "text": "longing tacky capable abiding guarantee incandescent reply round wrap picture snail trouble river injure",
+        "theme_topic": "Effect Flag",
         "underline": false
       },
       "type": "text",
@@ -275,10 +287,10 @@
     },
     {
       "bbox": {
-        "h": 3.0572,
-        "w": 4.3998,
-        "x": 8.3306,
-        "y": 3.8556
+        "h": 2.4029,
+        "w": 3.9092,
+        "x": 0.5624,
+        "y": 4.6568
       },
       "id": "object_009",
       "properties": {
@@ -286,30 +298,30 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          193,
-          130,
-          148
+          38,
+          132,
+          88
         ],
         "line": [
-          193,
-          130,
-          148
+          50,
+          155,
+          191
         ],
-        "line_width": 1.2407659908615793,
+        "line_width": 2.8234023413952096,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Sincere Dad"
+        "theme_topic": "Effect Flag"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4713,
-        "w": 3.8978,
-        "x": 8.5956,
-        "y": 4.7599
+        "h": 0.9344,
+        "w": 3.5251,
+        "x": 0.729,
+        "y": 5.1593
       },
       "id": "object_010",
       "properties": {
@@ -317,17 +329,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          59,
+          183,
+          226
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Georgia",
+        "font_size": 52,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Mute Ruin",
-        "theme_topic": "Sincere Dad",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "11x",
+        "theme_topic": "Effect Flag",
         "underline": false
       },
       "type": "text",
@@ -335,10 +347,10 @@
     },
     {
       "bbox": {
-        "h": 1.377,
-        "w": 3.8933,
-        "x": 8.5707,
-        "y": 5.3208
+        "h": 0.5552,
+        "w": 3.5288,
+        "x": 0.7195,
+        "y": 6.0871
       },
       "id": "object_011",
       "properties": {
@@ -346,17 +358,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          113,
-          82,
-          94
+          28,
+          30,
+          36
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "intend crowd attack grease throat type wooden cute strengthen",
-        "theme_topic": "Sincere Dad",
+        "text": "intend married post fireman crown drop launch",
+        "theme_topic": "Effect Flag",
         "underline": false
       },
       "type": "text",
@@ -364,90 +376,87 @@
     },
     {
       "bbox": {
-        "h": 1.4995,
-        "w": 8.5786,
-        "x": 3.9627,
-        "y": 0.8271
+        "h": 2.3777,
+        "w": 3.8934,
+        "x": 4.7281,
+        "y": 1.9889
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "clip": "arch",
+        "focus": true,
+        "line": [
+          168,
+          122,
+          92
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Air Ritzy Bee Alive Value",
-        "theme_topic": "Sincere Dad",
-        "underline": false
+        "line_width": 10,
+        "theme_topic": "Effect Flag"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.426,
-        "w": 4.7448,
-        "x": 3.9365,
-        "y": 2.5537
+        "h": 0.4695,
+        "w": 1.0861,
+        "x": 6.0081,
+        "y": 0.9333
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "dash": 2,
+        "family": "arrows",
+        "fill": [
+          86,
+          129,
+          224
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "ROUTE FLAG",
-        "theme_topic": "Sincere Dad",
-        "underline": false
+        "focus": false,
+        "line": [
+          135,
+          152,
+          29
+        ],
+        "line_width": 1.9721447734067101,
+        "outline_only": true,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Effect Flag"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
         "h": 0.2,
-        "w": 1.6197,
-        "x": 9.2107,
-        "y": 4.6308
+        "w": 0.8077,
+        "x": 11.3853,
+        "y": 3.4375
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": [
-          29,
-          141,
-          70
+          111,
+          178,
+          42
         ],
         "bold": false,
         "color": [
-          196,
-          192,
-          147
+          79,
+          79,
+          27
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": true,
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Knee Efficacious",
-        "theme_topic": "Sincere Dad",
+        "text": "Doubt Late Dinner",
+        "theme_topic": "Effect Flag",
         "underline": false
       },
       "type": "text",
@@ -455,65 +464,57 @@
     },
     {
       "bbox": {
-        "h": 0.5896,
-        "w": 1.9319,
-        "x": 1.1711,
-        "y": 4.4536
+        "h": 0.4401,
+        "w": 1.0841,
+        "x": 2.1026,
+        "y": 6.2433
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          117,
-          121,
-          69
-        ],
-        "bold": false,
         "color": [
-          78,
-          185,
-          25
+          91,
+          41,
+          35
         ],
-        "font_face": "Verdana",
-        "font_size": 5,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pushy quiet scrub",
-        "theme_topic": "Sincere Dad",
-        "underline": false
+        "connector": "curve",
+        "dash": 3,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Effect Flag",
+        "width": 0.8388500223260246
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.7731,
-        "w": 1.1154,
-        "x": 11.2711,
-        "y": 2.8057
+        "h": 0.4554,
+        "w": 0.8961,
+        "x": 1.4501,
+        "y": 2.3911
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 2,
         "family": "arrows",
         "fill": [
-          172,
-          25,
-          203
+          50,
+          155,
+          191
         ],
         "focus": false,
         "line": [
-          148,
-          63,
-          132
+          46,
+          176,
+          207
         ],
-        "line_width": 2.2422079814225144,
-        "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Sincere Dad"
+        "line_width": 4.098509686886603,
+        "outline_only": false,
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Effect Flag"
       },
       "type": "shape",
       "z_order": 16

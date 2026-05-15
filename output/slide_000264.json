@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "back_color": [
-        177,
-        74,
-        179
+      "colors": [
+        [
+          77,
+          122,
+          184
+        ],
+        [
+          63,
+          167,
+          189
+        ]
       ],
       "fill": [
-        177,
-        74,
-        179
+        31,
+        87,
+        166
       ],
-      "fore_color": [
-        244,
-        180,
-        76
-      ],
-      "pattern": 18,
-      "style": "pattern",
-      "theme_topic": "Flame Things"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Resonant Care"
     },
     "type": "background",
     "z_order": 0
@@ -41,218 +45,256 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.7398,
-        "w": 3.016,
-        "x": 3.5183,
-        "y": 2.2342
+        "h": 1.4949,
+        "w": 6.6857,
+        "x": 7.5519,
+        "y": 0.2178
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "ribbons",
         "fill": [
-          194,
-          101,
-          79
+          47,
+          159,
+          135
         ],
         "focus": false,
         "line": [
-          203,
-          86,
-          135
+          212,
+          40,
+          210
         ],
-        "line_width": 2.853302216619701,
-        "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Flame Things"
+        "line_width": 4.666976356072999,
+        "outline_only": false,
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Resonant Care"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.6383,
-        "w": 3.7724,
-        "x": 5.4255,
-        "y": 3.1993
+        "h": 3.0946,
+        "w": 6.1216,
+        "x": 7.4078,
+        "y": -0.8467
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 1,
         "family": "arrows",
         "fill": [
-          135,
-          78,
-          127
+          48,
+          129,
+          156
         ],
         "focus": false,
         "line": [
-          118,
-          63,
-          25
+          139,
+          62,
+          131
         ],
-        "line_width": 6.157706716286599,
-        "outline_only": true,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Flame Things"
+        "line_width": 3.6797931433230593,
+        "outline_only": false,
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Resonant Care"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.5186,
-        "w": 8.3477,
-        "x": 0.7079,
-        "y": 4.6486
+        "h": 3.3174,
+        "w": 6.902,
+        "x": 6.5628,
+        "y": 2.7677
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
+        "dash": 7,
+        "family": "stars",
         "fill": [
-          105,
-          181,
-          160
+          127,
+          170,
+          151
         ],
         "focus": false,
         "line": [
-          170,
-          38,
-          62
+          161,
+          99,
+          229
         ],
-        "line_width": 6.6482953456807925,
+        "line_width": 4.828755618361608,
         "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Flame Things"
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Resonant Care"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5317,
-        "w": 2.8326,
-        "x": 0.6546,
-        "y": 0.7626
+        "h": 3.8391,
+        "w": 5.6761,
+        "x": 2.4202,
+        "y": 0.6124
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "flowchart",
+        "fill": [
+          88,
+          142,
+          165
+        ],
+        "focus": false,
+        "line": [
+          74,
+          165,
+          89
+        ],
+        "line_width": 7.029611297679766,
+        "outline_only": false,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Resonant Care"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.7808,
+        "w": 3.2193,
+        "x": 9.3779,
+        "y": 0.6566
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 22,
+        "font_size": 18,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Size Vengeful Rate",
-        "theme_topic": "Flame Things",
+        "text": "Morning",
+        "theme_topic": "Resonant Care",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 3.0066,
-        "w": 8.9783,
-        "x": 3.7524,
-        "y": 0.631
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          162,
-          67,
-          164
-        ],
-        "line": [
-          162,
-          67,
-          164
-        ],
-        "line_width": 4.064243673115032,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Flame Things"
-      },
-      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.6816,
-        "w": 8.7039,
-        "x": 3.9121,
-        "y": 0.7766
+        "h": 6.1742,
+        "w": 2.8664,
+        "x": 5.9335,
+        "y": 0.6924
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2514499389738304,
-          0.21416870188351533,
-          0.2861674951776053,
-          0.12723706326582443
+        "band": [
+          77,
+          122,
+          184
         ],
-        "focus": true,
-        "mask_line": [
-          29,
-          150,
-          224
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          77,
+          122,
+          184
         ],
-        "mask_overlay": true,
-        "theme_topic": "Flame Things",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "border": [
+          216,
+          194,
+          200
+        ],
+        "border_dash": "dashDot",
+        "border_width": 2.1811829879113867,
+        "cells": [
+          [
+            "shock",
+            "snails"
+          ],
+          [
+            "representative",
+            "wool"
+          ],
+          [
+            "innate include",
+            "pan"
+          ],
+          [
+            "event tire",
+            "aloof extend"
+          ],
+          [
+            "chess",
+            "ripe"
+          ],
+          [
+            "best breathe",
+            "far-flung"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 11,
+        "has_header": false,
+        "header": [
+          172,
+          167,
+          59
+        ],
+        "rows": 6,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Resonant Care"
       },
-      "type": "image",
+      "type": "table",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.9806,
-        "w": 2.801,
-        "x": 7.5231,
-        "y": 3.9201
+        "h": 6.2454,
+        "w": 2.1761,
+        "x": 3.4388,
+        "y": 0.6663
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
-        ],
+        "clip": "blob",
+        "focus": true,
         "line": [
-          162,
-          67,
-          164
+          71,
+          221,
+          181
         ],
-        "line_width": 0.8126254660183916,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Flame Things"
+        "line_width": 14,
+        "theme_topic": "Resonant Care"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 7
     }
   ],

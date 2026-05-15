@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        212,
-        127,
-        43
+      "back_color": [
+        43,
+        134,
+        183
       ],
-      "style": "solid",
-      "theme_topic": "Adamant Pocket"
+      "fill": [
+        43,
+        134,
+        183
+      ],
+      "fore_color": [
+        229,
+        151,
+        133
+      ],
+      "pattern": 47,
+      "style": "pattern",
+      "theme_topic": "Truculent Dapper"
     },
     "type": "background",
     "z_order": 0
@@ -30,107 +41,43 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.0031,
-        "w": 7.364,
-        "x": 2.9987,
-        "y": 2.1701
+        "h": 4.5311,
+        "w": 6.4939,
+        "x": 0.5256,
+        "y": 1.0316
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 4,
+        "family": "panel",
         "fill": [
-          165,
-          127,
-          135
+          84,
+          157,
+          196
         ],
-        "focus": false,
         "line": [
-          212,
-          165,
-          53
+          107,
+          170,
+          204
         ],
-        "line_width": 2.6371988693182926,
-        "outline_only": true,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Adamant Pocket"
+        "line_width": 4.664255693917791,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Truculent Dapper"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.4543,
-        "w": 7.4235,
-        "x": 0.2139,
-        "y": 5.9246
+        "h": 5.7843,
+        "w": 3.2153,
+        "x": 9.4072,
+        "y": 0.6331
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          222,
-          110,
-          123
-        ],
-        "focus": false,
-        "line": [
-          38,
-          62,
-          45
-        ],
-        "line_width": 2.7798641395443857,
-        "outline_only": true,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Adamant Pocket"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 4.5937,
-        "w": 6.9039,
-        "x": 2.3066,
-        "y": 1.7672
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          217,
-          142,
-          69
-        ],
-        "line": [
-          220,
-          151,
-          84
-        ],
-        "line_width": 2.15968722447973,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Adamant Pocket"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.1489,
-        "w": 6.0891,
-        "x": 2.6891,
-        "y": 0.6715
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -141,12 +88,70 @@
           252
         ],
         "font_face": "Arial",
-        "font_size": 40,
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Vessel Cheat",
-        "theme_topic": "Adamant Pocket",
+        "text": "Pale",
+        "theme_topic": "Truculent Dapper",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.0671,
+        "w": 2.1403,
+        "x": 3.2888,
+        "y": 0.7796
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Arial",
+        "font_size": 29,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Spooky Whispering",
+        "theme_topic": "Truculent Dapper",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 4.709,
+        "w": 2.1506,
+        "x": 3.271,
+        "y": 2.0575
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          154,
+          196,
+          220
+        ],
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "shaggy whole tease pack materialistic rings trees faulty fretful lamentable",
+        "theme_topic": "Truculent Dapper",
         "underline": false
       },
       "type": "text",
@@ -154,144 +159,144 @@
     },
     {
       "bbox": {
-        "h": 0.7681,
-        "w": 2.5498,
-        "x": 0.7301,
-        "y": 4.9536
+        "h": 6.135,
+        "w": 1.3627,
+        "x": 5.9415,
+        "y": 0.7009
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          107,
+          170,
+          204
         ],
-        "font_face": "Arial",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "34%",
-        "theme_topic": "Adamant Pocket",
-        "underline": false
+        "line": [
+          107,
+          170,
+          204
+        ],
+        "line_width": 0.9692564415214547,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Truculent Dapper"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.2557,
-        "w": 2.5324,
-        "x": 0.7455,
-        "y": 5.6797
+        "h": 5.8581,
+        "w": 1.0584,
+        "x": 6.0707,
+        "y": 0.8312
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          230,
-          193,
-          157
-        ],
-        "font_face": "Arial",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "longing chunky receive",
-        "theme_topic": "Adamant Pocket",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.7253,
-        "w": 2.7199,
-        "x": 3.8267,
-        "y": 4.9496
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
+        "clip": "ticket",
+        "focus": false,
+        "line": [
           82,
           96,
           214
         ],
-        "font_face": "Arial",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "183",
-        "theme_topic": "Adamant Pocket",
-        "underline": false
+        "line_width": 14,
+        "theme_topic": "Truculent Dapper"
       },
-      "type": "text",
+      "type": "svg_image",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 6.1698,
+        "w": 1.3684,
+        "x": 7.4419,
+        "y": 0.6749
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.3279247718496986,
+          0.23343872424423442,
+          0.17028726275220368,
+          0.06171732487981596
+        ],
+        "focus": true,
+        "mask_line": [
+          29,
+          178,
+          158
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Truculent Dapper",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.2534,
-        "w": 2.7041,
-        "x": 3.8276,
-        "y": 5.6896
+        "h": 0.2835,
+        "w": 1.5066,
+        "x": 4.3373,
+        "y": 5.2364
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          230,
-          193,
-          157
+          189,
+          109,
+          160
         ],
         "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
+        "font_size": 7,
+        "italic": true,
         "kind": "body",
         "margin": 0.04,
-        "text": "perfect two doubt tasteful detect ritzy scratch",
-        "theme_topic": "Adamant Pocket",
-        "underline": false
+        "text": "exist untidy",
+        "theme_topic": "Truculent Dapper",
+        "underline": true
       },
       "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.7494,
-        "w": 3.0196,
-        "x": 7.0379,
-        "y": 4.9367
+        "h": 0.3016,
+        "w": 2.1909,
+        "x": 2.0798,
+        "y": 5.5701
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          117,
+          229,
+          116
+        ],
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          155,
+          112,
+          69
         ],
         "font_face": "Arial",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "126",
-        "theme_topic": "Adamant Pocket",
+        "font_size": 14,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Visit Gaping Inquisitive",
+        "theme_topic": "Truculent Dapper",
         "underline": false
       },
       "type": "text",
@@ -299,57 +304,64 @@
     },
     {
       "bbox": {
-        "h": 1.2627,
-        "w": 3.0026,
-        "x": 7.0598,
-        "y": 5.6913
+        "h": 0.9103,
+        "w": 0.9216,
+        "x": 6.515,
+        "y": 5.3224
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          230,
-          193,
-          157
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          25,
+          112,
+          47
         ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "automatic comb soda war film place wonder",
-        "theme_topic": "Adamant Pocket",
-        "underline": false
+        "focus": false,
+        "line": [
+          218,
+          28,
+          172
+        ],
+        "line_width": 2.943436983715315,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Truculent Dapper"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.2747,
-        "w": 1.9816,
-        "x": 10.5847,
-        "y": 5.6663
+        "h": 0.2298,
+        "w": 1.0764,
+        "x": 1.1459,
+        "y": 2.1469
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          144,
+          180,
+          182
+        ],
         "bold": false,
         "color": [
-          230,
-          193,
-          157
+          206,
+          148,
+          210
         ],
         "font_face": "Arial",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "dazzling fairies wriggle fold exclusive structure",
-        "theme_topic": "Adamant Pocket",
+        "text": "trite",
+        "theme_topic": "Truculent Dapper",
         "underline": false
       },
       "type": "text",
@@ -357,94 +369,34 @@
     },
     {
       "bbox": {
-        "h": 2.2855,
-        "w": 12.1246,
-        "x": 0.5962,
-        "y": 2.0651
+        "h": 0.2738,
+        "w": 1.237,
+        "x": 6.1403,
+        "y": 6.288
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          126,
-          42,
-          191
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          74,
+          98,
+          164
         ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          79,
-          58,
-          122
+        "focus": false,
+        "line": [
+          28,
+          31,
+          123
         ],
-        "border": [
-          227,
-          52,
-          103
-        ],
-        "border_dash": "dash",
-        "border_width": 1.7746420047246558,
-        "cells": [
-          [
-            "abortive",
-            "sip",
-            "grey dependent",
-            "undress box"
-          ],
-          [
-            "power cowardly",
-            "nosy responsible",
-            "memorize",
-            "government blot"
-          ],
-          [
-            "existence narrow",
-            "dress panoramic",
-            "nine",
-            "pleasure savory"
-          ],
-          [
-            "chance",
-            "shiver",
-            "tangible naive",
-            "astonishing"
-          ],
-          [
-            "suggestion",
-            "detect",
-            "close dashing",
-            "lame"
-          ],
-          [
-            "note dare",
-            "guitar",
-            "earthy trashy",
-            "cause"
-          ],
-          [
-            "adjustment",
-            "earth weather",
-            "available macabre",
-            "rejoice far-flung"
-          ]
-        ],
-        "cols": 4,
-        "font_size": 9,
-        "has_header": true,
-        "header": [
-          82,
-          96,
-          214
-        ],
-        "rows": 7,
-        "text_color": [
-          246,
-          248,
-          252
-        ],
-        "theme_topic": "Adamant Pocket"
+        "line_width": 0.7632638800974184,
+        "outline_only": false,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Truculent Dapper"
       },
-      "type": "table",
+      "type": "shape",
       "z_order": 12
     }
   ],

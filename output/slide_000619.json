@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "fill": [
-        175,
-        71,
-        138
+      "colors": [
+        [
+          245,
+          247,
+          252
+        ],
+        [
+          82,
+          96,
+          214
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Kiss"
+      "fill": [
+        245,
+        247,
+        252
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Sleet"
     },
     "type": "background",
     "z_order": 0
@@ -30,105 +45,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.7293,
-        "w": 8.2853,
-        "x": 0.8572,
-        "y": 3.1767
+        "h": 3.373,
+        "w": 6.8586,
+        "x": 7.0083,
+        "y": 2.1544
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "math",
         "fill": [
-          130,
-          191,
-          154
+          202,
+          207,
+          191
         ],
         "focus": false,
         "line": [
-          227,
-          175,
-          65
+          93,
+          186,
+          31
         ],
-        "line_width": 2.380810839945342,
+        "line_width": 7.580877911052218,
         "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Kiss"
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Sleet"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.8488,
-        "w": 8.7935,
-        "x": 0.4455,
-        "y": 0.9709
+        "h": 4.6252,
+        "w": 4.7457,
+        "x": 0.7504,
+        "y": 3.5607
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 5,
         "family": "arrows",
         "fill": [
-          107,
-          162,
-          189
+          121,
+          178,
+          154
         ],
         "focus": false,
         "line": [
-          86,
-          168,
-          133
+          76,
+          72,
+          52
         ],
-        "line_width": 7.849188446668759,
+        "line_width": 5.717684567836267,
         "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Kiss"
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Sleet"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.5042,
-        "w": 6.1039,
-        "x": 0.0156,
-        "y": 0.0074
+        "h": 4.0164,
+        "w": 3.5813,
+        "x": 1.1329,
+        "y": -0.7758
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          190,
-          107,
-          161
+          101,
+          103,
+          192
         ],
+        "focus": false,
         "line": [
-          190,
-          107,
-          161
+          138,
+          208,
+          46
         ],
-        "line_width": 4.575297165390935,
+        "line_width": 6.540374155591335,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Kiss"
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Sleet"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.8949,
-        "w": 3.7338,
-        "x": 1.6363,
-        "y": 1.1576
+        "h": 0.9214,
+        "w": 3.6223,
+        "x": 4.339,
+        "y": 1.0468
       },
       "id": "object_004",
       "properties": {
@@ -136,17 +152,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          27,
+          44,
+          68
         ],
-        "font_face": "Trebuchet MS",
+        "font_face": "Georgia",
         "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Seat Color Tender",
-        "theme_topic": "Kiss",
+        "text": "Wheel Ajar Bead Abaft",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",
@@ -154,59 +170,57 @@
     },
     {
       "bbox": {
-        "h": 2.5229,
-        "w": 5.7451,
-        "x": 0.5682,
-        "y": 4.4605
+        "h": 0.4482,
+        "w": 0.8637,
+        "x": 0.8235,
+        "y": 2.339
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          174,
-          73,
-          92
-        ],
-        "line": [
-          190,
-          107,
-          161
-        ],
-        "line_width": 1.5601914108787869,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Kiss"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.9736,
-        "w": 5.3861,
-        "x": 0.7413,
-        "y": 5.0042
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          175,
-          71,
-          138
+          82,
+          96,
+          214
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 37,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Stuff Agonizing",
+        "theme_topic": "Sleet",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.9881,
+        "w": 0.9037,
+        "x": 0.8229,
+        "y": 2.9162
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          117,
+          137
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "11x",
-        "theme_topic": "Kiss",
+        "text": "sugar giants prepare spare erratic snobbish absurd repair group nifty",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",
@@ -214,28 +228,28 @@
     },
     {
       "bbox": {
-        "h": 0.5861,
-        "w": 5.3827,
-        "x": 0.7293,
-        "y": 6.0012
+        "h": 0.4366,
+        "w": 0.8071,
+        "x": 2.4085,
+        "y": 2.3721
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "obeisant hole mix sedate four mindless farm",
-        "theme_topic": "Kiss",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Jealous",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",
@@ -243,28 +257,28 @@
     },
     {
       "bbox": {
-        "h": 0.7686,
-        "w": 1.0151,
-        "x": 6.8417,
-        "y": 4.6465
+        "h": 1.0265,
+        "w": 0.8244,
+        "x": 2.416,
+        "y": 2.9194
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          174,
-          73,
-          92
+          103,
+          117,
+          137
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 30,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "9.0x",
-        "theme_topic": "Kiss",
+        "text": "arrange outrageous great scrape alcoholic endurable direful testy plain confuse combative wriggle balance",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",
@@ -272,28 +286,28 @@
     },
     {
       "bbox": {
-        "h": 1.5238,
-        "w": 1.0381,
-        "x": 6.8288,
-        "y": 5.3916
+        "h": 0.4554,
+        "w": 0.8719,
+        "x": 3.9499,
+        "y": 2.34
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          214,
-          168,
-          200
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "whirl fetch enter event",
-        "theme_topic": "Kiss",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Swift",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",
@@ -301,28 +315,28 @@
     },
     {
       "bbox": {
-        "h": 0.7535,
-        "w": 1.2613,
-        "x": 8.4053,
-        "y": 4.6529
+        "h": 0.9842,
+        "w": 0.8978,
+        "x": 3.9394,
+        "y": 2.9152
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          174,
-          73,
-          92
+          103,
+          117,
+          137
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "6.4x",
-        "theme_topic": "Kiss",
+        "text": "belong clap cream actor overrated fail light deserted unequal limit slimy popcorn",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",
@@ -330,10 +344,10 @@
     },
     {
       "bbox": {
-        "h": 1.5182,
-        "w": 1.2567,
-        "x": 8.4196,
-        "y": 5.3724
+        "h": 1.0216,
+        "w": 0.7437,
+        "x": 5.5527,
+        "y": 2.9076
       },
       "id": "object_011",
       "properties": {
@@ -341,17 +355,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          214,
-          168,
-          200
+          103,
+          117,
+          137
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "barbarous questionable tax",
-        "theme_topic": "Kiss",
+        "text": "run receipt fence force extend connection oil bells follow uppity jail",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",
@@ -359,57 +373,106 @@
     },
     {
       "bbox": {
-        "h": 0.7696,
-        "w": 1.076,
-        "x": 10.1812,
-        "y": 4.6385
+        "h": 2.5648,
+        "w": 5.9267,
+        "x": 6.8464,
+        "y": 1.4985
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
+        "band": [
+          232,
+          237,
+          247
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "233",
-        "theme_topic": "Kiss",
-        "underline": false
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          99,
+          95,
+          227
+        ],
+        "border": [
+          103,
+          117,
+          137
+        ],
+        "border_dash": "solid",
+        "border_width": 2.04707704021323,
+        "cells": [
+          [
+            "soup sound",
+            "whirl sea",
+            "grey polish",
+            "slow",
+            "grieving changeable"
+          ],
+          [
+            "last gabby",
+            "flavor zebra",
+            "precede",
+            "wash present",
+            "zealous addition"
+          ],
+          [
+            "hands",
+            "fax rub",
+            "disarm",
+            "allow",
+            "trust"
+          ],
+          [
+            "ancient",
+            "introduce",
+            "testy quiet",
+            "quarrelsome birds",
+            "memory pedal"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 10,
+        "has_header": true,
+        "header": [
+          82,
+          96,
+          214
+        ],
+        "rows": 4,
+        "text_color": [
+          27,
+          44,
+          68
+        ],
+        "theme_topic": "Sleet"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.4852,
-        "w": 1.0647,
-        "x": 10.1764,
-        "y": 5.4033
+        "h": 0.9067,
+        "w": 5.6822,
+        "x": 6.9314,
+        "y": 4.4639
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          214,
-          168,
-          200
+          46,
+          223,
+          208
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
+        "font_face": "Georgia",
+        "font_size": 29,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "decide complete thought aromatic elfin",
-        "theme_topic": "Kiss",
+        "text": "Good Rain Used Cent",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",
@@ -417,28 +480,28 @@
     },
     {
       "bbox": {
-        "h": 0.7506,
-        "w": 0.7926,
-        "x": 11.798,
-        "y": 4.6509
+        "h": 1.2723,
+        "w": 5.6938,
+        "x": 6.9548,
+        "y": 5.6348
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          174,
-          73,
-          92
+          103,
+          117,
+          137
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
+        "font_face": "Aptos",
+        "font_size": 15,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "67%",
-        "theme_topic": "Kiss",
+        "text": "melted steel healthy birthday piquant crime squalid challenge price step seat learned cabbage",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",
@@ -446,10 +509,10 @@
     },
     {
       "bbox": {
-        "h": 1.5102,
-        "w": 0.8229,
-        "x": 11.8032,
-        "y": 5.3978
+        "h": 0.4462,
+        "w": 2.3565,
+        "x": 6.1836,
+        "y": 6.1277
       },
       "id": "object_015",
       "properties": {
@@ -457,17 +520,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          214,
-          168,
-          200
+          34,
+          37,
+          71
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 15,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "late whispering satisfying organic",
-        "theme_topic": "Kiss",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Stew Live Low",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",
@@ -475,28 +538,28 @@
     },
     {
       "bbox": {
-        "h": 0.2046,
-        "w": 2.2397,
-        "x": 3.6278,
-        "y": 3.5822
+        "h": 0.2191,
+        "w": 1.6226,
+        "x": 4.8738,
+        "y": 3.885
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          203,
-          222,
-          219
+          71,
+          114,
+          49
         ],
-        "font_face": "Verdana",
-        "font_size": 5,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Modern",
-        "theme_topic": "Kiss",
+        "text": "Penitent",
+        "theme_topic": "Sleet",
         "underline": false
       },
       "type": "text",

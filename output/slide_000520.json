@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        28,
-        143,
-        112
+      "back_color": [
+        197,
+        101,
+        197
       ],
-      "style": "solid",
-      "theme_topic": "Fit Worm"
+      "fill": [
+        31,
+        87,
+        166
+      ],
+      "fore_color": [
+        51,
+        63,
+        101
+      ],
+      "pattern": 42,
+      "style": "pattern",
+      "theme_topic": "Hammer"
     },
     "type": "background",
     "z_order": 0
@@ -30,137 +41,130 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.785,
-        "w": 6.4788,
-        "x": 0.0821,
-        "y": 4.7934
+        "h": 0.9201,
+        "w": 5.5009,
+        "x": 1.957,
+        "y": 0.5438
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          48,
-          120,
-          160
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          77,
-          162,
-          100
-        ],
-        "line_width": 2.8855241056343597,
-        "outline_only": true,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Fit Worm"
+        "font_face": "Arial",
+        "font_size": 37,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Engine Confess",
+        "theme_topic": "Hammer",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9209,
-        "w": 7.9519,
-        "x": 0.9926,
-        "y": -0.7218
+        "h": 5.5466,
+        "w": 1.3956,
+        "x": 0.5599,
+        "y": 1.4499
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          118,
-          184,
-          54
+          52,
+          76,
+          153
         ],
-        "focus": false,
         "line": [
-          79,
-          203,
-          65
+          97,
+          136,
+          192
         ],
-        "line_width": 7.33760690031408,
+        "line_width": 3.627001096788453,
         "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Fit Worm"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hammer"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.9631,
-        "w": 6.9975,
-        "x": 1.4055,
-        "y": 4.77
+        "h": 4.5271,
+        "w": 1.064,
+        "x": 0.71,
+        "y": 2.382
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          82,
-          132,
-          173
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
         ],
-        "focus": false,
-        "line": [
-          63,
-          64,
-          52
-        ],
-        "line_width": 4.389292987787513,
-        "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Fit Worm"
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "friendly rescue land cool fretful",
+        "theme_topic": "Hammer",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.0054,
-        "w": 7.3724,
-        "x": 0.7923,
-        "y": 0.6423
+        "h": 5.5526,
+        "w": 1.3859,
+        "x": 2.1275,
+        "y": 1.437
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 3,
         "family": "panel",
         "fill": [
-          37,
-          155,
-          123
+          36,
+          80,
+          147
         ],
         "line": [
-          43,
-          162,
-          130
+          97,
+          136,
+          192
         ],
-        "line_width": 0.8462076213817274,
+        "line_width": 2.191014333443591,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Fit Worm"
+        "theme_topic": "Hammer"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1932,
-        "w": 7.3692,
-        "x": 0.5415,
-        "y": 0.3251
+        "h": 0.7605,
+        "w": 1.0225,
+        "x": 2.3,
+        "y": 1.6519
       },
       "id": "object_005",
       "properties": {
@@ -168,17 +172,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          248,
-          255,
-          252
+          51,
+          63,
+          101
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 33,
+        "font_face": "Arial",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Boat Adamant Wash Chunky",
-        "theme_topic": "Fit Worm",
+        "text": "4.7x",
+        "theme_topic": "Hammer",
         "underline": false
       },
       "type": "text",
@@ -186,28 +190,28 @@
     },
     {
       "bbox": {
-        "h": 0.8887,
-        "w": 5.9883,
-        "x": 6.6774,
-        "y": 1.9465
+        "h": 4.5386,
+        "w": 1.054,
+        "x": 2.3203,
+        "y": 2.3705
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          110,
-          204,
-          186
+          149,
+          175,
+          213
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 36,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Futuristic Immense",
-        "theme_topic": "Fit Worm",
+        "text": "shock crown remove quaint",
+        "theme_topic": "Hammer",
         "underline": false
       },
       "type": "text",
@@ -215,86 +219,88 @@
     },
     {
       "bbox": {
-        "h": 1.1973,
-        "w": 5.9788,
-        "x": 6.6327,
-        "y": 3.0947
+        "h": 5.5345,
+        "w": 1.6932,
+        "x": 3.7271,
+        "y": 1.4477
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          205,
-          241,
-          230
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          36,
+          80,
+          147
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "mice purpose picayune incredible lively effect house earthy callous receptive imaginary overt makeshift amazing bloody extra-large sleet careful",
-        "theme_topic": "Fit Worm",
-        "underline": false
+        "line": [
+          97,
+          136,
+          192
+        ],
+        "line_width": 1.8692592752018655,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hammer"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.5851,
-        "w": 5.6967,
-        "x": 0.581,
-        "y": 1.84
+        "h": 0.7534,
+        "w": 1.3028,
+        "x": 3.8956,
+        "y": 1.6425
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.2803280778421283,
-          0.0033922241412182685,
-          0.18782436411018164,
-          0.1890799415684452
-        ],
-        "focus": true,
-        "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Fit Worm",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.2619,
-        "w": 5.2681,
-        "x": 0.76,
-        "y": 3.9902
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          51,
+          63,
+          101
         ],
-        "font_face": "Verdana",
+        "font_face": "Arial",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "178",
+        "theme_topic": "Hammer",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 4.5324,
+        "w": 1.3159,
+        "x": 3.9054,
+        "y": 2.3705
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
+        ],
+        "font_face": "Arial",
         "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Lighten Tire Empty",
-        "theme_topic": "Fit Worm",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "spotted wander dull",
+        "theme_topic": "Hammer",
         "underline": false
       },
       "type": "text",
@@ -302,176 +308,120 @@
     },
     {
       "bbox": {
-        "h": 2.1592,
-        "w": 12.1193,
-        "x": 0.6045,
-        "y": 4.8037
+        "h": 4.5205,
+        "w": 0.8614,
+        "x": 5.7583,
+        "y": 2.3701
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          212,
-          41,
-          114
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
         ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          43,
-          162,
-          130
-        ],
-        "border": [
-          205,
-          241,
-          230
-        ],
-        "border_dash": "solid",
-        "border_width": 2.256016026081515,
-        "cells": [
-          [
-            "channel confused",
-            "damaged",
-            "piquant"
-          ],
-          [
-            "awful",
-            "dolls placid",
-            "instrument bizarre"
-          ],
-          [
-            "star",
-            "entertain",
-            "tramp defeated"
-          ],
-          [
-            "day",
-            "brash",
-            "calculate lie"
-          ],
-          [
-            "nondescript",
-            "shame",
-            "haircut plough"
-          ],
-          [
-            "economic",
-            "unit",
-            "approve"
-          ],
-          [
-            "wakeful",
-            "bucket",
-            "spiky coat"
-          ]
-        ],
-        "cols": 3,
-        "font_size": 7,
-        "has_header": true,
-        "header": [
-          212,
-          227,
-          86
-        ],
-        "rows": 7,
-        "text_color": [
-          248,
-          255,
-          252
-        ],
-        "theme_topic": "Fit Worm"
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "act impossible wish wet",
+        "theme_topic": "Hammer",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.6838,
-        "w": 1.6968,
-        "x": 8.9431,
-        "y": 2.7048
+        "h": 5.5461,
+        "w": 5.439,
+        "x": 7.336,
+        "y": 1.4451
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          180,
-          184,
-          55
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          51,
+          63,
+          101
         ],
-        "connector": "elbow",
-        "dash": 3,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Fit Worm",
-        "width": 0.35323951057368835
+        "line": [
+          97,
+          136,
+          192
+        ],
+        "line_width": 3.4517668697427926,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hammer"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.7962,
-        "w": 1.2349,
-        "x": 2.0123,
-        "y": 0.2252
+        "h": 1.1471,
+        "w": 5.0532,
+        "x": 7.516,
+        "y": 2.4436
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          230,
-          187,
-          102
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          87,
+          166
         ],
-        "focus": false,
-        "line": [
-          137,
-          143,
-          38
-        ],
-        "line_width": 6.009671358017574,
-        "outline_only": true,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Fit Worm"
+        "font_face": "Arial",
+        "font_size": 43,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "2x",
+        "theme_topic": "Hammer",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.951,
-        "w": 0.2,
-        "x": 0.2568,
-        "y": 4.4163
+        "h": 0.6872,
+        "w": 5.0633,
+        "x": 7.5143,
+        "y": 4.8303
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          115,
-          178,
-          45
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          133,
-          31,
-          214
-        ],
-        "line_width": 1.1012237755095067,
-        "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Fit Worm"
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "teeny-tiny fluffy coal deserve multiply",
+        "theme_topic": "Hammer",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     }
   ],

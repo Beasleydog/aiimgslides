@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 30,
+      "angle": 90,
       "archetype": "atomic_composition",
       "colors": [
         [
-          181,
-          43,
-          223
+          142,
+          82,
+          183
         ],
         [
-          38,
-          132,
-          88
+          255,
+          198,
+          74
         ]
       ],
       "fill": [
-        181,
-        43,
-        223
+        126,
+        58,
+        173
       ],
-      "focus": "center",
-      "gradient_type": "shape",
+      "focus": "bottom_right",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Bow"
+      "theme_topic": "Pretty"
     },
     "type": "background",
     "z_order": 0
@@ -45,54 +45,63 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.1277,
-        "w": 8.6059,
-        "x": 2.4172,
-        "y": 0.6392
+        "h": 4.4805,
+        "w": 3.181,
+        "x": 5.0132,
+        "y": -0.473
       },
       "id": "object_001",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          151,
+          156,
+          93
+        ],
+        "focus": false,
+        "line": [
+          223,
+          33,
+          64
+        ],
+        "line_width": 6.702695995845634,
+        "outline_only": false,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Pretty"
+      },
+      "type": "shape",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 2.9412,
+        "w": 3.2837,
+        "x": 0.7709,
+        "y": 2.036
+      },
+      "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos Display",
-        "font_size": 41,
-        "italic": false,
+        "font_size": 32,
+        "italic": true,
         "kind": "header",
         "margin": 0.04,
-        "text": "Spill Zoom Ugly War Yummy",
-        "theme_topic": "Bow",
+        "text": "Useful Colorful Roof Visitor Stir Error Calculate Damaging",
+        "theme_topic": "Pretty",
         "underline": false
       },
       "type": "text",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 2.8018,
-        "w": 6.8322,
-        "x": 3.2394,
-        "y": 2.8997
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          38,
-          132,
-          88
-        ],
-        "line_width": 16,
-        "theme_topic": "Bow"
-      },
-      "type": "svg_image",
       "z_order": 2
     }
   ],

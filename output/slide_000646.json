@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        210,
-        72,
-        94
+      "back_color": [
+        183,
+        198,
+        149
       ],
-      "style": "solid",
-      "theme_topic": "Public"
+      "fill": [
+        73,
+        151,
+        46
+      ],
+      "fore_color": [
+        38,
+        132,
+        88
+      ],
+      "pattern": 52,
+      "style": "pattern",
+      "theme_topic": "Press"
     },
     "type": "background",
     "z_order": 0
@@ -30,137 +41,132 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.7424,
-        "w": 7.7662,
-        "x": 3.7191,
-        "y": 3.7012
+        "h": 1.5283,
+        "w": 6.1403,
+        "x": -0.9266,
+        "y": 4.0445
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 3,
         "family": "arrows",
         "fill": [
-          212,
-          157,
-          39
+          129,
+          189,
+          59
         ],
         "focus": false,
         "line": [
-          104,
-          164,
-          178
+          60,
+          112,
+          166
         ],
-        "line_width": 3.0608350685877115,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Public"
+        "line_width": 2.659211729343875,
+        "outline_only": true,
+        "ppt_type": 33,
+        "shape": "right_arrow",
+        "theme_topic": "Press"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.8058,
-        "w": 5.7542,
-        "x": 0.9303,
-        "y": 0.4037
+        "h": 1.5343,
+        "w": 4.0478,
+        "x": 4.5493,
+        "y": -0.3957
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 4,
+        "family": "callouts",
         "fill": [
-          210,
-          82,
-          87
+          81,
+          200,
+          66
         ],
         "focus": false,
         "line": [
-          228,
-          212,
-          178
+          57,
+          178,
+          61
         ],
-        "line_width": 5.208627508821837,
-        "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Public"
+        "line_width": 5.431648948274985,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Press"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.2073,
-        "w": 5.6542,
-        "x": 0.3019,
-        "y": 1.3
+        "h": 1.1694,
+        "w": 6.2255,
+        "x": 0.5433,
+        "y": 0.3535
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          105,
-          153,
-          51
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          68,
-          25,
-          199
-        ],
-        "line_width": 2.87009619519884,
-        "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Public"
+        "font_face": "Aptos Display",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Early Peaceful Fax Handsome",
+        "theme_topic": "Press",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 3.1042,
-        "x": 5.1442,
-        "y": 0.5586
+        "h": 2.4432,
+        "w": 6.0042,
+        "x": 6.7798,
+        "y": 1.8199
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          51,
-          63,
-          101
+        "crop": [
+          0.045250004428731165,
+          0.19135465644591426,
+          0.09324722779727991,
+          0.11964058951471415
         ],
-        "line": [
-          225,
-          94,
-          113
+        "focus": true,
+        "mask_line": [
+          38,
+          132,
+          88
         ],
-        "line_width": 1.0373445048922776,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Public"
+        "mask_overlay": false,
+        "theme_topic": "Press",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1348,
-        "w": 6.8026,
-        "x": 0.5741,
-        "y": 0.3314
+        "h": 1.2726,
+        "w": 5.5743,
+        "x": 0.7466,
+        "y": 2.0362
       },
       "id": "object_005",
       "properties": {
@@ -168,17 +174,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          252,
-          247
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 28,
+        "font_face": "Aptos Display",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Bushes Brass Liquid Brick",
-        "theme_topic": "Public",
+        "text": "Oatmeal Unable Combative Resolute Itch Swanky Mindless Scarecrow Quack",
+        "theme_topic": "Press",
         "underline": false
       },
       "type": "text",
@@ -186,59 +192,57 @@
     },
     {
       "bbox": {
-        "h": 5.1585,
-        "w": 2.1971,
-        "x": 6.3966,
-        "y": 1.8497
+        "h": 0.378,
+        "w": 3.1019,
+        "x": 0.7583,
+        "y": 3.5262
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          165,
-          69,
-          95
-        ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 5.366041553175656,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Public"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.7414,
-        "w": 1.8384,
-        "x": 6.578,
-        "y": 2.0548
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          38,
+          132,
+          88
         ],
-        "font_face": "Georgia",
-        "font_size": 28,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "UNCOVERED AD",
+        "theme_topic": "Press",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.8321,
+        "w": 0.814,
+        "x": 0.5996,
+        "y": 5.9758
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "2.8x",
-        "theme_topic": "Public",
+        "text": "file recondite amusing naive include teeny-tiny wood",
+        "theme_topic": "Press",
         "underline": false
       },
       "type": "text",
@@ -246,10 +250,10 @@
     },
     {
       "bbox": {
-        "h": 4.1346,
-        "w": 1.8382,
-        "x": 6.5811,
-        "y": 2.7667
+        "h": 0.8455,
+        "w": 0.6851,
+        "x": 1.7377,
+        "y": 5.9848
       },
       "id": "object_008",
       "properties": {
@@ -257,17 +261,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          255,
-          218,
-          220
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "strap daily insect maniacal flippant yellow support",
-        "theme_topic": "Public",
+        "text": "liquid dinner drip concentrate boil",
+        "theme_topic": "Press",
         "underline": false
       },
       "type": "text",
@@ -275,28 +279,28 @@
     },
     {
       "bbox": {
-        "h": 0.7459,
-        "w": 1.1824,
-        "x": 8.9324,
-        "y": 2.0156
+        "h": 0.852,
+        "w": 1.1627,
+        "x": 2.7036,
+        "y": 5.9528
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 29,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "203",
-        "theme_topic": "Public",
+        "text": "shelter confuse provide addicted tumble",
+        "theme_topic": "Press",
         "underline": false
       },
       "type": "text",
@@ -304,10 +308,10 @@
     },
     {
       "bbox": {
-        "h": 4.1505,
-        "w": 1.1738,
-        "x": 8.9571,
-        "y": 2.7495
+        "h": 0.8588,
+        "w": 0.9775,
+        "x": 4.2227,
+        "y": 5.9647
       },
       "id": "object_010",
       "properties": {
@@ -315,17 +319,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          255,
-          218,
-          220
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "satisfy mundane things wholesale foamy satisfy",
-        "theme_topic": "Public",
+        "text": "quarrelsome confuse testy jog efficient turn",
+        "theme_topic": "Press",
         "underline": false
       },
       "type": "text",
@@ -333,290 +337,218 @@
     },
     {
       "bbox": {
-        "h": 5.1405,
-        "w": 2.2909,
-        "x": 10.4737,
-        "y": 1.8423
+        "h": 0.8427,
+        "w": 0.9763,
+        "x": 5.5287,
+        "y": 5.98
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          166,
-          66,
-          129
-        ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 5.39757647587598,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Public"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.7384,
-        "w": 1.9465,
-        "x": 10.6641,
-        "y": 2.0324
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
-        ],
-        "font_face": "Georgia",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "2.1x",
-        "theme_topic": "Public",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 4.1482,
-        "w": 1.952,
-        "x": 10.6411,
-        "y": 2.7668
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          255,
-          218,
-          220
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos",
         "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "kaput liquid friends",
-        "theme_topic": "Public",
+        "text": "sink soda punch believe lunch curvy cake",
+        "theme_topic": "Press",
         "underline": false
       },
       "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.268,
+        "w": 2.3902,
+        "x": 2.0149,
+        "y": 0.9929
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          130,
+          128,
+          161
+        ],
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "melted successful nifty",
+        "theme_topic": "Press",
+        "underline": true
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.6933,
+        "w": 0.4077,
+        "x": 7.2076,
+        "y": 5.7284
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          28,
+          36,
+          82
+        ],
+        "focus": false,
+        "line": [
+          131,
+          126,
+          128
+        ],
+        "line_width": 3.498420271549119,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Press"
+      },
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 5.061,
-        "w": 5.152,
-        "x": 0.6219,
-        "y": 1.8984
+        "h": 0.6145,
+        "w": 0.9175,
+        "x": 5.9128,
+        "y": 5.3588
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          175,
-          51,
-          206
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          29,
+          106,
+          60
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          225,
-          94,
-          113
+        "focus": false,
+        "line": [
+          157,
+          140,
+          127
         ],
-        "border": [
-          72,
-          139,
-          158
-        ],
-        "border_dash": "solid",
-        "border_width": 1.974677068993743,
-        "cells": [
-          [
-            "print",
-            "stamp strap",
-            "past miniature",
-            "hydrant",
-            "important",
-            "apparel"
-          ],
-          [
-            "tremble",
-            "dolls breezy",
-            "safe",
-            "bang",
-            "light strap",
-            "coherent permit"
-          ],
-          [
-            "snotty",
-            "foot",
-            "oatmeal",
-            "cannon",
-            "afternoon",
-            "quirky"
-          ],
-          [
-            "gun ball",
-            "chivalrous",
-            "share whistle",
-            "square",
-            "snatch ajar",
-            "visitor"
-          ],
-          [
-            "extra-large cruel",
-            "awful",
-            "stereotyped way",
-            "smart helpless",
-            "up faded",
-            "limit follow"
-          ],
-          [
-            "found",
-            "unruly",
-            "horn friction",
-            "quizzical",
-            "tired",
-            "pest"
-          ],
-          [
-            "overt",
-            "film glove",
-            "gratis recess",
-            "instrument help",
-            "greedy vacuous",
-            "warlike bath"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 11,
-        "has_header": true,
-        "header": [
-          46,
-          107,
-          188
-        ],
-        "rows": 7,
-        "text_color": [
-          28,
-          64,
-          112
-        ],
-        "theme_topic": "Public"
+        "line_width": 4.84233060382205,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Press"
       },
-      "type": "table",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.9014,
-        "w": 1.3875,
-        "x": 9.5575,
-        "y": 6.1285
+        "h": 0.6175,
+        "w": 1.0829,
+        "x": 1.1371,
+        "y": 1.5721
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          86,
-          228,
-          171
+        "bg_color": [
+          146,
+          226,
+          143
         ],
-        "focus": false,
-        "line": [
-          127,
-          202,
-          181
+        "bold": false,
+        "color": [
+          147,
+          54,
+          81
         ],
-        "line_width": 5.287879473321993,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Public"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "sugar cheerful",
+        "theme_topic": "Press",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.6162,
-        "w": 1.0784,
-        "x": 10.0254,
-        "y": 0.4213
+        "h": 0.5949,
+        "w": 1.3835,
+        "x": 1.1537,
+        "y": 5.7714
       },
       "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
-        "fill": [
-          186,
-          204,
-          230
-        ],
-        "focus": false,
-        "line": [
-          183,
-          153,
-          133
-        ],
-        "line_width": 3.2686744784529362,
-        "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Public"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.2982,
-        "w": 1.4616,
-        "x": 1.9544,
-        "y": 0.6058
-      },
-      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          185,
-          53,
-          37
+          115,
+          193,
+          179
         ],
         "font_face": "Aptos",
-        "font_size": 8,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Found",
-        "theme_topic": "Public",
-        "underline": false
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ear pretty knee greedy annoyed",
+        "theme_topic": "Press",
+        "underline": true
       },
       "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.7534,
+        "w": 1.0021,
+        "x": 1.226,
+        "y": 3.6836
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "callouts",
+        "fill": [
+          184,
+          134,
+          200
+        ],
+        "focus": false,
+        "line": [
+          29,
+          100,
+          54
+        ],
+        "line_width": 5.060846011049009,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Press"
+      },
+      "type": "shape",
       "z_order": 17
     }
   ],

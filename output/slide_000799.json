@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          236,
-          240,
-          242
-        ],
-        [
-          222,
-          133,
-          62
-        ]
-      ],
       "fill": [
-        247,
-        248,
-        246
+        197,
+        190,
+        101
       ],
-      "focus": "center",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Devilish"
+      "style": "solid",
+      "theme_topic": "Sign"
     },
     "type": "background",
     "z_order": 0
@@ -45,183 +30,262 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.7347,
-        "w": 7.2682,
-        "x": 1.7842,
-        "y": 4.428
+        "h": 5.1732,
+        "w": 4.8551,
+        "x": 2.1645,
+        "y": -0.1945
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "stars",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          167,
-          116,
-          125
+          141,
+          95,
+          97
         ],
         "focus": false,
         "line": [
-          97,
-          57,
-          177
+          61,
+          73,
+          202
         ],
-        "line_width": 4.485784223049061,
-        "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Devilish"
+        "line_width": 7.741751075927974,
+        "outline_only": true,
+        "ppt_type": 179,
+        "shape": "cloud",
+        "theme_topic": "Sign"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.6759,
-        "w": 7.8092,
-        "x": 3.2854,
-        "y": 3.6126
+        "h": 4.3496,
+        "w": 6.378,
+        "x": 5.0356,
+        "y": 0.7848
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "flowchart",
         "fill": [
-          121,
-          160,
-          95
+          114,
+          206,
+          104
         ],
         "focus": false,
         "line": [
-          116,
-          118,
-          185
+          185,
+          130,
+          75
         ],
-        "line_width": 3.486015957237132,
+        "line_width": 5.524813187648725,
         "outline_only": false,
         "ppt_type": 64,
         "shape": "flow_data",
-        "theme_topic": "Devilish"
+        "theme_topic": "Sign"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.9421,
-        "w": 8.1842,
-        "x": 1.8065,
-        "y": -0.6514
+        "h": 2.499,
+        "w": 3.5753,
+        "x": 2.1217,
+        "y": -0.8067
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 3,
-        "family": "math",
+        "family": "callouts",
         "fill": [
-          175,
-          107,
-          119
+          166,
+          199,
+          64
         ],
         "focus": false,
         "line": [
-          120,
-          29,
-          82
+          58,
+          68,
+          211
         ],
-        "line_width": 6.163479414164474,
+        "line_width": 4.253582281211035,
         "outline_only": true,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Devilish"
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Sign"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.8913,
-        "w": 4.3774,
-        "x": 1.6291,
-        "y": 0.6941
+        "h": 0.8384,
+        "w": 0.2,
+        "x": 10.3492,
+        "y": 0.5445
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          31,
+          117,
+          161
+        ],
+        "line": [
+          163,
+          157,
+          83
+        ],
+        "line_width": 1.1844389743680497,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Sign"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.8941,
+        "w": 0.2,
+        "x": 5.7499,
+        "y": 2.8809
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          31,
+          117,
+          161
+        ],
+        "line": [
+          163,
+          157,
+          83
+        ],
+        "line_width": 0.9609764313364462,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Sign"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.8874,
+        "w": 4.4176,
+        "x": 1.3471,
+        "y": 0.7449
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
+          28,
           30,
-          35,
-          42
+          36
         ],
         "font_face": "Arial",
-        "font_size": 25,
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Care Whistle",
-        "theme_topic": "Devilish",
+        "text": "Store Chalk Reflect Rhythm",
+        "theme_topic": "Sign",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.5358,
-        "w": 6.0024,
-        "x": 0.5246,
-        "y": 1.4537
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          50,
-          62,
-          200
-        ],
-        "line_width": 9,
-        "theme_topic": "Devilish"
-      },
-      "type": "svg_image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.6186,
-        "w": 1.7913,
-        "x": 7.0433,
-        "y": 1.5145
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": false,
-        "line": [
-          31,
-          117,
-          161
-        ],
-        "line_width": 13,
-        "theme_topic": "Devilish"
-      },
-      "type": "svg_image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.2764,
-        "w": 1.3754,
-        "x": 7.2084,
-        "y": 3.6713
+        "h": 2.4545,
+        "w": 5.2606,
+        "x": 0.5618,
+        "y": 1.4623
       },
       "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          163,
+          157,
+          83
+        ],
+        "line": [
+          163,
+          157,
+          83
+        ],
+        "line_width": 5.044323086348309,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sign"
+      },
+      "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.5635,
+        "w": 0.517,
+        "x": 0.7936,
+        "y": 1.6864
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          163,
+          157,
+          83
+        ],
+        "focus": false,
+        "line": [
+          185,
+          79,
+          202
+        ],
+        "line_width": 4.058606252039104,
+        "outline_only": true,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Sign"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.4438,
+        "w": 4.7837,
+        "x": 0.779,
+        "y": 2.3676
+      },
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -236,108 +300,48 @@
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Plot Examine Sugar",
-        "theme_topic": "Devilish",
+        "text": "Program Winter",
+        "theme_topic": "Sign",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 2.6566,
-        "w": 1.7889,
-        "x": 8.955,
-        "y": 1.4672
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.3076741258301177,
-          0.2538994963534887,
-          0.10193838100940432,
-          0.011795186214375067
-        ],
-        "focus": false,
-        "mask_line": [
-          67,
-          200,
-          90
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Devilish",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 2.6596,
-        "w": 1.8152,
-        "x": 10.9472,
-        "y": 1.4939
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          236,
-          240,
-          242
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 5.201020312311753,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Devilish"
-      },
-      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 2.3765,
-        "w": 1.5305,
-        "x": 11.1139,
-        "y": 1.6607
+        "h": 0.8082,
+        "w": 4.7438,
+        "x": 0.8039,
+        "y": 2.9112
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.09313266891038369,
-          0.19679981785026093,
-          0.21060762972689168,
-          0.12190821722092632
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          104,
+          102,
+          65
         ],
-        "focus": false,
-        "mask_line": [
-          31,
-          117,
-          161
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Devilish",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "harsh spark maid grouchy permissible untidy heartbreaking chin ashamed fuel red trap ring",
+        "theme_topic": "Sign",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 2.641,
-        "w": 1.7976,
-        "x": 7.0204,
-        "y": 4.3168
+        "h": 2.4498,
+        "w": 6.7579,
+        "x": 6.0206,
+        "y": 1.451
       },
       "id": "object_011",
       "properties": {
@@ -345,84 +349,64 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          236,
-          240,
-          242
+          163,
+          157,
+          83
         ],
         "line": [
-          236,
-          240,
-          242
+          163,
+          157,
+          83
         ],
-        "line_width": 0.4716731026531571,
+        "line_width": 0.9654839416164576,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Devilish"
+        "theme_topic": "Sign"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 2.3183,
-        "w": 1.5061,
-        "x": 7.1482,
-        "y": 4.4734
+        "h": 0.5171,
+        "w": 0.5323,
+        "x": 6.2937,
+        "y": 1.6998
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "ticket",
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          64,
+          111,
+          69
+        ],
         "focus": false,
         "line": [
-          49,
-          40,
-          198
+          104,
+          102,
+          65
         ],
-        "line_width": 13,
-        "theme_topic": "Devilish"
+        "line_width": 0.9659853015183612,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Sign"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 2.6787,
-        "w": 1.7923,
-        "x": 8.9575,
-        "y": 4.3171
+        "h": 0.4399,
+        "w": 6.2293,
+        "x": 6.2958,
+        "y": 2.3543
       },
       "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.03308178265332441,
-          0.1281923901010558,
-          0.16748218259889402,
-          0.11263763849668697
-        ],
-        "focus": false,
-        "mask_line": [
-          31,
-          117,
-          161
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Devilish",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.2889,
-        "w": 1.4158,
-        "x": 9.1664,
-        "y": 6.4882
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -433,12 +417,41 @@
           161
         ],
         "font_face": "Arial",
-        "font_size": 10,
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Grouchy",
-        "theme_topic": "Devilish",
+        "text": "Impartial",
+        "theme_topic": "Sign",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.7711,
+        "w": 6.2402,
+        "x": 6.2836,
+        "y": 2.8783
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          104,
+          102,
+          65
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "jail bedroom well-made leg ritzy periodic abiding rice picture",
+        "theme_topic": "Sign",
         "underline": false
       },
       "type": "text",
@@ -446,39 +459,41 @@
     },
     {
       "bbox": {
-        "h": 2.6289,
-        "w": 1.78,
-        "x": 10.9676,
-        "y": 4.2731
+        "h": 2.8003,
+        "w": 5.0322,
+        "x": 7.7726,
+        "y": 4.18
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2629465546275217,
-          0.2949664395810964,
-          0.32658771680242776,
-          0.10838700357660327
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          163,
+          157,
+          83
         ],
-        "focus": false,
-        "mask_line": [
-          216,
-          127,
-          70
+        "line": [
+          163,
+          157,
+          83
         ],
-        "mask_overlay": false,
-        "theme_topic": "Devilish",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.7870415882118205,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sign"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.2943,
-        "w": 1.399,
-        "x": 11.1357,
-        "y": 6.4825
+        "h": 1.0869,
+        "w": 4.6768,
+        "x": 7.9294,
+        "y": 4.743
       },
       "id": "object_016",
       "properties": {
@@ -486,17 +501,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          197,
+          190,
+          101
         ],
         "font_face": "Arial",
-        "font_size": 11,
+        "font_size": 52,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Faint Theory",
-        "theme_topic": "Devilish",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "11x",
+        "theme_topic": "Sign",
         "underline": false
       },
       "type": "text",
@@ -504,129 +519,126 @@
     },
     {
       "bbox": {
-        "h": 0.9852,
-        "w": 0.6489,
-        "x": 12.5176,
-        "y": 5.2597
+        "h": 0.6752,
+        "w": 4.6771,
+        "x": 7.9455,
+        "y": 5.9093
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          75,
-          184,
-          148
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          185,
-          150,
-          40
-        ],
-        "line_width": 2.139267376503053,
-        "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Devilish"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "attach brief hammer pigs birthday ambiguous fluffy",
+        "theme_topic": "Sign",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.7889,
-        "w": 1.2184,
-        "x": 11.0876,
-        "y": 1.7543
+        "h": 0.4339,
+        "w": 1.6275,
+        "x": 4.1845,
+        "y": 3.1822
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "symbols",
-        "fill": [
-          31,
-          27,
-          161
-        ],
-        "focus": false,
-        "line": [
-          103,
-          184,
-          188
-        ],
-        "line_width": 1.2273364336060153,
-        "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Devilish"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.3687,
-        "w": 0.7567,
-        "x": 4.7864,
-        "y": 0.3399
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
         "bg_color": [
-          140,
-          202,
-          92
+          49,
+          60,
+          218
         ],
-        "bold": false,
+        "bold": true,
         "color": [
-          181,
-          215,
-          139
+          85,
+          154,
+          60
         ],
         "font_face": "Arial",
         "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "trucks delicate invincible",
-        "theme_topic": "Devilish",
-        "underline": false
+        "text": "closed delay north",
+        "theme_topic": "Sign",
+        "underline": true
       },
       "type": "text",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.9582,
+        "w": 1.3295,
+        "x": 10.4233,
+        "y": 3.038
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "callouts",
+        "fill": [
+          64,
+          36,
+          90
+        ],
+        "focus": false,
+        "line": [
+          26,
+          50,
+          59
+        ],
+        "line_width": 3.147346141592188,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Sign"
+      },
+      "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.7772,
-        "w": 1.0033,
-        "x": 8.9273,
-        "y": 1.9344
+        "h": 1.0258,
+        "w": 1.064,
+        "x": 11.1079,
+        "y": 0.3942
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "math",
+        "family": "callouts",
         "fill": [
-          84,
-          199,
-          167
+          96,
+          87,
+          45
         ],
         "focus": false,
         "line": [
-          112,
-          163,
-          81
+          229,
+          161,
+          162
         ],
-        "line_width": 3.641655824091897,
-        "outline_only": true,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Devilish"
+        "line_width": 4.8836271686621116,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Sign"
       },
       "type": "shape",
       "z_order": 20

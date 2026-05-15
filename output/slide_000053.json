@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "back_color": [
-        48,
-        141,
-        211
+      "colors": [
+        [
+          174,
+          72,
+          228
+        ],
+        [
+          36,
+          178,
+          149
+        ]
       ],
       "fill": [
-        29,
-        151,
-        112
+        174,
+        72,
+        228
       ],
-      "fore_color": [
-        132,
-        119,
-        146
-      ],
-      "pattern": 51,
-      "style": "pattern",
-      "theme_topic": "Wail"
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Love Zebra"
     },
     "type": "background",
     "z_order": 0
@@ -41,63 +45,56 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.5287,
-        "w": 7.7224,
-        "x": 4.1005,
-        "y": 0.5655
+        "h": 7.5032,
+        "w": 13.3138,
+        "x": 0.0098,
+        "y": 3.8544
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          135,
-          203,
-          173
+          148,
+          61,
+          194
         ],
-        "focus": false,
         "line": [
-          70,
-          196,
-          94
+          148,
+          61,
+          194
         ],
-        "line_width": 4.373354557667998,
-        "outline_only": true,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Wail"
+        "line_width": 0.6713245829752685,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Love Zebra"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.1507,
-        "w": 8.4673,
-        "x": 3.0963,
-        "y": 0.6435
+        "h": 2.2327,
+        "w": 12.2028,
+        "x": 0.576,
+        "y": 2.0345
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "clip": "ticket",
+        "focus": true,
+        "line": [
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos Display",
-        "font_size": 39,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Health Pumped",
-        "theme_topic": "Wail",
-        "underline": false
+        "line_width": 14,
+        "theme_topic": "Love Zebra"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 2
     }
   ],

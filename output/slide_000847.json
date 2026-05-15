@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        73,
-        223,
-        77
+      "colors": [
+        [
+          56,
+          75,
+          31
+        ],
+        [
+          82,
+          96,
+          214
+        ]
       ],
       "fill": [
-        38,
-        217,
-        43
+        245,
+        247,
+        252
       ],
-      "fore_color": [
-        255,
-        238,
-        103
-      ],
-      "pattern": 24,
-      "style": "pattern",
-      "theme_topic": "Precede Nut"
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "High Winter"
     },
     "type": "background",
     "z_order": 0
@@ -41,135 +45,138 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.5648,
-        "w": 5.1896,
-        "x": 2.647,
-        "y": 5.2084
+        "h": 4.3205,
+        "w": 6.7024,
+        "x": 4.2865,
+        "y": -0.494
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          77,
-          172,
-          102
+          208,
+          197,
+          150
         ],
         "focus": false,
         "line": [
-          59,
-          47,
-          75
+          68,
+          190,
+          174
         ],
-        "line_width": 6.825413880471731,
+        "line_width": 3.8894807233981066,
         "outline_only": true,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Precede Nut"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "High Winter"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.2728,
-        "w": 4.623,
-        "x": 1.9614,
-        "y": 6.1131
+        "h": 2.385,
+        "w": 6.7248,
+        "x": -0.195,
+        "y": 4.4017
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          166,
-          193,
-          38
+          192,
+          196,
+          135
         ],
         "focus": false,
         "line": [
-          27,
-          176,
-          151
+          183,
+          229,
+          118
         ],
-        "line_width": 6.987674298735197,
-        "outline_only": true,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Precede Nut"
+        "line_width": 6.0785752465022185,
+        "outline_only": false,
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "High Winter"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.8505,
-        "w": 5.7271,
-        "x": -0.6816,
-        "y": 0.4764
+        "h": 4.767,
+        "w": 3.0181,
+        "x": -0.3339,
+        "y": 2.8469
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          110,
-          77,
-          183
+          159,
+          236,
+          206
         ],
         "focus": false,
         "line": [
-          51,
-          184,
-          147
+          86,
+          88,
+          164
         ],
-        "line_width": 3.486179900871006,
-        "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Precede Nut"
+        "line_width": 6.6777457529949285,
+        "outline_only": true,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "High Winter"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.923,
-        "w": 5.6424,
-        "x": 0.7366,
-        "y": 5.8449
+        "h": 4.4757,
+        "w": 4.1174,
+        "x": 5.2037,
+        "y": 0.6793
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          168,
+          186,
+          197
         ],
-        "font_face": "Arial",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Shut Silly Complete Reproduce",
-        "theme_topic": "Precede Nut",
-        "underline": false
+        "focus": false,
+        "line": [
+          37,
+          130,
+          93
+        ],
+        "line_width": 4.833711575664664,
+        "outline_only": false,
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "High Winter"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.7638,
-        "w": 2.2672,
-        "x": 0.6768,
-        "y": 0.6739
+        "h": 1.0428,
+        "w": 6.6196,
+        "x": 0.5531,
+        "y": 0.3423
       },
       "id": "object_005",
       "properties": {
@@ -177,17 +184,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          27,
+          44,
+          68
         ],
-        "font_face": "Arial",
-        "font_size": 20,
+        "font_face": "Trebuchet MS",
+        "font_size": 40,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Dislike Familiar Beef",
-        "theme_topic": "Precede Nut",
+        "text": "Add Breakable Earthy",
+        "theme_topic": "High Winter",
         "underline": false
       },
       "type": "text",
@@ -195,88 +202,88 @@
     },
     {
       "bbox": {
-        "h": 1.0157,
-        "w": 2.2639,
-        "x": 0.7138,
-        "y": 1.6855
+        "h": 2.402,
+        "w": 5.9307,
+        "x": 0.5585,
+        "y": 1.8611
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          152,
-          234,
-          157
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          232,
+          237,
+          247
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wise honorable befitting meaty uptight event grandiose likeable throne",
-        "theme_topic": "Precede Nut",
-        "underline": false
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 1.7844905253397396,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "High Winter"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.3026,
-        "w": 0.5483,
-        "x": 3.343,
-        "y": 0.5332
+        "h": 0.4352,
+        "w": 5.4406,
+        "x": 0.7799,
+        "y": 2.7598
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          98,
-          222,
-          59
-        ],
-        "line": [
-          73,
-          223,
-          77
-        ],
-        "line_width": 2.070390515942973,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Precede Nut"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.7442,
-        "w": 0.2066,
-        "x": 3.55,
-        "y": 0.7475
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          82,
+          96,
+          214
         ],
-        "font_face": "Arial",
-        "font_size": 20,
+        "font_face": "Verdana",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Vegetable",
+        "theme_topic": "High Winter",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.7222,
+        "w": 5.4191,
+        "x": 0.7827,
+        "y": 3.2958
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          117,
+          137
+        ],
+        "font_face": "Verdana",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "7.7x",
-        "theme_topic": "Precede Nut",
+        "text": "pot hellish prose husky ludicrous big neighborly hover",
+        "theme_topic": "High Winter",
         "underline": false
       },
       "type": "text",
@@ -284,88 +291,88 @@
     },
     {
       "bbox": {
-        "h": 1.2965,
-        "w": 0.2134,
-        "x": 3.5507,
-        "y": 1.4707
+        "h": 2.5865,
+        "w": 5.9381,
+        "x": 0.5338,
+        "y": 4.451
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          152,
-          234,
-          157
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          232,
+          237,
+          247
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "snobbish snow roof polite",
-        "theme_topic": "Precede Nut",
-        "underline": false
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 1.549032394757778,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "High Winter"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 2.3169,
-        "w": 0.7708,
-        "x": 4.077,
-        "y": 0.5548
+        "h": 0.4432,
+        "w": 5.4203,
+        "x": 0.8087,
+        "y": 5.3455
       },
       "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          175,
-          195,
-          183
-        ],
-        "line": [
-          73,
-          223,
-          77
-        ],
-        "line_width": 4.302821096758664,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Precede Nut"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.7442,
-        "w": 0.4091,
-        "x": 4.2644,
-        "y": 0.7296
-      },
-      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          82,
+          96,
+          214
         ],
-        "font_face": "Arial",
-        "font_size": 20,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Plausible Wry",
+        "theme_topic": "High Winter",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.9109,
+        "w": 5.4214,
+        "x": 0.8225,
+        "y": 5.8803
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          117,
+          137
+        ],
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "9.3x",
-        "theme_topic": "Precede Nut",
+        "text": "fluttering dance unarmed fairies robin private dark oatmeal understood complain mountainous order",
+        "theme_topic": "High Winter",
         "underline": false
       },
       "type": "text",
@@ -373,10 +380,10 @@
     },
     {
       "bbox": {
-        "h": 1.2925,
-        "w": 0.4141,
-        "x": 4.266,
-        "y": 1.453
+        "h": 1.7685,
+        "w": 1.3521,
+        "x": 6.989,
+        "y": 4.8325
       },
       "id": "object_012",
       "properties": {
@@ -384,17 +391,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          152,
-          234,
-          157
+          27,
+          44,
+          68
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Verdana",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "stuff scrub count frighten",
-        "theme_topic": "Precede Nut",
+        "text": "wool unit enchanting amused metal hot",
+        "theme_topic": "High Winter",
         "underline": false
       },
       "type": "text",
@@ -402,39 +409,41 @@
     },
     {
       "bbox": {
-        "h": 0.7276,
-        "w": 0.2,
-        "x": 5.2467,
-        "y": 0.7053
+        "h": 0.534,
+        "w": 0.5348,
+        "x": 9.171,
+        "y": 3.2407
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          82,
+          96,
+          214
         ],
-        "font_face": "Arial",
-        "font_size": 19,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "7.7x",
-        "theme_topic": "Precede Nut",
-        "underline": false
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 3.6620590672163806,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "High Winter"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 1.2572,
-        "w": 0.2,
-        "x": 5.2239,
-        "y": 1.4615
+        "h": 1.7591,
+        "w": 1.4413,
+        "x": 8.6604,
+        "y": 4.8195
       },
       "id": "object_014",
       "properties": {
@@ -442,17 +451,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          152,
-          234,
-          157
+          27,
+          44,
+          68
         ],
-        "font_face": "Arial",
+        "font_face": "Verdana",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "high harsh kindly strange ordinary hallowed",
-        "theme_topic": "Precede Nut",
+        "text": "last juvenile snore cheat remind",
+        "theme_topic": "High Winter",
         "underline": false
       },
       "type": "text",
@@ -460,70 +469,70 @@
     },
     {
       "bbox": {
-        "h": 2.3002,
-        "w": 0.6483,
-        "x": 5.7052,
-        "y": 0.5684
+        "h": 1.7531,
+        "w": 1.0429,
+        "x": 10.4232,
+        "y": 4.8375
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          61,
-          207,
-          47
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          27,
+          44,
+          68
         ],
-        "line": [
-          73,
-          223,
-          77
-        ],
-        "line_width": 1.8117074648873674,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Precede Nut"
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "shirt store possible comb female toad tumble",
+        "theme_topic": "High Winter",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.7482,
-        "w": 0.255,
-        "x": 5.9001,
-        "y": 0.7546
+        "h": 0.361,
+        "w": 0.3702,
+        "x": 12.0344,
+        "y": 3.1857
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          82,
+          96,
+          214
         ],
-        "font_face": "Arial",
-        "font_size": 20,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "20%",
-        "theme_topic": "Precede Nut",
-        "underline": false
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 1.7773712198059908,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "High Winter"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 1.2806,
-        "w": 0.2546,
-        "x": 5.9073,
-        "y": 1.4696
+        "h": 1.7618,
+        "w": 0.9841,
+        "x": 11.7471,
+        "y": 4.8301
       },
       "id": "object_017",
       "properties": {
@@ -531,17 +540,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          152,
-          234,
-          157
+          27,
+          44,
+          68
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Verdana",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "productive dogs groovy post consider",
-        "theme_topic": "Precede Nut",
+        "text": "horn star whistle male close jellyfish",
+        "theme_topic": "High Winter",
         "underline": false
       },
       "type": "text",
@@ -549,156 +558,152 @@
     },
     {
       "bbox": {
-        "h": 0.4864,
-        "w": 1.0774,
-        "x": 0.4968,
-        "y": 0.4283
+        "h": 1.3249,
+        "w": 1.8596,
+        "x": 9.6223,
+        "y": 2.2493
       },
       "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "color": [
+          51,
+          196,
+          105
+        ],
+        "connector": "curve",
+        "dash": 2,
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "High Winter",
+        "width": 2.5383676959454484
+      },
+      "type": "connector",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 0.3009,
+        "x": 8.1886,
+        "y": 2.6382
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "symbols",
+        "fill": [
+          40,
+          83,
+          153
+        ],
+        "focus": false,
+        "line": [
+          89,
+          225,
+          121
+        ],
+        "line_width": 5.588252551327874,
+        "outline_only": false,
+        "ppt_type": 24,
+        "shape": "moon",
+        "theme_topic": "High Winter"
+      },
+      "type": "shape",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.9794,
+        "w": 0.8718,
+        "x": 7.8945,
+        "y": 2.1787
+      },
+      "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "flowchart",
         "fill": [
-          100,
-          104,
-          100
+          230,
+          88,
+          54
         ],
         "focus": false,
         "line": [
-          93,
-          93,
-          157
+          136,
+          154,
+          87
         ],
-        "line_width": 2.5868300978141265,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Precede Nut"
+        "line_width": 5.48807217596699,
+        "outline_only": true,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "High Winter"
       },
       "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.6325,
-        "w": 2.3216,
-        "x": 1.1697,
-        "y": 5.7447
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          85,
-          65,
-          161
-        ],
-        "font_face": "Arial",
-        "font_size": 5,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "subtract accessible",
-        "theme_topic": "Precede Nut",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.6485,
-        "w": 1.1325,
-        "x": 9.8733,
-        "y": 0.3476
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          217,
-          160,
-          203
-        ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Self",
-        "theme_topic": "Precede Nut",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.9488,
-        "w": 0.7142,
-        "x": 2.0052,
-        "y": 6.2598
+        "h": 0.5158,
+        "w": 0.9634,
+        "x": 3.5245,
+        "y": 0.0946
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          58,
-          99,
-          33
+          176,
+          140,
+          203
         ],
         "focus": false,
         "line": [
-          201,
-          47,
-          122
+          78,
+          186,
+          59
         ],
-        "line_width": 5.5122572968660135,
-        "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Precede Nut"
+        "line_width": 4.865827068950406,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "High Winter"
       },
       "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.9617,
-        "w": 1.0288,
-        "x": 5.9547,
-        "y": 0.8876
+        "h": 0.3838,
+        "w": 1.1493,
+        "x": 8.1092,
+        "y": 3.2885
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          206,
-          179,
-          155
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          118,
+          191,
+          181
         ],
-        "focus": false,
-        "line": [
-          179,
-          186,
-          107
-        ],
-        "line_width": 1.563076923523109,
-        "outline_only": false,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Precede Nut"
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "frightened grouchy",
+        "theme_topic": "High Winter",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 22
     }
   ],

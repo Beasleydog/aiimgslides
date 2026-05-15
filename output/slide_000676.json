@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        146,
-        79,
-        147
+      "colors": [
+        [
+          103,
+          93,
+          124
+        ],
+        [
+          100,
+          146,
+          156
+        ]
       ],
       "fill": [
-        33,
-        115,
-        169
+        103,
+        93,
+        124
       ],
-      "fore_color": [
-        101,
-        152,
-        212
-      ],
-      "pattern": 54,
-      "style": "pattern",
-      "theme_topic": "Ossified"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Spiteful Clear"
     },
     "type": "background",
     "z_order": 0
@@ -41,259 +45,276 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5665,
-        "w": 8.971,
-        "x": 3.7263,
-        "y": 1.8699
+        "h": 3.5081,
+        "w": 8.5657,
+        "x": 4.6772,
+        "y": 1.3937
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "ribbons",
+        "family": "flowchart",
         "fill": [
-          77,
-          111,
-          199
+          54,
+          68,
+          92
         ],
         "focus": false,
         "line": [
-          152,
-          195,
-          229
+          107,
+          173,
+          113
         ],
-        "line_width": 6.919050075766301,
-        "outline_only": true,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Ossified"
+        "line_width": 4.877706330863985,
+        "outline_only": false,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Spiteful Clear"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.9609,
-        "w": 4.6196,
-        "x": 3.0631,
-        "y": 3.1674
+        "h": 3.2991,
+        "w": 4.709,
+        "x": 5.0686,
+        "y": 1.8946
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 5,
+        "family": "callouts",
         "fill": [
-          141,
-          99,
-          140
+          91,
+          96,
+          79
         ],
         "focus": false,
         "line": [
-          85,
-          201,
-          154
+          57,
+          131,
+          114
         ],
-        "line_width": 6.194158873860121,
-        "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Ossified"
+        "line_width": 5.009559659648042,
+        "outline_only": true,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Spiteful Clear"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.4358,
-        "w": 8.5925,
-        "x": 1.2637,
-        "y": 1.2499
+        "h": 3.2368,
+        "w": 4.3109,
+        "x": 7.5386,
+        "y": 2.0962
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "symbols",
+        "dash": 5,
+        "family": "stars",
         "fill": [
-          80,
-          74,
-          168
+          72,
+          154,
+          76
         ],
         "focus": false,
         "line": [
+          44,
           191,
-          43,
-          186
+          207
         ],
-        "line_width": 4.047991273401547,
+        "line_width": 3.6951822812720545,
         "outline_only": true,
-        "ppt_type": 174,
-        "shape": "funnel",
-        "theme_topic": "Ossified"
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Spiteful Clear"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.3286,
-        "w": 5.6054,
-        "x": 0.5382,
-        "y": 0.3425
+        "h": 1.9488,
+        "w": 4.5839,
+        "x": 5.6077,
+        "y": 5.5408
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "flowchart",
+        "fill": [
+          102,
+          103,
+          79
+        ],
+        "focus": false,
+        "line": [
+          56,
+          156,
+          113
+        ],
+        "line_width": 3.7917562090363193,
+        "outline_only": false,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Spiteful Clear"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.5717,
+        "w": 13.3491,
+        "x": -0.017,
+        "y": 0.0058
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          127,
+          119,
+          145
+        ],
+        "line": [
+          127,
+          119,
+          145
+        ],
+        "line_width": 2.1088740974990747,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Spiteful Clear"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 5.5567,
+        "w": 2.8261,
+        "x": 0.6597,
+        "y": 0.7376
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          250,
-          252,
-          255
+          246,
+          248,
+          252
         ],
         "font_face": "Trebuchet MS",
-        "font_size": 27,
+        "font_size": 20,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Overconfident Acoustics",
-        "theme_topic": "Ossified",
+        "text": "Wicked Crayon",
+        "theme_topic": "Spiteful Clear",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.0836,
-        "w": 1.3962,
-        "x": 8.2135,
-        "y": 1.9007
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.15205870986094044,
-          0.061763354466968914,
-          0.02026166485765413,
-          0.11441286058771476
-        ],
-        "focus": false,
-        "mask_line": [
-          142,
-          62,
-          101
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Ossified",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.0641,
-        "w": 1.413,
-        "x": 9.7387,
-        "y": 1.885
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": false,
-        "line": [
-          123,
-          217,
-          163
-        ],
-        "line_width": 13,
-        "theme_topic": "Ossified"
-      },
-      "type": "svg_image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 5.068,
-        "w": 1.3945,
-        "x": 11.3083,
-        "y": 1.916
+        "h": 2.6442,
+        "w": 4.9728,
+        "x": 3.7636,
+        "y": 0.6596
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          47,
-          136,
-          190
+          127,
+          119,
+          145
         ],
         "line": [
-          47,
-          136,
-          190
+          127,
+          119,
+          145
         ],
-        "line_width": 1.3180195080707957,
+        "line_width": 2.1006680591359914,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Ossified"
+        "theme_topic": "Spiteful Clear"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 4.7563,
-        "w": 1.0876,
-        "x": 11.4575,
-        "y": 2.0342
+        "h": 0.4389,
+        "w": 4.4578,
+        "x": 4.0189,
+        "y": 1.5733
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": false,
-        "line": [
-          169,
-          58,
-          183
-        ],
-        "line_width": 12,
-        "theme_topic": "Ossified"
-      },
-      "type": "svg_image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.7298,
-        "w": 0.5303,
-        "x": 4.6951,
-        "y": 2.0117
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          32,
+          119,
+          149
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 19,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Burst Sidewalk",
+        "theme_topic": "Spiteful Clear",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.9942,
+        "w": 4.4548,
+        "x": 3.9989,
+        "y": 2.082
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          181,
+          178,
+          194
+        ],
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "7.5x",
-        "theme_topic": "Ossified",
+        "text": "ice humor deserve wary dirt street film detailed name befitting",
+        "theme_topic": "Spiteful Clear",
         "underline": false
       },
       "type": "text",
@@ -301,57 +322,59 @@
     },
     {
       "bbox": {
-        "h": 4.1225,
-        "w": 0.5015,
-        "x": 4.7055,
-        "y": 2.7617
+        "h": 3.395,
+        "w": 4.9621,
+        "x": 3.7395,
+        "y": 3.4993
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          218,
-          235,
-          245
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          127,
+          119,
+          145
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "somber plain tense steadfast",
-        "theme_topic": "Ossified",
-        "underline": false
+        "line": [
+          127,
+          119,
+          145
+        ],
+        "line_width": 2.3161347764376,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Spiteful Clear"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 4.1063,
-        "w": 0.2285,
-        "x": 5.7814,
-        "y": 2.7679
+        "h": 0.4306,
+        "w": 4.4867,
+        "x": 4.0069,
+        "y": 4.4204
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          218,
-          235,
-          245
+          32,
+          119,
+          149
         ],
         "font_face": "Verdana",
-        "font_size": 13,
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "flavor admire spicy scared scream",
-        "theme_topic": "Ossified",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Hurry",
+        "theme_topic": "Spiteful Clear",
         "underline": false
       },
       "type": "text",
@@ -359,28 +382,28 @@
     },
     {
       "bbox": {
-        "h": 0.735,
-        "w": 0.2,
-        "x": 6.5376,
-        "y": 2.0398
+        "h": 1.7307,
+        "w": 4.466,
+        "x": 3.987,
+        "y": 4.9803
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          198,
-          74
+          181,
+          178,
+          194
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 20,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "160",
-        "theme_topic": "Ossified",
+        "text": "design play intend wrench name strip concentrate nostalgic tongue rake donkey powerful",
+        "theme_topic": "Spiteful Clear",
         "underline": false
       },
       "type": "text",
@@ -388,86 +411,80 @@
     },
     {
       "bbox": {
-        "h": 4.1501,
-        "w": 0.2028,
-        "x": 6.5346,
-        "y": 2.7947
+        "h": 3.4058,
+        "w": 1.6238,
+        "x": 9.239,
+        "y": 3.4297
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          218,
-          235,
-          245
+        "crop": [
+          0.17787469719407736,
+          0.2490854700261535,
+          0.27329523726973065,
+          0.32770512899612414
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "seashore envious whistle",
-        "theme_topic": "Ossified",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          32,
+          119,
+          149
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Spiteful Clear",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.7483,
-        "w": 0.4511,
-        "x": 7.2574,
-        "y": 2.0433
+        "h": 3.426,
+        "w": 1.6319,
+        "x": 11.0721,
+        "y": 3.4838
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "clip": "arch",
+        "focus": false,
+        "line": [
+          32,
+          119,
+          149
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 20,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "180",
-        "theme_topic": "Ossified",
-        "underline": false
+        "line_width": 18,
+        "theme_topic": "Spiteful Clear"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 4.1295,
-        "w": 0.4685,
-        "x": 7.2721,
-        "y": 2.7687
+        "h": 0.2713,
+        "w": 3.2049,
+        "x": 9.3303,
+        "y": 0.7864
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          218,
-          235,
-          245
+          32,
+          119,
+          149
         ],
         "font_face": "Verdana",
-        "font_size": 11,
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "bomb apologise chess lazy talented interesting",
-        "theme_topic": "Ossified",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "OVERFLOW",
+        "theme_topic": "Spiteful Clear",
         "underline": false
       },
       "type": "text",
@@ -475,10 +492,10 @@
     },
     {
       "bbox": {
-        "h": 0.2638,
-        "w": 1.1273,
-        "x": 8.233,
-        "y": 4.8039
+        "h": 0.6705,
+        "w": 3.2317,
+        "x": 9.3732,
+        "y": 1.2456
       },
       "id": "object_016",
       "properties": {
@@ -486,17 +503,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          198,
-          54,
-          133
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": true,
-        "kind": "body",
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
         "margin": 0.04,
-        "text": "honorable print robin",
-        "theme_topic": "Ossified",
+        "text": "Impress",
+        "theme_topic": "Spiteful Clear",
         "underline": false
       },
       "type": "text",
@@ -504,32 +521,28 @@
     },
     {
       "bbox": {
-        "h": 0.2452,
-        "w": 2.1395,
-        "x": 3.9387,
-        "y": 3.123
+        "h": 0.8714,
+        "w": 3.2304,
+        "x": 9.3538,
+        "y": 2.1827
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          29,
-          120,
-          221
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          133,
-          166,
-          144
+          181,
+          178,
+          194
         ],
         "font_face": "Verdana",
-        "font_size": 8,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "second-hand range lying",
-        "theme_topic": "Ossified",
+        "text": "scratch adorable efficacious resolute spell various interfere visit violet bubble bolt strip donkey nauseating narrow strange near",
+        "theme_topic": "Spiteful Clear",
         "underline": false
       },
       "type": "text",

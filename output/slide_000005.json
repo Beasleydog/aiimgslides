@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
+      "angle": 30,
       "archetype": "atomic_composition",
       "colors": [
         [
-          154,
-          72,
-          183
+          33,
+          115,
+          169
         ],
         [
-          31,
+          255,
           117,
-          161
+          117
         ]
       ],
       "fill": [
-        60,
-        44,
-        80
+        33,
+        115,
+        169
       ],
-      "focus": "center",
-      "gradient_type": "shape",
+      "focus": "top_left",
+      "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Snore Abandoned"
+      "theme_topic": "Bump Scratch"
     },
     "type": "background",
     "z_order": 0
@@ -45,31 +45,34 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.5465,
-        "w": 5.9697,
-        "x": 0.5538,
-        "y": 1.4534
+        "h": 4.6674,
+        "w": 4.3087,
+        "x": 0.7666,
+        "y": 2.5504
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.32398076391102976,
-          0.018179508656032465,
-          0.0029054512715603466,
-          0.1587377388573494
+        "dash": 2,
+        "family": "stars",
+        "fill": [
+          113,
+          182,
+          153
         ],
-        "focus": true,
-        "mask_line": [
-          212,
-          165,
-          164
+        "focus": false,
+        "line": [
+          48,
+          141,
+          53
         ],
-        "mask_overlay": false,
-        "theme_topic": "Snore Abandoned",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.186266615407113,
+        "outline_only": false,
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Bump Scratch"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 1
     }
   ],

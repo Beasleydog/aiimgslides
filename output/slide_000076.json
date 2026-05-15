@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
-      "back_color": [
-        59,
-        159,
-        152
+      "colors": [
+        [
+          189,
+          212,
+          178
+        ],
+        [
+          82,
+          96,
+          214
+        ]
       ],
       "fill": [
-        59,
-        159,
-        152
+        245,
+        247,
+        252
       ],
-      "fore_color": [
-        31,
-        117,
-        161
-      ],
-      "pattern": 2,
-      "style": "pattern",
-      "theme_topic": "Engine"
+      "focus": "center",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Modern"
     },
     "type": "background",
     "z_order": 0
@@ -41,66 +45,63 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.6474,
-        "w": 7.02,
-        "x": 5.0729,
-        "y": -0.6752
+        "h": 3.7055,
+        "w": 6.8255,
+        "x": 0.1255,
+        "y": 4.3698
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          92,
-          132,
-          90
+          107,
+          135,
+          210
         ],
         "focus": false,
         "line": [
-          85,
-          148,
-          69
+          116,
+          216,
+          63
         ],
-        "line_width": 3.120264751386687,
-        "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Engine"
+        "line_width": 2.0091544312882457,
+        "outline_only": true,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Modern"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.1494,
-        "w": 8.3143,
-        "x": 3.772,
-        "y": 2.1857
+        "h": 2.0404,
+        "w": 6.063,
+        "x": 0.5408,
+        "y": 0.5375
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          50,
-          183,
-          70
+        "crop": [
+          0.021436233220256385,
+          0.0711313394390109,
+          0.17013000188095764,
+          0.09533833399725417
         ],
-        "focus": false,
-        "line": [
-          229,
-          85,
-          68
+        "focus": true,
+        "mask_line": [
+          136,
+          75,
+          114
         ],
-        "line_width": 2.0293886240379333,
-        "outline_only": false,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Engine"
+        "mask_overlay": false,
+        "theme_topic": "Modern",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 2
     }
   ],

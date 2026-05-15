@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "back_color": [
-        61,
-        64,
-        91
+      "colors": [
+        [
+          139,
+          78,
+          190
+        ],
+        [
+          72,
+          169,
+          165
+        ]
       ],
       "fill": [
-        61,
-        64,
-        91
+        120,
+        58,
+        170
       ],
-      "fore_color": [
-        48,
-        78,
-        140
-      ],
-      "pattern": 20,
-      "style": "pattern",
-      "theme_topic": "Night Crow"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Obnoxious"
     },
     "type": "background",
     "z_order": 0
@@ -41,73 +45,70 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.747,
-        "w": 2.999,
-        "x": 1.3972,
-        "y": 2.2128
+        "h": 7.4884,
+        "w": 0.6881,
+        "x": 12.6443,
+        "y": 0.0076
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "symbols",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          104,
-          161,
-          166
+          139,
+          78,
+          190
         ],
-        "focus": false,
         "line": [
-          35,
-          208,
-          126
+          139,
+          78,
+          190
         ],
-        "line_width": 6.304925855670682,
+        "line_width": 4.5121729869941225,
         "outline_only": false,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Night Crow"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Obnoxious"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.5427,
-        "w": 4.0825,
-        "x": -0.0169,
-        "y": -0.0025
+        "h": 1.1254,
+        "w": 7.4821,
+        "x": 2.6564,
+        "y": 0.6576
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          124,
-          126,
-          144
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          250,
+          255
         ],
-        "line": [
-          124,
-          126,
-          144
-        ],
-        "line_width": 0.8841821238182052,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Night Crow"
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Cap Drab Scarf",
+        "theme_topic": "Obnoxious",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5483,
-        "w": 2.8293,
-        "x": 0.6462,
-        "y": 0.7476
+        "h": 0.4285,
+        "w": 0.4851,
+        "x": 4.3109,
+        "y": 2.9025
       },
       "id": "object_003",
       "properties": {
@@ -115,17 +116,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 18,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Protective Deer",
-        "theme_topic": "Night Crow",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Window Shocking",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -133,28 +134,28 @@
     },
     {
       "bbox": {
-        "h": 1.5777,
-        "w": 4.7376,
-        "x": 7.8135,
-        "y": 0.8526
+        "h": 1.0382,
+        "w": 0.4977,
+        "x": 4.27,
+        "y": 3.4454
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          246,
-          248,
-          252
+          230,
+          210,
+          240
         ],
-        "font_face": "Arial",
-        "font_size": 23,
+        "font_face": "Verdana",
+        "font_size": 7,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Zoom Squalid Enter Dime Ants Snails Need Possessive",
-        "theme_topic": "Night Crow",
+        "text": "splendid ashamed hospitable roasted exist modern clean used",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -162,10 +163,10 @@
     },
     {
       "bbox": {
-        "h": 0.4387,
-        "w": 2.594,
-        "x": 7.7775,
-        "y": 2.6544
+        "h": 0.4417,
+        "w": 0.6726,
+        "x": 5.4907,
+        "y": 2.9052
       },
       "id": "object_005",
       "properties": {
@@ -173,17 +174,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Verdana",
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "AMUSING",
-        "theme_topic": "Night Crow",
+        "text": "Iron",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -191,82 +192,86 @@
     },
     {
       "bbox": {
-        "h": 2.9085,
-        "w": 3.5021,
-        "x": 3.743,
-        "y": 0.6596
+        "h": 1.0425,
+        "w": 0.6529,
+        "x": 5.451,
+        "y": 3.469
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": true,
-        "line": [
-          255,
-          238,
-          103
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
         ],
-        "line_width": 17,
-        "theme_topic": "Night Crow"
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "plausible amusement desert insidious knot war parsimonious lie yoke placid historical exercise",
+        "theme_topic": "Obnoxious",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.9495,
-        "w": 1.9624,
-        "x": 3.7489,
-        "y": 3.9267
+        "h": 0.4412,
+        "w": 0.8709,
+        "x": 6.8791,
+        "y": 2.8856
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          124,
-          126,
-          144
-        ],
-        "line": [
-          124,
-          126,
-          144
-        ],
-        "line_width": 0.7750744666069381,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Night Crow"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.4263,
-        "w": 1.5053,
-        "x": 4.0129,
-        "y": 4.8477
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Top Repair",
-        "theme_topic": "Night Crow",
+        "text": "Necessary",
+        "theme_topic": "Obnoxious",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 1.0361,
+        "w": 0.8958,
+        "x": 6.8719,
+        "y": 3.4345
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
+        ],
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "moan familiar humor gold suppose thankful effect collar machine arrange quizzical loaf invite",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -274,88 +279,88 @@
     },
     {
       "bbox": {
-        "h": 1.34,
-        "w": 1.4996,
-        "x": 3.9945,
-        "y": 5.3813
+        "h": 1.9773,
+        "w": 5.6067,
+        "x": 0.5621,
+        "y": 5.0608
       },
       "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          162,
-          165,
-          179
-        ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "strengthen profit safe cattle actually quarrelsome fretful well-made",
-        "theme_topic": "Night Crow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 2.9794,
-        "w": 1.9472,
-        "x": 5.961,
-        "y": 3.9184
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 7,
         "family": "panel",
         "fill": [
-          124,
-          126,
-          144
+          139,
+          78,
+          190
         ],
         "line": [
-          124,
-          126,
-          144
+          139,
+          78,
+          190
         ],
-        "line_width": 2.028925317001744,
+        "line_width": 4.89955825916877,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Night Crow"
+        "theme_topic": "Obnoxious"
       },
       "type": "shape",
-      "z_order": 10
+      "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4679,
-        "w": 1.474,
-        "x": 6.1886,
-        "y": 4.8205
+        "h": 0.4538,
+        "w": 5.101,
+        "x": 0.7894,
+        "y": 5.9557
       },
-      "id": "object_011",
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Grumpy",
-        "theme_topic": "Night Crow",
+        "text": "Explain Absurd",
+        "theme_topic": "Obnoxious",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.3361,
+        "w": 5.0882,
+        "x": 0.7983,
+        "y": 6.5202
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "blot meeting spiffy door macho head structure internal unaccountable unequaled",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -363,88 +368,88 @@
     },
     {
       "bbox": {
-        "h": 1.3165,
-        "w": 1.4543,
-        "x": 6.185,
-        "y": 5.3952
+        "h": 1.9943,
+        "w": 6.4088,
+        "x": 6.3615,
+        "y": 5.0769
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          162,
-          165,
-          179
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wobble bomb keen possessive shallow relation various sin",
-        "theme_topic": "Night Crow",
-        "underline": false
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 1.261680525780373,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Obnoxious"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 2.9781,
-        "w": 2.3903,
-        "x": 8.1389,
-        "y": 3.9163
+        "h": 0.4273,
+        "w": 5.8915,
+        "x": 6.6077,
+        "y": 5.9835
       },
       "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          124,
-          126,
-          144
-        ],
-        "line": [
-          124,
-          126,
-          144
-        ],
-        "line_width": 0.7610219108326691,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Night Crow"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.4334,
-        "w": 1.896,
-        "x": 8.3885,
-        "y": 4.8308
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 9,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Weigh Unite",
-        "theme_topic": "Night Crow",
+        "text": "Cheese",
+        "theme_topic": "Obnoxious",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.3081,
+        "w": 5.936,
+        "x": 6.617,
+        "y": 6.532
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
+        ],
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "neck placid damaging truthful boundary ring chemical friend guitar mute",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -452,28 +457,28 @@
     },
     {
       "bbox": {
-        "h": 1.3395,
-        "w": 1.8869,
-        "x": 8.3685,
-        "y": 5.3831
+        "h": 0.7501,
+        "w": 0.6991,
+        "x": 8.413,
+        "y": 2.1665
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          162,
-          165,
-          179
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Trebuchet MS",
+        "font_size": 28,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "wrathful smell balance melodic picayune talk found year",
-        "theme_topic": "Night Crow",
+        "text": "78",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -481,91 +486,86 @@
     },
     {
       "bbox": {
-        "h": 2.9769,
-        "w": 1.9848,
-        "x": 10.7598,
-        "y": 3.9491
+        "h": 1.6976,
+        "w": 0.6834,
+        "x": 8.4018,
+        "y": 2.943
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          124,
-          126,
-          144
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
         ],
-        "line": [
-          124,
-          126,
-          144
-        ],
-        "line_width": 1.0967201905634252,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Night Crow"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "common cable curve broad full ghost harass",
+        "theme_topic": "Obnoxious",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.5169,
-        "w": 0.5725,
-        "x": 10.9662,
-        "y": 4.1828
+        "h": 0.7507,
+        "w": 0.7764,
+        "x": 9.6457,
+        "y": 2.1666
       },
       "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          255,
-          238,
-          103
-        ],
-        "focus": false,
-        "line": [
-          133,
-          122,
-          72
-        ],
-        "line_width": 4.236122132099368,
-        "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Night Crow"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.4528,
-        "w": 1.4728,
-        "x": 10.987,
-        "y": 4.8262
-      },
-      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 9,
+        "font_face": "Trebuchet MS",
+        "font_size": 25,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Near",
-        "theme_topic": "Night Crow",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "16%",
+        "theme_topic": "Obnoxious",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 1.6867,
+        "w": 0.7336,
+        "x": 9.6718,
+        "y": 2.9209
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
+        ],
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "hesitant grass profit gold lumpy screw",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -573,28 +573,28 @@
     },
     {
       "bbox": {
-        "h": 1.3248,
-        "w": 1.4562,
-        "x": 10.9885,
-        "y": 5.4079
+        "h": 0.7694,
+        "w": 0.4427,
+        "x": 10.9332,
+        "y": 2.1648
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          162,
-          165,
-          179
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 15,
+        "font_face": "Trebuchet MS",
+        "font_size": 21,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "wall tin seemly nose twist measly classy disagree rare",
-        "theme_topic": "Night Crow",
+        "text": "2.5x",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -602,10 +602,10 @@
     },
     {
       "bbox": {
-        "h": 0.2924,
-        "w": 1.4797,
-        "x": 10.8486,
-        "y": 4.9436
+        "h": 1.6798,
+        "w": 0.4394,
+        "x": 10.9625,
+        "y": 2.9367
       },
       "id": "object_020",
       "properties": {
@@ -613,114 +613,104 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          136,
-          65,
-          45
+          230,
+          210,
+          240
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Baseball",
-        "theme_topic": "Night Crow",
-        "underline": true
+        "kind": "body",
+        "margin": 0.04,
+        "text": "stamp kiss cute",
+        "theme_topic": "Obnoxious",
+        "underline": false
       },
       "type": "text",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.7359,
-        "w": 0.572,
-        "x": 3.1551,
-        "y": 0.4478
+        "h": 0.7674,
+        "w": 0.6742,
+        "x": 11.939,
+        "y": 2.1592
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          87,
-          217,
-          154
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "focus": false,
-        "line": [
-          201,
-          57,
-          215
-        ],
-        "line_width": 3.4838164059833816,
-        "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Night Crow"
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "65%",
+        "theme_topic": "Obnoxious",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.7431,
-        "w": 1.4698,
-        "x": 10.8869,
-        "y": 0.9721
+        "h": 1.6836,
+        "w": 0.657,
+        "x": 11.9254,
+        "y": 2.932
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          208,
-          142,
-          26
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
         ],
-        "focus": false,
-        "line": [
-          56,
-          95,
-          203
-        ],
-        "line_width": 2.3641209538613133,
-        "outline_only": true,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Night Crow"
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "equal graceful insect",
+        "theme_topic": "Obnoxious",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.3375,
-        "w": 1.946,
-        "x": 3.8476,
-        "y": 4.4226
+        "h": 0.6125,
+        "w": 1.2885,
+        "x": 8.1422,
+        "y": 4.6764
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          48,
-          90,
-          229
-        ],
+        "bg_color": null,
         "bold": true,
         "color": [
-          118,
-          91,
-          104
+          228,
+          43,
+          113
         ],
-        "font_face": "Arial",
-        "font_size": 5,
+        "font_face": "Verdana",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "maddening hydrant measly",
-        "theme_topic": "Night Crow",
+        "text": "evanescent rings",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -728,28 +718,32 @@
     },
     {
       "bbox": {
-        "h": 0.2423,
-        "w": 1.3844,
-        "x": 5.1617,
-        "y": 4.0018
+        "h": 0.5792,
+        "w": 2.2509,
+        "x": 6.1496,
+        "y": 5.5676
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          108,
-          177,
-          113
+        "bg_color": [
+          160,
+          35,
+          55
         ],
-        "font_face": "Arial",
-        "font_size": 7,
+        "bold": false,
+        "color": [
+          75,
+          78,
+          194
+        ],
+        "font_face": "Verdana",
+        "font_size": 17,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "light receipt purpose trashy",
-        "theme_topic": "Night Crow",
+        "text": "cherries luxuriant",
+        "theme_topic": "Obnoxious",
         "underline": false
       },
       "type": "text",

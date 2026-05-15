@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "fill": [
-        139,
-        141,
-        46
+      "colors": [
+        [
+          136,
+          77,
+          133
+        ],
+        [
+          255,
+          211,
+          88
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Oatmeal"
+      "fill": [
+        136,
+        77,
+        133
+      ],
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Zephyr"
     },
     "type": "background",
     "z_order": 0
@@ -30,134 +45,138 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.3494,
-        "w": 7.0692,
-        "x": 4.1972,
-        "y": 3.4228
+        "h": 3.1261,
+        "w": 5.7857,
+        "x": 1.1995,
+        "y": 3.0374
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "basic",
         "fill": [
-          57,
-          86,
-          36
+          120,
+          48,
+          52
         ],
         "focus": false,
         "line": [
-          138,
-          60,
-          143
+          182,
+          126,
+          151
         ],
-        "line_width": 5.197922400632402,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Oatmeal"
+        "line_width": 5.277827445408468,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Zephyr"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.2988,
-        "w": 4.8151,
-        "x": 8.8115,
-        "y": 6.068
+        "h": 4.4153,
+        "w": 3.0921,
+        "x": 1.4483,
+        "y": 1.17
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 4,
+        "family": "stars",
         "fill": [
-          150,
-          94,
-          120
+          107,
+          124,
+          165
         ],
         "focus": false,
         "line": [
           169,
-          78,
-          118
+          188,
+          47
         ],
-        "line_width": 7.648863727929774,
+        "line_width": 6.2559865935198165,
         "outline_only": true,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Oatmeal"
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Zephyr"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9134,
-        "w": 5.3579,
-        "x": 3.4041,
-        "y": 0.7635
+        "h": 1.7756,
+        "w": 4.2122,
+        "x": 4.4078,
+        "y": 0.9177
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          140,
+          114,
+          121
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Disagreeable Seal Open Scratch",
-        "theme_topic": "Oatmeal",
-        "underline": false
+        "focus": false,
+        "line": [
+          161,
+          211,
+          110
+        ],
+        "line_width": 5.473836645002565,
+        "outline_only": false,
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Zephyr"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.5843,
-        "w": 2.1871,
-        "x": 4.7477,
-        "y": 1.4348
+        "h": 1.8192,
+        "w": 4.8247,
+        "x": 2.3171,
+        "y": -0.66
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "math",
         "fill": [
-          154,
-          156,
-          74
+          96,
+          111,
+          165
         ],
+        "focus": false,
         "line": [
-          154,
-          156,
-          74
+          98,
+          31,
+          222
         ],
-        "line_width": 1.948482692007305,
+        "line_width": 6.072408296662702,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Oatmeal"
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Zephyr"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.4459,
-        "w": 1.6727,
-        "x": 5.0045,
-        "y": 2.3286
+        "h": 1.2544,
+        "w": 5.923,
+        "x": 0.5516,
+        "y": 0.3719
       },
       "id": "object_005",
       "properties": {
@@ -165,17 +184,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Earth",
-        "theme_topic": "Oatmeal",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Thick Grandfather",
+        "theme_topic": "Zephyr",
         "underline": false
       },
       "type": "text",
@@ -183,244 +202,43 @@
     },
     {
       "bbox": {
-        "h": 0.9319,
-        "w": 1.704,
-        "x": 5.0091,
-        "y": 2.9213
+        "h": 2.1315,
+        "w": 12.2456,
+        "x": 0.5471,
+        "y": 4.8947
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          197,
-          199,
-          159
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          71,
+          221,
+          181
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "carriage wink tub honey yell lucky disillusioned dogs deer slap",
-        "theme_topic": "Oatmeal",
-        "underline": false
+        "line": [
+          160,
+          113,
+          157
+        ],
+        "line_width": 1.1650216872237924,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Zephyr"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4739,
-        "w": 0.9309,
-        "x": 7.3999,
-        "y": 2.342
+        "h": 0.7832,
+        "w": 11.8727,
+        "x": 0.7447,
+        "y": 5.3345
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Flower Please",
-        "theme_topic": "Oatmeal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.9627,
-        "w": 0.9381,
-        "x": 7.397,
-        "y": 2.9247
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          197,
-          199,
-          159
-        ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "milky warlike slave run cheat invent zealous gullible swanky rabbit screeching",
-        "theme_topic": "Oatmeal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.1722,
-        "w": 1.8156,
-        "x": 0.5834,
-        "y": 1.4766
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.27342217975778665,
-          0.29781240208023224,
-          0.1381642821984387,
-          0.21512846177201167
-        ],
-        "focus": false,
-        "mask_line": [
-          138,
-          213,
-          25
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Oatmeal",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.8538,
-        "w": 1.5232,
-        "x": 2.6876,
-        "y": 1.6794
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.12746462742573225,
-          0.1985146787488422,
-          0.2397011005996276,
-          0.17872859484833317
-        ],
-        "focus": false,
-        "mask_line": [
-          71,
-          221,
-          181
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Oatmeal",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 1.1499,
-        "w": 1.1362,
-        "x": 9.0171,
-        "y": 4.4506
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.21586191495332904,
-          0.04681711418833027,
-          0.032607339968068055,
-          0.046644567417482255
-        ],
-        "focus": false,
-        "mask_line": [
-          71,
-          221,
-          181
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Oatmeal",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 1.1355,
-        "w": 1.1307,
-        "x": 10.3067,
-        "y": 4.4534
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.12930318576999875,
-          0.07607070259907628,
-          0.02216649076456705,
-          0.0458899251158478
-        ],
-        "focus": false,
-        "mask_line": [
-          71,
-          221,
-          181
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Oatmeal",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.1376,
-        "w": 1.1355,
-        "x": 11.5902,
-        "y": 4.421
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.20160696419739463,
-          0.012996976479514439,
-          0.2108579187599101,
-          0.2635062424116246
-        ],
-        "focus": false,
-        "mask_line": [
-          105,
-          96,
-          208
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Oatmeal",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 1.3597,
-        "w": 3.4158,
-        "x": 0.7416,
-        "y": 4.5862
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -430,26 +248,55 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 22,
-        "italic": true,
+        "font_face": "Georgia",
+        "font_size": 42,
+        "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Second-Hand Produce Quilt Flesh Refuse Screw Dramatic Blow",
-        "theme_topic": "Oatmeal",
+        "text": "42%",
+        "theme_topic": "Zephyr",
         "underline": false
       },
       "type": "text",
-      "z_order": 14
+      "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.3708,
-        "w": 1.9008,
-        "x": 0.7454,
-        "y": 6.181
+        "h": 0.4803,
+        "w": 11.8582,
+        "x": 0.7094,
+        "y": 6.1697
       },
-      "id": "object_015",
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "bashful flash pretty aware suck rat",
+        "theme_topic": "Zephyr",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.4598,
+        "w": 1.2553,
+        "x": 0.8155,
+        "y": 2.7594
+      },
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -459,42 +306,216 @@
           221,
           181
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "HYDRANT",
-        "theme_topic": "Oatmeal",
+        "text": "Yielding",
+        "theme_topic": "Zephyr",
         "underline": false
       },
       "type": "text",
-      "z_order": 15
+      "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.5315,
-        "w": 2.0956,
-        "x": 8.6792,
-        "y": 0.699
+        "h": 0.9718,
+        "w": 1.2486,
+        "x": 0.7966,
+        "y": 3.3024
       },
-      "id": "object_016",
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          180,
-          154,
-          72
+          196,
+          171,
+          198
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "advice",
-        "theme_topic": "Oatmeal",
+        "text": "boat girl stitch thin dock bow beef prepare numberless nostalgic measure",
+        "theme_topic": "Zephyr",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.4429,
+        "w": 1.1318,
+        "x": 2.7723,
+        "y": 2.7255
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Desire",
+        "theme_topic": "Zephyr",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.9786,
+        "w": 1.1079,
+        "x": 2.7768,
+        "y": 3.3249
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          196,
+          171,
+          198
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "bead prose cars large dock hill ambitious island rake grieving follow zinc pretty general",
+        "theme_topic": "Zephyr",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.4448,
+        "w": 1.0976,
+        "x": 4.6206,
+        "y": 2.7579
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Property Laugh",
+        "theme_topic": "Zephyr",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.947,
+        "w": 1.0992,
+        "x": 4.6129,
+        "y": 3.3242
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          196,
+          171,
+          198
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "decorate scratch behavior magenta last settle receive numberless pour guard",
+        "theme_topic": "Zephyr",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 2.636,
+        "w": 6.5301,
+        "x": 6.2719,
+        "y": 1.8528
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.16629599428767763,
+          0.1004110341272855,
+          0.09669312132481418,
+          0.20990087283569345
+        ],
+        "focus": true,
+        "mask_line": [
+          124,
+          196,
+          80
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Zephyr",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.2158,
+        "w": 2.2845,
+        "x": 9.3006,
+        "y": 0.5316
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          116,
+          202,
+          160
+        ],
+        "font_face": "Aptos",
+        "font_size": 6,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Drown Tan",
+        "theme_topic": "Zephyr",
         "underline": false
       },
       "type": "text",
@@ -502,29 +523,33 @@
     },
     {
       "bbox": {
-        "h": 0.4,
-        "w": 0.8671,
-        "x": 1.2431,
-        "y": 0.9727
+        "h": 0.3692,
+        "w": 1.2708,
+        "x": 9.9906,
+        "y": 5.2839
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          202,
-          56,
-          95
+        "bg_color": [
+          225,
+          144,
+          54
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Force Alarm Absurd",
-        "theme_topic": "Oatmeal",
-        "underline": false
+        "bold": false,
+        "color": [
+          41,
+          54,
+          163
+        ],
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "soup selective rest sofa harm",
+        "theme_topic": "Zephyr",
+        "underline": true
       },
       "type": "text",
       "z_order": 17

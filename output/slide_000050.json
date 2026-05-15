@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        105,
-        112,
-        71
+      "back_color": [
+        186,
+        227,
+        110
       ],
-      "style": "solid",
-      "theme_topic": "Toes"
+      "fill": [
+        67,
+        151,
+        77
+      ],
+      "fore_color": [
+        51,
+        63,
+        101
+      ],
+      "pattern": 36,
+      "style": "pattern",
+      "theme_topic": "Profit"
     },
     "type": "background",
     "z_order": 0
@@ -30,60 +41,65 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.8215,
-        "w": 3.2068,
-        "x": 9.3807,
-        "y": 0.6468
+        "h": 2.4517,
+        "w": 7.8702,
+        "x": 0.2129,
+        "y": -0.4255
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          97,
+          89,
+          83
         ],
-        "font_face": "Aptos Display",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Belligerent Roasted",
-        "theme_topic": "Toes",
-        "underline": false
+        "focus": false,
+        "line": [
+          45,
+          120,
+          116
+        ],
+        "line_width": 5.6691419690814335,
+        "outline_only": true,
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Profit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.5516,
-        "w": 8.2122,
-        "x": 0.6651,
-        "y": 4.3428
+        "h": 4.7067,
+        "w": 6.8018,
+        "x": 2.2471,
+        "y": 0.5678
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          96,
+          166,
+          104
         ],
-        "focus": true,
-        "mask_line": [
-          47,
-          222,
-          141
+        "line": [
+          112,
+          175,
+          119
         ],
-        "mask_overlay": false,
-        "theme_topic": "Toes",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 0.4646289058473132,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Profit"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 2
     }
   ],

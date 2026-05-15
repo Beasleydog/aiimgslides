@@ -10,9 +10,9 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        239,
-        239,
-        235
+        250,
+        250,
+        248
       ],
       "fill": [
         250,
@@ -20,13 +20,13 @@
         248
       ],
       "fore_color": [
-        94,
-        68,
-        27
+        180,
+        70,
+        53
       ],
-      "pattern": 37,
+      "pattern": 21,
       "style": "pattern",
-      "theme_topic": "Alert Launch"
+      "theme_topic": "Obnoxious Animal"
     },
     "type": "background",
     "z_order": 0
@@ -41,111 +41,143 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.6792,
-        "w": 8.1869,
-        "x": 2.0432,
-        "y": 4.0103
+        "h": 2.3601,
+        "w": 6.6111,
+        "x": 6.6147,
+        "y": 2.3656
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "symbols",
         "fill": [
-          137,
-          136,
-          210
+          195,
+          167,
+          214
         ],
         "focus": false,
         "line": [
-          132,
+          216,
           49,
-          48
+          137
         ],
-        "line_width": 4.639048387664144,
+        "line_width": 6.137477185526859,
         "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Alert Launch"
+        "ppt_type": 19,
+        "shape": "no_symbol",
+        "theme_topic": "Obnoxious Animal"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.8162,
-        "w": 3.0675,
-        "x": 11.2741,
-        "y": 5.4922
+        "h": 2.1233,
+        "w": 8.6946,
+        "x": -1.1777,
+        "y": 2.9633
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          174,
-          141,
-          166
+          221,
+          196,
+          204
         ],
         "focus": false,
         "line": [
-          195,
-          137,
-          116
+          150,
+          47,
+          70
         ],
-        "line_width": 7.3999269111871255,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Alert Launch"
+        "line_width": 2.300661616084021,
+        "outline_only": false,
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Obnoxious Animal"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.1493,
-        "w": 3.77,
-        "x": 4.3467,
-        "y": 1.5617
+        "h": 3.2702,
+        "w": 7.6995,
+        "x": 1.5192,
+        "y": -0.2326
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          230,
-          186,
-          230
+          224,
+          106,
+          176
         ],
         "focus": false,
         "line": [
-          77,
-          26,
-          38
+          187,
+          71,
+          45
         ],
-        "line_width": 4.671283641179689,
+        "line_width": 4.166192218636655,
         "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Alert Launch"
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Obnoxious Animal"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 7.5166,
-        "w": 13.3132,
-        "x": 0.0002,
-        "y": 3.1615
+        "h": 2.265,
+        "w": 7.9321,
+        "x": -0.727,
+        "y": -0.857
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 5,
+        "family": "callouts",
+        "fill": [
+          104,
+          76,
+          175
+        ],
+        "focus": false,
+        "line": [
+          170,
+          44,
+          83
+        ],
+        "line_width": 4.174072489083714,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Obnoxious Animal"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 7.5092,
+        "w": 13.3234,
+        "x": -0.0036,
+        "y": 3.5941
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
         "family": "panel",
         "fill": [
           239,
@@ -157,100 +189,71 @@
           239,
           235
         ],
-        "line_width": 1.4138444886890986,
+        "line_width": 0.7667001445180718,
         "outline_only": false,
         "ppt_type": 1,
         "shape": "rect",
-        "theme_topic": "Alert Launch"
+        "theme_topic": "Obnoxious Animal"
       },
       "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.7969,
-        "w": 3.2201,
-        "x": 9.4084,
-        "y": 0.6401
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          28,
-          28
-        ],
-        "font_face": "Georgia",
-        "font_size": 23,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Graceful Ashamed",
-        "theme_topic": "Alert Launch",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.0947,
-        "w": 2.6042,
-        "x": 0.6896,
-        "y": 2.6988
+        "h": 4.0255,
+        "w": 2.4597,
+        "x": 6.8323,
+        "y": 2.943
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.04413445886251124,
-          0.08966647852369591,
-          0.08891417302086295,
-          0.23894834631463263
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          115,
+          115
         ],
-        "focus": false,
-        "mask_line": [
-          37,
-          79,
-          187
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Alert Launch",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "squeak pencil mountain tumble brave minor",
+        "theme_topic": "Obnoxious Animal",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.0831,
-        "w": 2.5806,
-        "x": 0.7307,
-        "y": 4.0045
+        "h": 4.0249,
+        "w": 2.8161,
+        "x": 9.8251,
+        "y": 2.9217
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.23653927203937197,
-          0.29258045242806396,
-          0.2759349798746642,
-          0.02021371759987527
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          115,
+          115
         ],
-        "focus": false,
-        "mask_line": [
-          157,
-          120,
-          108
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Alert Launch",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "profuse undesirable jealous",
+        "theme_topic": "Obnoxious Animal",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 7
     }
   ],

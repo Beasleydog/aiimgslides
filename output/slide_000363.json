@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        165,
-        223,
-        200
+      "colors": [
+        [
+          139,
+          78,
+          190
+        ],
+        [
+          255,
+          211,
+          88
+        ]
       ],
       "fill": [
-        33,
-        115,
-        169
+        120,
+        58,
+        170
       ],
-      "fore_color": [
-        143,
-        218,
-        117
-      ],
-      "pattern": 53,
-      "style": "pattern",
-      "theme_topic": "Dashing Oatmeal"
+      "focus": "bottom_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Reproduce Rush"
     },
     "type": "background",
     "z_order": 0
@@ -41,181 +45,182 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.706,
-        "w": 8.5302,
-        "x": 2.5751,
-        "y": 3.7171
+        "h": 4.7927,
+        "w": 8.1956,
+        "x": -0.8994,
+        "y": 3.073
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "dash": 5,
+        "family": "math",
         "fill": [
-          124,
-          134,
-          172
+          201,
+          146,
+          83
         ],
         "focus": false,
         "line": [
-          113,
-          56,
-          194
+          127,
+          36,
+          144
         ],
-        "line_width": 6.673655781886967,
+        "line_width": 6.841583901564899,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Dashing Oatmeal"
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Reproduce Rush"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.5577,
-        "w": 6.1726,
-        "x": 7.8448,
-        "y": -0.695
+        "h": 1.9908,
+        "w": 3.6638,
+        "x": 7.6604,
+        "y": -0.7051
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 2,
+        "family": "math",
         "fill": [
-          50,
-          163,
-          134
+          143,
+          157,
+          65
         ],
         "focus": false,
         "line": [
-          49,
-          92,
-          82
+          73,
+          227,
+          205
         ],
-        "line_width": 6.378253057906117,
+        "line_width": 7.977564746318537,
         "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Dashing Oatmeal"
+        "ppt_type": 163,
+        "shape": "plus",
+        "theme_topic": "Reproduce Rush"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1546,
-        "w": 7.3648,
-        "x": 3.2773,
-        "y": 0.6333
+        "h": 4.7853,
+        "w": 3.0357,
+        "x": 9.5767,
+        "y": 0.0311
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          250,
-          252,
-          255
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          158,
+          139,
+          97
         ],
-        "font_face": "Georgia",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Jail Empty Marked",
-        "theme_topic": "Dashing Oatmeal",
-        "underline": false
+        "focus": false,
+        "line": [
+          67,
+          46,
+          89
+        ],
+        "line_width": 4.137537586035425,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Reproduce Rush"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.5232,
-        "w": 5.4904,
-        "x": 0.5392,
-        "y": 5.5323
+        "h": 1.2573,
+        "w": 6.3304,
+        "x": 0.5282,
+        "y": 0.3616
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          47,
-          136,
-          190
-        ],
-        "line": [
-          47,
-          136,
-          190
-        ],
-        "line_width": 0.45488337828063236,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Dashing Oatmeal"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.5008,
-        "w": 5.1187,
-        "x": 0.7063,
-        "y": 5.905
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
+          255,
           250,
-          252,
           255
         ],
-        "font_face": "Georgia",
-        "font_size": 26,
+        "font_face": "Trebuchet MS",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "79%",
-        "theme_topic": "Dashing Oatmeal",
+        "text": "Comparison Callous",
+        "theme_topic": "Reproduce Rush",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.1518,
+        "w": 4.7973,
+        "x": 0.545,
+        "y": 1.8196
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.206749172876841,
+          0.042787706625197326,
+          0.10538608037033657,
+          0.007146825547897112
+        ],
+        "focus": true,
+        "mask_line": [
+          71,
+          221,
+          181
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Reproduce Rush",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.339,
-        "w": 5.1359,
-        "x": 0.7348,
-        "y": 6.4455
+        "h": 0.2957,
+        "w": 4.4273,
+        "x": 0.757,
+        "y": 6.5283
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          250,
-          252,
-          255
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "escape quince arrive field week property vivacious fluffy peaceful",
-        "theme_topic": "Dashing Oatmeal",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Cheese Endurable",
+        "theme_topic": "Reproduce Rush",
         "underline": false
       },
       "type": "text",
@@ -223,39 +228,41 @@
     },
     {
       "bbox": {
-        "h": 0.7578,
-        "w": 2.3801,
-        "x": 0.7471,
-        "y": 2.1833
+        "h": 5.1625,
+        "w": 3.6283,
+        "x": 5.7636,
+        "y": 1.8515
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "font_face": "Georgia",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "92%",
-        "theme_topic": "Dashing Oatmeal",
-        "underline": false
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 1.8386109269126798,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Reproduce Rush"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.7625,
-        "w": 2.2048,
-        "x": 3.6485,
-        "y": 2.1707
+        "h": 1.171,
+        "w": 3.2458,
+        "x": 5.9317,
+        "y": 2.8004
       },
       "id": "object_008",
       "properties": {
@@ -264,16 +271,16 @@
         "bold": true,
         "color": [
           255,
-          198,
-          74
+          250,
+          255
         ],
-        "font_face": "Georgia",
-        "font_size": 24,
+        "font_face": "Trebuchet MS",
+        "font_size": 45,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "60%",
-        "theme_topic": "Dashing Oatmeal",
+        "text": "278",
+        "theme_topic": "Reproduce Rush",
         "underline": false
       },
       "type": "text",
@@ -281,10 +288,10 @@
     },
     {
       "bbox": {
-        "h": 1.7074,
-        "w": 0.9932,
-        "x": 9.1031,
-        "y": 4.9492
+        "h": 0.7045,
+        "w": 3.2612,
+        "x": 5.9099,
+        "y": 4.9784
       },
       "id": "object_009",
       "properties": {
@@ -292,17 +299,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
+          255,
           250,
-          252,
           255
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "cracker alive crazy wash unequaled resolute steady",
-        "theme_topic": "Dashing Oatmeal",
+        "text": "neighborly stare stupendous lewd drag star",
+        "theme_topic": "Reproduce Rush",
         "underline": false
       },
       "type": "text",
@@ -310,10 +317,10 @@
     },
     {
       "bbox": {
-        "h": 1.7331,
-        "w": 0.9711,
-        "x": 11.7352,
-        "y": 4.946
+        "h": 0.5313,
+        "w": 1.1858,
+        "x": 2.9293,
+        "y": 3.894
       },
       "id": "object_010",
       "properties": {
@@ -321,17 +328,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          250,
-          252,
-          255
+          108,
+          95,
+          120
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "acid quarrelsome riddle act devilish",
-        "theme_topic": "Dashing Oatmeal",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Ducks Distribution",
+        "theme_topic": "Reproduce Rush",
         "underline": false
       },
       "type": "text",

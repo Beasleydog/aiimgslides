@@ -12,25 +12,25 @@
       "archetype": "atomic_composition",
       "colors": [
         [
-          197,
-          210,
-          194
+          47,
+          80,
+          153
         ],
         [
-          62,
-          45,
-          159
+          255,
+          211,
+          88
         ]
       ],
       "fill": [
-        126,
-        58,
-        173
+        47,
+        80,
+        153
       ],
-      "focus": "bottom_left",
-      "gradient_type": "shape",
+      "focus": "bottom_right",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Addicted"
+      "theme_topic": "Cabbage Form"
     },
     "type": "background",
     "z_order": 0
@@ -45,47 +45,31 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.4977,
-        "w": 4.5817,
-        "x": 0.7886,
-        "y": 0.8217
+        "h": 5.18,
+        "w": 5.2692,
+        "x": 7.4835,
+        "y": 1.8815
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "coherent",
-          "imminent",
-          "ripe",
-          "hurried",
-          "ball"
+        "crop": [
+          0.13471603864069528,
+          0.32989053027450055,
+          0.05847778781502092,
+          0.06008932484439664
         ],
-        "chart": "pie",
         "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              180,
-              98,
-              31
-            ],
-            "name": "simplistic",
-            "values": [
-              32,
-              22,
-              49,
-              55,
-              63
-            ]
-          }
+        "mask_line": [
+          71,
+          221,
+          181
         ],
-        "theme_topic": "Addicted",
-        "title": "existence overconfident bruise threatening robust"
+        "mask_overlay": true,
+        "theme_topic": "Cabbage Form",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 1
     }
   ],

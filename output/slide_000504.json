@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
+      "angle": 180,
       "archetype": "atomic_composition",
       "colors": [
         [
-          170,
-          107,
-          133
+          210,
+          72,
+          94
         ],
         [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ]
       ],
       "fill": [
-        157,
-        83,
-        114
+        210,
+        72,
+        94
       ],
       "focus": "top_right",
-      "gradient_type": "linear",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Impolite Shiver"
+      "theme_topic": "Halting"
     },
     "type": "background",
     "z_order": 0
@@ -45,146 +45,156 @@
   "objects": [
     {
       "bbox": {
-        "h": 0.8997,
-        "w": 7.9092,
-        "x": 0.7691,
-        "y": 5.8695
+        "h": 2.7513,
+        "w": 4.5678,
+        "x": 8.3342,
+        "y": 4.6361
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          201,
+          54,
+          67
         ],
-        "font_face": "Georgia",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Ambiguous Blink Male Count",
-        "theme_topic": "Impolite Shiver",
-        "underline": false
+        "focus": false,
+        "line": [
+          178,
+          165,
+          177
+        ],
+        "line_width": 5.866421160312476,
+        "outline_only": false,
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Halting"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.7555,
-        "w": 5.7988,
-        "x": 6.9923,
-        "y": 0.5524
+        "h": 3.7608,
+        "w": 6.99,
+        "x": 1.1155,
+        "y": 3.1709
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          170,
-          107,
-          133
+          216,
+          140,
+          64
         ],
+        "focus": false,
         "line": [
-          170,
-          107,
-          133
+          203,
+          45,
+          179
         ],
-        "line_width": 1.307081079243072,
+        "line_width": 2.5500938903639123,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Impolite Shiver"
+        "ppt_type": 53,
+        "shape": "right_arrow_callout",
+        "theme_topic": "Halting"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.468,
-        "w": 5.516,
-        "x": 7.1126,
-        "y": 0.7228
+        "h": 4.9802,
+        "w": 4.6719,
+        "x": 4.289,
+        "y": 1.239
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1871636271466424,
-          0.20011622439049523,
-          0.2919367513903798,
-          0.2509283961560929
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          188,
+          128,
+          54
         ],
-        "focus": true,
-        "mask_line": [
-          82,
-          96,
-          214
+        "focus": false,
+        "line": [
+          56,
+          71,
+          114
         ],
-        "mask_overlay": false,
-        "theme_topic": "Impolite Shiver",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 4.340538801785808,
+        "outline_only": false,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Halting"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.6029,
-        "w": 2.0297,
-        "x": 0.6201,
-        "y": 1.589
+        "h": 1.7634,
+        "w": 8.4238,
+        "x": -1.1267,
+        "y": 0.729
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          161,
+          59,
+          67
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "unequal cave wriggle weight",
-        "theme_topic": "Impolite Shiver",
-        "underline": false
+        "focus": false,
+        "line": [
+          189,
+          61,
+          227
+        ],
+        "line_width": 4.228288040116483,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Halting"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.5805,
-        "w": 1.6073,
-        "x": 2.9853,
-        "y": 1.5701
+        "h": 5.5515,
+        "w": 2.8445,
+        "x": 0.6546,
+        "y": 0.7574
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          255,
+          252,
+          247
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 30,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "miniature automatic spoon step yielding flow flowers",
-        "theme_topic": "Impolite Shiver",
+        "text": "Suck Light Thrill",
+        "theme_topic": "Halting",
         "underline": false
       },
       "type": "text",
@@ -192,170 +202,179 @@
     },
     {
       "bbox": {
-        "h": 0.5781,
-        "w": 1.6631,
-        "x": 4.9277,
-        "y": 1.587
+        "h": 1.9018,
+        "w": 4.1131,
+        "x": 3.7558,
+        "y": 0.6638
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          225,
+          94,
+          113
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "yoke tasteful reply unable pricey",
-        "theme_topic": "Impolite Shiver",
-        "underline": false
+        "line": [
+          225,
+          94,
+          113
+        ],
+        "line_width": 1.8024697260921267,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Halting"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.776,
-        "w": 12.2239,
-        "x": 0.524,
-        "y": 2.7741
+        "h": 0.4714,
+        "w": 3.6181,
+        "x": 3.984,
+        "y": 1.5598
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          38,
-          122,
-          141
-        ],
-        "line_width": 18,
-        "theme_topic": "Impolite Shiver"
-      },
-      "type": "svg_image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.2685,
-        "w": 11.8544,
-        "x": 0.7525,
-        "y": 5.088
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Army Holiday Depend",
-        "theme_topic": "Impolite Shiver",
+        "text": "Squeeze Actually",
+        "theme_topic": "Halting",
         "underline": false
       },
       "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 1.8962,
+        "w": 4.1234,
+        "x": 3.7419,
+        "y": 2.7567
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          225,
+          94,
+          113
+        ],
+        "line": [
+          225,
+          94,
+          113
+        ],
+        "line_width": 2.0625319517957075,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Halting"
+      },
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.8989,
-        "w": 0.7375,
-        "x": 12.2848,
-        "y": 4.9951
+        "h": 0.4626,
+        "w": 3.6086,
+        "x": 4.0192,
+        "y": 3.6647
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          182,
-          36,
-          170
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          51,
+          63,
+          101
         ],
-        "focus": false,
-        "line": [
-          73,
-          165,
-          51
-        ],
-        "line_width": 4.6589334599154775,
-        "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Impolite Shiver"
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Slave",
+        "theme_topic": "Halting",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.3106,
-        "w": 0.7637,
-        "x": 5.3965,
-        "y": 2.3677
+        "h": 2.0298,
+        "w": 4.1281,
+        "x": 3.7496,
+        "y": 4.8797
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          104,
-          105,
-          132
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          225,
+          94,
+          113
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tearful gentle rat",
-        "theme_topic": "Impolite Shiver",
-        "underline": false
+        "line": [
+          225,
+          94,
+          113
+        ],
+        "line_width": 0.6679141164311603,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Halting"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.476,
-        "w": 0.6263,
-        "x": 0.8282,
-        "y": 5.4667
+        "h": 0.4498,
+        "w": 3.6397,
+        "x": 3.9811,
+        "y": 5.7604
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          62,
-          221,
-          97
+          51,
+          63,
+          101
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "unpack different credit",
-        "theme_topic": "Impolite Shiver",
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Fuel Field",
+        "theme_topic": "Halting",
         "underline": false
       },
       "type": "text",
@@ -363,10 +382,10 @@
     },
     {
       "bbox": {
-        "h": 0.6147,
-        "w": 2.1099,
-        "x": 2.1596,
-        "y": 3.829
+        "h": 0.3615,
+        "w": 3.5987,
+        "x": 4.0179,
+        "y": 6.3306
       },
       "id": "object_012",
       "properties": {
@@ -374,17 +393,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          151,
-          69,
-          188
+          255,
+          218,
+          220
         ],
-        "font_face": "Aptos",
-        "font_size": 17,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "machine",
-        "theme_topic": "Impolite Shiver",
+        "text": "vivacious lowly tiger entertain zephyr route puncture thick hospital haircut",
+        "theme_topic": "Halting",
         "underline": false
       },
       "type": "text",
@@ -392,35 +411,31 @@
     },
     {
       "bbox": {
-        "h": 0.5342,
-        "w": 0.5659,
-        "x": 11.8531,
-        "y": 4.8208
+        "h": 2.9672,
+        "w": 4.3744,
+        "x": 8.3526,
+        "y": 3.9725
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          186,
-          30,
-          88
+        "crop": [
+          0.09765537312493633,
+          0.028753571258731205,
+          0.16382801880803144,
+          0.051634323993822104
         ],
-        "bold": false,
-        "color": [
-          96,
-          206,
-          206
+        "focus": true,
+        "mask_line": [
+          205,
+          137,
+          40
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Abounding Daily",
-        "theme_topic": "Impolite Shiver",
-        "underline": false
+        "mask_overlay": true,
+        "theme_topic": "Halting",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 13
     }
   ],

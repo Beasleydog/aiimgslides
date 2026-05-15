@@ -12,25 +12,25 @@
       "archetype": "atomic_composition",
       "colors": [
         [
-          120,
-          58,
-          170
+          198,
+          64,
+          91
         ],
         [
-          143,
-          167,
-          62
+          31,
+          155,
+          227
         ]
       ],
       "fill": [
-        120,
-        58,
-        170
+        198,
+        64,
+        91
       ],
-      "focus": "top_right",
-      "gradient_type": "rectangular",
+      "focus": "top_left",
+      "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Jewel"
+      "theme_topic": "Receptive Error"
     },
     "type": "background",
     "z_order": 0
@@ -45,88 +45,148 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.021,
-        "w": 8.6429,
-        "x": 5.3888,
-        "y": 3.8288
+        "h": 4.8176,
+        "w": 6.3222,
+        "x": 6.368,
+        "y": 0.6437
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 2,
+        "family": "stars",
         "fill": [
-          173,
-          166,
-          209
+          138,
+          109,
+          114
         ],
         "focus": false,
         "line": [
-          115,
-          183,
-          174
+          99,
+          91,
+          156
         ],
-        "line_width": 3.767151960147473,
+        "line_width": 4.725216469315349,
         "outline_only": true,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Jewel"
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Receptive Error"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.7765,
-        "w": 7.7497,
-        "x": 2.3201,
-        "y": 1.4358
+        "h": 5.554,
+        "w": 2.8706,
+        "x": 0.6522,
+        "y": 0.7327
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          132,
-          71,
-          183
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 1.2595120485139064,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Jewel"
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Lively Muddled Exultant",
+        "theme_topic": "Receptive Error",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.1107,
-        "w": 5.6581,
-        "x": 6.9786,
-        "y": 2.0082
+        "h": 6.1618,
+        "w": 4.1388,
+        "x": 8.586,
+        "y": 0.7235
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          221,
-          30,
-          114
+        "band": [
+          211,
+          110,
+          130
         ],
-        "line_width": 12,
-        "theme_topic": "Jewel"
+        "band_cols": true,
+        "band_rows": true,
+        "body": [
+          211,
+          110,
+          130
+        ],
+        "border": [
+          80,
+          201,
+          181
+        ],
+        "border_dash": "dashDot",
+        "border_width": 1.1192720905077476,
+        "cells": [
+          [
+            "discussion pushy",
+            "ludicrous",
+            "jog",
+            "own",
+            "cat"
+          ],
+          [
+            "animal blue-eyed",
+            "ship",
+            "male",
+            "well-groomed",
+            "scary impossible"
+          ],
+          [
+            "race",
+            "please",
+            "selective chickens",
+            "abundant",
+            "quaint"
+          ],
+          [
+            "beginner",
+            "whole",
+            "brass flash",
+            "ordinary",
+            "shelf"
+          ],
+          [
+            "carry ladybug",
+            "wonder",
+            "thoughtful",
+            "placid",
+            "sordid fairies"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 11,
+        "has_header": true,
+        "header": [
+          96,
+          165,
+          250
+        ],
+        "rows": 5,
+        "text_color": [
+          206,
+          181,
+          38
+        ],
+        "theme_topic": "Receptive Error"
       },
-      "type": "svg_image",
+      "type": "table",
       "z_order": 3
     }
   ],

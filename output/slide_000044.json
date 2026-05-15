@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        166,
-        229,
-        74
-      ],
       "fill": [
-        75,
-        183,
-        60
+        55,
+        31,
+        201
       ],
-      "fore_color": [
-        255,
-        117,
-        117
-      ],
-      "pattern": 42,
-      "style": "pattern",
-      "theme_topic": "Unlock"
+      "style": "solid",
+      "theme_topic": "Dramatic"
     },
     "type": "background",
     "z_order": 0
@@ -41,110 +30,62 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.3759,
-        "w": 11.944,
-        "x": 0.7151,
-        "y": 3.6938
+        "h": 5.5367,
+        "w": 4.3468,
+        "x": 8.4353,
+        "y": 1.4641
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.08832327867351643,
-          0.014907940837694757,
-          0.02907570219016699,
-          0.15501190147340663
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          92,
+          72,
+          210
         ],
-        "focus": true,
-        "mask_line": [
-          223,
-          97,
-          123
+        "line": [
+          92,
+          72,
+          210
         ],
-        "mask_overlay": false,
-        "theme_topic": "Unlock",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 0.795464075808075,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Dramatic"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.8449,
-        "w": 12.2143,
-        "x": 0.5775,
-        "y": 1.433
+        "h": 5.265,
+        "w": 4.0433,
+        "x": 8.5903,
+        "y": 1.5968
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "listen",
-          "door",
-          "key",
-          "pot",
-          "tramp",
-          "fretful"
+        "crop": [
+          0.08132456933518245,
+          0.18349355762333372,
+          0.31194305774987313,
+          0.17584320966711522
         ],
-        "chart": "column",
         "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              126,
-              47,
-              127
-            ],
-            "name": "friction ludicrous",
-            "values": [
-              79,
-              32,
-              24,
-              85,
-              69,
-              76
-            ]
-          },
-          {
-            "color": [
-              88,
-              152,
-              129
-            ],
-            "name": "run",
-            "values": [
-              89,
-              74,
-              23,
-              41,
-              61,
-              87
-            ]
-          },
-          {
-            "color": [
-              143,
-              190,
-              76
-            ],
-            "name": "sponge old-fashioned",
-            "values": [
-              80,
-              35,
-              30,
-              71,
-              39,
-              87
-            ]
-          }
+        "mask_line": [
+          129,
+          215,
+          54
         ],
-        "theme_topic": "Unlock",
-        "title": "tricky grate"
+        "mask_overlay": true,
+        "theme_topic": "Dramatic",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 2
     }
   ],

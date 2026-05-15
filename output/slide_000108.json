@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          242,
-          233,
-          222
-        ],
-        [
-          64,
-          130,
-          109
-        ]
+      "back_color": [
+        198,
+        122,
+        177
       ],
       "fill": [
-        252,
-        249,
-        244
+        170,
+        54,
+        137
       ],
-      "focus": "bottom_left",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Clap"
+      "fore_color": [
+        64,
+        130,
+        109
+      ],
+      "pattern": 27,
+      "style": "pattern",
+      "theme_topic": "Caring"
     },
     "type": "background",
     "z_order": 0
@@ -45,103 +41,94 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.3367,
-        "w": 6.4262,
-        "x": -0.0112,
-        "y": -0.002
+        "h": 4.3837,
+        "w": 8.1889,
+        "x": 3.5092,
+        "y": 2.3517
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          242,
-          233,
-          222
+          136,
+          128,
+          69
         ],
+        "focus": false,
         "line": [
-          242,
-          233,
-          222
+          191,
+          219,
+          34
         ],
-        "line_width": 2.997366402941376,
+        "line_width": 7.78440144581902,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Clap"
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Caring"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.55,
-        "w": 5.8121,
-        "x": 0.5664,
-        "y": 1.4465
+        "h": 4.55,
+        "w": 6.4193,
+        "x": 2.1323,
+        "y": 1.1777
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "prickly",
-          "cakes",
-          "interrupt"
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          188,
+          98,
+          163
         ],
-        "chart": "doughnut",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              143,
-              98,
-              175
-            ],
-            "name": "property pickle",
-            "values": [
-              50,
-              50,
-              42
-            ]
-          }
+        "line": [
+          198,
+          122,
+          177
         ],
-        "theme_topic": "Clap",
-        "title": "delicious enchanting tedious cars"
+        "line_width": 0.6926322238792841,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Caring"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.6326,
-        "w": 2.8704,
-        "x": 6.7599,
-        "y": 1.5266
+        "h": 1.1631,
+        "w": 6.4482,
+        "x": 0.5337,
+        "y": 0.3535
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.08328251418929865,
-          0.11977679166301107,
-          0.21341935130565126,
-          0.21113619986664273
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Clap",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Spell Lacking Desire Muddled",
+        "theme_topic": "Caring",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 3
     }
   ],

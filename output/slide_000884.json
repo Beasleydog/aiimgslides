@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
+      "angle": 120,
       "archetype": "atomic_composition",
       "colors": [
         [
-          141,
-          100,
-          114
+          242,
+          233,
+          222
         ],
         [
-          32,
-          119,
-          149
+          85,
+          54,
+          150
         ]
       ],
       "fill": [
-        34,
-        212,
-        53
+        252,
+        249,
+        244
       ],
-      "focus": "bottom_left",
-      "gradient_type": "radial",
+      "focus": "top_right",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Gullible Ablaze"
+      "theme_topic": "Rate"
     },
     "type": "background",
     "z_order": 0
@@ -45,155 +45,149 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.9829,
-        "w": 8.5728,
-        "x": 1.2244,
-        "y": -0.4821
+        "h": 3.5176,
+        "w": 4.4479,
+        "x": 5.4856,
+        "y": 4.6134
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 7,
         "family": "callouts",
         "fill": [
-          119,
-          146,
-          82
+          223,
+          228,
+          125
         ],
         "focus": false,
         "line": [
-          206,
-          172,
-          37
+          50,
+          194,
+          108
         ],
-        "line_width": 2.432334733325005,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Gullible Ablaze"
+        "line_width": 6.808596612597235,
+        "outline_only": true,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Rate"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.0357,
-        "w": 4.5728,
-        "x": -0.1491,
-        "y": 3.6333
+        "h": 3.8623,
+        "w": 7.1291,
+        "x": 2.3869,
+        "y": 0.5806
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 7,
-        "family": "math",
+        "family": "panel",
         "fill": [
-          55,
-          98,
-          110
+          245,
+          238,
+          229
         ],
-        "focus": false,
         "line": [
-          184,
-          99,
-          206
+          242,
+          233,
+          222
         ],
-        "line_width": 3.749288040193724,
+        "line_width": 1.4531024505117922,
         "outline_only": false,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Gullible Ablaze"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Rate"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.6151,
-        "w": 5.5787,
-        "x": 4.3683,
-        "y": 5.4559
+        "h": 5.5501,
+        "w": 2.8522,
+        "x": 0.6703,
+        "y": 0.7628
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
-        "fill": [
-          107,
-          107,
-          112
-        ],
-        "focus": false,
-        "line": [
-          84,
-          36,
-          80
-        ],
-        "line_width": 6.85324687840256,
-        "outline_only": false,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Gullible Ablaze"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.0802,
-        "w": 13.3407,
-        "x": 0.0151,
-        "y": -0.0127
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          84,
-          221,
-          99
-        ],
-        "line": [
-          84,
-          221,
-          99
-        ],
-        "line_width": 2.2858034296764806,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Gullible Ablaze"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.5659,
-        "w": 2.8525,
-        "x": 0.674,
-        "y": 0.7408
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          36,
+          32,
+          29
         ],
         "font_face": "Aptos Display",
         "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Salty Small",
-        "theme_topic": "Gullible Ablaze",
+        "text": "Want",
+        "theme_topic": "Rate",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.7698,
+        "w": 1.7515,
+        "x": 3.9346,
+        "y": 0.826
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 23,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "15",
+        "theme_topic": "Rate",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.597,
+        "w": 1.7478,
+        "x": 3.9539,
+        "y": 1.5481
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "lowly downtown porter zinc recognise",
+        "theme_topic": "Rate",
         "underline": false
       },
       "type": "text",
@@ -201,10 +195,10 @@
     },
     {
       "bbox": {
-        "h": 2.8822,
-        "w": 8.9806,
-        "x": 3.7519,
-        "y": 0.6623
+        "h": 2.6236,
+        "w": 2.1282,
+        "x": 5.9996,
+        "y": 0.6416
       },
       "id": "object_006",
       "properties": {
@@ -212,136 +206,88 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          84,
-          221,
-          99
+          159,
+          210,
+          144
         ],
         "line": [
-          84,
-          221,
-          99
+          242,
+          233,
+          222
         ],
-        "line_width": 3.2850549635834225,
+        "line_width": 2.4677142896441193,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Gullible Ablaze"
+        "theme_topic": "Rate"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.396,
-        "w": 8.4882,
-        "x": 3.99,
-        "y": 0.9204
+        "h": 0.7636,
+        "w": 1.7732,
+        "x": 6.2189,
+        "y": 0.8366
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "smoke",
-          "pigs",
-          "shut",
-          "grandfather",
-          "position"
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
         ],
-        "chart": "area",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 1,
-        "series": [
-          {
-            "color": [
-              30,
-              116,
-              226
-            ],
-            "name": "evanescent plucky",
-            "values": [
-              56,
-              13,
-              45,
-              76,
-              28
-            ]
-          },
-          {
-            "color": [
-              67,
-              136,
-              93
-            ],
-            "name": "produce",
-            "values": [
-              13,
-              42,
-              71,
-              37,
-              24
-            ]
-          },
-          {
-            "color": [
-              147,
-              208,
-              32
-            ],
-            "name": "ludicrous cake",
-            "values": [
-              32,
-              64,
-              39,
-              27,
-              92
-            ]
-          }
-        ],
-        "theme_topic": "Gullible Ablaze",
-        "title": "overflow agreeable"
+        "font_face": "Aptos Display",
+        "font_size": 31,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "70",
+        "theme_topic": "Rate",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.9514,
-        "w": 2.4361,
-        "x": 7.8986,
-        "y": 3.9341
+        "h": 1.6418,
+        "w": 1.7577,
+        "x": 6.182,
+        "y": 1.5791
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          84,
-          221,
-          99
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
         ],
-        "line": [
-          84,
-          221,
-          99
-        ],
-        "line_width": 5.2004069667397586,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Gullible Ablaze"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "thoughtless squeal material robust",
+        "theme_topic": "Rate",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4443,
-        "w": 1.9084,
-        "x": 8.1077,
-        "y": 4.839
+        "h": 0.7452,
+        "w": 1.5596,
+        "x": 8.5348,
+        "y": 0.8167
       },
       "id": "object_009",
       "properties": {
@@ -349,17 +295,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Aptos Display",
+        "font_size": 37,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Defiant",
-        "theme_topic": "Gullible Ablaze",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "86%",
+        "theme_topic": "Rate",
         "underline": false
       },
       "type": "text",
@@ -367,10 +313,10 @@
     },
     {
       "bbox": {
-        "h": 1.3409,
-        "w": 1.9262,
-        "x": 8.111,
-        "y": 5.4004
+        "h": 1.632,
+        "w": 1.5538,
+        "x": 8.5088,
+        "y": 1.5714
       },
       "id": "object_010",
       "properties": {
@@ -378,17 +324,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          150,
-          231,
-          162
+          123,
+          113,
+          103
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "zephyr cattle gorgeous idea finicky competition screeching fool eggnog lake fair acidic possess",
-        "theme_topic": "Gullible Ablaze",
+        "text": "mute clam expert second-hand super careful",
+        "theme_topic": "Rate",
         "underline": false
       },
       "type": "text",
@@ -396,10 +342,10 @@
     },
     {
       "bbox": {
-        "h": 2.952,
-        "w": 2.2184,
-        "x": 10.541,
-        "y": 3.9462
+        "h": 2.6495,
+        "w": 2.2868,
+        "x": 10.4701,
+        "y": 0.6613
       },
       "id": "object_011",
       "properties": {
@@ -407,80 +353,77 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          84,
-          221,
-          99
+          242,
+          233,
+          222
         ],
         "line": [
-          84,
-          221,
-          99
+          242,
+          233,
+          222
         ],
-        "line_width": 1.5318428781659323,
+        "line_width": 2.2863855677012546,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Gullible Ablaze"
+        "theme_topic": "Rate"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5581,
-        "w": 0.5612,
-        "x": 10.753,
-        "y": 4.1313
+        "h": 0.7499,
+        "w": 1.9402,
+        "x": 10.6512,
+        "y": 0.8369
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          84,
-          221,
-          99
-        ],
-        "focus": false,
-        "line": [
-          150,
-          231,
-          162
-        ],
-        "line_width": 2.5702821690290416,
-        "outline_only": false,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Gullible Ablaze"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.4339,
-        "w": 1.7227,
-        "x": 10.7929,
-        "y": 4.8172
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          174,
+          73,
+          92
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "80%",
+        "theme_topic": "Rate",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 1.6116,
+        "w": 1.9173,
+        "x": 10.6568,
+        "y": 1.576
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 14,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Examine",
-        "theme_topic": "Gullible Ablaze",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "quiver physical weigh",
+        "theme_topic": "Rate",
         "underline": false
       },
       "type": "text",
@@ -488,28 +431,28 @@
     },
     {
       "bbox": {
-        "h": 1.333,
-        "w": 1.7315,
-        "x": 10.7504,
-        "y": 5.388
+        "h": 0.2939,
+        "w": 1.869,
+        "x": 5.8819,
+        "y": 3.8474
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          150,
-          231,
-          162
+          174,
+          73,
+          92
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wave elastic squalid sleepy oranges thank vase grin invent comb gratis mist long befitting embarrass",
-        "theme_topic": "Gullible Ablaze",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "TREMBLE CROSS",
+        "theme_topic": "Rate",
         "underline": false
       },
       "type": "text",
@@ -517,10 +460,10 @@
     },
     {
       "bbox": {
-        "h": 1.057,
-        "w": 3.5786,
-        "x": 3.8947,
-        "y": 4.0586
+        "h": 0.9388,
+        "w": 1.8708,
+        "x": 5.8878,
+        "y": 4.3227
       },
       "id": "object_015",
       "properties": {
@@ -528,17 +471,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          36,
+          32,
+          29
         ],
         "font_face": "Aptos Display",
         "font_size": 26,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Afternoon",
-        "theme_topic": "Gullible Ablaze",
+        "text": "Answer Creature",
+        "theme_topic": "Rate",
         "underline": false
       },
       "type": "text",
@@ -546,10 +489,10 @@
     },
     {
       "bbox": {
-        "h": 1.4341,
-        "w": 3.5369,
-        "x": 3.8817,
-        "y": 5.3487
+        "h": 1.268,
+        "w": 1.8607,
+        "x": 5.8972,
+        "y": 5.4907
       },
       "id": "object_016",
       "properties": {
@@ -557,17 +500,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          150,
-          231,
-          162
+          123,
+          113,
+          103
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "provide honey fail nation bright puncture payment bee pan classy secretary receipt rat clammy nut waves rich sparkling gullible ice",
-        "theme_topic": "Gullible Ablaze",
+        "text": "example rest door dime realize tap outrageous attractive place fence desire cemetery believe first",
+        "theme_topic": "Rate",
         "underline": false
       },
       "type": "text",
@@ -575,71 +518,71 @@
     },
     {
       "bbox": {
-        "h": 0.3178,
-        "w": 0.8819,
-        "x": 11.0343,
-        "y": 6.7868
+        "h": 0.2495,
+        "w": 0.7689,
+        "x": 12.1258,
+        "y": 4.9591
       },
       "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          36,
-          95,
-          140
-        ],
-        "focus": false,
-        "line": [
-          194,
-          146,
-          121
-        ],
-        "line_width": 3.8374128341843337,
-        "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Gullible Ablaze"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.2886,
-        "w": 1.5658,
-        "x": 3.2929,
-        "y": 6.8755
-      },
-      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          77,
-          207,
-          66
+          165,
+          84,
+          142
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 6,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "cycle tiger",
-        "theme_topic": "Gullible Ablaze",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Receipt",
+        "theme_topic": "Rate",
         "underline": false
       },
       "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.8235,
+        "w": 1.1841,
+        "x": 5.7932,
+        "y": 3.9539
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          209,
+          66,
+          90
+        ],
+        "focus": false,
+        "line": [
+          164,
+          219,
+          29
+        ],
+        "line_width": 2.7783271283099236,
+        "outline_only": false,
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Rate"
+      },
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.377,
-        "w": 2.2639,
-        "x": 3.4946,
-        "y": 4.27
+        "h": 0.6268,
+        "w": 0.9,
+        "x": 12.0226,
+        "y": 2.1813
       },
       "id": "object_019",
       "properties": {
@@ -647,17 +590,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          88,
-          133,
-          158
+          63,
+          199,
+          121
         ],
         "font_face": "Aptos",
-        "font_size": 18,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Board",
-        "theme_topic": "Gullible Ablaze",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "minister dirt",
+        "theme_topic": "Rate",
         "underline": false
       },
       "type": "text",
@@ -665,130 +608,121 @@
     },
     {
       "bbox": {
-        "h": 0.6167,
-        "w": 0.8789,
-        "x": 4.3397,
-        "y": 2.8812
+        "h": 0.5144,
+        "w": 1.2534,
+        "x": 7.9096,
+        "y": 1.188
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          57,
-          224,
-          99
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          31,
+          38,
+          169
         ],
-        "focus": false,
-        "line": [
-          213,
-          44,
-          77
-        ],
-        "line_width": 4.535208170129505,
-        "outline_only": true,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Gullible Ablaze"
+        "font_face": "Aptos",
+        "font_size": 5,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Itchy Crabby",
+        "theme_topic": "Rate",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.5069,
-        "x": 4.9605,
-        "y": 4.6536
+        "h": 0.6781,
+        "w": 0.9813,
+        "x": 0.7036,
+        "y": 1.0856
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
+        "dash": 3,
+        "family": "symbols",
         "fill": [
-          161,
-          84,
-          187
+          27,
+          181,
+          138
         ],
         "focus": false,
         "line": [
-          221,
-          42,
-          72
+          27,
+          113,
+          198
         ],
-        "line_width": 4.680197416450761,
+        "line_width": 5.036833679637191,
         "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Gullible Ablaze"
+        "ppt_type": 24,
+        "shape": "moon",
+        "theme_topic": "Rate"
       },
       "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.5749,
-        "w": 0.438,
-        "x": 7.8148,
-        "y": 0.7788
+        "h": 0.4665,
+        "w": 1.328,
+        "x": 1.9175,
+        "y": 6.4953
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          157,
-          123,
-          216
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          98,
+          63,
+          61
         ],
-        "focus": false,
-        "line": [
-          62,
-          87,
-          128
-        ],
-        "line_width": 2.009403301216267,
-        "outline_only": true,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Gullible Ablaze"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "invite quarter nerve flippant",
+        "theme_topic": "Rate",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.7877,
-        "w": 0.934,
-        "x": 7.8267,
-        "y": 6.5018
+        "h": 0.2132,
+        "w": 0.9771,
+        "x": 4.3288,
+        "y": 0.8161
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          177,
-          230,
-          223
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          143,
+          26,
+          59
         ],
-        "focus": false,
-        "line": [
-          78,
-          173,
-          220
-        ],
-        "line_width": 4.791029525181273,
-        "outline_only": false,
-        "ppt_type": 13,
-        "shape": "can",
-        "theme_topic": "Gullible Ablaze"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Snails Tan Skin",
+        "theme_topic": "Rate",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 23
     }
   ],

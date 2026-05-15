@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "back_color": [
-        245,
-        247,
-        252
+      "colors": [
+        [
+          153,
+          120,
+          45
+        ],
+        [
+          109,
+          200,
+          81
+        ]
       ],
       "fill": [
-        245,
-        247,
-        252
+        45,
+        192,
+        36
       ],
-      "fore_color": [
-        36,
-        178,
-        149
-      ],
-      "pattern": 28,
-      "style": "pattern",
-      "theme_topic": "Remember"
+      "focus": "top_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Fit"
     },
     "type": "background",
     "z_order": 0
@@ -41,208 +45,215 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.3097,
-        "w": 5.2892,
-        "x": 6.0558,
-        "y": 0.6317
+        "h": 4.6563,
+        "w": 3.6377,
+        "x": 1.7022,
+        "y": 0.5513
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 5,
+        "family": "basic",
         "fill": [
-          178,
-          174,
-          118
+          86,
+          88,
+          52
         ],
         "focus": false,
         "line": [
-          112,
-          181,
-          25
+          196,
+          149,
+          163
         ],
-        "line_width": 7.834345274083937,
-        "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Remember"
+        "line_width": 4.591136373953383,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Fit"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.6069,
-        "w": 8.436,
-        "x": 4.5926,
-        "y": 1.1319
+        "h": 2.8946,
+        "w": 5.8891,
+        "x": -1.016,
+        "y": 4.8464
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "basic",
         "fill": [
-          154,
-          148,
-          153
+          79,
+          145,
+          116
         ],
         "focus": false,
         "line": [
-          95,
-          150,
-          169
+          158,
+          53,
+          72
         ],
-        "line_width": 2.1207373313789875,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Remember"
+        "line_width": 5.5045083547904134,
+        "outline_only": true,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Fit"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5387,
-        "w": 2.8586,
-        "x": 0.6455,
-        "y": 0.7332
+        "h": 1.4796,
+        "w": 5.4325,
+        "x": 0.2409,
+        "y": 0.4962
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          27,
-          44,
-          68
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          120,
+          96,
+          154
         ],
-        "font_face": "Aptos Display",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Remove Guarantee",
-        "theme_topic": "Remember",
-        "underline": false
+        "focus": false,
+        "line": [
+          138,
+          129,
+          176
+        ],
+        "line_width": 2.029730592425069,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Fit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.9798,
-        "w": 2.8009,
-        "x": 6.8445,
-        "y": 3.9602
+        "h": 3.9745,
+        "w": 9.4972,
+        "x": 0.996,
+        "y": 0.886
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          63,
+          197,
+          54
         ],
-        "focus": true,
-        "mask_line": [
-          82,
-          96,
-          214
+        "line": [
+          73,
+          200,
+          65
         ],
-        "mask_overlay": false,
-        "theme_topic": "Remember",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.8678674409725242,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Fit"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.9394,
-        "w": 2.7458,
-        "x": 3.772,
-        "y": 3.966
+        "h": 5.5275,
+        "w": 2.8426,
+        "x": 0.6446,
+        "y": 0.7278
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.04078430157723722,
-          0.0470053800137637,
-          0.3039589372213016,
-          0.14350822488342818
-        ],
-        "focus": true,
-        "mask_line": [
-          212,
-          84,
-          219
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Remember",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.0228,
-        "w": 2.4843,
-        "x": 10.1167,
-        "y": 4.0618
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          106,
-          48,
-          98
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 26,
+        "font_face": "Arial",
+        "font_size": 19,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Produce Seemly Small",
-        "theme_topic": "Remember",
+        "text": "Colour Cook",
+        "theme_topic": "Fit",
         "underline": false
       },
       "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.8254,
+        "w": 1.8846,
+        "x": 3.753,
+        "y": 0.662
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          73,
+          200,
+          65
+        ],
+        "line": [
+          73,
+          200,
+          65
+        ],
+        "line_width": 0.9151771509894019,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Fit"
+      },
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.4469,
-        "w": 2.4601,
-        "x": 10.0972,
-        "y": 5.3394
+        "h": 0.7505,
+        "w": 1.5016,
+        "x": 3.9241,
+        "y": 0.8492
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          255,
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 32,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "fence neck organic miniature weigh drink harm dependent jittery plot second arrange company attend silk partner psychotic birthday hospital vacation wilderness",
-        "theme_topic": "Remember",
+        "text": "147",
+        "theme_topic": "Fit",
         "underline": false
       },
       "type": "text",
@@ -250,28 +261,28 @@
     },
     {
       "bbox": {
-        "h": 1.0566,
-        "w": 2.473,
-        "x": 3.9158,
-        "y": 0.7579
+        "h": 1.7871,
+        "w": 1.5232,
+        "x": 3.9444,
+        "y": 1.5723
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          27,
-          44,
-          68
+          155,
+          222,
+          154
         ],
-        "font_face": "Aptos Display",
-        "font_size": 26,
+        "font_face": "Arial",
+        "font_size": 13,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Soda Curve Birds",
-        "theme_topic": "Remember",
+        "text": "agonizing eggnog clap swanky man stare unsightly",
+        "theme_topic": "Fit",
         "underline": false
       },
       "type": "text",
@@ -279,28 +290,28 @@
     },
     {
       "bbox": {
-        "h": 1.4173,
-        "w": 2.4673,
-        "x": 3.9214,
-        "y": 2.0575
+        "h": 0.7519,
+        "w": 1.9807,
+        "x": 5.9953,
+        "y": 0.8283
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          255,
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 22,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "bumpy confess eight unwritten fruit support slap tug deep cooperative two brake salty contain system tax wander first immense wet ambiguous abhorrent",
-        "theme_topic": "Remember",
+        "text": "237",
+        "theme_topic": "Fit",
         "underline": false
       },
       "type": "text",
@@ -308,28 +319,28 @@
     },
     {
       "bbox": {
-        "h": 0.2739,
-        "w": 2.4641,
-        "x": 6.9844,
-        "y": 0.7519
+        "h": 1.8096,
+        "w": 1.9846,
+        "x": 5.9942,
+        "y": 1.5617
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          82,
-          96,
-          214
+          155,
+          222,
+          154
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "REJOICE",
-        "theme_topic": "Remember",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "behavior wool festive school cause",
+        "theme_topic": "Fit",
         "underline": false
       },
       "type": "text",
@@ -337,155 +348,208 @@
     },
     {
       "bbox": {
-        "h": 0.8655,
-        "w": 2.4851,
-        "x": 6.9966,
-        "y": 1.226
+        "h": 6.1304,
+        "w": 4.1169,
+        "x": 8.5682,
+        "y": 0.7199
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          27,
-          44,
-          68
+        "band": [
+          73,
+          200,
+          65
         ],
-        "font_face": "Aptos Display",
-        "font_size": 35,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Waste",
-        "theme_topic": "Remember",
-        "underline": false
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          73,
+          200,
+          65
+        ],
+        "border": [
+          154,
+          160,
+          219
+        ],
+        "border_dash": "solid",
+        "border_width": 3.8919531284613256,
+        "cells": [
+          [
+            "territory need",
+            "contain",
+            "hoc stove",
+            "peace",
+            "advise tender"
+          ],
+          [
+            "shoe flippant",
+            "wrap grandiose",
+            "shave",
+            "pathetic doubt",
+            "vessel"
+          ],
+          [
+            "abnormal lying",
+            "chivalrous",
+            "exultant",
+            "zoo quiver",
+            "time"
+          ],
+          [
+            "account",
+            "highfalutin",
+            "agreement cagey",
+            "fog",
+            "awake clip"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 12,
+        "has_header": false,
+        "header": [
+          225,
+          63,
+          149
+        ],
+        "rows": 4,
+        "text_color": [
+          135,
+          160,
+          163
+        ],
+        "theme_topic": "Fit"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 1.1522,
-        "w": 2.4486,
-        "x": 7.0187,
-        "y": 2.3497
+        "h": 0.5653,
+        "w": 0.3153,
+        "x": 1.6742,
+        "y": 6.8829
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
+        "dash": 5,
+        "family": "arrows",
+        "fill": [
+          187,
+          81,
+          61
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "bike willing shrill quince separate womanly trade lacking standing exciting strap tease oil existence skip separate stage difficult trucks",
-        "theme_topic": "Remember",
-        "underline": false
+        "focus": false,
+        "line": [
+          129,
+          82,
+          167
+        ],
+        "line_width": 1.5000994322129044,
+        "outline_only": true,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Fit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.0268,
-        "w": 2.4699,
-        "x": 10.1171,
-        "y": 0.7828
+        "h": 0.2246,
+        "w": 0.7853,
+        "x": 9.5521,
+        "y": 0.7451
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          196,
-          192,
-          62
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          228,
+          32,
+          30
         ],
-        "bold": true,
-        "color": [
-          27,
-          44,
-          68
+        "focus": false,
+        "line": [
+          153,
+          106,
+          42
         ],
-        "font_face": "Aptos Display",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Dirt Waves Improve",
-        "theme_topic": "Remember",
-        "underline": false
+        "line_width": 5.964974183705756,
+        "outline_only": true,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Fit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 1.4309,
-        "w": 2.4756,
-        "x": 10.1192,
-        "y": 2.0377
+        "h": 0.9778,
+        "w": 0.8445,
+        "x": 9.0304,
+        "y": 0.0401
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
+        "dash": 7,
+        "family": "stars",
+        "fill": [
+          46,
+          139,
+          211
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "motionless energetic sky cure queue material overrated bee square necessary eggnog rabid upbeat ski",
-        "theme_topic": "Remember",
-        "underline": false
+        "focus": false,
+        "line": [
+          175,
+          90,
+          63
+        ],
+        "line_width": 1.226059161220273,
+        "outline_only": false,
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Fit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.491,
-        "w": 2.2326,
-        "x": 3.5364,
-        "y": 4.7771
+        "h": 0.3832,
+        "w": 1.173,
+        "x": 5.8384,
+        "y": 4.1695
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          141,
-          38,
-          230
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          163,
+          124,
+          67
         ],
-        "bold": true,
-        "color": [
-          46,
-          70,
-          52
+        "focus": false,
+        "line": [
+          130,
+          149,
+          32
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Zip Low",
-        "theme_topic": "Remember",
-        "underline": false
+        "line_width": 3.2072300769510296,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Fit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     }
   ],

@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          43,
-          162,
-          130
-        ],
-        [
-          48,
-          78,
-          140
-        ]
-      ],
       "fill": [
-        28,
-        143,
-        112
+        61,
+        64,
+        91
       ],
-      "focus": "bottom_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Leather"
+      "style": "solid",
+      "theme_topic": "Launch Group"
     },
     "type": "background",
     "z_order": 0
@@ -45,92 +30,89 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.2969,
-        "w": 5.2341,
-        "x": 8.7977,
-        "y": -0.1325
+        "h": 2.3069,
+        "w": 7.2006,
+        "x": 4.9462,
+        "y": 4.8373
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 2,
+        "family": "callouts",
         "fill": [
-          26,
-          69,
-          56
+          130,
+          66,
+          110
         ],
         "focus": false,
         "line": [
-          186,
+          108,
           102,
-          138
+          166
         ],
-        "line_width": 3.669821281086552,
+        "line_width": 4.425844130474108,
         "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Leather"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Launch Group"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.1795,
-        "w": 8.5178,
-        "x": 4.3891,
-        "y": 1.9217
+        "h": 0.9052,
+        "w": 4.1756,
+        "x": 2.1778,
+        "y": 1.2506
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          98,
-          105,
-          161
-        ],
-        "focus": false,
-        "line": [
-          190,
-          205,
-          175
-        ],
-        "line_width": 2.5841198432185046,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Leather"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.9173,
-        "w": 4.2932,
-        "x": 2.1432,
-        "y": 0.991
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
+          246,
           248,
-          255,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 35,
+        "font_face": "Aptos Display",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Roasted Aloof",
-        "theme_topic": "Leather",
+        "text": "Observation House Crooked",
+        "theme_topic": "Launch Group",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.0625,
+        "w": 0.7624,
+        "x": 0.6032,
+        "y": 3.2496
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fast wail annoy",
+        "theme_topic": "Launch Group",
         "underline": false
       },
       "type": "text",
@@ -138,57 +120,57 @@
     },
     {
       "bbox": {
-        "h": 2.5884,
-        "w": 6.0211,
-        "x": 0.6143,
-        "y": 1.5236
+        "h": 1.0384,
+        "w": 0.5557,
+        "x": 1.6826,
+        "y": 3.2386
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.10767316583810069,
-          0.029894172238394603,
-          0.14987994972678426,
-          0.13823231844482234
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": true,
-        "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Leather",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "afraid ahead kindhearted grumpy jeans amuse",
+        "theme_topic": "Launch Group",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.2936,
-        "w": 5.5693,
-        "x": 0.8137,
-        "y": 3.6157
+        "h": 1.0271,
+        "w": 0.7348,
+        "x": 2.6035,
+        "y": 3.2117
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          238,
-          103
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Dangerous Rabbits Behave",
-        "theme_topic": "Leather",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "garrulous relieved scratch",
+        "theme_topic": "Launch Group",
         "underline": false
       },
       "type": "text",
@@ -196,117 +178,120 @@
     },
     {
       "bbox": {
-        "h": 2.6109,
-        "w": 6.0081,
-        "x": 6.7735,
-        "y": 1.5028
+        "h": 1.04,
+        "w": 0.8836,
+        "x": 3.6387,
+        "y": 3.2316
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2167300094406825,
-          0.04858937061901509,
-          0.2557134460551847,
-          0.1363563170140311
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": true,
-        "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Leather",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "zany point belligerent terrible thing busy",
+        "theme_topic": "Launch Group",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.4518,
-        "w": 2.6024,
-        "x": 6.5804,
-        "y": 4.5513
+        "h": 2.1556,
+        "w": 3.5084,
+        "x": 0.5664,
+        "y": 4.8653
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 4,
         "family": "panel",
         "fill": [
-          43,
-          162,
-          130
+          123,
+          125,
+          143
         ],
         "line": [
-          43,
-          162,
-          130
+          123,
+          125,
+          143
         ],
-        "line_width": 1.5849657757632125,
+        "line_width": 0.686588682063045,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Leather"
+        "theme_topic": "Launch Group"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.762,
-        "w": 2.2749,
-        "x": 6.8007,
-        "y": 4.7385
+        "h": 0.5164,
+        "w": 0.5395,
+        "x": 0.785,
+        "y": 5.0766
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
+        "dash": 3,
+        "family": "stars",
+        "fill": [
+          118,
+          190,
+          210
         ],
-        "font_face": "Arial",
-        "font_size": 33,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "9.3x",
-        "theme_topic": "Leather",
-        "underline": false
+        "focus": false,
+        "line": [
+          126,
+          86,
+          221
+        ],
+        "line_width": 4.131727046067,
+        "outline_only": false,
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Launch Group"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.4277,
-        "w": 2.2314,
-        "x": 6.7564,
-        "y": 5.4762
+        "h": 0.427,
+        "w": 3.0221,
+        "x": 0.7755,
+        "y": 5.7654
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          205,
-          241,
-          230
+          32,
+          119,
+          149
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "ancient hospitable prose",
-        "theme_topic": "Leather",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Rare",
+        "theme_topic": "Launch Group",
         "underline": false
       },
       "type": "text",
@@ -314,88 +299,88 @@
     },
     {
       "bbox": {
-        "h": 2.4681,
-        "w": 3.3762,
-        "x": 9.3856,
-        "y": 4.5645
+        "h": 0.5004,
+        "w": 3.0424,
+        "x": 0.8077,
+        "y": 6.3211
       },
       "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          91,
-          169,
-          109
-        ],
-        "line": [
-          43,
-          162,
-          130
-        ],
-        "line_width": 0.6944204204528291,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Leather"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.7413,
-        "w": 3.041,
-        "x": 9.5827,
-        "y": 4.7183
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
-        ],
-        "font_face": "Arial",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "41%",
-        "theme_topic": "Leather",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 1.4073,
-        "w": 3.0227,
-        "x": 9.5448,
-        "y": 5.4925
-      },
-      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          205,
-          241,
-          230
+          162,
+          165,
+          179
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "delight elfin meeting",
-        "theme_topic": "Leather",
+        "text": "promise steep few lucky workable harass pop fetch arrive invincible red trouble cute",
+        "theme_topic": "Launch Group",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 2.1524,
+        "w": 3.0038,
+        "x": 4.2918,
+        "y": 4.8421
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          123,
+          125,
+          143
+        ],
+        "line": [
+          123,
+          125,
+          143
+        ],
+        "line_width": 5.24933272990228,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Launch Group"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.4406,
+        "w": 2.4781,
+        "x": 4.5445,
+        "y": 5.7614
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Art",
+        "theme_topic": "Launch Group",
         "underline": false
       },
       "type": "text",
@@ -403,73 +388,70 @@
     },
     {
       "bbox": {
-        "h": 2.445,
-        "w": 2.8353,
-        "x": 0.5356,
-        "y": 4.5632
+        "h": 0.4728,
+        "w": 2.4791,
+        "x": 4.5641,
+        "y": 6.3054
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          43,
+        "bg_color": null,
+        "bold": false,
+        "color": [
           162,
-          130
+          165,
+          179
         ],
-        "line": [
-          43,
-          162,
-          130
-        ],
-        "line_width": 1.033984763858629,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Leather"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "enter improve airport sort stare whimsical zonked cable well-to-do girl stamp black-and-white",
+        "theme_topic": "Launch Group",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.5445,
-        "w": 0.5243,
-        "x": 0.7334,
-        "y": 4.7624
+        "h": 2.1286,
+        "w": 2.7825,
+        "x": 7.5105,
+        "y": 4.8388
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "panel",
         "fill": [
-          255,
-          238,
-          103
+          123,
+          125,
+          143
         ],
-        "focus": false,
         "line": [
-          205,
-          241,
-          230
+          123,
+          125,
+          143
         ],
-        "line_width": 2.5065669599011913,
+        "line_width": 4.952567814077502,
         "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Leather"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Launch Group"
       },
       "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.4275,
-        "w": 2.3264,
-        "x": 0.7894,
-        "y": 5.4275
+        "h": 0.4709,
+        "w": 2.3005,
+        "x": 7.7521,
+        "y": 5.7489
       },
       "id": "object_015",
       "properties": {
@@ -477,17 +459,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          32,
+          119,
+          149
         ],
-        "font_face": "Arial",
+        "font_face": "Aptos",
         "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Efficient",
-        "theme_topic": "Leather",
+        "text": "Deafening",
+        "theme_topic": "Launch Group",
         "underline": false
       },
       "type": "text",
@@ -495,10 +477,10 @@
     },
     {
       "bbox": {
-        "h": 0.803,
-        "w": 2.3445,
-        "x": 0.8084,
-        "y": 5.9909
+        "h": 0.5045,
+        "w": 2.2941,
+        "x": 7.7668,
+        "y": 6.3008
       },
       "id": "object_016",
       "properties": {
@@ -506,17 +488,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          205,
-          241,
-          230
+          162,
+          165,
+          179
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "abrupt sharp gun materialistic coil cheese wicked selfish announce colorful poke unite",
-        "theme_topic": "Leather",
+        "text": "garrulous bushes squirrel teaching volatile wicked dirt account simplistic curvy copper nutty design",
+        "theme_topic": "Launch Group",
         "underline": false
       },
       "type": "text",
@@ -524,41 +506,41 @@
     },
     {
       "bbox": {
-        "h": 2.4455,
-        "w": 2.6876,
-        "x": 3.6043,
-        "y": 4.5623
+        "h": 2.152,
+        "w": 2.2684,
+        "x": 10.5124,
+        "y": 4.8504
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          43,
-          162,
-          130
+          123,
+          125,
+          143
         ],
         "line": [
-          43,
-          162,
-          130
+          123,
+          125,
+          143
         ],
-        "line_width": 1.6777853022419507,
+        "line_width": 3.672559881780963,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Leather"
+        "theme_topic": "Launch Group"
       },
       "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.4262,
-        "w": 2.2003,
-        "x": 3.8175,
-        "y": 5.4607
+        "h": 0.4515,
+        "w": 1.7819,
+        "x": 10.7379,
+        "y": 5.7357
       },
       "id": "object_018",
       "properties": {
@@ -566,17 +548,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          32,
+          119,
+          149
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Self",
-        "theme_topic": "Leather",
+        "text": "Amused Tongue",
+        "theme_topic": "Launch Group",
         "underline": false
       },
       "type": "text",
@@ -584,10 +566,10 @@
     },
     {
       "bbox": {
-        "h": 0.8236,
-        "w": 2.1809,
-        "x": 3.8292,
-        "y": 5.977
+        "h": 0.4967,
+        "w": 1.7915,
+        "x": 10.7848,
+        "y": 6.2892
       },
       "id": "object_019",
       "properties": {
@@ -595,17 +577,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          205,
-          241,
-          230
+          162,
+          165,
+          179
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "half fair soft responsible unusual stimulating entertain cheer talented planes intend effect tank smoggy voice",
-        "theme_topic": "Leather",
+        "text": "spill cheer moon pancake bashful truculent various innocent past stain time girls harbor",
+        "theme_topic": "Launch Group",
         "underline": false
       },
       "type": "text",
@@ -613,60 +595,57 @@
     },
     {
       "bbox": {
-        "h": 0.5399,
-        "w": 0.7592,
-        "x": 5.6269,
-        "y": 0.1822
+        "h": 1.0404,
+        "w": 0.9455,
+        "x": 9.1406,
+        "y": 3.2424
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          86,
-          178,
-          127
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          36,
-          162,
-          28
-        ],
-        "line_width": 3.6280261397746925,
-        "outline_only": true,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Leather"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "pies unsuitable nauseating successful lettuce five berserk",
+        "theme_topic": "Launch Group",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.5989,
-        "w": 2.0424,
-        "x": 9.4687,
-        "y": 1.7683
+        "h": 1.0481,
+        "w": 0.9298,
+        "x": 10.4311,
+        "y": 3.2334
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          159,
-          196,
-          206
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
+        "font_face": "Aptos",
         "font_size": 11,
-        "italic": true,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "verdant spell improve",
-        "theme_topic": "Leather",
+        "text": "future pat capable announce heady cheap detect",
+        "theme_topic": "Launch Group",
         "underline": false
       },
       "type": "text",
@@ -674,77 +653,95 @@
     },
     {
       "bbox": {
-        "h": 1.1417,
-        "w": 1.7155,
-        "x": 5.3698,
-        "y": 5.1884
+        "h": 1.0404,
+        "w": 1.0973,
+        "x": 11.6372,
+        "y": 3.2465
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          30,
-          112,
-          208
+          246,
+          248,
+          252
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Leather",
-        "width": 1.0505057299706944
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "hands fog glove rambunctious sassy",
+        "theme_topic": "Launch Group",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.9059,
-        "w": 2.1074,
-        "x": 7.7743,
-        "y": 5.1957
+        "h": 0.4845,
+        "w": 1.1764,
+        "x": 9.8988,
+        "y": 6.0638
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          181,
-          96,
-          216
-        ],
-        "connector": "straight",
         "dash": 4,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Leather",
-        "width": 1.513357338950942
+        "family": "basic",
+        "fill": [
+          60,
+          121,
+          198
+        ],
+        "focus": false,
+        "line": [
+          31,
+          205,
+          100
+        ],
+        "line_width": 3.4228065153554446,
+        "outline_only": false,
+        "ppt_type": 7,
+        "shape": "triangle",
+        "theme_topic": "Launch Group"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 1.3742,
-        "w": 1.4795,
-        "x": 4.1235,
-        "y": 1.1436
+        "h": 0.5318,
+        "w": 1.4197,
+        "x": 4.2361,
+        "y": 6.8575
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          66,
-          185,
-          194
+        "dash": 5,
+        "family": "callouts",
+        "fill": [
+          126,
+          174,
+          216
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Leather",
-        "width": 1.6461656928266701
+        "focus": false,
+        "line": [
+          119,
+          45,
+          146
+        ],
+        "line_width": 6.292042736363402,
+        "outline_only": false,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Launch Group"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 24
     }
   ],

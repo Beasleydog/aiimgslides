@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        33,
-        115,
-        169
+      "colors": [
+        [
+          225,
+          94,
+          113
+        ],
+        [
+          193,
+          221,
+          132
+        ]
       ],
       "fill": [
-        33,
-        115,
-        169
+        210,
+        72,
+        94
       ],
-      "fore_color": [
-        214,
-        132,
-        27
-      ],
-      "pattern": 40,
-      "style": "pattern",
-      "theme_topic": "Typical Flawless"
+      "focus": "bottom_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Racial Interesting"
     },
     "type": "background",
     "z_order": 0
@@ -41,89 +45,88 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.2267,
-        "w": 8.2447,
-        "x": 0.0261,
-        "y": 0.8049
+        "h": 0.876,
+        "w": 4.5938,
+        "x": 0.8705,
+        "y": 1.3499
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          47,
-          164,
-          136
-        ],
-        "focus": false,
-        "line": [
-          148,
-          228,
-          198
-        ],
-        "line_width": 5.344213466069493,
-        "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Typical Flawless"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 1.185,
-        "w": 5.8725,
-        "x": 0.5287,
-        "y": 0.3338
-      },
-      "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          250,
+          255,
           252,
-          255
+          247
         ],
-        "font_face": "Aptos Display",
-        "font_size": 33,
+        "font_face": "Arial",
+        "font_size": 26,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Fact War Depend",
-        "theme_topic": "Typical Flawless",
+        "text": "Wiry Found Invention",
+        "theme_topic": "Racial Interesting",
         "underline": false
       },
       "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 5.5454,
+        "w": 2.7695,
+        "x": 0.5328,
+        "y": 1.4303
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          225,
+          94,
+          113
+        ],
+        "line": [
+          225,
+          94,
+          113
+        ],
+        "line_width": 0.8863798121785588,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Racial Interesting"
+      },
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.4503,
-        "w": 2.7519,
-        "x": 9.3274,
-        "y": 2.7423
+        "h": 4.5377,
+        "w": 2.4253,
+        "x": 0.714,
+        "y": 2.3868
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          250,
-          252,
-          255
+          255,
+          218,
+          220
         ],
-        "font_face": "Aptos Display",
-        "font_size": 23,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "42%",
-        "theme_topic": "Typical Flawless",
+        "text": "wish damaged cruel standing wary",
+        "theme_topic": "Racial Interesting",
         "underline": false
       },
       "type": "text",
@@ -131,57 +134,59 @@
     },
     {
       "bbox": {
-        "h": 0.2755,
-        "w": 2.9834,
-        "x": 5.5552,
-        "y": 5.3315
+        "h": 5.5462,
+        "w": 2.6393,
+        "x": 3.492,
+        "y": 1.4314
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          225,
+          94,
+          113
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "MASK",
-        "theme_topic": "Typical Flawless",
-        "underline": false
+        "line": [
+          225,
+          94,
+          113
+        ],
+        "line_width": 1.7880430397816294,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Racial Interesting"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.3883,
-        "w": 2.9306,
-        "x": 7.6571,
-        "y": 3.5088
+        "h": 4.5197,
+        "w": 2.2515,
+        "x": 3.666,
+        "y": 2.3701
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          250,
-          252,
-          255
+          255,
+          218,
+          220
         ],
-        "font_face": "Aptos Display",
-        "font_size": 18,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Fallacious Pass Dear",
-        "theme_topic": "Typical Flawless",
+        "text": "water shame mint",
+        "theme_topic": "Racial Interesting",
         "underline": false
       },
       "type": "text",
@@ -189,60 +194,60 @@
     },
     {
       "bbox": {
-        "h": 0.4094,
-        "w": 2.9224,
-        "x": 7.6508,
-        "y": 4.178
+        "h": 2.6672,
+        "w": 3.0483,
+        "x": 6.4485,
+        "y": 1.4684
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          218,
-          235,
-          245
+        "crop": [
+          0.18147063710239525,
+          0.022017922356128945,
+          0.24654038034160178,
+          0.24519577683585483
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "handsomely overwrought disarm naive float ajar spiky learned ink umbrella sharp",
-        "theme_topic": "Typical Flawless",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          229,
+          69,
+          58
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Racial Interesting",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4175,
-        "w": 2.745,
-        "x": 5.6566,
-        "y": 5.8889
+        "h": 2.6704,
+        "w": 3.0855,
+        "x": 9.6893,
+        "y": 1.479
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          250,
-          252,
-          255
+        "crop": [
+          0.182485077733356,
+          0.037229291084332136,
+          0.05754663824367475,
+          0.2801714178624918
         ],
-        "font_face": "Aptos Display",
-        "font_size": 21,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "6x",
-        "theme_topic": "Typical Flawless",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          41,
+          170,
+          144
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Racial Interesting",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 7
     }
   ],

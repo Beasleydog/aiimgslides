@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        77,
-        222,
-        105
+      "colors": [
+        [
+          138,
+          45,
+          26
+        ],
+        [
+          60,
+          118,
+          27
+        ]
       ],
       "fill": [
-        198,
-        64,
-        91
+        25,
+        30,
+        39
       ],
-      "fore_color": [
-        208,
-        108,
-        135
-      ],
-      "pattern": 14,
-      "style": "pattern",
-      "theme_topic": "Orange Kiss"
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Fire"
     },
     "type": "background",
     "z_order": 0
@@ -41,212 +45,207 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.9729,
-        "w": 4.1216,
-        "x": 0.8222,
-        "y": 1.5192
+        "h": 4.8099,
+        "w": 7.2502,
+        "x": 1.0375,
+        "y": 1.8429
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "ribbons",
+        "family": "callouts",
         "fill": [
-          184,
-          38,
-          116
+          148,
+          129,
+          132
         ],
         "focus": false,
         "line": [
-          29,
-          121,
-          138
+          191,
+          67,
+          203
         ],
-        "line_width": 2.625473579607271,
+        "line_width": 7.048335092512218,
         "outline_only": false,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Orange Kiss"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Fire"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.4368,
-        "w": 7.1387,
-        "x": 4.467,
-        "y": 0.5832
+        "h": 1.284,
+        "w": 5.604,
+        "x": 0.5443,
+        "y": 0.3315
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          121,
-          68,
-          177
-        ],
-        "focus": false,
-        "line": [
-          33,
-          91,
-          129
-        ],
-        "line_width": 7.797456882847471,
-        "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Orange Kiss"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 5.3769,
-        "w": 7.2366,
-        "x": 1.8389,
-        "y": 1.3586
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          206,
-          93,
-          115
-        ],
-        "line": [
-          211,
-          109,
-          129
-        ],
-        "line_width": 1.7398592334711012,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Orange Kiss"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.8245,
-        "w": 3.217,
-        "x": 9.4204,
-        "y": 0.6403
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           246,
-          248,
-          252
+          247,
+          249
         ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
+        "font_face": "Trebuchet MS",
+        "font_size": 39,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Unknown",
-        "theme_topic": "Orange Kiss",
+        "text": "Mountainous Healthy",
+        "theme_topic": "Fire",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.4929,
+        "w": 2.9325,
+        "x": 3.9782,
+        "y": 4.8814
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.09349066506813093,
+          0.17737230371512294,
+          0.034629656978931854,
+          0.14539176171177756
+        ],
+        "focus": false,
+        "mask_line": [
+          185,
+          69,
+          161
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Fire",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.6341,
+        "w": 6.1616,
+        "x": 1.7011,
+        "y": 4.2394
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "focus": true,
+        "mask_line": [
+          96,
+          165,
+          250
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Fire",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.919,
-        "w": 2.2903,
-        "x": 0.6652,
-        "y": 3.9857
+        "h": 1.3346,
+        "w": 3.9693,
+        "x": 7.0659,
+        "y": 2.9184
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          211,
-          109,
-          129
+          96,
+          165,
+          250
         ],
         "line": [
-          211,
-          109,
-          129
+          43,
+          51,
+          64
         ],
-        "line_width": 1.8525416130848293,
+        "line_width": 4.537610508959806,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Orange Kiss"
+        "theme_topic": "Fire"
       },
       "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.6546,
-        "w": 1.9576,
-        "x": 0.8171,
-        "y": 4.0974
+        "h": 0.4444,
+        "w": 3.5871,
+        "x": 7.2439,
+        "y": 3.2823
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.15599016589043935,
-          0.17942222156986282,
-          0.01895228122418192,
-          0.15852464513109407
-        ],
-        "focus": false,
-        "mask_line": [
-          36,
-          185,
-          225
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Orange Kiss",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.2739,
-        "w": 7.9159,
-        "x": 0.8074,
-        "y": 0.7465
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "WHOLE WHEEL",
-        "theme_topic": "Orange Kiss",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "309",
+        "theme_topic": "Fire",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.2935,
+        "w": 3.58,
+        "x": 7.2401,
+        "y": 3.7342
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          247,
+          249
+        ],
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "collar bulb smooth berserk interest",
+        "theme_topic": "Fire",
         "underline": false
       },
       "type": "text",
@@ -254,10 +253,10 @@
     },
     {
       "bbox": {
-        "h": 0.8409,
-        "w": 7.886,
-        "x": 0.7752,
-        "y": 1.2399
+        "h": 0.495,
+        "w": 3.4937,
+        "x": 6.9222,
+        "y": 3.9152
       },
       "id": "object_008",
       "properties": {
@@ -265,17 +264,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          219,
+          164,
+          206
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
+        "font_face": "Trebuchet MS",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Head Interest Thing",
-        "theme_topic": "Orange Kiss",
+        "text": "Statuesque Jewel",
+        "theme_topic": "Fire",
         "underline": false
       },
       "type": "text",
@@ -283,10 +282,10 @@
     },
     {
       "bbox": {
-        "h": 1.1368,
-        "w": 7.9035,
-        "x": 0.8053,
-        "y": 2.3486
+        "h": 0.5763,
+        "w": 3.4952,
+        "x": 6.9242,
+        "y": 4.654
       },
       "id": "object_009",
       "properties": {
@@ -294,17 +293,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          177,
+          185,
+          196
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "harm quaint zonked eye faint furtive obese hurry shiver destroy",
-        "theme_topic": "Orange Kiss",
+        "text": "deer lunch stain giddy rescue rescue zesty hope steel unusual overrated fear",
+        "theme_topic": "Fire",
         "underline": false
       },
       "type": "text",
@@ -312,39 +311,35 @@
     },
     {
       "bbox": {
-        "h": 0.6216,
-        "w": 0.5837,
-        "x": 5.2809,
-        "y": 2.4138
+        "h": 1.1253,
+        "w": 1.975,
+        "x": 2.5413,
+        "y": 1.7061
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          138,
-          85,
-          29
+          141,
+          147,
+          59
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "nappy drop plucky adhesive",
-        "theme_topic": "Orange Kiss",
-        "underline": true
+        "connector": "curve",
+        "dash": 2,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Fire",
+        "width": 2.6699711623477067
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.329,
-        "w": 1.7347,
-        "x": 4.3739,
-        "y": 2.2543
+        "h": 0.3096,
+        "w": 1.5187,
+        "x": 2.6499,
+        "y": 6.9257
       },
       "id": "object_011",
       "properties": {
@@ -352,28 +347,28 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          48,
-          117,
-          176
+          200,
+          49,
+          83
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Verdana",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "expand",
-        "theme_topic": "Orange Kiss",
-        "underline": true
+        "text": "plough zealous smooth learned",
+        "theme_topic": "Fire",
+        "underline": false
       },
       "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.287,
-        "w": 1.6898,
-        "x": 9.162,
-        "y": 0.4809
+        "h": 0.2534,
+        "w": 1.7453,
+        "x": 7.0664,
+        "y": 2.9442
       },
       "id": "object_012",
       "properties": {
@@ -381,17 +376,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          144,
-          90,
-          93
+          142,
+          64,
+          174
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Club",
-        "theme_topic": "Orange Kiss",
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "correct add",
+        "theme_topic": "Fire",
         "underline": false
       },
       "type": "text",
@@ -399,32 +394,32 @@
     },
     {
       "bbox": {
-        "h": 0.5912,
-        "w": 1.8878,
-        "x": 7.3278,
-        "y": 1.7299
+        "h": 0.2724,
+        "w": 2.3515,
+        "x": 3.5349,
+        "y": 4.7452
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": [
-          162,
-          129,
-          143
+          87,
+          95,
+          53
         ],
         "bold": false,
         "color": [
-          117,
-          152,
-          27
+          132,
+          111,
+          217
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Land",
-        "theme_topic": "Orange Kiss",
+        "text": "Form",
+        "theme_topic": "Fire",
         "underline": false
       },
       "type": "text",
@@ -432,31 +427,34 @@
     },
     {
       "bbox": {
-        "h": 0.3671,
-        "w": 0.9925,
-        "x": 1.094,
-        "y": 5.2776
+        "h": 0.512,
+        "w": 1.2556,
+        "x": 8.1159,
+        "y": 3.5804
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          135,
-          127,
-          174
+        "dash": 5,
+        "family": "arrows",
+        "fill": [
+          193,
+          226,
+          215
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "condemned splendid",
-        "theme_topic": "Orange Kiss",
-        "underline": false
+        "focus": false,
+        "line": [
+          112,
+          108,
+          34
+        ],
+        "line_width": 5.619400349680442,
+        "outline_only": false,
+        "ppt_type": 49,
+        "shape": "striped_right_arrow",
+        "theme_topic": "Fire"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     }
   ],

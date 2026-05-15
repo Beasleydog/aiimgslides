@@ -10,12 +10,12 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        28,
-        143,
-        112
+        36,
+        84,
+        196
       ],
       "style": "solid",
-      "theme_topic": "Pick Spill"
+      "theme_topic": "Clap Hole"
     },
     "type": "background",
     "z_order": 0
@@ -30,62 +30,60 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.9129,
-        "w": 5.9764,
-        "x": 7.3204,
-        "y": 0.0179
+        "h": 5.0454,
+        "w": 5.8688,
+        "x": 0.5688,
+        "y": 2.0312
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          43,
-          162,
-          130
+        "crop": [
+          0.13601056799425282,
+          0.06849613457165529,
+          0.058452666879703484,
+          0.17859742713058857
         ],
-        "line": [
-          43,
-          162,
-          130
+        "focus": true,
+        "mask_line": [
+          96,
+          165,
+          250
         ],
-        "line_width": 2.5258802220048913,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Pick Spill"
+        "mask_overlay": true,
+        "theme_topic": "Clap Hole",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.662,
-        "w": 1.7674,
-        "x": 3.3188,
-        "y": 1.5164
+        "h": 2.8872,
+        "w": 5.335,
+        "x": 7.2503,
+        "y": 2.2049
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.011652863037654235,
-          0.020456404654160425,
-          0.03672550443784347,
-          0.174655554761955
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "mask_line": [
-          158,
-          119,
-          84
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Pick Spill",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos Display",
+        "font_size": 35,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Organic Incandescent Delicate Oval Pat Strip Relation Womanly Tangible Grate",
+        "theme_topic": "Clap Hole",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 2
     }
   ],

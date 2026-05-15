@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        146,
-        102,
-        68
+      "colors": [
+        [
+          250,
+          250,
+          248
+        ],
+        [
+          180,
+          70,
+          53
+        ]
       ],
       "fill": [
-        83,
-        119,
-        197
+        250,
+        250,
+        248
       ],
-      "fore_color": [
-        255,
-        206,
-        86
-      ],
-      "pattern": 11,
-      "style": "pattern",
-      "theme_topic": "Giants Creator"
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Guitar Wilderness"
     },
     "type": "background",
     "z_order": 0
@@ -41,73 +45,70 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.177,
-        "w": 4.1126,
-        "x": -0.0316,
-        "y": 0.8027
+        "h": 5.2138,
+        "w": 6.8827,
+        "x": 1.7559,
+        "y": 1.4877
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          203,
-          143,
-          102
+          242,
+          242,
+          239
         ],
-        "focus": false,
         "line": [
-          69,
-          148,
-          157
+          239,
+          239,
+          235
         ],
-        "line_width": 3.147308035300071,
+        "line_width": 5.1450315502240995,
         "outline_only": false,
-        "ppt_type": 23,
-        "shape": "sun",
-        "theme_topic": "Giants Creator"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Guitar Wilderness"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5132,
-        "w": 0.871,
-        "x": 0.0121,
-        "y": 0.02
+        "h": 5.8126,
+        "w": 3.2121,
+        "x": 9.3927,
+        "y": 0.6692
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          118,
-          146,
-          208
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          28,
+          28
         ],
-        "line": [
-          118,
-          146,
-          208
-        ],
-        "line_width": 0.7639157845866453,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Giants Creator"
+        "font_face": "Arial",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Unarmed Annoyed",
+        "theme_topic": "Guitar Wilderness",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1085,
-        "w": 5.8202,
-        "x": 0.5731,
-        "y": 0.3495
+        "h": 1.0555,
+        "w": 2.9991,
+        "x": 0.7989,
+        "y": 0.7883
       },
       "id": "object_003",
       "properties": {
@@ -116,16 +117,16 @@
         "bold": true,
         "color": [
           28,
-          30,
-          36
+          28,
+          28
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
+        "font_face": "Arial",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Certain Unwritten Doctor Needless",
-        "theme_topic": "Giants Creator",
+        "text": "Ban Silly",
+        "theme_topic": "Guitar Wilderness",
         "underline": false
       },
       "type": "text",
@@ -133,28 +134,28 @@
     },
     {
       "bbox": {
-        "h": 0.4457,
-        "w": 0.9979,
-        "x": 7.2319,
-        "y": 2.7658
+        "h": 4.7309,
+        "w": 3.0261,
+        "x": 0.8099,
+        "y": 2.0475
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          115,
+          115,
+          115
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Prepare Sticky",
-        "theme_topic": "Giants Creator",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "futuristic minister caring bell nasty bore damaged stare friendly flowery perfect spoon distinct elated guarantee weak polite ladybug desert strong needy",
+        "theme_topic": "Guitar Wilderness",
         "underline": false
       },
       "type": "text",
@@ -162,70 +163,73 @@
     },
     {
       "bbox": {
-        "h": 0.3877,
-        "w": 0.9939,
-        "x": 7.2168,
-        "y": 3.2885
+        "h": 3.1846,
+        "w": 4.4324,
+        "x": 4.4382,
+        "y": 0.6523
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          52,
-          70,
-          108
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "channel super slippery impartial books rejoice",
-        "theme_topic": "Giants Creator",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.0291,
-        "w": 1.9523,
-        "x": 8.7115,
-        "y": 1.8309
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          118,
-          146,
-          208
+          239,
+          239,
+          235
         ],
         "line": [
-          118,
-          146,
-          208
+          239,
+          239,
+          235
         ],
-        "line_width": 3.226547828309555,
+        "line_width": 1.4922830557891942,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Giants Creator"
+        "theme_topic": "Guitar Wilderness"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.5132,
+        "w": 0.5852,
+        "x": 4.6288,
+        "y": 0.8809
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "ribbons",
+        "fill": [
+          38,
+          132,
+          88
+        ],
+        "focus": false,
+        "line": [
+          38,
+          132,
+          88
+        ],
+        "line_width": 6.955314144423447,
+        "outline_only": false,
+        "ppt_type": 97,
+        "shape": "up_ribbon",
+        "theme_topic": "Guitar Wilderness"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4299,
-        "w": 1.4549,
-        "x": 8.931,
-        "y": 2.7506
+        "h": 0.4432,
+        "w": 3.9186,
+        "x": 4.6876,
+        "y": 1.5719
       },
       "id": "object_007",
       "properties": {
@@ -233,17 +237,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          38,
+          132,
+          88
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Flippant Self",
-        "theme_topic": "Giants Creator",
+        "text": "Anxious Ritzy",
+        "theme_topic": "Guitar Wilderness",
         "underline": false
       },
       "type": "text",
@@ -251,10 +255,10 @@
     },
     {
       "bbox": {
-        "h": 0.3628,
-        "w": 1.4566,
-        "x": 8.9634,
-        "y": 3.2878
+        "h": 1.5288,
+        "w": 3.9148,
+        "x": 4.6769,
+        "y": 2.0949
       },
       "id": "object_008",
       "properties": {
@@ -262,17 +266,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          52,
-          70,
-          108
+          115,
+          115,
+          115
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "fog suppose bell order petite shut wall hammer woman",
-        "theme_topic": "Giants Creator",
+        "text": "nail truthful calculate car fork laugh rambunctious hanging flaky hang ducks property forgetful",
+        "theme_topic": "Guitar Wilderness",
         "underline": false
       },
       "type": "text",
@@ -280,88 +284,91 @@
     },
     {
       "bbox": {
-        "h": 2.0053,
-        "w": 1.8999,
-        "x": 10.8685,
-        "y": 1.8389
+        "h": 2.8379,
+        "w": 4.4224,
+        "x": 4.4217,
+        "y": 4.0617
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          118,
-          146,
-          208
+          239,
+          239,
+          235
         ],
         "line": [
-          118,
-          146,
-          208
+          239,
+          239,
+          235
         ],
-        "line_width": 1.2195901683948462,
+        "line_width": 0.7848505268533083,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Giants Creator"
+        "theme_topic": "Guitar Wilderness"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.453,
-        "w": 1.4228,
-        "x": 11.1098,
-        "y": 2.7368
+        "h": 0.5224,
+        "w": 0.576,
+        "x": 4.6331,
+        "y": 4.2534
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          180,
+          70,
+          53
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Stomach",
-        "theme_topic": "Giants Creator",
-        "underline": false
+        "focus": false,
+        "line": [
+          38,
+          132,
+          88
+        ],
+        "line_width": 3.33963286838823,
+        "outline_only": false,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Guitar Wilderness"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.371,
-        "w": 1.4303,
-        "x": 11.114,
-        "y": 3.2901
+        "h": 0.4361,
+        "w": 3.953,
+        "x": 4.667,
+        "y": 4.9355
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          52,
-          70,
-          108
+          38,
+          132,
+          88
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "marked rightful lopsided capricious remember screeching",
-        "theme_topic": "Giants Creator",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Kind Keen",
+        "theme_topic": "Guitar Wilderness",
         "underline": false
       },
       "type": "text",
@@ -369,28 +376,28 @@
     },
     {
       "bbox": {
-        "h": 0.9598,
-        "w": 5.5086,
-        "x": 7.1206,
-        "y": 4.3166
+        "h": 1.2123,
+        "w": 3.9234,
+        "x": 4.6761,
+        "y": 5.5186
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          28,
-          30,
-          36
+          115,
+          115,
+          115
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
+        "font_face": "Arial",
+        "font_size": 15,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Dirt Plant",
-        "theme_topic": "Giants Creator",
+        "text": "fear red zonked planes uttermost snails shame vase breezy",
+        "theme_topic": "Guitar Wilderness",
         "underline": false
       },
       "type": "text",
@@ -398,10 +405,10 @@
     },
     {
       "bbox": {
-        "h": 1.3214,
-        "w": 5.5289,
-        "x": 7.1338,
-        "y": 5.5344
+        "h": 0.5185,
+        "w": 0.6656,
+        "x": 5.2168,
+        "y": 4.509
       },
       "id": "object_013",
       "properties": {
@@ -409,17 +416,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          52,
-          70,
-          108
+          62,
+          65,
+          73
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": true,
         "kind": "body",
         "margin": 0.04,
-        "text": "thankful loaf cherries vest swift peel eggnog pumped bulb lyrical unwieldy empty improve great alleged tail twig injure macabre fax sable strong",
-        "theme_topic": "Giants Creator",
+        "text": "reduce lively defeated wave marked",
+        "theme_topic": "Guitar Wilderness",
         "underline": false
       },
       "type": "text",
@@ -427,59 +434,60 @@
     },
     {
       "bbox": {
-        "h": 2.374,
-        "w": 5.9157,
-        "x": 0.5606,
-        "y": 1.8481
+        "h": 0.7132,
+        "w": 0.2,
+        "x": 10.2244,
+        "y": 3.7791
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 7,
+        "family": "arrows",
         "fill": [
-          118,
-          146,
-          208
+          163,
+          162,
+          62
         ],
+        "focus": false,
         "line": [
-          118,
-          146,
-          208
+          51,
+          139,
+          127
         ],
-        "line_width": 1.6902035043051886,
+        "line_width": 3.281058491235893,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Giants Creator"
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Guitar Wilderness"
       },
       "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.4568,
-        "w": 5.4319,
-        "x": 0.8172,
-        "y": 2.7295
+        "h": 0.3569,
+        "w": 1.2802,
+        "x": 4.6859,
+        "y": 2.8814
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          47,
+          138,
+          155
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 17,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Symptomatic",
-        "theme_topic": "Giants Creator",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "somber jog",
+        "theme_topic": "Guitar Wilderness",
         "underline": false
       },
       "type": "text",
@@ -487,117 +495,128 @@
     },
     {
       "bbox": {
-        "h": 0.7581,
-        "w": 5.4268,
-        "x": 0.7979,
-        "y": 3.2785
+        "h": 1.1,
+        "w": 0.8163,
+        "x": 11.2059,
+        "y": 1.2043
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          52,
-          70,
-          108
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          120,
+          129,
+          35
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "known bone kindhearted scare snow wrap truck befitting squeal wary system",
-        "theme_topic": "Giants Creator",
-        "underline": false
+        "focus": false,
+        "line": [
+          156,
+          156,
+          216
+        ],
+        "line_width": 4.896281102764128,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Guitar Wilderness"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 2.5752,
-        "w": 5.9253,
-        "x": 0.565,
-        "y": 4.4378
+        "h": 0.4586,
+        "w": 0.8241,
+        "x": 9.2339,
+        "y": 0.6134
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          118,
-          146,
-          208
+          131,
+          152,
+          76
         ],
+        "focus": false,
         "line": [
-          118,
-          146,
-          208
+          98,
+          115,
+          154
         ],
-        "line_width": 2.2502118467232544,
+        "line_width": 5.762268129080502,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Giants Creator"
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Guitar Wilderness"
       },
       "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.4526,
-        "w": 5.4094,
-        "x": 0.7849,
-        "y": 5.3493
+        "h": 0.8812,
+        "w": 1.3491,
+        "x": 2.2347,
+        "y": 4.4937
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          149,
+          126,
+          60
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Unlock Flock",
-        "theme_topic": "Giants Creator",
-        "underline": false
+        "focus": false,
+        "line": [
+          112,
+          186,
+          78
+        ],
+        "line_width": 2.250597033432678,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Guitar Wilderness"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.8959,
-        "w": 5.4347,
-        "x": 0.7934,
-        "y": 5.8718
+        "h": 0.2503,
+        "w": 1.5707,
+        "x": 8.7558,
+        "y": 2.215
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          211,
+          26,
+          30
+        ],
         "bold": false,
         "color": [
-          52,
-          70,
-          108
+          137,
+          156,
+          119
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "mend aloof push second-hand hypnotic want cemetery abnormal ruin dislike door flash",
-        "theme_topic": "Giants Creator",
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Hesitant Industry",
+        "theme_topic": "Guitar Wilderness",
         "underline": false
       },
       "type": "text",

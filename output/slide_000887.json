@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          175,
-          159,
-          171
-        ],
-        [
-          198,
-          101,
-          128
-        ]
+      "back_color": [
+        30,
+        159,
+        215
       ],
       "fill": [
-        225,
-        204,
-        220
+        216,
+        220,
+        124
       ],
-      "focus": "top_left",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Fluffy Uppity"
+      "fore_color": [
+        36,
+        178,
+        149
+      ],
+      "pattern": 6,
+      "style": "pattern",
+      "theme_topic": "Pretty Straight"
     },
     "type": "background",
     "z_order": 0
@@ -45,75 +41,108 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.4772,
-        "w": 3.771,
-        "x": 8.0994,
-        "y": 0.6075
+        "h": 3.9871,
+        "w": 3.5074,
+        "x": 1.7176,
+        "y": 2.0867
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 2,
         "family": "arrows",
         "fill": [
-          103,
-          134,
-          224
+          152,
+          152,
+          181
         ],
         "focus": false,
         "line": [
-          65,
-          45,
-          124
+          194,
+          187,
+          220
         ],
-        "line_width": 2.680575694879894,
+        "line_width": 6.6357712305996905,
         "outline_only": false,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Fluffy Uppity"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Pretty Straight"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.561,
-        "w": 6.0018,
-        "x": 7.3199,
-        "y": 3.918
+        "h": 3.5417,
+        "w": 4.4497,
+        "x": -1.0138,
+        "y": 0.2524
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 4,
+        "family": "arrows",
         "fill": [
-          175,
-          159,
-          171
+          119,
+          125,
+          170
         ],
+        "focus": false,
         "line": [
-          175,
-          159,
-          171
+          193,
+          79,
+          148
         ],
-        "line_width": 5.237253285624634,
+        "line_width": 3.5892888869751025,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Fluffy Uppity"
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Pretty Straight"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1508,
-        "w": 6.0845,
-        "x": 0.5695,
-        "y": 0.3704
+        "h": 4.1402,
+        "w": 3.1428,
+        "x": -0.8416,
+        "y": 1.4011
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "callouts",
+        "fill": [
+          191,
+          81,
+          134
+        ],
+        "focus": false,
+        "line": [
+          51,
+          186,
+          113
+        ],
+        "line_width": 2.557793721914739,
+        "outline_only": true,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Pretty Straight"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 5.5384,
+        "w": 2.862,
+        "x": 0.6748,
+        "y": 0.726
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -123,87 +152,53 @@
           30,
           36
         ],
-        "font_face": "Georgia",
-        "font_size": 37,
+        "font_face": "Trebuchet MS",
+        "font_size": 19,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hug Interest",
-        "theme_topic": "Fluffy Uppity",
+        "text": "Dangerous",
+        "theme_topic": "Pretty Straight",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.5278,
-        "w": 2.1622,
-        "x": 7.0899,
-        "y": 4.4831
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          175,
-          159,
-          171
-        ],
-        "line": [
-          175,
-          159,
-          171
-        ],
-        "line_width": 4.557348007546423,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Fluffy Uppity"
-      },
-      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.5345,
-        "w": 0.5789,
-        "x": 7.294,
-        "y": 4.7226
+        "h": 0.2692,
+        "w": 8.6906,
+        "x": 3.8853,
+        "y": 0.7604
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          48,
-          78,
-          140
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
         ],
-        "focus": false,
-        "line": [
-          225,
-          229,
-          59
-        ],
-        "line_width": 6.126758493093752,
-        "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Fluffy Uppity"
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "STORY STONE",
+        "theme_topic": "Pretty Straight",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.4547,
-        "w": 1.6618,
-        "x": 7.3638,
-        "y": 5.3791
+        "h": 0.5503,
+        "w": 8.6769,
+        "x": 3.8788,
+        "y": 1.2663
       },
       "id": "object_006",
       "properties": {
@@ -211,17 +206,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          160,
+          129,
+          88
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Sour Deep",
-        "theme_topic": "Fluffy Uppity",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Therapeutic Obeisant",
+        "theme_topic": "Pretty Straight",
         "underline": false
       },
       "type": "text",
@@ -229,10 +224,10 @@
     },
     {
       "bbox": {
-        "h": 0.8483,
-        "w": 1.6602,
-        "x": 7.3373,
-        "y": 5.9429
+        "h": 0.6236,
+        "w": 8.7071,
+        "x": 3.9076,
+        "y": 2.0522
       },
       "id": "object_007",
       "properties": {
@@ -240,17 +235,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          116,
-          108,
-          118
+          112,
+          115,
+          75
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "calculating flavor insect remain flaky bouncy bike blue-eyed authority children",
-        "theme_topic": "Fluffy Uppity",
+        "text": "reflective feeble thankful impartial church metal disagreeable lopsided standing violet complain repeat feigned gather rebel tearful spooky apparatus correct hope",
+        "theme_topic": "Pretty Straight",
         "underline": false
       },
       "type": "text",
@@ -258,91 +253,88 @@
     },
     {
       "bbox": {
-        "h": 2.5224,
-        "w": 1.6547,
-        "x": 9.4691,
-        "y": 4.5021
+        "h": 0.6125,
+        "w": 2.5217,
+        "x": 3.8029,
+        "y": 4.1893
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          175,
-          159,
-          171
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          175,
-          159,
-          171
-        ],
-        "line_width": 1.923637581397223,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Fluffy Uppity"
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "borrow incandescent fancy pocket melodic butter",
+        "theme_topic": "Pretty Straight",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.5506,
-        "w": 0.5797,
-        "x": 9.68,
-        "y": 4.6868
+        "h": 0.6036,
+        "w": 0.6257,
+        "x": 7.8133,
+        "y": 3.7753
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "symbols",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          255,
-          238,
-          103
+          82,
+          96,
+          214
         ],
-        "focus": false,
         "line": [
-          91,
-          110,
-          32
+          179,
+          182,
+          102
         ],
-        "line_width": 6.999771939495659,
+        "line_width": 2.197477325276825,
         "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Fluffy Uppity"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Pretty Straight"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4615,
-        "w": 1.1621,
-        "x": 9.7457,
-        "y": 5.3832
+        "h": 0.6552,
+        "w": 3.2353,
+        "x": 6.6452,
+        "y": 4.1573
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          238,
-          103
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Verdana",
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Friends Twist",
-        "theme_topic": "Fluffy Uppity",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ambitious scissors judge",
+        "theme_topic": "Pretty Straight",
         "underline": false
       },
       "type": "text",
@@ -350,120 +342,117 @@
     },
     {
       "bbox": {
-        "h": 0.8651,
-        "w": 1.146,
-        "x": 9.7384,
-        "y": 5.9259
+        "h": 0.6156,
+        "w": 0.6082,
+        "x": 11.2318,
+        "y": 3.5837
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          116,
-          108,
-          118
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wink serious rampant regret tremendous fall fireman motionless vacation adorable wrap trade dogs",
-        "theme_topic": "Fluffy Uppity",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 2.5107,
-        "w": 1.4333,
-        "x": 11.3384,
-        "y": 4.4902
-      },
-      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          175,
-          159,
-          171
+          82,
+          96,
+          214
         ],
         "line": [
-          175,
-          159,
-          171
+          179,
+          182,
+          102
         ],
-        "line_width": 3.896374545241193,
+        "line_width": 0.8905411262822089,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Fluffy Uppity"
+        "theme_topic": "Pretty Straight"
       },
       "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.6522,
+        "w": 2.4957,
+        "x": 10.2194,
+        "y": 4.1723
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Verdana",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "yellow calendar ripe egg waiting",
+        "theme_topic": "Pretty Straight",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.5706,
-        "w": 0.5878,
-        "x": 11.5332,
-        "y": 4.7299
+        "h": 0.7664,
+        "w": 1.7387,
+        "x": 3.9464,
+        "y": 5.4149
       },
       "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          175,
-          159,
-          171
-        ],
-        "focus": false,
-        "line": [
-          129,
-          107,
-          115
-        ],
-        "line_width": 3.714951395566414,
-        "outline_only": false,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Fluffy Uppity"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.4629,
-        "w": 0.9543,
-        "x": 11.6044,
-        "y": 5.4049
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Trebuchet MS",
+        "font_size": 37,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Rescue",
-        "theme_topic": "Fluffy Uppity",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "14",
+        "theme_topic": "Pretty Straight",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.6482,
+        "w": 1.7353,
+        "x": 3.9253,
+        "y": 6.1931
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          112,
+          115,
+          75
+        ],
+        "font_face": "Verdana",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "soda riddle pan visitor spot windy",
+        "theme_topic": "Pretty Straight",
         "underline": false
       },
       "type": "text",
@@ -471,28 +460,28 @@
     },
     {
       "bbox": {
-        "h": 0.8638,
-        "w": 0.9416,
-        "x": 11.5755,
-        "y": 5.944
+        "h": 0.7364,
+        "w": 2.111,
+        "x": 6.1857,
+        "y": 5.4251
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          116,
-          108,
-          118
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Trebuchet MS",
+        "font_size": 24,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "rake hammer creepy undress deceive smart sassy punish tease lying ray numerous",
-        "theme_topic": "Fluffy Uppity",
+        "text": "2.1x",
+        "theme_topic": "Pretty Straight",
         "underline": false
       },
       "type": "text",
@@ -500,93 +489,86 @@
     },
     {
       "bbox": {
-        "h": 5.1841,
-        "w": 6.1236,
-        "x": 0.5462,
-        "y": 1.8238
+        "h": 0.653,
+        "w": 2.1248,
+        "x": 6.1802,
+        "y": 6.1827
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.17678110762020202,
-          0.11794143424494301,
-          0.1251391312269803,
-          0.00020771843497148113
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          112,
+          115,
+          75
         ],
-        "focus": true,
-        "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Fluffy Uppity",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "moon box quixotic rhetorical change hideous",
+        "theme_topic": "Pretty Straight",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.4143,
-        "w": 1.1392,
-        "x": 1.6366,
-        "y": 3.7538
+        "h": 0.7495,
+        "w": 1.611,
+        "x": 8.822,
+        "y": 5.4081
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
-        "fill": [
-          187,
-          206,
-          52
-        ],
-        "focus": false,
-        "line": [
-          220,
-          80,
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
           214
         ],
-        "line_width": 5.343954600438227,
-        "outline_only": true,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Fluffy Uppity"
+        "font_face": "Trebuchet MS",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "125",
+        "theme_topic": "Pretty Straight",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.5469,
-        "w": 1.3035,
-        "x": 2.5095,
-        "y": 0.4282
+        "h": 0.6376,
+        "w": 1.6349,
+        "x": 8.8199,
+        "y": 6.1625
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          167,
-          226,
-          108
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          86,
-          92,
-          127
+          112,
+          115,
+          75
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Subsequent Greet",
-        "theme_topic": "Fluffy Uppity",
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "elegant gamy harass habitual pocket",
+        "theme_topic": "Pretty Straight",
         "underline": false
       },
       "type": "text",
@@ -594,157 +576,151 @@
     },
     {
       "bbox": {
-        "h": 0.7894,
-        "w": 0.5787,
-        "x": 11.0696,
-        "y": 5.3243
+        "h": 0.7257,
+        "w": 1.5561,
+        "x": 10.9957,
+        "y": 5.4336
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          104,
-          30,
-          122
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
         ],
-        "focus": false,
-        "line": [
-          28,
-          205,
-          112
-        ],
-        "line_width": 5.592853357135623,
-        "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Fluffy Uppity"
+        "font_face": "Trebuchet MS",
+        "font_size": 38,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "49%",
+        "theme_topic": "Pretty Straight",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.6068,
-        "w": 0.9103,
-        "x": 4.0812,
-        "y": 3.1384
+        "h": 0.6499,
+        "w": 1.5303,
+        "x": 10.9955,
+        "y": 6.1764
       },
       "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          150,
-          37,
-          41
-        ],
-        "focus": false,
-        "line": [
-          153,
-          122,
-          161
-        ],
-        "line_width": 5.651217804582374,
-        "outline_only": false,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Fluffy Uppity"
-      },
-      "type": "shape",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.4995,
-        "w": 1.7187,
-        "x": 11.4554,
-        "y": 4.041
-      },
-      "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          186,
-          59,
-          48
+          112,
+          115,
+          75
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "healthy",
-        "theme_topic": "Fluffy Uppity",
+        "text": "range stimulating trousers spill splendid crowded",
+        "theme_topic": "Pretty Straight",
         "underline": false
       },
       "type": "text",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 0.939,
+        "w": 1.3909,
+        "x": 9.7087,
+        "y": 0.5085
+      },
+      "id": "object_021",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "arrows",
+        "fill": [
+          58,
+          33,
+          158
+        ],
+        "focus": false,
+        "line": [
+          112,
+          49,
+          154
+        ],
+        "line_width": 1.643685634303356,
+        "outline_only": false,
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Pretty Straight"
+      },
+      "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.5603,
-        "w": 0.5788,
-        "x": 6.77,
-        "y": 0.5341
+        "h": 0.2552,
+        "w": 1.8208,
+        "x": 1.9655,
+        "y": 3.6047
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          145,
-          67,
-          216
-        ],
-        "focus": false,
-        "line": [
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          91,
           118,
-          55,
-          74
+          156
         ],
-        "line_width": 4.793065511519456,
-        "outline_only": true,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Fluffy Uppity"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Foregoing Ocean",
+        "theme_topic": "Pretty Straight",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.4337,
-        "w": 0.3783,
-        "x": 11.9753,
-        "y": 5.7745
+        "h": 0.4025,
+        "w": 0.9295,
+        "x": 2.0323,
+        "y": 6.1527
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
+        "dash": 5,
+        "family": "symbols",
         "fill": [
-          118,
-          155,
-          111
+          31,
+          56,
+          84
         ],
         "focus": false,
         "line": [
-          207,
-          182,
-          212
+          81,
+          197,
+          148
         ],
-        "line_width": 1.6335158159186522,
+        "line_width": 2.7396683390823378,
         "outline_only": false,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Fluffy Uppity"
+        "ppt_type": 19,
+        "shape": "no_symbol",
+        "theme_topic": "Pretty Straight"
       },
       "type": "shape",
       "z_order": 23

@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 180,
       "archetype": "atomic_composition",
-      "fill": [
-        51,
-        74,
-        100
+      "colors": [
+        [
+          119,
+          188,
+          146
+        ],
+        [
+          255,
+          238,
+          103
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Evasive Fretful"
+      "fill": [
+        169,
+        98,
+        43
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Bake Eggs"
     },
     "type": "background",
     "z_order": 0
@@ -30,89 +45,96 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.6525,
-        "w": 3.993,
-        "x": 3.9718,
-        "y": 0.6129
+        "h": 2.331,
+        "w": 7.2833,
+        "x": 3.8496,
+        "y": 2.6376
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 1,
+        "family": "ribbons",
         "fill": [
-          115,
-          64,
-          110
+          140,
+          94,
+          72
         ],
         "focus": false,
         "line": [
-          186,
-          57,
-          146
+          145,
+          41,
+          65
         ],
-        "line_width": 5.176685648719613,
+        "line_width": 2.1270439023747563,
         "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Evasive Fretful"
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Bake Eggs"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.1575,
-        "w": 6.4929,
-        "x": 2.7527,
-        "y": 0.6275
+        "h": 4.834,
+        "w": 8.124,
+        "x": 6.2623,
+        "y": 1.223
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 5,
+        "family": "arrows",
+        "fill": [
+          186,
+          111,
+          35
         ],
-        "font_face": "Arial",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Sand Delight Smell Subtract Boundless",
-        "theme_topic": "Evasive Fretful",
-        "underline": false
+        "focus": false,
+        "line": [
+          46,
+          119,
+          168
+        ],
+        "line_width": 2.2918294161072765,
+        "outline_only": false,
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Bake Eggs"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1273,
-        "w": 11.858,
-        "x": 0.7606,
-        "y": 5.0251
+        "h": 1.0299,
+        "w": 6.9302,
+        "x": 0.7187,
+        "y": 0.6627
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          126,
+          26,
+          221
+        ],
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          94,
+          29,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 31,
-        "italic": false,
+        "font_face": "Trebuchet MS",
+        "font_size": 46,
+        "italic": true,
         "kind": "header",
         "margin": 0.04,
-        "text": "Spiffy Store Unaccountable Fly Mundane Soak Statuesque",
-        "theme_topic": "Evasive Fretful",
+        "text": "Furniture",
+        "theme_topic": "Bake Eggs",
         "underline": false
       },
       "type": "text",
@@ -120,28 +142,28 @@
     },
     {
       "bbox": {
-        "h": 0.3441,
-        "w": 6.49,
-        "x": 0.7648,
-        "y": 6.361
+        "h": 4.8675,
+        "w": 6.8993,
+        "x": 0.694,
+        "y": 1.9934
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          211,
+          180,
+          157
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Verdana",
+        "font_size": 14,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "SWIFT",
-        "theme_topic": "Evasive Fretful",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "strap nasty envious spiffy boot mere attraction flagrant seashore bustling",
+        "theme_topic": "Bake Eggs",
         "underline": false
       },
       "type": "text",
@@ -149,61 +171,59 @@
     },
     {
       "bbox": {
-        "h": 2.4853,
-        "w": 12.2379,
-        "x": 0.5654,
-        "y": 2.0305
+        "h": 3.4704,
+        "w": 4.6534,
+        "x": 8.1523,
+        "y": 0.5615
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
         ],
-        "focus": true,
-        "mask_line": [
-          47,
-          62,
-          159
+        "line": [
+          199,
+          153,
+          118
         ],
-        "mask_overlay": false,
-        "theme_topic": "Evasive Fretful",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.015943381277491,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Bake Eggs"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.6231,
-        "w": 1.0682,
-        "x": 5.2764,
-        "y": 6.4112
+        "h": 1.1327,
+        "w": 4.2793,
+        "x": 8.308,
+        "y": 1.2282
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          225,
-          182,
-          111
-        ],
-        "bold": false,
+        "bg_color": null,
+        "bold": true,
         "color": [
-          158,
-          199,
-          145
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 5,
+        "font_face": "Trebuchet MS",
+        "font_size": 46,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "boot",
-        "theme_topic": "Evasive Fretful",
+        "text": "6x",
+        "theme_topic": "Bake Eggs",
         "underline": false
       },
       "type": "text",
@@ -211,10 +231,10 @@
     },
     {
       "bbox": {
-        "h": 0.5949,
-        "w": 1.6185,
-        "x": 11.5576,
-        "y": 0.9382
+        "h": 0.6949,
+        "w": 4.2647,
+        "x": 8.3461,
+        "y": 2.6706
       },
       "id": "object_007",
       "properties": {
@@ -222,75 +242,75 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          178,
-          228,
-          30
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Baseball Ultra Desk",
-        "theme_topic": "Evasive Fretful",
-        "underline": true
+        "kind": "body",
+        "margin": 0.04,
+        "text": "north exclusive obtain letters prickly",
+        "theme_topic": "Bake Eggs",
+        "underline": false
       },
       "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.1095,
-        "w": 1.9209,
-        "x": 4.4366,
-        "y": 4.6532
+        "h": 1.1264,
+        "w": 2.1144,
+        "x": 8.832,
+        "y": 4.9196
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "color": [
-          118,
-          32,
-          193
+          80,
+          208,
+          41
         ],
         "connector": "straight",
         "dash": 1,
         "flip": false,
         "ppt_type": 1,
-        "theme_topic": "Evasive Fretful",
-        "width": 0.46269331568018834
+        "theme_topic": "Bake Eggs",
+        "width": 0.30929654052971634
       },
       "type": "connector",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.9858,
-        "w": 0.6453,
-        "x": 9.9255,
-        "y": 3.9299
+        "h": 0.4369,
+        "w": 0.6087,
+        "x": 1.8166,
+        "y": 0.3874
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "flowchart",
         "fill": [
-          195,
+          36,
           86,
-          105
+          196
         ],
         "focus": false,
         "line": [
-          128,
-          39,
-          166
+          68,
+          27,
+          38
         ],
-        "line_width": 1.9954006150569545,
+        "line_width": 1.46534363234577,
         "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Evasive Fretful"
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Bake Eggs"
       },
       "type": "shape",
       "z_order": 9

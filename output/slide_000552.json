@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          153,
-          184,
-          103
-        ],
-        [
-          174,
-          73,
-          92
-        ]
+      "back_color": [
+        122,
+        104,
+        139
       ],
       "fill": [
-        106,
-        152,
-        33
+        60,
+        33,
+        85
       ],
-      "focus": "bottom_right",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Spoil"
+      "fore_color": [
+        63,
+        205,
+        157
+      ],
+      "pattern": 26,
+      "style": "pattern",
+      "theme_topic": "Border"
     },
     "type": "background",
     "z_order": 0
@@ -45,74 +41,73 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.795,
-        "w": 4.4349,
-        "x": 0.5223,
-        "y": 5.0664
+        "h": 2.3032,
+        "w": 5.8101,
+        "x": 1.0319,
+        "y": 1.4174
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 3,
+        "family": "symbols",
         "fill": [
-          146,
-          179,
-          128
+          126,
+          144,
+          94
         ],
         "focus": false,
         "line": [
-          146,
-          42,
-          36
+          230,
+          229,
+          28
         ],
-        "line_width": 2.6332694870614715,
+        "line_width": 5.834198453957462,
         "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Spoil"
+        "ppt_type": 24,
+        "shape": "moon",
+        "theme_topic": "Border"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9052,
-        "w": 3.301,
-        "x": 4.2217,
-        "y": 2.7897
+        "h": 7.5192,
+        "w": 0.7373,
+        "x": 0.0075,
+        "y": 0.0067
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          94,
-          163,
-          174
+          122,
+          104,
+          139
         ],
-        "focus": false,
         "line": [
-          55,
-          64,
-          112
+          122,
+          104,
+          139
         ],
-        "line_width": 3.559249278062372,
+        "line_width": 0.8154422194172695,
         "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Spoil"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Border"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.2997,
-        "w": 6.9722,
-        "x": 0.5427,
-        "y": 0.3435
+        "h": 0.8906,
+        "w": 5.9117,
+        "x": 5.8007,
+        "y": 0.7327
       },
       "id": "object_003",
       "properties": {
@@ -124,13 +119,13 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 42,
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Rot Last",
-        "theme_topic": "Spoil",
+        "text": "Joke Throne Fire Annoying",
+        "theme_topic": "Border",
         "underline": false
       },
       "type": "text",
@@ -138,211 +133,217 @@
     },
     {
       "bbox": {
-        "h": 5.1739,
-        "w": 6.7814,
-        "x": 0.5283,
-        "y": 1.8458
+        "h": 0.4466,
+        "w": 0.4291,
+        "x": 3.9017,
+        "y": 6.3159
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.19915480708949715,
-          0.04137510497112033,
-          0.10660283330287078,
-          0.12341800399855739
-        ],
-        "focus": true,
-        "mask_line": [
-          57,
-          206,
-          77
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Spoil",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.439,
-        "w": 2.367,
-        "x": 7.8477,
-        "y": 1.883
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": false,
-        "line": [
-          174,
-          73,
-          92
-        ],
-        "line_width": 13,
-        "theme_topic": "Spoil"
-      },
-      "type": "svg_image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.2601,
-        "w": 1.9925,
-        "x": 8.0298,
-        "y": 3.906
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Ghost Damp Channel",
-        "theme_topic": "Spoil",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 2.4454,
-        "w": 2.3577,
-        "x": 10.3608,
-        "y": 1.9072
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          153,
-          184,
-          103
-        ],
-        "line": [
-          153,
-          184,
-          103
-        ],
-        "line_width": 4.699998628784779,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Spoil"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 2.1302,
-        "w": 2.0546,
-        "x": 10.486,
-        "y": 2.0355
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1936530775778366,
-          0.11686801024642728,
-          0.05304861044099412,
-          0.08100290541925916
-        ],
-        "focus": false,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Spoil",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 2.4488,
-        "w": 2.3803,
-        "x": 7.8316,
-        "y": 4.4876
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          153,
-          184,
-          103
+          32,
+          119,
+          149
         ],
         "line": [
-          153,
-          184,
-          103
+          122,
+          104,
+          139
         ],
-        "line_width": 0.8849373005507596,
+        "line_width": 1.9003197492498163,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Spoil"
+        "theme_topic": "Border"
       },
       "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.4357,
+        "w": 1.2727,
+        "x": 3.3119,
+        "y": 6.5019
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "add title absent back",
+        "theme_topic": "Border",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.4238,
+        "w": 0.4151,
+        "x": 5.3433,
+        "y": 6.2956
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          32,
+          119,
+          149
+        ],
+        "line": [
+          122,
+          104,
+          139
+        ],
+        "line_width": 0.7078022338194907,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Border"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.4168,
+        "w": 1.5406,
+        "x": 4.8693,
+        "y": 6.4995
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "expensive fold silly scintillating mindless",
+        "theme_topic": "Border",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.4073,
+        "w": 1.7786,
+        "x": 6.7257,
+        "y": 6.4731
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "descriptive writer analyze stamp exclusive ashamed oceanic",
+        "theme_topic": "Border",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.4183,
+        "w": 1.224,
+        "x": 8.8013,
+        "y": 6.4915
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "abandoned real heartbreaking",
+        "theme_topic": "Border",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 2.1698,
-        "w": 2.068,
-        "x": 7.9713,
-        "y": 4.6635
+        "h": 1.0724,
+        "w": 1.9196,
+        "x": 0.6769,
+        "y": 1.5883
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.09853502355806235,
-          0.17414639573940327,
-          0.20177529314822262,
-          0.20165753471623526
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Spoil",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Trebuchet MS",
+        "font_size": 20,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Hilarious Curvy Shave Rate",
+        "theme_topic": "Border",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5328,
-        "w": 1.8396,
-        "x": 5.3868,
-        "y": 5.102
+        "h": 3.9919,
+        "w": 1.9206,
+        "x": 0.7031,
+        "y": 2.8772
       },
       "id": "object_011",
       "properties": {
@@ -350,17 +351,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          86,
-          133,
-          227
+          162,
+          151,
+          176
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": true,
+        "font_face": "Verdana",
+        "font_size": 15,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "loose one look",
-        "theme_topic": "Spoil",
+        "text": "sense spiky steel scarecrow north ray airplane judge fuel representative color things rainstorm berserk pour apparel dinner boundary violet found ambitious",
+        "theme_topic": "Border",
         "underline": false
       },
       "type": "text",
@@ -368,89 +369,98 @@
     },
     {
       "bbox": {
-        "h": 0.5305,
-        "w": 0.6209,
-        "x": 2.5942,
-        "y": 0.6
+        "h": 0.7769,
+        "w": 0.7737,
+        "x": 4.2549,
+        "y": 2.7795
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          179,
+        "dash": 1,
+        "family": "basic",
+        "fill": [
           111,
-          209
+          132,
+          188
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "stay easy cheat crayon",
-        "theme_topic": "Spoil",
-        "underline": false
+        "focus": false,
+        "line": [
+          39,
+          25,
+          31
+        ],
+        "line_width": 2.2865023650700342,
+        "outline_only": true,
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Border"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.5188,
-        "w": 2.1917,
-        "x": 2.2118,
-        "y": 5.3129
+        "h": 1.1259,
+        "w": 1.1572,
+        "x": 3.8959,
+        "y": 4.3871
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          176,
-          43,
-          39
+        "dash": 5,
+        "family": "arrows",
+        "fill": [
+          168,
+          54,
+          94
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Nimble",
-        "theme_topic": "Spoil",
-        "underline": false
+        "focus": false,
+        "line": [
+          108,
+          194,
+          113
+        ],
+        "line_width": 2.1830465317554903,
+        "outline_only": false,
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Border"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.4913,
-        "w": 1.0462,
-        "x": 5.2459,
-        "y": 0.3197
+        "h": 0.9876,
+        "w": 1.5621,
+        "x": 0.3789,
+        "y": 5.6284
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          166,
-          160
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          125,
+          50,
+          218
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "rake sisters boil adorable zesty",
-        "theme_topic": "Spoil",
-        "underline": false
+        "focus": false,
+        "line": [
+          185,
+          224,
+          188
+        ],
+        "line_width": 2.3550146065795734,
+        "outline_only": true,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Border"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     }
   ],

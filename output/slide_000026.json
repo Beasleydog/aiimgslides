@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "fill": [
-        245,
-        247,
-        252
+      "colors": [
+        [
+          224,
+          48,
+          139
+        ],
+        [
+          170,
+          40,
+          173
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Recognise"
+      "fill": [
+        210,
+        72,
+        94
+      ],
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Minister"
     },
     "type": "background",
     "z_order": 0
@@ -30,33 +45,25 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.5133,
-        "w": 6.3671,
-        "x": 0.5374,
-        "y": 1.8546
+        "h": 2.5137,
+        "w": 3.9351,
+        "x": 0.5816,
+        "y": 1.9798
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          188,
-          39,
-          57
-        ],
+        "clip": "blob",
+        "focus": true,
         "line": [
-          232,
-          237,
-          247
+          51,
+          63,
+          101
         ],
-        "line_width": 1.724188320276141,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Recognise"
+        "line_width": 8,
+        "theme_topic": "Minister"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 1
     }
   ],

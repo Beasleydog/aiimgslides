@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        170,
-        125,
-        201
-      ],
       "fill": [
         126,
         58,
         173
       ],
-      "fore_color": [
-        96,
-        165,
-        250
-      ],
-      "pattern": 17,
-      "style": "pattern",
-      "theme_topic": "Breath"
+      "style": "solid",
+      "theme_topic": "Venomous Material"
     },
     "type": "background",
     "z_order": 0
@@ -41,107 +30,139 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.0956,
-        "w": 3.163,
-        "x": 10.9932,
-        "y": 0.6857
+        "h": 4.6342,
+        "w": 3.332,
+        "x": 0.3695,
+        "y": 3.4505
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          55,
-          139,
-          48
+          104,
+          141,
+          99
         ],
         "focus": false,
         "line": [
-          213,
-          99,
-          212
+          216,
+          179,
+          104
         ],
-        "line_width": 4.364145227118857,
-        "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Breath"
+        "line_width": 4.337845078781856,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Venomous Material"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.1625,
-        "w": 7.347,
-        "x": 2.525,
-        "y": 3.0073
+        "h": 1.7411,
+        "w": 7.7626,
+        "x": -0.2161,
+        "y": 6.253
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 5,
         "family": "math",
         "fill": [
-          134,
-          141,
-          194
+          84,
+          88,
+          219
         ],
         "focus": false,
         "line": [
-          187,
-          67,
-          175
+          87,
+          195,
+          224
         ],
-        "line_width": 3.3530207498647355,
+        "line_width": 5.466619939130382,
         "outline_only": false,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Breath"
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Venomous Material"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.5568,
-        "w": 6.6988,
-        "x": 2.0518,
-        "y": 1.3078
+        "h": 2.9605,
+        "w": 7.8906,
+        "x": -0.5592,
+        "y": 1.4336
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          154,
-          101,
-          191
+          201,
+          180,
+          163
         ],
+        "focus": false,
         "line": [
-          170,
-          125,
-          201
+          73,
+          167,
+          182
         ],
-        "line_width": 2.0086609740091297,
+        "line_width": 3.8823979415334584,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Breath"
+        "ppt_type": 14,
+        "shape": "cube",
+        "theme_topic": "Venomous Material"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.2337,
-        "w": 8.1884,
-        "x": 0.5431,
-        "y": 0.3422
+        "h": 4.1658,
+        "w": 8.1957,
+        "x": 0.5474,
+        "y": 1.2398
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          155,
+          102,
+          191
+        ],
+        "line": [
+          171,
+          127,
+          202
+        ],
+        "line_width": 1.3954821640056796,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Venomous Material"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.0795,
+        "w": 6.4902,
+        "x": 0.5636,
+        "y": 0.3634
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -151,266 +172,189 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 39,
+        "font_face": "Arial",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Punishment Delicate Bustling",
-        "theme_topic": "Breath",
+        "text": "Observe Entertain Tender",
+        "theme_topic": "Venomous Material",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.1603,
-        "w": 6.5739,
-        "x": 6.2402,
-        "y": 1.8407
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.30617301308334877,
-          0.15082240577808603,
-          0.12546175284387504,
-          0.23274481599625638
-        ],
-        "focus": true,
-        "mask_line": [
-          96,
-          165,
-          250
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Breath",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.2919,
-        "w": 6.1625,
-        "x": 6.4407,
-        "y": 6.5533
+        "h": 2.3456,
+        "w": 3.9579,
+        "x": 0.5771,
+        "y": 4.6307
       },
       "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.08458920503776982,
+          0.08808090578246354,
+          0.18272961458193376,
+          0.023780215807741322
+        ],
+        "focus": true,
+        "mask_line": [
+          161,
+          182,
+          224
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Venomous Material",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 2.3469,
+        "w": 3.9671,
+        "x": 4.7044,
+        "y": 4.601
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.012808835668932424,
+          0.10491658822767821,
+          0.17602374828995118,
+          0.3011265287381955
+        ],
+        "focus": true,
+        "mask_line": [
+          115,
+          199,
+          136
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Venomous Material",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 2.3609,
+        "w": 3.921,
+        "x": 8.7923,
+        "y": 4.6131
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          171,
+          127,
+          202
+        ],
+        "line": [
+          171,
+          127,
+          202
+        ],
+        "line_width": 5.039161298714227,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Venomous Material"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 2.0195,
+        "w": 3.6478,
+        "x": 8.9511,
+        "y": 4.7502
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.00044847071447373877,
+          0.0013306777808970538,
+          0.170590055062593,
+          0.19925714600744002
+        ],
+        "focus": false,
+        "mask_line": [
+          32,
+          119,
+          149
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Venomous Material",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.7873,
+        "w": 1.9034,
+        "x": 10.7423,
+        "y": 1.9719
+      },
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          183,
+          63,
+          133
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 22,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Squirrel Bulb Stupid",
-        "theme_topic": "Breath",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "General Snail",
+        "theme_topic": "Venomous Material",
         "underline": false
       },
       "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 2.4803,
-        "w": 5.3396,
-        "x": 0.5463,
-        "y": 1.8592
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          170,
-          125,
-          201
-        ],
-        "line": [
-          170,
-          125,
-          201
-        ],
-        "line_width": 3.7978278845817104,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Breath"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 1.952,
-        "w": 4.8619,
-        "x": 0.7815,
-        "y": 2.111
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "allow",
-          "drawer",
-          "admit"
-        ],
-        "chart": "line",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 65,
-        "series": [
-          {
-            "color": [
-              69,
-              218,
-              99
-            ],
-            "name": "decorate cool",
-            "values": [
-              71,
-              50,
-              64
-            ]
-          },
-          {
-            "color": [
-              35,
-              116,
-              53
-            ],
-            "name": "knock",
-            "values": [
-              57,
-              22,
-              26
-            ]
-          },
-          {
-            "color": [
-              158,
-              99,
-              77
-            ],
-            "name": "fretful",
-            "values": [
-              53,
-              12,
-              39
-            ]
-          }
-        ],
-        "theme_topic": "Breath",
-        "title": "copper subdued"
-      },
-      "type": "chart",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.686,
-        "w": 0.2973,
-        "x": 6.31,
-        "y": 3.3543
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          185,
-          195,
-          81
-        ],
-        "focus": false,
-        "line": [
-          165,
-          172,
-          204
-        ],
-        "line_width": 3.8570771928020244,
-        "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Breath"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.5274,
-        "w": 1.159,
-        "x": 12.0889,
-        "y": 4.4231
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          210,
-          192,
-          124
-        ],
-        "focus": false,
-        "line": [
-          195,
-          200,
-          137
-        ],
-        "line_width": 2.308599994007085,
-        "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Breath"
-      },
-      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.2951,
-        "w": 1.164,
-        "x": 3.7585,
-        "y": 3.3498
+        "h": 1.0639,
+        "w": 1.898,
+        "x": 10.7108,
+        "y": 3.0199
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          59,
-          189,
-          96
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          129,
-          30,
-          186
+          192,
+          162,
+          216
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "request abject basket",
-        "theme_topic": "Breath",
+        "text": "hang screw depend mix scarecrow shivering breezy old aspiring hard-to-find expensive burly unruly size",
+        "theme_topic": "Venomous Material",
         "underline": false
       },
       "type": "text",

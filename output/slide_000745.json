@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        252,
-        249,
-        244
+      "colors": [
+        [
+          136,
+          204,
+          138
+        ],
+        [
+          36,
+          178,
+          149
+        ]
       ],
       "fill": [
-        252,
-        249,
-        244
+        136,
+        204,
+        138
       ],
-      "fore_color": [
-        174,
-        73,
-        92
-      ],
-      "pattern": 41,
-      "style": "pattern",
-      "theme_topic": "Unequaled"
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Learned Bit"
     },
     "type": "background",
     "z_order": 0
@@ -41,149 +45,156 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.8602,
-        "w": 8.28,
-        "x": -0.5121,
-        "y": 3.3456
+        "h": 4.851,
+        "w": 6.2072,
+        "x": 3.4219,
+        "y": 1.0934
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 5,
+        "family": "flowchart",
         "fill": [
-          135,
-          178,
-          149
+          86,
+          162,
+          116
         ],
         "focus": false,
         "line": [
-          131,
-          49,
-          87
+          164,
+          110,
+          218
         ],
-        "line_width": 4.601671271988977,
+        "line_width": 4.371697949409244,
         "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Unequaled"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Learned Bit"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0688,
-        "w": 13.3267,
-        "x": -0.0158,
-        "y": -0.0001
+        "h": 3.952,
+        "w": 4.6286,
+        "x": 5.1089,
+        "y": 2.6023
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 7,
+        "family": "symbols",
         "fill": [
-          242,
-          233,
-          222
+          172,
+          126,
+          191
         ],
+        "focus": false,
         "line": [
-          242,
-          233,
-          222
+          74,
+          139,
+          76
         ],
-        "line_width": 5.134447544118831,
+        "line_width": 7.413933104849788,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Unequaled"
+        "ppt_type": 21,
+        "shape": "heart",
+        "theme_topic": "Learned Bit"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.0014,
-        "w": 7.9956,
-        "x": 0.5335,
-        "y": 0.3747
+        "h": 2.7213,
+        "w": 4.0744,
+        "x": 1.8047,
+        "y": 4.7958
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          36,
-          32,
-          29
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          167,
+          99,
+          175
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 39,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Pretend Seashore",
-        "theme_topic": "Unequaled",
-        "underline": false
+        "focus": false,
+        "line": [
+          145,
+          58,
+          102
+        ],
+        "line_width": 4.360500856513267,
+        "outline_only": false,
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Learned Bit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.7872,
-        "w": 11.9376,
-        "x": 0.7161,
-        "y": 1.9513
+        "h": 1.9685,
+        "w": 4.6617,
+        "x": 5.2452,
+        "y": 0.1168
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          36,
-          32,
-          29
+        "dash": 3,
+        "family": "math",
+        "fill": [
+          94,
+          95,
+          199
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 43,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Abundant Unfasten Circle Wall",
-        "theme_topic": "Unequaled",
-        "underline": false
+        "focus": false,
+        "line": [
+          91,
+          68,
+          160
+        ],
+        "line_width": 7.446092757752301,
+        "outline_only": true,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Learned Bit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.0902,
-        "w": 11.9212,
-        "x": 0.7073,
-        "y": 3.032
+        "h": 1.3493,
+        "w": 7.8877,
+        "x": 0.5508,
+        "y": 0.3547
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          123,
-          113,
-          103
+          28,
+          30,
+          36
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
+        "font_face": "Arial",
+        "font_size": 28,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "crowded aunt sky classy eggs swing expensive receptive force poke sun film noisy ill-informed slim rose hands gate angry nimble tire therapeutic",
-        "theme_topic": "Unequaled",
+        "text": "Butter Melodic Strap",
+        "theme_topic": "Learned Bit",
         "underline": false
       },
       "type": "text",
@@ -191,68 +202,73 @@
     },
     {
       "bbox": {
-        "h": 1.2504,
-        "w": 3.932,
-        "x": 0.7394,
-        "y": 4.7893
+        "h": 2.3138,
+        "w": 1.596,
+        "x": 4.2411,
+        "y": 1.8414
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          36,
-          32,
-          29
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          121,
+          182,
+          123
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Equal Weather Move Machine Juggle",
-        "theme_topic": "Unequaled",
-        "underline": false
+        "line": [
+          121,
+          182,
+          123
+        ],
+        "line_width": 4.796058422302343,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Learned Bit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.3579,
-        "w": 2.1524,
-        "x": 0.7396,
-        "y": 6.2163
+        "h": 0.5724,
+        "w": 0.5519,
+        "x": 4.4687,
+        "y": 2.0483
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          87,
+          185,
+          34
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "GOVERNOR",
-        "theme_topic": "Unequaled",
-        "underline": false
+        "focus": false,
+        "line": [
+          76,
+          108,
+          81
+        ],
+        "line_width": 1.7625907277440238,
+        "outline_only": false,
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Learned Bit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.8338,
-        "w": 3.4076,
-        "x": 5.3172,
-        "y": 4.7355
+        "h": 0.458,
+        "w": 1.1154,
+        "x": 4.4958,
+        "y": 2.7466
       },
       "id": "object_008",
       "properties": {
@@ -260,17 +276,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          36,
-          32,
-          29
+          82,
+          96,
+          214
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Animal",
-        "theme_topic": "Unequaled",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Gather",
+        "theme_topic": "Learned Bit",
         "underline": false
       },
       "type": "text",
@@ -278,10 +294,10 @@
     },
     {
       "bbox": {
-        "h": 1.0801,
-        "w": 3.3844,
-        "x": 5.3104,
-        "y": 5.7703
+        "h": 0.6328,
+        "w": 1.0804,
+        "x": 4.5063,
+        "y": 3.2872
       },
       "id": "object_009",
       "properties": {
@@ -289,17 +305,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          123,
-          113,
-          103
+          76,
+          108,
+          81
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "deranged lowly suit unite bird identify key guard scream paste rampant rambunctious spiders overt interest deserve bridge unable",
-        "theme_topic": "Unequaled",
+        "text": "sigh fetch smash callous place numerous snakes windy income stale",
+        "theme_topic": "Learned Bit",
         "underline": false
       },
       "type": "text",
@@ -307,68 +323,73 @@
     },
     {
       "bbox": {
-        "h": 0.4276,
-        "w": 0.5114,
-        "x": 9.4064,
-        "y": 5.5202
+        "h": 2.2943,
+        "w": 1.9764,
+        "x": 6.0656,
+        "y": 1.8482
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          121,
+          182,
+          123
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Riddle",
-        "theme_topic": "Unequaled",
-        "underline": false
+        "line": [
+          121,
+          182,
+          123
+        ],
+        "line_width": 0.9512672645657555,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Learned Bit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7442,
-        "w": 0.4812,
-        "x": 9.3755,
-        "y": 6.0305
+        "h": 0.548,
+        "w": 0.5826,
+        "x": 6.252,
+        "y": 2.0507
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          123,
-          113,
-          103
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "screeching multiply jam violet wakeful books jog",
-        "theme_topic": "Unequaled",
-        "underline": false
+        "focus": false,
+        "line": [
+          215,
+          59,
+          203
+        ],
+        "line_width": 2.9060271301798704,
+        "outline_only": false,
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Learned Bit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4482,
-        "w": 0.5188,
-        "x": 10.2422,
-        "y": 5.4806
+        "h": 0.4263,
+        "w": 1.47,
+        "x": 6.2975,
+        "y": 2.7444
       },
       "id": "object_012",
       "properties": {
@@ -376,17 +397,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
+        "font_face": "Arial",
         "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Breath",
-        "theme_topic": "Unequaled",
+        "text": "Leather",
+        "theme_topic": "Learned Bit",
         "underline": false
       },
       "type": "text",
@@ -394,10 +415,10 @@
     },
     {
       "bbox": {
-        "h": 0.7542,
-        "w": 0.5248,
-        "x": 10.2238,
-        "y": 6.0311
+        "h": 0.6211,
+        "w": 1.5015,
+        "x": 6.3059,
+        "y": 3.2858
       },
       "id": "object_013",
       "properties": {
@@ -405,17 +426,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          123,
-          113,
-          103
+          76,
+          108,
+          81
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "sidewalk reduce bucket whirl dinner camera",
-        "theme_topic": "Unequaled",
+        "text": "tax agree rod fine puny stranger yummy tooth disagree uncovered highfalutin awesome soda",
+        "theme_topic": "Learned Bit",
         "underline": false
       },
       "type": "text",
@@ -423,10 +444,10 @@
     },
     {
       "bbox": {
-        "h": 0.4447,
-        "w": 0.4754,
-        "x": 11.1382,
-        "y": 5.4977
+        "h": 1.196,
+        "w": 2.9993,
+        "x": 0.7338,
+        "y": 2.0526
       },
       "id": "object_014",
       "properties": {
@@ -434,17 +455,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          28,
+          30,
+          36
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Frightening",
-        "theme_topic": "Unequaled",
+        "font_face": "Arial",
+        "font_size": 22,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Sticky Tax Rake Cheap Gun Wooden Ashamed Fair Used",
+        "theme_topic": "Learned Bit",
         "underline": false
       },
       "type": "text",
@@ -452,28 +473,28 @@
     },
     {
       "bbox": {
-        "h": 0.7218,
-        "w": 0.5203,
-        "x": 11.1636,
-        "y": 6.0417
+        "h": 0.3265,
+        "w": 1.6411,
+        "x": 0.753,
+        "y": 3.4343
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          123,
-          113,
-          103
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "young pan glistening chemical vegetable panoramic corn",
-        "theme_topic": "Unequaled",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "AFTERNOON",
+        "theme_topic": "Learned Bit",
         "underline": false
       },
       "type": "text",
@@ -481,122 +502,168 @@
     },
     {
       "bbox": {
-        "h": 0.4254,
-        "w": 0.4854,
-        "x": 12.1631,
-        "y": 5.5033
+        "h": 0.7388,
+        "w": 0.5778,
+        "x": 5.1711,
+        "y": 4.08
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
+        "fill": [
+          70,
+          40,
+          179
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Thunder",
-        "theme_topic": "Unequaled",
-        "underline": false
+        "line": [
+          195,
+          120,
+          154
+        ],
+        "line_width": 2.4117270516283353,
+        "pattern": "badge",
+        "points": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.62,
+            0.25
+          ],
+          [
+            0.92,
+            0.18
+          ],
+          [
+            0.75,
+            0.5
+          ],
+          [
+            0.98,
+            0.78
+          ],
+          [
+            0.62,
+            0.72
+          ],
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0.38,
+            0.72
+          ],
+          [
+            0.02,
+            0.78
+          ],
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.08,
+            0.18
+          ],
+          [
+            0.38,
+            0.25
+          ]
+        ],
+        "theme_topic": "Learned Bit"
       },
-      "type": "text",
+      "type": "freeform",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.7267,
-        "w": 0.5207,
-        "x": 12.1899,
-        "y": 6.0377
+        "h": 0.4775,
+        "w": 1.0213,
+        "x": 9.7123,
+        "y": 5.0984
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          123,
-          113,
-          103
+        "dash": 4,
+        "family": "math",
+        "fill": [
+          57,
+          69,
+          74
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "future broken rail alarm nation sharp private",
-        "theme_topic": "Unequaled",
-        "underline": false
+        "focus": false,
+        "line": [
+          45,
+          225,
+          217
+        ],
+        "line_width": 3.3952924800681097,
+        "outline_only": false,
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Learned Bit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.3512,
-        "w": 0.6866,
-        "x": 5.5249,
-        "y": 1.3645
+        "h": 0.4951,
+        "w": 1.5003,
+        "x": 10.0577,
+        "y": 0.5196
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          169,
-          106,
-          121
-        ],
-        "bold": false,
         "color": [
-          45,
-          154,
-          151
+          178,
+          107,
+          37
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Screw Moon Abrasive",
-        "theme_topic": "Unequaled",
-        "underline": false
+        "connector": "straight",
+        "dash": 1,
+        "flip": true,
+        "ppt_type": 1,
+        "theme_topic": "Learned Bit",
+        "width": 2.5608566185250154
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.4315,
-        "w": 0.6179,
-        "x": 10.4761,
-        "y": 3.5784
+        "h": 0.9493,
+        "w": 0.7489,
+        "x": 12.1258,
+        "y": 1.3632
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          227,
-          106,
-          95
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          202,
+          94,
+          84
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Abrasive Disgusting Sparkling",
-        "theme_topic": "Unequaled",
-        "underline": false
+        "focus": false,
+        "line": [
+          71,
+          219,
+          161
+        ],
+        "line_width": 1.267494162341883,
+        "outline_only": true,
+        "ppt_type": 53,
+        "shape": "right_arrow_callout",
+        "theme_topic": "Learned Bit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 19
     }
   ],

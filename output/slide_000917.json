@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 30,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          175,
-          115,
-          91
-        ],
-        [
-          154,
-          136,
-          192
-        ]
+      "back_color": [
+        111,
+        88,
+        201
       ],
       "fill": [
-        175,
-        115,
-        91
+        111,
+        88,
+        201
       ],
-      "focus": "bottom_left",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Heady Chop"
+      "fore_color": [
+        174,
+        73,
+        92
+      ],
+      "pattern": 53,
+      "style": "pattern",
+      "theme_topic": "Pancake"
     },
     "type": "background",
     "z_order": 0
@@ -45,39 +41,42 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.0207,
-        "w": 7.9464,
-        "x": 0.5682,
-        "y": 0.3636
+        "h": 1.79,
+        "w": 4.6335,
+        "x": 4.1557,
+        "y": 2.0148
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 3,
+        "family": "arrows",
+        "fill": [
+          96,
+          191,
+          151
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 42,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Live Root Mere",
-        "theme_topic": "Heady Chop",
-        "underline": false
+        "focus": false,
+        "line": [
+          205,
+          204,
+          208
+        ],
+        "line_width": 7.7920092806043435,
+        "outline_only": false,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Pancake"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.2966,
-        "w": 2.9465,
-        "x": 5.7528,
-        "y": 1.9602
+        "h": 1.162,
+        "w": 6.6954,
+        "x": 3.0103,
+        "y": 0.6665
       },
       "id": "object_002",
       "properties": {
@@ -85,17 +84,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          28,
+          30,
+          36
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos Display",
+        "font_size": 29,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "SHIVER",
-        "theme_topic": "Heady Chop",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Example Functional",
+        "theme_topic": "Pancake",
         "underline": false
       },
       "type": "text",
@@ -103,28 +102,32 @@
     },
     {
       "bbox": {
-        "h": 1.0592,
-        "w": 2.9475,
-        "x": 5.7519,
-        "y": 2.4515
+        "h": 0.9045,
+        "w": 2.0707,
+        "x": 3.6726,
+        "y": 2.1342
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          179,
+          227,
+          145
+        ],
         "bold": true,
         "color": [
-          159,
-          212,
-          204
+          28,
+          30,
+          36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
+        "font_face": "Aptos Display",
+        "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Puncture Wrench Dangerous Upset",
-        "theme_topic": "Heady Chop",
+        "text": "Increase",
+        "theme_topic": "Pancake",
         "underline": false
       },
       "type": "text",
@@ -132,10 +135,10 @@
     },
     {
       "bbox": {
-        "h": 3.105,
-        "w": 2.9525,
-        "x": 5.746,
-        "y": 3.7693
+        "h": 1.21,
+        "w": 2.0783,
+        "x": 3.6448,
+        "y": 3.265
       },
       "id": "object_004",
       "properties": {
@@ -143,17 +146,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          214,
-          188,
-          179
+          65,
+          56,
+          110
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "poke gun ocean hover scarecrow merciful economic greet puncture upset rat delicious zephyr man",
-        "theme_topic": "Heady Chop",
+        "text": "towering hook property luxuriant stranger subsequent spell legal adorable",
+        "theme_topic": "Pancake",
         "underline": false
       },
       "type": "text",
@@ -161,183 +164,177 @@
     },
     {
       "bbox": {
-        "h": 1.1435,
-        "w": 3.6065,
-        "x": 9.1972,
-        "y": 1.8387
+        "h": 0.9205,
+        "w": 3.2743,
+        "x": 6.3062,
+        "y": 2.1156
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          187,
-          137,
-          116
-        ],
-        "line": [
-          187,
-          137,
-          116
-        ],
-        "line_width": 3.8308260697431398,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Heady Chop"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.5679,
-        "w": 0.5505,
-        "x": 9.4,
-        "y": 2.0731
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
-        "fill": [
-          64,
-          193,
-          189
-        ],
-        "focus": false,
-        "line": [
-          86,
-          59,
-          150
-        ],
-        "line_width": 6.569671691157036,
-        "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Heady Chop"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.4278,
-        "w": 3.1077,
-        "x": 9.451,
-        "y": 2.7747
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          151,
+          120,
+          40
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos Display",
+        "font_size": 33,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Disagreeable Stitch",
-        "theme_topic": "Heady Chop",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Weather",
+        "theme_topic": "Pancake",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
+      "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.2767,
-        "w": 3.6087,
-        "x": 9.1764,
-        "y": 3.2194
+        "h": 1.2111,
+        "w": 3.2677,
+        "x": 6.2607,
+        "y": 3.2839
       },
-      "id": "object_008",
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          65,
+          56,
+          110
+        ],
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "makeshift slap cheat add direful chief knotty illegal inform chalk change visit cloth fly paste loud invincible questionable",
+        "theme_topic": "Pancake",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.6342,
+        "w": 0.6024,
+        "x": 1.5371,
+        "y": 5.8723
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          187,
-          137,
-          116
+          174,
+          73,
+          92
         ],
         "line": [
-          187,
-          137,
-          116
+          139,
+          120,
+          211
         ],
-        "line_width": 1.5455653987190932,
+        "line_width": 4.341287990114919,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Heady Chop"
+        "theme_topic": "Pancake"
       },
       "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.6735,
+        "w": 2.1931,
+        "x": 0.5752,
+        "y": 6.2043
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fuel concern scold broken breezy admire lazy",
+        "theme_topic": "Pancake",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.5689,
-        "w": 0.5348,
-        "x": 9.4357,
-        "y": 3.4558
+        "h": 0.6206,
+        "w": 0.6071,
+        "x": 3.8453,
+        "y": 5.776
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          102,
-          29,
-          65
+          174,
+          73,
+          92
         ],
-        "focus": false,
         "line": [
-          155,
-          45,
-          124
+          139,
+          120,
+          211
         ],
-        "line_width": 3.6719228692145873,
-        "outline_only": true,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Heady Chop"
+        "line_width": 2.134326905176481,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Pancake"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4306,
-        "w": 3.1119,
-        "x": 9.4614,
-        "y": 4.1254
+        "h": 0.6964,
+        "w": 2.1452,
+        "x": 3.1001,
+        "y": 6.2153
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          96,
-          165,
-          250
+          28,
+          30,
+          36
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Peep",
-        "theme_topic": "Heady Chop",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "flavor great blush",
+        "theme_topic": "Pancake",
         "underline": false
       },
       "type": "text",
@@ -345,10 +342,10 @@
     },
     {
       "bbox": {
-        "h": 1.2778,
-        "w": 3.583,
-        "x": 9.1687,
-        "y": 4.6854
+        "h": 0.6213,
+        "w": 0.6326,
+        "x": 6.3833,
+        "y": 5.9492
       },
       "id": "object_011",
       "properties": {
@@ -356,169 +353,168 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          187,
-          137,
-          116
+          174,
+          73,
+          92
         ],
         "line": [
-          187,
-          137,
-          116
+          139,
+          120,
+          211
         ],
-        "line_width": 4.8753956145255195,
+        "line_width": 3.4719176428989904,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Heady Chop"
+        "theme_topic": "Pancake"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5511,
-        "w": 0.5636,
-        "x": 9.4226,
-        "y": 4.9079
+        "h": 0.6902,
+        "w": 2.0664,
+        "x": 5.5745,
+        "y": 6.2041
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          108,
-          149,
-          178
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          104,
-          182,
-          28
-        ],
-        "line_width": 0.965330234806746,
-        "outline_only": true,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Heady Chop"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "excite hot clammy pop",
+        "theme_topic": "Pancake",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.4634,
-        "w": 3.0752,
-        "x": 9.42,
-        "y": 5.5622
+        "h": 0.6004,
+        "w": 0.6134,
+        "x": 8.8658,
+        "y": 5.5969
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          174,
+          73,
+          92
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Whistle Public",
-        "theme_topic": "Heady Chop",
-        "underline": false
+        "line": [
+          139,
+          120,
+          211
+        ],
+        "line_width": 1.0182915334925189,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Pancake"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.8337,
-        "w": 3.6062,
-        "x": 9.1941,
-        "y": 6.1666
+        "h": 0.7,
+        "w": 1.9533,
+        "x": 7.983,
+        "y": 6.2116
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          187,
-          137,
-          116
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          187,
-          137,
-          116
-        ],
-        "line_width": 1.8480783540191597,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Heady Chop"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "scarf subtract summer naive expensive",
+        "theme_topic": "Pancake",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.446,
-        "w": 3.0764,
-        "x": 9.442,
-        "y": 7.0542
+        "h": 0.6215,
+        "w": 0.637,
+        "x": 11.1468,
+        "y": 5.8473
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          174,
+          73,
+          92
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Unsightly Detailed",
-        "theme_topic": "Heady Chop",
-        "underline": false
+        "line": [
+          139,
+          120,
+          211
+        ],
+        "line_width": 1.95774726490341,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Pancake"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 1.055,
-        "w": 4.4576,
-        "x": 0.686,
-        "y": 1.9701
+        "h": 0.6826,
+        "w": 2.5071,
+        "x": 10.2641,
+        "y": 6.181
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 35,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Gleaming Joyous",
-        "theme_topic": "Heady Chop",
+        "text": "quack absorbed cattle",
+        "theme_topic": "Pancake",
         "underline": false
       },
       "type": "text",
@@ -526,28 +522,28 @@
     },
     {
       "bbox": {
-        "h": 3.62,
-        "w": 4.4711,
-        "x": 0.7008,
-        "y": 3.2865
+        "h": 0.2894,
+        "w": 2.5201,
+        "x": 10.0951,
+        "y": 2.1008
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          214,
-          188,
-          179
+          174,
+          73,
+          92
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "share defiant whisper daffy acid overflow watch person equal grubby bear table symptomatic false appliance distinct divide jealous brave weigh expansion",
-        "theme_topic": "Heady Chop",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "OCEANIC",
+        "theme_topic": "Pancake",
         "underline": false
       },
       "type": "text",
@@ -555,181 +551,188 @@
     },
     {
       "bbox": {
-        "h": 0.4941,
-        "w": 0.7088,
-        "x": 5.4236,
-        "y": 6.5984
+        "h": 0.7315,
+        "w": 2.5449,
+        "x": 10.0909,
+        "y": 2.589
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          182,
-          50,
-          137
+          28,
+          30,
+          36
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Leg Sidewalk Meal",
-        "theme_topic": "Heady Chop",
-        "underline": false
+        "font_face": "Aptos Display",
+        "font_size": 20,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Shirt Hard-To-Find",
+        "theme_topic": "Pancake",
+        "underline": true
       },
       "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.5449,
-        "w": 1.2109,
-        "x": 4.7967,
-        "y": 2.9096
+        "h": 0.9165,
+        "w": 2.5304,
+        "x": 10.111,
+        "y": 3.5944
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          151,
-          152,
-          51
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          65,
+          56,
+          110
         ],
-        "focus": false,
-        "line": [
-          154,
-          76,
-          180
-        ],
-        "line_width": 5.354149940618095,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Heady Chop"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "pig afterthought drown efficient pies gold suspend jeans rinse courageous knotty whirl insect allow long oranges full",
+        "theme_topic": "Pancake",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.5878,
-        "w": 1.0847,
-        "x": 2.3387,
-        "y": 1.116
+        "h": 0.8665,
+        "w": 1.188,
+        "x": 8.766,
+        "y": 5.9858
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "math",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          141,
-          197,
-          71
+          227,
+          96,
+          132
         ],
         "focus": false,
         "line": [
-          213,
-          45,
-          171
+          32,
+          41,
+          32
         ],
-        "line_width": 5.709362643206575,
+        "line_width": 3.408564959344254,
         "outline_only": true,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Heady Chop"
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Pancake"
       },
       "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.3883,
-        "w": 0.2798,
-        "x": 5.1354,
-        "y": 0.5143
+        "h": 0.7422,
+        "w": 0.5796,
+        "x": 11.4564,
+        "y": 6.2817
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "symbols",
         "fill": [
-          101,
-          84,
-          136
+          61,
+          41,
+          39
         ],
         "focus": false,
         "line": [
-          70,
-          87,
-          229
+          221,
+          63,
+          84
         ],
-        "line_width": 4.945294217680472,
+        "line_width": 2.7055518086068373,
         "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Heady Chop"
+        "ppt_type": 173,
+        "shape": "gear9",
+        "theme_topic": "Pancake"
       },
       "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.6097,
-        "w": 1.1949,
-        "x": 3.4424,
-        "y": 5.6618
+        "h": 0.4342,
+        "w": 0.3779,
+        "x": 2.5905,
+        "y": 1.4341
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          92,
-          64,
-          90
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          70,
+          50,
+          187
         ],
-        "font_face": "Verdana",
-        "font_size": 16,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "shiver utter",
-        "theme_topic": "Heady Chop",
-        "underline": false
+        "focus": false,
+        "line": [
+          48,
+          41,
+          111
+        ],
+        "line_width": 4.284655119955801,
+        "outline_only": false,
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Pancake"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.4124,
-        "w": 1.4956,
-        "x": 11.1933,
-        "y": 3.8302
+        "h": 0.872,
+        "w": 0.2976,
+        "x": 2.4417,
+        "y": 4.6436
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          78,
-          123,
-          48
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          77,
+          222,
+          216
         ],
-        "connector": "curve",
-        "dash": 2,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Heady Chop",
-        "width": 0.5261955132715621
+        "focus": false,
+        "line": [
+          122,
+          227,
+          225
+        ],
+        "line_width": 2.6503310744505924,
+        "outline_only": false,
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Pancake"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 23
     }
   ],

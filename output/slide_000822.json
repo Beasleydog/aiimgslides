@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        249,
-        203,
-        91
+      "colors": [
+        [
+          240,
+          176,
+          54
+        ],
+        [
+          168,
+          54,
+          94
+        ]
       ],
       "fill": [
         240,
         176,
         54
       ],
-      "fore_color": [
-        168,
-        54,
-        94
-      ],
-      "pattern": 9,
-      "style": "pattern",
-      "theme_topic": "Toothbrush Intend"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Quarrelsome"
     },
     "type": "background",
     "z_order": 0
@@ -41,111 +45,47 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.3489,
-        "w": 6.789,
-        "x": -1.1323,
-        "y": 5.0336
+        "h": 2.2845,
+        "w": 4.4366,
+        "x": 7.0681,
+        "y": 1.188
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          111,
-          162,
-          162
+          219,
+          117,
+          121
         ],
         "focus": false,
         "line": [
-          90,
-          99,
-          141
+          42,
+          219,
+          37
         ],
-        "line_width": 7.834833829854919,
-        "outline_only": true,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Toothbrush Intend"
+        "line_width": 3.2690408296672087,
+        "outline_only": false,
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Quarrelsome"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.0702,
-        "w": 7.3399,
-        "x": 1.2581,
-        "y": -0.4626
+        "h": 7.4987,
+        "w": 1.3262,
+        "x": 11.984,
+        "y": 0.0025
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
-        "fill": [
-          102,
-          204,
-          63
-        ],
-        "focus": false,
-        "line": [
-          42,
-          62,
-          217
-        ],
-        "line_width": 2.4852225367812366,
-        "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Toothbrush Intend"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.1058,
-        "w": 6.1247,
-        "x": -0.9192,
-        "y": -0.0464
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          123,
-          188,
-          71
-        ],
-        "focus": false,
-        "line": [
-          90,
-          175,
-          89
-        ],
-        "line_width": 2.264818652016828,
-        "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Toothbrush Intend"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 7.5045,
-        "w": 0.6759,
-        "x": -0.0056,
-        "y": 0.0064
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 1,
         "family": "panel",
         "fill": [
           249,
@@ -157,23 +97,23 @@
           203,
           91
         ],
-        "line_width": 1.8192628050194086,
+        "line_width": 2.249867565547848,
         "outline_only": false,
         "ppt_type": 1,
         "shape": "rect",
-        "theme_topic": "Toothbrush Intend"
+        "theme_topic": "Quarrelsome"
       },
       "type": "shape",
-      "z_order": 4
+      "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1593,
-        "w": 6.2433,
-        "x": 3.0371,
-        "y": 0.6654
+        "h": 0.8776,
+        "w": 8.2944,
+        "x": 0.7266,
+        "y": 5.8375
       },
-      "id": "object_005",
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -183,13 +123,73 @@
           38,
           28
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 39,
+        "font_face": "Arial",
+        "font_size": 22,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Evanescent Free Shock",
-        "theme_topic": "Toothbrush Intend",
+        "text": "Dime Building Frail",
+        "theme_topic": "Quarrelsome",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.7853,
+        "w": 2.7641,
+        "x": 10.0116,
+        "y": 2.7565
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          32,
+          119,
+          149
+        ],
+        "line": [
+          249,
+          203,
+          91
+        ],
+        "line_width": 1.5512251382581004,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Quarrelsome"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.0663,
+        "w": 2.4059,
+        "x": 10.1943,
+        "y": 3.3573
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          240,
+          176,
+          54
+        ],
+        "font_face": "Arial",
+        "font_size": 37,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "58%",
+        "theme_topic": "Quarrelsome",
         "underline": false
       },
       "type": "text",
@@ -197,28 +197,28 @@
     },
     {
       "bbox": {
-        "h": 0.4578,
-        "w": 0.4793,
-        "x": 4.9683,
-        "y": 2.8932
+        "h": 0.677,
+        "w": 2.3721,
+        "x": 10.2292,
+        "y": 4.4541
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          32,
-          119,
-          149
+          40,
+          38,
+          28
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Evasive Wash",
-        "theme_topic": "Toothbrush Intend",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "bang historical shivering bad pleasant excite welcome",
+        "theme_topic": "Quarrelsome",
         "underline": false
       },
       "type": "text",
@@ -226,28 +226,28 @@
     },
     {
       "bbox": {
-        "h": 0.729,
-        "w": 0.4788,
-        "x": 4.9627,
-        "y": 3.4389
+        "h": 0.9543,
+        "w": 2.98,
+        "x": 6.6703,
+        "y": 2.8802
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          94,
-          82,
-          58
+          56,
+          79,
+          26
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 26,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "common late festive knot plant colossal endurable",
-        "theme_topic": "Toothbrush Intend",
+        "text": "Cakes Colossal",
+        "theme_topic": "Quarrelsome",
         "underline": false
       },
       "type": "text",
@@ -255,41 +255,12 @@
     },
     {
       "bbox": {
-        "h": 0.4301,
-        "w": 0.5175,
-        "x": 5.9404,
-        "y": 2.9077
+        "h": 1.3434,
+        "w": 3.0042,
+        "x": 6.6711,
+        "y": 4.1266
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
-        ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Company Few",
-        "theme_topic": "Toothbrush Intend",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.7267,
-        "w": 0.5129,
-        "x": 5.9408,
-        "y": 3.4444
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -299,26 +270,26 @@
           82,
           58
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "night sky arch scrawny relieved nasty pick watch",
-        "theme_topic": "Toothbrush Intend",
+        "text": "wave raspy press irritate trains abaft found awesome dreary macho scold name successful reflective nut greedy narrow stupid tenuous",
+        "theme_topic": "Quarrelsome",
         "underline": false
       },
       "type": "text",
-      "z_order": 9
+      "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4521,
-        "w": 0.4985,
-        "x": 6.9539,
-        "y": 2.8907
+        "h": 0.2947,
+        "w": 2.197,
+        "x": 3.9791,
+        "y": 2.8881
       },
-      "id": "object_010",
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -328,13 +299,42 @@
           119,
           149
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Mundane Believe",
-        "theme_topic": "Toothbrush Intend",
+        "text": "SNAIL STOCKING",
+        "theme_topic": "Quarrelsome",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.7851,
+        "w": 2.2036,
+        "x": 3.9541,
+        "y": 3.3621
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          199,
+          122,
+          99
+        ],
+        "font_face": "Arial",
+        "font_size": 24,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Industry",
+        "theme_topic": "Quarrelsome",
         "underline": false
       },
       "type": "text",
@@ -342,10 +342,10 @@
     },
     {
       "bbox": {
-        "h": 0.7381,
-        "w": 0.4917,
-        "x": 6.999,
-        "y": 3.4463
+        "h": 1.0109,
+        "w": 2.2297,
+        "x": 3.9315,
+        "y": 4.4169
       },
       "id": "object_011",
       "properties": {
@@ -357,13 +357,13 @@
           82,
           58
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "wreck honorable faint jelly invite concentrate donkey",
-        "theme_topic": "Toothbrush Intend",
+        "text": "miscreant whispering collect wind suck billowy trite naughty judge fork defeated hapless identify graceful guttural",
+        "theme_topic": "Quarrelsome",
         "underline": false
       },
       "type": "text",
@@ -371,120 +371,12 @@
     },
     {
       "bbox": {
-        "h": 0.7461,
-        "w": 0.4825,
-        "x": 7.9358,
-        "y": 3.4298
+        "h": 1.4659,
+        "w": 2.6619,
+        "x": 0.7324,
+        "y": 2.9909
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
-        ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "field mother soft ready tap tomatoes spiders",
-        "theme_topic": "Toothbrush Intend",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 2.3807,
-        "w": 3.927,
-        "x": 0.5686,
-        "y": 4.6721
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "wren",
-          "wet",
-          "rare",
-          "side",
-          "rock",
-          "dinner"
-        ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              196,
-              161,
-              219
-            ],
-            "name": "cows return",
-            "values": [
-              95,
-              73,
-              55,
-              56,
-              52,
-              32
-            ]
-          },
-          {
-            "color": [
-              177,
-              188,
-              206
-            ],
-            "name": "silly",
-            "values": [
-              53,
-              53,
-              74,
-              40,
-              63,
-              16
-            ]
-          },
-          {
-            "color": [
-              97,
-              51,
-              171
-            ],
-            "name": "planes",
-            "values": [
-              54,
-              31,
-              93,
-              32,
-              86,
-              65
-            ]
-          }
-        ],
-        "theme_topic": "Toothbrush Intend",
-        "title": "twig sisters marry flower"
-      },
-      "type": "chart",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 1.2382,
-        "w": 3.4908,
-        "x": 0.7339,
-        "y": 2.1816
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -494,13 +386,71 @@
           38,
           28
         ],
-        "font_face": "Trebuchet MS",
+        "font_face": "Arial",
         "font_size": 23,
-        "italic": false,
+        "italic": true,
         "kind": "header",
         "margin": 0.04,
-        "text": "Arrange Merciful Scare Kindhearted Rely",
-        "theme_topic": "Toothbrush Intend",
+        "text": "Writing Grandiose Tap Delicious Tested",
+        "theme_topic": "Quarrelsome",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.4376,
+        "w": 1.4409,
+        "x": 0.7377,
+        "y": 4.6931
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
+        ],
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "SQUEALING",
+        "theme_topic": "Quarrelsome",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.2969,
+        "w": 11.9117,
+        "x": 0.6914,
+        "y": 0.6776
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
+        ],
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "CROSS",
+        "theme_topic": "Quarrelsome",
         "underline": false
       },
       "type": "text",
@@ -508,10 +458,10 @@
     },
     {
       "bbox": {
-        "h": 0.3628,
-        "w": 1.9373,
-        "x": 0.7268,
-        "y": 3.6447
+        "h": 0.4019,
+        "w": 11.9247,
+        "x": 0.6949,
+        "y": 1.1581
       },
       "id": "object_015",
       "properties": {
@@ -519,17 +469,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          40,
+          38,
+          28
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 20,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "LUMBER",
-        "theme_topic": "Toothbrush Intend",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Dinner Muddled",
+        "theme_topic": "Quarrelsome",
         "underline": false
       },
       "type": "text",
@@ -537,70 +487,12 @@
     },
     {
       "bbox": {
-        "h": 0.2618,
-        "w": 3.6286,
-        "x": 9.0137,
-        "y": 2.1236
+        "h": 0.4215,
+        "w": 11.9269,
+        "x": 0.6983,
+        "y": 1.7954
       },
       "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "EMPTY ABASHED",
-        "theme_topic": "Toothbrush Intend",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.6269,
-        "w": 3.595,
-        "x": 9.0063,
-        "y": 2.6089
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          162,
-          167,
-          77
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 21,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Arch Bake Flippant Effect",
-        "theme_topic": "Toothbrush Intend",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.7969,
-        "w": 3.5882,
-        "x": 9.0132,
-        "y": 3.4627
-      },
-      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -610,71 +502,191 @@
           82,
           58
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "noiseless pizzas living passenger mess call film slap art common",
-        "theme_topic": "Toothbrush Intend",
+        "text": "guarantee balance future command nail friction competition debt halting ants wall need meaty unfasten throne coast river stream gratis rake opposite share",
+        "theme_topic": "Quarrelsome",
         "underline": false
       },
       "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.6972,
+        "w": 0.6999,
+        "x": 9.1882,
+        "y": 3.817
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "fill": [
+          52,
+          94,
+          199
+        ],
+        "line": [
+          135,
+          131,
+          220
+        ],
+        "line_width": 0.6629078337623076,
+        "pattern": "zigzag",
+        "points": [
+          [
+            0.02,
+            0.25
+          ],
+          [
+            0.22,
+            0.05
+          ],
+          [
+            0.42,
+            0.32
+          ],
+          [
+            0.62,
+            0.08
+          ],
+          [
+            0.95,
+            0.75
+          ],
+          [
+            0.72,
+            0.95
+          ],
+          [
+            0.5,
+            0.65
+          ],
+          [
+            0.25,
+            0.92
+          ]
+        ],
+        "theme_topic": "Quarrelsome"
+      },
+      "type": "freeform",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 1.1368,
+        "w": 1.0271,
+        "x": 9.3681,
+        "y": 2.8827
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "pattern": "burst",
+        "primary": [
+          32,
+          119,
+          149
+        ],
+        "secondary": [
+          94,
+          204,
+          126
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#379389\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#29b128\" opacity=\"0.72\"/>\n        </svg>",
+        "theme_topic": "Quarrelsome"
+      },
+      "type": "svg",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 2.3001,
-        "w": 1.1645,
-        "x": 8.9003,
-        "y": 4.7382
+        "h": 0.3399,
+        "w": 0.9235,
+        "x": 5.4227,
+        "y": 1.1796
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.10279457803262944,
-          0.004606237990331646,
-          0.10283272377661813,
-          0.17072081168718795
+        "fill": [
+          203,
+          28,
+          203
         ],
-        "focus": false,
-        "mask_line": [
-          123,
-          172,
-          78
+        "line": [
+          32,
+          119,
+          149
         ],
-        "mask_overlay": true,
-        "theme_topic": "Toothbrush Intend",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 2.0412254284907663,
+        "pattern": "wave",
+        "points": [
+          [
+            0.02,
+            0.55
+          ],
+          [
+            0.18,
+            0.2
+          ],
+          [
+            0.35,
+            0.5
+          ],
+          [
+            0.52,
+            0.8
+          ],
+          [
+            0.7,
+            0.45
+          ],
+          [
+            0.95,
+            0.58
+          ],
+          [
+            0.95,
+            0.92
+          ],
+          [
+            0.02,
+            0.92
+          ]
+        ],
+        "theme_topic": "Quarrelsome"
       },
-      "type": "image",
+      "type": "freeform",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.2932,
-        "w": 0.7449,
-        "x": 9.1186,
-        "y": 6.5467
+        "h": 0.5605,
+        "w": 1.1987,
+        "x": 11.9135,
+        "y": 4.495
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          32,
-          119,
-          149
+          127,
+          164,
+          201
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Bird Superb",
-        "theme_topic": "Toothbrush Intend",
+        "text": "Pocket Knit",
+        "theme_topic": "Quarrelsome",
         "underline": false
       },
       "type": "text",
@@ -682,31 +694,27 @@
     },
     {
       "bbox": {
-        "h": 2.2696,
-        "w": 1.1716,
-        "x": 10.2382,
-        "y": 4.7319
+        "h": 1.0548,
+        "w": 0.7382,
+        "x": 10.0995,
+        "y": 5.6782
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.049290008265719325,
-          0.028767894074482134,
-          0.2867856380001521,
-          0.17489751878985213
+        "color": [
+          179,
+          138,
+          218
         ],
-        "focus": false,
-        "mask_line": [
-          210,
-          229,
-          57
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Toothbrush Intend",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "connector": "straight",
+        "dash": 4,
+        "flip": true,
+        "ppt_type": 1,
+        "theme_topic": "Quarrelsome",
+        "width": 1.344806244200975
       },
-      "type": "image",
+      "type": "connector",
       "z_order": 21
     }
   ],

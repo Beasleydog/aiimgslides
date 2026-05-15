@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        71,
-        181,
-        219
+      "back_color": [
+        139,
+        78,
+        190
       ],
-      "style": "solid",
-      "theme_topic": "Fork Fail"
+      "fill": [
+        120,
+        58,
+        170
+      ],
+      "fore_color": [
+        71,
+        221,
+        181
+      ],
+      "pattern": 9,
+      "style": "pattern",
+      "theme_topic": "Committee Tease"
     },
     "type": "background",
     "z_order": 0
@@ -30,111 +41,87 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.903,
-        "w": 5.3443,
-        "x": 4.5874,
-        "y": -0.1212
+        "h": 7.4855,
+        "w": 13.3429,
+        "x": 0.0041,
+        "y": 3.6706
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          131,
-          125,
-          226
+          139,
+          78,
+          190
         ],
-        "focus": false,
         "line": [
-          148,
-          148,
-          123
+          139,
+          78,
+          190
         ],
-        "line_width": 3.142842202677215,
+        "line_width": 4.404438354038701,
         "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Fork Fail"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Committee Tease"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.8577,
-        "w": 4.6109,
-        "x": 8.659,
-        "y": -0.3276
+        "h": 5.1444,
+        "w": 7.0874,
+        "x": 5.7203,
+        "y": 1.8647
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "math",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          56,
-          137,
-          104
+          139,
+          78,
+          190
         ],
-        "focus": false,
         "line": [
-          128,
-          121,
-          45
+          139,
+          78,
+          190
         ],
-        "line_width": 5.354330195822941,
-        "outline_only": true,
-        "ppt_type": 164,
-        "shape": "minus",
-        "theme_topic": "Fork Fail"
+        "line_width": 3.073439545460103,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Committee Tease"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.9171,
-        "w": 5.4842,
-        "x": 7.0277,
-        "y": 2.126
+        "h": 4.8631,
+        "w": 6.8045,
+        "x": 5.8354,
+        "y": 2.0286
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "befitting",
-          "want",
-          "improve",
-          "red",
-          "imminent"
-        ],
-        "chart": "area",
+        "clip": "ticket",
         "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 1,
-        "series": [
-          {
-            "color": [
-              141,
-              73,
-              120
-            ],
-            "name": "ceaseless",
-            "values": [
-              76,
-              92,
-              39,
-              46,
-              25
-            ]
-          }
+        "line": [
+          108,
+          171,
+          88
         ],
-        "theme_topic": "Fork Fail",
-        "title": "neighborly rhetorical"
+        "line_width": 11,
+        "theme_topic": "Committee Tease"
       },
-      "type": "chart",
+      "type": "svg_image",
       "z_order": 3
     }
   ],

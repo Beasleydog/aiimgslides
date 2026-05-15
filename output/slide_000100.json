@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
+      "colors": [
+        [
+          120,
+          203,
+          186
+        ],
+        [
+          64,
+          130,
+          109
+        ]
+      ],
       "fill": [
         120,
-        58,
-        170
+        203,
+        186
       ],
-      "style": "solid",
-      "theme_topic": "Ragged"
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Nifty Resonant"
     },
     "type": "background",
     "z_order": 0
@@ -30,140 +45,91 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.8108,
-        "w": 7.7759,
-        "x": -0.4953,
-        "y": 0.6347
+        "h": 7.4962,
+        "w": 13.3278,
+        "x": -0.0096,
+        "y": 3.943
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "panel",
         "fill": [
-          100,
-          59,
-          154
+          98,
+          165,
+          152
         ],
-        "focus": false,
         "line": [
-          61,
-          126,
-          34
+          98,
+          165,
+          152
         ],
-        "line_width": 2.2782478561885693,
+        "line_width": 3.4092959357190895,
         "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Ragged"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Nifty Resonant"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.8137,
-        "w": 12.2493,
-        "x": 0.5319,
-        "y": 1.8366
+        "h": 5.8237,
+        "w": 3.1862,
+        "x": 9.401,
+        "y": 0.6548
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 3.0786388041754846,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Ragged"
+        "font_face": "Georgia",
+        "font_size": 23,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Reply",
+        "theme_topic": "Nifty Resonant",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.3134,
-        "w": 11.7071,
-        "x": 0.8065,
-        "y": 2.1107
+        "h": 3.2322,
+        "w": 2.5379,
+        "x": 0.6318,
+        "y": 3.7184
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "wacky",
-          "signal",
-          "fence",
-          "imperfect",
-          "letters"
+        "crop": [
+          0.047243652257884065,
+          0.001512828191533404,
+          0.009781235560715928,
+          0.12264307163600381
         ],
-        "chart": "line",
         "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 65,
-        "series": [
-          {
-            "color": [
-              191,
-              121,
-              123
-            ],
-            "name": "thing",
-            "values": [
-              82,
-              79,
-              79,
-              58,
-              18
-            ]
-          },
-          {
-            "color": [
-              31,
-              73,
-              126
-            ],
-            "name": "frogs flowers",
-            "values": [
-              42,
-              92,
-              95,
-              26,
-              39
-            ]
-          },
-          {
-            "color": [
-              43,
-              59,
-              160
-            ],
-            "name": "early oatmeal",
-            "values": [
-              20,
-              24,
-              19,
-              9,
-              19
-            ]
-          }
+        "mask_line": [
+          174,
+          73,
+          92
         ],
-        "theme_topic": "Ragged",
-        "title": "wary shrill"
+        "mask_overlay": false,
+        "theme_topic": "Nifty Resonant",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 3
     }
   ],

@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        130,
-        31,
-        62
+        163,
+        216,
+        43
       ],
       "fill": [
-        205,
-        92,
-        158
+        240,
+        176,
+        54
       ],
       "fore_color": [
-        174,
-        73,
-        92
+        168,
+        54,
+        94
       ],
-      "pattern": 1,
+      "pattern": 10,
       "style": "pattern",
-      "theme_topic": "Purple Vacuous"
+      "theme_topic": "Snatch"
     },
     "type": "background",
     "z_order": 0
@@ -41,42 +41,42 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.7349,
-        "w": 5.6982,
-        "x": 1.6321,
-        "y": 3.909
+        "h": 3.8961,
+        "w": 7.7851,
+        "x": 6.3475,
+        "y": 4.223
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
+        "dash": 5,
+        "family": "basic",
         "fill": [
-          107,
-          156,
-          200
+          155,
+          117,
+          165
         ],
         "focus": false,
         "line": [
-          29,
-          165,
-          83
+          98,
+          59,
+          126
         ],
-        "line_width": 4.895363267182827,
-        "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Purple Vacuous"
+        "line_width": 2.5590052013538687,
+        "outline_only": false,
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Snatch"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.1612,
-        "w": 6.3223,
-        "x": 6.965,
-        "y": 1.6928
+        "h": 4.9376,
+        "w": 8.7213,
+        "x": 1.7782,
+        "y": 1.752
       },
       "id": "object_002",
       "properties": {
@@ -84,160 +84,144 @@
         "dash": 1,
         "family": "flowchart",
         "fill": [
-          160,
-          86,
-          112
+          175,
+          98,
+          55
         ],
         "focus": false,
         "line": [
-          134,
-          107,
-          54
+          37,
+          165,
+          135
         ],
-        "line_width": 7.358450815333304,
+        "line_width": 3.989684685169471,
         "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Purple Vacuous"
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Snatch"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.8086,
-        "w": 8.9778,
-        "x": 0.1141,
-        "y": 3.5215
+        "h": 3.9921,
+        "w": 3.1111,
+        "x": 2.7507,
+        "y": 2.0984
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 7,
+        "family": "stars",
         "fill": [
-          180,
-          42,
-          102
+          227,
+          98,
+          67
         ],
         "focus": false,
         "line": [
-          163,
-          202,
-          46
+          122,
+          41,
+          219
         ],
-        "line_width": 7.284114941172982,
-        "outline_only": false,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Purple Vacuous"
+        "line_width": 5.157966829407691,
+        "outline_only": true,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Snatch"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 6.3887,
-        "w": 4.8631,
-        "x": 7.9395,
-        "y": 0.5579
+        "h": 1.2479,
+        "w": 8.6656,
+        "x": 0.5411,
+        "y": 0.37
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          179,
-          80,
-          138
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          40,
+          38,
+          28
         ],
-        "line": [
-          179,
-          80,
-          138
-        ],
-        "line_width": 2.155204818711936,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Purple Vacuous"
+        "font_face": "Aptos Display",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Title Parcel",
+        "theme_topic": "Snatch",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.8978,
-        "w": 4.3245,
-        "x": 8.16,
-        "y": 0.8118
+        "h": 1.4114,
+        "w": 5.9981,
+        "x": 6.6571,
+        "y": 3.2392
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "brave",
-          "sprout",
-          "cloistered",
-          "prose",
-          "remain"
-        ],
-        "chart": "pie",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              40,
-              31,
-              40
-            ],
-            "name": "courageous",
-            "values": [
-              31,
-              61,
-              54,
-              84,
-              93
-            ]
-          }
-        ],
-        "theme_topic": "Purple Vacuous",
-        "title": "kaput youthful nose nation"
-      },
-      "type": "chart",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 4.8609,
-        "w": 2.534,
-        "x": 4.7916,
-        "y": 1.9649
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          107,
-          57,
-          90
+          94,
+          82,
+          58
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "tense punish funny wet secretive smoggy mountainous peck soap whispering tedious six economic familiar carriage thread cable daily grin range",
-        "theme_topic": "Purple Vacuous",
+        "text": "merciful extend airport attractive curve bruise business colossal receipt madly boat way poison salty",
+        "theme_topic": "Snatch",
         "underline": false
       },
       "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.8675,
+        "w": 5.6781,
+        "x": 0.5528,
+        "y": 1.8697
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          32,
+          119,
+          149
+        ],
+        "line": [
+          249,
+          203,
+          91
+        ],
+        "line_width": 2.6308447958998977,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Snatch"
+      },
+      "type": "shape",
       "z_order": 6
     }
   ],

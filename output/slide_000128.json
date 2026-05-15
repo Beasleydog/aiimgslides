@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        182,
-        144,
-        83
+      "back_color": [
+        250,
+        250,
+        248
       ],
-      "style": "solid",
-      "theme_topic": "Sense Maid"
+      "fill": [
+        250,
+        250,
+        248
+      ],
+      "fore_color": [
+        222,
+        125,
+        51
+      ],
+      "pattern": 9,
+      "style": "pattern",
+      "theme_topic": "Connection Living"
     },
     "type": "background",
     "z_order": 0
@@ -30,139 +41,118 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.3492,
-        "w": 4.6543,
-        "x": 1.7353,
-        "y": 3.0011
+        "h": 1.0641,
+        "w": 5.1673,
+        "x": 0.5301,
+        "y": 0.3377
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          218,
-          167,
-          175
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          28,
+          28
         ],
-        "focus": false,
-        "line": [
-          138,
-          87,
-          90
-        ],
-        "line_width": 7.6222703866155825,
-        "outline_only": true,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Sense Maid"
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Trite Satisfy Playground Quill",
+        "theme_topic": "Connection Living",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5088,
-        "w": 5.6079,
-        "x": -0.0175,
-        "y": 0.0129
+        "h": 0.3772,
+        "w": 3.5053,
+        "x": 1.6192,
+        "y": 4.4576
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          207,
-          183,
-          143
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          28,
+          28
         ],
-        "line": [
-          207,
-          183,
-          143
-        ],
-        "line_width": 4.850223149863353,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Sense Maid"
+        "font_face": "Trebuchet MS",
+        "font_size": 19,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Gun Print",
+        "theme_topic": "Connection Living",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.637,
-        "w": 3.9102,
-        "x": 8.8902,
-        "y": 4.3932
+        "h": 0.3819,
+        "w": 3.4816,
+        "x": 1.6148,
+        "y": 5.1205
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.16845526723231552,
-          0.06771575359188929,
-          0.09095191640291962,
-          0.1374046713227294
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          115,
+          115
         ],
-        "focus": true,
-        "mask_line": [
-          42,
-          38,
-          199
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Sense Maid",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "arrogant unpack laugh male morning flesh fascinated sturdy compete adhesive vagabond wail impolite tiny admit disagree destroy whirl",
+        "theme_topic": "Connection Living",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.0974,
-        "w": 3.4054,
-        "x": 0.8183,
-        "y": 1.7095
+        "h": 0.5917,
+        "w": 3.3248,
+        "x": 1.8677,
+        "y": 4.6547
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "measly",
-          "noiseless",
-          "rhyme",
-          "rightful",
-          "cable"
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          250,
+          250,
+          248
         ],
-        "chart": "pie",
-        "focus": false,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              73,
-              139,
-              162
-            ],
-            "name": "coast",
-            "values": [
-              76,
-              9,
-              23,
-              84,
-              61
-            ]
-          }
-        ],
-        "theme_topic": "Sense Maid",
-        "title": "neat healthy"
+        "font_face": "Trebuchet MS",
+        "font_size": 31,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "372",
+        "theme_topic": "Connection Living",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 4
     }
   ],

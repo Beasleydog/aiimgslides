@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "fill": [
-        78,
-        83,
-        175
+      "colors": [
+        [
+          123,
+          228,
+          217
+        ],
+        [
+          82,
+          96,
+          214
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Sleepy Relieved"
+      "fill": [
+        126,
+        58,
+        173
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Note Petite"
     },
     "type": "background",
     "z_order": 0
@@ -30,43 +45,107 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.4929,
-        "w": 1.1273,
-        "x": 12.1948,
-        "y": -0.0083
+        "h": 1.4902,
+        "w": 8.4881,
+        "x": 3.8754,
+        "y": 6.3149
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 7,
+        "family": "arrows",
         "fill": [
-          102,
-          106,
-          185
+          151,
+          152,
+          96
         ],
+        "focus": false,
         "line": [
-          102,
-          106,
+          197,
+          48,
           185
         ],
-        "line_width": 4.332275207623455,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Sleepy Relieved"
+        "line_width": 6.20692519226553,
+        "outline_only": true,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Note Petite"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.7813,
-        "w": 3.1821,
-        "x": 9.4052,
-        "y": 0.6734
+        "h": 4.7369,
+        "w": 8.5478,
+        "x": 4.5806,
+        "y": 3.3336
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          122,
+          154,
+          161
+        ],
+        "focus": false,
+        "line": [
+          140,
+          166,
+          58
+        ],
+        "line_width": 4.180608305646066,
+        "outline_only": false,
+        "ppt_type": 97,
+        "shape": "up_ribbon",
+        "theme_topic": "Note Petite"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 7.4904,
+        "w": 6.0715,
+        "x": 0.0138,
+        "y": 0.0175
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          166,
+          119,
+          198
+        ],
+        "line": [
+          166,
+          119,
+          198
+        ],
+        "line_width": 2.5593907502351443,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Note Petite"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.0079,
+        "w": 5.7224,
+        "x": 0.5533,
+        "y": 0.3557
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -76,129 +155,47 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 21,
+        "font_face": "Trebuchet MS",
+        "font_size": 33,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Boot",
-        "theme_topic": "Sleepy Relieved",
+        "text": "Lewd Seashore",
+        "theme_topic": "Note Petite",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 3.0033,
-        "w": 3.974,
-        "x": 4.8876,
-        "y": 0.6436
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          102,
-          106,
-          185
-        ],
-        "line": [
-          102,
-          106,
-          185
-        ],
-        "line_width": 5.091994864546506,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Sleepy Relieved"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.5176,
-        "w": 3.4739,
-        "x": 5.1303,
-        "y": 0.9182
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "quickest",
-          "ludicrous",
-          "believe",
-          "egg",
-          "sand"
-        ],
-        "chart": "doughnut",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              87,
-              102,
-              71
-            ],
-            "name": "grouchy",
-            "values": [
-              64,
-              63,
-              78,
-              43,
-              14
-            ]
-          }
-        ],
-        "theme_topic": "Sleepy Relieved",
-        "title": "auspicious start admire"
-      },
-      "type": "chart",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 3.004,
-        "w": 3.9647,
-        "x": 0.6462,
-        "y": 0.6684
+        "h": 2.4376,
+        "w": 5.1581,
+        "x": 0.5641,
+        "y": 4.5451
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1307992181088254,
-          0.1939975405470861,
-          0.1897828895449884,
-          0.1223217003299615
-        ],
+        "clip": "blob",
         "focus": true,
-        "mask_line": [
-          112,
-          67,
-          221
+        "line": [
+          78,
+          53,
+          207
         ],
-        "mask_overlay": false,
-        "theme_topic": "Sleepy Relieved",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 11,
+        "theme_topic": "Note Petite"
       },
-      "type": "image",
+      "type": "svg_image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.2948,
-        "w": 3.5704,
-        "x": 0.826,
-        "y": 3.179
+        "h": 0.273,
+        "w": 4.7266,
+        "x": 0.7703,
+        "y": 6.5566
       },
       "id": "object_006",
       "properties": {
@@ -206,17 +203,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Morning Therapeutic",
-        "theme_topic": "Sleepy Relieved",
+        "text": "Appear Brave Battle",
+        "theme_topic": "Note Petite",
         "underline": false
       },
       "type": "text",
@@ -224,90 +221,86 @@
     },
     {
       "bbox": {
-        "h": 2.8907,
-        "w": 1.8525,
-        "x": 4.9535,
-        "y": 3.9628
+        "h": 0.2609,
+        "w": 6.5892,
+        "x": 6.0467,
+        "y": 4.6891
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.028992940398246167,
-          0.32371910288308153,
-          0.2887957560176217,
-          0.31606448622162914
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
         ],
-        "focus": false,
-        "mask_line": [
-          80,
-          59,
-          117
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Sleepy Relieved",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "PANORAMIC STICKY",
+        "theme_topic": "Note Petite",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.9085,
-        "w": 1.8887,
-        "x": 6.967,
-        "y": 3.9541
+        "h": 0.6459,
+        "w": 6.5954,
+        "x": 6.0536,
+        "y": 5.1403
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.3207117996388835,
-          0.2974523707632461,
-          0.26752475237931034,
-          0.030126743824029956
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "mask_line": [
-          71,
-          221,
-          181
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Sleepy Relieved",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Trebuchet MS",
+        "font_size": 27,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Tap",
+        "theme_topic": "Note Petite",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.5382,
-        "w": 1.8666,
-        "x": 1.8667,
-        "y": 3.3484
+        "h": 0.7905,
+        "w": 6.556,
+        "x": 6.0746,
+        "y": 6.0482
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          129,
-          59,
-          195
-        ],
-        "bold": true,
+        "bg_color": null,
+        "bold": false,
         "color": [
-          125,
-          122,
-          185
+          192,
+          162,
+          216
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": true,
+        "font_face": "Verdana",
+        "font_size": 15,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "route disturbed",
-        "theme_topic": "Sleepy Relieved",
+        "text": "wet drum scatter women search hurried field unsuitable axiomatic motionless possess drunk impossible",
+        "theme_topic": "Note Petite",
         "underline": false
       },
       "type": "text",

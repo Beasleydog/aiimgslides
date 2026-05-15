@@ -8,13 +8,13 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 30,
+      "angle": 90,
       "archetype": "atomic_composition",
       "colors": [
         [
-          62,
-          166,
-          133
+          145,
+          159,
+          33
         ],
         [
           255,
@@ -23,14 +23,14 @@
         ]
       ],
       "fill": [
-        29,
-        151,
-        112
+        145,
+        159,
+        33
       ],
-      "focus": "bottom_right",
+      "focus": "top_left",
       "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Wretched"
+      "theme_topic": "Dinner"
     },
     "type": "background",
     "z_order": 0
@@ -45,338 +45,269 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.5052,
-        "w": 5.9883,
-        "x": 7.7505,
-        "y": -0.2368
+        "h": 4.6715,
+        "w": 6.5632,
+        "x": 5.9433,
+        "y": 2.5848
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
+        "dash": 1,
+        "family": "math",
         "fill": [
-          86,
-          110,
-          152
+          138,
+          92,
+          38
         ],
         "focus": false,
         "line": [
-          164,
-          108,
-          116
+          225,
+          33,
+          143
         ],
-        "line_width": 3.449539520633737,
-        "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Wretched"
+        "line_width": 2.9298511584399205,
+        "outline_only": true,
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Dinner"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.2171,
-        "w": 7.8807,
-        "x": 0.4173,
-        "y": 3.301
+        "h": 3.9993,
+        "w": 4.3892,
+        "x": 6.819,
+        "y": 3.8663
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "dash": 7,
+        "family": "arrows",
         "fill": [
-          57,
-          126,
-          173
+          194,
+          104,
+          117
         ],
         "focus": false,
         "line": [
-          146,
-          29,
-          33
+          95,
+          188,
+          67
         ],
-        "line_width": 5.262062586144296,
+        "line_width": 4.688244993579406,
         "outline_only": true,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Wretched"
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Dinner"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.4583,
-        "w": 4.8949,
-        "x": 8.464,
-        "y": 1.385
+        "h": 0.8779,
+        "w": 8.5995,
+        "x": 0.748,
+        "y": 5.828
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          164,
-          70,
-          66
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          187,
-          108,
-          44
-        ],
-        "line_width": 6.007089301205451,
-        "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Wretched"
+        "font_face": "Aptos Display",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Eggs Skillful",
+        "theme_topic": "Dinner",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 3.596,
-        "w": 4.344,
-        "x": 9.4523,
-        "y": -0.6494
+        "h": 1.0327,
+        "w": 2.8505,
+        "x": 6.836,
+        "y": 3.2476
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          123,
-          75,
-          146
+        "crop": [
+          0.17852763450057418,
+          0.1440964181360168,
+          0.2551861169575716,
+          0.2998868792474345
         ],
         "focus": false,
-        "line": [
-          140,
-          134,
-          198
+        "mask_line": [
+          71,
+          221,
+          181
         ],
-        "line_width": 3.8713287492872315,
-        "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Wretched"
+        "mask_overlay": false,
+        "theme_topic": "Dinner",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 7.4951,
-        "w": 6.2582,
-        "x": -0.0075,
-        "y": 0.0119
+        "h": 1.0622,
+        "w": 2.883,
+        "x": 9.8568,
+        "y": 3.1996
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          62,
-          166,
-          133
+        "crop": [
+          0.11050595396768977,
+          0.04421395111988637,
+          0.023354301756683283,
+          0.18731711220150876
         ],
-        "line": [
-          62,
-          166,
-          133
+        "focus": false,
+        "mask_line": [
+          107,
+          204,
+          170
         ],
-        "line_width": 0.9385129259106765,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Wretched"
+        "mask_overlay": false,
+        "theme_topic": "Dinner",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.9902,
-        "w": 3.7955,
-        "x": 0.6229,
-        "y": 3.9292
+        "h": 1.0841,
+        "w": 2.8715,
+        "x": 6.8514,
+        "y": 4.4115
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          153,
-          189,
-          225
+        "crop": [
+          0.0699619345052565,
+          0.24867785589967262,
+          0.2453561760668052,
+          0.31325152100906595
         ],
-        "band_cols": true,
-        "band_rows": true,
-        "body": [
-          62,
-          166,
-          133
+        "focus": false,
+        "mask_line": [
+          106,
+          88,
+          130
         ],
-        "border": [
-          150,
-          202,
-          131
-        ],
-        "border_dash": "solid",
-        "border_width": 0.9157457412961969,
-        "cells": [
-          [
-            "expand receive",
-            "stomach undesirable",
-            "stupid",
-            "tense",
-            "dangerous thing",
-            "numerous"
-          ],
-          [
-            "endurable",
-            "produce clean",
-            "remarkable",
-            "voice string",
-            "unsuitable",
-            "shelf"
-          ],
-          [
-            "secretary shoe",
-            "correct",
-            "rinse boot",
-            "colorful",
-            "legs idea",
-            "murder"
-          ],
-          [
-            "receipt",
-            "one sun",
-            "foamy courageous",
-            "airport",
-            "camp pray",
-            "habitual"
-          ],
-          [
-            "devilish",
-            "offend",
-            "zephyr sprout",
-            "sheep",
-            "listen",
-            "seashore snakes"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 14,
-        "has_header": true,
-        "header": [
-          25,
-          173,
-          112
-        ],
-        "rows": 5,
-        "text_color": [
-          34,
-          209,
-          193
-        ],
-        "theme_topic": "Wretched"
+        "mask_overlay": true,
+        "theme_topic": "Dinner",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "table",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.6368,
-        "w": 3.5045,
-        "x": 9.082,
-        "y": 0.7611
+        "h": 0.7803,
+        "w": 2.5699,
+        "x": 6.9965,
+        "y": 0.7293
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "crop": [
+          0.24907363743108055,
+          0.301596507164958,
+          0.25536843313121765,
+          0.18571582274292064
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 23,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Debt Letters Bath Driving Partner Finicky Luxuriant Coil",
-        "theme_topic": "Wretched",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          87,
+          186,
+          86
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Dinner",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.6582,
-        "w": 3.4892,
-        "x": 4.9281,
-        "y": 0.7484
+        "h": 1.0592,
+        "w": 2.8422,
+        "x": 9.8892,
+        "y": 0.5919
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "crop": [
+          0.06042264238617868,
+          0.013334900809834974,
+          0.06955351332724292,
+          0.0005101325833372528
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Sidewalk Hilarious Instrument Itchy Beginner",
-        "theme_topic": "Wretched",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          43,
+          54,
+          133
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Dinner",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.6194,
-        "w": 2.3656,
-        "x": 1.1822,
-        "y": 1.501
+        "h": 0.7708,
+        "w": 2.5647,
+        "x": 6.9954,
+        "y": 1.9978
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          160,
-          31,
-          145
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Bead Greasy",
-        "theme_topic": "Wretched",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          71,
+          221,
+          181
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Dinner",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 9
     }
   ],

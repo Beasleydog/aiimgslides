@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "back_color": [
-        132,
-        113,
-        209
+      "colors": [
+        [
+          232,
+          163,
+          45
+        ],
+        [
+          36,
+          178,
+          149
+        ]
       ],
       "fill": [
-        111,
-        88,
-        201
+        232,
+        163,
+        45
       ],
-      "fore_color": [
-        222,
-        133,
-        62
-      ],
-      "pattern": 7,
-      "style": "pattern",
-      "theme_topic": "Needless"
+      "focus": "center",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Bustling Curious"
     },
     "type": "background",
     "z_order": 0
@@ -41,126 +45,163 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.4589,
-        "w": 6.2455,
-        "x": -1.0383,
-        "y": 1.151
+        "h": 2.1715,
+        "w": 8.1363,
+        "x": 5.867,
+        "y": 6.2245
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "math",
+        "dash": 3,
+        "family": "arrows",
         "fill": [
-          113,
-          130,
-          173
+          161,
+          151,
+          100
         ],
         "focus": false,
         "line": [
-          28,
-          169,
-          133
+          41,
+          182,
+          67
         ],
-        "line_width": 7.013518487004302,
+        "line_width": 2.5492421005869312,
         "outline_only": true,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Needless"
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Bustling Curious"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.1836,
-        "w": 7.7959,
-        "x": -0.2891,
-        "y": -0.2596
+        "h": 3.2534,
+        "w": 6.2307,
+        "x": 7.973,
+        "y": -0.2212
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "ribbons",
         "fill": [
-          173,
-          92,
-          189
+          137,
+          147,
+          85
         ],
         "focus": false,
         "line": [
-          209,
-          198,
-          126
+          155,
+          176,
+          138
         ],
-        "line_width": 7.66069042273716,
-        "outline_only": true,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Needless"
+        "line_width": 4.902464258778231,
+        "outline_only": false,
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Bustling Curious"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.8103,
-        "w": 5.8321,
-        "x": 0.956,
-        "y": 1.0499
+        "h": 4.7905,
+        "w": 7.206,
+        "x": 1.9305,
+        "y": 1.6831
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          124,
-          104,
-          206
+          210,
+          148,
+          40
         ],
         "line": [
-          132,
-          113,
-          209
+          199,
+          140,
+          38
         ],
-        "line_width": 0.7886885492195477,
+        "line_width": 0.9136355586655717,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Needless"
+        "theme_topic": "Bustling Curious"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.3818,
-        "w": 12.2145,
-        "x": 0.5178,
-        "y": 1.4549
+        "h": 3.4568,
+        "w": 7.4903,
+        "x": 0.8418,
+        "y": 3.0126
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.21739178130571982,
-          0.2731626839399867,
-          0.1366547830746466,
-          0.22988050670329474
+        "band": [
+          76,
+          137,
+          65
         ],
-        "focus": true,
-        "mask_line": [
-          31,
-          117,
-          161
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          199,
+          140,
+          38
         ],
-        "mask_overlay": false,
-        "theme_topic": "Needless",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "border": [
+          32,
+          96,
+          215
+        ],
+        "border_dash": "solid",
+        "border_width": 1.3836654761461922,
+        "cells": [
+          [
+            "parcel",
+            "groan"
+          ],
+          [
+            "plants",
+            "handy motion"
+          ],
+          [
+            "mess",
+            "hand"
+          ],
+          [
+            "nonstop wholesale",
+            "error"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 15,
+        "has_header": true,
+        "header": [
+          55,
+          68,
+          79
+        ],
+        "rows": 4,
+        "text_color": [
+          55,
+          72,
+          101
+        ],
+        "theme_topic": "Bustling Curious"
       },
-      "type": "image",
+      "type": "table",
       "z_order": 4
     }
   ],

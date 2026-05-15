@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        38,
-        198,
-        94
-      ],
       "fill": [
-        198,
+        61,
         64,
         91
       ],
-      "fore_color": [
-        93,
-        169,
-        111
-      ],
-      "pattern": 29,
-      "style": "pattern",
-      "theme_topic": "Umbrella"
+      "style": "solid",
+      "theme_topic": "Modern Switch"
     },
     "type": "background",
     "z_order": 0
@@ -41,75 +30,202 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.4703,
-        "w": 3.1355,
-        "x": 6.1072,
-        "y": -0.2077
+        "h": 1.6598,
+        "w": 6.1963,
+        "x": 0.5974,
+        "y": 6.1236
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          56,
-          135,
-          38
+          88,
+          165,
+          155
         ],
         "focus": false,
         "line": [
-          162,
-          156,
-          133
+          173,
+          58,
+          124
         ],
-        "line_width": 7.220916370489564,
-        "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Umbrella"
+        "line_width": 6.427944102055371,
+        "outline_only": true,
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Modern Switch"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.9752,
-        "w": 5.6665,
-        "x": -0.0096,
-        "y": 3.53
+        "h": 3.2668,
+        "w": 4.6484,
+        "x": 9.2875,
+        "y": 4.0932
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 3,
-        "family": "panel",
+        "family": "arrows",
         "fill": [
-          209,
-          104,
-          125
+          162,
+          39,
+          85
         ],
+        "focus": false,
         "line": [
-          209,
-          104,
-          125
+          93,
+          194,
+          100
         ],
-        "line_width": 1.936130744744326,
+        "line_width": 2.6371050769081483,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Umbrella"
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Modern Switch"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.8068,
-        "w": 3.1976,
-        "x": 9.41,
-        "y": 0.6478
+        "h": 1.6953,
+        "w": 6.2173,
+        "x": -0.376,
+        "y": 6.4877
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          99,
+          98,
+          58
+        ],
+        "focus": false,
+        "line": [
+          227,
+          62,
+          115
+        ],
+        "line_width": 4.920539222482211,
+        "outline_only": false,
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Modern Switch"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.6554,
+        "w": 4.6444,
+        "x": 0.2624,
+        "y": -0.6332
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          171,
+          137,
+          131
+        ],
+        "focus": false,
+        "line": [
+          120,
+          156,
+          175
+        ],
+        "line_width": 6.924914027435893,
+        "outline_only": false,
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Modern Switch"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.2155,
+        "w": 0.2,
+        "x": 8.5627,
+        "y": 2.2484
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          174,
+          73,
+          92
+        ],
+        "line": [
+          91,
+          94,
+          116
+        ],
+        "line_width": 1.8012304378469883,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Modern Switch"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 1.4771,
+        "x": 9.3802,
+        "y": 5.6825
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          174,
+          73,
+          92
+        ],
+        "line": [
+          91,
+          94,
+          116
+        ],
+        "line_width": 4.4005588501306905,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Modern Switch"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 5.5653,
+        "w": 2.848,
+        "x": 0.6707,
+        "y": 0.7708
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -119,222 +235,96 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 21,
+        "font_face": "Aptos Display",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Amazing Rhetorical Regular",
-        "theme_topic": "Umbrella",
+        "text": "Burly",
+        "theme_topic": "Modern Switch",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.1063,
-        "w": 2.3534,
-        "x": 3.8992,
-        "y": 3.8418
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.10664015614602171,
-          0.12799348209858394,
-          0.12981347810248503,
-          0.048561385709837354
-        ],
-        "focus": false,
-        "mask_line": [
-          150,
-          151,
-          112
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Umbrella",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.2029,
-        "w": 0.206,
-        "x": 7.5235,
-        "y": 3.9643
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          38,
-          132,
-          88
-        ],
-        "line": [
-          209,
-          104,
-          125
-        ],
-        "line_width": 4.120433084039042,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Umbrella"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.2135,
-        "w": 2.2258,
-        "x": 6.5663,
-        "y": 4.1632
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "educate spot pinch night form",
-        "theme_topic": "Umbrella",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 0.2,
-        "x": 7.4617,
-        "y": 4.7125
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          38,
-          132,
-          88
-        ],
-        "line": [
-          209,
-          104,
-          125
-        ],
-        "line_width": 4.6150671167248305,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Umbrella"
-      },
-      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.2226,
-        "x": 6.5742,
-        "y": 4.7903
+        "h": 2.4581,
+        "w": 1.6117,
+        "x": 11.1535,
+        "y": 0.632
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          91,
+          94,
+          116
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "grey parcel strange poison chance childlike wooden",
-        "theme_topic": "Umbrella",
-        "underline": false
+        "line": [
+          91,
+          94,
+          116
+        ],
+        "line_width": 0.6117241768892279,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Modern Switch"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.2,
-        "x": 7.3157,
-        "y": 5.2797
+        "h": 2.152,
+        "w": 1.2838,
+        "x": 11.3122,
+        "y": 0.8304
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          38,
-          132,
-          88
-        ],
+        "clip": "blob",
+        "focus": false,
         "line": [
-          209,
-          104,
-          125
+          174,
+          73,
+          92
         ],
-        "line_width": 1.9924667674374512,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Umbrella"
+        "line_width": 18,
+        "theme_topic": "Modern Switch"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.2362,
-        "x": 6.5379,
-        "y": 5.4153
+        "h": 0.2981,
+        "w": 1.1691,
+        "x": 11.3253,
+        "y": 2.6672
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          174,
+          73,
+          92
         ],
         "font_face": "Aptos",
-        "font_size": 8,
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "thunder wrong language hum drip umbrella",
-        "theme_topic": "Umbrella",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Contain",
+        "theme_topic": "Modern Switch",
         "underline": false
       },
       "type": "text",
@@ -342,59 +332,57 @@
     },
     {
       "bbox": {
-        "h": 0.2006,
-        "w": 0.2,
-        "x": 7.6219,
-        "y": 5.929
+        "h": 0.2674,
+        "w": 1.5073,
+        "x": 9.1349,
+        "y": 0.7868
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          38,
-          132,
-          88
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
         ],
-        "line": [
-          209,
-          104,
-          125
-        ],
-        "line_width": 2.0655308366684637,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Umbrella"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "RATE",
+        "theme_topic": "Modern Switch",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.2207,
-        "x": 6.5699,
-        "y": 6.1133
+        "h": 0.6593,
+        "w": 1.4972,
+        "x": 9.1301,
+        "y": 1.2742
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
           246,
           248,
           252
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Aptos Display",
+        "font_size": 19,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "flavor weigh legs",
-        "theme_topic": "Umbrella",
+        "text": "Board Ship",
+        "theme_topic": "Modern Switch",
         "underline": false
       },
       "type": "text",
@@ -402,167 +390,181 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.2,
-        "x": 7.6828,
-        "y": 6.6659
+        "h": 0.8454,
+        "w": 1.5404,
+        "x": 9.1538,
+        "y": 2.1434
       },
       "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          38,
-          132,
-          88
-        ],
-        "line": [
-          209,
-          104,
-          125
-        ],
-        "line_width": 4.023223513332832,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Umbrella"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 2.2305,
-        "x": 6.5812,
-        "y": 6.7155
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          162,
+          165,
+          179
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "cars bite-sized magnificent greet pail sparkle",
-        "theme_topic": "Umbrella",
+        "text": "sedate temper request pail capricious vague trousers seashore owe raspy dinner fix mug immense cave crazy fine toys egg",
+        "theme_topic": "Modern Switch",
         "underline": false
       },
       "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 2.4884,
+        "w": 2.2304,
+        "x": 6.3981,
+        "y": 0.6679
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          91,
+          94,
+          116
+        ],
+        "line": [
+          91,
+          94,
+          116
+        ],
+        "line_width": 0.9929583763048636,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Modern Switch"
+      },
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.691,
-        "w": 0.1,
-        "x": 7.6228,
-        "y": 4.0792
+        "h": 2.1965,
+        "w": 1.9434,
+        "x": 6.5339,
+        "y": 0.797
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          224,
-          165,
-          179
+        "crop": [
+          0.10340611404711932,
+          0.12628433288244387,
+          0.11428644771381118,
+          0.12472113936961926
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Umbrella",
-        "width": 2.614946793373527
+        "focus": false,
+        "mask_line": [
+          87,
+          106,
+          217
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Modern Switch",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "connector",
+      "type": "image",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.6499,
-        "w": 0.3041,
-        "x": 7.4088,
-        "y": 5.3797
+        "h": 0.5166,
+        "w": 1.1723,
+        "x": 6.764,
+        "y": 3.6356
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          224,
-          165,
-          179
+        "dash": 4,
+        "family": "math",
+        "fill": [
+          64,
+          130,
+          109
         ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Umbrella",
-        "width": 1.6100731752522495
+        "focus": false,
+        "line": [
+          188,
+          182,
+          171
+        ],
+        "line_width": 1.7655287062370806,
+        "outline_only": false,
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Modern Switch"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.2824,
-        "w": 7.9185,
-        "x": 0.8057,
-        "y": 0.7719
+        "h": 0.8577,
+        "w": 0.8098,
+        "x": 7.9012,
+        "y": 0.7183
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
+        "dash": 4,
+        "family": "stars",
+        "fill": [
+          91,
+          94,
+          116
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "CONCERN COMPARE",
-        "theme_topic": "Umbrella",
-        "underline": false
+        "focus": false,
+        "line": [
+          162,
+          165,
+          179
+        ],
+        "line_width": 1.0551473243283152,
+        "outline_only": false,
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Modern Switch"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.8157,
-        "w": 7.8862,
-        "x": 0.7858,
-        "y": 1.2746
+        "h": 0.4674,
+        "w": 2.149,
+        "x": 4.1372,
+        "y": 2.4162
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          246,
-          248,
-          252
+          208,
+          34,
+          163
         ],
-        "font_face": "Georgia",
-        "font_size": 35,
-        "italic": false,
-        "kind": "header",
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": true,
+        "kind": "body",
         "margin": 0.04,
-        "text": "Lacking Smash",
-        "theme_topic": "Umbrella",
+        "text": "accidental highfalutin",
+        "theme_topic": "Modern Switch",
         "underline": false
       },
       "type": "text",
@@ -570,122 +572,157 @@
     },
     {
       "bbox": {
-        "h": 1.0327,
-        "w": 7.915,
-        "x": 0.8218,
-        "y": 2.2918
+        "h": 1.1165,
+        "w": 1.4633,
+        "x": 3.7275,
+        "y": 3.0997
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          224,
-          165,
-          179
+        "fill": [
+          64,
+          130,
+          109
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wet assorted minister quaint bite-sized wall reaction mix rabbits head afford various dislike physical argue dazzling pig picture sincere",
-        "theme_topic": "Umbrella",
-        "underline": false
+        "line": [
+          202,
+          139,
+          52
+        ],
+        "line_width": 2.7023834714770727,
+        "pattern": "blob",
+        "points": [
+          [
+            0.12,
+            0.2
+          ],
+          [
+            0.35,
+            0.04
+          ],
+          [
+            0.7,
+            0.12
+          ],
+          [
+            0.95,
+            0.42
+          ],
+          [
+            0.82,
+            0.82
+          ],
+          [
+            0.45,
+            0.98
+          ],
+          [
+            0.08,
+            0.72
+          ],
+          [
+            0.02,
+            0.38
+          ]
+        ],
+        "theme_topic": "Modern Switch"
       },
-      "type": "text",
+      "type": "freeform",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.7715,
-        "w": 1.2304,
-        "x": 7.8479,
-        "y": 4.8031
+        "h": 0.2,
+        "w": 0.7766,
+        "x": 4.4288,
+        "y": 4.3503
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 5,
         "family": "arrows",
         "fill": [
-          186,
-          207,
-          154
+          215,
+          184,
+          43
         ],
         "focus": false,
         "line": [
-          77,
-          185,
-          140
+          189,
+          212,
+          159
         ],
-        "line_width": 1.0929656581538314,
+        "line_width": 2.5687298901801032,
         "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Umbrella"
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Modern Switch"
       },
       "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.5448,
-        "w": 0.5759,
-        "x": 5.2375,
-        "y": 5.0424
+        "h": 0.9723,
+        "w": 0.8853,
+        "x": 4.5633,
+        "y": 6.4212
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          146,
-          215,
-          178
+        "dash": 2,
+        "family": "basic",
+        "fill": [
+          183,
+          225,
+          148
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "table pastoral sofa somber",
-        "theme_topic": "Umbrella",
-        "underline": false
+        "focus": false,
+        "line": [
+          114,
+          46,
+          155
+        ],
+        "line_width": 4.097456751936767,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Modern Switch"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.9948,
-        "w": 0.7124,
-        "x": 9.4236,
-        "y": 5.8096
+        "h": 0.816,
+        "w": 0.9529,
+        "x": 0.1941,
+        "y": 4.9855
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          179,
-          159,
-          85
+          74,
+          225,
+          27
         ],
         "focus": false,
         "line": [
-          41,
-          78,
-          127
+          58,
+          85,
+          68
         ],
-        "line_width": 4.5664177122146485,
+        "line_width": 1.7655148686819835,
         "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Umbrella"
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Modern Switch"
       },
       "type": "shape",
       "z_order": 22

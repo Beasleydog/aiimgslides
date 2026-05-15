@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        166,
-        230,
-        206
+      "back_color": [
+        131,
+        229,
+        67
       ],
-      "style": "solid",
-      "theme_topic": "Dirty Vessel"
+      "fill": [
+        84,
+        114,
+        108
+      ],
+      "fore_color": [
+        143,
+        193,
+        223
+      ],
+      "pattern": 14,
+      "style": "pattern",
+      "theme_topic": "Pancake"
     },
     "type": "background",
     "z_order": 0
@@ -30,45 +41,31 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.6274,
-        "w": 5.3646,
-        "x": 0.8292,
-        "y": 2.1016
+        "h": 2.4635,
+        "w": 3.9548,
+        "x": 0.5961,
+        "y": 4.5625
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "chemical",
-          "bridge",
-          "mend",
-          "enchanting"
+        "crop": [
+          0.047350500804698444,
+          0.1894582723156536,
+          0.14121164346597362,
+          0.12904164743488442
         ],
-        "chart": "area",
         "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 1,
-        "series": [
-          {
-            "color": [
-              216,
-              140,
-              183
-            ],
-            "name": "behavior please",
-            "values": [
-              35,
-              25,
-              49,
-              71
-            ]
-          }
+        "mask_line": [
+          255,
+          238,
+          103
         ],
-        "theme_topic": "Dirty Vessel",
-        "title": "dry advise"
+        "mask_overlay": false,
+        "theme_topic": "Pancake",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 1
     }
   ],

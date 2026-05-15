@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "fill": [
-        120,
-        58,
-        170
+      "colors": [
+        [
+          25,
+          30,
+          39
+        ],
+        [
+          51,
+          173,
+          218
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Quartz Dull"
+      "fill": [
+        25,
+        30,
+        39
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Dispensable"
     },
     "type": "background",
     "z_order": 0
@@ -30,74 +45,73 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.7395,
-        "w": 8.871,
-        "x": 0.7434,
-        "y": 6.3994
+        "h": 3.0388,
+        "w": 5.0061,
+        "x": 7.9473,
+        "y": 2.3725
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "ribbons",
+        "family": "symbols",
         "fill": [
-          124,
-          49,
-          68
+          131,
+          83,
+          51
         ],
         "focus": false,
         "line": [
-          68,
-          36,
-          93
+          170,
+          32,
+          71
         ],
-        "line_width": 7.940907357588031,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Quartz Dull"
+        "line_width": 3.6655219847617664,
+        "outline_only": true,
+        "ppt_type": 174,
+        "shape": "funnel",
+        "theme_topic": "Dispensable"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.3068,
-        "w": 4.3473,
-        "x": -1.1173,
-        "y": 2.0889
+        "h": 5.1402,
+        "w": 8.4466,
+        "x": 0.5704,
+        "y": 0.8918
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          158,
-          150,
-          121
+          36,
+          43,
+          55
         ],
-        "focus": false,
         "line": [
-          67,
-          77,
-          104
+          43,
+          51,
+          64
         ],
-        "line_width": 3.9455383685705288,
-        "outline_only": true,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Quartz Dull"
+        "line_width": 1.846482525410129,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Dispensable"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1345,
-        "w": 8.4832,
-        "x": 2.6054,
-        "y": 0.6602
+        "h": 1.1481,
+        "w": 6.1545,
+        "x": 3.3255,
+        "y": 0.6548
       },
       "id": "object_003",
       "properties": {
@@ -105,17 +119,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          250,
-          255
+          246,
+          247,
+          249
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 26,
+        "font_face": "Arial",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Paddle Ceaseless Sheep Expensive",
-        "theme_topic": "Quartz Dull",
+        "text": "Carriage Fallacious Degree",
+        "theme_topic": "Dispensable",
         "underline": false
       },
       "type": "text",
@@ -123,41 +137,39 @@
     },
     {
       "bbox": {
-        "h": 5.049,
-        "w": 4.9491,
-        "x": 7.8337,
-        "y": 2.0168
+        "h": 1.9509,
+        "w": 12.2441,
+        "x": 0.5404,
+        "y": 1.972
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
+        "crop": [
+          0.16872870688120287,
+          0.21745726674176732,
+          0.016862011233211315,
+          0.16105447714948276
         ],
-        "line": [
-          139,
-          78,
-          190
+        "focus": true,
+        "mask_line": [
+          48,
+          116,
+          37
         ],
-        "line_width": 3.1691931287801998,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Quartz Dull"
+        "mask_overlay": false,
+        "theme_topic": "Dispensable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.136,
-        "w": 4.572,
-        "x": 8.0074,
-        "y": 2.9063
+        "h": 0.9193,
+        "w": 3.0431,
+        "x": 4.2671,
+        "y": 4.4916
       },
       "id": "object_005",
       "properties": {
@@ -165,17 +177,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          250,
-          255
+          205,
+          211,
+          173
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 51,
+        "font_face": "Arial",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "675",
-        "theme_topic": "Quartz Dull",
+        "text": "Coast Stupendous Imported",
+        "theme_topic": "Dispensable",
         "underline": false
       },
       "type": "text",
@@ -183,49 +195,31 @@
     },
     {
       "bbox": {
-        "h": 5.0379,
-        "w": 6.8807,
-        "x": 0.552,
-        "y": 1.9989
+        "h": 1.2459,
+        "w": 3.0361,
+        "x": 4.2807,
+        "y": 5.6831
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "typical",
-          "disastrous",
-          "ablaze",
-          "slap",
-          "cautious",
-          "grieving"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
         ],
-        "chart": "pie",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              112,
-              39,
-              197
-            ],
-            "name": "scandalous",
-            "values": [
-              67,
-              14,
-              79,
-              88,
-              75,
-              91
-            ]
-          }
-        ],
-        "theme_topic": "Quartz Dull",
-        "title": "endurable volleyball discover leg injure"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "willing cake modern disgusting psychedelic head common vague lively bee makeshift lacking brainy annoying charge pen ludicrous teaching intelligent",
+        "theme_topic": "Dispensable",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 6
     }
   ],

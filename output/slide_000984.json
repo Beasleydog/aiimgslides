@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "fill": [
-        198,
-        64,
-        91
+      "colors": [
+        [
+          161,
+          206,
+          148
+        ],
+        [
+          222,
+          133,
+          62
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Horn"
+      "fill": [
+        247,
+        248,
+        246
+      ],
+      "focus": "center",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Grey"
     },
     "type": "background",
     "z_order": 0
@@ -30,73 +45,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.1823,
-        "w": 4.2948,
-        "x": 9.9601,
-        "y": 2.8993
+        "h": 2.0923,
+        "w": 4.7817,
+        "x": 2.4103,
+        "y": 5.9469
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          177,
-          123,
-          123
+          141,
+          180,
+          155
         ],
         "focus": false,
         "line": [
-          67,
-          125,
-          184
+          141,
+          222,
+          96
         ],
-        "line_width": 4.813464740564043,
-        "outline_only": true,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Horn"
+        "line_width": 4.509018194930489,
+        "outline_only": false,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Grey"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0649,
-        "w": 13.3459,
-        "x": -0.0188,
-        "y": 0.0039
+        "h": 1.5247,
+        "w": 7.3928,
+        "x": 3.1175,
+        "y": 1.8653
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          207,
-          97,
-          119
+          202,
+          104,
+          150
         ],
+        "focus": false,
         "line": [
-          207,
-          97,
-          119
+          58,
+          89,
+          191
         ],
-        "line_width": 3.4781286047282403,
+        "line_width": 6.795993426567266,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Horn"
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Grey"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.0256,
-        "w": 7.6985,
-        "x": 0.5747,
-        "y": 0.3421
+        "h": 1.3678,
+        "w": 7.3726,
+        "x": 0.5449,
+        "y": 0.3517
       },
       "id": "object_003",
       "properties": {
@@ -104,17 +120,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          30,
+          35,
+          42
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 27,
+        "font_face": "Georgia",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Wall Porter Quarrelsome",
-        "theme_topic": "Horn",
+        "text": "Mask Talented Finicky",
+        "theme_topic": "Grey",
         "underline": false
       },
       "type": "text",
@@ -122,59 +138,57 @@
     },
     {
       "bbox": {
-        "h": 2.3876,
-        "w": 1.5359,
-        "x": 0.5578,
-        "y": 4.6045
+        "h": 0.8257,
+        "w": 5.6426,
+        "x": 0.7008,
+        "y": 4.7145
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          207,
-          97,
-          119
-        ],
-        "line": [
-          207,
-          97,
-          119
-        ],
-        "line_width": 4.261347752575684,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Horn"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.4648,
-        "w": 1.0615,
-        "x": 0.7955,
-        "y": 5.5045
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          196,
+          211,
+          215
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Georgia",
+        "font_size": 33,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Door Married",
+        "theme_topic": "Grey",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.0625,
+        "w": 5.6386,
+        "x": 0.7178,
+        "y": 5.8106
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          124,
+          135
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Suspend",
-        "theme_topic": "Horn",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "tightfisted lean sock curve wandering broad porter suspect",
+        "theme_topic": "Grey",
         "underline": false
       },
       "type": "text",
@@ -182,117 +196,111 @@
     },
     {
       "bbox": {
-        "h": 0.7285,
-        "w": 1.047,
-        "x": 0.8187,
-        "y": 6.0707
+        "h": 2.3837,
+        "w": 5.954,
+        "x": 6.8445,
+        "y": 4.6122
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          224,
-          165,
-          179
+        "clip": "blob",
+        "focus": true,
+        "line": [
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "knowledgeable unwieldy cub thankful omniscient absent abundant upset quartz",
-        "theme_topic": "Horn",
-        "underline": false
+        "line_width": 11,
+        "theme_topic": "Grey"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.3896,
-        "w": 1.5701,
-        "x": 2.3378,
-        "y": 4.603
+        "h": 0.2935,
+        "w": 5.5156,
+        "x": 7.0642,
+        "y": 6.5345
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          207,
-          97,
-          119
-        ],
-        "line": [
-          207,
-          97,
-          119
-        ],
-        "line_width": 0.5427501587634439,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Horn"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.4705,
-        "w": 1.0417,
-        "x": 2.5754,
-        "y": 5.5051
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Feeling Rule",
-        "theme_topic": "Horn",
+        "text": "Morning Nostalgic Noise",
+        "theme_topic": "Grey",
         "underline": false
       },
       "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 2.4019,
+        "w": 1.3365,
+        "x": 0.5549,
+        "y": 1.8339
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          236,
+          240,
+          242
+        ],
+        "line": [
+          236,
+          240,
+          242
+        ],
+        "line_width": 1.1052910372673055,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Grey"
+      },
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.7117,
-        "w": 1.0698,
-        "x": 2.5947,
-        "y": 6.0825
+        "h": 0.4716,
+        "w": 0.8708,
+        "x": 0.8054,
+        "y": 2.7706
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          224,
-          165,
-          179
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "regular alert puffy post selective wobble oatmeal pale cautious swanky carpenter grateful",
-        "theme_topic": "Horn",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Descriptive",
+        "theme_topic": "Grey",
         "underline": false
       },
       "type": "text",
@@ -300,117 +308,120 @@
     },
     {
       "bbox": {
-        "h": 2.3743,
-        "w": 2.3635,
-        "x": 4.0933,
-        "y": 4.6107
+        "h": 0.7681,
+        "w": 0.877,
+        "x": 0.818,
+        "y": 3.3043
       },
       "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          124,
+          135
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "huge mask push noise fancy ship cream fair earn recondite unaccountable zesty circle corn",
+        "theme_topic": "Grey",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 2.3845,
+        "w": 1.3815,
+        "x": 2.1343,
+        "y": 1.8411
+      },
+      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          207,
-          97,
-          119
+          236,
+          240,
+          242
         ],
         "line": [
-          207,
-          97,
-          119
+          236,
+          240,
+          242
         ],
-        "line_width": 1.6250812559135552,
+        "line_width": 1.7324859057904172,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Horn"
+        "theme_topic": "Grey"
       },
       "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.4399,
-        "w": 1.8853,
-        "x": 4.3577,
-        "y": 5.526
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
-        ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Fat Mere",
-        "theme_topic": "Horn",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.7334,
-        "w": 1.893,
-        "x": 4.3487,
-        "y": 6.0798
+        "h": 0.5865,
+        "w": 0.5454,
+        "x": 2.3687,
+        "y": 2.0984
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          224,
-          165,
-          179
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          138,
+          33,
+          226
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "compare spotless decorate secret obtain cemetery stomach living sugar beneficial",
-        "theme_topic": "Horn",
-        "underline": false
+        "focus": false,
+        "line": [
+          83,
+          157,
+          158
+        ],
+        "line_width": 1.6821244041506234,
+        "outline_only": false,
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Grey"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.8073,
-        "w": 1.0168,
-        "x": 0.5796,
-        "y": 3.2129
+        "h": 0.4725,
+        "w": 0.9088,
+        "x": 2.3815,
+        "y": 2.7551
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "kill picayune ossified flaky fade small jealous",
-        "theme_topic": "Horn",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Picayune Signal",
+        "theme_topic": "Grey",
         "underline": false
       },
       "type": "text",
@@ -418,10 +429,10 @@
     },
     {
       "bbox": {
-        "h": 0.801,
-        "w": 1.255,
-        "x": 1.9242,
-        "y": 3.2094
+        "h": 0.7374,
+        "w": 0.8944,
+        "x": 2.3856,
+        "y": 3.3157
       },
       "id": "object_014",
       "properties": {
@@ -429,17 +440,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          115,
+          124,
+          135
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "electric minor governor",
-        "theme_topic": "Horn",
+        "text": "payment circle power freezing attractive slippery magical voice invent partner elegant",
+        "theme_topic": "Grey",
         "underline": false
       },
       "type": "text",
@@ -447,70 +458,70 @@
     },
     {
       "bbox": {
-        "h": 0.8317,
-        "w": 1.1489,
-        "x": 3.4968,
-        "y": 3.2116
+        "h": 2.3961,
+        "w": 1.1761,
+        "x": 3.7333,
+        "y": 1.8397
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          236,
+          240,
+          242
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "boy hilarious lunch addicted vagabond crawl smash",
-        "theme_topic": "Horn",
-        "underline": false
+        "line": [
+          236,
+          240,
+          242
+        ],
+        "line_width": 0.5234769423072222,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Grey"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.562,
-        "w": 0.5415,
-        "x": 5.5412,
-        "y": 2.6646
+        "h": 0.4726,
+        "w": 0.6789,
+        "x": 3.9594,
+        "y": 2.7444
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          117,
+          161
         ],
-        "line": [
-          207,
-          97,
-          119
-        ],
-        "line_width": 2.320383590155998,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Horn"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Exultant Mass",
+        "theme_topic": "Grey",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.8061,
-        "w": 1.4738,
-        "x": 4.9193,
-        "y": 3.2351
+        "h": 0.7202,
+        "w": 0.6595,
+        "x": 3.9606,
+        "y": 3.2937
       },
       "id": "object_017",
       "properties": {
@@ -518,17 +529,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          115,
+          124,
+          135
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "torpid observation shrill",
-        "theme_topic": "Horn",
+        "text": "common celery boil meat sticky impolite waiting tender",
+        "theme_topic": "Grey",
         "underline": false
       },
       "type": "text",
@@ -536,39 +547,41 @@
     },
     {
       "bbox": {
-        "h": 2.3931,
-        "w": 5.9364,
-        "x": 6.8747,
-        "y": 4.5848
+        "h": 2.4099,
+        "w": 1.3448,
+        "x": 5.127,
+        "y": 1.8472
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1903234205309721,
-          0.07589737563440181,
-          0.0944535232832657,
-          0.2139367598967145
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          236,
+          240,
+          242
         ],
-        "focus": true,
-        "mask_line": [
-          96,
-          165,
-          250
+        "line": [
+          236,
+          240,
+          242
         ],
-        "mask_overlay": false,
-        "theme_topic": "Horn",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.2647737255609794,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Grey"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.3024,
-        "w": 5.5122,
-        "x": 7.0469,
-        "y": 6.5436
+        "h": 0.4636,
+        "w": 0.8658,
+        "x": 5.3512,
+        "y": 2.7327
       },
       "id": "object_019",
       "properties": {
@@ -576,17 +589,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Tasty Vague Brick",
-        "theme_topic": "Horn",
+        "text": "Roll",
+        "theme_topic": "Grey",
         "underline": false
       },
       "type": "text",
@@ -594,28 +607,28 @@
     },
     {
       "bbox": {
-        "h": 0.2641,
-        "w": 5.6048,
-        "x": 7.0178,
-        "y": 1.9816
+        "h": 0.7482,
+        "w": 0.869,
+        "x": 5.393,
+        "y": 3.2884
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          96,
-          165,
-          250
+          115,
+          124,
+          135
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "IMPOSSIBLE GORGEOUS",
-        "theme_topic": "Horn",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "advice receptive bolt hover trees magnificent wheel overjoyed zipper",
+        "theme_topic": "Grey",
         "underline": false
       },
       "type": "text",
@@ -623,28 +636,28 @@
     },
     {
       "bbox": {
-        "h": 0.647,
-        "w": 5.6341,
-        "x": 6.9894,
-        "y": 2.4418
+        "h": 0.4226,
+        "w": 1.3466,
+        "x": 5.9744,
+        "y": 6.3592
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          246,
-          248,
-          252
+          146,
+          152,
+          69
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 32,
+        "font_face": "Aptos",
+        "font_size": 17,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Eggnog Chess Steadfast",
-        "theme_topic": "Horn",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Clover",
+        "theme_topic": "Grey",
         "underline": false
       },
       "type": "text",
@@ -652,121 +665,127 @@
     },
     {
       "bbox": {
-        "h": 0.7791,
-        "w": 5.6438,
-        "x": 7.0105,
-        "y": 3.34
+        "h": 0.7562,
+        "w": 0.7501,
+        "x": 4.3859,
+        "y": 0.8921
       },
       "id": "object_022",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "symbols",
+        "fill": [
+          41,
+          185,
+          207
+        ],
+        "focus": false,
+        "line": [
+          109,
+          25,
+          224
+        ],
+        "line_width": 1.5491956113755914,
+        "outline_only": true,
+        "ppt_type": 19,
+        "shape": "no_symbol",
+        "theme_topic": "Grey"
+      },
+      "type": "shape",
+      "z_order": 22
+    },
+    {
+      "bbox": {
+        "h": 0.561,
+        "w": 1.972,
+        "x": 10.3525,
+        "y": 2.0386
+      },
+      "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          42,
+          133,
+          229
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "different pointless spiteful order inquisitive beef quarrelsome romantic confused true grease teeny-tiny snobbish observation necessary unfasten normal pass bite-sized thought",
-        "theme_topic": "Horn",
-        "underline": false
+        "text": "decorous",
+        "theme_topic": "Grey",
+        "underline": true
       },
       "type": "text",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.7348,
-        "w": 1.2111,
-        "x": 5.0089,
-        "y": 0.9805
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          185,
-          79,
-          87
-        ],
-        "focus": false,
-        "line": [
-          119,
-          229,
-          100
-        ],
-        "line_width": 3.6138864214275825,
-        "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Horn"
-      },
-      "type": "shape",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.3875,
-        "w": 1.759,
-        "x": 2.3908,
-        "y": 6.7614
+        "h": 0.9183,
+        "w": 0.4277,
+        "x": 11.7785,
+        "y": 4.7985
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          93,
-          113,
-          68
+        "dash": 2,
+        "family": "stars",
+        "fill": [
+          191,
+          90,
+          114
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Stupendous",
-        "theme_topic": "Horn",
-        "underline": true
+        "focus": false,
+        "line": [
+          51,
+          203,
+          170
+        ],
+        "line_width": 3.1481277103953453,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Grey"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 24
     },
     {
       "bbox": {
-        "h": 0.6475,
-        "w": 2.1158,
-        "x": 2.0049,
-        "y": 0.9206
+        "h": 0.8431,
+        "w": 1.1709,
+        "x": 7.7309,
+        "y": 0.4854
       },
       "id": "object_025",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          46,
-          74,
-          31
+        "dash": 2,
+        "family": "symbols",
+        "fill": [
+          221,
+          80,
+          26
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "visit language",
-        "theme_topic": "Horn",
-        "underline": false
+        "focus": false,
+        "line": [
+          179,
+          89,
+          62
+        ],
+        "line_width": 2.8457520047486446,
+        "outline_only": false,
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Grey"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 25
     }
   ],

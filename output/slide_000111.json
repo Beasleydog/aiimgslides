@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 30,
+      "angle": 120,
       "archetype": "atomic_composition",
       "colors": [
         [
-          83,
-          176,
-          146
+          198,
+          64,
+          91
         ],
         [
-          255,
-          238,
-          103
+          92,
+          147,
+          141
         ]
       ],
       "fill": [
-        29,
-        151,
-        112
+        198,
+        64,
+        91
       ],
       "focus": "top_left",
-      "gradient_type": "shape",
+      "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Industry"
+      "theme_topic": "Applaud"
     },
     "type": "background",
     "z_order": 0
@@ -45,105 +45,95 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.1614,
-        "w": 5.7137,
-        "x": 0.5633,
-        "y": 1.8601
+        "h": 4.4452,
+        "w": 7.5051,
+        "x": 5.9615,
+        "y": 3.0327
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.01131362474894257,
-          0.12104443247486506,
-          0.04122927958938197,
-          0.01613643389307083
+        "dash": 3,
+        "family": "callouts",
+        "fill": [
+          86,
+          133,
+          89
         ],
-        "focus": true,
-        "mask_line": [
-          110,
-          140,
-          81
+        "focus": false,
+        "line": [
+          108,
+          98,
+          206
         ],
-        "mask_overlay": false,
-        "theme_topic": "Industry",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 6.964856113307231,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Applaud"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.1508,
-        "w": 6.1432,
-        "x": 6.6324,
-        "y": 1.8664
+        "h": 4.5099,
+        "w": 8.954,
+        "x": 4.8666,
+        "y": 2.6322
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 4,
+        "family": "math",
         "fill": [
-          83,
-          176,
-          146
+          179,
+          98,
+          48
         ],
+        "focus": false,
         "line": [
-          83,
-          176,
-          146
+          61,
+          185,
+          214
         ],
-        "line_width": 0.7475175617004655,
+        "line_width": 2.655175250382126,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Industry"
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Applaud"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.653,
-        "w": 5.6563,
-        "x": 6.854,
-        "y": 2.0964
+        "h": 5.0288,
+        "w": 6.4977,
+        "x": 0.552,
+        "y": 2.0301
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "heady",
-          "crook",
-          "passenger",
-          "development"
+        "crop": [
+          0.08164522605869541,
+          0.20516567381611306,
+          0.17294069295380182,
+          0.0009970959056830853
         ],
-        "chart": "doughnut",
         "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              64,
-              131,
-              131
-            ],
-            "name": "standing",
-            "values": [
-              91,
-              73,
-              42,
-              57
-            ]
-          }
+        "mask_line": [
+          62,
+          211,
+          163
         ],
-        "theme_topic": "Industry",
-        "title": "dolls slap tall pen"
+        "mask_overlay": true,
+        "theme_topic": "Applaud",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 3
     }
   ],

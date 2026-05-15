@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 180,
       "archetype": "atomic_composition",
-      "fill": [
-        31,
-        87,
-        166
+      "colors": [
+        [
+          113,
+          150,
+          135
+        ],
+        [
+          244,
+          180,
+          76
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Brown Imminent"
+      "fill": [
+        56,
+        108,
+        88
+      ],
+      "focus": "top_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Tasteful"
     },
     "type": "background",
     "z_order": 0
@@ -30,66 +45,63 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.9657,
-        "w": 7.1097,
-        "x": 3.3585,
-        "y": 2.4586
+        "h": 4.2274,
+        "w": 4.8751,
+        "x": 5.3976,
+        "y": 0.1258
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "math",
+        "dash": 5,
+        "family": "flowchart",
         "fill": [
-          165,
-          175,
-          133
+          140,
+          157,
+          59
         ],
         "focus": false,
         "line": [
-          209,
-          41,
-          77
+          230,
+          71,
+          109
         ],
-        "line_width": 5.255814538462868,
+        "line_width": 3.559340342215907,
         "outline_only": false,
-        "ppt_type": 164,
-        "shape": "minus",
-        "theme_topic": "Brown Imminent"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Tasteful"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.2498,
-        "w": 7.1611,
-        "x": 7.2482,
-        "y": 4.8388
+        "h": 1.0979,
+        "w": 5.734,
+        "x": 0.5301,
+        "y": 0.3508
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
-        "fill": [
-          90,
-          159,
-          93
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          227,
-          151,
-          180
-        ],
-        "line_width": 6.778797405714714,
-        "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Brown Imminent"
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Early Calculating Parsimonious",
+        "theme_topic": "Tasteful",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     }
   ],

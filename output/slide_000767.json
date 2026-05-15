@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "fill": [
-        145,
-        105,
-        172
+      "colors": [
+        [
+          59,
+          167,
+          226
+        ],
+        [
+          181,
+          156,
+          76
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Surround"
+      "fill": [
+        87,
+        88,
+        38
+      ],
+      "focus": "top_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Balance Bead"
     },
     "type": "background",
     "z_order": 0
@@ -30,195 +45,198 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.2293,
-        "w": 3.1697,
-        "x": 9.8448,
-        "y": -0.4094
+        "h": 4.3341,
+        "w": 7.0034,
+        "x": 7.4855,
+        "y": 1.2625
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          197,
-          137,
-          206
+          165,
+          179,
+          129
         ],
         "focus": false,
         "line": [
-          105,
-          123,
-          225
+          176,
+          70,
+          210
         ],
-        "line_width": 7.866882929451334,
-        "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Surround"
+        "line_width": 4.10290258684819,
+        "outline_only": true,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Balance Bead"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.3374,
-        "w": 3.8467,
-        "x": 1.9757,
-        "y": 0.2097
+        "h": 2.1124,
+        "w": 8.3952,
+        "x": 5.3961,
+        "y": 6.2585
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          72,
-          100,
-          88
+          189,
+          161,
+          112
         ],
         "focus": false,
         "line": [
-          47,
-          90,
-          52
+          189,
+          116,
+          211
         ],
-        "line_width": 6.1475196248393935,
+        "line_width": 3.746926563139157,
         "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Surround"
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Balance Bead"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.4944,
-        "w": 8.9578,
-        "x": -0.4934,
-        "y": -0.4659
+        "h": 4.8037,
+        "w": 4.0674,
+        "x": 3.4584,
+        "y": 0.5697
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "callouts",
         "fill": [
-          120,
-          96,
-          209
+          137,
+          54,
+          137
         ],
         "focus": false,
         "line": [
-          194,
-          147,
-          137
+          109,
+          170,
+          142
         ],
-        "line_width": 2.5336983385553697,
+        "line_width": 4.360898730595544,
         "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Surround"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Balance Bead"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5644,
-        "w": 2.87,
-        "x": 0.6679,
-        "y": 0.7262
+        "h": 5.0009,
+        "w": 7.9152,
+        "x": 5.4205,
+        "y": 0.6558
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          48,
+          175,
+          73
         ],
-        "font_face": "Arial",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Delicious",
-        "theme_topic": "Surround",
-        "underline": false
+        "focus": false,
+        "line": [
+          79,
+          219,
+          45
+        ],
+        "line_width": 2.4007709209294457,
+        "outline_only": true,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Balance Bead"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.9731,
-        "w": 4.3722,
-        "x": 3.793,
-        "y": 0.7033
+        "h": 3.7186,
+        "w": 5.9505,
+        "x": 0.0147,
+        "y": 0.0047
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          164,
-          132,
-          187
+          114,
+          115,
+          73
         ],
         "line": [
-          164,
-          132,
-          187
+          114,
+          115,
+          73
         ],
-        "line_width": 2.0552733412904614,
+        "line_width": 1.5745710540729498,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Surround"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Balance Bead"
       },
       "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.6671,
-        "w": 4.0697,
-        "x": 3.9287,
-        "y": 0.8442
+        "h": 1.1819,
+        "w": 5.2707,
+        "x": 0.547,
+        "y": 0.3424
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.05819964003629802,
-          0.007150520001107444,
-          0.20176250949911767,
-          0.09257312372220425
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": true,
-        "mask_line": [
-          213,
-          111,
-          89
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Surround",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Trebuchet MS",
+        "font_size": 27,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Satisfy Modern",
+        "theme_topic": "Balance Bead",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.2929,
-        "w": 3.941,
-        "x": 4.0143,
-        "y": 3.1869
+        "h": 1.1672,
+        "w": 3.3974,
+        "x": 4.4103,
+        "y": 2.0443
       },
       "id": "object_007",
       "properties": {
@@ -226,17 +244,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Trebuchet MS",
+        "font_size": 21,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Scatter",
-        "theme_topic": "Surround",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Clover Weak Changeable Spotless Flaky Rampant",
+        "theme_topic": "Balance Bead",
         "underline": false
       },
       "type": "text",
@@ -244,387 +262,397 @@
     },
     {
       "bbox": {
-        "h": 2.9832,
-        "w": 4.3583,
-        "x": 8.3024,
-        "y": 0.6718
+        "h": 0.3626,
+        "w": 1.8926,
+        "x": 4.3911,
+        "y": 3.3802
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2618127084971971,
-          0.292816897741583,
-          0.201267758447642,
-          0.2609094328243797
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
         ],
-        "focus": true,
-        "mask_line": [
-          53,
-          116,
-          139
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Surround",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "VAGABOND",
+        "theme_topic": "Balance Bead",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.261,
-        "w": 2.8643,
-        "x": 3.8034,
-        "y": 4.142
+        "h": 2.456,
+        "w": 12.2379,
+        "x": 0.5543,
+        "y": 4.5757
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          164,
-          132,
-          187
+        "crop": [
+          0.021725203731911346,
+          0.27299277753198486,
+          0.0060480098682291275,
+          0.11792193410530791
         ],
-        "line": [
-          164,
-          132,
-          187
+        "focus": true,
+        "mask_line": [
+          138,
+          64,
+          117
         ],
-        "line_width": 1.09702802789818,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Surround"
+        "mask_overlay": true,
+        "theme_topic": "Balance Bead",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.9799,
-        "w": 2.5789,
-        "x": 3.9838,
-        "y": 4.2967
+        "h": 0.7816,
+        "w": 4.1487,
+        "x": 8.5026,
+        "y": 1.9777
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.14239381401671547,
-          0.016628520412559095,
-          0.21509973512290886,
-          0.17013550192007304
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "mask_line": [
-          156,
-          112,
-          57
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Surround",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Trebuchet MS",
+        "font_size": 39,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Approval",
+        "theme_topic": "Balance Bead",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.3016,
-        "w": 2.8784,
-        "x": 6.8338,
-        "y": 4.1255
+        "h": 1.0102,
+        "w": 4.1215,
+        "x": 8.4987,
+        "y": 3.0095
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.21242652485545374,
-          0.08210100222250354,
-          0.04255142099634132,
-          0.037539023451905
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          174,
+          176,
+          155
         ],
-        "focus": false,
-        "mask_line": [
-          255,
-          198,
-          74
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Surround",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "decay hum premium juvenile cold economic entertain protective suggestion cagey develop better oranges direful wonder red gold creature inquisitive moaning fearful",
+        "theme_topic": "Balance Bead",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 1.2704,
-        "w": 2.8467,
-        "x": 9.8242,
-        "y": 4.1339
+        "h": 2.2721,
+        "w": 3.3507,
+        "x": 0.5635,
+        "y": 1.8442
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "panel",
         "fill": [
-          164,
-          132,
-          187
+          114,
+          115,
+          73
         ],
         "line": [
-          164,
-          132,
-          187
+          114,
+          115,
+          73
         ],
-        "line_width": 2.580420621038942,
+        "line_width": 0.4614335447047211,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Surround"
+        "theme_topic": "Balance Bead"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.9402,
-        "w": 2.5684,
-        "x": 9.9612,
-        "y": 4.2848
+        "h": 0.8655,
+        "w": 3.0087,
+        "x": 0.7312,
+        "y": 2.3513
       },
       "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.13269348141793058,
-          0.30196463008362573,
-          0.29607907851439613,
-          0.18254966969093403
-        ],
-        "focus": false,
-        "mask_line": [
-          171,
-          195,
-          155
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Surround",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 1.2651,
-        "w": 2.8648,
-        "x": 3.8026,
-        "y": 5.5622
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          164,
-          132,
-          187
-        ],
-        "line": [
-          164,
-          132,
-          187
-        ],
-        "line_width": 1.3994434963863291,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Surround"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.9934,
-        "w": 2.5861,
-        "x": 3.9579,
-        "y": 5.7203
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1370507164875397,
-          0.0015748799828062866,
-          0.18279023204986405,
-          0.02854212081560113
-        ],
-        "focus": false,
-        "mask_line": [
-          142,
-          99,
-          92
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Surround",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.5999,
-        "w": 1.5764,
-        "x": 11.6017,
-        "y": 3.5399
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          93,
-          78,
-          94
-        ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Understood Five",
-        "theme_topic": "Surround",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.3316,
-        "w": 0.7987,
-        "x": 3.9645,
-        "y": 4.2493
-      },
-      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          60,
-          197,
-          100
+          87,
+          88,
+          38
         ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Picayune Cave Line",
-        "theme_topic": "Surround",
+        "font_face": "Trebuchet MS",
+        "font_size": 41,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "6x",
+        "theme_topic": "Balance Bead",
         "underline": false
       },
       "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.5393,
+        "w": 3.0141,
+        "x": 0.7205,
+        "y": 3.2126
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "dirt easy screw abject learned ray damaged puncture",
+        "theme_topic": "Balance Bead",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.7707,
+        "w": 0.7393,
+        "x": 1.3891,
+        "y": 4.3847
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "basic",
+        "fill": [
+          114,
+          115,
+          73
+        ],
+        "focus": false,
+        "line": [
+          174,
+          73,
+          92
+        ],
+        "line_width": 1.3599668540603684,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Balance Bead"
+      },
+      "type": "shape",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.9801,
+        "w": 1.2049,
+        "x": 1.1439,
+        "y": 1.7736
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          208,
+          147,
+          212
+        ],
+        "focus": false,
+        "line": [
+          163,
+          227,
+          123
+        ],
+        "line_width": 2.8427266296141624,
+        "outline_only": false,
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Balance Bead"
+      },
+      "type": "shape",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.5617,
+        "w": 1.29,
+        "x": 5.3276,
+        "y": 4.8328
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          194,
+          104,
+          226
+        ],
+        "focus": false,
+        "line": [
+          199,
+          141,
+          133
+        ],
+        "line_width": 3.1647572670735906,
+        "outline_only": false,
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Balance Bead"
+      },
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.4834,
-        "w": 0.8846,
-        "x": 8.5696,
-        "y": 6.826
+        "h": 0.5605,
+        "w": 1.3834,
+        "x": 4.0056,
+        "y": 4.4828
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "math",
         "fill": [
-          193,
-          224,
-          193
+          60,
+          171,
+          150
         ],
         "focus": false,
         "line": [
-          194,
           49,
-          125
+          42,
+          207
         ],
-        "line_width": 5.352353579737917,
+        "line_width": 2.81558787101809,
         "outline_only": false,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Surround"
+        "ppt_type": 165,
+        "shape": "multiply",
+        "theme_topic": "Balance Bead"
       },
       "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.5264,
-        "w": 0.9381,
-        "x": 2.8782,
-        "y": 2.2038
+        "h": 0.279,
+        "w": 1.8059,
+        "x": 6.1025,
+        "y": 5.4359
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          210,
-          29,
-          217
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          218,
+          166,
+          167
         ],
-        "focus": false,
-        "line": [
-          83,
-          31,
-          70
-        ],
-        "line_width": 5.972608775257422,
-        "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Surround"
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "door",
+        "theme_topic": "Balance Bead",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.2282,
-        "w": 2.0859,
-        "x": 0.6021,
-        "y": 5.9905
+        "h": 0.6317,
+        "w": 1.3098,
+        "x": 3.5996,
+        "y": 6.1221
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          230,
-          213,
-          26
+        "bg_color": [
+          33,
+          28,
+          156
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Surround",
-        "width": 1.339724092877336
+        "bold": true,
+        "color": [
+          101,
+          78,
+          211
+        ],
+        "font_face": "Verdana",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "glow basin whip",
+        "theme_topic": "Balance Bead",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 20
     }
   ],

@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        213,
-        167,
-        134
+      "colors": [
+        [
+          132,
+          127,
+          166
+        ],
+        [
+          48,
+          78,
+          140
+        ]
       ],
       "fill": [
-        171,
-        193,
-        145
+        28,
+        143,
+        112
       ],
-      "fore_color": [
-        160,
-        25,
-        175
-      ],
-      "pattern": 2,
-      "style": "pattern",
-      "theme_topic": "Entertaining Mass"
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Children"
     },
     "type": "background",
     "z_order": 0
@@ -41,138 +45,131 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.6411,
-        "w": 7.5161,
-        "x": 6.0375,
-        "y": 1.3326
+        "h": 3.701,
+        "w": 8.819,
+        "x": 5.4045,
+        "y": 0.499
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          206,
-          151,
-          71
+          97,
+          186,
+          156
         ],
         "focus": false,
         "line": [
-          95,
-          191,
-          156
+          26,
+          26,
+          176
         ],
-        "line_width": 4.152968186223284,
+        "line_width": 5.749421202935217,
         "outline_only": true,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Entertaining Mass"
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Children"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9745,
-        "w": 8.754,
-        "x": 1.522,
-        "y": 2.4069
+        "h": 7.4861,
+        "w": 1.0797,
+        "x": 0.0046,
+        "y": 0.0068
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          212,
-          198,
-          99
+          43,
+          162,
+          130
         ],
-        "focus": false,
         "line": [
-          148,
-          30,
-          33
+          43,
+          162,
+          130
         ],
-        "line_width": 5.975217814886209,
-        "outline_only": true,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Entertaining Mass"
+        "line_width": 1.0133564259610701,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Children"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.9103,
-        "w": 3.0881,
-        "x": 3.9619,
-        "y": 2.5622
+        "h": 5.5461,
+        "w": 2.8412,
+        "x": 0.6285,
+        "y": 0.7425
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "ribbons",
-        "fill": [
-          70,
-          186,
-          105
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          248,
+          255,
+          252
         ],
-        "focus": false,
-        "line": [
-          126,
-          140,
-          101
-        ],
-        "line_width": 7.175692178976072,
-        "outline_only": false,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Entertaining Mass"
+        "font_face": "Georgia",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Sticky Hands Blot",
+        "theme_topic": "Children",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.785,
-        "w": 3.8792,
-        "x": -0.2258,
-        "y": 0.9475
+        "h": 0.2751,
+        "w": 4.2337,
+        "x": 3.9193,
+        "y": 0.7885
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          123,
-          183,
-          97
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
         ],
-        "focus": false,
-        "line": [
-          84,
-          49,
-          132
-        ],
-        "line_width": 4.978597839869616,
-        "outline_only": true,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Entertaining Mass"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "DELICATE ENTHUSIASTIC",
+        "theme_topic": "Children",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1454,
-        "w": 6.6258,
-        "x": 2.6786,
-        "y": 0.6415
+        "h": 1.0396,
+        "w": 4.2703,
+        "x": 3.9011,
+        "y": 1.2399
       },
       "id": "object_005",
       "properties": {
@@ -180,82 +177,88 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          248,
+          255,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 41,
+        "font_face": "Georgia",
+        "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Taste Nerve Strap",
-        "theme_topic": "Entertaining Mass",
-        "underline": false
+        "text": "Wacky Queen Resolute",
+        "theme_topic": "Children",
+        "underline": true
       },
       "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 5.0628,
-        "w": 6.5153,
-        "x": 0.5351,
-        "y": 2.0197
+        "h": 4.2206,
+        "w": 4.2307,
+        "x": 3.8775,
+        "y": 2.5727
       },
       "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          205,
+          241,
+          230
+        ],
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "strong cooperative soda business rabbits spiteful maid pray talented adhesive cynical thing afford",
+        "theme_topic": "Children",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.5591,
+        "w": 3.9274,
+        "x": 8.796,
+        "y": 0.648
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          135,
-          152,
-          114
+          43,
+          162,
+          130
         ],
         "line": [
-          135,
-          152,
-          114
+          43,
+          162,
+          130
         ],
-        "line_width": 3.3793735516549988,
+        "line_width": 0.9172794092133889,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Entertaining Mass"
+        "theme_topic": "Children"
       },
       "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 4.7461,
-        "w": 6.2463,
-        "x": 0.6866,
-        "y": 2.1592
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          51,
-          63,
-          101
-        ],
-        "line_width": 9,
-        "theme_topic": "Entertaining Mass"
-      },
-      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2932,
-        "w": 6.0927,
-        "x": 0.7448,
-        "y": 6.6178
+        "h": 0.4673,
+        "w": 3.4496,
+        "x": 9.051,
+        "y": 1.5442
       },
       "id": "object_008",
       "properties": {
@@ -263,17 +266,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          255,
+          238,
+          103
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Healthy Dust Messy",
-        "theme_topic": "Entertaining Mass",
+        "text": "Blushing",
+        "theme_topic": "Children",
         "underline": false
       },
       "type": "text",
@@ -281,259 +284,243 @@
     },
     {
       "bbox": {
-        "h": 5.0569,
-        "w": 5.3718,
-        "x": 7.4159,
-        "y": 2.0114
+        "h": 0.6427,
+        "w": 3.9278,
+        "x": 8.8038,
+        "y": 1.4022
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 7,
         "family": "panel",
         "fill": [
-          135,
-          152,
-          114
+          43,
+          162,
+          130
         ],
         "line": [
-          135,
-          152,
-          114
+          43,
+          162,
+          130
         ],
-        "line_width": 1.0836589936998122,
+        "line_width": 1.0220756598138139,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Entertaining Mass"
+        "theme_topic": "Children"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 4.5656,
-        "w": 4.8478,
-        "x": 7.6585,
-        "y": 2.2538
+        "h": 0.4573,
+        "w": 3.4098,
+        "x": 9.0434,
+        "y": 2.2828
       },
       "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "ban",
-          "poison",
-          "thirsty",
-          "queue"
-        ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              57,
-              45,
-              214
-            ],
-            "name": "bubble",
-            "values": [
-              57,
-              94,
-              55,
-              92
-            ]
-          }
-        ],
-        "theme_topic": "Entertaining Mass",
-        "title": "quartz title tire knot"
-      },
-      "type": "chart",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.3657,
-        "w": 0.7083,
-        "x": 7.4113,
-        "y": 6.5441
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          30,
-          137,
-          121
-        ],
-        "bold": false,
-        "color": [
-          62,
-          222,
-          220
-        ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Absorbed Numberless Prepare",
-        "theme_topic": "Entertaining Mass",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.5952,
-        "w": 1.2328,
-        "x": 5.3418,
-        "y": 4.5991
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          167,
-          87,
-          99
-        ],
-        "focus": false,
-        "line": [
-          174,
-          151,
-          111
-        ],
-        "line_width": 3.4593506135938723,
-        "outline_only": true,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Entertaining Mass"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.4832,
-        "w": 1.264,
-        "x": 1.0034,
-        "y": 0.7473
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          110,
-          126,
-          82
+          255,
+          238,
+          103
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Floor Beef Versed",
-        "theme_topic": "Entertaining Mass",
-        "underline": true
+        "text": "Agreement Fierce",
+        "theme_topic": "Children",
+        "underline": false
       },
       "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.6894,
+        "w": 3.9463,
+        "x": 8.7859,
+        "y": 2.2358
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          43,
+          162,
+          130
+        ],
+        "line": [
+          43,
+          162,
+          130
+        ],
+        "line_width": 1.0185577714964678,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Children"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.4561,
+        "w": 3.4249,
+        "x": 9.0486,
+        "y": 3.1182
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Cow Moaning",
+        "theme_topic": "Children",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.6859,
+        "w": 3.9438,
+        "x": 8.7979,
+        "y": 3.1547
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          162,
+          130
+        ],
+        "line": [
+          43,
+          162,
+          130
+        ],
+        "line_width": 1.844501449267742,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Children"
+      },
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.849,
-        "w": 1.8161,
-        "x": 0.6927,
-        "y": 6.2142
+        "h": 0.4588,
+        "w": 3.4498,
+        "x": 9.0462,
+        "y": 4.0554
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          117,
-          31,
-          188
+          255,
+          238,
+          103
         ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Entertaining Mass",
-        "width": 1.4694585124510204
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Clap Towering",
+        "theme_topic": "Children",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.9757,
-        "w": 1.2637,
-        "x": 10.2556,
-        "y": 4.857
+        "h": 0.2817,
+        "w": 0.7784,
+        "x": 1.2904,
+        "y": 4.7964
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "flowchart",
         "fill": [
-          154,
-          201,
-          96
+          143,
+          59,
+          170
         ],
         "focus": false,
         "line": [
-          139,
-          31,
-          228
+          198,
+          92,
+          28
         ],
-        "line_width": 1.328286674443872,
-        "outline_only": true,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Entertaining Mass"
+        "line_width": 3.8892475250939156,
+        "outline_only": false,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Children"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.4671,
-        "w": 1.0904,
-        "x": 6.0065,
-        "y": 4.254
+        "h": 0.367,
+        "w": 1.9651,
+        "x": 3.9832,
+        "y": 6.5547
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "symbols",
-        "fill": [
-          46,
-          49,
-          146
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          201,
+          73,
+          128
         ],
-        "focus": false,
-        "line": [
-          180,
-          188,
-          194
-        ],
-        "line_width": 2.4478131487960195,
-        "outline_only": true,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Entertaining Mass"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Damp Pat Domineering",
+        "theme_topic": "Children",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 16
     }
   ],

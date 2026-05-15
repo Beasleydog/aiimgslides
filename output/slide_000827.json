@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          28,
-          86,
-          127
-        ],
-        [
-          115,
-          207,
-          144
-        ]
+      "back_color": [
+        192,
+        145,
+        129
       ],
       "fill": [
-        245,
-        247,
-        252
+        157,
+        84,
+        59
       ],
-      "focus": "top_left",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Scene Silk"
+      "fore_color": [
+        168,
+        54,
+        94
+      ],
+      "pattern": 30,
+      "style": "pattern",
+      "theme_topic": "Tired"
     },
     "type": "background",
     "z_order": 0
@@ -45,99 +41,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.7547,
-        "w": 9.298,
-        "x": 2.2566,
-        "y": 1.4907
+        "h": 1.8345,
+        "w": 7.9812,
+        "x": 0.2314,
+        "y": 4.7785
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 7,
+        "family": "arrows",
         "fill": [
-          236,
-          240,
-          248
+          192,
+          145,
+          83
         ],
+        "focus": false,
         "line": [
-          232,
-          237,
-          247
+          230,
+          74,
+          175
         ],
-        "line_width": 4.519109525852294,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Scene Silk"
+        "line_width": 4.5795379307835,
+        "outline_only": true,
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Tired"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.2672,
-        "w": 5.2588,
-        "x": 0.5675,
-        "y": 0.3443
+        "h": 5.0024,
+        "w": 7.2591,
+        "x": -0.268,
+        "y": 0.4793
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          27,
-          44,
-          68
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          175,
+          123,
+          115
         ],
-        "font_face": "Aptos Display",
-        "font_size": 42,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Sniff Illustrious",
-        "theme_topic": "Scene Silk",
-        "underline": false
+        "focus": false,
+        "line": [
+          150,
+          160,
+          79
+        ],
+        "line_width": 7.724165648948211,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Tired"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.5846,
-        "w": 0.4792,
-        "x": 0.7827,
-        "y": 3.324
+        "h": 3.4792,
+        "w": 8.2995,
+        "x": 4.3751,
+        "y": 0.8137
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          151,
+          99,
+          127
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "sin smooth breakable possible",
-        "theme_topic": "Scene Silk",
-        "underline": false
+        "focus": false,
+        "line": [
+          195,
+          57,
+          118
+        ],
+        "line_width": 3.5487503571054058,
+        "outline_only": false,
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Tired"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.4346,
-        "w": 0.5246,
-        "x": 1.8272,
-        "y": 2.7257
+        "h": 1.1345,
+        "w": 7.7961,
+        "x": 3.1357,
+        "y": 0.6588
       },
       "id": "object_004",
       "properties": {
@@ -145,17 +148,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Georgia",
+        "font_size": 31,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Useful",
-        "theme_topic": "Scene Silk",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Skirt Frequent",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -163,57 +166,59 @@
     },
     {
       "bbox": {
-        "h": 0.6028,
-        "w": 0.506,
-        "x": 1.8568,
-        "y": 3.2915
+        "h": 3.0154,
+        "w": 1.6517,
+        "x": 3.1025,
+        "y": 2.914
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          122,
+          93,
+          84
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "warm godly delight berry man",
-        "theme_topic": "Scene Silk",
-        "underline": false
+        "line": [
+          192,
+          145,
+          129
+        ],
+        "line_width": 2.2155063861399342,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Tired"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.6203,
-        "w": 0.4893,
-        "x": 2.827,
-        "y": 3.3144
+        "h": 0.7545,
+        "w": 1.3068,
+        "x": 3.2842,
+        "y": 3.1299
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Georgia",
+        "font_size": 32,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "milky popcorn badge plough sticky",
-        "theme_topic": "Scene Silk",
+        "text": "6.2x",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -221,28 +226,28 @@
     },
     {
       "bbox": {
-        "h": 0.4484,
-        "w": 0.4865,
-        "x": 3.7729,
-        "y": 2.7302
+        "h": 1.9869,
+        "w": 1.2818,
+        "x": 3.2862,
+        "y": 3.8515
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          82,
-          96,
-          214
+          205,
+          174,
+          165
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Calendar",
-        "theme_topic": "Scene Silk",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "back haircut listen rate carpenter order letters",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -250,28 +255,28 @@
     },
     {
       "bbox": {
-        "h": 0.5788,
-        "w": 0.4825,
-        "x": 3.772,
-        "y": 3.3237
+        "h": 0.7673,
+        "w": 1.6598,
+        "x": 5.1228,
+        "y": 3.1359
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Georgia",
+        "font_size": 24,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "windy blade creator current",
-        "theme_topic": "Scene Silk",
+        "text": "56",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -279,28 +284,28 @@
     },
     {
       "bbox": {
-        "h": 0.7525,
-        "w": 4.124,
-        "x": 4.7618,
-        "y": 1.9709
+        "h": 1.9712,
+        "w": 1.6728,
+        "x": 5.1031,
+        "y": 3.8621
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          141,
-          154
+          205,
+          174,
+          165
         ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Familiar Parcel Knowledgeable Expect",
-        "theme_topic": "Scene Silk",
+        "text": "squirrel tug workable future drop",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -308,39 +313,41 @@
     },
     {
       "bbox": {
-        "h": 1.0146,
-        "w": 4.1244,
-        "x": 4.7347,
-        "y": 2.9927
+        "h": 3.001,
+        "w": 2.3923,
+        "x": 7.173,
+        "y": 2.9221
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          122,
+          93,
+          84
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "space eager lewd press handsomely haircut sprout multiply haircut invincible peaceful resonant tense move invite",
-        "theme_topic": "Scene Silk",
-        "underline": false
+        "line": [
+          192,
+          145,
+          129
+        ],
+        "line_width": 1.9134779206157617,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Tired"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7759,
-        "w": 3.1039,
-        "x": 9.5051,
-        "y": 1.9553
+        "h": 0.749,
+        "w": 2.043,
+        "x": 7.3447,
+        "y": 3.1045
       },
       "id": "object_011",
       "properties": {
@@ -348,17 +355,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos Display",
-        "font_size": 22,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Mindless Search Wry",
-        "theme_topic": "Scene Silk",
+        "text": "8.3x",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -366,10 +373,10 @@
     },
     {
       "bbox": {
-        "h": 1.0052,
-        "w": 3.1001,
-        "x": 9.5222,
-        "y": 2.9762
+        "h": 1.9753,
+        "w": 2.0308,
+        "x": 7.3484,
+        "y": 3.8658
       },
       "id": "object_012",
       "properties": {
@@ -377,17 +384,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          103,
-          117,
-          137
+          205,
+          174,
+          165
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "iron mist bite-sized quilt science violent ripe agreement waggish big boot nerve",
-        "theme_topic": "Scene Silk",
+        "text": "threatening unequal locket bait",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -395,88 +402,134 @@
     },
     {
       "bbox": {
-        "h": 2.4619,
-        "w": 4.1452,
-        "x": 0.5689,
-        "y": 4.5132
+        "h": 1.2445,
+        "w": 2.464,
+        "x": 2.3841,
+        "y": 4.1477
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
+        "crop": [
+          0.14000825473820028,
+          0.27196011578064205,
+          0.13189444525837296,
+          0.2569734687933733
         ],
-        "line": [
-          232,
-          237,
-          247
+        "focus": false,
+        "mask_line": [
+          32,
+          119,
+          149
         ],
-        "line_width": 1.8895139889987822,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Scene Silk"
+        "mask_overlay": true,
+        "theme_topic": "Tired",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.7481,
-        "w": 3.7684,
-        "x": 0.7528,
-        "y": 4.7127
+        "h": 1.0953,
+        "w": 3.2878,
+        "x": 3.9281,
+        "y": 3.7764
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
+        "fill": [
+          193,
+          189,
+          98
         ],
-        "font_face": "Aptos Display",
-        "font_size": 36,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "3.4x",
-        "theme_topic": "Scene Silk",
-        "underline": false
+        "line": [
+          164,
+          130,
+          219
+        ],
+        "line_width": 1.9107465197625333,
+        "pattern": "badge",
+        "points": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.62,
+            0.25
+          ],
+          [
+            0.92,
+            0.18
+          ],
+          [
+            0.75,
+            0.5
+          ],
+          [
+            0.98,
+            0.78
+          ],
+          [
+            0.62,
+            0.72
+          ],
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0.38,
+            0.72
+          ],
+          [
+            0.02,
+            0.78
+          ],
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.08,
+            0.18
+          ],
+          [
+            0.38,
+            0.25
+          ]
+        ],
+        "theme_topic": "Tired"
       },
-      "type": "text",
+      "type": "freeform",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 1.4381,
-        "w": 3.8117,
-        "x": 0.7536,
-        "y": 5.4586
+        "h": 0.3116,
+        "w": 1.5311,
+        "x": 0.932,
+        "y": 0.2709
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          58,
+          64,
+          87
         ],
         "font_face": "Aptos",
-        "font_size": 15,
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "stare lopsided desk",
-        "theme_topic": "Scene Silk",
+        "text": "quaint circle fix",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -484,28 +537,28 @@
     },
     {
       "bbox": {
-        "h": 0.7408,
-        "w": 2.7558,
-        "x": 5.0818,
-        "y": 4.7125
+        "h": 0.3154,
+        "w": 1.7696,
+        "x": 6.4258,
+        "y": 5.5596
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          82,
-          96,
-          214
+          73,
+          182,
+          151
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
+        "font_face": "Aptos",
+        "font_size": 5,
+        "italic": true,
+        "kind": "body",
         "margin": 0.04,
-        "text": "33%",
-        "theme_topic": "Scene Silk",
+        "text": "hypnotic dinner test",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -513,10 +566,10 @@
     },
     {
       "bbox": {
-        "h": 1.4425,
-        "w": 2.7449,
-        "x": 5.0543,
-        "y": 5.4494
+        "h": 0.5407,
+        "w": 1.7796,
+        "x": 2.6723,
+        "y": 5.5059
       },
       "id": "object_017",
       "properties": {
@@ -524,17 +577,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          103,
-          117,
-          137
+          47,
+          202,
+          213
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "bait dime cattle",
-        "theme_topic": "Scene Silk",
+        "text": "field tacky omniscient",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -542,10 +595,10 @@
     },
     {
       "bbox": {
-        "h": 0.7671,
-        "w": 4.232,
-        "x": 8.3749,
-        "y": 4.6959
+        "h": 0.3351,
+        "w": 0.7726,
+        "x": 4.4317,
+        "y": 5.006
       },
       "id": "object_018",
       "properties": {
@@ -553,17 +606,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          63,
+          190,
+          158
         ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "3.9x",
-        "theme_topic": "Scene Silk",
+        "font_face": "Aptos",
+        "font_size": 6,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Uppity Snobbish Discover",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -571,28 +624,28 @@
     },
     {
       "bbox": {
-        "h": 1.4759,
-        "w": 4.2475,
-        "x": 8.3598,
-        "y": 5.4297
+        "h": 0.5625,
+        "w": 1.4298,
+        "x": 4.51,
+        "y": 5.0567
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          68,
+          52,
+          87
         ],
         "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "high-pitched fruit store true",
-        "theme_topic": "Scene Silk",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Cabbage Mess",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -600,28 +653,32 @@
     },
     {
       "bbox": {
-        "h": 0.4226,
-        "w": 1.282,
-        "x": 4.9254,
-        "y": 3.1205
+        "h": 0.3915,
+        "w": 2.1955,
+        "x": 2.9975,
+        "y": 4.7796
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
+        "bg_color": [
+          37,
+          105,
+          133
+        ],
+        "bold": true,
         "color": [
-          81,
-          173,
-          129
+          209,
+          120,
+          136
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Sense",
-        "theme_topic": "Scene Silk",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "error pricey tumble domineering",
+        "theme_topic": "Tired",
         "underline": false
       },
       "type": "text",
@@ -629,35 +686,34 @@
     },
     {
       "bbox": {
-        "h": 0.3895,
-        "w": 2.2402,
-        "x": 6.9811,
-        "y": 5.286
+        "h": 0.7388,
+        "w": 1.1287,
+        "x": 11.8241,
+        "y": 2.4305
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          129,
-          87,
-          126
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          139,
+          107,
+          186
         ],
-        "bold": false,
-        "color": [
-          85,
-          186,
-          190
+        "focus": false,
+        "line": [
+          100,
+          115,
+          25
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "heavy insect",
-        "theme_topic": "Scene Silk",
-        "underline": false
+        "line_width": 1.7611061713346208,
+        "outline_only": true,
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Tired"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 21
     }
   ],

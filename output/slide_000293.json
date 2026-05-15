@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 135,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          221,
-          196,
-          52
-        ],
-        [
-          136,
-          146,
-          186
-        ]
+      "back_color": [
+        166,
+        133,
+        28
       ],
       "fill": [
-        240,
-        176,
-        54
+        30,
+        160,
+        131
       ],
-      "focus": "bottom_right",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Interfere Vegetable"
+      "fore_color": [
+        255,
+        206,
+        86
+      ],
+      "pattern": 23,
+      "style": "pattern",
+      "theme_topic": "Star Wash"
     },
     "type": "background",
     "z_order": 0
@@ -45,72 +41,136 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.3921,
-        "w": 8.085,
-        "x": 2.3498,
-        "y": 1.2987
+        "h": 3.5088,
+        "w": 8.6896,
+        "x": 5.3714,
+        "y": -0.2005
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          245,
-          193,
-          78
+          56,
+          105,
+          70
         ],
+        "focus": false,
         "line": [
-          249,
-          203,
-          91
+          198,
+          99,
+          115
         ],
-        "line_width": 1.1292326249840454,
+        "line_width": 5.297714558281643,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Interfere Vegetable"
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Star Wash"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0143,
-        "w": 7.951,
-        "x": 0.5272,
-        "y": 0.3733
+        "h": 2.147,
+        "w": 7.1565,
+        "x": 3.1829,
+        "y": 2.3593
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          149,
+          73,
+          89
+        ],
+        "focus": false,
+        "line": [
+          46,
+          130,
+          226
+        ],
+        "line_width": 6.0172337832269305,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Star Wash"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 5.1123,
+        "w": 6.8839,
+        "x": 0.6252,
+        "y": 1.3798
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          76,
+          179,
+          156
+        ],
+        "line": [
+          101,
+          190,
+          170
+        ],
+        "line_width": 0.804327852036682,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Star Wash"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.9868,
+        "w": 6.6998,
+        "x": 0.571,
+        "y": 0.3432
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          40,
-          38,
-          28
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos Display",
+        "font_face": "Georgia",
         "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Insidious Ill-Informed Reign Weather",
-        "theme_topic": "Interfere Vegetable",
+        "text": "Crib Winter Steep",
+        "theme_topic": "Star Wash",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
+      "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.3568,
-        "w": 5.9275,
-        "x": 6.8178,
-        "y": 4.6048
+        "h": 2.4647,
+        "w": 1.5118,
+        "x": 0.622,
+        "y": 1.8824
       },
-      "id": "object_003",
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
@@ -119,72 +179,14 @@
           0,
           0
         ],
-        "focus": true,
+        "focus": false,
         "mask_line": [
-          169,
-          207,
-          55
+          51,
+          63,
+          101
         ],
-        "mask_overlay": false,
-        "theme_topic": "Interfere Vegetable",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.2641,
-        "w": 5.5152,
-        "x": 7.0661,
-        "y": 6.5716
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Language",
-        "theme_topic": "Interfere Vegetable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.368,
-        "w": 5.9481,
-        "x": 0.5808,
-        "y": 1.8151
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.2282197202659574,
-          0.07295004465750239,
-          0.15185382720472707,
-          0.24111726264609287
-        ],
-        "focus": true,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Interfere Vegetable",
+        "mask_overlay": true,
+        "theme_topic": "Star Wash",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -192,87 +194,85 @@
     },
     {
       "bbox": {
-        "h": 0.262,
-        "w": 5.5125,
-        "x": 0.7334,
-        "y": 3.7935
+        "h": 2.4143,
+        "w": 1.5096,
+        "x": 2.2702,
+        "y": 1.9015
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Flippant Maid Celery",
-        "theme_topic": "Interfere Vegetable",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          51,
+          63,
+          101
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Star Wash",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.3568,
-        "w": 1.064,
-        "x": 7.0281,
-        "y": 2.7507
+        "h": 5.1544,
+        "w": 6.7908,
+        "x": 5.9673,
+        "y": 1.8617
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
+        "clip": "arch",
+        "focus": true,
+        "line": [
+          142,
+          155,
+          143
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "decorate unite imported concern",
-        "theme_topic": "Interfere Vegetable",
-        "underline": false
+        "line_width": 12,
+        "theme_topic": "Star Wash"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.3669,
-        "w": 1.1994,
-        "x": 10.0499,
-        "y": 2.7638
+        "h": 0.2913,
+        "w": 1.5968,
+        "x": 11.4541,
+        "y": 2.5046
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          32,
+          135,
+          146
+        ],
         "bold": false,
         "color": [
-          94,
-          82,
-          58
+          110,
+          209,
+          60
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "ossified throat humorous scrawny helpless wall",
-        "theme_topic": "Interfere Vegetable",
-        "underline": false
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Same Ludicrous Hallowed",
+        "theme_topic": "Star Wash",
+        "underline": true
       },
       "type": "text",
       "z_order": 8

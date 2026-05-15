@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        147,
-        136,
-        87
+      "back_color": [
+        126,
+        58,
+        173
       ],
-      "style": "solid",
-      "theme_topic": "Attract"
+      "fill": [
+        126,
+        58,
+        173
+      ],
+      "fore_color": [
+        255,
+        117,
+        117
+      ],
+      "pattern": 45,
+      "style": "pattern",
+      "theme_topic": "Bore"
     },
     "type": "background",
     "z_order": 0
@@ -30,108 +41,12 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.9565,
-        "w": 7.7741,
-        "x": 1.7111,
-        "y": 3.0179
+        "h": 0.8882,
+        "w": 3.9426,
+        "x": 4.2125,
+        "y": 1.3411
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "callouts",
-        "fill": [
-          160,
-          191,
-          85
-        ],
-        "focus": false,
-        "line": [
-          168,
-          148,
-          92
-        ],
-        "line_width": 3.21516415662994,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Attract"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 2.2589,
-        "w": 5.8192,
-        "x": 3.2877,
-        "y": -0.8518
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          113,
-          133,
-          87
-        ],
-        "focus": false,
-        "line": [
-          190,
-          28,
-          191
-        ],
-        "line_width": 4.436731538804183,
-        "outline_only": true,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Attract"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.8039,
-        "w": 8.4042,
-        "x": 2.1766,
-        "y": 0.2273
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "symbols",
-        "fill": [
-          63,
-          182,
-          98
-        ],
-        "focus": false,
-        "line": [
-          91,
-          223,
-          225
-        ],
-        "line_width": 2.26773152763536,
-        "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Attract"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.3136,
-        "w": 7.2894,
-        "x": 0.5313,
-        "y": 0.3464
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -141,13 +56,100 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 37,
+        "font_face": "Aptos Display",
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Tested Distinct Coherent Doubt",
-        "theme_topic": "Attract",
+        "text": "Shelf Aunt",
+        "theme_topic": "Bore",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 0.7535,
+        "w": 4.1236,
+        "x": 0.5895,
+        "y": 2.7666
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "post tug public nostalgic ill-fated sticks mute",
+        "theme_topic": "Bore",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.7422,
+        "w": 4.3026,
+        "x": 8.4436,
+        "y": 2.7568
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "expansion introduce popcorn paper",
+        "theme_topic": "Bore",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.3013,
+        "w": 11.9536,
+        "x": 0.699,
+        "y": 4.1285
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "WRY",
+        "theme_topic": "Bore",
         "underline": false
       },
       "type": "text",
@@ -155,99 +157,61 @@
     },
     {
       "bbox": {
-        "h": 2.3087,
-        "w": 12.2316,
-        "x": 0.5731,
-        "y": 1.8459
+        "h": 0.8764,
+        "w": 11.9164,
+        "x": 0.6772,
+        "y": 4.626
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "obese",
-          "bruise",
-          "march",
-          "lucky"
+        "bg_color": [
+          125,
+          156,
+          60
         ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              95,
-              183,
-              178
-            ],
-            "name": "pat bruise",
-            "values": [
-              58,
-              94,
-              20,
-              49
-            ]
-          },
-          {
-            "color": [
-              61,
-              64,
-              210
-            ],
-            "name": "meeting",
-            "values": [
-              62,
-              83,
-              39,
-              71
-            ]
-          },
-          {
-            "color": [
-              182,
-              128,
-              40
-            ],
-            "name": "delicious request",
-            "values": [
-              53,
-              28,
-              33,
-              53
-            ]
-          }
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "theme_topic": "Attract",
-        "title": "spiffy nine smell fence bubble"
+        "font_face": "Aptos Display",
+        "font_size": 46,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Stimulating Next Ice Pancake",
+        "theme_topic": "Bore",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.4661,
-        "w": 2.7814,
-        "x": 4.3015,
-        "y": 5.4438
+        "h": 1.1774,
+        "w": 11.9564,
+        "x": 0.7018,
+        "y": 5.6995
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          96,
-          165,
-          250
+          192,
+          162,
+          216
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Prefer",
-        "theme_topic": "Attract",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "best attend economic haircut judicious colossal sky scrub savory cultured economic adorable cattle scare reduce",
+        "theme_topic": "Bore",
         "underline": false
       },
       "type": "text",

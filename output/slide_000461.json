@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        149,
-        178,
-        222
+        103,
+        32,
+        120
       ],
       "fill": [
-        194,
-        135,
-        72
+        156,
+        27,
+        227
       ],
       "fore_color": [
-        180,
-        70,
-        53
+        255,
+        238,
+        103
       ],
-      "pattern": 45,
+      "pattern": 22,
       "style": "pattern",
-      "theme_topic": "Crown"
+      "theme_topic": "Sand Expect"
     },
     "type": "background",
     "z_order": 0
@@ -41,12 +41,108 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.5657,
-        "w": 2.8491,
-        "x": 0.6505,
-        "y": 0.7482
+        "h": 3.7198,
+        "w": 7.2296,
+        "x": 1.8103,
+        "y": -0.3807
       },
       "id": "object_001",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "basic",
+        "fill": [
+          101,
+          147,
+          164
+        ],
+        "focus": false,
+        "line": [
+          85,
+          137,
+          119
+        ],
+        "line_width": 4.06918051203169,
+        "outline_only": false,
+        "ppt_type": 7,
+        "shape": "triangle",
+        "theme_topic": "Sand Expect"
+      },
+      "type": "shape",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 3.4061,
+        "w": 7.0706,
+        "x": -0.1153,
+        "y": 4.9709
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "arrows",
+        "fill": [
+          108,
+          27,
+          219
+        ],
+        "focus": false,
+        "line": [
+          160,
+          184,
+          47
+        ],
+        "line_width": 7.722960899107054,
+        "outline_only": false,
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Sand Expect"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.7204,
+        "w": 3.1885,
+        "x": 4.6439,
+        "y": 1.4956
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "arrows",
+        "fill": [
+          110,
+          183,
+          208
+        ],
+        "focus": false,
+        "line": [
+          71,
+          191,
+          97
+        ],
+        "line_width": 7.266835836248318,
+        "outline_only": true,
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Sand Expect"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 5.7857,
+        "w": 3.1888,
+        "x": 9.3866,
+        "y": 0.6296
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -56,145 +152,24 @@
           30,
           36
         ],
-        "font_face": "Georgia",
-        "font_size": 21,
+        "font_face": "Trebuchet MS",
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Coach",
-        "theme_topic": "Crown",
+        "text": "Lumpy",
+        "theme_topic": "Sand Expect",
         "underline": false
       },
       "type": "text",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 6.2519,
-        "w": 1.6381,
-        "x": 3.7369,
-        "y": 0.6667
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          180,
-          70,
-          53
-        ],
-        "line": [
-          199,
-          137,
-          51
-        ],
-        "line_width": 1.6780775580871798,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Crown"
-      },
-      "type": "freeform",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.8625,
-        "w": 0.8486,
-        "x": 5.9669,
-        "y": 3.2476
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          102,
-          77,
-          52
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tired basin high squirrel paste auspicious program bounce divide satisfy mourn cars evasive place",
-        "theme_topic": "Crown",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.4854,
-        "w": 1.4877,
-        "x": 7.293,
-        "y": 1.7765
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          210,
-          167,
-          121
-        ],
-        "line": [
-          210,
-          167,
-          121
-        ],
-        "line_width": 1.1593042257787192,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Crown"
-      },
-      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.4295,
-        "w": 1.0133,
-        "x": 7.5587,
-        "y": 2.6621
+        "h": 0.2644,
+        "w": 4.2766,
+        "x": 2.6111,
+        "y": 5.6535
       },
       "id": "object_005",
       "properties": {
@@ -202,17 +177,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          255,
+          238,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Verdana",
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Dogs",
-        "theme_topic": "Crown",
+        "text": "LARGE",
+        "theme_topic": "Sand Expect",
         "underline": false
       },
       "type": "text",
@@ -220,70 +195,62 @@
     },
     {
       "bbox": {
-        "h": 1.8542,
-        "w": 1.0296,
-        "x": 7.5534,
-        "y": 3.2183
+        "h": 0.2265,
+        "w": 4.2717,
+        "x": 2.6229,
+        "y": 6.1232
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          102,
-          77,
-          52
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Trebuchet MS",
+        "font_size": 18,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "advice yellow eggnog daffy hurry notice foot unarmed shallow disastrous distinct muddle",
-        "theme_topic": "Crown",
-        "underline": false
+        "text": "Run",
+        "theme_topic": "Sand Expect",
+        "underline": true
       },
       "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 3.5184,
-        "w": 1.7366,
-        "x": 9.0421,
-        "y": 1.7749
+        "h": 6.2442,
+        "w": 1.4716,
+        "x": 0.6779,
+        "y": 0.6644
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          210,
-          167,
-          121
-        ],
+        "clip": "hex",
+        "focus": true,
         "line": [
-          210,
-          167,
-          121
+          255,
+          238,
+          103
         ],
-        "line_width": 0.6919344844381541,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Crown"
+        "line_width": 14,
+        "theme_topic": "Sand Expect"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4449,
-        "w": 1.2446,
-        "x": 9.2806,
-        "y": 2.6538
+        "h": 0.2573,
+        "w": 1.0849,
+        "x": 0.8643,
+        "y": 6.4591
       },
       "id": "object_008",
       "properties": {
@@ -291,17 +258,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          255,
+          238,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Help",
-        "theme_topic": "Crown",
+        "text": "Visit Clam Dramatic",
+        "theme_topic": "Sand Expect",
         "underline": false
       },
       "type": "text",
@@ -309,86 +276,93 @@
     },
     {
       "bbox": {
-        "h": 1.8336,
-        "w": 1.2105,
-        "x": 9.2774,
-        "y": 3.2189
+        "h": 0.6877,
+        "w": 1.2247,
+        "x": 3.6789,
+        "y": 1.5742
       },
       "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          48,
+          78,
+          140
+        ],
+        "focus": false,
+        "line": [
+          111,
+          108,
+          172
+        ],
+        "line_width": 3.5533013184052877,
+        "outline_only": false,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Sand Expect"
+      },
+      "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.2821,
+        "w": 2.3746,
+        "x": 6.5974,
+        "y": 6.9308
+      },
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          102,
-          77,
-          52
+          178,
+          177,
+          29
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 13,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wacky laughable gabby materialistic lighten dislike combative lowly impossible wail bag baseball curious",
-        "theme_topic": "Crown",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Puffy",
+        "theme_topic": "Sand Expect",
         "underline": false
       },
       "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 1.3458,
-        "w": 5.0059,
-        "x": 5.7185,
-        "y": 5.5371
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": false,
-        "mask_line": [
-          38,
-          132,
-          88
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Crown",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.0733,
-        "w": 1.2949,
-        "x": 11.2786,
-        "y": 0.7759
+        "h": 0.4832,
+        "w": 1.8057,
+        "x": 6.8513,
+        "y": 3.7528
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          194,
-          144,
-          162
+        "bg_color": [
+          123,
+          58,
+          155
         ],
-        "font_face": "Georgia",
-        "font_size": 18,
+        "bold": false,
+        "color": [
+          80,
+          97,
+          40
+        ],
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Mountain Zany Excuse",
-        "theme_topic": "Crown",
+        "text": "chop",
+        "theme_topic": "Sand Expect",
         "underline": false
       },
       "type": "text",
@@ -396,31 +370,34 @@
     },
     {
       "bbox": {
-        "h": 4.6878,
-        "w": 1.2922,
-        "x": 11.2726,
-        "y": 2.0879
+        "h": 1.1223,
+        "w": 1.2268,
+        "x": 7.0326,
+        "y": 0.3384
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          102,
-          77,
-          52
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          48,
+          78,
+          140
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "extend fasten steel want abstracted fascinated bath rest wild violent jellyfish fog cause ablaze file sound elated noise toothbrush nondescript",
-        "theme_topic": "Crown",
-        "underline": false
+        "focus": false,
+        "line": [
+          229,
+          86,
+          228
+        ],
+        "line_width": 6.671053119787383,
+        "outline_only": true,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Sand Expect"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     }
   ],

@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "back_color": [
-        215,
-        190,
-        215
+      "colors": [
+        [
+          90,
+          96,
+          37
+        ],
+        [
+          31,
+          117,
+          161
+        ]
       ],
       "fill": [
-        215,
-        190,
-        215
+        90,
+        96,
+        37
       ],
-      "fore_color": [
-        255,
-        117,
-        117
-      ],
-      "pattern": 22,
-      "style": "pattern",
-      "theme_topic": "Difficult Brainy"
+      "focus": "bottom_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Cowardly Stage"
     },
     "type": "background",
     "z_order": 0
@@ -41,42 +45,42 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.3347,
-        "w": 4.1528,
-        "x": -0.3605,
-        "y": 0.9791
+        "h": 3.5466,
+        "w": 3.1435,
+        "x": 0.7717,
+        "y": 0.0524
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "arrows",
         "fill": [
-          125,
-          162,
-          187
+          140,
+          81,
+          35
         ],
         "focus": false,
         "line": [
-          180,
-          182,
-          118
+          152,
+          161,
+          32
         ],
-        "line_width": 7.547740305552112,
+        "line_width": 3.9787194941580917,
         "outline_only": true,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Difficult Brainy"
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Cowardly Stage"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.1696,
-        "w": 7.3139,
-        "x": 3.4774,
-        "y": 0.6299
+        "h": 0.5825,
+        "w": 5.4979,
+        "x": 7.1556,
+        "y": 1.1458
       },
       "id": "object_002",
       "properties": {
@@ -84,17 +88,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
         "font_face": "Trebuchet MS",
-        "font_size": 32,
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Crook Responsible Size Limping Wonder",
-        "theme_topic": "Difficult Brainy",
+        "text": "Press Sad Trousers",
+        "theme_topic": "Cowardly Stage",
         "underline": false
       },
       "type": "text",
@@ -102,68 +106,68 @@
     },
     {
       "bbox": {
-        "h": 3.5241,
-        "w": 6.8952,
-        "x": 1.526,
-        "y": 2.4648
+        "h": 0.7041,
+        "w": 5.4892,
+        "x": 7.1489,
+        "y": 1.9711
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": true,
-        "mask_line": [
-          184,
-          174,
-          51
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Difficult Brainy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.4877,
-        "w": 2.6643,
-        "x": 9.1613,
-        "y": 3.3396
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          112,
-          102,
-          116
+          175,
+          179,
+          155
         ],
         "font_face": "Verdana",
-        "font_size": 8,
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "attend juggle pocket guitar abject offbeat towering rampant fancy naughty table army unnatural",
-        "theme_topic": "Difficult Brainy",
+        "text": "chemical disgusting add servant fuel early spiky stale quizzical whispering",
+        "theme_topic": "Cowardly Stage",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 6.3881,
+        "w": 6.0588,
+        "x": 0.5832,
+        "y": 0.5491
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.00565594898128599,
+          0.14188877357300606,
+          0.0013826504836026122,
+          0.1288249180210371
+        ],
+        "focus": true,
+        "mask_line": [
+          31,
+          117,
+          161
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Cowardly Stage",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.6457,
-        "w": 1.9247,
-        "x": 11.0802,
-        "y": 1.8297
+        "h": 0.3014,
+        "w": 5.6984,
+        "x": 0.7259,
+        "y": 6.5175
       },
       "id": "object_005",
       "properties": {
@@ -171,17 +175,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          110,
-          203,
-          70
+          31,
+          117,
+          161
         ],
         "font_face": "Verdana",
-        "font_size": 14,
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "mere harsh inform domineering pig",
-        "theme_topic": "Difficult Brainy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Bike Dress Forgetful",
+        "theme_topic": "Cowardly Stage",
         "underline": false
       },
       "type": "text",

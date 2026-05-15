@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        192,
-        225,
-        30
+      "colors": [
+        [
+          236,
+          240,
+          242
+        ],
+        [
+          222,
+          133,
+          62
+        ]
       ],
       "fill": [
-        33,
-        115,
-        169
+        247,
+        248,
+        246
       ],
-      "fore_color": [
-        255,
-        117,
-        117
-      ],
-      "pattern": 1,
-      "style": "pattern",
-      "theme_topic": "Rhyme"
+      "focus": "bottom_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Pat Pinch"
     },
     "type": "background",
     "z_order": 0
@@ -41,201 +45,182 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.1893,
-        "w": 5.0091,
-        "x": 7.6083,
-        "y": 3.6627
+        "h": 1.8153,
+        "w": 4.1748,
+        "x": 2.053,
+        "y": 1.4194
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "stars",
         "fill": [
-          30,
-          138,
-          182
+          182,
+          141,
+          125
         ],
         "focus": false,
         "line": [
-          111,
-          58,
-          185
+          139,
+          215,
+          207
         ],
-        "line_width": 7.965564806862269,
+        "line_width": 5.973903843319681,
         "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Rhyme"
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Pat Pinch"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.6376,
-        "w": 5.7278,
-        "x": 6.1824,
-        "y": 4.6665
+        "h": 4.4001,
+        "w": 5.3638,
+        "x": 0.5305,
+        "y": -0.2799
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 3,
+        "family": "ribbons",
         "fill": [
-          170,
-          116,
-          179
+          88,
+          106,
+          212
         ],
         "focus": false,
         "line": [
-          166,
-          27,
-          173
+          190,
+          215,
+          77
         ],
-        "line_width": 2.298267299218355,
+        "line_width": 6.762458619583144,
         "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Rhyme"
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Pat Pinch"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.834,
-        "w": 8.9722,
-        "x": -1.0008,
-        "y": 2.1958
+        "h": 1.0062,
+        "w": 7.5036,
+        "x": 0.5457,
+        "y": 0.3253
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "stars",
-        "fill": [
-          138,
-          61,
-          132
-        ],
-        "focus": false,
-        "line": [
-          162,
-          207,
-          147
-        ],
-        "line_width": 7.715275556459332,
-        "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Rhyme"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.9503,
-        "w": 6.3082,
-        "x": 7.0007,
-        "y": 0.0007
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          47,
-          136,
-          190
-        ],
-        "line": [
-          47,
-          136,
-          190
-        ],
-        "line_width": 4.65054491907773,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Rhyme"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.7889,
-        "w": 3.1803,
-        "x": 9.3965,
-        "y": 0.6588
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          250,
-          252,
-          255
+          30,
+          35,
+          42
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
+        "font_face": "Arial",
+        "font_size": 33,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Pushy",
-        "theme_topic": "Rhyme",
+        "text": "Entertaining Rare Mourn Snail",
+        "theme_topic": "Pat Pinch",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.7382,
+        "w": 12.1994,
+        "x": 0.5243,
+        "y": 1.87
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.2632371387271845,
+          0.026503144800268105,
+          0.17008115393025944,
+          0.15000682583089223
+        ],
+        "focus": true,
+        "mask_line": [
+          57,
+          170,
+          178
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Pat Pinch",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.2531,
+        "w": 12.2157,
+        "x": 0.5403,
+        "y": 3.9883
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.015253975831926432,
+          0.060416278060947314,
+          0.09373682275758677,
+          0.0810171123896783
+        ],
+        "focus": true,
+        "mask_line": [
+          211,
+          70,
+          227
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Pat Pinch",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.4978,
-        "w": 3.4799,
-        "x": 5.169,
-        "y": 0.9171
+        "h": 0.5998,
+        "w": 2.9148,
+        "x": 6.9206,
+        "y": 5.8015
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "decorate",
-          "report",
-          "flawless",
-          "own"
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          117,
+          161
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              137,
-              185,
-              213
-            ],
-            "name": "sort stove",
-            "values": [
-              84,
-              84,
-              88,
-              21
-            ]
-          }
-        ],
-        "theme_topic": "Rhyme",
-        "title": "lucky dance deep"
+        "font_face": "Arial",
+        "font_size": 31,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "210",
+        "theme_topic": "Pat Pinch",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 6
     }
   ],

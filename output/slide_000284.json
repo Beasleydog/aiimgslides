@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        103,
-        129,
-        73
+      "colors": [
+        [
+          64,
+          188,
+          67
+        ],
+        [
+          255,
+          117,
+          117
+        ]
       ],
       "fill": [
-        28,
-        143,
-        112
+        33,
+        178,
+        37
       ],
-      "fore_color": [
-        255,
-        238,
-        103
-      ],
-      "pattern": 49,
-      "style": "pattern",
-      "theme_topic": "Open"
+      "focus": "top_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Jog"
     },
     "type": "background",
     "z_order": 0
@@ -41,160 +45,169 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.0355,
-        "w": 8.8828,
-        "x": 2.3699,
-        "y": 0.3949
+        "h": 2.1099,
+        "w": 5.8283,
+        "x": 5.1701,
+        "y": 0.7808
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "ribbons",
         "fill": [
-          62,
-          176,
-          76
+          158,
+          64,
+          82
         ],
         "focus": false,
         "line": [
-          93,
-          168,
-          41
+          45,
+          40,
+          58
         ],
-        "line_width": 3.7027081263448682,
-        "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Open"
+        "line_width": 5.691427816888148,
+        "outline_only": true,
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Jog"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.1684,
-        "w": 8.7714,
-        "x": 3.4082,
-        "y": 0.648
+        "h": 3.9986,
+        "w": 5.837,
+        "x": 3.4039,
+        "y": 0.4341
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          248,
-          255,
-          252
+        "dash": 2,
+        "family": "flowchart",
+        "fill": [
+          52,
+          210,
+          49
         ],
-        "font_face": "Arial",
-        "font_size": 42,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Charge Texture Bikes Soak",
-        "theme_topic": "Open",
-        "underline": false
+        "focus": false,
+        "line": [
+          69,
+          90,
+          26
+        ],
+        "line_width": 6.960847831396837,
+        "outline_only": false,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Jog"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.3049,
-        "w": 6.6674,
-        "x": 0.5285,
-        "y": 4.7163
+        "h": 1.6246,
+        "w": 5.3244,
+        "x": 5.6073,
+        "y": 4.4767
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.052876473528800476,
-          0.06018786027572443,
-          0.03548864433475034,
-          0.2532125704683223
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          94,
+          203,
+          110
         ],
-        "focus": true,
-        "mask_line": [
-          88,
-          66,
-          109
+        "focus": false,
+        "line": [
+          192,
+          228,
+          84
         ],
-        "mask_overlay": false,
-        "theme_topic": "Open",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 4.810603304608877,
+        "outline_only": true,
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Jog"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.3841,
-        "w": 12.2295,
-        "x": 0.5432,
-        "y": 1.9995
+        "h": 3.5982,
+        "w": 7.9459,
+        "x": 1.2084,
+        "y": 4.6441
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 4,
+        "family": "flowchart",
         "fill": [
-          43,
-          162,
-          130
+          81,
+          176,
+          30
         ],
+        "focus": false,
         "line": [
-          43,
-          162,
-          130
+          49,
+          157,
+          184
         ],
-        "line_width": 3.1164485762534193,
+        "line_width": 2.642505701901557,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Open"
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Jog"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.1095,
-        "w": 11.9157,
-        "x": 0.6824,
-        "y": 2.1558
+        "h": 7.5184,
+        "w": 6.832,
+        "x": 0.0012,
+        "y": -0.0189
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.24187360171547076,
-          0.06407523537660635,
-          0.14930963832016217,
-          0.21827776607291122
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          64,
+          188,
+          67
         ],
-        "focus": true,
-        "mask_line": [
-          218,
-          112,
-          229
+        "line": [
+          64,
+          188,
+          67
         ],
-        "mask_overlay": true,
-        "theme_topic": "Open",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 4.332564777999622,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Jog"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.5494,
-        "w": 1.8835,
-        "x": 8.8752,
-        "y": 0.4861
+        "h": 1.1406,
+        "w": 8.9479,
+        "x": 0.5691,
+        "y": 0.3351
       },
       "id": "object_006",
       "properties": {
@@ -202,79 +215,69 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          75,
-          68,
-          212
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 7,
+        "font_face": "Trebuchet MS",
+        "font_size": 40,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Inconclusive",
-        "theme_topic": "Open",
-        "underline": true
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Unable Amusement Stretch Fetch",
+        "theme_topic": "Jog",
+        "underline": false
       },
       "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.5941,
-        "w": 2.2015,
-        "x": 5.456,
-        "y": 5.956
+        "h": 2.5119,
+        "w": 12.2217,
+        "x": 0.5601,
+        "y": 4.4758
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          152,
-          162,
-          71
+        "clip": "hex",
+        "focus": true,
+        "line": [
+          255,
+          198,
+          74
         ],
-        "bold": false,
-        "color": [
-          216,
-          95,
-          116
-        ],
-        "font_face": "Arial",
-        "font_size": 16,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "compare ambiguous wobble",
-        "theme_topic": "Open",
-        "underline": false
+        "line_width": 14,
+        "theme_topic": "Jog"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.3248,
-        "w": 2.2096,
-        "x": 3.5863,
-        "y": 0.4567
+        "h": 0.304,
+        "w": 11.8382,
+        "x": 0.7587,
+        "y": 6.5484
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          134,
-          156,
-          160
+          255,
+          198,
+          74
         ],
-        "font_face": "Arial",
-        "font_size": 7,
+        "font_face": "Verdana",
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Fish",
-        "theme_topic": "Open",
+        "text": "Contain Jeans",
+        "theme_topic": "Jog",
         "underline": false
       },
       "type": "text",

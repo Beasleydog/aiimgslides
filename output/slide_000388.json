@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "back_color": [
-        242,
-        233,
-        222
+      "colors": [
+        [
+          146,
+          88,
+          185
+        ],
+        [
+          86,
+          149,
+          214
+        ]
       ],
       "fill": [
-        252,
-        249,
-        244
+        126,
+        58,
+        173
       ],
-      "fore_color": [
-        81,
-        39,
-        178
-      ],
-      "pattern": 53,
-      "style": "pattern",
-      "theme_topic": "Advertisement"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Aggressive"
     },
     "type": "background",
     "z_order": 0
@@ -41,210 +45,211 @@
   "objects": [
     {
       "bbox": {
-        "h": 0.7335,
-        "w": 13.318,
-        "x": 0.0098,
-        "y": 0.0157
+        "h": 4.7158,
+        "w": 3.4864,
+        "x": 8.4331,
+        "y": 2.9897
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          242,
-          233,
-          222
+          50,
+          85,
+          135
         ],
+        "focus": false,
         "line": [
-          242,
-          233,
-          222
+          80,
+          139,
+          213
         ],
-        "line_width": 1.855179005596651,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Advertisement"
+        "line_width": 3.790894157646444,
+        "outline_only": true,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Aggressive"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.1342,
-        "w": 5.1674,
-        "x": 0.5478,
-        "y": 0.3287
+        "h": 3.7839,
+        "w": 8.9408,
+        "x": 2.6655,
+        "y": 3.1684
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          36,
-          32,
-          29
+        "dash": 7,
+        "family": "flowchart",
+        "fill": [
+          199,
+          126,
+          160
         ],
-        "font_face": "Arial",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Spark Volatile",
-        "theme_topic": "Advertisement",
-        "underline": false
+        "focus": false,
+        "line": [
+          31,
+          47,
+          57
+        ],
+        "line_width": 3.8462055082804536,
+        "outline_only": true,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Aggressive"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.5879,
-        "w": 5.8404,
-        "x": 0.538,
-        "y": 1.8373
+        "h": 2.3975,
+        "w": 4.9492,
+        "x": 3.0425,
+        "y": 0.6917
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          242,
-          233,
-          222
+          107,
+          80,
+          208
         ],
+        "focus": false,
         "line": [
-          242,
-          233,
-          222
+          168,
+          167,
+          180
         ],
-        "line_width": 2.045287185623814,
+        "line_width": 7.490770291569158,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Advertisement"
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Aggressive"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.4892,
-        "w": 5.8381,
-        "x": 0.5515,
-        "y": 3.6202
+        "h": 0.8927,
+        "w": 6.6992,
+        "x": 0.7356,
+        "y": 5.8512
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          242,
-          233,
-          222
-        ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 3.3895931639577084,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Advertisement"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.4361,
-        "w": 5.3591,
-        "x": 0.7885,
-        "y": 4.5105
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 9,
+        "font_size": 28,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Cool Zealous",
-        "theme_topic": "Advertisement",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Root Decay Languid",
+        "theme_topic": "Aggressive",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 2.3381,
+        "w": 3.8735,
+        "x": 4.7432,
+        "y": 0.535
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.32579741225922115,
+          0.22207335027645062,
+          0.062387111172544626,
+          0.29383000662118136
+        ],
+        "focus": true,
+        "mask_line": [
+          229,
+          218,
+          139
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Aggressive",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.6731,
-        "w": 5.8428,
-        "x": 0.5697,
-        "y": 5.3444
+        "h": 0.6151,
+        "w": 3.5675,
+        "x": 0.6783,
+        "y": 1.1416
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          242,
-          233,
-          222
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          98,
+          200,
+          71
         ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 1.1847292305260007,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Advertisement"
+        "font_face": "Arial",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Hellish Groovy",
+        "theme_topic": "Aggressive",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4517,
-        "w": 5.3223,
-        "x": 0.7767,
-        "y": 6.223
+        "h": 0.7425,
+        "w": 3.5622,
+        "x": 0.7196,
+        "y": 2.0344
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          174,
-          73,
-          92
+          192,
+          162,
+          216
         ],
         "font_face": "Arial",
-        "font_size": 11,
+        "font_size": 13,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Truck Hover",
-        "theme_topic": "Advertisement",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "crooked fruit pretend flash file spotted jeans responsible peck swim heartbreaking furtive friends",
+        "theme_topic": "Aggressive",
         "underline": false
       },
       "type": "text",
@@ -252,41 +257,88 @@
     },
     {
       "bbox": {
-        "h": 5.131,
-        "w": 5.816,
-        "x": 6.9868,
-        "y": 1.8554
+        "h": 2.2084,
+        "w": 3.7356,
+        "x": 8.9661,
+        "y": 3.2886
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          242,
-          233,
-          222
+        "band": [
+          52,
+          28,
+          184
         ],
-        "line": [
-          242,
-          233,
-          222
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          96,
+          121,
+          58
         ],
-        "line_width": 1.514078146433911,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Advertisement"
+        "border": [
+          192,
+          162,
+          216
+        ],
+        "border_dash": "sysDot",
+        "border_width": 0.783530533091501,
+        "cells": [
+          [
+            "squeeze cherries",
+            "broken",
+            "loaf prefer",
+            "lamentable wool",
+            "celery needle"
+          ],
+          [
+            "plucky certain",
+            "interrupt",
+            "power",
+            "cut guttural",
+            "aggressive zebra"
+          ],
+          [
+            "high-pitched",
+            "righteous yoke",
+            "structure thunder",
+            "impossible",
+            "field drab"
+          ],
+          [
+            "cloistered",
+            "books",
+            "flippant",
+            "undress",
+            "melted abhorrent"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 10,
+        "has_header": true,
+        "header": [
+          207,
+          93,
+          171
+        ],
+        "rows": 4,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Aggressive"
       },
-      "type": "shape",
+      "type": "table",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.1321,
-        "w": 5.4651,
-        "x": 7.1762,
-        "y": 2.8115
+        "h": 0.6342,
+        "w": 3.5355,
+        "x": 9.0774,
+        "y": 1.1668
       },
       "id": "object_009",
       "properties": {
@@ -294,17 +346,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          252,
-          249,
-          244
+          153,
+          175,
+          140
         ],
         "font_face": "Arial",
-        "font_size": 52,
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "39%",
-        "theme_topic": "Advertisement",
+        "text": "Flagrant Frantic Funny",
+        "theme_topic": "Aggressive",
         "underline": false
       },
       "type": "text",
@@ -312,10 +364,10 @@
     },
     {
       "bbox": {
-        "h": 0.6823,
-        "w": 5.4484,
-        "x": 7.1781,
-        "y": 4.9838
+        "h": 0.7485,
+        "w": 3.5484,
+        "x": 9.0843,
+        "y": 1.9923
       },
       "id": "object_010",
       "properties": {
@@ -323,17 +375,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          36,
-          32,
-          29
+          192,
+          162,
+          216
         ],
         "font_face": "Arial",
-        "font_size": 12,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "same spoon gun ruddy poison",
-        "theme_topic": "Advertisement",
+        "text": "future telephone muddled price versed committee attractive crook call frequent soggy",
+        "theme_topic": "Aggressive",
         "underline": false
       },
       "type": "text",

@@ -10,12 +10,12 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        89,
-        190,
-        32
+        33,
+        115,
+        169
       ],
       "style": "solid",
-      "theme_topic": "Near Key"
+      "theme_topic": "Detect"
     },
     "type": "background",
     "z_order": 0
@@ -30,42 +30,41 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.7976,
-        "w": 6.7109,
-        "x": 6.744,
-        "y": 1.0628
+        "h": 2.6243,
+        "w": 4.8858,
+        "x": 0.0184,
+        "y": 4.8547
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 4,
+        "family": "panel",
         "fill": [
-          126,
-          132,
-          142
+          47,
+          136,
+          190
         ],
-        "focus": false,
         "line": [
-          44,
-          74,
-          143
+          47,
+          136,
+          190
         ],
-        "line_width": 3.4039065011181324,
-        "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Near Key"
+        "line_width": 1.6362288595366552,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Detect"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.1306,
-        "w": 7.5154,
-        "x": 0.5712,
-        "y": 0.3373
+        "h": 5.808,
+        "w": 3.1908,
+        "x": 9.421,
+        "y": 0.6453
       },
       "id": "object_002",
       "properties": {
@@ -73,17 +72,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          250,
+          252,
+          255
         ],
-        "font_face": "Georgia",
-        "font_size": 39,
+        "font_face": "Arial",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Military Income Border",
-        "theme_topic": "Near Key",
+        "text": "Fix First",
+        "theme_topic": "Detect",
         "underline": false
       },
       "type": "text",
@@ -91,154 +90,176 @@
     },
     {
       "bbox": {
-        "h": 1.0636,
-        "w": 2.4433,
-        "x": 3.322,
-        "y": 5.8557
+        "h": 6.2465,
+        "w": 1.4657,
+        "x": 7.4081,
+        "y": 0.6626
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          175,
-          221,
-          153
+        "crop": [
+          0.08199236055617999,
+          0.19874984773139276,
+          0.1128452583925005,
+          0.1906803910034045
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "protect fixed writer juice bang",
-        "theme_topic": "Near Key",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          115,
+          67,
+          109
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Detect",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.6004,
-        "w": 3.951,
-        "x": 0.6111,
-        "y": 1.8906
+        "h": 3.4168,
+        "w": 4.4922,
+        "x": 2.5022,
+        "y": 1.7981
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.009224635306022497,
-          0.002305951731201725,
-          0.05201460784040314,
-          0.043417553323271234
-        ],
-        "focus": true,
-        "mask_line": [
-          176,
-          53,
-          49
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Near Key",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.5699,
-        "w": 3.9056,
-        "x": 4.7091,
-        "y": 1.9252
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": true,
-        "mask_line": [
-          228,
-          202,
-          91
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Near Key",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.9658,
-        "w": 6.3673,
-        "x": 6.3685,
-        "y": 5.013
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
         "band": [
-          112,
-          52,
-          163
+          214,
+          227,
+          218
         ],
         "band_cols": false,
         "band_rows": true,
         "body": [
-          91,
-          152,
-          34
+          50,
+          128,
+          169
         ],
         "border": [
-          124,
-          229,
-          121
+          98,
+          85,
+          158
         ],
-        "border_dash": "dashDot",
-        "border_width": 2.0204661628360823,
+        "border_dash": "lgDash",
+        "border_width": 1.711301942797523,
         "cells": [
           [
-            "radiate",
-            "vengeful",
-            "vessel"
+            "rainstorm compete",
+            "haunt",
+            "rock deep",
+            "gray",
+            "overflow scarce"
           ],
           [
-            "race automatic",
-            "car",
-            "share wacky"
+            "note",
+            "regular circle",
+            "broken",
+            "minute trucks",
+            "bizarre pot"
           ],
           [
-            "exercise subdued",
-            "roomy",
-            "pass"
+            "lip horn",
+            "arch",
+            "free",
+            "far",
+            "scrub torpid"
+          ],
+          [
+            "influence",
+            "tiresome soak",
+            "charge",
+            "quaint",
+            "rain dangerous"
+          ],
+          [
+            "charge",
+            "wash stain",
+            "lighten railway",
+            "graceful modern",
+            "selective"
           ]
         ],
-        "cols": 3,
+        "cols": 5,
         "font_size": 13,
         "has_header": true,
         "header": [
-          31,
-          117,
-          161
+          60,
+          125,
+          107
         ],
-        "rows": 3,
+        "rows": 5,
         "text_color": [
-          28,
-          222,
-          129
+          250,
+          252,
+          255
         ],
-        "theme_topic": "Near Key"
+        "theme_topic": "Detect"
       },
       "type": "table",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.3895,
+        "w": 4.5813,
+        "x": 2.4482,
+        "y": 5.5364
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          47,
+          136,
+          190
+        ],
+        "line": [
+          47,
+          136,
+          190
+        ],
+        "line_width": 1.1055618432596177,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Detect"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.0618,
+        "w": 4.267,
+        "x": 2.6195,
+        "y": 5.6403
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.07607512137339885,
+          0.3034726031614335,
+          0.0947968909997709,
+          0.2595755864276155
+        ],
+        "focus": false,
+        "mask_line": [
+          92,
+          45,
+          174
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Detect",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 6
     }
   ],

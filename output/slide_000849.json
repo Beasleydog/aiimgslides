@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        100,
-        210,
-        123
+      "colors": [
+        [
+          236,
+          240,
+          242
+        ],
+        [
+          222,
+          133,
+          62
+        ]
       ],
       "fill": [
-        100,
-        210,
-        123
+        247,
+        248,
+        246
       ],
-      "fore_color": [
-        255,
-        211,
-        88
-      ],
-      "pattern": 51,
-      "style": "pattern",
-      "theme_topic": "Threatening"
+      "focus": "bottom_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Haunt"
     },
     "type": "background",
     "z_order": 0
@@ -41,155 +45,149 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.29,
-        "w": 3.8611,
-        "x": 5.9841,
-        "y": 4.6577
+        "h": 4.7684,
+        "w": 4.7212,
+        "x": 6.5027,
+        "y": 2.9738
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          66,
-          186,
-          116
+          114,
+          160,
+          227
         ],
         "focus": false,
         "line": [
-          25,
-          118,
-          199
+          72,
+          131,
+          111
         ],
-        "line_width": 4.39735634666714,
+        "line_width": 5.044359286444726,
         "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Threatening"
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Haunt"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.7852,
-        "w": 7.2758,
-        "x": 0.5586,
-        "y": 1.9638
+        "h": 1.3334,
+        "w": 8.0296,
+        "x": 0.5546,
+        "y": 0.3517
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          105,
-          162,
-          140
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          30,
+          35,
+          42
         ],
-        "focus": false,
-        "line": [
-          211,
-          103,
-          187
-        ],
-        "line_width": 3.1878303753298622,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Threatening"
+        "font_face": "Aptos Display",
+        "font_size": 38,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Manage Scattered Weigh",
+        "theme_topic": "Haunt",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.825,
-        "w": 4.7365,
-        "x": 5.8234,
-        "y": 3.352
+        "h": 5.1529,
+        "w": 0.5899,
+        "x": 0.5538,
+        "y": 1.8666
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          83,
-          96,
-          179
+          236,
+          240,
+          242
         ],
-        "focus": false,
         "line": [
-          99,
-          129,
-          227
+          236,
+          240,
+          242
         ],
-        "line_width": 5.895228387945717,
+        "line_width": 1.5692253334018837,
         "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Threatening"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Haunt"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.0872,
-        "w": 13.3305,
-        "x": -0.0039,
-        "y": 0.0164
+        "h": 0.7555,
+        "w": 0.2192,
+        "x": 0.7436,
+        "y": 2.0249
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          82,
-          172,
-          101
-        ],
-        "line": [
-          82,
-          172,
-          101
-        ],
-        "line_width": 2.985506599274684,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Threatening"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.1451,
-        "w": 7.0727,
-        "x": 3.4571,
-        "y": 0.672
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          31,
+          117,
+          161
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 45,
+        "font_face": "Aptos Display",
+        "font_size": 20,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Tiny Scream",
-        "theme_topic": "Threatening",
+        "text": "6.9x",
+        "theme_topic": "Haunt",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 4.1352,
+        "w": 0.2139,
+        "x": 0.7104,
+        "y": 2.7478
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          124,
+          135
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "shy achiever system",
+        "theme_topic": "Haunt",
         "underline": false
       },
       "type": "text",
@@ -197,41 +195,41 @@
     },
     {
       "bbox": {
-        "h": 2.3992,
-        "w": 2.5932,
-        "x": 4.1631,
-        "y": 2.0044
+        "h": 5.1502,
+        "w": 0.746,
+        "x": 1.3151,
+        "y": 1.836
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          82,
-          172,
-          101
+          186,
+          211,
+          222
         ],
         "line": [
-          82,
-          172,
-          101
+          236,
+          240,
+          242
         ],
-        "line_width": 1.3662028390546672,
+        "line_width": 2.979130566965696,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Threatening"
+        "theme_topic": "Haunt"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.9328,
-        "w": 2.2152,
-        "x": 4.3695,
-        "y": 2.4861
+        "h": 0.7573,
+        "w": 0.3941,
+        "x": 1.4686,
+        "y": 2.0131
       },
       "id": "object_007",
       "properties": {
@@ -239,17 +237,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          31,
+          117,
+          161
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 49,
+        "font_face": "Aptos Display",
+        "font_size": 20,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "9x",
-        "theme_topic": "Threatening",
+        "text": "14%",
+        "theme_topic": "Haunt",
         "underline": false
       },
       "type": "text",
@@ -257,10 +255,10 @@
     },
     {
       "bbox": {
-        "h": 0.5892,
-        "w": 2.2412,
-        "x": 4.3389,
-        "y": 3.45
+        "h": 4.1077,
+        "w": 0.3765,
+        "x": 1.5088,
+        "y": 2.7689
       },
       "id": "object_008",
       "properties": {
@@ -268,17 +266,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          115,
+          124,
+          135
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "answer permissible memory faint fetch clever refuse thank",
-        "theme_topic": "Threatening",
+        "text": "magenta instinctive applaud fixed",
+        "theme_topic": "Haunt",
         "underline": false
       },
       "type": "text",
@@ -286,59 +284,57 @@
     },
     {
       "bbox": {
-        "h": 2.3928,
-        "w": 3.1143,
-        "x": 7.0237,
-        "y": 1.992
+        "h": 0.7287,
+        "w": 0.2,
+        "x": 2.4332,
+        "y": 2.0115
       },
       "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          82,
-          172,
-          101
-        ],
-        "line": [
-          82,
-          172,
-          101
-        ],
-        "line_width": 0.5262031424225716,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Threatening"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.9354,
-        "w": 2.7403,
-        "x": 7.2108,
-        "y": 2.5116
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          31,
+          117,
+          161
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 52,
+        "font_face": "Aptos Display",
+        "font_size": 19,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "246",
-        "theme_topic": "Threatening",
+        "text": "184",
+        "theme_topic": "Haunt",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 4.1311,
+        "w": 0.2,
+        "x": 2.4096,
+        "y": 2.7821
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          124,
+          135
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "stain jeans bounce eminent delay argument swim",
+        "theme_topic": "Haunt",
         "underline": false
       },
       "type": "text",
@@ -346,88 +342,88 @@
     },
     {
       "bbox": {
-        "h": 0.5752,
-        "w": 2.7204,
-        "x": 7.1846,
-        "y": 3.4367
+        "h": 5.1347,
+        "w": 0.7223,
+        "x": 2.9292,
+        "y": 1.8627
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          197,
+          169,
+          171
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "disarm toad elastic grumpy",
-        "theme_topic": "Threatening",
-        "underline": false
+        "line": [
+          236,
+          240,
+          242
+        ],
+        "line_width": 3.2100220280454113,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Haunt"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 2.2641,
-        "w": 5.8328,
-        "x": 0.5319,
-        "y": 4.8032
+        "h": 0.7287,
+        "w": 0.3753,
+        "x": 3.0757,
+        "y": 2.0057
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          82,
-          172,
-          101
-        ],
-        "line": [
-          82,
-          172,
-          101
-        ],
-        "line_width": 5.321801395469271,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Threatening"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.4399,
-        "w": 5.3364,
-        "x": 0.8176,
-        "y": 5.7058
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos Display",
+        "font_size": 19,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Attend",
-        "theme_topic": "Threatening",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "131",
+        "theme_topic": "Haunt",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 4.1296,
+        "w": 0.3608,
+        "x": 3.0876,
+        "y": 2.7889
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          124,
+          135
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "tin giddy listen greet edge",
+        "theme_topic": "Haunt",
         "underline": false
       },
       "type": "text",
@@ -435,70 +431,68 @@
     },
     {
       "bbox": {
-        "h": 0.6244,
-        "w": 5.3481,
-        "x": 0.8021,
-        "y": 6.2296
+        "h": 2.4303,
+        "w": 1.8163,
+        "x": 8.9928,
+        "y": 1.8874
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          60,
-          111,
-          75
+        "crop": [
+          0.1217443672650847,
+          0.14003912686524014,
+          0.17064462936323382,
+          0.04499441107465882
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tiresome same teeny-tiny mountain grade moan eatable lunch invite nappy debt arrive",
-        "theme_topic": "Threatening",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          48,
+          141,
+          142
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Haunt",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 2.2471,
-        "w": 6.1447,
-        "x": 6.6177,
-        "y": 4.8065
+        "h": 2.4664,
+        "w": 1.7895,
+        "x": 10.9381,
+        "y": 1.8913
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          82,
-          172,
-          101
+        "crop": [
+          0.23460676721855347,
+          0.1025266989211447,
+          0.05236662030370565,
+          0.13066544005433908
         ],
-        "line": [
-          82,
-          172,
-          101
+        "focus": false,
+        "mask_line": [
+          31,
+          117,
+          161
         ],
-        "line_width": 4.453348919381807,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Threatening"
+        "mask_overlay": true,
+        "theme_topic": "Haunt",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.4363,
-        "w": 5.657,
-        "x": 6.8488,
-        "y": 5.7207
+        "h": 0.2699,
+        "w": 1.4096,
+        "x": 11.1292,
+        "y": 3.8726
       },
       "id": "object_016",
       "properties": {
@@ -506,17 +500,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Detail Coat",
-        "theme_topic": "Threatening",
+        "text": "Illustrious",
+        "theme_topic": "Haunt",
         "underline": false
       },
       "type": "text",
@@ -524,126 +518,126 @@
     },
     {
       "bbox": {
-        "h": 0.5786,
-        "w": 5.6816,
-        "x": 6.8763,
-        "y": 6.2585
+        "h": 2.4226,
+        "w": 1.786,
+        "x": 8.9716,
+        "y": 4.4779
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          60,
-          111,
-          75
+        "crop": [
+          0.17848609000641413,
+          0.3023331066737142,
+          0.0714800121259479,
+          0.2806623168587552
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "somber frightened bushes uptight cheer private materialistic kind",
-        "theme_topic": "Threatening",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          70,
+          108,
+          143
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Haunt",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 2.3761,
-        "w": 2.4022,
-        "x": 10.3466,
-        "y": 1.9874
+        "h": 2.4447,
+        "w": 1.7558,
+        "x": 10.9418,
+        "y": 4.5044
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
+        "clip": "hex",
         "focus": false,
-        "mask_line": [
-          48,
-          176,
-          140
+        "line": [
+          229,
+          80,
+          201
         ],
-        "mask_overlay": false,
-        "theme_topic": "Threatening",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 9,
+        "theme_topic": "Haunt"
       },
-      "type": "image",
+      "type": "svg_image",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.4891,
-        "w": 0.5989,
-        "x": 8.5187,
-        "y": 6.5341
+        "h": 0.5588,
+        "w": 1.0391,
+        "x": 10.2842,
+        "y": 2.6923
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          203,
-          88,
-          123
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          230,
+          200,
+          138
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Destroy Agree",
-        "theme_topic": "Threatening",
-        "underline": false
+        "focus": false,
+        "line": [
+          83,
+          127,
+          26
+        ],
+        "line_width": 6.129127913892112,
+        "outline_only": false,
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Haunt"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.6052,
-        "w": 1.6431,
-        "x": 8.2005,
-        "y": 4.9166
+        "h": 0.4942,
+        "w": 1.1513,
+        "x": 8.2228,
+        "y": 3.4536
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          100,
-          68,
-          226
+        "dash": 7,
+        "family": "math",
+        "fill": [
+          89,
+          217,
+          166
         ],
-        "font_face": "Verdana",
-        "font_size": 17,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Shy Full Gun",
-        "theme_topic": "Threatening",
-        "underline": true
+        "focus": false,
+        "line": [
+          214,
+          39,
+          51
+        ],
+        "line_width": 0.6265484993646531,
+        "outline_only": false,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Haunt"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.6318,
-        "w": 2.0828,
-        "x": 4.1262,
-        "y": 4.1619
+        "h": 0.4867,
+        "w": 1.1579,
+        "x": 1.8809,
+        "y": 3.4636
       },
       "id": "object_021",
       "properties": {
@@ -651,53 +645,47 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          180,
-          74,
-          125
+          194,
+          202,
+          25
         ],
-        "font_face": "Verdana",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Judge Rabid",
-        "theme_topic": "Threatening",
-        "underline": true
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "aromatic consider bawdy jobless",
+        "theme_topic": "Haunt",
+        "underline": false
       },
       "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.5145,
-        "w": 0.5538,
-        "x": 2.5878,
-        "y": 3.4591
+        "h": 0.5985,
+        "w": 1.1768,
+        "x": 0.6909,
+        "y": 3.7544
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          118,
-          127,
-          218
+        "pattern": "swoop",
+        "primary": [
+          31,
+          117,
+          161
         ],
-        "bold": false,
-        "color": [
-          183,
-          210,
-          84
+        "secondary": [
+          212,
+          180,
+          112
         ],
-        "font_face": "Verdana",
-        "font_size": 16,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "thrill",
-        "theme_topic": "Threatening",
-        "underline": true
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#429156\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#a79164\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
+        "theme_topic": "Haunt"
       },
-      "type": "text",
+      "type": "svg",
       "z_order": 22
     }
   ],

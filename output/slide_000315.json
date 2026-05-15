@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        29,
-        151,
-        112
-      ],
       "fill": [
-        29,
-        151,
-        112
+        210,
+        72,
+        94
       ],
-      "fore_color": [
-        51,
-        63,
-        101
-      ],
-      "pattern": 32,
-      "style": "pattern",
-      "theme_topic": "Pathetic"
+      "style": "solid",
+      "theme_topic": "Remain"
     },
     "type": "background",
     "z_order": 0
@@ -41,106 +30,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5296,
-        "w": 8.8429,
-        "x": -0.8357,
-        "y": 3.4319
+        "h": 3.6035,
+        "w": 4.1865,
+        "x": 5.1853,
+        "y": 0.2619
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          27,
-          89,
-          115
+          124,
+          91,
+          62
         ],
         "focus": false,
         "line": [
-          120,
-          67,
-          199
+          110,
+          64,
+          62
         ],
-        "line_width": 4.584628056788445,
+        "line_width": 6.960330443125695,
         "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Pathetic"
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Remain"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.4939,
-        "w": 4.3248,
-        "x": 0.0316,
-        "y": 1.1015
+        "h": 2.8727,
+        "w": 6.4657,
+        "x": -0.2053,
+        "y": 0.6703
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
+        "dash": 4,
+        "family": "flowchart",
         "fill": [
-          59,
-          179,
-          51
+          141,
+          150,
+          68
         ],
         "focus": false,
         "line": [
-          56,
-          75,
-          78
+          117,
+          112,
+          64
         ],
-        "line_width": 2.4593100876895524,
+        "line_width": 4.210119400859296,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Pathetic"
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Remain"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.073,
-        "w": 6.1988,
-        "x": 1.8779,
-        "y": 0.4262
+        "h": 4.6665,
+        "w": 8.6179,
+        "x": 2.9204,
+        "y": 3.0946
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "ribbons",
+        "family": "stars",
         "fill": [
-          27,
-          135,
-          96
+          162,
+          145,
+          141
         ],
         "focus": false,
         "line": [
-          110,
-          159,
-          39
+          225,
+          172,
+          148
         ],
-        "line_width": 2.145094387831313,
+        "line_width": 5.969861542188773,
         "outline_only": true,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Pathetic"
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Remain"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.7391,
-        "w": 13.3388,
-        "x": -0.0156,
-        "y": 0.0126
+        "h": 0.805,
+        "w": 13.3298,
+        "x": 0.0163,
+        "y": 0.0149
       },
       "id": "object_004",
       "properties": {
@@ -148,154 +137,134 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          93,
-          180,
-          152
+          225,
+          94,
+          113
         ],
         "line": [
-          93,
-          180,
-          152
+          225,
+          94,
+          113
         ],
-        "line_width": 1.6080556802513604,
+        "line_width": 0.7936754428263347,
         "outline_only": false,
         "ppt_type": 1,
         "shape": "rect",
-        "theme_topic": "Pathetic"
+        "theme_topic": "Remain"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 6.3845,
-        "w": 5.7217,
-        "x": 0.5479,
-        "y": 0.5591
+        "h": 5.7851,
+        "w": 3.1873,
+        "x": 9.4053,
+        "y": 0.6294
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "juice",
-          "slim",
-          "gun"
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          252,
+          247
         ],
-        "chart": "line",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 65,
-        "series": [
-          {
-            "color": [
-              154,
-              113,
-              87
-            ],
-            "name": "defeated",
-            "values": [
-              47,
-              44,
-              56
-            ]
-          }
-        ],
-        "theme_topic": "Pathetic",
-        "title": "debt moaning"
+        "font_face": "Aptos Display",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Scold Trousers Alert",
+        "theme_topic": "Remain",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.0657,
-        "w": 5.826,
-        "x": 6.8316,
-        "y": 0.6502
+        "h": 3.4951,
+        "w": 4.6171,
+        "x": 2.4771,
+        "y": 1.7996
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "clip": "ticket",
+        "focus": true,
+        "line": [
+          51,
+          63,
+          101
         ],
-        "font_face": "Georgia",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Modern Quince Behave",
-        "theme_topic": "Pathetic",
-        "underline": false
+        "line_width": 9,
+        "theme_topic": "Remain"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 4.839,
-        "w": 5.8257,
-        "x": 6.8119,
-        "y": 1.9721
+        "h": 6.2685,
+        "w": 1.4815,
+        "x": 7.3573,
+        "y": 0.6366
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          148,
-          204,
-          189
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          225,
+          94,
+          113
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wash voice amazing team earsplitting calendar needy competition unsightly",
-        "theme_topic": "Pathetic",
-        "underline": false
+        "line": [
+          225,
+          94,
+          113
+        ],
+        "line_width": 1.6988302614310773,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Remain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.3024,
-        "w": 2.1501,
-        "x": 2.2788,
-        "y": 3.8598
+        "h": 5.94,
+        "w": 1.1476,
+        "x": 7.5463,
+        "y": 0.7898
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          127,
-          190,
-          127
+        "crop": [
+          0.19689368035985746,
+          0.0996533254593002,
+          0.013205383492964773,
+          0.003019736689852125
         ],
-        "bold": true,
-        "color": [
-          76,
-          47,
-          185
+        "focus": false,
+        "mask_line": [
+          51,
+          63,
+          101
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Dolls Wish Cheerful",
-        "theme_topic": "Pathetic",
-        "underline": false
+        "mask_overlay": false,
+        "theme_topic": "Remain",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 8
     }
   ],

@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 270,
+      "angle": 225,
       "archetype": "atomic_composition",
       "colors": [
         [
-          214,
-          134,
-          173
+          113,
+          54,
+          141
         ],
         [
           255,
-          117,
-          117
+          198,
+          74
         ]
       ],
       "fill": [
-        214,
-        134,
-        173
+        147,
+        199,
+        153
       ],
       "focus": "bottom_left",
-      "gradient_type": "linear",
+      "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Addition Frogs"
+      "theme_topic": "Hum"
     },
     "type": "background",
     "z_order": 0
@@ -45,75 +45,139 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.782,
-        "w": 8.9399,
-        "x": 2.4001,
-        "y": 0.579
+        "h": 2.669,
+        "w": 3.0084,
+        "x": 9.5754,
+        "y": 4.5713
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 2,
+        "family": "stars",
         "fill": [
-          200,
-          112,
-          144
+          149,
+          88,
+          145
         ],
         "focus": false,
         "line": [
-          88,
-          153,
-          98
+          147,
+          219,
+          216
         ],
-        "line_width": 2.884403619358018,
+        "line_width": 6.147521300918889,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Addition Frogs"
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Hum"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.8841,
-        "w": 7.3206,
-        "x": 2.4363,
-        "y": 1.6656
+        "h": 2.7947,
+        "w": 4.531,
+        "x": 6.9649,
+        "y": 4.698
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          184,
-          115,
-          149
+          93,
+          124,
+          85
         ],
+        "focus": false,
         "line": [
-          169,
-          106,
-          137
+          69,
+          188,
+          32
         ],
-        "line_width": 4.559984135090008,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Addition Frogs"
+        "line_width": 3.9461841684521395,
+        "outline_only": true,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Hum"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9124,
-        "w": 5.1631,
-        "x": 0.7439,
-        "y": 5.833
+        "h": 4.4115,
+        "w": 5.7306,
+        "x": -0.9357,
+        "y": 0.8332
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          188,
+          209,
+          169
+        ],
+        "focus": false,
+        "line": [
+          94,
+          142,
+          141
+        ],
+        "line_width": 7.443700861357588,
+        "outline_only": false,
+        "ppt_type": 53,
+        "shape": "right_arrow_callout",
+        "theme_topic": "Hum"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 4.583,
+        "w": 6.3992,
+        "x": 0.8941,
+        "y": 1.1232
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          134,
+          181,
+          139
+        ],
+        "line": [
+          127,
+          172,
+          132
+        ],
+        "line_width": 1.6391494981073886,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hum"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.9891,
+        "w": 6.2881,
+        "x": 0.5604,
+        "y": 0.3363
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -123,73 +187,13 @@
           30,
           36
         ],
-        "font_face": "Georgia",
-        "font_size": 25,
+        "font_face": "Trebuchet MS",
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Versed Disgusting Insect Spurious",
-        "theme_topic": "Addition Frogs",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.3167,
-        "w": 1.4679,
-        "x": 0.5662,
-        "y": 3.2304
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          169,
-          106,
-          137
-        ],
-        "line": [
-          169,
-          106,
-          137
-        ],
-        "line_width": 0.7871712541987101,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Addition Frogs"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.4731,
-        "w": 0.9488,
-        "x": 0.8088,
-        "y": 4.1017
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Change",
-        "theme_topic": "Addition Frogs",
+        "text": "Soothe Knowledgeable Living",
+        "theme_topic": "Hum",
         "underline": false
       },
       "type": "text",
@@ -197,70 +201,73 @@
     },
     {
       "bbox": {
-        "h": 0.6577,
-        "w": 0.949,
-        "x": 0.8214,
-        "y": 4.6973
+        "h": 3.1283,
+        "w": 3.291,
+        "x": 4.5776,
+        "y": 2.2329
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          111,
-          76,
-          97
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          127,
+          172,
+          132
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "damaging mundane lumpy injure jaded crazy ajar baseball hallowed lie fork",
-        "theme_topic": "Addition Frogs",
-        "underline": false
+        "line": [
+          127,
+          172,
+          132
+        ],
+        "line_width": 3.5536464600877413,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hum"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.3253,
-        "w": 1.6291,
-        "x": 2.2407,
-        "y": 3.2343
+        "h": 0.5245,
+        "w": 0.5146,
+        "x": 4.7824,
+        "y": 2.4247
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 4,
+        "family": "math",
         "fill": [
-          169,
-          106,
-          137
+          220,
+          155,
+          69
         ],
+        "focus": false,
         "line": [
-          169,
+          81,
           106,
-          137
+          88
         ],
-        "line_width": 2.869195591833135,
+        "line_width": 1.921696711631887,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Addition Frogs"
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Hum"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4394,
-        "w": 1.1359,
-        "x": 2.5071,
-        "y": 4.1244
+        "h": 0.4371,
+        "w": 2.8034,
+        "x": 4.8315,
+        "y": 3.139
       },
       "id": "object_008",
       "properties": {
@@ -272,13 +279,13 @@
           198,
           74
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Periodic Berserk",
-        "theme_topic": "Addition Frogs",
+        "text": "Knowing",
+        "theme_topic": "Hum",
         "underline": false
       },
       "type": "text",
@@ -286,10 +293,10 @@
     },
     {
       "bbox": {
-        "h": 0.6579,
-        "w": 1.115,
-        "x": 2.4814,
-        "y": 4.6676
+        "h": 1.5187,
+        "w": 2.7882,
+        "x": 4.8175,
+        "y": 3.6622
       },
       "id": "object_009",
       "properties": {
@@ -297,17 +304,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          111,
-          76,
-          97
+          81,
+          106,
+          88
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Verdana",
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "corn weight industrious need gullible knit island earth enormous male",
-        "theme_topic": "Addition Frogs",
+        "text": "order decide snatch tongue fool turn grotesque whisper",
+        "theme_topic": "Hum",
         "underline": false
       },
       "type": "text",
@@ -315,43 +322,75 @@
     },
     {
       "bbox": {
-        "h": 2.3314,
-        "w": 2.3718,
-        "x": 4.1167,
-        "y": 3.2343
+        "h": 3.1387,
+        "w": 3.0331,
+        "x": 8.0921,
+        "y": 2.2331
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 3,
         "family": "panel",
         "fill": [
-          169,
-          106,
-          137
+          127,
+          172,
+          132
         ],
         "line": [
-          169,
-          106,
-          137
+          127,
+          172,
+          132
         ],
-        "line_width": 0.7326288271489654,
+        "line_width": 1.7028932139054553,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Addition Frogs"
+        "theme_topic": "Hum"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4254,
-        "w": 1.9014,
-        "x": 4.355,
-        "y": 4.099
+        "h": 0.5808,
+        "w": 0.5718,
+        "x": 8.2795,
+        "y": 2.4384
       },
       "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          154,
+          68,
+          112
+        ],
+        "focus": false,
+        "line": [
+          81,
+          106,
+          88
+        ],
+        "line_width": 4.848586579906441,
+        "outline_only": true,
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Hum"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.472,
+        "w": 2.5398,
+        "x": 8.3078,
+        "y": 3.1389
+      },
+      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -361,42 +400,13 @@
           198,
           74
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Collar",
-        "theme_topic": "Addition Frogs",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.6872,
-        "w": 1.8883,
-        "x": 4.353,
-        "y": 4.665
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          111,
-          76,
-          97
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "trust ruddy symptomatic back circle business crime great",
-        "theme_topic": "Addition Frogs",
+        "text": "Acrid",
+        "theme_topic": "Hum",
         "underline": false
       },
       "type": "text",
@@ -404,28 +414,28 @@
     },
     {
       "bbox": {
-        "h": 0.2734,
-        "w": 5.6513,
-        "x": 6.9833,
-        "y": 3.332
+        "h": 1.5192,
+        "w": 2.5548,
+        "x": 8.3355,
+        "y": 3.6812
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          198,
-          74
+          81,
+          106,
+          88
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 13,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "FLAVOR",
-        "theme_topic": "Addition Frogs",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "suit type notice harm card fierce report pop physical smooth substantial nutty wobble odd",
+        "theme_topic": "Hum",
         "underline": false
       },
       "type": "text",
@@ -433,28 +443,32 @@
     },
     {
       "bbox": {
-        "h": 0.6319,
-        "w": 5.6517,
-        "x": 7.0138,
-        "y": 3.8082
+        "h": 0.3077,
+        "w": 2.6747,
+        "x": 9.4277,
+        "y": 5.0792
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          220,
+          220,
+          54
+        ],
         "bold": true,
         "color": [
-          110,
-          63,
-          32
+          28,
+          30,
+          36
         ],
-        "font_face": "Georgia",
-        "font_size": 33,
+        "font_face": "Trebuchet MS",
+        "font_size": 18,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Property",
-        "theme_topic": "Addition Frogs",
+        "text": "Secret",
+        "theme_topic": "Hum",
         "underline": false
       },
       "type": "text",
@@ -462,367 +476,296 @@
     },
     {
       "bbox": {
-        "h": 0.7417,
-        "w": 5.6311,
-        "x": 7.0144,
-        "y": 4.6849
+        "h": 1.367,
+        "w": 2.5381,
+        "x": 8.355,
+        "y": 3.4913
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          111,
-          76,
-          97
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "dog cagey flaky demonic breezy key rice sprout moon hole root shock tense spiffy",
-        "theme_topic": "Addition Frogs",
-        "underline": false
+        "line": [
+          127,
+          172,
+          132
+        ],
+        "line_width": 0.7614392943425705,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hum"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 2.2058,
-        "w": 5.8136,
-        "x": 6.9057,
-        "y": 0.6121
+        "h": 0.4327,
+        "w": 2.1675,
+        "x": 8.5346,
+        "y": 3.8042
       },
       "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          194,
-          95,
-          98
-        ],
-        "band_cols": true,
-        "band_rows": false,
-        "body": [
-          96,
-          222,
-          216
-        ],
-        "border": [
-          111,
-          76,
-          97
-        ],
-        "border_dash": "solid",
-        "border_width": 1.40012507115906,
-        "cells": [
-          [
-            "system",
-            "desire",
-            "dusty",
-            "tenuous jam",
-            "dam"
-          ],
-          [
-            "year",
-            "position well-to-do",
-            "piquant",
-            "humor",
-            "trains"
-          ],
-          [
-            "goofy time",
-            "gullible",
-            "punishment spiders",
-            "breakable",
-            "breakable"
-          ],
-          [
-            "charge",
-            "coil agonizing",
-            "married",
-            "woozy",
-            "same"
-          ],
-          [
-            "collar",
-            "float",
-            "loose unknown",
-            "cats gray",
-            "complete government"
-          ],
-          [
-            "abnormal history",
-            "nation",
-            "vanish unable",
-            "birthday",
-            "whirl"
-          ]
-        ],
-        "cols": 5,
-        "font_size": 6,
-        "has_header": true,
-        "header": [
-          72,
-          152,
-          114
-        ],
-        "rows": 6,
-        "text_color": [
-          46,
-          34,
-          127
-        ],
-        "theme_topic": "Addition Frogs"
-      },
-      "type": "table",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 2.2968,
-        "w": 5.9397,
-        "x": 0.5666,
-        "y": 0.5803
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.11608671086535387,
-          0.13142605218164968,
-          0.06350085117693631,
-          0.08334699340347641
-        ],
-        "focus": true,
-        "mask_line": [
-          97,
-          169,
-          37
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Addition Frogs",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.293,
-        "w": 5.554,
-        "x": 0.7517,
-        "y": 2.4355
-      },
-      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Guide",
-        "theme_topic": "Addition Frogs",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "5x",
+        "theme_topic": "Hum",
         "underline": false
       },
       "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.2968,
+        "w": 2.1687,
+        "x": 8.558,
+        "y": 4.2895
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wiry early secret joyous baseball",
+        "theme_topic": "Hum",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 1.0656,
+        "w": 4.0948,
+        "x": 0.8555,
+        "y": 4.6375
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          127,
+          172,
+          132
+        ],
+        "line": [
+          127,
+          172,
+          132
+        ],
+        "line_width": 0.9434699752376766,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hum"
+      },
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.4762,
-        "w": 0.5176,
-        "x": 8.257,
-        "y": 5.6361
+        "h": 0.7851,
+        "w": 3.7745,
+        "x": 1.0154,
+        "y": 4.7962
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          255,
-          198,
-          74
-        ],
+        "clip": "blob",
         "focus": false,
         "line": [
-          184,
-          214,
-          202
+          220,
+          227,
+          160
         ],
-        "line_width": 5.6901598205191934,
-        "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Addition Frogs"
+        "line_width": 11,
+        "theme_topic": "Hum"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.7556,
-        "w": 1.1287,
-        "x": 0.0569,
-        "y": 3.3561
+        "h": 0.9771,
+        "w": 0.4765,
+        "x": 6.556,
+        "y": 2.5101
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "symbols",
         "fill": [
-          61,
-          215,
-          26
+          121,
+          86,
+          201
         ],
         "focus": false,
         "line": [
-          27,
-          117,
-          119
+          162,
+          213,
+          150
         ],
-        "line_width": 0.4158650118408782,
+        "line_width": 5.90841720314879,
         "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Addition Frogs"
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Hum"
       },
       "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 1.2253,
-        "w": 1.8108,
-        "x": 3.1992,
-        "y": 1.2582
+        "h": 0.2688,
+        "w": 0.9959,
+        "x": 4.924,
+        "y": 6.7138
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          175,
-          219,
-          85
+          204,
+          200,
+          206
         ],
-        "connector": "curve",
-        "dash": 2,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Addition Frogs",
-        "width": 2.3087815147503785
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "cave",
+        "theme_topic": "Hum",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.7932,
-        "w": 0.9146,
-        "x": 10.6763,
-        "y": 5.0551
+        "h": 0.2605,
+        "w": 1.5604,
+        "x": 5.3879,
+        "y": 6.9057
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
-        "fill": [
-          178,
-          224,
-          119
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          223,
+          60,
+          88
         ],
-        "focus": false,
-        "line": [
-          125,
-          89,
-          219
-        ],
-        "line_width": 3.6811380482198643,
-        "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Addition Frogs"
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "soggy sidewalk economic naive",
+        "theme_topic": "Hum",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.5115,
-        "w": 0.7283,
-        "x": 2.2772,
-        "y": 5.1083
+        "h": 0.2602,
+        "w": 1.3007,
+        "x": 6.7083,
+        "y": 0.2549
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          194,
-          50,
-          111
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          62,
+          30,
+          46
         ],
-        "focus": false,
-        "line": [
-          58,
-          165,
-          125
-        ],
-        "line_width": 1.3280636697072854,
-        "outline_only": false,
-        "ppt_type": 13,
-        "shape": "can",
-        "theme_topic": "Addition Frogs"
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "decorate buzz ball",
+        "theme_topic": "Hum",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.6367,
-        "w": 1.6321,
-        "x": 4.2419,
-        "y": 3.643
+        "h": 1.0494,
+        "w": 1.4563,
+        "x": 10.1411,
+        "y": 4.8067
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          48,
-          71,
-          201
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          255,
+          117,
+          117
         ],
-        "bold": false,
-        "color": [
-          225,
-          197,
-          116
+        "focus": false,
+        "line": [
+          152,
+          96,
+          136
         ],
-        "font_face": "Aptos",
-        "font_size": 5,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Special",
-        "theme_topic": "Addition Frogs",
-        "underline": false
+        "line_width": 3.185627964106427,
+        "outline_only": true,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Hum"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 24
     }
   ],

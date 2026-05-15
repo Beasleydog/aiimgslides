@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          156,
-          122,
-          93
-        ],
-        [
-          119,
-          138,
-          79
-        ]
+      "back_color": [
+        215,
+        122,
+        141
       ],
       "fill": [
-        224,
-        37,
-        57
+        198,
+        64,
+        91
       ],
-      "focus": "top_right",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Expect"
+      "fore_color": [
+        136,
+        112,
+        26
+      ],
+      "pattern": 37,
+      "style": "pattern",
+      "theme_topic": "Use"
     },
     "type": "background",
     "z_order": 0
@@ -45,94 +41,133 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.3906,
-        "w": 4.0029,
-        "x": 9.6476,
-        "y": -0.1155
+        "h": 5.0887,
+        "w": 4.5408,
+        "x": 6.171,
+        "y": -0.4851
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          161,
-          138,
-          69
+          99,
+          50,
+          119
         ],
         "focus": false,
         "line": [
-          193,
-          203,
-          167
+          201,
+          161,
+          112
         ],
-        "line_width": 6.4849997908175085,
+        "line_width": 2.91610781371846,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Expect"
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Use"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.7832,
-        "w": 6.3699,
-        "x": 6.4277,
-        "y": 1.4392
+        "h": 2.7625,
+        "w": 12.2216,
+        "x": 0.5786,
+        "y": 4.2426
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          228,
-          66,
-          83
+        "crop": [
+          0.14273592626203102,
+          0.20151868259198577,
+          0.12371350085943633,
+          0.09377530431940008
         ],
-        "line": [
-          228,
-          66,
-          83
+        "focus": true,
+        "mask_line": [
+          221,
+          208,
+          35
         ],
-        "line_width": 1.719033260797344,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Expect"
+        "mask_overlay": false,
+        "theme_topic": "Use",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.5498,
-        "w": 11.9431,
-        "x": 0.7071,
-        "y": 6.3096
+        "h": 1.9953,
+        "w": 7.2586,
+        "x": 0.6105,
+        "y": 1.8886
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          236,
-          153,
-          164
+        "band": [
+          149,
+          181,
+          165
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "owe drag march listen slim naughty morning mug versed sound gun mug rice root female club scrawny certain noiseless yawn invincible territory",
-        "theme_topic": "Expect",
-        "underline": false
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          140,
+          131,
+          27
+        ],
+        "border": [
+          224,
+          165,
+          179
+        ],
+        "border_dash": "sysDot",
+        "border_width": 1.7466694327266026,
+        "cells": [
+          [
+            "childlike crayon",
+            "grandiose bulb",
+            "bomb serious"
+          ],
+          [
+            "hoc",
+            "pat motionless",
+            "quirky"
+          ],
+          [
+            "eggnog",
+            "hurry divide",
+            "vest clever"
+          ],
+          [
+            "clean",
+            "sand",
+            "unusual space"
+          ]
+        ],
+        "cols": 3,
+        "font_size": 6,
+        "has_header": true,
+        "header": [
+          134,
+          117,
+          46
+        ],
+        "rows": 4,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Use"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 3
     }
   ],

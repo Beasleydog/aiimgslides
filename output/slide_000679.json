@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        197,
-        165,
-        126
+      "colors": [
+        [
+          174,
+          196,
+          222
+        ],
+        [
+          255,
+          198,
+          74
+        ]
       ],
       "fill": [
-        153,
-        54,
-        83
+        33,
+        115,
+        169
       ],
-      "fore_color": [
-        255,
-        238,
-        103
-      ],
-      "pattern": 3,
-      "style": "pattern",
-      "theme_topic": "Abaft"
+      "focus": "top_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Nonstop"
     },
     "type": "background",
     "z_order": 0
@@ -41,74 +45,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.9333,
-        "w": 5.7059,
-        "x": -1.1766,
-        "y": 3.8199
+        "h": 4.0142,
+        "w": 3.2421,
+        "x": 3.5043,
+        "y": 0.9573
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 7,
-        "family": "ribbons",
+        "family": "symbols",
         "fill": [
-          104,
-          110,
-          96
+          62,
+          68,
+          145
         ],
         "focus": false,
         "line": [
-          219,
-          149,
-          65
+          156,
+          140,
+          113
         ],
-        "line_width": 4.572020625881674,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Abaft"
+        "line_width": 2.8759327713394662,
+        "outline_only": true,
+        "ppt_type": 172,
+        "shape": "gear6",
+        "theme_topic": "Nonstop"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.6068,
-        "w": 6.9667,
-        "x": 3.4023,
-        "y": 3.8642
+        "h": 4.3332,
+        "w": 6.7609,
+        "x": 3.9914,
+        "y": -0.6891
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 7,
-        "family": "basic",
+        "family": "arrows",
         "fill": [
-          145,
-          124,
-          89
+          82,
+          86,
+          208
         ],
         "focus": false,
         "line": [
-          70,
-          201,
-          45
+          115,
+          66,
+          64
         ],
-        "line_width": 7.887193319688417,
-        "outline_only": true,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Abaft"
+        "line_width": 2.183843849719098,
+        "outline_only": false,
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Nonstop"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.0717,
-        "w": 8.6412,
-        "x": 3.086,
-        "y": -0.0461
+        "h": 2.1444,
+        "w": 3.2404,
+        "x": -0.625,
+        "y": -0.4093
       },
       "id": "object_003",
       "properties": {
@@ -116,31 +120,31 @@
         "dash": 1,
         "family": "callouts",
         "fill": [
-          122,
-          40,
-          131
+          156,
+          97,
+          85
         ],
         "focus": false,
         "line": [
-          125,
-          32,
-          139
+          187,
+          28,
+          195
         ],
-        "line_width": 3.6543155597515833,
+        "line_width": 5.972992911021766,
         "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Abaft"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Nonstop"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.9992,
-        "w": 5.7782,
-        "x": 0.0178,
-        "y": 4.4901
+        "h": 3.8074,
+        "w": 7.1188,
+        "x": 1.7799,
+        "y": 1.2983
       },
       "id": "object_004",
       "properties": {
@@ -148,30 +152,30 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          184,
-          115,
-          135
+          42,
+          128,
+          182
         ],
         "line": [
-          184,
-          115,
-          135
+          47,
+          136,
+          190
         ],
-        "line_width": 4.668288359350483,
+        "line_width": 1.22903991854595,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Abaft"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Nonstop"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.066,
-        "w": 5.2658,
-        "x": 0.5631,
-        "y": 0.3369
+        "h": 0.766,
+        "w": 3.1032,
+        "x": 3.4462,
+        "y": 1.88
       },
       "id": "object_005",
       "properties": {
@@ -179,17 +183,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          255,
+          198,
+          74
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 29,
+        "font_face": "Georgia",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "North Laborer Prefer Brief",
-        "theme_topic": "Abaft",
+        "text": "94%",
+        "theme_topic": "Nonstop",
         "underline": false
       },
       "type": "text",
@@ -197,33 +201,39 @@
     },
     {
       "bbox": {
-        "h": 2.4109,
-        "w": 3.8627,
-        "x": 0.5233,
-        "y": 4.6131
+        "h": 2.5573,
+        "w": 3.0822,
+        "x": 3.4455,
+        "y": 2.6041
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          255,
-          238,
-          103
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          218,
+          235,
+          245
         ],
-        "line_width": 12,
-        "theme_topic": "Abaft"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wail balance limping few park standing sprout",
+        "theme_topic": "Nonstop",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.3871,
-        "w": 3.8276,
-        "x": 8.9303,
-        "y": 1.8644
+        "h": 3.5702,
+        "w": 3.2346,
+        "x": 6.8578,
+        "y": 1.7122
       },
       "id": "object_007",
       "properties": {
@@ -231,30 +241,30 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          255,
-          238,
-          103
+          87,
+          54,
+          152
         ],
         "line": [
-          184,
-          115,
-          135
+          47,
+          136,
+          190
         ],
-        "line_width": 4.9270627139527,
+        "line_width": 2.1343026189685315,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Abaft"
+        "theme_topic": "Nonstop"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.9171,
-        "w": 3.4974,
-        "x": 9.1043,
-        "y": 2.377
+        "h": 0.7446,
+        "w": 2.8813,
+        "x": 7.0659,
+        "y": 1.8749
       },
       "id": "object_008",
       "properties": {
@@ -262,17 +272,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          255,
+          198,
+          74
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 37,
+        "font_face": "Georgia",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "739",
-        "theme_topic": "Abaft",
+        "text": "9.6x",
+        "theme_topic": "Nonstop",
         "underline": false
       },
       "type": "text",
@@ -280,10 +290,10 @@
     },
     {
       "bbox": {
-        "h": 0.5927,
-        "w": 3.4978,
-        "x": 9.1319,
-        "y": 3.2794
+        "h": 2.5583,
+        "w": 2.873,
+        "x": 7.037,
+        "y": 2.6036
       },
       "id": "object_009",
       "properties": {
@@ -291,17 +301,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          218,
+          235,
+          245
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "anger broken signal seashore",
-        "theme_topic": "Abaft",
+        "text": "receive angry party summer present confused desire",
+        "theme_topic": "Nonstop",
         "underline": false
       },
       "type": "text",
@@ -309,39 +319,33 @@
     },
     {
       "bbox": {
-        "h": 2.3717,
-        "w": 3.8248,
-        "x": 4.7567,
-        "y": 4.5932
+        "h": 6.3704,
+        "w": 2.2251,
+        "x": 0.5282,
+        "y": 0.5665
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.020965834950610825,
-          0.1785949116625077,
-          0.10311564544336074,
-          0.0783155713737506
-        ],
+        "clip": "ticket",
         "focus": true,
-        "mask_line": [
+        "line": [
           255,
-          238,
-          103
+          198,
+          74
         ],
-        "mask_overlay": false,
-        "theme_topic": "Abaft",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 12,
+        "theme_topic": "Nonstop"
       },
-      "type": "image",
+      "type": "svg_image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.2851,
-        "w": 3.4276,
-        "x": 4.9322,
-        "y": 6.5577
+        "h": 0.2728,
+        "w": 1.8095,
+        "x": 0.7436,
+        "y": 6.5208
       },
       "id": "object_011",
       "properties": {
@@ -350,16 +354,16 @@
         "bold": true,
         "color": [
           255,
-          238,
-          103
+          198,
+          74
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Dust Flood Irritate",
-        "theme_topic": "Abaft",
+        "text": "Mint Tranquil",
+        "theme_topic": "Nonstop",
         "underline": false
       },
       "type": "text",
@@ -367,57 +371,59 @@
     },
     {
       "bbox": {
-        "h": 0.7699,
-        "w": 0.7954,
-        "x": 9.1395,
-        "y": 4.8111
+        "h": 1.4171,
+        "w": 6.8572,
+        "x": 3.242,
+        "y": 5.5555
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          47,
+          136,
+          190
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "35",
-        "theme_topic": "Abaft",
-        "underline": false
+        "line": [
+          47,
+          136,
+          190
+        ],
+        "line_width": 1.2944164275788868,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Nonstop"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.3616,
-        "w": 0.8111,
-        "x": 9.1326,
-        "y": 5.5241
+        "h": 0.4666,
+        "w": 6.5111,
+        "x": 3.43,
+        "y": 5.9047
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          204,
-          160,
-          175
+          250,
+          252,
+          255
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
+        "font_face": "Georgia",
+        "font_size": 23,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "flowery confused fry",
-        "theme_topic": "Abaft",
+        "text": "6x",
+        "theme_topic": "Nonstop",
         "underline": false
       },
       "type": "text",
@@ -425,28 +431,28 @@
     },
     {
       "bbox": {
-        "h": 0.7628,
-        "w": 0.7565,
-        "x": 10.4551,
-        "y": 4.8063
+        "h": 0.2955,
+        "w": 6.4737,
+        "x": 3.4387,
+        "y": 6.3704
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          238,
-          103
+          250,
+          252,
+          255
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "5.6x",
-        "theme_topic": "Abaft",
+        "text": "giants space cave support boundless marry",
+        "theme_topic": "Nonstop",
         "underline": false
       },
       "type": "text",
@@ -454,10 +460,10 @@
     },
     {
       "bbox": {
-        "h": 1.3879,
-        "w": 0.7933,
-        "x": 10.4617,
-        "y": 5.5292
+        "h": 0.4858,
+        "w": 0.7649,
+        "x": 5.8853,
+        "y": 1.9267
       },
       "id": "object_015",
       "properties": {
@@ -465,17 +471,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          204,
-          160,
-          175
+          80,
+          144,
+          76
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "territory pump square unit remember",
-        "theme_topic": "Abaft",
+        "text": "cobweb vein political scarecrow",
+        "theme_topic": "Nonstop",
         "underline": false
       },
       "type": "text",
@@ -483,60 +489,66 @@
     },
     {
       "bbox": {
-        "h": 0.7709,
-        "w": 0.8491,
-        "x": 11.7657,
-        "y": 4.7684
+        "h": 0.9275,
+        "w": 0.8031,
+        "x": 7.5372,
+        "y": 6.4323
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
+        "dash": 3,
+        "family": "symbols",
+        "fill": [
+          101,
+          30,
+          106
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "6.2x",
-        "theme_topic": "Abaft",
-        "underline": false
+        "focus": false,
+        "line": [
+          217,
+          168,
+          68
+        ],
+        "line_width": 0.987999286074851,
+        "outline_only": true,
+        "ppt_type": 172,
+        "shape": "gear6",
+        "theme_topic": "Nonstop"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 1.3783,
-        "w": 0.814,
-        "x": 11.7893,
-        "y": 5.5309
+        "h": 0.7413,
+        "w": 0.6914,
+        "x": 9.3346,
+        "y": 3.4776
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          204,
-          160,
-          175
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          219,
+          73,
+          35
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "flaky cowardly print grin consist shake",
-        "theme_topic": "Abaft",
-        "underline": false
+        "focus": false,
+        "line": [
+          152,
+          106,
+          214
+        ],
+        "line_width": 4.188718190653612,
+        "outline_only": false,
+        "ppt_type": 163,
+        "shape": "plus",
+        "theme_topic": "Nonstop"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     }
   ],

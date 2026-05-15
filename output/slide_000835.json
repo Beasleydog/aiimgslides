@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "back_color": [
-        232,
-        163,
-        45
+      "colors": [
+        [
+          82,
+          56,
+          38
+        ],
+        [
+          82,
+          96,
+          214
+        ]
       ],
       "fill": [
-        232,
-        163,
-        45
+        82,
+        56,
+        38
       ],
-      "fore_color": [
-        222,
-        133,
-        62
-      ],
-      "pattern": 26,
-      "style": "pattern",
-      "theme_topic": "Unknown Dramatic"
+      "focus": "center",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Dare"
     },
     "type": "background",
     "z_order": 0
@@ -41,137 +45,138 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.0665,
-        "w": 8.5919,
-        "x": 2.4517,
-        "y": 1.3815
+        "h": 3.268,
+        "w": 5.3646,
+        "x": 5.7707,
+        "y": 2.2611
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          125,
-          139,
-          109
+          155,
+          118,
+          40
         ],
         "focus": false,
         "line": [
-          195,
-          129,
-          200
+          180,
+          81,
+          44
         ],
-        "line_width": 4.409158867720542,
+        "line_width": 5.498011516715007,
         "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Unknown Dramatic"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Dare"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.6384,
-        "w": 7.0015,
-        "x": 2.4035,
-        "y": 4.6219
+        "h": 4.1618,
+        "w": 4.2572,
+        "x": 4.2464,
+        "y": 2.0899
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "flowchart",
         "fill": [
-          95,
-          183,
-          86
+          51,
+          147,
+          125
         ],
         "focus": false,
         "line": [
-          39,
-          190,
-          32
+          29,
+          84,
+          87
         ],
-        "line_width": 7.202582496725544,
+        "line_width": 4.643795573003387,
         "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Unknown Dramatic"
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Dare"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.4837,
-        "w": 7.8301,
-        "x": 5.7026,
-        "y": 4.9995
+        "h": 1.7751,
+        "w": 5.0769,
+        "x": 5.1407,
+        "y": 5.6409
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          108,
-          76,
-          29
+          142,
+          66,
+          76
         ],
         "focus": false,
         "line": [
-          211,
-          213,
-          200
+          27,
+          222,
+          76
         ],
-        "line_width": 4.974092385801866,
-        "outline_only": true,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Unknown Dramatic"
+        "line_width": 7.081020382064297,
+        "outline_only": false,
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Dare"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 3.5769,
-        "w": 6.9765,
-        "x": 1.1992,
-        "y": 1.689
+        "h": 4.1491,
+        "w": 5.3327,
+        "x": 5.4592,
+        "y": 0.4593
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          206,
-          144,
-          39
+          52,
+          75,
+          29
         ],
+        "focus": false,
         "line": [
-          193,
-          135,
-          37
+          73,
+          154,
+          103
         ],
-        "line_width": 5.090282776709786,
+        "line_width": 4.670881199634641,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Unknown Dramatic"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Dare"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.908,
-        "w": 5.7441,
-        "x": 3.7541,
-        "y": 0.6671
+        "h": 1.0816,
+        "w": 8.5083,
+        "x": 0.5587,
+        "y": 0.3357
       },
       "id": "object_005",
       "properties": {
@@ -179,17 +184,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
         "font_face": "Georgia",
-        "font_size": 34,
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Dangerous Bone",
-        "theme_topic": "Unknown Dramatic",
+        "text": "Sigh Sign Jellyfish Snobbish",
+        "theme_topic": "Dare",
         "underline": false
       },
       "type": "text",
@@ -197,103 +202,68 @@
     },
     {
       "bbox": {
-        "h": 2.9026,
-        "w": 12.1203,
-        "x": 0.5705,
-        "y": 4.0337
+        "h": 0.6613,
+        "w": 1.2711,
+        "x": 7.4827,
+        "y": 3.8964
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          115,
-          139,
-          121
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          193,
-          135,
-          37
-        ],
-        "border": [
-          146,
-          127,
-          167
-        ],
-        "border_dash": "solid",
-        "border_width": 1.521241557800792,
-        "cells": [
-          [
-            "rebel",
-            "flavor nostalgic",
-            "strange whimsical",
-            "wary"
-          ],
-          [
-            "lovely plastic",
-            "uppity",
-            "whirl",
-            "pies verse"
-          ]
-        ],
-        "cols": 4,
-        "font_size": 7,
-        "has_header": true,
-        "header": [
-          26,
-          80,
-          70
-        ],
-        "rows": 2,
-        "text_color": [
-          65,
-          146,
-          182
-        ],
-        "theme_topic": "Unknown Dramatic"
+        "font_face": "Georgia",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "167",
+        "theme_topic": "Dare",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.262,
-        "w": 3.7932,
-        "x": 0.5561,
-        "y": 1.4326
+        "h": 0.4814,
+        "w": 1.2766,
+        "x": 7.4622,
+        "y": 4.6142
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          193,
-          135,
-          37
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          172,
+          161,
+          155
         ],
-        "line": [
-          193,
-          135,
-          37
-        ],
-        "line_width": 4.883741527015319,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Unknown Dramatic"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "pretty obsequious degree cracker tremendous rush",
+        "theme_topic": "Dare",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.431,
-        "w": 3.3128,
-        "x": 0.789,
-        "y": 2.3383
+        "h": 0.6823,
+        "w": 0.761,
+        "x": 9.2776,
+        "y": 3.8743
       },
       "id": "object_008",
       "properties": {
@@ -301,17 +271,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Georgia",
+        "font_size": 25,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Attach",
-        "theme_topic": "Unknown Dramatic",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "28%",
+        "theme_topic": "Dare",
         "underline": false
       },
       "type": "text",
@@ -319,10 +289,10 @@
     },
     {
       "bbox": {
-        "h": 0.6183,
-        "w": 3.2763,
-        "x": 0.7916,
-        "y": 2.9216
+        "h": 0.463,
+        "w": 0.7672,
+        "x": 9.2992,
+        "y": 4.6164
       },
       "id": "object_009",
       "properties": {
@@ -330,17 +300,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          119,
-          89,
-          40
+          172,
+          161,
+          155
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "swift allow design versed young ladybug avoid plastic cultured rain",
-        "theme_topic": "Unknown Dramatic",
+        "text": "tiger weak fear orange vagabond",
+        "theme_topic": "Dare",
         "underline": false
       },
       "type": "text",
@@ -348,73 +318,68 @@
     },
     {
       "bbox": {
-        "h": 2.2447,
-        "w": 3.6904,
-        "x": 4.5797,
-        "y": 1.4351
+        "h": 0.6844,
+        "w": 0.8574,
+        "x": 11.7585,
+        "y": 3.9154
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          193,
-          135,
-          37
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
         ],
-        "line": [
-          193,
-          135,
-          37
-        ],
-        "line_width": 3.415646211504331,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Unknown Dramatic"
+        "font_face": "Georgia",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "73%",
+        "theme_topic": "Dare",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5625,
-        "w": 0.5487,
-        "x": 4.8193,
-        "y": 1.654
+        "h": 0.4895,
+        "w": 0.8709,
+        "x": 11.7398,
+        "y": 4.6095
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          64,
-          149,
-          53
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          172,
+          161,
+          155
         ],
-        "focus": false,
-        "line": [
-          31,
-          117,
-          161
-        ],
-        "line_width": 2.4885553819447415,
-        "outline_only": false,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Unknown Dramatic"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "remove arithmetic ghost better",
+        "theme_topic": "Dare",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4605,
-        "w": 3.1848,
-        "x": 4.8383,
-        "y": 2.3425
+        "h": 2.9259,
+        "w": 5.8736,
+        "x": 0.7371,
+        "y": 2.048
       },
       "id": "object_012",
       "properties": {
@@ -422,17 +387,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Cowardly",
-        "theme_topic": "Unknown Dramatic",
+        "font_face": "Georgia",
+        "font_size": 29,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Tiger Uttermost Trap Challenge Calendar Combative Plough Abortive Friction",
+        "theme_topic": "Dare",
         "underline": false
       },
       "type": "text",
@@ -440,28 +405,28 @@
     },
     {
       "bbox": {
-        "h": 0.614,
-        "w": 3.2326,
-        "x": 4.7976,
-        "y": 2.9099
+        "h": 0.8348,
+        "w": 3.2213,
+        "x": 0.7542,
+        "y": 5.4811
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          119,
-          89,
-          40
+          82,
+          96,
+          214
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "lame bushes boring pocket yell harmony ski helpless courageous dusty unused glistening flat shut precede",
-        "theme_topic": "Unknown Dramatic",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "DIME",
+        "theme_topic": "Dare",
         "underline": false
       },
       "type": "text",
@@ -469,91 +434,88 @@
     },
     {
       "bbox": {
-        "h": 2.251,
-        "w": 4.2855,
-        "x": 8.4858,
-        "y": 1.4415
+        "h": 1.5021,
+        "w": 5.4697,
+        "x": 7.3072,
+        "y": 5.5133
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          193,
-          135,
-          37
+          82,
+          96,
+          214
         ],
         "line": [
-          193,
-          135,
-          37
+          138,
+          120,
+          108
         ],
-        "line_width": 0.6934894851334235,
+        "line_width": 4.242696761785961,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Unknown Dramatic"
+        "theme_topic": "Dare"
       },
       "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.5413,
-        "w": 0.5669,
-        "x": 8.7407,
-        "y": 1.6581
+        "h": 0.5283,
+        "w": 5.1157,
+        "x": 7.4821,
+        "y": 5.8525
       },
       "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "focus": false,
-        "line": [
-          119,
-          89,
-          40
-        ],
-        "line_width": 1.3578058249905876,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Unknown Dramatic"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4313,
-        "w": 3.7919,
-        "x": 8.766,
-        "y": 2.3359
-      },
-      "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          246,
+          248,
+          252
+        ],
+        "font_face": "Georgia",
+        "font_size": 27,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "617",
+        "theme_topic": "Dare",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.3232,
+        "w": 5.1414,
+        "x": 7.4765,
+        "y": 6.3982
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Face",
-        "theme_topic": "Unknown Dramatic",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "inform splendid basin flash",
+        "theme_topic": "Dare",
         "underline": false
       },
       "type": "text",
@@ -561,28 +523,28 @@
     },
     {
       "bbox": {
-        "h": 0.6004,
-        "w": 3.8051,
-        "x": 8.7459,
-        "y": 2.9202
+        "h": 0.2958,
+        "w": 5.1756,
+        "x": 7.4361,
+        "y": 1.9471
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          119,
-          89,
-          40
+          82,
+          96,
+          214
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "dogs disgusting wealth protest bump magnificent general include obeisant grain fetch detailed",
-        "theme_topic": "Unknown Dramatic",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "SMASH",
+        "theme_topic": "Dare",
         "underline": false
       },
       "type": "text",
@@ -590,113 +552,120 @@
     },
     {
       "bbox": {
-        "h": 1.0934,
-        "w": 1.5702,
-        "x": 10.9606,
-        "y": 6.1086
+        "h": 0.3106,
+        "w": 5.1638,
+        "x": 7.4673,
+        "y": 2.4692
       },
       "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "ribbon_path",
-        "primary": [
-          164,
-          156,
-          216
-        ],
-        "secondary": [
-          222,
-          133,
-          62
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#22a991\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#3c7565\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
-        "theme_topic": "Unknown Dramatic"
-      },
-      "type": "svg",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 1.0132,
-        "w": 1.2535,
-        "x": 1.9187,
-        "y": 0.4433
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          61,
-          68,
-          180
-        ],
-        "connector": "straight",
-        "dash": 3,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Unknown Dramatic",
-        "width": 2.43457130586555
-      },
-      "type": "connector",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.6768,
-        "w": 0.2271,
-        "x": 12.2876,
-        "y": 5.5525
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          197,
-          211,
-          151
-        ],
-        "focus": false,
-        "line": [
-          173,
-          151,
-          38
-        ],
-        "line_width": 3.306273186959842,
-        "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Unknown Dramatic"
-      },
-      "type": "shape",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.5879,
-        "w": 0.9123,
-        "x": 9.125,
-        "y": 5.7955
-      },
-      "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          127,
-          111,
-          32
+          204,
+          191,
+          58
+        ],
+        "font_face": "Georgia",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Advertisement",
+        "theme_topic": "Dare",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.4733,
+        "w": 1.6301,
+        "x": 4.5799,
+        "y": 1.9273
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          158,
+          135,
+          170
         ],
         "font_face": "Aptos",
-        "font_size": 8,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "curve grandmother shelter recognise",
-        "theme_topic": "Unknown Dramatic",
+        "text": "sun insidious madly standing dry",
+        "theme_topic": "Dare",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.6349,
+        "w": 2.219,
+        "x": 8.5495,
+        "y": 0.2957
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          59,
+          69,
+          127
+        ],
+        "bold": true,
+        "color": [
+          73,
+          218,
+          140
+        ],
+        "font_face": "Aptos",
+        "font_size": 5,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "demonic harsh incandescent",
+        "theme_topic": "Dare",
         "underline": true
+      },
+      "type": "text",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 0.6382,
+        "w": 0.7341,
+        "x": 7.1474,
+        "y": 6.2258
+      },
+      "id": "object_021",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          92,
+          159,
+          84
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Color",
+        "theme_topic": "Dare",
+        "underline": false
       },
       "type": "text",
       "z_order": 21

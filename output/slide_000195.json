@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "fill": [
-        210,
-        81,
-        164
+      "colors": [
+        [
+          165,
+          123,
+          94
+        ],
+        [
+          172,
+          197,
+          152
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Legal Gifted"
+      "fill": [
+        206,
+        154,
+        118
+      ],
+      "focus": "top_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Impress Price"
     },
     "type": "background",
     "z_order": 0
@@ -30,10 +45,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.0108,
-        "w": 8.6149,
-        "x": 1.8352,
-        "y": 2.0843
+        "h": 4.6944,
+        "w": 8.1112,
+        "x": -1.0824,
+        "y": 0.3389
       },
       "id": "object_001",
       "properties": {
@@ -41,97 +56,62 @@
         "dash": 1,
         "family": "arrows",
         "fill": [
-          192,
-          114,
-          72
+          195,
+          139,
+          194
         ],
         "focus": false,
         "line": [
-          168,
-          117,
-          190
+          50,
+          204,
+          31
         ],
-        "line_width": 7.250009145213213,
-        "outline_only": false,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Legal Gifted"
+        "line_width": 6.1348903299139925,
+        "outline_only": true,
+        "ppt_type": 33,
+        "shape": "right_arrow",
+        "theme_topic": "Impress Price"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.3592,
-        "w": 8.7151,
-        "x": 5.5374,
-        "y": 0.9358
+        "h": 5.8158,
+        "w": 3.1989,
+        "x": 9.4227,
+        "y": 0.6587
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          132,
-          53,
-          186
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          102,
-          179,
-          89
-        ],
-        "line_width": 3.1844466253190893,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Legal Gifted"
+        "font_face": "Aptos Display",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Gentle Riddle Finicky",
+        "theme_topic": "Impress Price",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.3381,
-        "w": 5.2452,
-        "x": 6.9195,
-        "y": 3.3015
+        "h": 3.4145,
+        "w": 2.791,
+        "x": 3.0169,
+        "y": 0.681
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          186,
-          79,
-          164
-        ],
-        "focus": false,
-        "line": [
-          95,
-          197,
-          102
-        ],
-        "line_width": 7.476706497526965,
-        "outline_only": false,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Legal Gifted"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.1795,
-        "w": 2.212,
-        "x": 0.5247,
-        "y": 1.8683
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
@@ -142,41 +122,72 @@
         ],
         "focus": true,
         "mask_line": [
-          51,
-          63,
-          101
+          71,
+          221,
+          181
         ],
-        "mask_overlay": true,
-        "theme_topic": "Legal Gifted",
+        "mask_overlay": false,
+        "theme_topic": "Impress Price",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 3.4498,
+        "w": 2.7414,
+        "x": 6.0918,
+        "y": 0.6595
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          165,
+          123,
+          94
+        ],
+        "line": [
+          165,
+          123,
+          94
+        ],
+        "line_width": 4.153959996828697,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Impress Price"
+      },
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.854,
-        "w": 6.8696,
-        "x": 3.2317,
-        "y": 2.7912
+        "h": 3.1344,
+        "w": 2.4487,
+        "x": 6.2523,
+        "y": 0.8167
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.2159172636915268,
-          0.1552641163997596,
-          0.13333582248402853,
-          0.21760887951193966
+          0.21387167069344445,
+          0.05221949139416707,
+          0.0176524321006091,
+          0.17229013750147723
         ],
-        "focus": true,
+        "focus": false,
         "mask_line": [
-          51,
-          63,
-          101
+          71,
+          221,
+          181
         ],
         "mask_overlay": false,
-        "theme_topic": "Legal Gifted",
+        "theme_topic": "Impress Price",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",

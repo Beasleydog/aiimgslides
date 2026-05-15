@@ -10,12 +10,12 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        167,
-        228,
-        133
+        213,
+        67,
+        223
       ],
       "style": "solid",
-      "theme_topic": "Blue-Eyed Economic"
+      "theme_topic": "Ice Blush"
     },
     "type": "background",
     "z_order": 0
@@ -30,12 +30,107 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.093,
-        "w": 8.4548,
-        "x": 0.5446,
-        "y": 0.3594
+        "h": 5.1191,
+        "w": 8.6828,
+        "x": -0.5813,
+        "y": 1.7934
       },
       "id": "object_001",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "flowchart",
+        "fill": [
+          220,
+          54,
+          175
+        ],
+        "focus": false,
+        "line": [
+          210,
+          165,
+          220
+        ],
+        "line_width": 2.0808980564398105,
+        "outline_only": false,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Ice Blush"
+      },
+      "type": "shape",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 2.728,
+        "w": 6.524,
+        "x": 5.1094,
+        "y": 2.6638
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          86,
+          83,
+          216
+        ],
+        "focus": false,
+        "line": [
+          84,
+          106,
+          31
+        ],
+        "line_width": 3.1125925139604442,
+        "outline_only": true,
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Ice Blush"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 7.4984,
+        "w": 5.1814,
+        "x": -0.0046,
+        "y": -0.012
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          169,
+          53,
+          177
+        ],
+        "line": [
+          169,
+          53,
+          177
+        ],
+        "line_width": 0.6368223585061943,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Ice Blush"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 5.7836,
+        "w": 3.1912,
+        "x": 9.3808,
+        "y": 0.6467
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -45,105 +140,13 @@
           30,
           36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 32,
+        "font_face": "Aptos Display",
+        "font_size": 20,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Chop Giddy",
-        "theme_topic": "Blue-Eyed Economic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 2.2339,
-        "w": 1.5666,
-        "x": 0.5614,
-        "y": 4.7858
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          140,
-          192,
-          112
-        ],
-        "line": [
-          140,
-          192,
-          112
-        ],
-        "line_width": 3.510596533860273,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Blue-Eyed Economic"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.5267,
-        "w": 0.5317,
-        "x": 0.7631,
-        "y": 5.0144
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          180,
-          70,
-          53
-        ],
-        "focus": false,
-        "line": [
-          200,
-          105,
-          69
-        ],
-        "line_width": 3.427069028173205,
-        "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Blue-Eyed Economic"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.4445,
-        "w": 1.0723,
-        "x": 0.8173,
-        "y": 5.6675
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
-        ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Air",
-        "theme_topic": "Blue-Eyed Economic",
+        "text": "Race Race Rich",
+        "theme_topic": "Ice Blush",
         "underline": false
       },
       "type": "text",
@@ -151,177 +154,222 @@
     },
     {
       "bbox": {
-        "h": 0.5412,
-        "w": 1.0507,
-        "x": 0.8247,
-        "y": 6.239
+        "h": 2.8237,
+        "w": 4.039,
+        "x": 0.6465,
+        "y": 4.0839
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          90,
-          119,
-          79
-        ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "space smoggy vegetable wrist undress amount guiltless contain breath zipper likeable",
-        "theme_topic": "Blue-Eyed Economic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.2049,
-        "w": 1.1237,
-        "x": 2.3284,
-        "y": 4.78
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          140,
-          192,
-          112
+          169,
+          53,
+          177
         ],
         "line": [
-          140,
-          192,
-          112
+          169,
+          53,
+          177
         ],
-        "line_width": 1.5477487749854462,
+        "line_width": 1.4770634051055167,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Blue-Eyed Economic"
+        "theme_topic": "Ice Blush"
       },
       "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.5255,
+        "w": 3.7533,
+        "x": 0.7855,
+        "y": 4.2381
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.3139175469755925,
+          0.17286608308988716,
+          0.28272850417672746,
+          0.10864167071060823
+        ],
+        "focus": true,
+        "mask_line": [
+          186,
+          62,
+          167
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Ice Blush",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4289,
-        "w": 0.6173,
-        "x": 2.5654,
-        "y": 5.6728
+        "h": 2.9352,
+        "w": 8.08,
+        "x": 0.7292,
+        "y": 0.6974
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
+        "band": [
+          223,
+          122,
+          108
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Girl",
-        "theme_topic": "Blue-Eyed Economic",
-        "underline": false
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          133,
+          196,
+          161
+        ],
+        "border": [
+          28,
+          226,
+          212
+        ],
+        "border_dash": "solid",
+        "border_width": 1.3005735806301233,
+        "cells": [
+          [
+            "grass",
+            "domineering",
+            "sleet",
+            "island tangible",
+            "history",
+            "confused rest"
+          ],
+          [
+            "pump trade",
+            "plucky middle",
+            "side spiteful",
+            "whistle",
+            "halting",
+            "full"
+          ],
+          [
+            "aspiring",
+            "minister anger",
+            "flowery verse",
+            "church interfere",
+            "friendly sticky",
+            "sparkling"
+          ]
+        ],
+        "cols": 6,
+        "font_size": 11,
+        "has_header": true,
+        "header": [
+          105,
+          105,
+          186
+        ],
+        "rows": 3,
+        "text_color": [
+          217,
+          152,
+          127
+        ],
+        "theme_topic": "Ice Blush"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.5812,
-        "w": 0.626,
-        "x": 2.5614,
-        "y": 6.2405
+        "h": 2.8289,
+        "w": 0.8702,
+        "x": 4.9444,
+        "y": 4.0638
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          90,
-          119,
-          79
-        ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "size afterthought dark helpless abnormal bit",
-        "theme_topic": "Blue-Eyed Economic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 2.2268,
-        "w": 1.5774,
-        "x": 3.6818,
-        "y": 4.792
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 2,
         "family": "panel",
         "fill": [
-          140,
-          192,
-          112
+          169,
+          53,
+          177
         ],
         "line": [
-          140,
-          192,
-          112
+          169,
+          53,
+          177
         ],
-        "line_width": 0.543868186343262,
+        "line_width": 0.7011279516078446,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Blue-Eyed Economic"
+        "theme_topic": "Ice Blush"
       },
       "type": "shape",
-      "z_order": 9
+      "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4494,
-        "w": 1.056,
-        "x": 3.9372,
-        "y": 5.6852
+        "h": 0.4263,
+        "w": 0.4946,
+        "x": 5.2057,
+        "y": 4.9734
       },
-      "id": "object_010",
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          71,
+          221,
+          181
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Numberless Afraid",
-        "theme_topic": "Blue-Eyed Economic",
+        "text": "Fish Rely",
+        "theme_topic": "Ice Blush",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 1.191,
+        "w": 0.4954,
+        "x": 5.1995,
+        "y": 5.5361
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          111,
+          46,
+          120
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "reign rest longing wriggle rejoice knowing acid gullible sturdy lovely car robust",
+        "theme_topic": "Ice Blush",
         "underline": false
       },
       "type": "text",
@@ -329,149 +377,148 @@
     },
     {
       "bbox": {
-        "h": 0.55,
-        "w": 1.0736,
-        "x": 3.9224,
-        "y": 6.2539
+        "h": 2.8302,
+        "w": 0.7916,
+        "x": 6.0333,
+        "y": 4.0686
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          90,
-          119,
-          79
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          169,
+          53,
+          177
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tent stain rat longing tooth gray whip night territory humorous door doubtful",
-        "theme_topic": "Blue-Eyed Economic",
-        "underline": false
+        "line": [
+          169,
+          53,
+          177
+        ],
+        "line_width": 1.5254382526382875,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ice Blush"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 2.2239,
-        "w": 1.1212,
-        "x": 5.4497,
-        "y": 4.7723
+        "h": 0.4658,
+        "w": 0.496,
+        "x": 6.3195,
+        "y": 4.9941
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          140,
-          192,
-          112
-        ],
-        "line": [
-          140,
-          192,
-          112
-        ],
-        "line_width": 2.2368014159848038,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Blue-Eyed Economic"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.5137,
-        "w": 0.5572,
-        "x": 5.6483,
-        "y": 4.9986
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          143,
-          201,
-          43
-        ],
-        "focus": false,
-        "line": [
-          90,
-          119,
-          79
-        ],
-        "line_width": 2.673680747185718,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Blue-Eyed Economic"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.4387,
-        "w": 0.6192,
-        "x": 5.7168,
-        "y": 5.6995
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          71,
+          221,
+          181
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Authority",
-        "theme_topic": "Blue-Eyed Economic",
+        "text": "Meek Thing",
+        "theme_topic": "Ice Blush",
         "underline": false
       },
       "type": "text",
-      "z_order": 14
+      "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.5697,
-        "w": 0.6282,
-        "x": 5.6907,
-        "y": 6.2524
+        "h": 1.1919,
+        "w": 0.4955,
+        "x": 6.2853,
+        "y": 5.5213
       },
-      "id": "object_015",
+      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          90,
-          119,
-          79
+          111,
+          46,
+          120
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "gifted majestic delightful fold silly robust",
-        "theme_topic": "Blue-Eyed Economic",
+        "text": "coal memorize cruel legal narrow copy earthy beds answer ruddy pinch",
+        "theme_topic": "Ice Blush",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 2.8308,
+        "w": 0.9205,
+        "x": 7.0759,
+        "y": 4.056
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          169,
+          53,
+          177
+        ],
+        "line": [
+          169,
+          53,
+          177
+        ],
+        "line_width": 4.070074664877187,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ice Blush"
+      },
+      "type": "shape",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.4312,
+        "w": 0.512,
+        "x": 7.3008,
+        "y": 4.9529
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Rare Verdant",
+        "theme_topic": "Ice Blush",
         "underline": false
       },
       "type": "text",
@@ -479,84 +526,70 @@
     },
     {
       "bbox": {
-        "h": 2.2117,
-        "w": 5.8044,
-        "x": 6.9483,
-        "y": 4.8036
+        "h": 1.1589,
+        "w": 0.5213,
+        "x": 7.3224,
+        "y": 5.5419
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "handsomely",
-          "excuse",
-          "daffy",
-          "sweet",
-          "statuesque"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          111,
+          46,
+          120
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              110,
-              35,
-              74
-            ],
-            "name": "brick pat",
-            "values": [
-              26,
-              70,
-              36,
-              10,
-              20
-            ]
-          }
-        ],
-        "theme_topic": "Blue-Eyed Economic",
-        "title": "structure coherent"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "button airplane talk face temporary writer pray robin copy instinctive respect cut queue depend",
+        "theme_topic": "Ice Blush",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.2949,
-        "w": 11.9204,
-        "x": 0.6988,
-        "y": 1.9556
+        "h": 2.8277,
+        "w": 0.6732,
+        "x": 8.2078,
+        "y": 4.0749
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          169,
+          53,
+          177
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "REACH",
-        "theme_topic": "Blue-Eyed Economic",
-        "underline": false
+        "line": [
+          169,
+          53,
+          177
+        ],
+        "line_width": 2.296074618492981,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ice Blush"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.6953,
-        "w": 11.9379,
-        "x": 0.6862,
-        "y": 2.4305
+        "h": 0.4418,
+        "w": 0.5219,
+        "x": 8.4631,
+        "y": 4.992
       },
       "id": "object_018",
       "properties": {
@@ -564,17 +597,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          134,
-          160,
-          132
+          71,
+          221,
+          181
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 37,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Various Pot Scarecrow Threatening",
-        "theme_topic": "Blue-Eyed Economic",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Pleasure Repulsive",
+        "theme_topic": "Ice Blush",
         "underline": false
       },
       "type": "text",
@@ -582,10 +615,10 @@
     },
     {
       "bbox": {
-        "h": 0.9059,
-        "w": 11.934,
-        "x": 0.7078,
-        "y": 3.4187
+        "h": 1.175,
+        "w": 0.4785,
+        "x": 8.4346,
+        "y": 5.5237
       },
       "id": "object_019",
       "properties": {
@@ -593,17 +626,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          90,
-          119,
-          79
+          111,
+          46,
+          120
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "adorable hug scientific selfish coil male hope arrogant possible elated eminent muddle impress weary exclusive",
-        "theme_topic": "Blue-Eyed Economic",
+        "text": "maniacal elastic unlock gentle porter fit prick change bad wool",
+        "theme_topic": "Ice Blush",
         "underline": false
       },
       "type": "text",
@@ -611,66 +644,63 @@
     },
     {
       "bbox": {
-        "h": 0.3227,
-        "w": 1.2002,
-        "x": 7.7945,
-        "y": 4.7597
+        "h": 0.4119,
+        "w": 1.3906,
+        "x": 11.0159,
+        "y": 3.1915
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "symbols",
+        "family": "flowchart",
         "fill": [
-          176,
-          149,
-          179
+          122,
+          100,
+          225
         ],
         "focus": false,
         "line": [
-          77,
-          131,
-          112
+          216,
+          87,
+          33
         ],
-        "line_width": 4.691078464711631,
-        "outline_only": false,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Blue-Eyed Economic"
+        "line_width": 3.390257390770201,
+        "outline_only": true,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Ice Blush"
       },
       "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.8113,
-        "w": 1.0261,
-        "x": 9.4737,
-        "y": 0.4799
+        "h": 0.5361,
+        "w": 2.1414,
+        "x": 3.3119,
+        "y": 0.2574
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "symbols",
-        "fill": [
-          194,
-          162,
-          156
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          86,
+          142
         ],
-        "focus": false,
-        "line": [
-          30,
-          217,
-          162
-        ],
-        "line_width": 0.7495688337238513,
-        "outline_only": false,
-        "ppt_type": 24,
-        "shape": "moon",
-        "theme_topic": "Blue-Eyed Economic"
+        "font_face": "Aptos",
+        "font_size": 6,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "cable chief plausible drag",
+        "theme_topic": "Ice Blush",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 21
     }
   ],

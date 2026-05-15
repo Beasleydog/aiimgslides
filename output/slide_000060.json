@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        139,
-        98,
-        174
+      "colors": [
+        [
+          206,
+          114,
+          77
+        ],
+        [
+          64,
+          215,
+          35
+        ]
       ],
       "fill": [
-        139,
-        98,
-        174
+        206,
+        114,
+        77
       ],
-      "fore_color": [
-        160,
-        87,
-        73
-      ],
-      "pattern": 25,
-      "style": "pattern",
-      "theme_topic": "Habitual Adhesive"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Humdrum"
     },
     "type": "background",
     "z_order": 0
@@ -41,19 +45,51 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.0407,
-        "w": 1.8036,
-        "x": 2.5597,
-        "y": 1.9103
+        "h": 4.975,
+        "w": 8.8096,
+        "x": 1.7204,
+        "y": 1.9088
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "callouts",
+        "fill": [
+          113,
+          72,
+          59
+        ],
+        "focus": false,
+        "line": [
+          33,
+          121,
+          102
+        ],
+        "line_width": 6.804981766242463,
+        "outline_only": false,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Humdrum"
+      },
+      "type": "shape",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 5.0662,
+        "w": 2.2256,
+        "x": 10.6151,
+        "y": 2.0059
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
         "crop": [
-          0.3198623288475066,
-          0.038820071940539325,
-          0.29114092495144017,
-          0.12813057300331843
+          0.11640757138973887,
+          0.04882879664413155,
+          0.053621208388125445,
+          0.1730481720966575
         ],
         "focus": true,
         "mask_line": [
@@ -62,88 +98,10 @@
           101
         ],
         "mask_overlay": false,
-        "theme_topic": "Habitual Adhesive",
+        "theme_topic": "Humdrum",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 5.0272,
-        "w": 3.9826,
-        "x": 8.7165,
-        "y": 1.8918
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          146,
-          208,
-          190
-        ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          130,
-          153,
-          187
-        ],
-        "border": [
-          85,
-          169,
-          138
-        ],
-        "border_dash": "solid",
-        "border_width": 2.30416131031245,
-        "cells": [
-          [
-            "breezy",
-            "numberless whispering"
-          ],
-          [
-            "well-to-do corn",
-            "abstracted"
-          ],
-          [
-            "known",
-            "army"
-          ],
-          [
-            "aware uttermost",
-            "fearless"
-          ],
-          [
-            "lighten fearful",
-            "savory terrible"
-          ],
-          [
-            "sticks sticky",
-            "coherent"
-          ],
-          [
-            "crown cats",
-            "welcome morning"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 9,
-        "has_header": true,
-        "header": [
-          51,
-          63,
-          101
-        ],
-        "rows": 7,
-        "text_color": [
-          45,
-          148,
-          136
-        ],
-        "theme_topic": "Habitual Adhesive"
-      },
-      "type": "table",
       "z_order": 2
     }
   ],

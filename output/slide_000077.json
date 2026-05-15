@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
+      "angle": 120,
       "archetype": "atomic_composition",
       "colors": [
         [
-          191,
-          46,
-          175
+          25,
+          30,
+          39
         ],
         [
-          57,
-          108,
-          62
+          96,
+          165,
+          250
         ]
       ],
       "fill": [
-        227,
-        55,
-        208
+        25,
+        30,
+        39
       ],
-      "focus": "bottom_right",
+      "focus": "top_right",
       "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Exciting Color"
+      "theme_topic": "Rebel Cow"
     },
     "type": "background",
     "z_order": 0
@@ -45,60 +45,65 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.5412,
-        "w": 2.8667,
-        "x": 0.6326,
-        "y": 0.7681
+        "h": 3.5447,
+        "w": 6.0482,
+        "x": 2.6043,
+        "y": -0.69
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 4,
+        "family": "arrows",
+        "fill": [
+          88,
+          50,
+          30
         ],
-        "font_face": "Arial",
-        "font_size": 28,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Hole",
-        "theme_topic": "Exciting Color",
-        "underline": false
+        "focus": false,
+        "line": [
+          215,
+          137,
+          185
+        ],
+        "line_width": 3.9322023476849264,
+        "outline_only": false,
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Rebel Cow"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.9653,
-        "w": 2.4265,
-        "x": 3.9335,
-        "y": 0.7906
+        "h": 3.0123,
+        "w": 6.147,
+        "x": 6.6615,
+        "y": 1.4693
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1252858429729094,
-          0.20191324962274598,
-          0.1271526463583372,
-          0.19651561463015854
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
         ],
-        "focus": true,
-        "mask_line": [
-          52,
-          207,
-          62
+        "line": [
+          43,
+          51,
+          64
         ],
-        "mask_overlay": false,
-        "theme_topic": "Exciting Color",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.8699396467061689,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Rebel Cow"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 2
     }
   ],

@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
+      "angle": 180,
       "archetype": "atomic_composition",
       "colors": [
         [
-          18,
-          129,
-          148
+          47,
+          136,
+          190
         ],
         [
-          51,
-          63,
-          101
+          255,
+          198,
+          74
         ]
       ],
       "fill": [
-        18,
-        129,
-        148
+        33,
+        115,
+        169
       ],
-      "focus": "bottom_left",
-      "gradient_type": "rectangular",
+      "focus": "bottom_right",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Idea Horn"
+      "theme_topic": "Plan"
     },
     "type": "background",
     "z_order": 0
@@ -45,123 +45,126 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.8743,
-        "w": 7.5261,
-        "x": 5.7417,
-        "y": 1.9613
+        "h": 2.6688,
+        "w": 7.1613,
+        "x": 1.3816,
+        "y": 2.501
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 2,
+        "family": "basic",
         "fill": [
-          63,
-          85,
-          174
+          125,
+          112,
+          99
         ],
         "focus": false,
         "line": [
-          230,
-          130,
-          166
+          81,
+          46,
+          174
         ],
-        "line_width": 5.251142122039428,
-        "outline_only": true,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Idea Horn"
+        "line_width": 7.323040808964807,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Plan"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5092,
-        "w": 13.3255,
-        "x": -0.0027,
-        "y": 4.3118
+        "h": 2.2481,
+        "w": 5.5152,
+        "x": 4.694,
+        "y": 1.1723
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          46,
-          144,
-          161
+          63,
+          113,
+          75
         ],
+        "focus": false,
         "line": [
-          46,
-          144,
-          161
+          112,
+          27,
+          178
         ],
-        "line_width": 0.6689437803881073,
+        "line_width": 4.638830064249155,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Idea Horn"
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Plan"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.8595,
-        "w": 2.8696,
-        "x": 6.8341,
-        "y": 1.8945
+        "h": 7.4833,
+        "w": 13.3377,
+        "x": -0.0017,
+        "y": 3.3207
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.07326527465646938,
-          0.13214407442468837,
-          0.018769839788622178,
-          0.08344246300691847
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          47,
+          136,
+          190
         ],
-        "focus": true,
-        "mask_line": [
-          51,
-          63,
-          101
+        "line": [
+          47,
+          136,
+          190
         ],
-        "mask_overlay": true,
-        "theme_topic": "Idea Horn",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 2.4799353631630723,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Plan"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.713,
-        "w": 5.7168,
-        "x": 6.9594,
-        "y": 5.1511
+        "h": 1.1254,
+        "w": 6.8314,
+        "x": 2.2156,
+        "y": 0.6461
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.27187350271766153,
-          0.13374627274735723,
-          0.02099876226994592,
-          0.1969915513279796
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          250,
+          252,
+          255
         ],
-        "focus": true,
-        "mask_line": [
-          148,
-          78,
-          34
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Idea Horn",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos Display",
+        "font_size": 41,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Zany Desk Mend Sip",
+        "theme_topic": "Plan",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 4
     }
   ],

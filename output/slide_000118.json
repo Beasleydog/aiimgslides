@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        88,
-        166,
-        179
+      "colors": [
+        [
+          139,
+          120,
+          211
+        ],
+        [
+          51,
+          63,
+          101
+        ]
       ],
       "fill": [
-        18,
-        129,
-        148
+        111,
+        88,
+        201
       ],
-      "fore_color": [
-        64,
-        130,
-        109
-      ],
-      "pattern": 38,
-      "style": "pattern",
-      "theme_topic": "Standing Depressed"
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Trust Delight"
     },
     "type": "background",
     "z_order": 0
@@ -41,132 +45,89 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.0544,
-        "w": 8.1392,
-        "x": 4.2285,
-        "y": 0.4017
+        "h": 5.8117,
+        "w": 3.2154,
+        "x": 9.3991,
+        "y": 0.6314
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          56,
-          194,
-          196
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          43,
-          48,
-          214
-        ],
-        "line_width": 7.666666531830225,
-        "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Standing Depressed"
+        "font_face": "Arial",
+        "font_size": 21,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Needy",
+        "theme_topic": "Trust Delight",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.9258,
-        "w": 6.0933,
-        "x": 4.2428,
-        "y": 2.7293
+        "h": 4.24,
+        "w": 4.2926,
+        "x": 4.4403,
+        "y": 2.5524
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          88,
-          166,
-          179
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          65,
+          56,
+          110
         ],
-        "line": [
-          88,
-          166,
-          179
-        ],
-        "line_width": 1.5110498554046996,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Standing Depressed"
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wash challenge lamentable itchy selective protective doubt caring bouncy coil laborer partner file event measure sedate repair",
+        "theme_topic": "Trust Delight",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.4123,
-        "w": 5.6019,
-        "x": 4.4919,
-        "y": 2.9719
+        "h": 4.7081,
+        "w": 2.7981,
+        "x": 0.8171,
+        "y": 2.0454
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "railway",
-          "hard-to-find",
-          "bikes"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          65,
+          56,
+          110
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              219,
-              72,
-              110
-            ],
-            "name": "way scream",
-            "values": [
-              19,
-              15,
-              81
-            ]
-          },
-          {
-            "color": [
-              69,
-              63,
-              206
-            ],
-            "name": "idea jam",
-            "values": [
-              51,
-              81,
-              60
-            ]
-          },
-          {
-            "color": [
-              211,
-              89,
-              122
-            ],
-            "name": "walk",
-            "values": [
-              35,
-              47,
-              80
-            ]
-          }
-        ],
-        "theme_topic": "Standing Depressed",
-        "title": "wound puncture seemly"
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "screw squash snow known damaging cannon unique puffy",
+        "theme_topic": "Trust Delight",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 3
     }
   ],

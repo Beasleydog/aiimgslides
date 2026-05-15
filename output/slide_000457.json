@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        120,
-        58,
-        170
+      "back_color": [
+        136,
+        45,
+        119
       ],
-      "style": "solid",
-      "theme_topic": "Nonstop Whistle"
+      "fill": [
+        232,
+        163,
+        45
+      ],
+      "fore_color": [
+        255,
+        198,
+        74
+      ],
+      "pattern": 29,
+      "style": "pattern",
+      "theme_topic": "Subtract Unused"
     },
     "type": "background",
     "z_order": 0
@@ -30,262 +41,196 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.7889,
-        "w": 4.9371,
-        "x": 4.4641,
-        "y": 3.6651
+        "h": 2.275,
+        "w": 8.6879,
+        "x": 5.405,
+        "y": 2.4446
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 2,
+        "family": "basic",
         "fill": [
-          193,
-          167,
-          168
+          117,
+          205,
+          136
         ],
         "focus": false,
         "line": [
-          220,
-          40,
-          212
+          117,
+          172,
+          34
         ],
-        "line_width": 2.3856876090679937,
-        "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Nonstop Whistle"
+        "line_width": 7.217652163802274,
+        "outline_only": false,
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Subtract Unused"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.724,
-        "x": 4.6247,
-        "y": 4.1624
+        "h": 5.1358,
+        "w": 7.1195,
+        "x": 3.1859,
+        "y": 0.69
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          71,
-          221,
-          181
+          156,
+          90,
+          160
         ],
+        "focus": false,
         "line": [
-          139,
-          78,
-          190
+          49,
+          75,
+          142
         ],
-        "line_width": 5.319584151239657,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Nonstop Whistle"
+        "line_width": 4.032499610732498,
+        "outline_only": true,
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Subtract Unused"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.1118,
-        "w": 0.2,
-        "x": 10.0472,
-        "y": 3.0995
+        "h": 2.4569,
+        "w": 6.6358,
+        "x": 3.1895,
+        "y": 5.3724
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 3,
+        "family": "arrows",
         "fill": [
-          71,
-          221,
-          181
+          202,
+          74,
+          50
         ],
+        "focus": false,
         "line": [
-          139,
-          78,
-          190
+          174,
+          47,
+          208
         ],
-        "line_width": 4.03213209739962,
+        "line_width": 6.237704946833044,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Nonstop Whistle"
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Subtract Unused"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.8084,
-        "w": 3.2014,
-        "x": 9.4133,
-        "y": 0.6354
+        "h": 4.1451,
+        "w": 5.1983,
+        "x": 4.1711,
+        "y": 2.7652
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          96,
+          202,
+          138
+        ],
+        "focus": false,
+        "line": [
+          50,
+          81,
+          49
+        ],
+        "line_width": 4.654319810868291,
+        "outline_only": false,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Subtract Unused"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.3024,
+        "w": 5.5901,
+        "x": 0.571,
+        "y": 0.3373
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Arial",
+        "font_size": 42,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Steady Nutritious",
+        "theme_topic": "Subtract Unused",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.2988,
+        "w": 4.0061,
+        "x": 8.6479,
+        "y": 4.8867
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           255,
-          250,
-          255
+          198,
+          74
         ],
-        "font_face": "Georgia",
-        "font_size": 19,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Extra-Small Roll",
-        "theme_topic": "Nonstop Whistle",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "USE STALE",
+        "theme_topic": "Subtract Unused",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 6.143,
-        "w": 4.5901,
-        "x": 0.7034,
-        "y": 0.7178
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          139,
-          78,
-          190
-        ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          165,
-          171,
-          135
-        ],
-        "border": [
-          230,
-          210,
-          240
-        ],
-        "border_dash": "solid",
-        "border_width": 3.5171019354839617,
-        "cells": [
-          [
-            "agreeable",
-            "point substantial",
-            "cure",
-            "billowy",
-            "boring happen",
-            "absorbed pizzas"
-          ],
-          [
-            "dock naive",
-            "switch chicken",
-            "view",
-            "prickly rambunctious",
-            "dance tender",
-            "steady"
-          ],
-          [
-            "wood",
-            "carriage",
-            "frame",
-            "property",
-            "fixed",
-            "plants"
-          ],
-          [
-            "red",
-            "theory silk",
-            "shoe",
-            "appear",
-            "desk",
-            "jellyfish"
-          ],
-          [
-            "tongue chicken",
-            "mark",
-            "cap change",
-            "grease",
-            "colorful",
-            "boundless breathe"
-          ],
-          [
-            "float courageous",
-            "vague future",
-            "billowy balance",
-            "near",
-            "analyze callous",
-            "coach"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 8,
-        "has_header": true,
-        "header": [
-          71,
-          221,
-          181
-        ],
-        "rows": 6,
-        "text_color": [
-          207,
-          142,
-          197
-        ],
-        "theme_topic": "Nonstop Whistle"
-      },
-      "type": "table",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 6.2447,
-        "w": 3.2289,
-        "x": 5.6246,
-        "y": 0.6506
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
-        ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 5.380362854631122,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Nonstop Whistle"
-      },
-      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.1618,
-        "w": 2.8852,
-        "x": 5.7895,
-        "y": 1.7935
+        "h": 0.5799,
+        "w": 3.9925,
+        "x": 8.6451,
+        "y": 5.3821
       },
       "id": "object_007",
       "properties": {
@@ -293,17 +238,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          250,
-          255
+          221,
+          58,
+          127
         ],
-        "font_face": "Georgia",
-        "font_size": 51,
+        "font_face": "Arial",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "6x",
-        "theme_topic": "Nonstop Whistle",
+        "text": "Knock",
+        "theme_topic": "Subtract Unused",
         "underline": false
       },
       "type": "text",
@@ -311,10 +256,10 @@
     },
     {
       "bbox": {
-        "h": 0.7137,
-        "w": 2.8821,
-        "x": 5.7665,
-        "y": 4.4634
+        "h": 0.7061,
+        "w": 4.0142,
+        "x": 8.611,
+        "y": 6.1945
       },
       "id": "object_008",
       "properties": {
@@ -322,17 +267,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          255,
-          250,
-          255
+          119,
+          89,
+          40
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "hissing whimsical rescue cemetery",
-        "theme_topic": "Nonstop Whistle",
+        "text": "abounding fixed handsome petite stone faded unarmed choke foot wash squeeze run account",
+        "theme_topic": "Subtract Unused",
         "underline": false
       },
       "type": "text",
@@ -340,130 +285,120 @@
     },
     {
       "bbox": {
-        "h": 0.5902,
-        "w": 1.1818,
-        "x": 8.9563,
-        "y": 4.0335
+        "h": 2.234,
+        "w": 3.4195,
+        "x": 0.539,
+        "y": 4.7822
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          112,
-          77,
-          102
+          190,
+          134,
+          37
         ],
-        "focus": false,
         "line": [
-          141,
-          130,
-          172
+          190,
+          134,
+          37
         ],
-        "line_width": 6.156197451516082,
-        "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Nonstop Whistle"
+        "line_width": 2.3840286162597573,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Subtract Unused"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.7127,
-        "w": 0.2384,
-        "x": 11.346,
-        "y": 0.7007
+        "h": 0.8403,
+        "w": 3.0646,
+        "x": 0.7424,
+        "y": 5.2464
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          60,
-          118,
-          224
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          135,
-          174,
-          212
-        ],
-        "line_width": 5.144399520362861,
-        "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Nonstop Whistle"
+        "font_face": "Arial",
+        "font_size": 46,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "216",
+        "theme_topic": "Subtract Unused",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5584,
-        "w": 0.6556,
-        "x": 5.4819,
-        "y": 0.592
+        "h": 0.5114,
+        "w": 3.0601,
+        "x": 0.709,
+        "y": 6.1088
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          142,
-          83,
-          92
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          31,
-          220,
-          92
-        ],
-        "line_width": 5.808674594853043,
-        "outline_only": true,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Nonstop Whistle"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "handy overrated manage achiever open scratch friction toy back",
+        "theme_topic": "Subtract Unused",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4635,
-        "w": 0.6892,
-        "x": 9.0851,
-        "y": 1.7019
+        "h": 0.5484,
+        "w": 2.0086,
+        "x": 3.6353,
+        "y": 3.6677
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          120,
-          87,
-          143
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          85,
+          127,
+          187
         ],
-        "focus": false,
-        "line": [
-          97,
-          153,
-          38
-        ],
-        "line_width": 0.8373749199250159,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Nonstop Whistle"
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "dazzling humor",
+        "theme_topic": "Subtract Unused",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     }
   ],

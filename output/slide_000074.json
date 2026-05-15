@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
-      "back_color": [
-        167,
-        136,
-        160
+      "colors": [
+        [
+          214,
+          138,
+          225
+        ],
+        [
+          115,
+          109,
+          76
+        ]
       ],
       "fill": [
-        160,
-        150,
-        230
+        213,
+        201,
+        85
       ],
-      "fore_color": [
-        174,
-        73,
-        92
-      ],
-      "pattern": 49,
-      "style": "pattern",
-      "theme_topic": "Dramatic"
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Selective"
     },
     "type": "background",
     "z_order": 0
@@ -41,56 +45,111 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.9647,
-        "w": 4.2713,
-        "x": 8.4972,
-        "y": 1.8515
+        "h": 5.4606,
+        "w": 6.404,
+        "x": 0.5927,
+        "y": 1.4995
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          207,
-          108,
-          145
+        "band": [
+          192,
+          181,
+          76
         ],
-        "line_width": 12,
-        "theme_topic": "Dramatic"
+        "band_cols": true,
+        "band_rows": true,
+        "body": [
+          102,
+          44,
+          120
+        ],
+        "border": [
+          34,
+          198,
+          117
+        ],
+        "border_dash": "solid",
+        "border_width": 1.3161233514224793,
+        "cells": [
+          [
+            "film",
+            "gratis doubtful",
+            "subdued useful",
+            "boil worm"
+          ],
+          [
+            "abandoned",
+            "wrench",
+            "tickle thrill",
+            "appreciate"
+          ],
+          [
+            "luxuriant",
+            "juvenile mint",
+            "transport obsequious",
+            "boil"
+          ],
+          [
+            "bolt",
+            "resolute sin",
+            "believe legs",
+            "wobble found"
+          ],
+          [
+            "goofy",
+            "root dispensable",
+            "berserk",
+            "unite"
+          ]
+        ],
+        "cols": 4,
+        "font_size": 6,
+        "has_header": true,
+        "header": [
+          143,
+          189,
+          117
+        ],
+        "rows": 5,
+        "text_color": [
+          28,
+          30,
+          36
+        ],
+        "theme_topic": "Selective"
       },
-      "type": "svg_image",
+      "type": "table",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.841,
-        "w": 12.2244,
-        "x": 0.5697,
-        "y": 4.1608
+        "h": 2.594,
+        "w": 5.3181,
+        "x": 7.501,
+        "y": 4.3987
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          174,
-          73,
-          92
+        "crop": [
+          0.1965498551585606,
+          0.27693537122765205,
+          0.06597016965906481,
+          0.23847772230932496
         ],
-        "line": [
-          144,
-          135,
-          208
+        "focus": true,
+        "mask_line": [
+          91,
+          93,
+          28
         ],
-        "line_width": 1.792464269669112,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Dramatic"
+        "mask_overlay": true,
+        "theme_topic": "Selective",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 2
     }
   ],

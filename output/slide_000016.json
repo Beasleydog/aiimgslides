@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          102,
-          106,
-          38
-        ],
-        [
-          38,
-          132,
-          88
-        ]
+      "back_color": [
+        43,
+        51,
+        64
       ],
       "fill": [
-        227,
-        91,
-        184
+        25,
+        30,
+        39
       ],
-      "focus": "bottom_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Type"
+      "fore_color": [
+        34,
+        103,
+        54
+      ],
+      "pattern": 9,
+      "style": "pattern",
+      "theme_topic": "Quiver Copper"
     },
     "type": "background",
     "z_order": 0
@@ -45,56 +41,25 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.0423,
-        "w": 4.1836,
-        "x": 8.3708,
-        "y": 1.6981
+        "h": 4.7542,
+        "w": 5.8032,
+        "x": 0.6679,
+        "y": 2.1158
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "wind",
-          "slow",
-          "unsuitable"
-        ],
-        "chart": "area",
+        "clip": "arch",
         "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 1,
-        "series": [
-          {
-            "color": [
-              76,
-              29,
-              134
-            ],
-            "name": "grass",
-            "values": [
-              70,
-              49,
-              51
-            ]
-          },
-          {
-            "color": [
-              209,
-              47,
-              98
-            ],
-            "name": "fry",
-            "values": [
-              30,
-              45,
-              49
-            ]
-          }
+        "line": [
+          139,
+          160,
+          140
         ],
-        "theme_topic": "Type",
-        "title": "squirrel tramp house picayune"
+        "line_width": 10,
+        "theme_topic": "Quiver Copper"
       },
-      "type": "chart",
+      "type": "svg_image",
       "z_order": 1
     }
   ],

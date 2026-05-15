@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        236,
-        240,
-        242
-      ],
       "fill": [
-        247,
-        248,
-        246
+        122,
+        109,
+        72
       ],
-      "fore_color": [
-        110,
-        60,
-        222
-      ],
-      "pattern": 46,
-      "style": "pattern",
-      "theme_topic": "Cruel Eye"
+      "style": "solid",
+      "theme_topic": "Waves"
     },
     "type": "background",
     "z_order": 0
@@ -41,156 +30,149 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.9791,
-        "w": 6.3544,
-        "x": 6.1943,
-        "y": 3.5955
+        "h": 3.1143,
+        "w": 8.2483,
+        "x": -0.216,
+        "y": 2.9391
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
+        "dash": 4,
+        "family": "stars",
         "fill": [
-          200,
-          124,
-          213
+          143,
+          97,
+          143
         ],
         "focus": false,
         "line": [
-          79,
-          86,
-          138
+          175,
+          182,
+          229
         ],
-        "line_width": 5.204145979394312,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Cruel Eye"
+        "line_width": 2.7172681251638116,
+        "outline_only": false,
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Waves"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.7407,
-        "w": 5.4864,
-        "x": 2.7708,
-        "y": 5.566
+        "h": 0.7717,
+        "w": 13.3281,
+        "x": -0.0085,
+        "y": -0.019
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          199,
-          209,
-          180
+          152,
+          142,
+          113
         ],
-        "focus": false,
         "line": [
-          209,
-          208,
-          35
+          152,
+          142,
+          113
         ],
-        "line_width": 5.797373173896281,
-        "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Cruel Eye"
+        "line_width": 2.3619272708689354,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Waves"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.0675,
-        "w": 3.5325,
-        "x": 2.1363,
-        "y": 0.915
+        "h": 5.8132,
+        "w": 3.1881,
+        "x": 9.3982,
+        "y": 0.6571
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
-        "fill": [
-          150,
-          153,
-          214
-        ],
-        "focus": false,
-        "line": [
-          124,
-          55,
-          205
-        ],
-        "line_width": 4.293602121563011,
-        "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Cruel Eye"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.4341,
-        "w": 7.0692,
-        "x": 1.9578,
-        "y": -0.7666
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          94,
-          142,
-          138
-        ],
-        "focus": false,
-        "line": [
-          193,
-          43,
-          92
-        ],
-        "line_width": 2.562237729439423,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Cruel Eye"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.5481,
-        "w": 2.8491,
-        "x": 0.6267,
-        "y": 0.7363
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          30,
-          35,
-          42
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 20,
+        "font_face": "Aptos Display",
+        "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Oranges Unequal",
-        "theme_topic": "Cruel Eye",
+        "text": "Amusing",
+        "theme_topic": "Waves",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.441,
+        "w": 0.9659,
+        "x": 4.759,
+        "y": 1.5502
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Command",
+        "theme_topic": "Waves",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.1415,
+        "w": 0.9522,
+        "x": 4.8019,
+        "y": 2.1115
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          190,
+          185,
+          171
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "development boat call full injure expensive handsomely rest wacky",
+        "theme_topic": "Waves",
         "underline": false
       },
       "type": "text",
@@ -198,41 +180,39 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.2,
-        "x": 9.5821,
-        "y": 5.0673
+        "h": 0.4694,
+        "w": 0.6656,
+        "x": 6.4631,
+        "y": 1.5341
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 0.930646411816041,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Cruel Eye"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Pickle",
+        "theme_topic": "Waves",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.088,
-        "w": 0.4283,
-        "x": 9.4314,
-        "y": 5.5609
+        "h": 1.1615,
+        "w": 0.6618,
+        "x": 6.4314,
+        "y": 2.1101
       },
       "id": "object_007",
       "properties": {
@@ -240,17 +220,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          30,
-          35,
-          42
+          190,
+          185,
+          171
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "dark follow bent repeat undesirable",
-        "theme_topic": "Cruel Eye",
+        "text": "tacky elfin smell circle annoy mere tart shelter ghost clip ice waggish futuristic",
+        "theme_topic": "Waves",
         "underline": false
       },
       "type": "text",
@@ -258,41 +238,39 @@
     },
     {
       "bbox": {
-        "h": 0.2032,
-        "w": 0.2341,
-        "x": 10.3895,
-        "y": 4.9197
+        "h": 0.4725,
+        "w": 0.7586,
+        "x": 7.8501,
+        "y": 1.5528
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 0.4902511795525679,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Cruel Eye"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Spiffy Meeting",
+        "theme_topic": "Waves",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.1135,
-        "w": 0.5315,
-        "x": 10.1357,
-        "y": 5.5308
+        "h": 1.1689,
+        "w": 0.7589,
+        "x": 7.8311,
+        "y": 2.093
       },
       "id": "object_009",
       "properties": {
@@ -300,17 +278,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          30,
-          35,
-          42
+          190,
+          185,
+          171
         ],
         "font_face": "Aptos",
-        "font_size": 8,
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "applaud sense piquant trashy poison robust desert",
-        "theme_topic": "Cruel Eye",
+        "text": "thought locket puzzled puny paste drop steady dependent expansion jewel steady imaginary long",
+        "theme_topic": "Waves",
         "underline": false
       },
       "type": "text",
@@ -318,59 +296,59 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.2,
-        "x": 11.0817,
-        "y": 4.4953
+        "h": 3.1309,
+        "w": 2.4656,
+        "x": 4.5409,
+        "y": 3.7815
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 7,
         "family": "panel",
         "fill": [
-          31,
-          117,
-          161
+          152,
+          142,
+          113
         ],
         "line": [
-          236,
-          240,
-          242
+          152,
+          142,
+          113
         ],
-        "line_width": 3.3682773722156427,
+        "line_width": 3.305470862947007,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Cruel Eye"
+        "theme_topic": "Waves"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.1114,
-        "w": 0.2517,
-        "x": 10.9862,
-        "y": 5.5403
+        "h": 0.4692,
+        "w": 1.958,
+        "x": 4.7798,
+        "y": 4.672
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          30,
-          35,
-          42
+          71,
+          221,
+          181
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "hands answer lewd",
-        "theme_topic": "Cruel Eye",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Stain Tender",
+        "theme_topic": "Waves",
         "underline": false
       },
       "type": "text",
@@ -378,101 +356,99 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.2,
-        "x": 11.7235,
-        "y": 4.9054
+        "h": 1.4885,
+        "w": 1.9797,
+        "x": 4.7737,
+        "y": 5.2194
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 2.666526184139492,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Cruel Eye"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.0814,
-        "w": 0.4079,
-        "x": 11.5686,
-        "y": 5.5228
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          30,
-          35,
-          42
+          190,
+          185,
+          171
         ],
         "font_face": "Aptos",
         "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "sweater seemly decay bouncy",
-        "theme_topic": "Cruel Eye",
+        "text": "drunk day vacation tranquil potato red zesty questionable shaggy",
+        "theme_topic": "Waves",
         "underline": false
       },
       "type": "text",
-      "z_order": 13
+      "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.2,
-        "x": 12.4327,
-        "y": 4.9744
+        "h": 3.1519,
+        "w": 1.6014,
+        "x": 7.2419,
+        "y": 3.7547
       },
-      "id": "object_014",
+      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          31,
-          117,
-          161
+          152,
+          142,
+          113
         ],
         "line": [
-          236,
-          240,
-          242
+          152,
+          142,
+          113
         ],
-        "line_width": 1.6054608380028847,
+        "line_width": 2.1771434254075444,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Cruel Eye"
+        "theme_topic": "Waves"
       },
       "type": "shape",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.4718,
+        "w": 1.1186,
+        "x": 7.4907,
+        "y": 4.663
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Shaggy",
+        "theme_topic": "Waves",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 1.0813,
-        "w": 0.3577,
-        "x": 12.2925,
-        "y": 5.5473
+        "h": 1.4863,
+        "w": 1.0995,
+        "x": 7.4798,
+        "y": 5.1925
       },
       "id": "object_015",
       "properties": {
@@ -480,17 +456,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          30,
-          35,
-          42
+          190,
+          185,
+          171
         ],
         "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "political great sisters",
-        "theme_topic": "Cruel Eye",
+        "text": "chivalrous rose jog terrify cars large clam flood interesting second narrow fork economic stereotyped bone",
+        "theme_topic": "Waves",
         "underline": false
       },
       "type": "text",
@@ -498,134 +474,146 @@
     },
     {
       "bbox": {
-        "h": 0.1,
-        "w": 0.8434,
-        "x": 9.6581,
-        "y": 5.1454
+        "h": 6.2672,
+        "w": 0.6801,
+        "x": 0.6649,
+        "y": 0.6459
       },
       "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          115,
-          124,
-          135
-        ],
-        "connector": "curve",
-        "dash": 4,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Cruel Eye",
-        "width": 3.0893097168052064
-      },
-      "type": "connector",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.4102,
-        "w": 0.6637,
-        "x": 11.1565,
-        "y": 4.5708
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          115,
-          124,
-          135
-        ],
-        "connector": "curve",
-        "dash": 7,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Cruel Eye",
-        "width": 2.5034520383421808
-      },
-      "type": "connector",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.1,
-        "w": 0.6921,
-        "x": 11.8202,
-        "y": 4.981
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          115,
-          124,
-          135
-        ],
-        "connector": "curve",
-        "dash": 3,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Cruel Eye",
-        "width": 1.0068120185203437
-      },
-      "type": "connector",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 3.2414,
-        "w": 2.757,
-        "x": 3.7475,
-        "y": 3.6597
-      },
-      "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          236,
-          240,
-          242
+          117,
+          74,
+          196
         ],
         "line": [
-          236,
-          240,
-          242
+          152,
+          142,
+          113
         ],
-        "line_width": 2.508392667142948,
+        "line_width": 4.52362484858264,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Cruel Eye"
+        "theme_topic": "Waves"
       },
       "type": "shape",
-      "z_order": 19
+      "z_order": 16
     },
     {
       "bbox": {
-        "h": 1.151,
-        "w": 2.4176,
-        "x": 3.9156,
-        "y": 4.3257
+        "h": 0.7418,
+        "w": 0.3514,
+        "x": 0.812,
+        "y": 0.8389
       },
-      "id": "object_020",
+      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          247,
-          248,
-          246
+          71,
+          221,
+          181
         ],
-        "font_face": "Georgia",
-        "font_size": 45,
+        "font_face": "Aptos Display",
+        "font_size": 20,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "10x",
-        "theme_topic": "Cruel Eye",
+        "text": "7.3x",
+        "theme_topic": "Waves",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 5.2389,
+        "w": 0.3537,
+        "x": 0.8516,
+        "y": 1.5537
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          190,
+          185,
+          171
+        ],
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "foolish bury chunky alive",
+        "theme_topic": "Waves",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.7713,
+        "w": 0.5226,
+        "x": 1.7145,
+        "y": 0.8083
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 21,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "27%",
+        "theme_topic": "Waves",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 5.2104,
+        "w": 0.5074,
+        "x": 1.7141,
+        "y": 1.5563
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          190,
+          185,
+          171
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "unaccountable smoggy plausible",
+        "theme_topic": "Waves",
         "underline": false
       },
       "type": "text",
@@ -633,39 +621,41 @@
     },
     {
       "bbox": {
-        "h": 0.6957,
-        "w": 2.3859,
-        "x": 3.939,
-        "y": 5.6114
+        "h": 6.2587,
+        "w": 0.6772,
+        "x": 2.5864,
+        "y": 0.6639
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          30,
-          35,
-          42
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          152,
+          142,
+          113
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "steel cultured crime immense nifty rejoice pop",
-        "theme_topic": "Cruel Eye",
-        "underline": false
+        "line": [
+          152,
+          142,
+          113
+        ],
+        "line_width": 1.8766080042331161,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Waves"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.2298,
-        "w": 1.9457,
-        "x": 1.6996,
-        "y": 1.7704
+        "h": 0.7467,
+        "w": 0.3122,
+        "x": 2.7671,
+        "y": 0.8055
       },
       "id": "object_022",
       "properties": {
@@ -673,17 +663,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          126,
-          205,
-          54
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Quaint Illegal Collar",
-        "theme_topic": "Cruel Eye",
+        "font_face": "Aptos Display",
+        "font_size": 20,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "97%",
+        "theme_topic": "Waves",
         "underline": false
       },
       "type": "text",
@@ -691,71 +681,39 @@
     },
     {
       "bbox": {
-        "h": 0.8995,
-        "w": 0.8521,
-        "x": 8.9049,
-        "y": 2.3201
+        "h": 5.2518,
+        "w": 0.302,
+        "x": 2.7753,
+        "y": 1.5682
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          222,
-          133,
-          62
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          190,
+          185,
+          171
         ],
-        "line": [
-          213,
-          108,
-          62
-        ],
-        "line_width": 2.306660946818929,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Cruel Eye"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "harsh classy wry righteous contain remain lake",
+        "theme_topic": "Waves",
+        "underline": false
       },
-      "type": "freeform",
+      "type": "text",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.2162,
-        "w": 1.3953,
-        "x": 2.7251,
-        "y": 2.8978
+        "h": 0.7343,
+        "w": 0.428,
+        "x": 3.6482,
+        "y": 0.8051
       },
       "id": "object_024",
       "properties": {
@@ -763,52 +721,49 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          149,
-          100,
-          121
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
-        "font_size": 5,
+        "font_face": "Aptos Display",
+        "font_size": 20,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "paddle lovely flood absorbed",
-        "theme_topic": "Cruel Eye",
-        "underline": true
+        "text": "30%",
+        "theme_topic": "Waves",
+        "underline": false
       },
       "type": "text",
       "z_order": 24
     },
     {
       "bbox": {
-        "h": 0.2964,
-        "w": 1.3198,
-        "x": 11.0017,
-        "y": 6.2989
+        "h": 5.2229,
+        "w": 0.4047,
+        "x": 3.6256,
+        "y": 1.5615
       },
       "id": "object_025",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          202,
-          188,
-          165
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          190,
+          185,
+          171
         ],
-        "focus": false,
-        "line": [
-          170,
-          62,
-          116
-        ],
-        "line_width": 2.2581448364320007,
-        "outline_only": false,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Cruel Eye"
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "leather cuddly live",
+        "theme_topic": "Waves",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 25
     }
   ],

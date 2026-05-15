@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "fill": [
-        155,
-        215,
-        80
+      "colors": [
+        [
+          47,
+          57,
+          170
+        ],
+        [
+          101,
+          197,
+          205
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Potato"
+      "fill": [
+        29,
+        151,
+        112
+      ],
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Curious"
     },
     "type": "background",
     "z_order": 0
@@ -30,93 +45,105 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5961,
-        "w": 6.7236,
-        "x": 1.4698,
-        "y": 1.7022
+        "h": 1.5795,
+        "w": 5.3793,
+        "x": 5.995,
+        "y": 1.4714
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "callouts",
         "fill": [
-          141,
-          196,
-          72
+          147,
+          161,
+          145
         ],
+        "focus": false,
         "line": [
-          134,
-          187,
-          69
+          114,
+          216,
+          175
         ],
-        "line_width": 1.0833263030412095,
+        "line_width": 4.1741658984768595,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Potato"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Curious"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.1625,
-        "w": 7.4091,
-        "x": 3.2198,
-        "y": 0.6456
+        "h": 1.8778,
+        "w": 4.3478,
+        "x": 4.9973,
+        "y": -0.4653
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 3,
+        "family": "stars",
+        "fill": [
+          33,
+          86,
+          84
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Plucky Wriggle Clear Grade Dazzling",
-        "theme_topic": "Potato",
-        "underline": false
+        "focus": false,
+        "line": [
+          99,
+          91,
+          195
+        ],
+        "line_width": 4.133203994391067,
+        "outline_only": false,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Curious"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.4424,
-        "w": 4.7448,
-        "x": 0.5185,
-        "y": 4.039
+        "h": 4.774,
+        "w": 8.4295,
+        "x": 1.8981,
+        "y": 0.5605
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": false,
-        "line": [
-          31,
-          117,
-          161
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          47,
+          159,
+          123
         ],
-        "line_width": 9,
-        "theme_topic": "Potato"
+        "line": [
+          58,
+          164,
+          130
+        ],
+        "line_width": 1.6836380981778551,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Curious"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.5888,
-        "w": 4.4253,
-        "x": 0.6982,
-        "y": 2.1155
+        "h": 1.156,
+        "w": 5.7667,
+        "x": 0.5341,
+        "y": 0.3617
       },
       "id": "object_004",
       "properties": {
@@ -124,17 +151,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          79,
-          61,
-          38
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Magical",
-        "theme_topic": "Potato",
+        "text": "Instrument Separate Best Texture",
+        "theme_topic": "Curious",
         "underline": false
       },
       "type": "text",
@@ -142,28 +169,28 @@
     },
     {
       "bbox": {
-        "h": 0.6759,
-        "w": 4.4391,
-        "x": 0.6877,
-        "y": 2.9567
+        "h": 0.7606,
+        "w": 2.0358,
+        "x": 7.279,
+        "y": 2.0225
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          85,
-          113,
-          55
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "famous strap dull cave arch fascinated bridge educated fireman",
-        "theme_topic": "Potato",
+        "text": "191",
+        "theme_topic": "Curious",
         "underline": false
       },
       "type": "text",
@@ -171,101 +198,99 @@
     },
     {
       "bbox": {
-        "h": 0.3191,
-        "w": 0.3217,
-        "x": 0.966,
-        "y": 6.2162
+        "h": 4.145,
+        "w": 2.0206,
+        "x": 7.2713,
+        "y": 2.7734
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          134,
-          187,
-          69
-        ],
-        "line_width": 1.7940196325033164,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Potato"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.4008,
-        "w": 0.8019,
-        "x": 0.607,
-        "y": 6.5347
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          148,
+          204,
+          189
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "undesirable pot cars",
-        "theme_topic": "Potato",
+        "text": "soap foregoing spiders sound ambitious deserve follow",
+        "theme_topic": "Curious",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
+      "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.3302,
-        "w": 0.3164,
-        "x": 2.1046,
-        "y": 6.3537
+        "h": 5.1393,
+        "w": 3.0969,
+        "x": 9.6712,
+        "y": 1.8372
       },
-      "id": "object_008",
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          31,
-          117,
-          161
+          212,
+          126,
+          126
         ],
         "line": [
-          134,
-          187,
-          69
+          58,
+          164,
+          130
         ],
-        "line_width": 1.3938623911626384,
+        "line_width": 2.0945596788210783,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Potato"
+        "theme_topic": "Curious"
       },
       "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.7558,
+        "w": 2.7427,
+        "x": 9.8645,
+        "y": 2.0159
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 36,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "72",
+        "theme_topic": "Curious",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.422,
-        "w": 0.7898,
-        "x": 1.7326,
-        "y": 6.5669
+        "h": 4.1119,
+        "w": 2.7503,
+        "x": 9.8395,
+        "y": 2.7795
       },
       "id": "object_009",
       "properties": {
@@ -273,17 +298,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          148,
+          204,
+          189
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "complain power copper tightfisted",
-        "theme_topic": "Potato",
+        "text": "deserted attend spurious overwrought",
+        "theme_topic": "Curious",
         "underline": false
       },
       "type": "text",
@@ -291,86 +316,88 @@
     },
     {
       "bbox": {
-        "h": 0.4184,
-        "w": 0.402,
-        "x": 2.822,
-        "y": 6.5444
+        "h": 2.6878,
+        "w": 6.1137,
+        "x": 0.554,
+        "y": 4.3103
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          58,
+          164,
+          130
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tomatoes extra-large",
-        "theme_topic": "Potato",
-        "underline": false
+        "line": [
+          58,
+          164,
+          130
+        ],
+        "line_width": 0.7024050870394986,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Curious"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.3978,
-        "w": 0.7792,
-        "x": 3.5669,
-        "y": 6.5544
+        "h": 2.3751,
+        "w": 5.8585,
+        "x": 0.7119,
+        "y": 4.4437
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
+        "crop": [
+          0.10591380736088973,
+          0.2182569270140414,
+          0.30878037442541384,
+          0.3056264836776356
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "unnatural large wrist actually mate wool",
-        "theme_topic": "Potato",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          174,
+          73,
+          92
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Curious",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.417,
-        "w": 0.552,
-        "x": 4.6601,
-        "y": 6.5544
+        "h": 0.6125,
+        "w": 1.1092,
+        "x": 1.9607,
+        "y": 2.7161
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          28,
-          30,
-          36
+          142,
+          189,
+          171
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "observe female porter",
-        "theme_topic": "Potato",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Exchange Insurance Birds",
+        "theme_topic": "Curious",
         "underline": false
       },
       "type": "text",
@@ -378,88 +405,67 @@
     },
     {
       "bbox": {
-        "h": 5.0687,
-        "w": 6.9628,
-        "x": 5.8221,
-        "y": 2.0044
+        "h": 0.6077,
+        "w": 0.9765,
+        "x": 4.1259,
+        "y": 5.3316
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          134,
-          187,
-          69
+        "color": [
+          165,
+          135,
+          202
         ],
-        "line": [
-          134,
-          187,
-          69
-        ],
-        "line_width": 3.929781321987271,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Potato"
+        "connector": "straight",
+        "dash": 1,
+        "flip": true,
+        "ppt_type": 1,
+        "theme_topic": "Curious",
+        "width": 1.6139390029407117
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 4.5342,
-        "w": 6.4764,
-        "x": 6.0707,
-        "y": 2.2686
+        "h": 0.4031,
+        "w": 0.4255,
+        "x": 9.8382,
+        "y": 6.5512
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "next",
-          "puny",
-          "realize",
-          "heavy",
-          "measly",
-          "dam"
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          176,
+          94,
+          185
         ],
-        "chart": "pie",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              136,
-              94,
-              202
-            ],
-            "name": "agreeable colorful",
-            "values": [
-              66,
-              13,
-              54,
-              85,
-              13,
-              18
-            ]
-          }
+        "focus": false,
+        "line": [
+          36,
+          96,
+          134
         ],
-        "theme_topic": "Potato",
-        "title": "cheese eggs rock humor"
+        "line_width": 1.9485955964598318,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Curious"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.3061,
-        "w": 1.8482,
-        "x": 3.2489,
-        "y": 0.5211
+        "h": 0.3238,
+        "w": 0.6537,
+        "x": 11.0232,
+        "y": 3.5117
       },
       "id": "object_015",
       "properties": {
@@ -467,17 +473,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          74,
-          134,
-          73
+          177,
+          47,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Verdana",
+        "font_size": 6,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Help Meek Waste",
-        "theme_topic": "Potato",
+        "text": "Sweater Zebra Door",
+        "theme_topic": "Curious",
         "underline": false
       },
       "type": "text",
@@ -485,93 +491,86 @@
     },
     {
       "bbox": {
-        "h": 0.2808,
-        "w": 1.3206,
-        "x": 11.266,
-        "y": 6.2764
+        "h": 1.2636,
+        "w": 0.6237,
+        "x": 8.5481,
+        "y": 4.9581
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          58,
-          195,
-          88
+          73,
+          216,
+          148
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Domineering",
-        "theme_topic": "Potato",
-        "underline": false
+        "connector": "curve",
+        "dash": 2,
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "Curious",
+        "width": 1.2273806259352258
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.4858,
-        "w": 1.2848,
-        "x": 1.792,
-        "y": 1.6798
+        "h": 0.6364,
+        "w": 0.3753,
+        "x": 9.7129,
+        "y": 5.6928
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          121,
-          152,
-          52
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          79,
+          214,
+          66
         ],
-        "bold": false,
-        "color": [
-          121,
-          61,
-          216
+        "focus": false,
+        "line": [
+          99,
+          175,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Boundary",
-        "theme_topic": "Potato",
-        "underline": false
+        "line_width": 3.1132323038157144,
+        "outline_only": false,
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Curious"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.5552,
-        "w": 0.7927,
-        "x": 3.9432,
-        "y": 2.5554
+        "h": 0.4285,
+        "w": 1.368,
+        "x": 9.5452,
+        "y": 6.5503
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          113,
-          33,
-          108
+        "pattern": "ribbon_path",
+        "primary": [
+          117,
+          49,
+          45
         ],
-        "font_face": "Aptos",
-        "font_size": 5,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "violent lethal thoughtful foamy",
-        "theme_topic": "Potato",
-        "underline": false
+        "secondary": [
+          229,
+          219,
+          169
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#bf8733\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#7d46d9\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
+        "theme_topic": "Curious"
       },
-      "type": "text",
+      "type": "svg",
       "z_order": 18
     }
   ],

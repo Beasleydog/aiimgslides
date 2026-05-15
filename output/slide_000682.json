@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 120,
+      "angle": 270,
       "archetype": "atomic_composition",
       "colors": [
         [
-          247,
-          248,
-          246
+          174,
+          152,
+          121
         ],
         [
-          222,
-          133,
-          62
+          96,
+          165,
+          250
         ]
       ],
       "fill": [
-        247,
-        248,
-        246
+        25,
+        30,
+        39
       ],
-      "focus": "bottom_right",
-      "gradient_type": "radial",
+      "focus": "bottom_left",
+      "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Hope"
+      "theme_topic": "Reign Collar"
     },
     "type": "background",
     "z_order": 0
@@ -45,175 +45,184 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.142,
-        "w": 8.0986,
-        "x": 3.4349,
-        "y": 0.6377
+        "h": 3.4936,
+        "w": 7.7293,
+        "x": 3.1608,
+        "y": 2.5267
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          30,
-          35,
-          42
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          117,
+          152,
+          75
         ],
-        "font_face": "Aptos Display",
-        "font_size": 40,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Fire Slim Tax",
-        "theme_topic": "Hope",
-        "underline": false
+        "focus": false,
+        "line": [
+          89,
+          104,
+          143
+        ],
+        "line_width": 4.278556681493903,
+        "outline_only": false,
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Reign Collar"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0344,
-        "w": 3.928,
-        "x": 8.8551,
-        "y": 1.985
+        "h": 4.1038,
+        "w": 7.1948,
+        "x": -0.2073,
+        "y": -0.7454
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          236,
-          240,
-          242
+          105,
+          108,
+          84
         ],
+        "focus": false,
         "line": [
-          236,
-          240,
-          242
+          125,
+          41,
+          62
         ],
-        "line_width": 1.8878486973239985,
+        "line_width": 3.2018239209456913,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Hope"
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Reign Collar"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1333,
-        "w": 3.5619,
-        "x": 9.0674,
-        "y": 2.9081
+        "h": 3.0983,
+        "w": 5.6127,
+        "x": 0.2123,
+        "y": 4.987
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "callouts",
+        "fill": [
+          81,
+          133,
+          98
+        ],
+        "focus": false,
+        "line": [
+          102,
+          75,
+          144
+        ],
+        "line_width": 5.861468746108935,
+        "outline_only": true,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Reign Collar"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.7446,
+        "w": 13.3299,
+        "x": -0.0085,
+        "y": 0.0116
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 2.4724669628867706,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Reign Collar"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.5627,
+        "w": 2.8406,
+        "x": 0.6287,
+        "y": 0.7675
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
+          246,
           247,
-          248,
-          246
+          249
         ],
         "font_face": "Aptos Display",
-        "font_size": 36,
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "50%",
-        "theme_topic": "Hope",
+        "text": "Descriptive Swim",
+        "theme_topic": "Reign Collar",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.6935,
-        "w": 3.5315,
-        "x": 9.0619,
-        "y": 5.1039
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          30,
-          35,
-          42
-        ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "own used erratic precede",
-        "theme_topic": "Hope",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.0788,
-        "w": 3.5681,
-        "x": 4.9828,
-        "y": 1.9711
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.12821313366607756,
-          0.034538481614441494,
-          0.15959855914527502,
-          0.007936739597431599
-        ],
-        "focus": true,
-        "mask_line": [
-          32,
-          117,
-          226
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Hope",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.268,
-        "w": 3.2054,
-        "x": 5.21,
-        "y": 6.6132
+        "h": 1.9391,
+        "w": 0.805,
+        "x": 8.5708,
+        "y": 1.5625
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          31,
-          117,
-          161
+          177,
+          185,
+          196
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 14,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Depend Teeth Zoom",
-        "theme_topic": "Hope",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "internal bounce mundane lean eggs",
+        "theme_topic": "Reign Collar",
         "underline": false
       },
       "type": "text",
@@ -221,28 +230,28 @@
     },
     {
       "bbox": {
-        "h": 1.0334,
-        "w": 3.8389,
-        "x": 0.6799,
-        "y": 2.1447
+        "h": 1.9606,
+        "w": 0.8553,
+        "x": 9.9571,
+        "y": 1.551
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          30,
-          35,
-          42
+          177,
+          185,
+          196
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
-        "italic": true,
-        "kind": "header",
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "Texture Settle Observant",
-        "theme_topic": "Hope",
+        "text": "car collect ugly clever baseball flame",
+        "theme_topic": "Reign Collar",
         "underline": false
       },
       "type": "text",
@@ -250,28 +259,28 @@
     },
     {
       "bbox": {
-        "h": 3.4926,
-        "w": 3.8747,
-        "x": 0.6899,
-        "y": 3.4213
+        "h": 0.7477,
+        "w": 1.2135,
+        "x": 11.2994,
+        "y": 0.8207
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          115,
-          124,
-          135
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Aptos Display",
+        "font_size": 24,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "health daffy amused crown want fit threatening distinct self marked",
-        "theme_topic": "Hope",
+        "text": "49%",
+        "theme_topic": "Reign Collar",
         "underline": false
       },
       "type": "text",
@@ -279,62 +288,70 @@
     },
     {
       "bbox": {
-        "h": 0.8586,
-        "w": 1.1059,
-        "x": 7.6342,
-        "y": 1.0218
+        "h": 1.9498,
+        "w": 1.2202,
+        "x": 11.3148,
+        "y": 1.5921
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          155,
-          30,
-          43
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
         ],
-        "secondary": [
-          222,
-          133,
-          62
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#98e2d9\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#8c34c6\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Hope"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "garrulous murder arrange",
+        "theme_topic": "Reign Collar",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.9822,
-        "w": 1.1261,
-        "x": 9.2876,
-        "y": 2.3718
+        "h": 2.9812,
+        "w": 4.3257,
+        "x": 8.3797,
+        "y": 3.9098
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          120,
-          65,
-          228
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
         ],
-        "connector": "curve",
-        "dash": 2,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Hope",
-        "width": 1.5600975024050832
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 2.0973756297486035,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Reign Collar"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.462,
-        "w": 1.9286,
-        "x": 1.5578,
-        "y": 1.3811
+        "h": 1.1415,
+        "w": 3.9573,
+        "x": 8.5545,
+        "y": 4.5238
       },
       "id": "object_011",
       "properties": {
@@ -342,17 +359,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          229,
-          47,
-          85
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Aptos Display",
+        "font_size": 45,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Impulse",
-        "theme_topic": "Hope",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "75%",
+        "theme_topic": "Reign Collar",
         "underline": false
       },
       "type": "text",
@@ -360,32 +377,28 @@
     },
     {
       "bbox": {
-        "h": 0.2404,
-        "w": 0.9073,
-        "x": 3.7796,
-        "y": 6.4964
+        "h": 0.6753,
+        "w": 3.959,
+        "x": 8.5843,
+        "y": 5.7196
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          113,
-          206,
-          157
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          171,
-          225,
-          126
+          246,
+          247,
+          249
         ],
         "font_face": "Aptos",
-        "font_size": 8,
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Bridge Toy",
-        "theme_topic": "Hope",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "blink accessible elastic float humor stare steadfast",
+        "theme_topic": "Reign Collar",
         "underline": false
       },
       "type": "text",
@@ -393,28 +406,28 @@
     },
     {
       "bbox": {
-        "h": 0.5306,
-        "w": 0.7703,
-        "x": 8.4265,
-        "y": 1.4608
+        "h": 0.2803,
+        "w": 4.059,
+        "x": 3.8909,
+        "y": 4.0262
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          169,
-          116,
-          35
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
-        "font_size": 13,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "squeamish",
-        "theme_topic": "Hope",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "VIVACIOUS",
+        "theme_topic": "Reign Collar",
         "underline": false
       },
       "type": "text",
@@ -422,28 +435,32 @@
     },
     {
       "bbox": {
-        "h": 0.2116,
-        "w": 0.7825,
-        "x": 11.2337,
-        "y": 4.8922
+        "h": 0.857,
+        "w": 4.0262,
+        "x": 3.8919,
+        "y": 4.5043
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          138,
+          197,
+          157
+        ],
         "bold": true,
         "color": [
-          226,
-          129,
-          38
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Aptos Display",
+        "font_size": 23,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Passenger",
-        "theme_topic": "Hope",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Scintillating Spotted Inquisitive",
+        "theme_topic": "Reign Collar",
         "underline": false
       },
       "type": "text",
@@ -451,117 +468,115 @@
     },
     {
       "bbox": {
-        "h": 0.4939,
-        "w": 1.1848,
-        "x": 10.4462,
-        "y": 5.445
+        "h": 1.1396,
+        "w": 4.0257,
+        "x": 3.9071,
+        "y": 5.6318
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          123,
-          92,
-          109
+          177,
+          185,
+          196
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Hope",
-        "width": 0.455989193853938
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "teeny-tiny share consist bridge desert concern relation loutish uncovered frame trousers arrest flagrant neck shirt development",
+        "theme_topic": "Reign Collar",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.9601,
-        "w": 0.9068,
-        "x": 7.8909,
-        "y": 1.2429
+        "h": 1.3339,
+        "w": 0.8993,
+        "x": 4.0103,
+        "y": 2.0981
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          85,
-          84,
-          121
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
         ],
-        "focus": false,
-        "line": [
-          188,
-          154,
-          47
-        ],
-        "line_width": 2.5228426642733752,
-        "outline_only": true,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Hope"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "star attack need appreciate whole shocking public tranquil warm bad",
+        "theme_topic": "Reign Collar",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.6656,
-        "w": 0.8385,
-        "x": 10.5539,
-        "y": 5.6474
+        "h": 1.322,
+        "w": 0.7713,
+        "x": 5.6126,
+        "y": 2.0982
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          150,
-          221,
-          230
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
         ],
-        "focus": false,
-        "line": [
-          87,
-          211,
-          106
-        ],
-        "line_width": 0.5344347165628979,
-        "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Hope"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "furtive electric release side debonair station potato hilarious highfalutin",
+        "theme_topic": "Reign Collar",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.4208,
-        "w": 0.5708,
-        "x": 1.2624,
-        "y": 2.8787
+        "h": 1.3292,
+        "w": 0.7694,
+        "x": 7.1125,
+        "y": 2.122
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          210,
-          211,
-          226
+          177,
+          185,
+          196
         ],
         "font_face": "Aptos",
         "font_size": 7,
-        "italic": true,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "arrogant unkempt quirky",
-        "theme_topic": "Hope",
+        "text": "real jail transport badge arrest magic queue credit tomatoes railway arrest delightful stamp reflective zesty",
+        "theme_topic": "Reign Collar",
         "underline": false
       },
       "type": "text",

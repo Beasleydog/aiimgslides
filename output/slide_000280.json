@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "fill": [
-        247,
-        248,
-        246
+      "colors": [
+        [
+          91,
+          198,
+          156
+        ],
+        [
+          71,
+          221,
+          181
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Dress Worry"
+      "fill": [
+        120,
+        58,
+        170
+      ],
+      "focus": "top_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Animated Disapprove"
     },
     "type": "background",
     "z_order": 0
@@ -30,105 +45,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.8876,
-        "w": 7.95,
-        "x": 3.4627,
-        "y": -0.4762
+        "h": 2.0673,
+        "w": 8.6134,
+        "x": 2.2848,
+        "y": 2.4772
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "flowchart",
         "fill": [
-          165,
-          144,
-          229
+          170,
+          42,
+          202
         ],
         "focus": false,
         "line": [
-          150,
-          181,
-          108
+          215,
+          211,
+          111
         ],
-        "line_width": 4.8147208059686495,
+        "line_width": 2.1175843302284934,
         "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Dress Worry"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Animated Disapprove"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.9532,
-        "w": 6.073,
-        "x": -0.4331,
-        "y": 3.2949
+        "h": 1.978,
+        "w": 6.7544,
+        "x": 3.6802,
+        "y": 4.6866
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "math",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          209,
-          229,
-          188
+          139,
+          147,
+          105
         ],
         "focus": false,
         "line": [
-          61,
-          151,
-          140
+          192,
+          228,
+          208
         ],
-        "line_width": 6.630273394631766,
+        "line_width": 2.6539281899863587,
         "outline_only": false,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Dress Worry"
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Animated Disapprove"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.9294,
-        "w": 6.0888,
-        "x": -0.02,
-        "y": -0.0198
+        "h": 3.3844,
+        "w": 4.8058,
+        "x": 1.0468,
+        "y": 2.8741
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 7,
+        "family": "basic",
         "fill": [
-          236,
-          240,
-          242
+          109,
+          136,
+          107
         ],
+        "focus": false,
         "line": [
-          236,
-          240,
-          242
+          200,
+          126,
+          34
         ],
-        "line_width": 1.74972952560486,
+        "line_width": 5.345298558185667,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Dress Worry"
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Animated Disapprove"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.8244,
-        "w": 3.1795,
-        "x": 9.3775,
-        "y": 0.6301
+        "h": 1.0364,
+        "w": 8.1981,
+        "x": 0.5341,
+        "y": 0.3364
       },
       "id": "object_004",
       "properties": {
@@ -136,17 +152,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          30,
-          35,
-          42
+          255,
+          250,
+          255
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 23,
+        "font_face": "Arial",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Opposite Toys",
-        "theme_topic": "Dress Worry",
+        "text": "Ten Disagree",
+        "theme_topic": "Animated Disapprove",
         "underline": false
       },
       "type": "text",
@@ -154,39 +170,95 @@
     },
     {
       "bbox": {
-        "h": 1.0683,
-        "w": 1.1645,
-        "x": 7.5122,
-        "y": 0.7939
+        "h": 2.2996,
+        "w": 5.8146,
+        "x": 6.9266,
+        "y": 1.9185
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          30,
-          35,
-          42
+        "band": [
+          135,
+          69,
+          80
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 20,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Enthusiastic Furtive",
-        "theme_topic": "Dress Worry",
-        "underline": true
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          139,
+          78,
+          190
+        ],
+        "border": [
+          200,
+          90,
+          141
+        ],
+        "border_dash": "dashDot",
+        "border_width": 0.9177670619468545,
+        "cells": [
+          [
+            "zoo",
+            "best amazing",
+            "fade",
+            "guarded",
+            "cream"
+          ],
+          [
+            "divide",
+            "annoyed trap",
+            "hang",
+            "melt inject",
+            "scarecrow"
+          ],
+          [
+            "rain",
+            "crib",
+            "repulsive",
+            "shelf",
+            "ruddy"
+          ],
+          [
+            "cheese",
+            "foregoing capable",
+            "polite",
+            "strange",
+            "halting"
+          ],
+          [
+            "rock",
+            "remain anger",
+            "silly historical",
+            "towering",
+            "development fork"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 11,
+        "has_header": true,
+        "header": [
+          71,
+          221,
+          181
+        ],
+        "rows": 5,
+        "text_color": [
+          255,
+          250,
+          255
+        ],
+        "theme_topic": "Animated Disapprove"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 4.7133,
-        "w": 1.1852,
-        "x": 7.5307,
-        "y": 2.0862
+        "h": 0.8161,
+        "w": 1.1247,
+        "x": 2.0711,
+        "y": 3.2102
       },
       "id": "object_006",
       "properties": {
@@ -194,17 +266,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          115,
-          124,
-          135
+          255,
+          250,
+          255
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "judge stupendous harsh smoke bow cheap skillful puzzling cakes adjustment cats frightened observant brake burst delicious tenuous tease disillusioned wren",
-        "theme_topic": "Dress Worry",
+        "text": "historical art paste disappear old-fashioned",
+        "theme_topic": "Animated Disapprove",
         "underline": false
       },
       "type": "text",
@@ -212,29 +284,33 @@
     },
     {
       "bbox": {
-        "h": 0.5733,
-        "w": 2.3583,
-        "x": 2.6544,
-        "y": 4.2495
+        "h": 0.5964,
+        "w": 1.6686,
+        "x": 2.2807,
+        "y": 1.6373
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          155,
+          202,
+          133
+        ],
         "bold": false,
         "color": [
-          189,
-          103,
-          170
+          198,
+          88,
+          43
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "impolite disastrous observe",
-        "theme_topic": "Dress Worry",
-        "underline": false
+        "text": "sassy cuddly steadfast tasteful",
+        "theme_topic": "Animated Disapprove",
+        "underline": true
       },
       "type": "text",
       "z_order": 7

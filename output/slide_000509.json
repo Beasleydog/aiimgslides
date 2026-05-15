@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        33,
-        115,
-        169
+        61,
+        212,
+        150
       ],
       "fill": [
-        33,
-        115,
-        169
+        196,
+        221,
+        227
       ],
       "fore_color": [
-        194,
-        102,
-        126
+        222,
+        133,
+        62
       ],
-      "pattern": 45,
+      "pattern": 35,
       "style": "pattern",
-      "theme_topic": "Wilderness"
+      "theme_topic": "Squalid"
     },
     "type": "background",
     "z_order": 0
@@ -41,182 +41,179 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.4967,
-        "w": 6.9368,
-        "x": 1.9914,
-        "y": 2.7234
+        "h": 2.4698,
+        "w": 0.2,
+        "x": 4.1927,
+        "y": 2.1268
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "ribbons",
+        "dash": 4,
+        "family": "panel",
         "fill": [
-          184,
-          164,
-          96
+          31,
+          117,
+          161
         ],
-        "focus": false,
         "line": [
-          198,
-          61,
-          123
+          159,
+          179,
+          184
         ],
-        "line_width": 6.270451339043621,
+        "line_width": 4.649129347058351,
         "outline_only": false,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Wilderness"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Squalid"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.9086,
-        "w": 3.4078,
-        "x": 1.4574,
-        "y": -0.4188
+        "h": 0.2,
+        "w": 1.6432,
+        "x": 6.9854,
+        "y": 2.1658
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "ribbons",
+        "dash": 5,
+        "family": "panel",
         "fill": [
-          72,
-          83,
-          181
+          31,
+          117,
+          161
         ],
-        "focus": false,
         "line": [
-          114,
-          86,
-          121
+          159,
+          179,
+          184
         ],
-        "line_width": 5.236866961848666,
+        "line_width": 1.7779631077023414,
         "outline_only": false,
-        "ppt_type": 98,
-        "shape": "down_ribbon",
-        "theme_topic": "Wilderness"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Squalid"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.0004,
-        "w": 7.0372,
-        "x": 1.4666,
-        "y": 1.2867
+        "h": 0.881,
+        "w": 5.2975,
+        "x": 0.7414,
+        "y": 5.8463
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          99,
-          102,
-          114
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          25,
-          132,
-          99
-        ],
-        "line_width": 5.871433831087758,
-        "outline_only": true,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Wilderness"
+        "font_face": "Arial",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Utopian Unpack",
+        "theme_topic": "Squalid",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.2594,
-        "w": 6.6157,
-        "x": 0.5278,
-        "y": 0.3366
+        "h": 2.209,
+        "w": 5.5495,
+        "x": 7.2601,
+        "y": 0.5313
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          250,
-          252,
-          255
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          159,
+          179,
+          184
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 40,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Birds Soak",
-        "theme_topic": "Wilderness",
-        "underline": false
+        "line": [
+          159,
+          179,
+          184
+        ],
+        "line_width": 1.1184283457749462,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Squalid"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.0336,
-        "w": 6.5322,
-        "x": 6.101,
-        "y": 1.9524
+        "h": 1.9148,
+        "w": 5.2522,
+        "x": 7.4165,
+        "y": 0.6669
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          250,
-          252,
-          255
+        "crop": [
+          0.1490153741982242,
+          0.13065552568650732,
+          0.19980935659859445,
+          0.14896732452286557
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 46,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Foamy Word Vast",
-        "theme_topic": "Wilderness",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          31,
+          117,
+          161
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Squalid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 3.6156,
-        "w": 6.5415,
-        "x": 6.0999,
-        "y": 3.2777
+        "h": 0.2608,
+        "w": 5.1162,
+        "x": 7.4346,
+        "y": 2.2962
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          218,
-          235,
-          245
+          31,
+          117,
+          161
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "swift pump unwritten blink garrulous unkempt stamp soda abiding squeak nappy wall educate blush intelligent division squirrel",
-        "theme_topic": "Wilderness",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Tranquil Low",
+        "theme_topic": "Squalid",
         "underline": false
       },
       "type": "text",
@@ -224,59 +221,57 @@
     },
     {
       "bbox": {
-        "h": 1.4922,
-        "w": 4.9176,
-        "x": 0.5559,
-        "y": 5.4938
+        "h": 0.8223,
+        "w": 11.9212,
+        "x": 0.6835,
+        "y": 3.2846
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          47,
-          136,
-          190
-        ],
-        "line": [
-          47,
-          136,
-          190
-        ],
-        "line_width": 2.0451520736791786,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wilderness"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.4836,
-        "w": 4.5823,
-        "x": 0.7456,
-        "y": 5.855
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          250,
-          252,
-          255
+          208,
+          141,
+          65
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
+        "font_face": "Arial",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "10x",
-        "theme_topic": "Wilderness",
+        "text": "Phone",
+        "theme_topic": "Squalid",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 1.0998,
+        "w": 11.9397,
+        "x": 0.7134,
+        "y": 4.3294
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          115,
+          121
+        ],
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "modern peck handsome farm nation observation quickest ill-fated verdant abaft suppose zonked achiever",
+        "theme_topic": "Squalid",
         "underline": false
       },
       "type": "text",
@@ -284,149 +279,159 @@
     },
     {
       "bbox": {
-        "h": 0.3172,
-        "w": 4.5579,
-        "x": 0.709,
-        "y": 6.3928
+        "h": 0.4487,
+        "w": 1.1858,
+        "x": 11.6963,
+        "y": 0.4613
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          250,
-          252,
-          255
+        "dash": 3,
+        "family": "callouts",
+        "fill": [
+          193,
+          130,
+          177
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "cumbersome aspiring dust star applaud certain apathetic bare",
-        "theme_topic": "Wilderness",
-        "underline": false
+        "focus": false,
+        "line": [
+          53,
+          230,
+          72
+        ],
+        "line_width": 6.072662466602139,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Squalid"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.5466,
-        "w": 4.9272,
-        "x": 0.542,
-        "y": 3.6446
+        "h": 0.6503,
+        "w": 1.2538,
+        "x": 6.3823,
+        "y": 3.0902
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          47,
-          136,
-          190
+          214,
+          88,
+          178
         ],
+        "focus": false,
         "line": [
-          47,
-          136,
-          190
+          45,
+          60,
+          46
         ],
-        "line_width": 1.8207505414041256,
+        "line_width": 5.082259169390086,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wilderness"
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Squalid"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5157,
-        "w": 4.5675,
-        "x": 0.7544,
-        "y": 3.9996
+        "h": 0.8502,
+        "w": 1.3387,
+        "x": 4.5748,
+        "y": 6.3761
       },
       "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "ribbons",
+        "fill": [
+          137,
+          41,
+          97
+        ],
+        "focus": false,
+        "line": [
+          193,
+          111,
+          160
+        ],
+        "line_width": 2.7648300582692262,
+        "outline_only": true,
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Squalid"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.2922,
+        "w": 0.6747,
+        "x": 5.9811,
+        "y": 0.7704
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "math",
+        "fill": [
+          188,
+          162,
+          110
+        ],
+        "focus": false,
+        "line": [
+          201,
+          65,
+          190
+        ],
+        "line_width": 2.9508877376817564,
+        "outline_only": false,
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Squalid"
+      },
+      "type": "shape",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.5934,
+        "w": 1.9187,
+        "x": 11.141,
+        "y": 3.8386
+      },
+      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          250,
-          252,
-          255
+          139,
+          212,
+          173
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 26,
+        "font_face": "Arial",
+        "font_size": 18,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "6x",
-        "theme_topic": "Wilderness",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Pop",
+        "theme_topic": "Squalid",
         "underline": false
       },
       "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.3555,
-        "w": 4.5645,
-        "x": 0.7326,
-        "y": 4.5499
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          250,
-          252,
-          255
-        ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "approval garrulous chicken pot desire stretch trap",
-        "theme_topic": "Wilderness",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.4843,
-        "w": 4.8918,
-        "x": 0.5388,
-        "y": 1.8553
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.09773449670631143,
-          0.21943225116444304,
-          0.003942730752826748,
-          0.017560188916152707
-        ],
-        "focus": false,
-        "mask_line": [
-          116,
-          225,
-          43
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Wilderness",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 13
     }
   ],

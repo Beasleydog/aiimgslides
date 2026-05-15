@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          111,
-          88,
-          201
-        ],
-        [
-          189,
-          161,
-          229
-        ]
+      "back_color": [
+        196,
+        103,
+        137
       ],
       "fill": [
-        111,
-        88,
-        201
+        222,
+        117,
+        156
       ],
-      "focus": "top_left",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Gentle"
+      "fore_color": [
+        255,
+        238,
+        103
+      ],
+      "pattern": 54,
+      "style": "pattern",
+      "theme_topic": "Haircut Rhythm"
     },
     "type": "background",
     "z_order": 0
@@ -45,73 +41,73 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.0175,
-        "w": 3.4159,
-        "x": 7.9082,
-        "y": 2.0771
+        "h": 5.0116,
+        "w": 8.1514,
+        "x": 5.401,
+        "y": 0.0451
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "symbols",
+        "dash": 2,
+        "family": "basic",
         "fill": [
-          152,
-          59,
-          103
+          105,
+          129,
+          128
         ],
         "focus": false,
         "line": [
-          114,
-          144,
-          54
+          87,
+          118,
+          217
         ],
-        "line_width": 3.608393392045566,
+        "line_width": 2.8454931267170394,
         "outline_only": true,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Gentle"
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Haircut Rhythm"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5045,
-        "w": 1.1238,
-        "x": -0.0186,
-        "y": -0.014
+        "h": 0.7561,
+        "w": 13.3151,
+        "x": -0.0184,
+        "y": -0.0098
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          128,
-          108,
-          207
+          196,
+          103,
+          137
         ],
         "line": [
-          128,
-          108,
-          207
+          196,
+          103,
+          137
         ],
-        "line_width": 2.021680529346286,
+        "line_width": 3.779478691073119,
         "outline_only": false,
         "ppt_type": 1,
         "shape": "rect",
-        "theme_topic": "Gentle"
+        "theme_topic": "Haircut Rhythm"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.296,
-        "w": 8.5345,
-        "x": 0.5709,
-        "y": 0.3413
+        "h": 1.2053,
+        "w": 8.993,
+        "x": 0.5596,
+        "y": 0.3653
       },
       "id": "object_003",
       "properties": {
@@ -123,13 +119,13 @@
           30,
           36
         ],
-        "font_face": "Georgia",
-        "font_size": 29,
+        "font_face": "Arial",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Mate Placid",
-        "theme_topic": "Gentle",
+        "text": "Chin Knotty",
+        "theme_topic": "Haircut Rhythm",
         "underline": false
       },
       "type": "text",
@@ -137,132 +133,88 @@
     },
     {
       "bbox": {
-        "h": 5.1651,
-        "w": 2.8663,
-        "x": 9.9172,
-        "y": 1.8435
+        "h": 5.157,
+        "w": 4.7321,
+        "x": 8.0495,
+        "y": 1.8523
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "miscreant",
-          "vacuous",
-          "first",
-          "alive",
-          "rod"
+        "crop": [
+          0.2272688359049363,
+          0.17035766991799084,
+          0.09119867569299028,
+          0.14118657785485117
         ],
-        "chart": "area",
         "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 1,
-        "series": [
-          {
-            "color": [
-              56,
-              174,
-              197
-            ],
-            "name": "satisfy",
-            "values": [
-              84,
-              8,
-              68,
-              37,
-              57
-            ]
-          },
-          {
-            "color": [
-              144,
-              49,
-              68
-            ],
-            "name": "sense zipper",
-            "values": [
-              50,
-              26,
-              45,
-              30,
-              16
-            ]
-          },
-          {
-            "color": [
-              228,
-              103,
-              141
-            ],
-            "name": "mindless oatmeal",
-            "values": [
-              92,
-              9,
-              11,
-              37,
-              82
-            ]
-          }
+        "mask_line": [
+          44,
+          62,
+          184
         ],
-        "theme_topic": "Gentle",
-        "title": "blow substantial didactic haunt"
+        "mask_overlay": false,
+        "theme_topic": "Haircut Rhythm",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.1694,
-        "w": 3.5248,
-        "x": 0.5352,
-        "y": 1.8571
+        "h": 0.6044,
+        "w": 0.6276,
+        "x": 1.8425,
+        "y": 4.104
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.19061491503617803,
-          0.0019296273434061307,
-          0.06623870575959284,
-          0.11044109051618284
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
         ],
-        "focus": true,
-        "mask_line": [
-          224,
-          65,
-          88
+        "line": [
+          196,
+          103,
+          137
         ],
-        "mask_overlay": false,
-        "theme_topic": "Gentle",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.4388286710077307,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Haircut Rhythm"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.3027,
-        "w": 3.149,
-        "x": 0.7322,
-        "y": 6.5377
+        "h": 1.7511,
+        "w": 2.7416,
+        "x": 0.5954,
+        "y": 4.8122
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Cherries Dispensable",
-        "theme_topic": "Gentle",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "trap exchange steel toothbrush unable old-fashioned dependent",
+        "theme_topic": "Haircut Rhythm",
         "underline": false
       },
       "type": "text",
@@ -270,41 +222,41 @@
     },
     {
       "bbox": {
-        "h": 0.5819,
-        "w": 0.5953,
-        "x": 5.8227,
-        "y": 2.2885
+        "h": 0.6085,
+        "w": 0.609,
+        "x": 4.3931,
+        "y": 3.3625
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 5,
         "family": "panel",
         "fill": [
-          51,
-          63,
-          101
+          255,
+          238,
+          103
         ],
         "line": [
-          128,
-          108,
-          207
+          196,
+          103,
+          137
         ],
-        "line_width": 0.9766033888674854,
+        "line_width": 2.139296068368719,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Gentle"
+        "theme_topic": "Haircut Rhythm"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.5582,
-        "w": 4.8236,
-        "x": 4.6111,
-        "y": 2.8078
+        "h": 1.7441,
+        "w": 1.8729,
+        "x": 3.649,
+        "y": 4.8136
       },
       "id": "object_008",
       "properties": {
@@ -316,13 +268,13 @@
           30,
           36
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "hellish likeable joyous",
-        "theme_topic": "Gentle",
+        "text": "point bizarre incredible",
+        "theme_topic": "Haircut Rhythm",
         "underline": false
       },
       "type": "text",
@@ -330,41 +282,41 @@
     },
     {
       "bbox": {
-        "h": 0.4743,
-        "w": 0.4802,
-        "x": 6.0809,
-        "y": 4.171
+        "h": 0.605,
+        "w": 0.6204,
+        "x": 6.6198,
+        "y": 4.1399
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "panel",
         "fill": [
-          51,
-          63,
-          101
+          255,
+          238,
+          103
         ],
         "line": [
-          128,
-          108,
-          207
+          196,
+          103,
+          137
         ],
-        "line_width": 3.26045196240159,
+        "line_width": 1.771004142619061,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Gentle"
+        "theme_topic": "Haircut Rhythm"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4666,
-        "w": 4.7893,
-        "x": 4.6004,
-        "y": 4.489
+        "h": 1.7434,
+        "w": 1.7391,
+        "x": 5.8794,
+        "y": 4.8319
       },
       "id": "object_010",
       "properties": {
@@ -376,13 +328,13 @@
           30,
           36
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "knock angry sigh stone bouncy nasty",
-        "theme_topic": "Gentle",
+        "text": "meat hose vest",
+        "theme_topic": "Haircut Rhythm",
         "underline": false
       },
       "type": "text",
@@ -390,209 +342,240 @@
     },
     {
       "bbox": {
-        "h": 0.6127,
-        "w": 0.5888,
-        "x": 6.7197,
-        "y": 5.8529
+        "h": 0.1,
+        "w": 2.5183,
+        "x": 2.169,
+        "y": 4.4028
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          51,
-          63,
-          101
+        "color": [
+          115,
+          69,
+          90
         ],
-        "line": [
-          128,
-          108,
-          207
-        ],
-        "line_width": 1.382691702158212,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Gentle"
+        "connector": "elbow",
+        "dash": 5,
+        "flip": true,
+        "ppt_type": 2,
+        "theme_topic": "Haircut Rhythm",
+        "width": 3.5842338027114398
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5812,
-        "w": 4.8184,
-        "x": 4.6093,
-        "y": 6.2924
+        "h": 0.7918,
+        "w": 2.2355,
+        "x": 4.6873,
+        "y": 3.6699
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          28,
-          30,
-          36
+          115,
+          69,
+          90
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "step play immense vague",
-        "theme_topic": "Gentle",
-        "underline": false
+        "connector": "elbow",
+        "dash": 3,
+        "flip": true,
+        "ppt_type": 2,
+        "theme_topic": "Haircut Rhythm",
+        "width": 1.789890920432188
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.7347,
-        "w": 0.708,
-        "x": 6.3143,
-        "y": 4.4295
+        "h": 0.9487,
+        "w": 1.2061,
+        "x": 4.0612,
+        "y": 6.3762
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          65,
-          56,
-          110
+        "fill": [
+          48,
+          78,
+          140
         ],
-        "connector": "curve",
-        "dash": 3,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Gentle",
-        "width": 2.612883992714771
+        "line": [
+          131,
+          214,
+          30
+        ],
+        "line_width": 2.743015823862849,
+        "pattern": "blob",
+        "points": [
+          [
+            0.12,
+            0.2
+          ],
+          [
+            0.35,
+            0.04
+          ],
+          [
+            0.7,
+            0.12
+          ],
+          [
+            0.95,
+            0.42
+          ],
+          [
+            0.82,
+            0.82
+          ],
+          [
+            0.45,
+            0.98
+          ],
+          [
+            0.08,
+            0.72
+          ],
+          [
+            0.02,
+            0.38
+          ]
+        ],
+        "theme_topic": "Haircut Rhythm"
       },
-      "type": "connector",
+      "type": "freeform",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.643,
-        "w": 0.9547,
-        "x": 2.2112,
-        "y": 4.7122
+        "h": 0.9566,
+        "w": 0.2106,
+        "x": 7.2493,
+        "y": 5.4644
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          136,
-          152,
-          167
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          63,
+          65,
+          54
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Fruit",
-        "theme_topic": "Gentle",
-        "underline": false
+        "focus": false,
+        "line": [
+          93,
+          171,
+          140
+        ],
+        "line_width": 5.111501165202662,
+        "outline_only": true,
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Haircut Rhythm"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.6058,
-        "w": 1.5133,
-        "x": 5.5403,
-        "y": 0.6079
+        "h": 0.3657,
+        "w": 1.5254,
+        "x": 8.9434,
+        "y": 5.746
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          35,
-          31,
-          96
+        "bg_color": [
+          129,
+          42,
+          222
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "bold": true,
+        "color": [
+          207,
+          150,
+          100
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Fuel Happy",
-        "theme_topic": "Gentle",
-        "underline": false
+        "text": "Soap Error Amused",
+        "theme_topic": "Haircut Rhythm",
+        "underline": true
       },
       "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.2287,
-        "w": 1.1846,
-        "x": 2.6761,
-        "y": 3.6781
+        "h": 0.2334,
+        "w": 2.273,
+        "x": 3.3571,
+        "y": 1.8397
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "symbols",
-        "fill": [
-          194,
-          112,
-          188
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          211,
+          115,
+          94
         ],
-        "focus": false,
-        "line": [
-          170,
-          194,
-          52
-        ],
-        "line_width": 3.741460695814085,
-        "outline_only": false,
-        "ppt_type": 22,
-        "shape": "lightning",
-        "theme_topic": "Gentle"
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "abrasive reflect stain",
+        "theme_topic": "Haircut Rhythm",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.7892,
-        "w": 1.2909,
-        "x": 2.4075,
-        "y": 6.1145
+        "h": 0.4278,
+        "w": 1.1753,
+        "x": 4.2413,
+        "y": 2.5877
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          134,
-          154,
-          137
+        "bg_color": [
+          129,
+          79,
+          133
         ],
-        "focus": false,
-        "line": [
-          208,
-          33,
-          84
+        "bold": false,
+        "color": [
+          167,
+          215,
+          102
         ],
-        "line_width": 5.117247667132899,
-        "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Gentle"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Open",
+        "theme_topic": "Haircut Rhythm",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     }
   ],

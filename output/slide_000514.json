@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          220,
-          96,
-          137
-        ],
-        [
-          168,
-          54,
-          94
-        ]
-      ],
       "fill": [
-        32,
-        102,
-        26
+        157,
+        216,
+        169
       ],
-      "focus": "top_left",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Puzzling Itch"
+      "style": "solid",
+      "theme_topic": "Spiky Dispensable"
     },
     "type": "background",
     "z_order": 0
@@ -45,10 +30,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.1882,
-        "w": 7.0338,
-        "x": 3.816,
-        "y": 3.3922
+        "h": 2.1222,
+        "w": 4.9402,
+        "x": 5.1576,
+        "y": 1.73
       },
       "id": "object_001",
       "properties": {
@@ -56,371 +41,480 @@
         "dash": 1,
         "family": "symbols",
         "fill": [
+          74,
           111,
-          135,
-          187
+          158
         ],
         "focus": false,
         "line": [
-          66,
-          78,
-          63
+          169,
+          162,
+          83
         ],
-        "line_width": 6.210748337175065,
+        "line_width": 5.561085936303781,
         "outline_only": false,
-        "ppt_type": 23,
-        "shape": "sun",
-        "theme_topic": "Puzzling Itch"
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Spiky Dispensable"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.7687,
-        "w": 13.3157,
-        "x": 0.0119,
-        "y": 0.0188
+        "h": 2.574,
+        "w": 3.1891,
+        "x": 5.7881,
+        "y": 2.9126
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 5,
+        "family": "callouts",
         "fill": [
-          62,
-          123,
-          57
+          79,
+          187,
+          114
         ],
+        "focus": false,
         "line": [
-          62,
-          123,
-          57
+          151,
+          167,
+          111
         ],
-        "line_width": 1.9871138575450111,
+        "line_width": 2.141061244494583,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Puzzling Itch"
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Spiky Dispensable"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.7752,
-        "w": 3.1812,
-        "x": 9.3858,
-        "y": 0.661
+        "h": 1.0242,
+        "w": 0.2,
+        "x": 9.9881,
+        "y": 4.6288
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          32,
+          119,
+          149
+        ],
+        "line": [
+          134,
+          184,
+          144
+        ],
+        "line_width": 4.731673564022865,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Spiky Dispensable"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.1512,
+        "w": 7.9114,
+        "x": 3.1786,
+        "y": 0.6664
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
-        "font_face": "Georgia",
-        "font_size": 18,
+        "font_face": "Aptos Display",
+        "font_size": 41,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Piquant",
-        "theme_topic": "Puzzling Itch",
+        "text": "Account Grey Macho Scare",
+        "theme_topic": "Spiky Dispensable",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
+      "z_order": 4
     },
     {
       "bbox": {
-        "h": 6.226,
-        "w": 4.8493,
-        "x": 0.6193,
-        "y": 0.6579
+        "h": 4.9361,
+        "w": 1.2698,
+        "x": 8.5787,
+        "y": 2.0302
       },
-      "id": "object_004",
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.12216012784616664,
-          0.18141313358729452,
-          0.18525751190323858,
-          0.10933135708394151
+          0.16847029226741247,
+          0.21840744571371087,
+          0.07877314006489211,
+          0.00894184562508497
         ],
-        "focus": true,
+        "focus": false,
+        "mask_line": [
+          94,
+          216,
+          62
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Spiky Dispensable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 4.9561,
+        "w": 1.2855,
+        "x": 10.0306,
+        "y": 2.0454
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          134,
+          184,
+          144
+        ],
+        "line": [
+          134,
+          184,
+          144
+        ],
+        "line_width": 1.6035381510930755,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Spiky Dispensable"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 4.6173,
+        "w": 0.9624,
+        "x": 10.1818,
+        "y": 2.2013
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.15425334198925864,
+          0.07784313714513556,
+          0.17628429527865616,
+          0.20818264862843844
+        ],
+        "focus": false,
+        "mask_line": [
+          192,
+          52,
+          88
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Spiky Dispensable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 4.9209,
+        "w": 1.2645,
+        "x": 11.4586,
+        "y": 2.0693
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.06622930755784298,
+          0.11976978748685542,
+          0.10401366643533762,
+          0.04281010925143018
+        ],
+        "focus": false,
         "mask_line": [
           32,
           119,
           149
         ],
         "mask_overlay": false,
-        "theme_topic": "Puzzling Itch",
+        "theme_topic": "Spiky Dispensable",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.2902,
-        "w": 2.6291,
-        "x": 6.0465,
-        "y": 0.7478
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "WANDERING",
-        "theme_topic": "Puzzling Itch",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.0539,
-        "w": 2.6251,
-        "x": 6.0724,
-        "y": 1.2273
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          225,
-          186,
-          80
-        ],
-        "font_face": "Georgia",
-        "font_size": 28,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Last Wound",
-        "theme_topic": "Puzzling Itch",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 4.215,
-        "w": 2.6274,
-        "x": 6.0465,
-        "y": 2.5263
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          149,
-          182,
-          150
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "mere smoke unused sky subtract admit tedious arrange thoughtless quirky",
-        "theme_topic": "Puzzling Itch",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.3344,
-        "w": 0.3874,
-        "x": 5.7051,
-        "y": 2.3764
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          46,
-          52,
-          229
-        ],
-        "focus": false,
-        "line": [
-          71,
-          217,
-          86
-        ],
-        "line_width": 6.073694023551587,
-        "outline_only": false,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Puzzling Itch"
-      },
-      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.3932,
-        "x": 9.9441,
-        "y": 4.2665
+        "h": 4.9736,
+        "w": 7.3059,
+        "x": 0.5912,
+        "y": 2.0599
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          120,
-          61,
-          180
+        "band": [
+          137,
+          102,
+          222
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Juice",
-        "theme_topic": "Puzzling Itch",
-        "underline": false
+        "band_cols": true,
+        "band_rows": true,
+        "body": [
+          207,
+          168,
+          131
+        ],
+        "border": [
+          86,
+          113,
+          95
+        ],
+        "border_dash": "solid",
+        "border_width": 0.4052884081709255,
+        "cells": [
+          [
+            "plants push",
+            "murder",
+            "blade handy",
+            "abrupt",
+            "arrange polish",
+            "closed scarecrow"
+          ],
+          [
+            "yoke ear",
+            "nose",
+            "yell",
+            "letters cable",
+            "cagey pack",
+            "purple"
+          ],
+          [
+            "haircut",
+            "awake",
+            "cemetery",
+            "maddening",
+            "ray",
+            "careful zesty"
+          ]
+        ],
+        "cols": 6,
+        "font_size": 6,
+        "has_header": true,
+        "header": [
+          32,
+          119,
+          149
+        ],
+        "rows": 3,
+        "text_color": [
+          28,
+          30,
+          36
+        ],
+        "theme_topic": "Spiky Dispensable"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.1032,
-        "w": 1.6705,
-        "x": 8.2303,
-        "y": 2.7228
+        "h": 0.7479,
+        "w": 1.1876,
+        "x": 9.2405,
+        "y": 5.2029
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          208,
-          26,
-          172
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          45,
+          149,
+          62
         ],
-        "connector": "curve",
-        "dash": 5,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Puzzling Itch",
-        "width": 1.3036347954305132
+        "focus": false,
+        "line": [
+          86,
+          113,
+          95
+        ],
+        "line_width": 1.7385761256966374,
+        "outline_only": false,
+        "ppt_type": 19,
+        "shape": "no_symbol",
+        "theme_topic": "Spiky Dispensable"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7508,
-        "w": 0.8104,
-        "x": 11.0566,
-        "y": 2.9606
+        "h": 1.0009,
+        "w": 1.0263,
+        "x": 7.353,
+        "y": 5.6373
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          192,
-          203,
-          128
+          83,
+          93,
+          55
         ],
         "focus": false,
         "line": [
-          74,
-          31,
-          83
+          86,
+          113,
+          95
         ],
-        "line_width": 0.7036675834932034,
-        "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Puzzling Itch"
+        "line_width": 3.0045573355035002,
+        "outline_only": true,
+        "ppt_type": 24,
+        "shape": "moon",
+        "theme_topic": "Spiky Dispensable"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4865,
-        "w": 1.8342,
-        "x": 5.6536,
-        "y": 6.3011
+        "h": 0.9894,
+        "w": 0.4494,
+        "x": 1.03,
+        "y": 3.0861
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          118,
-          225,
-          190
+        "dash": 5,
+        "family": "basic",
+        "fill": [
+          46,
+          34,
+          44
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "examine magnificent",
-        "theme_topic": "Puzzling Itch",
-        "underline": false
+        "focus": false,
+        "line": [
+          221,
+          156,
+          66
+        ],
+        "line_width": 1.0846288049620627,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Spiky Dispensable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.2918,
-        "w": 0.829,
-        "x": 0.3251,
-        "y": 4.7779
+        "h": 0.6597,
+        "w": 0.7814,
+        "x": 3.409,
+        "y": 3.1334
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          193,
-          161,
-          123
+        "fill": [
+          168,
+          54,
+          94
         ],
-        "connector": "elbow",
-        "dash": 2,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Puzzling Itch",
-        "width": 2.2764669889826967
+        "line": [
+          32,
+          119,
+          149
+        ],
+        "line_width": 1.0998404664693884,
+        "pattern": "badge",
+        "points": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.62,
+            0.25
+          ],
+          [
+            0.92,
+            0.18
+          ],
+          [
+            0.75,
+            0.5
+          ],
+          [
+            0.98,
+            0.78
+          ],
+          [
+            0.62,
+            0.72
+          ],
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0.38,
+            0.72
+          ],
+          [
+            0.02,
+            0.78
+          ],
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.08,
+            0.18
+          ],
+          [
+            0.38,
+            0.25
+          ]
+        ],
+        "theme_topic": "Spiky Dispensable"
       },
-      "type": "connector",
+      "type": "freeform",
       "z_order": 13
     }
   ],

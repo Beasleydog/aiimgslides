@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        55,
-        51,
-        96
+      "colors": [
+        [
+          81,
+          74,
+          89
+        ],
+        [
+          255,
+          211,
+          88
+        ]
       ],
       "fill": [
-        94,
-        146,
-        220
+        211,
+        120,
+        215
       ],
-      "fore_color": [
-        31,
-        117,
-        161
-      ],
-      "pattern": 45,
-      "style": "pattern",
-      "theme_topic": "Greet Chop"
+      "focus": "top_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Far Pine"
     },
     "type": "background",
     "z_order": 0
@@ -41,140 +45,170 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.6543,
-        "w": 7.3497,
-        "x": 4.5645,
-        "y": 4.1223
+        "h": 4.5826,
+        "w": 7.2177,
+        "x": 3.6448,
+        "y": 0.0202
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "flowchart",
         "fill": [
-          110,
-          142,
-          143
+          148,
+          57,
+          203
         ],
         "focus": false,
         "line": [
-          26,
-          128,
-          134
+          122,
+          83,
+          222
         ],
-        "line_width": 7.1222046543962385,
+        "line_width": 2.001696091384888,
         "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Greet Chop"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Far Pine"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.7336,
-        "w": 7.7007,
-        "x": 0.6484,
-        "y": 1.8507
+        "h": 4.4689,
+        "w": 4.3895,
+        "x": 7.4727,
+        "y": 2.2539
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          55,
-          163,
-          214
+          213,
+          76,
+          119
         ],
         "focus": false,
         "line": [
-          132,
-          26,
-          99
+          121,
+          30,
+          195
         ],
-        "line_width": 3.172597849048579,
-        "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Greet Chop"
+        "line_width": 5.7050193338083375,
+        "outline_only": true,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Far Pine"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.7693,
-        "w": 3.7972,
-        "x": 10.1528,
-        "y": -0.1036
+        "h": 2.7706,
+        "w": 5.2697,
+        "x": -0.0489,
+        "y": 4.6672
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          157,
-          148,
-          142
+          141,
+          97,
+          80
         ],
         "focus": false,
         "line": [
-          49,
-          205,
-          95
+          220,
+          79,
+          180
         ],
-        "line_width": 7.645058983343522,
-        "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Greet Chop"
+        "line_width": 7.219663765580382,
+        "outline_only": true,
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Far Pine"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.6851,
-        "w": 4.5207,
-        "x": 5.0967,
-        "y": -0.1746
+        "h": 3.4683,
+        "w": 4.9283,
+        "x": -0.0115,
+        "y": -0.0072
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "panel",
         "fill": [
-          168,
-          181,
-          144
+          176,
+          100,
+          180
         ],
-        "focus": false,
         "line": [
-          151,
-          46,
-          165
+          176,
+          100,
+          180
         ],
-        "line_width": 2.4739654423294812,
+        "line_width": 4.106051077537382,
         "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Greet Chop"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Far Pine"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1334,
-        "w": 6.002,
-        "x": 2.9866,
-        "y": 0.6739
+        "h": 6.3927,
+        "w": 5.4916,
+        "x": 7.2816,
+        "y": 0.5674
       },
       "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          176,
+          100,
+          180
+        ],
+        "line": [
+          176,
+          100,
+          180
+        ],
+        "line_width": 1.6076645360460557,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Far Pine"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.1264,
+        "w": 5.1532,
+        "x": 7.4692,
+        "y": 1.685
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -185,41 +219,12 @@
           36
         ],
         "font_face": "Aptos Display",
-        "font_size": 26,
+        "font_size": 53,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "High-Pitched Earth",
-        "theme_topic": "Greet Chop",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.5259,
-        "w": 4.7137,
-        "x": 4.2337,
-        "y": 2.8725
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "key lake giants venomous old floor",
-        "theme_topic": "Greet Chop",
+        "text": "2x",
+        "theme_topic": "Far Pine",
         "underline": false
       },
       "type": "text",
@@ -227,41 +232,12 @@
     },
     {
       "bbox": {
-        "h": 0.5891,
-        "w": 4.6773,
-        "x": 4.2268,
-        "y": 4.6642
+        "h": 0.6804,
+        "w": 5.143,
+        "x": 7.4541,
+        "y": 4.4749
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "sable debonair quince government destroy",
-        "theme_topic": "Greet Chop",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.4864,
-        "w": 4.6768,
-        "x": 4.2576,
-        "y": 6.4143
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -276,8 +252,37 @@
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "scorch attack zip flowers cooing capable",
-        "theme_topic": "Greet Chop",
+        "text": "satisfy vacation jar healthy",
+        "theme_topic": "Far Pine",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.2844,
+        "w": 5.9784,
+        "x": 0.6753,
+        "y": 0.6706
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "GRACEFUL SABLE",
+        "theme_topic": "Far Pine",
         "underline": false
       },
       "type": "text",
@@ -285,139 +290,89 @@
     },
     {
       "bbox": {
-        "h": 4.9667,
-        "w": 3.1066,
-        "x": 0.6027,
-        "y": 2.0663
+        "h": 1.0377,
+        "w": 5.9428,
+        "x": 0.7027,
+        "y": 1.1275
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          84,
-          130,
-          197
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          122,
-          225,
-          154
-        ],
-        "border": [
-          121,
-          106,
-          26
-        ],
-        "border_dash": "sysDot",
-        "border_width": 3.2236854816949028,
-        "cells": [
-          [
-            "lumpy astonishing",
-            "cross",
-            "pinch",
-            "wink daily"
-          ],
-          [
-            "eager maddening",
-            "pretty throne",
-            "cloistered",
-            "credit weather"
-          ],
-          [
-            "blot lunch",
-            "engine",
-            "mother",
-            "attend"
-          ],
-          [
-            "ice",
-            "panoramic orange",
-            "broad guttural",
-            "land"
-          ],
-          [
-            "few cats",
-            "powder real",
-            "boast detect",
-            "industry"
-          ]
-        ],
-        "cols": 4,
-        "font_size": 9,
-        "has_header": true,
-        "header": [
-          174,
-          153,
-          91
-        ],
-        "rows": 5,
-        "text_color": [
-          82,
-          37,
-          89
-        ],
-        "theme_topic": "Greet Chop"
+        "font_face": "Aptos Display",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Space Toothbrush Subdued",
+        "theme_topic": "Far Pine",
+        "underline": true
       },
-      "type": "table",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.1415,
-        "w": 1.721,
-        "x": 4.5253,
-        "y": 5.8729
+        "h": 4.3649,
+        "w": 5.9717,
+        "x": 0.7201,
+        "y": 2.4326
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          168,
-          28,
-          27
+          110,
+          70,
+          116
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Greet Chop",
-        "width": 0.8465482596402696
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "stuff gullible broken copper endurable political airplane close cats concern science questionable erratic addicted alleged plain eight addicted",
+        "theme_topic": "Far Pine",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.1171,
-        "w": 1.3785,
-        "x": 0.0351,
-        "y": 5.0537
+        "h": 0.3526,
+        "w": 1.1384,
+        "x": 2.4518,
+        "y": 6.5491
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          183,
-          36,
-          83
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          140,
+          62,
+          176
         ],
-        "focus": false,
-        "line": [
-          93,
-          167,
-          71
-        ],
-        "line_width": 3.7828032738724318,
-        "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Greet Chop"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "night motion",
+        "theme_topic": "Far Pine",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     }
   ],

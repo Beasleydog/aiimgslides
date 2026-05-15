@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        118,
-        149,
-        199
+      "back_color": [
+        110,
+        162,
+        112
       ],
-      "style": "solid",
-      "theme_topic": "Wet Endurable"
+      "fill": [
+        140,
+        206,
+        142
+      ],
+      "fore_color": [
+        177,
+        146,
+        202
+      ],
+      "pattern": 5,
+      "style": "pattern",
+      "theme_topic": "Fail"
     },
     "type": "background",
     "z_order": 0
@@ -30,76 +41,107 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.9282,
-        "w": 8.643,
-        "x": 2.2568,
-        "y": 6.0195
+        "h": 2.4657,
+        "w": 5.1407,
+        "x": 0.9523,
+        "y": -0.1215
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "stars",
         "fill": [
-          96,
-          120,
-          208
+          188,
+          105,
+          78
         ],
         "focus": false,
         "line": [
-          183,
-          219,
-          224
+          203,
+          215,
+          130
         ],
-        "line_width": 6.342760464199811,
+        "line_width": 3.7900610889515267,
         "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Wet Endurable"
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Fail"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.2653,
-        "w": 6.913,
-        "x": 7.2747,
-        "y": 0.5116
+        "h": 4.6509,
+        "w": 8.8241,
+        "x": 5.5274,
+        "y": 2.6771
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 2,
+        "family": "stars",
         "fill": [
-          126,
-          77,
-          93
+          117,
+          119,
+          193
         ],
         "focus": false,
         "line": [
-          170,
-          90,
-          102
+          209,
+          49,
+          201
         ],
-        "line_width": 5.022316330081539,
+        "line_width": 6.315974237692867,
         "outline_only": true,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Wet Endurable"
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Fail"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5407,
-        "w": 2.8262,
-        "x": 0.6726,
-        "y": 0.7673
+        "h": 0.9032,
+        "w": 13.3464,
+        "x": 0.007,
+        "y": -0.0166
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          110,
+          162,
+          112
+        ],
+        "line": [
+          110,
+          162,
+          112
+        ],
+        "line_width": 3.508704405605594,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Fail"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.8834,
+        "w": 7.1842,
+        "x": 0.7278,
+        "y": 5.8387
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -109,55 +151,24 @@
           30,
           36
         ],
-        "font_face": "Georgia",
-        "font_size": 25,
+        "font_face": "Arial",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Unlock Unused Forgetful",
-        "theme_topic": "Wet Endurable",
+        "text": "Ink Jeans Sparkle Count",
+        "theme_topic": "Fail",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.5638,
-        "w": 4.4894,
-        "x": 8.2124,
-        "y": 0.6336
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          107,
-          135,
-          180
-        ],
-        "line": [
-          107,
-          135,
-          180
-        ],
-        "line_width": 2.470726161598694,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wet Endurable"
-      },
-      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.4451,
-        "w": 4.0003,
-        "x": 8.4516,
-        "y": 1.5598
+        "h": 0.3917,
+        "w": 11.9349,
+        "x": 0.6851,
+        "y": 0.6644
       },
       "id": "object_005",
       "properties": {
@@ -165,17 +176,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          199,
+          169,
+          125
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 19,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Petite Sense",
-        "theme_topic": "Wet Endurable",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Stupid Fog Strip Lazy",
+        "theme_topic": "Fail",
         "underline": false
       },
       "type": "text",
@@ -183,10 +194,10 @@
     },
     {
       "bbox": {
-        "h": 0.8973,
-        "w": 3.991,
-        "x": 8.4623,
-        "y": 2.0984
+        "h": 0.3503,
+        "w": 11.9481,
+        "x": 0.7077,
+        "y": 1.2695
       },
       "id": "object_006",
       "properties": {
@@ -194,17 +205,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          68,
-          83,
-          109
+          78,
+          109,
+          83
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Arial",
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "pumped soggy broken smart scratch school bore somber rainstorm ship relation roomy spicy color",
-        "theme_topic": "Wet Endurable",
+        "text": "peep tiny sniff end exclusive bow curved assorted potato challenge neat prefer found plough reply",
+        "theme_topic": "Fail",
         "underline": false
       },
       "type": "text",
@@ -212,147 +223,149 @@
     },
     {
       "bbox": {
-        "h": 3.4818,
-        "w": 4.525,
-        "x": 8.2214,
-        "y": 3.4227
+        "h": 0.7651,
+        "w": 3.9695,
+        "x": 0.5787,
+        "y": 3.7603
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          107,
-          135,
-          180
+        "crop": [
+          0.0013591272927782861,
+          0.11903173778219371,
+          0.03149793364977833,
+          0.09941848792161508
         ],
-        "line": [
-          107,
-          135,
-          180
+        "focus": false,
+        "mask_line": [
+          26,
+          89,
+          111
         ],
-        "line_width": 1.2163856279320606,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wet Endurable"
+        "mask_overlay": true,
+        "theme_topic": "Fail",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4703,
-        "w": 4.0321,
-        "x": 8.4716,
-        "y": 4.2998
+        "h": 0.7846,
+        "w": 3.9179,
+        "x": 4.6707,
+        "y": 3.7598
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "crop": [
+          0.01809533266269194,
+          0.10506520528869935,
+          0.11852301049367267,
+          0.1309336308600119
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Spiders",
-        "theme_topic": "Wet Endurable",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          174,
+          73,
+          92
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Fail",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.8392,
-        "w": 4.0089,
-        "x": 8.4765,
-        "y": 4.8592
+        "h": 0.5001,
+        "w": 3.6627,
+        "x": 0.7267,
+        "y": 4.8612
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          68,
-          83,
-          109
+        "crop": [
+          0.16688998268912034,
+          0.28477890860387206,
+          0.15459736500270263,
+          0.0739713228098007
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "meek therapeutic old-fashioned graceful cumbersome steel cub quiver",
-        "theme_topic": "Wet Endurable",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          116,
+          136,
+          220
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Fail",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 3.6054,
-        "w": 3.6977,
-        "x": 3.9587,
-        "y": 0.8647
+        "h": 0.8057,
+        "w": 3.9569,
+        "x": 8.8302,
+        "y": 4.7473
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "crop": [
+          0.20283726526397697,
+          0.06730016750810311,
+          0.19467456826391166,
+          0.05554989136581278
         ],
-        "font_face": "Georgia",
-        "font_size": 25,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Quixotic Lace Girls Theory Representative Fence View",
-        "theme_topic": "Wet Endurable",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          160,
+          97,
+          101
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Fail",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.0354,
-        "w": 2.023,
-        "x": 3.9587,
-        "y": 5.0854
+        "h": 0.5908,
+        "w": 1.6379,
+        "x": 3.8129,
+        "y": 4.4482
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          176,
+          194,
+          152
+        ],
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          165,
+          89,
+          120
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "ENORMOUS TRUST",
-        "theme_topic": "Wet Endurable",
-        "underline": false
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "disarm mend miniature stiff clap",
+        "theme_topic": "Fail",
+        "underline": true
       },
       "type": "text",
       "z_order": 11

@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          147,
-          117,
-          74
-        ],
-        [
-          255,
-          238,
-          103
-        ]
+      "back_color": [
+        252,
+        249,
+        244
       ],
       "fill": [
-        147,
-        117,
-        74
+        252,
+        249,
+        244
       ],
-      "focus": "top_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Scrub Bizarre"
+      "fore_color": [
+        64,
+        130,
+        109
+      ],
+      "pattern": 6,
+      "style": "pattern",
+      "theme_topic": "Night"
     },
     "type": "background",
     "z_order": 0
@@ -45,305 +41,293 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.0646,
-        "w": 6.3841,
-        "x": 3.2005,
-        "y": 0.126
+        "h": 5.568,
+        "w": 2.8462,
+        "x": 0.6424,
+        "y": 0.7746
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "stars",
-        "fill": [
-          92,
-          85,
-          115
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          36,
+          32,
+          29
         ],
-        "focus": false,
-        "line": [
-          88,
-          30,
-          53
-        ],
-        "line_width": 5.603080875923922,
-        "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Scrub Bizarre"
+        "font_face": "Arial",
+        "font_size": 20,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Hug Nauseating Puncture",
+        "theme_topic": "Night",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.3879,
-        "w": 6.4696,
-        "x": 0.1526,
-        "y": 5.3178
+        "h": 0.7102,
+        "w": 4.2063,
+        "x": 8.4112,
+        "y": 0.7853
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          113,
-          123,
-          103
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          129,
+          187,
+          92
         ],
-        "focus": false,
-        "line": [
-          179,
-          100,
-          167
-        ],
-        "line_width": 5.108642573467588,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Scrub Bizarre"
+        "font_face": "Arial",
+        "font_size": 19,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Undesirable Brass Married Madly",
+        "theme_topic": "Night",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.1995,
-        "w": 8.9743,
-        "x": 4.1916,
-        "y": 2.4709
+        "h": 0.9449,
+        "w": 4.1909,
+        "x": 8.3904,
+        "y": 1.7607
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          201,
-          120,
-          93
-        ],
-        "focus": false,
-        "line": [
-          116,
-          209,
-          207
-        ],
-        "line_width": 4.849767128905762,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Scrub Bizarre"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.7691,
-        "w": 8.5479,
-        "x": 0.1311,
-        "y": -0.3882
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          80,
-          74,
-          152
-        ],
-        "focus": false,
-        "line": [
-          133,
-          50,
-          95
-        ],
-        "line_width": 2.9253805391597547,
-        "outline_only": true,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Scrub Bizarre"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 3.8126,
-        "w": 6.4372,
-        "x": 6.9035,
-        "y": 3.6966
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          165,
-          140,
-          104
-        ],
-        "line": [
-          165,
-          140,
-          104
-        ],
-        "line_width": 1.3370855413424123,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Scrub Bizarre"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.8766,
-        "w": 3.9436,
-        "x": 1.1559,
-        "y": 1.3201
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Georgia",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Thankful Honey Handsome",
-        "theme_topic": "Scrub Bizarre",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 2.894,
-        "w": 4.0221,
-        "x": 8.7299,
-        "y": 4.0735
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1833615572579349,
-          0.00685865649286918,
-          0.1894056647127011,
-          0.13194281009737638
-        ],
-        "focus": true,
-        "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Scrub Bizarre",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 2.2345,
-        "w": 5.9962,
-        "x": 0.5365,
-        "y": 1.452
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          165,
-          140,
-          104
-        ],
-        "line": [
-          165,
-          140,
-          104
-        ],
-        "line_width": 1.4796058863416686,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Scrub Bizarre"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4387,
-        "w": 5.4772,
-        "x": 0.7974,
-        "y": 2.3618
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Count Truck",
-        "theme_topic": "Scrub Bizarre",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.5799,
-        "w": 5.4686,
-        "x": 0.802,
-        "y": 2.925
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          201,
-          189,
-          171
+          123,
+          113,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "acrid versed peck fruit cream lyrical sticky zesty opposite",
-        "theme_topic": "Scrub Bizarre",
+        "text": "cat leather understood sleet maid sink memorize lunch tooth",
+        "theme_topic": "Night",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.7319,
+        "w": 1.4845,
+        "x": 3.9525,
+        "y": 0.8477
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Arial",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "3.9x",
+        "theme_topic": "Night",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.2163,
+        "w": 1.5284,
+        "x": 3.9276,
+        "y": 1.5518
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
+        ],
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "teeny-tiny agreement grade improve girls dramatic scold",
+        "theme_topic": "Night",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 6.2491,
+        "w": 1.9323,
+        "x": 5.7841,
+        "y": 0.6401
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          63,
+          182,
+          206
+        ],
+        "line": [
+          242,
+          233,
+          222
+        ],
+        "line_width": 1.7017999976964573,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Night"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.7557,
+        "w": 1.5933,
+        "x": 5.9875,
+        "y": 0.8546
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Arial",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "69%",
+        "theme_topic": "Night",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 5.2187,
+        "w": 1.6155,
+        "x": 5.9662,
+        "y": 1.5506
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wet observant overrated include yellow",
+        "theme_topic": "Night",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 2.1097,
+        "w": 2.4902,
+        "x": 8.2349,
+        "y": 4.818
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          242,
+          233,
+          222
+        ],
+        "line": [
+          242,
+          233,
+          222
+        ],
+        "line_width": 1.7390095958876344,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Night"
+      },
+      "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.4554,
+        "w": 2.0007,
+        "x": 8.4931,
+        "y": 5.6915
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Penitent",
+        "theme_topic": "Night",
         "underline": false
       },
       "type": "text",
@@ -351,88 +335,88 @@
     },
     {
       "bbox": {
-        "h": 2.2184,
-        "w": 6.0265,
-        "x": 6.7765,
-        "y": 1.4432
+        "h": 0.4699,
+        "w": 2.0059,
+        "x": 8.4965,
+        "y": 6.2311
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          165,
-          140,
-          104
-        ],
-        "line": [
-          165,
-          140,
-          104
-        ],
-        "line_width": 2.3268583026049714,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Scrub Bizarre"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.4549,
-        "w": 5.5062,
-        "x": 7.021,
-        "y": 2.3639
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Fool",
-        "theme_topic": "Scrub Bizarre",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.5672,
-        "w": 5.5443,
-        "x": 7.0263,
-        "y": 2.8781
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          201,
-          189,
-          171
+          123,
+          113,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "yoke detail daffy careful callous bedroom skin somber up outstanding tedious shock",
-        "theme_topic": "Scrub Bizarre",
+        "text": "eminent soft scientific odd verdant windy program thirsty middle size honorable zinc surround defiant",
+        "theme_topic": "Night",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 2.1169,
+        "w": 1.7822,
+        "x": 10.9265,
+        "y": 4.8049
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          242,
+          233,
+          222
+        ],
+        "line": [
+          242,
+          233,
+          222
+        ],
+        "line_width": 1.799035282995168,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Night"
+      },
+      "type": "shape",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.465,
+        "w": 1.2977,
+        "x": 11.2079,
+        "y": 5.7041
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Church",
+        "theme_topic": "Night",
         "underline": false
       },
       "type": "text",
@@ -440,269 +424,276 @@
     },
     {
       "bbox": {
-        "h": 0.3493,
-        "w": 2.0086,
-        "x": 8.3013,
-        "y": 4.3454
+        "h": 0.4261,
+        "w": 1.2704,
+        "x": 11.1778,
+        "y": 6.2312
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          74,
-          164,
-          114
-        ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Scrub Bizarre",
-        "width": 0.4452587151051202
-      },
-      "type": "connector",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.5268,
-        "w": 1.2769,
-        "x": 1.1485,
-        "y": 5.4716
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          48,
-          78,
-          140
-        ],
-        "focus": false,
-        "line": [
-          255,
-          238,
-          103
-        ],
-        "line_width": 2.4699056797291834,
-        "outline_only": true,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Scrub Bizarre"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4875,
-        "w": 2.169,
-        "x": 7.8868,
-        "y": 0.2428
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          139,
-          98,
-          41
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Scrub Bizarre",
-        "width": 0.9828706791367492
-      },
-      "type": "connector",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.7108,
-        "w": 0.5723,
-        "x": 0.1505,
-        "y": 4.3811
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          54,
-          161,
-          153
-        ],
-        "focus": false,
-        "line": [
-          30,
-          173,
-          70
-        ],
-        "line_width": 4.670619205439602,
-        "outline_only": true,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Scrub Bizarre"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 1.2475,
-        "w": 1.9281,
-        "x": 4.389,
-        "y": 4.3269
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          216,
-          110,
-          166
-        ],
-        "connector": "curve",
-        "dash": 7,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Scrub Bizarre",
-        "width": 1.0587648232450517
-      },
-      "type": "connector",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.491,
-        "w": 2.3414,
-        "x": 9.9385,
-        "y": 5.9052
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          123,
-          227,
-          72
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          92,
-          34,
-          230
+          123,
+          113,
+          103
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "absorbing",
-        "theme_topic": "Scrub Bizarre",
+        "text": "girls preserve company grandfather inform club strap irritate",
+        "theme_topic": "Night",
         "underline": false
       },
       "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.4653,
+        "w": 1.2444,
+        "x": 8.2824,
+        "y": 3.9395
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          36,
+          32,
+          29
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "cagey gray square furtive",
+        "theme_topic": "Night",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.4679,
+        "w": 1.2027,
+        "x": 9.8682,
+        "y": 3.9242
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          36,
+          32,
+          29
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "loaf hose wet cobweb jellyfish",
+        "theme_topic": "Night",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.467,
+        "w": 1.2861,
+        "x": 11.4176,
+        "y": 3.9087
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          36,
+          32,
+          29
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "late slimy expansion trains plan dirty",
+        "theme_topic": "Night",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.7051,
+        "w": 1.1568,
+        "x": 5.7766,
+        "y": 0.1329
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "basic",
+        "fill": [
+          150,
+          39,
+          103
+        ],
+        "focus": false,
+        "line": [
+          167,
+          83,
+          106
+        ],
+        "line_width": 1.9343779963323668,
+        "outline_only": false,
+        "ppt_type": 103,
+        "shape": "wave",
+        "theme_topic": "Night"
+      },
+      "type": "shape",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.8964,
+        "w": 1.2391,
+        "x": 6.895,
+        "y": 5.2213
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "callouts",
+        "fill": [
+          80,
+          116,
+          152
+        ],
+        "focus": false,
+        "line": [
+          178,
+          124,
+          166
+        ],
+        "line_width": 4.836913757520511,
+        "outline_only": true,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Night"
+      },
+      "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.5684,
-        "w": 1.2451,
-        "x": 6.6643,
-        "y": 3.3692
+        "h": 0.6091,
+        "w": 0.9915,
+        "x": 5.3467,
+        "y": 3.8278
       },
       "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          55,
-          136,
-          219
-        ],
-        "bold": false,
-        "color": [
-          160,
-          179,
-          48
-        ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Chicken Petite",
-        "theme_topic": "Scrub Bizarre",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.3501,
-        "w": 0.4967,
-        "x": 9.7561,
-        "y": 6.4472
-      },
-      "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "arrows",
         "fill": [
-          33,
-          165,
-          161
+          97,
+          109,
+          82
         ],
         "focus": false,
         "line": [
-          123,
-          153,
-          98
+          200,
+          97,
+          69
         ],
-        "line_width": 2.0921424099693047,
+        "line_width": 3.3016907031452334,
         "outline_only": false,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Scrub Bizarre"
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Night"
+      },
+      "type": "shape",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 0.6433,
+        "w": 1.4018,
+        "x": 6.6,
+        "y": 0.5258
+      },
+      "id": "object_021",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          183,
+          154,
+          189
+        ],
+        "focus": false,
+        "line": [
+          72,
+          35,
+          143
+        ],
+        "line_width": 3.327472657672929,
+        "outline_only": false,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Night"
       },
       "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.7112,
-        "w": 1.0468,
-        "x": 9.7576,
-        "y": 6.4073
+        "h": 0.7558,
+        "w": 1.3544,
+        "x": 1.0505,
+        "y": 5.6426
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          168,
-          77,
-          102
+          195,
+          195,
+          213
         ],
         "focus": false,
         "line": [
-          170,
-          57,
-          126
+          149,
+          195,
+          200
         ],
-        "line_width": 2.7523738023118285,
+        "line_width": 4.359333541189585,
         "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Scrub Bizarre"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Night"
       },
       "type": "shape",
       "z_order": 22

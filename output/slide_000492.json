@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 120,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          127,
-          64,
-          145
-        ],
-        [
-          182,
-          44,
-          228
-        ]
-      ],
       "fill": [
-        127,
-        64,
-        145
+        199,
+        50,
+        66
       ],
-      "focus": "center",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Delight"
+      "style": "solid",
+      "theme_topic": "Force Abandoned"
     },
     "type": "background",
     "z_order": 0
@@ -45,75 +30,139 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.5374,
-        "w": 3.8297,
-        "x": 5.8381,
-        "y": 3.7073
+        "h": 5.0759,
+        "w": 7.0451,
+        "x": 5.1528,
+        "y": 1.8991
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 4,
+        "family": "flowchart",
         "fill": [
-          159,
-          67,
-          177
+          155,
+          109,
+          40
         ],
         "focus": false,
         "line": [
-          76,
-          50,
-          96
+          59,
+          222,
+          205
         ],
-        "line_width": 4.98081655956452,
-        "outline_only": true,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Delight"
+        "line_width": 3.251868404439529,
+        "outline_only": false,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Force Abandoned"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.6775,
-        "w": 13.3338,
-        "x": -0.0012,
-        "y": 0.0173
+        "h": 2.6877,
+        "w": 8.2357,
+        "x": -0.5336,
+        "y": 2.1222
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          152,
-          101,
-          166
+          202,
+          35,
+          123
         ],
+        "focus": false,
         "line": [
-          152,
-          101,
+          131,
+          52,
           166
         ],
-        "line_width": 2.247490943912037,
+        "line_width": 2.5430363569803554,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Delight"
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Force Abandoned"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1631,
-        "w": 8.3115,
-        "x": 0.5676,
-        "y": 0.36
+        "h": 4.9885,
+        "w": 8.7254,
+        "x": 1.3363,
+        "y": 3.1702
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          181,
+          132,
+          120
+        ],
+        "focus": false,
+        "line": [
+          91,
+          206,
+          85
+        ],
+        "line_width": 6.931146280839847,
+        "outline_only": true,
+        "ppt_type": 164,
+        "shape": "minus",
+        "theme_topic": "Force Abandoned"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.004,
+        "w": 13.3185,
+        "x": -0.0012,
+        "y": 0.0001
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          218,
+          121,
+          132
+        ],
+        "line": [
+          218,
+          121,
+          132
+        ],
+        "line_width": 1.4824947601442067,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Force Abandoned"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.119,
+        "w": 8.7226,
+        "x": 0.5267,
+        "y": 0.3657
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -124,64 +173,12 @@
           252
         ],
         "font_face": "Arial",
-        "font_size": 39,
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Station Fax",
-        "theme_topic": "Delight",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.7032,
-        "w": 12.2047,
-        "x": 0.5749,
-        "y": 3.4432
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          88,
-          134,
-          95
-        ],
-        "line_width": 14,
-        "theme_topic": "Delight"
-      },
-      "type": "svg_image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.4666,
-        "w": 2.2486,
-        "x": 0.6219,
-        "y": 2.6171
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "delightful material abhorrent lewd",
-        "theme_topic": "Delight",
+        "text": "Week Place Suppose",
+        "theme_topic": "Force Abandoned",
         "underline": false
       },
       "type": "text",
@@ -189,28 +186,28 @@
     },
     {
       "bbox": {
-        "h": 0.4605,
-        "w": 2.8038,
-        "x": 3.1333,
-        "y": 2.6099
+        "h": 0.2875,
+        "w": 6.7056,
+        "x": 5.937,
+        "y": 1.9679
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          174,
+          73,
+          92
         ],
         "font_face": "Arial",
-        "font_size": 13,
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "black-and-white powder summer",
-        "theme_topic": "Delight",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "RHYTHM ROCK",
+        "theme_topic": "Force Abandoned",
         "underline": false
       },
       "type": "text",
@@ -218,28 +215,28 @@
     },
     {
       "bbox": {
-        "h": 0.4478,
-        "w": 1.6576,
-        "x": 6.2856,
-        "y": 2.624
+        "h": 0.589,
+        "w": 6.689,
+        "x": 5.9586,
+        "y": 2.4557
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
           246,
           248,
           252
         ],
         "font_face": "Arial",
-        "font_size": 11,
+        "font_size": 31,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "yoke land draconian recess deep",
-        "theme_topic": "Delight",
+        "text": "Agreeable Wobble Neat Consist",
+        "theme_topic": "Force Abandoned",
         "underline": false
       },
       "type": "text",
@@ -247,10 +244,10 @@
     },
     {
       "bbox": {
-        "h": 0.4509,
-        "w": 1.9927,
-        "x": 8.2521,
-        "y": 2.6207
+        "h": 0.6882,
+        "w": 6.6837,
+        "x": 5.9545,
+        "y": 3.252
       },
       "id": "object_008",
       "properties": {
@@ -258,17 +255,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          224,
+          158,
+          168
         ],
         "font_face": "Arial",
         "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "dependent story year",
-        "theme_topic": "Delight",
+        "text": "reduce toys attraction simplistic representative fruit trust beginner exciting colossal sugar drop trousers best basket",
+        "theme_topic": "Force Abandoned",
         "underline": false
       },
       "type": "text",
@@ -276,28 +273,32 @@
     },
     {
       "bbox": {
-        "h": 0.448,
-        "w": 2.1706,
-        "x": 10.5696,
-        "y": 2.604
+        "h": 0.8675,
+        "w": 11.9371,
+        "x": 0.6757,
+        "y": 4.6032
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
+        "bg_color": [
+          172,
+          114,
+          229
+        ],
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          62,
+          226,
+          142
         ],
         "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
+        "font_size": 30,
+        "italic": true,
+        "kind": "header",
         "margin": 0.04,
-        "text": "terrify star brown disturbed",
-        "theme_topic": "Delight",
+        "text": "Cabbage",
+        "theme_topic": "Force Abandoned",
         "underline": false
       },
       "type": "text",
@@ -305,28 +306,28 @@
     },
     {
       "bbox": {
-        "h": 0.2485,
-        "w": 0.7331,
-        "x": 9.5236,
-        "y": 0.8805
+        "h": 1.1721,
+        "w": 11.9567,
+        "x": 0.689,
+        "y": 5.71
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          130,
-          66,
-          62
+          224,
+          158,
+          168
         ],
         "font_face": "Arial",
-        "font_size": 7,
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "certain jail",
-        "theme_topic": "Delight",
+        "text": "dirty skate argument prefer unique remind berry busy toy introduce kindly torpid cheap draconian transport shame sock seashore",
+        "theme_topic": "Force Abandoned",
         "underline": false
       },
       "type": "text",
@@ -334,89 +335,152 @@
     },
     {
       "bbox": {
-        "h": 0.6374,
-        "w": 1.4283,
-        "x": 9.5458,
-        "y": 5.837
+        "h": 2.1018,
+        "w": 4.8306,
+        "x": 0.5895,
+        "y": 1.9227
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          48,
-          105,
-          73
+        "band": [
+          218,
+          121,
+          132
         ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Health Hesitant",
-        "theme_topic": "Delight",
-        "underline": false
+        "band_cols": true,
+        "band_rows": false,
+        "body": [
+          218,
+          121,
+          132
+        ],
+        "border": [
+          144,
+          48,
+          217
+        ],
+        "border_dash": "solid",
+        "border_width": 3.0962117348261655,
+        "cells": [
+          [
+            "dispensable",
+            "gullible quirky",
+            "drip gifted",
+            "basin",
+            "impossible slimy"
+          ],
+          [
+            "approval explain",
+            "spotless hapless",
+            "jaded tender",
+            "pointless",
+            "late"
+          ],
+          [
+            "garrulous confused",
+            "examine",
+            "awful crown",
+            "observant",
+            "female"
+          ],
+          [
+            "swift flash",
+            "messy bells",
+            "tacky well-made",
+            "muddle round",
+            "unique melodic"
+          ],
+          [
+            "lip political",
+            "tickle",
+            "sad match",
+            "wash",
+            "scold"
+          ],
+          [
+            "dime",
+            "purple",
+            "grease vein",
+            "reply",
+            "doll"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 7,
+        "has_header": false,
+        "header": [
+          203,
+          169,
+          87
+        ],
+        "rows": 6,
+        "text_color": [
+          27,
+          224,
+          31
+        ],
+        "theme_topic": "Force Abandoned"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.7916,
-        "w": 0.8904,
-        "x": 12.1422,
-        "y": 3.1457
+        "h": 0.8233,
+        "w": 0.7538,
+        "x": 2.9828,
+        "y": 4.3241
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 7,
+        "family": "callouts",
         "fill": [
-          103,
-          182,
-          143
+          59,
+          73,
+          70
         ],
         "focus": false,
         "line": [
-          134,
-          36,
-          184
+          224,
+          158,
+          168
         ],
-        "line_width": 2.2400586788452976,
+        "line_width": 1.6669411022575218,
         "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Delight"
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Force Abandoned"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.3264,
-        "w": 1.3476,
-        "x": 4.6271,
-        "y": 6.0586
+        "h": 0.6297,
+        "w": 1.1367,
+        "x": 8.907,
+        "y": 5.5763
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          175,
-          160,
-          101
+          59,
+          173,
+          82
         ],
         "font_face": "Arial",
-        "font_size": 10,
+        "font_size": 17,
         "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Remain Remarkable",
-        "theme_topic": "Delight",
+        "text": "Chalk Ink Simplistic",
+        "theme_topic": "Force Abandoned",
         "underline": false
       },
       "type": "text",

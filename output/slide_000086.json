@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        169,
-        227,
-        178
+      "colors": [
+        [
+          170,
+          125,
+          201
+        ],
+        [
+          255,
+          238,
+          103
+        ]
       ],
       "fill": [
-        120,
+        126,
         58,
-        170
+        173
       ],
-      "fore_color": [
-        101,
-        141,
-        119
-      ],
-      "pattern": 53,
-      "style": "pattern",
-      "theme_topic": "Route Hissing"
+      "focus": "bottom_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Humorous Honorable"
     },
     "type": "background",
     "z_order": 0
@@ -41,95 +45,92 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.8349,
-        "w": 4.7353,
-        "x": 9.5611,
-        "y": 2.052
+        "h": 2.7786,
+        "w": 5.865,
+        "x": 7.6653,
+        "y": 0.6122
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
+        "dash": 2,
+        "family": "basic",
         "fill": [
-          55,
-          38,
-          106
+          126,
+          157,
+          113
         ],
         "focus": false,
         "line": [
-          163,
-          30,
-          194
+          175,
+          37,
+          178
         ],
-        "line_width": 2.7235094413104255,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Route Hissing"
+        "line_width": 7.345211168068797,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Humorous Honorable"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.597,
-        "w": 6.4471,
-        "x": 2.0012,
-        "y": 0.3562
+        "h": 5.5709,
+        "w": 5.7397,
+        "x": 0.5768,
+        "y": 1.4769
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          92,
-          82,
-          172
+        "crop": [
+          0.05113855044335428,
+          0.1089695071282346,
+          0.10753443225719483,
+          0.2512567037937839
         ],
-        "focus": false,
-        "line": [
-          169,
-          146,
-          58
+        "focus": true,
+        "mask_line": [
+          101,
+          213,
+          219
         ],
-        "line_width": 6.377377347167692,
-        "outline_only": true,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Route Hissing"
+        "mask_overlay": false,
+        "theme_topic": "Humorous Honorable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5355,
-        "w": 2.8322,
-        "x": 0.6424,
-        "y": 0.7627
+        "h": 5.5191,
+        "w": 5.9704,
+        "x": 6.8011,
+        "y": 1.4806
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          250,
-          255
+        "crop": [
+          0.25839322755706273,
+          0.22981659395727472,
+          0.2553862002083022,
+          0.18442632282393676
         ],
-        "font_face": "Georgia",
-        "font_size": 28,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Typical Joyous Damp",
-        "theme_topic": "Route Hissing",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          255,
+          238,
+          103
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Humorous Honorable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 3
     }
   ],

@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 120,
+      "angle": 135,
       "archetype": "atomic_composition",
       "colors": [
         [
-          208,
-          97,
-          120
+          186,
+          38,
+          35
         ],
         [
-          79,
-          216,
-          177
+          255,
+          211,
+          88
         ]
       ],
       "fill": [
-        198,
-        64,
-        91
+        189,
+        79,
+        90
       ],
-      "focus": "center",
-      "gradient_type": "shape",
+      "focus": "top_right",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Jobless"
+      "theme_topic": "Snakes"
     },
     "type": "background",
     "z_order": 0
@@ -45,42 +45,42 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.4934,
-        "w": 5.3788,
-        "x": 7.723,
-        "y": -0.7072
+        "h": 2.2308,
+        "w": 7.3834,
+        "x": 5.4695,
+        "y": -0.0423
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 5,
         "family": "arrows",
         "fill": [
-          103,
-          95,
-          134
+          178,
+          127,
+          117
         ],
         "focus": false,
         "line": [
-          157,
-          190,
-          75
+          215,
+          111,
+          44
         ],
-        "line_width": 5.627224198292213,
+        "line_width": 5.813855503401595,
         "outline_only": false,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Jobless"
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Snakes"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.5307,
-        "w": 4.5503,
-        "x": 0.004,
-        "y": 4.9762
+        "h": 4.9811,
+        "w": 8.0506,
+        "x": 1.3045,
+        "y": 0.5895
       },
       "id": "object_002",
       "properties": {
@@ -88,30 +88,30 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          208,
-          97,
-          120
+          202,
+          114,
+          123
         ],
         "line": [
-          208,
-          97,
-          120
+          209,
+          134,
+          142
         ],
-        "line_width": 1.6544595161985884,
+        "line_width": 1.5585524355701255,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Jobless"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Snakes"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.8121,
-        "w": 3.2059,
-        "x": 9.4127,
-        "y": 0.6663
+        "h": 5.5515,
+        "w": 2.8295,
+        "x": 0.6483,
+        "y": 0.7727
       },
       "id": "object_003",
       "properties": {
@@ -123,13 +123,13 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 30,
+        "font_face": "Aptos Display",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Ski Sigh",
-        "theme_topic": "Jobless",
+        "text": "Remove Skip",
+        "theme_topic": "Snakes",
         "underline": false
       },
       "type": "text",
@@ -137,62 +137,54 @@
     },
     {
       "bbox": {
-        "h": 6.2519,
-        "w": 3.5566,
-        "x": 0.6435,
-        "y": 0.6685
+        "h": 5.9771,
+        "w": 2.3373,
+        "x": 10.2296,
+        "y": 0.7722
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          255,
-          198,
-          74
+        "crop": [
+          0.3153795652533192,
+          0.24717747549283978,
+          0.008910573895276379,
+          0.14092785488394116
         ],
-        "line": [
-          208,
-          97,
-          120
+        "focus": true,
+        "mask_line": [
+          71,
+          221,
+          181
         ],
-        "line_width": 1.3267755337306426,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Jobless"
+        "mask_overlay": true,
+        "theme_topic": "Snakes",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.2092,
-        "w": 1.1034,
-        "x": 6.4643,
-        "y": 1.5502
+        "h": 6.2712,
+        "w": 2.9145,
+        "x": 3.7394,
+        "y": 0.6527
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          224,
-          165,
-          179
+        "clip": "blob",
+        "focus": true,
+        "line": [
+          215,
+          101,
+          37
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "rabbits boast print",
-        "theme_topic": "Jobless",
-        "underline": false
+        "line_width": 11,
+        "theme_topic": "Snakes"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 5
     }
   ],

@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          148,
-          131,
-          201
-        ],
-        [
-          81,
-          191,
-          35
-        ]
+      "back_color": [
+        150,
+        170,
+        178
       ],
       "fill": [
-        148,
-        131,
-        201
+        53,
+        156,
+        93
       ],
-      "focus": "top_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Uttermost"
+      "fore_color": [
+        114,
+        166,
+        157
+      ],
+      "pattern": 42,
+      "style": "pattern",
+      "theme_topic": "Futuristic"
     },
     "type": "background",
     "z_order": 0
@@ -45,140 +41,99 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.1984,
-        "w": 7.6542,
-        "x": 0.5655,
-        "y": 0.3688
+        "h": 4.0778,
+        "w": 5.1924,
+        "x": -0.01,
+        "y": -0.0089
       },
       "id": "object_001",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          116,
+          187,
+          144
+        ],
+        "line": [
+          116,
+          187,
+          144
+        ],
+        "line_width": 2.195457156695769,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Futuristic"
+      },
+      "type": "shape",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 0.9747,
+        "w": 8.0156,
+        "x": 0.5374,
+        "y": 0.3427
+      },
+      "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 42,
+        "font_face": "Georgia",
+        "font_size": 26,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Useful Box",
-        "theme_topic": "Uttermost",
+        "text": "Efficacious Productive",
+        "theme_topic": "Futuristic",
         "underline": false
       },
       "type": "text",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 2.3605,
-        "w": 5.9242,
-        "x": 0.5527,
-        "y": 4.6433
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          130,
-          115,
-          177
-        ],
-        "line": [
-          130,
-          115,
-          177
-        ],
-        "line_width": 1.2266574871223956,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Uttermost"
-      },
-      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.2805,
-        "w": 5.8321,
-        "x": 6.9299,
-        "y": 4.6523
+        "h": 1.0706,
+        "w": 3.5237,
+        "x": 9.0796,
+        "y": 5.8221
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          130,
-          115,
-          177
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          159,
+          206,
+          180
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          157,
-          88,
-          160
-        ],
-        "border": [
-          82,
-          75,
-          110
-        ],
-        "border_dash": "solid",
-        "border_width": 2.3761618685392616,
-        "cells": [
-          [
-            "jam verdant",
-            "oatmeal pretty"
-          ],
-          [
-            "glass dreary",
-            "size"
-          ],
-          [
-            "overwrought",
-            "blushing adjustment"
-          ],
-          [
-            "curvy",
-            "lazy hook"
-          ],
-          [
-            "pass ragged",
-            "tricky classy"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 6,
-        "has_header": true,
-        "header": [
-          96,
-          165,
-          250
-        ],
-        "rows": 5,
-        "text_color": [
-          28,
-          30,
-          36
-        ],
-        "theme_topic": "Uttermost"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "teeny-tiny year hill disagreeable cynical broken courageous grab smash zany flood protect rule hat awful disagree soup chunky cheat rule",
+        "theme_topic": "Futuristic",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.0525,
-        "w": 5.6118,
-        "x": 0.7163,
-        "y": 3.0095
+        "h": 0.7701,
+        "w": 3.6447,
+        "x": 4.7393,
+        "y": 6.134
       },
       "id": "object_004",
       "properties": {
@@ -186,17 +141,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          82,
-          75,
-          110
+          159,
+          206,
+          180
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "foolish ball automatic polite squeeze ban imagine texture muddle hammer kiss applaud gorgeous capricious activity adorable good",
-        "theme_topic": "Uttermost",
+        "text": "strengthen paste peep group slim compete machine sun instinctive doubtful stage unknown bore crow",
+        "theme_topic": "Futuristic",
         "underline": false
       },
       "type": "text",

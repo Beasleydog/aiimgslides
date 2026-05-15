@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        226,
-        174,
-        137
+      "colors": [
+        [
+          61,
+          64,
+          91
+        ],
+        [
+          88,
+          60,
+          163
+        ]
       ],
       "fill": [
-        226,
-        174,
-        137
+        61,
+        64,
+        91
       ],
-      "fore_color": [
-        113,
-        127,
-        172
-      ],
-      "pattern": 41,
-      "style": "pattern",
-      "theme_topic": "Obese"
+      "focus": "top_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Instrument Clever"
     },
     "type": "background",
     "z_order": 0
@@ -41,148 +45,155 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.6737,
-        "w": 8.1044,
-        "x": 0.6822,
-        "y": 1.5555
+        "h": 4.4855,
+        "w": 8.908,
+        "x": 1.9349,
+        "y": 1.1105
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          211,
-          162,
-          127
+          110,
+          107,
+          101
         ],
+        "focus": false,
         "line": [
-          203,
-          156,
-          123
+          97,
+          149,
+          193
         ],
-        "line_width": 1.9175168566931222,
+        "line_width": 2.8119553980963974,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Obese"
+        "ppt_type": 24,
+        "shape": "moon",
+        "theme_topic": "Instrument Clever"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.5424,
-        "w": 2.8324,
-        "x": 0.6692,
-        "y": 0.7258
+        "h": 2.4957,
+        "w": 3.8356,
+        "x": 0.3884,
+        "y": 0.6153
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          95,
+          82,
+          53
         ],
-        "font_face": "Aptos Display",
-        "font_size": 27,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Invite",
-        "theme_topic": "Obese",
-        "underline": false
+        "focus": false,
+        "line": [
+          145,
+          178,
+          178
+        ],
+        "line_width": 2.2562868545382986,
+        "outline_only": false,
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Instrument Clever"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.8111,
-        "w": 3.7199,
-        "x": 3.7442,
-        "y": 0.658
+        "h": 3.7575,
+        "w": 5.7711,
+        "x": -0.7004,
+        "y": 1.5299
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "symbols",
         "fill": [
-          96,
-          165,
-          250
+          115,
+          146,
+          124
         ],
+        "focus": false,
         "line": [
-          203,
-          156,
-          123
+          146,
+          168,
+          103
         ],
-        "line_width": 0.8780410062715711,
+        "line_width": 2.390817162453967,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Obese"
+        "ppt_type": 173,
+        "shape": "gear9",
+        "theme_topic": "Instrument Clever"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.1072,
-        "w": 3.3921,
-        "x": 3.9388,
-        "y": 1.2291
+        "h": 0.698,
+        "w": 13.3137,
+        "x": 0.0052,
+        "y": 0.0144
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          95,
+          97,
+          119
         ],
-        "font_face": "Aptos Display",
-        "font_size": 41,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "12x",
-        "theme_topic": "Obese",
-        "underline": false
+        "line": [
+          95,
+          97,
+          119
+        ],
+        "line_width": 3.5761310059730453,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Instrument Clever"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.6883,
-        "w": 3.3956,
-        "x": 3.9272,
-        "y": 2.3323
+        "h": 5.5477,
+        "w": 2.8456,
+        "x": 0.664,
+        "y": 0.7269
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Arial",
+        "font_size": 20,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "nauseating cake melted godly tedious",
-        "theme_topic": "Obese",
+        "text": "Place Cute",
+        "theme_topic": "Instrument Clever",
         "underline": false
       },
       "type": "text",
@@ -190,10 +201,10 @@
     },
     {
       "bbox": {
-        "h": 1.633,
-        "w": 8.592,
-        "x": 3.959,
-        "y": 4.0998
+        "h": 0.466,
+        "w": 3.1467,
+        "x": 9.3704,
+        "y": 1.5422
       },
       "id": "object_006",
       "properties": {
@@ -201,17 +212,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos Display",
-        "font_size": 22,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Airport Fade Cream Arrest Stare Righteous Admire",
-        "theme_topic": "Obese",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Psychedelic",
+        "theme_topic": "Instrument Clever",
         "underline": false
       },
       "type": "text",
@@ -219,10 +230,10 @@
     },
     {
       "bbox": {
-        "h": 0.4638,
-        "w": 4.7,
-        "x": 3.9509,
-        "y": 5.9903
+        "h": 0.4651,
+        "w": 3.1526,
+        "x": 9.3304,
+        "y": 3.1028
       },
       "id": "object_007",
       "properties": {
@@ -230,17 +241,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "DRAWER END",
-        "theme_topic": "Obese",
+        "text": "Odd Faint",
+        "theme_topic": "Instrument Clever",
         "underline": false
       },
       "type": "text",
@@ -248,39 +259,41 @@
     },
     {
       "bbox": {
-        "h": 2.7914,
-        "w": 4.9431,
-        "x": 7.7426,
-        "y": 0.6223
+        "h": 1.6752,
+        "w": 3.6533,
+        "x": 9.0809,
+        "y": 3.7657
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.08857844424260569,
-          0.11074457368295304,
-          0.15329451495954602,
-          0.16911799820784248
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          95,
+          97,
+          119
         ],
-        "focus": true,
-        "mask_line": [
-          96,
-          165,
-          250
+        "line": [
+          95,
+          97,
+          119
         ],
-        "mask_overlay": true,
-        "theme_topic": "Obese",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 0.49019721500761915,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Instrument Clever"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2574,
-        "w": 4.5594,
-        "x": 7.9495,
-        "y": 3.031
+        "h": 0.4451,
+        "w": 3.1209,
+        "x": 9.3715,
+        "y": 4.6413
       },
       "id": "object_009",
       "properties": {
@@ -288,17 +301,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Bee",
-        "theme_topic": "Obese",
+        "text": "Laugh Remarkable",
+        "theme_topic": "Instrument Clever",
         "underline": false
       },
       "type": "text",
@@ -306,32 +319,28 @@
     },
     {
       "bbox": {
-        "h": 0.6372,
-        "w": 1.7671,
-        "x": 3.9316,
-        "y": 5.6575
+        "h": 0.4352,
+        "w": 3.1305,
+        "x": 9.3418,
+        "y": 6.5257
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          67,
-          43,
-          211
-        ],
-        "bold": false,
+        "bg_color": null,
+        "bold": true,
         "color": [
-          64,
-          75,
-          227
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Subtract Guttural Respect",
-        "theme_topic": "Obese",
+        "text": "Daily",
+        "theme_topic": "Instrument Clever",
         "underline": false
       },
       "type": "text",
@@ -339,57 +348,94 @@
     },
     {
       "bbox": {
-        "h": 0.5356,
-        "w": 1.443,
-        "x": 5.4401,
-        "y": 1.7363
+        "h": 6.1542,
+        "w": 4.8668,
+        "x": 3.7939,
+        "y": 0.6862
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          42,
-          163,
-          112
+        "band": [
+          140,
+          41,
+          79
         ],
-        "connector": "curve",
-        "dash": 5,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Obese",
-        "width": 0.5587986454668081
+        "band_cols": true,
+        "band_rows": false,
+        "body": [
+          146,
+          139,
+          106
+        ],
+        "border": [
+          162,
+          165,
+          179
+        ],
+        "border_dash": "solid",
+        "border_width": 2.6347883341634555,
+        "cells": [
+          [
+            "spill",
+            "welcome carpenter",
+            "grubby range",
+            "vase expect",
+            "imminent",
+            "clam"
+          ],
+          [
+            "impolite",
+            "punch arrive",
+            "jar outstanding",
+            "protest educate",
+            "helpless suit",
+            "deep"
+          ]
+        ],
+        "cols": 6,
+        "font_size": 11,
+        "has_header": true,
+        "header": [
+          137,
+          57,
+          72
+        ],
+        "rows": 2,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Instrument Clever"
       },
-      "type": "connector",
+      "type": "table",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.2432,
-        "w": 1.6442,
-        "x": 8.2584,
-        "y": 3.3257
+        "h": 0.2,
+        "w": 0.6754,
+        "x": 8.0551,
+        "y": 7.018
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          126,
-          51,
-          156
-        ],
-        "bold": true,
+        "bg_color": null,
+        "bold": false,
         "color": [
-          42,
-          103,
-          202
+          153,
+          67,
+          121
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Powder",
-        "theme_topic": "Obese",
+        "text": "Plate Film",
+        "theme_topic": "Instrument Clever",
         "underline": false
       },
       "type": "text",

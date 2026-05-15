@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        227,
-        137,
-        64
+      "colors": [
+        [
+          120,
+          58,
+          170
+        ],
+        [
+          187,
+          132,
+          168
+        ]
       ],
       "fill": [
-        61,
-        64,
-        91
+        120,
+        58,
+        170
       ],
-      "fore_color": [
-        43,
-        226,
-        217
-      ],
-      "pattern": 16,
-      "style": "pattern",
-      "theme_topic": "Woozy Knowing"
+      "focus": "top_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Advertisement Soft"
     },
     "type": "background",
     "z_order": 0
@@ -41,169 +45,158 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.5748,
-        "w": 4.2234,
-        "x": 5.5972,
-        "y": 4.7598
+        "h": 4.4484,
+        "w": 3.3187,
+        "x": 2.1072,
+        "y": 2.3808
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "stars",
         "fill": [
-          148,
-          134,
-          134
+          185,
+          77,
+          75
         ],
         "focus": false,
         "line": [
-          160,
-          130,
-          148
+          156,
+          229,
+          51
         ],
-        "line_width": 3.2356524906108337,
-        "outline_only": true,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Woozy Knowing"
+        "line_width": 3.734694774339034,
+        "outline_only": false,
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Advertisement Soft"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.9617,
-        "w": 7.7391,
-        "x": 6.6457,
-        "y": 1.84
+        "h": 0.287,
+        "w": 3.9661,
+        "x": 5.2429,
+        "y": 0.6456
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
-        "fill": [
-          90,
-          144,
-          158
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "focus": false,
-        "line": [
-          99,
-          226,
-          114
-        ],
-        "line_width": 5.7594383076410685,
-        "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Woozy Knowing"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "MINDLESS DOWNTOWN",
+        "theme_topic": "Advertisement Soft",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.6167,
-        "w": 5.4084,
-        "x": 6.0286,
-        "y": 3.8883
+        "h": 1.0603,
+        "w": 3.9641,
+        "x": 5.2262,
+        "y": 1.1369
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          130,
-          137,
-          175
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          138,
+          225
         ],
-        "focus": false,
-        "line": [
-          141,
-          103,
-          183
-        ],
-        "line_width": 5.354002743923752,
-        "outline_only": true,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Woozy Knowing"
+        "font_face": "Aptos Display",
+        "font_size": 43,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Foamy",
+        "theme_topic": "Advertisement Soft",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.3358,
-        "w": 7.8297,
-        "x": 5.6695,
-        "y": 2.5752
+        "h": 4.3632,
+        "w": 3.9716,
+        "x": 5.2439,
+        "y": 2.4644
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "math",
-        "fill": [
-          124,
-          69,
-          154
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
         ],
-        "focus": false,
-        "line": [
-          196,
-          178,
-          113
-        ],
-        "line_width": 2.887447709588353,
-        "outline_only": false,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Woozy Knowing"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "picayune hammer roll psychotic lying ludicrous event file industrious juggle automatic fearful sky",
+        "theme_topic": "Advertisement Soft",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.6669,
-        "w": 13.3149,
-        "x": -0.0038,
-        "y": -0.0089
+        "h": 3.7325,
+        "w": 3.7408,
+        "x": 0.7416,
+        "y": 0.7476
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          118,
-          120,
-          139
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          250,
+          255
         ],
-        "line": [
-          118,
-          120,
-          139
-        ],
-        "line_width": 0.6604762908498754,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Woozy Knowing"
+        "font_face": "Aptos Display",
+        "font_size": 36,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Grade Competition Soda Bait Iron Common",
+        "theme_topic": "Advertisement Soft",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.938,
-        "w": 5.8259,
-        "x": 0.5662,
-        "y": 0.3441
+        "h": 1.0948,
+        "w": 2.0547,
+        "x": 0.7634,
+        "y": 5.0613
       },
       "id": "object_006",
       "properties": {
@@ -211,17 +204,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Cold Arrange Familiar Dogs",
-        "theme_topic": "Woozy Knowing",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "WAVE ACCIDENTAL",
+        "theme_topic": "Advertisement Soft",
         "underline": false
       },
       "type": "text",
@@ -229,10 +222,10 @@
     },
     {
       "bbox": {
-        "h": 2.2134,
-        "w": 2.5848,
-        "x": 0.5694,
-        "y": 1.8334
+        "h": 1.4605,
+        "w": 3.0393,
+        "x": 9.7482,
+        "y": 0.5671
       },
       "id": "object_007",
       "properties": {
@@ -240,32 +233,64 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          63,
-          107,
-          116
+          139,
+          78,
+          190
         ],
         "line": [
-          118,
-          120,
-          139
+          139,
+          78,
+          190
         ],
-        "line_width": 2.320307393487507,
+        "line_width": 3.9093199336342415,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Woozy Knowing"
+        "theme_topic": "Advertisement Soft"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.7701,
-        "w": 2.2047,
-        "x": 0.7509,
-        "y": 2.0513
+        "h": 0.5723,
+        "w": 0.5885,
+        "x": 9.9448,
+        "y": 0.7523
       },
       "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          174,
+          47,
+          112
+        ],
+        "focus": false,
+        "line": [
+          71,
+          221,
+          181
+        ],
+        "line_width": 0.9531233659360577,
+        "outline_only": false,
+        "ppt_type": 103,
+        "shape": "wave",
+        "theme_topic": "Advertisement Soft"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.4456,
+        "w": 2.5479,
+        "x": 10.0187,
+        "y": 1.4353
+      },
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -275,42 +300,13 @@
           221,
           181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "7.6x",
-        "theme_topic": "Woozy Knowing",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.2018,
-        "w": 2.1957,
-        "x": 0.7433,
-        "y": 2.7515
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          162,
-          165,
-          179
-        ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "responsible sweater curve sturdy jealous disappear drunk",
-        "theme_topic": "Woozy Knowing",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Idea Start",
+        "theme_topic": "Advertisement Soft",
         "underline": false
       },
       "type": "text",
@@ -318,43 +314,75 @@
     },
     {
       "bbox": {
-        "h": 2.2013,
-        "w": 1.8123,
-        "x": 3.3059,
-        "y": 1.8473
+        "h": 1.2084,
+        "w": 3.0136,
+        "x": 9.7548,
+        "y": 2.2138
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 3,
         "family": "panel",
         "fill": [
-          118,
-          120,
-          139
+          139,
+          78,
+          190
         ],
         "line": [
-          118,
-          120,
-          139
+          139,
+          78,
+          190
         ],
-        "line_width": 1.6502535366494202,
+        "line_width": 1.6470187610984113,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Woozy Knowing"
+        "theme_topic": "Advertisement Soft"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7727,
-        "w": 1.4573,
-        "x": 3.461,
-        "y": 2.0073
+        "h": 0.5184,
+        "w": 0.5115,
+        "x": 9.9699,
+        "y": 2.4573
       },
       "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "callouts",
+        "fill": [
+          71,
+          221,
+          181
+        ],
+        "focus": false,
+        "line": [
+          84,
+          215,
+          139
+        ],
+        "line_width": 5.184891018569429,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Advertisement Soft"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.4272,
+        "w": 2.5081,
+        "x": 10.012,
+        "y": 3.1271
+      },
+      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -364,42 +392,13 @@
           221,
           181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "7.4x",
-        "theme_topic": "Woozy Knowing",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 1.2078,
-        "w": 1.4602,
-        "x": 3.4825,
-        "y": 2.7451
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          162,
-          165,
-          179
-        ],
         "font_face": "Aptos",
-        "font_size": 15,
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pale condemned clover",
-        "theme_topic": "Woozy Knowing",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Zip",
+        "theme_topic": "Advertisement Soft",
         "underline": false
       },
       "type": "text",
@@ -407,335 +406,315 @@
     },
     {
       "bbox": {
-        "h": 2.5966,
-        "w": 12.2321,
-        "x": 0.5649,
-        "y": 4.4363
+        "h": 1.6183,
+        "w": 3.0341,
+        "x": 9.7762,
+        "y": 3.6043
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 7,
         "family": "panel",
         "fill": [
-          118,
-          120,
-          139
+          139,
+          78,
+          190
         ],
         "line": [
-          118,
-          120,
-          139
+          139,
+          78,
+          190
         ],
-        "line_width": 5.19889766078714,
+        "line_width": 1.074869414678845,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Woozy Knowing"
+        "theme_topic": "Advertisement Soft"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 2.2747,
-        "w": 11.9183,
-        "x": 0.6674,
-        "y": 4.5743
+        "h": 0.5437,
+        "w": 0.5334,
+        "x": 10.0095,
+        "y": 3.7738
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.0356872919459914,
-          0.20614676583643962,
-          0.07303843769619271,
-          0.29011531645738786
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "focus": true,
-        "mask_line": [
+        "focus": false,
+        "line": [
           71,
           221,
           181
         ],
-        "mask_overlay": false,
-        "theme_topic": "Woozy Knowing",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.9381706921523758,
+        "outline_only": true,
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Advertisement Soft"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 2.2144,
-        "w": 7.2927,
-        "x": 5.4936,
-        "y": 1.8471
+        "h": 0.4723,
+        "w": 2.4997,
+        "x": 10.0134,
+        "y": 4.4791
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.13703343658565562,
-          0.01592841822716999,
-          0.1486740674140553,
-          0.28819373343187504
-        ],
-        "focus": true,
-        "mask_line": [
-          195,
-          37,
-          220
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Woozy Knowing",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.3406,
-        "w": 2.0714,
-        "x": 9.6498,
-        "y": 3.1874
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          38,
-          173,
-          230
-        ],
+        "bg_color": null,
         "bold": true,
         "color": [
-          144,
-          111,
-          178
+          71,
+          221,
+          181
         ],
         "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "exciting press account minute",
-        "theme_topic": "Woozy Knowing",
-        "underline": true
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Peel Highfalutin",
+        "theme_topic": "Advertisement Soft",
+        "underline": false
       },
       "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 1.5296,
+        "w": 3.0063,
+        "x": 9.7433,
+        "y": 5.4017
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
+        ],
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 3.263003915283031,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Advertisement Soft"
+      },
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.212,
-        "w": 0.8141,
-        "x": 7.4484,
-        "y": 2.4161
+        "h": 0.4624,
+        "w": 2.5147,
+        "x": 9.9855,
+        "y": 6.2979
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          226,
-          207,
-          166
-        ],
-        "focus": false,
-        "line": [
-          129,
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
           221,
-          221
+          181
         ],
-        "line_width": 2.2490190877146237,
-        "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Woozy Knowing"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Dear Disturbed",
+        "theme_topic": "Advertisement Soft",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.6534,
-        "w": 0.8677,
-        "x": 2.87,
-        "y": 3.1511
+        "h": 0.2,
+        "w": 1.3541,
+        "x": 11.7943,
+        "y": 0.6816
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          101,
-          164,
-          99
+          181,
+          39,
+          185
         ],
         "focus": false,
         "line": [
-          57,
-          33,
-          213
+          225,
+          36,
+          31
         ],
-        "line_width": 3.5981828152244084,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Woozy Knowing"
+        "line_width": 4.774239294184241,
+        "outline_only": true,
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Advertisement Soft"
       },
       "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.2186,
-        "w": 0.4525,
-        "x": 4.6969,
-        "y": 4.2427
+        "h": 0.2,
+        "w": 1.7432,
+        "x": 5.1257,
+        "y": 5.9513
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          186,
-          57,
-          219
+        "bg_color": [
+          125,
+          144,
+          27
         ],
-        "connector": "curve",
-        "dash": 4,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Woozy Knowing",
-        "width": 1.5549906465032384
+        "bold": false,
+        "color": [
+          138,
+          73,
+          133
+        ],
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "gamy wail utter",
+        "theme_topic": "Advertisement Soft",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.2782,
-        "w": 1.8435,
-        "x": 10.0255,
-        "y": 5.4508
+        "h": 0.8695,
+        "w": 0.3027,
+        "x": 8.5642,
+        "y": 1.1769
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          62,
-          81,
-          69
+        "dash": 2,
+        "family": "ribbons",
+        "fill": [
+          78,
+          210,
+          154
         ],
-        "font_face": "Aptos",
-        "font_size": 5,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "eggs cherries zephyr terrible road",
-        "theme_topic": "Woozy Knowing",
-        "underline": false
+        "focus": false,
+        "line": [
+          145,
+          195,
+          62
+        ],
+        "line_width": 4.315902479458875,
+        "outline_only": true,
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Advertisement Soft"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.3359,
-        "w": 1.1642,
-        "x": 5.7138,
-        "y": 2.0699
+        "h": 0.93,
+        "w": 0.2636,
+        "x": 7.344,
+        "y": 4.0387
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "basic",
         "fill": [
-          130,
-          207,
-          126
+          149,
+          174,
+          208
         ],
         "focus": false,
         "line": [
-          162,
-          165,
-          179
+          136,
+          103,
+          102
         ],
-        "line_width": 1.8047024488688062,
+        "line_width": 0.7087927373441462,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Woozy Knowing"
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Advertisement Soft"
       },
       "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.3703,
-        "w": 0.99,
-        "x": 6.7054,
-        "y": 6.8094
+        "h": 0.2085,
+        "w": 0.7047,
+        "x": 1.0706,
+        "y": 1.7375
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "arrows",
         "fill": [
-          255,
-          211,
-          88
+          29,
+          153,
+          47
         ],
+        "focus": false,
         "line": [
-          229,
-          49,
-          213
+          168,
+          174,
+          135
         ],
-        "line_width": 1.1374083556776,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Woozy Knowing"
+        "line_width": 0.6484568819009718,
+        "outline_only": true,
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Advertisement Soft"
       },
-      "type": "freeform",
+      "type": "shape",
       "z_order": 22
     }
   ],

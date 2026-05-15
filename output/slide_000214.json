@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 135,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          149,
-          97,
-          160
-        ],
-        [
-          174,
-          73,
-          92
-        ]
+      "back_color": [
+        249,
+        203,
+        91
       ],
       "fill": [
-        164,
-        107,
-        176
+        240,
+        176,
+        54
       ],
-      "focus": "bottom_right",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Cream"
+      "fore_color": [
+        216,
+        82,
+        207
+      ],
+      "pattern": 36,
+      "style": "pattern",
+      "theme_topic": "Two"
     },
     "type": "background",
     "z_order": 0
@@ -45,42 +41,41 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.3376,
-        "w": 4.8593,
-        "x": 4.8619,
-        "y": 4.1044
+        "h": 2.7611,
+        "w": 4.96,
+        "x": 8.3719,
+        "y": 4.7182
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "panel",
         "fill": [
-          158,
-          102,
-          97
+          249,
+          203,
+          91
         ],
-        "focus": false,
         "line": [
-          110,
-          98,
-          217
+          249,
+          203,
+          91
         ],
-        "line_width": 3.528308435956351,
-        "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Cream"
+        "line_width": 1.4534808388916587,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Two"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.7942,
-        "w": 3.2173,
-        "x": 9.402,
-        "y": 0.6637
+        "h": 5.5549,
+        "w": 2.874,
+        "x": 0.6266,
+        "y": 0.7506
       },
       "id": "object_002",
       "properties": {
@@ -88,17 +83,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          40,
+          38,
+          28
         ],
         "font_face": "Trebuchet MS",
-        "font_size": 30,
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Fruit Peel Pleasant",
-        "theme_topic": "Cream",
+        "text": "Cut",
+        "theme_topic": "Two",
         "underline": false
       },
       "type": "text",
@@ -106,28 +101,28 @@
     },
     {
       "bbox": {
-        "h": 4.2352,
-        "w": 1.1657,
-        "x": 7.5268,
-        "y": 2.5636
+        "h": 1.0724,
+        "w": 4.7456,
+        "x": 5.855,
+        "y": 2.3594
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          89,
-          64,
-          99
+          40,
+          38,
+          28
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "filthy judicious celery disapprove shirt panoramic simplistic tax yellow",
-        "theme_topic": "Cream",
+        "text": "Fat Inconclusive Pour Scrape",
+        "theme_topic": "Two",
         "underline": false
       },
       "type": "text",
@@ -135,28 +130,28 @@
     },
     {
       "bbox": {
-        "h": 1.0259,
-        "w": 1.1898,
-        "x": 0.7947,
-        "y": 0.7717
+        "h": 1.4717,
+        "w": 4.7286,
+        "x": 5.8649,
+        "y": 3.6772
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          28,
-          30,
-          36
+          94,
+          82,
+          58
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 19,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Fact Value Abiding",
-        "theme_topic": "Cream",
+        "text": "invite somber hang ready knit acid verdant ludicrous stitch wool queen deep experience bath light channel hard-to-find ball bump celery cook zip",
+        "theme_topic": "Two",
         "underline": false
       },
       "type": "text",
@@ -164,60 +159,62 @@
     },
     {
       "bbox": {
-        "h": 4.7279,
-        "w": 1.197,
-        "x": 0.7919,
-        "y": 2.0877
+        "h": 6.2325,
+        "w": 1.6351,
+        "x": 11.1341,
+        "y": 0.6393
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          89,
-          64,
-          99
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          249,
+          203,
+          91
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "ambiguous vacuous hideous cruel entertain gray settle whip aware earn dirty tested naive high-pitched frighten trees flowery shocking",
-        "theme_topic": "Cream",
-        "underline": false
+        "line": [
+          249,
+          203,
+          91
+        ],
+        "line_width": 1.5743307602709566,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Two"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 3.4721,
-        "w": 4.5776,
-        "x": 2.4351,
-        "y": 1.7524
+        "h": 1.15,
+        "w": 1.2408,
+        "x": 11.2939,
+        "y": 1.7662
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1765024202665158,
-          0.18194070702360504,
-          0.029062318448507644,
-          0.29619322862229824
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          240,
+          176,
+          54
         ],
-        "focus": true,
-        "mask_line": [
-          48,
-          130,
-          36
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Cream",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Trebuchet MS",
+        "font_size": 50,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "672",
+        "theme_topic": "Two",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 6
     }
   ],

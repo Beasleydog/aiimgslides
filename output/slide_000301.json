@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        229,
-        52,
-        72
+      "back_color": [
+        171,
+        192,
+        154
       ],
-      "style": "solid",
-      "theme_topic": "Illegal"
+      "fill": [
+        138,
+        55,
+        69
+      ],
+      "fore_color": [
+        154,
+        207,
+        173
+      ],
+      "pattern": 29,
+      "style": "pattern",
+      "theme_topic": "Wriggle Flat"
     },
     "type": "background",
     "z_order": 0
@@ -30,107 +41,44 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.8665,
-        "w": 8.8859,
-        "x": 4.8382,
-        "y": 1.3163
+        "h": 3.3102,
+        "w": 3.7946,
+        "x": 8.2771,
+        "y": 2.5602
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          141,
-          98,
-          67
+          105,
+          44,
+          135
         ],
         "focus": false,
         "line": [
-          86,
-          218,
-          175
+          165,
+          160,
+          118
         ],
-        "line_width": 5.418611526180261,
+        "line_width": 7.621465226143458,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Illegal"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Wriggle Flat"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.8994,
-        "w": 3.668,
-        "x": -0.228,
-        "y": 2.9496
+        "h": 1.0876,
+        "w": 5.8711,
+        "x": 0.5251,
+        "y": 0.3717
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          120,
-          105,
-          146
-        ],
-        "focus": false,
-        "line": [
-          160,
-          214,
-          115
-        ],
-        "line_width": 2.627528244825426,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Illegal"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 7.4814,
-        "w": 13.35,
-        "x": 0.0127,
-        "y": 3.5379
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          234,
-          92,
-          108
-        ],
-        "line": [
-          234,
-          92,
-          108
-        ],
-        "line_width": 4.7826592913387875,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Illegal"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.3187,
-        "w": 6.7154,
-        "x": 0.5433,
-        "y": 0.3737
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -140,13 +88,71 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 36,
+        "font_face": "Aptos Display",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Bead Boring Hoc",
-        "theme_topic": "Illegal",
+        "text": "Gamy Hospital Cake Blue-Eyed",
+        "theme_topic": "Wriggle Flat",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.9354,
+        "w": 0.6876,
+        "x": 6.5047,
+        "y": 3.4264
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "somber range snow bear quiver undress",
+        "theme_topic": "Wriggle Flat",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.9531,
+        "w": 0.9404,
+        "x": 7.4775,
+        "y": 3.4282
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "pass cherry soggy",
+        "theme_topic": "Wriggle Flat",
         "underline": false
       },
       "type": "text",
@@ -154,101 +160,12 @@
     },
     {
       "bbox": {
-        "h": 1.1823,
-        "w": 3.1581,
-        "x": 9.4962,
-        "y": 5.6984
+        "h": 0.954,
+        "w": 1.2223,
+        "x": 9.9921,
+        "y": 3.4155
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          238,
-          159,
-          171
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "arrest launch amuse venomous miscreant insurance women mug different attractive letters sneaky gratis graceful weary vast pencil rake",
-        "theme_topic": "Illegal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.3471,
-        "w": 12.2298,
-        "x": 0.5669,
-        "y": 1.8512
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          234,
-          92,
-          108
-        ],
-        "line": [
-          234,
-          92,
-          108
-        ],
-        "line_width": 4.812562677351315,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Illegal"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.9053,
-        "w": 11.8916,
-        "x": 0.7102,
-        "y": 2.343
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          229,
-          52,
-          72
-        ],
-        "font_face": "Georgia",
-        "font_size": 47,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "213",
-        "theme_topic": "Illegal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.5605,
-        "w": 11.8635,
-        "x": 0.7478,
-        "y": 3.2646
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -259,12 +176,103 @@
           252
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "erratic feeble believe mundane window fluttering steady bone",
-        "theme_topic": "Illegal",
+        "text": "language wholesale true line",
+        "theme_topic": "Wriggle Flat",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.9262,
+        "w": 1.2039,
+        "x": 11.5054,
+        "y": 3.4217
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "dashing dad debt jobless",
+        "theme_topic": "Wriggle Flat",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 2.7625,
+        "w": 5.5127,
+        "x": 0.525,
+        "y": 1.8692
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.1402632636358966,
+          0.210736697831043,
+          0.17926160165033977,
+          0.1792723910015494
+        ],
+        "focus": true,
+        "mask_line": [
+          204,
+          126,
+          48
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Wriggle Flat",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.5838,
+        "w": 1.0586,
+        "x": 9.5677,
+        "y": 2.6239
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          200,
+          191,
+          125
+        ],
+        "bold": true,
+        "color": [
+          108,
+          116,
+          168
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "awake strap known tree coach",
+        "theme_topic": "Wriggle Flat",
         "underline": false
       },
       "type": "text",

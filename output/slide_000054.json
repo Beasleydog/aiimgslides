@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
+      "angle": 315,
       "archetype": "atomic_composition",
       "colors": [
         [
-          118,
-          57,
-          174
+          43,
+          162,
+          130
         ],
         [
-          90,
-          47,
-          153
+          48,
+          78,
+          140
         ]
       ],
       "fill": [
-        67,
-        202,
-        91
+        28,
+        143,
+        112
       ],
-      "focus": "center",
-      "gradient_type": "shape",
+      "focus": "bottom_left",
+      "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Bumpy Whisper"
+      "theme_topic": "Respect"
     },
     "type": "background",
     "z_order": 0
@@ -45,10 +45,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.2978,
-        "w": 5.084,
-        "x": 0.5554,
-        "y": 0.3733
+        "h": 1.1812,
+        "w": 8.2927,
+        "x": 0.5326,
+        "y": 0.3446
       },
       "id": "object_001",
       "properties": {
@@ -56,17 +56,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
           248,
+          255,
           252
         ],
         "font_face": "Trebuchet MS",
-        "font_size": 36,
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Ants Realize Position Evanescent",
-        "theme_topic": "Bumpy Whisper",
+        "text": "Superb Well-Groomed",
+        "theme_topic": "Respect",
         "underline": false
       },
       "type": "text",
@@ -74,33 +74,31 @@
     },
     {
       "bbox": {
-        "h": 5.145,
-        "w": 5.3836,
-        "x": 7.4082,
-        "y": 1.8574
+        "h": 1.3618,
+        "w": 7.0818,
+        "x": 5.7158,
+        "y": 3.4005
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          51,
-          63,
-          101
+        "crop": [
+          0.23186606031128945,
+          0.2619974136822556,
+          0.27346460022488855,
+          0.14346717397078446
         ],
-        "line": [
-          116,
-          215,
-          133
+        "focus": true,
+        "mask_line": [
+          106,
+          50,
+          175
         ],
-        "line_width": 4.868116456149599,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Bumpy Whisper"
+        "mask_overlay": false,
+        "theme_topic": "Respect",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 2
     }
   ],

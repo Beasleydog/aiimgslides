@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          183,
-          129,
-          81
-        ],
-        [
-          159,
-          27,
-          163
-        ]
+      "back_color": [
+        225,
+        94,
+        113
       ],
       "fill": [
-        240,
-        176,
-        54
+        210,
+        72,
+        94
       ],
-      "focus": "center",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Island"
+      "fore_color": [
+        53,
+        183,
+        203
+      ],
+      "pattern": 14,
+      "style": "pattern",
+      "theme_topic": "Sheep"
     },
     "type": "background",
     "z_order": 0
@@ -45,156 +41,146 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.4677,
-        "w": 6.2601,
-        "x": 1.7006,
-        "y": 3.425
+        "h": 7.5197,
+        "w": 13.3397,
+        "x": -0.0089,
+        "y": 3.3003
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "panel",
         "fill": [
-          144,
-          176,
-          120
+          225,
+          94,
+          113
         ],
-        "focus": false,
         "line": [
-          147,
-          72,
-          189
+          225,
+          94,
+          113
         ],
-        "line_width": 5.0710329775129255,
+        "line_width": 3.7094871464218664,
         "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Island"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Sheep"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.156,
-        "w": 6.658,
-        "x": 6.3499,
-        "y": -0.3747
+        "h": 1.0755,
+        "w": 7.7224,
+        "x": 0.546,
+        "y": 0.3493
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          210,
-          213,
-          68
-        ],
-        "focus": false,
-        "line": [
-          181,
-          34,
-          90
-        ],
-        "line_width": 6.895010850876054,
-        "outline_only": true,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Island"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 4.589,
-        "w": 7.4653,
-        "x": 6.2254,
-        "y": 3.335
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "ribbons",
-        "fill": [
-          148,
-          159,
-          88
-        ],
-        "focus": false,
-        "line": [
-          128,
-          104,
-          194
-        ],
-        "line_width": 4.154222228094294,
-        "outline_only": true,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Island"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.0643,
-        "w": 3.9443,
-        "x": 5.207,
-        "y": 1.1698
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          199,
-          144,
-          86
-        ],
-        "focus": false,
-        "line": [
-          206,
-          202,
-          72
-        ],
-        "line_width": 3.230449254923797,
-        "outline_only": true,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Island"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.0277,
-        "w": 8.7695,
-        "x": 0.5326,
-        "y": 0.3329
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          40,
-          38,
-          28
+          255,
+          252,
+          247
         ],
-        "font_face": "Trebuchet MS",
+        "font_face": "Georgia",
         "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Aware Robin Rabbit",
-        "theme_topic": "Island",
+        "text": "Ad Fair",
+        "theme_topic": "Sheep",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.5599,
+        "w": 1.7257,
+        "x": 2.9026,
+        "y": 5.3469
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          255,
+          218,
+          220
+        ],
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "invent mom far star skip wreck stretch thin tease colorful consist interfere wriggle",
+        "theme_topic": "Sheep",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.5497,
+        "w": 2.0897,
+        "x": 5.3256,
+        "y": 5.3625
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          255,
+          218,
+          220
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ruin future spiffy naughty thread lumber grain gun brown trade",
+        "theme_topic": "Sheep",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.5408,
+        "w": 1.7279,
+        "x": 8.1858,
+        "y": 5.3385
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          255,
+          218,
+          220
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "uppity screw kindhearted first team alcoholic steadfast slow lazy frantic note jaded selfish pencil plan",
+        "theme_topic": "Sheep",
         "underline": false
       },
       "type": "text",
@@ -202,86 +188,68 @@
     },
     {
       "bbox": {
-        "h": 2.6252,
-        "w": 4.1673,
-        "x": 3.856,
-        "y": 4.3478
+        "h": 1.4111,
+        "w": 2.5451,
+        "x": 1.9661,
+        "y": 2.6176
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "mom",
-          "extend",
-          "carry",
-          "scarecrow",
-          "flavor",
-          "settle"
+        "crop": [
+          0.05812656334617841,
+          0.28632710392852523,
+          0.20663325599313687,
+          0.2572461745561537
         ],
-        "chart": "pie",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              132,
-              101,
-              49
-            ],
-            "name": "kitty use",
-            "values": [
-              95,
-              80,
-              35,
-              49,
-              83,
-              60
-            ]
-          }
+        "focus": false,
+        "mask_line": [
+          51,
+          63,
+          101
         ],
-        "theme_topic": "Island",
-        "title": "thank hissing"
+        "mask_overlay": true,
+        "theme_topic": "Sheep",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.2288,
-        "w": 12.2203,
-        "x": 0.5638,
-        "y": 1.8286
+        "h": 0.6014,
+        "w": 2.3579,
+        "x": 7.5002,
+        "y": 2.4653
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.07536847217292195,
-          0.2396082054204427,
-          0.301765991944843,
-          0.15743212427278228
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          210,
+          72,
+          94
         ],
-        "focus": true,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Island",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Georgia",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "3x",
+        "theme_topic": "Sheep",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.9257,
-        "w": 2.6397,
-        "x": 0.6947,
-        "y": 5.9615
+        "h": 0.3715,
+        "w": 2.3777,
+        "x": 7.4814,
+        "y": 3.0375
       },
       "id": "object_008",
       "properties": {
@@ -289,17 +257,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          94,
-          82,
-          58
+          255,
+          252,
+          247
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "well-to-do disappear legs escape acidic round adhesive juice position scary bomb",
-        "theme_topic": "Island",
+        "text": "hot judicious apologise cub",
+        "theme_topic": "Sheep",
         "underline": false
       },
       "type": "text",

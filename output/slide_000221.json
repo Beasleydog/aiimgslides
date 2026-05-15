@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        235,
-        98,
-        143
+      "colors": [
+        [
+          239,
+          239,
+          235
+        ],
+        [
+          130,
+          80,
+          110
+        ]
       ],
       "fill": [
-        229,
-        49,
-        109
+        250,
+        250,
+        248
       ],
-      "fore_color": [
-        32,
-        119,
-        149
-      ],
-      "pattern": 19,
-      "style": "pattern",
-      "theme_topic": "Peace Wind"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Versed Eight"
     },
     "type": "background",
     "z_order": 0
@@ -41,73 +45,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.0546,
-        "w": 3.2159,
-        "x": 8.7638,
-        "y": 0.9712
+        "h": 5.1874,
+        "w": 6.1662,
+        "x": 5.0481,
+        "y": 2.9712
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "ribbons",
         "fill": [
-          226,
-          54,
-          72
+          140,
+          173,
+          206
         ],
         "focus": false,
         "line": [
-          100,
-          161,
-          157
+          125,
+          165,
+          107
         ],
-        "line_width": 5.3218768903925,
-        "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Peace Wind"
+        "line_width": 2.60794412934131,
+        "outline_only": true,
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Versed Eight"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.5419,
-        "w": 9.3241,
-        "x": 1.5854,
-        "y": 0.7922
+        "h": 3.0194,
+        "w": 7.3364,
+        "x": 2.1547,
+        "y": -0.2072
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "callouts",
         "fill": [
-          232,
-          80,
-          131
+          157,
+          119,
+          161
         ],
+        "focus": false,
         "line": [
-          235,
-          98,
-          143
+          53,
+          178,
+          57
         ],
-        "line_width": 0.9052715001229849,
+        "line_width": 5.9741068531564405,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Peace Wind"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Versed Eight"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.8831,
-        "w": 3.6067,
-        "x": 0.9957,
-        "y": 0.9013
+        "h": 0.9119,
+        "w": 4.6327,
+        "x": 5.0302,
+        "y": 1.1106
       },
       "id": "object_003",
       "properties": {
@@ -115,17 +120,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          28,
+          28
         ],
-        "font_face": "Georgia",
-        "font_size": 24,
+        "font_face": "Trebuchet MS",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Fool Necessary Likeable",
-        "theme_topic": "Peace Wind",
+        "text": "Unknown Unknown Dirty Afterthought",
+        "theme_topic": "Versed Eight",
         "underline": false
       },
       "type": "text",
@@ -133,88 +138,86 @@
     },
     {
       "bbox": {
-        "h": 2.237,
-        "w": 2.5529,
-        "x": 3.5411,
-        "y": 1.4227
+        "h": 0.8911,
+        "w": 2.6309,
+        "x": 1.5825,
+        "y": 1.9471
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.030910282598373078,
-          0.2668392061563381,
-          0.06995111516785835,
-          0.1336039101393753
-        ],
-        "focus": false,
-        "mask_line": [
-          47,
-          192,
-          62
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Peace Wind",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.2617,
-        "w": 2.9264,
-        "x": 6.4335,
-        "y": 1.4436
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          32,
-          119,
-          149
-        ],
-        "line": [
-          235,
-          98,
-          143
-        ],
-        "line_width": 2.2275717752889275,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Peace Wind"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.8322,
-        "w": 2.5493,
-        "x": 6.613,
-        "y": 1.922
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          229,
-          49,
-          109
+          28,
+          28,
+          28
         ],
-        "font_face": "Georgia",
-        "font_size": 45,
+        "font_face": "Trebuchet MS",
+        "font_size": 18,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Fit Sisters Rare Irritate Clever",
+        "theme_topic": "Versed Eight",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.3957,
+        "w": 3.1272,
+        "x": 8.9208,
+        "y": 3.4845
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          47,
+          146,
+          214
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 19,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "89%",
-        "theme_topic": "Peace Wind",
+        "text": "Pickle Icky Numerous",
+        "theme_topic": "Versed Eight",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.4219,
+        "w": 3.0986,
+        "x": 8.9065,
+        "y": 4.1504
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          115,
+          115
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "red cream snatch realize great trade colour sturdy majestic vivacious eatable accept utopian berry penitent screw thing dapper grandmother",
+        "theme_topic": "Versed Eight",
         "underline": false
       },
       "type": "text",

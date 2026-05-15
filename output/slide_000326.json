@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 135,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          127,
-          146,
-          206
-        ],
-        [
-          174,
-          73,
-          92
-        ]
+      "back_color": [
+        196,
+        113,
+        146
       ],
       "fill": [
-        183,
-        86,
-        189
+        245,
+        247,
+        252
       ],
-      "focus": "top_right",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Breakable"
+      "fore_color": [
+        82,
+        96,
+        214
+      ],
+      "pattern": 35,
+      "style": "pattern",
+      "theme_topic": "Potato"
     },
     "type": "background",
     "z_order": 0
@@ -45,10 +41,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.7951,
-        "w": 5.17,
-        "x": 8.607,
-        "y": 3.6252
+        "h": 4.9482,
+        "w": 5.6827,
+        "x": 8.5602,
+        "y": 1.3631
       },
       "id": "object_001",
       "properties": {
@@ -56,141 +52,140 @@
         "dash": 1,
         "family": "arrows",
         "fill": [
-          112,
-          69,
-          197
+          175,
+          102,
+          227
         ],
         "focus": false,
         "line": [
-          77,
-          226,
-          77
+          129,
+          150,
+          40
         ],
-        "line_width": 2.179412128187436,
-        "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Breakable"
+        "line_width": 3.8758037392163454,
+        "outline_only": false,
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Potato"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.3354,
-        "w": 4.7662,
-        "x": 3.2096,
-        "y": 0.298
+        "h": 0.9643,
+        "w": 13.3274,
+        "x": -0.0019,
+        "y": -0.0178
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "stars",
+        "dash": 5,
+        "family": "panel",
         "fill": [
-          176,
-          104,
-          191
+          232,
+          237,
+          247
         ],
-        "focus": false,
         "line": [
-          188,
-          80,
-          174
+          232,
+          237,
+          247
         ],
-        "line_width": 6.433943871857731,
+        "line_width": 2.280990793516095,
         "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Breakable"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Potato"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1509,
-        "w": 6.7897,
-        "x": 0.5322,
-        "y": 0.3281
+        "h": 2.4631,
+        "w": 12.2211,
+        "x": 0.5463,
+        "y": 4.5551
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          82,
+          96,
+          214
+        ],
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 0.4984579298908009,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Potato"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.9528,
+        "w": 11.8837,
+        "x": 0.7386,
+        "y": 5.0335
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          27,
+          44,
+          68
         ],
         "font_face": "Arial",
-        "font_size": 34,
+        "font_size": 47,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Cream Volleyball Needle Mate",
-        "theme_topic": "Breakable",
+        "text": "61%",
+        "theme_topic": "Potato",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.4754,
-        "w": 5.0397,
-        "x": 0.558,
-        "y": 1.8355
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          172,
-          86,
-          192
-        ],
-        "line": [
-          160,
-          75,
-          166
-        ],
-        "line_width": 1.9512077318908598,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Breakable"
-      },
-      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.6465,
-        "w": 4.6695,
-        "x": 0.7355,
-        "y": 2.0502
+        "h": 0.5808,
+        "w": 11.8815,
+        "x": 0.74,
+        "y": 6.0007
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          174,
-          73,
-          92
+          27,
+          44,
+          68
         ],
         "font_face": "Arial",
-        "font_size": 32,
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "94",
-        "theme_topic": "Breakable",
+        "text": "alarm rhyme sisters attach sable depend afraid nappy",
+        "theme_topic": "Potato",
         "underline": false
       },
       "type": "text",
@@ -198,10 +193,10 @@
     },
     {
       "bbox": {
-        "h": 0.4845,
-        "w": 4.6754,
-        "x": 0.7076,
-        "y": 2.7827
+        "h": 1.7047,
+        "w": 3.6499,
+        "x": 0.7429,
+        "y": 2.3792
       },
       "id": "object_006",
       "properties": {
@@ -209,17 +204,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          97,
-          55,
-          104
+          103,
+          117,
+          137
         ],
         "font_face": "Arial",
-        "font_size": 13,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "protest business vessel voice deafening hurry",
-        "theme_topic": "Breakable",
+        "text": "throat entertain ceaseless miniature fluttering spooky top",
+        "theme_topic": "Potato",
         "underline": false
       },
       "type": "text",
@@ -227,70 +222,70 @@
     },
     {
       "bbox": {
-        "h": 1.2188,
-        "w": 12.2156,
-        "x": 0.566,
-        "y": 5.7481
+        "h": 1.7305,
+        "w": 3.5765,
+        "x": 4.936,
+        "y": 2.3828
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          160,
-          75,
-          166
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          117,
+          137
         ],
-        "line": [
-          160,
-          75,
-          166
-        ],
-        "line_width": 1.136587810704934,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Breakable"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "spring leather eye pop",
+        "theme_topic": "Potato",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.3972,
-        "w": 11.8666,
-        "x": 0.7336,
-        "y": 6.0645
+        "h": 2.7309,
+        "w": 3.8981,
+        "x": 8.9011,
+        "y": 1.4455
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          183,
-          86,
-          189
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          199,
+          204,
+          241
         ],
-        "font_face": "Arial",
-        "font_size": 19,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "27%",
-        "theme_topic": "Breakable",
-        "underline": false
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 1.060049580977765,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Potato"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2632,
-        "w": 11.8486,
-        "x": 0.7349,
-        "y": 6.4824
+        "h": 1.7367,
+        "w": 3.5318,
+        "x": 9.0623,
+        "y": 2.3894
       },
       "id": "object_009",
       "properties": {
@@ -298,17 +293,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          103,
+          117,
+          137
         ],
         "font_face": "Arial",
         "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "zephyr eminent board scissors macho fearful jar belong",
-        "theme_topic": "Breakable",
+        "text": "route live good instrument past",
+        "theme_topic": "Potato",
         "underline": false
       },
       "type": "text",

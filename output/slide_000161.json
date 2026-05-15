@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        129,
-        174,
-        122
+      "back_color": [
+        185,
+        98,
+        175
       ],
-      "style": "solid",
-      "theme_topic": "Nauseating"
+      "fill": [
+        185,
+        98,
+        175
+      ],
+      "fore_color": [
+        255,
+        211,
+        88
+      ],
+      "pattern": 8,
+      "style": "pattern",
+      "theme_topic": "Efficient"
     },
     "type": "background",
     "z_order": 0
@@ -30,70 +41,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.2803,
-        "w": 8.6677,
-        "x": 0.5574,
-        "y": 0.3734
+        "h": 1.9256,
+        "w": 3.8054,
+        "x": 8.4824,
+        "y": 3.7981
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          137,
+          192,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 41,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Rely Ripe Tin",
-        "theme_topic": "Nauseating",
-        "underline": false
+        "focus": false,
+        "line": [
+          154,
+          52,
+          206
+        ],
+        "line_width": 3.4028517273819414,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Efficient"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.1446,
-        "w": 5.8272,
-        "x": 0.5429,
-        "y": 1.8509
+        "h": 3.2732,
+        "w": 8.2979,
+        "x": 4.4751,
+        "y": 4.7109
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          154,
-          190,
-          148
+          178,
+          94,
+          184
         ],
+        "focus": false,
         "line": [
-          154,
-          190,
-          148
+          47,
+          38,
+          203
         ],
-        "line_width": 0.9779888731402183,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Nauseating"
+        "line_width": 5.849591954404155,
+        "outline_only": true,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Efficient"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.8843,
-        "w": 5.5067,
-        "x": 0.7233,
-        "y": 1.9688
+        "h": 2.745,
+        "w": 7.184,
+        "x": 3.1369,
+        "y": 3.5883
       },
       "id": "object_003",
       "properties": {
@@ -106,12 +121,12 @@
         ],
         "focus": true,
         "mask_line": [
-          162,
-          112,
-          191
+          71,
+          221,
+          181
         ],
-        "mask_overlay": true,
-        "theme_topic": "Nauseating",
+        "mask_overlay": false,
+        "theme_topic": "Efficient",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -119,10 +134,10 @@
     },
     {
       "bbox": {
-        "h": 1.0392,
-        "w": 5.6991,
-        "x": 6.9212,
-        "y": 2.4687
+        "h": 0.7083,
+        "w": 3.1639,
+        "x": 1.8973,
+        "y": 3.1416
       },
       "id": "object_004",
       "properties": {
@@ -134,13 +149,13 @@
           30,
           36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
+        "font_face": "Georgia",
+        "font_size": 38,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Brown Stuff Abaft Humorous",
-        "theme_topic": "Nauseating",
+        "text": "10x",
+        "theme_topic": "Efficient",
         "underline": false
       },
       "type": "text",
@@ -148,31 +163,31 @@
     },
     {
       "bbox": {
-        "h": 3.1101,
-        "w": 5.7069,
-        "x": 6.9151,
-        "y": 3.7668
+        "h": 1.2648,
+        "w": 3.2039,
+        "x": 3.5481,
+        "y": 5.623
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          73,
-          94,
-          74
+        "crop": [
+          0.26981804190659814,
+          0.24563001063843923,
+          0.14536843283098422,
+          0.005829392158385606
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "stream tiny scared cattle mug damaged agreement rail skin naive exultant protective call questionable abstracted tight",
-        "theme_topic": "Nauseating",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          71,
+          221,
+          181
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Efficient",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 5
     }
   ],

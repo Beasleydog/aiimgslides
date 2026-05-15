@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
+      "back_color": [
+        230,
+        50,
+        78
+      ],
       "fill": [
         240,
         176,
         54
       ],
-      "style": "solid",
-      "theme_topic": "Ship"
+      "fore_color": [
+        156,
+        141,
+        52
+      ],
+      "pattern": 10,
+      "style": "pattern",
+      "theme_topic": "Overflow"
     },
     "type": "background",
     "z_order": 0
@@ -30,375 +41,126 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.257,
-        "w": 5.0318,
-        "x": 5.1857,
-        "y": 5.0826
+        "h": 7.5001,
+        "w": 6.4404,
+        "x": 0.0044,
+        "y": 0.0137
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          153,
-          180,
-          152
+          249,
+          203,
+          91
         ],
-        "focus": false,
         "line": [
-          193,
-          162,
-          149
+          249,
+          203,
+          91
         ],
-        "line_width": 3.870796111762865,
+        "line_width": 0.8213534381295933,
         "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Ship"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Overflow"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.2632,
-        "w": 7.1232,
-        "x": 7.3854,
-        "y": 3.2186
+        "h": 0.9018,
+        "w": 4.5749,
+        "x": 0.9763,
+        "y": 0.9663
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
-        "fill": [
-          170,
-          155,
-          94
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          40,
+          38,
+          28
         ],
-        "focus": false,
-        "line": [
-          153,
-          183,
-          32
-        ],
-        "line_width": 7.315160597363882,
-        "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Ship"
+        "font_face": "Georgia",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Enchanted Military",
+        "theme_topic": "Overflow",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.7861,
-        "w": 7.7159,
-        "x": -0.0762,
-        "y": 3.0303
+        "h": 2.7147,
+        "w": 12.2655,
+        "x": 0.5546,
+        "y": 1.4202
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          80,
-          136,
-          199
-        ],
-        "focus": false,
+        "clip": "hex",
+        "focus": true,
         "line": [
-          49,
-          88,
-          149
+          178,
+          200,
+          40
         ],
-        "line_width": 3.231390973557577,
-        "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Ship"
+        "line_width": 13,
+        "theme_topic": "Overflow"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.0111,
-        "w": 8.8278,
-        "x": 0.5698,
-        "y": 1.5945
+        "h": 2.3804,
+        "w": 5.757,
+        "x": 0.5308,
+        "y": 4.6042
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 3,
         "family": "panel",
         "fill": [
-          245,
-          193,
-          78
+          32,
+          119,
+          149
         ],
         "line": [
           249,
           203,
           91
         ],
-        "line_width": 2.0949450794181046,
+        "line_width": 3.79475382952121,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Ship"
+        "theme_topic": "Overflow"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.5625,
-        "w": 2.8688,
-        "x": 0.6506,
-        "y": 0.7665
+        "h": 0.9035,
+        "w": 5.4252,
+        "x": 0.7329,
+        "y": 5.131
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          40,
-          38,
-          28
-        ],
-        "font_face": "Georgia",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Settle Ambitious Steel",
-        "theme_topic": "Ship",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.0164,
-        "w": 2.4413,
-        "x": 3.9187,
-        "y": 0.7703
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          40,
-          38,
-          28
-        ],
-        "font_face": "Georgia",
-        "font_size": 28,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Station Prose Shiny",
-        "theme_topic": "Ship",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.4469,
-        "w": 2.4724,
-        "x": 3.8849,
-        "y": 2.0488
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
-        ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "acidic spoil squash exist excuse abortive icky borrow adjustment oil graceful breezy zinc idea thoughtful form funny imaginary volatile",
-        "theme_topic": "Ship",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 2.9485,
-        "w": 2.773,
-        "x": 9.9814,
-        "y": 3.9435
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          249,
-          203,
-          91
-        ],
-        "line": [
-          249,
-          203,
-          91
-        ],
-        "line_width": 0.9200488089961935,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Ship"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.1744,
-        "w": 2.3727,
-        "x": 10.137,
-        "y": 4.5354
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          240,
-          176,
-          54
-        ],
-        "font_face": "Georgia",
-        "font_size": 46,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "807",
-        "theme_topic": "Ship",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.6974,
-        "w": 2.3852,
-        "x": 10.1458,
-        "y": 5.7496
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          40,
-          38,
-          28
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "damp mate realize vanish dad shiver design punishment measure",
-        "theme_topic": "Ship",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 2.9329,
-        "w": 2.7465,
-        "x": 3.7265,
-        "y": 3.9567
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.12391944332733154,
-          0.2252830345777501,
-          0.11199299208454824,
-          0.11719679921361675
-        ],
-        "focus": true,
-        "mask_line": [
-          147,
-          218,
-          224
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Ship",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 2.9621,
-        "w": 2.7652,
-        "x": 6.8443,
-        "y": 0.6387
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          249,
-          203,
-          91
-        ],
-        "line": [
-          249,
-          203,
-          91
-        ],
-        "line_width": 5.383765552227537,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Ship"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.1276,
-        "w": 2.4168,
-        "x": 7.0588,
-        "y": 1.2626
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -413,21 +175,21 @@
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "2x",
-        "theme_topic": "Ship",
+        "text": "48%",
+        "theme_topic": "Overflow",
         "underline": false
       },
       "type": "text",
-      "z_order": 13
+      "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.6924,
-        "w": 2.4073,
-        "x": 7.0665,
-        "y": 2.4427
+        "h": 0.5654,
+        "w": 5.4136,
+        "x": 0.7162,
+        "y": 6.0373
       },
-      "id": "object_014",
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -438,38 +200,294 @@
           28
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "plant lively muddle abrasive muddled blue-eyed hill",
-        "theme_topic": "Ship",
+        "text": "sense stone amusing charming morning loaf jumbled",
+        "theme_topic": "Overflow",
         "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 2.3924,
+        "w": 6.2186,
+        "x": 6.5675,
+        "y": 4.6162
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          32,
+          119,
+          149
+        ],
+        "line": [
+          249,
+          203,
+          91
+        ],
+        "line_width": 3.3148138969419603,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Overflow"
+      },
+      "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.9151,
+        "w": 5.877,
+        "x": 6.7295,
+        "y": 5.1165
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          240,
+          176,
+          54
+        ],
+        "font_face": "Georgia",
+        "font_size": 39,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "68%",
+        "theme_topic": "Overflow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.5612,
+        "w": 5.877,
+        "x": 6.7579,
+        "y": 6.0723
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          40,
+          38,
+          28
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "dime sin pricey insect oranges madly theory writing handsome",
+        "theme_topic": "Overflow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.6129,
+        "w": 1.5957,
+        "x": 11.4648,
+        "y": 3.479
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          51,
+          39,
+          197
+        ],
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "design receipt",
+        "theme_topic": "Overflow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.7365,
+        "w": 1.0006,
+        "x": 1.2566,
+        "y": 5.489
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          157,
+          228,
+          136
+        ],
+        "focus": false,
+        "line": [
+          153,
+          224,
+          106
+        ],
+        "line_width": 3.500236908649423,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Overflow"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.508,
+        "w": 1.1765,
+        "x": 2.4414,
+        "y": 2.5297
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          129,
+          65,
+          197
+        ],
+        "focus": false,
+        "line": [
+          172,
+          68,
+          134
+        ],
+        "line_width": 0.5899303875578116,
+        "outline_only": true,
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Overflow"
+      },
+      "type": "shape",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.5705,
+        "w": 0.8517,
+        "x": 7.7952,
+        "y": 1.9339
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          80,
+          153,
+          98
+        ],
+        "focus": false,
+        "line": [
+          191,
+          82,
+          223
+        ],
+        "line_width": 5.644149752259141,
+        "outline_only": false,
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Overflow"
+      },
+      "type": "shape",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.3392,
+        "w": 0.8166,
+        "x": 9.5904,
+        "y": 3.772
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          46,
+          148,
+          36
+        ],
+        "bold": false,
+        "color": [
+          227,
+          120,
+          188
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Trousers",
+        "theme_topic": "Overflow",
+        "underline": true
       },
       "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 2.9302,
-        "w": 2.7354,
-        "x": 9.9529,
-        "y": 0.6659
+        "h": 0.8938,
+        "w": 1.2225,
+        "x": 4.3607,
+        "y": 5.7515
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          187,
-          124,
-          48
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          36,
+          106,
+          177
         ],
-        "line_width": 12,
-        "theme_topic": "Ship"
+        "focus": false,
+        "line": [
+          32,
+          119,
+          149
+        ],
+        "line_width": 0.6477935614086326,
+        "outline_only": false,
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Overflow"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 15
     }
   ],

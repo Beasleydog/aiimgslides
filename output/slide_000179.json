@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "fill": [
-        181,
-        124,
-        75
+      "colors": [
+        [
+          250,
+          250,
+          248
+        ],
+        [
+          38,
+          132,
+          88
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Quickest"
+      "fill": [
+        250,
+        250,
+        248
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Gate"
     },
     "type": "background",
     "z_order": 0
@@ -30,181 +45,133 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.4945,
-        "w": 13.3242,
-        "x": -0.0175,
-        "y": 4.1882
+        "h": 3.4292,
+        "w": 7.4531,
+        "x": 3.1305,
+        "y": 0.5098
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          204,
-          166,
-          133
+          103,
+          170,
+          170
         ],
+        "focus": false,
         "line": [
-          204,
-          166,
-          133
+          63,
+          75,
+          48
         ],
-        "line_width": 1.2449085966679383,
+        "line_width": 7.215902050398237,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Quickest"
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Gate"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0756,
-        "w": 5.0327,
-        "x": 0.5532,
-        "y": 0.3358
+        "h": 0.9903,
+        "w": 13.3377,
+        "x": 0.0047,
+        "y": 0.0136
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          239,
+          239,
+          235
+        ],
+        "line": [
+          239,
+          239,
+          235
+        ],
+        "line_width": 1.7554430273647517,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Gate"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.1148,
+        "w": 8.193,
+        "x": 0.5378,
+        "y": 0.3362
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          28,
+          28
         ],
-        "font_face": "Aptos Display",
-        "font_size": 42,
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Rightful Creature",
-        "theme_topic": "Quickest",
+        "text": "Enthusiastic Destroy Steel",
+        "theme_topic": "Gate",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.5792,
-        "w": 12.142,
-        "x": 0.5933,
-        "y": 4.3343
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          204,
-          166,
-          133
-        ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          204,
-          166,
-          133
-        ],
-        "border": [
-          138,
-          202,
-          121
-        ],
-        "border_dash": "solid",
-        "border_width": 0.4494932455877201,
-        "cells": [
-          [
-            "tenuous science",
-            "disillusioned apparatus",
-            "toe",
-            "daffy",
-            "sink",
-            "broken measure"
-          ],
-          [
-            "bucket swing",
-            "wrist auspicious",
-            "fluttering possess",
-            "acoustics bait",
-            "scarce",
-            "rub cultured"
-          ],
-          [
-            "bit square",
-            "dazzling soft",
-            "drab",
-            "tearful",
-            "company snow",
-            "impartial wakeful"
-          ],
-          [
-            "real",
-            "spill",
-            "night",
-            "invite",
-            "compare zany",
-            "merciful"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 9,
-        "has_header": true,
-        "header": [
-          43,
-          104,
-          212
-        ],
-        "rows": 4,
-        "text_color": [
-          202,
-          94,
-          108
-        ],
-        "theme_topic": "Quickest"
-      },
-      "type": "table",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.7098,
-        "w": 2.3947,
-        "x": 0.61,
-        "y": 3.0402
+        "h": 5.163,
+        "w": 2.1894,
+        "x": 0.5503,
+        "y": 1.8522
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          239,
+          239,
+          235
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "present slave inform petite",
-        "theme_topic": "Quickest",
-        "underline": false
+        "line": [
+          239,
+          239,
+          235
+        ],
+        "line_width": 3.5039079690213843,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Gate"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.6967,
-        "w": 2.8283,
-        "x": 3.2985,
-        "y": 3.0166
+        "h": 3.118,
+        "w": 1.9109,
+        "x": 10.7556,
+        "y": 3.766
       },
       "id": "object_005",
       "properties": {
@@ -212,17 +179,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          115,
+          115,
+          115
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "apologise pocket flagrant beautiful",
-        "theme_topic": "Quickest",
+        "text": "dogs rare curve hose afford choke observant men shop race chicken quizzical flimsy girls cheap mere invite park invite unequal noiseless",
+        "theme_topic": "Gate",
         "underline": false
       },
       "type": "text",

@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
+      "back_color": [
+        72,
+        48,
+        138
+      ],
       "fill": [
-        198,
+        61,
         64,
         91
       ],
-      "style": "solid",
-      "theme_topic": "Attack"
+      "fore_color": [
+        36,
+        178,
+        149
+      ],
+      "pattern": 51,
+      "style": "pattern",
+      "theme_topic": "Simplistic Teeny-Tiny"
     },
     "type": "background",
     "z_order": 0
@@ -30,25 +41,33 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.0558,
-        "w": 7.1078,
-        "x": 0.5354,
-        "y": 1.9838
+        "h": 5.0672,
+        "w": 6.4484,
+        "x": 0.5318,
+        "y": 2.0187
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": true,
-        "line": [
-          95,
-          200,
-          188
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          127,
+          129,
+          147
         ],
-        "line_width": 18,
-        "theme_topic": "Attack"
+        "line": [
+          127,
+          129,
+          147
+        ],
+        "line_width": 1.557008822844086,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Simplistic Teeny-Tiny"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 1
     }
   ],

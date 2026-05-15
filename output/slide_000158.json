@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
+      "angle": 120,
       "archetype": "atomic_composition",
       "colors": [
         [
-          139,
-          78,
-          190
+          59,
+          225,
+          222
         ],
         [
-          184,
-          192,
-          163
+          255,
+          206,
+          86
         ]
       ],
       "fill": [
-        120,
-        58,
-        170
+        59,
+        225,
+        222
       ],
-      "focus": "center",
-      "gradient_type": "rectangular",
+      "focus": "bottom_left",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "War"
+      "theme_topic": "Bouncy"
     },
     "type": "background",
     "z_order": 0
@@ -45,124 +45,127 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.9522,
-        "w": 5.515,
-        "x": 0.0083,
-        "y": -0.0023
+        "h": 4.8513,
+        "w": 8.5149,
+        "x": -1.1421,
+        "y": 1.0759
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 5,
+        "family": "arrows",
         "fill": [
-          139,
-          78,
+          143,
+          92,
           190
         ],
+        "focus": false,
         "line": [
-          139,
-          78,
-          190
+          27,
+          190,
+          156
         ],
-        "line_width": 1.9125750608699024,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "War"
+        "line_width": 6.582591904285965,
+        "outline_only": true,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Bouncy"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.5689,
-        "w": 2.8513,
-        "x": 0.653,
-        "y": 0.7274
+        "h": 3.3262,
+        "w": 5.3729,
+        "x": -0.5551,
+        "y": -0.182
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          250,
-          255
+        "dash": 4,
+        "family": "symbols",
+        "fill": [
+          49,
+          153,
+          145
         ],
-        "font_face": "Aptos Display",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Argument Downtown",
-        "theme_topic": "War",
-        "underline": false
+        "focus": false,
+        "line": [
+          133,
+          136,
+          214
+        ],
+        "line_width": 3.6424448640870164,
+        "outline_only": false,
+        "ppt_type": 22,
+        "shape": "lightning",
+        "theme_topic": "Bouncy"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.3689,
-        "w": 4.6779,
-        "x": 3.7525,
-        "y": 2.4371
+        "h": 4.3799,
+        "w": 3.823,
+        "x": 2.526,
+        "y": 0.0346
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          139,
-          78,
-          190
+          61,
+          105,
+          136
         ],
+        "focus": false,
         "line": [
-          139,
-          78,
-          190
+          190,
+          142,
+          97
         ],
-        "line_width": 1.8377350051317964,
+        "line_width": 2.235620627268666,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "War"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Bouncy"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.8637,
-        "w": 4.6827,
-        "x": 3.7398,
-        "y": 5.0355
+        "h": 5.808,
+        "w": 3.2087,
+        "x": 9.3777,
+        "y": 0.6303
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 1.5515929999907685,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "War"
+        "font_face": "Georgia",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Tail Death Pastoral",
+        "theme_topic": "Bouncy",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     }
   ],

@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
+      "angle": 120,
       "archetype": "atomic_composition",
       "colors": [
         [
-          210,
-          140,
-          101
+          198,
+          64,
+          91
         ],
         [
-          48,
-          78,
-          140
+          82,
+          96,
+          214
         ]
       ],
       "fill": [
-        62,
-        92,
-        142
+        198,
+        64,
+        91
       ],
-      "focus": "bottom_left",
+      "focus": "top_left",
       "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Pine"
+      "theme_topic": "Murder Shut"
     },
     "type": "background",
     "z_order": 0
@@ -45,43 +45,139 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.2861,
-        "w": 8.7365,
-        "x": 1.5672,
-        "y": 1.3605
+        "h": 4.5388,
+        "w": 5.6874,
+        "x": 8.0962,
+        "y": 3.4405
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "symbols",
         "fill": [
-          98,
-          123,
-          163
+          209,
+          57,
+          86
         ],
+        "focus": false,
         "line": [
-          118,
-          140,
-          175
+          221,
+          197,
+          120
         ],
-        "line_width": 4.764493193588963,
+        "line_width": 4.012629428071767,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Pine"
+        "ppt_type": 14,
+        "shape": "cube",
+        "theme_topic": "Murder Shut"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0408,
-        "w": 5.8681,
-        "x": 0.5601,
-        "y": 0.3419
+        "h": 4.9493,
+        "w": 3.1547,
+        "x": 1.6718,
+        "y": 0.8766
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "arrows",
+        "fill": [
+          216,
+          103,
+          172
+        ],
+        "focus": false,
+        "line": [
+          25,
+          195,
+          91
+        ],
+        "line_width": 4.878631812577466,
+        "outline_only": true,
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Murder Shut"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 3.0808,
+        "w": 8.3172,
+        "x": 2.3795,
+        "y": 3.3747
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "stars",
+        "fill": [
+          218,
+          40,
+          74
+        ],
+        "focus": false,
+        "line": [
+          37,
+          168,
+          179
+        ],
+        "line_width": 2.678044116560117,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Murder Shut"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 4.4614,
+        "w": 7.3358,
+        "x": 0.0102,
+        "y": 3.0479
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          215,
+          123,
+          142
+        ],
+        "line": [
+          215,
+          123,
+          142
+        ],
+        "line_width": 0.9278779805799554,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Murder Shut"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.9095,
+        "w": 6.2437,
+        "x": 1.1045,
+        "y": 0.4786
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -91,94 +187,13 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 29,
+        "font_face": "Arial",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Mindless Ambiguous Elfin Toy",
-        "theme_topic": "Pine",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.429,
-        "w": 3.9069,
-        "x": 8.8558,
-        "y": 1.8595
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          150,
-          157,
-          123
-        ],
-        "line_width": 15,
-        "theme_topic": "Pine"
-      },
-      "type": "svg_image",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.8387,
-        "w": 3.6025,
-        "x": 4.8734,
-        "y": 1.9531
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          48,
-          39,
-          185
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 23,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Roomy Gorgeous Upbeat",
-        "theme_topic": "Pine",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.1105,
-        "w": 3.6104,
-        "x": 4.8479,
-        "y": 3.0613
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          163,
-          177,
-          202
-        ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "sharp leather shiver stroke doubt writing defeated minute capable fry payment hook resolute wrathful",
-        "theme_topic": "Pine",
+        "text": "Power Feeble Ready Cake",
+        "theme_topic": "Murder Shut",
         "underline": false
       },
       "type": "text",
@@ -186,64 +201,113 @@
     },
     {
       "bbox": {
-        "h": 2.4512,
-        "w": 3.9377,
-        "x": 8.8891,
-        "y": 4.5396
+        "h": 3.0463,
+        "w": 6.3344,
+        "x": 6.4193,
+        "y": 4.0091
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          255,
-          238,
-          103
+        "crop": [
+          0.2565214512508965,
+          0.15155368038947517,
+          0.014999967145629078,
+          0.24295656911634544
         ],
-        "line_width": 12,
-        "theme_topic": "Pine"
+        "focus": true,
+        "mask_line": [
+          82,
+          96,
+          214
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Murder Shut",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg_image",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.4665,
-        "w": 3.9336,
-        "x": 0.539,
-        "y": 1.8614
+        "h": 5.4264,
+        "w": 5.2107,
+        "x": 0.5825,
+        "y": 1.4774
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          255,
-          238,
-          103
+        "band": [
+          126,
+          206,
+          182
         ],
-        "line": [
-          118,
-          140,
-          175
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          215,
+          123,
+          142
         ],
-        "line_width": 0.9068962488706217,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Pine"
+        "border": [
+          136,
+          89,
+          45
+        ],
+        "border_dash": "solid",
+        "border_width": 2.529085958889823,
+        "cells": [
+          [
+            "holiday reminiscent",
+            "loud straight"
+          ],
+          [
+            "bow rinse",
+            "tearful credit"
+          ],
+          [
+            "faulty detailed",
+            "approval scare"
+          ],
+          [
+            "real",
+            "year"
+          ],
+          [
+            "pinch",
+            "smart"
+          ],
+          [
+            "verdant somber",
+            "gifted"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 14,
+        "has_header": true,
+        "header": [
+          82,
+          96,
+          214
+        ],
+        "rows": 6,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Murder Shut"
       },
-      "type": "shape",
+      "type": "table",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.9248,
-        "w": 3.5432,
-        "x": 0.7261,
-        "y": 2.373
+        "h": 0.7632,
+        "w": 6.0578,
+        "x": 6.5916,
+        "y": 1.5888
       },
       "id": "object_008",
       "properties": {
@@ -255,13 +319,13 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 45,
+        "font_face": "Arial",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "43%",
-        "theme_topic": "Pine",
+        "text": "Friendly Afraid Bed Hysterical",
+        "theme_topic": "Murder Shut",
         "underline": false
       },
       "type": "text",
@@ -269,10 +333,10 @@
     },
     {
       "bbox": {
-        "h": 0.5645,
-        "w": 3.5313,
-        "x": 0.7135,
-        "y": 3.349
+        "h": 0.9594,
+        "w": 6.0471,
+        "x": 6.5633,
+        "y": 2.5595
       },
       "id": "object_009",
       "properties": {
@@ -280,17 +344,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          224,
+          165,
+          179
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "jaded like grotesque release wakeful preserve combative",
-        "theme_topic": "Pine",
+        "text": "squeamish mate health overconfident zebra point hands flock tense battle penitent appear multiply signal quarter hang multiply gather turn preserve",
+        "theme_topic": "Murder Shut",
         "underline": false
       },
       "type": "text",
@@ -298,90 +362,92 @@
     },
     {
       "bbox": {
-        "h": 0.8027,
-        "w": 0.7763,
-        "x": 3.4273,
-        "y": 6.0189
+        "h": 0.3832,
+        "w": 1.1201,
+        "x": 10.3926,
+        "y": 1.7626
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          163,
-          177,
-          202
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          65,
+          160,
+          153
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "paint tickle digestion flame apathetic machine cent colour lettuce alive pigs",
-        "theme_topic": "Pine",
-        "underline": false
+        "focus": false,
+        "line": [
+          172,
+          81,
+          148
+        ],
+        "line_width": 3.501866939043987,
+        "outline_only": false,
+        "ppt_type": 49,
+        "shape": "striped_right_arrow",
+        "theme_topic": "Murder Shut"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5633,
-        "w": 1.746,
-        "x": 1.3961,
-        "y": 3.1592
+        "h": 0.5543,
+        "w": 0.4417,
+        "x": 6.4847,
+        "y": 5.4531
       },
       "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          54,
+          117,
+          156
+        ],
+        "focus": false,
+        "line": [
+          91,
+          221,
+          127
+        ],
+        "line_width": 5.004056154450459,
+        "outline_only": true,
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Murder Shut"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.6132,
+        "w": 0.5522,
+        "x": 5.0667,
+        "y": 0.4311
+      },
+      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          94,
-          173,
-          92
+          208,
+          91,
+          103
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "marked abstracted wilderness interesting border",
-        "theme_topic": "Pine",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.6425,
-        "w": 1.0284,
-        "x": 2.4606,
-        "y": 2.2375
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          51,
-          49,
-          205
-        ],
-        "bold": false,
-        "color": [
-          136,
-          115,
-          81
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "excuse expansion rub",
-        "theme_topic": "Pine",
+        "text": "unaccountable",
+        "theme_topic": "Murder Shut",
         "underline": false
       },
       "type": "text",
@@ -389,31 +455,27 @@
     },
     {
       "bbox": {
-        "h": 0.5666,
-        "w": 1.5764,
-        "x": 10.4883,
-        "y": 5.0259
+        "h": 0.6407,
+        "w": 1.4154,
+        "x": 4.8539,
+        "y": 0.7815
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
         "color": [
-          134,
-          213,
+          31,
+          124,
           214
         ],
-        "font_face": "Verdana",
-        "font_size": 5,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Waste Birds",
-        "theme_topic": "Pine",
-        "underline": false
+        "connector": "elbow",
+        "dash": 2,
+        "flip": false,
+        "ppt_type": 2,
+        "theme_topic": "Murder Shut",
+        "width": 2.212022360853513
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 13
     }
   ],

@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "fill": [
-        28,
-        71,
-        96
+      "colors": [
+        [
+          100,
+          36,
+          114
+        ],
+        [
+          56,
+          184,
+          136
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Waves Illegal"
+      "fill": [
+        31,
+        87,
+        166
+      ],
+      "focus": "center",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Activity"
     },
     "type": "background",
     "z_order": 0
@@ -30,42 +45,42 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.988,
-        "w": 5.8886,
-        "x": 0.8781,
-        "y": 2.3092
+        "h": 1.984,
+        "w": 6.9226,
+        "x": 1.8588,
+        "y": -0.7877
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "basic",
         "fill": [
-          54,
-          72,
-          71
+          154,
+          49,
+          85
         ],
         "focus": false,
         "line": [
-          144,
-          137,
-          168
+          50,
+          155,
+          216
         ],
-        "line_width": 5.42251339475086,
-        "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Waves Illegal"
+        "line_width": 5.8990144402005065,
+        "outline_only": true,
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Activity"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.7969,
-        "w": 3.2255,
-        "x": 6.358,
-        "y": 5.0444
+        "h": 1.865,
+        "w": 4.8508,
+        "x": 1.7688,
+        "y": 3.7496
       },
       "id": "object_002",
       "properties": {
@@ -73,33 +88,128 @@
         "dash": 1,
         "family": "arrows",
         "fill": [
-          177,
-          76,
-          112
+          139,
+          164,
+          82
         ],
         "focus": false,
         "line": [
-          119,
-          99,
-          25
+          75,
+          81,
+          161
         ],
-        "line_width": 7.628393965119391,
-        "outline_only": true,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Waves Illegal"
+        "line_width": 3.6586592454943094,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Activity"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9084,
-        "w": 5.0922,
-        "x": 0.7688,
-        "y": 5.8655
+        "h": 5.0317,
+        "w": 7.117,
+        "x": -0.8377,
+        "y": 0.6703
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          80,
+          177,
+          118
+        ],
+        "focus": false,
+        "line": [
+          100,
+          224,
+          164
+        ],
+        "line_width": 6.444787051394437,
+        "outline_only": false,
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Activity"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 3.8329,
+        "w": 6.8841,
+        "x": 4.244,
+        "y": 2.0442
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "math",
+        "fill": [
+          46,
+          80,
+          161
+        ],
+        "focus": false,
+        "line": [
+          61,
+          226,
+          170
+        ],
+        "line_width": 2.8617820659128554,
+        "outline_only": false,
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Activity"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 7.498,
+        "w": 1.1471,
+        "x": 12.1717,
+        "y": 0.0042
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          79,
+          123,
+          185
+        ],
+        "line": [
+          79,
+          123,
+          185
+        ],
+        "line_width": 2.772026972671882,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Activity"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.8819,
+        "w": 3.7978,
+        "x": 1.6133,
+        "y": 1.108
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -109,102 +219,13 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 32,
+        "font_face": "Trebuchet MS",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Cowardly Thin",
-        "theme_topic": "Waves Illegal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.265,
-        "w": 0.7777,
-        "x": 6.751,
-        "y": 2.3181
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          75,
-          25,
-          230
-        ],
-        "line": [
-          98,
-          128,
-          145
-        ],
-        "line_width": 2.041035570666104,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Waves Illegal"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.5603,
-        "w": 0.413,
-        "x": 6.9348,
-        "y": 2.4989
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Georgia",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "168",
-        "theme_topic": "Waves Illegal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.2473,
-        "w": 0.4254,
-        "x": 6.951,
-        "y": 3.2356
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          147,
-          168,
-          181
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "physical",
-        "theme_topic": "Waves Illegal",
+        "text": "Scarecrow Open Health Hand",
+        "theme_topic": "Activity",
         "underline": false
       },
       "type": "text",
@@ -212,332 +233,319 @@
     },
     {
       "bbox": {
-        "h": 1.2627,
-        "w": 0.9902,
-        "x": 7.7165,
-        "y": 2.3019
+        "h": 0.9395,
+        "w": 6.0069,
+        "x": 0.6257,
+        "y": 4.8586
       },
       "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.19692102194445646,
+          0.31936021650781815,
+          0.1282655377615948,
+          0.2370939258924649
+        ],
+        "focus": false,
+        "mask_line": [
+          29,
+          130,
+          192
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Activity",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.9603,
+        "w": 5.9875,
+        "x": 6.7381,
+        "y": 4.8497
+      },
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          29,
-          162,
-          141
+          79,
+          123,
+          185
         ],
         "line": [
-          98,
-          128,
-          145
+          79,
+          123,
+          185
         ],
-        "line_width": 4.796520784611989,
+        "line_width": 0.9007011145159057,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Waves Illegal"
+        "theme_topic": "Activity"
       },
       "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.585,
-        "w": 0.6042,
-        "x": 7.9324,
-        "y": 2.4666
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Georgia",
-        "font_size": 19,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "38%",
-        "theme_topic": "Waves Illegal",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.22,
-        "w": 0.5887,
-        "x": 7.9263,
-        "y": 3.231
+        "h": 0.6544,
+        "w": 5.6608,
+        "x": 6.9044,
+        "y": 5.0074
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          147,
-          168,
-          181
+        "crop": [
+          0.14559533834074176,
+          0.12586803162449506,
+          0.15434094501214082,
+          0.10900111254696161
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "dime various",
-        "theme_topic": "Waves Illegal",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          31,
+          117,
+          161
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Activity",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.5513,
-        "w": 0.3992,
-        "x": 9.0722,
-        "y": 2.4816
+        "h": 0.9753,
+        "w": 5.9831,
+        "x": 0.6117,
+        "y": 5.9864
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          79,
+          123,
+          185
         ],
-        "font_face": "Georgia",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "24%",
-        "theme_topic": "Waves Illegal",
-        "underline": false
+        "line": [
+          79,
+          123,
+          185
+        ],
+        "line_width": 1.4021043847944425,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Activity"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.2174,
-        "w": 0.407,
-        "x": 9.0599,
-        "y": 3.2082
+        "h": 0.686,
+        "w": 5.6901,
+        "x": 0.7578,
+        "y": 6.1581
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          147,
-          168,
-          181
+        "clip": "ticket",
+        "focus": false,
+        "line": [
+          83,
+          26,
+          132
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "enthusiastic",
-        "theme_topic": "Waves Illegal",
-        "underline": false
+        "line_width": 11,
+        "theme_topic": "Activity"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5485,
-        "w": 0.5009,
-        "x": 10.04,
-        "y": 2.4772
+        "h": 0.9305,
+        "w": 6.0141,
+        "x": 6.7267,
+        "y": 5.9683
       },
       "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "clip": "ticket",
+        "focus": false,
+        "line": [
+          31,
+          117,
+          161
+        ],
+        "line_width": 15,
+        "theme_topic": "Activity"
+      },
+      "type": "svg_image",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 2.9483,
+        "w": 6.5014,
+        "x": 6.2785,
+        "y": 1.4379
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          31,
+          117,
+          161
+        ],
+        "line": [
+          79,
+          123,
+          185
+        ],
+        "line_width": 2.004231319638208,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Activity"
+      },
+      "type": "shape",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 1.1604,
+        "w": 6.1434,
+        "x": 6.4816,
+        "y": 2.0658
+      },
+      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          31,
+          87,
+          166
         ],
-        "font_face": "Georgia",
-        "font_size": 19,
+        "font_face": "Trebuchet MS",
+        "font_size": 40,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "131",
-        "theme_topic": "Waves Illegal",
+        "text": "455",
+        "theme_topic": "Activity",
         "underline": false
       },
       "type": "text",
-      "z_order": 12
+      "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.2286,
-        "w": 0.4918,
-        "x": 10.0284,
-        "y": 3.2014
+        "h": 0.7229,
+        "w": 6.1557,
+        "x": 6.4714,
+        "y": 3.242
       },
-      "id": "object_013",
+      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          147,
-          168,
-          181
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Verdana",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "side",
-        "theme_topic": "Waves Illegal",
+        "text": "roomy rinse wooden sisters imagine",
+        "theme_topic": "Activity",
         "underline": false
       },
       "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 1.3032,
-        "w": 3.1305,
-        "x": 6.4396,
-        "y": 2.134
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.11077320357511561,
-          0.3197389611599962,
-          0.13688208386831807,
-          0.07315571785413866
-        ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Waves Illegal",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.7472,
-        "w": 0.8302,
-        "x": 10.2772,
-        "y": 5.9736
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "callouts",
-        "fill": [
-          88,
-          81,
-          218
-        ],
-        "focus": false,
-        "line": [
-          230,
-          184,
-          63
-        ],
-        "line_width": 5.956833296743035,
-        "outline_only": true,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Waves Illegal"
-      },
-      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.3005,
-        "w": 1.0775,
-        "x": 0.098,
-        "y": 2.9178
+        "h": 0.5205,
+        "w": 1.6206,
+        "x": 1.0992,
+        "y": 2.7648
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          109,
-          145,
-          91
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          226,
+          113,
+          54
         ],
-        "focus": false,
-        "line": [
-          75,
-          218,
-          49
-        ],
-        "line_width": 6.104946856321217,
-        "outline_only": false,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Waves Illegal"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Thirsty Connection Twist",
+        "theme_topic": "Activity",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.7414,
-        "w": 1.0321,
-        "x": 4.6371,
-        "y": 5.6427
+        "h": 0.2376,
+        "w": 0.8855,
+        "x": 1.8129,
+        "y": 0.7238
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "symbols",
-        "fill": [
-          150,
-          107,
-          219
+        "bg_color": [
+          103,
+          193,
+          198
         ],
-        "focus": false,
-        "line": [
-          141,
-          189,
-          201
+        "bold": false,
+        "color": [
+          45,
+          118,
+          215
         ],
-        "line_width": 2.0629823338626365,
-        "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Waves Illegal"
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Private Improve",
+        "theme_topic": "Activity",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     }
   ],

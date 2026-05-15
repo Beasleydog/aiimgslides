@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 270,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          232,
-          163,
-          45
-        ],
-        [
-          125,
-          201,
-          150
-        ]
+      "back_color": [
+        93,
+        104,
+        92
       ],
       "fill": [
-        232,
-        163,
-        45
+        212,
+        101,
+        30
       ],
-      "focus": "bottom_right",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Delicious Cakes"
+      "fore_color": [
+        100,
+        120,
+        51
+      ],
+      "pattern": 6,
+      "style": "pattern",
+      "theme_topic": "Actually"
     },
     "type": "background",
     "z_order": 0
@@ -45,126 +41,168 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5783,
-        "w": 4.9377,
-        "x": 2.0017,
-        "y": 2.1373
+        "h": 2.6278,
+        "w": 7.4131,
+        "x": 1.1883,
+        "y": 4.1398
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "basic",
         "fill": [
-          229,
-          160,
-          75
+          151,
+          79,
+          128
         ],
         "focus": false,
         "line": [
-          179,
-          182,
-          148
+          101,
+          217,
+          86
         ],
-        "line_width": 6.004608062474357,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Delicious Cakes"
+        "line_width": 7.028451108351625,
+        "outline_only": true,
+        "ppt_type": 103,
+        "shape": "wave",
+        "theme_topic": "Actually"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.7953,
-        "w": 6.7585,
-        "x": 1.5916,
-        "y": 3.0894
+        "h": 2.0778,
+        "w": 8.3912,
+        "x": 0.478,
+        "y": 5.1718
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "arrows",
         "fill": [
-          102,
-          75,
-          110
+          143,
+          140,
+          157
         ],
         "focus": false,
         "line": [
-          29,
-          100,
-          90
+          150,
+          219,
+          188
         ],
-        "line_width": 6.423661357079443,
+        "line_width": 5.0206234610442095,
         "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Delicious Cakes"
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Actually"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.5127,
-        "w": 5.6114,
-        "x": -0.0071,
-        "y": -0.0118
+        "h": 1.5605,
+        "w": 7.6225,
+        "x": 4.0788,
+        "y": 4.9051
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 7,
+        "family": "basic",
         "fill": [
-          185,
-          130,
-          35
+          129,
+          166,
+          83
         ],
+        "focus": false,
         "line": [
-          185,
-          130,
-          35
+          199,
+          36,
+          221
         ],
-        "line_width": 2.159690229214405,
+        "line_width": 2.6632186836953617,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Delicious Cakes"
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Actually"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5349,
-        "w": 2.8644,
-        "x": 0.6322,
-        "y": 0.7404
+        "h": 6.2839,
+        "w": 4.9461,
+        "x": 0.6036,
+        "y": 0.5945
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "band": [
+          104,
+          230,
+          50
         ],
-        "font_face": "Georgia",
-        "font_size": 19,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Cars Government Ad",
-        "theme_topic": "Delicious Cakes",
-        "underline": false
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          222,
+          139,
+          86
+        ],
+        "border": [
+          230,
+          181,
+          152
+        ],
+        "border_dash": "solid",
+        "border_width": 1.01071924656367,
+        "cells": [
+          [
+            "warlike",
+            "oatmeal jealous",
+            "bow"
+          ],
+          [
+            "perfect move",
+            "supply up",
+            "groovy existence"
+          ],
+          [
+            "foregoing shallow",
+            "relieved",
+            "squeamish"
+          ],
+          [
+            "crabby mark",
+            "unkempt",
+            "shock"
+          ]
+        ],
+        "cols": 3,
+        "font_size": 11,
+        "has_header": true,
+        "header": [
+          71,
+          221,
+          181
+        ],
+        "rows": 4,
+        "text_color": [
+          96,
+          61,
+          179
+        ],
+        "theme_topic": "Actually"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 4
     }
   ],

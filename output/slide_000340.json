@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "back_color": [
-        135,
-        129,
-        164
+      "colors": [
+        [
+          29,
+          151,
+          112
+        ],
+        [
+          31,
+          117,
+          161
+        ]
       ],
       "fill": [
-        156,
-        149,
-        189
+        29,
+        151,
+        112
       ],
-      "fore_color": [
-        222,
-        133,
-        62
-      ],
-      "pattern": 36,
-      "style": "pattern",
-      "theme_topic": "Exultant"
+      "focus": "bottom_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Nifty"
     },
     "type": "background",
     "z_order": 0
@@ -41,70 +45,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 0.7945,
-        "w": 13.3307,
-        "x": -0.0092,
-        "y": -0.0051
+        "h": 2.0197,
+        "w": 6.4454,
+        "x": 5.8249,
+        "y": 2.0977
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 2,
+        "family": "stars",
         "fill": [
-          135,
-          129,
-          164
+          94,
+          137,
+          62
         ],
+        "focus": false,
         "line": [
-          135,
-          129,
-          164
+          134,
+          187,
+          152
         ],
-        "line_width": 4.947449023263913,
+        "line_width": 2.6202695235527003,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Exultant"
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Nifty"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.8846,
-        "w": 5.4032,
-        "x": 1.7355,
-        "y": 0.4704
+        "h": 3.5052,
+        "w": 7.907,
+        "x": 4.6001,
+        "y": 0.2682
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          121,
+          174,
+          149
         ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Lettuce Hole",
-        "theme_topic": "Exultant",
-        "underline": false
+        "focus": false,
+        "line": [
+          170,
+          147,
+          66
+        ],
+        "line_width": 5.300080947591469,
+        "outline_only": false,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Nifty"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.6726,
-        "w": 3.6416,
-        "x": 3.3449,
-        "y": 4.3279
+        "h": 5.2884,
+        "w": 5.7118,
+        "x": 1.7808,
+        "y": 1.0209
       },
       "id": "object_003",
       "properties": {
@@ -112,48 +120,48 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          135,
-          129,
-          164
+          77,
+          173,
+          142
         ],
         "line": [
-          135,
-          129,
-          164
+          104,
+          185,
+          159
         ],
-        "line_width": 4.181905470010852,
+        "line_width": 1.5405172441189903,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Exultant"
+        "theme_topic": "Nifty"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.0573,
-        "w": 3.1382,
-        "x": 3.6089,
-        "y": 5.7618
+        "h": 1.1403,
+        "w": 8.4177,
+        "x": 2.6225,
+        "y": 0.6643
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          85,
-          83,
-          104
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 28,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "sable disillusioned bait jeans skirt last film cagey argue detail evasive spotless command haunt",
-        "theme_topic": "Exultant",
+        "text": "Interrupt Amount",
+        "theme_topic": "Nifty",
         "underline": false
       },
       "type": "text",
@@ -161,41 +169,39 @@
     },
     {
       "bbox": {
-        "h": 2.6701,
-        "w": 3.0555,
-        "x": 7.1994,
-        "y": 4.3067
+        "h": 0.3733,
+        "w": 3.1111,
+        "x": 4.9148,
+        "y": 2.6281
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          135,
-          129,
-          164
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          135,
-          129,
-          164
-        ],
-        "line_width": 1.1750365701253986,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Exultant"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "cuddly juice pathetic full gather carve square",
+        "theme_topic": "Nifty",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.036,
-        "w": 2.5304,
-        "x": 7.4165,
-        "y": 5.7605
+        "h": 4.0204,
+        "w": 0.3304,
+        "x": 0.7208,
+        "y": 2.9031
       },
       "id": "object_006",
       "properties": {
@@ -203,17 +209,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          85,
-          83,
-          104
+          148,
+          204,
+          189
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "concentrate move domineering fireman vessel pack square ski graceful jittery abrupt trade gray balance",
-        "theme_topic": "Exultant",
+        "text": "wrong unfasten snore",
+        "theme_topic": "Nifty",
         "underline": false
       },
       "type": "text",
@@ -221,10 +227,10 @@
     },
     {
       "bbox": {
-        "h": 1.0616,
-        "w": 1.8489,
-        "x": 10.7019,
-        "y": 5.7431
+        "h": 4.008,
+        "w": 0.5822,
+        "x": 1.5932,
+        "y": 2.9384
       },
       "id": "object_007",
       "properties": {
@@ -232,17 +238,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          85,
-          83,
-          104
+          148,
+          204,
+          189
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "oafish girls wriggle rinse cobweb prefer cream cooperative subtract metal quilt guide loutish",
-        "theme_topic": "Exultant",
+        "text": "bizarre embarrass pancake acoustics promise ball kindly",
+        "theme_topic": "Nifty",
         "underline": false
       },
       "type": "text",
@@ -250,78 +256,60 @@
     },
     {
       "bbox": {
-        "h": 2.4359,
-        "w": 12.2409,
-        "x": 0.5413,
-        "y": 1.4644
+        "h": 4.0229,
+        "w": 0.5389,
+        "x": 2.7153,
+        "y": 2.9214
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          135,
-          129,
-          164
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          148,
+          204,
+          189
         ],
-        "line": [
-          135,
-          129,
-          164
-        ],
-        "line_width": 1.3115805145041064,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Exultant"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "needless fact crowded",
+        "theme_topic": "Nifty",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.9678,
-        "w": 11.7566,
-        "x": 0.787,
-        "y": 1.7252
+        "h": 4.0436,
+        "w": 0.6129,
+        "x": 3.7558,
+        "y": 2.9027
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "dysfunctional",
-          "sun",
-          "fresh",
-          "vacuous",
-          "earsplitting"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          148,
+          204,
+          189
         ],
-        "chart": "pie",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              162,
-              30,
-              156
-            ],
-            "name": "bell",
-            "values": [
-              52,
-              86,
-              84,
-              56,
-              77
-            ]
-          }
-        ],
-        "theme_topic": "Exultant",
-        "title": "productive guard outstanding ossified end"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "tax productive tap ancient torpid",
+        "theme_topic": "Nifty",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 9
     }
   ],

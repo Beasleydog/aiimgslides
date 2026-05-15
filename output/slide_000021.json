@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          135,
-          116,
-          210
-        ],
-        [
-          183,
-          168,
-          214
-        ]
+      "back_color": [
+        61,
+        64,
+        91
       ],
       "fill": [
-        111,
-        88,
-        201
+        61,
+        64,
+        91
       ],
-      "focus": "top_right",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Wall Roasted"
+      "fore_color": [
+        255,
+        211,
+        88
+      ],
+      "pattern": 33,
+      "style": "pattern",
+      "theme_topic": "Obeisant"
     },
     "type": "background",
     "z_order": 0
@@ -45,49 +41,34 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.9621,
-        "w": 5.5049,
-        "x": 0.8212,
-        "y": 4.7998
+        "h": 4.9644,
+        "w": 8.8753,
+        "x": 1.0029,
+        "y": 3.2549
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "momentous",
-          "wash",
-          "wholesale",
-          "obey",
-          "vein",
-          "scrawny"
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          86,
+          114,
+          151
         ],
-        "chart": "pie",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              85,
-              201,
-              223
-            ],
-            "name": "flowers print",
-            "values": [
-              27,
-              28,
-              11,
-              65,
-              17,
-              36
-            ]
-          }
+        "focus": false,
+        "line": [
+          85,
+          139,
+          82
         ],
-        "theme_topic": "Wall Roasted",
-        "title": "trade tap mix drum"
+        "line_width": 4.579318572625329,
+        "outline_only": false,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Obeisant"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 1
     }
   ],

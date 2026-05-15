@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        245,
-        247,
-        252
+      "back_color": [
+        95,
+        222,
+        63
       ],
-      "style": "solid",
-      "theme_topic": "Adhesive"
+      "fill": [
+        33,
+        115,
+        169
+      ],
+      "fore_color": [
+        255,
+        117,
+        117
+      ],
+      "pattern": 54,
+      "style": "pattern",
+      "theme_topic": "Time"
     },
     "type": "background",
     "z_order": 0
@@ -30,73 +41,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.9444,
-        "w": 4.8294,
-        "x": 1.9804,
-        "y": 4.3746
+        "h": 2.864,
+        "w": 3.4146,
+        "x": 4.0942,
+        "y": 2.6763
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          145,
-          118,
-          114
+          144,
+          72,
+          80
         ],
         "focus": false,
         "line": [
-          143,
-          58,
-          178
+          217,
+          86,
+          81
         ],
-        "line_width": 6.0651049293512695,
-        "outline_only": false,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Adhesive"
+        "line_width": 7.7923881226403475,
+        "outline_only": true,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Time"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.7743,
-        "w": 13.3412,
-        "x": -0.0128,
-        "y": -0.0021
+        "h": 2.1084,
+        "w": 5.0669,
+        "x": 1.2163,
+        "y": -0.3538
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          232,
-          237,
-          247
+          176,
+          144,
+          190
         ],
+        "focus": false,
         "line": [
-          232,
-          237,
-          247
+          88,
+          148,
+          32
         ],
-        "line_width": 0.7880451286660816,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Adhesive"
+        "line_width": 6.489778665136334,
+        "outline_only": true,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Time"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.0104,
-        "w": 6.1321,
-        "x": 0.5518,
-        "y": 0.3665
+        "h": 0.8854,
+        "w": 5.8391,
+        "x": 3.4097,
+        "y": 0.6508
       },
       "id": "object_003",
       "properties": {
@@ -104,17 +116,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          250,
+          252,
+          255
         ],
-        "font_face": "Arial",
-        "font_size": 34,
+        "font_face": "Georgia",
+        "font_size": 37,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Friends Heady Lip Flagrant",
-        "theme_topic": "Adhesive",
+        "text": "Furtive Arrogant",
+        "theme_topic": "Time",
         "underline": false
       },
       "type": "text",
@@ -122,122 +134,165 @@
     },
     {
       "bbox": {
-        "h": 2.6057,
-        "w": 4.5283,
-        "x": 0.5577,
-        "y": 4.3786
+        "h": 2.4359,
+        "w": 5.9737,
+        "x": 0.6072,
+        "y": 4.4962
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          232,
-          237,
-          247
+          47,
+          136,
+          190
         ],
         "line": [
-          232,
-          237,
-          247
+          47,
+          136,
+          190
         ],
-        "line_width": 2.1654170714855354,
+        "line_width": 1.5041098958411154,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Adhesive"
+        "theme_topic": "Time"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.9886,
-        "w": 4.0154,
-        "x": 0.8135,
-        "y": 5.8506
+        "h": 2.1477,
+        "w": 5.6899,
+        "x": 0.7555,
+        "y": 4.662
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
+        "crop": [
+          0.031706604764757826,
+          0.08940888985553243,
+          0.09290084962975464,
+          0.16350193875104138
         ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "interesting vacuous kitty tremendous downtown tasty abrasive jewel minor baseball account rebel bent peaceful love",
-        "theme_topic": "Adhesive",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          100,
+          163,
+          84
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Time",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.6205,
-        "w": 4.515,
-        "x": 8.2452,
-        "y": 4.3575
+        "h": 2.431,
+        "w": 5.9581,
+        "x": 6.7741,
+        "y": 4.4998
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
-        ],
+        "clip": "ticket",
+        "focus": true,
         "line": [
-          232,
-          237,
-          247
+          91,
+          150,
+          227
         ],
-        "line_width": 0.9798550610054388,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Adhesive"
+        "line_width": 15,
+        "theme_topic": "Time"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.1096,
-        "w": 5.9829,
-        "x": 6.6291,
-        "y": 2.0606
+        "h": 2.5615,
+        "w": 12.132,
+        "x": 0.586,
+        "y": 1.5133
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          27,
-          44,
-          68
+        "band": [
+          47,
+          136,
+          190
         ],
-        "font_face": "Arial",
-        "font_size": 28,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Existence Minute Special Absurd Regret Squirrel Self",
-        "theme_topic": "Adhesive",
-        "underline": false
+        "band_cols": true,
+        "band_rows": true,
+        "body": [
+          86,
+          177,
+          41
+        ],
+        "border": [
+          64,
+          137,
+          40
+        ],
+        "border_dash": "solid",
+        "border_width": 1.5133133658103475,
+        "cells": [
+          [
+            "include",
+            "typical abrupt",
+            "fetch example"
+          ],
+          [
+            "precede",
+            "calculate",
+            "park rejoice"
+          ],
+          [
+            "breakable",
+            "last",
+            "repulsive efficacious"
+          ],
+          [
+            "shiver thought",
+            "maniacal laughable",
+            "embarrass"
+          ],
+          [
+            "erect rate",
+            "head spell",
+            "ancient"
+          ],
+          [
+            "tree toe",
+            "play",
+            "attractive general"
+          ]
+        ],
+        "cols": 3,
+        "font_size": 7,
+        "has_header": false,
+        "header": [
+          101,
+          228,
+          82
+        ],
+        "rows": 6,
+        "text_color": [
+          101,
+          172,
+          212
+        ],
+        "theme_topic": "Time"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 7
     }
   ],

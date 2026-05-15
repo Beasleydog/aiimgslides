@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 180,
+      "angle": 120,
       "archetype": "atomic_composition",
       "colors": [
         [
-          175,
-          214,
-          53
+          236,
+          240,
+          242
         ],
         [
-          96,
-          165,
-          250
+          217,
+          198,
+          148
         ]
       ],
       "fill": [
-        175,
-        214,
-        53
+        247,
+        248,
+        246
       ],
-      "focus": "top_left",
-      "gradient_type": "radial",
+      "focus": "center",
+      "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Time"
+      "theme_topic": "Rainstorm"
     },
     "type": "background",
     "z_order": 0
@@ -45,151 +45,156 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.1831,
-        "w": 7.4086,
-        "x": 2.3268,
-        "y": 1.439
+        "h": 3.1264,
+        "w": 5.9273,
+        "x": -1.112,
+        "y": 4.8412
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 7,
+        "family": "flowchart",
         "fill": [
-          163,
-          200,
-          49
-        ],
-        "line": [
-          158,
+          96,
           193,
-          48
+          116
         ],
-        "line_width": 1.7564989274158913,
+        "focus": false,
+        "line": [
+          61,
+          177,
+          132
+        ],
+        "line_width": 5.76591510889968,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Time"
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Rainstorm"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.887,
-        "w": 7.7277,
-        "x": 0.7286,
-        "y": 5.8262
+        "h": 4.1073,
+        "w": 5.3186,
+        "x": 8.9089,
+        "y": -0.2438
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          130,
+          219,
+          120
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Bucket Coal Warlike",
-        "theme_topic": "Time",
-        "underline": false
+        "focus": false,
+        "line": [
+          32,
+          112,
+          140
+        ],
+        "line_width": 3.8489488240490948,
+        "outline_only": false,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Rainstorm"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1274,
-        "w": 12.2601,
-        "x": 0.5533,
-        "y": 2.6495
+        "h": 2.8288,
+        "w": 6.8354,
+        "x": 3.4634,
+        "y": 2.5231
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.01369314403455262,
-          0.28341868962401096,
-          0.24113096318464133,
-          0.2003717265695536
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          74,
+          231,
+          203
         ],
-        "focus": true,
-        "mask_line": [
-          124,
-          198,
-          115
+        "focus": false,
+        "line": [
+          202,
+          184,
+          108
         ],
-        "mask_overlay": false,
-        "theme_topic": "Time",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 6.579689313263671,
+        "outline_only": false,
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Rainstorm"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.6294,
-        "w": 12.2243,
-        "x": 0.5462,
-        "y": 0.5647
+        "h": 1.22,
+        "w": 6.5207,
+        "x": 0.5576,
+        "y": 0.354
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          158,
-          193,
-          48
-        ],
-        "line": [
-          158,
-          193,
-          48
-        ],
-        "line_width": 1.8450553932882634,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Time"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.5827,
-        "w": 11.8801,
-        "x": 0.7268,
-        "y": 0.9577
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
           30,
-          36
+          35,
+          42
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 30,
+        "font_face": "Aptos Display",
+        "font_size": 41,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "17%",
-        "theme_topic": "Time",
+        "text": "Near Accept Opposite",
+        "theme_topic": "Rainstorm",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 2.4562,
+        "w": 3.3692,
+        "x": 5.8273,
+        "y": 4.5247
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.2661237063475268,
+          0.17840876041889592,
+          0.21353670013348852,
+          0.1554331191267899
+        ],
+        "focus": true,
+        "mask_line": [
+          52,
+          72,
+          199
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Rainstorm",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 5
     }
   ],

@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        126,
-        58,
-        173
+      "back_color": [
+        232,
+        237,
+        247
       ],
-      "style": "solid",
-      "theme_topic": "Sneaky"
+      "fill": [
+        245,
+        247,
+        252
+      ],
+      "fore_color": [
+        36,
+        178,
+        149
+      ],
+      "pattern": 52,
+      "style": "pattern",
+      "theme_topic": "Wicked Enchanted"
     },
     "type": "background",
     "z_order": 0
@@ -30,149 +41,155 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.9274,
-        "w": 6.6276,
-        "x": 0.5235,
-        "y": -0.1504
+        "h": 2.5481,
+        "w": 8.044,
+        "x": 1.0107,
+        "y": -0.5433
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "flowchart",
         "fill": [
-          195,
-          148,
+          223,
+          137,
           179
         ],
         "focus": false,
         "line": [
-          221,
-          135,
-          90
+          218,
+          180,
+          175
         ],
-        "line_width": 6.278385494532729,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Sneaky"
+        "line_width": 4.516525288025141,
+        "outline_only": true,
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Wicked Enchanted"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.5059,
-        "w": 4.0861,
-        "x": 9.2227,
-        "y": 3.997
+        "h": 1.7098,
+        "w": 3.1598,
+        "x": -0.173,
+        "y": 3.8693
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          148,
-          92,
-          187
+          226,
+          203,
+          202
         ],
+        "focus": false,
         "line": [
-          148,
-          92,
-          187
+          160,
+          169,
+          223
         ],
-        "line_width": 4.471816364603857,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Sneaky"
+        "line_width": 7.770382704361759,
+        "outline_only": true,
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Wicked Enchanted"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.3154,
-        "w": 5.2019,
-        "x": 0.5411,
-        "y": 0.3489
+        "h": 4.6318,
+        "w": 4.8434,
+        "x": 1.1377,
+        "y": 2.9761
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          193,
+          75,
+          146
         ],
-        "font_face": "Georgia",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Taboo Bump Add Earthy",
-        "theme_topic": "Sneaky",
-        "underline": false
+        "focus": false,
+        "line": [
+          100,
+          142,
+          76
+        ],
+        "line_width": 5.543945195569423,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Wicked Enchanted"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.4721,
-        "w": 5.9933,
-        "x": 6.8167,
-        "y": 4.5803
+        "h": 0.7839,
+        "w": 13.3407,
+        "x": -0.0065,
+        "y": -0.0197
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.09803481485500579,
-          0.09375946810894659,
-          0.08770754112046696,
-          0.05169680357384913
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          232,
+          237,
+          247
         ],
-        "focus": true,
-        "mask_line": [
-          255,
-          198,
-          74
+        "line": [
+          232,
+          237,
+          247
         ],
-        "mask_overlay": false,
-        "theme_topic": "Sneaky",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 2.4521879010450167,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Wicked Enchanted"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.2774,
-        "w": 5.608,
-        "x": 7.0229,
-        "y": 6.5544
+        "h": 5.3926,
+        "w": 0.373,
+        "x": 9.5952,
+        "y": 1.481
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          198,
-          74
+          103,
+          117,
+          137
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Demonic Next Scrawny",
-        "theme_topic": "Sneaky",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "curious team gamy idea petite whistle",
+        "theme_topic": "Wicked Enchanted",
         "underline": false
       },
       "type": "text",
@@ -180,28 +197,28 @@
     },
     {
       "bbox": {
-        "h": 1.2712,
-        "w": 5.5938,
-        "x": 0.7581,
-        "y": 4.7645
+        "h": 5.405,
+        "w": 0.4036,
+        "x": 10.5044,
+        "y": 1.4523
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          246,
-          248,
-          252
+          103,
+          117,
+          137
         ],
-        "font_face": "Georgia",
-        "font_size": 22,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Fierce Soup Government Bleach Bounce Skillful Cannon",
-        "theme_topic": "Sneaky",
+        "text": "impulse garrulous cats",
+        "theme_topic": "Wicked Enchanted",
         "underline": false
       },
       "type": "text",
@@ -209,10 +226,10 @@
     },
     {
       "bbox": {
-        "h": 0.3722,
-        "w": 3.0548,
-        "x": 0.7498,
-        "y": 6.2155
+        "h": 0.7608,
+        "w": 0.3891,
+        "x": 11.4067,
+        "y": 0.7407
       },
       "id": "object_007",
       "properties": {
@@ -220,17 +237,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Aptos Display",
+        "font_size": 20,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "CURE",
-        "theme_topic": "Sneaky",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "65%",
+        "theme_topic": "Wicked Enchanted",
         "underline": false
       },
       "type": "text",
@@ -238,41 +255,39 @@
     },
     {
       "bbox": {
-        "h": 2.4607,
-        "w": 5.987,
-        "x": 0.5335,
-        "y": 1.8355
+        "h": 5.3749,
+        "w": 0.3692,
+        "x": 11.3999,
+        "y": 1.4502
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          148,
-          92,
-          187
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          117,
+          137
         ],
-        "line": [
-          148,
-          92,
-          187
-        ],
-        "line_width": 1.082346249699624,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Sneaky"
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "neck fax motionless celery string",
+        "theme_topic": "Wicked Enchanted",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.9498,
-        "w": 5.6346,
-        "x": 0.729,
-        "y": 2.372
+        "h": 0.7468,
+        "w": 0.2603,
+        "x": 12.3566,
+        "y": 0.7129
       },
       "id": "object_009",
       "properties": {
@@ -280,17 +295,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          82,
+          96,
+          214
         ],
-        "font_face": "Georgia",
-        "font_size": 42,
+        "font_face": "Aptos Display",
+        "font_size": 20,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "9x",
-        "theme_topic": "Sneaky",
+        "text": "20%",
+        "theme_topic": "Wicked Enchanted",
         "underline": false
       },
       "type": "text",
@@ -298,10 +313,10 @@
     },
     {
       "bbox": {
-        "h": 0.5639,
-        "w": 5.6489,
-        "x": 0.725,
-        "y": 3.3194
+        "h": 5.3578,
+        "w": 0.2844,
+        "x": 12.3157,
+        "y": 1.4589
       },
       "id": "object_010",
       "properties": {
@@ -309,17 +324,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          103,
+          117,
+          137
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "wise land road female invincible limping",
-        "theme_topic": "Sneaky",
+        "text": "skirt guiltless men volatile",
+        "theme_topic": "Wicked Enchanted",
         "underline": false
       },
       "type": "text",
@@ -327,35 +342,33 @@
     },
     {
       "bbox": {
-        "h": 1.0278,
-        "w": 1.7613,
-        "x": 11.3895,
-        "y": 4.5687
+        "h": 6.3897,
+        "w": 3.6971,
+        "x": 5.3557,
+        "y": 0.5765
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          220,
-          32,
-          180
+        "clip": "blob",
+        "focus": true,
+        "line": [
+          82,
+          96,
+          214
         ],
-        "connector": "elbow",
-        "dash": 7,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Sneaky",
-        "width": 1.1759112284098165
+        "line_width": 17,
+        "theme_topic": "Wicked Enchanted"
       },
-      "type": "connector",
+      "type": "svg_image",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.3756,
-        "w": 1.6428,
-        "x": 4.2207,
-        "y": 6.4122
+        "h": 0.6244,
+        "w": 2.125,
+        "x": 5.4487,
+        "y": 0.3125
       },
       "id": "object_012",
       "properties": {
@@ -363,17 +376,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          221,
-          72,
-          87
+          203,
+          57,
+          192
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 16,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Grab Auspicious",
-        "theme_topic": "Sneaky",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "helpless page befitting erect",
+        "theme_topic": "Wicked Enchanted",
         "underline": false
       },
       "type": "text",
@@ -381,27 +394,31 @@
     },
     {
       "bbox": {
-        "h": 1.1276,
-        "w": 2.1367,
-        "x": 10.7528,
-        "y": 1.0389
+        "h": 0.5481,
+        "w": 1.0061,
+        "x": 0.5223,
+        "y": 4.5937
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          193,
-          125,
-          178
+          133,
+          123,
+          63
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Sneaky",
-        "width": 0.4849711489534245
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "nasty inject",
+        "theme_topic": "Wicked Enchanted",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 13
     }
   ],

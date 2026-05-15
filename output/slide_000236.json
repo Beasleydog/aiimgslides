@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
+      "angle": 225,
       "archetype": "atomic_composition",
       "colors": [
         [
-          74,
-          184,
-          48
+          25,
+          30,
+          39
         ],
         [
-          255,
-          198,
-          74
+          244,
+          180,
+          76
         ]
       ],
       "fill": [
-        74,
-        184,
-        48
+        25,
+        30,
+        39
       ],
-      "focus": "center",
-      "gradient_type": "radial",
+      "focus": "bottom_left",
+      "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Zippy"
+      "theme_topic": "Harmony Afraid"
     },
     "type": "background",
     "z_order": 0
@@ -45,207 +45,178 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5047,
-        "w": 4.4525,
-        "x": 6.4865,
-        "y": 3.3872
+        "h": 1.8725,
+        "w": 8.5716,
+        "x": 2.7685,
+        "y": 4.2289
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          158,
-          147,
-          169
+          27,
+          86,
+          81
         ],
         "focus": false,
         "line": [
-          48,
-          224,
-          71
+          123,
+          62,
+          70
         ],
-        "line_width": 4.1054918839792816,
+        "line_width": 3.6022346364945292,
         "outline_only": true,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Zippy"
+        "ppt_type": 142,
+        "shape": "pie",
+        "theme_topic": "Harmony Afraid"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.5021,
-        "w": 6.6909,
-        "x": 3.6974,
-        "y": 0.2494
+        "h": 0.6522,
+        "w": 13.3173,
+        "x": 0.0086,
+        "y": 0.0154
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "ribbons",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          157,
-          109,
-          193
+          43,
+          51,
+          64
         ],
-        "focus": false,
         "line": [
-          60,
-          103,
-          57
+          43,
+          51,
+          64
         ],
-        "line_width": 7.134563431389857,
+        "line_width": 3.4724361126327805,
         "outline_only": false,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Zippy"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Harmony Afraid"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.9968,
-        "w": 4.8652,
-        "x": 7.8222,
-        "y": 3.1164
+        "h": 1.3482,
+        "w": 7.7814,
+        "x": 0.5697,
+        "y": 0.3583
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          53,
-          95,
-          135
-        ],
-        "focus": false,
-        "line": [
-          151,
-          187,
-          170
-        ],
-        "line_width": 2.9062609851908796,
-        "outline_only": true,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Zippy"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.5253,
-        "w": 2.863,
-        "x": 0.6614,
-        "y": 0.7373
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           246,
-          248,
-          252
+          247,
+          249
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 26,
+        "font_face": "Georgia",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Obeisant",
-        "theme_topic": "Zippy",
+        "text": "Venomous Whip",
+        "theme_topic": "Harmony Afraid",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.2176,
+        "w": 1.7285,
+        "x": 5.1765,
+        "y": 3.2749
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.07467468685626497,
+          0.08909805972156462,
+          0.2173731505238707,
+          0.006346010637210316
+        ],
+        "focus": false,
+        "mask_line": [
+          76,
+          226,
+          78
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Harmony Afraid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 6.2665,
-        "w": 3.8028,
-        "x": 3.7263,
-        "y": 0.6371
+        "h": 2.1696,
+        "w": 1.7658,
+        "x": 8.9979,
+        "y": 3.2518
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "effect",
-          "suck",
-          "puffy"
+        "crop": [
+          0.040720282088827275,
+          0.13696415081662264,
+          0.14792253555120477,
+          0.0977667877947515
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              32,
-              52,
-              80
-            ],
-            "name": "pleasant neck",
-            "values": [
-              32,
-              59,
-              47
-            ]
-          },
-          {
-            "color": [
-              63,
-              200,
-              32
-            ],
-            "name": "guide ossified",
-            "values": [
-              78,
-              57,
-              62
-            ]
-          }
+        "focus": false,
+        "mask_line": [
+          168,
+          98,
+          100
         ],
-        "theme_topic": "Zippy",
-        "title": "cave ten"
+        "mask_overlay": false,
+        "theme_topic": "Harmony Afraid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.7808,
-        "w": 4.5615,
-        "x": 8.1196,
-        "y": 3.849
+        "h": 0.6096,
+        "w": 1.3603,
+        "x": 1.82,
+        "y": 5.6334
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          97,
+          149,
+          190
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wretched hesitant friends brave tender different swim",
-        "theme_topic": "Zippy",
+        "font_face": "Aptos",
+        "font_size": 16,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Fat Bizarre Massive",
+        "theme_topic": "Harmony Afraid",
         "underline": false
       },
       "type": "text",

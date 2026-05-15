@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 180,
       "archetype": "atomic_composition",
-      "back_color": [
-        167,
-        167,
-        142
+      "colors": [
+        [
+          155,
+          102,
+          186
+        ],
+        [
+          82,
+          96,
+          214
+        ]
       ],
       "fill": [
-        203,
-        29,
-        87
+        155,
+        102,
+        186
       ],
-      "fore_color": [
-        255,
-        198,
-        74
-      ],
-      "pattern": 33,
-      "style": "pattern",
-      "theme_topic": "Steady Steel"
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Quill Interrupt"
     },
     "type": "background",
     "z_order": 0
@@ -41,10 +45,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.4023,
-        "w": 4.7714,
-        "x": 1.2949,
-        "y": 1.75
+        "h": 2.791,
+        "w": 8.9276,
+        "x": 4.0089,
+        "y": 2.804
       },
       "id": "object_001",
       "properties": {
@@ -52,157 +56,156 @@
         "dash": 1,
         "family": "basic",
         "fill": [
-          185,
-          150,
-          119
+          164,
+          138,
+          98
         ],
         "focus": false,
         "line": [
-          114,
-          191,
-          97
+          190,
+          139,
+          140
         ],
-        "line_width": 5.049935991400024,
+        "line_width": 6.2761696929833874,
         "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Steady Steel"
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Quill Interrupt"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.7559,
-        "w": 3.1741,
-        "x": 8.4633,
-        "y": 2.9528
+        "h": 4.7784,
+        "w": 4.9722,
+        "x": 7.4642,
+        "y": -0.8155
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 2,
         "family": "arrows",
         "fill": [
-          171,
-          34,
-          161
+          175,
+          129,
+          143
         ],
         "focus": false,
         "line": [
-          221,
-          114,
-          135
+          65,
+          141,
+          71
         ],
-        "line_width": 4.464600860271494,
+        "line_width": 7.160858913146058,
         "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Steady Steel"
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Quill Interrupt"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.5438,
-        "w": 4.6444,
-        "x": 7.1686,
-        "y": 1.9488
+        "h": 4.9455,
+        "w": 7.2635,
+        "x": 3.2732,
+        "y": 0.3327
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 1,
+        "family": "math",
         "fill": [
-          75,
-          113,
-          182
+          136,
+          174,
+          160
         ],
         "focus": false,
         "line": [
-          186,
-          162,
-          135
+          89,
+          161,
+          210
         ],
-        "line_width": 3.4795726989753826,
-        "outline_only": true,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Steady Steel"
+        "line_width": 2.0872272615511864,
+        "outline_only": false,
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Quill Interrupt"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.1856,
-        "w": 9.4323,
-        "x": 0.757,
-        "y": 1.2455
+        "h": 3.166,
+        "w": 7.4636,
+        "x": 1.1648,
+        "y": 1.4652
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          211,
-          66,
-          114
+          102,
+          88,
+          154
         ],
+        "focus": false,
         "line": [
-          216,
-          87,
-          130
+          69,
+          224,
+          204
         ],
-        "line_width": 0.8478134531662401,
+        "line_width": 4.949607927709783,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Steady Steel"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Quill Interrupt"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.4463,
-        "w": 12.2495,
-        "x": 0.5488,
-        "y": 0.5329
+        "h": 1.2153,
+        "w": 7.1867,
+        "x": 0.5338,
+        "y": 0.3541
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          255,
-          198,
-          74
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          216,
-          87,
-          130
-        ],
-        "line_width": 2.9845895365042816,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Steady Steel"
+        "font_face": "Trebuchet MS",
+        "font_size": 27,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Grease Quill Contain Grubby",
+        "theme_topic": "Quill Interrupt",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.9122,
-        "w": 11.8705,
-        "x": 0.7319,
-        "y": 1.0415
+        "h": 0.4456,
+        "w": 1.7739,
+        "x": 8.7992,
+        "y": 2.7395
       },
       "id": "object_006",
       "properties": {
@@ -210,17 +213,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          82,
+          96,
+          214
         ],
-        "font_face": "Georgia",
-        "font_size": 50,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "48%",
-        "theme_topic": "Steady Steel",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Close Ripe",
+        "theme_topic": "Quill Interrupt",
         "underline": false
       },
       "type": "text",
@@ -228,10 +231,10 @@
     },
     {
       "bbox": {
-        "h": 0.5818,
-        "w": 11.8501,
-        "x": 0.7058,
-        "y": 2.0278
+        "h": 0.6199,
+        "w": 1.7866,
+        "x": 8.7724,
+        "y": 3.2838
       },
       "id": "object_007",
       "properties": {
@@ -239,17 +242,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          85,
+          62,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "miniature obtain scrape erratic",
-        "theme_topic": "Steady Steel",
+        "text": "deserve shop volatile yielding four faded greet legs dime overt disagreeable fit giant show",
+        "theme_topic": "Quill Interrupt",
         "underline": false
       },
       "type": "text",
@@ -257,41 +260,41 @@
     },
     {
       "bbox": {
-        "h": 3.5449,
-        "w": 0.9769,
-        "x": 7.9313,
-        "y": 3.3961
+        "h": 2.5772,
+        "w": 4.6173,
+        "x": 0.5581,
+        "y": 4.4453
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "panel",
         "fill": [
-          216,
-          87,
-          130
+          97,
+          79,
+          26
         ],
         "line": [
-          216,
-          87,
-          130
+          135,
+          89,
+          162
         ],
-        "line_width": 3.2136737735670398,
+        "line_width": 1.8397192660377046,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Steady Steel"
+        "theme_topic": "Quill Interrupt"
       },
       "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4528,
-        "w": 0.5076,
-        "x": 8.188,
-        "y": 4.3147
+        "h": 0.7488,
+        "w": 4.2339,
+        "x": 0.741,
+        "y": 4.6105
       },
       "id": "object_009",
       "properties": {
@@ -299,17 +302,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Trap",
-        "theme_topic": "Steady Steel",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "48%",
+        "theme_topic": "Quill Interrupt",
         "underline": false
       },
       "type": "text",
@@ -317,10 +320,10 @@
     },
     {
       "bbox": {
-        "h": 1.8907,
-        "w": 0.4751,
-        "x": 8.1825,
-        "y": 4.878
+        "h": 1.5272,
+        "w": 4.2439,
+        "x": 0.7462,
+        "y": 5.3605
       },
       "id": "object_010",
       "properties": {
@@ -328,17 +331,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          226,
-          149,
-          177
+          85,
+          62,
+          103
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "futuristic provide descriptive milky cultured blushing playground pigs",
-        "theme_topic": "Steady Steel",
+        "text": "building babies hard-to-find",
+        "theme_topic": "Quill Interrupt",
         "underline": false
       },
       "type": "text",
@@ -346,10 +349,10 @@
     },
     {
       "bbox": {
-        "h": 3.5485,
-        "w": 1.2686,
-        "x": 9.0837,
-        "y": 3.4052
+        "h": 2.5636,
+        "w": 3.8845,
+        "x": 5.3265,
+        "y": 4.4485
       },
       "id": "object_011",
       "properties": {
@@ -357,30 +360,30 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          216,
-          87,
-          130
+          134,
+          100,
+          193
         ],
         "line": [
-          216,
-          87,
-          130
+          135,
+          89,
+          162
         ],
-        "line_width": 1.948258931723472,
+        "line_width": 1.8848388589561265,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Steady Steel"
+        "theme_topic": "Quill Interrupt"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4354,
-        "w": 0.7816,
-        "x": 9.3323,
-        "y": 4.2997
+        "h": 0.7453,
+        "w": 3.5517,
+        "x": 5.494,
+        "y": 4.6303
       },
       "id": "object_012",
       "properties": {
@@ -388,17 +391,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Direful",
-        "theme_topic": "Steady Steel",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "157",
+        "theme_topic": "Quill Interrupt",
         "underline": false
       },
       "type": "text",
@@ -406,10 +409,10 @@
     },
     {
       "bbox": {
-        "h": 1.8728,
-        "w": 0.7745,
-        "x": 9.3669,
-        "y": 4.8667
+        "h": 1.5698,
+        "w": 3.5375,
+        "x": 5.5235,
+        "y": 5.3728
       },
       "id": "object_013",
       "properties": {
@@ -417,17 +420,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          226,
-          149,
-          177
+          85,
+          62,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Verdana",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "digestion paddle rain call roasted defeated party scintillating rambunctious crayon oranges queue stage joke route",
-        "theme_topic": "Steady Steel",
+        "text": "chivalrous thing rub",
+        "theme_topic": "Quill Interrupt",
         "underline": false
       },
       "type": "text",
@@ -435,41 +438,41 @@
     },
     {
       "bbox": {
-        "h": 3.5313,
-        "w": 1.0397,
-        "x": 10.6083,
-        "y": 3.4109
+        "h": 2.5724,
+        "w": 3.386,
+        "x": 9.4107,
+        "y": 4.4386
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          216,
-          87,
-          130
+          134,
+          100,
+          193
         ],
         "line": [
-          216,
-          87,
-          130
+          135,
+          89,
+          162
         ],
-        "line_width": 0.9230359283437304,
+        "line_width": 0.6459383613704328,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Steady Steel"
+        "theme_topic": "Quill Interrupt"
       },
       "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.4519,
-        "w": 0.5274,
-        "x": 10.8461,
-        "y": 4.3086
+        "h": 0.7705,
+        "w": 2.9983,
+        "x": 9.6059,
+        "y": 4.5958
       },
       "id": "object_015",
       "properties": {
@@ -477,17 +480,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Hand Grieving",
-        "theme_topic": "Steady Steel",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "5.5x",
+        "theme_topic": "Quill Interrupt",
         "underline": false
       },
       "type": "text",
@@ -495,10 +498,10 @@
     },
     {
       "bbox": {
-        "h": 1.9035,
-        "w": 0.541,
-        "x": 10.8593,
-        "y": 4.8613
+        "h": 1.5536,
+        "w": 3.032,
+        "x": 9.5851,
+        "y": 5.3341
       },
       "id": "object_016",
       "properties": {
@@ -506,17 +509,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          226,
-          149,
-          177
+          85,
+          62,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "sedate punish phone old-fashioned cagey fresh smash male muddled physical",
-        "theme_topic": "Steady Steel",
+        "text": "wry eight scared",
+        "theme_topic": "Quill Interrupt",
         "underline": false
       },
       "type": "text",
@@ -524,117 +527,117 @@
     },
     {
       "bbox": {
-        "h": 3.5152,
-        "w": 0.9255,
-        "x": 11.8588,
-        "y": 3.4357
+        "h": 2.285,
+        "w": 3.2457,
+        "x": 4.965,
+        "y": 1.8454
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          216,
-          87,
-          130
+        "crop": [
+          0.0664303391783046,
+          0.2688662571554506,
+          0.20744678084431248,
+          0.32960171035789143
         ],
-        "line": [
-          216,
-          87,
-          130
+        "focus": false,
+        "mask_line": [
+          82,
+          96,
+          214
         ],
-        "line_width": 1.2878969224321395,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Steady Steel"
+        "mask_overlay": false,
+        "theme_topic": "Quill Interrupt",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.4479,
-        "w": 0.4769,
-        "x": 12.0993,
-        "y": 4.3138
+        "h": 2.2621,
+        "w": 4.1026,
+        "x": 0.5511,
+        "y": 1.8697
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          135,
+          89,
+          162
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Temporary Dare",
-        "theme_topic": "Steady Steel",
-        "underline": false
+        "line": [
+          135,
+          89,
+          162
+        ],
+        "line_width": 1.4544858577887774,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Quill Interrupt"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 1.8737,
-        "w": 0.4837,
-        "x": 12.0919,
-        "y": 4.8807
+        "h": 1.9626,
+        "w": 3.7964,
+        "x": 0.7213,
+        "y": 2.0009
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          226,
-          149,
-          177
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "fearless excite seat swift own political knowing brash stove jog healthy tax explain",
-        "theme_topic": "Steady Steel",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          82,
+          96,
+          214
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Quill Interrupt",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.2857,
-        "w": 1.668,
-        "x": 2.5313,
-        "y": 5.0329
+        "h": 0.2926,
+        "w": 3.7048,
+        "x": 0.7561,
+        "y": 3.6678
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          183,
-          135,
-          110
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Industrious Existence Government",
-        "theme_topic": "Steady Steel",
+        "text": "Waves",
+        "theme_topic": "Quill Interrupt",
         "underline": false
       },
       "type": "text",

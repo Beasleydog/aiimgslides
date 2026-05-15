@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        232,
-        163,
-        45
+      "back_color": [
+        126,
+        58,
+        173
       ],
-      "style": "solid",
-      "theme_topic": "Small Breezy"
+      "fill": [
+        126,
+        58,
+        173
+      ],
+      "fore_color": [
+        168,
+        54,
+        94
+      ],
+      "pattern": 41,
+      "style": "pattern",
+      "theme_topic": "Throne"
     },
     "type": "background",
     "z_order": 0
@@ -30,158 +41,155 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.3872,
-        "w": 8.7559,
-        "x": 2.5705,
-        "y": -0.0107
+        "h": 4.701,
+        "w": 8.9174,
+        "x": -0.6549,
+        "y": 2.5309
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 2,
-        "family": "basic",
+        "family": "symbols",
         "fill": [
-          207,
-          101,
-          106
+          50,
+          38,
+          104
         ],
         "focus": false,
         "line": [
-          45,
-          189,
-          123
+          224,
+          127,
+          101
         ],
-        "line_width": 6.7568071512069885,
+        "line_width": 6.549324413414203,
         "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Small Breezy"
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Throne"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.2857,
-        "w": 6.1402,
-        "x": -0.2176,
-        "y": -0.3165
+        "h": 3.9739,
+        "w": 8.8107,
+        "x": 2.3162,
+        "y": -0.8172
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 4,
-        "family": "flowchart",
+        "family": "math",
         "fill": [
-          114,
-          195,
-          45
+          53,
+          99,
+          135
         ],
         "focus": false,
         "line": [
-          100,
-          197,
-          154
+          35,
+          99,
+          40
         ],
-        "line_width": 2.708388016348263,
+        "line_width": 4.90320298235868,
         "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Small Breezy"
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Throne"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.1506,
-        "w": 8.5891,
-        "x": 5.1134,
-        "y": 1.9896
+        "h": 1.1729,
+        "w": 7.8482,
+        "x": 3.1211,
+        "y": 0.6592
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          187,
-          152,
-          33
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          68,
-          60,
-          67
-        ],
-        "line_width": 7.745450016346647,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Small Breezy"
+        "font_face": "Trebuchet MS",
+        "font_size": 31,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Famous Longing Boring",
+        "theme_topic": "Throne",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 7.4829,
-        "w": 13.3321,
-        "x": 0.0102,
-        "y": 4.3615
+        "h": 2.704,
+        "w": 12.2017,
+        "x": 0.5266,
+        "y": 4.3023
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          190,
-          133,
-          36
+        "crop": [
+          0.11633761564892192,
+          0.029606471872347617,
+          0.24711988463228218,
+          0.09881937645195288
         ],
-        "line": [
-          190,
-          133,
-          36
+        "focus": true,
+        "mask_line": [
+          60,
+          82,
+          142
         ],
-        "line_width": 0.7882806180096833,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Small Breezy"
+        "mask_overlay": false,
+        "theme_topic": "Throne",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.3727,
-        "w": 6.0081,
-        "x": 6.6594,
-        "y": 1.9028
+        "h": 2.0402,
+        "w": 6.3634,
+        "x": 6.4399,
+        "y": 2.0012
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          119,
-          89,
-          40
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          158,
+          107,
+          193
         ],
-        "font_face": "Arial",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "snails hallowed trust women extra-small friendly empty cowardly act ludicrous top boast loutish incredible punch scandalous towering selfish throat fog letters",
-        "theme_topic": "Small Breezy",
-        "underline": false
+        "line": [
+          158,
+          107,
+          193
+        ],
+        "line_width": 0.7002748370639487,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Throne"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     }
   ],

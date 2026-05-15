@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
-      "fill": [
-        111,
-        88,
-        201
+      "colors": [
+        [
+          177,
+          73,
+          123
+        ],
+        [
+          193,
+          107,
+          48
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Careful"
+      "fill": [
+        207,
+        110,
+        70
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Productive"
     },
     "type": "background",
     "z_order": 0
@@ -30,134 +45,132 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.5774,
-        "w": 8.4982,
-        "x": 5.7093,
-        "y": 1.5923
+        "h": 4.3136,
+        "w": 3.007,
+        "x": 3.3135,
+        "y": 2.6882
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "dash": 2,
+        "family": "callouts",
         "fill": [
-          86,
-          67,
-          207
+          170,
+          145,
+          48
         ],
         "focus": false,
         "line": [
-          40,
-          71,
-          116
+          227,
+          114,
+          109
         ],
-        "line_width": 7.6410738162090075,
-        "outline_only": true,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Careful"
+        "line_width": 3.5382836997049107,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Productive"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.7916,
-        "w": 3.1781,
-        "x": 9.4247,
-        "y": 0.647
+        "h": 4.4983,
+        "w": 5.2336,
+        "x": -0.0837,
+        "y": 2.2073
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "stars",
+        "fill": [
+          170,
+          184,
+          74
+        ],
+        "focus": false,
+        "line": [
+          195,
+          108,
+          222
+        ],
+        "line_width": 6.643495137805055,
+        "outline_only": true,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Productive"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.2978,
+        "w": 6.5434,
+        "x": 0.5668,
+        "y": 0.3447
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 30,
+        "font_face": "Trebuchet MS",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Absorbed Switch Unruly",
-        "theme_topic": "Careful",
+        "text": "Cherries Combative",
+        "theme_topic": "Productive",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.483,
-        "w": 4.2969,
-        "x": 0.6696,
-        "y": 4.3991
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          161,
-          146,
-          220
-        ],
-        "line": [
-          161,
-          146,
-          220
-        ],
-        "line_width": 2.1998171120616474,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Careful"
-      },
-      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.5304,
-        "w": 0.5725,
-        "x": 0.8658,
-        "y": 4.6026
+        "h": 0.2946,
+        "w": 4.8968,
+        "x": 0.7067,
+        "y": 1.9645
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
-        "fill": [
-          143,
-          187,
-          218
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          165,
+          250
         ],
-        "focus": false,
-        "line": [
-          65,
-          56,
-          110
-        ],
-        "line_width": 5.469721332801468,
-        "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Careful"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "HUMOROUS STATION",
+        "theme_topic": "Productive",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.4451,
-        "w": 3.811,
-        "x": 0.8783,
-        "y": 5.2988
+        "h": 1.0497,
+        "w": 4.93,
+        "x": 0.6962,
+        "y": 2.4741
       },
       "id": "object_005",
       "properties": {
@@ -165,17 +178,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          42,
+          97,
+          50
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Grumpy Governor",
-        "theme_topic": "Careful",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Plants Quilt Womanly Injure",
+        "theme_topic": "Productive",
         "underline": false
       },
       "type": "text",
@@ -183,10 +196,10 @@
     },
     {
       "bbox": {
-        "h": 0.8702,
-        "w": 3.7996,
-        "x": 0.8804,
-        "y": 5.8311
+        "h": 3.1241,
+        "w": 4.9282,
+        "x": 0.6785,
+        "y": 3.7308
       },
       "id": "object_006",
       "properties": {
@@ -194,17 +207,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          65,
-          56,
-          110
+          228,
+          185,
+          170
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Verdana",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "servant busy wood file puzzled high gray talented zippy yoke complete sordid willing lace",
-        "theme_topic": "Careful",
+        "text": "cool sassy four educated tawdry grease flavor tearful spot accept responsible channel color paddle sponge fuel",
+        "theme_topic": "Productive",
         "underline": false
       },
       "type": "text",
@@ -212,338 +225,375 @@
     },
     {
       "bbox": {
-        "h": 2.5084,
-        "w": 3.6743,
-        "x": 5.1782,
-        "y": 4.4178
+        "h": 5.066,
+        "w": 2.0827,
+        "x": 6.2508,
+        "y": 1.9154
       },
       "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.14059688412714386,
+          0.1855148671011385,
+          0.13942565011994443,
+          0.14285756104790412
+        ],
+        "focus": true,
+        "mask_line": [
+          56,
+          88,
+          118
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Productive",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.2572,
+        "w": 1.6479,
+        "x": 6.4581,
+        "y": 6.4753
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          165,
+          250
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Income Unequal Marry",
+        "theme_topic": "Productive",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 5.0387,
+        "w": 2.0467,
+        "x": 8.4455,
+        "y": 1.8988
+      },
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          161,
-          146,
-          220
+          217,
+          140,
+          109
         ],
         "line": [
-          161,
-          146,
-          220
+          217,
+          140,
+          109
         ],
-        "line_width": 1.174760880216727,
+        "line_width": 1.0040733160474318,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Careful"
+        "theme_topic": "Productive"
       },
       "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.5261,
-        "w": 0.5739,
-        "x": 5.3857,
-        "y": 4.6319
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          89,
-          82,
-          229
-        ],
-        "focus": false,
-        "line": [
-          38,
-          132,
-          88
-        ],
-        "line_width": 3.7793727725093045,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Careful"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.435,
-        "w": 3.2133,
-        "x": 5.4317,
-        "y": 5.3089
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Berserk",
-        "theme_topic": "Careful",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.8383,
-        "w": 3.2017,
-        "x": 5.4306,
-        "y": 5.8515
+        "h": 4.7751,
+        "w": 1.7431,
+        "x": 8.6389,
+        "y": 2.0295
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          65,
-          56,
-          110
+        "crop": [
+          0.030153821840762592,
+          0.13351538179606767,
+          0.11435205130938177,
+          0.21428709406735616
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "four hissing substantial wary school nostalgic peck neat super glove",
-        "theme_topic": "Careful",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          64,
+          44,
+          136
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Productive",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 3.3598,
-        "w": 8.2229,
-        "x": 0.6534,
-        "y": 0.6381
+        "h": 0.2972,
+        "w": 1.6559,
+        "x": 8.6696,
+        "y": 6.498
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.23712520760155845,
-          0.10953735307564581,
-          0.07593321132193419,
-          0.18756255421173176
-        ],
-        "focus": true,
-        "mask_line": [
-          51,
-          71,
-          72
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Careful",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.2226,
-        "w": 1.6532,
-        "x": 10.3311,
-        "y": 4.328
-      },
-      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          213,
-          91,
-          95
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "channel upset cultured",
-        "theme_topic": "Careful",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Paint Number",
+        "theme_topic": "Productive",
         "underline": false
       },
       "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 5.065,
+        "w": 2.0416,
+        "x": 10.6752,
+        "y": 1.8993
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.13827225520515884,
+          0.11747197417636718,
+          0.06701096963306358,
+          0.14782395167441237
+        ],
+        "focus": true,
+        "mask_line": [
+          166,
+          27,
+          174
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Productive",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.9763,
-        "w": 0.2,
-        "x": 9.1494,
-        "y": 1.648
+        "h": 0.7875,
+        "w": 0.7926,
+        "x": 4.9225,
+        "y": 4.4812
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
         "fill": [
-          145,
-          45,
-          54
+          156,
+          187,
+          175
         ],
-        "focus": false,
         "line": [
-          160,
-          98,
-          82
+          29,
+          163,
+          187
         ],
-        "line_width": 5.4773733979521975,
-        "outline_only": true,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Careful"
+        "line_width": 2.5894759651310806,
+        "pattern": "badge",
+        "points": [
+          [
+            0.5,
+            0.0
+          ],
+          [
+            0.62,
+            0.25
+          ],
+          [
+            0.92,
+            0.18
+          ],
+          [
+            0.75,
+            0.5
+          ],
+          [
+            0.98,
+            0.78
+          ],
+          [
+            0.62,
+            0.72
+          ],
+          [
+            0.5,
+            1.0
+          ],
+          [
+            0.38,
+            0.72
+          ],
+          [
+            0.02,
+            0.78
+          ],
+          [
+            0.25,
+            0.5
+          ],
+          [
+            0.08,
+            0.18
+          ],
+          [
+            0.38,
+            0.25
+          ]
+        ],
+        "theme_topic": "Productive"
       },
-      "type": "shape",
+      "type": "freeform",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.3477,
-        "w": 1.4345,
-        "x": 4.009,
-        "y": 1.2946
+        "h": 0.668,
+        "w": 0.4372,
+        "x": 1.7125,
+        "y": 2.5127
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
-        "fill": [
-          38,
-          132,
-          88
+        "pattern": "swoop",
+        "primary": [
+          96,
+          165,
+          250
         ],
-        "focus": false,
-        "line": [
-          100,
-          170,
-          74
+        "secondary": [
+          65,
+          44,
+          215
         ],
-        "line_width": 5.843286324314805,
-        "outline_only": true,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Careful"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#615b83\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#4d5bb6\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
+        "theme_topic": "Productive"
       },
-      "type": "shape",
+      "type": "svg",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.2207,
-        "w": 0.5339,
-        "x": 3.8544,
-        "y": 5.5621
+        "h": 0.8438,
+        "w": 0.5301,
+        "x": 0.2386,
+        "y": 1.0593
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "basic",
         "fill": [
-          201,
-          52,
-          163
+          129,
+          59,
+          129
         ],
         "focus": false,
         "line": [
-          93,
-          171,
-          211
+          211,
+          199,
+          147
         ],
-        "line_width": 2.2678399213731097,
-        "outline_only": true,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Careful"
+        "line_width": 0.7560163592527086,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Productive"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.4883,
-        "w": 1.2243,
-        "x": 4.5702,
-        "y": 1.8947
+        "h": 0.3742,
+        "w": 2.2315,
+        "x": 6.0713,
+        "y": 0.6476
       },
       "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          25,
-          36,
-          79
-        ],
-        "focus": false,
-        "line": [
-          90,
-          92,
-          165
-        ],
-        "line_width": 1.1368328439814959,
-        "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Careful"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.5312,
-        "w": 1.8904,
-        "x": 4.4273,
-        "y": 3.3954
-      },
-      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          208,
-          47,
-          27
+          178,
+          192,
+          192
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "expect copper waiting wild",
-        "theme_topic": "Careful",
+        "text": "entertain",
+        "theme_topic": "Productive",
         "underline": false
       },
       "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.61,
+        "w": 0.4543,
+        "x": 9.2327,
+        "y": 1.4584
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "callouts",
+        "fill": [
+          194,
+          42,
+          144
+        ],
+        "focus": false,
+        "line": [
+          200,
+          71,
+          95
+        ],
+        "line_width": 0.41073743215638586,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Productive"
+      },
+      "type": "shape",
       "z_order": 17
     }
   ],

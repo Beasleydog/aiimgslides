@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 135,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          100,
-          202,
-          118
-        ],
-        [
-          174,
-          73,
-          92
-        ]
+      "back_color": [
+        122,
+        185,
+        59
       ],
       "fill": [
-        77,
-        195,
-        98
+        96,
+        127,
+        223
       ],
-      "focus": "bottom_left",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Blade Alleged"
+      "fore_color": [
+        168,
+        54,
+        94
+      ],
+      "pattern": 19,
+      "style": "pattern",
+      "theme_topic": "Remove"
     },
     "type": "background",
     "z_order": 0
@@ -45,144 +41,155 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.0287,
-        "w": 6.6169,
-        "x": 2.2884,
-        "y": 1.0713
+        "h": 4.8464,
+        "w": 4.6108,
+        "x": 7.1314,
+        "y": -0.4274
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "stars",
         "fill": [
-          138,
-          193,
-          134
+          88,
+          106,
+          102
         ],
         "focus": false,
         "line": [
-          58,
-          146,
-          209
+          139,
+          162,
+          125
         ],
-        "line_width": 4.909636334674385,
-        "outline_only": true,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Blade Alleged"
+        "line_width": 3.1797806643173017,
+        "outline_only": false,
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Remove"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.7871,
-        "w": 3.1913,
-        "x": 9.3772,
-        "y": 0.6687
+        "h": 3.3117,
+        "w": 6.7828,
+        "x": 3.8372,
+        "y": 3.0878
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 5,
+        "family": "basic",
+        "fill": [
+          161,
+          99,
+          186
         ],
-        "font_face": "Arial",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Receipt Suspend Secretive",
-        "theme_topic": "Blade Alleged",
-        "underline": false
+        "focus": false,
+        "line": [
+          54,
+          212,
+          139
+        ],
+        "line_width": 5.115585712249876,
+        "outline_only": false,
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Remove"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.0592,
-        "w": 3.2042,
-        "x": 0.7948,
-        "y": 0.7877
+        "h": 7.5087,
+        "w": 13.3219,
+        "x": -0.0007,
+        "y": 3.7724
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          144,
-          199,
-          149
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          77,
+          102,
+          180
         ],
-        "font_face": "Arial",
-        "font_size": 27,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Deserted Swanky Womanly Price",
-        "theme_topic": "Blade Alleged",
-        "underline": false
+        "line": [
+          77,
+          102,
+          180
+        ],
+        "line_width": 2.518948193470988,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Remove"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.7098,
-        "w": 3.1889,
-        "x": 0.7777,
-        "y": 2.0846
+        "h": 5.0276,
+        "w": 2.1737,
+        "x": 0.5208,
+        "y": 0.56
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.033643637058985855,
+          0.043024336204512424,
+          0.043971985880723256,
+          0.19633242449203678
+        ],
+        "focus": true,
+        "mask_line": [
+          32,
+          119,
+          149
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Remove",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 3.4521,
+        "w": 1.8886,
+        "x": 10.7151,
+        "y": 1.9759
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          169,
-          224,
-          182
+          58,
+          73,
+          120
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "draconian table high-pitched yard slap shallow madly learned sordid eggnog count excite sparkle driving pricey",
-        "theme_topic": "Blade Alleged",
+        "text": "thank possible verdant maddening important guiltless verse nut nasty boy suspect territory enter tree exercise pale careful jog breezy",
+        "theme_topic": "Remove",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 6.2175,
-        "w": 4.1172,
-        "x": 4.7076,
-        "y": 0.6817
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          174,
-          73,
-          92
-        ],
-        "line_width": 11,
-        "theme_topic": "Blade Alleged"
-      },
-      "type": "svg_image",
       "z_order": 5
     }
   ],

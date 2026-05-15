@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "back_color": [
-        147,
-        128,
-        53
+      "colors": [
+        [
+          25,
+          30,
+          39
+        ],
+        [
+          244,
+          180,
+          76
+        ]
       ],
       "fill": [
-        61,
-        64,
-        91
+        25,
+        30,
+        39
       ],
-      "fore_color": [
-        222,
-        133,
-        62
-      ],
-      "pattern": 43,
-      "style": "pattern",
-      "theme_topic": "Zealous Object"
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Phone Plate"
     },
     "type": "background",
     "z_order": 0
@@ -41,153 +45,155 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.0275,
-        "w": 3.1389,
-        "x": 1.6359,
-        "y": 2.0714
+        "h": 2.1408,
+        "w": 6.9078,
+        "x": 6.4362,
+        "y": 2.1796
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "ribbons",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          99,
-          101,
-          179
+          169,
+          195,
+          113
         ],
         "focus": false,
         "line": [
-          41,
-          147,
-          222
+          197,
+          160,
+          223
         ],
-        "line_width": 5.707312895713882,
+        "line_width": 7.211174482650649,
         "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Zealous Object"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Phone Plate"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.4362,
-        "w": 6.807,
-        "x": 5.9428,
-        "y": 1.7313
+        "h": 2.1058,
+        "w": 5.5845,
+        "x": 2.2126,
+        "y": 5.8496
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "symbols",
+        "dash": 3,
+        "family": "callouts",
         "fill": [
-          43,
-          81,
-          129
+          126,
+          121,
+          81
         ],
         "focus": false,
         "line": [
-          157,
-          145,
-          85
+          224,
+          170,
+          172
         ],
-        "line_width": 6.412638990815392,
+        "line_width": 5.3900166415361905,
         "outline_only": false,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Zealous Object"
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Phone Plate"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.246,
-        "w": 5.2927,
-        "x": 4.0544,
-        "y": 3.509
+        "h": 3.0205,
+        "w": 8.7873,
+        "x": 3.6881,
+        "y": 4.8698
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "math",
         "fill": [
-          169,
-          107,
-          148
+          85,
+          141,
+          56
         ],
         "focus": false,
         "line": [
-          100,
-          25,
-          226
+          192,
+          224,
+          200
         ],
-        "line_width": 4.881803946264373,
-        "outline_only": false,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Zealous Object"
+        "line_width": 2.9044610747540434,
+        "outline_only": true,
+        "ppt_type": 165,
+        "shape": "multiply",
+        "theme_topic": "Phone Plate"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5362,
-        "w": 2.8276,
-        "x": 0.63,
-        "y": 0.7579
+        "h": 0.8799,
+        "w": 13.3354,
+        "x": -0.006,
+        "y": 0.006
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 1.6079799388319331,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Phone Plate"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.1453,
+        "w": 6.8903,
+        "x": 2.9907,
+        "y": 0.6354
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           246,
-          248,
-          252
+          247,
+          249
         ],
-        "font_face": "Aptos Display",
-        "font_size": 19,
+        "font_face": "Arial",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Badge Earth Prick",
-        "theme_topic": "Zealous Object",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.2886,
-        "w": 4.838,
-        "x": 7.746,
-        "y": 2.4583
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          162,
-          165,
-          179
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "sense border price contain skillful relieved moon woozy brave invent odd rabbit unwieldy ghost empty comparison grab",
-        "theme_topic": "Zealous Object",
+        "text": "Dark Cut",
+        "theme_topic": "Phone Plate",
         "underline": false
       },
       "type": "text",
@@ -195,10 +201,10 @@
     },
     {
       "bbox": {
-        "h": 0.9733,
-        "w": 8.6657,
-        "x": 3.9061,
-        "y": 4.2712
+        "h": 0.7284,
+        "w": 11.9435,
+        "x": 0.6844,
+        "y": 5.0363
       },
       "id": "object_006",
       "properties": {
@@ -206,17 +212,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          83,
-          172,
-          103
+          138,
+          177,
+          200
         ],
-        "font_face": "Aptos Display",
-        "font_size": 36,
+        "font_face": "Arial",
+        "font_size": 39,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Present",
-        "theme_topic": "Zealous Object",
+        "text": "Beneficial",
+        "theme_topic": "Phone Plate",
         "underline": false
       },
       "type": "text",
@@ -224,10 +230,10 @@
     },
     {
       "bbox": {
-        "h": 1.3254,
-        "w": 8.6738,
-        "x": 3.9066,
-        "y": 5.468
+        "h": 0.954,
+        "w": 11.941,
+        "x": 0.7237,
+        "y": 6.0194
       },
       "id": "object_007",
       "properties": {
@@ -235,17 +241,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          162,
-          165,
-          179
+          177,
+          185,
+          196
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "soft melted word word defeated childlike gorgeous scarecrow cellar depend entertaining unaccountable polish ragged flesh punishment grieving vase",
-        "theme_topic": "Zealous Object",
+        "text": "roll numerous measly flesh dogs tremendous clip influence respect rail poison doubt fluttering frighten grain shy well-groomed heady scratch nauseating old",
+        "theme_topic": "Phone Plate",
         "underline": false
       },
       "type": "text",

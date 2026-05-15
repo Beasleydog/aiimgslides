@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        133,
-        29,
-        44
+        184,
+        90,
+        39
       ],
       "fill": [
-        133,
-        29,
-        44
+        156,
+        215,
+        165
       ],
       "fore_color": [
         255,
-        198,
-        74
+        238,
+        103
       ],
-      "pattern": 12,
+      "pattern": 14,
       "style": "pattern",
-      "theme_topic": "Madly Actor"
+      "theme_topic": "Rabid"
     },
     "type": "background",
     "z_order": 0
@@ -41,89 +41,91 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.705,
-        "w": 6.3721,
-        "x": 6.9058,
-        "y": 1.974
+        "h": 4.3361,
+        "w": 6.8848,
+        "x": 6.4482,
+        "y": 3.1969
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "panel",
         "fill": [
-          170,
-          113,
-          154
+          127,
+          176,
+          135
         ],
-        "focus": false,
         "line": [
-          77,
-          95,
-          163
+          127,
+          176,
+          135
         ],
-        "line_width": 5.766552020806397,
+        "line_width": 2.6992945643311446,
         "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Madly Actor"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Rabid"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.4197,
-        "w": 8.7121,
-        "x": -0.4702,
-        "y": -0.1349
+        "h": 2.3498,
+        "w": 5.9567,
+        "x": 6.846,
+        "y": 0.571
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          74,
-          144,
-          68
+        "crop": [
+          0.29706816248894513,
+          0.16063310137850667,
+          0.13630036917301705,
+          0.05580531354089792
         ],
-        "focus": false,
-        "line": [
-          102,
-          115,
-          185
+        "focus": true,
+        "mask_line": [
+          255,
+          238,
+          103
         ],
-        "line_width": 4.628223922842304,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Madly Actor"
+        "mask_overlay": false,
+        "theme_topic": "Rabid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.4433,
-        "w": 3.8434,
-        "x": 8.211,
-        "y": 4.1342
+        "h": 2.319,
+        "w": 5.9645,
+        "x": 0.5557,
+        "y": 0.5247
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          255,
-          198,
-          74
+        "crop": [
+          0.07911329833843228,
+          0.17721943260686746,
+          0.1918566319442347,
+          0.303392419143412
         ],
-        "line_width": 10,
-        "theme_topic": "Madly Actor"
+        "focus": true,
+        "mask_line": [
+          255,
+          238,
+          103
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Rabid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg_image",
+      "type": "image",
       "z_order": 3
     }
   ],

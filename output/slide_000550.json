@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        171,
-        218,
-        210
+      "back_color": [
+        163,
+        115,
+        196
       ],
-      "style": "solid",
-      "theme_topic": "Wandering Strange"
+      "fill": [
+        126,
+        58,
+        173
+      ],
+      "fore_color": [
+        38,
+        132,
+        88
+      ],
+      "pattern": 23,
+      "style": "pattern",
+      "theme_topic": "Terrible Excuse"
     },
     "type": "background",
     "z_order": 0
@@ -30,70 +41,73 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.2288,
-        "w": 5.968,
-        "x": 0.0136,
-        "y": 3.2425
+        "h": 4.2671,
+        "w": 5.5391,
+        "x": 7.3118,
+        "y": 3.1305
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "math",
         "fill": [
-          150,
-          191,
+          145,
+          149,
           184
         ],
+        "focus": false,
         "line": [
-          150,
-          191,
-          184
+          132,
+          28,
+          180
         ],
-        "line_width": 2.028654454934611,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Wandering Strange"
+        "line_width": 5.782892310221711,
+        "outline_only": true,
+        "ppt_type": 164,
+        "shape": "minus",
+        "theme_topic": "Terrible Excuse"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.172,
-        "w": 6.3681,
-        "x": 2.497,
-        "y": 0.658
+        "h": 3.1551,
+        "w": 7.0445,
+        "x": 0.0152,
+        "y": -0.0101
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          163,
+          115,
+          196
         ],
-        "font_face": "Arial",
-        "font_size": 31,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Automatic Reply Dark",
-        "theme_topic": "Wandering Strange",
-        "underline": false
+        "line": [
+          163,
+          115,
+          196
+        ],
+        "line_width": 1.2145133218991875,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Terrible Excuse"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.2709,
-        "w": 4.1453,
-        "x": 4.2783,
-        "y": 2.1327
+        "h": 5.542,
+        "w": 2.855,
+        "x": 0.6412,
+        "y": 0.7569
       },
       "id": "object_003",
       "properties": {
@@ -101,17 +115,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 10,
+        "font_size": 20,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "LARGE",
-        "theme_topic": "Wandering Strange",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Straight Paste Arrive",
+        "theme_topic": "Terrible Excuse",
         "underline": false
       },
       "type": "text",
@@ -119,57 +133,59 @@
     },
     {
       "bbox": {
-        "h": 1.0736,
-        "w": 4.12,
-        "x": 4.3013,
-        "y": 2.5807
+        "h": 3.0913,
+        "w": 2.587,
+        "x": 3.7338,
+        "y": 3.8274
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          163,
+          115,
+          196
         ],
-        "font_face": "Arial",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Temper Tire",
-        "theme_topic": "Wandering Strange",
-        "underline": false
+        "line": [
+          163,
+          115,
+          196
+        ],
+        "line_width": 1.2564245226483157,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Terrible Excuse"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 3.0446,
-        "w": 4.1456,
-        "x": 4.2972,
-        "y": 3.9238
+        "h": 0.738,
+        "w": 2.22,
+        "x": 3.9546,
+        "y": 4.0112
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          92,
-          114,
-          114
+          38,
+          132,
+          88
         ],
         "font_face": "Arial",
-        "font_size": 11,
+        "font_size": 27,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "partner calculating interest filthy spotless crown robust blade snobbish impossible airport periodic invite",
-        "theme_topic": "Wandering Strange",
+        "text": "93%",
+        "theme_topic": "Terrible Excuse",
         "underline": false
       },
       "type": "text",
@@ -177,88 +193,88 @@
     },
     {
       "bbox": {
-        "h": 5.0636,
-        "w": 3.1945,
-        "x": 0.5673,
-        "y": 1.9988
+        "h": 2.0533,
+        "w": 2.2308,
+        "x": 3.9442,
+        "y": 4.7349
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "line": [
-          150,
-          191,
-          184
-        ],
-        "line_width": 1.5510995101003773,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wandering Strange"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.1465,
-        "w": 2.8253,
-        "x": 0.7481,
-        "y": 2.9511
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Arial",
-        "font_size": 52,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "16%",
-        "theme_topic": "Wandering Strange",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.7019,
-        "w": 2.8577,
-        "x": 0.7315,
-        "y": 5.0784
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          192,
+          162,
+          216
         ],
         "font_face": "Arial",
         "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "excite alive caring voice yellow mouth jumbled",
-        "theme_topic": "Wandering Strange",
+        "text": "acrid exultant mom pumped",
+        "theme_topic": "Terrible Excuse",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 3.0841,
+        "w": 2.5917,
+        "x": 6.4954,
+        "y": 3.8207
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          97,
+          68,
+          136
+        ],
+        "line": [
+          163,
+          115,
+          196
+        ],
+        "line_width": 3.088096179882787,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Terrible Excuse"
+      },
+      "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.7468,
+        "w": 2.2054,
+        "x": 6.6616,
+        "y": 4.0082
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          38,
+          132,
+          88
+        ],
+        "font_face": "Arial",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "47%",
+        "theme_topic": "Terrible Excuse",
         "underline": false
       },
       "type": "text",
@@ -266,59 +282,57 @@
     },
     {
       "bbox": {
-        "h": 5.063,
-        "w": 3.8475,
-        "x": 8.9293,
-        "y": 1.9801
+        "h": 2.0714,
+        "w": 2.2298,
+        "x": 6.6688,
+        "y": 4.7474
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          150,
-          191,
-          184
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          192,
+          162,
+          216
         ],
-        "line": [
-          150,
-          191,
-          184
-        ],
-        "line_width": 1.358478823099832,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wandering Strange"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "spot used regret post",
+        "theme_topic": "Terrible Excuse",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 4.7542,
-        "w": 3.5852,
-        "x": 9.0547,
-        "y": 2.1537
+        "h": 3.0608,
+        "w": 3.2881,
+        "x": 9.5082,
+        "y": 3.8387
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.005845047280157519,
-          0.06523288447686133,
-          0.0842274472330803,
-          0.2529249676209075
+          0.21606450327135232,
+          0.0007513514394271259,
+          0.19954789407772638,
+          0.1796888930263643
         ],
         "focus": true,
         "mask_line": [
-          40,
-          80,
-          80
+          38,
+          132,
+          88
         ],
         "mask_overlay": false,
-        "theme_topic": "Wandering Strange",
+        "theme_topic": "Terrible Excuse",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -326,127 +340,185 @@
     },
     {
       "bbox": {
-        "h": 0.2817,
-        "w": 3.4388,
-        "x": 9.133,
-        "y": 6.578
+        "h": 2.7658,
+        "w": 8.8599,
+        "x": 3.787,
+        "y": 0.7207
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
+        "band": [
+          163,
+          115,
+          196
+        ],
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          163,
+          115,
+          196
+        ],
+        "border": [
+          184,
+          46,
+          78
+        ],
+        "border_dash": "solid",
+        "border_width": 1.4638711300367213,
+        "cells": [
+          [
+            "women",
+            "tiger egg",
+            "cut thirsty",
+            "fearless quick"
+          ],
+          [
+            "unruly",
+            "property",
+            "habitual",
+            "hellish"
+          ],
+          [
+            "crooked",
+            "quixotic",
+            "hilarious disgusting",
+            "compare rescue"
+          ],
+          [
+            "self amusing",
+            "condemned",
+            "tasteful",
+            "argument reaction"
+          ],
+          [
+            "spoon",
+            "secretary thread",
+            "tail",
+            "truck planes"
+          ],
+          [
+            "strengthen",
+            "direful",
+            "fallacious unequaled",
+            "loaf report"
+          ],
+          [
+            "potato",
+            "dare combative",
+            "vagabond",
+            "minor consider"
+          ]
+        ],
+        "cols": 4,
+        "font_size": 13,
+        "has_header": true,
+        "header": [
+          184,
+          25,
+          101
+        ],
+        "rows": 7,
+        "text_color": [
+          93,
+          68,
+          162
+        ],
+        "theme_topic": "Terrible Excuse"
+      },
+      "type": "table",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.2191,
+        "w": 0.9303,
+        "x": 0.4878,
+        "y": 2.3998
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          96,
-          165,
-          250
+          151,
+          39,
+          133
         ],
         "font_face": "Arial",
         "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Marry",
-        "theme_topic": "Wandering Strange",
+        "text": "Territory Sail",
+        "theme_topic": "Terrible Excuse",
         "underline": false
       },
       "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.6177,
-        "w": 0.4278,
-        "x": 8.5406,
-        "y": 1.0338
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "symbols",
-        "fill": [
-          151,
-          206,
-          98
-        ],
-        "focus": false,
-        "line": [
-          135,
-          131,
-          85
-        ],
-        "line_width": 3.2547881468880204,
-        "outline_only": false,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Wandering Strange"
-      },
-      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2863,
-        "w": 0.3588,
-        "x": 4.0561,
-        "y": 0.9284
+        "h": 0.5001,
+        "w": 2.1397,
+        "x": 9.2406,
+        "y": 6.5609
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          181,
-          173,
-          129
+        "bg_color": [
+          203,
+          222,
+          194
         ],
-        "focus": false,
-        "line": [
-          152,
-          161,
-          26
+        "bold": false,
+        "color": [
+          83,
+          134,
+          108
         ],
-        "line_width": 2.6424315765095097,
-        "outline_only": true,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Wandering Strange"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Glistening",
+        "theme_topic": "Terrible Excuse",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.6407,
-        "w": 0.2729,
-        "x": 4.5535,
-        "y": 4.5471
+        "h": 0.3736,
+        "w": 1.5041,
+        "x": 5.8362,
+        "y": 0.763
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "ribbons",
-        "fill": [
-          85,
-          170,
-          108
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          194,
+          76,
+          38
         ],
-        "focus": false,
-        "line": [
-          49,
-          111,
-          134
-        ],
-        "line_width": 3.1589260879045558,
-        "outline_only": false,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Wandering Strange"
+        "font_face": "Arial",
+        "font_size": 18,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Year",
+        "theme_topic": "Terrible Excuse",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 14
     }
   ],

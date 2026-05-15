@@ -8,18 +8,18 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 120,
+      "angle": 315,
       "archetype": "atomic_composition",
       "colors": [
         [
-          63,
-          153,
-          168
+          180,
+          207,
+          33
         ],
         [
-          93,
-          118,
-          87
+          255,
+          211,
+          88
         ]
       ],
       "fill": [
@@ -27,10 +27,10 @@
         129,
         148
       ],
-      "focus": "bottom_right",
-      "gradient_type": "radial",
+      "focus": "bottom_left",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Polish Boy"
+      "theme_topic": "Texture Ghost"
     },
     "type": "background",
     "z_order": 0
@@ -45,108 +45,139 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.807,
-        "w": 4.2143,
-        "x": 7.9459,
-        "y": -0.4556
+        "h": 1.9222,
+        "w": 7.2235,
+        "x": 0.8323,
+        "y": 3.2703
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 3,
+        "family": "callouts",
         "fill": [
-          91,
-          186,
-          171
+          63,
+          142,
+          178
         ],
         "focus": false,
         "line": [
-          120,
-          229,
-          199
+          96,
+          167,
+          44
         ],
-        "line_width": 2.007666019922935,
+        "line_width": 4.56046153228849,
         "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Polish Boy"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Texture Ghost"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.3992,
-        "w": 8.313,
-        "x": 2.6734,
-        "y": 4.7151
+        "h": 4.3479,
+        "w": 6.3732,
+        "x": 7.9895,
+        "y": 2.767
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "ribbons",
+        "dash": 7,
+        "family": "flowchart",
         "fill": [
-          74,
-          71,
-          128
+          100,
+          124,
+          159
         ],
         "focus": false,
         "line": [
-          153,
-          96,
-          203
+          91,
+          29,
+          147
         ],
-        "line_width": 2.544666421457771,
-        "outline_only": true,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Polish Boy"
+        "line_width": 7.545571382577563,
+        "outline_only": false,
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Texture Ghost"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.8043,
-        "w": 5.273,
-        "x": 8.0516,
-        "y": 1.9371
+        "h": 2.4433,
+        "w": 3.1838,
+        "x": 4.5402,
+        "y": 5.3163
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          101,
-          94,
-          108
+          70,
+          74,
+          169
         ],
         "focus": false,
         "line": [
-          228,
-          44,
-          68
+          209,
+          91,
+          144
         ],
-        "line_width": 4.871166581213808,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Polish Boy"
+        "line_width": 2.156037734168926,
+        "outline_only": true,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Texture Ghost"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.7981,
-        "w": 3.2135,
-        "x": 9.4063,
-        "y": 0.6512
+        "h": 7.5017,
+        "w": 5.1906,
+        "x": 0.0152,
+        "y": 0.0182
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          79,
+          161,
+          175
+        ],
+        "line": [
+          79,
+          161,
+          175
+        ],
+        "line_width": 0.9228920585239646,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Texture Ghost"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.8188,
+        "w": 3.1997,
+        "x": 9.3806,
+        "y": 0.633
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -156,189 +187,129 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
+        "font_face": "Arial",
         "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Visitor Interfere",
-        "theme_topic": "Polish Boy",
+        "text": "Sleepy",
+        "theme_topic": "Texture Ghost",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 3.0282,
-        "w": 2.6617,
-        "x": 6.2,
-        "y": 0.636
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          51,
-          63,
-          101
-        ],
-        "line_width": 13,
-        "theme_topic": "Polish Boy"
-      },
-      "type": "svg_image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 3.0466,
-        "w": 2.7641,
-        "x": 3.0254,
-        "y": 0.6879
+        "h": 0.2621,
+        "w": 4.0918,
+        "x": 0.7857,
+        "y": 5.2663
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          55,
-          127,
-          217
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "line": [
-          30,
-          123,
-          216
-        ],
-        "line_width": 1.1690287252017835,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Polish Boy"
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "CARING",
+        "theme_topic": "Texture Ghost",
+        "underline": false
       },
-      "type": "freeform",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.3737,
-        "w": 0.6411,
-        "x": 8.7039,
-        "y": 1.8184
+        "h": 0.3845,
+        "w": 4.0712,
+        "x": 0.8102,
+        "y": 5.7429
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          51,
-          63,
-          101
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          141,
+          93,
+          62
         ],
-        "secondary": [
-          255,
-          206,
-          86
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#2b7e4b\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#b75a81\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#2b7e4b\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Polish Boy"
+        "font_face": "Arial",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Development Strip Quirky",
+        "theme_topic": "Texture Ghost",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.6298,
-        "w": 0.6495,
-        "x": 0.2476,
-        "y": 1.6256
+        "h": 0.4088,
+        "w": 4.0827,
+        "x": 0.816,
+        "y": 6.3818
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
-        "fill": [
-          82,
-          63,
-          182
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          143,
+          194,
+          205
         ],
-        "focus": false,
-        "line": [
-          83,
-          31,
-          176
-        ],
-        "line_width": 3.017134780760548,
-        "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Polish Boy"
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "shiver station buzz filthy red note abnormal rest draconian pear changeable unpack",
+        "theme_topic": "Texture Ghost",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.3908,
-        "w": 0.6582,
-        "x": 6.5367,
-        "y": 5.6019
+        "h": 0.9855,
+        "w": 4.009,
+        "x": 0.8747,
+        "y": 0.8502
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          181,
-          123,
-          100
-        ],
+        "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          69,
-          53
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 22,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Unlock",
-        "theme_topic": "Polish Boy",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Hate Quizzical Apathetic Glow Furniture",
+        "theme_topic": "Texture Ghost",
         "underline": false
       },
       "type": "text",
@@ -346,135 +317,130 @@
     },
     {
       "bbox": {
-        "h": 0.3454,
-        "w": 1.561,
-        "x": 0.5467,
-        "y": 3.5198
+        "h": 6.2412,
+        "w": 1.863,
+        "x": 5.3898,
+        "y": 0.6499
       },
       "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          68,
+          130,
+          161
+        ],
+        "line": [
+          79,
+          161,
+          175
+        ],
+        "line_width": 4.011415396520116,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Texture Ghost"
+      },
+      "type": "shape",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.7469,
+        "w": 1.5349,
+        "x": 5.5579,
+        "y": 0.8062
+      },
+      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          93,
-          143,
-          202
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
-        "font_size": 17,
+        "font_face": "Arial",
+        "font_size": 34,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Bridge",
-        "theme_topic": "Polish Boy",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "6.8x",
+        "theme_topic": "Texture Ghost",
         "underline": false
       },
       "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.2062,
-        "w": 1.2013,
-        "x": 7.8218,
-        "y": 3.221
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          115,
-          105,
-          223
-        ],
-        "focus": false,
-        "line": [
-          207,
-          188,
-          130
-        ],
-        "line_width": 3.7528813062842983,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Polish Boy"
-      },
-      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.9072,
-        "w": 0.573,
-        "x": 10.9585,
-        "y": 5.4992
+        "h": 5.2284,
+        "w": 1.5225,
+        "x": 5.5305,
+        "y": 1.5656
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          219,
-          222,
-          45
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          143,
+          194,
+          205
         ],
-        "focus": false,
-        "line": [
-          92,
-          35,
-          31
-        ],
-        "line_width": 2.8416518604469054,
-        "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Polish Boy"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "delightful unnatural next odd blink naughty step",
+        "theme_topic": "Texture Ghost",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.3601,
-        "w": 0.969,
-        "x": 5.9649,
-        "y": 3.2095
+        "h": 6.2597,
+        "w": 1.4294,
+        "x": 7.4332,
+        "y": 0.6348
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "panel",
         "fill": [
-          44,
-          53,
-          59
+          79,
+          161,
+          175
         ],
-        "focus": false,
         "line": [
-          156,
-          200,
-          30
+          79,
+          161,
+          175
         ],
-        "line_width": 5.11497755905751,
+        "line_width": 0.6837590548383767,
         "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Polish Boy"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Texture Ghost"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.6478,
-        "w": 2.3937,
-        "x": 9.0515,
-        "y": 1.7564
+        "h": 5.2418,
+        "w": 1.0458,
+        "x": 7.6088,
+        "y": 1.5573
       },
       "id": "object_014",
       "properties": {
@@ -482,17 +448,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          107,
-          131,
-          150
+          143,
+          194,
+          205
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
+        "font_face": "Arial",
+        "font_size": 13,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Big Turn Drab",
-        "theme_topic": "Polish Boy",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "attack glow ring",
+        "theme_topic": "Texture Ghost",
         "underline": false
       },
       "type": "text",

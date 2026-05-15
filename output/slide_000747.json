@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        25,
-        30,
-        39
-      ],
       "fill": [
-        25,
-        30,
-        39
+        31,
+        87,
+        166
       ],
-      "fore_color": [
-        182,
-        159,
-        214
-      ],
-      "pattern": 53,
-      "style": "pattern",
-      "theme_topic": "Materialistic Boot"
+      "style": "solid",
+      "theme_topic": "Damp"
     },
     "type": "background",
     "z_order": 0
@@ -41,42 +30,42 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.1018,
-        "w": 7.1946,
-        "x": 3.6382,
-        "y": 0.5997
+        "h": 4.7249,
+        "w": 3.9453,
+        "x": 10.4213,
+        "y": 0.1524
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 1,
+        "family": "ribbons",
         "fill": [
-          136,
-          144,
-          159
+          93,
+          99,
+          149
         ],
         "focus": false,
         "line": [
-          189,
-          90,
-          29
+          222,
+          87,
+          112
         ],
-        "line_width": 3.2807473904391524,
+        "line_width": 2.6201407171136832,
         "outline_only": false,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Materialistic Boot"
+        "ppt_type": 97,
+        "shape": "up_ribbon",
+        "theme_topic": "Damp"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5108,
-        "w": 6.7755,
-        "x": -0.0138,
-        "y": 0.0018
+        "h": 0.8214,
+        "w": 13.3255,
+        "x": -0.0157,
+        "y": 0.0068
       },
       "id": "object_002",
       "properties": {
@@ -84,30 +73,30 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          43,
-          51,
-          64
+          94,
+          134,
+          191
         ],
         "line": [
-          43,
-          51,
-          64
+          94,
+          134,
+          191
         ],
-        "line_width": 4.081019030198957,
+        "line_width": 1.6409386215166026,
         "outline_only": false,
         "ppt_type": 1,
         "shape": "rect",
-        "theme_topic": "Materialistic Boot"
+        "theme_topic": "Damp"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5531,
-        "w": 2.8618,
-        "x": 0.6252,
-        "y": 0.7655
+        "h": 0.8993,
+        "w": 7.5349,
+        "x": 0.7699,
+        "y": 5.8402
       },
       "id": "object_003",
       "properties": {
@@ -116,16 +105,16 @@
         "bold": true,
         "color": [
           246,
-          247,
-          249
+          248,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 30,
+        "font_face": "Georgia",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Caring Agonizing",
-        "theme_topic": "Materialistic Boot",
+        "text": "Boot Tramp Grotesque",
+        "theme_topic": "Damp",
         "underline": false
       },
       "type": "text",
@@ -133,59 +122,57 @@
     },
     {
       "bbox": {
-        "h": 0.6439,
-        "w": 2.7872,
-        "x": 9.95,
-        "y": 0.6484
+        "h": 0.4666,
+        "w": 0.7783,
+        "x": 0.7818,
+        "y": 1.4294
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          43,
-          51,
-          64
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 0.9068981619013634,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Materialistic Boot"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.4287,
-        "w": 2.3198,
-        "x": 10.2084,
-        "y": 1.5424
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          32,
+          119,
+          149
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "False Disastrous",
-        "theme_topic": "Materialistic Boot",
+        "text": "Zippy Faint",
+        "theme_topic": "Damp",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.7381,
+        "w": 0.8031,
+        "x": 0.8226,
+        "y": 2.0004
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "trouble admit acid big neck quick sneaky uttermost cautious cross lying curvy window super",
+        "theme_topic": "Damp",
         "underline": false
       },
       "type": "text",
@@ -193,10 +180,10 @@
     },
     {
       "bbox": {
-        "h": 0.4596,
-        "w": 2.3214,
-        "x": 10.1757,
-        "y": 2.3972
+        "h": 0.4331,
+        "w": 0.5397,
+        "x": 2.3455,
+        "y": 1.4453
       },
       "id": "object_006",
       "properties": {
@@ -204,17 +191,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          32,
+          119,
+          149
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Moon Afterthought",
-        "theme_topic": "Materialistic Boot",
+        "text": "Brash Planes",
+        "theme_topic": "Damp",
         "underline": false
       },
       "type": "text",
@@ -222,41 +209,39 @@
     },
     {
       "bbox": {
-        "h": 0.7438,
-        "w": 2.8066,
-        "x": 9.9455,
-        "y": 2.1766
+        "h": 0.6979,
+        "w": 0.5816,
+        "x": 2.3329,
+        "y": 2.009
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          43,
-          51,
-          64
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
         ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 1.413168009054716,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Materialistic Boot"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "righteous egg wobble prefer wiggly famous",
+        "theme_topic": "Damp",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.474,
-        "w": 2.2788,
-        "x": 10.1627,
-        "y": 3.0758
+        "h": 0.4289,
+        "w": 0.5727,
+        "x": 3.5829,
+        "y": 1.4252
       },
       "id": "object_008",
       "properties": {
@@ -264,17 +249,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          32,
+          119,
+          149
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Poison",
-        "theme_topic": "Materialistic Boot",
+        "text": "Admit",
+        "theme_topic": "Damp",
         "underline": false
       },
       "type": "text",
@@ -282,41 +267,39 @@
     },
     {
       "bbox": {
-        "h": 0.5269,
-        "w": 2.811,
-        "x": 9.9344,
-        "y": 3.0998
+        "h": 0.6984,
+        "w": 0.5994,
+        "x": 3.6253,
+        "y": 1.9862
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          43,
-          51,
-          64
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
         ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 2.8305363940984085,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Materialistic Boot"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "road bait vengeful far measly shelf six stitch husky",
+        "theme_topic": "Damp",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4539,
-        "w": 2.3078,
-        "x": 10.1729,
-        "y": 4.0239
+        "h": 1.198,
+        "w": 3.4977,
+        "x": 0.7537,
+        "y": 3.3986
       },
       "id": "object_010",
       "properties": {
@@ -324,17 +307,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Glove Doll",
-        "theme_topic": "Materialistic Boot",
+        "font_face": "Georgia",
+        "font_size": 18,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Play History Wilderness Delirious Brown Bucket Scarecrow Warm",
+        "theme_topic": "Damp",
         "underline": false
       },
       "type": "text",
@@ -342,10 +325,10 @@
     },
     {
       "bbox": {
-        "h": 1.0581,
-        "w": 2.5119,
-        "x": 10.0902,
-        "y": 4.0519
+        "h": 0.3511,
+        "w": 1.9316,
+        "x": 0.766,
+        "y": 4.8082
       },
       "id": "object_011",
       "properties": {
@@ -353,17 +336,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          134,
-          173,
-          85
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos Display",
-        "font_size": 35,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Fade",
-        "theme_topic": "Materialistic Boot",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "DRAG",
+        "theme_topic": "Damp",
         "underline": false
       },
       "type": "text",
@@ -371,70 +354,129 @@
     },
     {
       "bbox": {
-        "h": 1.4567,
-        "w": 2.5131,
-        "x": 10.0912,
-        "y": 5.32
+        "h": 2.2844,
+        "w": 3.822,
+        "x": 8.9334,
+        "y": 0.5707
       },
       "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          166,
+          69,
+          178
+        ],
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          94,
+          134,
+          191
+        ],
+        "border": [
+          132,
+          205,
+          225
+        ],
+        "border_dash": "solid",
+        "border_width": 1.6745326950822976,
+        "cells": [
+          [
+            "moaning productive",
+            "sweater",
+            "uncovered extra-large",
+            "futuristic skillful",
+            "deafening",
+            "romantic unknown"
+          ],
+          [
+            "round amazing",
+            "gate",
+            "soggy",
+            "weight pumped",
+            "shame",
+            "plastic"
+          ],
+          [
+            "unwieldy",
+            "miniature",
+            "turn",
+            "ticket purring",
+            "gate",
+            "cherry side"
+          ],
+          [
+            "suspect depressed",
+            "shiny",
+            "trashy",
+            "organic",
+            "prickly river",
+            "mask pinch"
+          ],
+          [
+            "health",
+            "future",
+            "scrub",
+            "brass female",
+            "outstanding wool",
+            "deserted pumped"
+          ]
+        ],
+        "cols": 6,
+        "font_size": 13,
+        "has_header": false,
+        "header": [
+          225,
+          96,
+          150
+        ],
+        "rows": 5,
+        "text_color": [
+          111,
+          127,
+          147
+        ],
+        "theme_topic": "Damp"
+      },
+      "type": "table",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.7348,
+        "w": 0.6462,
+        "x": 4.9605,
+        "y": 4.6518
+      },
+      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          177,
-          185,
-          196
+          149,
+          175,
+          213
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "chilly racial decorous run start daily influence water youthful follow rambunctious",
-        "theme_topic": "Materialistic Boot",
+        "text": "unusual macabre way grieving surround ambitious water",
+        "theme_topic": "Damp",
         "underline": false
       },
       "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 2.9752,
-        "w": 2.7791,
-        "x": 6.8626,
-        "y": 0.6394
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 2.385738642990255,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Materialistic Boot"
-      },
-      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 1.1315,
-        "w": 2.4248,
-        "x": 7.0198,
-        "y": 1.2699
+        "h": 0.4562,
+        "w": 0.9105,
+        "x": 6.344,
+        "y": 4.1095
       },
       "id": "object_014",
       "properties": {
@@ -442,17 +484,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          247,
-          249
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos Display",
-        "font_size": 48,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "282",
-        "theme_topic": "Materialistic Boot",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Want Mass",
+        "theme_topic": "Damp",
         "underline": false
       },
       "type": "text",
@@ -460,10 +502,10 @@
     },
     {
       "bbox": {
-        "h": 0.7057,
-        "w": 2.4327,
-        "x": 7.0274,
-        "y": 2.4629
+        "h": 0.73,
+        "w": 0.9074,
+        "x": 6.3337,
+        "y": 4.6361
       },
       "id": "object_015",
       "properties": {
@@ -471,17 +513,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          247,
-          249
+          149,
+          175,
+          213
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "haunt colossal tremendous observant unsuitable grade payment moan scratch",
-        "theme_topic": "Materialistic Boot",
+        "text": "abrupt grin afraid bushes pies creepy clover fearful imported decide wood knock",
+        "theme_topic": "Damp",
         "underline": false
       },
       "type": "text",
@@ -489,88 +531,86 @@
     },
     {
       "bbox": {
-        "h": 2.988,
-        "w": 2.7922,
-        "x": 3.7396,
-        "y": 3.9181
+        "h": 0.7025,
+        "w": 0.4819,
+        "x": 7.962,
+        "y": 4.6438
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          43,
-          51,
-          64
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
         ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 3.797248685401699,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Materialistic Boot"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "race celery wild weight soup",
+        "theme_topic": "Damp",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 2.6837,
-        "w": 2.4744,
-        "x": 3.9178,
-        "y": 4.0818
+        "h": 0.8061,
+        "w": 3.5765,
+        "x": 4.8485,
+        "y": 0.6775
       },
       "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.05795622577303385,
-          0.13956398964447753,
-          0.05732765858622798,
-          0.1725564417976003
-        ],
-        "focus": false,
-        "mask_line": [
-          96,
-          165,
-          250
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Materialistic Boot",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.4357,
-        "w": 1.124,
-        "x": 10.9909,
-        "y": 2.3337
-      },
-      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          183,
-          218,
+          166,
+          64,
+          114
+        ],
+        "font_face": "Georgia",
+        "font_size": 42,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Blush Hot",
+        "theme_topic": "Damp",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 1.0773,
+        "w": 3.6138,
+        "x": 4.8563,
+        "y": 1.7196
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
           213
         ],
         "font_face": "Aptos",
-        "font_size": 8,
+        "font_size": 14,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Boring Zesty Drum",
-        "theme_topic": "Materialistic Boot",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "juice crook paint face astonishing trains shallow pour telephone eggs trust rhythm temporary powder uttermost flower idea spoon seat drop",
+        "theme_topic": "Damp",
         "underline": false
       },
       "type": "text",
@@ -578,28 +618,28 @@
     },
     {
       "bbox": {
-        "h": 0.4209,
-        "w": 1.5162,
-        "x": 5.1253,
-        "y": 0.9683
+        "h": 0.6448,
+        "w": 0.8084,
+        "x": 5.5163,
+        "y": 5.1963
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          105,
-          162,
-          188
+          106,
+          208,
+          149
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 6,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "waste protective likeable",
-        "theme_topic": "Materialistic Boot",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Interest",
+        "theme_topic": "Damp",
         "underline": true
       },
       "type": "text",

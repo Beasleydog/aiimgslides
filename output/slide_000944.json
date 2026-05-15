@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 180,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          214,
-          209,
-          124
-        ],
-        [
-          38,
-          132,
-          88
-        ]
-      ],
       "fill": [
-        250,
-        250,
-        248
+        97,
+        131,
+        192
       ],
-      "focus": "top_right",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Nine"
+      "style": "solid",
+      "theme_topic": "Fry"
     },
     "type": "background",
     "z_order": 0
@@ -45,324 +30,338 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5101,
-        "w": 8.3179,
-        "x": 5.0407,
-        "y": 4.3943
+        "h": 3.4258,
+        "w": 5.5403,
+        "x": 0.4976,
+        "y": 3.8351
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          155,
-          108,
-          150
+          147,
+          191,
+          198
         ],
         "focus": false,
         "line": [
-          135,
-          107,
-          121
+          106,
+          41,
+          200
         ],
-        "line_width": 5.3071889857879695,
+        "line_width": 3.466676096809756,
         "outline_only": false,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Nine"
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Fry"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.2935,
-        "w": 5.7361,
-        "x": 7.7086,
-        "y": 1.1038
+        "h": 3.9743,
+        "w": 4.5619,
+        "x": -0.0012,
+        "y": 3.53
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "panel",
         "fill": [
-          204,
-          128,
-          182
+          137,
+          162,
+          208
         ],
-        "focus": false,
         "line": [
-          124,
-          145,
-          171
+          137,
+          162,
+          208
         ],
-        "line_width": 7.536581085198883,
-        "outline_only": true,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Nine"
+        "line_width": 1.0173293044372003,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Fry"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.2154,
-        "w": 7.9919,
-        "x": 6.3245,
-        "y": 2.0643
+        "h": 1.1444,
+        "w": 6.0325,
+        "x": 2.5935,
+        "y": 0.6745
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
-        "fill": [
-          219,
-          227,
-          157
-        ],
-        "focus": false,
-        "line": [
-          76,
-          219,
-          215
-        ],
-        "line_width": 2.08896105790752,
-        "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Nine"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.9808,
-        "w": 6.0406,
-        "x": 0.536,
-        "y": 0.332
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           28,
-          28,
-          28
+          30,
+          36
         ],
-        "font_face": "Arial",
-        "font_size": 27,
+        "font_face": "Georgia",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Dime Team Quince",
-        "theme_topic": "Nine",
+        "text": "Noiseless Lying Sleepy Stretch Believe",
+        "theme_topic": "Fry",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.1944,
+        "w": 3.8346,
+        "x": 4.6379,
+        "y": 4.9084
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.053999324401914225,
+          0.13663035526857437,
+          0.1676233458572628,
+          0.2895133528478292
+        ],
+        "focus": true,
+        "mask_line": [
+          122,
+          129,
+          170
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Fry",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.3103,
-        "w": 2.1552,
-        "x": 3.2757,
-        "y": 2.8182
+        "h": 0.296,
+        "w": 3.4536,
+        "x": 4.8357,
+        "y": 6.6089
       },
       "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Boast Mend Alcoholic",
+        "theme_topic": "Fry",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.166,
+        "w": 1.0449,
+        "x": 0.5376,
+        "y": 4.8722
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          137,
+          162,
+          208
+        ],
+        "line": [
+          137,
+          162,
+          208
+        ],
+        "line_width": 0.7264788419086528,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Fry"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.4644,
+        "w": 0.5661,
+        "x": 0.7795,
+        "y": 5.7726
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Elated Boat",
+        "theme_topic": "Fry",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.5288,
+        "w": 0.5367,
+        "x": 0.8244,
+        "y": 6.3066
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          59,
+          75,
+          106
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wet analyze fear penitent",
+        "theme_topic": "Fry",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 2.1586,
+        "w": 0.6114,
+        "x": 1.8158,
+        "y": 4.8768
+      },
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 5,
         "family": "panel",
         "fill": [
-          239,
-          239,
-          235
+          137,
+          162,
+          208
         ],
         "line": [
-          239,
-          239,
-          235
+          137,
+          162,
+          208
         ],
-        "line_width": 1.350650828682891,
+        "line_width": 2.229851320840084,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Nine"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.9901,
-        "w": 1.838,
-        "x": 3.4356,
-        "y": 2.9967
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": false,
-        "line": [
-          45,
-          79,
-          107
-        ],
-        "line_width": 8,
-        "theme_topic": "Nine"
-      },
-      "type": "svg_image",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.2846,
-        "w": 2.1608,
-        "x": 5.6155,
-        "y": 2.8347
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": false,
-        "line": [
-          38,
-          132,
-          88
-        ],
-        "line_width": 15,
-        "theme_topic": "Nine"
-      },
-      "type": "svg_image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 1.3468,
-        "w": 2.1303,
-        "x": 7.8862,
-        "y": 2.8116
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": false,
-        "line": [
-          38,
-          132,
-          88
-        ],
-        "line_width": 17,
-        "theme_topic": "Nine"
-      },
-      "type": "svg_image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.2933,
-        "w": 2.1426,
-        "x": 3.2894,
-        "y": 4.2943
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          239,
-          239,
-          235
-        ],
-        "line": [
-          239,
-          239,
-          235
-        ],
-        "line_width": 3.402204497637344,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Nine"
+        "theme_topic": "Fry"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.0354,
-        "w": 1.8302,
-        "x": 3.4441,
-        "y": 4.4256
+        "h": 0.462,
+        "w": 0.5188,
+        "x": 2.0479,
+        "y": 5.7601
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.021279541528711542,
-          0.006590158180434968,
-          0.2171266680530083,
-          0.0050044343649993306
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "focus": false,
-        "mask_line": [
-          186,
-          168,
-          188
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Nine",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Roomy",
+        "theme_topic": "Fry",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.3062,
-        "w": 2.1778,
-        "x": 5.5911,
-        "y": 4.2868
+        "h": 0.5377,
+        "w": 0.4858,
+        "x": 2.038,
+        "y": 6.3121
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1360281203849314,
-          0.2944641396088954,
-          0.2571734702308748,
-          0.3149987551393003
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          59,
+          75,
+          106
         ],
-        "focus": false,
-        "mask_line": [
-          38,
-          132,
-          88
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Nine",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "unit repair distinct bloody temper",
+        "theme_topic": "Fry",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 1.2987,
-        "w": 2.1249,
-        "x": 7.8945,
-        "y": 4.2983
+        "h": 2.1719,
+        "w": 0.6799,
+        "x": 2.6441,
+        "y": 4.8997
       },
       "id": "object_012",
       "properties": {
@@ -370,137 +369,137 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          239,
-          239,
-          235
+          137,
+          162,
+          208
         ],
         "line": [
-          239,
-          239,
-          235
+          137,
+          162,
+          208
         ],
-        "line_width": 1.012945916711257,
+        "line_width": 1.6315043089549939,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Nine"
+        "theme_topic": "Fry"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.0405,
-        "w": 1.8643,
-        "x": 8.0607,
-        "y": 4.4619
+        "h": 0.4309,
+        "w": 0.4776,
+        "x": 2.8584,
+        "y": 5.7688
       },
       "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.12365956755755884,
-          0.1489164964142102,
-          0.07216577518087648,
-          0.032048680816907316
-        ],
-        "focus": false,
-        "mask_line": [
-          38,
-          132,
-          88
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Nine",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 5.1562,
-        "w": 2.2213,
-        "x": 0.5437,
-        "y": 1.8325
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          239,
-          239,
-          235
-        ],
-        "line": [
-          239,
-          239,
-          235
-        ],
-        "line_width": 1.3263112845796468,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Nine"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 1.1263,
-        "w": 1.8523,
-        "x": 0.7119,
-        "y": 2.8003
-      },
-      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          250,
-          250,
-          248
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 44,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "315",
-        "theme_topic": "Nine",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Rambunctious Sisters",
+        "theme_topic": "Fry",
         "underline": false
       },
       "type": "text",
-      "z_order": 15
+      "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.7234,
-        "w": 1.8604,
-        "x": 0.7106,
-        "y": 4.9925
+        "h": 0.5397,
+        "w": 0.4982,
+        "x": 2.8976,
+        "y": 6.311
       },
-      "id": "object_016",
+      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          28,
-          28
+          59,
+          75,
+          106
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "berserk road observe amazing weight remarkable creature top",
-        "theme_topic": "Nine",
+        "text": "lying quiver purple women",
+        "theme_topic": "Fry",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 2.1677,
+        "w": 0.7869,
+        "x": 3.5227,
+        "y": 4.8982
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          137,
+          162,
+          208
+        ],
+        "line": [
+          137,
+          162,
+          208
+        ],
+        "line_width": 0.8113755025720496,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Fry"
+      },
+      "type": "shape",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.4267,
+        "w": 0.5006,
+        "x": 3.7481,
+        "y": 5.7977
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Gratis",
+        "theme_topic": "Fry",
         "underline": false
       },
       "type": "text",
@@ -508,28 +507,28 @@
     },
     {
       "bbox": {
-        "h": 1.0424,
-        "w": 1.9263,
-        "x": 10.7403,
-        "y": 1.9586
+        "h": 0.5185,
+        "w": 0.5128,
+        "x": 3.7463,
+        "y": 6.323
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          168,
-          60,
-          193
+          59,
+          75,
+          106
         ],
-        "font_face": "Arial",
-        "font_size": 29,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Celery Quizzical",
-        "theme_topic": "Nine",
+        "text": "rebel inject frequent flippant luxuriant",
+        "theme_topic": "Fry",
         "underline": false
       },
       "type": "text",
@@ -537,117 +536,124 @@
     },
     {
       "bbox": {
-        "h": 3.5974,
-        "w": 1.903,
-        "x": 10.7161,
-        "y": 3.2529
+        "h": 0.9614,
+        "w": 0.7728,
+        "x": 2.769,
+        "y": 3.1299
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          115,
-          115,
-          115
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          159,
+          98,
+          150
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "crime surround alert name connection vein crib macabre protect battle knotty filthy protect paste sheep thank flower payment ski",
-        "theme_topic": "Nine",
-        "underline": false
+        "focus": false,
+        "line": [
+          120,
+          49,
+          97
+        ],
+        "line_width": 1.607616327440844,
+        "outline_only": true,
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Fry"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 1.127,
-        "w": 3.6427,
-        "x": 3.2352,
-        "y": 5.8782
+        "h": 0.6269,
+        "w": 0.6953,
+        "x": 0.565,
+        "y": 1.4086
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          190,
-          216,
-          203
+          64,
+          47,
+          140
         ],
+        "focus": false,
         "line": [
-          239,
-          239,
-          235
+          217,
+          47,
+          201
         ],
-        "line_width": 3.433319191632484,
+        "line_width": 6.276253382042813,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Nine"
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Fry"
       },
       "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.5141,
-        "w": 3.283,
-        "x": 3.4269,
-        "y": 6.058
+        "h": 0.9375,
+        "w": 0.6848,
+        "x": 2.7914,
+        "y": 2.4905
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          228,
+          28,
           88
         ],
-        "font_face": "Arial",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "153",
-        "theme_topic": "Nine",
-        "underline": false
+        "focus": false,
+        "line": [
+          180,
+          92,
+          98
+        ],
+        "line_width": 5.464163248395923,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Fry"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.5328,
-        "w": 2.6379,
-        "x": 7.2738,
-        "y": 6.037
+        "h": 0.2033,
+        "w": 1.6618,
+        "x": 8.5789,
+        "y": 0.4279
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          38,
-          132,
-          88
+          189,
+          201,
+          194
         ],
-        "font_face": "Arial",
-        "font_size": 27,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "51%",
-        "theme_topic": "Nine",
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Pastoral Baseball",
+        "theme_topic": "Fry",
         "underline": false
       },
       "type": "text",
@@ -655,39 +661,42 @@
     },
     {
       "bbox": {
-        "h": 0.3206,
-        "w": 2.0086,
-        "x": 5.556,
-        "y": 6.2302
+        "h": 0.8604,
+        "w": 1.397,
+        "x": 2.9371,
+        "y": 2.5376
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          42,
-          177,
-          75
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          163,
+          182,
+          46
         ],
-        "font_face": "Arial",
-        "font_size": 16,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Wave Tin",
-        "theme_topic": "Nine",
-        "underline": true
+        "focus": false,
+        "line": [
+          143,
+          82,
+          207
+        ],
+        "line_width": 2.9206299444712567,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Fry"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.5196,
-        "w": 0.6795,
-        "x": 1.069,
-        "y": 6.7999
+        "h": 0.4808,
+        "w": 1.2997,
+        "x": 4.665,
+        "y": 1.3215
       },
       "id": "object_023",
       "properties": {
@@ -695,52 +704,55 @@
         "dash": 1,
         "family": "basic",
         "fill": [
-          202,
-          59,
-          219
+          182,
+          27,
+          83
         ],
         "focus": false,
         "line": [
-          197,
-          120,
-          41
+          210,
+          186,
+          65
         ],
-        "line_width": 4.808212398585425,
-        "outline_only": true,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Nine"
+        "line_width": 2.6269988724204216,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Fry"
       },
       "type": "shape",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.6017,
-        "w": 2.0206,
-        "x": 7.1371,
-        "y": 3.5896
+        "h": 0.378,
+        "w": 0.6709,
+        "x": 1.5925,
+        "y": 3.2387
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          116,
-          121,
-          128
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          35,
+          88,
+          143
         ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Arithmetic Mom Stir",
-        "theme_topic": "Nine",
-        "underline": true
+        "focus": false,
+        "line": [
+          70,
+          196,
+          97
+        ],
+        "line_width": 3.543427971995301,
+        "outline_only": true,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Fry"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 24
     }
   ],

@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "fill": [
-        177,
-        191,
-        154
+      "colors": [
+        [
+          29,
+          151,
+          112
+        ],
+        [
+          120,
+          46,
+          64
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Stitch Bells"
+      "fill": [
+        29,
+        151,
+        112
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Thing Furniture"
     },
     "type": "background",
     "z_order": 0
@@ -30,187 +45,182 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.0952,
-        "w": 6.1014,
-        "x": 4.9612,
-        "y": 4.6212
+        "h": 4.6789,
+        "w": 4.761,
+        "x": 3.0588,
+        "y": 0.4871
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
+        "dash": 4,
+        "family": "callouts",
         "fill": [
-          210,
-          197,
-          90
+          36,
+          195,
+          108
         ],
         "focus": false,
         "line": [
-          217,
-          216,
-          40
+          131,
+          71,
+          140
         ],
-        "line_width": 3.5577531127768998,
+        "line_width": 7.47065189347762,
         "outline_only": false,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Stitch Bells"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Thing Furniture"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.557,
-        "w": 7.7778,
-        "x": 3.1792,
-        "y": 1.6763
+        "h": 5.2021,
+        "w": 7.8557,
+        "x": 1.0734,
+        "y": -0.1523
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "stars",
+        "dash": 7,
+        "family": "arrows",
         "fill": [
-          56,
-          79,
-          71
+          107,
+          151,
+          100
         ],
         "focus": false,
         "line": [
-          169,
-          43,
-          66
+          224,
+          104,
+          113
         ],
-        "line_width": 6.598764582037527,
+        "line_width": 2.1220400476145618,
         "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Stitch Bells"
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Thing Furniture"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.8098,
-        "w": 8.1461,
-        "x": 1.8694,
-        "y": -0.0332
+        "h": 4.8694,
+        "w": 4.9225,
+        "x": 8.4366,
+        "y": -0.5103
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 7,
+        "family": "symbols",
         "fill": [
-          171,
-          177,
-          180
+          145,
+          125,
+          77
         ],
         "focus": false,
         "line": [
-          223,
-          168,
-          137
+          92,
+          134,
+          108
         ],
-        "line_width": 3.5825314768392085,
+        "line_width": 5.46842579253785,
         "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Stitch Bells"
+        "ppt_type": 179,
+        "shape": "cloud",
+        "theme_topic": "Thing Furniture"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.2055,
-        "w": 5.2371,
-        "x": -0.6016,
-        "y": 4.3253
+        "h": 1.3456,
+        "w": 7.992,
+        "x": 0.5462,
+        "y": 0.3604
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          135,
-          201,
-          111
-        ],
-        "focus": false,
-        "line": [
-          183,
-          196,
-          146
-        ],
-        "line_width": 3.286580296377269,
-        "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Stitch Bells"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.0672,
-        "w": 13.3273,
-        "x": -0.0198,
-        "y": 0.0053
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          159,
-          172,
-          139
-        ],
-        "line": [
-          159,
-          172,
-          139
-        ],
-        "line_width": 2.937490011666064,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Stitch Bells"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.538,
-        "w": 2.8339,
-        "x": 0.6303,
-        "y": 0.7435
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 30,
+        "font_face": "Aptos Display",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Annoying Error",
-        "theme_topic": "Stitch Bells",
+        "text": "Walk Bomb Useful",
+        "theme_topic": "Thing Furniture",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.0422,
+        "w": 4.2614,
+        "x": 5.3706,
+        "y": 1.9895
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 36,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "File Offend Learn",
+        "theme_topic": "Thing Furniture",
+        "underline": true
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 3.6017,
+        "w": 4.2484,
+        "x": 5.3499,
+        "y": 3.2662
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          148,
+          204,
+          189
+        ],
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "yellow clever tour day itch nondescript supply summer contain available hands cherry big swanky straight",
+        "theme_topic": "Thing Furniture",
         "underline": false
       },
       "type": "text",
@@ -218,10 +228,10 @@
     },
     {
       "bbox": {
-        "h": 2.9784,
-        "w": 2.0041,
-        "x": 8.4803,
-        "y": 0.6843
+        "h": 1.7812,
+        "w": 4.4323,
+        "x": 0.5425,
+        "y": 1.8329
       },
       "id": "object_007",
       "properties": {
@@ -229,254 +239,276 @@
         "dash": 3,
         "family": "panel",
         "fill": [
-          159,
-          172,
-          139
+          92,
+          180,
+          152
         ],
         "line": [
-          159,
-          172,
-          139
+          92,
+          180,
+          152
         ],
-        "line_width": 1.1975666504828475,
+        "line_width": 2.2707780305044594,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Stitch Bells"
+        "theme_topic": "Thing Furniture"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.7134,
-        "w": 1.694,
-        "x": 8.6065,
-        "y": 0.854
+        "h": 0.5827,
+        "w": 0.5864,
+        "x": 0.797,
+        "y": 2.0984
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.05359449311966939,
-          0.14319984090407809,
-          0.15075358744990894,
-          0.1228706793319736
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          214,
+          39,
+          110
         ],
         "focus": false,
-        "mask_line": [
-          80,
-          126,
-          167
+        "line": [
+          36,
+          53,
+          25
         ],
-        "mask_overlay": false,
-        "theme_topic": "Stitch Bells",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.6945726059343156,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Thing Furniture"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 2.9839,
-        "w": 2.0362,
-        "x": 10.6846,
-        "y": 0.6853
+        "h": 0.4534,
+        "w": 3.9224,
+        "x": 0.8166,
+        "y": 2.7401
       },
       "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": false,
-        "line": [
-          63,
-          177,
-          86
-        ],
-        "line_width": 17,
-        "theme_topic": "Stitch Bells"
-      },
-      "type": "svg_image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.2675,
-        "w": 1.6258,
-        "x": 10.8553,
-        "y": 3.2647
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          255,
+          238,
+          103
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Rhetorical",
-        "theme_topic": "Stitch Bells",
+        "text": "Reign Better",
+        "theme_topic": "Thing Furniture",
         "underline": false
       },
       "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 1.6055,
+        "w": 4.4029,
+        "x": 0.5398,
+        "y": 3.8512
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          92,
+          180,
+          152
+        ],
+        "line": [
+          92,
+          180,
+          152
+        ],
+        "line_width": 3.567119215399959,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Thing Furniture"
+      },
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 3.0082,
-        "w": 2.0185,
-        "x": 8.4742,
-        "y": 3.8644
+        "h": 0.438,
+        "w": 3.9022,
+        "x": 0.8127,
+        "y": 4.7473
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          159,
-          172,
-          139
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
         ],
-        "line": [
-          159,
-          172,
-          139
-        ],
-        "line_width": 1.6900569642513474,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Stitch Bells"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Toad",
+        "theme_topic": "Thing Furniture",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 6.1331,
-        "w": 2.0924,
-        "x": 3.7903,
-        "y": 0.7093
+        "h": 1.3603,
+        "w": 4.4055,
+        "x": 0.5447,
+        "y": 5.6638
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "panel",
         "fill": [
-          159,
-          172,
-          139
+          92,
+          180,
+          152
         ],
         "line": [
-          159,
-          172,
-          139
+          92,
+          180,
+          152
         ],
-        "line_width": 1.3723626156772049,
+        "line_width": 2.70559397822822,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Stitch Bells"
+        "theme_topic": "Thing Furniture"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 5.8681,
-        "w": 1.7731,
-        "x": 3.9626,
-        "y": 0.8202
+        "h": 0.4437,
+        "w": 3.9085,
+        "x": 0.8156,
+        "y": 6.5613
       },
       "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": true,
-        "line": [
-          59,
-          63,
-          53
-        ],
-        "line_width": 10,
-        "theme_topic": "Stitch Bells"
-      },
-      "type": "svg_image",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.2834,
-        "w": 1.6683,
-        "x": 3.9916,
-        "y": 6.4047
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          255,
+          238,
+          103
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Vast Scorch",
-        "theme_topic": "Stitch Bells",
+        "text": "Chubby Rabid",
+        "theme_topic": "Thing Furniture",
         "underline": false
       },
       "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 1.0105,
+        "w": 0.5687,
+        "x": 4.7144,
+        "y": 2.7747
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "flowchart",
+        "fill": [
+          71,
+          208,
+          148
+        ],
+        "focus": false,
+        "line": [
+          158,
+          34,
+          161
+        ],
+        "line_width": 1.2286935431176336,
+        "outline_only": true,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Thing Furniture"
+      },
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 6.176,
-        "w": 2.0846,
-        "x": 6.037,
-        "y": 0.712
+        "h": 0.4967,
+        "w": 1.7061,
+        "x": 8.5485,
+        "y": 2.6042
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.18150213743706195,
-          0.28709332592393266,
-          0.2198198724455783,
-          0.235921236932822
+        "bg_color": [
+          76,
+          166,
+          96
         ],
-        "focus": true,
-        "mask_line": [
-          159,
-          100,
-          223
+        "bold": true,
+        "color": [
+          89,
+          157,
+          84
         ],
-        "mask_overlay": true,
-        "theme_topic": "Stitch Bells",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Cemetery Wood Cross",
+        "theme_topic": "Thing Furniture",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.4783,
-        "w": 2.3974,
-        "x": 6.6627,
-        "y": 0.1681
+        "h": 0.5953,
+        "w": 1.1852,
+        "x": 4.6665,
+        "y": 0.5448
       },
       "id": "object_016",
       "properties": {
@@ -484,17 +516,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          141,
-          57,
-          77
+          174,
+          109,
+          118
         ],
-        "font_face": "Verdana",
-        "font_size": 16,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "suggestion carriage",
-        "theme_topic": "Stitch Bells",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Alcoholic Profit",
+        "theme_topic": "Thing Furniture",
         "underline": true
       },
       "type": "text",
@@ -502,32 +534,32 @@
     },
     {
       "bbox": {
-        "h": 0.4551,
-        "w": 2.3871,
-        "x": 1.8456,
-        "y": 2.9953
+        "h": 0.2682,
+        "w": 1.373,
+        "x": 10.0912,
+        "y": 2.6035
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": [
-          153,
-          168,
-          108
+          28,
+          152,
+          88
         ],
         "bold": false,
         "color": [
-          95,
-          172,
-          44
+          100,
+          191,
+          198
         ],
-        "font_face": "Verdana",
-        "font_size": 16,
+        "font_face": "Aptos",
+        "font_size": 5,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "jam mask receptive",
-        "theme_topic": "Stitch Bells",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Strong",
+        "theme_topic": "Thing Furniture",
         "underline": false
       },
       "type": "text",

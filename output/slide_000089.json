@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 120,
+      "angle": 135,
       "archetype": "atomic_composition",
       "colors": [
         [
-          213,
-          168,
-          93
+          39,
+          135,
+          227
         ],
         [
-          31,
-          117,
-          161
+          38,
+          192,
+          96
         ]
       ],
       "fill": [
-        213,
-        168,
-        93
+        33,
+        115,
+        169
       ],
-      "focus": "top_right",
+      "focus": "top_left",
       "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Truthful Regret"
+      "theme_topic": "Film Tranquil"
     },
     "type": "background",
     "z_order": 0
@@ -45,59 +45,57 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.5513,
-        "w": 6.3191,
-        "x": 6.4596,
-        "y": 1.4328
+        "h": 2.9811,
+        "w": 3.8535,
+        "x": 8.9251,
+        "y": 0.5554
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          193,
-          152,
-          84
+        "crop": [
+          0.08554997239937821,
+          0.0816871848469453,
+          0.07997345215189111,
+          0.25899273499887
         ],
-        "line": [
-          193,
-          152,
-          84
+        "focus": true,
+        "mask_line": [
+          255,
+          198,
+          74
         ],
-        "line_width": 2.1148729602265397,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Truthful Regret"
+        "mask_overlay": false,
+        "theme_topic": "Film Tranquil",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.2403,
-        "w": 5.9882,
-        "x": 6.5941,
-        "y": 1.5793
+        "h": 2.9785,
+        "w": 3.8392,
+        "x": 4.7341,
+        "y": 0.5538
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.009503142559908282,
-          0.16150287001374208,
-          0.04144939792333263,
-          0.2916474308232154
+          0.032448172766577243,
+          0.14466465930521052,
+          0.05034066852512336,
+          0.13700359994428346
         ],
         "focus": true,
         "mask_line": [
-          209,
-          138,
-          210
+          70,
+          75,
+          70
         ],
         "mask_overlay": false,
-        "theme_topic": "Truthful Regret",
+        "theme_topic": "Film Tranquil",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -105,31 +103,64 @@
     },
     {
       "bbox": {
-        "h": 4.5503,
-        "w": 2.277,
-        "x": 0.708,
-        "y": 2.3584
+        "h": 2.9053,
+        "w": 3.7133,
+        "x": 0.5707,
+        "y": 0.6095
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          111,
-          92,
-          61
+        "band": [
+          162,
+          207,
+          145
         ],
-        "font_face": "Aptos",
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          156,
+          182,
+          222
+        ],
+        "border": [
+          218,
+          235,
+          245
+        ],
+        "border_dash": "lgDash",
+        "border_width": 3.055683711559606,
+        "cells": [
+          [
+            "dapper sniff",
+            "flaky"
+          ],
+          [
+            "strengthen modern",
+            "vague"
+          ],
+          [
+            "calculating save",
+            "towering teaching"
+          ]
+        ],
+        "cols": 2,
         "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wander separate trade decorate comparison",
-        "theme_topic": "Truthful Regret",
-        "underline": false
+        "has_header": false,
+        "header": [
+          255,
+          198,
+          74
+        ],
+        "rows": 3,
+        "text_color": [
+          250,
+          252,
+          255
+        ],
+        "theme_topic": "Film Tranquil"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 3
     }
   ],

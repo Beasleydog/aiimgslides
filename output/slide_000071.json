@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "back_color": [
-        43,
-        51,
-        64
+      "colors": [
+        [
+          225,
+          27,
+          148
+        ],
+        [
+          32,
+          119,
+          149
+        ]
       ],
       "fill": [
-        25,
-        30,
-        39
+        225,
+        27,
+        148
       ],
-      "fore_color": [
-        163,
-        181,
-        113
-      ],
-      "pattern": 27,
-      "style": "pattern",
-      "theme_topic": "Run Mundane"
+      "focus": "bottom_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Abstracted"
     },
     "type": "background",
     "z_order": 0
@@ -41,56 +45,65 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.373,
-        "w": 12.2384,
-        "x": 0.5379,
-        "y": 1.8629
+        "h": 4.9399,
+        "w": 5.3026,
+        "x": 7.233,
+        "y": -0.5873
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "symbols",
         "fill": [
-          43,
-          51,
-          64
+          195,
+          133,
+          92
         ],
+        "focus": false,
         "line": [
           43,
-          51,
-          64
+          181,
+          227
         ],
-        "line_width": 1.88401032854142,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Run Mundane"
+        "line_width": 2.4051911998885545,
+        "outline_only": true,
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Abstracted"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.0854,
-        "w": 11.9236,
-        "x": 0.6652,
-        "y": 1.9708
+        "h": 5.0098,
+        "w": 8.0076,
+        "x": 2.3675,
+        "y": 0.5648
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": true,
-        "line": [
-          96,
-          165,
-          250
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          228,
+          57,
+          162
         ],
-        "line_width": 15,
-        "theme_topic": "Run Mundane"
+        "line": [
+          231,
+          74,
+          170
+        ],
+        "line_width": 2.022814497070944,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Abstracted"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 2
     }
   ],

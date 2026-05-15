@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          249,
-          203,
-          91
-        ],
-        [
-          168,
-          54,
-          94
-        ]
+      "back_color": [
+        232,
+        163,
+        45
       ],
       "fill": [
-        240,
-        176,
-        54
+        232,
+        163,
+        45
       ],
-      "focus": "bottom_right",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Weather"
+      "fore_color": [
+        48,
+        78,
+        140
+      ],
+      "pattern": 54,
+      "style": "pattern",
+      "theme_topic": "Broken Expansion"
     },
     "type": "background",
     "z_order": 0
@@ -45,85 +41,63 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.2398,
-        "w": 2.7546,
-        "x": 3.8562,
-        "y": 0.5833
+        "h": 4.0175,
+        "w": 4.3556,
+        "x": 8.0947,
+        "y": 0.996
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          32,
-          119,
-          149
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          199,
+          158,
+          107
         ],
-        "line_width": 16,
-        "theme_topic": "Weather"
+        "focus": false,
+        "line": [
+          92,
+          221,
+          216
+        ],
+        "line_width": 2.0761398250720653,
+        "outline_only": false,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Broken Expansion"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.2276,
-        "w": 11.7326,
-        "x": 0.8267,
-        "y": 4.4867
+        "h": 0.8926,
+        "w": 5.6148,
+        "x": 2.7441,
+        "y": 0.7923
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "frequent",
-          "sassy",
-          "grateful",
-          "thrill",
-          "ruin"
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              211,
-              42,
-              184
-            ],
-            "name": "youthful",
-            "values": [
-              64,
-              86,
-              33,
-              73,
-              43
-            ]
-          },
-          {
-            "color": [
-              49,
-              200,
-              34
-            ],
-            "name": "theory",
-            "values": [
-              25,
-              29,
-              75,
-              53,
-              69
-            ]
-          }
-        ],
-        "theme_topic": "Weather",
-        "title": "stomach payment"
+        "font_face": "Aptos Display",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Key Frightened Icky",
+        "theme_topic": "Broken Expansion",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 2
     }
   ],

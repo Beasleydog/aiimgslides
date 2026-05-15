@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        118,
-        32,
-        169
+        156,
+        218,
+        48
       ],
       "fill": [
-        118,
-        32,
-        169
+        28,
+        143,
+        112
       ],
       "fore_color": [
-        38,
-        132,
-        88
+        48,
+        78,
+        140
       ],
-      "pattern": 13,
+      "pattern": 41,
       "style": "pattern",
-      "theme_topic": "Adjustment"
+      "theme_topic": "Magical Rod"
     },
     "type": "background",
     "z_order": 0
@@ -41,184 +41,226 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.6565,
-        "w": 6.9467,
-        "x": -0.9158,
-        "y": 5.2741
+        "h": 2.8432,
+        "w": 7.1771,
+        "x": 5.9029,
+        "y": -0.502
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "math",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          169,
-          89,
-          93
+          119,
+          66,
+          72
         ],
         "focus": false,
         "line": [
-          66,
-          28,
-          36
+          152,
+          165,
+          71
         ],
-        "line_width": 2.4825914992623184,
+        "line_width": 4.355102320959219,
         "outline_only": false,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Adjustment"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Magical Rod"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.1836,
-        "w": 3.9867,
-        "x": 7.8638,
-        "y": 1.5615
+        "h": 3.6186,
+        "w": 8.7191,
+        "x": 0.0235,
+        "y": 3.8445
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "ribbons",
         "fill": [
-          81,
-          77,
-          101
+          144,
+          63,
+          187
         ],
         "focus": false,
         "line": [
-          27,
-          160,
-          148
+          86,
+          185,
+          195
         ],
-        "line_width": 7.318210882024648,
+        "line_width": 4.760661997372409,
         "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Adjustment"
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Magical Rod"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.2002,
-        "w": 4.2296,
-        "x": 4.1607,
-        "y": -0.1765
+        "h": 7.5153,
+        "w": 1.1242,
+        "x": 12.1979,
+        "y": 0.0199
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          103,
-          161,
-          72
+          43,
+          162,
+          130
         ],
-        "focus": false,
         "line": [
-          185,
-          112,
-          213
+          43,
+          162,
+          130
         ],
-        "line_width": 7.638086335428672,
-        "outline_only": true,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Adjustment"
+        "line_width": 0.7911468029904785,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Magical Rod"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.051,
-        "w": 5.7089,
-        "x": 0.951,
-        "y": 1.2836
+        "h": 1.31,
+        "w": 8.7825,
+        "x": 0.5671,
+        "y": 0.3256
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          149,
-          83,
-          188
-        ],
-        "line": [
-          166,
-          111,
-          199
-        ],
-        "line_width": 0.956260927926579,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Adjustment"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.7966,
-        "w": 3.1765,
-        "x": 9.3903,
-        "y": 0.6552
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
           248,
+          255,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 26,
+        "font_face": "Trebuchet MS",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Fail Neat",
-        "theme_topic": "Adjustment",
+        "text": "Guttural Great",
+        "theme_topic": "Magical Rod",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.7641,
+        "w": 12.1207,
+        "x": 0.5707,
+        "y": 5.1819
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          46,
+          150,
+          176
+        ],
+        "band_cols": true,
+        "band_rows": true,
+        "body": [
+          222,
+          177,
+          59
+        ],
+        "border": [
+          205,
+          241,
+          230
+        ],
+        "border_dash": "dashDot",
+        "border_width": 2.6469048593761757,
+        "cells": [
+          [
+            "sink",
+            "powerful massive"
+          ],
+          [
+            "thunder egg",
+            "jittery"
+          ],
+          [
+            "abashed",
+            "snore help"
+          ],
+          [
+            "neighborly",
+            "thoughtful thoughtful"
+          ],
+          [
+            "marble gaping",
+            "collect"
+          ],
+          [
+            "wriggle run",
+            "eatable smoggy"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 7,
+        "has_header": true,
+        "header": [
+          255,
+          238,
+          103
+        ],
+        "rows": 6,
+        "text_color": [
+          248,
+          255,
+          252
+        ],
+        "theme_topic": "Magical Rod"
+      },
+      "type": "table",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.5923,
-        "w": 3.8755,
-        "x": 0.6752,
-        "y": 0.6455
+        "h": 1.486,
+        "w": 12.2189,
+        "x": 0.5519,
+        "y": 3.4036
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.25027360625031214,
-          0.003588945082206229,
-          0.01727454838936244,
-          0.3271099187871475
+          0.10142978265346204,
+          0.26767243039167105,
+          0.3053407935011679,
+          0.03824695131310873
         ],
         "focus": true,
         "mask_line": [
-          38,
-          132,
-          88
+          228,
+          205,
+          196
         ],
-        "mask_overlay": false,
-        "theme_topic": "Adjustment",
+        "mask_overlay": true,
+        "theme_topic": "Magical Rod",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -226,280 +268,271 @@
     },
     {
       "bbox": {
-        "h": 3.425,
-        "w": 1.6329,
-        "x": 0.639,
-        "y": 3.4477
+        "h": 0.5044,
+        "w": 1.4405,
+        "x": 9.0442,
+        "y": 1.6312
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
+        "color": [
+          204,
+          170,
+          30
+        ],
+        "connector": "curve",
         "dash": 1,
-        "family": "panel",
-        "fill": [
-          133,
-          32,
-          151
-        ],
-        "line": [
-          166,
-          111,
-          199
-        ],
-        "line_width": 2.1439056822337705,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Adjustment"
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "Magical Rod",
+        "width": 2.441811474375556
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.7388,
-        "w": 1.2758,
-        "x": 0.829,
-        "y": 3.6175
+        "h": 0.2663,
+        "w": 0.5717,
+        "x": 7.8983,
+        "y": 1.5001
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          139,
+          29,
+          190
         ],
-        "font_face": "Arial",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "198",
-        "theme_topic": "Adjustment",
-        "underline": false
+        "focus": false,
+        "line": [
+          30,
+          206,
+          52
+        ],
+        "line_width": 2.2861804794637455,
+        "outline_only": false,
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Magical Rod"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 2.4343,
-        "w": 1.2654,
-        "x": 0.8146,
-        "y": 4.3972
+        "h": 0.2853,
+        "w": 0.8025,
+        "x": 6.1848,
+        "y": 3.2384
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          188,
-          150,
-          214
+        "bg_color": [
+          190,
+          81,
+          138
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
+        "bold": true,
+        "color": [
+          173,
+          218,
+          192
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": true,
         "kind": "body",
         "margin": 0.04,
-        "text": "reproduce shrill interest",
-        "theme_topic": "Adjustment",
-        "underline": false
+        "text": "plastic nonstop view zany",
+        "theme_topic": "Magical Rod",
+        "underline": true
       },
       "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.7374,
-        "w": 1.7312,
-        "x": 2.6544,
-        "y": 3.6208
+        "h": 0.4242,
+        "w": 0.2594,
+        "x": 10.6108,
+        "y": 2.6642
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          62,
+          189,
+          70
         ],
-        "font_face": "Arial",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "224",
-        "theme_topic": "Adjustment",
-        "underline": false
+        "focus": false,
+        "line": [
+          188,
+          48,
+          140
+        ],
+        "line_width": 3.9693550780290647,
+        "outline_only": false,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Magical Rod"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 2.3986,
-        "w": 1.7316,
-        "x": 2.6653,
-        "y": 4.3551
+        "h": 0.2846,
+        "w": 1.1001,
+        "x": 10.872,
+        "y": 2.8612
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          188,
-          150,
-          214
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          223,
+          163,
+          60
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "search minor big announce macho illegal",
-        "theme_topic": "Adjustment",
-        "underline": false
+        "focus": false,
+        "line": [
+          222,
+          110,
+          120
+        ],
+        "line_width": 5.293040110992322,
+        "outline_only": true,
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Magical Rod"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 6.262,
-        "w": 3.856,
-        "x": 5.0298,
-        "y": 0.6683
+        "h": 0.2273,
+        "w": 1.2645,
+        "x": 9.5968,
+        "y": 3.6726
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 2,
+        "family": "symbols",
         "fill": [
-          166,
-          111,
-          199
+          228,
+          102,
+          139
         ],
+        "focus": false,
         "line": [
-          166,
-          111,
-          199
+          172,
+          213,
+          53
         ],
-        "line_width": 1.131939221167792,
+        "line_width": 3.678002561275814,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Adjustment"
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Magical Rod"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 5.7271,
-        "w": 3.3375,
-        "x": 5.2561,
-        "y": 0.8773
+        "h": 0.3946,
+        "w": 1.7881,
+        "x": 0.9329,
+        "y": 1.8333
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "accidental",
-          "low",
-          "arch",
-          "lively",
-          "sidewalk"
+        "color": [
+          65,
+          179,
+          106
         ],
-        "chart": "pie",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              60,
-              78,
-              209
-            ],
-            "name": "maniacal",
-            "values": [
-              56,
-              33,
-              86,
-              28,
-              10
-            ]
-          }
-        ],
-        "theme_topic": "Adjustment",
-        "title": "plot rare protest"
+        "connector": "straight",
+        "dash": 1,
+        "flip": true,
+        "ppt_type": 1,
+        "theme_topic": "Magical Rod",
+        "width": 0.25198245420261745
       },
-      "type": "chart",
+      "type": "connector",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.5271,
-        "w": 1.6228,
-        "x": 10.2891,
-        "y": 1.4726
+        "h": 0.6765,
+        "w": 0.7116,
+        "x": 11.7166,
+        "y": 4.8707
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          179,
-          195,
-          148
+        "dash": 5,
+        "family": "math",
+        "fill": [
+          178,
+          162,
+          104
         ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Value",
-        "theme_topic": "Adjustment",
-        "underline": true
+        "focus": false,
+        "line": [
+          182,
+          200,
+          174
+        ],
+        "line_width": 4.725500338090299,
+        "outline_only": false,
+        "ppt_type": 163,
+        "shape": "plus",
+        "theme_topic": "Magical Rod"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.5799,
-        "w": 1.3196,
-        "x": 4.0041,
-        "y": 3.6793
+        "h": 0.5137,
+        "w": 1.309,
+        "x": 11.679,
+        "y": 4.028
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          189,
-          179,
-          107
+          173,
+          80,
+          216
         ],
-        "font_face": "Arial",
-        "font_size": 16,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Effect",
-        "theme_topic": "Adjustment",
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "badge",
+        "theme_topic": "Magical Rod",
         "underline": false
       },
       "type": "text",

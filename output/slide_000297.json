@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "fill": [
-        25,
-        30,
-        39
+      "colors": [
+        [
+          18,
+          129,
+          148
+        ],
+        [
+          48,
+          78,
+          140
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Scold"
+      "fill": [
+        18,
+        129,
+        148
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Few"
     },
     "type": "background",
     "z_order": 0
@@ -30,71 +45,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.1767,
-        "w": 8.6785,
-        "x": 4.3046,
-        "y": 1.7738
+        "h": 3.4879,
+        "w": 4.6177,
+        "x": 3.1878,
+        "y": 3.6581
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
+        "dash": 4,
+        "family": "arrows",
         "fill": [
-          71,
-          125,
-          113
+          96,
+          51,
+          84
         ],
         "focus": false,
         "line": [
-          134,
-          25,
-          39
+          70,
+          117,
+          226
         ],
-        "line_width": 7.230925994195954,
+        "line_width": 5.332069119487588,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Scold"
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Few"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.8242,
-        "w": 3.1874,
-        "x": 9.3751,
-        "y": 0.6279
+        "h": 2.5704,
+        "w": 7.7193,
+        "x": 3.0475,
+        "y": 2.8033
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          247,
-          249
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          80,
+          104,
+          173
         ],
-        "font_face": "Arial",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Desk Hellish Snotty",
-        "theme_topic": "Scold",
-        "underline": false
+        "focus": false,
+        "line": [
+          216,
+          179,
+          223
+        ],
+        "line_width": 6.560559721256576,
+        "outline_only": false,
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Few"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.7361,
-        "w": 1.2343,
-        "x": 0.9567,
-        "y": 1.2992
+        "h": 1.1354,
+        "w": 7.6119,
+        "x": 2.9396,
+        "y": 0.6393
       },
       "id": "object_003",
       "properties": {
@@ -103,16 +121,16 @@
         "bold": true,
         "color": [
           246,
-          247,
-          249
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 40,
+        "font_face": "Georgia",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "46%",
-        "theme_topic": "Scold",
+        "text": "Notebook Foregoing Scary Polite Channel",
+        "theme_topic": "Few",
         "underline": false
       },
       "type": "text",
@@ -120,86 +138,86 @@
     },
     {
       "bbox": {
-        "h": 0.4425,
-        "w": 1.2485,
-        "x": 0.9637,
-        "y": 2.0322
+        "h": 5.0433,
+        "w": 4.4266,
+        "x": 8.3707,
+        "y": 2.0017
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          247,
-          249
+        "crop": [
+          0.22716682926654966,
+          0.2624015055912677,
+          0.186941771668649,
+          0.3014485750337465
         ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "curved lyrical hammer money spotless hospitable",
-        "theme_topic": "Scold",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          255,
+          238,
+          103
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Few",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.6085,
-        "w": 1.2969,
-        "x": 6.8779,
-        "y": 3.6203
+        "h": 5.0822,
+        "w": 2.8577,
+        "x": 0.5482,
+        "y": 1.9883
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          247,
-          249
+        "crop": [
+          0.1599055871456986,
+          0.2038821424422597,
+          0.18785883336023937,
+          0.10589138663325028
         ],
-        "font_face": "Arial",
-        "font_size": 19,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Frail Jelly",
-        "theme_topic": "Scold",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          108,
+          188,
+          158
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Few",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.7291,
-        "w": 1.2623,
-        "x": 6.8868,
-        "y": 4.4938
+        "h": 0.2796,
+        "w": 2.467,
+        "x": 0.7339,
+        "y": 6.6083
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          177,
-          185,
-          196
+          255,
+          238,
+          103
         ],
-        "font_face": "Arial",
-        "font_size": 7,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "beneficial hilarious sweater mix fuel ghost jealous history switch advice produce boil aloof yell position paddle",
-        "theme_topic": "Scold",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Reduce Undress",
+        "theme_topic": "Few",
         "underline": false
       },
       "type": "text",
@@ -207,58 +225,61 @@
     },
     {
       "bbox": {
-        "h": 4.2829,
-        "w": 4.231,
-        "x": 2.2083,
-        "y": 2.1534
+        "h": 0.7185,
+        "w": 1.318,
+        "x": 2.251,
+        "y": 4.6322
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2846489080258857,
-          0.19526506938991808,
-          0.040758556105616565,
-          0.09210856350408853
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          138,
+          37,
+          67
         ],
-        "focus": true,
-        "mask_line": [
-          96,
-          165,
-          250
+        "focus": false,
+        "line": [
+          35,
+          99,
+          121
         ],
-        "mask_overlay": false,
-        "theme_topic": "Scold",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 6.002857293647343,
+        "outline_only": false,
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Few"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2921,
-        "w": 3.7853,
-        "x": 2.4137,
-        "y": 5.9479
+        "h": 0.3421,
+        "w": 1.966,
+        "x": 2.1187,
+        "y": 0.3482
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          96,
-          165,
-          250
+          58,
+          44,
+          104
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "File Stale",
-        "theme_topic": "Scold",
-        "underline": false
+        "text": "Merciful Famous Spring",
+        "theme_topic": "Few",
+        "underline": true
       },
       "type": "text",
       "z_order": 8

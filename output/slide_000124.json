@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          195,
-          150,
-          101
-        ],
-        [
-          255,
-          117,
-          117
-        ]
+      "back_color": [
+        95,
+        34,
+        184
       ],
       "fill": [
-        157,
-        137,
-        106
+        95,
+        34,
+        184
       ],
-      "focus": "top_right",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Half Attraction"
+      "fore_color": [
+        255,
+        117,
+        117
+      ],
+      "pattern": 17,
+      "style": "pattern",
+      "theme_topic": "Incandescent"
     },
     "type": "background",
     "z_order": 0
@@ -45,114 +41,79 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.7248,
-        "w": 5.5918,
-        "x": 4.0198,
-        "y": 2.3169
+        "h": 1.0248,
+        "w": 6.5537,
+        "x": 0.5374,
+        "y": 0.3456
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
-        "fill": [
-          181,
-          167,
-          62
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          135,
-          153,
-          226
-        ],
-        "line_width": 6.787377567969757,
-        "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Half Attraction"
+        "font_face": "Aptos Display",
+        "font_size": 41,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Lumber Owe Bead",
+        "theme_topic": "Incandescent",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.761,
-        "w": 5.6525,
-        "x": 4.5189,
-        "y": 0.8647
+        "h": 2.771,
+        "w": 12.248,
+        "x": 0.5487,
+        "y": 4.2187
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          176,
-          97,
-          74
+          120,
+          69,
+          195
         ],
-        "focus": false,
         "line": [
-          118,
-          91,
-          156
+          120,
+          69,
+          195
         ],
-        "line_width": 5.638726269388437,
+        "line_width": 4.550410597332022,
         "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Half Attraction"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Incandescent"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.4894,
-        "w": 5.1395,
-        "x": 0.0028,
-        "y": -0.0162
+        "h": 2.4665,
+        "w": 11.958,
+        "x": 0.6819,
+        "y": 4.3495
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          170,
-          153,
-          127
-        ],
-        "line": [
-          170,
-          153,
-          127
-        ],
-        "line_width": 4.238713937173913,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Half Attraction"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 6.3783,
-        "w": 2.1887,
-        "x": 0.5731,
-        "y": 0.5778
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
         "crop": [
-          0.16579697392068546,
-          0.06600225166384449,
-          0.023813587486900167,
-          0.2770895823034194
+          0,
+          0,
+          0,
+          0
         ],
         "focus": true,
         "mask_line": [
@@ -160,8 +121,37 @@
           198,
           74
         ],
-        "mask_overlay": true,
-        "theme_topic": "Half Attraction",
+        "mask_overlay": false,
+        "theme_topic": "Incandescent",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.0126,
+        "w": 3.8676,
+        "x": 0.5792,
+        "y": 1.8538
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.04420151566650134,
+          0.1864581760162661,
+          0.10565675842254738,
+          0.28849492656842807
+        ],
+        "focus": false,
+        "mask_line": [
+          217,
+          75,
+          151
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Incandescent",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",

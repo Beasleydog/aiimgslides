@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "fill": [
-        126,
-        156,
-        82
+      "colors": [
+        [
+          80,
+          51,
+          160
+        ],
+        [
+          191,
+          48,
+          161
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Carpenter Lamentable"
+      "fill": [
+        80,
+        51,
+        160
+      ],
+      "focus": "top_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Lethal Abnormal"
     },
     "type": "background",
     "z_order": 0
@@ -30,139 +45,107 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.0256,
-        "w": 5.0099,
-        "x": 2.7219,
-        "y": 3.8394
+        "h": 1.7357,
+        "w": 6.5775,
+        "x": 4.5808,
+        "y": 2.0226
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
+        "dash": 1,
+        "family": "ribbons",
         "fill": [
-          172,
-          78,
-          168
+          132,
+          140,
+          100
         ],
         "focus": false,
         "line": [
-          125,
-          159,
-          69
+          114,
+          138,
+          92
         ],
-        "line_width": 5.802674179685986,
+        "line_width": 6.563855925274319,
         "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Carpenter Lamentable"
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Lethal Abnormal"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.1368,
-        "w": 3.201,
-        "x": 7.3964,
-        "y": 4.7318
+        "h": 5.1455,
+        "w": 7.807,
+        "x": 4.0674,
+        "y": 1.08
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          191,
-          193,
-          86
+          74,
+          45,
+          160
         ],
         "focus": false,
         "line": [
-          182,
-          186,
-          184
+          221,
+          77,
+          139
         ],
-        "line_width": 2.9448345053249003,
+        "line_width": 7.87145109797766,
         "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Carpenter Lamentable"
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Lethal Abnormal"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.8675,
-        "w": 5.7597,
-        "x": 4.0912,
-        "y": 2.9442
+        "h": 4.825,
+        "w": 6.1301,
+        "x": 1.9583,
+        "y": 1.5144
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          179,
-          172,
-          173
+          120,
+          97,
+          181
         ],
-        "focus": false,
         "line": [
-          161,
-          116,
-          214
+          142,
+          123,
+          193
         ],
-        "line_width": 5.5321885279708605,
+        "line_width": 3.9390641312508223,
         "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Carpenter Lamentable"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Lethal Abnormal"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.798,
-        "w": 13.348,
-        "x": 0.0067,
-        "y": 0.0037
+        "h": 0.8785,
+        "w": 7.4023,
+        "x": 0.7522,
+        "y": 5.868
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          165,
-          186,
-          134
-        ],
-        "line": [
-          165,
-          186,
-          134
-        ],
-        "line_width": 2.210160195763016,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Carpenter Lamentable"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.8963,
-        "w": 5.1025,
-        "x": 5.4613,
-        "y": 0.6306
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -173,101 +156,132 @@
           252
         ],
         "font_face": "Arial",
-        "font_size": 39,
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Sidewalk Charge",
-        "theme_topic": "Carpenter Lamentable",
+        "text": "Belong Groan",
+        "theme_topic": "Lethal Abnormal",
         "underline": false
       },
       "type": "text",
-      "z_order": 5
+      "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.1869,
-        "w": 2.9603,
-        "x": 0.5666,
-        "y": 4.8154
+        "h": 1.1173,
+        "w": 0.6305,
+        "x": 4.5326,
+        "y": 2.8288
       },
-      "id": "object_006",
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 7,
         "family": "panel",
         "fill": [
-          165,
-          186,
-          134
+          66,
+          70,
+          156
         ],
         "line": [
-          165,
-          186,
-          134
+          142,
+          123,
+          193
         ],
-        "line_width": 1.4663202595483735,
+        "line_width": 0.5348269840458142,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Carpenter Lamentable"
+        "theme_topic": "Lethal Abnormal"
       },
       "type": "shape",
-      "z_order": 6
+      "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.444,
-        "w": 2.4735,
-        "x": 0.805,
-        "y": 5.6996
+        "h": 0.5174,
+        "w": 0.2529,
+        "x": 4.7334,
+        "y": 3.0062
       },
-      "id": "object_007",
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          32,
+          119,
+          149
         ],
         "font_face": "Arial",
-        "font_size": 10,
+        "font_size": 18,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Advertisement Drunk",
-        "theme_topic": "Carpenter Lamentable",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "215",
+        "theme_topic": "Lethal Abnormal",
         "underline": false
       },
       "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 1.1247,
+        "w": 0.6484,
+        "x": 5.3681,
+        "y": 2.8319
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          66,
+          70,
+          156
+        ],
+        "line": [
+          142,
+          123,
+          193
+        ],
+        "line_width": 1.0566646465518037,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Lethal Abnormal"
+      },
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.5557,
-        "w": 2.4688,
-        "x": 0.7915,
-        "y": 6.2469
+        "h": 0.5037,
+        "w": 0.283,
+        "x": 5.5161,
+        "y": 2.989
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          192,
-          206,
-          175
+          32,
+          119,
+          149
         ],
         "font_face": "Arial",
-        "font_size": 10,
+        "font_size": 18,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "death quick screw wacky hospitable position open weigh enthusiastic fearful famous",
-        "theme_topic": "Carpenter Lamentable",
+        "text": "3.9x",
+        "theme_topic": "Lethal Abnormal",
         "underline": false
       },
       "type": "text",
@@ -275,41 +289,39 @@
     },
     {
       "bbox": {
-        "h": 2.1967,
-        "w": 2.6231,
-        "x": 3.7344,
-        "y": 4.7824
+        "h": 0.5155,
+        "w": 0.3537,
+        "x": 6.3472,
+        "y": 3.0169
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          165,
-          186,
-          134
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
         ],
-        "line": [
-          165,
-          186,
-          134
-        ],
-        "line_width": 1.482301883608166,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Carpenter Lamentable"
+        "font_face": "Arial",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "97%",
+        "theme_topic": "Lethal Abnormal",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4604,
-        "w": 2.1331,
-        "x": 4.0051,
-        "y": 5.6835
+        "h": 0.5182,
+        "w": 0.3444,
+        "x": 7.2448,
+        "y": 2.9932
       },
       "id": "object_010",
       "properties": {
@@ -317,17 +329,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          32,
+          119,
+          149
         ],
         "font_face": "Arial",
-        "font_size": 12,
+        "font_size": 18,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Escape",
-        "theme_topic": "Carpenter Lamentable",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "180",
+        "theme_topic": "Lethal Abnormal",
         "underline": false
       },
       "type": "text",
@@ -335,70 +347,68 @@
     },
     {
       "bbox": {
-        "h": 0.5681,
-        "w": 2.1468,
-        "x": 3.9805,
-        "y": 6.2313
+        "h": 3.2599,
+        "w": 6.4266,
+        "x": 5.2167,
+        "y": 1.0953
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          192,
-          206,
-          175
+        "crop": [
+          0.317393004979253,
+          0.037314114673866125,
+          0.13526394344394305,
+          0.07272951672697321
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "jewel fail door gabby light ship grade thin health luxuriant handy",
-        "theme_topic": "Carpenter Lamentable",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          98,
+          45,
+          226
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Lethal Abnormal",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 2.1906,
-        "w": 2.6941,
-        "x": 6.5827,
-        "y": 4.8133
+        "h": 0.2972,
+        "w": 6.031,
+        "x": 5.4379,
+        "y": 3.9209
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          165,
-          186,
-          134
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
         ],
-        "line": [
-          165,
-          186,
-          134
-        ],
-        "line_width": 0.697617709526139,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Carpenter Lamentable"
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Fry Borrow",
+        "theme_topic": "Lethal Abnormal",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.4544,
-        "w": 2.192,
-        "x": 6.8541,
-        "y": 5.6964
+        "h": 0.2917,
+        "w": 2.2276,
+        "x": 8.1215,
+        "y": 2.3585
       },
       "id": "object_013",
       "properties": {
@@ -406,17 +416,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          32,
+          119,
+          149
         ],
         "font_face": "Arial",
-        "font_size": 11,
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Cats Romantic",
-        "theme_topic": "Carpenter Lamentable",
+        "text": "HANG ZEBRA",
+        "theme_topic": "Lethal Abnormal",
         "underline": false
       },
       "type": "text",
@@ -424,28 +434,28 @@
     },
     {
       "bbox": {
-        "h": 0.5388,
-        "w": 2.2049,
-        "x": 6.8292,
-        "y": 6.267
+        "h": 0.2,
+        "w": 2.2284,
+        "x": 8.1452,
+        "y": 2.8091
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          192,
-          206,
-          175
+          160,
+          135,
+          140
         ],
         "font_face": "Arial",
-        "font_size": 8,
+        "font_size": 18,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "volleyball peace board push disagree attend rightful adjustment magical stone colour machine stomach toothbrush",
-        "theme_topic": "Carpenter Lamentable",
+        "text": "Ancient",
+        "theme_topic": "Lethal Abnormal",
         "underline": false
       },
       "type": "text",
@@ -453,59 +463,57 @@
     },
     {
       "bbox": {
-        "h": 2.2055,
-        "w": 3.2699,
-        "x": 9.4859,
-        "y": 4.7978
+        "h": 0.5297,
+        "w": 3.3054,
+        "x": 6.8841,
+        "y": 1.9603
       },
       "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          165,
-          186,
-          134
-        ],
-        "line": [
-          165,
-          186,
-          134
-        ],
-        "line_width": 1.1300747155745356,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Carpenter Lamentable"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4747,
-        "w": 2.8058,
-        "x": 9.7674,
-        "y": 5.7054
-      },
-      "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          162,
+          135,
+          106
         ],
         "font_face": "Arial",
-        "font_size": 9,
+        "font_size": 18,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Slow Lying",
-        "theme_topic": "Carpenter Lamentable",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Cooperative Dear",
+        "theme_topic": "Lethal Abnormal",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.6174,
+        "w": 3.29,
+        "x": 6.894,
+        "y": 2.7101
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          171,
+          159,
+          210
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "spooky lethal snow expansion blow bow decision anger soggy roasted step scarecrow colossal brass flesh door jail harmony soda",
+        "theme_topic": "Lethal Abnormal",
         "underline": false
       },
       "type": "text",
@@ -513,10 +521,10 @@
     },
     {
       "bbox": {
-        "h": 0.5701,
-        "w": 2.7848,
-        "x": 9.7467,
-        "y": 6.2643
+        "h": 0.4337,
+        "w": 1.5241,
+        "x": 7.9053,
+        "y": 4.4515
       },
       "id": "object_017",
       "properties": {
@@ -524,17 +532,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          192,
-          206,
-          175
+          71,
+          82,
+          192
         ],
         "font_face": "Arial",
         "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "arch mourn learned repulsive material toys numerous page soda impress mint red industry lyrical",
-        "theme_topic": "Carpenter Lamentable",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Frail Drip Building",
+        "theme_topic": "Lethal Abnormal",
         "underline": false
       },
       "type": "text",
@@ -542,69 +550,61 @@
     },
     {
       "bbox": {
-        "h": 3.0704,
-        "w": 12.2573,
-        "x": 0.5486,
-        "y": 1.4704
+        "h": 0.3086,
+        "w": 2.0016,
+        "x": 9.6514,
+        "y": 3.3793
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "adhesive",
-          "imminent",
-          "number"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          46,
+          32,
+          161
         ],
-        "chart": "doughnut",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              35,
-              116,
-              203
-            ],
-            "name": "uttermost",
-            "values": [
-              59,
-              19,
-              90
-            ]
-          }
-        ],
-        "theme_topic": "Carpenter Lamentable",
-        "title": "responsible governor tight"
+        "font_face": "Arial",
+        "font_size": 6,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Judge Moan Paddle",
+        "theme_topic": "Lethal Abnormal",
+        "underline": true
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.3405,
-        "w": 2.1089,
-        "x": 3.9128,
-        "y": 2.8964
+        "h": 0.2752,
+        "w": 1.2937,
+        "x": 1.5558,
+        "y": 1.9816
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
+        "bg_color": [
+          159,
+          216,
+          75
+        ],
+        "bold": false,
         "color": [
-          71,
-          225,
-          191
+          81,
+          227,
+          123
         ],
         "font_face": "Arial",
-        "font_size": 14,
+        "font_size": 7,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Lunchroom",
-        "theme_topic": "Carpenter Lamentable",
+        "text": "Ladybug Quickest Instinctive",
+        "theme_topic": "Lethal Abnormal",
         "underline": false
       },
       "type": "text",
@@ -612,39 +612,42 @@
     },
     {
       "bbox": {
-        "h": 0.3315,
-        "w": 1.4988,
-        "x": 0.7364,
-        "y": 6.7986
+        "h": 0.804,
+        "w": 1.1638,
+        "x": 1.8357,
+        "y": 2.8553
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          32,
-          211,
-          115
+        "dash": 5,
+        "family": "flowchart",
+        "fill": [
+          134,
+          210,
+          107
         ],
-        "font_face": "Arial",
-        "font_size": 7,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "fresh pricey quartz bell faulty",
-        "theme_topic": "Carpenter Lamentable",
-        "underline": true
+        "focus": false,
+        "line": [
+          184,
+          143,
+          131
+        ],
+        "line_width": 1.2804054135263405,
+        "outline_only": false,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Lethal Abnormal"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.2439,
-        "w": 1.8853,
-        "x": 1.416,
-        "y": 2.1045
+        "h": 0.4829,
+        "w": 1.4006,
+        "x": 11.419,
+        "y": 1.9327
       },
       "id": "object_021",
       "properties": {
@@ -652,18 +655,18 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          51,
-          28,
-          83
+          168,
+          33,
+          114
         ],
         "font_face": "Arial",
-        "font_size": 7,
+        "font_size": 5,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Permit Caption",
-        "theme_topic": "Carpenter Lamentable",
-        "underline": false
+        "text": "Dysfunctional Oranges Wiry",
+        "theme_topic": "Lethal Abnormal",
+        "underline": true
       },
       "type": "text",
       "z_order": 21

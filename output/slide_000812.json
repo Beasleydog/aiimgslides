@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          104,
-          142,
-          195
-        ],
-        [
-          255,
-          117,
-          117
-        ]
+      "back_color": [
+        77,
+        92,
+        188
       ],
       "fill": [
-        31,
-        87,
-        166
+        77,
+        92,
+        188
       ],
-      "focus": "top_left",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Lazy Shiny"
+      "fore_color": [
+        71,
+        221,
+        181
+      ],
+      "pattern": 13,
+      "style": "pattern",
+      "theme_topic": "Rail"
     },
     "type": "background",
     "z_order": 0
@@ -45,135 +41,131 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.9711,
-        "w": 3.0842,
-        "x": 6.3306,
-        "y": 0.6573
+        "h": 4.8761,
+        "w": 6.4207,
+        "x": 1.6585,
+        "y": 2.18
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "math",
         "fill": [
-          185,
-          149,
-          219
+          94,
+          75,
+          203
         ],
         "focus": false,
         "line": [
-          220,
-          94,
-          113
+          46,
+          60,
+          221
         ],
-        "line_width": 7.244203913619685,
+        "line_width": 3.6457679274410886,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Lazy Shiny"
+        "ppt_type": 164,
+        "shape": "minus",
+        "theme_topic": "Rail"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.1207,
-        "w": 3.1529,
-        "x": 0.4273,
-        "y": 5.1284
+        "h": 7.4951,
+        "w": 13.3221,
+        "x": 0.0027,
+        "y": 3.5624
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "panel",
         "fill": [
-          71,
-          144,
-          196
+          122,
+          134,
+          205
         ],
-        "focus": false,
         "line": [
-          215,
-          62,
-          171
+          122,
+          134,
+          205
         ],
-        "line_width": 5.628641607567021,
-        "outline_only": true,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Lazy Shiny"
+        "line_width": 1.644461634632903,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Rail"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.9685,
-        "w": 3.2563,
-        "x": 6.117,
-        "y": 1.7617
+        "h": 1.1363,
+        "w": 8.2805,
+        "x": 3.1325,
+        "y": 0.6709
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          48,
-          109,
-          172
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          173,
-          149,
-          185
-        ],
-        "line_width": 5.668094828761044,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Lazy Shiny"
+        "font_face": "Arial",
+        "font_size": 31,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Warm Sense Animal",
+        "theme_topic": "Rail",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 3.0402,
-        "w": 2.7403,
-        "x": 7.0865,
-        "y": 0.585
+        "h": 0.2994,
+        "w": 4.7253,
+        "x": 0.6898,
+        "y": 2.1294
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2073176603942883,
-          0.2689440192724462,
-          0.2889200880806247,
-          0.14385763075927988
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "focus": true,
-        "mask_line": [
-          255,
-          198,
-          74
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Lazy Shiny",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "PUNY",
+        "theme_topic": "Rail",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.2863,
-        "w": 2.3429,
-        "x": 7.2938,
-        "y": 3.2129
+        "h": 0.6434,
+        "w": 4.7318,
+        "x": 0.7214,
+        "y": 2.6177
       },
       "id": "object_005",
       "properties": {
@@ -181,17 +173,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
           198,
-          74
+          62,
+          34
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Invention Note",
-        "theme_topic": "Lazy Shiny",
+        "font_face": "Arial",
+        "font_size": 30,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Title Jog Station",
+        "theme_topic": "Rail",
         "underline": false
       },
       "type": "text",
@@ -199,99 +191,102 @@
     },
     {
       "bbox": {
-        "h": 3.0819,
-        "w": 2.7628,
-        "x": 9.9814,
-        "y": 0.603
+        "h": 0.808,
+        "w": 4.7409,
+        "x": 0.6945,
+        "y": 3.5132
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          104,
-          142,
-          195
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          169,
+          177,
+          223
         ],
-        "line": [
-          104,
-          142,
-          195
-        ],
-        "line_width": 2.3268331521982377,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Lazy Shiny"
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "gleaming quizzical signal tow appliance brief skate breathe boil rock iron four pinch ball step imaginary excite approval standing abhorrent lowly",
+        "theme_topic": "Rail",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.7915,
-        "w": 2.4668,
-        "x": 10.1709,
-        "y": 0.7827
+        "h": 2.4238,
+        "w": 2.1912,
+        "x": 5.8499,
+        "y": 2.0017
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.11663486835415372,
-          0.034083752414099076,
-          0.022503525490669394,
-          0.29519717768126164
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          122,
+          134,
+          205
         ],
-        "focus": false,
-        "mask_line": [
-          89,
-          55,
-          156
+        "line": [
+          122,
+          134,
+          205
         ],
-        "mask_overlay": false,
-        "theme_topic": "Lazy Shiny",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.3548101615760053,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Rail"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2938,
-        "w": 2.3567,
-        "x": 10.1934,
-        "y": 3.2226
+        "h": 0.5734,
+        "w": 0.5198,
+        "x": 6.0608,
+        "y": 2.1942
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          229,
+          65,
+          191
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Flap Red Steep",
-        "theme_topic": "Lazy Shiny",
-        "underline": false
+        "focus": false,
+        "line": [
+          165,
+          149,
+          80
+        ],
+        "line_width": 4.192412658046699,
+        "outline_only": true,
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Rail"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.7727,
-        "w": 1.3052,
-        "x": 0.7409,
-        "y": 0.7508
+        "h": 0.425,
+        "w": 1.6704,
+        "x": 6.073,
+        "y": 2.9065
       },
       "id": "object_009",
       "properties": {
@@ -299,17 +294,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          71,
+          221,
+          181
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 30,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "3.5x",
-        "theme_topic": "Lazy Shiny",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Collar",
+        "theme_topic": "Rail",
         "underline": false
       },
       "type": "text",
@@ -317,10 +312,10 @@
     },
     {
       "bbox": {
-        "h": 5.3685,
-        "w": 1.3383,
-        "x": 0.7207,
-        "y": 1.4794
+        "h": 0.7634,
+        "w": 1.6863,
+        "x": 6.0923,
+        "y": 3.4599
       },
       "id": "object_010",
       "properties": {
@@ -328,17 +323,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          149,
-          175,
-          213
+          169,
+          177,
+          223
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "stupid hammer cut plot strange pretty",
-        "theme_topic": "Lazy Shiny",
+        "text": "materialistic lying necessary tickle root fang fear loaf wet blot puzzling scatter death",
+        "theme_topic": "Rail",
         "underline": false
       },
       "type": "text",
@@ -346,88 +341,91 @@
     },
     {
       "bbox": {
-        "h": 6.4127,
-        "w": 2.5275,
-        "x": 2.3975,
-        "y": 0.5426
+        "h": 2.4171,
+        "w": 1.9436,
+        "x": 8.2469,
+        "y": 2.0156
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          217,
-          143,
-          184
+          122,
+          134,
+          205
         ],
         "line": [
-          104,
-          142,
-          195
+          122,
+          134,
+          205
         ],
-        "line_width": 4.444701019265935,
+        "line_width": 1.515717348222615,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Lazy Shiny"
+        "theme_topic": "Rail"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.7323,
-        "w": 2.1859,
-        "x": 2.6077,
-        "y": 0.7147
+        "h": 0.5732,
+        "w": 0.536,
+        "x": 8.4858,
+        "y": 2.2561
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "dash": 3,
+        "family": "arrows",
+        "fill": [
+          126,
+          144,
+          72
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "2.3x",
-        "theme_topic": "Lazy Shiny",
-        "underline": false
+        "focus": false,
+        "line": [
+          169,
+          177,
+          223
+        ],
+        "line_width": 5.810878422318747,
+        "outline_only": false,
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Rail"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 5.4,
-        "w": 2.1615,
-        "x": 2.6083,
-        "y": 1.4879
+        "h": 0.4517,
+        "w": 1.4446,
+        "x": 8.5117,
+        "y": 2.8964
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          149,
-          175,
-          213
+          71,
+          221,
+          181
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "public payment psychotic chief buzz space",
-        "theme_topic": "Lazy Shiny",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Shy",
+        "theme_topic": "Rail",
         "underline": false
       },
       "type": "text",
@@ -435,244 +433,248 @@
     },
     {
       "bbox": {
-        "h": 6.4091,
-        "w": 1.6022,
-        "x": 5.1211,
-        "y": 0.543
+        "h": 0.781,
+        "w": 1.4325,
+        "x": 8.478,
+        "y": 3.4738
       },
       "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          222,
-          96,
-          99
-        ],
-        "line": [
-          104,
-          142,
-          195
-        ],
-        "line_width": 0.9970902782268104,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Lazy Shiny"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.7618,
-        "w": 1.2578,
-        "x": 5.3032,
-        "y": 0.7391
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 33,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "39%",
-        "theme_topic": "Lazy Shiny",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 5.3835,
-        "w": 1.2401,
-        "x": 5.2743,
-        "y": 1.4632
-      },
-      "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          149,
-          175,
-          213
+          169,
+          177,
+          223
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "mom scatter combative heavy intelligent",
-        "theme_topic": "Lazy Shiny",
+        "text": "detailed cool cave clap unable accept throne quiet",
+        "theme_topic": "Rail",
         "underline": false
       },
       "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 2.4058,
+        "w": 2.3607,
+        "x": 10.4052,
+        "y": 1.9863
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          122,
+          134,
+          205
+        ],
+        "line": [
+          122,
+          134,
+          205
+        ],
+        "line_width": 1.7020150997242796,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Rail"
+      },
+      "type": "shape",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.5273,
+        "w": 0.5153,
+        "x": 10.6095,
+        "y": 2.2483
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          255,
+          211,
+          88
+        ],
+        "focus": false,
+        "line": [
+          75,
+          217,
+          39
+        ],
+        "line_width": 1.2711230184597098,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Rail"
+      },
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.8644,
-        "w": 0.2805,
-        "x": 7.2232,
-        "y": 3.1713
+        "h": 0.462,
+        "w": 1.8594,
+        "x": 10.6557,
+        "y": 2.901
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          93,
-          212,
-          25
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "focus": false,
-        "line": [
-          25,
-          129,
-          50
-        ],
-        "line_width": 2.0883111607412084,
-        "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Lazy Shiny"
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Hapless Metal",
+        "theme_topic": "Rail",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.3028,
-        "w": 0.6445,
-        "x": 3.6285,
-        "y": 3.1421
+        "h": 0.7953,
+        "w": 1.8655,
+        "x": 10.6748,
+        "y": 3.4629
       },
       "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          169,
+          177,
+          223
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "flood tightfisted substantial swim suspect futuristic vivacious noisy trousers",
+        "theme_topic": "Rail",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.9049,
+        "w": 0.5199,
+        "x": 2.2575,
+        "y": 6.0806
+      },
+      "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "flowchart",
         "fill": [
-          194,
-          145,
-          48
+          217,
+          210,
+          35
         ],
         "focus": false,
         "line": [
-          85,
-          194,
-          48
+          161,
+          112,
+          126
         ],
-        "line_width": 2.192933479245973,
+        "line_width": 1.6862723569688274,
         "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Lazy Shiny"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.8696,
-        "w": 0.3936,
-        "x": 6.7448,
-        "y": 3.2121
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
-        "fill": [
-          171,
-          92,
-          43
-        ],
-        "focus": false,
-        "line": [
-          178,
-          194,
-          84
-        ],
-        "line_width": 4.591189144615585,
-        "outline_only": false,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Lazy Shiny"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Rail"
       },
       "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.3388,
-        "w": 1.0978,
-        "x": 1.0011,
-        "y": 4.4325
+        "h": 0.2453,
+        "w": 0.6177,
+        "x": 9.1116,
+        "y": 1.5559
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "flowchart",
         "fill": [
-          148,
-          116,
-          87
+          98,
+          229,
+          53
         ],
         "focus": false,
         "line": [
-          31,
-          150,
-          164
+          95,
+          129,
+          61
         ],
-        "line_width": 1.1238339291453747,
-        "outline_only": true,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Lazy Shiny"
+        "line_width": 3.874491328630753,
+        "outline_only": false,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Rail"
       },
       "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.7733,
-        "w": 2.0905,
-        "x": 8.2409,
-        "y": 5.5763
+        "h": 0.7786,
+        "w": 0.5248,
+        "x": 11.443,
+        "y": 4.6691
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          58,
-          43,
-          207
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          35,
+          168,
+          200
         ],
-        "connector": "curve",
-        "dash": 4,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Lazy Shiny",
-        "width": 2.986846053944393
+        "focus": false,
+        "line": [
+          162,
+          43,
+          163
+        ],
+        "line_width": 2.8112569946551416,
+        "outline_only": false,
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Rail"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 21
     }
   ],

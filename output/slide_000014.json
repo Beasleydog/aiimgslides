@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        113,
-        88,
-        135
+      "colors": [
+        [
+          217,
+          127,
+          132
+        ],
+        [
+          40,
+          108,
+          110
+        ]
       ],
       "fill": [
-        145,
-        113,
-        173
+        33,
+        190,
+        215
       ],
-      "fore_color": [
-        170,
-        133,
-        136
-      ],
-      "pattern": 21,
-      "style": "pattern",
-      "theme_topic": "Fretful Meaty"
+      "focus": "top_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Functional Necessary"
     },
     "type": "background",
     "z_order": 0
@@ -41,28 +45,28 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.2791,
-        "w": 12.2204,
-        "x": 0.5573,
-        "y": 0.5564
+        "h": 5.1343,
+        "w": 6.8095,
+        "x": 5.9157,
+        "y": 1.8273
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.10742404832718269,
-          0.18571551968098932,
-          0.09756375319244703,
-          0.2074280543289748
+          0.11405693429863913,
+          0.15234709392421103,
+          0.19753343311321414,
+          0.18776829677871826
         ],
         "focus": true,
         "mask_line": [
-          255,
-          238,
-          103
+          197,
+          227,
+          150
         ],
-        "mask_overlay": true,
-        "theme_topic": "Fretful Meaty",
+        "mask_overlay": false,
+        "theme_topic": "Functional Necessary",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",

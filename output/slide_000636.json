@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        123,
-        211,
-        105
+      "colors": [
+        [
+          18,
+          129,
+          148
+        ],
+        [
+          71,
+          221,
+          181
+        ]
       ],
       "fill": [
-        94,
-        201,
-        72
+        18,
+        129,
+        148
       ],
-      "fore_color": [
-        168,
-        54,
-        94
-      ],
-      "pattern": 5,
-      "style": "pattern",
-      "theme_topic": "Overt Gamy"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Island Poison"
     },
     "type": "background",
     "z_order": 0
@@ -41,171 +45,107 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.3986,
-        "w": 5.0593,
-        "x": 6.4568,
-        "y": 1.3245
+        "h": 2.2753,
+        "w": 5.5093,
+        "x": 1.1078,
+        "y": 1.725
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 7,
+        "family": "stars",
         "fill": [
-          135,
-          196,
-          127
+          32,
+          103,
+          99
         ],
         "focus": false,
         "line": [
-          177,
-          117,
-          93
+          141,
+          88,
+          150
         ],
-        "line_width": 5.1336104243808185,
-        "outline_only": true,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Overt Gamy"
+        "line_width": 3.8702417623568333,
+        "outline_only": false,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Island Poison"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.0826,
-        "w": 6.6479,
-        "x": 0.8323,
-        "y": -0.0505
+        "h": 3.4567,
+        "w": 4.1784,
+        "x": -0.3875,
+        "y": -0.3459
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "stars",
+        "dash": 1,
+        "family": "ribbons",
         "fill": [
-          134,
-          130,
-          150
+          175,
+          138,
+          181
         ],
         "focus": false,
         "line": [
-          178,
-          69,
-          197
+          43,
+          61,
+          40
         ],
-        "line_width": 5.996198333892108,
-        "outline_only": true,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Overt Gamy"
+        "line_width": 7.299169768958069,
+        "outline_only": false,
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Island Poison"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.2087,
-        "w": 4.551,
-        "x": 7.4317,
-        "y": 4.0853
+        "h": 7.488,
+        "w": 0.7835,
+        "x": 12.5328,
+        "y": -0.0161
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "symbols",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          68,
-          194,
-          91
+          67,
+          155,
+          170
         ],
-        "focus": false,
         "line": [
-          142,
-          128,
-          128
+          67,
+          155,
+          170
         ],
-        "line_width": 5.4433377124373985,
-        "outline_only": true,
-        "ppt_type": 23,
-        "shape": "sun",
-        "theme_topic": "Overt Gamy"
+        "line_width": 2.1819033635120633,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Island Poison"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.37,
-        "w": 4.507,
-        "x": 0.6378,
-        "y": 1.6788
+        "h": 1.285,
+        "w": 7.5845,
+        "x": 0.5367,
+        "y": 0.353
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          98,
-          128,
-          84
-        ],
-        "focus": false,
-        "line": [
-          36,
-          157,
-          85
-        ],
-        "line_width": 4.117894723209472,
-        "outline_only": false,
-        "ppt_type": 173,
-        "shape": "gear9",
-        "theme_topic": "Overt Gamy"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 3.075,
-        "x": 6.6712,
-        "y": 2.0166
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          32,
-          119,
-          149
-        ],
-        "line": [
-          123,
-          211,
-          105
-        ],
-        "line_width": 4.125975726875177,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Overt Gamy"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.2341,
-        "w": 8.2657,
-        "x": 0.5706,
-        "y": 0.3266
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -215,13 +155,71 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 30,
+        "font_face": "Arial",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Vacation Tire",
-        "theme_topic": "Overt Gamy",
+        "text": "Gaping Needless Sail",
+        "theme_topic": "Island Poison",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.771,
+        "w": 0.7276,
+        "x": 4.9437,
+        "y": 4.7944
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Arial",
+        "font_size": 23,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "2.8x",
+        "theme_topic": "Island Poison",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.3698,
+        "w": 0.7002,
+        "x": 4.9387,
+        "y": 5.552
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          143,
+          194,
+          205
+        ],
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "flash notebook mug",
+        "theme_topic": "Island Poison",
         "underline": false
       },
       "type": "text",
@@ -229,104 +227,88 @@
     },
     {
       "bbox": {
-        "h": 2.9001,
-        "w": 6.8454,
-        "x": 3.2318,
-        "y": 2.7731
+        "h": 2.4055,
+        "w": 1.2387,
+        "x": 6.0187,
+        "y": 4.5933
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 2,
         "family": "panel",
         "fill": [
-          123,
-          211,
-          105
+          67,
+          155,
+          170
         ],
         "line": [
-          123,
-          211,
-          105
+          67,
+          155,
+          170
         ],
-        "line_width": 1.3601972320084352,
+        "line_width": 4.81752024599033,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Overt Gamy"
+        "theme_topic": "Island Poison"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.3989,
-        "w": 6.3676,
-        "x": 3.4909,
-        "y": 3.0446
+        "h": 0.7626,
+        "w": 0.8968,
+        "x": 6.1736,
+        "y": 4.8066
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "cracker",
-          "awake",
-          "bawdy",
-          "want",
-          "worry"
-        ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              180,
-              31,
-              157
-            ],
-            "name": "remove",
-            "values": [
-              75,
-              46,
-              34,
-              57,
-              30
-            ]
-          }
-        ],
-        "theme_topic": "Overt Gamy",
-        "title": "abrasive violent glistening winter"
-      },
-      "type": "chart",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.2946,
-        "w": 1.9057,
-        "x": 10.7515,
-        "y": 1.9504
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "88",
+        "theme_topic": "Island Poison",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 1.3718,
+        "w": 0.854,
+        "x": 6.211,
+        "y": 5.5285
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          143,
+          194,
+          205
+        ],
+        "font_face": "Arial",
         "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "DISILLUSIONED",
-        "theme_topic": "Overt Gamy",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "receptive one change",
+        "theme_topic": "Island Poison",
         "underline": false
       },
       "type": "text",
@@ -334,57 +316,59 @@
     },
     {
       "bbox": {
-        "h": 1.0693,
-        "w": 1.8916,
-        "x": 10.7444,
-        "y": 2.4738
+        "h": 2.3946,
+        "w": 1.1629,
+        "x": 7.428,
+        "y": 4.6122
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          32,
+          154,
+          157
         ],
-        "font_face": "Aptos Display",
-        "font_size": 21,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Rice",
-        "theme_topic": "Overt Gamy",
-        "underline": false
+        "line": [
+          67,
+          155,
+          170
+        ],
+        "line_width": 4.054954949931672,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Island Poison"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 3.1458,
-        "w": 1.9065,
-        "x": 10.7392,
-        "y": 3.743
+        "h": 0.7558,
+        "w": 0.7982,
+        "x": 7.5883,
+        "y": 4.7907
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          177,
-          226,
-          171
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 26,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "fetch high-pitched apologise verdant wicked grain noisy object",
-        "theme_topic": "Overt Gamy",
+        "text": "27%",
+        "theme_topic": "Island Poison",
         "underline": false
       },
       "type": "text",
@@ -392,28 +376,28 @@
     },
     {
       "bbox": {
-        "h": 0.3009,
-        "w": 6.5578,
-        "x": 3.3872,
-        "y": 5.9794
+        "h": 1.3884,
+        "w": 0.7832,
+        "x": 7.6165,
+        "y": 5.5526
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          32,
-          119,
-          149
+          143,
+          194,
+          205
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "TONGUE",
-        "theme_topic": "Overt Gamy",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fine disillusioned coat",
+        "theme_topic": "Island Poison",
         "underline": false
       },
       "type": "text",
@@ -421,57 +405,61 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 6.562,
-        "x": 3.3811,
-        "y": 6.4728
+        "h": 2.4102,
+        "w": 3.8055,
+        "x": 8.9512,
+        "y": 1.849
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "crop": [
+          0.15084884037236568,
+          0.1992963965818261,
+          0.13105181832615084,
+          0.11279670558330462
         ],
-        "font_face": "Aptos Display",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Ossified",
-        "theme_topic": "Overt Gamy",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          191,
+          175,
+          50
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Island Poison",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 1.0634,
-        "w": 1.8981,
-        "x": 0.6754,
-        "y": 1.9787
+        "h": 0.8115,
+        "w": 3.5261,
+        "x": 0.7131,
+        "y": 1.9896
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          148,
+          41,
+          180
+        ],
         "bold": true,
         "color": [
           246,
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
+        "font_face": "Arial",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Carriage Rose Fit",
-        "theme_topic": "Overt Gamy",
+        "text": "Shallow Fail",
+        "theme_topic": "Island Poison",
         "underline": false
       },
       "type": "text",
@@ -479,10 +467,10 @@
     },
     {
       "bbox": {
-        "h": 3.5993,
-        "w": 1.8825,
-        "x": 0.7132,
-        "y": 3.2941
+        "h": 1.0958,
+        "w": 3.5267,
+        "x": 0.6762,
+        "y": 3.0592
       },
       "id": "object_015",
       "properties": {
@@ -490,17 +478,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          177,
-          226,
-          171
+          143,
+          194,
+          205
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "flagrant dapper breakable airport freezing connection bead earn",
-        "theme_topic": "Overt Gamy",
+        "text": "capable abstracted wave ten rock fork approve charming interfere unsuitable",
+        "theme_topic": "Island Poison",
         "underline": false
       },
       "type": "text",
@@ -508,34 +496,31 @@
     },
     {
       "bbox": {
-        "h": 0.7827,
-        "w": 0.6228,
-        "x": 8.3463,
-        "y": 4.5818
+        "h": 0.5739,
+        "w": 1.4691,
+        "x": 4.8046,
+        "y": 4.4318
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "ribbons",
-        "fill": [
-          175,
-          148,
-          122
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          136,
+          122,
+          162
         ],
-        "focus": false,
-        "line": [
-          109,
-          140,
-          142
-        ],
-        "line_width": 2.3650178471254,
-        "outline_only": true,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Overt Gamy"
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Secretary Charming Apathetic",
+        "theme_topic": "Island Poison",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 16
     }
   ],

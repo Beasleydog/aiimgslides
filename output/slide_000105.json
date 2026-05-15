@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          232,
-          163,
-          45
-        ],
-        [
-          85,
-          123,
-          41
-        ]
-      ],
       "fill": [
-        232,
-        163,
-        45
+        80,
+        93,
+        36
       ],
-      "focus": "top_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Moan Luxuriant"
+      "style": "solid",
+      "theme_topic": "Rhetorical"
     },
     "type": "background",
     "z_order": 0
@@ -45,42 +30,41 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.5761,
-        "w": 3.6636,
-        "x": -0.6452,
-        "y": 0.6652
+        "h": 4.0424,
+        "w": 5.3857,
+        "x": 7.948,
+        "y": 0.006
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 4,
+        "family": "panel",
         "fill": [
-          208,
-          151,
-          113
+          104,
+          116,
+          67
         ],
-        "focus": false,
         "line": [
-          72,
-          111,
-          116
+          104,
+          116,
+          67
         ],
-        "line_width": 7.288766921763825,
+        "line_width": 2.0104542254799465,
         "outline_only": false,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Moan Luxuriant"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Rhetorical"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.7396,
-        "w": 5.5445,
-        "x": 0.556,
-        "y": 4.2485
+        "h": 2.6713,
+        "w": 12.2487,
+        "x": 0.5376,
+        "y": 1.8595
       },
       "id": "object_002",
       "properties": {
@@ -88,93 +72,51 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          193,
-          136,
-          37
+          104,
+          116,
+          67
         ],
         "line": [
-          193,
-          136,
-          37
+          104,
+          116,
+          67
         ],
-        "line_width": 3.7122618850940987,
+        "line_width": 0.9013156828895693,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Moan Luxuriant"
+        "theme_topic": "Rhetorical"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.2317,
-        "w": 5.0203,
-        "x": 0.8021,
-        "y": 4.4954
+        "h": 2.3876,
+        "w": 11.9057,
+        "x": 0.6961,
+        "y": 1.9745
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "cuddly",
-          "store",
-          "invite",
-          "bouncy"
+        "crop": [
+          0.09834641205114555,
+          0.06842960068808848,
+          0.17782705783306316,
+          0.15538985095198435
         ],
-        "chart": "bar",
         "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              123,
-              47,
-              164
-            ],
-            "name": "lyrical",
-            "values": [
-              14,
-              20,
-              91,
-              65
-            ]
-          },
-          {
-            "color": [
-              138,
-              117,
-              218
-            ],
-            "name": "hover gaping",
-            "values": [
-              23,
-              70,
-              30,
-              22
-            ]
-          },
-          {
-            "color": [
-              119,
-              33,
-              124
-            ],
-            "name": "productive",
-            "values": [
-              51,
-              44,
-              20,
-              67
-            ]
-          }
+        "mask_line": [
+          121,
+          131,
+          199
         ],
-        "theme_topic": "Moan Luxuriant",
-        "title": "dislike allow"
+        "mask_overlay": false,
+        "theme_topic": "Rhetorical",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 3
     }
   ],

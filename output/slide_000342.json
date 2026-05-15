@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        122,
-        76,
-        158
+      "colors": [
+        [
+          46,
+          203,
+          191
+        ],
+        [
+          40,
+          103,
+          225
+        ]
       ],
       "fill": [
-        18,
-        129,
-        148
+        46,
+        203,
+        191
       ],
-      "fore_color": [
-        127,
-        122,
-        62
-      ],
-      "pattern": 16,
-      "style": "pattern",
-      "theme_topic": "Cheap"
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Abject Dog"
     },
     "type": "background",
     "z_order": 0
@@ -41,235 +45,203 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.1467,
-        "w": 8.9415,
-        "x": -1.0179,
-        "y": 3.6902
+        "h": 2.0271,
+        "w": 8.9324,
+        "x": 2.925,
+        "y": -0.3456
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 4,
+        "family": "stars",
         "fill": [
-          53,
-          73,
-          142
+          90,
+          135,
+          161
         ],
         "focus": false,
         "line": [
-          112,
-          149,
-          129
+          195,
+          150,
+          230
         ],
-        "line_width": 3.874786648800347,
+        "line_width": 7.348448455693024,
         "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Cheap"
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Abject Dog"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.0152,
-        "w": 3.5786,
-        "x": 6.5323,
-        "y": 2.1002
+        "h": 3.0621,
+        "w": 4.9321,
+        "x": 8.4073,
+        "y": 4.4375
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          63,
-          106,
-          71
+          41,
+          181,
+          170
         ],
-        "focus": false,
         "line": [
-          180,
-          111,
-          60
+          41,
+          181,
+          170
         ],
-        "line_width": 3.989735975343993,
-        "outline_only": true,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Cheap"
+        "line_width": 3.3744119040474123,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Abject Dog"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.6667,
-        "w": 13.3248,
-        "x": 0.0007,
-        "y": 0.0177
+        "h": 0.9587,
+        "w": 6.3294,
+        "x": 0.5749,
+        "y": 0.3457
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          54,
-          148,
-          164
-        ],
-        "line": [
-          54,
-          148,
-          164
-        ],
-        "line_width": 1.8032856378287125,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Cheap"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.5558,
-        "w": 2.8459,
-        "x": 0.6501,
-        "y": 0.7266
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
         "font_face": "Arial",
-        "font_size": 26,
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Fish Shave",
-        "theme_topic": "Cheap",
+        "text": "Quarrelsome Laughable Mask",
+        "theme_topic": "Abject Dog",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.8866,
+        "w": 12.2429,
+        "x": 0.5648,
+        "y": 4.0772
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          41,
+          181,
+          170
+        ],
+        "line": [
+          41,
+          181,
+          170
+        ],
+        "line_width": 4.602913606804821,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Abject Dog"
+      },
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 6.2212,
-        "w": 3.6783,
-        "x": 9.0787,
-        "y": 0.6393
+        "h": 2.5833,
+        "w": 11.9255,
+        "x": 0.7021,
+        "y": 4.2165
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "laughable",
-          "lively",
-          "wreck"
-        ],
-        "chart": "bar",
+        "clip": "hex",
         "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              194,
-              112,
-              152
-            ],
-            "name": "meek fuel",
-            "values": [
-              92,
-              34,
-              77
-            ]
-          },
-          {
-            "color": [
-              135,
-              176,
-              66
-            ],
-            "name": "resonant",
-            "values": [
-              90,
-              53,
-              54
-            ]
-          }
+        "line": [
+          32,
+          157,
+          46
         ],
-        "theme_topic": "Cheap",
-        "title": "elfin rub puffy applaud"
+        "line_width": 16,
+        "theme_topic": "Abject Dog"
       },
-      "type": "chart",
+      "type": "svg_image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.6953,
-        "w": 0.8866,
-        "x": 4.9726,
-        "y": 5.1324
+        "h": 1.8429,
+        "w": 6.5054,
+        "x": 0.5695,
+        "y": 1.8697
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          143,
-          194,
-          205
+        "crop": [
+          0.28037993214578655,
+          0.07371942728493319,
+          0.1908555789328289,
+          0.01865177174139532
         ],
-        "font_face": "Arial",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "fair round pickle divide",
-        "theme_topic": "Cheap",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          38,
+          132,
+          88
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Abject Dog",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.6538,
-        "w": 0.7073,
-        "x": 6.4095,
-        "y": 5.1156
+        "h": 0.2903,
+        "w": 5.1686,
+        "x": 7.4447,
+        "y": 1.9866
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          143,
-          194,
-          205
+          38,
+          132,
+          88
         ],
         "font_face": "Arial",
-        "font_size": 14,
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "rabid dangerous exchange jealous",
-        "theme_topic": "Cheap",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "TENT UNWRITTEN",
+        "theme_topic": "Abject Dog",
         "underline": false
       },
       "type": "text",
@@ -277,28 +249,28 @@
     },
     {
       "bbox": {
-        "h": 1.6813,
-        "w": 0.717,
-        "x": 7.6897,
-        "y": 5.1211
+        "h": 0.4504,
+        "w": 5.1774,
+        "x": 7.476,
+        "y": 2.4378
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          143,
-          194,
-          205
+          202,
+          155,
+          54
         ],
         "font_face": "Arial",
-        "font_size": 13,
+        "font_size": 23,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "bag mindless rifle remind concentrate attack careful",
-        "theme_topic": "Cheap",
+        "text": "Maniacal",
+        "theme_topic": "Abject Dog",
         "underline": false
       },
       "type": "text",
@@ -306,10 +278,10 @@
     },
     {
       "bbox": {
-        "h": 0.4095,
-        "w": 1.7627,
-        "x": 0.8937,
-        "y": 3.8305
+        "h": 0.4258,
+        "w": 5.1745,
+        "x": 7.4497,
+        "y": 3.1327
       },
       "id": "object_009",
       "properties": {
@@ -317,18 +289,18 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          113,
-          145,
-          113
+          36,
+          107,
+          105
         ],
         "font_face": "Arial",
-        "font_size": 17,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "preserve",
-        "theme_topic": "Cheap",
-        "underline": true
+        "text": "lovely fasten threatening throat milky drip ten sound",
+        "theme_topic": "Abject Dog",
+        "underline": false
       },
       "type": "text",
       "z_order": 9

@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        80,
-        174,
-        144
+      "colors": [
+        [
+          93,
+          179,
+          208
+        ],
+        [
+          168,
+          54,
+          94
+        ]
       ],
       "fill": [
-        29,
-        151,
-        112
+        85,
+        27,
+        128
       ],
-      "fore_color": [
-        51,
-        63,
-        101
-      ],
-      "pattern": 23,
-      "style": "pattern",
-      "theme_topic": "Bead"
+      "focus": "bottom_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Polish"
     },
     "type": "background",
     "z_order": 0
@@ -41,44 +45,76 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.0646,
-        "w": 4.4068,
-        "x": 8.1626,
-        "y": 0.9954
+        "h": 5.0466,
+        "w": 7.3188,
+        "x": 4.2433,
+        "y": 0.2244
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "callouts",
         "fill": [
-          34,
-          90,
-          164
+          186,
+          146,
+          104
         ],
         "focus": false,
         "line": [
-          160,
-          100,
-          115
+          210,
+          176,
+          66
         ],
-        "line_width": 4.576909330739668,
-        "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Bead"
+        "line_width": 4.308658404123177,
+        "outline_only": true,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Polish"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.1706,
-        "w": 8.2883,
-        "x": 0.5596,
-        "y": 0.3697
+        "h": 4.8158,
+        "w": 6.1445,
+        "x": -0.0804,
+        "y": -0.0668
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          79,
+          32,
+          71
+        ],
+        "focus": false,
+        "line": [
+          86,
+          114,
+          88
+        ],
+        "line_width": 2.346156151592087,
+        "outline_only": true,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Polish"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 5.5515,
+        "w": 2.8544,
+        "x": 0.6538,
+        "y": 0.7407
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -88,84 +124,53 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 30,
+        "font_face": "Georgia",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Uttermost Walk Amused Alive",
-        "theme_topic": "Bead",
+        "text": "Decorous Slim Awful",
+        "theme_topic": "Polish",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.4303,
-        "w": 3.791,
-        "x": 8.9735,
-        "y": 4.5604
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.17554766857517523,
-          0.049118755890812126,
-          0.04137018478898417,
-          0.17436673287963914
-        ],
-        "focus": true,
-        "mask_line": [
-          178,
-          94,
-          87
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Bead",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.3915,
-        "w": 6.3382,
-        "x": 6.4343,
-        "y": 1.8422
+        "h": 0.7945,
+        "w": 2.0606,
+        "x": 9.3338,
+        "y": 3.4045
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          117,
-          188,
-          158
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          173,
+          148,
+          196
         ],
-        "line": [
-          80,
-          174,
-          144
-        ],
-        "line_width": 5.115261711608849,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Bead"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "jealous cub degree used luxuriant possible realize questionable whisper side frightening jar unaccountable wink giants shiny thoughtless",
+        "theme_topic": "Polish",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.3834,
-        "w": 5.9979,
-        "x": 6.6382,
-        "y": 2.7522
+        "h": 0.8846,
+        "w": 2.2913,
+        "x": 7.7962,
+        "y": 5.4832
       },
       "id": "object_005",
       "properties": {
@@ -173,17 +178,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
+          173,
           148,
-          204,
-          189
+          196
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "present humor floor snail",
-        "theme_topic": "Bead",
+        "text": "moaning yielding roasted joyous animated stuff fear incredible",
+        "theme_topic": "Polish",
         "underline": false
       },
       "type": "text",

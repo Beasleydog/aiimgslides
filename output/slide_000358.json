@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "fill": [
-        210,
-        72,
-        94
+      "colors": [
+        [
+          45,
+          126,
+          60
+        ],
+        [
+          96,
+          165,
+          250
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Boat"
+      "fill": [
+        45,
+        126,
+        60
+      ],
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Park"
     },
     "type": "background",
     "z_order": 0
@@ -30,157 +45,169 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.5009,
-        "w": 13.3524,
-        "x": 0.0175,
-        "y": 3.176
+        "h": 4.9639,
+        "w": 8.6732,
+        "x": 0.5204,
+        "y": 1.8966
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 2,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          225,
-          94,
-          113
+          131,
+          111,
+          115
         ],
+        "focus": false,
         "line": [
-          225,
-          94,
-          113
+          214,
+          176,
+          28
         ],
-        "line_width": 1.845638795563603,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Boat"
+        "line_width": 2.356322354729666,
+        "outline_only": true,
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Park"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9071,
-        "w": 5.0253,
-        "x": 5.27,
-        "y": 0.6567
+        "h": 4.6078,
+        "w": 7.2436,
+        "x": -0.6564,
+        "y": 3.4017
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          252,
-          247
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          136,
+          177,
+          92
         ],
-        "font_face": "Aptos Display",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Inconclusive Accessible Superb",
-        "theme_topic": "Boat",
-        "underline": false
+        "focus": false,
+        "line": [
+          167,
+          158,
+          152
+        ],
+        "line_width": 3.114479133181776,
+        "outline_only": false,
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Park"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.446,
-        "w": 3.078,
-        "x": 0.8163,
-        "y": 2.3682
+        "h": 3.086,
+        "w": 3.151,
+        "x": 3.1533,
+        "y": 3.2239
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          39,
+          84,
+          170
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Ashamed Donkey",
-        "theme_topic": "Boat",
-        "underline": false
+        "focus": false,
+        "line": [
+          33,
+          149,
+          29
+        ],
+        "line_width": 4.4192752559386905,
+        "outline_only": false,
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Park"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.4662,
-        "w": 3.0787,
-        "x": 0.8015,
-        "y": 3.5887
+        "h": 4.3167,
+        "w": 7.6249,
+        "x": 5.942,
+        "y": 0.8365
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
+        "dash": 7,
+        "family": "math",
+        "fill": [
+          195,
+          101,
+          40
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Milky",
-        "theme_topic": "Boat",
-        "underline": false
+        "focus": false,
+        "line": [
+          148,
+          124,
+          154
+        ],
+        "line_width": 5.53134715794121,
+        "outline_only": false,
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Park"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.4511,
-        "w": 3.089,
-        "x": 0.7912,
-        "y": 4.958
+        "h": 2.6824,
+        "w": 7.0683,
+        "x": 6.2416,
+        "y": 0.0009
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          120,
+          172,
+          129
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Achiever",
-        "theme_topic": "Boat",
-        "underline": false
+        "line": [
+          120,
+          172,
+          129
+        ],
+        "line_width": 1.968867214235066,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Park"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.4395,
-        "w": 3.0806,
-        "x": 0.7789,
-        "y": 6.5507
+        "h": 5.5544,
+        "w": 2.8589,
+        "x": 0.6602,
+        "y": 0.7473
       },
       "id": "object_006",
       "properties": {
@@ -188,17 +215,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Aptos Display",
+        "font_size": 22,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Calendar Scientific",
-        "theme_topic": "Boat",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Awesome",
+        "theme_topic": "Park",
         "underline": false
       },
       "type": "text",
@@ -206,39 +233,33 @@
     },
     {
       "bbox": {
-        "h": 1.0414,
-        "w": 3.4714,
-        "x": 9.2015,
-        "y": 1.5845
+        "h": 3.4764,
+        "w": 5.0062,
+        "x": 5.7468,
+        "y": 1.7599
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          252,
-          247
+        "clip": "hex",
+        "focus": true,
+        "line": [
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Pedal",
-        "theme_topic": "Boat",
-        "underline": false
+        "line_width": 9,
+        "theme_topic": "Park"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 3.9942,
-        "w": 3.4761,
-        "x": 9.166,
-        "y": 2.8492
+        "h": 4.7223,
+        "w": 1.2953,
+        "x": 3.9175,
+        "y": 2.0947
       },
       "id": "object_008",
       "properties": {
@@ -246,17 +267,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          255,
-          218,
-          220
+          155,
+          193,
+          165
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "command happy macho efficacious arrive pale subtract cute axiomatic confess swanky angry tranquil dinner compare subsequent porter brave pinch beef",
-        "theme_topic": "Boat",
+        "text": "zoom flawless annoy huge star disillusioned subsequent selfish swing true foregoing nosy giraffe precede whistle",
+        "theme_topic": "Park",
         "underline": false
       },
       "type": "text",
@@ -264,31 +285,31 @@
     },
     {
       "bbox": {
-        "h": 0.5249,
-        "w": 0.5756,
-        "x": 2.6612,
-        "y": 2.8367
+        "h": 6.2631,
+        "w": 1.5986,
+        "x": 11.1415,
+        "y": 0.6504
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          27,
-          122,
-          30
+        "crop": [
+          0.14467615779915186,
+          0.2364778697824073,
+          0.008525043250784192,
+          0.046555034670384104
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Educated",
-        "theme_topic": "Boat",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          218,
+          138,
+          217
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Park",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 9
     }
   ],

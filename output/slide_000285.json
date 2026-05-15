@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "back_color": [
-        166,
-        28,
-        100
+      "colors": [
+        [
+          189,
+          133,
+          36
+        ],
+        [
+          122,
+          70,
+          214
+        ]
       ],
       "fill": [
-        214,
-        66,
-        174
+        232,
+        163,
+        45
       ],
-      "fore_color": [
-        31,
-        117,
-        161
-      ],
-      "pattern": 34,
-      "style": "pattern",
-      "theme_topic": "Puncture"
+      "focus": "bottom_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Riddle"
     },
     "type": "background",
     "z_order": 0
@@ -41,44 +45,76 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.6615,
-        "w": 5.8655,
-        "x": 4.3287,
-        "y": 0.1982
+        "h": 4.7111,
+        "w": 5.4606,
+        "x": -0.7646,
+        "y": 3.0735
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
+        "dash": 3,
+        "family": "arrows",
         "fill": [
-          183,
-          165,
-          193
+          212,
+          168,
+          114
         ],
         "focus": false,
         "line": [
-          174,
-          221,
-          99
+          140,
+          52,
+          145
         ],
-        "line_width": 3.8320139994603557,
-        "outline_only": true,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Puncture"
+        "line_width": 2.2571029310246757,
+        "outline_only": false,
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Riddle"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.1438,
-        "w": 8.5683,
-        "x": 0.5329,
-        "y": 0.3687
+        "h": 4.3079,
+        "w": 7.512,
+        "x": 3.2366,
+        "y": 0.7189
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          227,
+          90,
+          59
+        ],
+        "focus": false,
+        "line": [
+          116,
+          148,
+          130
+        ],
+        "line_width": 7.37487430587664,
+        "outline_only": false,
+        "ppt_type": 22,
+        "shape": "lightning",
+        "theme_topic": "Riddle"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.1533,
+        "w": 7.1702,
+        "x": 2.7622,
+        "y": 0.6429
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -89,187 +125,114 @@
           36
         ],
         "font_face": "Arial",
-        "font_size": 35,
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Mix Healthy",
-        "theme_topic": "Puncture",
+        "text": "Abashed Doubtful Achiever Star",
+        "theme_topic": "Riddle",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.5171,
-        "w": 3.5937,
-        "x": 5.7231,
-        "y": 4.8136
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.23022929202533132,
-          0.08739349837249596,
-          0.1871652547722938,
-          0.03757887334176577
-        ],
-        "focus": false,
-        "mask_line": [
-          31,
-          117,
-          161
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Puncture",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.4362,
-        "w": 1.8288,
-        "x": 8.0684,
-        "y": 3.8072
+        "h": 2.528,
+        "w": 6.2065,
+        "x": 0.5652,
+        "y": 2.0172
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          214,
-          66,
-          174
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          186,
+          179,
+          83
         ],
-        "font_face": "Arial",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "11x",
-        "theme_topic": "Puncture",
-        "underline": false
+        "line": [
+          189,
+          133,
+          36
+        ],
+        "line_width": 2.4291548580715316,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Riddle"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.6054,
-        "w": 7.5237,
-        "x": 1.4221,
-        "y": 2.7389
+        "h": 1.4883,
+        "w": 5.8606,
+        "x": 0.7261,
+        "y": 2.9116
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          173,
-          53,
-          140
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          119,
+          89,
+          40
         ],
-        "line": [
-          173,
-          53,
-          140
-        ],
-        "line_width": 4.9818705138496755,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Puncture"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "volatile likeable collect planes men",
+        "theme_topic": "Riddle",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.1226,
-        "w": 7.0176,
-        "x": 1.6765,
-        "y": 2.9902
+        "h": 2.5262,
+        "w": 5.8267,
+        "x": 6.9299,
+        "y": 2.0011
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "sponge",
-          "rambunctious",
-          "pretend",
-          "selfish",
-          "classy"
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          186,
+          179,
+          83
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              202,
-              181,
-              118
-            ],
-            "name": "insidious terrible",
-            "values": [
-              30,
-              14,
-              82,
-              73,
-              79
-            ]
-          },
-          {
-            "color": [
-              161,
-              229,
-              154
-            ],
-            "name": "beef",
-            "values": [
-              37,
-              81,
-              63,
-              76,
-              36
-            ]
-          },
-          {
-            "color": [
-              118,
-              48,
-              201
-            ],
-            "name": "anxious truthful",
-            "values": [
-              55,
-              41,
-              62,
-              82,
-              66
-            ]
-          }
+        "line": [
+          189,
+          133,
+          36
         ],
-        "theme_topic": "Puncture",
-        "title": "flat cream lazy yard"
+        "line_width": 1.1516030584329116,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Riddle"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.6281,
-        "w": 1.2459,
-        "x": 7.5391,
-        "y": 0.5536
+        "h": 1.5117,
+        "w": 5.49,
+        "x": 7.122,
+        "y": 2.9323
       },
       "id": "object_007",
       "properties": {
@@ -277,17 +240,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          58,
-          158,
-          171
+          119,
+          89,
+          40
         ],
         "font_face": "Arial",
-        "font_size": 9,
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Addicted Cruel Quack",
-        "theme_topic": "Puncture",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "volleyball mend spiffy late",
+        "theme_topic": "Riddle",
         "underline": false
       },
       "type": "text",
@@ -295,31 +258,31 @@
     },
     {
       "bbox": {
-        "h": 0.3728,
-        "w": 1.1782,
-        "x": 4.7256,
-        "y": 6.9302
+        "h": 2.1251,
+        "w": 4.3659,
+        "x": 4.818,
+        "y": 4.93
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          219,
-          31,
-          96
+        "crop": [
+          0.30644894282189616,
+          0.07041962052517689,
+          0.07086840039941095,
+          0.06794779341256679
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "unusual bedroom floor magical",
-        "theme_topic": "Puncture",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          71,
+          221,
+          181
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Riddle",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 8
     }
   ],

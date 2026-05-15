@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 120,
+      "angle": 30,
       "archetype": "atomic_composition",
       "colors": [
         [
-          164,
-          170,
-          36
+          33,
+          115,
+          169
         ],
         [
-          205,
-          86,
-          172
+          255,
+          117,
+          117
         ]
       ],
       "fill": [
-        201,
-        208,
-        45
+        33,
+        115,
+        169
       ],
-      "focus": "top_right",
-      "gradient_type": "linear",
+      "focus": "bottom_left",
+      "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Stay"
+      "theme_topic": "Sturdy Announce"
     },
     "type": "background",
     "z_order": 0
@@ -45,72 +45,103 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.5578,
-        "w": 2.8727,
-        "x": 0.6353,
-        "y": 0.7727
+        "h": 0.2,
+        "w": 3.2485,
+        "x": 6.8978,
+        "y": 4.4551
       },
       "id": "object_001",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          255,
+          198,
+          74
+        ],
+        "line": [
+          47,
+          136,
+          190
+        ],
+        "line_width": 2.1408204764089884,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Sturdy Announce"
+      },
+      "type": "shape",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 1.0805,
+        "w": 7.1882,
+        "x": 0.5649,
+        "y": 0.3364
+      },
+      "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          250,
+          252,
+          255
         ],
-        "font_face": "Arial",
-        "font_size": 28,
+        "font_face": "Trebuchet MS",
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Abundant Envious Swanky",
-        "theme_topic": "Stay",
+        "text": "Interest Letters",
+        "theme_topic": "Sturdy Announce",
         "underline": false
       },
       "type": "text",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 2.9984,
-        "w": 2.9173,
-        "x": 7.2393,
-        "y": 3.8749
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          164,
-          170,
-          36
-        ],
-        "line": [
-          164,
-          170,
-          36
-        ],
-        "line_width": 5.101323189735798,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Stay"
-      },
-      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.7393,
-        "w": 2.6408,
-        "x": 7.4133,
-        "y": 4.0313
+        "h": 5.1349,
+        "w": 4.8473,
+        "x": 7.9537,
+        "y": 1.839
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          47,
+          136,
+          190
+        ],
+        "line": [
+          47,
+          136,
+          190
+        ],
+        "line_width": 0.9282561365544213,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sturdy Announce"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 4.8327,
+        "w": 4.5226,
+        "x": 8.1103,
+        "y": 2.0188
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
@@ -119,72 +150,43 @@
           0,
           0
         ],
-        "focus": false,
+        "focus": true,
         "mask_line": [
-          219,
-          33,
-          173
+          255,
+          198,
+          74
         ],
-        "mask_overlay": false,
-        "theme_topic": "Stay",
+        "mask_overlay": true,
+        "theme_topic": "Sturdy Announce",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.9732,
-        "w": 8.68,
-        "x": 3.8879,
-        "y": 0.7757
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Arial",
-        "font_size": 41,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Company",
-        "theme_topic": "Stay",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.321,
-        "w": 8.6935,
-        "x": 3.8771,
-        "y": 1.9993
+        "h": 0.276,
+        "w": 4.4477,
+        "x": 8.1303,
+        "y": 6.5607
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          105,
-          110,
-          40
+          255,
+          198,
+          74
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "groan money yielding zephyr bucket special fuel switch thing unfasten true coal vigorous cold pray absurd milky scream rebel pleasure classy sudden",
-        "theme_topic": "Stay",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Animal Distinct Pest",
+        "theme_topic": "Sturdy Announce",
         "underline": false
       },
       "type": "text",
@@ -192,10 +194,10 @@
     },
     {
       "bbox": {
-        "h": 0.3793,
-        "w": 0.5509,
-        "x": 2.0496,
-        "y": 0.2425
+        "h": 2.9606,
+        "w": 6.559,
+        "x": 0.7332,
+        "y": 2.0428
       },
       "id": "object_006",
       "properties": {
@@ -203,17 +205,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          138,
-          171,
-          188
+          250,
+          252,
+          255
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Trebuchet MS",
+        "font_size": 21,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "irritate",
-        "theme_topic": "Stay",
+        "text": "Unwritten Wave Friend Tired Stay Mist Odd Wonder Questionable",
+        "theme_topic": "Sturdy Announce",
         "underline": false
       },
       "type": "text",
@@ -221,32 +223,28 @@
     },
     {
       "bbox": {
-        "h": 0.5347,
-        "w": 0.6913,
-        "x": 12.4468,
-        "y": 6.3393
+        "h": 0.8749,
+        "w": 3.5982,
+        "x": 0.7719,
+        "y": 5.4451
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          29,
-          139,
-          65
-        ],
-        "bold": false,
+        "bg_color": null,
+        "bold": true,
         "color": [
-          112,
-          209,
-          211
+          255,
+          198,
+          74
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "clever plot letters cent",
-        "theme_topic": "Stay",
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "RESOLUTE TONGUE",
+        "theme_topic": "Sturdy Announce",
         "underline": false
       },
       "type": "text",
@@ -254,10 +252,10 @@
     },
     {
       "bbox": {
-        "h": 0.226,
-        "w": 1.8583,
-        "x": 5.0439,
-        "y": 1.4402
+        "h": 0.6404,
+        "w": 0.7796,
+        "x": 11.2221,
+        "y": 6.4466
       },
       "id": "object_008",
       "properties": {
@@ -265,17 +263,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          119,
-          97,
-          159
+          150,
+          141,
+          122
         ],
-        "font_face": "Arial",
-        "font_size": 6,
+        "font_face": "Verdana",
+        "font_size": 5,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Interesting Permit Snotty",
-        "theme_topic": "Stay",
+        "text": "Annoyed",
+        "theme_topic": "Sturdy Announce",
         "underline": false
       },
       "type": "text",
@@ -283,10 +281,10 @@
     },
     {
       "bbox": {
-        "h": 0.5274,
-        "w": 1.1521,
-        "x": 9.3945,
-        "y": 3.7236
+        "h": 0.3082,
+        "w": 1.805,
+        "x": 6.012,
+        "y": 5.1335
       },
       "id": "object_009",
       "properties": {
@@ -294,17 +292,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          143,
-          122,
-          130
+          102,
+          137,
+          141
         ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
+        "font_face": "Verdana",
+        "font_size": 5,
+        "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Questionable Prepare",
-        "theme_topic": "Stay",
+        "text": "Screw Sneaky",
+        "theme_topic": "Sturdy Announce",
         "underline": false
       },
       "type": "text",
@@ -312,10 +310,10 @@
     },
     {
       "bbox": {
-        "h": 0.4097,
-        "w": 0.5575,
-        "x": 0.2675,
-        "y": 1.5474
+        "h": 0.2475,
+        "w": 1.5307,
+        "x": 2.7155,
+        "y": 0.6438
       },
       "id": "object_010",
       "properties": {
@@ -323,17 +321,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          181,
-          187,
-          146
+          174,
+          109,
+          164
         ],
-        "font_face": "Arial",
+        "font_face": "Verdana",
         "font_size": 8,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Card Clip Abortive",
-        "theme_topic": "Stay",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "way greedy",
+        "theme_topic": "Sturdy Announce",
         "underline": true
       },
       "type": "text",
@@ -341,34 +339,35 @@
     },
     {
       "bbox": {
-        "h": 0.8205,
-        "w": 0.763,
-        "x": 8.663,
-        "y": 1.969
+        "h": 0.3557,
+        "w": 1.3765,
+        "x": 1.5875,
+        "y": 1.0603
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          187,
-          34,
-          128
+        "bg_color": [
+          120,
+          180,
+          148
         ],
-        "focus": false,
-        "line": [
-          82,
-          220,
-          158
+        "bold": false,
+        "color": [
+          202,
+          224,
+          166
         ],
-        "line_width": 4.754498340184117,
-        "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Stay"
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Science Feeling",
+        "theme_topic": "Sturdy Announce",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     }
   ],

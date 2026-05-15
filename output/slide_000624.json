@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 270,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          197,
-          139,
-          38
-        ],
-        [
-          36,
-          178,
-          149
-        ]
+      "back_color": [
+        47,
+        136,
+        190
       ],
       "fill": [
-        232,
-        163,
-        45
+        33,
+        115,
+        169
       ],
-      "focus": "bottom_right",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Sisters"
+      "fore_color": [
+        255,
+        117,
+        117
+      ],
+      "pattern": 27,
+      "style": "pattern",
+      "theme_topic": "Careful Resonant"
     },
     "type": "background",
     "z_order": 0
@@ -45,133 +41,135 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.1623,
-        "w": 5.398,
-        "x": 6.7265,
-        "y": 0.9633
+        "h": 5.094,
+        "w": 3.5781,
+        "x": 6.5263,
+        "y": 1.81
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 5,
+        "family": "flowchart",
         "fill": [
-          110,
-          108,
-          121
+          39,
+          70,
+          151
         ],
         "focus": false,
         "line": [
-          147,
-          150,
-          98
+          140,
+          205,
+          44
         ],
-        "line_width": 7.192179084078136,
-        "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Sisters"
+        "line_width": 2.070558628201496,
+        "outline_only": true,
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Careful Resonant"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.519,
-        "w": 4.8968,
-        "x": 0.0026,
-        "y": -0.0147
+        "h": 2.5708,
+        "w": 6.7031,
+        "x": 5.528,
+        "y": 0.359
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 4,
+        "family": "arrows",
         "fill": [
-          197,
-          139,
-          38
+          174,
+          194,
+          62
         ],
+        "focus": false,
         "line": [
-          197,
-          139,
-          38
+          188,
+          143,
+          44
         ],
-        "line_width": 1.721322129098739,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Sisters"
+        "line_width": 5.761608579006161,
+        "outline_only": true,
+        "ppt_type": 49,
+        "shape": "striped_right_arrow",
+        "theme_topic": "Careful Resonant"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1114,
-        "w": 8.0517,
-        "x": 0.5682,
-        "y": 0.3307
+        "h": 2.6121,
+        "w": 4.5489,
+        "x": 5.8096,
+        "y": -0.0639
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "callouts",
+        "fill": [
+          121,
+          59,
+          77
+        ],
+        "focus": false,
+        "line": [
+          73,
+          110,
+          209
+        ],
+        "line_width": 2.203451674340588,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Careful Resonant"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 5.5637,
+        "w": 2.8311,
+        "x": 0.6504,
+        "y": 0.7733
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          250,
+          252,
+          255
         ],
-        "font_face": "Georgia",
-        "font_size": 29,
+        "font_face": "Aptos Display",
+        "font_size": 22,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Soothe Remind Business",
-        "theme_topic": "Sisters",
+        "text": "Bare Windy",
+        "theme_topic": "Careful Resonant",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.1476,
-        "w": 2.1925,
-        "x": 0.5475,
-        "y": 1.8508
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          197,
-          139,
-          38
-        ],
-        "line": [
-          197,
-          139,
-          38
-        ],
-        "line_width": 1.1718511794545678,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Sisters"
-      },
-      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1366,
-        "w": 1.8592,
-        "x": 0.7358,
-        "y": 2.7849
+        "h": 0.7701,
+        "w": 1.4486,
+        "x": 8.5999,
+        "y": 4.1051
       },
       "id": "object_005",
       "properties": {
@@ -179,17 +177,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          255,
+          198,
+          74
         ],
-        "font_face": "Georgia",
-        "font_size": 54,
+        "font_face": "Aptos Display",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "9x",
-        "theme_topic": "Sisters",
+        "text": "229",
+        "theme_topic": "Careful Resonant",
         "underline": false
       },
       "type": "text",
@@ -197,10 +195,10 @@
     },
     {
       "bbox": {
-        "h": 0.6779,
-        "w": 1.863,
-        "x": 0.7328,
-        "y": 5.0203
+        "h": 1.95,
+        "w": 1.4442,
+        "x": 8.6061,
+        "y": 4.8573
       },
       "id": "object_006",
       "properties": {
@@ -208,17 +206,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          218,
+          235,
+          245
         ],
         "font_face": "Aptos",
         "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "knot protect examine hypnotic",
-        "theme_topic": "Sisters",
+        "text": "spurious shy cobweb pedal remove badge",
+        "theme_topic": "Careful Resonant",
         "underline": false
       },
       "type": "text",
@@ -226,41 +224,41 @@
     },
     {
       "bbox": {
-        "h": 2.8923,
-        "w": 6.8652,
-        "x": 3.2499,
-        "y": 2.7847
+        "h": 2.938,
+        "w": 2.3601,
+        "x": 10.3963,
+        "y": 3.933
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          197,
-          139,
-          38
+          47,
+          136,
+          190
         ],
         "line": [
-          197,
-          139,
-          38
+          47,
+          136,
+          190
         ],
-        "line_width": 4.643673646933985,
+        "line_width": 1.8084101732912996,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Sisters"
+        "theme_topic": "Careful Resonant"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.132,
-        "w": 6.4685,
-        "x": 3.4122,
-        "y": 3.3465
+        "h": 0.7668,
+        "w": 1.9876,
+        "x": 10.5626,
+        "y": 4.1218
       },
       "id": "object_008",
       "properties": {
@@ -268,17 +266,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          255,
+          198,
+          74
         ],
-        "font_face": "Georgia",
-        "font_size": 34,
+        "font_face": "Aptos Display",
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "6x",
-        "theme_topic": "Sisters",
+        "text": "112",
+        "theme_topic": "Careful Resonant",
         "underline": false
       },
       "type": "text",
@@ -286,10 +284,10 @@
     },
     {
       "bbox": {
-        "h": 0.7183,
-        "w": 6.471,
-        "x": 3.4003,
-        "y": 4.5048
+        "h": 1.9339,
+        "w": 2.0137,
+        "x": 10.5535,
+        "y": 4.8655
       },
       "id": "object_009",
       "properties": {
@@ -297,17 +295,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          218,
+          235,
+          245
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "approval kindhearted giraffe impolite act",
-        "theme_topic": "Sisters",
+        "text": "needy hot end smoke",
+        "theme_topic": "Careful Resonant",
         "underline": false
       },
       "type": "text",
@@ -315,224 +313,211 @@
     },
     {
       "bbox": {
-        "h": 0.6814,
-        "w": 0.6581,
-        "x": 9.34,
-        "y": 6.4219
+        "h": 1.0511,
+        "w": 4.0265,
+        "x": 3.9026,
+        "y": 0.7739
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          219,
-          47,
-          210
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          138,
+          138,
+          144
         ],
-        "focus": false,
-        "line": [
-          171,
-          181,
-          204
-        ],
-        "line_width": 5.870722016738138,
-        "outline_only": true,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Sisters"
+        "font_face": "Aptos Display",
+        "font_size": 46,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Hang",
+        "theme_topic": "Careful Resonant",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7226,
-        "w": 0.747,
-        "x": 7.0526,
-        "y": 1.5311
+        "h": 1.4377,
+        "w": 4.0359,
+        "x": 3.9052,
+        "y": 2.0346
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
-        "fill": [
-          186,
-          217,
-          194
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          218,
+          235,
+          245
         ],
-        "focus": false,
-        "line": [
-          119,
-          89,
-          40
-        ],
-        "line_width": 0.5513072217671283,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Sisters"
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "dreary minute frighten girl racial deafening noxious wakeful careful waggish teeny-tiny squash story exclusive womanly sisters bulb cheat yawn field",
+        "theme_topic": "Careful Resonant",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.3644,
-        "w": 0.7467,
-        "x": 12.496,
-        "y": 1.1335
+        "h": 2.9495,
+        "w": 4.329,
+        "x": 3.7588,
+        "y": 3.9534
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "panel",
         "fill": [
-          206,
-          106,
-          86
+          47,
+          136,
+          190
         ],
-        "focus": false,
         "line": [
-          48,
-          65,
-          98
+          47,
+          136,
+          190
         ],
-        "line_width": 6.230456067874232,
+        "line_width": 4.723973467672657,
         "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Sisters"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Careful Resonant"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.5534,
-        "w": 0.5472,
-        "x": 0.1681,
-        "y": 1.4046
+        "h": 2.6671,
+        "w": 3.9992,
+        "x": 3.8825,
+        "y": 4.0993
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          84,
-          56,
-          182
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "focus": false,
-        "line": [
-          145,
-          99,
-          37
+        "focus": true,
+        "mask_line": [
+          96,
+          100,
+          228
         ],
-        "line_width": 4.324851201796425,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Sisters"
+        "mask_overlay": false,
+        "theme_topic": "Careful Resonant",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.8026,
-        "w": 0.6145,
-        "x": 7.0552,
-        "y": 4.3285
+        "h": 2.9806,
+        "w": 4.3053,
+        "x": 8.3873,
+        "y": 0.6721
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
-        "fill": [
-          225,
-          66,
-          60
+        "crop": [
+          0.012578150449282375,
+          0.1709000324090676,
+          0.19713998990390114,
+          0.031018486450167092
         ],
-        "focus": false,
-        "line": [
-          208,
-          76,
-          27
+        "focus": true,
+        "mask_line": [
+          216,
+          227,
+          198
         ],
-        "line_width": 4.874978981576998,
-        "outline_only": false,
-        "ppt_type": 165,
-        "shape": "multiply",
-        "theme_topic": "Sisters"
+        "mask_overlay": false,
+        "theme_topic": "Careful Resonant",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.2267,
-        "w": 0.5838,
-        "x": 6.5905,
-        "y": 6.8902
+        "h": 0.7424,
+        "w": 0.5103,
+        "x": 7.5199,
+        "y": 1.6464
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 3,
         "family": "basic",
         "fill": [
-          84,
-          27,
-          37
+          255,
+          198,
+          74
         ],
         "focus": false,
         "line": [
-          199,
-          75,
-          74
+          218,
+          235,
+          245
         ],
-        "line_width": 5.991578482727041,
+        "line_width": 4.421847064994939,
         "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Sisters"
+        "ppt_type": 103,
+        "shape": "wave",
+        "theme_topic": "Careful Resonant"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.9161,
-        "w": 0.8601,
-        "x": 8.9831,
-        "y": 0.9263
+        "h": 0.872,
+        "w": 0.8523,
+        "x": 2.6465,
+        "y": 2.5873
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "callouts",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          59,
-          115,
-          82
+          31,
+          33,
+          159
         ],
         "focus": false,
         "line": [
-          183,
-          92,
-          164
+          51,
+          216,
+          33
         ],
-        "line_width": 4.063585714433233,
+        "line_width": 0.937370737642397,
         "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Sisters"
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Careful Resonant"
       },
       "type": "shape",
       "z_order": 16

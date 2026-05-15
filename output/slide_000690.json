@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        31,
-        87,
-        166
+      "back_color": [
+        126,
+        58,
+        173
       ],
-      "style": "solid",
-      "theme_topic": "Relieved Ratty"
+      "fill": [
+        126,
+        58,
+        173
+      ],
+      "fore_color": [
+        83,
+        42,
+        45
+      ],
+      "pattern": 16,
+      "style": "pattern",
+      "theme_topic": "Pack Rhythm"
     },
     "type": "background",
     "z_order": 0
@@ -30,12 +41,43 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.5514,
-        "w": 2.8727,
-        "x": 0.6269,
-        "y": 0.7423
+        "h": 4.9034,
+        "w": 6.0562,
+        "x": 1.0913,
+        "y": 0.9816
       },
       "id": "object_001",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          150,
+          95,
+          187
+        ],
+        "line": [
+          163,
+          115,
+          196
+        ],
+        "line_width": 1.6742278963074502,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Pack Rhythm"
+      },
+      "type": "shape",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 5.5325,
+        "w": 2.8397,
+        "x": 0.6451,
+        "y": 0.7373
+      },
+      "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -45,42 +87,13 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 28,
+        "font_face": "Georgia",
+        "font_size": 22,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Foregoing",
-        "theme_topic": "Relieved Ratty",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 0.9066,
-        "w": 0.8012,
-        "x": 3.7999,
-        "y": 5.7823
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "kittens shame puncture hilarious inform young grubby",
-        "theme_topic": "Relieved Ratty",
+        "text": "Fretful",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -88,57 +101,59 @@
     },
     {
       "bbox": {
-        "h": 0.9258,
-        "w": 1.1203,
-        "x": 4.9541,
-        "y": 5.797
+        "h": 2.871,
+        "w": 1.3506,
+        "x": 3.7334,
+        "y": 0.6508
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          162,
+          97,
+          145
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "naughty bait scissors reply ready business",
-        "theme_topic": "Relieved Ratty",
-        "underline": false
+        "line": [
+          163,
+          115,
+          196
+        ],
+        "line_width": 1.501906906223118,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Pack Rhythm"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.916,
-        "w": 0.9851,
-        "x": 6.3833,
-        "y": 5.8007
+        "h": 0.764,
+        "w": 0.9606,
+        "x": 3.926,
+        "y": 0.8509
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          255,
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Georgia",
+        "font_size": 33,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "encourage float educated mark rabid",
-        "theme_topic": "Relieved Ratty",
+        "text": "64",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -146,10 +161,10 @@
     },
     {
       "bbox": {
-        "h": 0.9111,
-        "w": 0.7372,
-        "x": 7.7024,
-        "y": 5.7827
+        "h": 1.8717,
+        "w": 0.9884,
+        "x": 3.9399,
+        "y": 1.5841
       },
       "id": "object_005",
       "properties": {
@@ -157,17 +172,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          192,
+          162,
+          216
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "cycle past shop sisters",
-        "theme_topic": "Relieved Ratty",
+        "text": "automatic giddy cat follow sheep quixotic fool",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -175,57 +190,59 @@
     },
     {
       "bbox": {
-        "h": 0.457,
-        "w": 0.513,
-        "x": 9.0891,
-        "y": 5.1125
+        "h": 2.8896,
+        "w": 1.3449,
+        "x": 5.2526,
+        "y": 0.6456
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          141,
+          116,
+          136
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Late Repeat",
-        "theme_topic": "Relieved Ratty",
-        "underline": false
+        "line": [
+          163,
+          115,
+          196
+        ],
+        "line_width": 5.169106839511915,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Pack Rhythm"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.0146,
-        "w": 0.5012,
-        "x": 9.08,
-        "y": 5.6815
+        "h": 0.7688,
+        "w": 0.9665,
+        "x": 5.437,
+        "y": 0.8169
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          149,
-          175,
-          213
+          255,
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "nasty demonic neighborly cheat curvy delight fog charming far sisters",
-        "theme_topic": "Relieved Ratty",
+        "text": "223",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -233,28 +250,28 @@
     },
     {
       "bbox": {
-        "h": 0.4713,
-        "w": 0.4761,
-        "x": 10.0108,
-        "y": 5.1278
+        "h": 1.8593,
+        "w": 0.9776,
+        "x": 5.4388,
+        "y": 1.5598
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          31,
-          117,
-          161
+          192,
+          162,
+          216
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Crowd",
-        "theme_topic": "Relieved Ratty",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "flood combative curious future",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -262,28 +279,28 @@
     },
     {
       "bbox": {
-        "h": 1.0088,
-        "w": 0.4956,
-        "x": 10.0164,
-        "y": 5.6817
+        "h": 0.7612,
+        "w": 0.8377,
+        "x": 6.9682,
+        "y": 0.8177
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          149,
-          175,
-          213
+          255,
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "undress gray summer hospitable daily minor fall lying toothbrush",
-        "theme_topic": "Relieved Ratty",
+        "text": "3.0x",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -291,28 +308,28 @@
     },
     {
       "bbox": {
-        "h": 0.4653,
-        "w": 0.4951,
-        "x": 10.9054,
-        "y": 5.1417
+        "h": 1.8461,
+        "w": 0.8739,
+        "x": 6.9611,
+        "y": 1.554
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          31,
-          117,
-          161
+          192,
+          162,
+          216
         ],
         "font_face": "Aptos",
-        "font_size": 8,
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Dispensable Second-Hand",
-        "theme_topic": "Relieved Ratty",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "temper habitual upbeat electric radiate cheerful egg",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -320,28 +337,28 @@
     },
     {
       "bbox": {
-        "h": 1.0225,
-        "w": 0.4926,
-        "x": 10.9183,
-        "y": 5.69
+        "h": 0.2935,
+        "w": 4.1082,
+        "x": 8.4951,
+        "y": 0.7787
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          149,
-          175,
-          213
+          255,
+          198,
+          74
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "five wild dysfunctional insurance aunt messy addition rely like thick",
-        "theme_topic": "Relieved Ratty",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "THOUGHT GRATIS",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -349,59 +366,57 @@
     },
     {
       "bbox": {
-        "h": 2.6561,
-        "w": 1.018,
-        "x": 11.7051,
-        "y": 4.2153
+        "h": 1.0334,
+        "w": 4.1294,
+        "x": 8.4768,
+        "y": 1.2436
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          98,
-          137,
-          192
-        ],
-        "line": [
-          98,
-          137,
-          192
-        ],
-        "line_width": 1.9295273386122,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Relieved Ratty"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.428,
-        "w": 0.5291,
-        "x": 11.9893,
-        "y": 5.1153
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          34,
+          95,
+          151
+        ],
+        "font_face": "Georgia",
+        "font_size": 40,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Macho Division",
+        "theme_topic": "Pack Rhythm",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 4.2522,
+        "w": 4.1228,
+        "x": 8.4595,
+        "y": 2.5309
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          192,
+          162,
+          216
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Tearful Delightful",
-        "theme_topic": "Relieved Ratty",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "strengthen beginner clean sort car relieved unequal property wacky regular rate table listen melodic damaging towering scarf",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -409,28 +424,28 @@
     },
     {
       "bbox": {
-        "h": 1.0288,
-        "w": 0.5121,
-        "x": 11.9556,
-        "y": 5.687
+        "h": 0.6247,
+        "w": 2.3663,
+        "x": 8.5969,
+        "y": 3.3114
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          149,
-          175,
-          213
+          228,
+          71,
+          175
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "festive tasteful cable roll visit harmony far-flung depressed smooth",
-        "theme_topic": "Relieved Ratty",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Bells Wry Chubby",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -438,116 +453,71 @@
     },
     {
       "bbox": {
-        "h": 3.1878,
-        "w": 8.975,
-        "x": 3.7341,
-        "y": 0.6563
+        "h": 0.9875,
+        "w": 0.9411,
+        "x": 0.6899,
+        "y": 1.3305
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "ribbons",
         "fill": [
-          98,
-          137,
-          192
+          200,
+          162,
+          143
         ],
+        "focus": false,
         "line": [
-          98,
-          137,
-          192
+          129,
+          127,
+          58
         ],
-        "line_width": 3.0635565671897207,
+        "line_width": 0.3775230562975833,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Relieved Ratty"
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Pack Rhythm"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 2.7223,
-        "w": 8.474,
-        "x": 4.0259,
-        "y": 0.904
+        "h": 0.296,
+        "w": 1.2448,
+        "x": 7.7105,
+        "y": 4.4493
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "deafening",
-          "sugar",
-          "merciful",
-          "school",
-          "whip"
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          113,
+          120,
+          195
         ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              39,
-              106,
-              124
-            ],
-            "name": "applaud eatable",
-            "values": [
-              33,
-              28,
-              32,
-              30,
-              12
-            ]
-          },
-          {
-            "color": [
-              129,
-              184,
-              85
-            ],
-            "name": "year far-flung",
-            "values": [
-              57,
-              87,
-              82,
-              13,
-              17
-            ]
-          },
-          {
-            "color": [
-              144,
-              213,
-              102
-            ],
-            "name": "high",
-            "values": [
-              79,
-              35,
-              21,
-              33,
-              17
-            ]
-          }
-        ],
-        "theme_topic": "Relieved Ratty",
-        "title": "noisy abashed"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Melodic",
+        "theme_topic": "Pack Rhythm",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.27,
-        "w": 1.1386,
-        "x": 0.3556,
-        "y": 5.0575
+        "h": 0.5715,
+        "w": 0.7848,
+        "x": 5.8978,
+        "y": 1.6897
       },
       "id": "object_017",
       "properties": {
@@ -555,17 +525,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          201,
-          161,
-          73
+          136,
+          138,
+          67
         ],
         "font_face": "Aptos",
-        "font_size": 12,
-        "italic": true,
+        "font_size": 13,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "short spiky",
-        "theme_topic": "Relieved Ratty",
+        "text": "signal",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",
@@ -573,10 +543,10 @@
     },
     {
       "bbox": {
-        "h": 0.4198,
-        "w": 1.409,
-        "x": 2.8128,
-        "y": 5.2598
+        "h": 0.4301,
+        "w": 1.539,
+        "x": 1.3786,
+        "y": 1.5671
       },
       "id": "object_018",
       "properties": {
@@ -584,17 +554,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          173,
-          105,
-          199
+          184,
+          227,
+          73
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Brass Able Breath",
-        "theme_topic": "Relieved Ratty",
+        "text": "Driving Powder",
+        "theme_topic": "Pack Rhythm",
         "underline": false
       },
       "type": "text",

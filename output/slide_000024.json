@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "fill": [
-        232,
-        163,
-        45
+      "colors": [
+        [
+          161,
+          112,
+          195
+        ],
+        [
+          196,
+          216,
+          51
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Knock"
+      "fill": [
+        126,
+        58,
+        173
+      ],
+      "focus": "top_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Chivalrous"
     },
     "type": "background",
     "z_order": 0
@@ -30,31 +45,34 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.5617,
-        "w": 4.7509,
-        "x": 4.31,
-        "y": 4.4356
+        "h": 4.7657,
+        "w": 8.1708,
+        "x": 5.1897,
+        "y": 1.2822
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.11461932802274132,
-          0.08657263184234053,
-          0.04673498166218304,
-          0.19853552154837473
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          171,
+          156,
+          84
         ],
-        "focus": true,
-        "mask_line": [
-          38,
-          132,
-          88
+        "focus": false,
+        "line": [
+          191,
+          54,
+          227
         ],
-        "mask_overlay": true,
-        "theme_topic": "Knock",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 5.683240865130942,
+        "outline_only": true,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Chivalrous"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 1
     }
   ],

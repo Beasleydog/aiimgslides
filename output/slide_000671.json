@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        74,
-        178,
-        164
+      "colors": [
+        [
+          168,
+          151,
+          175
+        ],
+        [
+          75,
+          67,
+          106
+        ]
       ],
       "fill": [
-        31,
-        87,
-        166
+        202,
+        182,
+        211
       ],
-      "fore_color": [
-        255,
-        117,
-        117
-      ],
-      "pattern": 50,
-      "style": "pattern",
-      "theme_topic": "Carve Aromatic"
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Income Descriptive"
     },
     "type": "background",
     "z_order": 0
@@ -41,187 +45,178 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.3863,
-        "w": 4.3684,
-        "x": 5.1998,
-        "y": 1.1143
+        "h": 4.4264,
+        "w": 6.8094,
+        "x": 6.1569,
+        "y": -0.6931
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          162,
-          105,
-          202
+          198,
+          132,
+          187
         ],
         "focus": false,
         "line": [
-          124,
-          136,
-          125
+          80,
+          147,
+          184
         ],
-        "line_width": 7.2335465377880315,
-        "outline_only": true,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Carve Aromatic"
+        "line_width": 2.098104152889061,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Income Descriptive"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.5926,
-        "w": 4.1948,
-        "x": 7.5125,
-        "y": 0.6582
+        "h": 7.4837,
+        "w": 6.7756,
+        "x": -0.018,
+        "y": 0.016
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
+        "dash": 3,
+        "family": "panel",
         "fill": [
-          37,
-          171,
-          115
+          168,
+          151,
+          175
         ],
-        "focus": false,
         "line": [
-          114,
-          40,
-          38
+          168,
+          151,
+          175
         ],
-        "line_width": 4.605568801442397,
+        "line_width": 2.6804509171636437,
         "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Carve Aromatic"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Income Descriptive"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.7332,
-        "w": 3.8617,
-        "x": 5.9985,
-        "y": 1.4411
+        "h": 1.2936,
+        "w": 8.8899,
+        "x": 0.5333,
+        "y": 0.35
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          137,
-          198,
-          213
-        ],
-        "focus": false,
-        "line": [
-          205,
-          77,
-          104
-        ],
-        "line_width": 5.218243382288425,
-        "outline_only": true,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Carve Aromatic"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.0728,
-        "w": 3.8743,
-        "x": 0.2613,
-        "y": 2.2718
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          62,
-          142,
-          143
-        ],
-        "focus": false,
-        "line": [
-          142,
-          27,
-          160
-        ],
-        "line_width": 3.8498389591916755,
-        "outline_only": true,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Carve Aromatic"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.6192,
-        "w": 13.3327,
-        "x": 0.0124,
-        "y": 0.0008
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          94,
-          134,
-          191
-        ],
-        "line": [
-          94,
-          134,
-          191
-        ],
-        "line_width": 1.1501328700699083,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Carve Aromatic"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.3386,
-        "w": 5.2064,
-        "x": 0.5564,
-        "y": 0.3648
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
-        "font_face": "Georgia",
-        "font_size": 38,
+        "font_face": "Aptos Display",
+        "font_size": 40,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Abashed Step Kindhearted Friends",
-        "theme_topic": "Carve Aromatic",
+        "text": "Mindless Birthday Fixed",
+        "theme_topic": "Income Descriptive",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.769,
+        "w": 1.4715,
+        "x": 9.8115,
+        "y": 4.6466
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          165,
+          250
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 34,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "7.7x",
+        "theme_topic": "Income Descriptive",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.5127,
+        "w": 1.4382,
+        "x": 9.7805,
+        "y": 5.3824
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          106,
+          98,
+          114
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "pastoral rose verse flashy pick talented",
+        "theme_topic": "Income Descriptive",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.5515,
+        "w": 0.8081,
+        "x": 11.7731,
+        "y": 5.3771
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          106,
+          98,
+          114
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "floor turn feeble key servant neighborly afford",
+        "theme_topic": "Income Descriptive",
         "underline": false
       },
       "type": "text",
@@ -229,86 +224,88 @@
     },
     {
       "bbox": {
-        "h": 2.429,
-        "w": 1.3448,
-        "x": 8.3663,
-        "y": 1.8839
+        "h": 2.1657,
+        "w": 3.0573,
+        "x": 0.54,
+        "y": 1.8376
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.034979703667843316,
-          0.3024590249503088,
-          0.014920486761081727,
-          0.12476391081571431
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          168,
+          151,
+          175
         ],
-        "focus": false,
-        "mask_line": [
-          255,
-          198,
-          74
+        "line": [
+          168,
+          151,
+          175
         ],
-        "mask_overlay": false,
-        "theme_topic": "Carve Aromatic",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.025161236509374,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Income Descriptive"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.4418,
-        "w": 1.3557,
-        "x": 9.8305,
-        "y": 1.8685
+        "h": 0.4321,
+        "w": 2.5647,
+        "x": 0.8097,
+        "y": 2.7675
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.32659838216343,
-          0.3100240068161801,
-          0.2394086431276365,
-          0.19194881738613792
-        ],
-        "focus": false,
-        "mask_line": [
-          214,
-          60,
-          125
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Carve Aromatic",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.2776,
-        "w": 0.9337,
-        "x": 10.0525,
-        "y": 3.8859
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Somber",
-        "theme_topic": "Carve Aromatic",
+        "text": "Bear",
+        "theme_topic": "Income Descriptive",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.5151,
+        "w": 2.5512,
+        "x": 0.8178,
+        "y": 3.32
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          106,
+          98,
+          114
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wobble cynical cats clammy lunch stimulating design willing tire aspiring",
+        "theme_topic": "Income Descriptive",
         "underline": false
       },
       "type": "text",
@@ -316,126 +313,130 @@
     },
     {
       "bbox": {
-        "h": 2.122,
-        "w": 1.0652,
-        "x": 11.5612,
-        "y": 2.0448
+        "h": 2.1704,
+        "w": 4.4911,
+        "x": 3.8224,
+        "y": 1.8407
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.08997116949461777,
-          0.183783333753943,
-          0.13874566784070827,
-          0.31307059740513077
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          168,
+          151,
+          175
         ],
-        "focus": false,
-        "mask_line": [
-          197,
-          194,
-          91
+        "line": [
+          168,
+          151,
+          175
         ],
-        "mask_overlay": false,
-        "theme_topic": "Carve Aromatic",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 2.5278521094336774,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Income Descriptive"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 2.1216,
-        "w": 1.0214,
-        "x": 8.5031,
-        "y": 4.6217
+        "h": 0.4555,
+        "w": 3.9996,
+        "x": 4.0387,
+        "y": 2.7294
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.04910300744413396,
-          0.15451325174366334,
-          0.06761235989290894,
-          0.1998591011058168
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          165,
+          250
         ],
-        "focus": false,
-        "mask_line": [
-          255,
-          198,
-          74
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Carve Aromatic",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Odd Premium",
+        "theme_topic": "Income Descriptive",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 2.461,
-        "w": 1.3583,
-        "x": 9.8686,
-        "y": 4.4798
+        "h": 0.5109,
+        "w": 3.9813,
+        "x": 4.0849,
+        "y": 3.2773
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          106,
+          98,
+          114
         ],
-        "focus": false,
-        "mask_line": [
-          229,
-          73,
-          52
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Carve Aromatic",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "super soup impartial prefer adaptable head drown cloistered army add middle illustrious",
+        "theme_topic": "Income Descriptive",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 2.1493,
-        "w": 1.0568,
-        "x": 11.5579,
-        "y": 4.6514
+        "h": 2.1883,
+        "w": 4.2643,
+        "x": 8.5078,
+        "y": 1.8331
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.09674738437033825,
-          0.03603038227097362,
-          0.06526552619076369,
-          0.17672937369574565
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          168,
+          151,
+          175
         ],
-        "focus": false,
-        "mask_line": [
-          78,
-          178,
-          50
+        "line": [
+          168,
+          151,
+          175
         ],
-        "mask_overlay": false,
-        "theme_topic": "Carve Aromatic",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 0.6660422132875377,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Income Descriptive"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.2932,
-        "w": 0.9726,
-        "x": 11.5853,
-        "y": 6.4814
+        "h": 0.4698,
+        "w": 3.7663,
+        "x": 8.7826,
+        "y": 2.757
       },
       "id": "object_014",
       "properties": {
@@ -443,17 +444,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Bury Earth Hysterical",
-        "theme_topic": "Carve Aromatic",
+        "text": "Torpid Ultra",
+        "theme_topic": "Income Descriptive",
         "underline": false
       },
       "type": "text",
@@ -461,120 +462,90 @@
     },
     {
       "bbox": {
-        "h": 5.1487,
-        "w": 7.1942,
-        "x": 0.5385,
-        "y": 1.8559
+        "h": 0.5073,
+        "w": 3.7591,
+        "x": 8.7915,
+        "y": 3.2961
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          94,
-          134,
-          191
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          106,
+          98,
+          114
         ],
-        "line": [
-          94,
-          134,
-          191
-        ],
-        "line_width": 1.2895464835306545,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Carve Aromatic"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "exultant quixotic spurious spiky pumped early annoyed hole memory division numberless",
+        "theme_topic": "Income Descriptive",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 4.641,
-        "w": 6.6479,
-        "x": 0.7784,
-        "y": 2.0945
+        "h": 0.4384,
+        "w": 2.2493,
+        "x": 0.3138,
+        "y": 6.3689
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "sour",
-          "special",
-          "wholesale",
-          "soft"
+        "bg_color": [
+          227,
+          106,
+          161
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              125,
-              197,
-              161
-            ],
-            "name": "whispering",
-            "values": [
-              81,
-              30,
-              66,
-              17
-            ]
-          },
-          {
-            "color": [
-              80,
-              145,
-              29
-            ],
-            "name": "day",
-            "values": [
-              18,
-              75,
-              14,
-              91
-            ]
-          }
+        "bold": true,
+        "color": [
+          116,
+          163,
+          181
         ],
-        "theme_topic": "Carve Aromatic",
-        "title": "guide nondescript"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "evanescent stay elegant blush",
+        "theme_topic": "Income Descriptive",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.546,
-        "w": 2.2858,
-        "x": 8.0992,
-        "y": 2.5439
+        "h": 0.5768,
+        "w": 1.8096,
+        "x": 7.0498,
+        "y": 4.4058
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          186,
-          48,
-          212
-        ],
-        "bold": false,
+        "bg_color": null,
+        "bold": true,
         "color": [
-          131,
-          156,
-          172
+          129,
+          42,
+          214
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "heavy egg undress need scary",
-        "theme_topic": "Carve Aromatic",
+        "text": "neck hug",
+        "theme_topic": "Income Descriptive",
         "underline": false
       },
       "type": "text",

@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 270,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          55,
-          156,
-          202
-        ],
-        [
-          96,
-          165,
-          250
-        ]
+      "back_color": [
+        180,
+        183,
+        109
       ],
       "fill": [
-        55,
-        156,
-        202
+        180,
+        183,
+        109
       ],
-      "focus": "bottom_right",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Marble Lumber"
+      "fore_color": [
+        174,
+        73,
+        92
+      ],
+      "pattern": 36,
+      "style": "pattern",
+      "theme_topic": "Peel Cure"
     },
     "type": "background",
     "z_order": 0
@@ -45,171 +41,107 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.8944,
-        "w": 6.1056,
-        "x": 4.16,
-        "y": 1.6731
+        "h": 3.9474,
+        "w": 6.3107,
+        "x": 5.2171,
+        "y": 1.0262
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "stars",
         "fill": [
-          133,
-          99,
-          133
+          193,
+          74,
+          91
         ],
         "focus": false,
         "line": [
-          76,
-          209,
-          135
+          97,
+          195,
+          211
         ],
-        "line_width": 2.757821778889176,
+        "line_width": 4.695559306199885,
         "outline_only": false,
         "ppt_type": 94,
         "shape": "star16",
-        "theme_topic": "Marble Lumber"
+        "theme_topic": "Peel Cure"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.7036,
-        "w": 3.174,
-        "x": 6.6856,
-        "y": 1.7245
+        "h": 4.5813,
+        "w": 8.4493,
+        "x": 1.7577,
+        "y": -0.6462
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 3,
-        "family": "basic",
+        "family": "arrows",
         "fill": [
-          162,
-          178,
-          157
+          208,
+          132,
+          78
         ],
         "focus": false,
         "line": [
-          225,
-          71,
-          109
+          155,
+          165,
+          89
         ],
-        "line_width": 5.114901739159303,
-        "outline_only": true,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Marble Lumber"
+        "line_width": 5.26273268384314,
+        "outline_only": false,
+        "ppt_type": 53,
+        "shape": "right_arrow_callout",
+        "theme_topic": "Peel Cure"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.5026,
-        "w": 8.3502,
-        "x": 1.5187,
-        "y": 0.8136
+        "h": 0.6153,
+        "w": 13.3263,
+        "x": -0.0167,
+        "y": 0.0067
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          46,
-          116,
-          126
+          145,
+          147,
+          87
         ],
-        "focus": false,
         "line": [
-          81,
-          46,
-          189
+          145,
+          147,
+          87
         ],
-        "line_width": 4.550062317230301,
+        "line_width": 1.4018456974455558,
         "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Marble Lumber"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Peel Cure"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.9888,
-        "w": 4.3168,
-        "x": -0.8937,
-        "y": 4.9545
+        "h": 1.357,
+        "w": 6.0682,
+        "x": 0.5478,
+        "y": 0.3487
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          143,
-          93,
-          185
-        ],
-        "focus": false,
-        "line": [
-          28,
-          139,
-          113
-        ],
-        "line_width": 5.143812611547521,
-        "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Marble Lumber"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 7.5186,
-        "w": 0.8511,
-        "x": 12.4983,
-        "y": -0.0186
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          126,
-          191,
-          221
-        ],
-        "line": [
-          126,
-          191,
-          221
-        ],
-        "line_width": 2.860306641882308,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Marble Lumber"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.8936,
-        "w": 5.1688,
-        "x": 2.6208,
-        "y": 1.2129
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -219,42 +151,100 @@
           30,
           36
         ],
-        "font_face": "Arial",
-        "font_size": 29,
+        "font_face": "Georgia",
+        "font_size": 38,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Dam Six Envious Adorable",
-        "theme_topic": "Marble Lumber",
+        "text": "Chivalrous Truculent Cold",
+        "theme_topic": "Peel Cure",
         "underline": false
       },
       "type": "text",
-      "z_order": 6
+      "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.2942,
-        "w": 2.3408,
-        "x": 4.2584,
-        "y": 1.8191
+        "h": 0.3943,
+        "w": 3.5879,
+        "x": 3.7622,
+        "y": 5.3937
       },
-      "id": "object_007",
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          180,
+          183,
+          109
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Georgia",
+        "font_size": 19,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "FRIEND HAT",
-        "theme_topic": "Marble Lumber",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "736",
+        "theme_topic": "Peel Cure",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.3079,
+        "w": 3.0097,
+        "x": 5.121,
+        "y": 5.5353
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.050383077757752706,
+          0.15429196618749902,
+          0.2831406605512797,
+          0.08120258986901896
+        ],
+        "focus": false,
+        "mask_line": [
+          218,
+          69,
+          62
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Peel Cure",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 1.2917,
+        "w": 1.3315,
+        "x": 5.654,
+        "y": 4.8899
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          96,
+          98,
+          68
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "end charming collect",
+        "theme_topic": "Peel Cure",
         "underline": false
       },
       "type": "text",
@@ -262,10 +252,10 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.3204,
-        "x": 4.249,
-        "y": 2.3403
+        "h": 0.7495,
+        "w": 1.27,
+        "x": 7.5022,
+        "y": 4.1867
       },
       "id": "object_008",
       "properties": {
@@ -273,17 +263,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          174,
+          73,
+          92
         ],
-        "font_face": "Arial",
-        "font_size": 18,
-        "italic": true,
+        "font_face": "Georgia",
+        "font_size": 30,
+        "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Violet",
-        "theme_topic": "Marble Lumber",
+        "text": "188",
+        "theme_topic": "Peel Cure",
         "underline": false
       },
       "type": "text",
@@ -291,103 +281,97 @@
     },
     {
       "bbox": {
-        "h": 1.627,
-        "w": 2.9415,
-        "x": 1.6564,
-        "y": 4.5039
+        "h": 1.2811,
+        "w": 1.2962,
+        "x": 7.5383,
+        "y": 4.9057
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.015265919794518202,
-          0.1310664715373017,
-          0.14020050050520064,
-          0.3125777242636081
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          96,
+          98,
+          68
         ],
-        "focus": false,
-        "mask_line": [
-          81,
-          70,
-          223
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Marble Lumber",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "unique lie cheerful vegetable",
+        "theme_topic": "Peel Cure",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.5234,
-        "w": 1.0251,
-        "x": 5.9598,
-        "y": 1.4064
+        "h": 0.7396,
+        "w": 1.3251,
+        "x": 9.3449,
+        "y": 4.1685
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "math",
-        "fill": [
-          66,
-          171,
-          185
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
         ],
-        "focus": false,
-        "line": [
-          145,
-          111,
-          40
-        ],
-        "line_width": 0.42980518824195013,
-        "outline_only": false,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Marble Lumber"
+        "font_face": "Georgia",
+        "font_size": 31,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "5.7x",
+        "theme_topic": "Peel Cure",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.6994,
-        "w": 0.7849,
-        "x": 3.6671,
-        "y": 2.1069
+        "h": 1.2513,
+        "w": 1.2911,
+        "x": 9.3366,
+        "y": 4.8946
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
-        "fill": [
-          68,
-          117,
-          81
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          96,
+          98,
+          68
         ],
-        "focus": false,
-        "line": [
-          221,
-          128,
-          101
-        ],
-        "line_width": 5.502116600937362,
-        "outline_only": true,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Marble Lumber"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ready available water mountain",
+        "theme_topic": "Peel Cure",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.3261,
-        "w": 1.3859,
-        "x": 4.648,
-        "y": 0.5213
+        "h": 0.7743,
+        "w": 0.9765,
+        "x": 11.1988,
+        "y": 4.1594
       },
       "id": "object_012",
       "properties": {
@@ -395,17 +379,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          162,
-          52,
-          150
+          174,
+          73,
+          92
         ],
-        "font_face": "Arial",
-        "font_size": 15,
+        "font_face": "Georgia",
+        "font_size": 27,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Trains Bury",
-        "theme_topic": "Marble Lumber",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "43%",
+        "theme_topic": "Peel Cure",
         "underline": false
       },
       "type": "text",
@@ -413,28 +397,28 @@
     },
     {
       "bbox": {
-        "h": 0.4514,
-        "w": 1.5012,
-        "x": 9.7977,
-        "y": 0.4615
+        "h": 1.2512,
+        "w": 0.9674,
+        "x": 11.2147,
+        "y": 4.9223
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          81,
-          25,
-          191
+          96,
+          98,
+          68
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "shock materialistic",
-        "theme_topic": "Marble Lumber",
+        "text": "plastic hill pump carriage",
+        "theme_topic": "Peel Cure",
         "underline": false
       },
       "type": "text",

@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        156,
-        141,
-        218
+        117,
+        171,
+        226
       ],
       "fill": [
-        111,
-        88,
-        201
+        59,
+        136,
+        215
       ],
       "fore_color": [
-        255,
-        117,
-        117
+        196,
+        114,
+        195
       ],
-      "pattern": 26,
+      "pattern": 9,
       "style": "pattern",
-      "theme_topic": "Splendid Beautiful"
+      "theme_topic": "Spell"
     },
     "type": "background",
     "z_order": 0
@@ -41,74 +41,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.1973,
-        "w": 3.8015,
-        "x": 10.1405,
-        "y": 1.859
+        "h": 3.5219,
+        "w": 5.6962,
+        "x": 3.432,
+        "y": -0.2774
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          170,
-          103,
-          124
+          95,
+          98,
+          215
         ],
         "focus": false,
         "line": [
-          157,
-          129,
-          77
+          33,
+          171,
+          220
         ],
-        "line_width": 3.4858797869377964,
+        "line_width": 4.664949037787408,
         "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Splendid Beautiful"
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Spell"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.406,
-        "w": 8.2916,
-        "x": 4.2113,
-        "y": 5.4749
+        "h": 1.4729,
+        "w": 8.2702,
+        "x": -0.6691,
+        "y": 0.5098
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 2,
         "family": "arrows",
         "fill": [
-          151,
-          159,
-          185
+          108,
+          166,
+          110
         ],
         "focus": false,
         "line": [
-          62,
-          30,
-          193
+          98,
+          225,
+          42
         ],
-        "line_width": 2.0629279026699185,
+        "line_width": 4.526444008057042,
         "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Splendid Beautiful"
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Spell"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9044,
-        "w": 7.44,
-        "x": 0.7487,
-        "y": 5.8715
+        "h": 1.1431,
+        "w": 7.6578,
+        "x": 3.0526,
+        "y": 0.6291
       },
       "id": "object_003",
       "properties": {
@@ -120,13 +120,13 @@
           30,
           36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 24,
+        "font_face": "Aptos Display",
+        "font_size": 43,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Utter Romantic",
-        "theme_topic": "Splendid Beautiful",
+        "text": "Help Badge Slimy",
+        "theme_topic": "Spell",
         "underline": false
       },
       "type": "text",
@@ -134,25 +134,72 @@
     },
     {
       "bbox": {
-        "h": 1.6169,
-        "w": 12.2585,
-        "x": 0.528,
-        "y": 0.552
+        "h": 2.6123,
+        "w": 5.7592,
+        "x": 6.9654,
+        "y": 2.0601
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": true,
-        "line": [
-          255,
-          198,
-          74
+        "band": [
+          117,
+          171,
+          226
         ],
-        "line_width": 10,
-        "theme_topic": "Splendid Beautiful"
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          117,
+          171,
+          226
+        ],
+        "border": [
+          41,
+          77,
+          116
+        ],
+        "border_dash": "solid",
+        "border_width": 0.3374210334496992,
+        "cells": [
+          [
+            "graceful",
+            "abnormal unsuitable",
+            "look"
+          ],
+          [
+            "explain stain",
+            "male",
+            "cheap"
+          ],
+          [
+            "shirt",
+            "murder filthy",
+            "intend"
+          ],
+          [
+            "soda",
+            "separate",
+            "house reply"
+          ]
+        ],
+        "cols": 3,
+        "font_size": 9,
+        "has_header": true,
+        "header": [
+          29,
+          224,
+          71
+        ],
+        "rows": 4,
+        "text_color": [
+          28,
+          30,
+          36
+        ],
+        "theme_topic": "Spell"
       },
-      "type": "svg_image",
+      "type": "table",
       "z_order": 4
     }
   ],

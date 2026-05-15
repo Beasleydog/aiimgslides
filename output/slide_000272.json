@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
+      "angle": 60,
       "archetype": "atomic_composition",
       "colors": [
         [
-          210,
-          72,
-          94
+          179,
+          50,
+          28
         ],
         [
-          98,
-          102,
-          178
+          31,
+          117,
+          161
         ]
       ],
       "fill": [
-        210,
-        72,
-        94
+        45,
+        67,
+        30
       ],
-      "focus": "bottom_left",
+      "focus": "center",
       "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Pump Mate"
+      "theme_topic": "Melt"
     },
     "type": "background",
     "z_order": 0
@@ -45,223 +45,217 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.2064,
-        "w": 8.9973,
-        "x": 3.1079,
-        "y": 1.9881
+        "h": 4.586,
+        "w": 4.8261,
+        "x": 5.2419,
+        "y": 2.5742
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 7,
+        "family": "callouts",
         "fill": [
-          115,
-          79,
-          109
+          149,
+          164,
+          74
         ],
         "focus": false,
         "line": [
-          177,
-          196,
-          97
+          158,
+          147,
+          28
         ],
-        "line_width": 4.484200827431597,
+        "line_width": 3.987917490669622,
         "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Pump Mate"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Melt"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.8838,
-        "w": 6.2386,
-        "x": 6.935,
-        "y": 3.0574
+        "h": 3.6092,
+        "w": 8.5949,
+        "x": 2.2871,
+        "y": 0.5425
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          143,
-          93,
-          173
+          141,
+          118,
+          59
         ],
         "focus": false,
         "line": [
-          226,
-          172,
-          172
+          203,
+          200,
+          201
         ],
-        "line_width": 4.41103274503431,
+        "line_width": 7.966611302242815,
         "outline_only": false,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Pump Mate"
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Melt"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.487,
-        "w": 13.3442,
-        "x": 0.0082,
-        "y": 3.8274
+        "h": 2.1068,
+        "w": 8.9681,
+        "x": -0.0648,
+        "y": 3.6351
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "math",
         "fill": [
-          225,
-          94,
-          113
+          61,
+          160,
+          77
         ],
+        "focus": false,
         "line": [
-          225,
-          94,
-          113
+          145,
+          139,
+          150
         ],
-        "line_width": 1.240675650005917,
+        "line_width": 7.4529148114548125,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Pump Mate"
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Melt"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.3081,
-        "w": 7.9211,
-        "x": 0.5381,
-        "y": 0.3424
+        "h": 1.4771,
+        "w": 8.1073,
+        "x": 4.595,
+        "y": 5.2437
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          164,
+          147,
+          40
+        ],
+        "focus": false,
+        "line": [
+          44,
+          96,
+          40
+        ],
+        "line_width": 5.657793969964765,
+        "outline_only": false,
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Melt"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.1308,
+        "w": 6.8172,
+        "x": 2.5543,
+        "y": 0.663
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          252,
-          247
+          246,
+          248,
+          252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 32,
+        "font_face": "Arial",
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Cynical Limit Unnatural Imperfect",
-        "theme_topic": "Pump Mate",
+        "text": "Enormous Education Grey Apathetic",
+        "theme_topic": "Melt",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.1274,
-        "w": 5.8705,
-        "x": 0.5478,
-        "y": 1.8309
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "remember",
-          "hover",
-          "overconfident",
-          "successful",
-          "direful"
-        ],
-        "chart": "pie",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              155,
-              212,
-              39
-            ],
-            "name": "key wicked",
-            "values": [
-              13,
-              34,
-              70,
-              55,
-              18
-            ]
-          }
-        ],
-        "theme_topic": "Pump Mate",
-        "title": "highfalutin thick disturbed torpid"
-      },
-      "type": "chart",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.556,
-        "w": 12.2048,
-        "x": 0.5504,
-        "y": 4.4157
+        "h": 1.208,
+        "w": 3.5151,
+        "x": 9.1115,
+        "y": 4.8796
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": true,
-        "line": [
-          51,
-          63,
-          101
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line_width": 8,
-        "theme_topic": "Pump Mate"
+        "font_face": "Arial",
+        "font_size": 19,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Imaginary Haircut Argument Corn Insect Chop Rifle Pigs Chunky Ear",
+        "theme_topic": "Melt",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.8234,
-        "w": 5.7412,
-        "x": 6.889,
-        "y": 1.9701
+        "h": 1.3418,
+        "w": 1.6087,
+        "x": 6.8378,
+        "y": 2.9328
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.12280218458116207,
-          0.16950337981921032,
-          0.18318886753053748,
-          0.07391623575088455
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          155,
+          166,
+          152
         ],
-        "focus": true,
-        "mask_line": [
-          153,
-          229,
-          124
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Pump Mate",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "allow great brief festive name keen bait",
+        "theme_topic": "Melt",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 7
     }
   ],

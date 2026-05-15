@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        148,
-        226,
-        61
+      "colors": [
+        [
+          95,
+          179,
+          225
+        ],
+        [
+          36,
+          178,
+          149
+        ]
       ],
       "fill": [
-        108,
-        165,
-        27
+        245,
+        247,
+        252
       ],
-      "fore_color": [
-        64,
-        161,
-        57
-      ],
-      "pattern": 32,
-      "style": "pattern",
-      "theme_topic": "Disapprove"
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Maid"
     },
     "type": "background",
     "z_order": 0
@@ -41,190 +45,240 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.153,
-        "w": 7.8822,
-        "x": -1.0116,
-        "y": 3.0557
+        "h": 3.8056,
+        "w": 6.202,
+        "x": 6.2867,
+        "y": 4.6148
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "callouts",
         "fill": [
-          162,
-          114,
-          122
+          165,
+          120,
+          180
         ],
         "focus": false,
         "line": [
-          159,
-          103,
-          99
+          199,
+          213,
+          70
         ],
-        "line_width": 7.992137697454151,
+        "line_width": 4.7391933672073785,
         "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Disapprove"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Maid"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.2467,
-        "w": 4.6417,
-        "x": 4.9902,
-        "y": 0.8499
+        "h": 0.9162,
+        "w": 4.4146,
+        "x": 2.8266,
+        "y": 1.3912
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          149,
-          151,
-          39
-        ],
-        "focus": false,
-        "line": [
-          101,
-          119,
-          211
-        ],
-        "line_width": 6.486583429497897,
-        "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Disapprove"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 3.6642,
-        "w": 5.0026,
-        "x": -1.1849,
-        "y": 3.0606
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          152,
-          76,
-          119
-        ],
-        "focus": false,
-        "line": [
-          36,
-          70,
-          219
-        ],
-        "line_width": 7.723894597411028,
-        "outline_only": false,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Disapprove"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 4.2955,
-        "w": 3.0922,
-        "x": 10.232,
-        "y": 0.061
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
-        "fill": [
-          84,
-          162,
-          83
-        ],
-        "focus": false,
-        "line": [
-          64,
-          214,
-          217
-        ],
-        "line_width": 5.037989523104784,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Disapprove"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.424,
-        "w": 4.7249,
-        "x": 8.6171,
-        "y": 5.0942
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          129,
-          178,
-          60
-        ],
-        "line": [
-          129,
-          178,
-          60
-        ],
-        "line_width": 2.0814249628167745,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Disapprove"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 3.1886,
-        "w": 5.4621,
-        "x": 0.7339,
-        "y": 1.6552
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          27,
+          44,
+          68
         ],
         "font_face": "Trebuchet MS",
-        "font_size": 31,
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Marry Surround Needless Transport Rebel",
-        "theme_topic": "Disapprove",
+        "text": "Exercise Scarecrow Creepy",
+        "theme_topic": "Maid",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 2.6432,
+        "w": 3.9203,
+        "x": 0.5767,
+        "y": 1.4567
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.30644930392457204,
+          0.09342847416673833,
+          0.011497591588686648,
+          0.3157657870998474
+        ],
+        "focus": true,
+        "mask_line": [
+          45,
+          157,
+          29
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Maid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.6373,
+        "w": 1.152,
+        "x": 9.0416,
+        "y": 5.2408
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          117,
+          137
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ancient squealing achiever",
+        "theme_topic": "Maid",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 2.6708,
+        "w": 3.906,
+        "x": 8.8615,
+        "y": 1.4664
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.058463472859200095,
+          0.107275687886122,
+          0.0738554667040793,
+          0.11459775491676395
+        ],
+        "focus": true,
+        "mask_line": [
+          180,
+          187,
+          182
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Maid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.566,
+        "w": 3.8119,
+        "x": 4.7348,
+        "y": 4.3852
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          104,
+          175,
+          155
+        ],
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          136,
+          194,
+          197
+        ],
+        "border": [
+          103,
+          117,
+          137
+        ],
+        "border_dash": "solid",
+        "border_width": 3.1090373886179927,
+        "cells": [
+          [
+            "surround group",
+            "defiant",
+            "plausible elastic",
+            "large",
+            "plucky",
+            "protective nimble"
+          ],
+          [
+            "delicious lucky",
+            "grandmother wrong",
+            "ship economic",
+            "furtive eye",
+            "ball",
+            "match"
+          ],
+          [
+            "learned",
+            "rampant",
+            "comb",
+            "rely",
+            "dust",
+            "snails sisters"
+          ],
+          [
+            "collect womanly",
+            "print youthful",
+            "day lighten",
+            "gun sticks",
+            "drab",
+            "settle fork"
+          ],
+          [
+            "various",
+            "trade",
+            "regular",
+            "trains",
+            "jumbled",
+            "breakable"
+          ]
+        ],
+        "cols": 6,
+        "font_size": 10,
+        "has_header": false,
+        "header": [
+          52,
+          177,
+          129
+        ],
+        "rows": 5,
+        "text_color": [
+          27,
+          44,
+          68
+        ],
+        "theme_topic": "Maid"
+      },
+      "type": "table",
       "z_order": 6
     }
   ],

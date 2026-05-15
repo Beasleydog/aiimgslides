@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          92,
-          98,
-          225
-        ],
-        [
-          255,
-          238,
-          103
-        ]
+      "back_color": [
+        161,
+        141,
+        155
       ],
       "fill": [
-        205,
-        50,
-        223
+        145,
+        121,
+        138
       ],
-      "focus": "top_right",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Obeisant"
+      "fore_color": [
+        193,
+        178,
+        199
+      ],
+      "pattern": 43,
+      "style": "pattern",
+      "theme_topic": "Cure"
     },
     "type": "background",
     "z_order": 0
@@ -45,42 +41,42 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.5139,
-        "w": 8.1323,
-        "x": 4.7568,
-        "y": 4.1212
+        "h": 3.7827,
+        "w": 3.6717,
+        "x": 8.215,
+        "y": -0.1643
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
+        "dash": 4,
+        "family": "flowchart",
         "fill": [
-          107,
-          162,
-          199
+          182,
+          149,
+          79
         ],
         "focus": false,
         "line": [
-          123,
-          105,
-          167
+          222,
+          147,
+          78
         ],
-        "line_width": 2.9242892772216917,
+        "line_width": 7.784184982147633,
         "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Obeisant"
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Cure"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9741,
-        "w": 6.026,
-        "x": -0.2537,
-        "y": 0.7146
+        "h": 5.0765,
+        "w": 8.076,
+        "x": 2.3924,
+        "y": -0.5687
       },
       "id": "object_002",
       "properties": {
@@ -88,62 +84,63 @@
         "dash": 1,
         "family": "stars",
         "fill": [
-          163,
-          94,
-          95
+          141,
+          92,
+          53
         ],
         "focus": false,
         "line": [
-          104,
-          128,
-          220
+          171,
+          71,
+          31
         ],
-        "line_width": 6.53278380289747,
+        "line_width": 4.607334126801569,
         "outline_only": true,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Obeisant"
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Cure"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.3254,
-        "w": 6.7069,
-        "x": 6.5916,
-        "y": 5.1414
+        "h": 1.5271,
+        "w": 8.2164,
+        "x": 5.7548,
+        "y": 3.6246
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 4,
+        "family": "arrows",
         "fill": [
-          180,
-          44,
-          196
+          142,
+          108,
+          120
         ],
+        "focus": false,
         "line": [
           180,
-          44,
-          196
+          198,
+          26
         ],
-        "line_width": 4.362879800161585,
+        "line_width": 2.4044179969953055,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Obeisant"
+        "ppt_type": 53,
+        "shape": "right_arrow_callout",
+        "theme_topic": "Cure"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.2569,
-        "w": 6.7617,
-        "x": 0.5583,
-        "y": 0.3736
+        "h": 5.5281,
+        "w": 2.8727,
+        "x": 0.674,
+        "y": 0.7614
       },
       "id": "object_004",
       "properties": {
@@ -155,13 +152,13 @@
           30,
           36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 34,
+        "font_face": "Georgia",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Attack Woozy Vein",
-        "theme_topic": "Obeisant",
+        "text": "Delicious",
+        "theme_topic": "Cure",
         "underline": false
       },
       "type": "text",
@@ -169,119 +166,117 @@
     },
     {
       "bbox": {
-        "h": 0.7397,
-        "w": 5.5395,
-        "x": 2.5676,
-        "y": 3.0697
+        "h": 1.3862,
+        "w": 5.0121,
+        "x": 5.7607,
+        "y": 5.5245
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          133,
-          94,
-          56
+        "crop": [
+          0.14851813795476965,
+          0.17935459800124076,
+          0.13189606588920746,
+          0.0382669379717724
         ],
+        "focus": false,
+        "mask_line": [
+          214,
+          185,
+          209
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Cure",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 6.2448,
+        "w": 1.6307,
+        "x": 3.7626,
+        "y": 0.639
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          161,
+          141,
+          155
+        ],
+        "line": [
+          161,
+          141,
+          155
+        ],
+        "line_width": 2.319926890150076,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Cure"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 5.9243,
+        "w": 1.2952,
+        "x": 3.9025,
+        "y": 0.7955
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.09125468234824134,
+          0.19898241154023566,
+          0.14253147565062352,
+          0.01029025951360128
+        ],
+        "focus": false,
+        "mask_line": [
+          86,
+          227,
+          134
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Cure",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 1.0459,
+        "w": 1.3145,
+        "x": 11.265,
+        "y": 1.2284
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
         "bold": true,
         "color": [
           28,
           30,
           36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 40,
+        "font_face": "Georgia",
+        "font_size": 22,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Bone Defiant",
-        "theme_topic": "Obeisant",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.9454,
-        "w": 5.5577,
-        "x": 2.5542,
-        "y": 4.0364
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          107,
-          39,
-          120
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "argue glow befitting curve harm fair guiltless necessary trashy shrill fretful expensive lucky",
-        "theme_topic": "Obeisant",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.4655,
-        "w": 3.7447,
-        "x": 4.3754,
-        "y": 2.3558
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          151,
-          131,
-          154
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 23,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Private Request",
-        "theme_topic": "Obeisant",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.4827,
-        "w": 3.7346,
-        "x": 4.3788,
-        "y": 3.0397
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          107,
-          39,
-          120
-        ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "present knit winter tumble approval combative truculent fence color woman venomous table odd square",
-        "theme_topic": "Obeisant",
+        "text": "Nerve Afterthought",
+        "theme_topic": "Cure",
         "underline": false
       },
       "type": "text",
@@ -289,28 +284,28 @@
     },
     {
       "bbox": {
-        "h": 0.2804,
-        "w": 2.8407,
-        "x": 7.7258,
-        "y": 2.2281
+        "h": 4.2521,
+        "w": 1.3273,
+        "x": 11.2637,
+        "y": 2.5464
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          28,
-          30,
-          36
+          80,
+          70,
+          81
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 18,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Muddled",
-        "theme_topic": "Obeisant",
+        "text": "party deserve snatch chicken decay air border trite woozy idea soak envious madly brave sharp old clip divide",
+        "theme_topic": "Cure",
         "underline": false
       },
       "type": "text",
@@ -318,10 +313,10 @@
     },
     {
       "bbox": {
-        "h": 0.56,
-        "w": 1.6934,
-        "x": 6.5605,
-        "y": 2.982
+        "h": 0.5616,
+        "w": 2.065,
+        "x": 2.1098,
+        "y": 2.3654
       },
       "id": "object_010",
       "properties": {
@@ -329,17 +324,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          188,
-          178,
-          138
+          75,
+          163,
+          39
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "gather bridge squeeze fruit end",
-        "theme_topic": "Obeisant",
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Old-Fashioned",
+        "theme_topic": "Cure",
         "underline": false
       },
       "type": "text",
@@ -347,10 +342,10 @@
     },
     {
       "bbox": {
-        "h": 0.3356,
-        "w": 0.9173,
-        "x": 8.8218,
-        "y": 6.4656
+        "h": 0.3718,
+        "w": 1.2062,
+        "x": 6.4329,
+        "y": 1.5372
       },
       "id": "object_011",
       "properties": {
@@ -358,17 +353,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          44,
-          147,
-          171
+          79,
+          185,
+          45
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "destroy bow maddening verdant",
-        "theme_topic": "Obeisant",
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Flock",
+        "theme_topic": "Cure",
         "underline": false
       },
       "type": "text",
@@ -376,28 +371,32 @@
     },
     {
       "bbox": {
-        "h": 0.4317,
-        "w": 1.9479,
-        "x": 9.0041,
-        "y": 2.6062
+        "h": 0.5479,
+        "w": 2.1036,
+        "x": 9.4456,
+        "y": 5.1711
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          67,
+          143,
+          62
+        ],
         "bold": false,
         "color": [
-          172,
-          77,
-          150
+          96,
+          71,
+          208
         ],
-        "font_face": "Verdana",
-        "font_size": 18,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Sturdy Steel",
-        "theme_topic": "Obeisant",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "crawl",
+        "theme_topic": "Cure",
         "underline": false
       },
       "type": "text",

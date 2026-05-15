@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "back_color": [
-        126,
-        158,
-        181
+      "colors": [
+        [
+          178,
+          75,
+          137
+        ],
+        [
+          48,
+          78,
+          140
+        ]
       ],
       "fill": [
-        98,
-        137,
-        166
-      ],
-      "fore_color": [
-        36,
         178,
-        149
+        75,
+        137
       ],
-      "pattern": 49,
-      "style": "pattern",
-      "theme_topic": "Kindhearted"
+      "focus": "top_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Limping"
     },
     "type": "background",
     "z_order": 0
@@ -41,137 +45,134 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.0264,
-        "w": 7.2731,
-        "x": 1.98,
-        "y": 3.6131
+        "h": 5.0627,
+        "w": 7.7342,
+        "x": -0.3232,
+        "y": 1.6057
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "callouts",
         "fill": [
-          136,
-          67,
-          97
+          180,
+          111,
+          104
         ],
         "focus": false,
         "line": [
-          26,
-          174,
-          97
+          229,
+          105,
+          158
         ],
-        "line_width": 3.2551921538711506,
+        "line_width": 7.567554920687323,
         "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Kindhearted"
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Limping"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.2035,
-        "w": 7.0085,
-        "x": 1.166,
-        "y": 2.7136
+        "h": 4.811,
+        "w": 5.0656,
+        "x": -1.0674,
+        "y": -0.8712
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
+        "dash": 3,
+        "family": "ribbons",
         "fill": [
-          69,
-          78,
-          135
+          208,
+          179,
+          138
         ],
         "focus": false,
         "line": [
-          95,
-          150,
-          99
+          127,
+          145,
+          69
         ],
-        "line_width": 3.708103842807719,
+        "line_width": 7.457845077230397,
         "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Kindhearted"
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Limping"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.7749,
-        "w": 6.3241,
-        "x": 7.302,
-        "y": 0.2042
+        "h": 7.5164,
+        "w": 13.3383,
+        "x": 0.0095,
+        "y": 4.3342
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          81,
-          57,
-          109
+          204,
+          137,
+          177
         ],
-        "focus": false,
         "line": [
-          126,
-          171,
-          182
+          204,
+          137,
+          177
         ],
-        "line_width": 5.354159761523993,
+        "line_width": 1.4047872248188624,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Kindhearted"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Limping"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.7766,
-        "x": 7.4336,
-        "y": 3.7793
+        "h": 1.0553,
+        "w": 7.0142,
+        "x": 0.5521,
+        "y": 0.3529
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          82,
-          96,
-          214
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          126,
-          158,
-          181
-        ],
-        "line_width": 2.3058361669685987,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Kindhearted"
+        "font_face": "Georgia",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Attractive Account Sigh",
+        "theme_topic": "Limping",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1449,
-        "w": 4.9972,
-        "x": 0.5504,
-        "y": 0.3524
+        "h": 1.0523,
+        "w": 5.0776,
+        "x": 7.5622,
+        "y": 1.9889
       },
       "id": "object_005",
       "properties": {
@@ -183,13 +184,13 @@
           30,
           36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 38,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Brave Mom Cakes",
-        "theme_topic": "Kindhearted",
+        "text": "Locket Cowardly Gullible Miscreant",
+        "theme_topic": "Limping",
         "underline": false
       },
       "type": "text",
@@ -197,28 +198,28 @@
     },
     {
       "bbox": {
-        "h": 0.5524,
-        "w": 3.434,
-        "x": 6.4458,
-        "y": 2.4905
+        "h": 3.6298,
+        "w": 5.1083,
+        "x": 7.5569,
+        "y": 3.2625
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          28,
-          30,
-          36
+          95,
+          50,
+          81
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 29,
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Care",
-        "theme_topic": "Kindhearted",
+        "text": "balance soft wrench current writer important pop cheese cynical fast haircut elegant",
+        "theme_topic": "Limping",
         "underline": false
       },
       "type": "text",
@@ -226,216 +227,209 @@
     },
     {
       "bbox": {
-        "h": 0.6378,
-        "w": 3.435,
-        "x": 6.421,
-        "y": 3.3033
+        "h": 5.1479,
+        "w": 2.0358,
+        "x": 0.5677,
+        "y": 1.8325
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          59,
-          78,
-          94
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "introduce protective super bizarre anxious bit limping free wobble necessary ritzy",
-        "theme_topic": "Kindhearted",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 1.6666,
-        "w": 3.9018,
-        "x": 7.6296,
-        "y": 3.5938
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 4,
         "family": "panel",
         "fill": [
-          126,
-          158,
-          181
+          189,
+          96,
+          144
         ],
         "line": [
-          126,
-          158,
-          181
+          204,
+          137,
+          177
         ],
-        "line_width": 3.510921054930482,
+        "line_width": 1.490772609293616,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Kindhearted"
+        "theme_topic": "Limping"
       },
       "type": "shape",
-      "z_order": 8
+      "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.3777,
-        "w": 3.6,
-        "x": 7.757,
-        "y": 3.7563
+        "h": 0.746,
+        "w": 1.6899,
+        "x": 0.7427,
+        "y": 2.014
       },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.05447228903159239,
-          0.19484843136924898,
-          0.19030832939962114,
-          0.1457150434513009
-        ],
-        "focus": false,
-        "mask_line": [
-          125,
-          130,
-          88
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Kindhearted",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.837,
-        "w": 0.4989,
-        "x": 2.1748,
-        "y": 3.5543
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          152,
-          191,
-          80
-        ],
-        "focus": false,
-        "line": [
-          178,
-          203,
-          121
-        ],
-        "line_width": 3.1619433521231834,
-        "outline_only": true,
-        "ppt_type": 173,
-        "shape": "gear9",
-        "theme_topic": "Kindhearted"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.5848,
-        "w": 1.1221,
-        "x": 1.7249,
-        "y": 6.2905
-      },
-      "id": "object_011",
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          187,
-          177,
-          217
+          255,
+          238,
+          103
         ],
-        "font_face": "Verdana",
-        "font_size": 6,
+        "font_face": "Georgia",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "51%",
+        "theme_topic": "Limping",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 4.1436,
+        "w": 1.6499,
+        "x": 0.7151,
+        "y": 2.7577
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          95,
+          50,
+          81
+        ],
+        "font_face": "Aptos",
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "park remind neighborly",
-        "theme_topic": "Kindhearted",
-        "underline": true
+        "text": "tumble listen broken thunder bushes hellish hole",
+        "theme_topic": "Limping",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.7746,
+        "w": 2.1527,
+        "x": 2.9548,
+        "y": 2.0163
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
+        ],
+        "font_face": "Georgia",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "8.2x",
+        "theme_topic": "Limping",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 4.1519,
+        "w": 2.1463,
+        "x": 2.9617,
+        "y": 2.7468
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          95,
+          50,
+          81
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "match shiny demonic",
+        "theme_topic": "Limping",
+        "underline": false
       },
       "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4576,
-        "w": 1.3191,
-        "x": 2.8321,
-        "y": 3.3617
+        "h": 5.143,
+        "w": 1.4914,
+        "x": 5.465,
+        "y": 1.8614
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          178,
-          111,
-          54
+          161,
+          112,
+          149
         ],
-        "focus": false,
         "line": [
-          184,
-          205,
-          220
+          204,
+          137,
+          177
         ],
-        "line_width": 3.2653376827715963,
+        "line_width": 1.4123640351829134,
         "outline_only": false,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Kindhearted"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Limping"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.8164,
-        "w": 0.8639,
-        "x": 12.0277,
-        "y": 4.9452
+        "h": 4.1293,
+        "w": 1.1198,
+        "x": 5.6354,
+        "y": 2.7732
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          181,
-          103,
-          111
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          95,
+          50,
+          81
         ],
-        "focus": false,
-        "line": [
-          148,
-          109,
-          122
-        ],
-        "line_width": 5.1390419788329575,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Kindhearted"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "peck reproduce exist scattered obeisant",
+        "theme_topic": "Limping",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     }
   ],

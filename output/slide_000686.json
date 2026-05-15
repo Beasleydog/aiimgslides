@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "back_color": [
-        156,
-        133,
-        38
+      "colors": [
+        [
+          140,
+          90,
+          216
+        ],
+        [
+          180,
+          104,
+          54
+        ]
       ],
       "fill": [
-        156,
-        133,
-        38
+        120,
+        61,
+        210
       ],
-      "fore_color": [
-        150,
-        48,
-        199
-      ],
-      "pattern": 26,
-      "style": "pattern",
-      "theme_topic": "Force Judicious"
+      "focus": "top_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Delicious"
     },
     "type": "background",
     "z_order": 0
@@ -41,169 +45,156 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.5989,
-        "w": 5.1967,
-        "x": -0.4318,
-        "y": 1.3437
+        "h": 4.3058,
+        "w": 3.3555,
+        "x": 4.0058,
+        "y": 2.6119
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 1,
+        "family": "math",
         "fill": [
-          156,
-          100,
-          61
+          60,
+          71,
+          66
         ],
         "focus": false,
         "line": [
-          95,
-          96,
-          112
+          214,
+          221,
+          203
         ],
-        "line_width": 3.3242230494399374,
-        "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Force Judicious"
+        "line_width": 6.416047960385744,
+        "outline_only": true,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Delicious"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.8857,
-        "w": 5.7372,
-        "x": 2.585,
-        "y": -0.5144
+        "h": 0.7966,
+        "w": 13.319,
+        "x": 0.0017,
+        "y": 0.0116
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 5,
+        "family": "panel",
         "fill": [
-          171,
-          106,
-          101
+          140,
+          90,
+          216
         ],
-        "focus": false,
         "line": [
-          230,
-          129,
-          223
+          140,
+          90,
+          216
         ],
-        "line_width": 4.4734071386633625,
+        "line_width": 0.6717964987459426,
         "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Force Judicious"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Delicious"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.8111,
-        "w": 5.8837,
-        "x": 3.4136,
-        "y": -0.5619
+        "h": 5.5529,
+        "w": 2.8267,
+        "x": 0.6294,
+        "y": 0.7586
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          142,
-          132,
-          132
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          96,
-          89,
-          164
-        ],
-        "line_width": 4.1432431069701385,
-        "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Force Judicious"
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Dashing Prickly Development",
+        "theme_topic": "Delicious",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 3.393,
-        "w": 7.0703,
-        "x": -1.1438,
-        "y": 1.2545
+        "h": 2.952,
+        "w": 4.3147,
+        "x": 3.7362,
+        "y": 3.9833
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
-        "fill": [
-          176,
-          111,
-          110
-        ],
-        "focus": false,
+        "clip": "arch",
+        "focus": true,
         "line": [
-          144,
-          139,
-          226
+          51,
+          63,
+          101
         ],
-        "line_width": 4.722478685449571,
-        "outline_only": true,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Force Judicious"
+        "line_width": 18,
+        "theme_topic": "Delicious"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 7.5072,
-        "w": 13.3298,
-        "x": 0.0028,
-        "y": 3.091
+        "h": 2.9104,
+        "w": 4.2886,
+        "x": 3.7368,
+        "y": 0.6671
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 7,
         "family": "panel",
         "fill": [
-          178,
-          160,
-          86
+          140,
+          90,
+          216
         ],
         "line": [
-          178,
-          160,
-          86
+          140,
+          90,
+          216
         ],
-        "line_width": 1.5834250428760264,
+        "line_width": 2.1201845600873166,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Force Judicious"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Delicious"
       },
       "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.2738,
-        "w": 7.6308,
-        "x": 0.548,
-        "y": 0.3371
+        "h": 1.1749,
+        "w": 3.9349,
+        "x": 3.9341,
+        "y": 1.2442
       },
       "id": "object_006",
       "properties": {
@@ -211,17 +202,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          120,
+          61,
+          210
         ],
-        "font_face": "Georgia",
-        "font_size": 33,
+        "font_face": "Trebuchet MS",
+        "font_size": 56,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Wheel Impolite Gifted",
-        "theme_topic": "Force Judicious",
+        "text": "3x",
+        "theme_topic": "Delicious",
         "underline": false
       },
       "type": "text",
@@ -229,86 +220,88 @@
     },
     {
       "bbox": {
-        "h": 2.3307,
-        "w": 1.7978,
-        "x": 4.7595,
-        "y": 1.9284
+        "h": 0.6761,
+        "w": 3.9207,
+        "x": 3.9338,
+        "y": 2.4155
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.016578648572915317,
-          0.11233554217493118,
-          0.09229866169124493,
-          0.013721951583764871
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Force Judicious",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "possessive division pot same harm",
+        "theme_topic": "Delicious",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2656,
-        "w": 1.4007,
-        "x": 4.9722,
-        "y": 3.8199
+        "h": 2.8256,
+        "w": 2.0251,
+        "x": 8.473,
+        "y": 4.0316
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          140,
+          90,
+          216
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Flashy",
-        "theme_topic": "Force Judicious",
-        "underline": false
+        "line": [
+          140,
+          90,
+          216
+        ],
+        "line_width": 0.9400497866373955,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Delicious"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 2.3562,
-        "w": 1.8319,
-        "x": 6.7147,
-        "y": 1.9109
+        "h": 2.5519,
+        "w": 1.7344,
+        "x": 8.6298,
+        "y": 4.1525
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.13692385642648408,
-          0.025837605374409673,
-          0.02659813085978223,
-          0.19189750653253435
+          0,
+          0,
+          0,
+          0
         ],
         "focus": false,
         "mask_line": [
-          113,
-          119,
-          125
+          46,
+          47,
+          172
         ],
         "mask_overlay": true,
-        "theme_topic": "Force Judicious",
+        "theme_topic": "Delicious",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -316,86 +309,86 @@
     },
     {
       "bbox": {
-        "h": 0.261,
-        "w": 1.4286,
-        "x": 6.9247,
-        "y": 3.8101
+        "h": 2.8476,
+        "w": 2.0344,
+        "x": 10.6732,
+        "y": 3.9986
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
+        "crop": [
+          0.09286406492086306,
+          0.14104151944454393,
+          0.04177016691497246,
+          0.12305117366008315
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Hallowed",
-        "theme_topic": "Force Judicious",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          85,
+          201,
+          229
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Delicious",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.8177,
-        "w": 3.5803,
-        "x": 0.6822,
-        "y": 4.6751
+        "h": 2.9587,
+        "w": 4.3265,
+        "x": 8.426,
+        "y": 0.6656
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "crop": [
+          0.23866780557861172,
+          0.2738101187963468,
+          0.1571121259231892,
+          0.12141866876098599
         ],
-        "font_face": "Georgia",
-        "font_size": 33,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Waste",
-        "theme_topic": "Force Judicious",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          34,
+          37,
+          178
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Delicious",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 1.1192,
-        "w": 3.6197,
-        "x": 0.707,
-        "y": 5.7558
+        "h": 0.2717,
+        "w": 3.889,
+        "x": 8.6522,
+        "y": 3.113
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          205,
-          196,
-          155
+          51,
+          63,
+          101
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "quixotic alleged pine black-and-white six verdant afterthought beef obese overjoyed stupendous mere dam answer old-fashioned roasted inject harmony confess plough card",
-        "theme_topic": "Force Judicious",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Paper Tiresome",
+        "theme_topic": "Delicious",
         "underline": false
       },
       "type": "text",
@@ -403,147 +396,142 @@
     },
     {
       "bbox": {
-        "h": 0.2666,
-        "w": 3.5894,
-        "x": 9.0341,
-        "y": 1.9655
+        "h": 0.9948,
+        "w": 0.673,
+        "x": 8.6757,
+        "y": 3.6425
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
         "color": [
-          32,
-          119,
-          149
+          50,
+          65,
+          195
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "OPPOSITE",
-        "theme_topic": "Force Judicious",
-        "underline": false
+        "connector": "curve",
+        "dash": 1,
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "Delicious",
+        "width": 2.424915461909711
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.6347,
-        "w": 3.5813,
-        "x": 9.032,
-        "y": 2.4569
+        "h": 0.7941,
+        "w": 0.4077,
+        "x": 6.0257,
+        "y": 5.4849
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          61,
+          92,
+          60
         ],
-        "font_face": "Georgia",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Follow Invite",
-        "theme_topic": "Force Judicious",
-        "underline": false
+        "connector": "straight",
+        "dash": 3,
+        "flip": true,
+        "ppt_type": 1,
+        "theme_topic": "Delicious",
+        "width": 1.3517670469802858
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.812,
-        "w": 3.627,
-        "x": 9.0449,
-        "y": 3.3469
+        "h": 0.6035,
+        "w": 0.7878,
+        "x": 11.8146,
+        "y": 3.441
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          205,
-          196,
-          155
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          109,
+          145,
+          146
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "curvy scarce meek jittery detect therapeutic mark full badge use umbrella mark argument smoke",
-        "theme_topic": "Force Judicious",
-        "underline": false
+        "focus": false,
+        "line": [
+          134,
+          49,
+          222
+        ],
+        "line_width": 4.6310556637031155,
+        "outline_only": false,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Delicious"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.6118,
-        "w": 1.1207,
-        "x": 5.1974,
-        "y": 5.8823
+        "h": 0.2342,
+        "w": 0.2228,
+        "x": 7.4254,
+        "y": 3.6258
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 4,
+        "family": "stars",
         "fill": [
-          63,
-          152,
-          189
+          81,
+          82,
+          182
         ],
         "focus": false,
         "line": [
-          150,
-          101,
-          41
+          91,
+          163,
+          104
         ],
-        "line_width": 3.4544387125943277,
+        "line_width": 3.018532508507357,
         "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Force Judicious"
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Delicious"
       },
       "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.5559,
-        "w": 2.2774,
-        "x": 1.0063,
-        "y": 1.7773
+        "h": 0.2164,
+        "w": 1.182,
+        "x": 5.1124,
+        "y": 5.678
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          174,
-          138,
-          102
+          113,
+          144,
+          212
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "joyous old-fashioned ultra dog swanky",
-        "theme_topic": "Force Judicious",
+        "text": "greasy trail desert",
+        "theme_topic": "Delicious",
         "underline": false
       },
       "type": "text",
@@ -551,29 +539,31 @@
     },
     {
       "bbox": {
-        "h": 0.6142,
-        "w": 1.2068,
-        "x": 3.8296,
-        "y": 1.4145
+        "h": 0.4987,
+        "w": 1.3685,
+        "x": 9.7367,
+        "y": 1.1931
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "swoop",
-        "primary": [
-          227,
-          230,
-          58
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          87,
+          27,
+          202
         ],
-        "secondary": [
-          59,
-          191,
-          74
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#7e6849\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#26e1b9\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
-        "theme_topic": "Force Judicious"
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "robin",
+        "theme_topic": "Delicious",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 18
     }
   ],

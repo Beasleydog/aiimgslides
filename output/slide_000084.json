@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        28,
-        143,
-        112
-      ],
       "fill": [
-        28,
-        143,
-        112
+        160,
+        177,
+        77
       ],
-      "fore_color": [
-        210,
-        99,
-        105
-      ],
-      "pattern": 1,
-      "style": "pattern",
-      "theme_topic": "Puzzled"
+      "style": "solid",
+      "theme_topic": "Interrupt Cloistered"
     },
     "type": "background",
     "z_order": 0
@@ -41,138 +30,94 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.2351,
-        "w": 8.9839,
-        "x": 0.5556,
-        "y": 0.3634
+        "h": 5.106,
+        "w": 7.0764,
+        "x": 0.9308,
+        "y": -0.6649
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          248,
-          255,
-          252
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          61,
+          190,
+          148
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 35,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Needless Bear Detect Robust",
-        "theme_topic": "Puzzled",
-        "underline": false
+        "focus": false,
+        "line": [
+          213,
+          109,
+          27
+        ],
+        "line_width": 5.516075475793977,
+        "outline_only": true,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Interrupt Cloistered"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.3361,
-        "w": 6.1605,
-        "x": 6.6195,
-        "y": 1.8291
+        "h": 5.2498,
+        "w": 8.9012,
+        "x": 0.9224,
+        "y": 0.5978
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "abject",
-          "representative",
-          "jealous",
-          "activity",
-          "better"
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          174,
+          188,
+          104
         ],
-        "chart": "line",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 65,
-        "series": [
-          {
-            "color": [
-              49,
-              197,
-              152
-            ],
-            "name": "trousers blade",
-            "values": [
-              68,
-              20,
-              35,
-              20,
-              33
-            ]
-          }
+        "line": [
+          182,
+          195,
+          119
         ],
-        "theme_topic": "Puzzled",
-        "title": "early dirty improve spiteful stroke"
+        "line_width": 1.9944332537290874,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Interrupt Cloistered"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.3368,
-        "w": 12.1084,
-        "x": 0.5786,
-        "y": 4.619
+        "h": 2.686,
+        "w": 3.6675,
+        "x": 5.0533,
+        "y": 4.07
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          142,
-          87,
-          80
+        "crop": [
+          0.19480377987159403,
+          0.3104721210571425,
+          0.14277965618695698,
+          0.20901526373144666
         ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          171,
-          32,
-          175
-        ],
-        "border": [
-          149,
-          111,
+        "focus": true,
+        "mask_line": [
+          52,
+          49,
           148
         ],
-        "border_dash": "solid",
-        "border_width": 3.4405586606029694,
-        "cells": [
-          [
-            "woman coil",
-            "tricky island",
-            "needy iron",
-            "attractive habitual"
-          ],
-          [
-            "rate print",
-            "muddle",
-            "zephyr guttural",
-            "brief act"
-          ]
-        ],
-        "cols": 4,
-        "font_size": 8,
-        "has_header": true,
-        "header": [
-          255,
-          238,
-          103
-        ],
-        "rows": 2,
-        "text_color": [
-          173,
-          109,
-          191
-        ],
-        "theme_topic": "Puzzled"
+        "mask_overlay": true,
+        "theme_topic": "Interrupt Cloistered",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "table",
+      "type": "image",
       "z_order": 3
     }
   ],

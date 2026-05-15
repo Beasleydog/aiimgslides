@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 90,
+      "angle": 0,
       "archetype": "atomic_composition",
       "colors": [
         [
-          239,
-          239,
-          235
+          52,
+          32,
+          32
         ],
         [
-          133,
-          210,
-          93
+          255,
+          206,
+          86
         ]
       ],
       "fill": [
-        250,
-        250,
-        248
+        52,
+        32,
+        32
       ],
       "focus": "top_left",
       "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Aspiring Bike"
+      "theme_topic": "Cemetery Daffy"
     },
     "type": "background",
     "z_order": 0
@@ -45,91 +45,89 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.0054,
-        "w": 8.9158,
-        "x": -0.8823,
-        "y": 3.3048
+        "h": 4.4187,
+        "w": 8.5162,
+        "x": 2.3474,
+        "y": 3.7561
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "flowchart",
         "fill": [
-          130,
-          128,
-          133
+          36,
+          33,
+          33
         ],
         "focus": false,
         "line": [
-          145,
           89,
-          113
+          125,
+          84
         ],
-        "line_width": 7.713653709749914,
+        "line_width": 5.264868819483242,
         "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Aspiring Bike"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Cemetery Daffy"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5076,
-        "w": 13.3312,
-        "x": -0.0064,
-        "y": 4.1437
+        "h": 1.0288,
+        "w": 5.9297,
+        "x": 0.5389,
+        "y": 0.3515
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          239,
-          239,
-          235
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          239,
-          239,
-          235
-        ],
-        "line_width": 1.0224978596453238,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Aspiring Bike"
+        "font_face": "Georgia",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Limit Motion",
+        "theme_topic": "Cemetery Daffy",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5825,
-        "w": 5.4283,
-        "x": 7.372,
-        "y": 1.423
+        "h": 2.563,
+        "w": 6.9796,
+        "x": 3.8176,
+        "y": 2.1811
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0,
-          0,
-          0,
-          0
+          0.05797466781446189,
+          0.309552069078269,
+          0.16216126787437418,
+          0.17880543618059097
         ],
         "focus": true,
         "mask_line": [
-          38,
-          132,
-          88
+          172,
+          107,
+          59
         ],
-        "mask_overlay": false,
-        "theme_topic": "Aspiring Bike",
+        "mask_overlay": true,
+        "theme_topic": "Cemetery Daffy",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",

@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
+      "colors": [
+        [
+          232,
+          237,
+          247
+        ],
+        [
+          25,
+          74,
+          25
+        ]
+      ],
       "fill": [
         245,
         247,
         252
       ],
-      "style": "solid",
-      "theme_topic": "Naive Sedate"
+      "focus": "bottom_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Company Combative"
     },
     "type": "background",
     "z_order": 0
@@ -30,139 +45,75 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.792,
-        "w": 5.9281,
-        "x": 0.3999,
-        "y": 0.817
+        "h": 3.188,
+        "w": 6.6486,
+        "x": -0.7162,
+        "y": 0.116
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "arrows",
         "fill": [
-          158,
-          122,
-          213
+          131,
+          177,
+          214
         ],
         "focus": false,
         "line": [
-          175,
-          202,
-          44
+          55,
+          125,
+          82
         ],
-        "line_width": 2.407175521244862,
+        "line_width": 2.8661733126825526,
         "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Naive Sedate"
+        "ppt_type": 33,
+        "shape": "right_arrow",
+        "theme_topic": "Company Combative"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0701,
-        "w": 6.5082,
-        "x": -0.4457,
-        "y": 1.593
+        "h": 1.0813,
+        "w": 13.3267,
+        "x": -0.0161,
+        "y": 0.0003
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "ribbons",
-        "fill": [
-          172,
-          117,
-          215
-        ],
-        "focus": false,
-        "line": [
-          205,
-          225,
-          125
-        ],
-        "line_width": 6.950898596791796,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Naive Sedate"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 5.169,
-        "w": 7.2028,
-        "x": 0.4704,
-        "y": 1.0637
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          153,
-          101,
-          138
-        ],
-        "focus": false,
-        "line": [
-          89,
-          101,
-          92
-        ],
-        "line_width": 4.897944190987372,
-        "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Naive Sedate"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 4.636,
-        "w": 5.8001,
-        "x": 1.6463,
-        "y": 0.6218
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
         "family": "panel",
         "fill": [
-          236,
-          240,
-          248
+          232,
+          237,
+          247
         ],
         "line": [
           232,
           237,
           247
         ],
-        "line_width": 2.29151420027345,
+        "line_width": 1.5799402654546553,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Naive Sedate"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Company Combative"
       },
       "type": "shape",
-      "z_order": 4
+      "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5427,
-        "w": 2.8491,
-        "x": 0.6529,
-        "y": 0.7571
+        "h": 1.2135,
+        "w": 6.1466,
+        "x": 0.574,
+        "y": 0.3282
       },
-      "id": "object_005",
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -172,13 +123,71 @@
           44,
           68
         ],
-        "font_face": "Arial",
-        "font_size": 23,
+        "font_face": "Aptos Display",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Soup",
-        "theme_topic": "Naive Sedate",
+        "text": "Motion Languid Jobless",
+        "theme_topic": "Company Combative",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.0514,
+        "w": 5.7351,
+        "x": 6.926,
+        "y": 1.9482
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          27,
+          44,
+          68
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 40,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Disapprove",
+        "theme_topic": "Company Combative",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 3.6067,
+        "w": 5.7271,
+        "x": 6.897,
+        "y": 3.2771
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          117,
+          137
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "rifle art physical plausible regret scarecrow difficult first tiger afraid godly jelly fierce tricky flowers hammer shaggy compete",
+        "theme_topic": "Company Combative",
         "underline": false
       },
       "type": "text",
@@ -186,10 +195,10 @@
     },
     {
       "bbox": {
-        "h": 6.2443,
-        "w": 1.1062,
-        "x": 8.2925,
-        "y": 0.6511
+        "h": 5.1322,
+        "w": 1.16,
+        "x": 0.5521,
+        "y": 1.8649
       },
       "id": "object_006",
       "properties": {
@@ -197,30 +206,30 @@
         "dash": 4,
         "family": "panel",
         "fill": [
-          204,
-          222,
-          202
+          229,
+          217,
+          194
         ],
         "line": [
           232,
           237,
           247
         ],
-        "line_width": 1.6244643109419026,
+        "line_width": 1.4564384262290169,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Naive Sedate"
+        "theme_topic": "Company Combative"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.7627,
-        "w": 0.7593,
-        "x": 8.4786,
-        "y": 0.8402
+        "h": 0.7614,
+        "w": 0.814,
+        "x": 0.709,
+        "y": 2.0502
       },
       "id": "object_007",
       "properties": {
@@ -232,13 +241,13 @@
           96,
           214
         ],
-        "font_face": "Arial",
-        "font_size": 25,
+        "font_face": "Aptos Display",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "4.4x",
-        "theme_topic": "Naive Sedate",
+        "text": "7.6x",
+        "theme_topic": "Company Combative",
         "underline": false
       },
       "type": "text",
@@ -246,10 +255,10 @@
     },
     {
       "bbox": {
-        "h": 5.2409,
-        "w": 0.7366,
-        "x": 8.4995,
-        "y": 1.5562
+        "h": 4.1529,
+        "w": 0.8236,
+        "x": 0.7184,
+        "y": 2.7609
       },
       "id": "object_008",
       "properties": {
@@ -261,13 +270,13 @@
           117,
           137
         ],
-        "font_face": "Arial",
-        "font_size": 15,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "handy peaceful last impolite gray swing knot",
-        "theme_topic": "Naive Sedate",
+        "text": "sparkle notice obtain behave",
+        "theme_topic": "Company Combative",
         "underline": false
       },
       "type": "text",
@@ -275,44 +284,15 @@
     },
     {
       "bbox": {
-        "h": 5.2487,
-        "w": 0.4413,
-        "x": 9.7798,
-        "y": 1.582
+        "h": 5.1471,
+        "w": 1.4908,
+        "x": 1.9076,
+        "y": 1.8614
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "coherent view digestion",
-        "theme_topic": "Naive Sedate",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 6.2684,
-        "w": 0.8836,
-        "x": 10.553,
-        "y": 0.6586
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 2,
         "family": "panel",
         "fill": [
           232,
@@ -324,23 +304,23 @@
           237,
           247
         ],
-        "line_width": 0.6360537621420835,
+        "line_width": 0.9506025557459954,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Naive Sedate"
+        "theme_topic": "Company Combative"
       },
       "type": "shape",
-      "z_order": 10
+      "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.7687,
-        "w": 0.5351,
-        "x": 10.7509,
-        "y": 0.806
+        "h": 0.7279,
+        "w": 1.1368,
+        "x": 2.0693,
+        "y": 2.0115
       },
-      "id": "object_011",
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -350,13 +330,42 @@
           96,
           214
         ],
-        "font_face": "Arial",
-        "font_size": 21,
+        "font_face": "Aptos Display",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "179",
-        "theme_topic": "Naive Sedate",
+        "text": "209",
+        "theme_topic": "Company Combative",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 4.1172,
+        "w": 1.134,
+        "x": 2.0739,
+        "y": 2.7748
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          117,
+          137
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "disapprove minor glow report",
+        "theme_topic": "Company Combative",
         "underline": false
       },
       "type": "text",
@@ -364,72 +373,12 @@
     },
     {
       "bbox": {
-        "h": 5.2133,
-        "w": 0.5406,
-        "x": 10.7606,
-        "y": 1.5704
+        "h": 0.7557,
+        "w": 1.0894,
+        "x": 3.7634,
+        "y": 2.0235
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
-        ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "man mug tricky",
-        "theme_topic": "Naive Sedate",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 6.2657,
-        "w": 1.1229,
-        "x": 11.6072,
-        "y": 0.656
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          73,
-          139,
-          167
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 1.478126296141446,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Naive Sedate"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.7388,
-        "w": 0.7537,
-        "x": 11.7894,
-        "y": 0.8488
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -439,26 +388,26 @@
           96,
           214
         ],
-        "font_face": "Arial",
-        "font_size": 25,
+        "font_face": "Aptos Display",
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "11%",
-        "theme_topic": "Naive Sedate",
+        "text": "212",
+        "theme_topic": "Company Combative",
         "underline": false
       },
       "type": "text",
-      "z_order": 14
+      "z_order": 12
     },
     {
       "bbox": {
-        "h": 5.2114,
-        "w": 0.7583,
-        "x": 11.7807,
-        "y": 1.5587
+        "h": 4.1089,
+        "w": 1.1042,
+        "x": 3.7494,
+        "y": 2.7465
       },
-      "id": "object_015",
+      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -468,13 +417,73 @@
           117,
           137
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "cooing possess planes arithmetic",
-        "theme_topic": "Naive Sedate",
+        "text": "water chance trite card owe",
+        "theme_topic": "Company Combative",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 5.1611,
+        "w": 1.1612,
+        "x": 5.1874,
+        "y": 1.832
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          39,
+          136,
+          178
+        ],
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 2.9937558161271927,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Company Combative"
+      },
+      "type": "shape",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.7639,
+        "w": 0.7797,
+        "x": 5.3824,
+        "y": 2.0126
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 36,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "56",
+        "theme_topic": "Company Combative",
         "underline": false
       },
       "type": "text",
@@ -482,68 +491,71 @@
     },
     {
       "bbox": {
-        "h": 6.1643,
-        "w": 1.1911,
-        "x": 3.786,
-        "y": 0.6993
+        "h": 4.127,
+        "w": 0.8119,
+        "x": 5.3615,
+        "y": 2.7588
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.26681299477928905,
-          0.0808369693189563,
-          0.0003065989442062811,
-          0.10542507953029004
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          117,
+          137
         ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Naive Sedate",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "hysterical bent reaction kill nasty",
+        "theme_topic": "Company Combative",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 6.144,
-        "w": 1.2265,
-        "x": 5.1682,
-        "y": 0.6937
+        "h": 0.4744,
+        "w": 1.0254,
+        "x": 2.332,
+        "y": 5.6149
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2606089418451589,
-          0.20849362624355738,
-          0.29527845582063134,
-          0.24521127095338752
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          94,
+          152,
+          84
         ],
         "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
+        "line": [
+          228,
+          137,
+          89
         ],
-        "mask_overlay": false,
-        "theme_topic": "Naive Sedate",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.9015870516053452,
+        "outline_only": false,
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Company Combative"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.4093,
-        "w": 1.6561,
-        "x": 0.7441,
-        "y": 2.6228
+        "h": 0.2709,
+        "w": 1.1095,
+        "x": 10.6035,
+        "y": 1.6296
       },
       "id": "object_018",
       "properties": {
@@ -551,18 +563,18 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          128,
-          156,
-          30
+          194,
+          202,
+          31
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Carve Snotty Hose",
-        "theme_topic": "Naive Sedate",
-        "underline": false
+        "kind": "body",
+        "margin": 0.04,
+        "text": "steep tiresome macabre",
+        "theme_topic": "Company Combative",
+        "underline": true
       },
       "type": "text",
       "z_order": 18

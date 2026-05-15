@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        250,
-        250,
-        248
+      "back_color": [
+        41,
+        188,
+        90
       ],
-      "style": "solid",
-      "theme_topic": "Twist Gleaming"
+      "fill": [
+        41,
+        188,
+        90
+      ],
+      "fore_color": [
+        255,
+        238,
+        103
+      ],
+      "pattern": 33,
+      "style": "pattern",
+      "theme_topic": "Actor"
     },
     "type": "background",
     "z_order": 0
@@ -30,155 +41,98 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.1228,
-        "w": 8.3045,
-        "x": 2.5826,
-        "y": -0.1009
+        "h": 4.1783,
+        "w": 8.0622,
+        "x": 2.6947,
+        "y": 0.4954
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "flowchart",
         "fill": [
-          140,
-          120,
-          175
+          56,
+          139,
+          178
         ],
         "focus": false,
         "line": [
-          167,
-          131,
-          58
+          38,
+          117,
+          93
         ],
-        "line_width": 4.535361584795023,
+        "line_width": 5.200338736124561,
         "outline_only": false,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Twist Gleaming"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Actor"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9185,
-        "w": 13.3356,
-        "x": 0.001,
-        "y": -0.003
+        "h": 4.7542,
+        "w": 6.2848,
+        "x": 7.2909,
+        "y": -0.4373
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          239,
-          239,
-          235
+          79,
+          110,
+          142
         ],
+        "focus": false,
         "line": [
-          239,
-          239,
-          235
+          30,
+          181,
+          221
         ],
-        "line_width": 4.78713908088423,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Twist Gleaming"
+        "line_width": 5.806054470153116,
+        "outline_only": true,
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Actor"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.5318,
-        "w": 6.5245,
-        "x": 2.5096,
-        "y": 3.3466
+        "h": 2.9738,
+        "w": 6.1115,
+        "x": 1.855,
+        "y": 4.2431
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          40,
-          127,
-          118
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          38,
+          158,
+          68
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          239,
-          239,
-          235
+        "focus": false,
+        "line": [
+          165,
+          152,
+          209
         ],
-        "border": [
-          212,
-          177,
-          89
-        ],
-        "border_dash": "solid",
-        "border_width": 2.8123083888005165,
-        "cells": [
-          [
-            "tooth sparkle",
-            "afraid past",
-            "stupendous",
-            "prick",
-            "chickens hug",
-            "internal"
-          ],
-          [
-            "axiomatic",
-            "swim",
-            "tall capable",
-            "ill",
-            "escape",
-            "disillusioned blushing"
-          ],
-          [
-            "juice productive",
-            "punishment",
-            "expand quilt",
-            "aware",
-            "raspy doctor",
-            "dock"
-          ],
-          [
-            "prick nimble",
-            "talented organic",
-            "sneaky stimulating",
-            "thoughtless",
-            "legs creator",
-            "industry pumped"
-          ],
-          [
-            "reflective shave",
-            "subsequent",
-            "omniscient domineering",
-            "soda",
-            "use",
-            "humorous direful"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 9,
-        "has_header": true,
-        "header": [
-          176,
-          219,
-          42
-        ],
-        "rows": 5,
-        "text_color": [
-          28,
-          28,
-          28
-        ],
-        "theme_topic": "Twist Gleaming"
+        "line_width": 6.367118450827735,
+        "outline_only": true,
+        "ppt_type": 49,
+        "shape": "striped_right_arrow",
+        "theme_topic": "Actor"
       },
-      "type": "table",
+      "type": "shape",
       "z_order": 3
     }
   ],

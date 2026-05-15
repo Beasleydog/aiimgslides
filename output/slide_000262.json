@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "fill": [
-        42,
-        161,
-        204
+      "colors": [
+        [
+          247,
+          248,
+          246
+        ],
+        [
+          222,
+          133,
+          62
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Easy"
+      "fill": [
+        247,
+        248,
+        246
+      ],
+      "focus": "top_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Boat Invent"
     },
     "type": "background",
     "z_order": 0
@@ -30,42 +45,41 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.3275,
-        "w": 6.413,
-        "x": -0.3707,
-        "y": 0.3558
+        "h": 4.4946,
+        "w": 4.9765,
+        "x": 8.3534,
+        "y": 2.9871
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 5,
+        "family": "panel",
         "fill": [
-          86,
-          133,
-          101
+          236,
+          240,
+          242
         ],
-        "focus": false,
         "line": [
-          91,
-          140,
-          57
+          236,
+          240,
+          242
         ],
-        "line_width": 6.315807546879935,
+        "line_width": 3.2120715849732653,
         "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Easy"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Boat Invent"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9069,
-        "w": 5.5816,
-        "x": 0.7535,
-        "y": 5.8452
+        "h": 0.9754,
+        "w": 6.1393,
+        "x": 0.5272,
+        "y": 0.3537
       },
       "id": "object_002",
       "properties": {
@@ -73,17 +87,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
           30,
-          36
+          35,
+          42
         ],
         "font_face": "Aptos Display",
-        "font_size": 25,
+        "font_size": 26,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hallowed Stove Measly Pleasure",
-        "theme_topic": "Easy",
+        "text": "Free Flesh",
+        "theme_topic": "Boat Invent",
         "underline": false
       },
       "type": "text",
@@ -91,10 +105,10 @@
     },
     {
       "bbox": {
-        "h": 0.9614,
-        "w": 6.5335,
-        "x": 3.3849,
-        "y": 1.5682
+        "h": 0.2754,
+        "w": 11.9404,
+        "x": 0.6805,
+        "y": 5.6769
       },
       "id": "object_003",
       "properties": {
@@ -102,17 +116,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          31,
+          117,
+          161
         ],
-        "font_face": "Aptos Display",
-        "font_size": 46,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Auspicious Copy",
-        "theme_topic": "Easy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "SIMPLISTIC SHEEP",
+        "theme_topic": "Boat Invent",
         "underline": false
       },
       "type": "text",
@@ -120,28 +134,28 @@
     },
     {
       "bbox": {
-        "h": 1.3598,
-        "w": 6.5733,
-        "x": 3.3934,
-        "y": 2.8136
+        "h": 0.2785,
+        "w": 11.9296,
+        "x": 0.7007,
+        "y": 6.1577
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          34,
-          88,
-          111
+          204,
+          77,
+          100
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
+        "font_face": "Aptos Display",
+        "font_size": 18,
+        "italic": true,
+        "kind": "header",
         "margin": 0.04,
-        "text": "precede grab delightful chin manage thick synonymous end refuse trousers station list tour heady macho gather",
-        "theme_topic": "Easy",
+        "text": "Sail",
+        "theme_topic": "Boat Invent",
         "underline": false
       },
       "type": "text",
@@ -149,93 +163,89 @@
     },
     {
       "bbox": {
-        "h": 4.9927,
-        "w": 2.207,
-        "x": 0.5655,
-        "y": 0.5387
+        "h": 1.7329,
+        "w": 12.2175,
+        "x": 0.5661,
+        "y": 3.3922
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          82,
-          96,
-          214
+        "crop": [
+          0.06249355347958449,
+          0.19718403628142764,
+          0.13733939199706063,
+          0.0050762019985936945
         ],
-        "line": [
-          116,
-          193,
-          221
+        "focus": true,
+        "mask_line": [
+          184,
+          141,
+          55
         ],
-        "line_width": 2.7536671757738396,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Easy"
+        "mask_overlay": false,
+        "theme_topic": "Boat Invent",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 4.9937,
-        "w": 2.1908,
-        "x": 10.5705,
-        "y": 0.5473
+        "h": 0.3629,
+        "w": 11.9277,
+        "x": 0.6999,
+        "y": 1.9741
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          116,
-          193,
-          221
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          89,
+          65,
+          212
         ],
-        "line": [
-          116,
-          193,
-          221
-        ],
-        "line_width": 1.0592714636635618,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Easy"
+        "font_face": "Aptos Display",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Next",
+        "theme_topic": "Boat Invent",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 4.7009,
-        "w": 1.9204,
-        "x": 10.7487,
-        "y": 0.7213
+        "h": 0.3433,
+        "w": 11.9346,
+        "x": 0.7135,
+        "y": 2.5522
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1091803275913934,
-          0.2630902942460934,
-          0.05628016821346751,
-          0.09477785248451054
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          124,
+          135
         ],
-        "focus": true,
-        "mask_line": [
-          178,
-          220,
-          123
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Easy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "metal self panoramic seemly system locket brake hurry stereotyped filthy fast popcorn tranquil tremendous inform halting overflow dislike baseball pat",
+        "theme_topic": "Boat Invent",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 7
     }
   ],

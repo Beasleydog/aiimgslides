@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "back_color": [
-        65,
-        138,
-        123
+      "colors": [
+        [
+          145,
+          175,
+          109
+        ],
+        [
+          255,
+          117,
+          117
+        ]
       ],
       "fill": [
-        210,
-        72,
-        94
+        177,
+        213,
+        133
       ],
-      "fore_color": [
-        255,
-        206,
-        86
-      ],
-      "pattern": 28,
-      "style": "pattern",
-      "theme_topic": "Empty"
+      "focus": "top_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Late Army"
     },
     "type": "background",
     "z_order": 0
@@ -41,169 +45,157 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.9141,
-        "w": 7.4862,
-        "x": 0.6138,
-        "y": 3.2763
+        "h": 1.7952,
+        "w": 8.4698,
+        "x": 1.756,
+        "y": 4.2262
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "callouts",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          123,
-          88,
-          78
+          184,
+          196,
+          178
         ],
         "focus": false,
         "line": [
-          31,
-          160,
-          162
+          139,
+          152,
+          201
         ],
-        "line_width": 7.704681630279241,
+        "line_width": 2.9951946221439254,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Empty"
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Late Army"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.0211,
-        "w": 6.1753,
-        "x": 2.1006,
-        "y": 1.8954
+        "h": 3.6982,
+        "w": 5.4466,
+        "x": 5.049,
+        "y": 2.2195
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 7,
+        "family": "flowchart",
         "fill": [
-          115,
-          139,
-          117
+          96,
+          200,
+          150
         ],
         "focus": false,
         "line": [
-          223,
-          117,
-          220
+          199,
+          170,
+          59
         ],
-        "line_width": 2.8587425595917377,
+        "line_width": 4.930155627504829,
         "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Empty"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Late Army"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.6441,
-        "w": 8.7025,
-        "x": 0.3321,
-        "y": 2.4838
+        "h": 7.4837,
+        "w": 1.3217,
+        "x": 12.0072,
+        "y": 0.0119
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "panel",
         "fill": [
-          99,
-          92,
-          44
+          145,
+          175,
+          109
         ],
-        "focus": false,
         "line": [
-          99,
-          61,
-          51
+          145,
+          175,
+          109
         ],
-        "line_width": 7.062368605822523,
+        "line_width": 3.766911840647351,
         "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Empty"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Late Army"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.46,
-        "w": 7.7694,
-        "x": 4.4431,
-        "y": 5.9886
+        "h": 0.8999,
+        "w": 6.8252,
+        "x": 0.7716,
+        "y": 5.8375
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          106,
-          191,
-          165
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          163,
-          184,
-          45
-        ],
-        "line_width": 4.575280363265287,
-        "outline_only": true,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Empty"
+        "font_face": "Aptos Display",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Known Disagreeable Halting",
+        "theme_topic": "Late Army",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 4.3778,
-        "w": 7.8735,
-        "x": 0.7927,
-        "y": 1.3819
+        "h": 2.7494,
+        "w": 12.2404,
+        "x": 0.5775,
+        "y": 0.5495
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          219,
-          86,
-          106
-        ],
+        "clip": "ticket",
+        "focus": true,
         "line": [
-          225,
-          94,
-          113
+          255,
+          198,
+          74
         ],
-        "line_width": 2.065135448817183,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Empty"
+        "line_width": 15,
+        "theme_topic": "Late Army"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 5.8187,
-        "w": 3.2087,
-        "x": 9.3822,
-        "y": 0.6406
+        "h": 0.2646,
+        "w": 11.825,
+        "x": 0.7257,
+        "y": 2.829
       },
       "id": "object_006",
       "properties": {
@@ -212,16 +204,16 @@
         "bold": true,
         "color": [
           255,
-          252,
-          247
+          198,
+          74
         ],
-        "font_face": "Aptos Display",
-        "font_size": 28,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Dependent Torpid Cows",
-        "theme_topic": "Empty",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Friends",
+        "theme_topic": "Late Army",
         "underline": false
       },
       "type": "text",
@@ -229,41 +221,41 @@
     },
     {
       "bbox": {
-        "h": 1.6084,
-        "w": 3.1959,
-        "x": 0.6309,
-        "y": 3.9621
+        "h": 1.8782,
+        "w": 12.2268,
+        "x": 0.5434,
+        "y": 3.6743
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          225,
-          94,
-          113
+          145,
+          175,
+          109
         ],
         "line": [
-          225,
-          94,
-          113
+          145,
+          175,
+          109
         ],
-        "line_width": 2.0411040157743163,
+        "line_width": 1.5246807062213572,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Empty"
+        "theme_topic": "Late Army"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4529,
-        "w": 2.7001,
-        "x": 0.8839,
-        "y": 4.8423
+        "h": 0.703,
+        "w": 11.8545,
+        "x": 0.7479,
+        "y": 4.1025
       },
       "id": "object_008",
       "properties": {
@@ -271,17 +263,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Aptos Display",
+        "font_size": 38,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Square Trite",
-        "theme_topic": "Empty",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "309",
+        "theme_topic": "Late Army",
         "underline": false
       },
       "type": "text",
@@ -289,191 +281,189 @@
     },
     {
       "bbox": {
-        "h": 1.1354,
-        "w": 3.1761,
-        "x": 0.6643,
-        "y": 5.771
+        "h": 0.4236,
+        "w": 11.8713,
+        "x": 0.7435,
+        "y": 4.8122
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          225,
-          94,
-          113
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 2.274588693087723,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Empty"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "romantic nut quirky farm noise carry handle hysterical rule",
+        "theme_topic": "Late Army",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.5321,
-        "w": 0.5563,
-        "x": 0.8473,
-        "y": 5.98
+        "h": 0.6454,
+        "w": 0.3771,
+        "x": 11.5797,
+        "y": 4.7942
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          255,
-          206,
-          86
+          34,
+          78,
+          221
         ],
         "focus": false,
         "line": [
-          180,
-          139,
-          118
+          65,
+          140,
+          45
         ],
-        "line_width": 2.6236802761150226,
+        "line_width": 0.9152816351774204,
         "outline_only": false,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Empty"
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Late Army"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4671,
-        "w": 2.6829,
-        "x": 0.9047,
-        "y": 6.6712
+        "h": 0.5416,
+        "w": 1.4747,
+        "x": 10.2851,
+        "y": 6.4737
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          94,
+          126,
+          140
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Trick Taste",
-        "theme_topic": "Empty",
-        "underline": false
+        "focus": false,
+        "line": [
+          49,
+          93,
+          46
+        ],
+        "line_width": 4.6994059022795,
+        "outline_only": false,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Late Army"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 3.0438,
-        "w": 3.1934,
-        "x": 0.6518,
-        "y": 0.6634
+        "h": 0.2148,
+        "w": 0.722,
+        "x": 2.9753,
+        "y": 6.8188
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          225,
-          94,
-          113
-        ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 5.261010024448138,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Empty"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.1389,
-        "w": 2.8287,
-        "x": 0.8348,
-        "y": 1.2777
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          210,
-          72,
-          94
+          197,
+          105,
+          82
         ],
-        "font_face": "Aptos Display",
-        "font_size": 44,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "300",
-        "theme_topic": "Empty",
+        "text": "secretive quilt",
+        "theme_topic": "Late Army",
         "underline": false
       },
       "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 0.7823,
+        "x": 11.0375,
+        "y": 6.3275
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          35,
+          43,
+          225
+        ],
+        "focus": false,
+        "line": [
+          199,
+          47,
+          179
+        ],
+        "line_width": 4.771019476177809,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Late Army"
+      },
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.7238,
-        "w": 2.8107,
-        "x": 0.8134,
-        "y": 2.4937
+        "h": 0.4745,
+        "w": 1.6495,
+        "x": 3.7367,
+        "y": 4.2099
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          255,
-          252,
-          247
+          157,
+          210,
+          141
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "sense hesitant desire strap moaning fine run",
-        "theme_topic": "Empty",
-        "underline": false
+        "connector": "elbow",
+        "dash": 1,
+        "flip": false,
+        "ppt_type": 2,
+        "theme_topic": "Late Army",
+        "width": 2.408786319670154
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.4919,
-        "w": 1.2267,
-        "x": 9.2264,
-        "y": 3.2935
+        "h": 0.638,
+        "w": 0.9959,
+        "x": 2.0639,
+        "y": 3.1867
       },
       "id": "object_015",
       "properties": {
@@ -481,46 +471,50 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          163,
-          160,
-          214
+          226,
+          226,
+          109
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 5,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "interesting large rot fearful",
-        "theme_topic": "Empty",
-        "underline": true
+        "text": "death",
+        "theme_topic": "Late Army",
+        "underline": false
       },
       "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.3747,
-        "w": 1.8402,
-        "x": 6.4762,
-        "y": 0.8858
+        "h": 0.4976,
+        "w": 2.0579,
+        "x": 10.2669,
+        "y": 2.4405
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
+        "bg_color": [
+          151,
+          164,
+          100
+        ],
+        "bold": true,
         "color": [
-          211,
-          206,
-          97
+          182,
+          74,
+          96
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "house squealing cross",
-        "theme_topic": "Empty",
+        "text": "agreeable normal wonder",
+        "theme_topic": "Late Army",
         "underline": false
       },
       "type": "text",
@@ -528,34 +522,27 @@
     },
     {
       "bbox": {
-        "h": 0.3229,
-        "w": 0.937,
-        "x": 5.2975,
-        "y": 0.1417
+        "h": 0.3907,
+        "w": 2.0488,
+        "x": 8.4546,
+        "y": 0.7793
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          137,
-          189,
-          175
+        "color": [
+          45,
+          102,
+          148
         ],
-        "focus": false,
-        "line": [
-          120,
-          200,
-          59
-        ],
-        "line_width": 0.9651108537760767,
-        "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Empty"
+        "connector": "curve",
+        "dash": 7,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Late Army",
+        "width": 2.643765784111903
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 17
     }
   ],

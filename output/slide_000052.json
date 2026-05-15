@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        29,
-        151,
-        112
+      "back_color": [
+        90,
+        91,
+        156
       ],
-      "style": "solid",
-      "theme_topic": "Tour Imported"
+      "fill": [
+        150,
+        227,
+        141
+      ],
+      "fore_color": [
+        255,
+        117,
+        117
+      ],
+      "pattern": 37,
+      "style": "pattern",
+      "theme_topic": "Profuse Oafish"
     },
     "type": "background",
     "z_order": 0
@@ -30,63 +41,65 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.192,
-        "w": 4.1564,
-        "x": 5.5644,
-        "y": 3.1768
+        "h": 4.8953,
+        "w": 5.9878,
+        "x": 4.7309,
+        "y": 3.156
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "arrows",
         "fill": [
-          186,
-          160,
-          140
+          204,
+          108,
+          61
         ],
         "focus": false,
         "line": [
-          41,
-          229,
-          221
+          163,
+          78,
+          159
         ],
-        "line_width": 3.6419547797704945,
-        "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Tour Imported"
+        "line_width": 7.121514582349606,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Profuse Oafish"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.5856,
-        "w": 4.0562,
-        "x": 4.0701,
-        "y": 1.8771
+        "h": 5.1319,
+        "w": 6.43,
+        "x": 2.4795,
+        "y": 1.4211
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.32401860082137707,
-          0.2619514417675873,
-          0.1956349959146359,
-          0.2935666590924608
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          139,
+          212,
+          131
         ],
-        "focus": true,
-        "mask_line": [
-          174,
-          73,
-          92
+        "line": [
+          134,
+          204,
+          126
         ],
-        "mask_overlay": false,
-        "theme_topic": "Tour Imported",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.838121841367606,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Profuse Oafish"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 2
     }
   ],

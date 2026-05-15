@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
+      "angle": 45,
       "archetype": "atomic_composition",
       "colors": [
         [
-          182,
-          75,
-          110
+          155,
+          222,
+          73
         ],
         [
-          244,
-          180,
-          76
+          123,
+          121,
+          54
         ]
       ],
       "fill": [
-        38,
-        76,
-        157
+        240,
+        176,
+        54
       ],
-      "focus": "bottom_right",
+      "focus": "center",
       "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Brick"
+      "theme_topic": "Nappy"
     },
     "type": "background",
     "z_order": 0
@@ -45,137 +45,134 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.7034,
-        "w": 8.2696,
-        "x": 5.9471,
-        "y": 0.1009
+        "h": 4.5266,
+        "w": 7.095,
+        "x": 7.1977,
+        "y": 1.108
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          68,
-          119,
-          170
+          168,
+          201,
+          84
         ],
         "focus": false,
         "line": [
-          145,
-          183,
-          83
+          228,
+          99,
+          152
         ],
-        "line_width": 6.061662866897819,
+        "line_width": 3.2080226502196814,
         "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Brick"
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Nappy"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0819,
-        "w": 7.2622,
-        "x": 2.164,
-        "y": -0.0627
+        "h": 1.8092,
+        "w": 8.3496,
+        "x": 4.8321,
+        "y": 1.3882
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          97,
-          186,
-          51
+          225,
+          150,
+          93
         ],
         "focus": false,
         "line": [
-          159,
-          63,
-          191
+          225,
+          68,
+          187
         ],
-        "line_width": 5.2455999725081135,
-        "outline_only": true,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Brick"
+        "line_width": 4.5278605452086484,
+        "outline_only": false,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Nappy"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.1736,
-        "w": 8.399,
-        "x": 3.1313,
-        "y": -0.5913
+        "h": 5.2559,
+        "w": 5.7402,
+        "x": 0.6437,
+        "y": 1.6066
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 4,
+        "family": "panel",
         "fill": [
-          51,
-          109,
-          62
+          245,
+          193,
+          78
         ],
-        "focus": false,
         "line": [
-          44,
-          169,
-          229
+          249,
+          203,
+          91
         ],
-        "line_width": 2.0652898324622306,
+        "line_width": 2.6773247204039463,
         "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Brick"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Nappy"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.0401,
-        "w": 13.3252,
-        "x": 0.0135,
-        "y": -0.0118
+        "h": 1.0961,
+        "w": 5.772,
+        "x": 0.5483,
+        "y": 0.3689
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          100,
-          127,
-          185
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          40,
+          38,
+          28
         ],
-        "line": [
-          100,
-          127,
-          185
-        ],
-        "line_width": 1.8935701880330542,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Brick"
+        "font_face": "Arial",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Play Improve Guitar",
+        "theme_topic": "Nappy",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1322,
-        "w": 8.3874,
-        "x": 3.4928,
-        "y": 0.6653
+        "h": 0.6015,
+        "w": 0.8124,
+        "x": 8.7533,
+        "y": 2.2345
       },
       "id": "object_005",
       "properties": {
@@ -183,17 +180,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos Display",
-        "font_size": 28,
+        "font_face": "Arial",
+        "font_size": 26,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Disarm Milky Melodic Furtive",
-        "theme_topic": "Brick",
+        "text": "84%",
+        "theme_topic": "Nappy",
         "underline": false
       },
       "type": "text",
@@ -201,136 +198,86 @@
     },
     {
       "bbox": {
-        "h": 2.8752,
-        "w": 12.2179,
-        "x": 0.5773,
-        "y": 4.1847
+        "h": 0.3377,
+        "w": 0.8178,
+        "x": 8.7511,
+        "y": 3.0028
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "rhyme",
-          "crawl",
-          "soda",
-          "guiltless",
-          "crawl",
-          "sky"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          94,
+          82,
+          58
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              111,
-              116,
-              198
-            ],
-            "name": "knowledgeable clover",
-            "values": [
-              45,
-              73,
-              57,
-              12,
-              80,
-              8
-            ]
-          },
-          {
-            "color": [
-              151,
-              164,
-              160
-            ],
-            "name": "absurd",
-            "values": [
-              67,
-              51,
-              56,
-              45,
-              13,
-              81
-            ]
-          },
-          {
-            "color": [
-              34,
-              63,
-              174
-            ],
-            "name": "cat ocean",
-            "values": [
-              85,
-              43,
-              64,
-              92,
-              18,
-              65
-            ]
-          }
-        ],
-        "theme_topic": "Brick",
-        "title": "bridge responsible house truck repulsive"
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "stew profuse boot sparkle overjoyed",
+        "theme_topic": "Nappy",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.8836,
-        "w": 4.4235,
-        "x": 4.7704,
-        "y": 1.9653
+        "h": 0.5917,
+        "w": 0.824,
+        "x": 10.0877,
+        "y": 2.2467
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.06327079802282363,
-          0.2193861722632313,
-          0.17028087564372058,
-          0.20141278528980586
-        ],
-        "focus": true,
-        "mask_line": [
-          139,
-          228,
-          161
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Brick",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.6324,
-        "w": 2.9459,
-        "x": 9.7051,
-        "y": 2.1167
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos Display",
-        "font_size": 18,
+        "font_face": "Arial",
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Impress Garrulous",
-        "theme_topic": "Brick",
+        "text": "55",
+        "theme_topic": "Nappy",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.3317,
+        "w": 0.8304,
+        "x": 10.1071,
+        "y": 2.9677
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          94,
+          82,
+          58
+        ],
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "internal murder wound butter",
+        "theme_topic": "Nappy",
         "underline": false
       },
       "type": "text",
@@ -338,88 +285,88 @@
     },
     {
       "bbox": {
-        "h": 0.7421,
-        "w": 2.9008,
-        "x": 9.695,
-        "y": 3.0039
+        "h": 1.3496,
+        "w": 1.093,
+        "x": 11.2765,
+        "y": 2.0707
       },
       "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          152,
-          170,
-          209
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pig spotted short tacky handsomely frighten step energetic flesh cheer abnormal balance quarrelsome vessel ship gaping majestic",
-        "theme_topic": "Brick",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 1.8589,
-        "w": 0.7971,
-        "x": 0.5533,
-        "y": 1.9888
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          26,
-          157,
-          188
+          63,
+          61,
+          89
         ],
         "line": [
-          100,
-          127,
-          185
+          249,
+          203,
+          91
         ],
-        "line_width": 3.622839728400236,
+        "line_width": 2.949254543876495,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Brick"
+        "theme_topic": "Nappy"
       },
       "type": "shape",
-      "z_order": 10
+      "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.7589,
-        "w": 0.4255,
-        "x": 0.7499,
-        "y": 2.1887
+        "h": 0.5939,
+        "w": 0.7256,
+        "x": 11.4453,
+        "y": 2.258
       },
-      "id": "object_011",
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
+        "font_face": "Arial",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "4.7x",
-        "theme_topic": "Brick",
+        "text": "148",
+        "theme_topic": "Nappy",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.3104,
+        "w": 0.7336,
+        "x": 11.4809,
+        "y": 2.9722
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          94,
+          82,
+          58
+        ],
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "suit art excite disapprove ugly",
+        "theme_topic": "Nappy",
         "underline": false
       },
       "type": "text",
@@ -427,28 +374,28 @@
     },
     {
       "bbox": {
-        "h": 0.8354,
-        "w": 0.4225,
-        "x": 0.7387,
-        "y": 2.9169
+        "h": 0.2842,
+        "w": 2.5335,
+        "x": 6.4161,
+        "y": 4.664
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          152,
-          170,
-          209
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "charge stomach hydrant announce meat venomous",
-        "theme_topic": "Brick",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "DEAR",
+        "theme_topic": "Nappy",
         "underline": false
       },
       "type": "text",
@@ -456,41 +403,39 @@
     },
     {
       "bbox": {
-        "h": 1.8327,
-        "w": 0.8108,
-        "x": 1.5153,
-        "y": 1.9992
+        "h": 0.2868,
+        "w": 2.5343,
+        "x": 6.4004,
+        "y": 5.1332
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          100,
-          127,
-          185
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          40,
+          38,
+          28
         ],
-        "line": [
-          100,
-          127,
-          185
-        ],
-        "line_width": 4.51144835102846,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Brick"
+        "font_face": "Arial",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Cautious",
+        "theme_topic": "Nappy",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.7449,
-        "w": 0.4286,
-        "x": 1.7063,
-        "y": 2.1654
+        "h": 0.3588,
+        "w": 2.7739,
+        "x": 6.1419,
+        "y": 4.5193
       },
       "id": "object_014",
       "properties": {
@@ -498,17 +443,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          194,
+          221,
+          138
         ],
-        "font_face": "Aptos Display",
-        "font_size": 23,
+        "font_face": "Arial",
+        "font_size": 18,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "73",
-        "theme_topic": "Brick",
+        "text": "Famous",
+        "theme_topic": "Nappy",
         "underline": false
       },
       "type": "text",
@@ -516,10 +461,10 @@
     },
     {
       "bbox": {
-        "h": 0.8106,
-        "w": 0.4257,
-        "x": 1.697,
-        "y": 2.9246
+        "h": 0.3269,
+        "w": 2.7887,
+        "x": 6.1551,
+        "y": 5.1028
       },
       "id": "object_015",
       "properties": {
@@ -527,17 +472,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          152,
-          170,
-          209
+          94,
+          82,
+          58
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "psychedelic reply childlike periodic rhythm",
-        "theme_topic": "Brick",
+        "text": "physical admit squeeze march payment swanky symptomatic tiny stove shelf cakes right",
+        "theme_topic": "Nappy",
         "underline": false
       },
       "type": "text",
@@ -545,148 +490,153 @@
     },
     {
       "bbox": {
-        "h": 1.8643,
-        "w": 1.0228,
-        "x": 2.5147,
-        "y": 2.0063
+        "h": 0.4696,
+        "w": 1.3407,
+        "x": 6.8869,
+        "y": 2.0362
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
+        "dash": 3,
+        "family": "symbols",
         "fill": [
-          100,
-          127,
-          185
+          63,
+          170,
+          195
         ],
+        "focus": false,
         "line": [
-          100,
-          127,
-          185
+          27,
+          185,
+          88
         ],
-        "line_width": 2.3817013478570113,
+        "line_width": 2.2195900762028025,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Brick"
+        "ppt_type": 21,
+        "shape": "heart",
+        "theme_topic": "Nappy"
       },
       "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.7574,
-        "w": 0.6606,
-        "x": 2.7026,
-        "y": 2.1644
+        "h": 0.8299,
+        "w": 0.9849,
+        "x": 3.6209,
+        "y": 2.4849
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "dash": 4,
+        "family": "flowchart",
+        "fill": [
+          95,
+          187,
+          66
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "41",
-        "theme_topic": "Brick",
-        "underline": false
+        "focus": false,
+        "line": [
+          190,
+          91,
+          107
+        ],
+        "line_width": 4.4703504348109755,
+        "outline_only": false,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Nappy"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.8266,
-        "w": 0.6863,
-        "x": 2.6652,
-        "y": 2.9103
+        "h": 0.3239,
+        "w": 0.9952,
+        "x": 11.8241,
+        "y": 5.8016
       },
       "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          191,
+          197,
+          102
+        ],
+        "focus": false,
+        "line": [
+          101,
+          229,
+          104
+        ],
+        "line_width": 2.081547618765562,
+        "outline_only": false,
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Nappy"
+      },
+      "type": "shape",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.576,
+        "w": 0.8572,
+        "x": 5.1163,
+        "y": 3.8881
+      },
+      "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          152,
-          170,
-          209
+          103,
+          47,
+          33
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "loutish guarantee divide eggnog supply middle cheerful",
-        "theme_topic": "Brick",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Gabby",
+        "theme_topic": "Nappy",
         "underline": false
       },
       "type": "text",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 1.86,
-        "w": 0.7686,
-        "x": 3.7062,
-        "y": 2.0159
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          131,
-          66,
-          204
-        ],
-        "line": [
-          100,
-          127,
-          185
-        ],
-        "line_width": 1.8634985128004333,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Brick"
-      },
-      "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.7553,
-        "w": 0.4013,
-        "x": 3.8974,
-        "y": 2.1744
+        "h": 0.6184,
+        "w": 0.5699,
+        "x": 1.7327,
+        "y": 1.264
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          96,
-          165,
-          250
+          131,
+          116,
+          34
         ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "3.4x",
-        "theme_topic": "Brick",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Jellyfish Need",
+        "theme_topic": "Nappy",
         "underline": false
       },
       "type": "text",
@@ -694,128 +644,115 @@
     },
     {
       "bbox": {
-        "h": 0.8452,
-        "w": 0.404,
-        "x": 3.874,
-        "y": 2.9212
+        "h": 0.8031,
+        "w": 1.7262,
+        "x": 3.1149,
+        "y": 3.1075
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          152,
-          170,
-          209
+          127,
+          56,
+          176
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "quiet skillful comb unsightly acid reminiscent",
-        "theme_topic": "Brick",
-        "underline": false
+        "connector": "elbow",
+        "dash": 4,
+        "flip": false,
+        "ppt_type": 2,
+        "theme_topic": "Nappy",
+        "width": 0.7326922158544171
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.9618,
-        "w": 0.8013,
-        "x": 10.7833,
-        "y": 4.8828
+        "h": 0.9494,
+        "w": 0.5851,
+        "x": 2.85,
+        "y": 2.8623
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 3,
         "family": "basic",
         "fill": [
-          225,
-          172,
-          146
+          219,
+          26,
+          107
         ],
         "focus": false,
         "line": [
-          96,
-          165,
-          250
+          61,
+          41,
+          156
         ],
-        "line_width": 3.1189109255682457,
-        "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Brick"
+        "line_width": 1.8069877272030577,
+        "outline_only": true,
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Nappy"
       },
       "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.3971,
-        "w": 1.6835,
-        "x": 1.0618,
-        "y": 3.6073
+        "h": 0.4888,
+        "w": 0.5652,
+        "x": 10.1177,
+        "y": 1.0943
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          202,
-          74,
-          101
+        "pattern": "ribbon_path",
+        "primary": [
+          87,
+          126,
+          133
         ],
-        "bold": false,
-        "color": [
-          132,
-          90,
-          170
+        "secondary": [
+          168,
+          54,
+          94
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tumble memorize black-and-white",
-        "theme_topic": "Brick",
-        "underline": true
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#a4d08f\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#dac02a\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
+        "theme_topic": "Nappy"
       },
-      "type": "text",
+      "type": "svg",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.9672,
-        "w": 0.9695,
-        "x": 7.5481,
-        "y": 2.6374
+        "h": 0.5006,
+        "w": 1.6093,
+        "x": 3.607,
+        "y": 5.2543
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
-        "fill": [
-          86,
-          104,
-          55
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          77,
+          162,
+          192
         ],
-        "focus": false,
-        "line": [
-          67,
-          42,
-          147
-        ],
-        "line_width": 4.953401144678338,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Brick"
+        "font_face": "Arial",
+        "font_size": 16,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Interrupt Flap",
+        "theme_topic": "Nappy",
+        "underline": true
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 24
     }
   ],

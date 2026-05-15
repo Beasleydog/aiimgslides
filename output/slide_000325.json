@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        139,
-        78,
-        190
+      "colors": [
+        [
+          208,
+          98,
+          120
+        ],
+        [
+          32,
+          119,
+          149
+        ]
       ],
       "fill": [
-        120,
-        58,
-        170
+        198,
+        64,
+        91
       ],
-      "fore_color": [
-        171,
-        200,
-        70
-      ],
-      "pattern": 14,
-      "style": "pattern",
-      "theme_topic": "Story Aspiring"
+      "focus": "top_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Educate"
     },
     "type": "background",
     "z_order": 0
@@ -41,149 +45,155 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.7428,
-        "w": 3.6345,
-        "x": -0.2519,
-        "y": 4.1383
+        "h": 3.1596,
+        "w": 5.2161,
+        "x": 3.1831,
+        "y": 1.3187
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
+        "dash": 4,
+        "family": "flowchart",
         "fill": [
-          117,
-          80,
-          76
+          166,
+          159,
+          129
         ],
         "focus": false,
         "line": [
-          151,
-          143,
-          47
+          166,
+          223,
+          224
         ],
-        "line_width": 6.9747248994196545,
+        "line_width": 5.415582423489042,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Story Aspiring"
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Educate"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.8959,
-        "w": 8.0656,
-        "x": 0.7734,
-        "y": 5.8504
+        "h": 1.5627,
+        "w": 5.714,
+        "x": 5.2342,
+        "y": 3.1657
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          250,
-          255
+        "dash": 7,
+        "family": "arrows",
+        "fill": [
+          86,
+          63,
+          202
         ],
-        "font_face": "Aptos Display",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Simplistic Party",
-        "theme_topic": "Story Aspiring",
-        "underline": false
+        "focus": false,
+        "line": [
+          210,
+          222,
+          190
+        ],
+        "line_width": 5.913246770948024,
+        "outline_only": false,
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Educate"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.0191,
-        "w": 3.356,
-        "x": 5.2164,
-        "y": 0.5641
+        "h": 4.9814,
+        "w": 3.6316,
+        "x": 5.4977,
+        "y": 2.6222
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          139,
-          78,
-          190
+          118,
+          91,
+          159
         ],
+        "focus": false,
         "line": [
-          139,
-          78,
-          190
+          222,
+          149,
+          45
         ],
-        "line_width": 1.4122803269352238,
+        "line_width": 7.928990820348474,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Story Aspiring"
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Educate"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.156,
-        "w": 2.9826,
-        "x": 5.4185,
-        "y": 1.4475
+        "h": 7.5162,
+        "w": 0.7128,
+        "x": 12.6001,
+        "y": -0.0045
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          250,
-          255
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          208,
+          98,
+          120
         ],
-        "font_face": "Aptos Display",
-        "font_size": 35,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "3x",
-        "theme_topic": "Story Aspiring",
-        "underline": false
+        "line": [
+          208,
+          98,
+          120
+        ],
+        "line_width": 4.2324362129392705,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Educate"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.6994,
-        "w": 2.9953,
-        "x": 5.3901,
-        "y": 3.6069
+        "h": 5.5357,
+        "w": 2.8328,
+        "x": 0.636,
+        "y": 0.7467
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          255,
-          250,
-          255
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 28,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "possessive space noxious assorted",
-        "theme_topic": "Story Aspiring",
+        "text": "Questionable",
+        "theme_topic": "Educate",
         "underline": false
       },
       "type": "text",
@@ -191,115 +201,105 @@
     },
     {
       "bbox": {
-        "h": 0.4569,
-        "w": 3.9073,
-        "x": 0.8011,
-        "y": 1.4356
+        "h": 6.274,
+        "w": 3.7691,
+        "x": 3.7227,
+        "y": 0.6285
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
+        "clip": "ticket",
+        "focus": true,
+        "line": [
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Eminent",
-        "theme_topic": "Story Aspiring",
-        "underline": false
+        "line_width": 8,
+        "theme_topic": "Educate"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4526,
-        "w": 3.9101,
-        "x": 0.7991,
-        "y": 3.0926
+        "h": 6.2691,
+        "w": 4.6604,
+        "x": 8.0389,
+        "y": 0.6553
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          208,
+          98,
+          120
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Ban Act",
-        "theme_topic": "Story Aspiring",
-        "underline": false
+        "line": [
+          208,
+          98,
+          120
+        ],
+        "line_width": 1.2480098908298376,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Educate"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4669,
-        "w": 3.8912,
-        "x": 0.7942,
-        "y": 4.2063
+        "h": 5.9568,
+        "w": 4.3818,
+        "x": 8.1807,
+        "y": 0.8252
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
+        "clip": "arch",
+        "focus": true,
+        "line": [
+          123,
+          143,
+          51
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Listen",
-        "theme_topic": "Story Aspiring",
-        "underline": false
+        "line_width": 8,
+        "theme_topic": "Educate"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.427,
-        "w": 3.876,
-        "x": 0.8223,
-        "y": 5.4892
+        "h": 0.3887,
+        "w": 1.7898,
+        "x": 11.1486,
+        "y": 5.971
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          71,
-          221,
-          181
+          72,
+          154,
+          136
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Daily Scared",
-        "theme_topic": "Story Aspiring",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "piquant bump kind please",
+        "theme_topic": "Educate",
         "underline": false
       },
       "type": "text",

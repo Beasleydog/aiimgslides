@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        116,
-        99,
-        205
+      "colors": [
+        [
+          47,
+          136,
+          190
+        ],
+        [
+          38,
+          104,
+          33
+        ]
       ],
       "fill": [
-        84,
-        63,
-        194
+        33,
+        115,
+        169
       ],
-      "fore_color": [
-        25,
-        60,
-        96
-      ],
-      "pattern": 52,
-      "style": "pattern",
-      "theme_topic": "Understood"
+      "focus": "top_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Knit Auspicious"
     },
     "type": "background",
     "z_order": 0
@@ -41,138 +45,125 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.4963,
-        "w": 7.8975,
-        "x": 2.0335,
-        "y": 1.9921
+        "h": 3.9149,
+        "w": 7.3397,
+        "x": -0.8094,
+        "y": 4.0011
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "ribbons",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          154,
-          36,
-          86
+          76,
+          122,
+          165
         ],
         "focus": false,
         "line": [
-          160,
-          143,
-          102
+          202,
+          84,
+          142
         ],
-        "line_width": 2.701389607280645,
-        "outline_only": true,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Understood"
+        "line_width": 4.722697375965405,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Knit Auspicious"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.1796,
-        "w": 4.6399,
-        "x": 4.1555,
-        "y": 0.8368
+        "h": 1.373,
+        "w": 6.8044,
+        "x": 0.529,
+        "y": 0.3532
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          153,
-          131,
-          123
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          250,
+          252,
+          255
         ],
-        "focus": false,
-        "line": [
-          32,
-          94,
-          225
-        ],
-        "line_width": 2.308354687432103,
-        "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Understood"
+        "font_face": "Georgia",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Understood Trouble Moaning",
+        "theme_topic": "Knit Auspicious",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.3043,
-        "w": 4.6826,
-        "x": 3.2237,
-        "y": 0.3008
+        "h": 2.7314,
+        "w": 12.2214,
+        "x": 0.5808,
+        "y": 1.8484
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          97,
-          89,
-          178
-        ],
-        "focus": false,
+        "clip": "arch",
+        "focus": true,
         "line": [
-          178,
-          82,
-          37
+          51,
+          150,
+          203
         ],
-        "line_width": 7.9354622867014815,
-        "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Understood"
+        "line_width": 18,
+        "theme_topic": "Knit Auspicious"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.2999,
-        "w": 3.4691,
-        "x": 1.4183,
-        "y": 3.5807
+        "h": 2.0801,
+        "w": 5.0354,
+        "x": 0.5378,
+        "y": 4.907
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          114,
-          140,
-          116
+          47,
+          136,
+          190
         ],
-        "focus": false,
         "line": [
-          38,
-          220,
-          198
+          47,
+          136,
+          190
         ],
-        "line_width": 4.180131158644785,
+        "line_width": 1.9536108984808673,
         "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Understood"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Knit Auspicious"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.5634,
-        "w": 2.8606,
-        "x": 0.6648,
-        "y": 0.7479
+        "h": 0.793,
+        "w": 4.6786,
+        "x": 0.7228,
+        "y": 5.3513
       },
       "id": "object_005",
       "properties": {
@@ -180,17 +171,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          250,
+          252,
+          255
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 19,
+        "font_face": "Georgia",
+        "font_size": 43,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Enthusiastic",
-        "theme_topic": "Understood",
+        "text": "10x",
+        "theme_topic": "Knit Auspicious",
         "underline": false
       },
       "type": "text",
@@ -198,31 +189,31 @@
     },
     {
       "bbox": {
-        "h": 1.9062,
-        "w": 1.141,
-        "x": 5.6126,
-        "y": 1.5611
+        "h": 1.7776,
+        "w": 3.0675,
+        "x": 6.104,
+        "y": 5.0659
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          173,
-          164,
-          225
+        "crop": [
+          0.19586180338623507,
+          0.1628569167076943,
+          0.1429518268185943,
+          0.18545283506125418
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "keen salt miniature tender debonair nonstop",
-        "theme_topic": "Understood",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          255,
+          198,
+          74
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Knit Auspicious",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 6
     }
   ],

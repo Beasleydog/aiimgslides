@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        113,
-        119,
-        168
+        232,
+        237,
+        247
       ],
       "fill": [
-        156,
-        207,
-        60
+        245,
+        247,
+        252
       ],
       "fore_color": [
-        32,
-        119,
-        149
+        82,
+        96,
+        214
       ],
-      "pattern": 28,
+      "pattern": 49,
       "style": "pattern",
-      "theme_topic": "Furniture Drum"
+      "theme_topic": "Earn"
     },
     "type": "background",
     "z_order": 0
@@ -41,34 +41,31 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.957,
-        "w": 8.3732,
-        "x": 4.5321,
-        "y": 2.7516
+        "h": 2.322,
+        "w": 7.4668,
+        "x": 2.4002,
+        "y": 2.2249
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          188,
-          101,
-          54
+        "crop": [
+          0.11936997835249155,
+          0.3233706707020349,
+          0.06993121635403082,
+          0.23912128532224142
         ],
-        "focus": false,
-        "line": [
-          119,
-          48,
-          220
+        "focus": true,
+        "mask_line": [
+          173,
+          54,
+          50
         ],
-        "line_width": 5.125381873437597,
-        "outline_only": false,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Furniture Drum"
+        "mask_overlay": false,
+        "theme_topic": "Earn",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 1
     }
   ],

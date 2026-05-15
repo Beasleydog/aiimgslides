@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          75,
-          178,
-          207
-        ],
-        [
-          168,
-          54,
-          94
-        ]
+      "back_color": [
+        195,
+        117,
+        165
       ],
       "fill": [
-        155,
-        100,
-        73
+        163,
+        42,
+        116
       ],
-      "focus": "top_left",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Flashy Damaging"
+      "fore_color": [
+        96,
+        165,
+        250
+      ],
+      "pattern": 52,
+      "style": "pattern",
+      "theme_topic": "Hands"
     },
     "type": "background",
     "z_order": 0
@@ -45,25 +41,73 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.6307,
-        "w": 5.9541,
-        "x": 6.8253,
-        "y": 1.437
+        "h": 5.0603,
+        "w": 5.4417,
+        "x": 0.6012,
+        "y": 1.9038
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          32,
-          119,
-          149
+        "band": [
+          60,
+          113,
+          114
         ],
-        "line_width": 11,
-        "theme_topic": "Flashy Damaging"
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          195,
+          117,
+          165
+        ],
+        "border": [
+          206,
+          62,
+          203
+        ],
+        "border_dash": "solid",
+        "border_width": 1.0259966494622377,
+        "cells": [
+          [
+            "whistle",
+            "detailed imaginary",
+            "acid abashed",
+            "clear thankful",
+            "scorch pan"
+          ],
+          [
+            "planes",
+            "momentous",
+            "plough",
+            "paint ancient",
+            "prefer yell"
+          ],
+          [
+            "second",
+            "soda hapless",
+            "believe",
+            "wave young",
+            "sense threatening"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 5,
+        "has_header": true,
+        "header": [
+          96,
+          165,
+          250
+        ],
+        "rows": 3,
+        "text_color": [
+          80,
+          87,
+          184
+        ],
+        "theme_topic": "Hands"
       },
-      "type": "svg_image",
+      "type": "table",
       "z_order": 1
     }
   ],

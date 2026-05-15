@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
+      "angle": 180,
       "archetype": "atomic_composition",
       "colors": [
         [
-          130,
-          78,
-          88
+          40,
+          45,
+          63
         ],
         [
-          83,
-          177,
-          180
+          31,
+          206,
+          79
         ]
       ],
       "fill": [
-        105,
-        213,
-        143
+        40,
+        45,
+        63
       ],
       "focus": "top_left",
-      "gradient_type": "rectangular",
+      "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Poke Jaded"
+      "theme_topic": "Effect Scarecrow"
     },
     "type": "background",
     "z_order": 0
@@ -45,73 +45,493 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.6483,
-        "w": 3.7796,
-        "x": 3.9715,
-        "y": 0.2842
+        "h": 5.0812,
+        "w": 5.8037,
+        "x": 2.8737,
+        "y": 2.2469
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 4,
+        "family": "flowchart",
         "fill": [
-          61,
-          187,
-          75
+          46,
+          77,
+          57
         ],
         "focus": false,
         "line": [
-          155,
-          62,
-          45
+          145,
+          175,
+          172
         ],
-        "line_width": 2.643791088672333,
+        "line_width": 3.309519960531672,
         "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Poke Jaded"
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Effect Scarecrow"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.985,
-        "w": 6.2284,
-        "x": 0.5414,
-        "y": 0.3351
+        "h": 4.381,
+        "w": 9.4094,
+        "x": 0.6253,
+        "y": 0.9797
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          74,
+          78,
+          93
+        ],
+        "line": [
+          93,
+          96,
+          110
+        ],
+        "line_width": 1.2019901517388556,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Effect Scarecrow"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 5.8057,
+        "w": 3.1891,
+        "x": 9.4215,
+        "y": 0.6253
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
         "font_face": "Georgia",
-        "font_size": 37,
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Nasty Stain",
-        "theme_topic": "Poke Jaded",
+        "text": "Scintillating Sour Arch",
+        "theme_topic": "Effect Scarecrow",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
+      "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.4395,
-        "w": 1.2915,
-        "x": 8.5159,
-        "y": 1.8892
+        "h": 2.7567,
+        "w": 2.1976,
+        "x": 0.6696,
+        "y": 0.6452
       },
-      "id": "object_003",
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          93,
+          96,
+          110
+        ],
+        "line": [
+          93,
+          96,
+          110
+        ],
+        "line_width": 0.8807700515450794,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Effect Scarecrow"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.5431,
+        "w": 0.5276,
+        "x": 0.8595,
+        "y": 0.8962
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          48,
+          37,
+          198
+        ],
+        "focus": false,
+        "line": [
+          88,
+          204,
+          150
+        ],
+        "line_width": 1.2445564329228276,
+        "outline_only": true,
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Effect Scarecrow"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.4496,
+        "w": 1.6969,
+        "x": 0.9032,
+        "y": 1.5457
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Tested Breath",
+        "theme_topic": "Effect Scarecrow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 1.079,
+        "w": 1.6958,
+        "x": 0.916,
+        "y": 2.1109
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          153,
+          156,
+          166
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "rightful quartz church bedroom unwritten call route observant efficient humor reply",
+        "theme_topic": "Effect Scarecrow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 2.7242,
+        "w": 3.2146,
+        "x": 3.0516,
+        "y": 0.6656
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          93,
+          96,
+          110
+        ],
+        "line": [
+          93,
+          96,
+          110
+        ],
+        "line_width": 4.059873342151484,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Effect Scarecrow"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.4654,
+        "w": 2.7173,
+        "x": 3.3434,
+        "y": 1.5749
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Hose Past",
+        "theme_topic": "Effect Scarecrow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 1.0715,
+        "w": 2.7204,
+        "x": 3.2963,
+        "y": 2.1143
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          153,
+          156,
+          166
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "abiding extra-small number pass friend zipper crooked event",
+        "theme_topic": "Effect Scarecrow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 2.7275,
+        "w": 2.3599,
+        "x": 6.5084,
+        "y": 0.6595
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          93,
+          96,
+          110
+        ],
+        "line": [
+          93,
+          96,
+          110
+        ],
+        "line_width": 1.665637653875368,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Effect Scarecrow"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.5179,
+        "w": 0.524,
+        "x": 6.6821,
+        "y": 0.9007
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "arrows",
+        "fill": [
+          133,
+          116,
+          82
+        ],
+        "focus": false,
+        "line": [
+          154,
+          26,
+          130
+        ],
+        "line_width": 3.774319498335847,
+        "outline_only": false,
+        "ppt_type": 49,
+        "shape": "striped_right_arrow",
+        "theme_topic": "Effect Scarecrow"
+      },
+      "type": "shape",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.4739,
+        "w": 1.851,
+        "x": 6.753,
+        "y": 1.5525
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Paint Curved",
+        "theme_topic": "Effect Scarecrow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 1.0943,
+        "w": 1.827,
+        "x": 6.7499,
+        "y": 2.1245
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          153,
+          156,
+          166
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "trains weigh tickle stomach deranged plough irritate cooing",
+        "theme_topic": "Effect Scarecrow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 1.7113,
+        "w": 3.2779,
+        "x": 0.8284,
+        "y": 3.954
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Georgia",
+        "font_size": 24,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Launch Paddle Rampant Crabby Scrape Fancy Talented",
+        "theme_topic": "Effect Scarecrow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.4895,
+        "w": 1.8306,
+        "x": 0.8391,
+        "y": 5.9384
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "TELEPHONE SCREW",
+        "theme_topic": "Effect Scarecrow",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 3.1245,
+        "w": 4.1998,
+        "x": 4.6431,
+        "y": 3.7509
+      },
+      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
@@ -120,449 +540,43 @@
           0,
           0
         ],
-        "focus": false,
+        "focus": true,
         "mask_line": [
-          71,
-          221,
-          181
+          37,
+          53,
+          179
         ],
         "mask_overlay": false,
-        "theme_topic": "Poke Jaded",
+        "theme_topic": "Effect Scarecrow",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.4586,
-        "w": 1.3263,
-        "x": 9.9621,
-        "y": 1.921
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": false,
-        "line": [
-          67,
-          91,
-          158
-        ],
-        "line_width": 11,
-        "theme_topic": "Poke Jaded"
-      },
-      "type": "svg_image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.4238,
-        "w": 1.2931,
-        "x": 11.4198,
-        "y": 1.9324
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.03717366672312329,
-          0.27025457650851714,
-          0.0535495251498949,
-          0.14553344126078563
-        ],
-        "focus": false,
-        "mask_line": [
-          124,
-          125,
-          61
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Poke Jaded",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.2862,
-        "w": 0.8989,
-        "x": 11.6063,
-        "y": 3.9132
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Torpid Unsightly",
-        "theme_topic": "Poke Jaded",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 2.4213,
-        "w": 1.2872,
-        "x": 8.4613,
-        "y": 4.4763
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.11406674355673653,
-          0.1467750615182265,
-          0.2720334465322791,
-          0.2964958836849477
-        ],
-        "focus": false,
-        "mask_line": [
-          71,
-          221,
-          181
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Poke Jaded",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 2.4283,
-        "w": 1.3169,
-        "x": 9.9695,
-        "y": 4.5033
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          84,
-          171,
-          114
-        ],
-        "line": [
-          84,
-          171,
-          114
-        ],
-        "line_width": 2.4093436879966355,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Poke Jaded"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 2.1513,
-        "w": 1.0408,
-        "x": 10.0766,
-        "y": 4.6366
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.08697919726418177,
-          0.2108417774293465,
-          0.08668408774606136,
-          0.20592605426992924
-        ],
-        "focus": false,
-        "mask_line": [
-          71,
-          221,
-          181
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Poke Jaded",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.2969,
-        "w": 0.9109,
-        "x": 10.1693,
-        "y": 6.5194
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Rampant Regret",
-        "theme_topic": "Poke Jaded",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 2.4329,
-        "w": 1.3034,
-        "x": 11.4305,
-        "y": 4.523
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.03814694900761074,
-          0.2657597115349386,
-          0.19601227491340859,
-          0.21460352797792043
-        ],
-        "focus": false,
-        "mask_line": [
-          71,
-          221,
-          181
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Poke Jaded",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.279,
-        "w": 0.9254,
-        "x": 11.6381,
-        "y": 6.5157
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Complain",
-        "theme_topic": "Poke Jaded",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 5.1458,
-        "w": 2.2971,
-        "x": 0.5597,
-        "y": 1.8539
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          84,
-          171,
-          114
-        ],
-        "line": [
-          84,
-          171,
-          114
-        ],
-        "line_width": 0.8197645713064035,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Poke Jaded"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.4718,
-        "w": 1.8035,
-        "x": 0.8199,
-        "y": 2.7637
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Scientific Stroke",
-        "theme_topic": "Poke Jaded",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 3.5088,
-        "w": 1.8016,
-        "x": 0.7913,
-        "y": 3.2947
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          62,
-          112,
-          84
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "zonked freezing weight injure handy cheat rule upbeat apathetic",
-        "theme_topic": "Poke Jaded",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 5.1379,
-        "w": 2.3102,
-        "x": 3.0843,
-        "y": 1.8494
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          84,
-          171,
-          114
-        ],
-        "line": [
-          84,
-          171,
-          114
-        ],
-        "line_width": 1.6840294072534165,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Poke Jaded"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.4446,
-        "w": 1.8192,
-        "x": 3.3286,
-        "y": 2.7328
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Extend",
-        "theme_topic": "Poke Jaded",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 3.495,
-        "w": 1.7752,
-        "x": 3.3404,
-        "y": 3.2826
+        "h": 0.2926,
+        "w": 3.8322,
+        "x": 4.85,
+        "y": 6.4518
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          62,
-          112,
-          84
+          255,
+          198,
+          74
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "cloth gamy rescue unusual blushing brown greedy force true ill donkey zealous wet",
-        "theme_topic": "Poke Jaded",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Impartial Erratic",
+        "theme_topic": "Effect Scarecrow",
         "underline": false
       },
       "type": "text",
@@ -570,150 +584,160 @@
     },
     {
       "bbox": {
-        "h": 5.1618,
-        "w": 2.3893,
-        "x": 5.6075,
-        "y": 1.8369
+        "h": 0.8594,
+        "w": 1.1688,
+        "x": 4.2017,
+        "y": 3.4607
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
+        "dash": 5,
+        "family": "symbols",
         "fill": [
-          84,
-          171,
-          114
+          156,
+          143,
+          94
         ],
+        "focus": false,
         "line": [
-          84,
-          171,
-          114
+          148,
+          150,
+          179
         ],
-        "line_width": 4.611754516422979,
+        "line_width": 2.1000043070581285,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Poke Jaded"
+        "ppt_type": 174,
+        "shape": "funnel",
+        "theme_topic": "Effect Scarecrow"
       },
       "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.4542,
-        "w": 1.8754,
-        "x": 5.8279,
-        "y": 2.7436
+        "h": 0.7885,
+        "w": 1.1868,
+        "x": 2.5596,
+        "y": 6.0618
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
+        "dash": 5,
+        "family": "basic",
+        "fill": [
+          180,
+          149,
+          159
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Bounce",
-        "theme_topic": "Poke Jaded",
-        "underline": false
+        "focus": false,
+        "line": [
+          140,
+          115,
+          168
+        ],
+        "line_width": 1.7037981803018807,
+        "outline_only": false,
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Effect Scarecrow"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 3.4944,
-        "w": 1.8692,
-        "x": 5.8601,
-        "y": 3.2979
+        "h": 0.7952,
+        "w": 1.1171,
+        "x": 7.344,
+        "y": 4.7293
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          62,
-          112,
-          84
+        "dash": 5,
+        "family": "arrows",
+        "fill": [
+          72,
+          187,
+          192
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "naughty impress squeak aspiring bath yummy woozy shave want quaint house groovy",
-        "theme_topic": "Poke Jaded",
-        "underline": false
+        "focus": false,
+        "line": [
+          164,
+          137,
+          107
+        ],
+        "line_width": 3.5322599845881624,
+        "outline_only": false,
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Effect Scarecrow"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.3625,
-        "w": 0.6579,
-        "x": 9.1197,
-        "y": 1.1042
+        "h": 0.954,
+        "w": 1.1076,
+        "x": 0.2958,
+        "y": 0.3543
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          201,
-          164,
-          106
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          42,
+          195,
+          174
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Flippant Whole Voracious",
-        "theme_topic": "Poke Jaded",
-        "underline": false
+        "focus": false,
+        "line": [
+          104,
+          186,
+          53
+        ],
+        "line_width": 1.4985159721832073,
+        "outline_only": false,
+        "ppt_type": 164,
+        "shape": "minus",
+        "theme_topic": "Effect Scarecrow"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.4135,
-        "w": 1.6462,
-        "x": 4.2119,
-        "y": 0.3074
+        "h": 0.447,
+        "w": 2.0995,
+        "x": 5.6057,
+        "y": 4.334
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": [
-          27,
-          227,
-          60
+          89,
+          127,
+          48
         ],
         "bold": false,
         "color": [
-          105,
-          127,
-          78
+          47,
+          210,
+          215
         ],
         "font_face": "Aptos",
-        "font_size": 9,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Cruel Unable",
-        "theme_topic": "Poke Jaded",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "clammy cave noxious flood",
+        "theme_topic": "Effect Scarecrow",
         "underline": false
       },
       "type": "text",
@@ -721,67 +745,66 @@
     },
     {
       "bbox": {
-        "h": 0.7937,
-        "w": 0.962,
-        "x": 11.9104,
-        "y": 1.6324
+        "h": 1.1575,
+        "w": 1.4071,
+        "x": 3.6788,
+        "y": 0.8255
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "symbols",
+        "dash": 7,
+        "family": "arrows",
         "fill": [
-          73,
-          197,
-          209
+          93,
+          96,
+          110
         ],
         "focus": false,
         "line": [
-          184,
-          180,
-          217
+          165,
+          185,
+          210
         ],
-        "line_width": 4.739234356280687,
+        "line_width": 3.6715772686268395,
         "outline_only": false,
-        "ppt_type": 173,
-        "shape": "gear9",
-        "theme_topic": "Poke Jaded"
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Effect Scarecrow"
       },
       "type": "shape",
       "z_order": 24
     },
     {
       "bbox": {
-        "h": 0.2136,
-        "w": 0.8171,
-        "x": 1.3682,
-        "y": 6.7529
+        "h": 0.2,
+        "w": 1.001,
+        "x": 1.1163,
+        "y": 3.0291
       },
       "id": "object_025",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          188,
-          42,
-          126
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          115,
+          185,
+          117
         ],
-        "bold": false,
-        "color": [
-          47,
-          90,
-          220
+        "focus": false,
+        "line": [
+          33,
+          214,
+          224
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "energetic",
-        "theme_topic": "Poke Jaded",
-        "underline": false
+        "line_width": 5.979391385990289,
+        "outline_only": false,
+        "ppt_type": 7,
+        "shape": "triangle",
+        "theme_topic": "Effect Scarecrow"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 25
     }
   ],

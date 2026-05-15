@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "fill": [
-        99,
-        128,
-        69
+      "colors": [
+        [
+          53,
+          120,
+          91
+        ],
+        [
+          255,
+          117,
+          117
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Earn"
+      "fill": [
+        33,
+        115,
+        169
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Peck Rat"
     },
     "type": "background",
     "z_order": 0
@@ -30,192 +45,165 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.501,
-        "w": 0.5588,
-        "x": 12.7548,
-        "y": -0.0123
+        "h": 4.1414,
+        "w": 3.5742,
+        "x": 2.1996,
+        "y": 3.1656
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          138,
-          159,
-          115
+          170,
+          173,
+          95
         ],
+        "focus": false,
         "line": [
-          138,
-          159,
-          115
+          44,
+          85,
+          61
         ],
-        "line_width": 3.8511702925466507,
+        "line_width": 2.954703789592082,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Earn"
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Peck Rat"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9216,
-        "w": 5.3979,
-        "x": 3.6183,
-        "y": 0.6177
+        "h": 7.5017,
+        "w": 6.0368,
+        "x": -0.0124,
+        "y": 0.0024
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Arial",
-        "font_size": 35,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Liquid Dashing",
-        "theme_topic": "Earn",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.6738,
-        "w": 6.0109,
-        "x": 6.7802,
-        "y": 4.3493
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          138,
-          159,
-          115
-        ],
-        "line": [
-          138,
-          159,
-          115
-        ],
-        "line_width": 5.214391236330521,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Earn"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.1776,
-        "w": 5.496,
-        "x": 7.0486,
-        "y": 4.598
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "good",
-          "lumpy",
-          "sand",
-          "hand",
-          "soothe"
-        ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              93,
-              100,
-              224
-            ],
-            "name": "doubtful hilarious",
-            "values": [
-              66,
-              81,
-              95,
-              44,
-              59
-            ]
-          },
-          {
-            "color": [
-              137,
-              83,
-              128
-            ],
-            "name": "meat",
-            "values": [
-              28,
-              87,
-              23,
-              15,
-              47
-            ]
-          }
-        ],
-        "theme_topic": "Earn",
-        "title": "drown haircut settle"
-      },
-      "type": "chart",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.6513,
-        "w": 6.0065,
-        "x": 6.7672,
-        "y": 1.4414
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          82,
-          96,
-          214
+          47,
+          136,
+          190
         ],
         "line": [
-          138,
-          159,
-          115
+          47,
+          136,
+          190
         ],
-        "line_width": 4.850329922872393,
+        "line_width": 0.8164786679805702,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Peck Rat"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 5.7943,
+        "w": 3.1789,
+        "x": 9.4089,
+        "y": 0.642
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          250,
+          252,
+          255
+        ],
+        "font_face": "Georgia",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Gullible Square",
+        "theme_topic": "Peck Rat",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.5835,
+        "w": 4.2597,
+        "x": 4.5644,
+        "y": 0.641
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          47,
+          136,
+          190
+        ],
+        "line": [
+          47,
+          136,
+          190
+        ],
+        "line_width": 1.1882047141379997,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Earn"
+        "theme_topic": "Peck Rat"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.5632,
+        "w": 0.5582,
+        "x": 4.8321,
+        "y": 0.8808
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          223,
+          137,
+          122
+        ],
+        "focus": false,
+        "line": [
+          58,
+          173,
+          54
+        ],
+        "line_width": 2.3301844189428293,
+        "outline_only": false,
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Peck Rat"
       },
       "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.0233,
-        "w": 5.6535,
-        "x": 6.9465,
-        "y": 2.0133
+        "h": 0.431,
+        "w": 3.7817,
+        "x": 4.8237,
+        "y": 1.5593
       },
       "id": "object_006",
       "properties": {
@@ -223,17 +211,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          255,
+          198,
+          74
         ],
-        "font_face": "Arial",
-        "font_size": 55,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "7x",
-        "theme_topic": "Earn",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Dangerous",
+        "theme_topic": "Peck Rat",
         "underline": false
       },
       "type": "text",
@@ -241,208 +229,208 @@
     },
     {
       "bbox": {
-        "h": 0.6354,
-        "w": 5.6439,
-        "x": 6.9673,
-        "y": 3.0694
+        "h": 1.4922,
+        "w": 4.2817,
+        "x": 4.5962,
+        "y": 2.4635
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "street brave flaky notebook ad short real bang",
-        "theme_topic": "Earn",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.6273,
-        "w": 0.6085,
-        "x": 1.1318,
-        "y": 5.5219
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          82,
-          96,
-          214
+          47,
+          136,
+          190
         ],
         "line": [
-          138,
-          159,
-          115
+          47,
+          136,
+          190
         ],
-        "line_width": 1.6508017079931037,
+        "line_width": 1.4305372275422492,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Earn"
+        "theme_topic": "Peck Rat"
       },
       "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.4423,
+        "w": 3.7511,
+        "x": 4.8273,
+        "y": 3.3482
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Rely",
+        "theme_topic": "Peck Rat",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.9178,
-        "w": 1.6565,
-        "x": 0.6049,
-        "y": 5.8822
+        "h": 1.0201,
+        "w": 4.2596,
+        "x": 4.5727,
+        "y": 4.1316
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          47,
+          136,
+          190
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "farm clam error",
-        "theme_topic": "Earn",
-        "underline": false
+        "line": [
+          47,
+          136,
+          190
+        ],
+        "line_width": 0.8639081176253028,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Peck Rat"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.6287,
-        "w": 0.6019,
-        "x": 3.2631,
-        "y": 5.1122
+        "h": 0.4427,
+        "w": 3.7675,
+        "x": 4.824,
+        "y": 5.0223
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          82,
-          96,
-          214
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
         ],
-        "line": [
-          138,
-          159,
-          115
-        ],
-        "line_width": 1.0522956583578804,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Earn"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Plastic Crow",
+        "theme_topic": "Peck Rat",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.9096,
-        "w": 2.2238,
-        "x": 2.5576,
-        "y": 5.8853
+        "h": 1.521,
+        "w": 4.2708,
+        "x": 4.571,
+        "y": 5.3784
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          47,
+          136,
+          190
         ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "repeat face camp",
-        "theme_topic": "Earn",
-        "underline": false
+        "line": [
+          47,
+          136,
+          190
+        ],
+        "line_width": 1.4155732077995355,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Peck Rat"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5048,
-        "w": 0.5108,
-        "x": 5.45,
-        "y": 5.4127
+        "h": 0.4727,
+        "w": 3.7626,
+        "x": 4.8165,
+        "y": 6.2502
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          82,
-          96,
-          214
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
         ],
-        "line": [
-          138,
-          159,
-          115
-        ],
-        "line_width": 2.047813460153427,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Earn"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Club Invent",
+        "theme_topic": "Peck Rat",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.9103,
-        "w": 1.3729,
-        "x": 5.1073,
-        "y": 5.8697
+        "h": 1.0639,
+        "w": 3.2782,
+        "x": 0.8012,
+        "y": 0.7526
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          141,
+          202,
+          33
         ],
-        "font_face": "Arial",
-        "font_size": 15,
+        "font_face": "Georgia",
+        "font_size": 38,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "territory word wail sparkle carriage",
-        "theme_topic": "Earn",
+        "text": "Signal",
+        "theme_topic": "Peck Rat",
         "underline": false
       },
       "type": "text",
@@ -450,60 +438,57 @@
     },
     {
       "bbox": {
-        "h": 0.9771,
-        "w": 0.2643,
-        "x": 2.1828,
-        "y": 1.7455
+        "h": 4.7121,
+        "w": 3.2552,
+        "x": 0.8226,
+        "y": 2.0859
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          108,
-          166,
-          36
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          218,
+          235,
+          245
         ],
-        "focus": false,
-        "line": [
-          129,
-          41,
-          119
-        ],
-        "line_width": 1.323749998875539,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Earn"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "cakes jail lumber cloth fierce refuse soda spiders existence",
+        "theme_topic": "Peck Rat",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.299,
-        "w": 1.2905,
-        "x": 11.0242,
-        "y": 6.9174
+        "h": 0.5112,
+        "w": 1.2194,
+        "x": 7.9167,
+        "y": 0.7391
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          167,
-          210,
-          133
+          176,
+          201,
+          116
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "magenta trucks",
-        "theme_topic": "Earn",
+        "text": "pig stranger weigh",
+        "theme_topic": "Peck Rat",
         "underline": false
       },
       "type": "text",
@@ -511,59 +496,67 @@
     },
     {
       "bbox": {
-        "h": 0.8897,
-        "w": 1.637,
-        "x": 8.9936,
-        "y": 4.9349
+        "h": 0.693,
+        "w": 0.8544,
+        "x": 8.4075,
+        "y": 0.6075
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          228,
-          34,
-          165
+        "dash": 4,
+        "family": "stars",
+        "fill": [
+          139,
+          60,
+          72
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Earn",
-        "width": 1.7081666762977876
+        "focus": false,
+        "line": [
+          179,
+          64,
+          219
+        ],
+        "line_width": 0.9132727542607892,
+        "outline_only": false,
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Peck Rat"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.4016,
-        "w": 0.4277,
-        "x": 0.8798,
-        "y": 0.7925
+        "h": 0.2576,
+        "w": 1.0177,
+        "x": 10.1697,
+        "y": 4.0177
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "ribbons",
-        "fill": [
-          160,
+        "bg_color": [
           60,
-          137
+          206,
+          69
         ],
-        "focus": false,
-        "line": [
-          172,
-          32,
-          167
+        "bold": false,
+        "color": [
+          181,
+          155,
+          211
         ],
-        "line_width": 2.389511721665279,
-        "outline_only": true,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Earn"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Fetch Mend",
+        "theme_topic": "Peck Rat",
+        "underline": true
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     }
   ],

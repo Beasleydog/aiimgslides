@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 135,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          180,
-          208,
-          77
-        ],
-        [
-          32,
-          119,
-          149
-        ]
+      "back_color": [
+        90,
+        157,
+        196
       ],
       "fill": [
-        43,
-        39,
-        160
+        104,
+        181,
+        226
       ],
-      "focus": "bottom_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Supply"
+      "fore_color": [
+        222,
+        133,
+        62
+      ],
+      "pattern": 47,
+      "style": "pattern",
+      "theme_topic": "Elfin Sink"
     },
     "type": "background",
     "z_order": 0
@@ -45,60 +41,57 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.7649,
-        "w": 8.779,
-        "x": 2.4091,
-        "y": 2.9828
+        "h": 1.3158,
+        "w": 8.1491,
+        "x": 0.5506,
+        "y": 0.3313
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          94,
-          89,
-          184
-        ],
-        "focus": false,
-        "line": [
-          187,
-          32,
-          55
-        ],
-        "line_width": 6.668904628947365,
-        "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Supply"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 1.2888,
-        "w": 8.5826,
-        "x": 0.525,
-        "y": 0.3744
-      },
-      "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 28,
+        "font_face": "Georgia",
+        "font_size": 41,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Delightful Cow",
-        "theme_topic": "Supply",
+        "text": "Recondite Lunch Sand Stitch",
+        "theme_topic": "Elfin Sink",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 1.1036,
+        "w": 3.5807,
+        "x": 0.6935,
+        "y": 5.7473
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          62,
+          97,
+          121
+        ],
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "weary madly tawdry uppity momentous pretend easy acoustics deranged joke cable late loud floor poke auspicious bake lame six",
+        "theme_topic": "Elfin Sink",
         "underline": false
       },
       "type": "text",
@@ -106,56 +99,60 @@
     },
     {
       "bbox": {
-        "h": 2.3035,
-        "w": 12.246,
-        "x": 0.5547,
-        "y": 1.855
+        "h": 1.1035,
+        "w": 3.5714,
+        "x": 4.8865,
+        "y": 3.0436
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          75,
-          72,
-          174
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          62,
+          97,
+          121
         ],
-        "line": [
-          75,
-          72,
-          174
-        ],
-        "line_width": 0.8967711663354858,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Supply"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "eye challenge aggressive undesirable distribution sea view unsightly sincere grin behave oatmeal standing juice wise puncture thrill chance foot cracker frighten vacation",
+        "theme_topic": "Elfin Sink",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.0207,
-        "w": 11.9416,
-        "x": 0.7093,
-        "y": 2.0161
+        "h": 2.4519,
+        "w": 3.8859,
+        "x": 4.7109,
+        "y": 4.5356
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          202,
-          214,
-          192
+        "crop": [
+          0.08647770180295465,
+          0.010496032173607686,
+          0.007712560770531212,
+          0.046155090734473075
         ],
-        "line_width": 13,
-        "theme_topic": "Supply"
+        "focus": true,
+        "mask_line": [
+          31,
+          117,
+          161
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Elfin Sink",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg_image",
+      "type": "image",
       "z_order": 4
     }
   ],

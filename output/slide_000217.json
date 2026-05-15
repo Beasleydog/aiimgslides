@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "fill": [
-        31,
-        87,
-        166
+      "colors": [
+        [
+          81,
+          121,
+          145
+        ],
+        [
+          204,
+          175,
+          136
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Bake"
+      "fill": [
+        81,
+        121,
+        145
+      ],
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Ship Sincere"
     },
     "type": "background",
     "z_order": 0
@@ -30,76 +45,171 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.8463,
-        "w": 7.7907,
-        "x": -1.0233,
-        "y": 2.8516
+        "h": 2.6396,
+        "w": 3.6784,
+        "x": 3.0416,
+        "y": 1.6483
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 1,
         "family": "callouts",
         "fill": [
-          49,
-          73,
-          122
+          123,
+          132,
+          104
         ],
         "focus": false,
         "line": [
-          225,
-          223,
-          63
+          144,
+          177,
+          87
         ],
-        "line_width": 6.5922312478137375,
-        "outline_only": true,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Bake"
+        "line_width": 3.6537766172184645,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Ship Sincere"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.0794,
-        "w": 6.6255,
-        "x": 4.9037,
-        "y": -0.6555
+        "h": 4.3641,
+        "w": 7.211,
+        "x": 5.3006,
+        "y": 2.3509
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "symbols",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          45,
-          180,
-          61
+          127,
+          144,
+          99
         ],
         "focus": false,
         "line": [
-          37,
-          202,
-          31
+          207,
+          174,
+          36
         ],
-        "line_width": 3.778703119512146,
+        "line_width": 7.910043018845091,
         "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Bake"
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Ship Sincere"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.0157,
-        "w": 7.6166,
-        "x": 0.5345,
-        "y": 0.3502
+        "h": 3.4286,
+        "w": 8.1327,
+        "x": -0.5786,
+        "y": 0.7477
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          149,
+          107,
+          70
+        ],
+        "focus": false,
+        "line": [
+          194,
+          137,
+          193
+        ],
+        "line_width": 6.366098840820943,
+        "outline_only": false,
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Ship Sincere"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 3.4952,
+        "w": 3.4875,
+        "x": 8.9853,
+        "y": 3.8809
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "basic",
+        "fill": [
+          45,
+          63,
+          112
+        ],
+        "focus": false,
+        "line": [
+          67,
+          211,
+          139
+        ],
+        "line_width": 7.17224931145506,
+        "outline_only": false,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Ship Sincere"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 7.5159,
+        "w": 13.3302,
+        "x": 0.0025,
+        "y": 3.4465
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          136,
+          163,
+          179
+        ],
+        "line": [
+          136,
+          163,
+          179
+        ],
+        "line_width": 1.5905025421654606,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Ship Sincere"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.9219,
+        "w": 3.7049,
+        "x": 3.6534,
+        "y": 0.5788
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -109,103 +219,16 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 29,
+        "font_face": "Arial",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hose Famous",
-        "theme_topic": "Bake",
+        "text": "Sedate Lyrical",
+        "theme_topic": "Ship Sincere",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.874,
-        "w": 12.2593,
-        "x": 0.5452,
-        "y": 4.1125
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": true,
-        "mask_line": [
-          52,
-          182,
-          163
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Bake",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.8729,
-        "w": 3.9366,
-        "x": 0.5819,
-        "y": 1.8681
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1305399975440707,
-          0.31816875443866643,
-          0.29720681698547735,
-          0.07676812233597743
-        ],
-        "focus": false,
-        "mask_line": [
-          48,
-          129,
-          73
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Bake",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.8598,
-        "w": 3.9311,
-        "x": 4.7173,
-        "y": 1.9227
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.03350112630578552,
-          0.18887205888289088,
-          0.04784531303042572,
-          0.05370981690974899
-        ],
-        "focus": false,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Bake",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 6
     }
   ],

@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
+      "angle": 270,
       "archetype": "atomic_composition",
       "colors": [
         [
-          176,
-          35,
-          194
+          184,
+          72,
+          50
         ],
         [
-          222,
-          133,
-          62
+          51,
+          63,
+          101
         ]
       ],
       "fill": [
-        247,
-        248,
-        246
+        29,
+        151,
+        112
       ],
-      "focus": "top_right",
-      "gradient_type": "rectangular",
+      "focus": "top_left",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Wiry Wash"
+      "theme_topic": "Time"
     },
     "type": "background",
     "z_order": 0
@@ -45,63 +45,60 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.2011,
-        "w": 6.6692,
-        "x": 1.344,
-        "y": -0.7636
+        "h": 3.3138,
+        "w": 4.0112,
+        "x": 1.8677,
+        "y": 1.949
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          146,
-          165,
-          127
+        "crop": [
+          0.13532109028270428,
+          0.20226876360462312,
+          0.14413948754398068,
+          0.30925759413024606
         ],
-        "focus": false,
-        "line": [
-          67,
-          41,
-          31
+        "focus": true,
+        "mask_line": [
+          133,
+          102,
+          61
         ],
-        "line_width": 3.5166594696556674,
-        "outline_only": true,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Wiry Wash"
+        "mask_overlay": false,
+        "theme_topic": "Time",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.7885,
-        "w": 3.1839,
-        "x": 9.3772,
-        "y": 0.6733
+        "h": 3.2759,
+        "w": 4.0057,
+        "x": 6.0068,
+        "y": 1.9592
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          30,
-          35,
-          42
+        "crop": [
+          0.000623497516081667,
+          0.3018346664894244,
+          0.1205056984497788,
+          0.10627156398943258
         ],
-        "font_face": "Georgia",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Education Competition",
-        "theme_topic": "Wiry Wash",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          116,
+          78,
+          224
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Time",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 2
     }
   ],

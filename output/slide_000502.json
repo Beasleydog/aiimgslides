@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 30,
+      "angle": 180,
       "archetype": "atomic_composition",
       "colors": [
         [
-          98,
-          203,
-          175
+          77,
+          131,
+          78
         ],
         [
-          125,
-          151,
-          54
+          205,
+          115,
+          28
         ]
       ],
       "fill": [
-        198,
-        64,
-        91
+        187,
+        88,
+        85
       ],
-      "focus": "bottom_right",
-      "gradient_type": "radial",
+      "focus": "top_left",
+      "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Form"
+      "theme_topic": "Call"
     },
     "type": "background",
     "z_order": 0
@@ -45,140 +45,76 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.1343,
-        "w": 3.8595,
-        "x": 5.0164,
-        "y": 5.0491
+        "h": 3.4852,
+        "w": 4.8559,
+        "x": 7.5477,
+        "y": 4.5042
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
+        "dash": 1,
+        "family": "ribbons",
         "fill": [
-          108,
-          166,
-          103
+          102,
+          81,
+          61
         ],
         "focus": false,
         "line": [
-          201,
-          82,
-          131
+          176,
+          213,
+          206
         ],
-        "line_width": 5.874586919226831,
-        "outline_only": true,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Form"
+        "line_width": 6.1226749430596925,
+        "outline_only": false,
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Call"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.9421,
-        "w": 7.1285,
-        "x": -0.9826,
-        "y": 5.0047
+        "h": 1.5372,
+        "w": 8.353,
+        "x": 1.2804,
+        "y": 2.8043
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "stars",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          79,
-          67,
-          122
+          174,
+          116,
+          66
         ],
         "focus": false,
         "line": [
-          48,
-          219,
-          188
+          166,
+          25,
+          77
         ],
-        "line_width": 3.5254401490553295,
-        "outline_only": true,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Form"
+        "line_width": 3.522854333581726,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Call"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.8082,
-        "w": 8.9698,
-        "x": 3.7244,
-        "y": 0.2497
+        "h": 0.8759,
+        "w": 5.4322,
+        "x": 0.7637,
+        "y": 5.846
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          191,
-          106,
-          89
-        ],
-        "focus": false,
-        "line": [
-          149,
-          216,
-          133
-        ],
-        "line_width": 4.058458426205179,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Form"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 4.631,
-        "w": 6.81,
-        "x": 1.0716,
-        "y": 0.0144
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          141,
-          120,
-          164
-        ],
-        "focus": false,
-        "line": [
-          202,
-          114,
-          123
-        ],
-        "line_width": 5.595236841208353,
-        "outline_only": true,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Form"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.0166,
-        "w": 6.5106,
-        "x": 0.5352,
-        "y": 0.3279
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -188,80 +124,136 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
+        "font_face": "Aptos Display",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Vessel Teeny-Tiny Entertaining Waiting",
-        "theme_topic": "Form",
+        "text": "Nondescript Shivering",
+        "theme_topic": "Call",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.1004,
+        "w": 6.8486,
+        "x": 3.2478,
+        "y": 4.4497
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          204,
+          132,
+          129
+        ],
+        "line": [
+          204,
+          132,
+          129
+        ],
+        "line_width": 5.3732308949070795,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Call"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.7863,
+        "w": 6.5391,
+        "x": 3.3763,
+        "y": 4.623
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "clip": "hex",
+        "focus": false,
+        "line": [
+          79,
+          214,
+          169
+        ],
+        "line_width": 8,
+        "theme_topic": "Call"
+      },
+      "type": "svg_image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.1212,
-        "w": 3.3433,
-        "x": 6.2119,
-        "y": 4.8635
+        "h": 0.2578,
+        "w": 6.5416,
+        "x": 3.4109,
+        "y": 1.5789
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": false,
-        "line": [
-          96,
-          165,
-          250
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
         ],
-        "line_width": 15,
-        "theme_topic": "Form"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "EFFECT IMPOLITE",
+        "theme_topic": "Call",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.7079,
-        "w": 2.3239,
-        "x": 3.4998,
-        "y": 4.9933
+        "h": 0.7964,
+        "w": 6.559,
+        "x": 3.3685,
+        "y": 2.066
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          157,
-          107,
-          162
-        ],
+        "bg_color": null,
         "bold": true,
         "color": [
-          210,
-          36,
-          157
+          246,
+          248,
+          252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 26,
+        "font_face": "Aptos Display",
+        "font_size": 31,
         "italic": true,
         "kind": "header",
         "margin": 0.04,
-        "text": "Anger Brown",
-        "theme_topic": "Form",
-        "underline": false
+        "text": "Zippy Aspiring Crayon Suppose",
+        "theme_topic": "Call",
+        "underline": true
       },
       "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.9216,
-        "w": 2.3179,
-        "x": 3.4801,
-        "y": 5.9627
+        "h": 1.0279,
+        "w": 6.5372,
+        "x": 3.3862,
+        "y": 3.084
       },
       "id": "object_008",
       "properties": {
@@ -269,17 +261,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          219,
+          176,
+          176
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "kindhearted delight gray overwrought talented station detail gentle repair windy ice deserted yoke animal ducks list male",
-        "theme_topic": "Form",
+        "text": "tap fair rare upbeat shirt guiltless governor title erect rhythm suspend",
+        "theme_topic": "Call",
         "underline": false
       },
       "type": "text",
@@ -287,10 +279,10 @@
     },
     {
       "bbox": {
-        "h": 2.1531,
-        "w": 2.5348,
-        "x": 0.5421,
-        "y": 4.8609
+        "h": 4.9958,
+        "w": 2.1839,
+        "x": 0.5681,
+        "y": 0.5466
       },
       "id": "object_009",
       "properties": {
@@ -298,77 +290,77 @@
         "dash": 7,
         "family": "panel",
         "fill": [
-          213,
-          116,
-          136
+          204,
+          132,
+          129
         ],
         "line": [
-          213,
-          116,
-          136
+          204,
+          132,
+          129
         ],
-        "line_width": 1.1980305426352593,
+        "line_width": 0.6817980548889954,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Form"
+        "theme_topic": "Call"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.7827,
-        "w": 2.1781,
-        "x": 0.7302,
-        "y": 5.3072
+        "h": 4.6773,
+        "w": 1.9153,
+        "x": 0.6979,
+        "y": 0.7215
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 42,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "162",
-        "theme_topic": "Form",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          214,
+          176,
+          68
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Call",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5042,
-        "w": 2.1442,
-        "x": 0.7248,
-        "y": 6.1179
+        "h": 0.2573,
+        "w": 1.8173,
+        "x": 0.7403,
+        "y": 5.0872
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          255,
+          198,
+          74
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "girls upset freezing snatch abounding breezy murder mark",
-        "theme_topic": "Form",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Drunk",
+        "theme_topic": "Call",
         "underline": false
       },
       "type": "text",
@@ -376,52 +368,62 @@
     },
     {
       "bbox": {
-        "h": 2.7191,
-        "w": 12.2245,
-        "x": 0.5355,
-        "y": 1.8234
+        "h": 0.3589,
+        "w": 0.9034,
+        "x": 8.0804,
+        "y": 2.7853
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          96,
-          165,
-          250
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          167,
+          191,
+          58
         ],
-        "line_width": 18,
-        "theme_topic": "Form"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Soda Unequal",
+        "theme_topic": "Call",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2732,
-        "w": 11.8159,
-        "x": 0.7497,
-        "y": 4.1004
+        "h": 0.5063,
+        "w": 2.0868,
+        "x": 9.0858,
+        "y": 5.6457
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          109,
+          73,
+          56
+        ],
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          25,
+          185,
+          221
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Rebel Jail",
-        "theme_topic": "Form",
-        "underline": false
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "decision multiply",
+        "theme_topic": "Call",
+        "underline": true
       },
       "type": "text",
       "z_order": 13

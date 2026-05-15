@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        120,
-        58,
-        170
+      "back_color": [
+        43,
+        51,
+        64
       ],
-      "style": "solid",
-      "theme_topic": "Busy"
+      "fill": [
+        25,
+        30,
+        39
+      ],
+      "fore_color": [
+        96,
+        165,
+        250
+      ],
+      "pattern": 22,
+      "style": "pattern",
+      "theme_topic": "Challenge"
     },
     "type": "background",
     "z_order": 0
@@ -30,103 +41,105 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.3751,
-        "w": 3.7215,
-        "x": 4.1806,
-        "y": 1.437
+        "h": 2.1395,
+        "w": 6.3569,
+        "x": 5.3567,
+        "y": -0.655
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 7,
+        "family": "ribbons",
         "fill": [
-          122,
-          88,
-          113
+          56,
+          59,
+          105
         ],
         "focus": false,
         "line": [
-          112,
-          46,
-          58
+          142,
+          203,
+          172
         ],
-        "line_width": 5.532357608763441,
+        "line_width": 5.094507509759509,
         "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Busy"
+        "ppt_type": 97,
+        "shape": "up_ribbon",
+        "theme_topic": "Challenge"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.1671,
-        "w": 7.6142,
-        "x": -0.475,
-        "y": -0.2975
+        "h": 3.5747,
+        "w": 8.1801,
+        "x": 0.3177,
+        "y": -0.5183
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "stars",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          106,
-          46,
-          171
+          68,
+          101,
+          41
         ],
         "focus": false,
         "line": [
-          216,
-          128,
-          65
+          26,
+          60,
+          180
         ],
-        "line_width": 2.9092809212732202,
+        "line_width": 5.457659398311134,
         "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Busy"
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Challenge"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9108,
-        "w": 4.2037,
-        "x": 5.7289,
-        "y": 1.1475
+        "h": 0.6841,
+        "w": 13.334,
+        "x": -0.0065,
+        "y": -0.0136
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          250,
-          255
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
         ],
-        "font_face": "Georgia",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Cloth Burly Sniff",
-        "theme_topic": "Busy",
-        "underline": false
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 2.2727498786005014,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Challenge"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.2976,
-        "w": 2.0719,
-        "x": 5.0614,
-        "y": 4.4132
+        "h": 1.0181,
+        "w": 5.8966,
+        "x": 0.5665,
+        "y": 0.3261
       },
       "id": "object_004",
       "properties": {
@@ -134,17 +147,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Aptos Display",
+        "font_size": 31,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "BIKE",
-        "theme_topic": "Busy",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Memory Dinner Wacky Trust",
+        "theme_topic": "Challenge",
         "underline": false
       },
       "type": "text",
@@ -152,10 +165,10 @@
     },
     {
       "bbox": {
-        "h": 0.2386,
-        "w": 2.0918,
-        "x": 5.0705,
-        "y": 4.9026
+        "h": 0.4503,
+        "w": 0.4915,
+        "x": 9.1888,
+        "y": 2.7257
       },
       "id": "object_005",
       "properties": {
@@ -163,17 +176,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          250,
-          255
+          96,
+          165,
+          250
         ],
-        "font_face": "Georgia",
-        "font_size": 18,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Farm",
-        "theme_topic": "Busy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Beautiful Stimulating",
+        "theme_topic": "Challenge",
         "underline": false
       },
       "type": "text",
@@ -181,64 +194,68 @@
     },
     {
       "bbox": {
-        "h": 1.5504,
-        "w": 3.8166,
-        "x": 0.9016,
-        "y": 3.663
+        "h": 0.7594,
+        "w": 0.5195,
+        "x": 9.2029,
+        "y": 3.2953
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
         ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 1.5390223492832698,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Busy"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "rude plain fixed liquid foamy poison stay attractive",
+        "theme_topic": "Challenge",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.2676,
-        "w": 3.5204,
-        "x": 1.0525,
-        "y": 3.825
+        "h": 0.7247,
+        "w": 0.496,
+        "x": 10.185,
+        "y": 3.3025
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": false,
-        "line": [
-          71,
-          221,
-          181
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
         ],
-        "line_width": 8,
-        "theme_topic": "Busy"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "lewd mass punish cooing meal sordid",
+        "theme_topic": "Challenge",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2987,
-        "w": 2.0322,
-        "x": 7.2364,
-        "y": 4.4082
+        "h": 0.4529,
+        "w": 0.4782,
+        "x": 11.0711,
+        "y": 2.7279
       },
       "id": "object_008",
       "properties": {
@@ -246,17 +263,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
         "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "LEATHER PARTNER",
-        "theme_topic": "Busy",
+        "text": "Foot Seal",
+        "theme_topic": "Challenge",
         "underline": false
       },
       "type": "text",
@@ -264,28 +281,28 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.0546,
-        "x": 7.257,
-        "y": 4.9125
+        "h": 0.7324,
+        "w": 0.5218,
+        "x": 11.0566,
+        "y": 3.2809
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          203,
-          207,
-          77
+          177,
+          185,
+          196
         ],
-        "font_face": "Georgia",
-        "font_size": 18,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "History",
-        "theme_topic": "Busy",
+        "text": "ready hose recognise cream key berry needless",
+        "theme_topic": "Challenge",
         "underline": false
       },
       "type": "text",
@@ -293,59 +310,57 @@
     },
     {
       "bbox": {
-        "h": 3.1094,
-        "w": 3.9674,
-        "x": 1.1511,
-        "y": 2.7089
+        "h": 0.4606,
+        "w": 0.4801,
+        "x": 12.2721,
+        "y": 2.7601
       },
       "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
-        ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 1.3393788845235104,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Busy"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.4654,
-        "w": 3.4895,
-        "x": 1.4112,
-        "y": 3.6179
-      },
-      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Detect",
-        "theme_topic": "Busy",
+        "text": "Knee Safe",
+        "theme_topic": "Challenge",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.7475,
+        "w": 0.5228,
+        "x": 12.2751,
+        "y": 3.2972
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "flaky giants murder breath picture private",
+        "theme_topic": "Challenge",
         "underline": false
       },
       "type": "text",
@@ -353,28 +368,28 @@
     },
     {
       "bbox": {
-        "h": 1.43,
-        "w": 3.4777,
-        "x": 1.3939,
-        "y": 4.1506
+        "h": 0.2606,
+        "w": 3.5481,
+        "x": 4.8831,
+        "y": 1.9614
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          230,
-          210,
-          240
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "count influence develop measure jog delicate secretive bake hapless magical delay zesty",
-        "theme_topic": "Busy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "GIRL",
+        "theme_topic": "Challenge",
         "underline": false
       },
       "type": "text",
@@ -382,59 +397,57 @@
     },
     {
       "bbox": {
-        "h": 3.117,
-        "w": 3.9495,
-        "x": 5.3347,
-        "y": 2.7009
+        "h": 0.6192,
+        "w": 3.5335,
+        "x": 4.9083,
+        "y": 2.4279
       },
       "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
-        ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 3.6365740717572432,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Busy"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.4532,
-        "w": 3.4677,
-        "x": 5.5953,
-        "y": 3.6154
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          217,
+          219,
+          186
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Upset Payment",
+        "theme_topic": "Challenge",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.8084,
+        "w": 3.5441,
+        "x": 4.8845,
+        "y": 3.3239
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Queue",
-        "theme_topic": "Busy",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "unusual chemical tire stir pumped temporary grain snobbish vessel",
+        "theme_topic": "Challenge",
         "underline": false
       },
       "type": "text",
@@ -442,10 +455,10 @@
     },
     {
       "bbox": {
-        "h": 1.473,
-        "w": 3.4578,
-        "x": 5.5856,
-        "y": 4.1397
+        "h": 0.5371,
+        "w": 0.6873,
+        "x": 7.5816,
+        "y": 5.8079
       },
       "id": "object_015",
       "properties": {
@@ -453,17 +466,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          230,
-          210,
-          240
+          179,
+          79,
+          58
         ],
         "font_face": "Aptos",
-        "font_size": 15,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "ultra cowardly dust erect regret weight overwrought follow car verdant",
-        "theme_topic": "Busy",
+        "text": "sneaky",
+        "theme_topic": "Challenge",
         "underline": false
       },
       "type": "text",

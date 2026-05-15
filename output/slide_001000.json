@@ -8,18 +8,18 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 90,
+      "angle": 30,
       "archetype": "atomic_composition",
       "colors": [
         [
-          25,
-          30,
-          39
+          43,
+          51,
+          64
         ],
         [
-          244,
-          180,
-          76
+          96,
+          165,
+          250
         ]
       ],
       "fill": [
@@ -30,7 +30,7 @@
       "focus": "center",
       "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Stream Gullible"
+      "theme_topic": "Ducks"
     },
     "type": "background",
     "z_order": 0
@@ -45,107 +45,202 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.7566,
-        "w": 5.726,
-        "x": 5.0911,
-        "y": 2.2262
+        "h": 2.4953,
+        "w": 5.0389,
+        "x": 4.949,
+        "y": 3.2566
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "math",
         "fill": [
-          39,
-          70,
-          127
+          116,
+          53,
+          52
         ],
         "focus": false,
         "line": [
-          185,
-          41,
-          111
+          36,
+          94,
+          154
         ],
-        "line_width": 4.1624546225366,
+        "line_width": 2.5296316957516938,
         "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Stream Gullible"
+        "ppt_type": 163,
+        "shape": "plus",
+        "theme_topic": "Ducks"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.8426,
-        "w": 5.9476,
-        "x": 1.5059,
-        "y": -0.5144
+        "h": 2.5678,
+        "w": 3.6412,
+        "x": -0.7356,
+        "y": 0.7892
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          101,
-          54,
-          74
+          68,
+          61,
+          94
         ],
         "focus": false,
         "line": [
-          154,
-          163,
-          87
+          75,
+          35,
+          118
         ],
-        "line_width": 5.74715567223916,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Stream Gullible"
+        "line_width": 5.84251333579822,
+        "outline_only": true,
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Ducks"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.5071,
-        "w": 6.9165,
-        "x": 0.0156,
-        "y": 0.0013
+        "h": 1.792,
+        "w": 6.8273,
+        "x": 1.5795,
+        "y": 0.3
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          43,
-          51,
-          64
+          70,
+          114,
+          88
         ],
+        "focus": false,
         "line": [
-          43,
-          51,
-          64
+          129,
+          100,
+          138
         ],
-        "line_width": 3.628168568437546,
+        "line_width": 3.9262152996449666,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Stream Gullible"
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Ducks"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.1337,
-        "w": 6.8903,
-        "x": 2.6661,
-        "y": 0.656
+        "h": 3.5709,
+        "w": 8.8285,
+        "x": 4.2495,
+        "y": 0.8959
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          83,
+          111,
+          136
+        ],
+        "focus": false,
+        "line": [
+          154,
+          210,
+          39
+        ],
+        "line_width": 6.550397557544262,
+        "outline_only": true,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Ducks"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 2.8554,
+        "x": 4.0514,
+        "y": 1.3516
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 3.737962721198833,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Ducks"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 1.6876,
+        "x": 4.1477,
+        "y": 5.7001
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 2.9881512610444396,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Ducks"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 5.551,
+        "w": 2.842,
+        "x": 0.6741,
+        "y": 0.7673
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -155,84 +250,55 @@
           247,
           249
         ],
-        "font_face": "Arial",
-        "font_size": 40,
+        "font_face": "Aptos Display",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Itchy Annoy",
-        "theme_topic": "Stream Gullible",
+        "text": "Door Slim",
+        "theme_topic": "Ducks",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
+      "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2593,
-        "w": 1.9222,
-        "x": 10.7173,
-        "y": 2.128
+        "h": 0.9524,
+        "w": 8.6867,
+        "x": 3.9177,
+        "y": 4.25
       },
-      "id": "object_005",
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          246,
+          247,
+          249
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "CLAM AXIOMATIC",
-        "theme_topic": "Stream Gullible",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.0288,
-        "w": 1.8949,
-        "x": 10.711,
-        "y": 2.6016
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          53,
-          79,
-          30
-        ],
-        "font_face": "Arial",
-        "font_size": 21,
+        "font_face": "Aptos Display",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hang",
-        "theme_topic": "Stream Gullible",
+        "text": "Curvy Step",
+        "theme_topic": "Ducks",
         "underline": false
       },
       "type": "text",
-      "z_order": 6
+      "z_order": 8
     },
     {
       "bbox": {
-        "h": 3.0337,
-        "w": 1.9123,
-        "x": 10.723,
-        "y": 3.882
+        "h": 1.2926,
+        "w": 8.7048,
+        "x": 3.8879,
+        "y": 5.4476
       },
-      "id": "object_007",
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -242,26 +308,26 @@
           185,
           196
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "dull sticky cool expect untidy deep capable badge effect station typical ice drag married",
-        "theme_topic": "Stream Gullible",
+        "text": "foolish cold riddle ceaseless horn tap rub nostalgic squealing successful rob",
+        "theme_topic": "Ducks",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
+      "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.104,
-        "w": 6.867,
-        "x": 3.2597,
-        "y": 5.9402
+        "h": 3.1603,
+        "w": 2.1274,
+        "x": 3.7484,
+        "y": 0.6654
       },
-      "id": "object_008",
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
@@ -276,141 +342,82 @@
           51,
           64
         ],
-        "line_width": 1.4975198563387948,
+        "line_width": 3.1208643061931713,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Stream Gullible"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.7928,
-        "w": 6.5572,
-        "x": 3.4196,
-        "y": 6.0612
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": false,
-        "mask_line": [
-          191,
-          128,
-          37
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Stream Gullible",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.3534,
-        "w": 0.3723,
-        "x": 1.6358,
-        "y": 2.4614
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 1.3717727075341477,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Stream Gullible"
+        "theme_topic": "Ducks"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.345,
-        "w": 2.0903,
-        "x": 0.5826,
-        "y": 2.5909
+        "h": 0.5638,
+        "w": 0.5271,
+        "x": 3.9948,
+        "y": 0.8407
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          247,
-          249
-        ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "fascinated voice obnoxious flimsy nose",
-        "theme_topic": "Stream Gullible",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.3189,
-        "w": 0.3198,
-        "x": 1.3973,
-        "y": 3.4826
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
+        "dash": 7,
+        "family": "basic",
         "fill": [
+          244,
+          180,
+          76
+        ],
+        "focus": false,
+        "line": [
           96,
           165,
           250
         ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 4.488910405167163,
+        "line_width": 5.262652088699034,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Stream Gullible"
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Ducks"
       },
       "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.4584,
+        "w": 1.6426,
+        "x": 4.0027,
+        "y": 1.5529
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          165,
+          250
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Melt Mouth",
+        "theme_topic": "Ducks",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.3116,
-        "w": 2.0876,
-        "x": 0.5942,
-        "y": 3.7304
+        "h": 1.5048,
+        "w": 1.6062,
+        "x": 4.0068,
+        "y": 2.1244
       },
       "id": "object_013",
       "properties": {
@@ -418,17 +425,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          247,
-          249
+          177,
+          185,
+          196
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "enchanted bright fork plot",
-        "theme_topic": "Stream Gullible",
+        "text": "bashful repulsive example grin hate common rhetorical kindhearted advice cars signal delicate",
+        "theme_topic": "Ducks",
         "underline": false
       },
       "type": "text",
@@ -436,88 +443,91 @@
     },
     {
       "bbox": {
-        "h": 0.2671,
-        "w": 2.095,
-        "x": 0.6076,
-        "y": 4.7093
+        "h": 3.1666,
+        "w": 2.9878,
+        "x": 6.0898,
+        "y": 0.6339
       },
       "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          247,
-          249
-        ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "goofy separate measly",
-        "theme_topic": "Stream Gullible",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.3458,
-        "w": 0.3208,
-        "x": 1.1759,
-        "y": 5.57
-      },
-      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 5,
         "family": "panel",
         "fill": [
-          96,
-          165,
-          250
+          43,
+          51,
+          64
         ],
         "line": [
           43,
           51,
           64
         ],
-        "line_width": 2.744610174018365,
+        "line_width": 1.7844925772234634,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Stream Gullible"
+        "theme_topic": "Ducks"
+      },
+      "type": "shape",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.5578,
+        "w": 0.5844,
+        "x": 6.2884,
+        "y": 0.8994
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          244,
+          180,
+          76
+        ],
+        "focus": false,
+        "line": [
+          31,
+          37,
+          144
+        ],
+        "line_width": 4.330139631751573,
+        "outline_only": false,
+        "ppt_type": 142,
+        "shape": "pie",
+        "theme_topic": "Ducks"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.3201,
-        "w": 2.1082,
-        "x": 0.586,
-        "y": 5.7018
+        "h": 0.4635,
+        "w": 2.4956,
+        "x": 6.3454,
+        "y": 1.5369
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          247,
-          249
+          96,
+          165,
+          250
         ],
-        "font_face": "Arial",
-        "font_size": 8,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "up erratic transport beginner spring disturbed",
-        "theme_topic": "Stream Gullible",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Best Colossal",
+        "theme_topic": "Ducks",
         "underline": false
       },
       "type": "text",
@@ -525,283 +535,279 @@
     },
     {
       "bbox": {
-        "h": 0.2782,
-        "w": 0.279,
-        "x": 1.1464,
-        "y": 6.5252
+        "h": 1.5433,
+        "w": 2.502,
+        "x": 6.3468,
+        "y": 2.1157
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
+        ],
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "noise chemical kiss zebra income fish loud calculating permit chemical file cent north sofa",
+        "theme_topic": "Ducks",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 3.1818,
+        "w": 3.4051,
+        "x": 9.3253,
+        "y": 0.6328
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
         "family": "panel",
         "fill": [
-          96,
-          165,
-          250
+          43,
+          51,
+          64
         ],
         "line": [
           43,
           51,
           64
         ],
-        "line_width": 4.3217038924464894,
+        "line_width": 3.3629705231330598,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Stream Gullible"
+        "theme_topic": "Ducks"
       },
       "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.2843,
-        "w": 2.1069,
-        "x": 0.6162,
-        "y": 6.7474
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          247,
-          249
-        ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "splendid drag frighten zoom ultra analyze",
-        "theme_topic": "Stream Gullible",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.2228,
-        "w": 1.1545,
-        "x": 9.8546,
-        "y": 1.8708
+        "h": 0.5783,
+        "w": 0.5177,
+        "x": 9.4968,
+        "y": 0.8727
       },
       "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          244,
+          180,
+          76
+        ],
+        "focus": false,
+        "line": [
+          155,
+          78,
+          40
+        ],
+        "line_width": 4.227704488497512,
+        "outline_only": true,
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Ducks"
+      },
+      "type": "shape",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.4625,
+        "w": 2.907,
+        "x": 9.5517,
+        "y": 1.5416
+      },
+      "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          54,
-          64,
-          60
+          96,
+          165,
+          250
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Close",
-        "theme_topic": "Stream Gullible",
-        "underline": true
+        "text": "Abortive Past",
+        "theme_topic": "Ducks",
+        "underline": false
       },
       "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.9662,
-        "w": 1.1769,
-        "x": 7.0414,
-        "y": 3.4043
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          193,
-          172,
-          222
-        ],
-        "focus": false,
-        "line": [
-          226,
-          174,
-          26
-        ],
-        "line_width": 4.295917943696324,
-        "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Stream Gullible"
-      },
-      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 1.0045,
-        "w": 0.807,
-        "x": 6.4863,
-        "y": 3.0037
+        "h": 1.5189,
+        "w": 2.9124,
+        "x": 9.5701,
+        "y": 2.0786
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
-        "fill": [
-          161,
-          44,
-          124
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
         ],
-        "focus": false,
-        "line": [
-          41,
-          44,
-          83
-        ],
-        "line_width": 4.8110556554100485,
-        "outline_only": true,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Stream Gullible"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "rub fit near remain agree hellish hysterical loutish discover",
+        "theme_topic": "Ducks",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.6426,
-        "w": 0.4552,
-        "x": 3.5698,
-        "y": 2.1777
+        "h": 0.4359,
+        "w": 0.68,
+        "x": 10.935,
+        "y": 0.5327
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          69,
-          58,
-          116
+        "bg_color": [
+          38,
+          92,
+          206
         ],
-        "focus": false,
-        "line": [
-          107,
-          25,
-          220
+        "bold": false,
+        "color": [
+          203,
+          46,
+          40
         ],
-        "line_width": 2.1104336750507224,
-        "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Stream Gullible"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Delirious",
+        "theme_topic": "Ducks",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.7625,
-        "w": 0.6191,
-        "x": 7.745,
-        "y": 4.5346
+        "h": 0.7313,
+        "w": 1.1879,
+        "x": 4.692,
+        "y": 0.189
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "math",
+        "family": "basic",
         "fill": [
-          124,
-          59,
-          192
+          213,
+          49,
+          48
         ],
         "focus": false,
         "line": [
-          146,
-          37,
-          126
+          206,
+          71,
+          132
         ],
-        "line_width": 2.7904798194795832,
+        "line_width": 2.8434986883433093,
         "outline_only": false,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Stream Gullible"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ducks"
       },
       "type": "shape",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.8328,
-        "w": 1.3472,
-        "x": 0.087,
-        "y": 6.1947
+        "h": 0.3706,
+        "w": 1.6135,
+        "x": 7.7987,
+        "y": 1.3784
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          35,
-          223,
-          171
+        "bg_color": [
+          53,
+          139,
+          218
         ],
-        "focus": false,
-        "line": [
-          55,
-          132,
-          183
+        "bold": true,
+        "color": [
+          228,
+          108,
+          130
         ],
-        "line_width": 1.2866294701553949,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Stream Gullible"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "well-groomed",
+        "theme_topic": "Ducks",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 24
     },
     {
       "bbox": {
-        "h": 0.5965,
-        "w": 0.8388,
-        "x": 7.5507,
-        "y": 6.0156
+        "h": 0.3494,
+        "w": 2.3478,
+        "x": 2.3941,
+        "y": 3.9921
       },
       "id": "object_025",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          107,
-          31,
-          132
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          93,
+          85,
+          224
         ],
-        "focus": false,
-        "line": [
-          38,
-          191,
-          225
-        ],
-        "line_width": 4.865936818343393,
-        "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Stream Gullible"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "public wealthy unsightly flesh",
+        "theme_topic": "Ducks",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 25
     }
   ],

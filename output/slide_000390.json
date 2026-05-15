@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        125,
-        134,
-        129
+        198,
+        74,
+        170
       ],
       "fill": [
-        125,
-        134,
-        129
+        198,
+        74,
+        170
       ],
       "fore_color": [
-        103,
-        174,
-        126
+        120,
+        54,
+        112
       ],
-      "pattern": 10,
+      "pattern": 43,
       "style": "pattern",
-      "theme_topic": "Route Coal"
+      "theme_topic": "Attractive"
     },
     "type": "background",
     "z_order": 0
@@ -41,137 +41,122 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.065,
-        "w": 8.7677,
-        "x": 2.194,
-        "y": 1.2565
+        "h": 4.9017,
+        "w": 7.9444,
+        "x": 2.1027,
+        "y": 1.1152
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          112,
-          108,
-          97
+          177,
+          66,
+          151
         ],
-        "focus": false,
         "line": [
-          27,
-          178,
-          167
+          166,
+          62,
+          142
         ],
-        "line_width": 3.4230470526449475,
-        "outline_only": true,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Route Coal"
+        "line_width": 4.0003055896554365,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Attractive"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.3647,
-        "w": 3.3278,
-        "x": 2.75,
-        "y": 0.7217
+        "h": 5.8185,
+        "w": 3.1929,
+        "x": 9.4006,
+        "y": 0.629
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          82,
-          107,
-          164
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          69,
-          215,
-          208
-        ],
-        "line_width": 7.203324217810113,
-        "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Route Coal"
+        "font_face": "Arial",
+        "font_size": 19,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Strap",
+        "theme_topic": "Attractive",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.8831,
-        "w": 7.2943,
-        "x": 5.9915,
-        "y": 5.0763
+        "h": 3.033,
+        "w": 8.1894,
+        "x": 0.6355,
+        "y": 3.8652
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
-        "fill": [
-          89,
-          169,
-          106
-        ],
-        "focus": false,
+        "clip": "ticket",
+        "focus": true,
         "line": [
-          39,
-          188,
-          69
+          255,
+          238,
+          103
         ],
-        "line_width": 3.0160234631850233,
-        "outline_only": false,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Route Coal"
+        "line_width": 8,
+        "theme_topic": "Attractive"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.1414,
-        "w": 4.9034,
-        "x": 8.4401,
-        "y": -0.003
+        "h": 0.2716,
+        "w": 7.7781,
+        "x": 0.8287,
+        "y": 6.4255
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          142,
-          150,
-          146
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
         ],
-        "line": [
-          142,
-          150,
-          146
-        ],
-        "line_width": 5.1995452190360005,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Route Coal"
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Wood Damaging",
+        "theme_topic": "Attractive",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.8141,
-        "w": 3.2212,
-        "x": 9.4076,
-        "y": 0.6387
+        "h": 1.4753,
+        "w": 3.9945,
+        "x": 0.8716,
+        "y": 0.8482
       },
       "id": "object_005",
       "properties": {
@@ -179,17 +164,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
-        "font_face": "Georgia",
-        "font_size": 20,
+        "font_face": "Arial",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Alive Pleasant Knowing",
-        "theme_topic": "Route Coal",
+        "text": "Few Peck War Help Act Weigh",
+        "theme_topic": "Attractive",
         "underline": false
       },
       "type": "text",
@@ -197,28 +182,28 @@
     },
     {
       "bbox": {
-        "h": 0.5998,
-        "w": 2.057,
-        "x": 6.7086,
-        "y": 1.6616
+        "h": 0.4194,
+        "w": 2.2092,
+        "x": 0.8324,
+        "y": 2.541
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          255,
+          238,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "milky known twist territory",
-        "theme_topic": "Route Coal",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "HOPE ENCHANTING",
+        "theme_topic": "Attractive",
         "underline": false
       },
       "type": "text",
@@ -226,10 +211,10 @@
     },
     {
       "bbox": {
-        "h": 0.6408,
-        "w": 2.0996,
-        "x": 6.6964,
-        "y": 3.6227
+        "h": 0.4459,
+        "w": 1.7844,
+        "x": 4.4724,
+        "y": 5.5808
       },
       "id": "object_007",
       "properties": {
@@ -237,17 +222,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          142,
+          68,
+          80
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "flash produce aromatic wound last jeans succeed",
-        "theme_topic": "Route Coal",
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Material Page",
+        "theme_topic": "Attractive",
         "underline": false
       },
       "type": "text",
@@ -255,28 +240,32 @@
     },
     {
       "bbox": {
-        "h": 0.7734,
-        "w": 2.0633,
-        "x": 6.7158,
-        "y": 5.9545
+        "h": 0.2693,
+        "w": 1.6962,
+        "x": 6.4139,
+        "y": 3.0341
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          75,
+          227,
+          88
+        ],
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          227,
+          61,
+          40
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "plain prepare deceive",
-        "theme_topic": "Route Coal",
+        "text": "stocking innocent",
+        "theme_topic": "Attractive",
         "underline": false
       },
       "type": "text",
@@ -284,57 +273,64 @@
     },
     {
       "bbox": {
-        "h": 1.0461,
-        "w": 2.2288,
-        "x": 3.968,
-        "y": 1.2377
+        "h": 0.7785,
+        "w": 0.7386,
+        "x": 11.4562,
+        "y": 3.5289
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          229,
-          122,
-          210
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          220,
+          101,
+          116
         ],
-        "font_face": "Georgia",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Itch",
-        "theme_topic": "Route Coal",
-        "underline": false
+        "focus": false,
+        "line": [
+          63,
+          200,
+          162
+        ],
+        "line_width": 3.8900401047378113,
+        "outline_only": false,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Attractive"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 4.2061,
-        "w": 2.2686,
-        "x": 3.9514,
-        "y": 2.5522
+        "h": 0.5631,
+        "w": 1.6512,
+        "x": 10.4332,
+        "y": 4.1245
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          47,
+          178,
+          132
+        ],
         "bold": false,
         "color": [
-          191,
-          196,
-          196
+          152,
+          33,
+          173
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Arial",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "servant tap domineering charge high coat hurried page aggressive reply include depend woozy pinch peck wish press clean hanging hose",
-        "theme_topic": "Route Coal",
+        "text": "repeat announce needless hook",
+        "theme_topic": "Attractive",
         "underline": false
       },
       "type": "text",

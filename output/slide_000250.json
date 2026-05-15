@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        247,
-        248,
-        246
+      "back_color": [
+        140,
+        144,
+        140
       ],
-      "style": "solid",
-      "theme_topic": "Sense Sniff"
+      "fill": [
+        250,
+        250,
+        248
+      ],
+      "fore_color": [
+        36,
+        188,
+        166
+      ],
+      "pattern": 46,
+      "style": "pattern",
+      "theme_topic": "Good Decision"
     },
     "type": "background",
     "z_order": 0
@@ -30,126 +41,126 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.5081,
-        "w": 5.941,
-        "x": 0.6484,
-        "y": 2.3482
+        "h": 0.9817,
+        "w": 5.807,
+        "x": 0.5403,
+        "y": 0.3332
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
-        "fill": [
-          236,
-          164,
-          151
-        ],
-        "focus": false,
-        "line": [
-          146,
-          219,
-          28
-        ],
-        "line_width": 5.904025167927775,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Sense Sniff"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 4.9395,
-        "w": 6.2562,
-        "x": 4.8727,
-        "y": -0.0428
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "stars",
-        "fill": [
-          210,
-          210,
-          85
-        ],
-        "focus": false,
-        "line": [
-          186,
-          106,
-          137
-        ],
-        "line_width": 2.5711671137593815,
-        "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Sense Sniff"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 5.7862,
-        "w": 3.1915,
-        "x": 9.3826,
-        "y": 0.6288
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          30,
-          35,
-          42
+          28,
+          28,
+          28
         ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
+        "font_face": "Georgia",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Search Large",
-        "theme_topic": "Sense Sniff",
+        "text": "Verdant Annoyed Soggy",
+        "theme_topic": "Good Decision",
         "underline": false
       },
       "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 0.8927,
+        "w": 5.6735,
+        "x": 0.7433,
+        "y": 4.6049
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.22496589243350026,
+          0.04956276493921784,
+          0.08975316649438175,
+          0.22952856245722802
+        ],
+        "focus": false,
+        "mask_line": [
+          172,
+          86,
+          195
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Good Decision",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.8462,
+        "w": 5.7062,
+        "x": 6.8692,
+        "y": 4.5938
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.1597654274658875,
+          0.2082676978172483,
+          0.04285373137175304,
+          0.10434343997204598
+        ],
+        "focus": false,
+        "mask_line": [
+          38,
+          132,
+          88
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Good Decision",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 3.6467,
-        "w": 4.2064,
-        "x": 4.618,
-        "y": 3.2305
+        "h": 0.7477,
+        "w": 5.2388,
+        "x": 0.7202,
+        "y": 2.0452
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          224,
-          50,
-          99
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          38,
+          132,
+          88
         ],
-        "line_width": 12,
-        "theme_topic": "Sense Sniff"
+        "font_face": "Georgia",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "4.3x",
+        "theme_topic": "Good Decision",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.6486,
-        "w": 0.7749,
-        "x": 0.8504,
-        "y": 4.1537
+        "h": 1.1846,
+        "w": 5.2545,
+        "x": 0.7322,
+        "y": 2.7593
       },
       "id": "object_005",
       "properties": {
@@ -158,16 +169,16 @@
         "bold": false,
         "color": [
           115,
-          124,
-          135
+          115,
+          115
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "punishment advice righteous",
-        "theme_topic": "Sense Sniff",
+        "text": "free measure object",
+        "theme_topic": "Good Decision",
         "underline": false
       },
       "type": "text",
@@ -175,28 +186,28 @@
     },
     {
       "bbox": {
-        "h": 2.6557,
-        "w": 0.7491,
-        "x": 2.1761,
-        "y": 4.1586
+        "h": 0.7262,
+        "w": 6.0838,
+        "x": 6.513,
+        "y": 2.0179
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          115,
-          124,
-          135
+          38,
+          132,
+          88
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Georgia",
+        "font_size": 32,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "current callous mourn title ragged plan",
-        "theme_topic": "Sense Sniff",
+        "text": "6.3x",
+        "theme_topic": "Good Decision",
         "underline": false
       },
       "type": "text",
@@ -204,10 +215,10 @@
     },
     {
       "bbox": {
-        "h": 2.6258,
-        "w": 0.6749,
-        "x": 3.4616,
-        "y": 4.1917
+        "h": 1.1806,
+        "w": 6.0858,
+        "x": 6.5249,
+        "y": 2.7783
       },
       "id": "object_007",
       "properties": {
@@ -216,16 +227,16 @@
         "bold": false,
         "color": [
           115,
-          124,
-          135
+          115,
+          115
         ],
         "font_face": "Aptos",
-        "font_size": 15,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "dependent soap near irritate deafening",
-        "theme_topic": "Sense Sniff",
+        "text": "guitar scold connection",
+        "theme_topic": "Good Decision",
         "underline": false
       },
       "type": "text",

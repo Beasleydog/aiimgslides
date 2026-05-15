@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
+      "angle": 45,
       "archetype": "atomic_composition",
       "colors": [
         [
-          106,
-          183,
-          204
+          88,
+          215,
+          126
         ],
         [
-          64,
-          130,
-          109
+          163,
+          102,
+          196
         ]
       ],
       "fill": [
-        48,
-        155,
-        184
+        126,
+        204,
+        224
       ],
       "focus": "center",
-      "gradient_type": "linear",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Unpack"
+      "theme_topic": "Hands"
     },
     "type": "background",
     "z_order": 0
@@ -45,138 +45,189 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.2101,
-        "w": 3.8536,
-        "x": 6.1728,
-        "y": -0.3048
+        "h": 4.0036,
+        "w": 3.6282,
+        "x": 5.7254,
+        "y": 2.9649
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          99,
-          105,
-          191
+          131,
+          96,
+          115
         ],
         "focus": false,
         "line": [
-          157,
-          126,
-          215
+          205,
+          173,
+          179
         ],
-        "line_width": 5.459474978709287,
-        "outline_only": true,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Unpack"
+        "line_width": 2.421058652399296,
+        "outline_only": false,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Hands"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.1897,
-        "w": 6.2457,
-        "x": 3.5305,
-        "y": 0.5468
+        "h": 3.5596,
+        "w": 4.2349,
+        "x": 7.3856,
+        "y": 2.3595
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "symbols",
+        "dash": 4,
+        "family": "flowchart",
         "fill": [
-          79,
-          197,
-          183
+          192,
+          219,
+          210
         ],
         "focus": false,
         "line": [
-          193,
-          37,
-          160
+          68,
+          189,
+          45
         ],
-        "line_width": 3.649726971827887,
+        "line_width": 4.161465064520842,
         "outline_only": true,
-        "ppt_type": 174,
-        "shape": "funnel",
-        "theme_topic": "Unpack"
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Hands"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.8409,
-        "w": 8.71,
-        "x": 0.9835,
-        "y": 3.1793
+        "h": 2.953,
+        "w": 3.7675,
+        "x": 0.6114,
+        "y": 3.9221
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
+        "band": [
           109,
-          161,
-          107
-        ],
-        "focus": false,
-        "line": [
           177,
-          155,
-          124
+          194
         ],
-        "line_width": 3.1856774491537356,
-        "outline_only": true,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Unpack"
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          75,
+          220,
+          119
+        ],
+        "border": [
+          29,
+          170,
+          87
+        ],
+        "border_dash": "solid",
+        "border_width": 3.5677220733643926,
+        "cells": [
+          [
+            "melodic",
+            "river seashore",
+            "harsh aromatic",
+            "squealing silent"
+          ],
+          [
+            "crooked bloody",
+            "spicy account",
+            "cute nonstop",
+            "quickest handle"
+          ],
+          [
+            "bushes abrasive",
+            "quiver planes",
+            "magenta",
+            "cemetery faded"
+          ],
+          [
+            "wild",
+            "aware educate",
+            "safe teaching",
+            "follow want"
+          ],
+          [
+            "blue-eyed",
+            "profuse judge",
+            "handsome moaning",
+            "furtive"
+          ],
+          [
+            "cave",
+            "instrument earth",
+            "permit",
+            "neck"
+          ]
+        ],
+        "cols": 4,
+        "font_size": 8,
+        "has_header": true,
+        "header": [
+          170,
+          131,
+          157
+        ],
+        "rows": 6,
+        "text_color": [
+          28,
+          30,
+          36
+        ],
+        "theme_topic": "Hands"
       },
-      "type": "shape",
+      "type": "table",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.409,
-        "w": 8.1481,
-        "x": 2.4155,
-        "y": 5.4136
+        "h": 1.6626,
+        "w": 3.4859,
+        "x": 4.9446,
+        "y": 0.7662
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
-        "fill": [
-          60,
-          129,
-          204
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          135,
-          171,
-          128
-        ],
-        "line_width": 5.723237084261187,
-        "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Unpack"
+        "font_face": "Aptos Display",
+        "font_size": 24,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Suppose Momentous Minor Terrify Rock Park Suggestion",
+        "theme_topic": "Hands",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.0319,
-        "w": 7.6871,
-        "x": 0.5728,
-        "y": 0.3581
+        "h": 0.5009,
+        "w": 1.9378,
+        "x": 4.9135,
+        "y": 2.6362
       },
       "id": "object_005",
       "properties": {
@@ -184,17 +235,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Haunt Error Miscreant Name",
-        "theme_topic": "Unpack",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "NONSTOP",
+        "theme_topic": "Hands",
         "underline": false
       },
       "type": "text",
@@ -202,41 +253,41 @@
     },
     {
       "bbox": {
-        "h": 2.3189,
-        "w": 2.1358,
-        "x": 0.558,
-        "y": 4.6956
+        "h": 3.0533,
+        "w": 3.8829,
+        "x": 0.5446,
+        "y": 0.5389
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 3,
         "family": "panel",
         "fill": [
-          52,
-          158,
-          161
+          109,
+          177,
+          194
         ],
         "line": [
-          106,
-          183,
-          204
+          109,
+          177,
+          194
         ],
-        "line_width": 2.492241208856491,
+        "line_width": 1.9425870121846958,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Unpack"
+        "theme_topic": "Hands"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.7684,
-        "w": 1.7875,
-        "x": 0.7279,
-        "y": 4.8843
+        "h": 1.1519,
+        "w": 3.5261,
+        "x": 0.7054,
+        "y": 1.1798
       },
       "id": "object_007",
       "properties": {
@@ -244,17 +295,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos Display",
-        "font_size": 36,
+        "font_size": 53,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "86%",
-        "theme_topic": "Unpack",
+        "text": "3x",
+        "theme_topic": "Hands",
         "underline": false
       },
       "type": "text",
@@ -262,10 +313,10 @@
     },
     {
       "bbox": {
-        "h": 1.2771,
-        "w": 1.8001,
-        "x": 0.7504,
-        "y": 5.5972
+        "h": 0.7144,
+        "w": 3.5265,
+        "x": 0.7318,
+        "y": 2.3951
       },
       "id": "object_008",
       "properties": {
@@ -273,17 +324,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          156,
-          206,
-          221
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos",
         "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "milky spare panoramic knot",
-        "theme_topic": "Unpack",
+        "text": "abject receive suit grandmother sudden bit",
+        "theme_topic": "Hands",
         "underline": false
       },
       "type": "text",
@@ -291,173 +342,179 @@
     },
     {
       "bbox": {
-        "h": 0.7279,
-        "w": 1.8259,
-        "x": 3.074,
-        "y": 4.8724
+        "h": 2.9682,
+        "w": 1.8171,
+        "x": 4.7648,
+        "y": 3.9285
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          109,
+          177,
+          194
         ],
-        "font_face": "Aptos Display",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "240",
-        "theme_topic": "Unpack",
-        "underline": false
+        "line": [
+          109,
+          177,
+          194
+        ],
+        "line_width": 0.5882868023753707,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hands"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.2895,
-        "w": 1.8543,
-        "x": 3.0404,
-        "y": 5.6025
+        "h": 2.6401,
+        "w": 1.4833,
+        "x": 4.9003,
+        "y": 4.1312
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          156,
-          206,
-          221
+        "crop": [
+          0.05514664401278107,
+          0.001293915802627923,
+          0.14780971835411505,
+          0.06681900410057694
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "devilish want fairies",
-        "theme_topic": "Unpack",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          145,
+          94,
+          53
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Hands",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7423,
-        "w": 5.5506,
-        "x": 0.7156,
-        "y": 2.0441
+        "h": 2.9538,
+        "w": 1.8223,
+        "x": 6.7519,
+        "y": 3.9265
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          109,
+          177,
+          194
         ],
-        "font_face": "Aptos Display",
-        "font_size": 35,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "28%",
-        "theme_topic": "Unpack",
-        "underline": false
+        "line": [
+          109,
+          177,
+          194
+        ],
+        "line_width": 1.3694582312099473,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hands"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 1.3733,
-        "w": 5.5325,
-        "x": 0.7067,
-        "y": 2.7897
+        "h": 2.6284,
+        "w": 1.5325,
+        "x": 6.9115,
+        "y": 4.0648
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          156,
-          206,
-          221
+        "crop": [
+          0.09807578787592948,
+          0.268987745113622,
+          0.018310334558889967,
+          0.18867887971553565
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "found call far-flung sneaky bent top wheel",
-        "theme_topic": "Unpack",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          82,
+          96,
+          214
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Hands",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.7571,
-        "w": 5.7754,
-        "x": 6.7806,
-        "y": 2.0278
+        "h": 3.0396,
+        "w": 3.8869,
+        "x": 8.8818,
+        "y": 3.8946
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          109,
+          177,
+          194
         ],
-        "font_face": "Aptos Display",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "72",
-        "theme_topic": "Unpack",
-        "underline": false
+        "line": [
+          109,
+          177,
+          194
+        ],
+        "line_width": 1.4180010187636425,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hands"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 1.3774,
-        "w": 5.8136,
-        "x": 6.781,
-        "y": 2.7865
+        "h": 1.1621,
+        "w": 3.5397,
+        "x": 9.0854,
+        "y": 4.4837
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          156,
-          206,
-          221
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Aptos Display",
+        "font_size": 49,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "cloistered manage butter queen fearless flower",
-        "theme_topic": "Unpack",
+        "text": "31%",
+        "theme_topic": "Hands",
         "underline": false
       },
       "type": "text",
@@ -465,28 +522,28 @@
     },
     {
       "bbox": {
-        "h": 0.3582,
-        "w": 1.7828,
-        "x": 4.9943,
-        "y": 0.8954
+        "h": 0.6961,
+        "w": 3.5066,
+        "x": 9.0664,
+        "y": 5.7498
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          195,
-          59
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos",
-        "font_size": 17,
+        "font_size": 13,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Large Aromatic",
-        "theme_topic": "Unpack",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "axiomatic spoon happy profit sand zany zephyr voracious stretch",
+        "theme_topic": "Hands",
         "underline": false
       },
       "type": "text",
@@ -494,74 +551,68 @@
     },
     {
       "bbox": {
-        "h": 0.3702,
-        "w": 1.1082,
-        "x": 0.7264,
-        "y": 0.0864
+        "h": 0.5804,
+        "w": 0.7853,
+        "x": 1.5615,
+        "y": 4.5731
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          98,
-          59,
-          93
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          130,
+          220,
+          53
         ],
-        "focus": false,
-        "line": [
-          216,
-          153,
-          207
-        ],
-        "line_width": 4.9997464927952615,
-        "outline_only": true,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Unpack"
+        "font_face": "Aptos",
+        "font_size": 16,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Hurry Boat",
+        "theme_topic": "Hands",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.8459,
-        "w": 0.6146,
-        "x": 5.648,
-        "y": 2.4673
+        "h": 0.2376,
+        "w": 2.3176,
+        "x": 3.8797,
+        "y": 1.2418
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          103,
-          60,
-          220
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          116,
+          100,
+          72
         ],
-        "focus": false,
-        "line": [
-          31,
-          119,
-          136
-        ],
-        "line_width": 4.265368267962655,
-        "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Unpack"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wacky ill-informed grass faded",
+        "theme_topic": "Hands",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.5244,
-        "w": 1.548,
-        "x": 1.5964,
-        "y": 4.8138
+        "h": 0.5555,
+        "w": 0.6179,
+        "x": 10.1322,
+        "y": 6.0466
       },
       "id": "object_018",
       "properties": {
@@ -569,17 +620,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          53,
-          100,
-          164
+          59,
+          179,
+          40
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "greedy parsimonious wall",
-        "theme_topic": "Unpack",
+        "text": "deceive graceful invention",
+        "theme_topic": "Hands",
         "underline": false
       },
       "type": "text",
@@ -587,35 +638,34 @@
     },
     {
       "bbox": {
-        "h": 0.2841,
-        "w": 2.1005,
-        "x": 9.3314,
-        "y": 3.0236
+        "h": 0.5753,
+        "w": 1.3092,
+        "x": 5.5853,
+        "y": 1.6943
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          227,
-          77,
-          204
+        "dash": 7,
+        "family": "math",
+        "fill": [
+          222,
+          61,
+          132
         ],
-        "bold": false,
-        "color": [
-          172,
-          159,
-          110
+        "focus": false,
+        "line": [
+          90,
+          59,
+          68
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Pinch Deceive",
-        "theme_topic": "Unpack",
-        "underline": false
+        "line_width": 5.43195230852451,
+        "outline_only": false,
+        "ppt_type": 163,
+        "shape": "plus",
+        "theme_topic": "Hands"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 19
     }
   ],

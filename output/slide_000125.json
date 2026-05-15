@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "fill": [
-        130,
-        213,
-        155
+      "colors": [
+        [
+          177,
+          138,
+          191
+        ],
+        [
+          255,
+          117,
+          117
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Absorbing Color"
+      "fill": [
+        144,
+        87,
+        164
+      ],
+      "focus": "center",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Float"
     },
     "type": "background",
     "z_order": 0
@@ -30,159 +45,121 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.1478,
-        "w": 5.653,
-        "x": 7.9047,
-        "y": -0.3076
+        "h": 4.4634,
+        "w": 7.138,
+        "x": 0.3173,
+        "y": -0.1041
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "flowchart",
         "fill": [
-          90,
-          173,
-          101
+          135,
+          156,
+          111
         ],
         "focus": false,
         "line": [
-          51,
-          161,
-          92
+          30,
+          89,
+          26
         ],
-        "line_width": 5.02439526431181,
+        "line_width": 4.383723768620073,
         "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Absorbing Color"
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Float"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.5444,
-        "w": 6.6891,
-        "x": 3.562,
-        "y": 0.3845
+        "h": 5.7778,
+        "w": 3.1997,
+        "x": 9.4233,
+        "y": 0.6457
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "symbols",
-        "fill": [
-          100,
-          168,
-          83
-        ],
-        "focus": false,
-        "line": [
-          183,
-          104,
-          165
-        ],
-        "line_width": 3.0355095072276015,
-        "outline_only": false,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Absorbing Color"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 3.9885,
-        "w": 8.7497,
-        "x": 1.6433,
-        "y": 0.7615
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          120,
-          196,
-          143
-        ],
-        "line": [
-          115,
-          188,
-          137
-        ],
-        "line_width": 0.8562781694110607,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Absorbing Color"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.5671,
-        "w": 12.1613,
-        "x": 0.5777,
-        "y": 1.8982
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          126,
-          136,
-          63
-        ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          115,
-          188,
-          137
-        ],
-        "border": [
-          73,
-          112,
-          89
-        ],
-        "border_dash": "solid",
-        "border_width": 1.1964981944826851,
-        "cells": [
-          [
-            "purple shiver",
-            "oranges"
-          ],
-          [
-            "cut",
-            "internal excite"
-          ],
-          [
-            "arrange",
-            "robust soap"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 5,
-        "has_header": true,
-        "header": [
-          57,
-          179,
-          210
-        ],
-        "rows": 3,
-        "text_color": [
+        "bg_color": null,
+        "bold": true,
+        "color": [
           28,
           30,
           36
         ],
-        "theme_topic": "Absorbing Color"
+        "font_face": "Georgia",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Clover Outstanding Amusement",
+        "theme_topic": "Float",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 5.2316,
+        "w": 1.9066,
+        "x": 0.8248,
+        "y": 1.5729
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          80,
+          55,
+          93
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "kind hissing end divide blot unit imaginary",
+        "theme_topic": "Float",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 6.2496,
+        "w": 3.843,
+        "x": 4.9898,
+        "y": 0.6178
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.058605112030191184,
+          0.2778497150912999,
+          0.0902674239826726,
+          0.32022363924212743
+        ],
+        "focus": true,
+        "mask_line": [
+          72,
+          106,
+          144
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Float",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 4
     }
   ],

@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 90,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          176,
-          169,
-          156
-        ],
-        [
-          255,
-          206,
-          86
-        ]
+      "back_color": [
+        134,
+        190,
+        120
       ],
       "fill": [
-        211,
-        203,
-        187
+        111,
+        88,
+        201
       ],
-      "focus": "bottom_right",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Fluffy"
+      "fore_color": [
+        38,
+        132,
+        88
+      ],
+      "pattern": 29,
+      "style": "pattern",
+      "theme_topic": "Heady"
     },
     "type": "background",
     "z_order": 0
@@ -45,72 +41,66 @@
   "objects": [
     {
       "bbox": {
-        "h": 6.2267,
-        "w": 2.634,
-        "x": 10.1366,
-        "y": 0.6556
+        "h": 3.843,
+        "w": 5.6908,
+        "x": -0.2939,
+        "y": 0.3049
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2820720878281778,
-          0.018513942658558137,
-          0.12658598273505423,
-          0.17469221302731544
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          112,
+          146,
+          129
         ],
-        "focus": true,
-        "mask_line": [
-          184,
-          217,
-          70
+        "focus": false,
+        "line": [
+          49,
+          161,
+          195
         ],
-        "mask_overlay": false,
-        "theme_topic": "Fluffy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 7.916693914494057,
+        "outline_only": false,
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Heady"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.7573,
-        "w": 2.3297,
-        "x": 3.9975,
-        "y": 0.9172
+        "h": 4.1855,
+        "w": 6.2204,
+        "x": 6.7399,
+        "y": -0.1816
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "yell",
-          "aware",
-          "productive"
+        "dash": 5,
+        "family": "basic",
+        "fill": [
+          169,
+          166,
+          221
         ],
-        "chart": "doughnut",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              51,
-              42,
-              192
-            ],
-            "name": "annoyed awesome",
-            "values": [
-              31,
-              69,
-              24
-            ]
-          }
+        "focus": false,
+        "line": [
+          70,
+          184,
+          85
         ],
-        "theme_topic": "Fluffy",
-        "title": "selfish hover knee extend"
+        "line_width": 6.805156501283487,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Heady"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 2
     }
   ],

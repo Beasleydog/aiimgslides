@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "fill": [
-        18,
-        129,
-        148
+      "colors": [
+        [
+          43,
+          51,
+          64
+        ],
+        [
+          96,
+          165,
+          250
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Wobble Rest"
+      "fill": [
+        25,
+        30,
+        39
+      ],
+      "focus": "top_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Turn"
     },
     "type": "background",
     "z_order": 0
@@ -30,73 +45,68 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.7661,
-        "w": 8.4094,
-        "x": -0.5246,
-        "y": 6.6427
+        "h": 0.8888,
+        "w": 4.0921,
+        "x": 2.1931,
+        "y": 1.2794
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          197,
-          207,
-          167
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          247,
+          249
         ],
-        "focus": false,
-        "line": [
-          138,
-          174,
-          201
-        ],
-        "line_width": 5.659890003403897,
-        "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Wobble Rest"
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Living Dear Public",
+        "theme_topic": "Turn",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.4841,
-        "w": 1.0251,
-        "x": 0.0024,
-        "y": -0.0083
+        "h": 2.6404,
+        "w": 6.0004,
+        "x": 6.8144,
+        "y": 1.4753
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          61,
-          152,
-          167
+        "crop": [
+          0.12288944814961571,
+          0.1720587865931347,
+          0.017415459837087807,
+          0.14300643372544233
         ],
-        "line": [
-          61,
-          152,
-          167
+        "focus": true,
+        "mask_line": [
+          115,
+          158,
+          203
         ],
-        "line_width": 2.098638913597108,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Wobble Rest"
+        "mask_overlay": false,
+        "theme_topic": "Turn",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5672,
-        "w": 2.8402,
-        "x": 0.6356,
-        "y": 0.7316
+        "h": 0.7324,
+        "w": 5.6841,
+        "x": 0.6796,
+        "y": 2.0497
       },
       "id": "object_003",
       "properties": {
@@ -105,71 +115,110 @@
         "bold": true,
         "color": [
           246,
-          248,
-          252
+          247,
+          249
         ],
-        "font_face": "Aptos Display",
-        "font_size": 28,
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Functional Typical Dull",
-        "theme_topic": "Wobble Rest",
-        "underline": false
+        "text": "Call",
+        "theme_topic": "Turn",
+        "underline": true
       },
       "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.7259,
-        "w": 2.9008,
-        "x": 9.8133,
-        "y": 0.6226
+        "h": 0.9476,
+        "w": 5.7003,
+        "x": 0.7248,
+        "y": 3.0302
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": true,
-        "line": [
-          43,
-          117,
-          142
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
         ],
-        "line_width": 14,
-        "theme_topic": "Wobble Rest"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "partner secret scary wren questionable common chicken magnificent happy way twig order bright towering",
+        "theme_topic": "Turn",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.0994,
-        "w": 1.8665,
-        "x": 3.9088,
-        "y": 1.2275
+        "h": 2.5301,
+        "w": 5.9299,
+        "x": 6.8121,
+        "y": 4.4185
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "band": [
+          91,
+          228,
+          187
         ],
-        "font_face": "Aptos Display",
-        "font_size": 45,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "3x",
-        "theme_topic": "Wobble Rest",
-        "underline": false
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          52,
+          111,
+          43
+        ],
+        "border": [
+          61,
+          110,
+          144
+        ],
+        "border_dash": "solid",
+        "border_width": 1.7664903521381945,
+        "cells": [
+          [
+            "mask",
+            "fearless",
+            "abaft object",
+            "thought"
+          ],
+          [
+            "flash suspect",
+            "honorable",
+            "ill-informed tug",
+            "one calculator"
+          ]
+        ],
+        "cols": 4,
+        "font_size": 11,
+        "has_header": false,
+        "header": [
+          96,
+          165,
+          250
+        ],
+        "rows": 2,
+        "text_color": [
+          215,
+          132,
+          213
+        ],
+        "theme_topic": "Turn"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 5
     }
   ],

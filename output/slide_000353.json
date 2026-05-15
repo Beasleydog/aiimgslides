@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 120,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          193,
-          203,
-          50
-        ],
-        [
-          255,
-          206,
-          86
-        ]
+      "back_color": [
+        31,
+        87,
+        166
       ],
       "fill": [
-        61,
-        64,
-        91
+        31,
+        87,
+        166
       ],
-      "focus": "top_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Side"
+      "fore_color": [
+        38,
+        132,
+        88
+      ],
+      "pattern": 54,
+      "style": "pattern",
+      "theme_topic": "Sun"
     },
     "type": "background",
     "z_order": 0
@@ -45,132 +41,138 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.7976,
-        "w": 3.2205,
-        "x": 8.7674,
-        "y": 1.6269
+        "h": 3.7208,
+        "w": 4.0461,
+        "x": 7.86,
+        "y": 2.3126
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "symbols",
         "fill": [
-          111,
-          96,
-          81
+          79,
+          66,
+          125
         ],
         "focus": false,
         "line": [
-          134,
-          197,
-          130
+          66,
+          151,
+          208
         ],
-        "line_width": 2.9424926257845505,
+        "line_width": 2.580804540373604,
         "outline_only": false,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Side"
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Sun"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.3764,
-        "w": 8.5787,
-        "x": 0.4489,
-        "y": 0.857
+        "h": 2.9399,
+        "w": 3.7624,
+        "x": 3.8217,
+        "y": 1.1128
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "flowchart",
         "fill": [
-          41,
-          76,
-          58
+          136,
+          114,
+          61
         ],
         "focus": false,
         "line": [
-          163,
-          106,
-          174
+          206,
+          139,
+          83
         ],
-        "line_width": 3.34470098868227,
+        "line_width": 6.052680855816702,
         "outline_only": false,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Side"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Sun"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.2743,
-        "w": 7.2425,
-        "x": 0.533,
-        "y": 0.3397
+        "h": 2.2448,
+        "w": 7.0592,
+        "x": 7.3375,
+        "y": 3.398
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 3,
+        "family": "math",
+        "fill": [
+          180,
+          115,
+          61
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 42,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Peaceful Clever Amused",
-        "theme_topic": "Side",
-        "underline": false
+        "focus": false,
+        "line": [
+          135,
+          189,
+          73
+        ],
+        "line_width": 7.464245512066332,
+        "outline_only": true,
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Sun"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.2712,
-        "w": 11.925,
-        "x": 0.6947,
-        "y": 5.9082
+        "h": 2.4724,
+        "w": 5.384,
+        "x": 4.2582,
+        "y": 0.9173
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          154,
+          107,
+          134
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "CLOVER REJOICE",
-        "theme_topic": "Side",
-        "underline": false
+        "focus": false,
+        "line": [
+          64,
+          190,
+          86
+        ],
+        "line_width": 4.374831955204062,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Sun"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 11.951,
-        "x": 0.7001,
-        "y": 6.3909
+        "h": 1.0812,
+        "w": 7.8101,
+        "x": 0.558,
+        "y": 0.357
       },
       "id": "object_005",
       "properties": {
@@ -182,13 +184,13 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 18,
+        "font_face": "Arial",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Drink",
-        "theme_topic": "Side",
+        "text": "Print Agree Sable",
+        "theme_topic": "Sun",
         "underline": false
       },
       "type": "text",
@@ -196,28 +198,28 @@
     },
     {
       "bbox": {
-        "h": 1.4682,
-        "w": 12.2212,
-        "x": 0.5637,
-        "y": 3.9106
+        "h": 5.1213,
+        "w": 6.6356,
+        "x": 0.584,
+        "y": 1.8223
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.16624812741059225,
-          0.2015579595334513,
-          0.034050588056202105,
-          0.04798506827538512
+          0.050041535680961396,
+          0.138134200937312,
+          0.21620278873434642,
+          0.09012521045590778
         ],
         "focus": true,
         "mask_line": [
-          46,
-          88,
-          62
+          38,
+          132,
+          88
         ],
-        "mask_overlay": false,
-        "theme_topic": "Side",
+        "mask_overlay": true,
+        "theme_topic": "Sun",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -225,32 +227,28 @@
     },
     {
       "bbox": {
-        "h": 0.558,
-        "w": 2.303,
-        "x": 9.764,
-        "y": 6.6637
+        "h": 1.7495,
+        "w": 1.7087,
+        "x": 7.5737,
+        "y": 4.8569
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          227,
-          190,
-          109
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          143,
-          53,
-          66
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 16,
-        "italic": true,
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "accidental",
-        "theme_topic": "Side",
+        "text": "morning festive connection hanging",
+        "theme_topic": "Sun",
         "underline": false
       },
       "type": "text",
@@ -258,32 +256,28 @@
     },
     {
       "bbox": {
-        "h": 0.4744,
-        "w": 2.3597,
-        "x": 1.8218,
-        "y": 1.3035
+        "h": 1.7525,
+        "w": 1.4977,
+        "x": 9.6038,
+        "y": 4.8161
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          183,
-          91,
-          46
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          151,
-          214,
-          189
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Welcome Carpenter Learned",
-        "theme_topic": "Side",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "permissible outrageous flower abrasive tender",
+        "theme_topic": "Sun",
         "underline": false
       },
       "type": "text",
@@ -291,10 +285,10 @@
     },
     {
       "bbox": {
-        "h": 0.6172,
-        "w": 1.2858,
-        "x": 6.6786,
-        "y": 0.6997
+        "h": 1.7709,
+        "w": 1.3173,
+        "x": 11.4135,
+        "y": 4.8452
       },
       "id": "object_009",
       "properties": {
@@ -302,17 +296,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          188,
-          57,
-          209
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": true,
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "defeated pizzas rake",
-        "theme_topic": "Side",
+        "text": "worry digestion notebook",
+        "theme_topic": "Sun",
         "underline": false
       },
       "type": "text",

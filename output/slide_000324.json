@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "back_color": [
-        67,
-        50,
-        34
+      "colors": [
+        [
+          140,
+          211,
+          133
+        ],
+        [
+          222,
+          133,
+          62
+        ]
       ],
       "fill": [
-        67,
-        50,
-        34
+        77,
+        188,
+        66
       ],
-      "fore_color": [
-        90,
-        83,
-        64
-      ],
-      "pattern": 24,
-      "style": "pattern",
-      "theme_topic": "Committee Step"
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Stranger Overflow"
     },
     "type": "background",
     "z_order": 0
@@ -41,75 +45,140 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.6773,
-        "w": 5.417,
-        "x": 4.4974,
-        "y": 1.5159
+        "h": 4.2857,
+        "w": 4.0834,
+        "x": 7.8161,
+        "y": -0.361
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          136,
-          45,
-          95
+          125,
+          94,
+          140
         ],
         "focus": false,
         "line": [
-          217,
-          186,
-          135
+          42,
+          226,
+          215
         ],
-        "line_width": 7.6063803530321055,
-        "outline_only": true,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Committee Step"
+        "line_width": 4.904983796589997,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Stranger Overflow"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.402,
-        "w": 5.642,
-        "x": 0.0152,
-        "y": 3.0912
+        "h": 3.7348,
+        "w": 6.2136,
+        "x": 0.0261,
+        "y": 3.3672
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "ribbons",
         "fill": [
-          115,
-          102,
-          91
+          94,
+          68,
+          38
         ],
+        "focus": false,
         "line": [
           115,
-          102,
-          91
+          92,
+          84
         ],
-        "line_width": 1.850740862519931,
+        "line_width": 6.37584256233508,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Committee Step"
+        "ppt_type": 97,
+        "shape": "up_ribbon",
+        "theme_topic": "Stranger Overflow"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1528,
-        "w": 6.9801,
-        "x": 3.32,
-        "y": 0.6388
+        "h": 3.5988,
+        "w": 3.8355,
+        "x": 1.0545,
+        "y": 3.1334
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "stars",
+        "fill": [
+          151,
+          175,
+          52
+        ],
+        "focus": false,
+        "line": [
+          181,
+          183,
+          125
+        ],
+        "line_width": 2.111436658817217,
+        "outline_only": true,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Stranger Overflow"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.4587,
+        "w": 4.4034,
+        "x": 6.132,
+        "y": 5.7599
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          140,
+          90,
+          44
+        ],
+        "focus": false,
+        "line": [
+          227,
+          212,
+          120
+        ],
+        "line_width": 3.450685390753335,
+        "outline_only": false,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Stranger Overflow"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.1128,
+        "w": 7.5754,
+        "x": 0.5365,
+        "y": 0.3404
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -119,194 +188,131 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 32,
+        "font_face": "Aptos Display",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Crime Structure Pizzas Number",
-        "theme_topic": "Committee Step",
+        "text": "Thrill Writing Therapeutic Wash",
+        "theme_topic": "Stranger Overflow",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.0487,
-        "w": 6.0937,
-        "x": 0.5733,
-        "y": 1.9859
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          93,
-          130,
-          198
-        ],
-        "line_width": 10,
-        "theme_topic": "Committee Step"
-      },
-      "type": "svg_image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.0285,
-        "w": 5.6271,
-        "x": 7.1793,
-        "y": 1.9893
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.0918497383848666,
-          0.1306381118946676,
-          0.058478597336402004,
-          0.0641762530032747
-        ],
-        "focus": true,
-        "mask_line": [
-          170,
-          197,
-          147
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Committee Step",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.726,
-        "w": 0.6329,
-        "x": 11.2819,
-        "y": 2.6326
+        "h": 5.1691,
+        "w": 5.3554,
+        "x": 0.5476,
+        "y": 1.8327
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          129,
-          97,
-          124
+          31,
+          117,
+          161
         ],
-        "focus": false,
         "line": [
-          226,
-          35,
-          79
+          140,
+          211,
+          133
         ],
-        "line_width": 1.2561299580971699,
+        "line_width": 4.928015353945742,
         "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Committee Step"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stranger Overflow"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.3211,
-        "w": 0.3388,
-        "x": 5.1824,
-        "y": 7.0651
+        "h": 1.1462,
+        "w": 4.9896,
+        "x": 0.733,
+        "y": 2.7827
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
-        "fill": [
-          219,
-          197,
-          83
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          77,
+          188,
+          66
         ],
-        "focus": false,
-        "line": [
-          53,
-          69,
-          58
-        ],
-        "line_width": 3.5286980012734457,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Committee Step"
+        "font_face": "Aptos Display",
+        "font_size": 45,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "111",
+        "theme_topic": "Stranger Overflow",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.9663,
-        "w": 0.696,
-        "x": 3.1605,
-        "y": 1.4884
+        "h": 1.0676,
+        "w": 6.0203,
+        "x": 6.5955,
+        "y": 2.4363
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          55,
-          37,
-          205
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          157,
+          90,
+          36
         ],
-        "focus": false,
-        "line": [
-          25,
-          140,
-          206
-        ],
-        "line_width": 1.589909513492972,
-        "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Committee Step"
+        "font_face": "Aptos Display",
+        "font_size": 38,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Ruin Intend Apathetic",
+        "theme_topic": "Stranger Overflow",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.5002,
-        "w": 1.5278,
-        "x": 11.0119,
-        "y": 4.9856
+        "h": 3.1413,
+        "w": 6.0476,
+        "x": 6.5881,
+        "y": 3.7695
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          210,
-          55,
-          89
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          110,
-          109,
-          96
+          169,
+          221,
+          168
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "daily",
-        "theme_topic": "Committee Step",
+        "text": "enchanted changeable listen trite shivering abashed bone receive appreciate berserk consist flagrant lumber dress uppity sock",
+        "theme_topic": "Stranger Overflow",
         "underline": false
       },
       "type": "text",

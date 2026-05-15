@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        133,
-        80,
-        116
+        42,
+        68,
+        186
       ],
       "fill": [
-        133,
-        80,
-        116
+        176,
+        47,
+        34
       ],
       "fore_color": [
-        255,
-        206,
-        86
+        82,
+        96,
+        214
       ],
-      "pattern": 26,
+      "pattern": 9,
       "style": "pattern",
-      "theme_topic": "Jumbled"
+      "theme_topic": "Calendar"
     },
     "type": "background",
     "z_order": 0
@@ -41,98 +41,85 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.1105,
-        "w": 8.2297,
-        "x": 4.2961,
-        "y": 3.2034
+        "h": 5.2563,
+        "w": 3.541,
+        "x": 9.0492,
+        "y": 1.5756
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
-        "fill": [
-          126,
-          90,
-          182
+        "crop": [
+          0.008403795355513808,
+          0.3140419875782087,
+          0.15665559240706087,
+          0.022514900715536114
         ],
-        "focus": false,
-        "line": [
-          115,
-          48,
-          121
+        "focus": true,
+        "mask_line": [
+          82,
+          96,
+          214
         ],
-        "line_width": 7.202607110002838,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Jumbled"
+        "mask_overlay": true,
+        "theme_topic": "Calendar",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.1484,
-        "w": 7.1874,
-        "x": -0.9068,
-        "y": 1.487
+        "h": 5.5553,
+        "w": 4.536,
+        "x": 4.0611,
+        "y": 1.4313
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          106,
-          164,
-          188
+          204,
+          120,
+          112
         ],
-        "focus": false,
         "line": [
-          178,
-          108,
-          167
+          204,
+          120,
+          112
         ],
-        "line_width": 7.0756638715423135,
+        "line_width": 1.5328922053016232,
         "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Jumbled"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Calendar"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.8494,
-        "w": 7.1088,
-        "x": 2.4509,
-        "y": 0.9295
+        "h": 5.2241,
+        "w": 4.2335,
+        "x": 4.2373,
+        "y": 1.5878
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          131,
-          90,
-          77
-        ],
-        "focus": false,
+        "clip": "blob",
+        "focus": true,
         "line": [
-          35,
-          217,
-          150
+          165,
+          28,
+          226
         ],
-        "line_width": 4.075831636111104,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Jumbled"
+        "line_width": 16,
+        "theme_topic": "Calendar"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 3
     }
   ],

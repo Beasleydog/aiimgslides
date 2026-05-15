@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
-      "fill": [
-        245,
-        247,
-        252
+      "colors": [
+        [
+          132,
+          98,
+          181
+        ],
+        [
+          51,
+          63,
+          101
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Bubble Nappy"
+      "fill": [
+        100,
+        57,
+        162
+      ],
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Rejoice Better"
     },
     "type": "background",
     "z_order": 0
@@ -30,138 +45,134 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.4172,
-        "w": 8.2134,
-        "x": 0.1209,
-        "y": 2.472
+        "h": 1.9372,
+        "w": 8.1124,
+        "x": 0.8101,
+        "y": 5.6191
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 7,
+        "family": "flowchart",
         "fill": [
-          207,
-          162,
-          212
+          140,
+          123,
+          76
         ],
         "focus": false,
         "line": [
-          98,
-          29,
-          188
+          202,
+          186,
+          135
         ],
-        "line_width": 6.930687337214134,
-        "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Bubble Nappy"
+        "line_width": 6.747776952294145,
+        "outline_only": true,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Rejoice Better"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.4701,
-        "w": 7.2893,
-        "x": 0.5305,
-        "y": 1.3549
+        "h": 4.2993,
+        "w": 4.6935,
+        "x": 8.0698,
+        "y": 0.6579
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "callouts",
         "fill": [
-          125,
-          167,
-          139
+          81,
+          86,
+          140
         ],
         "focus": false,
         "line": [
-          206,
-          57,
-          60
+          207,
+          26,
+          45
         ],
-        "line_width": 7.685045119231754,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Bubble Nappy"
+        "line_width": 6.111261432783472,
+        "outline_only": true,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Rejoice Better"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.663,
-        "w": 5.503,
-        "x": 4.6841,
-        "y": 1.0752
+        "h": 7.5102,
+        "w": 1.0215,
+        "x": -0.0104,
+        "y": 0.0193
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "panel",
         "fill": [
-          82,
-          170,
-          208
+          132,
+          98,
+          181
         ],
-        "focus": false,
         "line": [
-          130,
-          177,
-          174
+          132,
+          98,
+          181
         ],
-        "line_width": 4.634243852030524,
+        "line_width": 4.12206201409979,
         "outline_only": false,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Bubble Nappy"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Rejoice Better"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 3.5048,
-        "w": 6.6453,
-        "x": 2.9537,
-        "y": 0.8522
+        "h": 0.9162,
+        "w": 3.5725,
+        "x": 5.8,
+        "y": 0.759
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          140,
-          197,
-          131
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          117,
-          134,
-          50
-        ],
-        "line_width": 4.209809799974207,
-        "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Bubble Nappy"
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Garrulous Quince",
+        "theme_topic": "Rejoice Better",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.903,
-        "w": 5.6864,
-        "x": 0.761,
-        "y": 5.8747
+        "h": 1.0568,
+        "w": 6.0825,
+        "x": 6.5559,
+        "y": 1.5786
       },
       "id": "object_005",
       "properties": {
@@ -169,17 +180,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          99,
+          138,
+          74
         ],
-        "font_face": "Arial",
-        "font_size": 27,
+        "font_face": "Trebuchet MS",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Thread Sin",
-        "theme_topic": "Bubble Nappy",
+        "text": "Reproduce Unwritten",
+        "theme_topic": "Rejoice Better",
         "underline": false
       },
       "type": "text",
@@ -187,28 +198,28 @@
     },
     {
       "bbox": {
-        "h": 0.8043,
-        "w": 3.5252,
-        "x": 9.0793,
-        "y": 0.6712
+        "h": 4.0032,
+        "w": 6.1073,
+        "x": 6.5216,
+        "y": 2.8916
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          123,
-          37,
-          176
+          180,
+          162,
+          211
         ],
-        "font_face": "Arial",
-        "font_size": 26,
+        "font_face": "Verdana",
+        "font_size": 14,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Influence Cake Ajar",
-        "theme_topic": "Bubble Nappy",
+        "text": "rich sky magenta force weather known sour scorch general lace innocent oafish silent ordinary",
+        "theme_topic": "Rejoice Better",
         "underline": false
       },
       "type": "text",
@@ -216,28 +227,28 @@
     },
     {
       "bbox": {
-        "h": 1.0557,
-        "w": 3.5252,
-        "x": 9.0993,
-        "y": 1.7283
+        "h": 1.0531,
+        "w": 5.1258,
+        "x": 0.6967,
+        "y": 1.5595
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "jealous bolt clover vein skillful lamentable abashed astonishing reply black-and-white dance furniture unkempt milky itch reflective wacky",
-        "theme_topic": "Bubble Nappy",
+        "text": "Screeching Stomach Wiggly Ugly",
+        "theme_topic": "Rejoice Better",
         "underline": false
       },
       "type": "text",
@@ -245,75 +256,57 @@
     },
     {
       "bbox": {
-        "h": 2.3503,
-        "w": 3.8681,
-        "x": 8.9465,
-        "y": 3.1937
+        "h": 4.0254,
+        "w": 5.1189,
+        "x": 0.722,
+        "y": 2.8884
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "cooing",
-          "near",
-          "roll",
-          "incandescent",
-          "riddle",
-          "laborer"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          180,
+          162,
+          211
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              98,
-              132,
-              153
-            ],
-            "name": "tongue enormous",
-            "values": [
-              52,
-              52,
-              68,
-              59,
-              83,
-              48
-            ]
-          }
-        ],
-        "theme_topic": "Bubble Nappy",
-        "title": "receptive money line chance admire"
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "roll wrap rambunctious reflect measly attack meek afternoon shelter abnormal pop",
+        "theme_topic": "Rejoice Better",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.1965,
-        "w": 3.4315,
-        "x": 4.9184,
-        "y": 0.7691
+        "h": 0.2142,
+        "w": 1.3105,
+        "x": 1.5171,
+        "y": 6.8395
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          27,
-          44,
-          68
+          208,
+          145,
+          45
         ],
-        "font_face": "Arial",
-        "font_size": 22,
+        "font_face": "Verdana",
+        "font_size": 7,
         "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Eight Thought Step Earth Rely Tap Interesting",
-        "theme_topic": "Bubble Nappy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Quirky Six Placid",
+        "theme_topic": "Rejoice Better",
         "underline": false
       },
       "type": "text",
@@ -321,10 +314,10 @@
     },
     {
       "bbox": {
-        "h": 0.3437,
-        "w": 1.9117,
-        "x": 4.9486,
-        "y": 2.1146
+        "h": 0.2,
+        "w": 2.2459,
+        "x": 6.4049,
+        "y": 2.0673
       },
       "id": "object_010",
       "properties": {
@@ -332,17 +325,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          47,
+          113,
+          52
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "DISTRIBUTION FEAR",
-        "theme_topic": "Bubble Nappy",
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "scattered",
+        "theme_topic": "Rejoice Better",
         "underline": false
       },
       "type": "text",
@@ -350,60 +343,63 @@
     },
     {
       "bbox": {
-        "h": 1.0615,
-        "w": 1.827,
-        "x": 0.624,
-        "y": 0.5794
+        "h": 0.9385,
+        "w": 1.1011,
+        "x": 3.0844,
+        "y": 0.5471
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.14595325455075303,
-          0.21925020259526337,
-          0.14264233915201277,
-          0.11076314486058536
+        "dash": 2,
+        "family": "arrows",
+        "fill": [
+          42,
+          159,
+          211
         ],
         "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
+        "line": [
+          76,
+          40,
+          216
         ],
-        "mask_overlay": false,
-        "theme_topic": "Bubble Nappy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.874432926750934,
+        "outline_only": false,
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Rejoice Better"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 1.0637,
-        "w": 1.767,
-        "x": 4.7647,
-        "y": 3.2486
+        "h": 0.4186,
+        "w": 0.955,
+        "x": 3.7903,
+        "y": 5.9145
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          219,
+          151,
+          200
         ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Bubble Nappy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 18,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "self",
+        "theme_topic": "Rejoice Better",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 12
     }
   ],

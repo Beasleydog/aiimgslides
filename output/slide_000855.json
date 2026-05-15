@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        210,
-        72,
-        94
+      "back_color": [
+        120,
+        58,
+        170
       ],
-      "style": "solid",
-      "theme_topic": "Bashful Texture"
+      "fill": [
+        120,
+        58,
+        170
+      ],
+      "fore_color": [
+        255,
+        211,
+        88
+      ],
+      "pattern": 40,
+      "style": "pattern",
+      "theme_topic": "Hideous"
     },
     "type": "background",
     "z_order": 0
@@ -30,281 +41,290 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.5038,
-        "w": 13.3457,
-        "x": 0.0077,
-        "y": 3.6561
+        "h": 4.6386,
+        "w": 6.4934,
+        "x": 5.6636,
+        "y": 2.9676
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          225,
-          94,
-          113
+          63,
+          92,
+          89
         ],
+        "focus": false,
         "line": [
-          225,
-          94,
-          113
+          81,
+          179,
+          150
         ],
-        "line_width": 4.977632889434197,
+        "line_width": 7.054519259957018,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Bashful Texture"
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Hideous"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0953,
-        "w": 6.1959,
-        "x": 0.5591,
-        "y": 0.3354
+        "h": 5.0181,
+        "w": 6.0416,
+        "x": 1.4763,
+        "y": 0.9799
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          252,
-          247
+        "dash": 2,
+        "family": "stars",
+        "fill": [
+          201,
+          106,
+          172
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Concentrate Tease Stone Ear",
-        "theme_topic": "Bashful Texture",
-        "underline": false
+        "focus": false,
+        "line": [
+          179,
+          41,
+          60
+        ],
+        "line_width": 4.055198302733938,
+        "outline_only": true,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Hideous"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.3875,
-        "w": 0.3823,
-        "x": 3.7847,
-        "y": 6.1664
+        "h": 2.5719,
+        "w": 5.9321,
+        "x": 4.5736,
+        "y": 3.6677
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 2,
+        "family": "symbols",
         "fill": [
-          51,
-          63,
-          101
+          141,
+          104,
+          183
         ],
+        "focus": false,
         "line": [
-          225,
-          94,
-          113
+          172,
+          48,
+          223
         ],
-        "line_width": 2.3531104231081454,
+        "line_width": 2.571480755292458,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Bashful Texture"
+        "ppt_type": 14,
+        "shape": "cube",
+        "theme_topic": "Hideous"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.3944,
-        "w": 1.6681,
-        "x": 3.3085,
-        "y": 6.5113
+        "h": 4.5462,
+        "w": 6.9613,
+        "x": 2.5368,
+        "y": 0.3604
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          255,
-          252,
-          247
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          108,
+          103,
+          186
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "spot cats dinner pleasure",
-        "theme_topic": "Bashful Texture",
-        "underline": false
+        "focus": false,
+        "line": [
+          111,
+          87,
+          228
+        ],
+        "line_width": 7.816540830787298,
+        "outline_only": false,
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Hideous"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.395,
-        "w": 0.3914,
-        "x": 5.9047,
-        "y": 6.1972
+        "h": 4.5928,
+        "w": 6.1637,
+        "x": 2.1679,
+        "y": 1.4794
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          51,
-          63,
-          101
+          132,
+          71,
+          183
         ],
         "line": [
-          225,
-          94,
-          113
+          139,
+          78,
+          190
         ],
-        "line_width": 0.4793580798268478,
+        "line_width": 0.646348457834843,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Bashful Texture"
+        "theme_topic": "Hideous"
       },
       "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.4067,
-        "w": 1.3393,
-        "x": 5.2473,
-        "y": 6.519
+        "h": 2.1399,
+        "w": 2.9669,
+        "x": 0.6609,
+        "y": 4.8195
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          255,
-          252,
-          247
+        "crop": [
+          0.03960407419274394,
+          0.26983667153582674,
+          0.02510179372804165,
+          0.13815724786230807
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "abortive amused force addition",
-        "theme_topic": "Bashful Texture",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          117,
+          42,
+          150
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Hideous",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4127,
-        "w": 0.409,
-        "x": 7.4106,
-        "y": 6.1949
+        "h": 3.1926,
+        "w": 1.7226,
+        "x": 2.0289,
+        "y": 3.3519
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 2,
         "family": "panel",
         "fill": [
-          51,
-          63,
-          101
+          139,
+          78,
+          190
         ],
         "line": [
-          225,
-          94,
-          113
+          139,
+          78,
+          190
         ],
-        "line_width": 2.2014808509639283,
+        "line_width": 3.9424246154951055,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Bashful Texture"
+        "theme_topic": "Hideous"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.3718,
-        "w": 1.2014,
-        "x": 6.9103,
-        "y": 6.5128
+        "h": 0.5251,
+        "w": 0.5467,
+        "x": 2.2126,
+        "y": 3.5835
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
           255,
-          252,
-          247
+          211,
+          88
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "knee sigh border ban flood guide",
-        "theme_topic": "Bashful Texture",
-        "underline": false
+        "focus": false,
+        "line": [
+          107,
+          142,
+          39
+        ],
+        "line_width": 1.8980298667252227,
+        "outline_only": false,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Hideous"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4079,
-        "w": 0.3823,
-        "x": 9.0952,
-        "y": 6.3085
+        "h": 0.4412,
+        "w": 1.2234,
+        "x": 2.2687,
+        "y": 4.2562
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          51,
-          63,
-          101
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 2.639632608197882,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Bashful Texture"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Groovy",
+        "theme_topic": "Hideous",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.3674,
-        "w": 1.5925,
-        "x": 8.4311,
-        "y": 6.5025
+        "h": 1.5296,
+        "w": 1.2384,
+        "x": 2.2698,
+        "y": 4.8087
       },
       "id": "object_010",
       "properties": {
@@ -312,17 +332,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          255,
-          252,
-          247
+          230,
+          210,
+          240
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "stone honey fish",
-        "theme_topic": "Bashful Texture",
+        "text": "successful disagreeable fold whisper self flagrant stupid follow moon sudden bomb time juvenile bashful",
+        "theme_topic": "Hideous",
         "underline": false
       },
       "type": "text",
@@ -330,132 +350,88 @@
     },
     {
       "bbox": {
-        "h": 5.1355,
-        "w": 2.2117,
-        "x": 0.5435,
-        "y": 1.8742
+        "h": 3.177,
+        "w": 1.824,
+        "x": 3.9519,
+        "y": 3.3389
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.21593634201441617,
-          0.1272653116394619,
-          0.20524102856269597,
-          0.12730436494581396
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "focus": true,
-        "mask_line": [
-          93,
-          67,
-          229
+        "line": [
+          139,
+          78,
+          190
         ],
-        "mask_overlay": false,
-        "theme_topic": "Bashful Texture",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 4.256552772597095,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hideous"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 2.9073,
-        "w": 6.8375,
-        "x": 3.2529,
-        "y": 2.7564
+        "h": 0.4671,
+        "w": 1.3563,
+        "x": 4.2275,
+        "y": 4.2521
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "military",
-          "earsplitting",
-          "steady",
-          "crayon",
-          "spark"
-        ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              110,
-              88,
-              210
-            ],
-            "name": "lunchroom",
-            "values": [
-              8,
-              55,
-              13,
-              56,
-              89
-            ]
-          },
-          {
-            "color": [
-              110,
-              187,
-              200
-            ],
-            "name": "pinch",
-            "values": [
-              83,
-              47,
-              37,
-              24,
-              80
-            ]
-          },
-          {
-            "color": [
-              115,
-              159,
-              207
-            ],
-            "name": "cold",
-            "values": [
-              26,
-              69,
-              70,
-              93,
-              40
-            ]
-          }
-        ],
-        "theme_topic": "Bashful Texture",
-        "title": "borrow overwrought rampant"
-      },
-      "type": "chart",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.2652,
-        "w": 1.9068,
-        "x": 10.7531,
-        "y": 1.9834
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "MARKED",
-        "theme_topic": "Bashful Texture",
+        "text": "Soup Efficacious",
+        "theme_topic": "Hideous",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 1.5379,
+        "w": 1.3465,
+        "x": 4.2428,
+        "y": 4.7996
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "abject up opposite plastic obey best crazy concentrate bounce challenge basin absent chicken machine",
+        "theme_topic": "Hideous",
         "underline": false
       },
       "type": "text",
@@ -463,57 +439,59 @@
     },
     {
       "bbox": {
-        "h": 1.067,
-        "w": 1.9116,
-        "x": 10.7163,
-        "y": 2.4531
+        "h": 3.1841,
+        "w": 1.7412,
+        "x": 6.0252,
+        "y": 3.352
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          252,
-          247
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Mix Zesty Object Grateful",
-        "theme_topic": "Bashful Texture",
-        "underline": false
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 2.456765592239089,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hideous"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 3.1354,
-        "w": 1.9057,
-        "x": 10.7357,
-        "y": 3.7433
+        "h": 0.469,
+        "w": 1.223,
+        "x": 6.2892,
+        "y": 4.2605
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          255,
-          218,
-          220
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "railway plucky erect distribution disastrous aggressive provide flesh strong crabby protective spiky",
-        "theme_topic": "Bashful Texture",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Tickle",
+        "theme_topic": "Hideous",
         "underline": false
       },
       "type": "text",
@@ -521,67 +499,70 @@
     },
     {
       "bbox": {
-        "h": 0.6518,
-        "w": 1.5134,
-        "x": 4.5334,
-        "y": 1.4457
+        "h": 1.525,
+        "w": 1.2292,
+        "x": 6.2847,
+        "y": 4.794
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          26,
-          30,
-          158
+          230,
+          210,
+          240
         ],
-        "connector": "straight",
-        "dash": 2,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Bashful Texture",
-        "width": 1.483015092963222
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "aware full earn agreeable secret disagree blow girl live simplistic disagree godly metal burn",
+        "theme_topic": "Hideous",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.679,
-        "w": 1.5307,
-        "x": 1.8711,
-        "y": 5.7476
+        "h": 3.197,
+        "w": 1.8197,
+        "x": 7.9975,
+        "y": 3.3609
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          42,
-          38,
-          113
+          139,
+          78,
+          190
         ],
-        "focus": false,
         "line": [
-          201,
-          199,
-          47
+          139,
+          78,
+          190
         ],
-        "line_width": 3.810640898273184,
+        "line_width": 2.5483557271120905,
         "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Bashful Texture"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hideous"
       },
       "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.6276,
-        "w": 1.4542,
-        "x": 2.6179,
-        "y": 5.6581
+        "h": 0.4442,
+        "w": 1.2961,
+        "x": 8.2435,
+        "y": 4.2469
       },
       "id": "object_018",
       "properties": {
@@ -589,17 +570,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          140,
-          158,
-          220
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Post",
-        "theme_topic": "Bashful Texture",
+        "text": "Bright Wry",
+        "theme_topic": "Hideous",
         "underline": false
       },
       "type": "text",
@@ -607,124 +588,124 @@
     },
     {
       "bbox": {
-        "h": 0.3884,
-        "w": 0.4415,
-        "x": 9.0975,
-        "y": 1.3332
+        "h": 1.5171,
+        "w": 1.3114,
+        "x": 8.2306,
+        "y": 4.8
       },
       "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          142,
-          146,
-          135
-        ],
-        "focus": false,
-        "line": [
-          115,
-          106,
-          218
-        ],
-        "line_width": 2.0691822420038952,
-        "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Bashful Texture"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.4819,
-        "w": 1.6022,
-        "x": 8.5742,
-        "y": 4.5878
-      },
-      "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          184,
-          201,
-          60
+          230,
+          210,
+          240
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Children Structure Pray",
-        "theme_topic": "Bashful Texture",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "punishment instinctive spotted gifted known scarf reign trouble flimsy yielding earth detailed",
+        "theme_topic": "Hideous",
         "underline": false
       },
       "type": "text",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.4987,
+        "w": 1.1093,
+        "x": 4.5587,
+        "y": 4.8029
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          124,
+          154,
+          203
+        ],
+        "focus": false,
+        "line": [
+          185,
+          98,
+          155
+        ],
+        "line_width": 1.0041866724407205,
+        "outline_only": true,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Hideous"
+      },
+      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.4167,
-        "w": 0.6336,
-        "x": 2.4338,
-        "y": 6.5503
+        "h": 0.3524,
+        "w": 1.6058,
+        "x": 1.5871,
+        "y": 0.5482
       },
       "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          204,
-          109,
-          172
-        ],
-        "focus": false,
-        "line": [
-          81,
-          43,
-          168
-        ],
-        "line_width": 5.4518552125833075,
-        "outline_only": false,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Bashful Texture"
-      },
-      "type": "shape",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.3184,
-        "w": 0.8092,
-        "x": 4.5879,
-        "y": 6.4413
-      },
-      "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          142,
-          128,
-          158
+          87,
+          87,
+          228
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "nation excuse shop functional",
-        "theme_topic": "Bashful Texture",
-        "underline": false
+        "font_face": "Verdana",
+        "font_size": 5,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Bawdy Roasted Screeching",
+        "theme_topic": "Hideous",
+        "underline": true
       },
       "type": "text",
+      "z_order": 21
+    },
+    {
+      "bbox": {
+        "h": 0.9875,
+        "w": 0.6918,
+        "x": 0.445,
+        "y": 5.9113
+      },
+      "id": "object_022",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          137,
+          149,
+          78
+        ],
+        "focus": false,
+        "line": [
+          115,
+          54,
+          195
+        ],
+        "line_width": 1.2940688392546196,
+        "outline_only": false,
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Hideous"
+      },
+      "type": "shape",
       "z_order": 22
     }
   ],

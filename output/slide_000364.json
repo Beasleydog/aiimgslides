@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        140,
-        173,
-        166
+        146,
+        125,
+        131
       ],
       "fill": [
+        127,
         103,
-        147,
-        138
+        110
       ],
       "fore_color": [
-        222,
-        133,
-        62
+        174,
+        73,
+        92
       ],
-      "pattern": 53,
+      "pattern": 6,
       "style": "pattern",
-      "theme_topic": "Unarmed"
+      "theme_topic": "Jog"
     },
     "type": "background",
     "z_order": 0
@@ -41,43 +41,12 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.5085,
-        "w": 13.3238,
-        "x": -0.0032,
-        "y": 4.1017
+        "h": 0.8854,
+        "w": 5.6272,
+        "x": 1.3365,
+        "y": 0.8959
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          140,
-          173,
-          166
-        ],
-        "line": [
-          140,
-          173,
-          166
-        ],
-        "line_width": 1.8455843634626592,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Unarmed"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 1.153,
-        "w": 8.339,
-        "x": 3.2394,
-        "y": 0.6736
-      },
-      "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -87,53 +56,82 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 41,
+        "font_face": "Arial",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Quince Power Boat",
-        "theme_topic": "Unarmed",
+        "text": "Mute Petite Knowledgeable",
+        "theme_topic": "Jog",
         "underline": false
       },
       "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 2.4222,
+        "w": 0.9929,
+        "x": 9.3257,
+        "y": 4.5262
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.0027876841589809364,
+          0.16649611943068343,
+          0.19263646574442028,
+          0.10913076893807576
+        ],
+        "focus": false,
+        "mask_line": [
+          78,
+          185,
+          220
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Jog",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.2702,
-        "w": 5.6234,
-        "x": 6.9882,
-        "y": 2.142
+        "h": 2.1318,
+        "w": 0.712,
+        "x": 10.6689,
+        "y": 4.6626
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
+        "crop": [
+          0.25446269087969275,
+          0.26151182722511884,
+          0.21471964474653657,
+          0.09803872368610987
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "SHIP BROKEN",
-        "theme_topic": "Unarmed",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          113,
+          83,
+          121
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Jog",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.5732,
-        "w": 5.65,
-        "x": 6.9857,
-        "y": 2.5771
+        "h": 0.2726,
+        "w": 0.6028,
+        "x": 10.739,
+        "y": 6.5098
       },
       "id": "object_004",
       "properties": {
@@ -141,46 +139,46 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          174,
+          73,
+          92
         ],
-        "font_face": "Georgia",
-        "font_size": 27,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Trains Momentous Stuff Weigh",
-        "theme_topic": "Unarmed",
-        "underline": true
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Daffy",
+        "theme_topic": "Jog",
+        "underline": false
       },
       "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.6986,
-        "w": 5.6268,
-        "x": 6.9816,
-        "y": 3.4455
+        "h": 1.3363,
+        "w": 3.0954,
+        "x": 5.6287,
+        "y": 4.6435
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          181,
-          202,
-          200
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
+        "font_face": "Arial",
+        "font_size": 22,
+        "italic": true,
+        "kind": "header",
         "margin": 0.04,
-        "text": "likeable delicate cherry afraid languid owe animated unkempt arrogant air oafish ludicrous young abashed disappear warm polish auspicious various recognise",
-        "theme_topic": "Unarmed",
+        "text": "Truck Partner Substantial Stay Engine Pinch Breezy",
+        "theme_topic": "Jog",
         "underline": false
       },
       "type": "text",
@@ -188,150 +186,143 @@
     },
     {
       "bbox": {
-        "h": 2.3816,
-        "w": 12.267,
-        "x": 0.5609,
-        "y": 4.6594
+        "h": 0.387,
+        "w": 1.673,
+        "x": 5.6649,
+        "y": 6.1858
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.05831351839146465,
-          0.13245388381241757,
-          0.11973906776444106,
-          0.060497947282670966
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
         ],
-        "focus": true,
-        "mask_line": [
-          31,
-          117,
-          161
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Unarmed",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "THREAD",
+        "theme_topic": "Jog",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.3221,
-        "w": 2.0586,
-        "x": 4.3797,
-        "y": 6.189
+        "h": 1.1897,
+        "w": 5.9847,
+        "x": 0.5959,
+        "y": 1.5022
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          180,
-          109,
-          116
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          146,
+          125,
+          131
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Surround Feeble Panoramic",
-        "theme_topic": "Unarmed",
-        "underline": false
+        "line": [
+          146,
+          125,
+          131
+        ],
+        "line_width": 3.560897814380626,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Jog"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.3891,
-        "w": 0.5656,
-        "x": 11.5428,
-        "y": 2.6659
+        "h": 0.9012,
+        "w": 5.7139,
+        "x": 0.7151,
+        "y": 1.6763
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          186,
-          69,
-          112
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
         "focus": false,
-        "line": [
-          34,
-          141,
-          103
+        "mask_line": [
+          171,
+          60,
+          229
         ],
-        "line_width": 3.953855535553079,
-        "outline_only": true,
-        "ppt_type": 24,
-        "shape": "moon",
-        "theme_topic": "Unarmed"
+        "mask_overlay": false,
+        "theme_topic": "Jog",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4821,
-        "w": 1.4506,
-        "x": 4.9891,
-        "y": 1.864
+        "h": 1.1528,
+        "w": 5.9674,
+        "x": 6.7452,
+        "y": 1.5191
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          29,
-          32,
-          78
+        "crop": [
+          0.14124321838744497,
+          0.3256056405320339,
+          0.22442874255234674,
+          0.22754164692310253
         ],
-        "font_face": "Aptos",
-        "font_size": 5,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Addition",
-        "theme_topic": "Unarmed",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          174,
+          73,
+          92
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Jog",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4731,
-        "w": 1.7233,
-        "x": 5.809,
-        "y": 6.8486
+        "h": 1.1467,
+        "w": 5.9969,
+        "x": 0.5768,
+        "y": 2.8273
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          156,
-          108,
-          177
+        "clip": "hex",
+        "focus": false,
+        "line": [
+          106,
+          112,
+          91
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "racial film street successful",
-        "theme_topic": "Unarmed",
-        "underline": false
+        "line_width": 10,
+        "theme_topic": "Jog"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 10
     }
   ],

@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "back_color": [
-        26,
-        203,
-        190
+      "colors": [
+        [
+          121,
+          26,
+          168
+        ],
+        [
+          255,
+          198,
+          74
+        ]
       ],
       "fill": [
+        121,
         26,
-        203,
-        190
+        168
       ],
-      "fore_color": [
-        76,
-        44,
-        155
-      ],
-      "pattern": 42,
-      "style": "pattern",
-      "theme_topic": "Amuse"
+      "focus": "top_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Steel"
     },
     "type": "background",
     "z_order": 0
@@ -41,133 +45,137 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.476,
-        "w": 8.0312,
-        "x": -0.6478,
-        "y": -0.6443
+        "h": 1.4514,
+        "w": 8.5877,
+        "x": 0.6877,
+        "y": 5.6783
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "callouts",
         "fill": [
-          75,
-          111,
-          162
+          178,
+          81,
+          150
         ],
         "focus": false,
         "line": [
-          204,
-          191,
-          29
+          155,
+          77,
+          215
         ],
-        "line_width": 2.5263962086466254,
+        "line_width": 3.673515701974,
         "outline_only": true,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Amuse"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Steel"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5079,
-        "w": 1.3386,
-        "x": 12.021,
-        "y": -0.0182
+        "h": 2.0384,
+        "w": 4.2312,
+        "x": 6.1868,
+        "y": 5.5359
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          86,
-          216,
-          207
+          158,
+          96,
+          124
         ],
+        "focus": false,
         "line": [
-          86,
-          216,
-          207
+          88,
+          186,
+          46
         ],
-        "line_width": 0.7817268105124282,
+        "line_width": 3.3366135464211175,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Amuse"
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Steel"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.2222,
-        "w": 8.0669,
-        "x": 0.5502,
-        "y": 0.3551
+        "h": 1.4951,
+        "w": 8.3236,
+        "x": 1.0015,
+        "y": 2.8873
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 3,
+        "family": "stars",
+        "fill": [
+          128,
+          139,
+          171
         ],
-        "font_face": "Georgia",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Babies Tenuous Various",
-        "theme_topic": "Amuse",
-        "underline": false
+        "focus": false,
+        "line": [
+          100,
+          90,
+          90
+        ],
+        "line_width": 4.561147773944433,
+        "outline_only": false,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Steel"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.4138,
-        "w": 5.6273,
-        "x": 0.5469,
-        "y": 3.8686
+        "h": 7.5105,
+        "w": 1.0184,
+        "x": 0.0047,
+        "y": 0.0088
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          159,
-          170,
-          186
+          169,
+          108,
+          199
         ],
         "line": [
-          86,
-          216,
-          207
+          169,
+          108,
+          199
         ],
-        "line_width": 3.977126060045864,
+        "line_width": 1.2378126925308295,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Amuse"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Steel"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.6433,
-        "w": 5.2547,
-        "x": 0.7153,
-        "y": 4.0139
+        "h": 1.3089,
+        "w": 7.7623,
+        "x": 0.5624,
+        "y": 0.3512
       },
       "id": "object_005",
       "properties": {
@@ -175,17 +183,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 22,
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "212",
-        "theme_topic": "Amuse",
+        "text": "Rude Jewel",
+        "theme_topic": "Steel",
         "underline": false
       },
       "type": "text",
@@ -193,178 +201,232 @@
     },
     {
       "bbox": {
-        "h": 0.3835,
-        "w": 5.2414,
-        "x": 0.7329,
-        "y": 4.7582
+        "h": 5.0426,
+        "w": 4.4126,
+        "x": 0.6015,
+        "y": 1.9074
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          27,
-          107,
-          105
+        "band": [
+          99,
+          212,
+          199
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "flowers nostalgic blow impartial hill ajar",
-        "theme_topic": "Amuse",
-        "underline": false
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          183,
+          172,
+          154
+        ],
+        "border": [
+          64,
+          172,
+          122
+        ],
+        "border_dash": "solid",
+        "border_width": 1.9797872011304507,
+        "cells": [
+          [
+            "seashore",
+            "tank",
+            "jail",
+            "likeable"
+          ],
+          [
+            "frame bait",
+            "profit",
+            "settle texture",
+            "hurried thick"
+          ],
+          [
+            "apathetic lyrical",
+            "flag",
+            "change fang",
+            "dog"
+          ],
+          [
+            "invention",
+            "dress ripe",
+            "report straight",
+            "quickest"
+          ],
+          [
+            "vigorous",
+            "illustrious",
+            "water impossible",
+            "electric knee"
+          ]
+        ],
+        "cols": 4,
+        "font_size": 10,
+        "has_header": true,
+        "header": [
+          255,
+          198,
+          74
+        ],
+        "rows": 5,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Steel"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.4361,
-        "w": 6.4156,
-        "x": 6.3495,
-        "y": 3.8528
+        "h": 5.1667,
+        "w": 7.2566,
+        "x": 5.5778,
+        "y": 1.838
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          86,
-          216,
-          207
+        "crop": [
+          0.24649036309530703,
+          0.09460731245743242,
+          0.06146002368048552,
+          0.13816843891272326
         ],
-        "line": [
-          86,
-          216,
-          207
+        "focus": true,
+        "mask_line": [
+          255,
+          198,
+          74
         ],
-        "line_width": 2.242883100821181,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Amuse"
+        "mask_overlay": true,
+        "theme_topic": "Steel",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.6373,
-        "w": 6.0777,
-        "x": 6.5117,
-        "y": 4.0139
+        "h": 0.9625,
+        "w": 2.1131,
+        "x": 4.5661,
+        "y": 0.306
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
         "color": [
-          31,
-          117,
-          161
+          145,
+          126,
+          43
         ],
-        "font_face": "Georgia",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "130",
-        "theme_topic": "Amuse",
-        "underline": false
+        "connector": "straight",
+        "dash": 7,
+        "flip": true,
+        "ppt_type": 1,
+        "theme_topic": "Steel",
+        "width": 2.8172933739381625
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4114,
-        "w": 6.0591,
-        "x": 6.5367,
-        "y": 4.7979
+        "h": 0.375,
+        "w": 1.4294,
+        "x": 5.1777,
+        "y": 3.8605
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          27,
-          107,
-          105
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          83,
+          228,
+          208
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pleasant authority naughty invite wobble",
-        "theme_topic": "Amuse",
-        "underline": false
+        "focus": false,
+        "line": [
+          37,
+          74,
+          124
+        ],
+        "line_width": 1.2573499296830815,
+        "outline_only": true,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Steel"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.5305,
-        "w": 11.9343,
-        "x": 0.6965,
-        "y": 1.9778
+        "h": 0.5748,
+        "w": 0.3589,
+        "x": 11.7371,
+        "y": 2.8086
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          172,
-          55,
-          34
+        "dash": 5,
+        "family": "callouts",
+        "fill": [
+          169,
+          165,
+          118
         ],
-        "font_face": "Georgia",
-        "font_size": 27,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Uncovered Breezy Aggressive Educated",
-        "theme_topic": "Amuse",
-        "underline": false
+        "focus": false,
+        "line": [
+          75,
+          164,
+          38
+        ],
+        "line_width": 1.9730528412503765,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Steel"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.6492,
-        "w": 11.9463,
-        "x": 0.7176,
-        "y": 2.7568
+        "h": 0.7544,
+        "w": 1.34,
+        "x": 1.8554,
+        "y": 4.9637
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          27,
-          107,
-          105
+        "dash": 5,
+        "family": "arrows",
+        "fill": [
+          72,
+          151,
+          203
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "disapprove afterthought pickle clip use close assorted calculator scratch",
-        "theme_topic": "Amuse",
-        "underline": false
+        "focus": false,
+        "line": [
+          37,
+          59,
+          122
+        ],
+        "line_width": 3.9430253661752164,
+        "outline_only": false,
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Steel"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     }
   ],

@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "back_color": [
-        175,
-        210,
-        115
+      "colors": [
+        [
+          192,
+          132,
+          78
+        ],
+        [
+          180,
+          70,
+          53
+        ]
       ],
       "fill": [
-        141,
-        192,
-        55
+        170,
+        208,
+        94
       ],
-      "fore_color": [
-        36,
-        178,
-        149
-      ],
-      "pattern": 49,
-      "style": "pattern",
-      "theme_topic": "Clover"
+      "focus": "center",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Motionless"
     },
     "type": "background",
     "z_order": 0
@@ -41,103 +45,105 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.4275,
-        "w": 6.7141,
-        "x": 1.1901,
-        "y": 0.2543
+        "h": 4.5684,
+        "w": 5.3907,
+        "x": 7.3847,
+        "y": 1.3163
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
+        "dash": 2,
+        "family": "basic",
         "fill": [
-          202,
-          164,
-          89
+          144,
+          110,
+          138
         ],
         "focus": false,
         "line": [
-          113,
-          75,
-          110
+          139,
+          161,
+          71
         ],
-        "line_width": 7.813112378161957,
+        "line_width": 4.649012312510862,
         "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Clover"
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Motionless"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.3242,
-        "w": 4.3218,
-        "x": -0.8813,
-        "y": 0.7089
+        "h": 4.3528,
+        "w": 7.1462,
+        "x": 1.7474,
+        "y": 0.2128
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 4,
+        "family": "stars",
         "fill": [
-          184,
-          92,
-          42
+          208,
+          159,
+          177
         ],
         "focus": false,
         "line": [
-          211,
-          215,
-          85
+          63,
+          190,
+          183
         ],
-        "line_width": 4.370123389784395,
+        "line_width": 6.935656067909089,
         "outline_only": false,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Clover"
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Motionless"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5412,
-        "w": 2.8467,
-        "x": 0.6577,
-        "y": 0.7296
+        "h": 7.5183,
+        "w": 13.3432,
+        "x": 0.0168,
+        "y": 3.4664
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          137,
+          167,
+          75
         ],
-        "font_face": "Aptos Display",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Drown Approval Repeat",
-        "theme_topic": "Clover",
-        "underline": false
+        "line": [
+          137,
+          167,
+          75
+        ],
+        "line_width": 1.0487080047029496,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Motionless"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.0363,
-        "w": 1.8075,
-        "x": 7.4928,
-        "y": 0.7491
+        "h": 1.2111,
+        "w": 5.3809,
+        "x": 0.5692,
+        "y": 0.3603
       },
       "id": "object_004",
       "properties": {
@@ -145,17 +151,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos Display",
-        "font_size": 22,
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Gleaming",
-        "theme_topic": "Clover",
+        "text": "Cheerful Naughty",
+        "theme_topic": "Motionless",
         "underline": false
       },
       "type": "text",
@@ -163,28 +169,28 @@
     },
     {
       "bbox": {
-        "h": 1.9441,
-        "w": 1.785,
-        "x": 7.4916,
-        "y": 2.065
+        "h": 0.8875,
+        "w": 11.9345,
+        "x": 0.6789,
+        "y": 1.9719
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          198,
-          222,
-          163
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Aptos Display",
+        "font_size": 36,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "reproduce lace approve efficient smooth vacuous obese excite ahead quill flock scold",
-        "theme_topic": "Clover",
+        "text": "Sofa Scientific Secret Beneficial",
+        "theme_topic": "Motionless",
         "underline": false
       },
       "type": "text",
@@ -192,94 +198,31 @@
     },
     {
       "bbox": {
-        "h": 2.2876,
-        "w": 8.8786,
-        "x": 3.8164,
-        "y": 4.5253
+        "h": 1.1487,
+        "w": 11.9097,
+        "x": 0.696,
+        "y": 3.1085
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          175,
-          210,
-          115
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          91,
+          110,
+          62
         ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          151,
-          34,
-          228
-        ],
-        "border": [
-          198,
-          222,
-          163
-        ],
-        "border_dash": "solid",
-        "border_width": 0.8633623429746995,
-        "cells": [
-          [
-            "empty box",
-            "behave eggs",
-            "stroke",
-            "acrid cure"
-          ],
-          [
-            "alcoholic",
-            "eatable button",
-            "doctor",
-            "fold"
-          ],
-          [
-            "motionless park",
-            "truthful",
-            "untidy",
-            "evanescent"
-          ],
-          [
-            "crime",
-            "crayon pushy",
-            "miscreant",
-            "men economic"
-          ],
-          [
-            "cabbage",
-            "marry",
-            "unarmed grandfather",
-            "pick"
-          ],
-          [
-            "correct",
-            "thirsty",
-            "phone",
-            "unsightly spell"
-          ],
-          [
-            "enter",
-            "pat guarded",
-            "strengthen",
-            "lunch"
-          ]
-        ],
-        "cols": 4,
+        "font_face": "Aptos",
         "font_size": 12,
-        "has_header": false,
-        "header": [
-          82,
-          96,
-          214
-        ],
-        "rows": 7,
-        "text_color": [
-          246,
-          248,
-          252
-        ],
-        "theme_topic": "Clover"
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "coast wonder aware escape disgusting finicky zoom decision stage massive achiever dust magenta responsible unusual waggish pretty smash welcome night famous",
+        "theme_topic": "Motionless",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 6
     }
   ],

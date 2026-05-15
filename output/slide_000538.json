@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "fill": [
-        141,
-        93,
-        195
+      "colors": [
+        [
+          69,
+          30,
+          55
+        ],
+        [
+          255,
+          198,
+          74
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Tasty"
+      "fill": [
+        31,
+        87,
+        166
+      ],
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Stimulating"
     },
     "type": "background",
     "z_order": 0
@@ -30,101 +45,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.8272,
-        "w": 6.6739,
-        "x": 1.7612,
-        "y": 1.0649
+        "h": 4.4762,
+        "w": 5.7762,
+        "x": 3.8785,
+        "y": 2.8707
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          157,
-          115,
-          203
+          45,
+          50,
+          107
         ],
+        "focus": false,
         "line": [
-          166,
-          128,
-          208
+          165,
+          230,
+          49
         ],
-        "line_width": 1.2799695400002786,
+        "line_width": 7.746037033471081,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tasty"
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Stimulating"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.2653,
-        "w": 5.8147,
-        "x": 0.5301,
-        "y": 0.3634
+        "h": 4.1624,
+        "w": 8.2916,
+        "x": 4.7792,
+        "y": 3.0221
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          114,
+          42,
+          154
         ],
-        "font_face": "Georgia",
-        "font_size": 36,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Motion Appear",
-        "theme_topic": "Tasty",
-        "underline": false
+        "focus": false,
+        "line": [
+          123,
+          48,
+          163
+        ],
+        "line_width": 7.893658181811236,
+        "outline_only": true,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Stimulating"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.2072,
-        "w": 6.0716,
-        "x": 6.7384,
-        "y": 1.8624
+        "h": 1.7869,
+        "w": 4.0326,
+        "x": -0.7297,
+        "y": 1.3679
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          166,
-          128,
-          208
+          139,
+          167,
+          113
         ],
+        "focus": false,
         "line": [
-          166,
-          128,
-          208
+          122,
+          104,
+          69
         ],
-        "line_width": 2.2597149291327603,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tasty"
+        "line_width": 5.415914091862701,
+        "outline_only": true,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Stimulating"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.4447,
-        "w": 5.5831,
-        "x": 6.9675,
-        "y": 2.7718
+        "h": 0.8902,
+        "w": 4.0537,
+        "x": 0.6739,
+        "y": 1.2604
       },
       "id": "object_004",
       "properties": {
@@ -132,17 +152,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Georgia",
+        "font_size": 25,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Puffy Marble",
-        "theme_topic": "Tasty",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Empty Tasty Eggs Army",
+        "theme_topic": "Stimulating",
         "underline": false
       },
       "type": "text",
@@ -150,10 +170,10 @@
     },
     {
       "bbox": {
-        "h": 0.8477,
-        "w": 6.0463,
-        "x": 6.7149,
-        "y": 3.2667
+        "h": 2.8329,
+        "w": 6.1781,
+        "x": 6.6062,
+        "y": 4.1435
       },
       "id": "object_005",
       "properties": {
@@ -161,168 +181,166 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          166,
-          128,
-          208
+          67,
+          114,
+          180
         ],
         "line": [
-          166,
-          128,
-          208
+          67,
+          114,
+          180
         ],
-        "line_width": 1.8927057641022442,
+        "line_width": 1.5231003255039153,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Tasty"
+        "theme_topic": "Stimulating"
       },
       "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.4748,
-        "w": 5.5433,
-        "x": 6.9915,
-        "y": 4.1623
+        "h": 2.5647,
+        "w": 5.8742,
+        "x": 6.7158,
+        "y": 4.3085
       },
       "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "focus": true,
+        "mask_line": [
+          255,
+          198,
+          74
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Stimulating",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.2939,
+        "w": 5.7916,
+        "x": 6.7746,
+        "y": 6.5458
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          255,
+          198,
+          74
         ],
         "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Squalid Window",
-        "theme_topic": "Tasty",
+        "text": "Paint Please",
+        "theme_topic": "Stimulating",
         "underline": false
       },
       "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.269,
-        "w": 6.0493,
-        "x": 6.7342,
-        "y": 4.3021
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          166,
-          128,
-          208
-        ],
-        "line": [
-          166,
-          128,
-          208
-        ],
-        "line_width": 3.7583222054715315,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tasty"
-      },
-      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4451,
-        "w": 5.5732,
-        "x": 6.9513,
-        "y": 5.2189
+        "h": 2.8303,
+        "w": 5.6458,
+        "x": 0.5626,
+        "y": 4.1517
       },
       "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          255,
+          198,
+          74
+        ],
+        "line": [
+          67,
+          114,
+          180
+        ],
+        "line_width": 5.32724712767977,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stimulating"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 1.1281,
+        "w": 5.2753,
+        "x": 0.7406,
+        "y": 4.7535
+      },
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Georgia",
+        "font_size": 52,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Amazing",
-        "theme_topic": "Tasty",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "815",
+        "theme_topic": "Stimulating",
         "underline": false
       },
       "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.2377,
-        "w": 6.0719,
-        "x": 6.7051,
-        "y": 5.7807
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          166,
-          128,
-          208
-        ],
-        "line": [
-          166,
-          128,
-          208
-        ],
-        "line_width": 1.7355928238733604,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tasty"
-      },
-      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4438,
-        "w": 5.5767,
-        "x": 6.9712,
-        "y": 6.6738
+        "h": 0.6959,
+        "w": 5.2856,
+        "x": 0.7284,
+        "y": 5.8649
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Wind",
-        "theme_topic": "Tasty",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "label apparatus righteous milky panoramic",
+        "theme_topic": "Stimulating",
         "underline": false
       },
       "type": "text",
@@ -330,82 +348,86 @@
     },
     {
       "bbox": {
-        "h": 5.1467,
-        "w": 5.7444,
-        "x": 0.5437,
-        "y": 1.8394
+        "h": 0.2955,
+        "w": 11.9272,
+        "x": 0.6996,
+        "y": 1.5837
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          166,
-          128,
-          208
-        ],
-        "line": [
-          166,
-          128,
-          208
-        ],
-        "line_width": 4.899409638300245,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tasty"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 4.8795,
-        "w": 5.4463,
-        "x": 0.7128,
-        "y": 2.0237
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          89,
-          104,
-          155
-        ],
-        "line_width": 16,
-        "theme_topic": "Tasty"
-      },
-      "type": "svg_image",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.2824,
-        "w": 5.3332,
-        "x": 0.7339,
-        "y": 6.5253
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          255,
+          198,
+          74
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Sponge",
-        "theme_topic": "Tasty",
+        "text": "ROASTED",
+        "theme_topic": "Stimulating",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.583,
+        "w": 11.9556,
+        "x": 0.7028,
+        "y": 2.0322
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          212,
+          227,
+          78
+        ],
+        "font_face": "Georgia",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Strip Bridge Squash",
+        "theme_topic": "Stimulating",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.728,
+        "w": 11.9249,
+        "x": 0.7154,
+        "y": 2.893
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
+        ],
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "known chickens line quartz screw magenta mint upset army upset paddle worry lewd dress yielding slim wrathful scared",
+        "theme_topic": "Stimulating",
         "underline": false
       },
       "type": "text",
@@ -413,28 +435,32 @@
     },
     {
       "bbox": {
-        "h": 0.2876,
-        "w": 2.1556,
-        "x": 0.5017,
-        "y": 1.3259
+        "h": 0.4897,
+        "w": 2.0959,
+        "x": 5.9588,
+        "y": 4.9511
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          84,
+          46,
+          136
+        ],
         "bold": true,
         "color": [
-          180,
-          166,
-          169
+          103,
+          29,
+          49
         ],
         "font_face": "Aptos",
-        "font_size": 6,
-        "italic": true,
+        "font_size": 16,
+        "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Chunky",
-        "theme_topic": "Tasty",
+        "text": "Orange",
+        "theme_topic": "Stimulating",
         "underline": false
       },
       "type": "text",

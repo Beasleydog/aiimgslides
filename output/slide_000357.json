@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
+      "angle": 30,
       "archetype": "atomic_composition",
       "colors": [
         [
-          200,
-          208,
-          207
+          39,
+          98,
+          35
         ],
         [
-          36,
-          178,
-          149
+          255,
+          206,
+          86
         ]
       ],
       "fill": [
-        200,
-        208,
-        207
+        39,
+        98,
+        35
       ],
-      "focus": "center",
-      "gradient_type": "linear",
+      "focus": "top_right",
+      "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Arch Five"
+      "theme_topic": "Children Queue"
     },
     "type": "background",
     "z_order": 0
@@ -45,155 +45,149 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.1525,
-        "w": 7.0893,
-        "x": 0.691,
-        "y": 1.4992
+        "h": 3.0868,
+        "w": 8.8599,
+        "x": 1.7546,
+        "y": 0.476
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "basic",
         "fill": [
-          68,
-          195,
-          206
+          113,
+          159,
+          50
         ],
         "focus": false,
         "line": [
-          115,
-          52,
-          56
+          165,
+          209,
+          101
         ],
-        "line_width": 3.632370584575557,
-        "outline_only": true,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Arch Five"
+        "line_width": 6.237370114966114,
+        "outline_only": false,
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Children Queue"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.5232,
-        "w": 6.0585,
-        "x": 6.1405,
-        "y": 3.6022
+        "h": 4.9782,
+        "w": 6.4931,
+        "x": 0.4709,
+        "y": 1.6007
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 3,
+        "family": "panel",
         "fill": [
-          201,
-          210,
-          155
+          88,
+          133,
+          85
         ],
-        "focus": false,
         "line": [
-          91,
-          158,
-          68
+          115,
+          153,
+          113
         ],
-        "line_width": 6.544058053348184,
+        "line_width": 5.368554926173621,
         "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Arch Five"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Children Queue"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.9684,
-        "w": 3.1487,
-        "x": 8.8108,
-        "y": -0.6676
+        "h": 0.9568,
+        "w": 8.7954,
+        "x": 0.5734,
+        "y": 0.3617
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          118,
-          182,
-          135
-        ],
-        "focus": false,
-        "line": [
-          215,
-          71,
-          170
-        ],
-        "line_width": 4.030627244363386,
-        "outline_only": true,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Arch Five"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 4.8524,
-        "w": 5.7398,
-        "x": 0.4916,
-        "y": 1.283
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          186,
-          193,
-          192
-        ],
-        "line": [
-          179,
-          186,
-          185
-        ],
-        "line_width": 1.1897033425626249,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Arch Five"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.9235,
-        "w": 4.1451,
-        "x": 5.9743,
-        "y": 1.0974
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 34,
+        "font_face": "Aptos Display",
+        "font_size": 36,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hysterical Greedy",
-        "theme_topic": "Arch Five",
+        "text": "Smell Crib Merciful Chickens",
+        "theme_topic": "Children Queue",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.6992,
+        "w": 2.8491,
+        "x": 0.6774,
+        "y": 4.4466
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.14467354635131582,
+          0.08462776147451741,
+          0.22071010494502516,
+          0.23866774494377707
+        ],
+        "focus": false,
+        "mask_line": [
+          172,
+          96,
+          65
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Children Queue",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.6592,
+        "w": 2.1614,
+        "x": 3.89,
+        "y": 3.0216
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          152,
+          180,
+          154
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "mute pass print barbarous price smoke silent apathetic minute weigh coast hug",
+        "theme_topic": "Children Queue",
         "underline": false
       },
       "type": "text",
@@ -201,118 +195,118 @@
     },
     {
       "bbox": {
-        "h": 1.514,
-        "w": 2.36,
-        "x": 2.5115,
-        "y": 4.733
+        "h": 0.7709,
+        "w": 3.3374,
+        "x": 1.4333,
+        "y": 3.5047
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1817010081843851,
-          0.2552432308657517,
-          0.28793956728308046,
-          0.2867825744280571
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          51,
+          63,
+          101
         ],
-        "focus": false,
-        "mask_line": [
-          71,
-          191,
-          205
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Arch Five",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos Display",
+        "font_size": 23,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "60%",
+        "theme_topic": "Children Queue",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.9059,
-        "w": 2.6526,
-        "x": 2.524,
-        "y": 4.4794
+        "h": 2.4223,
+        "w": 3.37,
+        "x": 1.4283,
+        "y": 4.206
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.25037515761384993,
-          0.11726721754884724,
-          0.2972289335372295,
-          0.02385994095831224
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          152,
+          180,
+          154
         ],
-        "focus": false,
-        "mask_line": [
-          170,
-          108,
-          148
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Arch Five",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "macabre payment suppose thank toe clammy",
+        "theme_topic": "Children Queue",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.2622,
-        "w": 2.9886,
-        "x": 5.5087,
-        "y": 4.3022
+        "h": 0.7334,
+        "w": 2.7516,
+        "x": 5.3097,
+        "y": 3.4941
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.20998622630906275,
-          0.10381213685800976,
-          0.1973313937948827,
-          0.009081430081187373
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          51,
+          63,
+          101
         ],
-        "focus": false,
-        "mask_line": [
-          61,
-          217,
-          107
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Arch Five",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos Display",
+        "font_size": 38,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "4.9x",
+        "theme_topic": "Children Queue",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.6649,
-        "w": 2.3744,
-        "x": 4.5209,
-        "y": 1.937
+        "h": 2.4427,
+        "w": 2.733,
+        "x": 5.3271,
+        "y": 4.2249
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.01158269395080098,
-          0.058615814897806054,
-          0.2195772073750132,
-          0.030143004806071207
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          152,
+          180,
+          154
         ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Arch Five",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "subtract attract hard-to-find crabby daughter delightful",
+        "theme_topic": "Children Queue",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 9
     }
   ],

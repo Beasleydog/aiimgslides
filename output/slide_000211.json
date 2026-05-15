@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        240,
-        176,
-        54
+        149,
+        93,
+        151
       ],
       "fill": [
-        240,
-        176,
-        54
+        122,
+        51,
+        124
       ],
       "fore_color": [
-        32,
-        119,
-        149
+        255,
+        198,
+        74
       ],
-      "pattern": 7,
+      "pattern": 48,
       "style": "pattern",
-      "theme_topic": "Appliance Zealous"
+      "theme_topic": "Drip Cycle"
     },
     "type": "background",
     "z_order": 0
@@ -41,196 +41,187 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.5123,
-        "w": 1.1806,
-        "x": 12.1557,
-        "y": -0.0053
+        "h": 4.3832,
+        "w": 5.824,
+        "x": 1.5352,
+        "y": -0.5282
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 7,
+        "family": "basic",
         "fill": [
-          249,
-          203,
-          91
+          175,
+          116,
+          95
         ],
+        "focus": false,
         "line": [
-          249,
-          203,
-          91
+          98,
+          114,
+          120
         ],
-        "line_width": 2.0172235430733765,
+        "line_width": 4.785869910614679,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Appliance Zealous"
+        "ppt_type": 142,
+        "shape": "pie",
+        "theme_topic": "Drip Cycle"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9115,
-        "w": 4.7683,
-        "x": 1.0265,
-        "y": 0.5302
+        "h": 3.4337,
+        "w": 6.7078,
+        "x": 0.7353,
+        "y": 0.3854
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          40,
-          38,
-          28
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          115,
+          181,
+          177
         ],
-        "font_face": "Aptos Display",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Honey Water Cows",
-        "theme_topic": "Appliance Zealous",
-        "underline": false
+        "focus": false,
+        "line": [
+          53,
+          115,
+          30
+        ],
+        "line_width": 5.6050003624229126,
+        "outline_only": false,
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Drip Cycle"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.6564,
-        "w": 12.2636,
-        "x": 0.5359,
-        "y": 4.3924
+        "h": 2.3848,
+        "w": 5.867,
+        "x": 5.9784,
+        "y": 5.0227
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2584958772660525,
-          0.17775615929909083,
-          0.20429200585282234,
-          0.2912514613207767
+        "dash": 7,
+        "family": "math",
+        "fill": [
+          184,
+          129,
+          102
         ],
-        "focus": true,
-        "mask_line": [
-          32,
-          119,
-          149
+        "focus": false,
+        "line": [
+          213,
+          53,
+          96
         ],
-        "mask_overlay": false,
-        "theme_topic": "Appliance Zealous",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 5.220211463228308,
+        "outline_only": true,
+        "ppt_type": 165,
+        "shape": "multiply",
+        "theme_topic": "Drip Cycle"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.2553,
-        "w": 11.831,
-        "x": 0.7425,
-        "y": 6.563
+        "h": 3.2199,
+        "w": 5.0762,
+        "x": 8.2286,
+        "y": 4.2951
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          149,
+          93,
+          151
+        ],
+        "line": [
+          149,
+          93,
+          151
+        ],
+        "line_width": 1.1392398818485836,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Drip Cycle"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.1647,
+        "w": 6.8829,
+        "x": 2.7469,
+        "y": 0.6374
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Georgia",
+        "font_size": 33,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Fancy Shop Sticks",
-        "theme_topic": "Appliance Zealous",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Pleasure Vigorous Sneaky",
+        "theme_topic": "Drip Cycle",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.5097,
-        "w": 12.2395,
-        "x": 0.5333,
-        "y": 1.4694
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          249,
-          203,
-          91
-        ],
-        "line": [
-          249,
-          203,
-          91
-        ],
-        "line_width": 0.7234679156215122,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Appliance Zealous"
-      },
-      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.0063,
-        "w": 11.7347,
-        "x": 0.7724,
-        "y": 1.7288
+        "h": 5.0776,
+        "w": 2.2307,
+        "x": 0.5382,
+        "y": 2.0041
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "fancy",
-          "coach",
-          "dark",
-          "heavy",
-          "sticks"
+        "crop": [
+          0.07521103939740087,
+          0.12354584580663217,
+          0.1609767870914373,
+          0.025557386574961836
         ],
-        "chart": "doughnut",
         "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              115,
-              90,
-              89
-            ],
-            "name": "lace vivacious",
-            "values": [
-              63,
-              23,
-              19,
-              15,
-              88
-            ]
-          }
+        "mask_line": [
+          84,
+          144,
+          89
         ],
-        "theme_topic": "Appliance Zealous",
-        "title": "irritate spotless"
+        "mask_overlay": false,
+        "theme_topic": "Drip Cycle",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 6
     }
   ],

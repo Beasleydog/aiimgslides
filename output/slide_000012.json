@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          143,
-          71,
-          232
-        ],
-        [
-          71,
-          221,
-          181
-        ]
+      "back_color": [
+        129,
+        129,
+        116
       ],
       "fill": [
-        124,
-        40,
-        229
+        61,
+        61,
+        41
       ],
-      "focus": "top_left",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Abhorrent"
+      "fore_color": [
+        200,
+        106,
+        203
+      ],
+      "pattern": 27,
+      "style": "pattern",
+      "theme_topic": "Anxious"
     },
     "type": "background",
     "z_order": 0
@@ -45,47 +41,25 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.2662,
-        "w": 11.7599,
-        "x": 0.8126,
-        "y": 3.9341
+        "h": 5.0312,
+        "w": 6.8362,
+        "x": 0.5383,
+        "y": 0.5513
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "roomy",
-          "playground",
-          "soak",
-          "joke",
-          "puzzling"
-        ],
-        "chart": "bar",
+        "clip": "arch",
         "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              93,
-              90,
-              41
-            ],
-            "name": "boundary magical",
-            "values": [
-              36,
-              15,
-              71,
-              77,
-              19
-            ]
-          }
+        "line": [
+          96,
+          165,
+          250
         ],
-        "theme_topic": "Abhorrent",
-        "title": "wind applaud"
+        "line_width": 18,
+        "theme_topic": "Anxious"
       },
-      "type": "chart",
+      "type": "svg_image",
       "z_order": 1
     }
   ],

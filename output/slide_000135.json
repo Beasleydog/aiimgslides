@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        162,
-        217,
-        173
+      "back_color": [
+        111,
+        197,
+        126
       ],
-      "style": "solid",
-      "theme_topic": "Memorize"
+      "fill": [
+        144,
+        94,
+        230
+      ],
+      "fore_color": [
+        31,
+        117,
+        161
+      ],
+      "pattern": 16,
+      "style": "pattern",
+      "theme_topic": "Gun"
     },
     "type": "background",
     "z_order": 0
@@ -30,138 +41,126 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.438,
-        "w": 8.0891,
-        "x": -0.2941,
-        "y": 2.2692
+        "h": 4.4051,
+        "w": 6.581,
+        "x": 1.7581,
+        "y": 0.8937
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          149,
-          115,
-          151
+          121,
+          105,
+          225
         ],
         "focus": false,
         "line": [
-          217,
-          52,
-          138
+          90,
+          120,
+          166
         ],
-        "line_width": 5.26638303092971,
+        "line_width": 5.307878987759288,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Memorize"
+        "ppt_type": 21,
+        "shape": "heart",
+        "theme_topic": "Gun"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.6884,
-        "w": 7.2532,
-        "x": 5.3624,
-        "y": -0.1865
+        "h": 4.7623,
+        "w": 5.6695,
+        "x": 6.4844,
+        "y": 2.633
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          123,
-          113,
-          64
+          125,
+          56,
+          165
         ],
         "focus": false,
         "line": [
-          107,
-          177,
-          147
+          113,
+          53,
+          205
         ],
-        "line_width": 7.78272670850198,
-        "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Memorize"
+        "line_width": 4.577613960005746,
+        "outline_only": true,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Gun"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.6621,
-        "w": 2.4316,
-        "x": 5.4974,
-        "y": 2.0898
+        "h": 2.8288,
+        "w": 6.2579,
+        "x": 0.5628,
+        "y": 4.2291
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "oil",
-          "ill-informed",
-          "key",
-          "used"
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          113,
+          74,
+          181
         ],
-        "chart": "doughnut",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              216,
-              209,
-              47
-            ],
-            "name": "plate different",
-            "values": [
-              38,
-              31,
-              63,
-              35
-            ]
-          }
+        "line": [
+          113,
+          74,
+          181
         ],
-        "theme_topic": "Memorize",
-        "title": "apologise numerous"
+        "line_width": 4.966457644209585,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Gun"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.8258,
-        "w": 3.8569,
-        "x": 8.8019,
-        "y": 2.0104
+        "h": 1.8182,
+        "w": 5.8997,
+        "x": 0.7357,
+        "y": 5.1205
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.18866403296249534,
-          0.06199172759752047,
-          0.15769261359333142,
-          0.045894457535333416
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          80,
+          58,
+          123
         ],
-        "focus": true,
-        "mask_line": [
-          195,
-          206,
-          161
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Memorize",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "playground floor colour melted",
+        "theme_topic": "Gun",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 4
     }
   ],

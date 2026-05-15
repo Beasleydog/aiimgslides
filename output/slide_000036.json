@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 135,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          140,
-          223,
-          168
-        ],
-        [
-          170,
-          106,
-          94
-        ]
+      "back_color": [
+        242,
+        233,
+        222
       ],
       "fill": [
-        28,
-        143,
-        112
+        252,
+        249,
+        244
       ],
-      "focus": "top_left",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Toe"
+      "fore_color": [
+        49,
+        123,
+        121
+      ],
+      "pattern": 25,
+      "style": "pattern",
+      "theme_topic": "Creepy"
     },
     "type": "background",
     "z_order": 0
@@ -45,31 +41,34 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.3988,
-        "w": 12.2228,
-        "x": 0.5689,
-        "y": 3.7088
+        "h": 4.5702,
+        "w": 7.448,
+        "x": 5.8489,
+        "y": -0.8208
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.27606425348774866,
-          0.17429293875210486,
-          0.18456914974626776,
-          0.2364885377017956
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          75,
+          129,
+          72
         ],
-        "focus": true,
-        "mask_line": [
-          150,
-          225,
-          99
+        "focus": false,
+        "line": [
+          189,
+          133,
+          185
         ],
-        "mask_overlay": true,
-        "theme_topic": "Toe",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 5.038089249759555,
+        "outline_only": false,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Creepy"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 1
     }
   ],

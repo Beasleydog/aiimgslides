@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        42,
-        221,
-        225
+      "colors": [
+        [
+          56,
+          140,
+          94
+        ],
+        [
+          64,
+          130,
+          109
+        ]
       ],
       "fill": [
-        198,
-        64,
-        91
+        25,
+        122,
+        69
       ],
-      "fore_color": [
-        198,
-        165,
-        147
-      ],
-      "pattern": 1,
-      "style": "pattern",
-      "theme_topic": "Aromatic"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Grateful Rake"
     },
     "type": "background",
     "z_order": 0
@@ -41,44 +45,171 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.6107,
-        "w": 4.2503,
-        "x": 4.9462,
-        "y": 4.6328
+        "h": 3.11,
+        "w": 8.5797,
+        "x": 5.896,
+        "y": 2.8746
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "basic",
         "fill": [
-          89,
-          171,
-          106
+          155,
+          191,
+          188
         ],
         "focus": false,
         "line": [
-          55,
-          197,
-          173
+          230,
+          133,
+          124
         ],
-        "line_width": 5.802120081393128,
+        "line_width": 4.645390242021615,
         "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Aromatic"
+        "ppt_type": 142,
+        "shape": "pie",
+        "theme_topic": "Grateful Rake"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.5416,
-        "w": 2.8517,
-        "x": 0.6551,
-        "y": 0.726
+        "h": 4.3548,
+        "w": 4.1619,
+        "x": 2.7879,
+        "y": 2.6993
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          70,
+          118,
+          142
+        ],
+        "focus": false,
+        "line": [
+          98,
+          220,
+          159
+        ],
+        "line_width": 7.992254267673007,
+        "outline_only": false,
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Grateful Rake"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.7426,
+        "w": 5.6906,
+        "x": -1.1273,
+        "y": 6.0714
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "callouts",
+        "fill": [
+          164,
+          142,
+          116
+        ],
+        "focus": false,
+        "line": [
+          162,
+          75,
+          168
+        ],
+        "line_width": 6.591468221025931,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Grateful Rake"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.3385,
+        "w": 4.2377,
+        "x": 2.3007,
+        "y": 0.9104
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "flowchart",
+        "fill": [
+          163,
+          66,
+          153
+        ],
+        "focus": false,
+        "line": [
+          169,
+          151,
+          205
+        ],
+        "line_width": 4.744517856098938,
+        "outline_only": false,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Grateful Rake"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 7.4831,
+        "w": 6.08,
+        "x": -0.0023,
+        "y": 0.0085
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          56,
+          140,
+          94
+        ],
+        "line": [
+          56,
+          140,
+          94
+        ],
+        "line_width": 0.7802712529361716,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Grateful Rake"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.1678,
+        "w": 7.7244,
+        "x": 0.551,
+        "y": 0.3746
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -89,130 +220,12 @@
           252
         ],
         "font_face": "Aptos Display",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Name Aunt",
-        "theme_topic": "Aromatic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.7677,
-        "w": 2.357,
-        "x": 3.913,
-        "y": 5.2956
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
-        ],
-        "font_face": "Aptos Display",
         "font_size": 38,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "8.8x",
-        "theme_topic": "Aromatic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.7667,
-        "w": 2.3965,
-        "x": 3.9085,
-        "y": 6.0188
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          224,
-          165,
-          179
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pushy rigid dysfunctional",
-        "theme_topic": "Aromatic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.786,
-        "w": 3.003,
-        "x": 6.6623,
-        "y": 5.096
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          174,
-          65,
-          81
-        ],
-        "line": [
-          215,
-          121,
-          140
-        ],
-        "line_width": 4.896596087855773,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Aromatic"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.772,
-        "w": 2.611,
-        "x": 6.8254,
-        "y": 5.2951
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "125",
-        "theme_topic": "Aromatic",
+        "text": "Power Racial Foamy Maniacal",
+        "theme_topic": "Grateful Rake",
         "underline": false
       },
       "type": "text",
@@ -220,10 +233,10 @@
     },
     {
       "bbox": {
-        "h": 0.7537,
-        "w": 2.6479,
-        "x": 6.8415,
-        "y": 6.0006
+        "h": 0.9672,
+        "w": 1.9498,
+        "x": 0.744,
+        "y": 2.7712
       },
       "id": "object_007",
       "properties": {
@@ -231,17 +244,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          146,
+          191,
+          169
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "nation argument maid need queen domineering",
-        "theme_topic": "Aromatic",
+        "text": "adorable quilt sponge thrill",
+        "theme_topic": "Grateful Rake",
         "underline": false
       },
       "type": "text",
@@ -249,41 +262,39 @@
     },
     {
       "bbox": {
-        "h": 1.7797,
-        "w": 2.902,
-        "x": 9.8368,
-        "y": 5.1026
+        "h": 0.9779,
+        "w": 1.969,
+        "x": 3.1903,
+        "y": 2.7703
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          156,
-          63,
-          93
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          146,
+          191,
+          169
         ],
-        "line": [
-          215,
-          121,
-          140
-        ],
-        "line_width": 4.91684511162055,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Aromatic"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "icky fixed rigid accessible sweater",
+        "theme_topic": "Grateful Rake",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.7319,
-        "w": 2.5331,
-        "x": 10.0017,
-        "y": 5.2812
+        "h": 0.747,
+        "w": 3.1846,
+        "x": 5.6911,
+        "y": 2.019
       },
       "id": "object_009",
       "properties": {
@@ -291,17 +302,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          174,
+          73,
+          92
         ],
         "font_face": "Aptos Display",
-        "font_size": 29,
+        "font_size": 33,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "9.7x",
-        "theme_topic": "Aromatic",
+        "text": "7.2x",
+        "theme_topic": "Grateful Rake",
         "underline": false
       },
       "type": "text",
@@ -309,10 +320,10 @@
     },
     {
       "bbox": {
-        "h": 0.7628,
-        "w": 2.527,
-        "x": 9.9915,
-        "y": 6.0291
+        "h": 0.9621,
+        "w": 3.1596,
+        "x": 5.6897,
+        "y": 2.7671
       },
       "id": "object_010",
       "properties": {
@@ -320,17 +331,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          146,
+          191,
+          169
         ],
         "font_face": "Aptos",
         "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "cooperative pathetic dramatic",
-        "theme_topic": "Aromatic",
+        "text": "scary repair waste burly",
+        "theme_topic": "Grateful Rake",
         "underline": false
       },
       "type": "text",
@@ -338,229 +349,234 @@
     },
     {
       "bbox": {
-        "h": 1.8338,
-        "w": 8.9939,
-        "x": 3.724,
-        "y": 2.7804
+        "h": 1.9759,
+        "w": 3.5446,
+        "x": 9.2273,
+        "y": 1.8602
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          81,
-          70,
-          196
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          67,
+          98,
+          63
         ],
-        "line_width": 15,
-        "theme_topic": "Aromatic"
+        "line": [
+          56,
+          140,
+          94
+        ],
+        "line_width": 0.9671387494636006,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Grateful Rake"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.414,
-        "w": 1.1704,
-        "x": 1.4952,
-        "y": 3.4108
+        "h": 0.7494,
+        "w": 3.1881,
+        "x": 9.4191,
+        "y": 2.0206
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          163,
-          181,
-          109
-        ],
-        "secondary": [
-          146,
-          198,
-          37
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#e6c6a8\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#7981e5\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Aromatic"
-      },
-      "type": "svg",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.3059,
-        "w": 0.5016,
-        "x": 3.7733,
-        "y": 2.8694
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          159,
-          226,
-          122
-        ],
-        "connector": "curve",
-        "dash": 5,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Aromatic",
-        "width": 0.6231974819900884
-      },
-      "type": "connector",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.3289,
-        "w": 0.8183,
-        "x": 4.1494,
-        "y": 2.9235
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          215,
-          93,
-          27
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Aptos Display",
+        "font_size": 30,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "questionable",
-        "theme_topic": "Aromatic",
+        "text": "21",
+        "theme_topic": "Grateful Rake",
         "underline": false
       },
       "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.9956,
+        "w": 3.1863,
+        "x": 9.3861,
+        "y": 2.7947
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          146,
+          191,
+          169
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "capricious rhyme gamy",
+        "theme_topic": "Grateful Rake",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 2.7533,
+        "w": 2.6179,
+        "x": 0.5557,
+        "y": 4.2231
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          56,
+          140,
+          94
+        ],
+        "line": [
+          56,
+          140,
+          94
+        ],
+        "line_width": 3.8105236407899468,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Grateful Rake"
+      },
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.329,
-        "w": 1.4344,
-        "x": 2.0344,
-        "y": 6.2879
+        "h": 2.7967,
+        "w": 2.735,
+        "x": 10.0377,
+        "y": 4.1983
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          51,
-          63,
-          101
+        "clip": "blob",
+        "focus": false,
+        "line": [
+          59,
+          225,
+          179
         ],
-        "secondary": [
-          255,
-          206,
-          86
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#769f6b\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#b98b46\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#769f6b\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Aromatic"
+        "line_width": 11,
+        "theme_topic": "Grateful Rake"
       },
-      "type": "svg",
+      "type": "svg_image",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.2213,
-        "w": 1.0356,
-        "x": 9.5824,
-        "y": 6.0118
+        "h": 2.7567,
+        "w": 2.713,
+        "x": 3.4993,
+        "y": 4.2509
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "panel",
         "fill": [
-          87,
-          64,
-          120
+          174,
+          73,
+          92
         ],
-        "focus": false,
         "line": [
-          86,
-          118,
-          108
+          56,
+          140,
+          94
         ],
-        "line_width": 1.8198946139754217,
+        "line_width": 1.6771566332116474,
         "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Aromatic"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Grateful Rake"
       },
       "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.5239,
-        "w": 1.2031,
-        "x": 3.8956,
-        "y": 4.0779
+        "h": 1.0751,
+        "w": 2.3826,
+        "x": 3.7054,
+        "y": 4.8011
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
-        "fill": [
-          169,
-          104,
-          154
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          25,
+          122,
+          69
         ],
-        "focus": false,
-        "line": [
-          203,
-          93,
-          61
-        ],
-        "line_width": 1.3404130218658243,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Aromatic"
+        "font_face": "Aptos Display",
+        "font_size": 42,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "9x",
+        "theme_topic": "Grateful Rake",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.924,
-        "w": 1.259,
-        "x": 11.0114,
-        "y": 4.5146
+        "h": 0.6945,
+        "w": 2.3617,
+        "x": 3.7014,
+        "y": 5.9073
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          53,
-          102,
-          194
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          105,
-          40,
-          65
-        ],
-        "line_width": 5.044454819687326,
-        "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Aromatic"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "melt tail carriage weight coil classy kiss eager tongue",
+        "theme_topic": "Grateful Rake",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 18
     }
   ],

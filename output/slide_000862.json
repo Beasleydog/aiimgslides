@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 90,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          252,
-          249,
-          244
-        ],
-        [
-          186,
-          124,
-          88
-        ]
+      "back_color": [
+        59,
+        25,
+        98
       ],
       "fill": [
-        252,
-        249,
-        244
+        59,
+        25,
+        98
       ],
-      "focus": "top_right",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Elfin Soft"
+      "fore_color": [
+        255,
+        206,
+        86
+      ],
+      "pattern": 9,
+      "style": "pattern",
+      "theme_topic": "Cap"
     },
     "type": "background",
     "z_order": 0
@@ -45,105 +41,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.0036,
-        "w": 5.3229,
-        "x": 6.1082,
-        "y": 5.3704
+        "h": 2.7479,
+        "w": 8.7033,
+        "x": 5.3999,
+        "y": 4.391
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "callouts",
         "fill": [
-          150,
-          190,
-          202
+          131,
+          57,
+          162
         ],
         "focus": false,
         "line": [
-          156,
-          71,
-          49
+          185,
+          154,
+          92
         ],
-        "line_width": 5.863174016733886,
-        "outline_only": true,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Elfin Soft"
+        "line_width": 7.899493441568201,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Cap"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.5301,
-        "w": 8.3145,
-        "x": 1.3034,
-        "y": 2.9165
+        "h": 4.8182,
+        "w": 4.3694,
+        "x": 7.0739,
+        "y": 1.9888
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "stars",
         "fill": [
-          216,
-          235,
-          111
+          84,
+          94,
+          66
         ],
         "focus": false,
         "line": [
-          35,
-          228,
-          74
+          101,
+          169,
+          84
         ],
-        "line_width": 6.117008898411952,
-        "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Elfin Soft"
+        "line_width": 7.716502068587099,
+        "outline_only": true,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Cap"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.5613,
-        "w": 13.3225,
-        "x": 0.0054,
-        "y": 0.0146
+        "h": 5.0316,
+        "w": 7.536,
+        "x": 2.2692,
+        "y": 1.038
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 3,
+        "family": "arrows",
         "fill": [
-          242,
-          233,
-          222
+          55,
+          52,
+          117
         ],
+        "focus": false,
         "line": [
-          242,
-          233,
-          222
+          199,
+          214,
+          203
         ],
-        "line_width": 1.3326786342417765,
+        "line_width": 4.923627165035776,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Elfin Soft"
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Cap"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.8863,
-        "w": 3.8377,
-        "x": 5.4908,
-        "y": 0.9467
+        "h": 1.1311,
+        "w": 8.6713,
+        "x": 2.3148,
+        "y": 0.6253
       },
       "id": "object_004",
       "properties": {
@@ -151,17 +148,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          36,
-          32,
-          29
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
+        "font_face": "Arial",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Wink Grubby Flesh",
-        "theme_topic": "Elfin Soft",
+        "text": "Blow Judicious Change",
+        "theme_topic": "Cap",
         "underline": false
       },
       "type": "text",
@@ -169,28 +166,28 @@
     },
     {
       "bbox": {
-        "h": 1.0356,
-        "w": 1.9081,
-        "x": 10.7072,
-        "y": 1.5569
+        "h": 0.4609,
+        "w": 2.0876,
+        "x": 10.6271,
+        "y": 2.759
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          141,
-          153,
-          79
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 24,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Large",
-        "theme_topic": "Elfin Soft",
+        "text": "madly irritate spotless",
+        "theme_topic": "Cap",
         "underline": false
       },
       "type": "text",
@@ -198,10 +195,10 @@
     },
     {
       "bbox": {
-        "h": 3.9876,
-        "w": 1.9188,
-        "x": 10.7186,
-        "y": 2.859
+        "h": 0.334,
+        "w": 2.1198,
+        "x": 10.6405,
+        "y": 4.0949
       },
       "id": "object_006",
       "properties": {
@@ -209,17 +206,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          123,
-          113,
-          103
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "mom combative incredible paltry rigid tenuous peace sparkling fold unpack include pizzas shiver guarantee educated steel cultured switch pen plucky zonked",
-        "theme_topic": "Elfin Soft",
+        "text": "superb wriggle testy draconian chickens river pray",
+        "theme_topic": "Cap",
         "underline": false
       },
       "type": "text",
@@ -227,70 +224,70 @@
     },
     {
       "bbox": {
-        "h": 0.3146,
-        "w": 2.1067,
-        "x": 0.6081,
-        "y": 1.9611
+        "h": 0.375,
+        "w": 0.3827,
+        "x": 11.2159,
+        "y": 5.0368
       },
       "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          51,
+          63,
+          101
+        ],
+        "line": [
+          99,
+          72,
+          130
+        ],
+        "line_width": 0.7752212016703128,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Cap"
+      },
+      "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.3464,
+        "w": 2.1181,
+        "x": 10.6087,
+        "y": 5.3298
+      },
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          36,
-          32,
-          29
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "committee nasty faint",
-        "theme_topic": "Elfin Soft",
+        "text": "tense alive march payment possess enormous",
+        "theme_topic": "Cap",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.3728,
-        "w": 0.4067,
-        "x": 1.3264,
-        "y": 2.9125
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          174,
-          73,
-          92
-        ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 1.2165841602770546,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Elfin Soft"
-      },
-      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.3638,
-        "w": 2.0843,
-        "x": 0.5886,
-        "y": 3.1909
+        "h": 0.39,
+        "w": 2.1049,
+        "x": 10.6103,
+        "y": 6.5853
       },
       "id": "object_009",
       "properties": {
@@ -298,17 +295,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          36,
-          32,
-          29
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "scene visit hum dinner",
-        "theme_topic": "Elfin Soft",
+        "text": "combative aromatic soup yoke confused unable",
+        "theme_topic": "Cap",
         "underline": false
       },
       "type": "text",
@@ -316,39 +313,41 @@
     },
     {
       "bbox": {
-        "h": 0.2579,
-        "w": 2.0832,
-        "x": 0.5885,
-        "y": 4.257
+        "h": 0.5459,
+        "w": 0.5544,
+        "x": 1.4637,
+        "y": 2.5186
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          36,
-          32,
-          29
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          51,
+          63,
+          101
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "bait bomb legal entertain",
-        "theme_topic": "Elfin Soft",
-        "underline": false
+        "line": [
+          99,
+          72,
+          130
+        ],
+        "line_width": 1.3969443679291305,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Cap"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.311,
-        "w": 2.0969,
-        "x": 0.6224,
-        "y": 5.2579
+        "h": 0.5407,
+        "w": 2.126,
+        "x": 0.6049,
+        "y": 2.9315
       },
       "id": "object_011",
       "properties": {
@@ -356,17 +355,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          36,
-          32,
-          29
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "scene anger miniature tin poke private",
-        "theme_topic": "Elfin Soft",
+        "text": "spiders grandmother guitar humorous fade terrify",
+        "theme_topic": "Cap",
         "underline": false
       },
       "type": "text",
@@ -374,41 +373,41 @@
     },
     {
       "bbox": {
-        "h": 0.4232,
-        "w": 0.3926,
-        "x": 1.1223,
-        "y": 6.3555
+        "h": 0.5739,
+        "w": 0.6055,
+        "x": 1.1527,
+        "y": 4.48
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          174,
-          73,
-          92
+          51,
+          63,
+          101
         ],
         "line": [
-          242,
-          233,
-          222
+          99,
+          72,
+          130
         ],
-        "line_width": 2.441307588021586,
+        "line_width": 1.8700688436309434,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Elfin Soft"
+        "theme_topic": "Cap"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.3832,
-        "w": 2.1011,
-        "x": 0.585,
-        "y": 6.5157
+        "h": 0.5845,
+        "w": 2.0983,
+        "x": 0.5841,
+        "y": 4.7595
       },
       "id": "object_013",
       "properties": {
@@ -416,17 +415,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          36,
-          32,
-          29
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "toothbrush male grubby loaf",
-        "theme_topic": "Elfin Soft",
+        "text": "shelf spot puzzled",
+        "theme_topic": "Cap",
         "underline": false
       },
       "type": "text",
@@ -434,281 +433,279 @@
     },
     {
       "bbox": {
-        "h": 1.4172,
-        "w": 2.109,
-        "x": 3.2951,
-        "y": 2.4973
+        "h": 0.4886,
+        "w": 2.1108,
+        "x": 0.6165,
+        "y": 6.4633
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1850424275062771,
-          0.15223068528326184,
-          0.19801966889811037,
-          0.12614375770084166
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "mask_line": [
-          90,
-          61,
-          180
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Elfin Soft",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ratty giraffe quickest able creepy quixotic",
+        "theme_topic": "Cap",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 1.4426,
-        "w": 2.1267,
-        "x": 5.6137,
-        "y": 2.491
+        "h": 2.8188,
+        "w": 6.8411,
+        "x": 3.2636,
+        "y": 2.8803
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          242,
-          233,
-          222
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "line": [
-          242,
-          233,
-          222
+        "focus": true,
+        "mask_line": [
+          119,
+          187,
+          42
         ],
-        "line_width": 3.817914943633218,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Elfin Soft"
+        "mask_overlay": false,
+        "theme_topic": "Cap",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 1.1465,
-        "w": 1.8515,
-        "x": 5.7639,
-        "y": 2.6648
+        "h": 0.2657,
+        "w": 6.453,
+        "x": 3.4315,
+        "y": 5.297
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1622261011726834,
-          0.21941473621665405,
-          0.14988462172345843,
-          0.1957176165464007
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          51,
+          63,
+          101
         ],
-        "focus": false,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Elfin Soft",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Fat Super",
+        "theme_topic": "Cap",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.2192,
-        "w": 1.0042,
-        "x": 3.4745,
-        "y": 2.6989
+        "h": 0.7599,
+        "w": 1.098,
+        "x": 9.6737,
+        "y": 4.3486
       },
       "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          164,
-          166,
-          31
-        ],
-        "bold": false,
-        "color": [
-          214,
-          137,
-          217
-        ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "fair badge",
-        "theme_topic": "Elfin Soft",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.7629,
-        "w": 0.4923,
-        "x": 4.8435,
-        "y": 0.2429
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          188,
-          134,
-          54
-        ],
-        "focus": false,
-        "line": [
-          108,
-          207,
-          173
-        ],
-        "line_width": 4.149389667833547,
-        "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Elfin Soft"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.9637,
-        "w": 0.6665,
-        "x": 3.0389,
-        "y": 3.744
-      },
-      "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "callouts",
         "fill": [
-          81,
-          120,
-          113
+          51,
+          63,
+          101
         ],
         "focus": false,
         "line": [
-          135,
-          90,
-          185
+          227,
+          41,
+          97
         ],
-        "line_width": 0.8177364816284731,
+        "line_width": 3.937957868471865,
         "outline_only": false,
         "ppt_type": 105,
         "shape": "rect_callout",
-        "theme_topic": "Elfin Soft"
+        "theme_topic": "Cap"
+      },
+      "type": "shape",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.6182,
+        "w": 1.3261,
+        "x": 2.0156,
+        "y": 3.7501
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          48,
+          104,
+          184
+        ],
+        "bold": true,
+        "color": [
+          86,
+          93,
+          145
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "industrious warm books guitar",
+        "theme_topic": "Cap",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.6542,
+        "w": 0.2946,
+        "x": 6.3594,
+        "y": 2.3893
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          140,
+          181,
+          110
+        ],
+        "focus": false,
+        "line": [
+          75,
+          173,
+          182
+        ],
+        "line_width": 1.908624761545473,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Cap"
       },
       "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.8108,
-        "w": 0.6065,
-        "x": 5.0411,
-        "y": 0.8393
+        "h": 0.4993,
+        "w": 1.3347,
+        "x": 6.3361,
+        "y": 4.7351
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
+        "dash": 2,
+        "family": "basic",
         "fill": [
-          98,
-          198,
-          149
+          46,
+          210,
+          70
         ],
         "focus": false,
         "line": [
-          138,
-          204,
-          37
+          227,
+          29,
+          191
         ],
-        "line_width": 5.6451985915557925,
+        "line_width": 4.3201902174931766,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Elfin Soft"
+        "ppt_type": 142,
+        "shape": "pie",
+        "theme_topic": "Cap"
       },
       "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.4864,
-        "w": 0.9049,
-        "x": 2.1081,
-        "y": 0.3862
+        "h": 0.2247,
+        "w": 1.5734,
+        "x": 1.1481,
+        "y": 2.4092
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          95,
-          48,
-          203
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          116,
+          185,
+          193
         ],
-        "focus": false,
-        "line": [
-          203,
-          65,
-          229
-        ],
-        "line_width": 1.4230042806730798,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Elfin Soft"
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "clever",
+        "theme_topic": "Cap",
+        "underline": true
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.5428,
-        "w": 1.322,
-        "x": 9.4333,
-        "y": 4.6384
+        "h": 0.7355,
+        "w": 1.2033,
+        "x": 11.6456,
+        "y": 4.3293
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          201,
           155,
-          211,
-          141
+          121
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "porter chilly healthy",
-        "theme_topic": "Elfin Soft",
-        "underline": true
+        "focus": false,
+        "line": [
+          55,
+          151,
+          188
+        ],
+        "line_width": 6.198098765876407,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Cap"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 22
     }
   ],

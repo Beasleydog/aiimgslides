@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        245,
-        247,
-        252
+      "back_color": [
+        138,
+        181,
+        226
       ],
-      "style": "solid",
-      "theme_topic": "Wave"
+      "fill": [
+        138,
+        181,
+        226
+      ],
+      "fore_color": [
+        162,
+        189,
+        71
+      ],
+      "pattern": 1,
+      "style": "pattern",
+      "theme_topic": "Boat"
     },
     "type": "background",
     "z_order": 0
@@ -30,167 +41,169 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.0356,
-        "w": 8.9937,
-        "x": 2.7905,
-        "y": 0.2445
+        "h": 5.1305,
+        "w": 3.8668,
+        "x": 1.6796,
+        "y": 2.0925
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          126,
-          84,
-          135
+          134,
+          68,
+          171
         ],
         "focus": false,
         "line": [
-          35,
-          169,
-          144
+          69,
+          79,
+          71
         ],
-        "line_width": 2.4563569488295167,
+        "line_width": 7.876516146771671,
         "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Wave"
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Boat"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.0828,
-        "w": 7.9942,
-        "x": 2.13,
-        "y": 2.8795
+        "h": 1.4896,
+        "w": 3.5682,
+        "x": 4.7463,
+        "y": 3.1823
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          141,
-          218,
-          152
+          155,
+          161,
+          139
         ],
         "focus": false,
         "line": [
-          55,
-          182,
+          204,
+          102,
           104
         ],
-        "line_width": 7.073802068156917,
+        "line_width": 4.854497943489424,
         "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Wave"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Boat"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.0793,
-        "w": 8.696,
-        "x": 3.5311,
-        "y": 0.542
+        "h": 2.4513,
+        "w": 5.9196,
+        "x": -0.6389,
+        "y": 2.8167
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
+        "dash": 5,
+        "family": "basic",
         "fill": [
-          139,
-          130,
-          91
+          71,
+          121,
+          157
         ],
         "focus": false,
         "line": [
-          180,
-          106,
-          190
+          59,
+          208,
+          65
         ],
-        "line_width": 7.5455657525080415,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Wave"
+        "line_width": 3.970821271782027,
+        "outline_only": true,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Boat"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.1367,
-        "w": 4.8129,
-        "x": 3.2157,
-        "y": 3.5688
+        "h": 2.44,
+        "w": 7.525,
+        "x": -1.0199,
+        "y": 1.6419
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 5,
+        "family": "ribbons",
         "fill": [
-          205,
-          137,
-          155
+          146,
+          131,
+          77
         ],
         "focus": false,
         "line": [
-          54,
-          174,
-          208
+          170,
+          226,
+          165
         ],
-        "line_width": 4.991236190404268,
-        "outline_only": true,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Wave"
+        "line_width": 7.1977456472813195,
+        "outline_only": false,
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Boat"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1447,
-        "w": 8.3342,
-        "x": 0.5585,
-        "y": 0.3393
+        "h": 4.8376,
+        "w": 7.0945,
+        "x": 1.186,
+        "y": 0.6459
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          27,
-          44,
-          68
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          125,
+          163,
+          204
         ],
-        "font_face": "Georgia",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Dark Stale",
-        "theme_topic": "Wave",
-        "underline": false
+        "line": [
+          118,
+          154,
+          193
+        ],
+        "line_width": 1.0685911263100087,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Boat"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.5786,
-        "w": 6.0304,
-        "x": 6.6433,
-        "y": 1.9477
+        "h": 1.1592,
+        "w": 7.0554,
+        "x": 2.5676,
+        "y": 0.6554
       },
       "id": "object_006",
       "properties": {
@@ -198,17 +211,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          28,
+          30,
+          36
         ],
-        "font_face": "Georgia",
-        "font_size": 30,
-        "italic": true,
+        "font_face": "Trebuchet MS",
+        "font_size": 41,
+        "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Second Board Advertisement",
-        "theme_topic": "Wave",
+        "text": "Boil Invent Knotty",
+        "theme_topic": "Boat",
         "underline": false
       },
       "type": "text",
@@ -216,127 +229,86 @@
     },
     {
       "bbox": {
-        "h": 0.6799,
-        "w": 6.0089,
-        "x": 6.6261,
-        "y": 2.8118
+        "h": 1.4134,
+        "w": 3.3206,
+        "x": 3.6824,
+        "y": 5.4977
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
+        "crop": [
+          0.2293021188356624,
+          0.2042546690103859,
+          0.23744780854643682,
+          0.18144165906504106
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "jobless noxious stocking temporary cow delightful confuse cross design robust enchanting possessive uptight able invite",
-        "theme_topic": "Wave",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          195,
+          130,
+          83
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Boat",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 5.07,
-        "w": 5.486,
-        "x": 0.5833,
-        "y": 1.8972
+        "h": 0.2639,
+        "w": 2.4597,
+        "x": 3.2694,
+        "y": 3.5124
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          150,
-          63,
-          160
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
         ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          187,
-          45,
-          203
-        ],
-        "border": [
-          183,
-          103,
-          74
-        ],
-        "border_dash": "lgDash",
-        "border_width": 1.8450101342848575,
-        "cells": [
-          [
-            "remain",
-            "merciful"
-          ],
-          [
-            "caring",
-            "tan"
-          ],
-          [
-            "gratis fang",
-            "detail"
-          ],
-          [
-            "savory dress",
-            "zipper"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 5,
-        "has_header": false,
-        "header": [
-          82,
-          96,
-          214
-        ],
-        "rows": 4,
-        "text_color": [
-          27,
-          44,
-          68
-        ],
-        "theme_topic": "Wave"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "BROAD FESTIVE",
+        "theme_topic": "Boat",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4501,
-        "w": 6.0136,
-        "x": 6.6119,
-        "y": 3.9545
+        "h": 0.2575,
+        "w": 2.4714,
+        "x": 3.3012,
+        "y": 3.9655
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          50,
-          105,
-          25
-        ],
+        "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          28,
+          30,
+          36
         ],
-        "font_face": "Georgia",
-        "font_size": 23,
+        "font_face": "Trebuchet MS",
+        "font_size": 18,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Skillful Numerous",
-        "theme_topic": "Wave",
+        "text": "Twig",
+        "theme_topic": "Boat",
         "underline": false
       },
       "type": "text",
@@ -344,10 +316,10 @@
     },
     {
       "bbox": {
-        "h": 0.4571,
-        "w": 6.0077,
-        "x": 6.6054,
-        "y": 4.6456
+        "h": 0.6308,
+        "w": 0.7385,
+        "x": 10.7202,
+        "y": 0.8892
       },
       "id": "object_010",
       "properties": {
@@ -355,17 +327,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          103,
-          117,
-          137
+          93,
+          78,
+          46
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "teaching floor better holiday spark beginner cruel ceaseless system agonizing stitch leather venomous spotless cultured doubt quince",
-        "theme_topic": "Wave",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Delight",
+        "theme_topic": "Boat",
         "underline": false
       },
       "type": "text",
@@ -373,31 +345,34 @@
     },
     {
       "bbox": {
-        "h": 0.5305,
-        "w": 1.4671,
-        "x": 4.6439,
-        "y": 6.219
+        "h": 0.9881,
+        "w": 0.9828,
+        "x": 6.1755,
+        "y": 5.601
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          79,
-          65,
-          54
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          25,
+          151,
+          105
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Earn Memorize Attraction",
-        "theme_topic": "Wave",
-        "underline": false
+        "focus": false,
+        "line": [
+          144,
+          52,
+          160
+        ],
+        "line_width": 4.802415595415673,
+        "outline_only": true,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Boat"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     }
   ],

@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        227,
-        213,
-        172
+        222,
+        121,
+        132
       ],
       "fill": [
-        227,
         213,
-        172
+        84,
+        99
       ],
       "fore_color": [
-        82,
-        96,
-        214
+        255,
+        206,
+        86
       ],
-      "pattern": 40,
+      "pattern": 31,
       "style": "pattern",
-      "theme_topic": "Broken"
+      "theme_topic": "Abandoned Grin"
     },
     "type": "background",
     "z_order": 0
@@ -41,192 +41,195 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.8943,
-        "w": 8.7353,
-        "x": 4.2711,
-        "y": 0.1062
+        "h": 4.2954,
+        "w": 6.1528,
+        "x": 5.2429,
+        "y": -0.194
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "stars",
         "fill": [
-          175,
-          173,
-          121
+          197,
+          178,
+          146
         ],
         "focus": false,
         "line": [
-          168,
-          220,
-          189
+          105,
+          126,
+          220
         ],
-        "line_width": 2.356274459172332,
-        "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Broken"
+        "line_width": 4.0401737645430655,
+        "outline_only": true,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Abandoned Grin"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.8356,
-        "w": 3.9354,
-        "x": -0.3318,
-        "y": 2.0326
+        "h": 4.3587,
+        "w": 3.6575,
+        "x": 9.8024,
+        "y": 0.4992
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 7,
+        "family": "arrows",
         "fill": [
-          194,
-          128,
-          101
+          217,
+          176,
+          83
         ],
         "focus": false,
         "line": [
-          175,
-          203,
-          90
+          187,
+          75,
+          132
         ],
-        "line_width": 7.845176042419965,
+        "line_width": 7.552523148946822,
         "outline_only": false,
-        "ppt_type": 13,
-        "shape": "can",
-        "theme_topic": "Broken"
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Abandoned Grin"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.6227,
-        "w": 1.1769,
-        "x": 8.7865,
-        "y": 0.5953
+        "h": 3.1675,
+        "w": 3.5147,
+        "x": 2.6316,
+        "y": 4.718
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.09233910452559613,
-          0.21474136221061674,
-          0.2753569483676825,
-          0.09399035953952341
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          110,
+          137,
+          111
         ],
         "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
+        "line": [
+          40,
+          185,
+          129
         ],
-        "mask_overlay": true,
-        "theme_topic": "Broken",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 6.335690053795259,
+        "outline_only": false,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Abandoned Grin"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.2625,
-        "w": 0.7912,
-        "x": 9.0102,
-        "y": 2.8104
+        "h": 4.9503,
+        "w": 6.1674,
+        "x": 1.408,
+        "y": 1.5058
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          218,
+          108,
+          120
+        ],
+        "line": [
+          222,
+          121,
+          132
+        ],
+        "line_width": 2.4409493507783413,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Abandoned Grin"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.8167,
+        "w": 3.2091,
+        "x": 9.4195,
+        "y": 0.6275
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          28,
+          30,
+          36
         ],
-        "font_face": "Arial",
-        "font_size": 8,
+        "font_face": "Aptos Display",
+        "font_size": 25,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Lacking Odd",
-        "theme_topic": "Broken",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Funny",
+        "theme_topic": "Abandoned Grin",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.618,
-        "w": 1.1911,
-        "x": 10.1439,
-        "y": 0.6255
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.28620175208273735,
-          0.05760800120894229,
-          0.19727962137059205,
-          0.3094942902917216
-        ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Broken",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 3.3518,
-        "w": 3.0514,
-        "x": 0.5599,
-        "y": 3.6222
+        "h": 1.596,
+        "w": 3.1053,
+        "x": 5.5011,
+        "y": 4.0876
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          183,
-          172,
-          138
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          183,
-          172,
-          138
-        ],
-        "line_width": 2.1328767808209843,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Broken"
+        "font_face": "Aptos Display",
+        "font_size": 29,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Wren Tub Condition Need Wall Page",
+        "theme_topic": "Abandoned Grin",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.7384,
-        "w": 2.6841,
-        "x": 0.7272,
-        "y": 3.7894
+        "h": 0.4547,
+        "w": 1.7091,
+        "x": 5.5196,
+        "y": 5.9719
       },
       "id": "object_007",
       "properties": {
@@ -234,17 +237,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ],
-        "font_face": "Arial",
-        "font_size": 29,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "31",
-        "theme_topic": "Broken",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "JOIN DELAY",
+        "theme_topic": "Abandoned Grin",
         "underline": false
       },
       "type": "text",
@@ -252,39 +255,41 @@
     },
     {
       "bbox": {
-        "h": 2.3463,
-        "w": 2.6756,
-        "x": 0.7122,
-        "y": 4.5263
+        "h": 2.9903,
+        "w": 1.5579,
+        "x": 5.3295,
+        "y": 0.6358
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          117,
-          112,
-          97
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          126,
+          92,
+          228
         ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "bustling cruel trap kittens",
-        "theme_topic": "Broken",
-        "underline": false
+        "line": [
+          222,
+          121,
+          132
+        ],
+        "line_width": 4.01069127582634,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Abandoned Grin"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.7669,
-        "w": 2.8538,
-        "x": 3.9293,
-        "y": 3.7654
+        "h": 0.7309,
+        "w": 1.1857,
+        "x": 5.5109,
+        "y": 0.8257
       },
       "id": "object_009",
       "properties": {
@@ -292,17 +297,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ],
-        "font_face": "Arial",
-        "font_size": 32,
+        "font_face": "Aptos Display",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "9.3x",
-        "theme_topic": "Broken",
+        "text": "205",
+        "theme_topic": "Abandoned Grin",
         "underline": false
       },
       "type": "text",
@@ -310,10 +315,10 @@
     },
     {
       "bbox": {
-        "h": 2.3319,
-        "w": 2.854,
-        "x": 3.9624,
-        "y": 4.5279
+        "h": 1.9508,
+        "w": 1.2018,
+        "x": 5.4904,
+        "y": 1.554
       },
       "id": "object_010",
       "properties": {
@@ -321,17 +326,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          117,
-          112,
-          97
+          111,
+          54,
+          64
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "miscreant rabbit watch",
-        "theme_topic": "Broken",
+        "text": "worm rule snotty stupid line nutritious",
+        "theme_topic": "Abandoned Grin",
         "underline": false
       },
       "type": "text",
@@ -339,41 +344,41 @@
     },
     {
       "bbox": {
-        "h": 3.3581,
-        "w": 2.1121,
-        "x": 7.1474,
-        "y": 3.6022
+        "h": 2.9851,
+        "w": 1.8106,
+        "x": 7.0706,
+        "y": 0.6592
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 2,
         "family": "panel",
         "fill": [
-          183,
-          172,
-          138
+          222,
+          121,
+          132
         ],
         "line": [
-          183,
-          172,
-          138
+          222,
+          121,
+          132
         ],
-        "line_width": 2.33372346538211,
+        "line_width": 2.916959874710012,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Broken"
+        "theme_topic": "Abandoned Grin"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.7256,
-        "w": 1.7308,
-        "x": 7.3587,
-        "y": 3.8022
+        "h": 0.7566,
+        "w": 1.4188,
+        "x": 7.2226,
+        "y": 0.8159
       },
       "id": "object_012",
       "properties": {
@@ -381,17 +386,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ],
-        "font_face": "Arial",
-        "font_size": 34,
+        "font_face": "Aptos Display",
+        "font_size": 33,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "16%",
-        "theme_topic": "Broken",
+        "text": "98%",
+        "theme_topic": "Abandoned Grin",
         "underline": false
       },
       "type": "text",
@@ -399,10 +404,10 @@
     },
     {
       "bbox": {
-        "h": 2.3175,
-        "w": 1.7401,
-        "x": 7.371,
-        "y": 4.5316
+        "h": 1.9738,
+        "w": 1.4381,
+        "x": 7.2145,
+        "y": 1.582
       },
       "id": "object_013",
       "properties": {
@@ -410,17 +415,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          117,
-          112,
-          97
+          111,
+          54,
+          64
         ],
-        "font_face": "Arial",
+        "font_face": "Aptos",
         "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "imported government vigorous pest raspy",
-        "theme_topic": "Broken",
+        "text": "expert quickest hospitable fry fruit zippy",
+        "theme_topic": "Abandoned Grin",
         "underline": false
       },
       "type": "text",
@@ -428,59 +433,57 @@
     },
     {
       "bbox": {
-        "h": 3.3314,
-        "w": 3.321,
-        "x": 9.4492,
-        "y": 3.5984
+        "h": 0.7577,
+        "w": 1.7921,
+        "x": 0.8469,
+        "y": 0.8204
       },
       "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          183,
-          172,
-          138
-        ],
-        "line": [
-          183,
-          172,
-          138
-        ],
-        "line_width": 1.2605623846919116,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Broken"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.7654,
-        "w": 2.948,
-        "x": 9.6612,
-        "y": 3.7857
-      },
-      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ],
-        "font_face": "Arial",
+        "font_face": "Aptos Display",
         "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "67",
-        "theme_topic": "Broken",
+        "text": "143",
+        "theme_topic": "Abandoned Grin",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 5.2168,
+        "w": 1.8008,
+        "x": 0.8096,
+        "y": 1.5927
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          111,
+          54,
+          64
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "spotless easy berserk brainy temporary title",
+        "theme_topic": "Abandoned Grin",
         "underline": false
       },
       "type": "text",
@@ -488,39 +491,41 @@
     },
     {
       "bbox": {
-        "h": 2.3284,
-        "w": 2.9438,
-        "x": 9.6535,
-        "y": 4.5087
+        "h": 6.2411,
+        "w": 1.947,
+        "x": 2.9804,
+        "y": 0.664
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          117,
-          112,
-          97
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          73,
+          77,
+          105
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "changeable certain dirt",
-        "theme_topic": "Broken",
-        "underline": false
+        "line": [
+          222,
+          121,
+          132
+        ],
+        "line_width": 2.7452084141897983,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Abandoned Grin"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.7492,
-        "w": 0.4492,
-        "x": 4.5515,
-        "y": 0.7202
+        "h": 0.7444,
+        "w": 1.5815,
+        "x": 3.1609,
+        "y": 0.8443
       },
       "id": "object_017",
       "properties": {
@@ -528,17 +533,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ],
-        "font_face": "Arial",
-        "font_size": 20,
+        "font_face": "Aptos Display",
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "5.8x",
-        "theme_topic": "Broken",
+        "text": "26%",
+        "theme_topic": "Abandoned Grin",
         "underline": false
       },
       "type": "text",
@@ -546,10 +551,10 @@
     },
     {
       "bbox": {
-        "h": 1.7288,
-        "w": 0.4471,
-        "x": 4.5356,
-        "y": 1.4813
+        "h": 5.2375,
+        "w": 1.605,
+        "x": 3.1617,
+        "y": 1.5534
       },
       "id": "object_018",
       "properties": {
@@ -557,17 +562,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          117,
-          112,
-          97
+          111,
+          54,
+          64
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "disagreeable toys prepare memory tender",
-        "theme_topic": "Broken",
+        "text": "broken whirl modern lying",
+        "theme_topic": "Abandoned Grin",
         "underline": false
       },
       "type": "text",
@@ -575,86 +580,92 @@
     },
     {
       "bbox": {
-        "h": 1.7318,
-        "w": 0.473,
-        "x": 5.5525,
-        "y": 1.4648
+        "h": 0.9448,
+        "w": 1.0017,
+        "x": 4.0,
+        "y": 0.9608
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          117,
-          112,
-          97
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          31,
+          165,
+          67
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "channel chess work",
-        "theme_topic": "Broken",
-        "underline": false
+        "focus": false,
+        "line": [
+          111,
+          54,
+          64
+        ],
+        "line_width": 0.9548744648266244,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Abandoned Grin"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 1.6976,
-        "w": 0.5462,
-        "x": 6.5865,
-        "y": 1.4535
+        "h": 0.5594,
+        "w": 0.4807,
+        "x": 11.0171,
+        "y": 0.3822
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          117,
-          112,
-          97
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          225,
+          133,
+          33
         ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "bump pear giants",
-        "theme_topic": "Broken",
-        "underline": false
+        "focus": false,
+        "line": [
+          140,
+          46,
+          82
+        ],
+        "line_width": 2.94578925566458,
+        "outline_only": true,
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Abandoned Grin"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.7613,
-        "w": 0.5856,
-        "x": 7.663,
-        "y": 0.7324
+        "h": 0.5752,
+        "w": 0.7672,
+        "x": 11.8931,
+        "y": 2.0729
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          82,
-          96,
-          214
+          137,
+          40,
+          202
         ],
-        "font_face": "Arial",
-        "font_size": 30,
+        "font_face": "Aptos",
+        "font_size": 16,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "70",
-        "theme_topic": "Broken",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Hope Racial",
+        "theme_topic": "Abandoned Grin",
         "underline": false
       },
       "type": "text",
@@ -662,118 +673,130 @@
     },
     {
       "bbox": {
-        "h": 1.7071,
-        "w": 0.6093,
-        "x": 7.6804,
-        "y": 1.4772
+        "h": 0.5955,
+        "w": 0.2857,
+        "x": 1.3871,
+        "y": 1.9943
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
+        "dash": 3,
+        "family": "symbols",
+        "fill": [
+          197,
           117,
-          112,
-          97
+          158
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "actually maniacal grain camera vest writing",
-        "theme_topic": "Broken",
-        "underline": false
+        "focus": false,
+        "line": [
+          212,
+          31,
+          81
+        ],
+        "line_width": 0.5094079486630457,
+        "outline_only": false,
+        "ppt_type": 14,
+        "shape": "cube",
+        "theme_topic": "Abandoned Grin"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.2686,
-        "w": 3.2281,
-        "x": 0.6789,
-        "y": 0.6724
+        "h": 0.4679,
+        "w": 0.8157,
+        "x": 3.0887,
+        "y": 0.7567
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          184,
+          110,
+          90
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "ADD PROSE",
-        "theme_topic": "Broken",
-        "underline": false
+        "focus": false,
+        "line": [
+          111,
+          54,
+          64
+        ],
+        "line_width": 1.8014046325860045,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Abandoned Grin"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.7456,
-        "w": 3.2376,
-        "x": 0.7027,
-        "y": 1.1578
+        "h": 0.9385,
+        "w": 0.6101,
+        "x": 1.3397,
+        "y": 2.3434
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          113,
-          216,
-          108
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          144,
+          92,
+          227
         ],
-        "font_face": "Arial",
-        "font_size": 20,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Repeat Suspend Sparkling Cherry",
-        "theme_topic": "Broken",
-        "underline": true
+        "focus": false,
+        "line": [
+          75,
+          69,
+          126
+        ],
+        "line_width": 4.359164022071172,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Abandoned Grin"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 24
     },
     {
       "bbox": {
-        "h": 1.0178,
-        "w": 3.2294,
-        "x": 0.7024,
-        "y": 2.1756
+        "h": 0.2,
+        "w": 0.87,
+        "x": 2.5158,
+        "y": 1.5872
       },
       "id": "object_025",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          117,
-          112,
-          97
+        "dash": 5,
+        "family": "callouts",
+        "fill": [
+          175,
+          57,
+          220
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "agreement pancake likeable well-made rabbits gray abnormal mute real fast bawdy texture bit sprout wood cloistered caption acoustics pray erect loose",
-        "theme_topic": "Broken",
-        "underline": false
+        "focus": false,
+        "line": [
+          45,
+          178,
+          105
+        ],
+        "line_width": 6.191848552194812,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Abandoned Grin"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 25
     }
   ],

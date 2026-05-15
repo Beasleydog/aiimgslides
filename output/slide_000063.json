@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "fill": [
-        75,
-        175,
-        225
+      "colors": [
+        [
+          106,
+          165,
+          228
+        ],
+        [
+          163,
+          131,
+          122
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Defeated Adamant"
+      "fill": [
+        28,
+        143,
+        112
+      ],
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Mother Spoil"
     },
     "type": "background",
     "z_order": 0
@@ -30,66 +45,63 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.3474,
-        "w": 7.3141,
-        "x": 3.6094,
-        "y": 0.5826
+        "h": 2.258,
+        "w": 8.2895,
+        "x": 2.0245,
+        "y": 5.3612
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "arrows",
         "fill": [
-          59,
-          90,
-          95
+          52,
+          106,
+          106
         ],
         "focus": false,
         "line": [
-          205,
-          185,
-          169
+          153,
+          42,
+          207
         ],
-        "line_width": 3.619301076097897,
+        "line_width": 6.207488801377951,
         "outline_only": false,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Defeated Adamant"
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Mother Spoil"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.1056,
-        "w": 6.8372,
-        "x": 0.4501,
-        "y": 1.8735
+        "h": 1.2773,
+        "w": 6.8417,
+        "x": 5.8357,
+        "y": 5.6004
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "callouts",
-        "fill": [
-          174,
-          111,
-          107
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          205,
+          241,
+          230
         ],
-        "focus": false,
-        "line": [
-          199,
-          72,
-          148
-        ],
-        "line_width": 3.0368212109692827,
-        "outline_only": false,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Defeated Adamant"
+        "font_face": "Verdana",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "madly store coat offbeat lip alarm cow cloth bizarre",
+        "theme_topic": "Mother Spoil",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     }
   ],

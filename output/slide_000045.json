@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          143,
-          228,
-          106
-        ],
-        [
-          118,
-          39,
-          94
-        ]
-      ],
       "fill": [
-        240,
-        176,
-        54
+        111,
+        88,
+        201
       ],
-      "focus": "bottom_left",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Crime Butter"
+      "style": "solid",
+      "theme_topic": "Drunk Deep"
     },
     "type": "background",
     "z_order": 0
@@ -45,65 +30,54 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.0345,
-        "w": 7.0805,
-        "x": 1.1369,
-        "y": 4.2819
+        "h": 2.5521,
+        "w": 6.542,
+        "x": 3.367,
+        "y": 3.0489
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          115,
-          194,
-          96
-        ],
-        "focus": false,
+        "clip": "ticket",
+        "focus": true,
         "line": [
-          219,
-          148,
-          196
+          32,
+          119,
+          149
         ],
-        "line_width": 5.237496856484728,
-        "outline_only": true,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Crime Butter"
+        "line_width": 9,
+        "theme_topic": "Drunk Deep"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.7823,
-        "w": 12.2485,
-        "x": 0.5694,
-        "y": 1.4639
+        "h": 5.0314,
+        "w": 2.2024,
+        "x": 0.5719,
+        "y": 2.025
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          249,
-          203,
-          91
+        "crop": [
+          0.1219440872503293,
+          0.14459852081057725,
+          0.1216740240357912,
+          0.27298802475076306
         ],
-        "line": [
-          249,
-          203,
-          91
+        "focus": true,
+        "mask_line": [
+          31,
+          113,
+          65
         ],
-        "line_width": 2.7224089610521833,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Crime Butter"
+        "mask_overlay": false,
+        "theme_topic": "Drunk Deep",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 2
     }
   ],

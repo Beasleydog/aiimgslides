@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "fill": [
-        250,
-        250,
-        248
+      "colors": [
+        [
+          242,
+          233,
+          222
+        ],
+        [
+          174,
+          73,
+          92
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Leather"
+      "fill": [
+        252,
+        249,
+        244
+      ],
+      "focus": "top_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Paint"
     },
     "type": "background",
     "z_order": 0
@@ -30,332 +45,283 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.5951,
-        "w": 4.8667,
-        "x": 0.2622,
-        "y": 1.1039
+        "h": 3.0404,
+        "w": 7.216,
+        "x": 1.6043,
+        "y": 2.0551
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          161,
-          113,
-          209
+          184,
+          169,
+          178
         ],
         "focus": false,
         "line": [
-          198,
-          36,
-          190
+          86,
+          228,
+          107
         ],
-        "line_width": 4.426403858192355,
+        "line_width": 5.055576585206787,
         "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Leather"
+        "ppt_type": 33,
+        "shape": "right_arrow",
+        "theme_topic": "Paint"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9259,
-        "w": 5.6268,
-        "x": 2.4829,
-        "y": 2.7126
+        "h": 4.8711,
+        "w": 7.3789,
+        "x": 2.4272,
+        "y": -0.5439
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 5,
+        "family": "flowchart",
         "fill": [
-          119,
-          178,
-          227
+          96,
+          173,
+          222
         ],
         "focus": false,
         "line": [
-          60,
-          178,
-          158
+          122,
+          193,
+          184
         ],
-        "line_width": 6.725534313528201,
-        "outline_only": true,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Leather"
+        "line_width": 7.440890631923034,
+        "outline_only": false,
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Paint"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.2386,
-        "w": 6.4527,
-        "x": 0.564,
-        "y": 0.3408
+        "h": 7.4911,
+        "w": 0.7068,
+        "x": 12.6322,
+        "y": -0.004
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          28,
-          28
-        ],
-        "font_face": "Georgia",
-        "font_size": 35,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Habitual Entertain Bed",
-        "theme_topic": "Leather",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.2768,
-        "w": 5.4346,
-        "x": 0.5371,
-        "y": 1.8624
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          239,
-          239,
-          235
-        ],
-        "line": [
-          239,
-          239,
-          235
-        ],
-        "line_width": 1.1391947765698662,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Leather"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.4353,
-        "w": 5.0421,
-        "x": 0.7507,
-        "y": 2.1783
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          250,
-          250,
-          248
-        ],
-        "font_face": "Georgia",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "8x",
-        "theme_topic": "Leather",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.2382,
-        "w": 5.0652,
-        "x": 0.7509,
-        "y": 2.6071
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          28,
-          28
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "crow search pleasant earsplitting bubble tricky fork rude",
-        "theme_topic": "Leather",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.6963,
-        "w": 5.326,
-        "x": 0.5924,
-        "y": 5.2564
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          239,
-          239,
-          235
-        ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          119,
-          194,
-          41
-        ],
-        "border": [
-          115,
-          115,
-          115
-        ],
-        "border_dash": "solid",
-        "border_width": 1.5607010545356672,
-        "cells": [
-          [
-            "vein help",
-            "different zoo",
-            "billowy argument",
-            "include scratch"
-          ],
-          [
-            "act expand",
-            "waste",
-            "shake",
-            "purpose sticky"
-          ],
-          [
-            "regular",
-            "color",
-            "position zany",
-            "harsh"
-          ],
-          [
-            "support dog",
-            "comb thunder",
-            "strong",
-            "cow coach"
-          ],
-          [
-            "wrench",
-            "powerful scarf",
-            "haunt",
-            "scrub"
-          ]
-        ],
-        "cols": 4,
-        "font_size": 10,
-        "has_header": true,
-        "header": [
-          38,
-          132,
-          88
-        ],
-        "rows": 5,
-        "text_color": [
-          28,
-          28,
-          28
-        ],
-        "theme_topic": "Leather"
-      },
-      "type": "table",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 5.069,
-        "w": 3.0761,
-        "x": 6.4176,
-        "y": 1.8851
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          239,
-          239,
-          235
+          242,
+          233,
+          222
         ],
         "line": [
-          239,
-          239,
-          235
+          242,
+          233,
+          222
         ],
-        "line_width": 1.63944701233849,
+        "line_width": 1.1111009191120818,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Paint"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.8947,
+        "w": 6.1144,
+        "x": 5.3798,
+        "y": 0.9125
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          36,
+          32,
+          29
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Creature Trade Discover Ill-Informed",
+        "theme_topic": "Paint",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.7665,
+        "w": 2.3153,
+        "x": 1.6371,
+        "y": 4.7938
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          242,
+          233,
+          222
+        ],
+        "line": [
+          242,
+          233,
+          222
+        ],
+        "line_width": 4.66392643468513,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Leather"
+        "theme_topic": "Paint"
       },
       "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.4993,
+        "w": 2.0018,
+        "x": 1.7808,
+        "y": 4.9207
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.12262389932015272,
+          0.1678867025688236,
+          0.10550694332336778,
+          0.11228426194347936
+        ],
+        "focus": false,
+        "mask_line": [
+          174,
+          73,
+          92
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Paint",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.7646,
+        "w": 3.362,
+        "x": 3.5536,
+        "y": 4.1434
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "225",
+        "theme_topic": "Paint",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 1.8309,
+        "w": 3.3812,
+        "x": 3.5248,
+        "y": 4.8897
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
+        ],
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "cherries possessive tight flood sticks",
+        "theme_topic": "Paint",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 4.7567,
-        "w": 2.7699,
-        "x": 6.5824,
-        "y": 2.0685
+        "h": 2.839,
+        "w": 3.0375,
+        "x": 7.301,
+        "y": 3.9518
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          78,
+          197,
+          196
         ],
-        "focus": true,
-        "mask_line": [
-          38,
-          132,
-          88
+        "line": [
+          242,
+          233,
+          222
         ],
-        "mask_overlay": true,
-        "theme_topic": "Leather",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.7810988573432582,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Paint"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.3013,
-        "w": 2.6468,
-        "x": 6.6307,
-        "y": 6.4775
+        "h": 0.7445,
+        "w": 2.7084,
+        "x": 7.4878,
+        "y": 4.1465
       },
       "id": "object_010",
       "properties": {
@@ -363,17 +329,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Trebuchet MS",
+        "font_size": 28,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Partner Disappear Lace",
-        "theme_topic": "Leather",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "131",
+        "theme_topic": "Paint",
         "underline": false
       },
       "type": "text",
@@ -381,70 +347,72 @@
     },
     {
       "bbox": {
-        "h": 5.0293,
-        "w": 3.0568,
-        "x": 9.6779,
-        "y": 1.8886
+        "h": 1.8162,
+        "w": 2.7187,
+        "x": 7.477,
+        "y": 4.9145
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.31684378663899115,
-          0.10876225249413742,
-          0.1507579901612203,
-          0.06188701714882526
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
         ],
-        "focus": true,
-        "mask_line": [
-          84,
-          218,
-          88
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Leather",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wholesale thank lovely early",
+        "theme_topic": "Paint",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4421,
-        "w": 0.4164,
-        "x": 0.9516,
-        "y": 4.0106
+        "h": 0.4536,
+        "w": 3.473,
+        "x": 1.5796,
+        "y": 4.9466
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          38,
-          132,
-          88
+        "bg_color": [
+          63,
+          86,
+          63
         ],
-        "line": [
-          239,
-          239,
-          235
+        "bold": true,
+        "color": [
+          178,
+          111,
+          90
         ],
-        "line_width": 0.8996502059381916,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Leather"
+        "font_face": "Trebuchet MS",
+        "font_size": 23,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Shelf Absorbing",
+        "theme_topic": "Paint",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.523,
-        "w": 1.1501,
-        "x": 0.6204,
-        "y": 4.3044
+        "h": 0.4635,
+        "w": 3.5089,
+        "x": 1.5815,
+        "y": 5.6322
       },
       "id": "object_013",
       "properties": {
@@ -452,17 +420,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          28,
-          28
+          123,
+          113,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "verse superb cruel juggle loose draconian",
-        "theme_topic": "Leather",
+        "text": "list chalk dramatic cats brash righteous righteous foregoing ripe necessary teaching rigid like notebook observation pleasure camp functional jaded nation actually",
+        "theme_topic": "Paint",
         "underline": false
       },
       "type": "text",
@@ -470,59 +438,59 @@
     },
     {
       "bbox": {
-        "h": 0.374,
-        "w": 0.3539,
-        "x": 2.4631,
-        "y": 3.8552
+        "h": 1.641,
+        "w": 3.7638,
+        "x": 2.6083,
+        "y": 3.3827
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          38,
-          132,
-          88
+          242,
+          233,
+          222
         ],
         "line": [
-          239,
-          239,
-          235
+          242,
+          233,
+          222
         ],
-        "line_width": 2.5475256090765424,
+        "line_width": 2.891775345888176,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Leather"
+        "theme_topic": "Paint"
       },
       "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.5403,
-        "w": 0.9464,
-        "x": 2.0298,
-        "y": 4.2666
+        "h": 0.5826,
+        "w": 3.4007,
+        "x": 2.777,
+        "y": 3.7976
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          28,
-          28,
-          28
+          252,
+          249,
+          244
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "cycle deafening live",
-        "theme_topic": "Leather",
+        "text": "3x",
+        "theme_topic": "Paint",
         "underline": false
       },
       "type": "text",
@@ -530,59 +498,57 @@
     },
     {
       "bbox": {
-        "h": 0.461,
-        "w": 0.477,
-        "x": 3.722,
-        "y": 3.8916
+        "h": 0.3816,
+        "w": 3.4,
+        "x": 2.7892,
+        "y": 4.3636
       },
       "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          38,
-          132,
-          88
-        ],
-        "line": [
-          239,
-          239,
-          235
-        ],
-        "line_width": 0.8112120554857729,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Leather"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.54,
-        "w": 1.2352,
-        "x": 3.278,
-        "y": 4.2692
-      },
-      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          28,
-          28
+          36,
+          32,
+          29
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "vigorous industrious place nauseating",
-        "theme_topic": "Leather",
+        "text": "muddle interest wholesale property scream humdrum glow daffy",
+        "theme_topic": "Paint",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.2971,
+        "w": 2.2935,
+        "x": 1.3052,
+        "y": 3.9001
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "REJOICE SPITEFUL",
+        "theme_topic": "Paint",
         "underline": false
       },
       "type": "text",
@@ -590,41 +556,39 @@
     },
     {
       "bbox": {
-        "h": 0.4324,
-        "w": 0.3965,
-        "x": 5.2802,
-        "y": 3.9565
+        "h": 0.4205,
+        "w": 2.2983,
+        "x": 1.2963,
+        "y": 4.3879
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          38,
-          132,
-          88
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          56,
+          112,
+          138
         ],
-        "line": [
-          239,
-          239,
-          235
-        ],
-        "line_width": 1.3624859052234386,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Leather"
+        "font_face": "Trebuchet MS",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "False Rigid",
+        "theme_topic": "Paint",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.5379,
-        "w": 1.0863,
-        "x": 4.8259,
-        "y": 4.3011
+        "h": 0.3934,
+        "w": 2.3151,
+        "x": 1.3092,
+        "y": 5.0005
       },
       "id": "object_019",
       "properties": {
@@ -632,17 +596,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          28,
-          28
+          123,
+          113,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "writer slave teaching group",
-        "theme_topic": "Leather",
+        "text": "rhythm numberless middle chubby boundary park ragged spooky picayune",
+        "theme_topic": "Paint",
         "underline": false
       },
       "type": "text",
@@ -650,82 +614,85 @@
     },
     {
       "bbox": {
-        "h": 0.1093,
-        "w": 1.3081,
-        "x": 2.6416,
-        "y": 4.0219
+        "h": 0.8321,
+        "w": 0.6479,
+        "x": 10.3439,
+        "y": 2.0955
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "color": [
-          115,
-          115,
+          26,
+          166,
           115
         ],
-        "connector": "straight",
+        "connector": "elbow",
         "dash": 1,
         "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Leather",
-        "width": 3.2895113960415676
+        "ppt_type": 2,
+        "theme_topic": "Paint",
+        "width": 1.3981554315857996
       },
       "type": "connector",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.1,
-        "w": 1.5483,
-        "x": 3.9497,
-        "y": 4.1312
+        "h": 0.9327,
+        "w": 0.9102,
+        "x": 9.6284,
+        "y": 3.3862
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
           115,
-          115,
-          115
+          148,
+          164
         ],
-        "connector": "curve",
-        "dash": 7,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Leather",
-        "width": 0.5386052154214771
+        "focus": false,
+        "line": [
+          229,
+          84,
+          63
+        ],
+        "line_width": 5.322103773973212,
+        "outline_only": false,
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Paint"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.2388,
-        "w": 2.1649,
-        "x": 3.6611,
-        "y": 0.9717
+        "h": 0.5295,
+        "w": 0.8578,
+        "x": 0.2171,
+        "y": 0.4748
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          143,
-          187,
-          169
-        ],
-        "bold": true,
+        "bg_color": null,
+        "bold": false,
         "color": [
-          157,
-          136,
-          149
+          167,
+          98,
+          41
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "short",
-        "theme_topic": "Leather",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Return Interrupt Secret",
+        "theme_topic": "Paint",
         "underline": false
       },
       "type": "text",
@@ -733,27 +700,34 @@
     },
     {
       "bbox": {
-        "h": 0.8827,
-        "w": 0.5697,
-        "x": 2.3795,
-        "y": 1.964
+        "h": 0.8174,
+        "w": 0.669,
+        "x": 7.7115,
+        "y": 6.6116
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          143,
-          196,
-          161
-        ],
-        "connector": "curve",
         "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Leather",
-        "width": 1.677711426737465
+        "family": "basic",
+        "fill": [
+          71,
+          44,
+          207
+        ],
+        "focus": false,
+        "line": [
+          164,
+          185,
+          160
+        ],
+        "line_width": 2.2210003041766413,
+        "outline_only": false,
+        "ppt_type": 103,
+        "shape": "wave",
+        "theme_topic": "Paint"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 23
     }
   ],

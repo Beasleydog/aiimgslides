@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        39,
-        117,
-        187
+      "back_color": [
+        130,
+        44,
+        161
       ],
-      "style": "solid",
-      "theme_topic": "Liquid"
+      "fill": [
+        245,
+        247,
+        252
+      ],
+      "fore_color": [
+        36,
+        178,
+        149
+      ],
+      "pattern": 18,
+      "style": "pattern",
+      "theme_topic": "Omniscient Stereotyped"
     },
     "type": "background",
     "z_order": 0
@@ -30,112 +41,92 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.6116,
-        "w": 4.6157,
-        "x": 8.8692,
-        "y": 1.5229
+        "h": 4.0613,
+        "w": 4.022,
+        "x": 7.8891,
+        "y": 1.7423
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 4,
         "family": "arrows",
         "fill": [
-          124,
-          158,
-          189
+          109,
+          215,
+          126
         ],
         "focus": false,
         "line": [
-          183,
-          221,
-          148
+          142,
+          43,
+          25
         ],
-        "line_width": 4.618855039124335,
+        "line_width": 5.011433098247735,
         "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Liquid"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Omniscient Stereotyped"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.9709,
-        "w": 6.0458,
-        "x": -0.0116,
-        "y": 0.0163
+        "h": 5.7756,
+        "w": 3.1938,
+        "x": 9.4168,
+        "y": 0.6405
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          112,
-          163,
-          210
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          27,
+          44,
+          68
         ],
-        "line": [
-          112,
-          163,
-          210
-        ],
-        "line_width": 1.8467803545535908,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Liquid"
+        "font_face": "Aptos Display",
+        "font_size": 19,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Fascinated Doll Things",
+        "theme_topic": "Omniscient Stereotyped",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.1593,
-        "w": 7.1003,
-        "x": 5.6462,
-        "y": 1.8388
+        "h": 1.4624,
+        "w": 4.2741,
+        "x": 2.6062,
+        "y": 3.6882
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "messy",
-          "attract",
-          "waves",
-          "slave",
-          "belong",
-          "physical"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          103,
+          117,
+          137
         ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              163,
-              105,
-              178
-            ],
-            "name": "pot",
-            "values": [
-              45,
-              94,
-              67,
-              17,
-              65,
-              28
-            ]
-          }
-        ],
-        "theme_topic": "Liquid",
-        "title": "dashing immense"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "outstanding quixotic cynical yellow chop assorted woman arch disastrous lacking driving expansion needless needy",
+        "theme_topic": "Omniscient Stereotyped",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 3
     }
   ],

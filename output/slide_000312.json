@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
+      "angle": 90,
       "archetype": "atomic_composition",
       "colors": [
         [
+          103,
           167,
-          120,
-          199
+          223
         ],
         [
-          226,
-          95,
-          97
+          38,
+          132,
+          88
         ]
       ],
       "fill": [
-        126,
-        58,
-        173
+        198,
+        64,
+        91
       ],
-      "focus": "top_right",
-      "gradient_type": "radial",
+      "focus": "bottom_right",
+      "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Frail Abhorrent"
+      "theme_topic": "Attend"
     },
     "type": "background",
     "z_order": 0
@@ -45,44 +45,140 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.5482,
-        "w": 7.2278,
-        "x": 4.8489,
-        "y": 3.2064
+        "h": 1.9145,
+        "w": 4.1387,
+        "x": 4.5867,
+        "y": 6.1356
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          99,
-          149,
-          134
+          153,
+          64,
+          80
         ],
         "focus": false,
         "line": [
-          182,
-          34,
-          58
+          62,
+          50,
+          209
         ],
-        "line_width": 6.062835007656827,
+        "line_width": 6.513102865621732,
         "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Frail Abhorrent"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Attend"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9221,
-        "w": 7.4561,
-        "x": 0.7656,
-        "y": 5.8535
+        "h": 1.9094,
+        "w": 5.6289,
+        "x": -1.0725,
+        "y": 4.8089
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          168,
+          75,
+          73
+        ],
+        "focus": false,
+        "line": [
+          114,
+          200,
+          112
+        ],
+        "line_width": 4.239957207432724,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Attend"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 2.5952,
+        "w": 6.4408,
+        "x": -0.9681,
+        "y": 0.031
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "arrows",
+        "fill": [
+          89,
+          109,
+          150
+        ],
+        "focus": false,
+        "line": [
+          166,
+          197,
+          142
+        ],
+        "line_width": 4.499027247041959,
+        "outline_only": false,
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Attend"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 4.864,
+        "w": 3.2061,
+        "x": -0.6769,
+        "y": -0.489
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "arrows",
+        "fill": [
+          107,
+          109,
+          140
+        ],
+        "focus": false,
+        "line": [
+          100,
+          160,
+          144
+        ],
+        "line_width": 5.519099732062246,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Attend"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.1755,
+        "w": 8.6131,
+        "x": 0.5465,
+        "y": 0.3695
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -92,104 +188,13 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 22,
+        "font_face": "Arial",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Overjoyed Nosy Tight Man",
-        "theme_topic": "Frail Abhorrent",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.2682,
-        "w": 2.652,
-        "x": 9.9512,
-        "y": 0.6899
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "INK",
-        "theme_topic": "Frail Abhorrent",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.7874,
-        "w": 2.6367,
-        "x": 9.9541,
-        "y": 1.1502
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          29,
-          203,
-          26
-        ],
-        "bold": true,
-        "color": [
-          107,
-          197,
-          131
-        ],
-        "font_face": "Georgia",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Smoke Gratis Knit Recognise",
-        "theme_topic": "Frail Abhorrent",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.0015,
-        "w": 2.6447,
-        "x": 9.9513,
-        "y": 2.1979
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          192,
-          162,
-          216
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "announce experience bashful bustling system liquid good end frantic",
-        "theme_topic": "Frail Abhorrent",
+        "text": "Snakes Oval Magenta Business",
+        "theme_topic": "Attend",
         "underline": false
       },
       "type": "text",
@@ -197,12 +202,41 @@
     },
     {
       "bbox": {
-        "h": 0.9067,
-        "w": 11.8431,
-        "x": 0.7561,
-        "y": 3.9044
+        "h": 3.2241,
+        "w": 7.5432,
+        "x": 3.7031,
+        "y": 3.3599
       },
       "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.204063152583041,
+          0.2819629510657478,
+          0.2652405634032507,
+          0.27573886631356015
+        ],
+        "focus": true,
+        "mask_line": [
+          207,
+          89,
+          117
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Attend",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.6711,
+        "w": 3.4577,
+        "x": 1.253,
+        "y": 5.5087
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -212,42 +246,13 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 25,
-        "italic": true,
+        "font_face": "Arial",
+        "font_size": 18,
+        "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Opposite Suspend Lucky Feeling Long Boundless Plantation Sky",
-        "theme_topic": "Frail Abhorrent",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.26,
-        "w": 6.5239,
-        "x": 0.7422,
-        "y": 4.9464
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "DOLLS",
-        "theme_topic": "Frail Abhorrent",
+        "text": "Experience Puffy Measure Warm Selective Capable",
+        "theme_topic": "Attend",
         "underline": false
       },
       "type": "text",
@@ -255,31 +260,31 @@
     },
     {
       "bbox": {
-        "h": 2.7485,
-        "w": 3.835,
-        "x": 0.565,
-        "y": 0.5284
+        "h": 0.6146,
+        "w": 1.7501,
+        "x": 10.174,
+        "y": 6.5831
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.24885427028142101,
-          0.06857024012632854,
-          0.18495797263489536,
-          0.27227499310942316
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          86,
+          125,
+          173
         ],
-        "focus": true,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Frail Abhorrent",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "dress whisper",
+        "theme_topic": "Attend",
+        "underline": true
       },
-      "type": "image",
+      "type": "text",
       "z_order": 8
     }
   ],

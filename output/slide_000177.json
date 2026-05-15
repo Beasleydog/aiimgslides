@@ -10,12 +10,12 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        150,
-        161,
-        203
+        247,
+        248,
+        246
       ],
       "style": "solid",
-      "theme_topic": "Unsuitable"
+      "theme_topic": "Shirt Easy"
     },
     "type": "background",
     "z_order": 0
@@ -30,73 +30,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5567,
-        "w": 5.2783,
-        "x": -0.8007,
-        "y": 3.3532
+        "h": 4.4191,
+        "w": 5.4021,
+        "x": 5.4189,
+        "y": 4.0162
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          200,
-          163,
-          185
+          207,
+          123,
+          147
         ],
         "focus": false,
         "line": [
-          86,
-          101,
-          55
+          190,
+          118,
+          211
         ],
-        "line_width": 4.717094602635577,
-        "outline_only": true,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Unsuitable"
+        "line_width": 4.146532428613056,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Shirt Easy"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.952,
-        "w": 8.9685,
-        "x": 0.5296,
-        "y": 1.7712
+        "h": 4.7,
+        "w": 7.1616,
+        "x": -0.0921,
+        "y": -0.4225
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          129,
-          138,
+          59,
+          198,
+          173
+        ],
+        "focus": false,
+        "line": [
+          189,
+          80,
           174
         ],
-        "line": [
-          118,
-          126,
-          159
-        ],
-        "line_width": 2.3146018170426808,
+        "line_width": 6.812911074405673,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Unsuitable"
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Shirt Easy"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.8906,
-        "w": 5.9485,
-        "x": 4.709,
-        "y": 1.0729
+        "h": 1.1571,
+        "w": 6.8444,
+        "x": 3.2864,
+        "y": 0.662
       },
       "id": "object_003",
       "properties": {
@@ -104,17 +105,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
           30,
-          36
+          35,
+          42
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 26,
+        "font_face": "Arial",
+        "font_size": 44,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hideous Wall",
-        "theme_topic": "Unsuitable",
+        "text": "Jaded Tremble",
+        "theme_topic": "Shirt Easy",
         "underline": false
       },
       "type": "text",
@@ -122,62 +123,60 @@
     },
     {
       "bbox": {
-        "h": 2.0708,
-        "w": 7.0486,
-        "x": 0.5643,
-        "y": 1.4525
+        "h": 2.2092,
+        "w": 12.2081,
+        "x": 0.5558,
+        "y": 2.023
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          118,
-          126,
-          159
+        "crop": [
+          0.16925869007701905,
+          0.08878136443048264,
+          0.09125293318999626,
+          0.1746691809940916
         ],
-        "line": [
-          118,
-          126,
-          159
+        "focus": true,
+        "mask_line": [
+          176,
+          62,
+          177
         ],
-        "line_width": 2.1054952199479766,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Unsuitable"
+        "mask_overlay": true,
+        "theme_topic": "Shirt Easy",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 3.1442,
-        "w": 4.7487,
-        "x": 7.9882,
-        "y": 3.874
+        "h": 1.4999,
+        "w": 2.0365,
+        "x": 8.5758,
+        "y": 5.4503
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2014503818872171,
-          0.1166385077748973,
-          0.09954355743347243,
-          0.041531689262933505
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          124,
+          135
         ],
-        "focus": true,
-        "mask_line": [
-          117,
-          139,
-          159
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Unsuitable",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wink argue splendid scold",
+        "theme_topic": "Shirt Easy",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 5
     }
   ],

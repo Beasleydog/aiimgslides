@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        54,
-        35,
-        142
-      ],
       "fill": [
-        192,
-        35,
-        39
+        230,
+        124,
+        26
       ],
-      "fore_color": [
-        31,
-        117,
-        161
-      ],
-      "pattern": 49,
-      "style": "pattern",
-      "theme_topic": "Payment"
+      "style": "solid",
+      "theme_topic": "Obtain"
     },
     "type": "background",
     "z_order": 0
@@ -41,169 +30,12 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.8801,
-        "w": 2.9894,
-        "x": -0.6019,
-        "y": 4.8707
+        "h": 1.1514,
+        "w": 6.8386,
+        "x": 2.7354,
+        "y": 0.6378
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          173,
-          61,
-          111
-        ],
-        "focus": false,
-        "line": [
-          29,
-          211,
-          97
-        ],
-        "line_width": 6.937416004783012,
-        "outline_only": true,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Payment"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 4.9216,
-        "w": 3.1946,
-        "x": -0.4395,
-        "y": 1.5513
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
-        "fill": [
-          164,
-          141,
-          118
-        ],
-        "focus": false,
-        "line": [
-          28,
-          37,
-          102
-        ],
-        "line_width": 7.781460889950846,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Payment"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.0169,
-        "w": 0.2,
-        "x": 1.6293,
-        "y": 1.3737
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          214,
-          112,
-          115
-        ],
-        "line_width": 0.7457488988803324,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Payment"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.0947,
-        "w": 0.2,
-        "x": 3.8309,
-        "y": 4.4063
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          214,
-          112,
-          115
-        ],
-        "line_width": 1.5359900725970483,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Payment"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 1.8476,
-        "x": 7.3926,
-        "y": 2.8874
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          214,
-          112,
-          115
-        ],
-        "line_width": 2.237310616677161,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Payment"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.9462,
-        "w": 7.7821,
-        "x": 0.5671,
-        "y": 0.3522
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -214,12 +46,157 @@
           252
         ],
         "font_face": "Arial",
-        "font_size": 28,
+        "font_size": 38,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Used Depressed",
-        "theme_topic": "Payment",
+        "text": "Grieving Club",
+        "theme_topic": "Obtain",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 0.9956,
+        "w": 6.5628,
+        "x": 3.4069,
+        "y": 3.0505
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Arial",
+        "font_size": 44,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Pick Aromatic Damp",
+        "theme_topic": "Obtain",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.3608,
+        "w": 6.5527,
+        "x": 3.3836,
+        "y": 4.2686
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          238,
+          192,
+          150
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "glistening happen dusty baseball shame refuse harsh festive sail",
+        "theme_topic": "Obtain",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.2796,
+        "w": 1.8857,
+        "x": 10.7173,
+        "y": 2.1037
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
+        ],
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "SCISSORS",
+        "theme_topic": "Obtain",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.0515,
+        "w": 1.9062,
+        "x": 10.737,
+        "y": 2.5865
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Arial",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Scratch",
+        "theme_topic": "Obtain",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 3.0543,
+        "w": 1.9099,
+        "x": 10.7377,
+        "y": 3.8991
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          238,
+          192,
+          150
+        ],
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "deafening lazy babies unequaled toes rings old nifty representative vest disarm horrible throne political lamentable donkey remarkable draconian youthful descriptive scarce sponge",
+        "theme_topic": "Obtain",
         "underline": false
       },
       "type": "text",
@@ -227,28 +204,28 @@
     },
     {
       "bbox": {
-        "h": 1.6409,
-        "w": 6.9889,
-        "x": 5.802,
-        "y": 3.4168
+        "h": 1.1439,
+        "w": 6.8179,
+        "x": 3.2658,
+        "y": 5.9603
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.11173163352121522,
-          0.04525400408457783,
-          0.2512727398524372,
-          0.05041117653101319
+          0,
+          0,
+          0,
+          0
         ],
-        "focus": true,
+        "focus": false,
         "mask_line": [
-          31,
-          117,
-          161
+          32,
+          119,
+          149
         ],
-        "mask_overlay": false,
-        "theme_topic": "Payment",
+        "mask_overlay": true,
+        "theme_topic": "Obtain",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -256,10 +233,10 @@
     },
     {
       "bbox": {
-        "h": 1.2313,
-        "w": 6.9724,
-        "x": 5.8326,
-        "y": 1.8529
+        "h": 0.3888,
+        "w": 0.3849,
+        "x": 1.4227,
+        "y": 2.3248
       },
       "id": "object_008",
       "properties": {
@@ -267,48 +244,48 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          31,
-          117,
-          161
+          32,
+          119,
+          149
         ],
         "line": [
-          214,
-          112,
-          115
+          234,
+          148,
+          69
         ],
-        "line_width": 3.4644937111413223,
+        "line_width": 1.3175416009285985,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Payment"
+        "theme_topic": "Obtain"
       },
       "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.3947,
-        "w": 6.6042,
-        "x": 6.0014,
-        "y": 2.187
+        "h": 0.367,
+        "w": 2.0897,
+        "x": 0.5943,
+        "y": 2.6408
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          192,
-          35,
-          39
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 19,
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "13%",
-        "theme_topic": "Payment",
+        "text": "colour excite first envious peel squeal real",
+        "theme_topic": "Obtain",
         "underline": false
       },
       "type": "text",
@@ -316,252 +293,103 @@
     },
     {
       "bbox": {
-        "h": 0.2159,
-        "w": 6.5811,
-        "x": 6.0082,
-        "y": 2.5772
+        "h": 0.4431,
+        "w": 0.4315,
+        "x": 1.3187,
+        "y": 3.635
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          32,
+          119,
+          149
         ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tawdry giants unwritten charming cream bee teaching",
-        "theme_topic": "Payment",
-        "underline": false
+        "line": [
+          234,
+          148,
+          69
+        ],
+        "line_width": 2.104679817389216,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Obtain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4648,
-        "w": 0.4668,
-        "x": 6.3355,
-        "y": 5.7798
+        "h": 0.4381,
+        "w": 2.1155,
+        "x": 0.5796,
+        "y": 4.0055
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          214,
-          112,
-          115
-        ],
-        "line_width": 2.2962938153751877,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Payment"
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wash unarmed lace numerous",
+        "theme_topic": "Obtain",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5495,
-        "w": 1.2241,
-        "x": 5.8714,
-        "y": 6.2951
+        "h": 0.3414,
+        "w": 0.3334,
+        "x": 1.2919,
+        "y": 5.0257
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          32,
+          119,
+          149
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "nosy industry first ancient program",
-        "theme_topic": "Payment",
-        "underline": false
+        "line": [
+          234,
+          148,
+          69
+        ],
+        "line_width": 3.845187099497631,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Obtain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.3882,
-        "w": 0.3947,
-        "x": 7.7742,
-        "y": 5.9058
+        "h": 0.3255,
+        "w": 2.1124,
+        "x": 0.6048,
+        "y": 5.286
       },
       "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          214,
-          112,
-          115
-        ],
-        "line_width": 1.4941205485038618,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Payment"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.5651,
-        "w": 1.0074,
-        "x": 7.4561,
-        "y": 6.2871
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "sharp steel agree carry acid",
-        "theme_topic": "Payment",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.4084,
-        "w": 0.43,
-        "x": 9.2182,
-        "y": 5.9228
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          214,
-          112,
-          115
-        ],
-        "line_width": 4.969434044638758,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Payment"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.5708,
-        "w": 1.1303,
-        "x": 8.774,
-        "y": 6.3154
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tire chance grumpy bake fence",
-        "theme_topic": "Payment",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.4461,
-        "w": 0.4489,
-        "x": 10.7943,
-        "y": 6.022
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          214,
-          112,
-          115
-        ],
-        "line_width": 4.047010609985603,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Payment"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.5806,
-        "w": 1.1865,
-        "x": 10.1967,
-        "y": 6.297
-      },
-      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -576,52 +404,52 @@
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "business wheel reflect calculate",
-        "theme_topic": "Payment",
+        "text": "earthy wealth party nutritious",
+        "theme_topic": "Obtain",
         "underline": false
       },
       "type": "text",
-      "z_order": 18
+      "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.4009,
-        "w": 0.4023,
-        "x": 12.147,
-        "y": 5.8021
+        "h": 0.4142,
+        "w": 0.4296,
+        "x": 1.1248,
+        "y": 6.3358
       },
-      "id": "object_019",
+      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 5,
         "family": "panel",
         "fill": [
-          31,
-          117,
-          161
+          32,
+          119,
+          149
         ],
         "line": [
-          214,
-          112,
-          115
+          234,
+          148,
+          69
         ],
-        "line_width": 1.3177588835017189,
+        "line_width": 1.6575599812040163,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Payment"
+        "theme_topic": "Obtain"
       },
       "type": "shape",
-      "z_order": 19
+      "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.5837,
-        "w": 1.0359,
-        "x": 11.7153,
-        "y": 6.3072
+        "h": 0.4341,
+        "w": 2.1255,
+        "x": 0.6199,
+        "y": 6.5185
       },
-      "id": "object_020",
+      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -632,130 +460,269 @@
           252
         ],
         "font_face": "Arial",
-        "font_size": 10,
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "pot nose peel lacking remove breezy grain",
-        "theme_topic": "Payment",
+        "text": "unequaled omniscient knotty lopsided guiltless expansion inconclusive",
+        "theme_topic": "Obtain",
         "underline": false
       },
       "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 1.337,
+        "w": 0.1,
+        "x": 1.6206,
+        "y": 2.5342
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "color": [
+          238,
+          192,
+          150
+        ],
+        "connector": "curve",
+        "dash": 5,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Obtain",
+        "width": 3.8537184886322433
+      },
+      "type": "connector",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 1.3038,
+        "w": 0.1,
+        "x": 1.5437,
+        "y": 3.8712
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "color": [
+          238,
+          192,
+          150
+        ],
+        "connector": "elbow",
+        "dash": 4,
+        "flip": true,
+        "ppt_type": 2,
+        "theme_topic": "Obtain",
+        "width": 0.6473996439657169
+      },
+      "type": "connector",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 1.3763,
+        "w": 0.1,
+        "x": 1.4727,
+        "y": 5.175
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "color": [
+          238,
+          192,
+          150
+        ],
+        "connector": "straight",
+        "dash": 5,
+        "flip": true,
+        "ppt_type": 1,
+        "theme_topic": "Obtain",
+        "width": 2.751741736982824
+      },
+      "type": "connector",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.9283,
+        "w": 0.9159,
+        "x": 6.3135,
+        "y": 0.9768
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "fill": [
+          168,
+          54,
+          94
+        ],
+        "line": [
+          142,
+          40,
+          39
+        ],
+        "line_width": 0.5637991509758611,
+        "pattern": "wave",
+        "points": [
+          [
+            0.02,
+            0.55
+          ],
+          [
+            0.18,
+            0.2
+          ],
+          [
+            0.35,
+            0.5
+          ],
+          [
+            0.52,
+            0.8
+          ],
+          [
+            0.7,
+            0.45
+          ],
+          [
+            0.95,
+            0.58
+          ],
+          [
+            0.95,
+            0.92
+          ],
+          [
+            0.02,
+            0.92
+          ]
+        ],
+        "theme_topic": "Obtain"
+      },
+      "type": "freeform",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.7196,
+        "w": 1.2749,
+        "x": 11.1226,
+        "y": 1.6981
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          34,
+          110,
+          93
+        ],
+        "focus": false,
+        "line": [
+          228,
+          63,
+          184
+        ],
+        "line_width": 0.5798705579815964,
+        "outline_only": false,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Obtain"
+      },
+      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 1.3832,
-        "w": 0.7908,
-        "x": 7.4115,
-        "y": 2.4818
+        "h": 0.4727,
+        "w": 0.8083,
+        "x": 1.8884,
+        "y": 1.1011
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          210,
-          138,
-          77
+          213,
+          25,
+          49
         ],
-        "connector": "straight",
-        "dash": 2,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Payment",
-        "width": 1.075477363010231
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "shallow",
+        "theme_topic": "Obtain",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.4273,
-        "w": 1.7274,
-        "x": 6.8248,
-        "y": 4.4725
+        "h": 0.4113,
+        "w": 1.1594,
+        "x": 5.5455,
+        "y": 5.5041
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          80,
-          156,
-          76
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          134,
+          102,
+          75
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Inject Shake",
-        "theme_topic": "Payment",
-        "underline": false
+        "focus": false,
+        "line": [
+          193,
+          37,
+          82
+        ],
+        "line_width": 1.6321732984527335,
+        "outline_only": false,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Obtain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 1.1413,
-        "w": 1.353,
-        "x": 10.9102,
-        "y": 6.0165
+        "h": 0.7702,
+        "w": 1.942,
+        "x": 3.6721,
+        "y": 3.3534
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          62,
-          63,
-          84
+        "color": [
+          74,
+          123,
+          111
         ],
-        "line": [
-          167,
-          87,
-          167
-        ],
-        "line_width": 1.8906057612453535,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Payment"
+        "connector": "straight",
+        "dash": 7,
+        "flip": false,
+        "ppt_type": 1,
+        "theme_topic": "Obtain",
+        "width": 2.5453040223282732
       },
-      "type": "freeform",
+      "type": "connector",
       "z_order": 23
     }
   ],

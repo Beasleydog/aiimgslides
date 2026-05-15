@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        29,
-        151,
-        112
+      "back_color": [
+        140,
+        119,
+        230
       ],
-      "style": "solid",
-      "theme_topic": "Tangible Shake"
+      "fill": [
+        115,
+        89,
+        225
+      ],
+      "fore_color": [
+        174,
+        73,
+        92
+      ],
+      "pattern": 16,
+      "style": "pattern",
+      "theme_topic": "Scandalous Rigid"
     },
     "type": "background",
     "z_order": 0
@@ -30,74 +41,71 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.5438,
-        "w": 3.4251,
-        "x": 1.5839,
-        "y": 1.0695
+        "h": 3.8699,
+        "w": 6.3886,
+        "x": 4.8187,
+        "y": 2.1379
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 2,
+        "family": "basic",
         "fill": [
-          123,
-          85,
-          147
+          78,
+          180,
+          228
         ],
         "focus": false,
         "line": [
-          169,
-          161,
-          140
+          81,
+          202,
+          191
         ],
-        "line_width": 6.166036266109012,
+        "line_width": 6.123397749161388,
         "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Tangible Shake"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Scandalous Rigid"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.6653,
-        "w": 5.4845,
-        "x": -0.4738,
-        "y": 0.8737
+        "h": 1.2224,
+        "w": 6.1049,
+        "x": 0.5402,
+        "y": 0.3272
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "symbols",
-        "fill": [
-          67,
-          168,
-          162
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          130,
-          93,
-          146
-        ],
-        "line_width": 4.365948741239492,
-        "outline_only": true,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Tangible Shake"
+        "font_face": "Trebuchet MS",
+        "font_size": 40,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Remain Harass Writing",
+        "theme_topic": "Scandalous Rigid",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9774,
-        "w": 13.3367,
-        "x": 0.0085,
-        "y": 0.0136
+        "h": 3.3078,
+        "w": 2.6575,
+        "x": 4.3338,
+        "y": 2.0427
       },
       "id": "object_003",
       "properties": {
@@ -105,61 +113,62 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          63,
-          166,
-          133
+          140,
+          119,
+          230
         ],
         "line": [
-          63,
-          166,
-          133
+          140,
+          119,
+          230
         ],
-        "line_width": 2.798863673841481,
+        "line_width": 0.7317078797122523,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Tangible Shake"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Scandalous Rigid"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.8268,
-        "w": 3.8429,
-        "x": 0.534,
-        "y": 0.5322
+        "h": 0.5122,
+        "w": 0.5468,
+        "x": 4.5635,
+        "y": 2.3021
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          63,
-          166,
-          133
+          64,
+          130,
+          109
         ],
+        "focus": false,
         "line": [
-          63,
-          166,
-          133
+          54,
+          76,
+          110
         ],
-        "line_width": 3.5936159278538167,
+        "line_width": 1.8530894596888978,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tangible Shake"
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Scandalous Rigid"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.4586,
-        "w": 3.3476,
-        "x": 0.7902,
-        "y": 1.4647
+        "h": 0.439,
+        "w": 2.1663,
+        "x": 4.612,
+        "y": 2.932
       },
       "id": "object_005",
       "properties": {
@@ -167,17 +176,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          174,
+          73,
+          92
         ],
         "font_face": "Verdana",
-        "font_size": 11,
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Hat",
-        "theme_topic": "Tangible Shake",
+        "text": "Way Confuse",
+        "theme_topic": "Scandalous Rigid",
         "underline": false
       },
       "type": "text",
@@ -185,119 +194,117 @@
     },
     {
       "bbox": {
-        "h": 0.85,
-        "w": 3.8522,
-        "x": 0.5614,
-        "y": 1.5821
+        "h": 1.6641,
+        "w": 2.1245,
+        "x": 4.6089,
+        "y": 3.4961
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          63,
-          166,
-          133
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          67,
+          56,
+          121
         ],
-        "line": [
-          63,
-          166,
-          133
-        ],
-        "line_width": 2.2141162075953584,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tangible Shake"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "filthy apparatus loose share kindhearted past remove industrious enchanted fit pale fallacious giant private",
+        "theme_topic": "Scandalous Rigid",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4703,
-        "w": 3.344,
-        "x": 0.7883,
-        "y": 2.5035
+        "h": 3.3005,
+        "w": 2.5828,
+        "x": 7.2087,
+        "y": 2.038
       },
       "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          140,
+          119,
+          230
+        ],
+        "line": [
+          140,
+          119,
+          230
+        ],
+        "line_width": 3.322253242613518,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Scandalous Rigid"
+      },
+      "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.4375,
+        "w": 2.0917,
+        "x": 7.4739,
+        "y": 2.9346
+      },
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          174,
+          73,
+          92
         ],
         "font_face": "Verdana",
-        "font_size": 9,
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Inject",
-        "theme_topic": "Tangible Shake",
+        "text": "Push",
+        "theme_topic": "Scandalous Rigid",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.9757,
-        "w": 3.8773,
-        "x": 0.5562,
-        "y": 2.6273
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          63,
-          166,
-          133
-        ],
-        "line": [
-          63,
-          166,
-          133
-        ],
-        "line_width": 0.847151617012568,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tangible Shake"
-      },
-      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4334,
-        "w": 3.3453,
-        "x": 0.8096,
-        "y": 3.5367
+        "h": 1.6476,
+        "w": 2.0964,
+        "x": 7.4353,
+        "y": 3.482
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          198,
-          74
+          67,
+          56,
+          121
         ],
         "font_face": "Verdana",
-        "font_size": 12,
+        "font_size": 14,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Famous Example",
-        "theme_topic": "Tangible Shake",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "disgusting false piquant delicate damaging escape bubble hate salty terrify arithmetic transport",
+        "theme_topic": "Scandalous Rigid",
         "underline": false
       },
       "type": "text",
@@ -305,68 +312,73 @@
     },
     {
       "bbox": {
-        "h": 1.6508,
-        "w": 3.4467,
-        "x": 4.9201,
-        "y": 0.7657
+        "h": 3.3227,
+        "w": 1.7437,
+        "x": 10.0063,
+        "y": 2.0532
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          140,
+          119,
+          230
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 23,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Ripe Vein Roasted Puny Lace Brash Ruddy Agonizing Observe Materialistic",
-        "theme_topic": "Tangible Shake",
-        "underline": false
+        "line": [
+          140,
+          119,
+          230
+        ],
+        "line_width": 3.95113210351778,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Scandalous Rigid"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4927,
-        "w": 1.9247,
-        "x": 4.9565,
-        "y": 2.6439
+        "h": 0.516,
+        "w": 0.5705,
+        "x": 10.2459,
+        "y": 2.2945
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          64,
+          130,
+          109
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "USEFUL COAST",
-        "theme_topic": "Tangible Shake",
-        "underline": false
+        "focus": false,
+        "line": [
+          84,
+          83,
+          115
+        ],
+        "line_width": 1.7030312035214799,
+        "outline_only": true,
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Scandalous Rigid"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 1.0628,
-        "w": 3.5534,
-        "x": 9.0638,
-        "y": 4.0467
+        "h": 0.4292,
+        "w": 1.2256,
+        "x": 10.2373,
+        "y": 2.9565
       },
       "id": "object_012",
       "properties": {
@@ -374,17 +386,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          174,
+          73,
+          92
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 29,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Books Substantial",
-        "theme_topic": "Tangible Shake",
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Quince",
+        "theme_topic": "Scandalous Rigid",
         "underline": false
       },
       "type": "text",
@@ -392,10 +404,10 @@
     },
     {
       "bbox": {
-        "h": 1.5024,
-        "w": 3.5766,
-        "x": 9.072,
-        "y": 5.3159
+        "h": 1.6723,
+        "w": 1.2592,
+        "x": 10.2557,
+        "y": 3.5049
       },
       "id": "object_013",
       "properties": {
@@ -403,17 +415,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          148,
-          204,
-          189
+          67,
+          56,
+          121
         ],
         "font_face": "Verdana",
-        "font_size": 10,
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "balance daffy furtive cowardly waiting quiver scarf disarm utter magenta tiger wiry cent",
-        "theme_topic": "Tangible Shake",
+        "text": "airplane pies sharp earth spell pleasant loaf efficient high-pitched writing safe",
+        "theme_topic": "Scandalous Rigid",
         "underline": false
       },
       "type": "text",
@@ -421,301 +433,291 @@
     },
     {
       "bbox": {
-        "h": 0.3006,
-        "w": 0.2886,
-        "x": 9.1433,
-        "y": 1.5123
+        "h": 1.5886,
+        "w": 2.8461,
+        "x": 8.0201,
+        "y": 3.6941
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          255,
-          198,
-          74
-        ],
+        "clip": "arch",
+        "focus": false,
         "line": [
-          63,
-          166,
-          133
+          99,
+          157,
+          198
         ],
-        "line_width": 1.2128745697061571,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tangible Shake"
+        "line_width": 13,
+        "theme_topic": "Scandalous Rigid"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 1.011,
-        "w": 0.743,
-        "x": 8.9897,
-        "y": 2.3108
+        "h": 1.6139,
+        "w": 3.4347,
+        "x": 2.2672,
+        "y": 2.8445
       },
       "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "powerful ban fry close whole fancy",
-        "theme_topic": "Tangible Shake",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 1.0515,
-        "w": 0.7007,
-        "x": 10.0429,
-        "y": 2.3287
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wood true fair",
-        "theme_topic": "Tangible Shake",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 1.0076,
-        "w": 0.7056,
-        "x": 11.0625,
-        "y": 2.3122
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "cracker lumber plantation horrible quill",
-        "theme_topic": "Tangible Shake",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 1.0528,
-        "w": 0.6525,
-        "x": 12.1079,
-        "y": 2.3177
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "sea salt wren parcel squeamish",
-        "theme_topic": "Tangible Shake",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 3.0513,
-        "w": 3.8466,
-        "x": 0.5509,
-        "y": 3.9107
-      },
-      "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          63,
-          166,
-          133
+          140,
+          119,
+          230
         ],
         "line": [
-          63,
-          166,
-          133
+          140,
+          119,
+          230
         ],
-        "line_width": 4.738139763278483,
+        "line_width": 1.7792999602016055,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Tangible Shake"
+        "theme_topic": "Scandalous Rigid"
       },
       "type": "shape",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 1.3048,
+        "w": 3.104,
+        "x": 2.4065,
+        "y": 2.9839
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.18853012716741113,
+          0.2887057841190201,
+          0.10097219993973512,
+          0.18663698980269108
+        ],
+        "focus": false,
+        "mask_line": [
+          70,
+          32,
+          133
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Scandalous Rigid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 1.2746,
+        "w": 1.5859,
+        "x": 6.3968,
+        "y": 1.8473
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "color": [
+          196,
+          217,
+          40
+        ],
+        "connector": "straight",
+        "dash": 3,
+        "flip": false,
+        "ppt_type": 1,
+        "theme_topic": "Scandalous Rigid",
+        "width": 2.0487061051839026
+      },
+      "type": "connector",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.4508,
+        "w": 0.7163,
+        "x": 9.1524,
+        "y": 6.868
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          191,
+          200,
+          223
+        ],
+        "focus": false,
+        "line": [
+          67,
+          56,
+          121
+        ],
+        "line_width": 2.382381395827304,
+        "outline_only": true,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Scandalous Rigid"
+      },
+      "type": "shape",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.2476,
+        "w": 2.3571,
+        "x": 8.5606,
+        "y": 2.1528
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          165,
+          47,
+          102
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "aunt hug unnatural pedal",
+        "theme_topic": "Scandalous Rigid",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 2.7657,
-        "w": 3.5765,
-        "x": 0.6791,
-        "y": 4.0842
+        "h": 0.6931,
+        "w": 1.1145,
+        "x": 3.1534,
+        "y": 5.2034
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          42,
+          29,
+          223
         ],
-        "focus": true,
-        "mask_line": [
-          57,
-          89,
-          109
+        "focus": false,
+        "line": [
+          114,
+          169,
+          143
         ],
-        "mask_overlay": true,
-        "theme_topic": "Tangible Shake",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 2.487669599434767,
+        "outline_only": false,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Scandalous Rigid"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.3485,
-        "x": 2.0717,
-        "y": 1.0326
+        "h": 0.5052,
+        "w": 2.0213,
+        "x": 8.8106,
+        "y": 1.4662
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          171,
-          159,
-          105
+          166,
+          209,
+          139
         ],
         "font_face": "Verdana",
-        "font_size": 6,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Title Insect Ants",
-        "theme_topic": "Tangible Shake",
-        "underline": true
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "weary fold vegetable stitch",
+        "theme_topic": "Scandalous Rigid",
+        "underline": false
       },
       "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.4915,
-        "w": 1.109,
-        "x": 1.085,
-        "y": 6.2449
+        "h": 0.3943,
+        "w": 1.1693,
+        "x": 0.9523,
+        "y": 1.7808
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "symbols",
+        "family": "callouts",
         "fill": [
-          195,
-          82,
-          148
+          194,
+          181,
+          157
         ],
         "focus": false,
         "line": [
-          76,
-          58,
-          138
+          67,
+          56,
+          121
         ],
-        "line_width": 0.45862534014137574,
+        "line_width": 4.6192810801637405,
         "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Tangible Shake"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Scandalous Rigid"
       },
       "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.0637,
-        "x": 4.1022,
-        "y": 2.0224
+        "h": 0.5344,
+        "w": 2.1981,
+        "x": 9.2097,
+        "y": 0.4675
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          159,
-          31,
-          44
-        ],
-        "bold": true,
+        "bg_color": null,
+        "bold": false,
         "color": [
-          46,
-          218,
-          33
+          224,
+          157,
+          136
         ],
         "font_face": "Verdana",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "answer scattered knot nine",
-        "theme_topic": "Tangible Shake",
-        "underline": true
+        "font_size": 10,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Wonder Husky Talented",
+        "theme_topic": "Scandalous Rigid",
+        "underline": false
       },
       "type": "text",
       "z_order": 23

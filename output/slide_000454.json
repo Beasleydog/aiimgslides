@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        129,
-        225,
-        229
-      ],
       "fill": [
-        183,
-        108,
-        39
+        122,
+        193,
+        61
       ],
-      "fore_color": [
-        255,
-        117,
-        117
-      ],
-      "pattern": 37,
-      "style": "pattern",
-      "theme_topic": "Descriptive"
+      "style": "solid",
+      "theme_topic": "Smell"
     },
     "type": "background",
     "z_order": 0
@@ -41,137 +30,134 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.2028,
-        "w": 5.3831,
-        "x": 5.739,
-        "y": 1.7895
+        "h": 1.3888,
+        "w": 6.0721,
+        "x": 1.3146,
+        "y": 0.9023
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          166,
-          165,
-          108
+          67,
+          194,
+          68
         ],
         "focus": false,
         "line": [
-          220,
-          69,
-          50
+          53,
+          181,
+          91
         ],
-        "line_width": 3.0394334529382947,
+        "line_width": 7.8150570859265525,
         "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Descriptive"
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Smell"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.897,
-        "w": 8.5423,
-        "x": -0.0597,
-        "y": 1.9232
+        "h": 2.4843,
+        "w": 8.999,
+        "x": 0.0035,
+        "y": 0.8693
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "math",
+        "family": "callouts",
         "fill": [
-          132,
-          169,
-          86
+          184,
+          182,
+          159
         ],
         "focus": false,
         "line": [
-          156,
-          132,
-          203
+          189,
+          201,
+          229
         ],
-        "line_width": 7.304953009058623,
-        "outline_only": false,
-        "ppt_type": 165,
-        "shape": "multiply",
-        "theme_topic": "Descriptive"
+        "line_width": 5.467347943819901,
+        "outline_only": true,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Smell"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.4219,
-        "w": 3.4573,
-        "x": 9.2127,
-        "y": 2.459
+        "h": 4.1446,
+        "w": 8.8364,
+        "x": 1.477,
+        "y": 0.6953
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          170,
-          84,
-          182
+          133,
+          198,
+          77
         ],
-        "focus": false,
         "line": [
-          131,
-          87,
-          188
+          139,
+          201,
+          86
         ],
-        "line_width": 5.330869654356562,
-        "outline_only": true,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Descriptive"
+        "line_width": 3.7191560002141126,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Smell"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.9365,
-        "w": 13.3186,
-        "x": 0.0084,
-        "y": -0.0036
+        "h": 5.7881,
+        "w": 3.1793,
+        "x": 9.3768,
+        "y": 0.6577
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          203,
-          149,
-          100
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          203,
-          149,
-          100
-        ],
-        "line_width": 5.144363750900702,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Descriptive"
+        "font_face": "Trebuchet MS",
+        "font_size": 21,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Unknown",
+        "theme_topic": "Smell",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.3138,
-        "w": 5.5966,
-        "x": 0.5646,
-        "y": 0.3348
+        "h": 1.9383,
+        "w": 4.202,
+        "x": 2.6672,
+        "y": 1.9656
       },
       "id": "object_005",
       "properties": {
@@ -184,12 +170,12 @@
           252
         ],
         "font_face": "Trebuchet MS",
-        "font_size": 35,
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Madly Effect Well-Groomed",
-        "theme_topic": "Descriptive",
+        "text": "Gun Nutty Ashamed Nappy Governor Plants Upset Star Rebel",
+        "theme_topic": "Smell",
         "underline": false
       },
       "type": "text",
@@ -197,10 +183,10 @@
     },
     {
       "bbox": {
-        "h": 0.3699,
-        "w": 2.7034,
-        "x": 7.8416,
-        "y": 3.3489
+        "h": 0.5811,
+        "w": 2.3175,
+        "x": 2.6376,
+        "y": 4.2146
       },
       "id": "object_006",
       "properties": {
@@ -208,17 +194,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          202,
-          48,
-          82
+          51,
+          63,
+          101
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 18,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Blow Pretend",
-        "theme_topic": "Descriptive",
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "UNWRITTEN",
+        "theme_topic": "Smell",
         "underline": false
       },
       "type": "text",
@@ -226,130 +212,128 @@
     },
     {
       "bbox": {
-        "h": 2.3531,
-        "w": 4.0526,
-        "x": 2.8569,
-        "y": 2.8686
+        "h": 6.263,
+        "w": 1.4807,
+        "x": 0.6577,
+        "y": 0.6598
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 7,
         "family": "panel",
         "fill": [
-          203,
-          149,
-          100
+          139,
+          201,
+          86
         ],
         "line": [
-          203,
-          149,
-          100
+          139,
+          201,
+          86
         ],
-        "line_width": 2.8969148583338655,
+        "line_width": 2.0356817558919826,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Descriptive"
+        "theme_topic": "Smell"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4698,
-        "w": 3.5489,
-        "x": 3.1101,
-        "y": 3.761
+        "h": 5.9221,
+        "w": 1.1946,
+        "x": 0.781,
+        "y": 0.8004
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "crop": [
+          0.25402588715226954,
+          0.24484917441469176,
+          0.2774422472682698,
+          0.16161700480953406
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Remember",
-        "theme_topic": "Descriptive",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          123,
+          32,
+          213
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Smell",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.6829,
-        "w": 3.5176,
-        "x": 3.1483,
-        "y": 4.3217
+        "h": 6.2476,
+        "w": 1.4601,
+        "x": 7.3561,
+        "y": 0.6679
       },
       "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.17803574611453477,
+          0.006932712288285332,
+          0.08005003481839307,
+          0.04487528464744188
+        ],
+        "focus": true,
+        "mask_line": [
+          51,
+          63,
+          101
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Smell",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.4895,
+        "w": 2.3349,
+        "x": 2.5606,
+        "y": 3.9657
+      },
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          217,
-          185,
-          156
+          137,
+          113,
+          171
         ],
         "font_face": "Verdana",
-        "font_size": 12,
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "weather deranged camera momentous handy road oil female towering release walk ad contain locket",
-        "theme_topic": "Descriptive",
-        "underline": false
+        "text": "black-and-white pretend observe",
+        "theme_topic": "Smell",
+        "underline": true
       },
       "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 2.3429,
-        "w": 2.7347,
-        "x": 7.1122,
-        "y": 2.8699
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          203,
-          149,
-          100
-        ],
-        "line": [
-          203,
-          149,
-          100
-        ],
-        "line_width": 0.7647930067454279,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Descriptive"
-      },
-      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.689,
-        "w": 2.213,
-        "x": 7.3765,
-        "y": 4.3086
+        "h": 0.3605,
+        "w": 2.0289,
+        "x": 2.8281,
+        "y": 5.3661
       },
       "id": "object_011",
       "properties": {
@@ -357,51 +341,47 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          217,
-          185,
-          156
+          97,
+          153,
+          136
         ],
         "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "crime lip same scarce versed ripe stale pass wander correct cycle",
-        "theme_topic": "Descriptive",
-        "underline": false
+        "font_size": 8,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Rely",
+        "theme_topic": "Smell",
+        "underline": true
       },
       "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5661,
-        "w": 1.8421,
-        "x": 1.49,
-        "y": 3.7459
+        "h": 0.2977,
+        "w": 1.0424,
+        "x": 5.04,
+        "y": 5.4568
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          193,
-          199,
-          214
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          69,
-          106,
-          64
+          43,
+          179,
+          103
         ],
         "font_face": "Verdana",
-        "font_size": 7,
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Program Skin",
-        "theme_topic": "Descriptive",
-        "underline": false
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fine berserk",
+        "theme_topic": "Smell",
+        "underline": true
       },
       "type": "text",
       "z_order": 12

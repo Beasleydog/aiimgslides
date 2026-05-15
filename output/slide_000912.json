@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
+      "colors": [
+        [
+          216,
+          126,
+          144
+        ],
+        [
+          82,
+          96,
+          214
+        ]
+      ],
       "fill": [
-        208,
-        29,
+        198,
+        64,
         91
       ],
-      "style": "solid",
-      "theme_topic": "Mess"
+      "focus": "center",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Hospitable"
     },
     "type": "background",
     "z_order": 0
@@ -30,107 +45,75 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.4276,
-        "w": 6.4201,
-        "x": 2.4062,
-        "y": -0.0886
+        "h": 4.8033,
+        "w": 8.5362,
+        "x": 4.2045,
+        "y": 0.0051
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 7,
         "family": "arrows",
         "fill": [
-          198,
-          58,
-          56
+          192,
+          154,
+          64
         ],
         "focus": false,
         "line": [
-          40,
-          93,
-          186
+          37,
+          168,
+          148
         ],
-        "line_width": 4.4368447871996,
+        "line_width": 2.9894237047956276,
         "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Mess"
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Hospitable"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.8076,
-        "w": 7.6565,
-        "x": 1.0564,
-        "y": 0.7608
+        "h": 4.7141,
+        "w": 7.0381,
+        "x": 1.9324,
+        "y": 0.8271
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          211,
-          26,
-          107
-        ],
-        "focus": false,
-        "line": [
           209,
-          201,
-          75
+          104,
+          125
         ],
-        "line_width": 2.723711906428861,
+        "line": [
+          216,
+          126,
+          144
+        ],
+        "line_width": 2.051583721427008,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Mess"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hospitable"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.9463,
-        "x": 5.9017,
-        "y": 5.056
+        "h": 0.8896,
+        "w": 4.2835,
+        "x": 1.4174,
+        "y": 1.2568
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          32,
-          119,
-          149
-        ],
-        "line": [
-          224,
-          106,
-          147
-        ],
-        "line_width": 3.083309187096861,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Mess"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.1613,
-        "w": 7.3554,
-        "x": 3.1064,
-        "y": 0.6451
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -140,73 +123,102 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
+        "font_face": "Georgia",
+        "font_size": 26,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Post Reflective Scarecrow",
-        "theme_topic": "Mess",
+        "text": "Snobbish Bow Different",
+        "theme_topic": "Hospitable",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.4359,
+        "w": 1.1806,
+        "x": 0.5654,
+        "y": 5.565
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          25,
+          74,
+          230
+        ],
+        "line": [
+          216,
+          126,
+          144
+        ],
+        "line_width": 2.2350552526361236,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hospitable"
+      },
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.0329,
-        "w": 3.9155,
-        "x": 0.544,
-        "y": 1.9978
+        "h": 0.6416,
+        "w": 0.8287,
+        "x": 0.7436,
+        "y": 5.7365
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          224,
-          106,
-          147
-        ],
-        "line": [
-          224,
-          106,
-          147
-        ],
-        "line_width": 0.5058149919875651,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Mess"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.1704,
-        "w": 3.5488,
-        "x": 0.7231,
-        "y": 2.9293
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          208,
-          29,
-          91
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos Display",
-        "font_size": 49,
+        "font_face": "Georgia",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "87%",
-        "theme_topic": "Mess",
+        "text": "61%",
+        "theme_topic": "Hospitable",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.3836,
+        "w": 0.816,
+        "x": 0.7272,
+        "y": 6.4946
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          224,
+          165,
+          179
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "invincible small report awesome",
+        "theme_topic": "Hospitable",
         "underline": false
       },
       "type": "text",
@@ -214,88 +226,88 @@
     },
     {
       "bbox": {
-        "h": 0.6861,
-        "w": 3.55,
-        "x": 0.7451,
-        "y": 5.1095
+        "h": 1.4435,
+        "w": 0.7448,
+        "x": 1.9373,
+        "y": 5.5824
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          146,
+          162,
+          89
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "ten toes succeed baseball borrow",
-        "theme_topic": "Mess",
-        "underline": false
+        "line": [
+          216,
+          126,
+          144
+        ],
+        "line_width": 2.086734295387598,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hospitable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 5.0363,
-        "w": 0.9358,
-        "x": 9.5338,
-        "y": 1.9952
+        "h": 0.6463,
+        "w": 0.419,
+        "x": 2.0922,
+        "y": 5.7775
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          191,
-          35,
-          109
-        ],
-        "line": [
-          224,
-          106,
-          147
-        ],
-        "line_width": 2.220042269159974,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Mess"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.7488,
-        "w": 0.5873,
-        "x": 9.7189,
-        "y": 2.1826
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
+        "font_face": "Georgia",
+        "font_size": 18,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "4.5x",
-        "theme_topic": "Mess",
+        "text": "16%",
+        "theme_topic": "Hospitable",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.4193,
+        "w": 0.4055,
+        "x": 2.0857,
+        "y": 6.5079
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          224,
+          165,
+          179
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fuel winter cycle",
+        "theme_topic": "Hospitable",
         "underline": false
       },
       "type": "text",
@@ -303,88 +315,88 @@
     },
     {
       "bbox": {
-        "h": 4.0294,
-        "w": 0.5895,
-        "x": 9.7311,
-        "y": 2.9247
+        "h": 1.4172,
+        "w": 1.163,
+        "x": 2.8425,
+        "y": 5.5632
       },
       "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          228,
-          149,
-          179
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "daffy earsplitting kindhearted pail",
-        "theme_topic": "Mess",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 5.042,
-        "w": 1.1128,
-        "x": 10.6717,
-        "y": 1.9876
-      },
-      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          158,
-          54,
-          107
+          122,
+          102,
+          68
         ],
         "line": [
-          224,
-          106,
-          147
+          216,
+          126,
+          144
         ],
-        "line_width": 2.9346660190195477,
+        "line_width": 0.49203611370049916,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Mess"
+        "theme_topic": "Hospitable"
       },
       "type": "shape",
-      "z_order": 11
+      "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7632,
-        "w": 0.7565,
-        "x": 10.8418,
-        "y": 2.185
+        "h": 0.6462,
+        "w": 0.8056,
+        "x": 3.0584,
+        "y": 5.7547
       },
-      "id": "object_012",
+      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos Display",
+        "font_face": "Georgia",
         "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "49%",
-        "theme_topic": "Mess",
+        "text": "2.5x",
+        "theme_topic": "Hospitable",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.4091,
+        "w": 0.7954,
+        "x": 3.019,
+        "y": 6.5053
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          224,
+          165,
+          179
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "paltry black-and-white zephyr",
+        "theme_topic": "Hospitable",
         "underline": false
       },
       "type": "text",
@@ -392,28 +404,28 @@
     },
     {
       "bbox": {
-        "h": 4.009,
-        "w": 0.7605,
-        "x": 10.8688,
-        "y": 2.9225
+        "h": 0.6282,
+        "w": 0.7272,
+        "x": 4.3693,
+        "y": 5.7437
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          228,
-          149,
-          179
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "sparkling responsible pat radiate rail huge wall",
-        "theme_topic": "Mess",
+        "text": "206",
+        "theme_topic": "Hospitable",
         "underline": false
       },
       "type": "text",
@@ -421,41 +433,39 @@
     },
     {
       "bbox": {
-        "h": 5.0552,
-        "w": 0.8045,
-        "x": 11.9674,
-        "y": 2.0119
+        "h": 0.4154,
+        "w": 0.7289,
+        "x": 4.3652,
+        "y": 6.5056
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          206,
-          63,
-          75
-        ],
-        "line": [
+        "bg_color": null,
+        "bold": false,
+        "color": [
           224,
-          106,
-          147
+          165,
+          179
         ],
-        "line_width": 0.6213165489466278,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Mess"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "stomach provide butter hot",
+        "theme_topic": "Hospitable",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.7347,
-        "w": 0.4648,
-        "x": 12.1258,
-        "y": 2.1594
+        "h": 0.258,
+        "w": 4.4399,
+        "x": 0.6839,
+        "y": 3.8177
       },
       "id": "object_015",
       "properties": {
@@ -463,17 +473,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "71%",
-        "theme_topic": "Mess",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "RAGGED YOKE",
+        "theme_topic": "Hospitable",
         "underline": false
       },
       "type": "text",
@@ -481,28 +491,32 @@
     },
     {
       "bbox": {
-        "h": 4.021,
-        "w": 0.478,
-        "x": 12.1485,
-        "y": 2.9008
+        "h": 0.3486,
+        "w": 4.3987,
+        "x": 0.6938,
+        "y": 4.2807
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          228,
-          149,
-          179
+        "bg_color": [
+          151,
+          176,
+          208
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Georgia",
+        "font_size": 18,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "abaft strip cynical",
-        "theme_topic": "Mess",
+        "text": "Border",
+        "theme_topic": "Hospitable",
         "underline": false
       },
       "type": "text",
@@ -510,213 +524,259 @@
     },
     {
       "bbox": {
-        "h": 5.0391,
-        "w": 4.5084,
-        "x": 4.7461,
-        "y": 2.0184
+        "h": 1.8073,
+        "w": 4.6195,
+        "x": 0.5891,
+        "y": 1.4998
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          224,
-          106,
-          147
+        "band": [
+          63,
+          65,
+          180
         ],
-        "line": [
-          224,
-          106,
-          147
+        "band_cols": true,
+        "band_rows": false,
+        "body": [
+          92,
+          138,
+          55
         ],
-        "line_width": 3.3984577654466066,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Mess"
+        "border": [
+          105,
+          42,
+          63
+        ],
+        "border_dash": "solid",
+        "border_width": 2.276020218489967,
+        "cells": [
+          [
+            "calculating",
+            "maddening picture",
+            "puffy"
+          ],
+          [
+            "memory wandering",
+            "aunt earn",
+            "girls"
+          ],
+          [
+            "love",
+            "sock",
+            "sun round"
+          ],
+          [
+            "idea",
+            "scarecrow enter",
+            "improve"
+          ],
+          [
+            "cub tricky",
+            "unusual",
+            "fretful grease"
+          ],
+          [
+            "squeamish",
+            "answer",
+            "true"
+          ],
+          [
+            "consist whistle",
+            "thick",
+            "measure pick"
+          ]
+        ],
+        "cols": 3,
+        "font_size": 15,
+        "has_header": true,
+        "header": [
+          82,
+          96,
+          214
+        ],
+        "rows": 7,
+        "text_color": [
+          118,
+          41,
+          211
+        ],
+        "theme_topic": "Hospitable"
       },
-      "type": "shape",
+      "type": "table",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 4.7696,
-        "w": 4.1905,
-        "x": 4.8832,
-        "y": 2.1643
+        "h": 5.4425,
+        "w": 2.2274,
+        "x": 5.7634,
+        "y": 1.4893
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.15224166773754363,
-          0.27988882595260234,
-          0.32404050032082615,
-          0.28288140357045005
-        ],
+        "clip": "hex",
         "focus": true,
-        "mask_line": [
-          142,
-          219,
-          79
+        "line": [
+          187,
+          186,
+          157
         ],
-        "mask_overlay": false,
-        "theme_topic": "Mess",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 13,
+        "theme_topic": "Hospitable"
       },
-      "type": "image",
+      "type": "svg_image",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.7818,
-        "w": 0.9665,
-        "x": 8.5749,
-        "y": 0.863
+        "h": 5.468,
+        "w": 2.1989,
+        "x": 8.1485,
+        "y": 1.519
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          125,
-          40,
-          52
+        "crop": [
+          0.15915804314959592,
+          0.21050560122901132,
+          0.13222825933680768,
+          0.15375520952608948
         ],
-        "focus": false,
-        "line": [
-          209,
-          152,
-          36
+        "focus": true,
+        "mask_line": [
+          82,
+          96,
+          214
         ],
-        "line_width": 4.79571949925894,
-        "outline_only": true,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Mess"
+        "mask_overlay": false,
+        "theme_topic": "Hospitable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.4492,
-        "w": 1.322,
-        "x": 8.0192,
-        "y": 6.1899
+        "h": 5.438,
+        "w": 2.2413,
+        "x": 10.5155,
+        "y": 1.5084
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          197,
-          102,
-          94
+        "crop": [
+          0.20903490417996926,
+          0.034609100756789725,
+          0.2965561602591083,
+          0.12030992354196786
         ],
-        "focus": false,
-        "line": [
-          214,
-          228,
-          147
+        "focus": true,
+        "mask_line": [
+          82,
+          96,
+          214
         ],
-        "line_width": 0.6519469672902468,
-        "outline_only": true,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Mess"
+        "mask_overlay": false,
+        "theme_topic": "Hospitable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 1.2523,
-        "w": 1.9557,
-        "x": 1.3899,
-        "y": 5.8267
+        "h": 0.2651,
+        "w": 1.8081,
+        "x": 10.6861,
+        "y": 6.5205
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          75,
-          42,
-          175
+          82,
+          96,
+          214
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Mess",
-        "width": 1.2281167585550237
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Stranger",
+        "theme_topic": "Hospitable",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.6534,
-        "w": 1.2663,
-        "x": 6.586,
-        "y": 6.3643
+        "h": 0.6529,
+        "w": 1.1949,
+        "x": 3.764,
+        "y": 5.4726
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 3,
         "family": "basic",
         "fill": [
-          193,
-          180,
-          65
+          154,
+          37,
+          99
         ],
         "focus": false,
         "line": [
-          68,
-          31,
-          59
+          116,
+          203,
+          189
         ],
-        "line_width": 3.1882346023207733,
+        "line_width": 4.832893586963115,
         "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Mess"
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Hospitable"
       },
       "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.7375,
-        "w": 0.7244,
-        "x": 3.4325,
-        "y": 3.462
+        "h": 1.0157,
+        "w": 0.8744,
+        "x": 10.184,
+        "y": 6.4203
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
+        "dash": 3,
+        "family": "symbols",
         "fill": [
-          193,
-          176,
-          71
+          228,
+          171,
+          177
         ],
         "focus": false,
         "line": [
-          93,
-          201,
-          141
+          142,
+          213,
+          213
         ],
-        "line_width": 2.9586302745688773,
+        "line_width": 5.926570070274873,
         "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Mess"
+        "ppt_type": 14,
+        "shape": "cube",
+        "theme_topic": "Hospitable"
       },
       "type": "shape",
       "z_order": 23

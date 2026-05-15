@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        247,
-        248,
-        246
+      "back_color": [
+        120,
+        58,
+        170
       ],
-      "style": "solid",
-      "theme_topic": "Trains"
+      "fill": [
+        120,
+        58,
+        170
+      ],
+      "fore_color": [
+        73,
+        115,
+        223
+      ],
+      "pattern": 32,
+      "style": "pattern",
+      "theme_topic": "Promise Impulse"
     },
     "type": "background",
     "z_order": 0
@@ -30,102 +41,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.4937,
-        "w": 5.9006,
-        "x": 2.3362,
-        "y": -0.1708
+        "h": 3.9812,
+        "w": 4.5566,
+        "x": 7.9007,
+        "y": -0.2003
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          222,
-          129,
-          172
+          41,
+          91,
+          97
         ],
         "focus": false,
         "line": [
-          80,
-          148,
-          187
+          79,
+          56,
+          108
         ],
-        "line_width": 5.31661432985222,
-        "outline_only": true,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Trains"
+        "line_width": 3.3134541666917112,
+        "outline_only": false,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Promise Impulse"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.5272,
-        "w": 6.4474,
-        "x": -0.0115,
-        "y": 4.9722
+        "h": 3.3848,
+        "w": 3.2415,
+        "x": 11.1635,
+        "y": 2.9676
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          236,
-          240,
-          242
+          145,
+          76,
+          116
         ],
+        "focus": false,
         "line": [
-          236,
-          240,
-          242
+          193,
+          54,
+          182
         ],
-        "line_width": 2.8115976436031316,
+        "line_width": 2.703185940500534,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Trains"
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Promise Impulse"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9928,
-        "w": 7.5221,
-        "x": 0.5357,
-        "y": 0.3562
+        "h": 5.0245,
+        "w": 8.8638,
+        "x": 3.3902,
+        "y": 0.94
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          30,
-          35,
-          42
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          83,
+          150,
+          113
         ],
-        "font_face": "Aptos Display",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Boundless Protest Increase",
-        "theme_topic": "Trains",
-        "underline": false
+        "focus": false,
+        "line": [
+          126,
+          78,
+          227
+        ],
+        "line_width": 2.8599051203069803,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Promise Impulse"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.645,
-        "w": 1.0095,
-        "x": 0.7173,
-        "y": 5.802
+        "h": 0.9029,
+        "w": 3.9666,
+        "x": 4.6319,
+        "y": 1.3057
       },
       "id": "object_004",
       "properties": {
@@ -133,17 +148,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          255,
+          250,
+          255
         ],
-        "font_face": "Aptos Display",
-        "font_size": 34,
+        "font_face": "Arial",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "3.5x",
-        "theme_topic": "Trains",
+        "text": "Caring Trail Physical March",
+        "theme_topic": "Promise Impulse",
         "underline": false
       },
       "type": "text",
@@ -151,88 +166,88 @@
     },
     {
       "bbox": {
-        "h": 0.353,
-        "w": 0.9934,
-        "x": 0.738,
-        "y": 6.5305
+        "h": 5.558,
+        "w": 1.093,
+        "x": 8.4674,
+        "y": 1.4541
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          115,
-          124,
-          135
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          106,
+          103,
+          173
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "signal taste trite sincere grandiose",
-        "theme_topic": "Trains",
-        "underline": false
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 0.9429362176852637,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Promise Impulse"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.4098,
-        "w": 1.9038,
-        "x": 2.1144,
-        "y": 5.6216
+        "h": 0.742,
+        "w": 0.7021,
+        "x": 8.6779,
+        "y": 1.6125
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          135,
-          210,
-          199
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 2.042533081002783,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Trains"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.6137,
-        "w": 1.5561,
-        "x": 2.2762,
-        "y": 5.7799
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
+        "font_face": "Arial",
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "163",
-        "theme_topic": "Trains",
+        "text": "18%",
+        "theme_topic": "Promise Impulse",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 4.5337,
+        "w": 0.7156,
+        "x": 8.6492,
+        "y": 2.3486
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
+        ],
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "adhesive nutritious dirty current dreary trade print",
+        "theme_topic": "Promise Impulse",
         "underline": false
       },
       "type": "text",
@@ -240,39 +255,41 @@
     },
     {
       "bbox": {
-        "h": 0.3809,
-        "w": 1.5668,
-        "x": 2.2882,
-        "y": 6.5307
+        "h": 5.565,
+        "w": 1.0273,
+        "x": 9.7254,
+        "y": 1.4367
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          115,
-          124,
-          135
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          225,
+          33,
+          66
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "sugar smash various jewel bent match education",
-        "theme_topic": "Trains",
-        "underline": false
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 1.9277726695293673,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Promise Impulse"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.6519,
-        "w": 1.7539,
-        "x": 4.3901,
-        "y": 5.7625
+        "h": 0.7565,
+        "w": 0.6384,
+        "x": 9.9316,
+        "y": 1.6227
       },
       "id": "object_009",
       "properties": {
@@ -280,17 +297,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 27,
+        "font_face": "Arial",
+        "font_size": 21,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "31",
-        "theme_topic": "Trains",
+        "text": "7.6x",
+        "theme_topic": "Promise Impulse",
         "underline": false
       },
       "type": "text",
@@ -298,10 +315,10 @@
     },
     {
       "bbox": {
-        "h": 0.3669,
-        "w": 1.7335,
-        "x": 4.3668,
-        "y": 6.5177
+        "h": 4.5266,
+        "w": 0.682,
+        "x": 9.9185,
+        "y": 2.387
       },
       "id": "object_010",
       "properties": {
@@ -309,17 +326,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          115,
-          124,
-          135
+          230,
+          210,
+          240
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "melodic quarter distribution",
-        "theme_topic": "Trains",
+        "text": "hat aggressive consist free courageous square rabbits",
+        "theme_topic": "Promise Impulse",
         "underline": false
       },
       "type": "text",
@@ -327,39 +344,41 @@
     },
     {
       "bbox": {
-        "h": 5.1313,
-        "w": 6.0882,
-        "x": 6.6888,
-        "y": 1.8672
+        "h": 5.535,
+        "w": 0.89,
+        "x": 10.9168,
+        "y": 1.4683
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.0014231865202816451,
-          0.0324861894194793,
-          0.1829212000181773,
-          0.009815578618082563
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          133,
+          82,
+          159
         ],
-        "focus": true,
-        "mask_line": [
-          224,
-          52,
-          71
+        "line": [
+          139,
+          78,
+          190
         ],
-        "mask_overlay": true,
-        "theme_topic": "Trains",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 2.7314432780415014,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Promise Impulse"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.2825,
-        "w": 5.691,
-        "x": 6.8991,
-        "y": 6.5537
+        "h": 0.7341,
+        "w": 0.5155,
+        "x": 11.0847,
+        "y": 1.63
       },
       "id": "object_012",
       "properties": {
@@ -367,17 +386,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 20,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Exchange Psychedelic Robin",
-        "theme_topic": "Trains",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "65%",
+        "theme_topic": "Promise Impulse",
         "underline": false
       },
       "type": "text",
@@ -385,270 +404,277 @@
     },
     {
       "bbox": {
-        "h": 1.3786,
-        "w": 5.766,
-        "x": 0.5629,
-        "y": 1.8402
+        "h": 4.5218,
+        "w": 0.5355,
+        "x": 11.0866,
+        "y": 2.3495
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          236,
-          240,
-          242
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
         ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 4.817794964175169,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Trains"
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "visitor butter humor defeated general annoying",
+        "theme_topic": "Promise Impulse",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 1.1326,
-        "w": 5.5016,
-        "x": 0.6736,
-        "y": 1.9859
+        "h": 5.5684,
+        "w": 0.785,
+        "x": 11.9937,
+        "y": 1.4502
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.12091392837328671,
-          0.08584120417071217,
-          0.3140142888187005,
-          0.1898727930761576
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "focus": false,
-        "mask_line": [
-          31,
-          117,
-          161
+        "line": [
+          139,
+          78,
+          190
         ],
-        "mask_overlay": false,
-        "theme_topic": "Trains",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.023594066762902,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Promise Impulse"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.8536,
-        "w": 0.951,
-        "x": 4.7023,
-        "y": 4.5211
+        "h": 0.7493,
+        "w": 0.4164,
+        "x": 12.1554,
+        "y": 1.6242
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "swoop",
-        "primary": [
-          31,
-          117,
-          161
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "secondary": [
-          93,
-          198,
-          93
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#94e19c\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#d3bf38\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
-        "theme_topic": "Trains"
+        "font_face": "Arial",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "42",
+        "theme_topic": "Promise Impulse",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.8727,
-        "w": 1.793,
-        "x": 10.7238,
-        "y": 6.1148
+        "h": 4.5251,
+        "w": 0.4281,
+        "x": 12.1628,
+        "y": 2.3712
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          217,
-          57,
-          227
+          230,
+          210,
+          240
         ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Trains",
-        "width": 2.669040401750568
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "oafish measure hug",
+        "theme_topic": "Promise Impulse",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.2627,
-        "w": 0.4481,
-        "x": 3.6393,
-        "y": 0.7801
+        "h": 3.19,
+        "w": 3.253,
+        "x": 0.7661,
+        "y": 1.6613
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          131,
-          198,
-          148
+          255,
+          250,
+          255
         ],
-        "connector": "curve",
-        "dash": 3,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Trains",
-        "width": 1.2217771163669475
+        "font_face": "Arial",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Lighten Rabbit Dispensable Recess Fat Glove",
+        "theme_topic": "Promise Impulse",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.4614,
-        "w": 1.6184,
-        "x": 10.4979,
-        "y": 1.2323
+        "h": 0.9231,
+        "w": 1.7978,
+        "x": 0.7435,
+        "y": 5.3711
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "swoop",
-        "primary": [
-          31,
-          117,
-          161
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "secondary": [
-          81,
-          92,
-          101
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#3e6d76\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#1bb95a\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
-        "theme_topic": "Trains"
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "LIST STRETCH",
+        "theme_topic": "Promise Impulse",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.842,
-        "w": 1.4484,
-        "x": 5.1552,
-        "y": 0.6117
+        "h": 0.7785,
+        "w": 1.5923,
+        "x": 0.2562,
+        "y": 1.9014
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          170,
-          152,
-          174
+        "pattern": "swoop",
+        "primary": [
+          111,
+          221,
+          206
         ],
-        "focus": false,
-        "line": [
-          115,
-          124,
-          135
+        "secondary": [
+          171,
+          34,
+          58
         ],
-        "line_width": 2.511815200835608,
-        "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Trains"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#596d9b\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#1ba849\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
+        "theme_topic": "Promise Impulse"
       },
-      "type": "shape",
+      "type": "svg",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.3953,
-        "w": 0.9018,
-        "x": 10.3244,
-        "y": 0.8142
+        "h": 0.4183,
+        "w": 0.4348,
+        "x": 2.6979,
+        "y": 5.7599
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "basic",
         "fill": [
-          227,
-          83,
-          82
+          101,
+          102,
+          150
         ],
         "focus": false,
         "line": [
-          149,
-          229,
-          57
+          63,
+          68,
+          32
         ],
-        "line_width": 1.7411344312086292,
-        "outline_only": true,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Trains"
+        "line_width": 2.101103762441149,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Promise Impulse"
       },
       "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.6866,
-        "w": 1.1814,
-        "x": 7.7195,
-        "y": 0.2201
+        "h": 0.3469,
+        "w": 0.8068,
+        "x": 11.4589,
+        "y": 1.0137
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
+        "dash": 4,
+        "family": "math",
         "fill": [
-          140,
-          141,
-          210
+          186,
+          66,
+          82
         ],
         "focus": false,
         "line": [
-          177,
-          211,
-          26
+          127,
+          202,
+          25
         ],
-        "line_width": 4.942092171349995,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Trains"
+        "line_width": 1.2607260373786149,
+        "outline_only": true,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Promise Impulse"
       },
       "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.6198,
-        "w": 2.3927,
-        "x": 9.7712,
-        "y": 1.0186
+        "h": 0.306,
+        "w": 2.3646,
+        "x": 6.0307,
+        "y": 2.4979
       },
       "id": "object_022",
       "properties": {
@@ -656,17 +682,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          85,
-          167,
-          48
+          40,
+          230,
+          64
         ],
-        "font_face": "Aptos",
-        "font_size": 18,
+        "font_face": "Arial",
+        "font_size": 15,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "mend list queen",
-        "theme_topic": "Trains",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Sparkle",
+        "theme_topic": "Promise Impulse",
         "underline": false
       },
       "type": "text",
@@ -674,31 +700,27 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.3935,
-        "x": 8.7885,
-        "y": 1.6723
+        "h": 1.0178,
+        "w": 1.8729,
+        "x": 11.1123,
+        "y": 2.4631
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          42,
-          129,
-          51
+          181,
+          69,
+          117
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "spring",
-        "theme_topic": "Trains",
-        "underline": false
+        "connector": "straight",
+        "dash": 4,
+        "flip": false,
+        "ppt_type": 1,
+        "theme_topic": "Promise Impulse",
+        "width": 2.699352791516495
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 23
     }
   ],

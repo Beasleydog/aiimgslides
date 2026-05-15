@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        43,
-        51,
-        64
-      ],
       "fill": [
-        25,
-        30,
-        39
+        250,
+        250,
+        248
       ],
-      "fore_color": [
-        171,
-        200,
-        135
-      ],
-      "pattern": 10,
-      "style": "pattern",
-      "theme_topic": "Turn Stone"
+      "style": "solid",
+      "theme_topic": "Past Decision"
     },
     "type": "background",
     "z_order": 0
@@ -41,188 +30,191 @@
   "objects": [
     {
       "bbox": {
-        "h": 0.895,
-        "w": 5.9304,
-        "x": 0.769,
-        "y": 5.8705
+        "h": 4.026,
+        "w": 5.3641,
+        "x": 1.5183,
+        "y": 3.0888
       },
       "id": "object_001",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          168,
+          220,
+          135
+        ],
+        "focus": false,
+        "line": [
+          180,
+          164,
+          155
+        ],
+        "line_width": 4.456520315154643,
+        "outline_only": false,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Past Decision"
+      },
+      "type": "shape",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 4.3232,
+        "w": 7.7044,
+        "x": 2.3215,
+        "y": 1.1838
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          242,
+          242,
+          239
+        ],
+        "line": [
+          239,
+          239,
+          235
+        ],
+        "line_width": 3.1984867015145046,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Past Decision"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.8911,
+        "w": 5.0059,
+        "x": 0.9271,
+        "y": 1.0935
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          247,
-          249
+          28,
+          28,
+          28
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
+        "font_face": "Aptos Display",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Voracious Thankful Squealing Swim",
-        "theme_topic": "Turn Stone",
+        "text": "Peck Flock",
+        "theme_topic": "Past Decision",
         "underline": false
       },
       "type": "text",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 1.5583,
-        "w": 5.969,
-        "x": 0.5749,
-        "y": 2.178
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1404497044935405,
-          0.3013582394231512,
-          0.12491718218310491,
-          0.15782228841424872
-        ],
-        "focus": true,
-        "mask_line": [
-          96,
-          165,
-          250
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Turn Stone",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.593,
-        "w": 5.9666,
-        "x": 6.776,
-        "y": 2.1863
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.06548519898536974,
-          0.24306153865511257,
-          0.06568389574153202,
-          0.18960838566775504
-        ],
-        "focus": true,
-        "mask_line": [
-          96,
-          165,
-          250
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Turn Stone",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.4767,
-        "w": 0.4854,
-        "x": 2.0948,
-        "y": 4.599
+        "h": 0.5368,
+        "w": 2.1636,
+        "x": 0.5844,
+        "y": 2.3961
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 1.8318658209620005,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Turn Stone"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.4519,
-        "w": 4.0778,
-        "x": 0.5796,
-        "y": 4.9856
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          247,
-          249
+          28,
+          28,
+          28
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "agreement territory coal grandiose pleasure adorable",
-        "theme_topic": "Turn Stone",
+        "text": "recondite grade dad",
+        "theme_topic": "Past Decision",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.5855,
+        "w": 0.5838,
+        "x": 4.0331,
+        "y": 2.0337
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          38,
+          132,
+          88
+        ],
+        "line": [
+          239,
+          239,
+          235
+        ],
+        "line_width": 4.138315573256957,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Past Decision"
+      },
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.4842,
-        "w": 0.4999,
-        "x": 5.9828,
-        "y": 4.7629
+        "h": 0.5526,
+        "w": 2.5023,
+        "x": 3.1185,
+        "y": 2.4005
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          28,
+          28
         ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 1.226791312794357,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Turn Stone"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "permissible billowy cats blink absent sin yawn",
+        "theme_topic": "Past Decision",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4651,
-        "w": 4.0653,
-        "x": 5.0,
-        "y": 4.9701
+        "h": 0.5456,
+        "w": 2.3788,
+        "x": 5.8862,
+        "y": 2.4156
       },
       "id": "object_007",
       "properties": {
@@ -230,17 +222,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          247,
-          249
+          28,
+          28,
+          28
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "peaceful aggressive massive racial thin cowardly statuesque",
-        "theme_topic": "Turn Stone",
+        "text": "public zoo animal man silly sedate jewel",
+        "theme_topic": "Past Decision",
         "underline": false
       },
       "type": "text",
@@ -248,234 +240,235 @@
     },
     {
       "bbox": {
-        "h": 0.4711,
-        "w": 0.4937,
-        "x": 10.3537,
-        "y": 4.6588
+        "h": 0.5542,
+        "w": 1.7485,
+        "x": 8.604,
+        "y": 2.3708
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 4.368615681676182,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Turn Stone"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4814,
-        "w": 3.3564,
-        "x": 9.3848,
-        "y": 4.9488
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          247,
-          249
+          28,
+          28,
+          28
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "entertain violent stove vacuous spiky",
-        "theme_topic": "Turn Stone",
+        "text": "sable pointless marry bustling juice terrible authority",
+        "theme_topic": "Past Decision",
         "underline": false
       },
       "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.5662,
+        "w": 0.5604,
+        "x": 11.3583,
+        "y": 2.1355
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          38,
+          132,
+          88
+        ],
+        "line": [
+          239,
+          239,
+          235
+        ],
+        "line_width": 1.945980777954557,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Past Decision"
+      },
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.1905,
-        "w": 3.902,
-        "x": 2.3417,
-        "y": 4.8253
+        "h": 0.5432,
+        "w": 2.053,
+        "x": 10.6775,
+        "y": 2.3893
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          177,
-          185,
-          196
+          28,
+          28,
+          28
         ],
-        "connector": "elbow",
-        "dash": 7,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Turn Stone",
-        "width": 3.0690972693147223
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "unnatural mark smash voice",
+        "theme_topic": "Past Decision",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.1,
-        "w": 4.3476,
-        "x": 6.2437,
-        "y": 5.0158
+        "h": 0.4164,
+        "w": 11.9338,
+        "x": 0.6946,
+        "y": 3.5126
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          177,
-          185,
-          196
+          111,
+          148,
+          182
         ],
-        "connector": "curve",
-        "dash": 3,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Turn Stone",
-        "width": 2.618290683885262
+        "font_face": "Aptos Display",
+        "font_size": 20,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Wander Announce Outrageous Alert",
+        "theme_topic": "Past Decision",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.93,
-        "w": 0.9898,
-        "x": 4.2713,
-        "y": 5.7616
+        "h": 0.4592,
+        "w": 11.9249,
+        "x": 0.6937,
+        "y": 4.1733
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          96,
-          165,
-          250
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          115,
+          115
         ],
-        "focus": false,
-        "line": [
-          165,
-          145,
-          182
-        ],
-        "line_width": 3.1925844738351317,
-        "outline_only": true,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Turn Stone"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "stimulating doubt damp damaged ratty wail grade dolls general self sun gorgeous lazy celery rebel recognise gamy",
+        "theme_topic": "Past Decision",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2875,
-        "w": 1.0296,
-        "x": 11.7505,
-        "y": 0.2601
+        "h": 1.9489,
+        "w": 5.1274,
+        "x": 0.566,
+        "y": 5.0532
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 5,
+        "family": "panel",
         "fill": [
-          59,
-          123,
-          205
+          219,
+          220,
+          213
         ],
-        "focus": false,
         "line": [
-          64,
-          78,
-          119
+          239,
+          239,
+          235
         ],
-        "line_width": 3.216288848477943,
+        "line_width": 0.8970223248449428,
         "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Turn Stone"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Past Decision"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.5646,
-        "w": 0.6731,
-        "x": 11.925,
-        "y": 4.9399
+        "h": 0.7287,
+        "w": 4.7588,
+        "x": 0.7076,
+        "y": 5.216
       },
       "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
-        "fill": [
-          75,
-          118,
-          205
-        ],
-        "focus": false,
-        "line": [
-          107,
-          188,
-          220
-        ],
-        "line_width": 3.3658778299237992,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Turn Stone"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.5926,
-        "w": 2.0237,
-        "x": 5.3637,
-        "y": 4.8225
-      },
-      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          181,
-          71,
-          209
+          38,
+          132,
+          88
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Aptos Display",
+        "font_size": 34,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Play Tricky Gullible",
-        "theme_topic": "Turn Stone",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "16",
+        "theme_topic": "Past Decision",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.9314,
+        "w": 4.7732,
+        "x": 0.7214,
+        "y": 5.9536
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          115,
+          115
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "unequal look expect interrupt rich",
+        "theme_topic": "Past Decision",
         "underline": false
       },
       "type": "text",
@@ -483,78 +476,88 @@
     },
     {
       "bbox": {
-        "h": 1.3664,
-        "w": 1.9296,
-        "x": 7.6794,
-        "y": 4.9681
+        "h": 1.9703,
+        "w": 6.9131,
+        "x": 5.8682,
+        "y": 5.0383
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          116,
-          171,
-          106
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          234,
+          226,
+          197
         ],
-        "connector": "straight",
-        "dash": 5,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Turn Stone",
-        "width": 0.6882991151403606
+        "line": [
+          239,
+          239,
+          235
+        ],
+        "line_width": 5.0267817831347354,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Past Decision"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.3519,
-        "w": 1.7792,
-        "x": 7.4354,
-        "y": 1.6246
+        "h": 0.7701,
+        "w": 6.5494,
+        "x": 6.0206,
+        "y": 5.2405
       },
       "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          26,
-          204,
-          195
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Turn Stone",
-        "width": 2.914424041360274
-      },
-      "type": "connector",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.3727,
-        "w": 2.3563,
-        "x": 8.7606,
-        "y": 3.484
-      },
-      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          95,
-          47,
-          104
+          38,
+          132,
+          88
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos Display",
+        "font_size": 24,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Temporary",
-        "theme_topic": "Turn Stone",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "70",
+        "theme_topic": "Past Decision",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.9242,
+        "w": 6.5828,
+        "x": 6.0176,
+        "y": 5.9906
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          115,
+          115
+        ],
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "bushes harmony copper interfere admit report",
+        "theme_topic": "Past Decision",
         "underline": false
       },
       "type": "text",
@@ -562,88 +565,92 @@
     },
     {
       "bbox": {
-        "h": 0.6158,
-        "w": 1.209,
-        "x": 6.7781,
-        "y": 3.813
+        "h": 0.9262,
+        "w": 1.5309,
+        "x": 6.4131,
+        "y": 2.9535
       },
       "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          239,
+          239,
+          235
+        ],
+        "focus": false,
+        "line": [
+          189,
+          169,
+          174
+        ],
+        "line_width": 3.4499141538999765,
+        "outline_only": false,
+        "ppt_type": 179,
+        "shape": "cloud",
+        "theme_topic": "Past Decision"
+      },
+      "type": "shape",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.5959,
+        "w": 1.1671,
+        "x": 3.7038,
+        "y": 2.323
+      },
+      "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          85,
-          71,
-          202
+          219,
+          99,
+          191
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "sea macabre bury slippery",
-        "theme_topic": "Turn Stone",
-        "underline": true
+        "text": "bad",
+        "theme_topic": "Past Decision",
+        "underline": false
       },
       "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.8665,
-        "w": 1.6358,
-        "x": 10.0542,
-        "y": 0.9692
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          73,
-          178,
-          222
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Turn Stone",
-        "width": 0.37952791637025807
-      },
-      "type": "connector",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.3979,
-        "w": 0.9524,
-        "x": 11.6891,
-        "y": 4.4487
+        "h": 0.3748,
+        "w": 1.6085,
+        "x": 0.6912,
+        "y": 2.0696
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
-        "fill": [
-          46,
-          157,
-          157
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          102,
+          133,
+          135
         ],
-        "focus": false,
-        "line": [
-          178,
-          116,
-          90
-        ],
-        "line_width": 4.8809729718781725,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Turn Stone"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Political Knock Peep",
+        "theme_topic": "Past Decision",
+        "underline": true
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 21
     }
   ],

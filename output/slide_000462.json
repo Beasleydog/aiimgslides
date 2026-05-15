@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          225,
-          94,
-          113
-        ],
-        [
-          51,
-          63,
-          101
-        ]
-      ],
       "fill": [
-        210,
-        72,
-        94
+        90,
+        35,
+        74
       ],
-      "focus": "bottom_right",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Soda Pocket"
+      "style": "solid",
+      "theme_topic": "Dreary"
     },
     "type": "background",
     "z_order": 0
@@ -45,187 +30,179 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.2764,
-        "w": 4.7372,
-        "x": 2.9292,
-        "y": 2.2873
+        "h": 4.9453,
+        "w": 3.9755,
+        "x": 8.2416,
+        "y": 2.9958
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "flowchart",
         "fill": [
-          62,
+          64,
           93,
-          107
+          48
         ],
         "focus": false,
         "line": [
-          85,
-          78,
-          48
+          64,
+          112,
+          96
         ],
-        "line_width": 4.161870969977475,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Soda Pocket"
+        "line_width": 3.9313648141030857,
+        "outline_only": false,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Dreary"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.8198,
-        "w": 7.1031,
-        "x": 2.6225,
-        "y": 3.8754
+        "h": 4.1865,
+        "w": 4.3817,
+        "x": 3.7746,
+        "y": 2.231
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 7,
+        "family": "math",
         "fill": [
-          172,
-          189,
-          56
+          95,
+          99,
+          130
         ],
         "focus": false,
         "line": [
-          111,
-          187,
-          72
+          71,
+          174,
+          162
         ],
-        "line_width": 6.827464245641601,
-        "outline_only": false,
-        "ppt_type": 22,
-        "shape": "lightning",
-        "theme_topic": "Soda Pocket"
+        "line_width": 3.4839407237139053,
+        "outline_only": true,
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Dreary"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.6054,
-        "w": 6.6242,
-        "x": 0.4369,
-        "y": 2.7999
+        "h": 1.0294,
+        "w": 7.5341,
+        "x": 0.5499,
+        "y": 0.3436
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          130,
-          97,
-          66
-        ],
-        "focus": false,
-        "line": [
-          60,
-          90,
-          65
-        ],
-        "line_width": 6.23214960331957,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Soda Pocket"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.9609,
-        "w": 4.1828,
-        "x": 10.281,
-        "y": 0.5896
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
-        "fill": [
-          87,
-          112,
-          49
-        ],
-        "focus": false,
-        "line": [
-          97,
-          162,
-          69
-        ],
-        "line_width": 2.5551100488987886,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Soda Pocket"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 4.2974,
-        "w": 9.1725,
-        "x": 0.7162,
-        "y": 0.6893
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          219,
-          86,
-          106
-        ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 2.671732825500241,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Soda Pocket"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.5298,
-        "w": 2.8451,
-        "x": 0.6272,
-        "y": 0.7311
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          252,
-          247
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 30,
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Real Choke",
-        "theme_topic": "Soda Pocket",
+        "text": "Fish Sparkling Guttural",
+        "theme_topic": "Dreary",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.271,
+        "w": 3.9372,
+        "x": 8.723,
+        "y": 1.9795
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "ONE PASTE",
+        "theme_topic": "Dreary",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.0736,
+        "w": 3.9151,
+        "x": 8.6957,
+        "y": 2.4656
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Arial",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Gleaming Settle Purpose Sky",
+        "theme_topic": "Dreary",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 3.1501,
+        "w": 3.9396,
+        "x": 8.7092,
+        "y": 3.7442
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          175,
+          152,
+          171
+        ],
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wakeful joke nappy flood unarmed view paddle lucky test",
+        "theme_topic": "Dreary",
         "underline": false
       },
       "type": "text",
@@ -233,133 +210,115 @@
     },
     {
       "bbox": {
-        "h": 6.2496,
-        "w": 3.5097,
-        "x": 9.2464,
-        "y": 0.6349
+        "h": 5.1326,
+        "w": 3.7838,
+        "x": 0.5753,
+        "y": 1.8472
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "men",
-          "comb",
-          "joyous",
-          "liquid",
-          "overjoyed"
+        "crop": [
+          0.21650127656203846,
+          0.006641787911586577,
+          0.025665282076896365,
+          0.23917901713921735
         ],
-        "chart": "doughnut",
         "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              138,
-              73,
-              80
-            ],
-            "name": "pleasure",
-            "values": [
-              41,
-              47,
-              52,
-              80,
-              48
-            ]
-          }
+        "mask_line": [
+          71,
+          173,
+          26
         ],
-        "theme_topic": "Soda Pocket",
-        "title": "limit spring"
+        "mask_overlay": false,
+        "theme_topic": "Dreary",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 6.2402,
-        "w": 2.6179,
-        "x": 3.7662,
-        "y": 0.6485
+        "h": 5.0772,
+        "w": 1.7221,
+        "x": 4.6351,
+        "y": 1.9217
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          165,
-          69,
-          95
+        "crop": [
+          0.3136269615914283,
+          0.11883547760618637,
+          0.06936711423676886,
+          0.014659331941692395
         ],
-        "line": [
-          225,
-          94,
-          113
+        "focus": true,
+        "mask_line": [
+          71,
+          221,
+          181
         ],
-        "line_width": 4.834360610693125,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Soda Pocket"
+        "mask_overlay": false,
+        "theme_topic": "Dreary",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.7433,
-        "w": 2.2569,
-        "x": 3.9393,
-        "y": 0.8174
+        "h": 5.0629,
+        "w": 1.6961,
+        "x": 6.5088,
+        "y": 1.8749
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "font_face": "Arial",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "92%",
-        "theme_topic": "Soda Pocket",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          35,
+          50,
+          94
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Dreary",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 5.2371,
-        "w": 2.2482,
-        "x": 3.9109,
-        "y": 1.5912
+        "h": 0.2897,
+        "w": 1.3143,
+        "x": 6.7342,
+        "y": 6.5172
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          255,
-          218,
-          220
+          71,
+          221,
+          181
         ],
         "font_face": "Arial",
         "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "bolt substantial tired include open back order",
-        "theme_topic": "Soda Pocket",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Lying Trap",
+        "theme_topic": "Dreary",
         "underline": false
       },
       "type": "text",
@@ -367,28 +326,28 @@
     },
     {
       "bbox": {
-        "h": 0.7687,
-        "w": 1.9426,
-        "x": 6.718,
-        "y": 0.8084
+        "h": 0.5382,
+        "w": 1.9657,
+        "x": 1.0216,
+        "y": 3.9585
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          196,
+          162,
+          138
         ],
         "font_face": "Arial",
-        "font_size": 29,
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "38",
-        "theme_topic": "Soda Pocket",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Flesh Space Jittery",
+        "theme_topic": "Dreary",
         "underline": false
       },
       "type": "text",
@@ -396,10 +355,10 @@
     },
     {
       "bbox": {
-        "h": 5.2221,
-        "w": 1.9209,
-        "x": 6.7127,
-        "y": 1.5491
+        "h": 0.2712,
+        "w": 2.0589,
+        "x": 5.3982,
+        "y": 0.6673
       },
       "id": "object_012",
       "properties": {
@@ -407,17 +366,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          255,
+          77,
           218,
-          220
+          118
         ],
         "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "plastic dad love",
-        "theme_topic": "Soda Pocket",
+        "font_size": 11,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Water",
+        "theme_topic": "Dreary",
         "underline": false
       },
       "type": "text",

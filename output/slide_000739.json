@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        195,
-        46,
-        128
+      "colors": [
+        [
+          156,
+          25,
+          90
+        ],
+        [
+          153,
+          184,
+          158
+        ]
       ],
       "fill": [
-        33,
-        115,
-        169
+        225,
+        174,
+        145
       ],
-      "fore_color": [
-        255,
-        198,
-        74
-      ],
-      "pattern": 5,
-      "style": "pattern",
-      "theme_topic": "Scream Momentous"
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Acid"
     },
     "type": "background",
     "z_order": 0
@@ -41,106 +45,105 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.2696,
-        "w": 3.0859,
-        "x": 0.019,
-        "y": 2.2694
+        "h": 4.5986,
+        "w": 5.1538,
+        "x": -0.5631,
+        "y": 0.9802
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
+        "dash": 3,
+        "family": "math",
         "fill": [
-          115,
-          162,
-          184
+          61,
+          103,
+          139
         ],
         "focus": false,
         "line": [
-          121,
-          146,
-          31
+          29,
+          205,
+          212
         ],
-        "line_width": 4.178154833787433,
-        "outline_only": true,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Scream Momentous"
+        "line_width": 3.081724781021528,
+        "outline_only": false,
+        "ppt_type": 164,
+        "shape": "minus",
+        "theme_topic": "Acid"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.1542,
-        "w": 6.1437,
-        "x": 3.685,
-        "y": 0.8319
+        "h": 3.4085,
+        "w": 8.4975,
+        "x": 4.5809,
+        "y": 3.955
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "arrows",
         "fill": [
-          96,
-          193,
-          132
+          79,
+          73,
+          169
         ],
         "focus": false,
         "line": [
-          193,
-          84,
-          225
+          63,
+          223,
+          94
         ],
-        "line_width": 4.575692825206694,
+        "line_width": 2.9774098267389135,
         "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Scream Momentous"
+        "ppt_type": 33,
+        "shape": "right_arrow",
+        "theme_topic": "Acid"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.0929,
-        "w": 5.7815,
-        "x": 1.0846,
-        "y": 3.4549
+        "h": 1.0377,
+        "w": 13.3217,
+        "x": -0.014,
+        "y": 0.0143
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "panel",
         "fill": [
-          42,
-          181,
-          87
+          204,
+          157,
+          131
         ],
-        "focus": false,
         "line": [
-          122,
-          39,
-          220
+          204,
+          157,
+          131
         ],
-        "line_width": 6.767108548539482,
+        "line_width": 1.3610673323967335,
         "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Scream Momentous"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Acid"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.526,
-        "w": 2.8326,
-        "x": 0.626,
-        "y": 0.7339
+        "h": 0.8793,
+        "w": 5.5908,
+        "x": 5.2757,
+        "y": 0.87
       },
       "id": "object_004",
       "properties": {
@@ -148,17 +151,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          250,
-          252,
-          255
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 23,
+        "font_face": "Georgia",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Snore Thoughtful Obese",
-        "theme_topic": "Scream Momentous",
+        "text": "Trite Meek Cracker",
+        "theme_topic": "Acid",
         "underline": false
       },
       "type": "text",
@@ -166,289 +169,287 @@
     },
     {
       "bbox": {
-        "h": 3.0529,
-        "w": 8.9941,
-        "x": 3.734,
-        "y": 0.643
+        "h": 1.3218,
+        "w": 3.9352,
+        "x": 0.5689,
+        "y": 4.1299
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          47,
-          136,
-          190
+        "crop": [
+          0.292185429614373,
+          0.11902156500273914,
+          0.15569701415125575,
+          0.16282499165240122
         ],
-        "line": [
-          47,
-          136,
-          190
+        "focus": false,
+        "mask_line": [
+          93,
+          50,
+          86
         ],
-        "line_width": 1.0864618349939845,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Scream Momentous"
+        "mask_overlay": false,
+        "theme_topic": "Acid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.7714,
-        "w": 8.6636,
-        "x": 3.9093,
-        "y": 0.7948
+        "h": 1.3103,
+        "w": 3.9288,
+        "x": 4.684,
+        "y": 4.1316
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          255,
-          198,
-          74
+        "crop": [
+          0.3214626995451887,
+          0.18113850072078178,
+          0.2922391031788499,
+          0.046568038812968095
         ],
-        "line_width": 18,
-        "theme_topic": "Scream Momentous"
+        "focus": false,
+        "mask_line": [
+          74,
+          102,
+          36
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Acid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg_image",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.278,
-        "w": 8.6043,
-        "x": 3.9362,
-        "y": 3.2628
+        "h": 1.3073,
+        "w": 3.9084,
+        "x": 8.8141,
+        "y": 4.1524
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "crop": [
+          0.18750374543970844,
+          0.007096164000249806,
+          0.19354732139563594,
+          0.12442097925003025
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Interfere Exchange",
-        "theme_topic": "Scream Momentous",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          103,
+          186,
+          169
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Acid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.7507,
-        "w": 3.0633,
-        "x": 3.9444,
-        "y": 4.2462
+        "h": 1.3077,
+        "w": 3.9098,
+        "x": 0.5819,
+        "y": 5.5874
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "clip": "blob",
+        "focus": false,
+        "line": [
+          38,
+          132,
+          88
         ],
-        "font_face": "Aptos Display",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "88%",
-        "theme_topic": "Scream Momentous",
-        "underline": false
+        "line_width": 18,
+        "theme_topic": "Acid"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.8197,
-        "w": 3.0482,
-        "x": 3.9143,
-        "y": 4.9737
+        "h": 1.3507,
+        "w": 3.9182,
+        "x": 4.703,
+        "y": 5.6178
       },
       "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          218,
-          235,
-          245
-        ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "lake drawer lake wing",
-        "theme_topic": "Scream Momentous",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 2.827,
-        "w": 2.1852,
-        "x": 7.3588,
-        "y": 4.0527
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          47,
-          136,
-          190
+          204,
+          157,
+          131
         ],
         "line": [
-          47,
-          136,
-          190
+          204,
+          157,
+          131
         ],
-        "line_width": 2.2618705176940845,
+        "line_width": 2.9846523032100114,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Scream Momentous"
+        "theme_topic": "Acid"
       },
       "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 1.0486,
+        "w": 3.6607,
+        "x": 4.8784,
+        "y": 5.7506
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.0022587182603636103,
+          0.13308442223402023,
+          0.1513034972766027,
+          0.012297426965917747
+        ],
+        "focus": false,
+        "mask_line": [
+          38,
+          132,
+          88
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Acid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7259,
-        "w": 1.8232,
-        "x": 7.5326,
-        "y": 4.2347
+        "h": 1.3347,
+        "w": 3.9488,
+        "x": 8.8098,
+        "y": 5.6295
       },
       "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          204,
+          157,
+          131
+        ],
+        "line": [
+          204,
+          157,
+          131
+        ],
+        "line_width": 0.6681943323439702,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Acid"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 1.015,
+        "w": 3.6656,
+        "x": 8.9568,
+        "y": 5.7626
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "focus": false,
+        "mask_line": [
+          38,
+          132,
+          88
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Acid",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.7344,
+        "w": 11.9187,
+        "x": 0.6961,
+        "y": 1.5785
+      },
+      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          160,
+          184,
+          125
         ],
-        "font_face": "Aptos Display",
-        "font_size": 35,
+        "font_face": "Georgia",
+        "font_size": 40,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "37%",
-        "theme_topic": "Scream Momentous",
+        "text": "Odd",
+        "theme_topic": "Acid",
         "underline": false
       },
       "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 1.8014,
-        "w": 1.8416,
-        "x": 7.5486,
-        "y": 4.9601
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          218,
-          235,
-          245
-        ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "limping acoustics trap awesome camp",
-        "theme_topic": "Scream Momentous",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 2.8543,
-        "w": 3.0216,
-        "x": 9.6978,
-        "y": 4.0705
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          36,
-          146,
-          178
-        ],
-        "line": [
-          47,
-          136,
-          190
-        ],
-        "line_width": 0.9862479057451076,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Scream Momentous"
-      },
-      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.7612,
-        "w": 2.6523,
-        "x": 9.8666,
-        "y": 4.2654
+        "h": 0.9541,
+        "w": 11.9468,
+        "x": 0.7079,
+        "y": 2.5539
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          198,
-          74
+          116,
+          94,
+          85
         ],
-        "font_face": "Aptos Display",
-        "font_size": 23,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "41%",
-        "theme_topic": "Scream Momentous",
+        "text": "graceful rich threatening basin zebra cheerful fork airport purring statuesque charge highfalutin cut blink rich",
+        "theme_topic": "Acid",
         "underline": false
       },
       "type": "text",
@@ -456,118 +457,121 @@
     },
     {
       "bbox": {
-        "h": 1.8412,
-        "w": 2.6792,
-        "x": 9.8888,
-        "y": 4.9911
+        "h": 0.7117,
+        "w": 1.0953,
+        "x": 1.9248,
+        "y": 5.0749
       },
       "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "stars",
+        "fill": [
+          95,
+          71,
+          84
+        ],
+        "focus": false,
+        "line": [
+          125,
+          185,
+          66
+        ],
+        "line_width": 3.5812205909666224,
+        "outline_only": false,
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Acid"
+      },
+      "type": "shape",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 0.5276,
+        "x": 6.9766,
+        "y": 3.676
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          53,
+          65,
+          166
+        ],
+        "focus": false,
+        "line": [
+          32,
+          41,
+          88
+        ],
+        "line_width": 5.878542109812055,
+        "outline_only": true,
+        "ppt_type": 173,
+        "shape": "gear9",
+        "theme_topic": "Acid"
+      },
+      "type": "shape",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.2407,
+        "w": 0.8784,
+        "x": 1.6972,
+        "y": 5.23
+      },
+      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          218,
-          235,
-          245
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "faded psychedelic melted order frequent materialistic innate",
-        "theme_topic": "Scream Momentous",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4376,
-        "w": 2.2297,
-        "x": 0.456,
-        "y": 2.057
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          187,
-          212,
-          229
-        ],
-        "font_face": "Aptos",
-        "font_size": 17,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Innocent",
-        "theme_topic": "Scream Momentous",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.8152,
-        "w": 0.9063,
-        "x": 8.4364,
-        "y": 4.7146
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          31,
-          176,
-          42
-        ],
-        "focus": false,
-        "line": [
-          137,
-          226,
-          185
-        ],
-        "line_width": 2.7996457929058414,
-        "outline_only": true,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Scream Momentous"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.3414,
-        "w": 0.5526,
-        "x": 2.4622,
-        "y": 4.336
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          84,
-          44,
-          189
+          207,
+          160,
+          196
         ],
         "font_face": "Aptos",
         "font_size": 6,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Foamy Cabbage",
-        "theme_topic": "Scream Momentous",
+        "text": "Notebook Immense",
+        "theme_topic": "Acid",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.5026,
+        "w": 1.1047,
+        "x": 4.5832,
+        "y": 4.1957
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          75,
+          145,
+          26
+        ],
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "profit unaccountable eight flagrant chilly",
+        "theme_topic": "Acid",
         "underline": false
       },
       "type": "text",
@@ -575,35 +579,34 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.7248,
-        "x": 7.4255,
-        "y": 5.936
+        "h": 0.6741,
+        "w": 1.1775,
+        "x": 8.601,
+        "y": 5.3163
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          86,
-          126,
-          108
+        "dash": 7,
+        "family": "flowchart",
+        "fill": [
+          166,
+          56,
+          55
         ],
-        "bold": false,
-        "color": [
-          118,
-          125,
-          81
+        "focus": false,
+        "line": [
+          170,
+          117,
+          118
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "trade ill-informed",
-        "theme_topic": "Scream Momentous",
-        "underline": true
+        "line_width": 0.5799698129974677,
+        "outline_only": false,
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Acid"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 19
     }
   ],

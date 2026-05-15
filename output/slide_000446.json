@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "back_color": [
-        134,
-        115,
-        209
+      "colors": [
+        [
+          164,
+          95,
+          75
+        ],
+        [
+          45,
+          181,
+          141
+        ]
       ],
       "fill": [
-        111,
-        88,
-        201
+        39,
+        100,
+        126
       ],
-      "fore_color": [
-        133,
-        67,
-        117
-      ],
-      "pattern": 3,
-      "style": "pattern",
-      "theme_topic": "Power"
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Tap Stretch"
     },
     "type": "background",
     "z_order": 0
@@ -41,252 +45,309 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.1273,
-        "w": 8.201,
-        "x": 3.3765,
-        "y": 0.904
+        "h": 5.0561,
+        "w": 6.8831,
+        "x": -0.4062,
+        "y": 1.2467
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          173,
-          113,
-          67
+          46,
+          89,
+          172
         ],
         "focus": false,
         "line": [
-          218,
-          71,
-          37
+          37,
+          230,
+          68
         ],
-        "line_width": 2.8711542168329838,
-        "outline_only": false,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Power"
+        "line_width": 2.619708399300916,
+        "outline_only": true,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Tap Stretch"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.7936,
-        "w": 6.7465,
-        "x": 3.433,
-        "y": -0.0514
+        "h": 3.4146,
+        "w": 7.5133,
+        "x": 2.2759,
+        "y": 0.1468
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "ribbons",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          77,
-          121,
-          102
+          107,
+          71,
+          71
         ],
         "focus": false,
         "line": [
-          99,
-          84,
-          107
+          198,
+          224,
+          183
         ],
-        "line_width": 6.166860435864581,
+        "line_width": 6.550664725039605,
         "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Power"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Tap Stretch"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.139,
-        "w": 6.7296,
-        "x": 3.113,
-        "y": 0.6606
+        "h": 1.8334,
+        "w": 6.1949,
+        "x": -0.1016,
+        "y": 3.501
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          165,
+          83,
+          166
         ],
-        "font_face": "Arial",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Fair Ball",
-        "theme_topic": "Power",
-        "underline": false
+        "focus": false,
+        "line": [
+          140,
+          162,
+          35
+        ],
+        "line_width": 4.256085294726608,
+        "outline_only": true,
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Tap Stretch"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.3976,
-        "w": 3.9383,
-        "x": 4.7276,
-        "y": 1.9686
+        "h": 5.195,
+        "w": 7.1378,
+        "x": 3.4396,
+        "y": 2.7648
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.0536578821293863,
-          0.18432732979346164,
-          0.14939934785556805,
-          0.18667019641804208
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          143,
+          88,
+          134
         ],
-        "focus": true,
-        "mask_line": [
-          190,
-          193,
-          198
+        "focus": false,
+        "line": [
+          206,
+          107,
+          70
         ],
-        "mask_overlay": false,
-        "theme_topic": "Power",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.929499691662387,
+        "outline_only": true,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Tap Stretch"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.3778,
-        "w": 3.896,
-        "x": 0.579,
-        "y": 4.6693
+        "h": 2.6464,
+        "w": 5.7003,
+        "x": 7.6535,
+        "y": -0.011
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.11149693276827892,
-          0.26312275837260346,
-          0.0658444159195353,
-          0.2867407887220525
-        ],
-        "focus": true,
-        "mask_line": [
-          182,
-          67,
-          165
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Power",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.4012,
-        "w": 3.9272,
-        "x": 8.8562,
-        "y": 2.0195
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          96,
-          165,
-          250
+          89,
+          136,
+          156
         ],
         "line": [
-          134,
-          115,
-          209
+          89,
+          136,
+          156
         ],
-        "line_width": 0.8424273987896964,
+        "line_width": 1.570785148293847,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Power"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Tap Stretch"
       },
       "type": "shape",
-      "z_order": 6
+      "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.9115,
-        "w": 3.5599,
-        "x": 9.0592,
-        "y": 2.5184
+        "h": 0.8934,
+        "w": 4.4709,
+        "x": 3.2686,
+        "y": 0.4841
       },
-      "id": "object_007",
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 50,
+        "font_size": 26,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "12x",
-        "theme_topic": "Power",
+        "text": "Lowly Frantic Nifty",
+        "theme_topic": "Tap Stretch",
         "underline": false
       },
       "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 5.4605,
+        "w": 3.9139,
+        "x": 4.695,
+        "y": 1.5221
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          120,
+          51,
+          116
+        ],
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          71,
+          49,
+          83
+        ],
+        "border": [
+          152,
+          181,
+          195
+        ],
+        "border_dash": "lgDash",
+        "border_width": 0.6327849227727973,
+        "cells": [
+          [
+            "time shoe",
+            "creature",
+            "fall nine",
+            "crime"
+          ],
+          [
+            "oil",
+            "multiply",
+            "orange goofy",
+            "challenge"
+          ],
+          [
+            "calendar",
+            "good",
+            "cow",
+            "cloth fork"
+          ],
+          [
+            "finicky likeable",
+            "calculate tire",
+            "likeable",
+            "side invincible"
+          ],
+          [
+            "flippant cap",
+            "birthday verdant",
+            "post",
+            "lazy"
+          ]
+        ],
+        "cols": 4,
+        "font_size": 5,
+        "has_header": true,
+        "header": [
+          255,
+          198,
+          74
+        ],
+        "rows": 5,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Tap Stretch"
+      },
+      "type": "table",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.396,
-        "w": 3.9094,
-        "x": 8.8393,
-        "y": 4.6536
+        "h": 5.5621,
+        "w": 3.8064,
+        "x": 8.9953,
+        "y": 1.4367
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 4,
         "family": "panel",
         "fill": [
-          134,
-          115,
-          209
+          255,
+          198,
+          74
         ],
         "line": [
-          134,
-          115,
-          209
+          89,
+          136,
+          156
         ],
-        "line_width": 4.756994661120091,
+        "line_width": 3.0875328333625824,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Power"
+        "theme_topic": "Tap Stretch"
       },
       "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.9472,
-        "w": 3.5781,
-        "x": 9.0312,
-        "y": 5.145
+        "h": 1.135,
+        "w": 3.4444,
+        "x": 9.143,
+        "y": 2.452
       },
       "id": "object_009",
       "properties": {
@@ -294,17 +355,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 37,
+        "font_size": 46,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "10x",
-        "theme_topic": "Power",
+        "text": "60%",
+        "theme_topic": "Tap Stretch",
         "underline": false
       },
       "type": "text",
@@ -312,135 +373,90 @@
     },
     {
       "bbox": {
-        "h": 2.2944,
-        "w": 3.8375,
-        "x": 0.6206,
-        "y": 2.0581
+        "h": 0.6922,
+        "w": 3.4389,
+        "x": 9.1479,
+        "y": 4.8705
       },
       "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          151,
-          58,
-          55
-        ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          134,
-          115,
-          209
-        ],
-        "border": [
-          54,
-          138,
-          77
-        ],
-        "border_dash": "sysDot",
-        "border_width": 0.2742136624806271,
-        "cells": [
-          [
-            "curved",
-            "wind",
-            "protective alleged",
-            "real robust",
-            "tested",
-            "synonymous bruise"
-          ],
-          [
-            "helpless adjustment",
-            "divide",
-            "short beautiful",
-            "plot",
-            "incredible",
-            "extra-large"
-          ],
-          [
-            "tasteful",
-            "resolute",
-            "earth",
-            "abiding basket",
-            "unique",
-            "greet seal"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 11,
-        "has_header": false,
-        "header": [
-          188,
-          68,
-          94
-        ],
-        "rows": 3,
-        "text_color": [
-          28,
-          30,
-          36
-        ],
-        "theme_topic": "Power"
-      },
-      "type": "table",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.8259,
-        "w": 3.6453,
-        "x": 4.8624,
-        "y": 4.7825
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          167,
-          72,
-          142
-        ],
-        "bold": true,
-        "color": [
-          122,
-          174,
-          98
-        ],
-        "font_face": "Arial",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Tumble",
-        "theme_topic": "Power",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 1.0976,
-        "w": 3.6216,
-        "x": 4.8541,
-        "y": 5.8394
-      },
-      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          65,
-          56,
-          110
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "callous yell hypnotic axiomatic post yummy tricky dinner mask shut innate squalid gentle knit cute film lie silent interesting dull tramp coil",
-        "theme_topic": "Power",
+        "text": "bait fetch delay pizzas card repulsive rush",
+        "theme_topic": "Tap Stretch",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.2288,
+        "w": 2.2424,
+        "x": 7.8675,
+        "y": 2.7697
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          48,
+          197,
+          49
+        ],
+        "font_face": "Arial",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "lucky committee abnormal",
+        "theme_topic": "Tap Stretch",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.4307,
+        "w": 1.5357,
+        "x": 3.3283,
+        "y": 3.569
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          216,
+          92,
+          211
+        ],
+        "bold": false,
+        "color": [
+          92,
+          195,
+          70
+        ],
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Meal Trick Push",
+        "theme_topic": "Tap Stretch",
         "underline": false
       },
       "type": "text",

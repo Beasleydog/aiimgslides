@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 180,
       "archetype": "atomic_composition",
-      "back_color": [
-        117,
-        138,
-        148
+      "colors": [
+        [
+          212,
+          225,
+          65
+        ],
+        [
+          161,
+          35,
+          118
+        ]
       ],
       "fill": [
-        117,
-        138,
-        148
+        70,
+        83,
+        223
       ],
-      "fore_color": [
-        45,
-        44,
-        69
-      ],
-      "pattern": 31,
-      "style": "pattern",
-      "theme_topic": "Subdued"
+      "focus": "top_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Boy"
     },
     "type": "background",
     "z_order": 0
@@ -41,199 +45,231 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.3357,
-        "w": 5.3762,
-        "x": 6.5542,
-        "y": 0.2126
+        "h": 5.1244,
+        "w": 6.1038,
+        "x": 4.6885,
+        "y": -0.8394
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "stars",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          104,
-          150,
-          155
+          136,
+          175,
+          187
         ],
         "focus": false,
         "line": [
-          70,
-          225,
-          216
+          103,
+          193,
+          209
         ],
-        "line_width": 4.338698001290092,
+        "line_width": 2.7748344082901113,
         "outline_only": true,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Subdued"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Boy"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.7382,
-        "w": 6.7151,
-        "x": 2.817,
-        "y": 3.6426
+        "h": 4.4053,
+        "w": 3.0646,
+        "x": 0.0913,
+        "y": 2.2613
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "arrows",
         "fill": [
-          145,
-          94,
-          202
+          127,
+          118,
+          103
         ],
         "focus": false,
         "line": [
-          115,
-          30,
-          179
+          183,
+          193,
+          211
         ],
-        "line_width": 2.9472194470883393,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Subdued"
+        "line_width": 3.724254127449802,
+        "outline_only": true,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Boy"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.4846,
-        "w": 0.5515,
-        "x": 12.7909,
-        "y": 0.0102
+        "h": 2.392,
+        "w": 8.7016,
+        "x": 0.2998,
+        "y": 4.3367
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 4,
+        "family": "callouts",
         "fill": [
-          163,
-          177,
-          183
+          121,
+          55,
+          225
         ],
+        "focus": false,
         "line": [
-          163,
-          177,
-          183
+          30,
+          213,
+          109
         ],
-        "line_width": 2.0501716812344544,
+        "line_width": 6.259649051529236,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Subdued"
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Boy"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5365,
-        "w": 2.8601,
-        "x": 0.6497,
-        "y": 0.7448
+        "h": 4.8417,
+        "w": 8.9033,
+        "x": 0.8521,
+        "y": 1.1873
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          92,
+          103,
+          226
+        ],
+        "line": [
+          104,
+          115,
+          229
+        ],
+        "line_width": 2.246703142633197,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Boy"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.8761,
+        "w": 4.829,
+        "x": 1.6526,
+        "y": 0.5809
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 20,
+        "font_face": "Georgia",
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Zealous Lazy",
-        "theme_topic": "Subdued",
+        "text": "Skate Tiny Disappear",
+        "theme_topic": "Boy",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.9063,
-        "w": 2.5191,
-        "x": 3.7663,
-        "y": 0.6539
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          163,
-          177,
-          183
-        ],
-        "line": [
-          163,
-          177,
-          183
-        ],
-        "line_width": 4.229631118460081,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Subdued"
-      },
-      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.5128,
-        "w": 0.5482,
-        "x": 3.9543,
-        "y": 0.8421
+        "h": 1.5681,
+        "w": 6.5347,
+        "x": 0.543,
+        "y": 1.4496
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          163,
-          177,
-          183
+          104,
+          115,
+          229
         ],
-        "focus": false,
         "line": [
-          38,
-          132,
-          88
+          104,
+          115,
+          229
         ],
-        "line_width": 5.055400085095914,
+        "line_width": 1.5892670111140805,
         "outline_only": false,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Subdued"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Boy"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4348,
-        "w": 2.0242,
-        "x": 3.9996,
-        "y": 1.5342
+        "h": 0.5331,
+        "w": 0.533,
+        "x": 0.7567,
+        "y": 1.7001
       },
       "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          165,
+          154,
+          104
+        ],
+        "focus": false,
+        "line": [
+          109,
+          33,
+          173
+        ],
+        "line_width": 3.600184156488139,
+        "outline_only": true,
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Boy"
+      },
+      "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.4478,
+        "w": 6.0438,
+        "x": 0.8115,
+        "y": 2.3374
+      },
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -243,42 +279,13 @@
           132,
           88
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Changeable",
-        "theme_topic": "Subdued",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.2303,
-        "w": 2.0336,
-        "x": 4.0047,
-        "y": 2.1091
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          68,
-          78,
-          86
-        ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "border cure slow trap belligerent toad event",
-        "theme_topic": "Subdued",
+        "text": "System",
+        "theme_topic": "Boy",
         "underline": false
       },
       "type": "text",
@@ -286,73 +293,73 @@
     },
     {
       "bbox": {
-        "h": 1.8909,
-        "w": 2.9991,
-        "x": 6.4806,
-        "y": 0.6498
+        "h": 1.5393,
+        "w": 6.5707,
+        "x": 0.5691,
+        "y": 3.2239
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          163,
-          177,
-          183
+          104,
+          115,
+          229
         ],
         "line": [
-          163,
-          177,
-          183
+          104,
+          115,
+          229
         ],
-        "line_width": 0.8999652802991117,
+        "line_width": 1.769116086297124,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Subdued"
+        "theme_topic": "Boy"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.5756,
-        "w": 0.5285,
-        "x": 6.7455,
-        "y": 0.8789
+        "h": 0.5833,
+        "w": 0.5731,
+        "x": 0.7362,
+        "y": 3.3934
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 2,
+        "family": "ribbons",
         "fill": [
+          112,
           163,
-          177,
-          183
+          221
         ],
         "focus": false,
         "line": [
-          100,
-          157,
-          141
+          166,
+          173,
+          238
         ],
-        "line_width": 1.142600102227183,
+        "line_width": 5.70609237708978,
         "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Subdued"
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Boy"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4278,
-        "w": 2.4621,
-        "x": 6.7473,
-        "y": 1.5739
+        "h": 0.4729,
+        "w": 6.0699,
+        "x": 0.8098,
+        "y": 4.1282
       },
       "id": "object_011",
       "properties": {
@@ -364,13 +371,13 @@
           132,
           88
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Offend Adorable",
-        "theme_topic": "Subdued",
+        "text": "Camp",
+        "theme_topic": "Boy",
         "underline": false
       },
       "type": "text",
@@ -378,104 +385,75 @@
     },
     {
       "bbox": {
-        "h": 0.2591,
-        "w": 2.4699,
-        "x": 6.7182,
-        "y": 2.08
+        "h": 2.0447,
+        "w": 6.562,
+        "x": 0.5322,
+        "y": 4.9343
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          68,
-          78,
-          86
-        ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "dog silent spooky outrageous cagey metal minor ritzy turn",
-        "theme_topic": "Subdued",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.8828,
-        "w": 3.0545,
-        "x": 9.687,
-        "y": 0.6599
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          163,
-          177,
-          183
+          104,
+          115,
+          229
         ],
         "line": [
-          163,
-          177,
-          183
+          104,
+          115,
+          229
         ],
-        "line_width": 1.807701242410381,
+        "line_width": 1.7792817642360519,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Subdued"
+        "theme_topic": "Boy"
+      },
+      "type": "shape",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.5178,
+        "w": 0.5381,
+        "x": 0.7791,
+        "y": 5.161
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          64,
+          150,
+          195
+        ],
+        "focus": false,
+        "line": [
+          226,
+          93,
+          60
+        ],
+        "line_width": 3.184582727801432,
+        "outline_only": true,
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Boy"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.5867,
-        "w": 0.5191,
-        "x": 9.9179,
-        "y": 0.8565
+        "h": 0.4654,
+        "w": 6.0505,
+        "x": 0.8188,
+        "y": 5.8389
       },
       "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          54,
-          106,
-          138
-        ],
-        "focus": false,
-        "line": [
-          68,
-          78,
-          86
-        ],
-        "line_width": 3.7203607148534337,
-        "outline_only": false,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Subdued"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.4603,
-        "w": 2.554,
-        "x": 9.9387,
-        "y": 1.5482
-      },
-      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -485,13 +463,42 @@
           132,
           88
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Economic",
-        "theme_topic": "Subdued",
+        "text": "Scary Miniature",
+        "theme_topic": "Boy",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.4234,
+        "w": 6.0619,
+        "x": 0.7896,
+        "y": 6.3995
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          166,
+          173,
+          238
+        ],
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "real island judge violent star vessel call hole moon",
+        "theme_topic": "Boy",
         "underline": false
       },
       "type": "text",
@@ -499,123 +506,190 @@
     },
     {
       "bbox": {
-        "h": 0.2584,
-        "w": 2.5236,
-        "x": 9.9648,
-        "y": 2.1054
+        "h": 2.9047,
+        "w": 5.082,
+        "x": 7.6645,
+        "y": 1.52
       },
       "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          186,
+          82,
+          170
+        ],
+        "band_cols": true,
+        "band_rows": true,
+        "body": [
+          46,
+          93,
+          117
+        ],
+        "border": [
+          220,
+          57,
+          72
+        ],
+        "border_dash": "sysDot",
+        "border_width": 0.975250743717561,
+        "cells": [
+          [
+            "cook",
+            "lovely"
+          ],
+          [
+            "watch",
+            "fork fine"
+          ],
+          [
+            "doubt lunch",
+            "abnormal hideous"
+          ],
+          [
+            "cause sofa",
+            "foolish"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 8,
+        "has_header": true,
+        "header": [
+          170,
+          116,
+          122
+        ],
+        "rows": 4,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Boy"
+      },
+      "type": "table",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.5147,
+        "w": 2.2356,
+        "x": 1.1835,
+        "y": 6.5825
+      },
+      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          68,
-          78,
-          86
+          178,
+          214,
+          227
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "real rest believe payment sparkling notebook acrid live",
-        "theme_topic": "Subdued",
+        "text": "remarkable",
+        "theme_topic": "Boy",
         "underline": false
       },
       "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 1.8247,
-        "w": 8.9919,
-        "x": 3.7641,
-        "y": 5.0873
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          163,
-          177,
-          183
-        ],
-        "line": [
-          163,
-          177,
-          183
-        ],
-        "line_width": 1.1505692744334424,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Subdued"
-      },
-      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 1.5295,
-        "w": 8.6482,
-        "x": 3.907,
-        "y": 5.2168
+        "h": 0.7054,
+        "w": 0.5401,
+        "x": 10.8151,
+        "y": 5.3634
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.20326908676201622,
-          0.1891513629063809,
-          0.036962851300985713,
-          0.18285836873620484
+        "dash": 2,
+        "family": "stars",
+        "fill": [
+          63,
+          173,
+          107
         ],
-        "focus": true,
-        "mask_line": [
-          38,
-          132,
-          88
+        "focus": false,
+        "line": [
+          194,
+          55,
+          176
         ],
-        "mask_overlay": false,
-        "theme_topic": "Subdued",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 5.252641979187502,
+        "outline_only": false,
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Boy"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 1.013,
-        "w": 1.4022,
-        "x": 0.224,
-        "y": 1.8696
+        "h": 0.5624,
+        "w": 1.5227,
+        "x": 9.0296,
+        "y": 3.7514
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
         "fill": [
-          134,
-          194,
-          209
+          220,
+          80,
+          44
         ],
-        "focus": false,
         "line": [
-          81,
-          211,
-          220
+          169,
+          62,
+          168
         ],
-        "line_width": 3.7968225825170596,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Subdued"
+        "line_width": 2.699049172471272,
+        "pattern": "wave",
+        "points": [
+          [
+            0.02,
+            0.55
+          ],
+          [
+            0.18,
+            0.2
+          ],
+          [
+            0.35,
+            0.5
+          ],
+          [
+            0.52,
+            0.8
+          ],
+          [
+            0.7,
+            0.45
+          ],
+          [
+            0.95,
+            0.58
+          ],
+          [
+            0.95,
+            0.92
+          ],
+          [
+            0.02,
+            0.92
+          ]
+        ],
+        "theme_topic": "Boy"
       },
-      "type": "shape",
+      "type": "freeform",
       "z_order": 19
     }
   ],

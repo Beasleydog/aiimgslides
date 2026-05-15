@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        212,
-        113,
-        133
+      "colors": [
+        [
+          232,
+          237,
+          247
+        ],
+        [
+          36,
+          178,
+          149
+        ]
       ],
       "fill": [
-        198,
-        64,
-        91
+        245,
+        247,
+        252
       ],
-      "fore_color": [
-        255,
-        211,
-        88
-      ],
-      "pattern": 5,
-      "style": "pattern",
-      "theme_topic": "Rampant"
+      "focus": "top_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Caption Feigned"
     },
     "type": "background",
     "z_order": 0
@@ -41,137 +45,133 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.0391,
-        "w": 4.6837,
-        "x": 1.1115,
-        "y": 3.079
+        "h": 3.5182,
+        "w": 5.3429,
+        "x": 4.3998,
+        "y": 0.1266
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 4,
         "family": "arrows",
         "fill": [
-          107,
+          208,
           129,
-          173
+          110
         ],
         "focus": false,
         "line": [
-          84,
-          131,
-          93
+          27,
+          76,
+          47
         ],
-        "line_width": 4.021780993390229,
+        "line_width": 5.3047341915114306,
         "outline_only": false,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Rampant"
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Caption Feigned"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.1925,
-        "w": 6.244,
-        "x": 2.5871,
-        "y": -0.0389
+        "h": 3.6292,
+        "w": 5.0027,
+        "x": -0.012,
+        "y": 3.8859
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          202,
-          80,
-          157
+          232,
+          237,
+          247
         ],
-        "focus": false,
         "line": [
-          211,
-          100,
-          220
+          232,
+          237,
+          247
         ],
-        "line_width": 5.64279811844629,
+        "line_width": 1.7904207390928109,
         "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Rampant"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Caption Feigned"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.4442,
-        "w": 7.6192,
-        "x": 6.6427,
-        "y": 3.6693
+        "h": 1.0002,
+        "w": 7.1311,
+        "x": 0.5405,
+        "y": 0.3618
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          125,
-          77,
-          65
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          27,
+          44,
+          68
         ],
-        "focus": false,
-        "line": [
-          211,
-          228,
-          200
-        ],
-        "line_width": 3.3407118453452376,
-        "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Rampant"
+        "font_face": "Aptos Display",
+        "font_size": 42,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Play Easy",
+        "theme_topic": "Caption Feigned",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 7.5037,
-        "w": 13.3217,
-        "x": -0.0181,
-        "y": 4.1926
+        "h": 2.0716,
+        "w": 4.12,
+        "x": 5.0553,
+        "y": 1.8316
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 7,
         "family": "panel",
         "fill": [
-          212,
-          113,
-          133
+          232,
+          237,
+          247
         ],
         "line": [
-          212,
-          113,
-          133
+          232,
+          237,
+          247
         ],
-        "line_width": 5.015147949158594,
+        "line_width": 1.7108072609998315,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Rampant"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Caption Feigned"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.7954,
-        "w": 3.175,
-        "x": 9.3763,
-        "y": 0.6732
+        "h": 0.7562,
+        "w": 3.7367,
+        "x": 5.216,
+        "y": 2.3225
       },
       "id": "object_005",
       "properties": {
@@ -179,17 +179,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          27,
+          44,
+          68
         ],
-        "font_face": "Georgia",
-        "font_size": 20,
+        "font_face": "Aptos Display",
+        "font_size": 41,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Exotic Sip Kill",
-        "theme_topic": "Rampant",
+        "text": "20%",
+        "theme_topic": "Caption Feigned",
         "underline": false
       },
       "type": "text",
@@ -197,28 +197,28 @@
     },
     {
       "bbox": {
-        "h": 0.2841,
-        "w": 2.0346,
-        "x": 6.6639,
-        "y": 0.7874
+        "h": 0.494,
+        "w": 3.7526,
+        "x": 5.2315,
+        "y": 3.1077
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          71,
-          221,
-          181
+          27,
+          44,
+          68
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "WHEEL TABOO",
-        "theme_topic": "Rampant",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "cobweb flimsy shelf welcome",
+        "theme_topic": "Caption Feigned",
         "underline": false
       },
       "type": "text",
@@ -226,10 +226,10 @@
     },
     {
       "bbox": {
-        "h": 0.897,
-        "w": 2.0692,
-        "x": 6.6603,
-        "y": 1.2558
+        "h": 1.0278,
+        "w": 2.9278,
+        "x": 9.6164,
+        "y": 2.0368
       },
       "id": "object_007",
       "properties": {
@@ -237,46 +237,46 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          192,
-          185,
-          192
+          27,
+          44,
+          68
         ],
-        "font_face": "Georgia",
-        "font_size": 32,
+        "font_face": "Aptos Display",
+        "font_size": 19,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Boat",
-        "theme_topic": "Rampant",
-        "underline": true
+        "text": "Acid Basket Smart Smell Feigned Improve Longing Exultant",
+        "theme_topic": "Caption Feigned",
+        "underline": false
       },
       "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.2588,
-        "w": 2.0355,
-        "x": 6.6409,
-        "y": 2.3961
+        "h": 0.2911,
+        "w": 1.6248,
+        "x": 9.6219,
+        "y": 3.243
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          224,
-          165,
-          179
+          82,
+          96,
+          214
         ],
         "font_face": "Aptos",
-        "font_size": 15,
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "silk lying spoil raspy obnoxious tail representative erect",
-        "theme_topic": "Rampant",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "FLOWER",
+        "theme_topic": "Caption Feigned",
         "underline": false
       },
       "type": "text",
@@ -284,57 +284,59 @@
     },
     {
       "bbox": {
-        "h": 0.7533,
-        "w": 0.6263,
-        "x": 0.8085,
-        "y": 0.8484
+        "h": 2.7281,
+        "w": 5.7202,
+        "x": 0.5562,
+        "y": 4.2536
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          232,
+          237,
+          247
         ],
-        "font_face": "Georgia",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "183",
-        "theme_topic": "Rampant",
-        "underline": false
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 0.6727320247089752,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Caption Feigned"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 2.0917,
-        "w": 0.6498,
-        "x": 0.8355,
-        "y": 1.5913
+        "h": 0.4257,
+        "w": 5.1983,
+        "x": 0.7989,
+        "y": 5.1658
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          224,
-          165,
-          179
+          82,
+          96,
+          214
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "switch obsequious abject",
-        "theme_topic": "Rampant",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Invention Day",
+        "theme_topic": "Caption Feigned",
         "underline": false
       },
       "type": "text",
@@ -342,28 +344,28 @@
     },
     {
       "bbox": {
-        "h": 0.7311,
-        "w": 0.5176,
-        "x": 2.0152,
-        "y": 0.831
+        "h": 1.1078,
+        "w": 5.2371,
+        "x": 0.7881,
+        "y": 5.6984
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          71,
-          221,
-          181
+          103,
+          117,
+          137
         ],
-        "font_face": "Georgia",
-        "font_size": 20,
+        "font_face": "Aptos",
+        "font_size": 15,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "182",
-        "theme_topic": "Rampant",
+        "text": "outstanding youthful save reflect detect understood attraction encourage unarmed cool preserve insect",
+        "theme_topic": "Caption Feigned",
         "underline": false
       },
       "type": "text",
@@ -371,88 +373,88 @@
     },
     {
       "bbox": {
-        "h": 2.1109,
-        "w": 0.5164,
-        "x": 2.0012,
-        "y": 1.5611
+        "h": 2.731,
+        "w": 6.2885,
+        "x": 6.4858,
+        "y": 4.2692
       },
       "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          232,
+          237,
+          247
+        ],
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 1.5036104804113768,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Caption Feigned"
+      },
+      "type": "shape",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.4533,
+        "w": 5.8075,
+        "x": 6.7245,
+        "y": 5.16
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Spicy Pies",
+        "theme_topic": "Caption Feigned",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 1.0646,
+        "w": 5.7957,
+        "x": 6.7263,
+        "y": 5.6932
+      },
+      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          103,
+          117,
+          137
         ],
         "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "drum way wander prepare",
-        "theme_topic": "Rampant",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 3.1467,
-        "w": 1.0007,
-        "x": 2.883,
-        "y": 0.6699
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          162,
-          107,
-          116
-        ],
-        "line": [
-          212,
-          113,
-          133
-        ],
-        "line_width": 3.644187574430051,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Rampant"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.7625,
-        "w": 0.6569,
-        "x": 3.0853,
-        "y": 0.85
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Georgia",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "6.4x",
-        "theme_topic": "Rampant",
+        "text": "luxuriant momentous hospital nose wandering brainy soak crawl",
+        "theme_topic": "Caption Feigned",
         "underline": false
       },
       "type": "text",
@@ -460,131 +462,121 @@
     },
     {
       "bbox": {
-        "h": 2.1113,
-        "w": 0.6474,
-        "x": 3.1011,
-        "y": 1.5918
+        "h": 2.086,
+        "w": 4.2272,
+        "x": 0.5417,
+        "y": 1.8418
       },
       "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          232,
+          237,
+          247
+        ],
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 4.308616926758545,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Caption Feigned"
+      },
+      "type": "shape",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.7934,
+        "w": 3.8462,
+        "x": 0.7413,
+        "y": 2.3162
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          27,
+          44,
+          68
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 40,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "348",
+        "theme_topic": "Caption Feigned",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.4993,
+        "w": 3.8788,
+        "x": 0.7414,
+        "y": 3.0969
+      },
+      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          27,
+          44,
+          68
         ],
         "font_face": "Aptos",
         "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "illegal wing macabre existence rambunctious",
-        "theme_topic": "Rampant",
+        "text": "exultant kind wren park",
+        "theme_topic": "Caption Feigned",
         "underline": false
       },
       "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 2.6815,
-        "w": 8.1822,
-        "x": 0.6772,
-        "y": 4.1837
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "damaged",
-          "bashful",
-          "decay",
-          "impulse",
-          "mix"
-        ],
-        "chart": "doughnut",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              41,
-              221,
-              174
-            ],
-            "name": "locket tiger",
-            "values": [
-              38,
-              71,
-              93,
-              21,
-              28
-            ]
-          }
-        ],
-        "theme_topic": "Rampant",
-        "title": "spoil fruit pretty bloody"
-      },
-      "type": "chart",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 3.1391,
-        "w": 2.2182,
-        "x": 4.0803,
-        "y": 0.6825
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.06216360041823477,
-          0.040792588267913966,
-          0.10962158107075645,
-          0.00262901610317255
-        ],
-        "focus": false,
-        "mask_line": [
-          71,
-          221,
-          181
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Rampant",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.2909,
-        "w": 1.7962,
-        "x": 4.278,
-        "y": 3.3554
+        "h": 0.2852,
+        "w": 1.626,
+        "x": 0.5176,
+        "y": 4.7841
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
+        "bg_color": [
           221,
-          181
+          142,
+          114
+        ],
+        "bold": false,
+        "color": [
+          157,
+          158,
+          51
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 7,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Needless Rabbits Undress",
-        "theme_topic": "Rampant",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "colossal profit second-hand stain prepare",
+        "theme_topic": "Caption Feigned",
         "underline": false
       },
       "type": "text",
@@ -592,32 +584,28 @@
     },
     {
       "bbox": {
-        "h": 0.5527,
-        "w": 1.5327,
-        "x": 11.5444,
-        "y": 5.8883
+        "h": 0.4784,
+        "w": 0.9325,
+        "x": 5.5326,
+        "y": 0.2199
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          30,
-          112,
-          165
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          126,
-          95,
-          171
+          44,
+          210,
+          184
         ],
         "font_face": "Aptos",
-        "font_size": 5,
+        "font_size": 13,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Odd",
-        "theme_topic": "Rampant",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "plain table",
+        "theme_topic": "Caption Feigned",
         "underline": false
       },
       "type": "text",

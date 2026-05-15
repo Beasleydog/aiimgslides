@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
+      "angle": 0,
       "archetype": "atomic_composition",
       "colors": [
         [
-          111,
-          88,
-          201
+          152,
+          230,
+          110
         ],
         [
-          180,
-          70,
-          53
+          64,
+          130,
+          109
         ]
       ],
       "fill": [
-        111,
-        88,
-        201
+        126,
+        224,
+        74
       ],
-      "focus": "bottom_right",
-      "gradient_type": "radial",
+      "focus": "top_right",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Mere Toothsome"
+      "theme_topic": "Fact"
     },
     "type": "background",
     "z_order": 0
@@ -45,44 +45,140 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.7282,
-        "w": 6.3545,
-        "x": 6.1529,
-        "y": 0.7815
+        "h": 2.3182,
+        "w": 8.6956,
+        "x": 5.1127,
+        "y": 3.5248
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "symbols",
+        "family": "arrows",
         "fill": [
-          184,
-          111,
-          128
+          126,
+          102,
+          180
         ],
         "focus": false,
         "line": [
-          28,
-          119,
-          142
+          225,
+          30,
+          220
         ],
-        "line_width": 2.3619261743495956,
+        "line_width": 5.299482618311599,
         "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Mere Toothsome"
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Fact"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.8085,
-        "w": 3.1939,
-        "x": 9.397,
-        "y": 0.6264
+        "h": 3.5316,
+        "w": 4.8117,
+        "x": 9.2664,
+        "y": 4.7287
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "flowchart",
+        "fill": [
+          147,
+          191,
+          53
+        ],
+        "focus": false,
+        "line": [
+          173,
+          182,
+          39
+        ],
+        "line_width": 4.807352068059491,
+        "outline_only": false,
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Fact"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 3.1202,
+        "w": 4.8296,
+        "x": 9.0911,
+        "y": -0.7641
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          143,
+          136,
+          66
+        ],
+        "focus": false,
+        "line": [
+          164,
+          85,
+          155
+        ],
+        "line_width": 4.677473868860608,
+        "outline_only": false,
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Fact"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.7845,
+        "w": 4.4837,
+        "x": -0.3712,
+        "y": 0.8532
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          76,
+          117,
+          136
+        ],
+        "focus": false,
+        "line": [
+          182,
+          170,
+          145
+        ],
+        "line_width": 3.438909051492521,
+        "outline_only": false,
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Fact"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.8896,
+        "w": 6.1603,
+        "x": 0.7116,
+        "y": 0.6187
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -92,227 +188,45 @@
           30,
           36
         ],
-        "font_face": "Georgia",
-        "font_size": 28,
+        "font_face": "Aptos Display",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hallowed",
-        "theme_topic": "Mere Toothsome",
+        "text": "Fat Fact Repair",
+        "theme_topic": "Fact",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 3.0716,
-        "w": 3.7518,
-        "x": 0.6904,
-        "y": 3.7797
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          157,
-          141,
-          218
-        ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          225,
-          62,
-          42
-        ],
-        "border": [
-          65,
-          56,
-          110
-        ],
-        "border_dash": "solid",
-        "border_width": 1.8068665435575335,
-        "cells": [
-          [
-            "fierce busy",
-            "love relation",
-            "berserk",
-            "crowded private",
-            "weary educated",
-            "cars suck"
-          ],
-          [
-            "stupid addicted",
-            "shelf escape",
-            "maddening cook",
-            "threatening glow",
-            "profuse hypnotic",
-            "pen"
-          ],
-          [
-            "jaded",
-            "willing company",
-            "sense",
-            "tramp quack",
-            "happy dear",
-            "narrow pastoral"
-          ],
-          [
-            "ghost fence",
-            "moan money",
-            "filthy blade",
-            "necessary",
-            "panoramic rake",
-            "pan"
-          ],
-          [
-            "disagree blot",
-            "interfere trust",
-            "imaginary",
-            "earn",
-            "racial",
-            "beautiful"
-          ],
-          [
-            "fog",
-            "fry",
-            "theory",
-            "tenuous injure",
-            "company",
-            "somber"
-          ],
-          [
-            "arrive",
-            "reign",
-            "charge crow",
-            "promise",
-            "good stay",
-            "offend"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 9,
-        "has_header": false,
-        "header": [
-          49,
-          197,
-          218
-        ],
-        "rows": 7,
-        "text_color": [
-          28,
-          30,
-          36
-        ],
-        "theme_topic": "Mere Toothsome"
-      },
-      "type": "table",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.3106,
-        "w": 3.5472,
-        "x": 0.8025,
-        "y": 1.9804
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          65,
-          56,
-          110
-        ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "screeching cabbage husky skip relieved precede gun use straight confess wood scatter clammy lip plastic stitch",
-        "theme_topic": "Mere Toothsome",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 6.2518,
-        "w": 4.0021,
-        "x": 4.8394,
-        "y": 0.6576
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          157,
-          141,
-          218
-        ],
-        "line": [
-          157,
-          141,
-          218
-        ],
-        "line_width": 1.4967171956062955,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Mere Toothsome"
-      },
-      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 5.7628,
-        "w": 3.5213,
-        "x": 5.0944,
-        "y": 0.9228
+        "h": 1.3169,
+        "w": 4.1614,
+        "x": 1.5175,
+        "y": 3.7421
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "curious",
-          "brass",
-          "dance",
-          "nation",
-          "flap"
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "chart": "line",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 65,
-        "series": [
-          {
-            "color": [
-              159,
-              129,
-              86
-            ],
-            "name": "coach nosy",
-            "values": [
-              41,
-              48,
-              12,
-              85,
-              20
-            ]
-          }
+        "focus": false,
+        "mask_line": [
+          140,
+          59,
+          91
         ],
-        "theme_topic": "Mere Toothsome",
-        "title": "juvenile chance hapless pies"
+        "mask_overlay": false,
+        "theme_topic": "Fact",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 6
     }
   ],

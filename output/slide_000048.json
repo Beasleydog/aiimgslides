@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "back_color": [
-        191,
-        99,
-        75
+      "colors": [
+        [
+          136,
+          159,
+          129
+        ],
+        [
+          38,
+          132,
+          88
+        ]
       ],
       "fill": [
-        33,
-        115,
-        169
+        29,
+        151,
+        112
       ],
-      "fore_color": [
-        255,
-        117,
-        117
-      ],
-      "pattern": 10,
-      "style": "pattern",
-      "theme_topic": "Bridge"
+      "focus": "bottom_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Known Example"
     },
     "type": "background",
     "z_order": 0
@@ -41,79 +45,63 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.8997,
-        "w": 6.9828,
-        "x": 7.4229,
-        "y": 1.9583
+        "h": 2.4511,
+        "w": 6.7418,
+        "x": 3.4645,
+        "y": 0.6754
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 4,
         "family": "flowchart",
         "fill": [
-          37,
-          188,
-          189
+          103,
+          99,
+          149
         ],
         "focus": false,
         "line": [
-          144,
-          153,
-          127
+          83,
+          49,
+          139
         ],
-        "line_width": 7.871027352800173,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Bridge"
+        "line_width": 3.893410192129112,
+        "outline_only": true,
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Known Example"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.556,
-        "w": 3.7954,
-        "x": 0.5566,
-        "y": 4.4081
+        "h": 0.8813,
+        "w": 5.8408,
+        "x": 3.8715,
+        "y": 0.789
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "meeting",
-          "file",
-          "caring",
-          "fine",
-          "inconclusive"
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              189,
-              209,
-              51
-            ],
-            "name": "modern wakeful",
-            "values": [
-              12,
-              34,
-              47,
-              51,
-              45
-            ]
-          }
-        ],
-        "theme_topic": "Bridge",
-        "title": "unwritten wrong hard-to-find"
+        "font_face": "Trebuchet MS",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Observation Belong Chickens",
+        "theme_topic": "Known Example",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 2
     }
   ],

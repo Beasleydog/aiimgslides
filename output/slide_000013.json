@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        80,
-        163,
-        219
-      ],
       "fill": [
-        80,
-        163,
-        219
+        149,
+        66,
+        119
       ],
-      "fore_color": [
-        71,
-        221,
-        181
-      ],
-      "pattern": 50,
-      "style": "pattern",
-      "theme_topic": "Attend Verdant"
+      "style": "solid",
+      "theme_topic": "Ruin"
     },
     "type": "background",
     "z_order": 0
@@ -41,77 +30,31 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.4426,
-        "w": 5.2181,
-        "x": 7.5199,
-        "y": 1.5163
+        "h": 2.9775,
+        "w": 11.9109,
+        "x": 0.7283,
+        "y": 0.6887
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          177,
-          94,
-          43
+        "crop": [
+          0.26932946705871547,
+          0.0029428908018276213,
+          0.2028847458747691,
+          0.23665751376462887
         ],
-        "band_cols": true,
-        "band_rows": false,
-        "body": [
-          65,
-          132,
-          178
+        "focus": true,
+        "mask_line": [
+          255,
+          238,
+          103
         ],
-        "border": [
-          51,
-          89,
-          118
-        ],
-        "border_dash": "solid",
-        "border_width": 0.7884359682281412,
-        "cells": [
-          [
-            "second pies",
-            "amused",
-            "nerve"
-          ],
-          [
-            "welcome",
-            "dreary absorbed",
-            "dysfunctional"
-          ],
-          [
-            "great dirt",
-            "foregoing punch",
-            "drab"
-          ],
-          [
-            "tremendous learned",
-            "rake",
-            "bouncy encourage"
-          ],
-          [
-            "airplane",
-            "oil sort",
-            "weight grumpy"
-          ]
-        ],
-        "cols": 3,
-        "font_size": 11,
-        "has_header": true,
-        "header": [
-          71,
-          221,
-          181
-        ],
-        "rows": 5,
-        "text_color": [
-          28,
-          30,
-          36
-        ],
-        "theme_topic": "Attend Verdant"
+        "mask_overlay": false,
+        "theme_topic": "Ruin",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "table",
+      "type": "image",
       "z_order": 1
     }
   ],

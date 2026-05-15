@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "fill": [
-        18,
-        129,
-        148
+      "colors": [
+        [
+          206,
+          146,
+          71
+        ],
+        [
+          82,
+          96,
+          214
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Aspiring"
+      "fill": [
+        228,
+        162,
+        79
+      ],
+      "focus": "top_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Confess"
     },
     "type": "background",
     "z_order": 0
@@ -30,222 +45,227 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.5911,
-        "w": 7.2538,
-        "x": 2.5954,
-        "y": 1.3454
+        "h": 3.5283,
+        "w": 6.1749,
+        "x": 7.6103,
+        "y": 0.5936
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 5,
+        "family": "basic",
         "fill": [
-          140,
-          136,
-          166
+          77,
+          152,
+          75
         ],
         "focus": false,
         "line": [
-          188,
-          226,
-          174
+          135,
+          201,
+          150
         ],
-        "line_width": 2.874649207318419,
+        "line_width": 2.751126603701451,
         "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Aspiring"
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Confess"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.0123,
-        "w": 7.7555,
-        "x": 0.32,
-        "y": 3.0822
+        "h": 2.2492,
+        "w": 5.7436,
+        "x": 4.168,
+        "y": 3.7951
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "flowchart",
         "fill": [
-          26,
-          78,
-          178
+          118,
+          129,
+          128
         ],
         "focus": false,
         "line": [
-          78,
-          50,
-          89
+          86,
+          147,
+          97
         ],
-        "line_width": 5.036699819278694,
+        "line_width": 6.9433934330533535,
         "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Aspiring"
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Confess"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.0066,
-        "w": 7.5764,
-        "x": -0.8015,
-        "y": 3.173
+        "h": 3.5899,
+        "w": 8.2009,
+        "x": 3.5565,
+        "y": 2.4206
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 3,
-        "family": "basic",
+        "family": "arrows",
         "fill": [
-          176,
-          117,
-          178
+          94,
+          62,
+          187
         ],
         "focus": false,
         "line": [
-          45,
-          204,
-          84
+          229,
+          48,
+          105
         ],
-        "line_width": 4.252334499535621,
+        "line_width": 4.493062869949349,
         "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Aspiring"
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Confess"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5484,
-        "w": 2.8349,
-        "x": 0.6647,
-        "y": 0.7634
+        "h": 4.1445,
+        "w": 4.5606,
+        "x": -0.2531,
+        "y": 2.4158
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "symbols",
+        "fill": [
+          191,
+          124,
+          116
+        ],
+        "focus": false,
+        "line": [
+          68,
+          128,
+          222
+        ],
+        "line_width": 6.838934585341313,
+        "outline_only": false,
+        "ppt_type": 174,
+        "shape": "funnel",
+        "theme_topic": "Confess"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 7.4814,
+        "w": 13.3289,
+        "x": 0.009,
+        "y": 3.3639
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          206,
+          146,
+          71
+        ],
+        "line": [
+          206,
+          146,
+          71
+        ],
+        "line_width": 3.708259686773595,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Confess"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.1651,
+        "w": 6.715,
+        "x": 2.7532,
+        "y": 0.6382
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 30,
+        "font_face": "Arial",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hover Plantation Quixotic",
-        "theme_topic": "Aspiring",
+        "text": "Structure Pretend Fluttering Righteous Fence",
+        "theme_topic": "Confess",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.3923,
-        "w": 2.0508,
-        "x": 8.4454,
-        "y": 3.9821
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1537011006158252,
-          0.2118974474058881,
-          0.3195438969088215,
-          0.08156483932277674
-        ],
-        "focus": false,
-        "mask_line": [
-          117,
-          190,
-          142
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Aspiring",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.3637,
-        "w": 2.0211,
-        "x": 10.6167,
-        "y": 3.9452
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.14352863225657397,
-          0.15188263554495773,
-          0.04699543645399876,
-          0.09432164592885413
-        ],
-        "focus": false,
-        "mask_line": [
-          214,
-          121,
-          50
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Aspiring",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.3373,
-        "w": 2.0591,
-        "x": 8.457,
-        "y": 5.5102
+        "h": 1.1931,
+        "w": 5.0814,
+        "x": 7.4884,
+        "y": 4.9396
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.15380073964401023,
-          0.12970241501046267,
-          0.22863360992568624,
-          0.050347242336790186
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Aspiring",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 23,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Fire Boot Alert Overt Jobless Fretful Melted Pointless Use",
+        "theme_topic": "Confess",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2564,
-        "w": 4.0233,
-        "x": 3.8957,
-        "y": 4.0171
+        "h": 0.3632,
+        "w": 2.826,
+        "x": 7.4765,
+        "y": 6.2963
       },
       "id": "object_008",
       "properties": {
@@ -253,17 +273,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "SKIN EQUAL",
-        "theme_topic": "Aspiring",
+        "text": "WORD",
+        "theme_topic": "Confess",
         "underline": false
       },
       "type": "text",
@@ -271,57 +291,59 @@
     },
     {
       "bbox": {
-        "h": 0.8732,
-        "w": 4.0691,
-        "x": 3.8984,
-        "y": 4.499
+        "h": 2.2897,
+        "w": 4.3305,
+        "x": 0.5381,
+        "y": 2.0005
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          206,
+          146,
+          71
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 31,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Anger",
-        "theme_topic": "Aspiring",
-        "underline": false
+        "line": [
+          206,
+          146,
+          71
+        ],
+        "line_width": 3.4366817437452357,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Confess"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.1664,
-        "w": 4.0525,
-        "x": 3.8764,
-        "y": 5.6097
+        "h": 0.4506,
+        "w": 3.8156,
+        "x": 0.8146,
+        "y": 2.9056
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          143,
-          194,
-          205
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "answer demonic spot arrest wave trouble drag discover flippant abject lovely spot foregoing rigid example gentle health chief string",
-        "theme_topic": "Aspiring",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Upbeat",
+        "theme_topic": "Confess",
         "underline": false
       },
       "type": "text",
@@ -329,120 +351,120 @@
     },
     {
       "bbox": {
-        "h": 2.9628,
-        "w": 1.908,
-        "x": 3.7321,
-        "y": 0.6452
+        "h": 0.6292,
+        "w": 3.8163,
+        "x": 0.8083,
+        "y": 3.4616
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          78,
-          161,
-          175
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          118,
+          89,
+          55
         ],
-        "line": [
-          78,
-          161,
-          175
-        ],
-        "line_width": 5.330335034519712,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Aspiring"
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "governor soothe system possible coherent agonizing grey grubby",
+        "theme_topic": "Confess",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5455,
-        "w": 0.5476,
-        "x": 3.9602,
-        "y": 0.8953
+        "h": 2.2779,
+        "w": 3.5476,
+        "x": 5.1174,
+        "y": 2.0121
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          32,
-          119,
-          149
+          206,
+          146,
+          71
         ],
-        "focus": false,
         "line": [
-          166,
-          176,
-          63
+          206,
+          146,
+          71
         ],
-        "line_width": 1.237362993539328,
+        "line_width": 5.144326361175904,
         "outline_only": false,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Aspiring"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Confess"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.4572,
-        "w": 1.4105,
-        "x": 3.9911,
-        "y": 1.5446
+        "h": 0.5267,
+        "w": 0.5279,
+        "x": 5.3231,
+        "y": 2.2211
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          182,
+          52,
+          143
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Clean",
-        "theme_topic": "Aspiring",
-        "underline": false
+        "focus": false,
+        "line": [
+          69,
+          184,
+          44
+        ],
+        "line_width": 2.8562440987444253,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Confess"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 1.3462,
-        "w": 1.4088,
-        "x": 4.0039,
-        "y": 2.0955
+        "h": 0.4392,
+        "w": 3.0052,
+        "x": 5.3317,
+        "y": 2.892
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          143,
-          194,
-          205
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tease dark enchanted list mint quaint pan tub lie boat spiffy unique berserk tricky",
-        "theme_topic": "Aspiring",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Earth Late",
+        "theme_topic": "Confess",
         "underline": false
       },
       "type": "text",
@@ -450,99 +472,102 @@
     },
     {
       "bbox": {
-        "h": 2.9816,
-        "w": 2.2053,
-        "x": 5.8929,
-        "y": 0.6615
+        "h": 0.645,
+        "w": 3.0038,
+        "x": 5.3733,
+        "y": 3.4509
       },
       "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          78,
-          161,
-          175
-        ],
-        "line": [
-          78,
-          161,
-          175
-        ],
-        "line_width": 1.9250240688731302,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Aspiring"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4395,
-        "w": 1.6969,
-        "x": 6.1345,
-        "y": 1.5334
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
-        ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Work Squeamish",
-        "theme_topic": "Aspiring",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 1.3233,
-        "w": 1.717,
-        "x": 6.1425,
-        "y": 2.1136
-      },
-      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          143,
-          194,
-          205
+          118,
+          89,
+          55
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "minister kitty sticky magical trail ill handsomely substantial riddle hypnotic annoy round",
-        "theme_topic": "Aspiring",
+        "text": "ban great improve dock known tub interrupt friend sordid inconclusive ad rightful",
+        "theme_topic": "Confess",
         "underline": false
       },
       "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 2.2856,
+        "w": 3.931,
+        "x": 8.8421,
+        "y": 1.9948
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          206,
+          146,
+          71
+        ],
+        "line": [
+          206,
+          146,
+          71
+        ],
+        "line_width": 3.5014028640596293,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Confess"
+      },
+      "type": "shape",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.537,
+        "w": 0.5499,
+        "x": 9.0432,
+        "y": 2.2391
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          82,
+          96,
+          214
+        ],
+        "focus": false,
+        "line": [
+          40,
+          31,
+          147
+        ],
+        "line_width": 1.355578036431855,
+        "outline_only": true,
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Confess"
+      },
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.2843,
-        "w": 4.0702,
-        "x": 8.549,
-        "y": 0.759
+        "h": 0.4419,
+        "w": 3.4383,
+        "x": 9.0953,
+        "y": 2.8983
       },
       "id": "object_018",
       "properties": {
@@ -550,17 +575,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "FACE",
-        "theme_topic": "Aspiring",
+        "text": "Sisters Stale",
+        "theme_topic": "Confess",
         "underline": false
       },
       "type": "text",
@@ -568,28 +593,28 @@
     },
     {
       "bbox": {
-        "h": 0.837,
-        "w": 4.025,
-        "x": 8.519,
-        "y": 1.2321
+        "h": 0.6361,
+        "w": 3.4503,
+        "x": 9.0971,
+        "y": 3.4484
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          246,
-          248,
-          252
+          118,
+          89,
+          55
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 23,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Found Camp Disagreeable",
-        "theme_topic": "Aspiring",
+        "text": "road minor weigh passenger flow expensive aromatic visitor scratch observation overrated blot",
+        "theme_topic": "Confess",
         "underline": false
       },
       "type": "text",
@@ -597,72 +622,103 @@
     },
     {
       "bbox": {
-        "h": 1.1537,
-        "w": 4.0442,
-        "x": 8.5165,
-        "y": 2.3498
+        "h": 0.6387,
+        "w": 0.8167,
+        "x": 8.9987,
+        "y": 1.5384
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          143,
-          194,
-          205
+        "fill": [
+          36,
+          178,
+          149
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pastoral note flat add toad enthusiastic house destroy entertaining quiver rush slim",
-        "theme_topic": "Aspiring",
-        "underline": false
+        "line": [
+          82,
+          96,
+          214
+        ],
+        "line_width": 1.942201858460176,
+        "pattern": "zigzag",
+        "points": [
+          [
+            0.02,
+            0.25
+          ],
+          [
+            0.22,
+            0.05
+          ],
+          [
+            0.42,
+            0.32
+          ],
+          [
+            0.62,
+            0.08
+          ],
+          [
+            0.95,
+            0.75
+          ],
+          [
+            0.72,
+            0.95
+          ],
+          [
+            0.5,
+            0.65
+          ],
+          [
+            0.25,
+            0.92
+          ]
+        ],
+        "theme_topic": "Confess"
       },
-      "type": "text",
+      "type": "freeform",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.3136,
-        "w": 2.2115,
-        "x": 2.7016,
-        "y": 1.4016
+        "h": 0.2404,
+        "w": 0.3014,
+        "x": 2.5083,
+        "y": 1.6878
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          97,
-          79,
-          106
+        "dash": 3,
+        "family": "basic",
+        "fill": [
+          205,
+          72,
+          133
         ],
-        "bold": true,
-        "color": [
-          196,
-          89,
-          42
+        "focus": false,
+        "line": [
+          149,
+          202,
+          72
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "time worm successful work crawl",
-        "theme_topic": "Aspiring",
-        "underline": false
+        "line_width": 1.0490202165806106,
+        "outline_only": false,
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Confess"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.8988,
-        "w": 1.2318,
-        "x": 3.6667,
-        "y": 0.8368
+        "h": 0.433,
+        "w": 1.2697,
+        "x": 0.8605,
+        "y": 2.9435
       },
       "id": "object_022",
       "properties": {
@@ -670,89 +726,109 @@
         "dash": 1,
         "family": "stars",
         "fill": [
-          140,
-          85,
-          131
+          131,
+          62,
+          169
         ],
         "focus": false,
         "line": [
-          166,
-          52,
-          201
+          160,
+          217,
+          54
         ],
-        "line_width": 2.4784130925620236,
+        "line_width": 6.064966988792197,
         "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Aspiring"
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Confess"
       },
       "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.5442,
-        "w": 1.6367,
-        "x": 9.19,
-        "y": 2.5447
+        "h": 0.9467,
+        "w": 1.459,
+        "x": 4.2447,
+        "y": 2.2528
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          92,
-          128,
-          54
-        ],
-        "bold": false,
         "color": [
-          57,
-          151,
-          79
+          196,
+          110,
+          30
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "meek bouncy ugly curved",
-        "theme_topic": "Aspiring",
-        "underline": false
+        "connector": "curve",
+        "dash": 1,
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "Confess",
+        "width": 2.5234218179190457
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.4182,
-        "w": 2.202,
-        "x": 10.9426,
-        "y": 6.4679
+        "h": 1.1633,
+        "w": 1.5492,
+        "x": 11.5325,
+        "y": 0.4077
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          87,
-          76,
-          42
+        "fill": [
+          167,
+          110,
+          196
         ],
-        "bold": false,
-        "color": [
-          180,
-          45,
-          90
+        "line": [
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
-        "font_size": 5,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Reflect",
-        "theme_topic": "Aspiring",
-        "underline": false
+        "line_width": 1.3580279535127584,
+        "pattern": "wave",
+        "points": [
+          [
+            0.02,
+            0.55
+          ],
+          [
+            0.18,
+            0.2
+          ],
+          [
+            0.35,
+            0.5
+          ],
+          [
+            0.52,
+            0.8
+          ],
+          [
+            0.7,
+            0.45
+          ],
+          [
+            0.95,
+            0.58
+          ],
+          [
+            0.95,
+            0.92
+          ],
+          [
+            0.02,
+            0.92
+          ]
+        ],
+        "theme_topic": "Confess"
       },
-      "type": "text",
+      "type": "freeform",
       "z_order": 24
     }
   ],

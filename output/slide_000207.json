@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        99,
-        130,
-        67
+      "colors": [
+        [
+          71,
+          117,
+          182
+        ],
+        [
+          181,
+          95,
+          119
+        ]
       ],
       "fill": [
-        99,
-        130,
-        67
-      ],
-      "fore_color": [
         31,
-        117,
-        161
+        87,
+        166
       ],
-      "pattern": 15,
-      "style": "pattern",
-      "theme_topic": "Rest"
+      "focus": "top_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Invent"
     },
     "type": "background",
     "z_order": 0
@@ -41,43 +45,108 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.4838,
-        "w": 13.3369,
-        "x": -0.0107,
-        "y": 3.3018
+        "h": 4.5171,
+        "w": 5.2154,
+        "x": -0.3199,
+        "y": 0.2008
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          144,
-          166,
-          122
+          64,
+          62,
+          173
         ],
+        "focus": false,
         "line": [
-          144,
-          166,
-          122
+          122,
+          55,
+          81
         ],
-        "line_width": 4.629235800923664,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Rest"
+        "line_width": 3.977178576970128,
+        "outline_only": true,
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Invent"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0135,
-        "w": 7.7773,
-        "x": 0.5588,
-        "y": 0.3464
+        "h": 3.8968,
+        "w": 8.3238,
+        "x": 1.3203,
+        "y": -0.9051
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          66,
+          132,
+          200
+        ],
+        "focus": false,
+        "line": [
+          44,
+          160,
+          61
+        ],
+        "line_width": 6.632192163907015,
+        "outline_only": false,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Invent"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 4.1179,
+        "w": 7.0498,
+        "x": 2.8676,
+        "y": 0.7306
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          96,
+          48,
+          154
+        ],
+        "focus": false,
+        "line": [
+          135,
+          79,
+          64
+        ],
+        "line_width": 3.9108336756697435,
+        "outline_only": true,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Invent"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.8957,
+        "w": 8.2404,
+        "x": 0.7467,
+        "y": 5.8682
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -87,71 +156,13 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 27,
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Healthy Unequal Structure",
-        "theme_topic": "Rest",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.5889,
-        "w": 2.7542,
-        "x": 0.7475,
-        "y": 2.0217
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "68%",
-        "theme_topic": "Rest",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.6234,
-        "w": 2.7436,
-        "x": 4.0472,
-        "y": 2.0427
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "8.1x",
-        "theme_topic": "Rest",
+        "text": "Possessive Grouchy Gaping Meeting",
+        "theme_topic": "Invent",
         "underline": false
       },
       "type": "text",
@@ -159,60 +170,99 @@
     },
     {
       "bbox": {
-        "h": 0.6195,
-        "w": 2.5394,
-        "x": 7.3433,
-        "y": 2.0272
+        "h": 5.0188,
+        "w": 2.2089,
+        "x": 10.5624,
+        "y": 0.5429
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          38,
+          132,
+          88
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "197",
-        "theme_topic": "Rest",
-        "underline": false
+        "line": [
+          71,
+          117,
+          182
+        ],
+        "line_width": 2.274720891034313,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Invent"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.7775,
-        "w": 3.9169,
-        "x": 4.7259,
-        "y": 5.2214
+        "h": 2.7183,
+        "w": 6.7355,
+        "x": 3.3037,
+        "y": 1.4995
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "band": [
+          27,
+          62,
+          184
         ],
-        "focus": false,
-        "mask_line": [
-          31,
+        "band_cols": true,
+        "band_rows": false,
+        "body": [
+          71,
           117,
-          161
+          182
         ],
-        "mask_overlay": false,
-        "theme_topic": "Rest",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "border": [
+          169,
+          197,
+          196
+        ],
+        "border_dash": "sysDot",
+        "border_width": 0.37521081494381636,
+        "cells": [
+          [
+            "drown bit",
+            "identify fancy"
+          ],
+          [
+            "fearful",
+            "polish"
+          ],
+          [
+            "blade",
+            "encourage ashamed"
+          ],
+          [
+            "tense",
+            "quill"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 6,
+        "has_header": false,
+        "header": [
+          38,
+          132,
+          88
+        ],
+        "rows": 4,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Invent"
       },
-      "type": "image",
+      "type": "table",
       "z_order": 6
     }
   ],

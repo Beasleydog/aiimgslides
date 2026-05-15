@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          43,
-          51,
-          64
-        ],
-        [
-          108,
-          150,
-          136
-        ]
-      ],
       "fill": [
-        25,
-        30,
-        39
+        186,
+        27,
+        65
       ],
-      "focus": "bottom_right",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Selfish"
+      "style": "solid",
+      "theme_topic": "Wink"
     },
     "type": "background",
     "z_order": 0
@@ -45,155 +30,146 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.243,
-        "w": 5.15,
-        "x": -0.8105,
-        "y": 3.3285
+        "h": 5.5718,
+        "w": 2.8356,
+        "x": 0.6324,
+        "y": 0.7479
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
-        "fill": [
-          78,
-          151,
-          98
-        ],
-        "focus": false,
-        "line": [
-          116,
-          131,
-          106
-        ],
-        "line_width": 2.2512467887799756,
-        "outline_only": false,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Selfish"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 3.9269,
-        "w": 5.8676,
-        "x": 2.5603,
-        "y": 1.5154
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          44,
-          128,
-          142
-        ],
-        "focus": false,
-        "line": [
-          183,
-          63,
-          54
-        ],
-        "line_width": 2.129270271826217,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Selfish"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 4.6363,
-        "w": 8.2488,
-        "x": 0.6328,
-        "y": 1.1091
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          36,
-          43,
-          55
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 2.7779928492877275,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Selfish"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.2581,
-        "w": 7.8817,
-        "x": 0.5542,
-        "y": 0.35
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           246,
-          247,
-          249
+          248,
+          252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 42,
+        "font_face": "Aptos Display",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Few Spot Flesh",
-        "theme_topic": "Selfish",
+        "text": "Cart",
+        "theme_topic": "Wink",
         "underline": false
       },
       "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 2.9528,
+        "w": 2.8177,
+        "x": 9.9278,
+        "y": 3.9272
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "clip": "blob",
+        "focus": true,
+        "line": [
+          29,
+          113,
+          205
+        ],
+        "line_width": 16,
+        "theme_topic": "Wink"
+      },
+      "type": "svg_image",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 2.9351,
+        "w": 2.8085,
+        "x": 3.7776,
+        "y": 3.9051
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          159,
+          113,
+          224
+        ],
+        "focus": false,
+        "line": [
+          110,
+          41,
+          96
+        ],
+        "line_width": 3.1623700885391783,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Wink"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.9551,
+        "w": 2.793,
+        "x": 9.9102,
+        "y": 0.6647
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.2750243250278139,
+          0.05879121930467629,
+          0.2868936549535347,
+          0.04044342683892163
+        ],
+        "focus": true,
+        "mask_line": [
+          151,
+          35,
+          216
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Wink",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.0628,
-        "w": 5.6261,
-        "x": 0.6805,
-        "y": 5.7818
+        "h": 2.9815,
+        "w": 2.793,
+        "x": 6.8375,
+        "y": 0.67
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          177,
-          185,
-          196
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          200,
+          73,
+          104
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "raspy plain cuddly whip crib jar exist cooing sneaky nosy rabid unsuitable step cat ice hum rock guitar",
-        "theme_topic": "Selfish",
-        "underline": false
+        "line": [
+          200,
+          73,
+          104
+        ],
+        "line_width": 3.6158603782062775,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Wink"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     }
   ],

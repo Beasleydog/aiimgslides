@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
-      "fill": [
-        29,
-        151,
-        112
+      "colors": [
+        [
+          26,
+          31,
+          167
+        ],
+        [
+          168,
+          54,
+          94
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Utopian Calculating"
+      "fill": [
+        26,
+        31,
+        167
+      ],
+      "focus": "top_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Rabbit"
     },
     "type": "background",
     "z_order": 0
@@ -30,10 +45,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.261,
-        "w": 4.9651,
-        "x": 0.0262,
-        "y": -0.8709
+        "h": 4.8063,
+        "w": 8.1575,
+        "x": 1.464,
+        "y": 2.5845
       },
       "id": "object_001",
       "properties": {
@@ -41,160 +56,65 @@
         "dash": 1,
         "family": "callouts",
         "fill": [
-          141,
-          91,
-          107
+          66,
+          135,
+          82
         ],
         "focus": false,
         "line": [
-          198,
-          175,
-          201
+          149,
+          120,
+          109
         ],
-        "line_width": 4.389933991694478,
-        "outline_only": true,
+        "line_width": 5.5839089013442145,
+        "outline_only": false,
         "ppt_type": 107,
         "shape": "oval_callout",
-        "theme_topic": "Utopian Calculating"
+        "theme_topic": "Rabbit"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.4354,
-        "w": 6.8323,
-        "x": 3.3647,
-        "y": 6.5399
+        "h": 2.8248,
+        "w": 3.7388,
+        "x": 7.7557,
+        "y": 1.9573
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "arrows",
         "fill": [
-          34,
-          125,
-          157
+          111,
+          46,
+          194
         ],
         "focus": false,
         "line": [
-          96,
-          202,
-          127
+          188,
+          43,
+          215
         ],
-        "line_width": 7.2603719322792974,
-        "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Utopian Calculating"
+        "line_width": 3.627934126052472,
+        "outline_only": true,
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Rabbit"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.2739,
-        "w": 3.9952,
-        "x": -0.2175,
-        "y": 3.9223
+        "h": 1.2811,
+        "w": 7.5517,
+        "x": 0.5421,
+        "y": 0.3428
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "symbols",
-        "fill": [
-          110,
-          71,
-          135
-        ],
-        "focus": false,
-        "line": [
-          98,
-          86,
-          42
-        ],
-        "line_width": 6.248760945057281,
-        "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Utopian Calculating"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 4.63,
-        "w": 8.3434,
-        "x": -0.5407,
-        "y": 3.6364
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          197,
-          188,
-          196
-        ],
-        "focus": false,
-        "line": [
-          185,
-          85,
-          106
-        ],
-        "line_width": 7.0647632148257165,
-        "outline_only": false,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Utopian Calculating"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 4.2608,
-        "w": 7.6744,
-        "x": 1.9776,
-        "y": 1.254
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          57,
-          164,
-          130
-        ],
-        "line": [
-          73,
-          171,
-          140
-        ],
-        "line_width": 0.801885432100931,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Utopian Calculating"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.5325,
-        "w": 2.8741,
-        "x": 0.6749,
-        "y": 0.7272
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -204,70 +124,163 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 19,
+        "font_face": "Aptos Display",
+        "font_size": 38,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Shivering",
-        "theme_topic": "Utopian Calculating",
+        "text": "Power Space",
+        "theme_topic": "Rabbit",
         "underline": false
       },
       "type": "text",
-      "z_order": 6
+      "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.9931,
-        "w": 4.3673,
-        "x": 8.3687,
-        "y": 0.6386
+        "h": 0.9392,
+        "w": 3.0946,
+        "x": 0.7387,
+        "y": 2.7796
       },
-      "id": "object_007",
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          147,
+          150,
+          213
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "private property pray zoom",
+        "theme_topic": "Rabbit",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.9473,
+        "w": 3.4893,
+        "x": 4.3641,
+        "y": 2.7559
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          147,
+          150,
+          213
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "safe mute laugh number gun vessel move",
+        "theme_topic": "Rabbit",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.9605,
+        "w": 4.5734,
+        "x": 8.2208,
+        "y": 1.868
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          73,
-          171,
-          140
+          27,
+          55,
+          161
         ],
         "line": [
-          73,
-          171,
-          140
+          80,
+          84,
+          187
         ],
-        "line_width": 3.17876409233546,
+        "line_width": 1.599240342573133,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Utopian Calculating"
+        "theme_topic": "Rabbit"
       },
       "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.7578,
+        "w": 4.1863,
+        "x": 8.4079,
+        "y": 2.0386
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 27,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "51",
+        "theme_topic": "Rabbit",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.6678,
-        "w": 4.0541,
-        "x": 8.5452,
-        "y": 0.8092
+        "h": 0.9589,
+        "w": 4.1962,
+        "x": 8.3909,
+        "y": 2.7626
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          255,
-          198,
-          74
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          147,
+          150,
+          213
         ],
-        "line_width": 11,
-        "theme_topic": "Utopian Calculating"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "automatic system low actually material popcorn fluffy",
+        "theme_topic": "Rabbit",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 8
     }
   ],

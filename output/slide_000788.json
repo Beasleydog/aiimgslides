@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        120,
-        58,
-        170
+      "back_color": [
+        88,
+        178,
+        117
       ],
-      "style": "solid",
-      "theme_topic": "Mountainous Perfect"
+      "fill": [
+        33,
+        153,
+        72
+      ],
+      "fore_color": [
+        31,
+        117,
+        161
+      ],
+      "pattern": 4,
+      "style": "pattern",
+      "theme_topic": "Distribution Massive"
     },
     "type": "background",
     "z_order": 0
@@ -30,155 +41,149 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5893,
-        "w": 4.3219,
-        "x": 2.142,
-        "y": 3.575
+        "h": 5.5634,
+        "w": 2.8459,
+        "x": 0.6374,
+        "y": 0.745
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          129,
-          115,
-          104
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          82,
-          103,
-          161
-        ],
-        "line_width": 6.63568280380679,
-        "outline_only": false,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Mountainous Perfect"
+        "font_face": "Aptos Display",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Rely Garrulous",
+        "theme_topic": "Distribution Massive",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.6302,
-        "w": 3.9303,
-        "x": 8.4037,
-        "y": -0.4891
+        "h": 3.1882,
+        "w": 3.1757,
+        "x": 6.7691,
+        "y": 0.6606
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "ribbons",
+        "dash": 5,
+        "family": "panel",
         "fill": [
-          185,
-          46,
-          74
+          88,
+          178,
+          117
         ],
-        "focus": false,
         "line": [
-          131,
-          93,
-          201
+          88,
+          178,
+          117
         ],
-        "line_width": 2.4215094649976727,
+        "line_width": 5.360318610749158,
         "outline_only": false,
-        "ppt_type": 98,
-        "shape": "down_ribbon",
-        "theme_topic": "Mountainous Perfect"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Distribution Massive"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.2766,
-        "w": 5.2285,
-        "x": -0.4409,
-        "y": 1.0267
+        "h": 0.5104,
+        "w": 0.5542,
+        "x": 6.9602,
+        "y": 0.8907
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "arrows",
         "fill": [
-          66,
-          71,
-          89
+          223,
+          188,
+          144
         ],
         "focus": false,
         "line": [
-          122,
-          169,
-          78
+          216,
+          37,
+          71
         ],
-        "line_width": 5.173625434782548,
-        "outline_only": true,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Mountainous Perfect"
+        "line_width": 2.5777682812751097,
+        "outline_only": false,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Distribution Massive"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 7.4988,
-        "w": 0.9886,
-        "x": 12.3323,
-        "y": -0.0052
+        "h": 0.4429,
+        "w": 2.6717,
+        "x": 7.0262,
+        "y": 1.5353
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
-        ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 2.053434919009965,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Mountainous Perfect"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.9574,
-        "w": 8.9656,
-        "x": 0.5332,
-        "y": 0.3723
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          250,
-          255
+          31,
+          117,
+          161
         ],
-        "font_face": "Arial",
-        "font_size": 33,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Fly",
+        "theme_topic": "Distribution Massive",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.5615,
+        "w": 2.6445,
+        "x": 7.0158,
+        "y": 2.1001
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          150,
+          205,
+          171
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "Offend Pigs Instrument Wry",
-        "theme_topic": "Mountainous Perfect",
+        "text": "cooing delicious four wooden road whimsical reflect foolish harm voice thought minister racial",
+        "theme_topic": "Distribution Massive",
         "underline": false
       },
       "type": "text",
@@ -186,70 +191,73 @@
     },
     {
       "bbox": {
-        "h": 5.1464,
-        "w": 5.1365,
-        "x": 7.6685,
-        "y": 1.8676
+        "h": 2.8596,
+        "w": 3.1691,
+        "x": 6.7606,
+        "y": 4.0454
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          139,
-          78,
-          190
+          88,
+          178,
+          117
         ],
         "line": [
-          139,
-          78,
-          190
+          88,
+          178,
+          117
         ],
-        "line_width": 4.545661097143665,
+        "line_width": 1.7142688974676015,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Mountainous Perfect"
+        "theme_topic": "Distribution Massive"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 4.8517,
-        "w": 4.7868,
-        "x": 7.784,
-        "y": 2.0095
+        "h": 0.5893,
+        "w": 0.5306,
+        "x": 7.0182,
+        "y": 4.2739
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.26569021899972967,
-          0.26608717915934943,
-          0.3117171580392219,
-          0.16707567657082772
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          222,
+          133,
+          62
         ],
-        "focus": true,
-        "mask_line": [
-          206,
-          141,
-          125
+        "focus": false,
+        "line": [
+          161,
+          181,
+          70
         ],
-        "mask_overlay": true,
-        "theme_topic": "Mountainous Perfect",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.290526675892136,
+        "outline_only": false,
+        "ppt_type": 172,
+        "shape": "gear6",
+        "theme_topic": "Distribution Massive"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2661,
-        "w": 4.6954,
-        "x": 7.8549,
-        "y": 6.5493
+        "h": 0.4718,
+        "w": 2.6879,
+        "x": 7.0159,
+        "y": 4.9245
       },
       "id": "object_008",
       "properties": {
@@ -257,17 +265,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          31,
+          117,
+          161
         ],
-        "font_face": "Arial",
-        "font_size": 9,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Flat",
-        "theme_topic": "Mountainous Perfect",
+        "text": "Merciful",
+        "theme_topic": "Distribution Massive",
         "underline": false
       },
       "type": "text",
@@ -275,41 +283,39 @@
     },
     {
       "bbox": {
-        "h": 1.7527,
-        "w": 6.5515,
-        "x": 0.5673,
-        "y": 1.8557
+        "h": 1.1861,
+        "w": 2.6839,
+        "x": 7.0462,
+        "y": 5.4978
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          150,
+          205,
+          171
         ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 3.806989856603043,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Mountainous Perfect"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "passenger unused amused spiders paddle flavor theory possible discover",
+        "theme_topic": "Distribution Massive",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4493,
-        "w": 6.0649,
-        "x": 0.7751,
-        "y": 2.7434
+        "h": 0.2642,
+        "w": 2.4878,
+        "x": 3.9126,
+        "y": 0.7479
       },
       "id": "object_010",
       "properties": {
@@ -317,17 +323,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          31,
+          117,
+          161
         ],
-        "font_face": "Arial",
+        "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Peck",
-        "theme_topic": "Mountainous Perfect",
+        "text": "VERDANT",
+        "theme_topic": "Distribution Massive",
         "underline": false
       },
       "type": "text",
@@ -335,91 +341,86 @@
     },
     {
       "bbox": {
-        "h": 1.5189,
-        "w": 6.5489,
-        "x": 0.5563,
-        "y": 3.8246
+        "h": 1.0556,
+        "w": 2.4839,
+        "x": 3.9093,
+        "y": 1.2655
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
-        ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 2.2268420447650694,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Mountainous Perfect"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.5832,
-        "w": 0.5424,
-        "x": 0.7699,
-        "y": 4.0111
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          71,
-          221,
-          181
-        ],
-        "focus": false,
-        "line": [
-          120,
-          174,
-          150
-        ],
-        "line_width": 5.489108565181411,
-        "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Mountainous Perfect"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.4483,
-        "w": 6.087,
-        "x": 0.8219,
-        "y": 4.726
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          78,
+          156,
+          203
         ],
-        "font_face": "Arial",
-        "font_size": 9,
+        "font_face": "Aptos Display",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Toys Gabby Insidious Roll",
+        "theme_topic": "Distribution Massive",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 4.2188,
+        "w": 2.4532,
+        "x": 3.9034,
+        "y": 2.5667
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          150,
+          205,
+          171
+        ],
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "parcel adjustment fuel tested sisters box day scrawny yellow teaching bee lowly quartz spiteful toad quartz sock skillful naughty makeshift zoom",
+        "theme_topic": "Distribution Massive",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.4135,
+        "w": 0.9193,
+        "x": 10.1578,
+        "y": 4.5409
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          153,
+          35,
+          54
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Argue",
-        "theme_topic": "Mountainous Perfect",
+        "text": "Oafish Salt",
+        "theme_topic": "Distribution Massive",
         "underline": false
       },
       "type": "text",
@@ -427,220 +428,213 @@
     },
     {
       "bbox": {
-        "h": 1.4886,
-        "w": 6.5637,
-        "x": 0.5477,
-        "y": 5.526
+        "h": 0.2,
+        "w": 0.5841,
+        "x": 9.4262,
+        "y": 3.5423
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          139,
-          78,
-          190
+          88,
+          66,
+          41
         ],
+        "focus": false,
         "line": [
-          139,
-          78,
-          190
+          86,
+          90,
+          141
         ],
-        "line_width": 2.1253805693450256,
+        "line_width": 0.8627036864885745,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Mountainous Perfect"
+        "ppt_type": 142,
+        "shape": "pie",
+        "theme_topic": "Distribution Massive"
       },
       "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.4336,
-        "w": 6.0432,
-        "x": 0.8223,
-        "y": 6.4355
+        "h": 1.1664,
+        "w": 0.447,
+        "x": 5.6829,
+        "y": 1.3112
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
+        "dash": 5,
+        "family": "callouts",
+        "fill": [
+          222,
+          133,
+          62
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Decorate Cause",
-        "theme_topic": "Mountainous Perfect",
-        "underline": false
+        "focus": false,
+        "line": [
+          194,
+          33,
+          165
+        ],
+        "line_width": 3.653499268965518,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Distribution Massive"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.4481,
-        "w": 1.2006,
-        "x": 1.7034,
-        "y": 3.4574
+        "h": 0.4857,
+        "w": 1.0737,
+        "x": 10.2892,
+        "y": 5.3006
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          146,
-          152,
-          43
+          88,
+          178,
+          117
         ],
         "focus": false,
         "line": [
-          131,
-          202,
-          81
+          31,
+          117,
+          161
         ],
-        "line_width": 3.859102588254879,
+        "line_width": 1.3895601787501237,
         "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Mountainous Perfect"
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Distribution Massive"
       },
       "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.6387,
-        "w": 1.7528,
-        "x": 4.4258,
-        "y": 1.5893
+        "h": 0.2783,
+        "w": 0.8533,
+        "x": 11.5023,
+        "y": 6.7546
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          195,
-          205,
-          94
+        "dash": 7,
+        "family": "arrows",
+        "fill": [
+          215,
+          68,
+          111
         ],
-        "font_face": "Arial",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "rabbit melt camera work plant",
-        "theme_topic": "Mountainous Perfect",
-        "underline": false
+        "focus": false,
+        "line": [
+          191,
+          143,
+          29
+        ],
+        "line_width": 0.8391267907497734,
+        "outline_only": false,
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Distribution Massive"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.862,
-        "w": 0.6001,
-        "x": 4.4864,
-        "y": 5.6188
+        "h": 0.8231,
+        "w": 1.3303,
+        "x": 9.1998,
+        "y": 0.1478
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "symbols",
-        "fill": [
-          42,
-          173,
-          158
+        "color": [
+          198,
+          43,
+          86
         ],
-        "focus": false,
-        "line": [
-          48,
-          221,
-          70
-        ],
-        "line_width": 2.891052092122804,
-        "outline_only": false,
-        "ppt_type": 23,
-        "shape": "sun",
-        "theme_topic": "Mountainous Perfect"
+        "connector": "straight",
+        "dash": 1,
+        "flip": true,
+        "ppt_type": 1,
+        "theme_topic": "Distribution Massive",
+        "width": 0.46011204482217916
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.3138,
-        "w": 0.843,
-        "x": 5.0346,
-        "y": 0.2943
+        "h": 1.1519,
+        "w": 1.793,
+        "x": 11.3617,
+        "y": 1.358
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          41,
-          202,
-          76
-        ],
-        "bold": false,
         "color": [
-          48,
-          118,
-          81
+          190,
+          135,
+          58
         ],
-        "font_face": "Arial",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Breathe Close",
-        "theme_topic": "Mountainous Perfect",
-        "underline": false
+        "connector": "curve",
+        "dash": 1,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Distribution Massive",
+        "width": 0.9248172503183025
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.8736,
-        "w": 1.2869,
-        "x": 4.3762,
-        "y": 3.9992
+        "h": 0.3118,
+        "w": 0.9358,
+        "x": 7.8534,
+        "y": 1.6207
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
-        "fill": [
-          157,
-          148,
-          168
+        "bg_color": [
+          72,
+          80,
+          87
         ],
-        "focus": false,
-        "line": [
-          65,
-          174,
-          84
+        "bold": true,
+        "color": [
+          93,
+          63,
+          179
         ],
-        "line_width": 0.7889515821873604,
-        "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Mountainous Perfect"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Psychedelic",
+        "theme_topic": "Distribution Massive",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 20
     }
   ],

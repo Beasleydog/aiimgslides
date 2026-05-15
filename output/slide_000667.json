@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          149,
-          94,
-          188
-        ],
-        [
-          222,
-          133,
-          62
-        ]
+      "back_color": [
+        112,
+        215,
+        218
       ],
       "fill": [
-        126,
-        58,
-        173
+        55,
+        105,
+        66
       ],
-      "focus": "bottom_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Curved Grain"
+      "fore_color": [
+        152,
+        213,
+        65
+      ],
+      "pattern": 17,
+      "style": "pattern",
+      "theme_topic": "Grey Thank"
     },
     "type": "background",
     "z_order": 0
@@ -45,107 +41,139 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.7753,
-        "w": 6.4544,
-        "x": 2.6259,
-        "y": 3.2158
+        "h": 3.9986,
+        "w": 6.5237,
+        "x": 1.6156,
+        "y": -0.216
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          200,
-          65,
-          216
+          191,
+          198,
+          179
         ],
         "focus": false,
         "line": [
-          149,
-          210,
-          226
+          174,
+          205,
+          154
         ],
-        "line_width": 5.4379410892887465,
+        "line_width": 3.9817389200469613,
         "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Curved Grain"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Grey Thank"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.7515,
-        "w": 7.5499,
-        "x": 1.1737,
-        "y": 4.4714
+        "h": 3.1309,
+        "w": 5.046,
+        "x": 6.1186,
+        "y": 1.4782
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          165,
-          139,
-          131
+          89,
+          119,
+          46
         ],
         "focus": false,
         "line": [
-          126,
-          66,
-          224
+          170,
+          111,
+          221
         ],
-        "line_width": 3.2755664554311563,
+        "line_width": 5.701715351139899,
         "outline_only": false,
-        "ppt_type": 22,
-        "shape": "lightning",
-        "theme_topic": "Curved Grain"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Grey Thank"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.2826,
-        "w": 7.6851,
-        "x": 1.4712,
-        "y": 1.6759
+        "h": 2.6923,
+        "w": 6.3345,
+        "x": 3.419,
+        "y": 3.3691
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          140,
-          81,
-          182
+          135,
+          169,
+          122
         ],
+        "focus": false,
         "line": [
-          149,
-          94,
-          188
+          222,
+          44,
+          225
         ],
-        "line_width": 2.161953825931483,
+        "line_width": 3.3122121462405008,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Curved Grain"
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Grey Thank"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.1406,
-        "w": 8.3237,
-        "x": 2.3003,
-        "y": 0.6439
+        "h": 7.4816,
+        "w": 13.3132,
+        "x": 0.0139,
+        "y": 4.1901
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          114,
+          149,
+          121
+        ],
+        "line": [
+          114,
+          149,
+          121
+        ],
+        "line_width": 3.3931923033378935,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Grey Thank"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.8863,
+        "w": 7.0068,
+        "x": 0.7722,
+        "y": 5.8361
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -155,102 +183,73 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 46,
+        "font_face": "Trebuchet MS",
+        "font_size": 33,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Memory Grubby Note Toes",
-        "theme_topic": "Curved Grain",
+        "text": "Neat Mundane",
+        "theme_topic": "Grey Thank",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
+      "z_order": 5
     },
     {
       "bbox": {
-        "h": 5.0669,
-        "w": 1.3806,
-        "x": 0.5333,
-        "y": 2.0025
+        "h": 2.1662,
+        "w": 12.2454,
+        "x": 0.567,
+        "y": 0.5401
       },
-      "id": "object_005",
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          122,
-          102,
-          187
+          114,
+          149,
+          121
         ],
         "line": [
+          114,
           149,
-          94,
-          188
+          121
         ],
-        "line_width": 1.2428521700118513,
+        "line_width": 1.484940909797946,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Curved Grain"
+        "theme_topic": "Grey Thank"
       },
       "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.7367,
-        "w": 0.9878,
-        "x": 0.7056,
-        "y": 2.193
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Georgia",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "47%",
-        "theme_topic": "Curved Grain",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 4.0503,
-        "w": 1.0118,
-        "x": 0.7124,
-        "y": 2.9207
+        "h": 0.8027,
+        "w": 11.8758,
+        "x": 0.7217,
+        "y": 1.0151
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          192,
-          162,
-          216
+          55,
+          105,
+          66
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Trebuchet MS",
+        "font_size": 42,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "cap basket purring",
-        "theme_topic": "Curved Grain",
+        "text": "11x",
+        "theme_topic": "Grey Thank",
         "underline": false
       },
       "type": "text",
@@ -258,10 +257,10 @@
     },
     {
       "bbox": {
-        "h": 4.0208,
-        "w": 0.6392,
-        "x": 2.2966,
-        "y": 2.8959
+        "h": 0.5177,
+        "w": 11.8656,
+        "x": 0.7464,
+        "y": 1.8552
       },
       "id": "object_008",
       "properties": {
@@ -269,17 +268,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          192,
-          162,
-          216
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "shave cure parcel addicted honorable miniature leg",
-        "theme_topic": "Curved Grain",
+        "text": "screw long different cable slow language",
+        "theme_topic": "Grey Thank",
         "underline": false
       },
       "type": "text",
@@ -287,28 +286,28 @@
     },
     {
       "bbox": {
-        "h": 4.0391,
-        "w": 0.5425,
-        "x": 3.4787,
-        "y": 2.9263
+        "h": 1.3285,
+        "w": 11.8461,
+        "x": 0.7378,
+        "y": 3.2564
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          192,
-          162,
-          216
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
+        "font_face": "Trebuchet MS",
+        "font_size": 27,
+        "italic": true,
+        "kind": "header",
         "margin": 0.04,
-        "text": "guarded pies vessel premium degree invincible laborer",
-        "theme_topic": "Curved Grain",
+        "text": "Jumbled Combative Gratis Gate Overjoyed Donkey Courageous Pretend Meal Scatter",
+        "theme_topic": "Grey Thank",
         "underline": false
       },
       "type": "text",
@@ -316,146 +315,148 @@
     },
     {
       "bbox": {
-        "h": 5.0612,
-        "w": 1.1796,
-        "x": 4.3684,
-        "y": 1.998
+        "h": 0.3823,
+        "w": 6.4887,
+        "x": 0.7635,
+        "y": 4.7488
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          127,
-          52,
-          162
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
         ],
-        "line": [
-          149,
-          94,
-          188
-        ],
-        "line_width": 2.9884038033682025,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Curved Grain"
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "EARN",
+        "theme_topic": "Grey Thank",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7716,
-        "w": 0.8092,
-        "x": 4.5393,
-        "y": 2.1707
+        "h": 1.1354,
+        "w": 0.5746,
+        "x": 10.7004,
+        "y": 0.9829
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
+        "pattern": "rings",
+        "primary": [
+          28,
           117,
-          161
+          42
         ],
-        "font_face": "Georgia",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "88%",
-        "theme_topic": "Curved Grain",
-        "underline": false
+        "secondary": [
+          152,
+          176,
+          43
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#77e39d\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#4142a4\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#77e39d\" opacity=\"0.6\"/>\n        </svg>",
+        "theme_topic": "Grey Thank"
       },
-      "type": "text",
+      "type": "svg",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 4.0335,
-        "w": 0.8341,
-        "x": 4.5271,
-        "y": 2.9291
+        "h": 0.9753,
+        "w": 0.3485,
+        "x": 12.8655,
+        "y": 1.5394
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          192,
-          162,
-          216
+        "dash": 5,
+        "family": "arrows",
+        "fill": [
+          149,
+          169,
+          210
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "land cent brick foamy ticket cycle",
-        "theme_topic": "Curved Grain",
-        "underline": false
+        "focus": false,
+        "line": [
+          229,
+          27,
+          150
+        ],
+        "line_width": 4.248581302167592,
+        "outline_only": false,
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Grey Thank"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.261,
-        "w": 6.5302,
-        "x": 6.117,
-        "y": 2.1102
+        "h": 0.6084,
+        "w": 0.5554,
+        "x": 4.2571,
+        "y": 6.0262
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
+        "dash": 3,
+        "family": "math",
+        "fill": [
+          82,
+          71,
+          86
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "BOUNDLESS",
-        "theme_topic": "Curved Grain",
-        "underline": false
+        "focus": false,
+        "line": [
+          110,
+          54,
+          71
+        ],
+        "line_width": 5.705275030113863,
+        "outline_only": true,
+        "ppt_type": 164,
+        "shape": "minus",
+        "theme_topic": "Grey Thank"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 1.044,
-        "w": 6.5189,
-        "x": 6.1215,
-        "y": 2.6028
+        "h": 0.2,
+        "w": 0.5567,
+        "x": 3.5537,
+        "y": 4.1785
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          50,
-          101,
-          209
+          156,
+          65,
+          138
         ],
-        "font_face": "Georgia",
-        "font_size": 43,
+        "font_face": "Verdana",
+        "font_size": 7,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Ajar Jail",
-        "theme_topic": "Curved Grain",
+        "text": "grate",
+        "theme_topic": "Grey Thank",
         "underline": false
       },
       "type": "text",
@@ -463,89 +464,98 @@
     },
     {
       "bbox": {
-        "h": 3.0512,
-        "w": 6.5279,
-        "x": 6.0941,
-        "y": 3.904
+        "h": 0.3022,
+        "w": 0.2197,
+        "x": 8.6408,
+        "y": 0.2434
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          192,
-          162,
-          216
+        "dash": 4,
+        "family": "flowchart",
+        "fill": [
+          40,
+          214,
+          151
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "hole wish ahead disagree tight object roll hang expert prick",
-        "theme_topic": "Curved Grain",
-        "underline": false
+        "focus": false,
+        "line": [
+          223,
+          68,
+          60
+        ],
+        "line_width": 3.6118816710604182,
+        "outline_only": false,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Grey Thank"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.6287,
-        "w": 1.9965,
-        "x": 3.5204,
-        "y": 0.8285
+        "h": 0.8654,
+        "w": 1.0881,
+        "x": 4.4285,
+        "y": 3.1961
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          99,
-          147,
-          84
+        "dash": 2,
+        "family": "symbols",
+        "fill": [
+          197,
+          224,
+          79
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "periodic distribution cat",
-        "theme_topic": "Curved Grain",
-        "underline": false
+        "focus": false,
+        "line": [
+          193,
+          221,
+          205
+        ],
+        "line_width": 5.050334406296946,
+        "outline_only": false,
+        "ppt_type": 22,
+        "shape": "lightning",
+        "theme_topic": "Grey Thank"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.4041,
-        "w": 1.4122,
-        "x": 4.3199,
-        "y": 4.1243
+        "h": 0.4414,
+        "w": 1.0569,
+        "x": 8.4556,
+        "y": 1.2121
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          157,
-          32,
-          40
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          93,
+          83,
+          100
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "table jaded fail",
-        "theme_topic": "Curved Grain",
-        "underline": false
+        "focus": false,
+        "line": [
+          74,
+          62,
+          101
+        ],
+        "line_width": 4.2402477691291125,
+        "outline_only": false,
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Grey Thank"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     }
   ],

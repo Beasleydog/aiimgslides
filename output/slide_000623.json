@@ -20,13 +20,13 @@
         45
       ],
       "fore_color": [
-        71,
-        152,
-        51
+        255,
+        117,
+        117
       ],
-      "pattern": 41,
+      "pattern": 18,
       "style": "pattern",
-      "theme_topic": "Planes"
+      "theme_topic": "Clear"
     },
     "type": "background",
     "z_order": 0
@@ -41,171 +41,108 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.3605,
-        "w": 8.2937,
-        "x": 2.5173,
-        "y": 3.074
+        "h": 3.4051,
+        "w": 8.2438,
+        "x": 4.8647,
+        "y": 3.1196
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          222,
-          108,
-          147
+          163,
+          49,
+          169
         ],
         "focus": false,
         "line": [
-          139,
-          167,
-          170
+          188,
+          80,
+          194
         ],
-        "line_width": 5.625176714156977,
-        "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Planes"
+        "line_width": 7.0813897181027,
+        "outline_only": true,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Clear"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.08,
-        "w": 8.5354,
-        "x": 0.1411,
-        "y": 3.3438
+        "h": 4.0387,
+        "w": 4.457,
+        "x": 1.8716,
+        "y": 1.8239
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          203,
-          182,
-          138
+          141,
+          177,
+          154
         ],
         "focus": false,
         "line": [
-          57,
-          129,
-          80
+          34,
+          107,
+          69
         ],
-        "line_width": 6.049536004754584,
+        "line_width": 6.774166122836885,
         "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Planes"
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Clear"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.4755,
-        "w": 8.4392,
-        "x": -0.246,
-        "y": 2.3523
+        "h": 3.5945,
+        "w": 4.1095,
+        "x": 1.9655,
+        "y": 4.4474
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 5,
+        "family": "flowchart",
         "fill": [
-          186,
-          81,
-          95
+          88,
+          101,
+          97
         ],
         "focus": false,
         "line": [
-          123,
-          149,
-          126
+          213,
+          28,
+          158
         ],
-        "line_width": 3.6420448268458907,
+        "line_width": 3.8549350376045517,
         "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Planes"
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Clear"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.8658,
-        "w": 4.1188,
-        "x": 5.6695,
-        "y": 3.1047
+        "h": 5.8068,
+        "w": 3.1937,
+        "x": 9.4159,
+        "y": 0.6385
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          123,
-          63,
-          125
-        ],
-        "focus": false,
-        "line": [
-          178,
-          71,
-          170
-        ],
-        "line_width": 6.254983297485024,
-        "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Planes"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 1.9575,
-        "x": 3.6792,
-        "y": 6.4984
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          32,
-          119,
-          149
-        ],
-        "line": [
-          206,
-          145,
-          40
-        ],
-        "line_width": 1.2628528793527753,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Planes"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.8059,
-        "w": 3.1848,
-        "x": 9.3772,
-        "y": 0.6419
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -215,55 +152,113 @@
           30,
           36
         ],
-        "font_face": "Georgia",
-        "font_size": 18,
+        "font_face": "Trebuchet MS",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Groan",
-        "theme_topic": "Planes",
+        "text": "Goofy Numberless Visitor",
+        "theme_topic": "Clear",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.4375,
+        "w": 3.3668,
+        "x": 0.8988,
+        "y": 1.5319
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Porter",
+        "theme_topic": "Clear",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.6628,
+        "w": 3.8337,
+        "x": 0.6328,
+        "y": 2.0519
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          203,
+          142,
+          39
+        ],
+        "line": [
+          203,
+          142,
+          39
+        ],
+        "line_width": 1.7337689231190654,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Clear"
+      },
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.4922,
-        "w": 2.9298,
-        "x": 0.6349,
-        "y": 0.6656
+        "h": 0.4325,
+        "w": 3.3465,
+        "x": 0.9202,
+        "y": 2.9839
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          32,
-          119,
-          149
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
         ],
-        "line": [
-          206,
-          145,
-          40
-        ],
-        "line_width": 1.3311463413608935,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Planes"
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Frail",
+        "theme_topic": "Clear",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.944,
-        "w": 2.5889,
-        "x": 0.8094,
-        "y": 1.1634
+        "h": 0.4684,
+        "w": 3.3559,
+        "x": 0.9067,
+        "y": 4.8264
       },
       "id": "object_008",
       "properties": {
@@ -271,17 +266,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          232,
-          163,
-          45
+          255,
+          198,
+          74
         ],
-        "font_face": "Georgia",
-        "font_size": 36,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "69%",
-        "theme_topic": "Planes",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Needy Books",
+        "theme_topic": "Clear",
         "underline": false
       },
       "type": "text",
@@ -289,28 +284,28 @@
     },
     {
       "bbox": {
-        "h": 0.5807,
-        "w": 2.5919,
-        "x": 0.8333,
-        "y": 2.1576
+        "h": 0.4612,
+        "w": 3.3275,
+        "x": 0.886,
+        "y": 6.4589
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          28,
-          30,
-          36
+          255,
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "quince cold include dinner feigned alert sign",
-        "theme_topic": "Planes",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Skip",
+        "theme_topic": "Clear",
         "underline": false
       },
       "type": "text",
@@ -318,202 +313,212 @@
     },
     {
       "bbox": {
-        "h": 2.5323,
-        "w": 2.073,
-        "x": 6.7981,
-        "y": 0.617
+        "h": 2.9774,
+        "w": 1.8408,
+        "x": 4.9109,
+        "y": 0.6704
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": false,
-        "line": [
-          50,
-          137,
-          95
+        "crop": [
+          0.04120700232269211,
+          0.3210676793694078,
+          0.03802374241075822,
+          0.041269045565471736
         ],
-        "line_width": 9,
-        "theme_topic": "Planes"
+        "focus": false,
+        "mask_line": [
+          81,
+          192,
+          176
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Clear",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg_image",
+      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 2.4836,
-        "w": 2.5672,
-        "x": 3.9045,
-        "y": 0.6593
+        "h": 2.9836,
+        "w": 1.8818,
+        "x": 6.9217,
+        "y": 0.692
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.13411454415866836,
-          0.12924798415475003,
-          0.09945820310968782,
-          0.1295204583477874
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          203,
+          142,
+          39
         ],
-        "focus": false,
-        "mask_line": [
-          216,
-          36,
-          170
+        "line": [
+          203,
+          142,
+          39
         ],
-        "mask_overlay": false,
-        "theme_topic": "Planes",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 0.8253514292328517,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Clear"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.2889,
-        "w": 2.172,
-        "x": 4.0851,
-        "y": 2.7128
+        "h": 2.6928,
+        "w": 1.5847,
+        "x": 7.1196,
+        "y": 0.8168
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
+        "crop": [
+          0.17715119303612412,
+          0.24554652172655045,
+          0.043003947783733225,
+          0.05902191765991391
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Cheat Education Rejoice",
-        "theme_topic": "Planes",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          32,
+          91,
+          186
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Clear",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.6209,
-        "w": 1.2429,
-        "x": 2.982,
-        "y": 1.5087
+        "h": 2.9995,
+        "w": 1.8729,
+        "x": 4.8789,
+        "y": 3.8416
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          32,
-          119,
-          149
+        "crop": [
+          0.2498204591128058,
+          0.11287403049193523,
+          0.1863821931845991,
+          0.20199248841401404
         ],
         "focus": false,
-        "line": [
-          141,
-          43,
-          198
+        "mask_line": [
+          255,
+          198,
+          74
         ],
-        "line_width": 1.8777980709375404,
-        "outline_only": false,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Planes"
+        "mask_overlay": false,
+        "theme_topic": "Clear",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.2175,
-        "w": 1.8993,
-        "x": 2.9811,
-        "y": 0.539
+        "h": 3.0287,
+        "w": 1.8412,
+        "x": 6.9504,
+        "y": 3.8607
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          106,
-          145,
-          149
+        "crop": [
+          0.038136946314167156,
+          0.26257432468269876,
+          0.2110524554210009,
+          0.21710467756835206
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "rock brass",
-        "theme_topic": "Planes",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          255,
+          198,
+          74
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Clear",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.5843,
-        "w": 0.5823,
-        "x": 12.0668,
-        "y": 2.7207
+        "h": 0.5874,
+        "w": 2.0971,
+        "x": 9.2111,
+        "y": 5.9098
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          139,
-          155,
-          132
+        "bg_color": [
+          144,
+          89,
+          143
         ],
-        "focus": false,
-        "line": [
-          32,
-          119,
-          149
+        "bold": true,
+        "color": [
+          43,
+          204,
+          121
         ],
-        "line_width": 2.0871037239479833,
-        "outline_only": false,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Planes"
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Peep Cheer",
+        "theme_topic": "Clear",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.416,
-        "w": 2.3143,
-        "x": 10.0685,
-        "y": 0.9672
+        "h": 0.3933,
+        "w": 2.3877,
+        "x": 2.6702,
+        "y": 5.4443
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          216,
+          111,
+          200
+        ],
         "bold": false,
         "color": [
-          223,
-          38,
-          126
+          139,
+          221,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
+        "font_face": "Verdana",
+        "font_size": 7,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "living company",
-        "theme_topic": "Planes",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Purple Pizzas Government",
+        "theme_topic": "Clear",
         "underline": false
       },
       "type": "text",

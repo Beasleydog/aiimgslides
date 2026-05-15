@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 180,
       "archetype": "atomic_composition",
-      "fill": [
-        76,
-        99,
-        145
+      "colors": [
+        [
+          52,
+          127,
+          155
+        ],
+        [
+          72,
+          85,
+          155
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Agonizing Ball"
+      "fill": [
+        198,
+        64,
+        91
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Precede Tremble"
     },
     "type": "background",
     "z_order": 0
@@ -30,76 +45,139 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.3321,
-        "w": 4.4644,
-        "x": 4.4784,
-        "y": -0.6225
+        "h": 1.7312,
+        "w": 3.6363,
+        "x": -0.8376,
+        "y": 1.1588
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "basic",
         "fill": [
-          85,
-          106,
-          108
+          166,
+          122,
+          76
         ],
         "focus": false,
         "line": [
-          82,
-          61,
-          117
+          199,
+          190,
+          166
         ],
-        "line_width": 2.795703986150845,
-        "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Agonizing Ball"
+        "line_width": 5.8464369073144775,
+        "outline_only": true,
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Precede Tremble"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.313,
-        "w": 6.3539,
-        "x": 1.6052,
-        "y": -0.3228
+        "h": 2.9749,
+        "w": 7.3259,
+        "x": 2.0143,
+        "y": 0.6165
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 5,
         "family": "symbols",
         "fill": [
-          159,
-          62,
-          184
+          88,
+          150,
+          82
         ],
         "focus": false,
         "line": [
-          93,
-          197,
-          59
+          75,
+          99,
+          55
         ],
-        "line_width": 2.604163313878079,
-        "outline_only": true,
-        "ppt_type": 24,
-        "shape": "moon",
-        "theme_topic": "Agonizing Ball"
+        "line_width": 3.097716200928704,
+        "outline_only": false,
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Precede Tremble"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.2751,
-        "w": 5.4011,
-        "x": 0.5494,
-        "y": 0.3401
+        "h": 4.7157,
+        "w": 5.7199,
+        "x": 5.6986,
+        "y": 2.6322
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          209,
+          66,
+          55
+        ],
+        "focus": false,
+        "line": [
+          89,
+          110,
+          187
+        ],
+        "line_width": 4.445828057503909,
+        "outline_only": false,
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Precede Tremble"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 4.4964,
+        "w": 4.2808,
+        "x": 0.0073,
+        "y": -0.0014
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          213,
+          114,
+          134
+        ],
+        "line": [
+          213,
+          114,
+          134
+        ],
+        "line_width": 3.2848042612691195,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Precede Tremble"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.8043,
+        "w": 3.212,
+        "x": 9.424,
+        "y": 0.6532
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -110,70 +188,12 @@
           252
         ],
         "font_face": "Georgia",
-        "font_size": 37,
+        "font_size": 22,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Elegant Tasteful",
-        "theme_topic": "Agonizing Ball",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.5836,
-        "w": 2.1206,
-        "x": 0.6082,
-        "y": 2.8491
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "slap sofa dysfunctional abrupt torpid greet tawdry",
-        "theme_topic": "Agonizing Ball",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.4877,
-        "w": 2.1033,
-        "x": 0.6236,
-        "y": 4.641
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "books button young intend evanescent somber",
-        "theme_topic": "Agonizing Ball",
+        "text": "Flame Mist",
+        "theme_topic": "Precede Tremble",
         "underline": false
       },
       "type": "text",
@@ -181,28 +201,28 @@
     },
     {
       "bbox": {
-        "h": 0.5116,
-        "w": 2.0852,
-        "x": 0.6207,
-        "y": 6.3202
+        "h": 0.7114,
+        "w": 7.9109,
+        "x": 0.808,
+        "y": 4.9249
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          186,
+          98,
+          75
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Georgia",
+        "font_size": 38,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "sound toys faded coal profit bridge",
-        "theme_topic": "Agonizing Ball",
+        "text": "Awful Verdant Stove Wiggly",
+        "theme_topic": "Precede Tremble",
         "underline": false
       },
       "type": "text",
@@ -210,28 +230,28 @@
     },
     {
       "bbox": {
-        "h": 0.4593,
-        "w": 0.6556,
-        "x": 3.4888,
-        "y": 3.6742
+        "h": 0.8975,
+        "w": 7.8892,
+        "x": 0.7795,
+        "y": 5.8456
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          71,
-          221,
-          181
+          224,
+          165,
+          179
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Typical",
-        "theme_topic": "Agonizing Ball",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "stupendous oranges reproduce bolt light snotty whirl scarce cheer wink tire",
+        "theme_topic": "Precede Tremble",
         "underline": false
       },
       "type": "text",
@@ -239,117 +259,117 @@
     },
     {
       "bbox": {
-        "h": 1.2179,
-        "w": 0.6355,
-        "x": 3.4987,
-        "y": 4.2451
+        "h": 0.5484,
+        "w": 7.9061,
+        "x": 0.8155,
+        "y": 0.7472
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          169,
-          180,
-          203
+          145,
+          57,
+          109
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "rot outstanding overconfident rich shocking launch absurd hapless youthful command pizzas tour",
-        "theme_topic": "Agonizing Ball",
-        "underline": false
+        "text": "Ghost Ice Draconian Dashing",
+        "theme_topic": "Precede Tremble",
+        "underline": true
       },
       "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 2.8775,
-        "w": 1.4732,
-        "x": 4.6112,
-        "y": 2.7844
+        "h": 0.654,
+        "w": 7.8798,
+        "x": 0.8078,
+        "y": 1.5763
       },
       "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          104,
-          123,
-          162
-        ],
-        "line": [
-          104,
-          123,
-          162
-        ],
-        "line_width": 3.7726516835159987,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Agonizing Ball"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.4358,
-        "w": 0.9915,
-        "x": 4.8806,
-        "y": 3.6838
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Frail Drip",
-        "theme_topic": "Agonizing Ball",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 1.2348,
-        "w": 0.9878,
-        "x": 4.8596,
-        "y": 4.2318
-      },
-      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          169,
-          180,
-          203
+          224,
+          165,
+          179
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "unfasten limping weather riddle joyous wooden tramp tub rat report produce bore telephone receive nosy",
-        "theme_topic": "Agonizing Ball",
+        "text": "military tickle squeamish ready naughty consider satisfying drawer scare carriage grass lie fluttering curved",
+        "theme_topic": "Precede Tremble",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 1.783,
+        "w": 2.4695,
+        "x": 0.6361,
+        "y": 2.6728
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          156,
+          104,
+          108
+        ],
+        "line": [
+          213,
+          114,
+          134
+        ],
+        "line_width": 4.46824813733576,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Precede Tremble"
+      },
+      "type": "shape",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.7289,
+        "w": 2.0906,
+        "x": 0.8222,
+        "y": 2.8401
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          117,
+          161
+        ],
+        "font_face": "Georgia",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "5.8x",
+        "theme_topic": "Precede Tremble",
         "underline": false
       },
       "type": "text",
@@ -357,41 +377,39 @@
     },
     {
       "bbox": {
-        "h": 2.892,
-        "w": 1.7501,
-        "x": 6.3069,
-        "y": 2.7932
+        "h": 0.7924,
+        "w": 2.1073,
+        "x": 0.8398,
+        "y": 3.6092
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          104,
-          123,
-          162
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          224,
+          165,
+          179
         ],
-        "line": [
-          104,
-          123,
-          162
-        ],
-        "line_width": 1.2354578390554145,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Agonizing Ball"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "harbor windy offbeat",
+        "theme_topic": "Precede Tremble",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.4512,
-        "w": 1.2815,
-        "x": 6.5792,
-        "y": 3.6767
+        "h": 0.7471,
+        "w": 2.3476,
+        "x": 3.4894,
+        "y": 2.8783
       },
       "id": "object_013",
       "properties": {
@@ -399,17 +417,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          31,
+          117,
+          161
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Georgia",
+        "font_size": 36,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Impolite",
-        "theme_topic": "Agonizing Ball",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "52",
+        "theme_topic": "Precede Tremble",
         "underline": false
       },
       "type": "text",
@@ -417,10 +435,10 @@
     },
     {
       "bbox": {
-        "h": 1.2349,
-        "w": 1.2799,
-        "x": 6.548,
-        "y": 4.2041
+        "h": 0.7709,
+        "w": 2.3554,
+        "x": 3.4662,
+        "y": 3.5911
       },
       "id": "object_014",
       "properties": {
@@ -428,17 +446,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          169,
-          180,
-          203
+          224,
+          165,
+          179
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "abundant border swing magical fry ban film substantial delicious bike metal stupid",
-        "theme_topic": "Agonizing Ball",
+        "text": "hum paste passenger dramatic",
+        "theme_topic": "Precede Tremble",
         "underline": false
       },
       "type": "text",
@@ -446,10 +464,10 @@
     },
     {
       "bbox": {
-        "h": 2.8817,
-        "w": 1.7823,
-        "x": 8.2869,
-        "y": 2.7606
+        "h": 1.7827,
+        "w": 2.6807,
+        "x": 6.1832,
+        "y": 2.678
       },
       "id": "object_015",
       "properties": {
@@ -457,30 +475,30 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          104,
-          123,
-          162
+          213,
+          114,
+          134
         ],
         "line": [
-          104,
-          123,
-          162
+          213,
+          114,
+          134
         ],
-        "line_width": 4.26883687803806,
+        "line_width": 3.4807811904084316,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Agonizing Ball"
+        "theme_topic": "Precede Tremble"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.4472,
-        "w": 1.2702,
-        "x": 8.5472,
-        "y": 3.6865
+        "h": 0.7664,
+        "w": 2.3264,
+        "x": 6.3643,
+        "y": 2.8735
       },
       "id": "object_016",
       "properties": {
@@ -488,17 +506,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          31,
+          117,
+          161
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Georgia",
+        "font_size": 37,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Wary Agreeable",
-        "theme_topic": "Agonizing Ball",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "66%",
+        "theme_topic": "Precede Tremble",
         "underline": false
       },
       "type": "text",
@@ -506,10 +524,10 @@
     },
     {
       "bbox": {
-        "h": 1.2269,
-        "w": 1.3125,
-        "x": 8.5359,
-        "y": 4.2394
+        "h": 0.8002,
+        "w": 2.3174,
+        "x": 6.3802,
+        "y": 3.6087
       },
       "id": "object_017",
       "properties": {
@@ -517,17 +535,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          169,
-          180,
-          203
+          224,
+          165,
+          179
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "resolute next unpack public cool tumble sin bruise certain",
-        "theme_topic": "Agonizing Ball",
+        "text": "fireman stroke invention toes hoc",
+        "theme_topic": "Precede Tremble",
         "underline": false
       },
       "type": "text",
@@ -535,89 +553,95 @@
     },
     {
       "bbox": {
-        "h": 0.2636,
-        "w": 6.5517,
-        "x": 3.393,
-        "y": 5.9664
+        "h": 0.7935,
+        "w": 1.3696,
+        "x": 7.1426,
+        "y": 2.3322
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          40,
+          56,
+          229
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "PICTURE DELIGHTFUL",
-        "theme_topic": "Agonizing Ball",
-        "underline": false
+        "focus": false,
+        "line": [
+          53,
+          85,
+          159
+        ],
+        "line_width": 2.2391017722186817,
+        "outline_only": false,
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Precede Tremble"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
         "h": 0.2,
-        "w": 6.5493,
-        "x": 3.4057,
-        "y": 6.4608
+        "w": 1.6745,
+        "x": 1.9036,
+        "y": 0.9004
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          246,
-          248,
-          252
+          130,
+          57,
+          221
         ],
-        "font_face": "Georgia",
-        "font_size": 18,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Coat",
-        "theme_topic": "Agonizing Ball",
-        "underline": false
+        "text": "half amuse",
+        "theme_topic": "Precede Tremble",
+        "underline": true
       },
       "type": "text",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.2287,
-        "w": 0.9159,
-        "x": 8.3676,
-        "y": 7.0844
+        "h": 0.4284,
+        "w": 1.3568,
+        "x": 2.1407,
+        "y": 1.1177
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          111,
-          91,
-          195
+        "dash": 4,
+        "family": "ribbons",
+        "fill": [
+          104,
+          214,
+          175
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "certain right bent",
-        "theme_topic": "Agonizing Ball",
-        "underline": false
+        "focus": false,
+        "line": [
+          207,
+          197,
+          108
+        ],
+        "line_width": 4.56418880373101,
+        "outline_only": false,
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Precede Tremble"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 20
     }
   ],

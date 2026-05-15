@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 90,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          226,
-          167,
-          72
-        ],
-        [
-          172,
-          172,
-          192
-        ]
+      "back_color": [
+        140,
+        39,
+        113
       ],
       "fill": [
-        226,
-        167,
-        72
+        240,
+        176,
+        54
       ],
-      "focus": "center",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Ablaze"
+      "fore_color": [
+        168,
+        54,
+        94
+      ],
+      "pattern": 24,
+      "style": "pattern",
+      "theme_topic": "Youthful"
     },
     "type": "background",
     "z_order": 0
@@ -45,190 +41,198 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.1348,
-        "w": 6.7501,
-        "x": 6.5567,
-        "y": 0.0063
+        "h": 4.5456,
+        "w": 8.9157,
+        "x": 0.6687,
+        "y": -0.2544
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
+        "dash": 5,
+        "family": "basic",
         "fill": [
-          178,
-          131,
-          56
+          194,
+          111,
+          64
         ],
+        "focus": false,
         "line": [
-          178,
-          131,
-          56
+          47,
+          180,
+          137
         ],
-        "line_width": 1.041129071884231,
+        "line_width": 2.749938697715516,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Ablaze"
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Youthful"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.051,
-        "w": 6.64,
-        "x": 0.5515,
-        "y": 0.342
+        "h": 1.5958,
+        "w": 9.0121,
+        "x": 1.3497,
+        "y": 3.4434
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          149,
+          87,
+          76
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 31,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Afternoon Receptive Kitty",
-        "theme_topic": "Ablaze",
-        "underline": false
+        "focus": false,
+        "line": [
+          124,
+          71,
+          81
+        ],
+        "line_width": 2.795599030169842,
+        "outline_only": false,
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Youthful"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.2092,
-        "w": 6.3856,
-        "x": 0.5685,
-        "y": 1.8474
+        "h": 4.1266,
+        "w": 6.8888,
+        "x": -0.239,
+        "y": 3.2136
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 4,
+        "family": "symbols",
         "fill": [
-          178,
-          131,
-          56
+          122,
+          166,
+          90
         ],
+        "focus": false,
         "line": [
-          178,
-          131,
-          56
+          136,
+          107,
+          193
         ],
-        "line_width": 1.852961064038734,
+        "line_width": 4.647865218087836,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Ablaze"
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Youthful"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.4702,
-        "w": 5.8991,
-        "x": 0.8151,
-        "y": 2.7457
+        "h": 4.1825,
+        "w": 4.1853,
+        "x": 7.2745,
+        "y": 2.529
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          165,
+          145,
+          105
+        ],
+        "focus": false,
+        "line": [
+          197,
+          95,
+          67
+        ],
+        "line_width": 4.487389479682737,
+        "outline_only": false,
+        "ppt_type": 14,
+        "shape": "cube",
+        "theme_topic": "Youthful"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.1679,
+        "w": 7.8128,
+        "x": 0.604,
+        "y": 0.6794
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          245,
+          193,
+          78
+        ],
+        "line": [
+          249,
+          203,
+          91
+        ],
+        "line_width": 4.509593637118862,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Youthful"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.2384,
+        "w": 6.084,
+        "x": 0.5492,
+        "y": 0.3618
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          40,
+          38,
+          28
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Brash Friction",
-        "theme_topic": "Ablaze",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.5502,
-        "w": 5.9258,
-        "x": 0.7894,
-        "y": 3.3168
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          117,
-          91,
-          52
-        ],
-        "font_face": "Verdana",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "bag filthy heartbreaking equal scream healthy versed tickle ajar morning hover follow hallowed six",
-        "theme_topic": "Ablaze",
+        "text": "Wind Explain Utter Elfin",
+        "theme_topic": "Youthful",
         "underline": false
       },
       "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.2291,
-        "w": 5.5998,
-        "x": 7.1836,
-        "y": 1.8512
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          178,
-          131,
-          56
-        ],
-        "line": [
-          178,
-          131,
-          56
-        ],
-        "line_width": 1.8154967597536336,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Ablaze"
-      },
-      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4712,
-        "w": 5.1273,
-        "x": 7.3976,
-        "y": 2.7349
+        "h": 0.2708,
+        "w": 6.2797,
+        "x": 0.6904,
+        "y": 1.9687
       },
       "id": "object_007",
       "properties": {
@@ -236,17 +240,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          32,
+          119,
+          149
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Tenuous Concern",
-        "theme_topic": "Ablaze",
+        "text": "MASS",
+        "theme_topic": "Youthful",
         "underline": false
       },
       "type": "text",
@@ -254,28 +258,28 @@
     },
     {
       "bbox": {
-        "h": 0.5815,
-        "w": 5.1096,
-        "x": 7.4398,
-        "y": 3.2901
+        "h": 1.0299,
+        "w": 6.284,
+        "x": 0.7199,
+        "y": 2.4614
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          117,
-          91,
-          52
+          40,
+          38,
+          28
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Georgia",
+        "font_size": 31,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "tangible addition venomous unarmed assorted advertisement ink agree impress testy charming wary jeans stone square",
-        "theme_topic": "Ablaze",
+        "text": "Obsequious Mend",
+        "theme_topic": "Youthful",
         "underline": false
       },
       "type": "text",
@@ -283,86 +287,86 @@
     },
     {
       "bbox": {
-        "h": 2.5744,
-        "w": 5.7173,
-        "x": 0.5501,
-        "y": 4.4513
+        "h": 3.1053,
+        "w": 6.2932,
+        "x": 0.6944,
+        "y": 3.7706
       },
       "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.01607387355515163,
-          0.30566076190322566,
-          0.10742885576040877,
-          0.22590324409568546
-        ],
-        "focus": true,
-        "mask_line": [
-          37,
-          53,
-          112
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Ablaze",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.425,
-        "w": 0.8025,
-        "x": 6.7959,
-        "y": 5.3338
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
-        ],
-        "font_face": "Verdana",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Moaning",
-        "theme_topic": "Ablaze",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.9099,
-        "w": 0.8178,
-        "x": 6.7687,
-        "y": 5.8814
-      },
-      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          117,
-          91,
-          52
+          94,
+          82,
+          58
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "run next show glove obeisant harsh thoughtless vagabond synonymous show blush plausible",
-        "theme_topic": "Ablaze",
+        "text": "truthful freezing rejoice park rake puffy dare cat bad truck bright berry aware tickle defiant zesty",
+        "theme_topic": "Youthful",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 2.4495,
+        "w": 1.6883,
+        "x": 7.4234,
+        "y": 1.9255
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.02200222229419885,
+          0.06702207040584018,
+          0.2153910575582321,
+          0.15885496523901538
+        ],
+        "focus": false,
+        "mask_line": [
+          32,
+          119,
+          149
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Youthful",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.2881,
+        "w": 1.2402,
+        "x": 7.6532,
+        "y": 3.9058
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Root",
+        "theme_topic": "Youthful",
         "underline": false
       },
       "type": "text",
@@ -370,57 +374,57 @@
     },
     {
       "bbox": {
-        "h": 0.4609,
-        "w": 1.0079,
-        "x": 8.2919,
-        "y": 5.3671
+        "h": 2.4769,
+        "w": 1.6738,
+        "x": 9.2805,
+        "y": 1.8988
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "crop": [
+          0.04988801427255851,
+          0.01472640300655133,
+          0.12919371696799473,
+          0.09742128705923828
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Dear Store",
-        "theme_topic": "Ablaze",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          137,
+          50,
+          127
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Youthful",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.9041,
-        "w": 1.0158,
-        "x": 8.3348,
-        "y": 5.902
+        "h": 0.2667,
+        "w": 1.2463,
+        "x": 9.4837,
+        "y": 3.8947
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          117,
-          91,
-          52
+          32,
+          119,
+          149
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "grade card obtain squeamish lovely horrible hang fold doubtful hesitant disastrous courageous edge strange",
-        "theme_topic": "Ablaze",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Talented",
+        "theme_topic": "Youthful",
         "underline": false
       },
       "type": "text",
@@ -428,86 +432,86 @@
     },
     {
       "bbox": {
-        "h": 0.4411,
-        "w": 0.9827,
-        "x": 10.0632,
-        "y": 5.3701
+        "h": 2.4636,
+        "w": 1.6723,
+        "x": 11.098,
+        "y": 1.9182
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Elegant Basin",
-        "theme_topic": "Ablaze",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          115,
+          227,
+          112
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Youthful",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.888,
-        "w": 0.9663,
-        "x": 10.0469,
-        "y": 5.8839
+        "h": 0.5914,
+        "w": 1.8793,
+        "x": 9.0613,
+        "y": 2.7477
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          117,
-          91,
-          52
+          212,
+          223,
+          117
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "telephone scared achiever ratty land doctor bleach drop cuddly",
-        "theme_topic": "Ablaze",
-        "underline": false
+        "connector": "elbow",
+        "dash": 2,
+        "flip": true,
+        "ppt_type": 2,
+        "theme_topic": "Youthful",
+        "width": 2.1153677440009306
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.4721,
-        "w": 0.8149,
-        "x": 11.7388,
-        "y": 5.3561
+        "h": 0.5246,
+        "w": 0.6031,
+        "x": 0.938,
+        "y": 1.7779
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "bg_color": [
+          183,
+          212,
+          88
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "bold": false,
+        "color": [
+          100,
+          198,
+          223
+        ],
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Ashamed Weary",
-        "theme_topic": "Ablaze",
+        "text": "Bloody",
+        "theme_topic": "Youthful",
         "underline": false
       },
       "type": "text",
@@ -515,39 +519,42 @@
     },
     {
       "bbox": {
-        "h": 0.8821,
-        "w": 0.7756,
-        "x": 11.7452,
-        "y": 5.8989
+        "h": 0.8699,
+        "w": 1.4116,
+        "x": 1.5576,
+        "y": 4.6276
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          117,
-          91,
-          52
+        "dash": 3,
+        "family": "basic",
+        "fill": [
+          170,
+          150,
+          186
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "fool toothbrush accessible pig zippy gullible laugh cent",
-        "theme_topic": "Ablaze",
-        "underline": false
+        "focus": false,
+        "line": [
+          224,
+          159,
+          161
+        ],
+        "line_width": 1.4657896635204766,
+        "outline_only": false,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Youthful"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.2607,
-        "w": 1.6332,
-        "x": 10.152,
-        "y": 2.8894
+        "h": 0.3063,
+        "w": 1.4561,
+        "x": 10.1834,
+        "y": 1.4356
       },
       "id": "object_018",
       "properties": {
@@ -555,17 +562,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          180,
-          201,
-          185
+          217,
+          222,
+          55
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 13,
-        "italic": false,
+        "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Useful Rob",
-        "theme_topic": "Ablaze",
+        "text": "Unequal Hydrant",
+        "theme_topic": "Youthful",
         "underline": false
       },
       "type": "text",
@@ -573,31 +580,34 @@
     },
     {
       "bbox": {
-        "h": 0.4286,
-        "w": 1.4855,
-        "x": 10.1439,
-        "y": 5.1283
+        "h": 0.8985,
+        "w": 0.2171,
+        "x": 0.3217,
+        "y": 3.1425
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          229,
-          140,
-          79
+        "dash": 5,
+        "family": "symbols",
+        "fill": [
+          122,
+          192,
+          52
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Size Stir",
-        "theme_topic": "Ablaze",
-        "underline": false
+        "focus": false,
+        "line": [
+          155,
+          229,
+          95
+        ],
+        "line_width": 4.352322043157212,
+        "outline_only": false,
+        "ppt_type": 173,
+        "shape": "gear9",
+        "theme_topic": "Youthful"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 19
     }
   ],

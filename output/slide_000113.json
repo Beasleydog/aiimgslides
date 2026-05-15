@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
+      "angle": 135,
       "archetype": "atomic_composition",
       "colors": [
         [
-          43,
-          162,
-          130
+          66,
+          75,
+          90
         ],
         [
-          255,
-          238,
-          103
+          168,
+          54,
+          94
         ]
       ],
       "fill": [
-        28,
-        143,
-        112
+        186,
+        133,
+        128
       ],
-      "focus": "center",
-      "gradient_type": "rectangular",
+      "focus": "top_left",
+      "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Clam"
+      "theme_topic": "Flag Desert"
     },
     "type": "background",
     "z_order": 0
@@ -45,10 +45,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.1232,
-        "w": 8.3734,
-        "x": 5.5841,
-        "y": 0.6711
+        "h": 4.1744,
+        "w": 6.7019,
+        "x": 7.7167,
+        "y": 2.073
       },
       "id": "object_001",
       "properties": {
@@ -56,84 +56,87 @@
         "dash": 1,
         "family": "arrows",
         "fill": [
-          105,
-          180,
-          94
+          185,
+          103,
+          192
         ],
         "focus": false,
         "line": [
-          133,
-          144,
-          221
+          67,
+          39,
+          50
         ],
-        "line_width": 4.682683137518555,
+        "line_width": 6.648312522737804,
         "outline_only": true,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Clam"
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Flag Desert"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.3707,
-        "w": 7.7647,
-        "x": 4.0209,
-        "y": 1.5671
+        "h": 5.1763,
+        "w": 7.6481,
+        "x": -0.2365,
+        "y": 2.0101
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 2,
+        "family": "math",
         "fill": [
-          98,
-          95,
-          60
+          218,
+          194,
+          51
         ],
         "focus": false,
         "line": [
-          102,
-          219,
-          152
+          185,
+          168,
+          117
         ],
-        "line_width": 2.099945590827311,
-        "outline_only": false,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Clam"
+        "line_width": 3.7591262905252796,
+        "outline_only": true,
+        "ppt_type": 165,
+        "shape": "multiply",
+        "theme_topic": "Flag Desert"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1413,
-        "w": 7.1581,
-        "x": 2.3667,
-        "y": 0.6525
+        "h": 3.1578,
+        "w": 8.2843,
+        "x": 5.3613,
+        "y": 4.4543
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          248,
-          255,
-          252
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          119,
+          138,
+          124
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Impulse Bumpy Swing Like",
-        "theme_topic": "Clam",
-        "underline": false
+        "focus": false,
+        "line": [
+          32,
+          177,
+          95
+        ],
+        "line_width": 2.9170242099346826,
+        "outline_only": false,
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Flag Desert"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     }
   ],

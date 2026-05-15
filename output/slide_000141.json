@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 90,
+      "angle": 45,
       "archetype": "atomic_composition",
       "colors": [
         [
-          79,
-          39,
-          213
+          66,
+          58,
+          204
         ],
         [
-          71,
-          221,
-          181
+          255,
+          117,
+          117
         ]
       ],
       "fill": [
-        120,
-        58,
-        170
+        61,
+        64,
+        91
       ],
-      "focus": "center",
-      "gradient_type": "linear",
+      "focus": "bottom_right",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Nasty"
+      "theme_topic": "Wet Writing"
     },
     "type": "background",
     "z_order": 0
@@ -45,68 +45,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 0.8768,
-        "w": 5.9197,
-        "x": 4.9966,
-        "y": 1.0796
+        "h": 3.6944,
+        "w": 4.0495,
+        "x": 8.372,
+        "y": 2.3297
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          250,
-          255
+        "dash": 5,
+        "family": "flowchart",
+        "fill": [
+          178,
+          106,
+          109
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Calculator Likeable System Start",
-        "theme_topic": "Nasty",
-        "underline": false
+        "focus": false,
+        "line": [
+          215,
+          72,
+          25
+        ],
+        "line_width": 3.8829018234980084,
+        "outline_only": false,
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Wet Writing"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.2912,
-        "w": 6.4961,
-        "x": 0.7082,
-        "y": 5.4691
+        "h": 4.615,
+        "w": 6.8171,
+        "x": 6.5306,
+        "y": -0.0631
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          125,
+          106,
+          104
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "COIL DARK",
-        "theme_topic": "Nasty",
-        "underline": false
+        "focus": false,
+        "line": [
+          166,
+          189,
+          195
+        ],
+        "line_width": 2.993410808519135,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Wet Writing"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.341,
-        "w": 6.4648,
-        "x": 0.6782,
-        "y": 5.9611
+        "h": 5.8223,
+        "w": 3.1913,
+        "x": 9.4135,
+        "y": 0.6624
       },
       "id": "object_003",
       "properties": {
@@ -114,17 +120,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          250,
-          255
+          246,
+          248,
+          252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 18,
+        "font_face": "Arial",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Sprout",
-        "theme_topic": "Nasty",
+        "text": "Example",
+        "theme_topic": "Wet Writing",
         "underline": false
       },
       "type": "text",
@@ -132,31 +138,31 @@
     },
     {
       "bbox": {
-        "h": 0.3355,
-        "w": 6.4908,
-        "x": 0.7244,
-        "y": 6.567
+        "h": 1.7102,
+        "w": 2.0267,
+        "x": 1.8829,
+        "y": 1.9594
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          230,
-          210,
-          240
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "scarf jewel stomach cautious ban caption harsh amusing alcoholic meat versed wicked charge trite gold juvenile throat",
-        "theme_topic": "Nasty",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          255,
+          198,
+          74
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Wet Writing",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 4
     }
   ],

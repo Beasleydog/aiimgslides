@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        34,
-        103,
-        172
+      "back_color": [
+        123,
+        147,
+        90
       ],
-      "style": "solid",
-      "theme_topic": "Jog Spiky"
+      "fill": [
+        104,
+        131,
+        65
+      ],
+      "fore_color": [
+        144,
+        129,
+        209
+      ],
+      "pattern": 25,
+      "style": "pattern",
+      "theme_topic": "Bag Courageous"
     },
     "type": "background",
     "z_order": 0
@@ -30,289 +41,75 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.9273,
-        "w": 8.6863,
-        "x": -1.0814,
-        "y": 5.6814
+        "h": 3.5879,
+        "w": 3.0252,
+        "x": 4.3672,
+        "y": 0.2774
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 5,
+        "family": "flowchart",
         "fill": [
-          88,
-          69,
-          136
+          64,
+          97,
+          164
         ],
         "focus": false,
         "line": [
-          132,
-          144,
-          224
+          70,
+          160,
+          219
         ],
-        "line_width": 3.903620819571106,
+        "line_width": 2.6439719808458,
         "outline_only": false,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Jog Spiky"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Bag Courageous"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.5723,
-        "w": 5.6187,
-        "x": 4.7538,
-        "y": 0.9997
+        "h": 0.9247,
+        "w": 13.3184,
+        "x": 0.0128,
+        "y": 0.0057
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 5,
-        "family": "stars",
+        "family": "panel",
         "fill": [
-          124,
-          74,
-          89
+          123,
+          147,
+          90
         ],
-        "focus": false,
         "line": [
-          168,
-          200,
-          45
+          123,
+          147,
+          90
         ],
-        "line_width": 4.05663491238132,
+        "line_width": 3.15345688502542,
         "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Jog Spiky"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Bag Courageous"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.9864,
-        "w": 8.0495,
-        "x": 0.1972,
-        "y": 3.8258
+        "h": 5.779,
+        "w": 3.2077,
+        "x": 9.4203,
+        "y": 0.6599
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          122,
-          121,
-          126
-        ],
-        "focus": false,
-        "line": [
-          177,
-          142,
-          179
-        ],
-        "line_width": 3.1301888097298525,
-        "outline_only": true,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Jog Spiky"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.3096,
-        "w": 3.4578,
-        "x": 3.5447,
-        "y": 1.7907
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          34,
-          68,
-          158
-        ],
-        "focus": false,
-        "line": [
-          139,
-          195,
-          88
-        ],
-        "line_width": 5.479589885697947,
-        "outline_only": true,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Jog Spiky"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.6228,
-        "w": 6.6645,
-        "x": 0.5346,
-        "y": 4.3822
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          94,
-          144,
-          194
-        ],
-        "line": [
-          94,
-          144,
-          194
-        ],
-        "line_width": 1.0415851242208496,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Jog Spiky"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.7398,
-        "w": 6.2862,
-        "x": 0.7058,
-        "y": 4.5439
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
-        ],
-        "font_face": "Arial",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "52",
-        "theme_topic": "Jog Spiky",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.606,
-        "w": 6.2692,
-        "x": 0.7107,
-        "y": 5.2606
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          150,
-          182,
-          216
-        ],
-        "font_face": "Arial",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "permissible robin divide wave throne",
-        "theme_topic": "Jog Spiky",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 2.6488,
-        "w": 5.3918,
-        "x": 7.3669,
-        "y": 4.3565
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          39,
-          117,
-          138
-        ],
-        "line": [
-          94,
-          144,
-          194
-        ],
-        "line_width": 4.945921637576735,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Jog Spiky"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.6407,
-        "w": 5.0569,
-        "x": 7.5382,
-        "y": 5.2866
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          150,
-          182,
-          216
-        ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "undress modern private jumbled nostalgic shivering",
-        "theme_topic": "Jog Spiky",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 1.3963,
-        "w": 3.9704,
-        "x": 4.9572,
-        "y": 1.6436
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -322,16 +119,229 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 27,
+        "font_face": "Aptos Display",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Known Longing Mess Callous Cart Purpose",
-        "theme_topic": "Jog Spiky",
+        "text": "Gratis Gullible",
+        "theme_topic": "Bag Courageous",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.8238,
+        "w": 2.9988,
+        "x": 5.8336,
+        "y": 4.1161
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.22171287254101543,
+          0.1264160070288547,
+          0.13421185271820996,
+          0.0988750581263475
+        ],
+        "focus": true,
+        "mask_line": [
+          191,
+          93,
+          92
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Bag Courageous",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.265,
+        "w": 2.5899,
+        "x": 6.0717,
+        "y": 6.4601
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Scrape Soothe Space",
+        "theme_topic": "Bag Courageous",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.9497,
+        "w": 1.6555,
+        "x": 3.6312,
+        "y": 4.2267
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          112,
+          144,
+          97
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Same Basin Friendly",
+        "theme_topic": "Bag Courageous",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 1.3247,
+        "w": 1.6907,
+        "x": 3.6672,
+        "y": 5.4344
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          182,
+          195,
+          167
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "night friction jar wise marked dependent fat shoe suspect",
+        "theme_topic": "Bag Courageous",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.2728,
+        "w": 1.6746,
+        "x": 1.6558,
+        "y": 5.1806
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          214,
+          93,
+          119
+        ],
+        "bold": true,
+        "color": [
+          170,
+          33,
+          69
+        ],
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Thick Devilish",
+        "theme_topic": "Bag Courageous",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.675,
+        "w": 1.193,
+        "x": 7.5921,
+        "y": 1.5681
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          42,
+          35,
+          59
+        ],
+        "focus": false,
+        "line": [
+          153,
+          49,
+          173
+        ],
+        "line_width": 2.8171710581371023,
+        "outline_only": false,
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Bag Courageous"
+      },
+      "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.954,
+        "w": 1.0674,
+        "x": 8.3472,
+        "y": 4.6616
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "basic",
+        "fill": [
+          54,
+          48,
+          51
+        ],
+        "focus": false,
+        "line": [
+          50,
+          136,
+          52
+        ],
+        "line_width": 4.842154103995772,
+        "outline_only": false,
+        "ppt_type": 7,
+        "shape": "triangle",
+        "theme_topic": "Bag Courageous"
+      },
+      "type": "shape",
       "z_order": 10
     }
   ],

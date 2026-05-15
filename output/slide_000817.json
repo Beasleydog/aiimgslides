@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
+      "angle": 120,
       "archetype": "atomic_composition",
       "colors": [
         [
-          153,
-          100,
-          190
+          51,
+          88,
+          134
         ],
         [
-          82,
-          152,
-          67
+          74,
+          38,
+          108
         ]
       ],
       "fill": [
-        126,
-        58,
-        173
+        183,
+        80,
+        89
       ],
-      "focus": "center",
-      "gradient_type": "linear",
+      "focus": "bottom_left",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Fluffy Violet"
+      "theme_topic": "Button"
     },
     "type": "background",
     "z_order": 0
@@ -45,139 +45,107 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.5913,
-        "w": 4.7802,
-        "x": 3.5796,
-        "y": -0.0829
+        "h": 2.5024,
+        "w": 6.379,
+        "x": 4.2824,
+        "y": 3.1725
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          161,
-          41,
-          213
+          84,
+          184,
+          73
         ],
         "focus": false,
         "line": [
-          129,
-          49,
-          32
+          94,
+          211,
+          123
         ],
-        "line_width": 5.447967946845563,
+        "line_width": 5.559393830128608,
         "outline_only": true,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Fluffy Violet"
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Button"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.0537,
-        "w": 8.7002,
-        "x": 1.7072,
-        "y": -0.1816
+        "h": 1.5862,
+        "w": 4.7495,
+        "x": 4.5378,
+        "y": 3.2834
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 1,
         "family": "stars",
         "fill": [
-          177,
-          118,
-          189
+          219,
+          172,
+          79
         ],
         "focus": false,
         "line": [
-          128,
-          41,
-          148
+          111,
+          166,
+          30
         ],
-        "line_width": 4.006161388156869,
+        "line_width": 3.810880069125393,
         "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Fluffy Violet"
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Button"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.219,
-        "w": 4.5209,
-        "x": 0.4953,
-        "y": 0.1633
+        "h": 0.918,
+        "w": 13.3158,
+        "x": 0.0001,
+        "y": -0.0116
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "callouts",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          155,
-          94,
-          98
+          192,
+          102,
+          110
         ],
-        "focus": false,
         "line": [
-          110,
-          169,
-          42
+          192,
+          102,
+          110
         ],
-        "line_width": 3.3142951094175883,
+        "line_width": 1.1938785436726778,
         "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Fluffy Violet"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Button"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.5506,
-        "w": 6.4113,
-        "x": 0.9713,
-        "y": 1.4576
+        "h": 1.1568,
+        "w": 8.4516,
+        "x": 2.5167,
+        "y": 0.63
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          143,
-          85,
-          184
-        ],
-        "line": [
-          153,
-          100,
-          190
-        ],
-        "line_width": 1.3030797781165793,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Fluffy Violet"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.03,
-        "w": 8.138,
-        "x": 0.5434,
-        "y": 0.3603
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -187,102 +155,133 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
+        "font_face": "Trebuchet MS",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Equal Bawdy",
-        "theme_topic": "Fluffy Violet",
+        "text": "Learn Accidental Allow String",
+        "theme_topic": "Button",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.3681,
+        "w": 5.5654,
+        "x": 7.2141,
+        "y": 2.0142
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          192,
+          102,
+          110
+        ],
+        "line": [
+          192,
+          102,
+          110
+        ],
+        "line_width": 0.8221750864831981,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Button"
+      },
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.3688,
-        "w": 12.2135,
-        "x": 0.5468,
-        "y": 3.6847
+        "h": 0.4714,
+        "w": 5.073,
+        "x": 7.4399,
+        "y": 2.9155
       },
       "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
+        ],
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Grade Barbarous",
+        "theme_topic": "Button",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 1.6687,
+        "w": 5.5709,
+        "x": 7.2343,
+        "y": 3.5686
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          32,
-          119,
-          149
+          192,
+          102,
+          110
         ],
         "line": [
-          153,
-          100,
-          190
+          192,
+          102,
+          110
         ],
-        "line_width": 1.763860636048,
+        "line_width": 1.8936623370408645,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Fluffy Violet"
+        "theme_topic": "Button"
       },
       "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.4497,
-        "w": 11.884,
-        "x": 0.7523,
-        "y": 4.0415
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          126,
-          58,
-          173
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "623",
-        "theme_topic": "Fluffy Violet",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2969,
-        "w": 11.8546,
-        "x": 0.7546,
-        "y": 4.4792
+        "h": 0.4744,
+        "w": 5.0896,
+        "x": 7.4829,
+        "y": 4.4827
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pretty cagey attend lively ordinary approve gratis talk",
-        "theme_topic": "Fluffy Violet",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Wet",
+        "theme_topic": "Button",
         "underline": false
       },
       "type": "text",
@@ -290,235 +289,233 @@
     },
     {
       "bbox": {
-        "h": 0.7171,
-        "w": 3.9518,
-        "x": 0.6159,
-        "y": 5.385
+        "h": 1.6007,
+        "w": 5.5546,
+        "x": 7.2015,
+        "y": 5.429
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          153,
-          100,
-          190
+          192,
+          102,
+          110
         ],
         "line": [
-          153,
-          100,
-          190
+          192,
+          102,
+          110
         ],
-        "line_width": 3.1144189700231424,
+        "line_width": 2.237146384862709,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Fluffy Violet"
+        "theme_topic": "Button"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.3958,
-        "w": 3.6566,
-        "x": 0.7749,
-        "y": 5.5491
+        "h": 0.4326,
+        "w": 5.069,
+        "x": 7.4443,
+        "y": 6.3223
       },
       "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.2145835870053682,
-          0.06892889912245968,
-          0.001023386143039746,
-          0.10040411097104968
-        ],
-        "focus": false,
-        "mask_line": [
-          206,
-          184,
-          208
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Fluffy Violet",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.7062,
-        "w": 3.9374,
-        "x": 4.7094,
-        "y": 5.3836
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          153,
-          100,
-          190
-        ],
-        "line": [
-          153,
-          100,
-          190
-        ],
-        "line_width": 2.1461152394229104,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Fluffy Violet"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.3732,
-        "w": 3.6625,
-        "x": 4.8367,
-        "y": 5.5155
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.06778060648848466,
-          0.22465593461427508,
-          0.29188558375299395,
-          0.0026093567070655777
-        ],
-        "focus": false,
-        "mask_line": [
-          72,
-          114,
-          67
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Fluffy Violet",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.7275,
-        "w": 3.9387,
-        "x": 8.8211,
-        "y": 5.3518
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.042975387932429804,
-          0.06454750760949403,
-          0.0024217759668253946,
-          0.14939932035268558
-        ],
-        "focus": false,
-        "mask_line": [
-          171,
-          25,
-          89
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Fluffy Violet",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.7278,
-        "w": 3.9126,
-        "x": 0.6218,
-        "y": 6.2217
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.18524521890332862,
-          0.14316674936283472,
-          0.0966700317551264,
-          0.07063885384319345
-        ],
-        "focus": false,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Fluffy Violet",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.7214,
-        "w": 3.9442,
-        "x": 4.6899,
-        "y": 6.2715
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": false,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Fluffy Violet",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.7051,
-        "w": 11.8207,
-        "x": 0.7505,
-        "y": 2.0688
-      },
-      "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
-        "italic": true,
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Plastic",
+        "theme_topic": "Button",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.8683,
+        "w": 5.965,
+        "x": 0.7092,
+        "y": 4.6817
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          194,
+          113,
+          162
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 34,
+        "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Influence Extra-Large Abrasive Overflow Cuddly",
-        "theme_topic": "Fluffy Violet",
+        "text": "Ball",
+        "theme_topic": "Button",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 1.1392,
+        "w": 5.9594,
+        "x": 0.6936,
+        "y": 5.7646
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          217,
+          172,
+          178
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "detail battle fit daily vast unaccountable box harm boil",
+        "theme_topic": "Button",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.7325,
+        "w": 1.07,
+        "x": 0.7382,
+        "y": 2.1561
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "25",
+        "theme_topic": "Button",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 1.2807,
+        "w": 1.0696,
+        "x": 0.7354,
+        "y": 2.9308
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          217,
+          172,
+          178
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "hapless unlock support promise",
+        "theme_topic": "Button",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.7473,
+        "w": 0.8085,
+        "x": 2.3454,
+        "y": 2.1625
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 27,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "2.8x",
+        "theme_topic": "Button",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 1.2965,
+        "w": 0.8456,
+        "x": 2.364,
+        "y": 2.9407
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          217,
+          172,
+          178
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "lewd passenger airplane innocent burst",
+        "theme_topic": "Button",
         "underline": false
       },
       "type": "text",
@@ -526,10 +523,10 @@
     },
     {
       "bbox": {
-        "h": 0.2356,
-        "w": 6.5027,
-        "x": 0.7647,
-        "y": 2.8952
+        "h": 0.7392,
+        "w": 0.9201,
+        "x": 3.6945,
+        "y": 2.1773
       },
       "id": "object_017",
       "properties": {
@@ -541,13 +538,13 @@
           119,
           149
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Trebuchet MS",
+        "font_size": 31,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "ADJUSTMENT",
-        "theme_topic": "Fluffy Violet",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "6.8x",
+        "theme_topic": "Button",
         "underline": false
       },
       "type": "text",
@@ -555,10 +552,10 @@
     },
     {
       "bbox": {
-        "h": 0.2729,
-        "w": 0.6179,
-        "x": 8.8527,
-        "y": 6.722
+        "h": 1.2742,
+        "w": 0.9273,
+        "x": 3.7306,
+        "y": 2.9326
       },
       "id": "object_018",
       "properties": {
@@ -566,17 +563,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          98,
-          196,
-          185
+          217,
+          172,
+          178
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Verdana",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "root",
-        "theme_topic": "Fluffy Violet",
+        "text": "stream behavior satisfying habitual fancy toes",
+        "theme_topic": "Button",
         "underline": false
       },
       "type": "text",
@@ -584,32 +581,28 @@
     },
     {
       "bbox": {
-        "h": 0.3755,
-        "w": 0.6333,
-        "x": 4.3556,
-        "y": 5.7426
+        "h": 0.7349,
+        "w": 1.4093,
+        "x": 5.1924,
+        "y": 2.1988
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          113,
-          122,
-          50
-        ],
+        "bg_color": null,
         "bold": true,
         "color": [
-          159,
           32,
-          167
+          119,
+          149
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "ink",
-        "theme_topic": "Fluffy Violet",
+        "text": "74%",
+        "theme_topic": "Button",
         "underline": false
       },
       "type": "text",
@@ -617,10 +610,10 @@
     },
     {
       "bbox": {
-        "h": 0.4526,
-        "w": 1.8545,
-        "x": 4.1804,
-        "y": 0.8963
+        "h": 1.2743,
+        "w": 1.4454,
+        "x": 5.1643,
+        "y": 2.9086
       },
       "id": "object_020",
       "properties": {
@@ -628,17 +621,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          188,
-          216,
-          41
+          217,
+          172,
+          178
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Verdana",
+        "font_size": 14,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Important Mindless",
-        "theme_topic": "Fluffy Violet",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "balance legal doubtful eatable imperfect planes",
+        "theme_topic": "Button",
         "underline": false
       },
       "type": "text",
@@ -646,32 +639,28 @@
     },
     {
       "bbox": {
-        "h": 0.3224,
-        "w": 0.7338,
-        "x": 9.7855,
-        "y": 1.3004
+        "h": 0.3432,
+        "w": 1.6557,
+        "x": 2.6466,
+        "y": 5.894
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          67,
-          47,
-          173
-        ],
-        "bold": true,
+        "bg_color": null,
+        "bold": false,
         "color": [
-          228,
-          210,
-          213
+          191,
+          65,
+          38
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 8,
         "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Phone Trains",
-        "theme_topic": "Fluffy Violet",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "program violet punishment oil",
+        "theme_topic": "Button",
         "underline": false
       },
       "type": "text",

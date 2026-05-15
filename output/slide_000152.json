@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "back_color": [
-        98,
-        168,
-        221
+      "colors": [
+        [
+          58,
+          150,
+          166
+        ],
+        [
+          255,
+          211,
+          88
+        ]
       ],
       "fill": [
-        98,
-        168,
-        221
+        18,
+        129,
+        148
       ],
-      "fore_color": [
-        68,
-        220,
-        224
-      ],
-      "pattern": 3,
-      "style": "pattern",
-      "theme_topic": "Oil"
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Vein"
     },
     "type": "background",
     "z_order": 0
@@ -41,129 +45,123 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.823,
-        "w": 7.1369,
-        "x": -0.5536,
-        "y": 1.2812
+        "h": 1.4214,
+        "w": 7.1913,
+        "x": 6.8351,
+        "y": 5.5057
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          58,
-          112,
-          204
+          137,
+          144,
+          166
         ],
         "focus": false,
         "line": [
-          202,
-          107,
-          71
+          61,
+          168,
+          46
         ],
-        "line_width": 4.169408662960494,
-        "outline_only": true,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Oil"
+        "line_width": 4.15954694794457,
+        "outline_only": false,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Vein"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.7302,
-        "w": 7.9292,
-        "x": 5.3904,
-        "y": 4.5109
+        "h": 7.508,
+        "w": 6.678,
+        "x": -0.0183,
+        "y": 0.0179
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "ribbons",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          115,
-          95,
-          165
+          58,
+          150,
+          166
         ],
-        "focus": false,
         "line": [
-          200,
-          182,
-          127
+          58,
+          150,
+          166
         ],
-        "line_width": 3.4582515724595693,
-        "outline_only": true,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Oil"
+        "line_width": 2.1143442649630138,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Vein"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.419,
-        "w": 5.5991,
-        "x": -0.8303,
-        "y": -0.8013
+        "h": 1.045,
+        "w": 6.343,
+        "x": 3.8097,
+        "y": 3.6151
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "symbols",
-        "fill": [
-          61,
-          166,
-          119
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          160,
-          37,
-          83
-        ],
-        "line_width": 4.578500099676987,
-        "outline_only": true,
-        "ppt_type": 22,
-        "shape": "lightning",
-        "theme_topic": "Oil"
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Leg Arrive",
+        "theme_topic": "Vein",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.4725,
-        "w": 5.2982,
-        "x": 7.5058,
-        "y": 4.5166
+        "h": 1.5792,
+        "w": 6.3563,
+        "x": 3.8414,
+        "y": 4.9379
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          85,
-          146,
-          192
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          143,
+          194,
+          205
         ],
-        "line": [
-          85,
-          146,
-          192
-        ],
-        "line_width": 1.8913327146507655,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Oil"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "soft influence word innocent fall crib furtive reduce extra-large merciful worm desire prickly queen gather hurried property shock agonizing",
+        "theme_topic": "Vein",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     }
   ],

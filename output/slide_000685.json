@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "fill": [
-        240,
-        176,
-        54
+      "colors": [
+        [
+          160,
+          117,
+          224
+        ],
+        [
+          157,
+          162,
+          138
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Quince Rejoice"
+      "fill": [
+        160,
+        117,
+        224
+      ],
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Sip Gabby"
     },
     "type": "background",
     "z_order": 0
@@ -30,137 +45,133 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.0275,
-        "w": 5.5143,
-        "x": -0.568,
-        "y": 3.6299
+        "h": 5.3577,
+        "w": 9.0236,
+        "x": 0.7149,
+        "y": 1.1202
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "panel",
         "fill": [
-          203,
-          204,
-          118
+          141,
+          103,
+          197
         ],
-        "focus": false,
         "line": [
-          54,
-          66,
-          220
+          131,
+          96,
+          183
         ],
-        "line_width": 7.999663087504592,
+        "line_width": 2.037601257283722,
         "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Quince Rejoice"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sip Gabby"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.4385,
-        "w": 3.9371,
-        "x": 10.1547,
-        "y": 2.7601
+        "h": 5.5612,
+        "w": 2.8462,
+        "x": 0.6728,
+        "y": 0.7733
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          174,
-          163,
-          156
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          66,
-          164,
-          162
-        ],
-        "line_width": 2.162474826381618,
-        "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Quince Rejoice"
+        "font_face": "Trebuchet MS",
+        "font_size": 24,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Mountain Sticky",
+        "theme_topic": "Sip Gabby",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.3456,
-        "w": 7.2906,
-        "x": 3.3072,
-        "y": 4.3558
+        "h": 2.1249,
+        "w": 4.9576,
+        "x": 3.7669,
+        "y": 0.633
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "symbols",
+        "family": "panel",
         "fill": [
-          129,
-          174,
-          133
+          131,
+          96,
+          183
         ],
-        "focus": false,
         "line": [
-          214,
-          121,
-          199
+          131,
+          96,
+          183
         ],
-        "line_width": 3.6214486822444223,
-        "outline_only": true,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Quince Rejoice"
+        "line_width": 1.7195660998731308,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sip Gabby"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 7.5046,
-        "w": 5.3999,
-        "x": -0.008,
-        "y": -0.0056
+        "h": 0.5632,
+        "w": 0.5197,
+        "x": 3.9459,
+        "y": 0.9015
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          249,
-          203,
-          91
+          81,
+          165,
+          33
         ],
+        "focus": false,
         "line": [
-          249,
-          203,
-          91
+          89,
+          60,
+          40
         ],
-        "line_width": 1.8993412933416056,
+        "line_width": 2.562266436784048,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Quince Rejoice"
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Sip Gabby"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.8905,
-        "w": 5.2289,
-        "x": 0.7324,
-        "y": 5.863
+        "h": 0.4583,
+        "w": 4.458,
+        "x": 4.0016,
+        "y": 1.5635
       },
       "id": "object_005",
       "properties": {
@@ -168,17 +179,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          40,
-          38,
-          28
+          31,
+          117,
+          161
         ],
-        "font_face": "Aptos Display",
-        "font_size": 24,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Thin Sofa Dust",
-        "theme_topic": "Quince Rejoice",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Air",
+        "theme_topic": "Sip Gabby",
         "underline": false
       },
       "type": "text",
@@ -186,28 +197,28 @@
     },
     {
       "bbox": {
-        "h": 0.3881,
-        "w": 5.1036,
-        "x": 0.7004,
-        "y": 2.5522
+        "h": 0.4556,
+        "w": 4.4562,
+        "x": 3.9922,
+        "y": 2.1093
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          40,
-          38,
-          28
+          87,
+          69,
+          120
         ],
-        "font_face": "Aptos Display",
-        "font_size": 19,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Brown Vague",
-        "theme_topic": "Quince Rejoice",
+        "text": "wool dad pancake hypnotic waves unit club play disturbed afraid tiresome extra-large zoo scrawny admit",
+        "theme_topic": "Sip Gabby",
         "underline": false
       },
       "type": "text",
@@ -215,68 +226,73 @@
     },
     {
       "bbox": {
-        "h": 0.3263,
-        "w": 5.0709,
-        "x": 0.7158,
-        "y": 3.1757
+        "h": 1.642,
+        "w": 4.9486,
+        "x": 3.7641,
+        "y": 2.9817
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          131,
+          96,
+          183
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "man thin awake cabbage pinch bow ahead jog stitch used volleyball tall pushy picture paste",
-        "theme_topic": "Quince Rejoice",
-        "underline": false
+        "line": [
+          131,
+          96,
+          183
+        ],
+        "line_width": 1.81206504363033,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sip Gabby"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 4.994,
-        "w": 6.366,
-        "x": 6.3971,
-        "y": 0.5419
+        "h": 0.5673,
+        "w": 0.5742,
+        "x": 3.9794,
+        "y": 3.1507
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1912531938384623,
-          0.30223707987585163,
-          0.2826490101401975,
-          0.13020546919576817
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          222,
+          133,
+          62
         ],
-        "focus": true,
-        "mask_line": [
-          170,
-          174,
-          66
+        "focus": false,
+        "line": [
+          31,
+          117,
+          161
         ],
-        "mask_overlay": false,
-        "theme_topic": "Quince Rejoice",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.219470599210445,
+        "outline_only": true,
+        "ppt_type": 165,
+        "shape": "multiply",
+        "theme_topic": "Sip Gabby"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2884,
-        "w": 5.9945,
-        "x": 6.5824,
-        "y": 5.1035
+        "h": 0.4739,
+        "w": 4.4591,
+        "x": 4.009,
+        "y": 3.8614
       },
       "id": "object_009",
       "properties": {
@@ -284,17 +300,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          31,
+          117,
+          161
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Ashamed",
-        "theme_topic": "Quince Rejoice",
+        "text": "Round",
+        "theme_topic": "Sip Gabby",
         "underline": false
       },
       "type": "text",
@@ -302,41 +318,41 @@
     },
     {
       "bbox": {
-        "h": 1.6386,
-        "w": 2.0914,
-        "x": 0.5645,
-        "y": 0.5316
+        "h": 2.0773,
+        "w": 4.9461,
+        "x": 3.7387,
+        "y": 4.8256
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 7,
         "family": "panel",
         "fill": [
-          181,
-          160,
-          80
+          131,
+          96,
+          183
         ],
         "line": [
-          249,
-          203,
-          91
+          131,
+          96,
+          183
         ],
-        "line_width": 2.1787848189227588,
+        "line_width": 1.6856651205881226,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Quince Rejoice"
+        "theme_topic": "Sip Gabby"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7538,
-        "w": 1.688,
-        "x": 0.7309,
-        "y": 0.7333
+        "h": 0.4639,
+        "w": 4.4606,
+        "x": 4.0163,
+        "y": 5.721
       },
       "id": "object_011",
       "properties": {
@@ -344,17 +360,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          31,
+          117,
+          161
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "93%",
-        "theme_topic": "Quince Rejoice",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Combative",
+        "theme_topic": "Sip Gabby",
         "underline": false
       },
       "type": "text",
@@ -362,10 +378,10 @@
     },
     {
       "bbox": {
-        "h": 0.6422,
-        "w": 1.732,
-        "x": 0.7397,
-        "y": 1.4814
+        "h": 0.4111,
+        "w": 4.4624,
+        "x": 4.0121,
+        "y": 6.2509
       },
       "id": "object_012",
       "properties": {
@@ -373,17 +389,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          94,
-          82,
-          58
+          87,
+          69,
+          120
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "political page match incredible fuel bolt inconclusive",
-        "theme_topic": "Quince Rejoice",
+        "text": "yellow stay abstracted annoy color incandescent shelter borrow robin ill undress separate tasty jobless plastic",
+        "theme_topic": "Sip Gabby",
         "underline": false
       },
       "type": "text",
@@ -391,41 +407,41 @@
     },
     {
       "bbox": {
-        "h": 1.6229,
-        "w": 1.4409,
-        "x": 2.8216,
-        "y": 0.5405
+        "h": 6.2498,
+        "w": 3.5859,
+        "x": 9.154,
+        "y": 0.6624
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 3,
         "family": "panel",
         "fill": [
-          236,
-          175,
-          45
+          31,
+          117,
+          161
         ],
         "line": [
-          249,
-          203,
-          91
+          131,
+          96,
+          183
         ],
-        "line_width": 1.7815231270186678,
+        "line_width": 0.9963411014011148,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Quince Rejoice"
+        "theme_topic": "Sip Gabby"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.7252,
-        "w": 1.1058,
-        "x": 2.9952,
-        "y": 0.7407
+        "h": 1.1305,
+        "w": 3.1938,
+        "x": 9.324,
+        "y": 1.7901
       },
       "id": "object_014",
       "properties": {
@@ -433,17 +449,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          160,
+          117,
+          224
         ],
-        "font_face": "Aptos Display",
-        "font_size": 37,
+        "font_face": "Trebuchet MS",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "6.2x",
-        "theme_topic": "Quince Rejoice",
+        "text": "658",
+        "theme_topic": "Sip Gabby",
         "underline": false
       },
       "type": "text",
@@ -451,10 +467,10 @@
     },
     {
       "bbox": {
-        "h": 0.6362,
-        "w": 1.0989,
-        "x": 2.9748,
-        "y": 1.4523
+        "h": 0.6999,
+        "w": 3.2113,
+        "x": 9.329,
+        "y": 4.4869
       },
       "id": "object_015",
       "properties": {
@@ -462,17 +478,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          94,
-          82,
-          58
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "delay tenuous swanky flavor accidental didactic land",
-        "theme_topic": "Quince Rejoice",
+        "text": "tree spotted suit historical giraffe",
+        "theme_topic": "Sip Gabby",
         "underline": false
       },
       "type": "text",
@@ -480,90 +496,96 @@
     },
     {
       "bbox": {
-        "h": 0.7304,
-        "w": 1.1307,
-        "x": 4.6098,
-        "y": 0.7432
+        "h": 0.5645,
+        "w": 1.2459,
+        "x": 6.2947,
+        "y": 2.7415
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
+        "dash": 4,
+        "family": "callouts",
+        "fill": [
+          152,
+          83,
+          71
         ],
-        "font_face": "Aptos Display",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "6.4x",
-        "theme_topic": "Quince Rejoice",
-        "underline": false
+        "focus": false,
+        "line": [
+          121,
+          84,
+          200
+        ],
+        "line_width": 4.5813721973040895,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Sip Gabby"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.6119,
-        "w": 1.1538,
-        "x": 4.6391,
-        "y": 1.4518
+        "h": 0.5049,
+        "w": 0.7288,
+        "x": 9.4962,
+        "y": 0.5678
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
+        "dash": 5,
+        "family": "stars",
+        "fill": [
+          64,
+          186,
+          28
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "team empty writer",
-        "theme_topic": "Quince Rejoice",
-        "underline": false
+        "focus": false,
+        "line": [
+          121,
+          183,
+          216
+        ],
+        "line_width": 1.9848711350397898,
+        "outline_only": false,
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Sip Gabby"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 1.0686,
-        "w": 1.0011,
-        "x": 0.7282,
-        "y": 3.2359
+        "h": 0.5578,
+        "w": 0.9586,
+        "x": 3.1788,
+        "y": 2.8617
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
+        "dash": 7,
+        "family": "basic",
         "fill": [
-          150,
-          45,
-          155
+          143,
+          146,
+          103
         ],
         "focus": false,
         "line": [
-          94,
-          82,
-          58
+          157,
+          122,
+          27
         ],
-        "line_width": 4.778296953099453,
-        "outline_only": false,
-        "ppt_type": 98,
-        "shape": "down_ribbon",
-        "theme_topic": "Quince Rejoice"
+        "line_width": 2.4745104104961384,
+        "outline_only": true,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Sip Gabby"
       },
       "type": "shape",
       "z_order": 18

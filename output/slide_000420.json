@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "fill": [
-        247,
-        248,
-        246
+      "colors": [
+        [
+          252,
+          249,
+          244
+        ],
+        [
+          157,
+          187,
+          165
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Scarecrow Army"
+      "fill": [
+        252,
+        249,
+        244
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Drab"
     },
     "type": "background",
     "z_order": 0
@@ -30,143 +45,137 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.7053,
-        "w": 7.4613,
-        "x": -0.6834,
-        "y": 4.4509
+        "h": 2.5229,
+        "w": 3.9988,
+        "x": 0.807,
+        "y": 2.4677
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "ribbons",
+        "family": "symbols",
         "fill": [
-          181,
-          149,
-          115
+          148,
+          202,
+          197
         ],
         "focus": false,
         "line": [
-          86,
-          76,
-          213
+          176,
+          216,
+          48
         ],
-        "line_width": 6.753190208408023,
-        "outline_only": true,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Scarecrow Army"
+        "line_width": 4.171823541822372,
+        "outline_only": false,
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Drab"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9114,
-        "w": 3.5986,
-        "x": 5.2133,
-        "y": 0.6976
+        "h": 3.2157,
+        "w": 8.5109,
+        "x": 3.0359,
+        "y": 0.2572
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          30,
-          35,
-          42
+        "dash": 3,
+        "family": "callouts",
+        "fill": [
+          76,
+          153,
+          231
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Strong Spoil",
-        "theme_topic": "Scarecrow Army",
-        "underline": false
+        "focus": false,
+        "line": [
+          56,
+          200,
+          219
+        ],
+        "line_width": 3.13733212391384,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Drab"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.6412,
-        "w": 12.2383,
-        "x": 0.5542,
-        "y": 1.4226
+        "h": 2.459,
+        "w": 5.8944,
+        "x": -0.8728,
+        "y": 1.2751
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "provide",
-          "nonstop",
-          "rebel",
-          "babies"
+        "dash": 2,
+        "family": "basic",
+        "fill": [
+          116,
+          186,
+          143
         ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              154,
-              112,
-              198
-            ],
-            "name": "unique woman",
-            "values": [
-              58,
-              75,
-              35,
-              39
-            ]
-          }
+        "focus": false,
+        "line": [
+          213,
+          91,
+          39
         ],
-        "theme_topic": "Scarecrow Army",
-        "title": "pan necessary calculate unsuitable position"
+        "line_width": 6.69968008671267,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Drab"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.3956,
-        "w": 6.0098,
-        "x": 0.6113,
-        "y": 4.5048
+        "h": 7.4936,
+        "w": 1.2671,
+        "x": 12.0813,
+        "y": 0.0197
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          242,
+          233,
+          222
         ],
-        "focus": true,
-        "mask_line": [
-          31,
-          117,
-          161
+        "line": [
+          242,
+          233,
+          222
         ],
-        "mask_overlay": false,
-        "theme_topic": "Scarecrow Army",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 0.7298385980050004,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Drab"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.2854,
-        "w": 5.6034,
-        "x": 0.7887,
-        "y": 6.4934
+        "h": 5.5724,
+        "w": 2.8528,
+        "x": 0.6668,
+        "y": 0.7355
       },
       "id": "object_005",
       "properties": {
@@ -174,17 +183,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          36,
+          32,
+          29
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos Display",
+        "font_size": 18,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Clean Large",
-        "theme_topic": "Scarecrow Army",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Middle Scared",
+        "theme_topic": "Drab",
         "underline": false
       },
       "type": "text",
@@ -192,57 +201,57 @@
     },
     {
       "bbox": {
-        "h": 2.4096,
-        "w": 5.9607,
-        "x": 6.7718,
-        "y": 4.5408
+        "h": 0.5429,
+        "w": 4.069,
+        "x": 3.7847,
+        "y": 1.5956
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.10222386213489086,
-          0.040901549992074994,
-          0.038191072530013755,
-          0.08071132369941664
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          36,
+          32,
+          29
         ],
-        "focus": true,
-        "mask_line": [
-          31,
-          117,
-          161
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Scarecrow Army",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "vacation fax coal certain dashing",
+        "theme_topic": "Drab",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.2836,
-        "w": 5.6067,
-        "x": 6.9538,
-        "y": 6.5145
+        "h": 0.8308,
+        "w": 4.0477,
+        "x": 3.7862,
+        "y": 3.8724
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          31,
-          117,
-          161
+          36,
+          32,
+          29
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Delirious Smoke",
-        "theme_topic": "Scarecrow Army",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "polite wriggle whirl succeed",
+        "theme_topic": "Drab",
         "underline": false
       },
       "type": "text",
@@ -250,10 +259,10 @@
     },
     {
       "bbox": {
-        "h": 0.4909,
-        "w": 0.8865,
-        "x": 10.5789,
-        "y": 6.3574
+        "h": 0.6045,
+        "w": 4.0749,
+        "x": 3.7973,
+        "y": 6.1424
       },
       "id": "object_008",
       "properties": {
@@ -261,17 +270,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          132,
-          152,
-          137
+          36,
+          32,
+          29
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "suspect zesty cheese step",
-        "theme_topic": "Scarecrow Army",
+        "text": "enthusiastic bite-sized rod punish",
+        "theme_topic": "Drab",
         "underline": false
       },
       "type": "text",
@@ -279,96 +288,93 @@
     },
     {
       "bbox": {
-        "h": 0.9328,
-        "w": 1.3209,
-        "x": 0.1094,
-        "y": 6.1361
+        "h": 2.2182,
+        "w": 4.5089,
+        "x": 8.2544,
+        "y": 0.645
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          129,
-          115,
-          99
+          242,
+          233,
+          222
         ],
-        "focus": false,
         "line": [
-          176,
-          150,
-          170
+          242,
+          233,
+          222
         ],
-        "line_width": 2.934662344717427,
+        "line_width": 1.5710865264510327,
         "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Scarecrow Army"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Drab"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2519,
-        "w": 0.3873,
-        "x": 3.0881,
-        "y": 2.2219
+        "h": 1.7097,
+        "w": 4.4932,
+        "x": 8.2394,
+        "y": 3.0561
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
+        "dash": 3,
+        "family": "panel",
         "fill": [
-          97,
-          187,
-          55
+          242,
+          233,
+          222
         ],
-        "focus": false,
         "line": [
-          202,
-          186,
-          150
+          242,
+          233,
+          222
         ],
-        "line_width": 5.670364573535429,
+        "line_width": 3.677522532012691,
         "outline_only": false,
-        "ppt_type": 13,
-        "shape": "can",
-        "theme_topic": "Scarecrow Army"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Drab"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.687,
-        "w": 0.8786,
-        "x": 7.8275,
-        "y": 3.8982
+        "h": 1.9171,
+        "w": 4.4971,
+        "x": 8.2524,
+        "y": 4.9754
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          166,
-          166,
-          210
+          242,
+          233,
+          222
         ],
-        "focus": false,
         "line": [
-          145,
-          41,
-          67
+          242,
+          233,
+          222
         ],
-        "line_width": 5.3728178315998045,
+        "line_width": 3.952869890832919,
         "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Scarecrow Army"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Drab"
       },
       "type": "shape",
       "z_order": 11

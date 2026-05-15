@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        236,
-        240,
-        242
+      "colors": [
+        [
+          94,
+          183,
+          164
+        ],
+        [
+          215,
+          74,
+          36
+        ]
       ],
       "fill": [
-        247,
-        248,
-        246
+        50,
+        170,
+        171
       ],
-      "fore_color": [
-        31,
-        117,
-        161
-      ],
-      "pattern": 30,
-      "style": "pattern",
-      "theme_topic": "Necessary"
+      "focus": "top_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Start Sleet"
     },
     "type": "background",
     "z_order": 0
@@ -41,63 +45,64 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.6122,
-        "w": 6.1696,
-        "x": 6.0861,
-        "y": 1.6421
+        "h": 4.1368,
+        "w": 6.6154,
+        "x": 0.6781,
+        "y": 1.7396
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          174,
-          212,
-          149
+          92,
+          187,
+          188
         ],
-        "focus": false,
         "line": [
-          186,
-          85,
-          189
+          116,
+          197,
+          198
         ],
-        "line_width": 5.984295275486119,
+        "line_width": 1.282180308516332,
         "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Necessary"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Start Sleet"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 6.4347,
-        "w": 2.1959,
-        "x": 0.5637,
-        "y": 0.5342
+        "h": 5.0171,
+        "w": 5.8546,
+        "x": 6.9356,
+        "y": 0.5341
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.06025193211281505,
-          0.08529668689811265,
-          0.032782208334223614,
-          0.12279662510309074
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          116,
+          197,
+          198
         ],
-        "focus": true,
-        "mask_line": [
-          31,
-          117,
-          161
+        "line": [
+          116,
+          197,
+          198
         ],
-        "mask_overlay": false,
-        "theme_topic": "Necessary",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 4.858822076113052,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Start Sleet"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 2
     }
   ],

@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        126,
-        48,
-        117
+      "back_color": [
+        170,
+        214,
+        116
       ],
-      "style": "solid",
-      "theme_topic": "Agreeable Acrid"
+      "fill": [
+        170,
+        214,
+        116
+      ],
+      "fore_color": [
+        209,
+        82,
+        205
+      ],
+      "pattern": 15,
+      "style": "pattern",
+      "theme_topic": "Reaction Step"
     },
     "type": "background",
     "z_order": 0
@@ -30,74 +41,74 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.7843,
-        "w": 4.6451,
-        "x": 2.1179,
-        "y": 6.4758
+        "h": 2.9429,
+        "w": 3.2333,
+        "x": 0.3985,
+        "y": 4.6186
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          65,
-          47,
-          140
+          208,
+          171,
+          93
         ],
         "focus": false,
         "line": [
-          79,
-          117,
-          95
+          201,
+          200,
+          184
         ],
-        "line_width": 2.192011953979003,
-        "outline_only": true,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Agreeable Acrid"
+        "line_width": 6.211503101857372,
+        "outline_only": false,
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Reaction Step"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.0117,
-        "w": 5.4723,
-        "x": -0.3746,
-        "y": 4.8872
+        "h": 1.798,
+        "w": 5.946,
+        "x": 4.5588,
+        "y": 1.2219
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 2,
+        "family": "math",
         "fill": [
-          166,
-          63,
-          112
+          217,
+          100,
+          165
         ],
         "focus": false,
         "line": [
-          85,
-          60,
-          198
+          97,
+          124,
+          111
         ],
-        "line_width": 3.8655947077148842,
+        "line_width": 6.129543015947972,
         "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Agreeable Acrid"
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Reaction Step"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1914,
-        "w": 6.942,
-        "x": 0.5719,
-        "y": 0.3325
+        "h": 0.9204,
+        "w": 5.1806,
+        "x": 5.6359,
+        "y": 1.2381
       },
       "id": "object_003",
       "properties": {
@@ -105,17 +116,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
-        "font_face": "Arial",
-        "font_size": 42,
+        "font_face": "Aptos Display",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Coil Dispensable Hands",
-        "theme_topic": "Agreeable Acrid",
+        "text": "Makeshift Window Hideous",
+        "theme_topic": "Reaction Step",
         "underline": false
       },
       "type": "text",
@@ -123,57 +134,59 @@
     },
     {
       "bbox": {
-        "h": 0.8045,
-        "w": 3.5152,
-        "x": 0.7195,
-        "y": 1.9712
+        "h": 5.5412,
+        "w": 5.6994,
+        "x": 7.0897,
+        "y": 1.4525
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          135,
+          170,
+          92
         ],
-        "font_face": "Arial",
-        "font_size": 23,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Repulsive Whip Pump",
-        "theme_topic": "Agreeable Acrid",
-        "underline": true
+        "line": [
+          135,
+          170,
+          92
+        ],
+        "line_width": 0.6488289424123804,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Reaction Step"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.0651,
-        "w": 3.5069,
-        "x": 0.6994,
-        "y": 3.0261
+        "h": 1.1569,
+        "w": 5.3141,
+        "x": 7.2932,
+        "y": 2.4535
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          192,
-          158,
-          191
+          170,
+          214,
+          116
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Aptos Display",
+        "font_size": 47,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "marked wholesale smoggy extend utopian difficult juice tremble porter unwieldy fruit teeny-tiny coal hate wink decay delight",
-        "theme_topic": "Agreeable Acrid",
+        "text": "54%",
+        "theme_topic": "Reaction Step",
         "underline": false
       },
       "type": "text",
@@ -181,119 +194,117 @@
     },
     {
       "bbox": {
-        "h": 2.3834,
-        "w": 3.8082,
-        "x": 4.7431,
-        "y": 1.8608
+        "h": 0.7115,
+        "w": 5.3076,
+        "x": 7.2964,
+        "y": 4.8406
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          153,
-          92,
-          146
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          153,
-          92,
-          146
-        ],
-        "line_width": 1.8410692155368444,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Agreeable Acrid"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "chicken announce illustrious addicted hesitant wheel possible",
+        "theme_topic": "Reaction Step",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.0971,
-        "w": 3.5476,
-        "x": 4.8884,
-        "y": 1.969
+        "h": 1.8072,
+        "w": 6.0497,
+        "x": 0.543,
+        "y": 3.4894
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.19666604787193584,
-          0.11165818285652346,
-          0.07804516148506277,
-          0.10738510061244698
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          135,
+          170,
+          92
         ],
-        "focus": false,
-        "mask_line": [
-          48,
-          31,
-          33
+        "line": [
+          135,
+          170,
+          92
         ],
-        "mask_overlay": false,
-        "theme_topic": "Agreeable Acrid",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.1101919346662217,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Reaction Step"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.4004,
-        "w": 3.81,
-        "x": 0.5306,
-        "y": 4.6224
+        "h": 0.6566,
+        "w": 5.6708,
+        "x": 0.7223,
+        "y": 3.8697
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          153,
-          92,
-          146
-        ],
-        "line": [
-          153,
-          92,
-          146
-        ],
-        "line_width": 0.6424223780385322,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Agreeable Acrid"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.9049,
-        "w": 3.4889,
-        "x": 0.7487,
-        "y": 5.121
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          126,
-          48,
-          117
+          170,
+          214,
+          116
         ],
-        "font_face": "Arial",
-        "font_size": 49,
+        "font_face": "Aptos Display",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "389",
-        "theme_topic": "Agreeable Acrid",
+        "text": "843",
+        "theme_topic": "Reaction Step",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.3952,
+        "w": 5.6616,
+        "x": 0.7382,
+        "y": 4.5618
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "talented learn seashore well-groomed",
+        "theme_topic": "Reaction Step",
         "underline": false
       },
       "type": "text",
@@ -301,61 +312,61 @@
     },
     {
       "bbox": {
-        "h": 0.5729,
-        "w": 3.4627,
-        "x": 0.7308,
-        "y": 6.0687
+        "h": 0.3385,
+        "w": 2.1912,
+        "x": 2.9806,
+        "y": 3.7222
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "bg_color": [
+          138,
+          41,
+          42
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "girls romantic advice fail",
-        "theme_topic": "Agreeable Acrid",
-        "underline": false
+        "bold": true,
+        "color": [
+          186,
+          68,
+          52
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Imperfect",
+        "theme_topic": "Reaction Step",
+        "underline": true
       },
       "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.6264,
-        "w": 3.5279,
-        "x": 4.9196,
-        "y": 5.2059
+        "h": 0.631,
+        "w": 1.626,
+        "x": 2.3878,
+        "y": 1.9788
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          218,
-          161,
-          63
-        ],
+        "bg_color": null,
         "bold": true,
         "color": [
-          210,
-          186,
-          103
+          80,
+          129,
+          61
         ],
-        "font_face": "Arial",
-        "font_size": 20,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Protective Listen Wander",
-        "theme_topic": "Agreeable Acrid",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Efficacious Callous Reproduce",
+        "theme_topic": "Reaction Step",
         "underline": false
       },
       "type": "text",
@@ -363,10 +374,10 @@
     },
     {
       "bbox": {
-        "h": 0.7745,
-        "w": 3.5409,
-        "x": 4.8852,
-        "y": 6.0901
+        "h": 0.3759,
+        "w": 0.5728,
+        "x": 12.1877,
+        "y": 3.9271
       },
       "id": "object_012",
       "properties": {
@@ -374,17 +385,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          192,
-          158,
-          191
+          117,
+          68,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "capable error adorable educated grieving blink produce grin combative nondescript sheep",
-        "theme_topic": "Agreeable Acrid",
+        "text": "swing",
+        "theme_topic": "Reaction Step",
         "underline": false
       },
       "type": "text",

@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "back_color": [
-        155,
-        53,
-        177
+      "colors": [
+        [
+          224,
+          123,
+          184
+        ],
+        [
+          255,
+          198,
+          74
+        ]
       ],
       "fill": [
-        177,
-        61,
-        202
+        163,
+        153,
+        119
       ],
-      "fore_color": [
-        48,
-        78,
-        140
-      ],
-      "pattern": 24,
-      "style": "pattern",
-      "theme_topic": "Remind End"
+      "focus": "top_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Doll"
     },
     "type": "background",
     "z_order": 0
@@ -41,262 +45,167 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.8259,
-        "w": 4.3574,
-        "x": 4.8204,
-        "y": 5.6411
+        "h": 3.3772,
+        "w": 7.461,
+        "x": 1.4711,
+        "y": 3.0201
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          133,
-          163,
-          182
+          131,
+          186,
+          86
         ],
         "focus": false,
         "line": [
-          25,
-          180,
-          121
+          207,
+          93,
+          206
         ],
-        "line_width": 2.558352598363469,
+        "line_width": 5.398877720809072,
         "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Remind End"
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Doll"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0363,
-        "w": 3.3088,
-        "x": 0.9477,
-        "y": -0.26
+        "h": 5.0085,
+        "w": 5.3382,
+        "x": 7.2672,
+        "y": 3.1728
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "dash": 5,
+        "family": "arrows",
         "fill": [
-          117,
-          83,
-          156
+          111,
+          148,
+          134
         ],
         "focus": false,
         "line": [
-          62,
-          191,
-          101
+          97,
+          109,
+          168
         ],
-        "line_width": 5.561952637852114,
+        "line_width": 4.9021954205060245,
         "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Remind End"
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Doll"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.5187,
-        "w": 7.6509,
-        "x": -0.773,
-        "y": 1.5079
+        "h": 2.6279,
+        "w": 6.6837,
+        "x": 6.6626,
+        "y": 4.9002
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 3,
+        "family": "panel",
         "fill": [
-          76,
-          148,
-          112
+          137,
+          128,
+          100
         ],
-        "focus": false,
         "line": [
-          60,
-          154,
-          162
+          137,
+          128,
+          100
         ],
-        "line_width": 2.5422284727130586,
+        "line_width": 5.022091595314331,
         "outline_only": false,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Remind End"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Doll"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.4561,
-        "w": 4.8527,
-        "x": 8.5435,
-        "y": 0.8455
+        "h": 3.3475,
+        "w": 12.216,
+        "x": 0.5611,
+        "y": 0.5685
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 5,
+        "family": "panel",
         "fill": [
-          186,
-          59,
-          211
+          137,
+          128,
+          100
         ],
-        "focus": false,
         "line": [
-          182,
-          123,
-          215
+          137,
+          128,
+          100
         ],
-        "line_width": 5.7357763118067515,
-        "outline_only": true,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Remind End"
+        "line_width": 2.1474426411791807,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Doll"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.4728,
-        "w": 0.2,
-        "x": 2.0981,
-        "y": 1.8696
+        "h": 3.0383,
+        "w": 11.9397,
+        "x": 0.6687,
+        "y": 0.7307
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          255,
-          238,
-          103
+        "crop": [
+          0.17155354262832295,
+          0.1356696521857747,
+          0.0809359713819739,
+          0.0867028925401599
         ],
-        "line": [
-          155,
-          53,
-          177
+        "focus": true,
+        "mask_line": [
+          118,
+          124,
+          133
         ],
-        "line_width": 0.794370368511925,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Remind End"
+        "mask_overlay": true,
+        "theme_topic": "Doll",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.5412,
-        "w": 0.2,
-        "x": 8.8841,
-        "y": 1.2028
+        "h": 0.9227,
+        "w": 0.8534,
+        "x": 7.2828,
+        "y": 5.7822
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          255,
-          238,
-          103
-        ],
-        "line": [
-          155,
-          53,
-          177
-        ],
-        "line_width": 1.9793253333069543,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Remind End"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 2.5379,
-        "w": 0.2,
-        "x": 10.3338,
-        "y": 0.7351
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          255,
-          238,
-          103
-        ],
-        "line": [
-          155,
-          53,
-          177
-        ],
-        "line_width": 2.0153081893118276,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Remind End"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 5.805,
-        "w": 3.1836,
-        "x": 9.3868,
-        "y": 0.6431
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Puzzled Fruit Zephyr",
-        "theme_topic": "Remind End",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.2369,
-        "w": 2.6387,
-        "x": 0.7223,
-        "y": 4.1506
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -306,24 +215,115 @@
           30,
           36
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "absorbed awful riddle work position wind luxuriant",
-        "theme_topic": "Remind End",
+        "text": "mouth rainstorm puny dolls nonstop rude",
+        "theme_topic": "Doll",
         "underline": false
       },
       "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.3572,
+        "w": 0.3732,
+        "x": 8.8616,
+        "y": 5.3588
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          255,
+          198,
+          74
+        ],
+        "line": [
+          137,
+          128,
+          100
+        ],
+        "line_width": 1.3661202223706401,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Doll"
+      },
+      "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.925,
+        "w": 0.9212,
+        "x": 8.4927,
+        "y": 5.8145
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "eatable naughty earsplitting side possess",
+        "theme_topic": "Doll",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.3185,
+        "w": 0.301,
+        "x": 10.0625,
+        "y": 5.0541
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          198,
+          74
+        ],
+        "line": [
+          137,
+          128,
+          100
+        ],
+        "line_width": 1.3776202774298962,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Doll"
+      },
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2577,
-        "w": 2.6414,
-        "x": 0.7227,
-        "y": 5.0939
+        "h": 0.9457,
+        "w": 0.7376,
+        "x": 9.7455,
+        "y": 5.7663
       },
       "id": "object_010",
       "properties": {
@@ -335,13 +335,13 @@
           30,
           36
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "immense value bounce",
-        "theme_topic": "Remind End",
+        "text": "petite slow salty",
+        "theme_topic": "Doll",
         "underline": false
       },
       "type": "text",
@@ -349,72 +349,43 @@
     },
     {
       "bbox": {
-        "h": 0.2359,
-        "w": 2.6104,
-        "x": 0.6994,
-        "y": 5.9181
+        "h": 0.3148,
+        "w": 0.3412,
+        "x": 11.0986,
+        "y": 5.235
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "mice capricious ray",
-        "theme_topic": "Remind End",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 0.2,
-        "x": 1.4521,
-        "y": 6.5652
-      },
-      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
           255,
-          238,
-          103
+          198,
+          74
         ],
         "line": [
-          155,
-          53,
-          177
+          137,
+          128,
+          100
         ],
-        "line_width": 1.953008355174944,
+        "line_width": 2.4573103308723474,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Remind End"
+        "theme_topic": "Doll"
       },
       "type": "shape",
-      "z_order": 12
+      "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.6441,
-        "x": 0.6986,
-        "y": 6.6822
+        "h": 0.9513,
+        "w": 0.8461,
+        "x": 10.8362,
+        "y": 5.8015
       },
-      "id": "object_013",
+      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -424,174 +395,164 @@
           30,
           36
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "elegant black-and-white dapper year",
-        "theme_topic": "Remind End",
+        "text": "reaction paste hard-to-find",
+        "theme_topic": "Doll",
         "underline": false
       },
       "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.2963,
+        "w": 0.3122,
+        "x": 12.3083,
+        "y": 5.2875
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          198,
+          74
+        ],
+        "line": [
+          137,
+          128,
+          100
+        ],
+        "line_width": 5.2337111466365025,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Doll"
+      },
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 3.1443,
-        "w": 2.0913,
-        "x": 6.7525,
-        "y": 3.7281
+        "h": 0.951,
+        "w": 0.7246,
+        "x": 11.9987,
+        "y": 5.7791
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.053737578962985255,
-          0.12325349530096658,
-          0.11760258436956927,
-          0.06100760475770752
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "mask_line": [
-          189,
-          80,
-          172
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Remind End",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "learn recondite jail ready",
+        "theme_topic": "Doll",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.2691,
-        "w": 1.6722,
-        "x": 6.9565,
-        "y": 6.4317
+        "h": 2.7573,
+        "w": 6.3897,
+        "x": 0.5555,
+        "y": 4.1625
       },
       "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.005591590143020086,
+          0.22555905712090304,
+          0.14140601878276693,
+          0.10443043821091469
+        ],
+        "focus": true,
+        "mask_line": [
+          255,
+          198,
+          74
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Doll",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.2813,
+        "w": 6.0136,
+        "x": 0.7708,
+        "y": 6.5245
+      },
+      "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           255,
-          238,
-          103
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Grab Calculating Polish",
-        "theme_topic": "Remind End",
+        "text": "Needle",
+        "theme_topic": "Doll",
         "underline": false
       },
       "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 2.6097,
-        "w": 8.1094,
-        "x": 0.6704,
-        "y": 0.7269
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          155,
-          53,
-          177
-        ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          183,
-          60,
-          37
-        ],
-        "border": [
-          138,
-          211,
-          118
-        ],
-        "border_dash": "sysDot",
-        "border_width": 2.4627276956963087,
-        "cells": [
-          [
-            "toes",
-            "paste",
-            "trousers",
-            "squealing scare",
-            "melodic",
-            "selective"
-          ],
-          [
-            "snail material",
-            "testy wail",
-            "government",
-            "cuddly mountain",
-            "odd",
-            "ski waggish"
-          ],
-          [
-            "grin chicken",
-            "coast tax",
-            "afternoon",
-            "public",
-            "earsplitting float",
-            "dependent"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 9,
-        "has_header": true,
-        "header": [
-          63,
-          83,
-          127
-        ],
-        "rows": 3,
-        "text_color": [
-          28,
-          30,
-          36
-        ],
-        "theme_topic": "Remind End"
-      },
-      "type": "table",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.7848,
-        "x": 3.7178,
-        "y": 4.0919
+        "h": 0.2951,
+        "w": 2.0162,
+        "x": 1.8245,
+        "y": 1.4661
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          106,
+          33,
+          172
+        ],
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          224,
+          139,
+          128
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "page hug giddy quarter",
-        "theme_topic": "Remind End",
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Whirl",
+        "theme_topic": "Doll",
         "underline": false
       },
       "type": "text",
@@ -599,68 +560,74 @@
     },
     {
       "bbox": {
-        "h": 0.257,
-        "w": 2.783,
-        "x": 3.7017,
-        "y": 4.8994
+        "h": 0.8512,
+        "w": 0.4536,
+        "x": 5.1259,
+        "y": 3.2914
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 5,
+        "family": "basic",
+        "fill": [
+          137,
+          128,
+          100
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "dance doll attractive nimble object",
-        "theme_topic": "Remind End",
-        "underline": false
+        "focus": false,
+        "line": [
+          255,
+          198,
+          74
+        ],
+        "line_width": 1.9676429621148397,
+        "outline_only": false,
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Doll"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.7637,
-        "x": 3.7084,
-        "y": 5.7579
+        "h": 0.5028,
+        "w": 0.3072,
+        "x": 9.2521,
+        "y": 2.818
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          191,
+          154,
+          169
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "drunk sleet curved sticks vast",
-        "theme_topic": "Remind End",
-        "underline": false
+        "focus": false,
+        "line": [
+          42,
+          137,
+          186
+        ],
+        "line_width": 1.026234015658614,
+        "outline_only": false,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Doll"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.2588,
-        "w": 2.7584,
-        "x": 3.6985,
-        "y": 6.5676
+        "h": 0.2575,
+        "w": 1.9221,
+        "x": 3.1816,
+        "y": 6.3789
       },
       "id": "object_020",
       "properties": {
@@ -668,17 +635,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          159,
+          51,
+          56
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "program substantial idea messy burn",
-        "theme_topic": "Remind End",
+        "text": "awake",
+        "theme_topic": "Doll",
         "underline": false
       },
       "type": "text",
@@ -686,89 +653,82 @@
     },
     {
       "bbox": {
-        "h": 0.5323,
-        "w": 1.6653,
-        "x": 4.386,
-        "y": 1.1342
+        "h": 0.9381,
+        "w": 2.0707,
+        "x": 4.2608,
+        "y": 4.6211
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          216,
-          213,
-          168
+          41,
+          223,
+          218
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Scatter Sneaky Basin",
-        "theme_topic": "Remind End",
-        "underline": false
+        "connector": "straight",
+        "dash": 1,
+        "flip": false,
+        "ppt_type": 1,
+        "theme_topic": "Doll",
+        "width": 0.8267292660473403
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.8065,
-        "w": 0.8463,
-        "x": 5.2145,
-        "y": 0.622
+        "h": 1.1062,
+        "w": 1.5369,
+        "x": 10.8584,
+        "y": 0.292
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
-        "fill": [
-          114,
-          40,
-          57
+        "color": [
+          65,
+          158,
+          171
         ],
-        "focus": false,
-        "line": [
-          196,
-          194,
-          47
-        ],
-        "line_width": 5.084255884442072,
-        "outline_only": false,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Remind End"
+        "connector": "curve",
+        "dash": 1,
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "Doll",
+        "width": 1.6700327739084804
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.4169,
-        "w": 2.2321,
-        "x": 5.931,
-        "y": 6.5393
+        "h": 0.4886,
+        "w": 2.3502,
+        "x": 6.0963,
+        "y": 0.4777
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          102,
-          202,
-          125
+        "bg_color": [
+          76,
+          63,
+          145
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": true,
+        "bold": true,
+        "color": [
+          124,
+          166,
+          199
+        ],
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "careful",
-        "theme_topic": "Remind End",
+        "text": "dark",
+        "theme_topic": "Doll",
         "underline": false
       },
       "type": "text",
@@ -776,10 +736,10 @@
     },
     {
       "bbox": {
-        "h": 0.7219,
-        "w": 1.5437,
-        "x": 0.6118,
-        "y": 6.2242
+        "h": 0.5895,
+        "w": 0.4022,
+        "x": 0.5926,
+        "y": 1.6103
       },
       "id": "object_024",
       "properties": {
@@ -787,21 +747,21 @@
         "dash": 1,
         "family": "symbols",
         "fill": [
-          127,
-          33,
-          193
+          72,
+          146,
+          46
         ],
         "focus": false,
         "line": [
-          145,
-          104,
-          26
+          30,
+          149,
+          84
         ],
-        "line_width": 5.215325195894452,
-        "outline_only": true,
-        "ppt_type": 24,
-        "shape": "moon",
-        "theme_topic": "Remind End"
+        "line_width": 3.9583837622121565,
+        "outline_only": false,
+        "ppt_type": 172,
+        "shape": "gear6",
+        "theme_topic": "Doll"
       },
       "type": "shape",
       "z_order": 24

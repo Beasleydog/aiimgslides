@@ -10,12 +10,12 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        111,
-        88,
-        201
+        33,
+        115,
+        169
       ],
       "style": "solid",
-      "theme_topic": "Envious"
+      "theme_topic": "Cumbersome"
     },
     "type": "background",
     "z_order": 0
@@ -30,151 +30,146 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.5281,
-        "w": 3.8693,
-        "x": 3.5183,
-        "y": 2.0098
+        "h": 5.5518,
+        "w": 2.8696,
+        "x": 0.6398,
+        "y": 0.7327
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          118,
-          77,
-          74
-        ],
-        "focus": false,
-        "line": [
-          106,
-          91,
-          181
-        ],
-        "line_width": 2.5757680752563017,
-        "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Envious"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 2.8551,
-        "w": 6.6669,
-        "x": 0.0164,
-        "y": 4.6463
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          154,
-          137,
-          217
-        ],
-        "line": [
-          154,
-          137,
-          217
-        ],
-        "line_width": 1.6324349230412718,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Envious"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.984,
-        "w": 6.3577,
-        "x": 0.5261,
-        "y": 0.3555
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          250,
+          252,
+          255
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 42,
+        "font_face": "Arial",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Minute Awake",
-        "theme_topic": "Envious",
+        "text": "Belong",
+        "theme_topic": "Cumbersome",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
+      "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.8533,
-        "w": 6.3736,
-        "x": 0.5419,
-        "y": 1.8358
+        "h": 1.3924,
+        "w": 2.8046,
+        "x": 7.6591,
+        "y": 2.7958
       },
-      "id": "object_004",
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.13321986562267832,
+          0.16406257480925088,
+          0.2574951800085344,
+          0.13946005929017818
+        ],
+        "focus": false,
+        "mask_line": [
+          181,
+          170,
+          127
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Cumbersome",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 2.8658,
+        "w": 4.4982,
+        "x": 7.1038,
+        "y": 2.2667
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          255,
-          198,
-          74
+          47,
+          136,
+          190
         ],
         "line": [
-          154,
-          137,
-          217
+          47,
+          136,
+          190
         ],
-        "line_width": 3.138216307567613,
+        "line_width": 0.772664671755596,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Envious"
+        "theme_topic": "Cumbersome"
       },
       "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.1286,
+        "w": 4.104,
+        "x": 7.2816,
+        "y": 2.8191
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          250,
+          252,
+          255
+        ],
+        "font_face": "Arial",
+        "font_size": 55,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "2x",
+        "theme_topic": "Cumbersome",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1218,
-        "w": 6.0057,
-        "x": 0.7342,
-        "y": 2.4463
+        "h": 0.7068,
+        "w": 4.0953,
+        "x": 7.3017,
+        "y": 3.955
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          28,
-          30,
-          36
+          250,
+          252,
+          255
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 49,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "62%",
-        "theme_topic": "Envious",
+        "text": "fact trite bucket colour",
+        "theme_topic": "Cumbersome",
         "underline": false
       },
       "type": "text",
@@ -182,148 +177,150 @@
     },
     {
       "bbox": {
-        "h": 0.6843,
-        "w": 6.0028,
-        "x": 0.7226,
-        "y": 3.5701
+        "h": 1.7265,
+        "w": 2.8391,
+        "x": 8.5919,
+        "y": 3.1067
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
+        "crop": [
+          0.02059507684813805,
+          0.29510117606387665,
+          0.16483264798472494,
+          0.30483309195139996
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "needle helpless toe penitent deranged afterthought blot resolute",
-        "theme_topic": "Envious",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          255,
+          198,
+          74
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Cumbersome",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.2746,
-        "w": 5.0102,
-        "x": 7.6125,
-        "y": 1.9502
+        "h": 0.6045,
+        "w": 1.2175,
+        "x": 3.9501,
+        "y": 0.4835
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          198,
-          74
+          72,
+          194,
+          78
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "PERIODIC TEENY-TINY",
-        "theme_topic": "Envious",
-        "underline": false
+        "text": "Bright Suspend Bounce",
+        "theme_topic": "Cumbersome",
+        "underline": true
       },
       "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.0661,
-        "w": 5.0449,
-        "x": 7.6117,
-        "y": 2.4535
+        "h": 0.5542,
+        "w": 0.5573,
+        "x": 8.4958,
+        "y": 2.9496
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          164,
-          178,
-          102
+        "dash": 3,
+        "family": "callouts",
+        "fill": [
+          146,
+          109,
+          34
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Pretend Clean Twist",
-        "theme_topic": "Envious",
-        "underline": false
+        "focus": false,
+        "line": [
+          148,
+          220,
+          141
+        ],
+        "line_width": 6.05213303415579,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Cumbersome"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 3.1212,
-        "w": 5.0431,
-        "x": 7.5753,
-        "y": 3.7282
+        "h": 0.5207,
+        "w": 0.8644,
+        "x": 0.7449,
+        "y": 3.8357
       },
       "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          98,
+          56,
+          46
+        ],
+        "focus": false,
+        "line": [
+          227,
+          184,
+          39
+        ],
+        "line_width": 2.9217896244984285,
+        "outline_only": false,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Cumbersome"
+      },
+      "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.6136,
+        "w": 1.411,
+        "x": 0.3425,
+        "y": 0.5834
+      },
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          65,
-          56,
-          110
+          149,
+          141,
+          174
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "thoughtful gleaming actually defiant window macho instrument meat queue smooth scissors crazy",
-        "theme_topic": "Envious",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.6714,
-        "w": 6.065,
-        "x": 0.7116,
-        "y": 5.1261
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          123,
-          46,
-          128
-        ],
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 35,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Deep",
-        "theme_topic": "Envious",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Science Position Correct",
+        "theme_topic": "Cumbersome",
         "underline": false
       },
       "type": "text",
@@ -331,10 +328,10 @@
     },
     {
       "bbox": {
-        "h": 0.8344,
-        "w": 6.0675,
-        "x": 0.6908,
-        "y": 6.0529
+        "h": 0.4797,
+        "w": 1.7668,
+        "x": 3.1988,
+        "y": 1.1471
       },
       "id": "object_011",
       "properties": {
@@ -342,17 +339,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          65,
-          56,
-          110
+          223,
+          162,
+          156
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "colorful scream roll honorable throat rabid receive understood eggnog flowery screw bloody drown park",
-        "theme_topic": "Envious",
+        "text": "wary grateful wealth receptive",
+        "theme_topic": "Cumbersome",
         "underline": false
       },
       "type": "text",
@@ -360,39 +357,35 @@
     },
     {
       "bbox": {
-        "h": 0.4377,
-        "w": 2.3699,
-        "x": 3.4639,
-        "y": 6.1319
+        "h": 1.392,
+        "w": 1.1252,
+        "x": 3.7939,
+        "y": 3.8689
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
         "color": [
-          68,
-          194,
-          131
+          141,
+          172,
+          56
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pies needless cannon snakes",
-        "theme_topic": "Envious",
-        "underline": false
+        "connector": "elbow",
+        "dash": 7,
+        "flip": true,
+        "ppt_type": 2,
+        "theme_topic": "Cumbersome",
+        "width": 2.6024578835123915
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.4357,
-        "w": 2.2921,
-        "x": 1.5789,
-        "y": 5.2087
+        "h": 0.3229,
+        "w": 1.3666,
+        "x": 4.6835,
+        "y": 0.5447
       },
       "id": "object_013",
       "properties": {
@@ -400,17 +393,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          29,
-          108,
-          219
+          66,
+          135,
+          180
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "kind camp fixed",
-        "theme_topic": "Envious",
+        "font_face": "Arial",
+        "font_size": 8,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Night Grab",
+        "theme_topic": "Cumbersome",
         "underline": false
       },
       "type": "text",
@@ -418,35 +411,34 @@
     },
     {
       "bbox": {
-        "h": 0.5552,
-        "w": 1.0975,
-        "x": 1.1347,
-        "y": 1.2457
+        "h": 0.4527,
+        "w": 0.7639,
+        "x": 6.1603,
+        "y": 3.6802
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          159,
-          125,
-          117
+        "dash": 4,
+        "family": "arrows",
+        "fill": [
+          180,
+          97,
+          71
         ],
-        "bold": true,
-        "color": [
-          116,
-          113,
-          158
+        "focus": false,
+        "line": [
+          168,
+          32,
+          98
         ],
-        "font_face": "Verdana",
-        "font_size": 6,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "chilly",
-        "theme_topic": "Envious",
-        "underline": false
+        "line_width": 2.8079488065967424,
+        "outline_only": false,
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Cumbersome"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     }
   ],

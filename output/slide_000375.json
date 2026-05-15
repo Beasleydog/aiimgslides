@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "fill": [
-        33,
-        115,
-        169
+      "colors": [
+        [
+          247,
+          248,
+          246
+        ],
+        [
+          31,
+          117,
+          161
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Turn Seemly"
+      "fill": [
+        247,
+        248,
+        246
+      ],
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Identify Borrow"
     },
     "type": "background",
     "z_order": 0
@@ -30,151 +45,155 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.1887,
-        "w": 3.4312,
-        "x": 10.266,
-        "y": 0.8036
+        "h": 3.9815,
+        "w": 8.6574,
+        "x": -0.6914,
+        "y": 4.4052
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          125,
-          202,
-          107
+          67,
+          130,
+          79
         ],
         "focus": false,
         "line": [
-          225,
-          130,
-          167
+          139,
+          160,
+          35
         ],
-        "line_width": 2.361056380478887,
+        "line_width": 6.655041710119959,
         "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Turn Seemly"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Identify Borrow"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.7834,
-        "w": 3.2197,
-        "x": 9.3867,
-        "y": 0.6275
+        "h": 1.682,
+        "w": 7.4062,
+        "x": 5.145,
+        "y": 0.1062
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          250,
-          252,
-          255
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          229,
+          215,
+          164
         ],
-        "font_face": "Arial",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Big",
-        "theme_topic": "Turn Seemly",
-        "underline": false
+        "focus": false,
+        "line": [
+          192,
+          136,
+          139
+        ],
+        "line_width": 3.716912169056773,
+        "outline_only": false,
+        "ppt_type": 165,
+        "shape": "multiply",
+        "theme_topic": "Identify Borrow"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.4982,
-        "w": 3.1259,
-        "x": 3.0877,
-        "y": 3.3802
+        "h": 4.8622,
+        "w": 8.451,
+        "x": -0.5114,
+        "y": 1.379
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.012677138852655215,
-          0.07855008421910266,
-          0.16382276001367513,
-          0.09589982656811138
+        "dash": 2,
+        "family": "callouts",
+        "fill": [
+          230,
+          129,
+          190
         ],
-        "focus": true,
-        "mask_line": [
-          30,
-          219,
-          83
+        "focus": false,
+        "line": [
+          136,
+          127,
+          156
         ],
-        "mask_overlay": false,
-        "theme_topic": "Turn Seemly",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 7.381044442809827,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Identify Borrow"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.068,
-        "w": 1.9245,
-        "x": 0.7986,
-        "y": 3.501
+        "h": 5.4691,
+        "w": 6.8404,
+        "x": 0.8793,
+        "y": 1.2997
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          226,
-          76,
-          145
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          239,
+          242,
+          243
         ],
-        "bold": true,
-        "color": [
-          100,
-          82,
-          175
+        "line": [
+          236,
+          240,
+          242
         ],
-        "font_face": "Arial",
-        "font_size": 20,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Faded Disagree Historical",
-        "theme_topic": "Turn Seemly",
-        "underline": false
+        "line_width": 1.9727997816630205,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Identify Borrow"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.9942,
-        "w": 1.9536,
-        "x": 0.8124,
-        "y": 4.8012
+        "h": 5.5262,
+        "w": 2.8722,
+        "x": 0.6387,
+        "y": 0.7746
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          218,
-          235,
-          245
+          30,
+          35,
+          42
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos Display",
+        "font_size": 30,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "drip leg copy donkey ball fold back nostalgic fence toes lopsided instrument full disturbed repeat popcorn bruise spring welcome care rake",
-        "theme_topic": "Turn Seemly",
+        "text": "Observant Disapprove",
+        "theme_topic": "Identify Borrow",
         "underline": false
       },
       "type": "text",
@@ -182,10 +201,10 @@
     },
     {
       "bbox": {
-        "h": 0.4201,
-        "w": 2.2556,
-        "x": 9.7785,
-        "y": 2.0624
+        "h": 2.072,
+        "w": 1.8935,
+        "x": 3.94,
+        "y": 1.5611
       },
       "id": "object_006",
       "properties": {
@@ -193,17 +212,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          91,
-          25,
-          94
+          115,
+          124,
+          135
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Deranged Abnormal",
-        "theme_topic": "Turn Seemly",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "daffy laughable panoramic fetch inquisitive owe",
+        "theme_topic": "Identify Borrow",
         "underline": false
       },
       "type": "text",
@@ -211,103 +230,101 @@
     },
     {
       "bbox": {
-        "h": 0.5177,
-        "w": 1.8459,
-        "x": 7.0765,
-        "y": 6.1826
+        "h": 3.1224,
+        "w": 3.7041,
+        "x": 6.2027,
+        "y": 0.639
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          208,
-          41,
-          106
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          234,
+          206,
+          190
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "delicious stream milky sink",
-        "theme_topic": "Turn Seemly",
-        "underline": false
+        "line": [
+          236,
+          240,
+          242
+        ],
+        "line_width": 2.031043726668375,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Identify Borrow"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.3193,
-        "w": 0.4367,
-        "x": 6.1426,
-        "y": 2.621
+        "h": 2.0917,
+        "w": 3.3277,
+        "x": 6.3892,
+        "y": 1.5654
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          203,
-          137,
-          216
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          124,
+          135
         ],
-        "focus": false,
-        "line": [
-          191,
-          181,
-          97
-        ],
-        "line_width": 2.2736357901401227,
-        "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Turn Seemly"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "chivalrous jellyfish stew squeal",
+        "theme_topic": "Identify Borrow",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.674,
-        "w": 1.2945,
-        "x": 2.2593,
-        "y": 3.9269
+        "h": 3.0976,
+        "w": 2.6604,
+        "x": 10.0788,
+        "y": 0.6333
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 3,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          174,
-          45,
-          116
+          236,
+          240,
+          242
         ],
-        "focus": false,
         "line": [
-          48,
-          138,
-          60
+          236,
+          240,
+          242
         ],
-        "line_width": 3.3575297547374436,
+        "line_width": 3.1101864596574216,
         "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Turn Seemly"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Identify Borrow"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2968,
-        "w": 2.2309,
-        "x": 3.114,
-        "y": 6.7611
+        "h": 2.0993,
+        "w": 2.3019,
+        "x": 10.2584,
+        "y": 1.5754
       },
       "id": "object_010",
       "properties": {
@@ -315,17 +332,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          125,
-          190,
-          29
+          115,
+          124,
+          135
         ],
-        "font_face": "Arial",
-        "font_size": 8,
+        "font_face": "Aptos",
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Admit Material Business",
-        "theme_topic": "Turn Seemly",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fairies expand premium clip",
+        "theme_topic": "Identify Borrow",
         "underline": false
       },
       "type": "text",

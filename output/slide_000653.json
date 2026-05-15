@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        250,
-        250,
-        248
+      "back_color": [
+        66,
+        225,
+        215
       ],
-      "style": "solid",
-      "theme_topic": "Space"
+      "fill": [
+        66,
+        225,
+        215
+      ],
+      "fore_color": [
+        31,
+        117,
+        161
+      ],
+      "pattern": 15,
+      "style": "pattern",
+      "theme_topic": "Hate"
     },
     "type": "background",
     "z_order": 0
@@ -30,184 +41,178 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.2633,
-        "w": 7.9423,
-        "x": 1.1554,
-        "y": 3.2041
+        "h": 4.0401,
+        "w": 4.9195,
+        "x": 7.33,
+        "y": 2.0978
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 3,
+        "family": "arrows",
         "fill": [
-          212,
-          143,
-          218
+          122,
+          178,
+          140
         ],
         "focus": false,
         "line": [
-          77,
-          118,
-          227
+          188,
+          212,
+          226
         ],
-        "line_width": 5.5296991795632735,
+        "line_width": 5.759227380332285,
         "outline_only": false,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Space"
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Hate"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.0164,
-        "w": 3.3912,
-        "x": -0.0028,
-        "y": -0.5543
+        "h": 5.532,
+        "w": 2.8441,
+        "x": 0.6643,
+        "y": 0.7356
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          174,
-          156,
-          147
-        ],
-        "focus": false,
-        "line": [
-          150,
-          125,
-          218
-        ],
-        "line_width": 7.224348882326616,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Space"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 3.4354,
-        "w": 7.5122,
-        "x": -0.2233,
-        "y": 2.5494
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
-        "fill": [
-          197,
-          191,
-          162
-        ],
-        "focus": false,
-        "line": [
-          181,
-          206,
-          34
-        ],
-        "line_width": 6.443441492318651,
-        "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Space"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.4843,
-        "w": 7.4594,
-        "x": 5.8757,
-        "y": 0.0079
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          239,
-          239,
-          235
-        ],
-        "line": [
-          239,
-          239,
-          235
-        ],
-        "line_width": 1.4762962004475775,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Space"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.0653,
-        "w": 5.291,
-        "x": 0.5483,
-        "y": 0.3535
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           28,
-          28,
-          28
+          30,
+          36
         ],
-        "font_face": "Arial",
+        "font_face": "Aptos Display",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Plot Health Giant",
+        "theme_topic": "Hate",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.0465,
+        "w": 4.9565,
+        "x": 3.9052,
+        "y": 0.7792
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          225,
+          121
+        ],
+        "font_face": "Aptos Display",
         "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Calculating Pigs",
-        "theme_topic": "Space",
+        "text": "Rock",
+        "theme_topic": "Hate",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 4.7279,
+        "w": 4.9599,
+        "x": 3.9156,
+        "y": 2.0589
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          45,
+          117,
+          116
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "alarm handle harsh toy plastic announce zoo gun military thoughtful inconclusive plant romantic illegal",
+        "theme_topic": "Hate",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.6172,
+        "w": 0.6181,
+        "x": 10.4233,
+        "y": 1.3604
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          31,
+          117,
+          161
+        ],
+        "line": [
+          55,
+          190,
+          182
+        ],
+        "line_width": 1.2619068574034555,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hate"
+      },
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.4353,
-        "w": 3.3366,
-        "x": 3.9485,
-        "y": 3.469
+        "h": 0.6302,
+        "w": 3.2506,
+        "x": 9.4461,
+        "y": 1.769
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          148,
-          50,
-          141
+          28,
+          30,
+          36
         ],
-        "font_face": "Arial",
-        "font_size": 22,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Death File Peace",
-        "theme_topic": "Space",
+        "text": "hapless building raspy truck",
+        "theme_topic": "Hate",
         "underline": false
       },
       "type": "text",
@@ -215,97 +220,101 @@
     },
     {
       "bbox": {
-        "h": 0.4873,
-        "w": 3.3797,
-        "x": 3.9384,
-        "y": 4.1413
+        "h": 0.6375,
+        "w": 0.6243,
+        "x": 11.0413,
+        "y": 3.6903
       },
       "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          31,
+          117,
+          161
+        ],
+        "line": [
+          55,
+          190,
+          182
+        ],
+        "line_width": 1.2415473270311428,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hate"
+      },
+      "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.8078,
+        "w": 3.2322,
+        "x": 9.4611,
+        "y": 4.1495
+      },
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          115,
-          115,
-          115
+          28,
+          30,
+          36
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "accidental tail erect vessel low friend ghost smash hallowed dirt pan act",
-        "theme_topic": "Space",
+        "text": "funny cherry alarm land wood",
+        "theme_topic": "Hate",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 1.6123,
-        "w": 3.6662,
-        "x": 1.8051,
-        "y": 2.4394
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.004600592360973337,
-          0.188220784414267,
-          0.12905439637602312,
-          0.011427905536956686
-        ],
-        "focus": false,
-        "mask_line": [
-          148,
-          168,
-          196
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Space",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.0365,
-        "w": 7.5294,
-        "x": 3.3446,
-        "y": 1.9989
+        "h": 0.5379,
+        "w": 0.5214,
+        "x": 10.9015,
+        "y": 5.772
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          166,
-          68,
-          168
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          31,
+          117,
+          161
         ],
-        "font_face": "Arial",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Hanging Tease",
-        "theme_topic": "Space",
-        "underline": false
+        "line": [
+          55,
+          190,
+          182
+        ],
+        "line_width": 0.5935409865413279,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Hate"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.8882,
-        "w": 7.5032,
-        "x": 3.3806,
-        "y": 3.2873
+        "h": 0.5069,
+        "w": 3.2091,
+        "x": 9.4696,
+        "y": 6.2515
       },
       "id": "object_010",
       "properties": {
@@ -313,17 +322,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          115,
-          115,
-          115
+          28,
+          30,
+          36
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "apparel back hill view lucky top ripe grouchy",
-        "theme_topic": "Space",
+        "text": "join rely hilarious",
+        "theme_topic": "Hate",
         "underline": false
       },
       "type": "text",
@@ -331,117 +340,121 @@
     },
     {
       "bbox": {
-        "h": 1.6024,
-        "w": 3.6527,
-        "x": 7.6648,
-        "y": 4.1802
+        "h": 2.3558,
+        "w": 0.5899,
+        "x": 10.7439,
+        "y": 1.6519
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          239,
-          239,
-          235
+        "color": [
+          45,
+          117,
+          116
         ],
-        "line": [
-          239,
-          239,
-          235
-        ],
-        "line_width": 2.979056956387495,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Space"
+        "connector": "straight",
+        "dash": 4,
+        "flip": false,
+        "ppt_type": 1,
+        "theme_topic": "Hate",
+        "width": 3.044119168597958
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.569,
-        "w": 3.2836,
-        "x": 7.8579,
-        "y": 4.563
+        "h": 0.6503,
+        "w": 1.1092,
+        "x": 9.3423,
+        "y": 5.9851
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          250,
-          250,
-          248
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          194,
+          123,
+          57
         ],
-        "font_face": "Arial",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "26%",
-        "theme_topic": "Space",
-        "underline": false
+        "focus": false,
+        "line": [
+          71,
+          112,
+          145
+        ],
+        "line_width": 0.563609634372886,
+        "outline_only": false,
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Hate"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.3316,
-        "w": 3.2949,
-        "x": 7.8636,
-        "y": 5.1146
+        "h": 0.5357,
+        "w": 0.9173,
+        "x": 4.5568,
+        "y": 6.3542
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
+        "dash": 3,
+        "family": "basic",
+        "fill": [
+          136,
           28,
-          28,
-          28
+          103
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "abundant subsequent boundary colossal",
-        "theme_topic": "Space",
-        "underline": false
+        "focus": false,
+        "line": [
+          112,
+          54,
+          32
+        ],
+        "line_width": 4.9988335095495975,
+        "outline_only": false,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Hate"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.2591,
-        "w": 1.7708,
-        "x": 10.066,
-        "y": 5.7524
+        "h": 0.4642,
+        "w": 1.0674,
+        "x": 2.2822,
+        "y": 5.6884
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          173,
+          143,
+          186
+        ],
         "bold": false,
         "color": [
-          167,
-          139,
-          94
+          210,
+          132,
+          32
         ],
-        "font_face": "Arial",
-        "font_size": 6,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "well-groomed",
-        "theme_topic": "Space",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "File Distinct",
+        "theme_topic": "Hate",
         "underline": false
       },
       "type": "text",
@@ -449,88 +462,91 @@
     },
     {
       "bbox": {
-        "h": 0.8239,
-        "w": 1.525,
-        "x": 6.9635,
-        "y": 4.6322
+        "h": 0.7849,
+        "w": 0.3386,
+        "x": 5.9464,
+        "y": 4.1832
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "basic",
         "fill": [
-          86,
-          150,
-          67
+          178,
+          169,
+          63
         ],
         "focus": false,
         "line": [
-          105,
-          79,
-          123
+          146,
+          203,
+          166
         ],
-        "line_width": 3.9781478742859377,
-        "outline_only": true,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Space"
+        "line_width": 0.5721274762326246,
+        "outline_only": false,
+        "ppt_type": 7,
+        "shape": "triangle",
+        "theme_topic": "Hate"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.9252,
-        "w": 2.0426,
-        "x": 3.3675,
-        "y": 3.3371
+        "h": 0.5861,
+        "w": 1.5938,
+        "x": 0.3253,
+        "y": 5.5517
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          148,
-          127,
-          136
+        "dash": 2,
+        "family": "basic",
+        "fill": [
+          187,
+          41,
+          47
         ],
-        "connector": "elbow",
-        "dash": 3,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Space",
-        "width": 2.525213763032674
+        "focus": false,
+        "line": [
+          127,
+          94,
+          118
+        ],
+        "line_width": 0.9884322117407471,
+        "outline_only": false,
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Hate"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.4921,
-        "w": 2.0776,
-        "x": 8.3207,
-        "y": 6.6033
+        "h": 1.264,
+        "w": 0.6529,
+        "x": 2.9725,
+        "y": 0.9856
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
         "color": [
-          92,
-          112,
-          179
+          53,
+          221,
+          75
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "scarf wrist energetic account allow",
-        "theme_topic": "Space",
-        "underline": true
+        "connector": "curve",
+        "dash": 1,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Hate",
+        "width": 1.0577238858791227
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 17
     }
   ],

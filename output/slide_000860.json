@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        160,
-        85,
-        168
+        87,
+        181,
+        25
       ],
       "fill": [
-        160,
-        85,
-        168
+        111,
+        88,
+        201
       ],
       "fore_color": [
-        255,
-        238,
-        103
+        71,
+        221,
+        181
       ],
-      "pattern": 8,
+      "pattern": 47,
       "style": "pattern",
-      "theme_topic": "Oceanic Invincible"
+      "theme_topic": "Bloody Disagreeable"
     },
     "type": "background",
     "z_order": 0
@@ -41,76 +41,43 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.4523,
-        "w": 7.4082,
-        "x": 3.3259,
-        "y": 3.2178
+        "h": 1.0536,
+        "w": 13.327,
+        "x": 0.0035,
+        "y": -0.0122
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          131,
-          69,
-          124
+          130,
+          110,
+          208
         ],
-        "focus": false,
         "line": [
-          72,
-          53,
-          135
+          130,
+          110,
+          208
         ],
-        "line_width": 6.897261125595673,
-        "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Oceanic Invincible"
+        "line_width": 1.6172337587395675,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Bloody Disagreeable"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.3583,
-        "w": 6.1344,
-        "x": 1.2725,
-        "y": 4.1624
+        "h": 0.9223,
+        "w": 5.8849,
+        "x": 2.9647,
+        "y": 1.0274
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          139,
-          135,
-          69
-        ],
-        "focus": false,
-        "line": [
-          202,
-          55,
-          162
-        ],
-        "line_width": 6.004690929638936,
-        "outline_only": true,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Oceanic Invincible"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.1554,
-        "w": 6.3236,
-        "x": 2.586,
-        "y": 0.6698
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -121,23 +88,54 @@
           36
         ],
         "font_face": "Arial",
-        "font_size": 32,
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Elated Face Cynical Astonishing",
-        "theme_topic": "Oceanic Invincible",
+        "text": "Scorch Joke Scorch Rest",
+        "theme_topic": "Bloody Disagreeable",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 2.6581,
+        "w": 1.3317,
+        "x": 0.5677,
+        "y": 4.3214
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          130,
+          110,
+          208
+        ],
+        "line": [
+          130,
+          110,
+          208
+        ],
+        "line_width": 1.7117668262794883,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Bloody Disagreeable"
+      },
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.7844,
-        "w": 3.5519,
-        "x": 0.7159,
-        "y": 2.1355
+        "h": 0.4398,
+        "w": 0.8106,
+        "x": 0.7757,
+        "y": 5.2395
       },
       "id": "object_004",
       "properties": {
@@ -145,17 +143,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          71,
+          221,
+          181
         ],
         "font_face": "Arial",
-        "font_size": 40,
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Obtain Tooth",
-        "theme_topic": "Oceanic Invincible",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "File",
+        "theme_topic": "Bloody Disagreeable",
         "underline": false
       },
       "type": "text",
@@ -163,10 +161,10 @@
     },
     {
       "bbox": {
-        "h": 1.07,
-        "w": 3.5459,
-        "x": 0.7141,
-        "y": 3.1755
+        "h": 1.0107,
+        "w": 0.8547,
+        "x": 0.8185,
+        "y": 5.7766
       },
       "id": "object_005",
       "properties": {
@@ -174,17 +172,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          87,
-          54,
-          95
+          65,
+          56,
+          110
         ],
         "font_face": "Arial",
-        "font_size": 15,
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "float neat untidy rhyme accidental lively bawdy system trains dirt uncovered sparkling stale governor bait page meaty",
-        "theme_topic": "Oceanic Invincible",
+        "text": "nut shelf bridge purple eggnog fork kindly point rescue judge suggestion",
+        "theme_topic": "Bloody Disagreeable",
         "underline": false
       },
       "type": "text",
@@ -192,39 +190,41 @@
     },
     {
       "bbox": {
-        "h": 2.2356,
-        "w": 1.1217,
-        "x": 9.027,
-        "y": 4.7215
+        "h": 2.675,
+        "w": 1.7173,
+        "x": 2.1147,
+        "y": 4.3322
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.11583309203761433,
-          0.20267557140688733,
-          0.10768000008698653,
-          0.10240461474058664
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          130,
+          110,
+          208
         ],
-        "focus": false,
-        "mask_line": [
-          174,
-          75,
-          119
+        "line": [
+          130,
+          110,
+          208
         ],
-        "mask_overlay": false,
-        "theme_topic": "Oceanic Invincible",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.4168329131660107,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Bloody Disagreeable"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.2821,
-        "w": 0.7435,
-        "x": 9.1803,
-        "y": 6.5614
+        "h": 0.428,
+        "w": 1.1819,
+        "x": 2.3685,
+        "y": 5.2267
       },
       "id": "object_007",
       "properties": {
@@ -232,17 +232,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          71,
+          221,
+          181
         ],
         "font_face": "Arial",
-        "font_size": 7,
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Sin Repair Eager",
-        "theme_topic": "Oceanic Invincible",
+        "text": "Kindhearted",
+        "theme_topic": "Bloody Disagreeable",
         "underline": false
       },
       "type": "text",
@@ -250,177 +250,177 @@
     },
     {
       "bbox": {
-        "h": 2.2282,
-        "w": 1.137,
-        "x": 10.2939,
-        "y": 4.7411
+        "h": 1.0325,
+        "w": 1.2258,
+        "x": 2.3703,
+        "y": 5.7721
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          180,
-          122,
-          187
-        ],
-        "line": [
-          180,
-          122,
-          187
-        ],
-        "line_width": 1.0698763752419882,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Oceanic Invincible"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.9565,
-        "w": 0.8683,
-        "x": 10.415,
-        "y": 4.9052
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.28237768001871316,
-          0.19716984740763505,
-          0.04995005266093302,
-          0.02488095735933508
-        ],
-        "focus": false,
-        "mask_line": [
-          46,
-          155,
-          69
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Oceanic Invincible",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 2.2795,
-        "w": 1.1647,
-        "x": 11.6226,
-        "y": 4.7201
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.23104733851421674,
-          0.0530184261874129,
-          0.10451400778687542,
-          0.18208651443851825
-        ],
-        "focus": false,
-        "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Oceanic Invincible",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 2.3368,
-        "w": 3.8244,
-        "x": 0.5519,
-        "y": 4.6861
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          180,
-          122,
-          187
-        ],
-        "line": [
-          180,
-          122,
-          187
-        ],
-        "line_width": 4.857466506947298,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Oceanic Invincible"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.913,
-        "w": 3.4672,
-        "x": 0.7133,
-        "y": 5.189
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Arial",
-        "font_size": 46,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "10x",
-        "theme_topic": "Oceanic Invincible",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.5566,
-        "w": 3.489,
-        "x": 0.7506,
-        "y": 6.1258
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          65,
+          56,
+          110
         ],
         "font_face": "Arial",
-        "font_size": 13,
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "form makeshift ghost rest hanging secretive relieved two",
-        "theme_topic": "Oceanic Invincible",
+        "text": "spooky rings breakable curve prickly graceful flippant giant basin",
+        "theme_topic": "Bloody Disagreeable",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 2.6468,
+        "w": 1.5439,
+        "x": 4.0323,
+        "y": 4.3525
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          130,
+          110,
+          208
+        ],
+        "line": [
+          130,
+          110,
+          208
+        ],
+        "line_width": 2.251106798434027,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Bloody Disagreeable"
+      },
+      "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.4644,
+        "w": 1.0486,
+        "x": 4.2974,
+        "y": 5.2504
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Rice Chilly",
+        "theme_topic": "Bloody Disagreeable",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 1.0296,
+        "w": 1.0369,
+        "x": 4.2636,
+        "y": 5.7799
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          65,
+          56,
+          110
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "sofa look brown delay metal cooperative effect adamant habitual",
+        "theme_topic": "Bloody Disagreeable",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 2.6668,
+        "w": 1.333,
+        "x": 5.7933,
+        "y": 4.3573
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          130,
+          110,
+          208
+        ],
+        "line": [
+          130,
+          110,
+          208
+        ],
+        "line_width": 1.9396771681357439,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Bloody Disagreeable"
+      },
+      "type": "shape",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.4359,
+        "w": 0.8185,
+        "x": 6.0503,
+        "y": 5.2564
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Fall Delicious",
+        "theme_topic": "Bloody Disagreeable",
         "underline": false
       },
       "type": "text",
@@ -428,86 +428,57 @@
     },
     {
       "bbox": {
-        "h": 2.2553,
-        "w": 3.7633,
-        "x": 4.8161,
-        "y": 2.0642
+        "h": 1.0211,
+        "w": 0.81,
+        "x": 6.0675,
+        "y": 5.7832
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          180,
-          122,
-          187
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          65,
+          56,
+          110
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          105,
-          115,
-          63
-        ],
-        "border": [
-          227,
-          182,
-          84
-        ],
-        "border_dash": "dash",
-        "border_width": 2.990473030414721,
-        "cells": [
-          [
-            "rhyme",
-            "desk suppose"
-          ],
-          [
-            "married garrulous",
-            "air board"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 15,
-        "has_header": true,
-        "header": [
-          111,
-          64,
-          125
-        ],
-        "rows": 2,
-        "text_color": [
-          28,
-          30,
-          36
-        ],
-        "theme_topic": "Oceanic Invincible"
+        "font_face": "Arial",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "nifty shaggy jail plough sign overrated hope store locket crooked rambunctious observation",
+        "theme_topic": "Bloody Disagreeable",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 2.3246,
-        "w": 3.8607,
-        "x": 4.7609,
-        "y": 4.7104
+        "h": 2.5422,
+        "w": 1.6577,
+        "x": 7.4844,
+        "y": 4.3701
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.003954926384352266,
-          0.04917420855708119,
-          0.32142882398929995,
-          0.12388392782063944
+          0.16667056486235252,
+          0.043372509319228286,
+          0.010627153473276219,
+          0.1077085665919402
         ],
-        "focus": true,
+        "focus": false,
         "mask_line": [
-          71,
-          58,
-          80
+          77,
+          191,
+          152
         ],
         "mask_overlay": false,
-        "theme_topic": "Oceanic Invincible",
+        "theme_topic": "Bloody Disagreeable",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -515,10 +486,10 @@
     },
     {
       "bbox": {
-        "h": 0.2558,
-        "w": 3.4557,
-        "x": 4.9574,
-        "y": 6.6027
+        "h": 0.2566,
+        "w": 1.2524,
+        "x": 7.6922,
+        "y": 6.5216
       },
       "id": "object_016",
       "properties": {
@@ -526,17 +497,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          71,
+          221,
+          181
         ],
         "font_face": "Arial",
         "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Clever Current",
-        "theme_topic": "Oceanic Invincible",
+        "text": "Odd Tiger",
+        "theme_topic": "Bloody Disagreeable",
         "underline": false
       },
       "type": "text",
@@ -544,180 +515,185 @@
     },
     {
       "bbox": {
-        "h": 0.8485,
-        "w": 1.2342,
-        "x": 7.0695,
-        "y": 1.5398
+        "h": 2.5393,
+        "w": 1.6213,
+        "x": 9.3083,
+        "y": 4.406
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          68,
-          120,
-          39
+        "crop": [
+          0.14741853748124795,
+          0.017122067884018335,
+          0.011383648933909543,
+          0.13525316441041488
         ],
         "focus": false,
-        "line": [
-          185,
-          39,
-          152
+        "mask_line": [
+          26,
+          90,
+          172
         ],
-        "line_width": 5.8206385723689245,
-        "outline_only": true,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Oceanic Invincible"
+        "mask_overlay": true,
+        "theme_topic": "Bloody Disagreeable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 1.3866,
-        "w": 1.4038,
-        "x": 0.4568,
-        "y": 0.6755
+        "h": 2.549,
+        "w": 1.6291,
+        "x": 11.0737,
+        "y": 4.4055
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          77,
-          119,
-          158
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          130,
+          110,
+          208
         ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Oceanic Invincible",
-        "width": 2.2061700339196655
+        "line": [
+          130,
+          110,
+          208
+        ],
+        "line_width": 1.8191296063490796,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Bloody Disagreeable"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.7252,
-        "w": 0.6671,
-        "x": 8.2826,
-        "y": 3.2869
+        "h": 2.2718,
+        "w": 1.367,
+        "x": 11.2354,
+        "y": 4.5274
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          32,
-          25,
-          39
+        "crop": [
+          0.3057675135304494,
+          0.10011612205573145,
+          0.3262879183617021,
+          0.13864873752118653
         ],
         "focus": false,
-        "line": [
-          36,
-          95,
-          52
+        "mask_line": [
+          91,
+          79,
+          142
         ],
-        "line_width": 1.004539042204239,
-        "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Oceanic Invincible"
+        "mask_overlay": false,
+        "theme_topic": "Bloody Disagreeable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.4659,
-        "w": 1.3473,
-        "x": 0.5066,
-        "y": 5.79
+        "h": 0.2695,
+        "w": 1.2919,
+        "x": 7.0241,
+        "y": 0.9549
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "basic",
         "fill": [
-          52,
-          71,
-          98
+          28,
+          168,
+          208
         ],
         "focus": false,
         "line": [
-          113,
-          63,
-          117
+          159,
+          71,
+          95
         ],
-        "line_width": 1.2921792267786187,
-        "outline_only": true,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Oceanic Invincible"
+        "line_width": 1.1855091299672642,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Bloody Disagreeable"
       },
       "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 1.3351,
-        "w": 0.8863,
-        "x": 9.7434,
-        "y": 1.9232
+        "h": 0.3326,
+        "w": 0.6644,
+        "x": 4.6222,
+        "y": 6.217
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          103,
-          215,
-          48
+        "bg_color": [
+          229,
+          131,
+          140
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Oceanic Invincible",
-        "width": 1.6591076753010792
+        "bold": true,
+        "color": [
+          28,
+          163,
+          103
+        ],
+        "font_face": "Arial",
+        "font_size": 8,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Face Maddening",
+        "theme_topic": "Bloody Disagreeable",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.3923,
-        "w": 0.2993,
-        "x": 12.0548,
-        "y": 1.1061
+        "h": 0.4277,
+        "w": 2.3596,
+        "x": 3.8431,
+        "y": 4.6811
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          117,
-          129,
-          172
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          218,
+          28,
+          58
         ],
-        "focus": false,
-        "line": [
-          43,
-          181,
-          79
-        ],
-        "line_width": 6.009708276466412,
-        "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Oceanic Invincible"
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Sisters",
+        "theme_topic": "Bloody Disagreeable",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 22
     }
   ],

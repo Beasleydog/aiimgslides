@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          67,
-          114,
-          180
-        ],
-        [
-          74,
-          72,
-          131
-        ]
+      "back_color": [
+        245,
+        247,
+        252
       ],
       "fill": [
-        31,
-        87,
-        166
+        245,
+        247,
+        252
       ],
-      "focus": "bottom_right",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Skip Romantic"
+      "fore_color": [
+        82,
+        96,
+        214
+      ],
+      "pattern": 19,
+      "style": "pattern",
+      "theme_topic": "Frail"
     },
     "type": "background",
     "z_order": 0
@@ -45,123 +41,121 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.903,
-        "w": 6.8011,
-        "x": 4.5113,
-        "y": 5.3713
+        "h": 4.9776,
+        "w": 3.7517,
+        "x": 5.6708,
+        "y": 0.1423
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
+        "dash": 7,
+        "family": "flowchart",
         "fill": [
-          74,
-          85,
-          110
+          91,
+          132,
+          228
         ],
         "focus": false,
         "line": [
-          223,
-          155,
-          73
+          122,
+          90,
+          130
         ],
-        "line_width": 3.895500221660522,
-        "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Skip Romantic"
+        "line_width": 3.4969836359486335,
+        "outline_only": true,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Frail"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.0733,
-        "w": 8.9077,
-        "x": 1.024,
-        "y": 1.2897
+        "h": 0.9077,
+        "w": 7.7874,
+        "x": 0.7685,
+        "y": 5.859
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          54,
-          104,
-          175
-        ],
-        "line": [
-          67,
-          114,
-          180
-        ],
-        "line_width": 0.6912408101699785,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Skip Romantic"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.1718,
-        "w": 7.0956,
-        "x": 3.2061,
-        "y": 0.6506
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          27,
+          44,
+          68
         ],
-        "font_face": "Aptos Display",
-        "font_size": 30,
+        "font_face": "Trebuchet MS",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Untidy Harass Noisy Mint",
-        "theme_topic": "Skip Romantic",
+        "text": "Possessive Confused Dirt",
+        "theme_topic": "Frail",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.7257,
+        "w": 3.7594,
+        "x": 8.8263,
+        "y": 3.6969
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.1550265999943879,
+          0.07743539999976098,
+          0.03600826618785765,
+          0.21305226389445614
+        ],
+        "focus": false,
+        "mask_line": [
+          62,
+          193,
+          109
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Frail",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.0469,
-        "w": 6.4303,
-        "x": 6.3989,
-        "y": 1.9918
+        "h": 0.9028,
+        "w": 4.0895,
+        "x": 0.6109,
+        "y": 2.0766
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.04249663268812171,
-          0.08733750443056129,
-          0.04340547693330813,
-          0.10730158226751178
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          27,
+          44,
+          68
         ],
-        "focus": true,
-        "mask_line": [
-          192,
-          126,
-          147
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Skip Romantic",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "scene late grease",
+        "theme_topic": "Frail",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 4
     }
   ],

@@ -10,12 +10,12 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        240,
-        176,
-        54
+        250,
+        250,
+        248
       ],
       "style": "solid",
-      "theme_topic": "Water"
+      "theme_topic": "Earthy"
     },
     "type": "background",
     "z_order": 0
@@ -30,138 +30,131 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.8442,
-        "w": 5.4412,
-        "x": -0.8604,
-        "y": 4.5802
+        "h": 1.7994,
+        "w": 8.3887,
+        "x": 4.3487,
+        "y": 2.3636
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 3,
         "family": "arrows",
         "fill": [
-          209,
-          177,
-          100
+          162,
+          154,
+          191
         ],
         "focus": false,
         "line": [
-          205,
-          208,
-          76
+          148,
+          105,
+          204
         ],
-        "line_width": 2.283830944928005,
+        "line_width": 4.366508799661981,
         "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Water"
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Earthy"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.3917,
-        "w": 7.5118,
-        "x": -1.1553,
-        "y": 2.8154
+        "h": 1.0889,
+        "w": 7.266,
+        "x": 0.5353,
+        "y": 0.3403
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          71,
-          156,
-          186
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          28,
+          28
         ],
-        "focus": false,
-        "line": [
-          215,
-          165,
-          97
-        ],
-        "line_width": 3.0240984847375287,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Water"
+        "font_face": "Aptos Display",
+        "font_size": 42,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Jaded Suit Spark Boy",
+        "theme_topic": "Earthy",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.922,
-        "w": 8.984,
-        "x": -1.0073,
-        "y": 1.2973
+        "h": 1.2989,
+        "w": 12.2638,
+        "x": 0.5512,
+        "y": 5.7206
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "math",
-        "fill": [
-          143,
-          82,
-          135
+        "crop": [
+          0.32871013019119216,
+          0.20522637061314336,
+          0.32739807004894794,
+          0.3199445916439711
         ],
-        "focus": false,
-        "line": [
-          153,
-          45,
-          60
+        "focus": true,
+        "mask_line": [
+          38,
+          132,
+          88
         ],
-        "line_width": 2.418833142192752,
-        "outline_only": true,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Water"
+        "mask_overlay": true,
+        "theme_topic": "Earthy",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.9116,
-        "w": 4.4422,
-        "x": 4.8243,
-        "y": 3.8748
+        "h": 1.9667,
+        "w": 3.3073,
+        "x": 3.2649,
+        "y": 3.4828
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "callouts",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          121,
-          126,
-          40
+          239,
+          239,
+          235
         ],
-        "focus": false,
         "line": [
-          63,
-          134,
-          193
+          239,
+          239,
+          235
         ],
-        "line_width": 6.196232752580084,
+        "line_width": 1.9869284308034578,
         "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Water"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Earthy"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.913,
-        "w": 4.6109,
-        "x": 5.3919,
-        "y": 0.6665
+        "h": 0.4535,
+        "w": 2.7683,
+        "x": 7.0583,
+        "y": 4.3791
       },
       "id": "object_005",
       "properties": {
@@ -169,17 +162,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          40,
           38,
-          28
+          132,
+          88
         ],
-        "font_face": "Aptos Display",
-        "font_size": 25,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Unwritten Easy Word Material",
-        "theme_topic": "Water",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Fluttering",
+        "theme_topic": "Earthy",
         "underline": false
       },
       "type": "text",
@@ -187,96 +180,39 @@
     },
     {
       "bbox": {
-        "h": 5.4517,
-        "w": 6.0529,
-        "x": 0.6128,
-        "y": 1.4885
+        "h": 0.6149,
+        "w": 3.855,
+        "x": 0.7179,
+        "y": 2.0388
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          77,
-          195,
-          40
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          38,
+          132,
+          88
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          198,
-          154,
-          52
-        ],
-        "border": [
-          51,
-          214,
-          42
-        ],
-        "border_dash": "lgDash",
-        "border_width": 2.103895651125095,
-        "cells": [
-          [
-            "strange",
-            "general",
-            "steel",
-            "ink sail"
-          ],
-          [
-            "argument depressed",
-            "morning",
-            "scene",
-            "learned"
-          ],
-          [
-            "frogs",
-            "abaft modern",
-            "absorbing possessive",
-            "blow"
-          ],
-          [
-            "unique lumber",
-            "creature",
-            "careful",
-            "volatile momentous"
-          ],
-          [
-            "majestic marry",
-            "absorbed",
-            "clover",
-            "tense abhorrent"
-          ],
-          [
-            "art distinct",
-            "better",
-            "harmony",
-            "ball tranquil"
-          ]
-        ],
-        "cols": 4,
-        "font_size": 11,
-        "has_header": true,
-        "header": [
-          220,
-          80,
-          169
-        ],
-        "rows": 6,
-        "text_color": [
-          25,
-          37,
-          128
-        ],
-        "theme_topic": "Water"
+        "font_face": "Aptos Display",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "229",
+        "theme_topic": "Earthy",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.6426,
-        "w": 1.5033,
-        "x": 7.2744,
-        "y": 2.3878
+        "h": 0.3431,
+        "w": 3.8702,
+        "x": 0.741,
+        "y": 2.7677
       },
       "id": "object_007",
       "properties": {
@@ -284,17 +220,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          94,
-          82,
-          58
+          115,
+          115,
+          115
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "dreary way event chemical profuse credit curious",
-        "theme_topic": "Water",
+        "text": "river shy high chilly broken jar abstracted",
+        "theme_topic": "Earthy",
         "underline": false
       },
       "type": "text",
@@ -302,28 +238,28 @@
     },
     {
       "bbox": {
-        "h": 1.6607,
-        "w": 1.2576,
-        "x": 9.3091,
-        "y": 2.3807
+        "h": 0.6399,
+        "w": 3.1104,
+        "x": 5.1234,
+        "y": 2.0073
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          94,
-          82,
-          58
+          38,
+          132,
+          88
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Aptos Display",
+        "font_size": 34,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "bit stretch miscreant territory bashful",
-        "theme_topic": "Water",
+        "text": "4.7x",
+        "theme_topic": "Earthy",
         "underline": false
       },
       "type": "text",
@@ -331,10 +267,10 @@
     },
     {
       "bbox": {
-        "h": 1.6353,
-        "w": 1.5416,
-        "x": 11.0878,
-        "y": 2.3832
+        "h": 0.3402,
+        "w": 3.0835,
+        "x": 5.1409,
+        "y": 2.772
       },
       "id": "object_009",
       "properties": {
@@ -342,17 +278,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          94,
-          82,
-          58
+          115,
+          115,
+          115
         ],
         "font_face": "Aptos",
         "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "glove disappear weigh health expansion next",
-        "theme_topic": "Water",
+        "text": "best cycle coat hover",
+        "theme_topic": "Earthy",
         "underline": false
       },
       "type": "text",
@@ -360,31 +296,31 @@
     },
     {
       "bbox": {
-        "h": 2.5631,
-        "w": 5.6974,
-        "x": 7.0821,
-        "y": 4.4536
+        "h": 0.6053,
+        "w": 3.8166,
+        "x": 8.7838,
+        "y": 2.0221
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.15369671517226038,
-          0.30820761248045075,
-          0.0016600045479176295,
-          0.22429106648341945
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          38,
+          132,
+          88
         ],
-        "focus": true,
-        "mask_line": [
-          131,
-          210,
-          100
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Water",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos Display",
+        "font_size": 27,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "55%",
+        "theme_topic": "Earthy",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 10
     }
   ],

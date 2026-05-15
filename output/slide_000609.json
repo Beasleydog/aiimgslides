@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        232,
-        163,
-        45
+      "back_color": [
+        25,
+        30,
+        39
       ],
-      "style": "solid",
-      "theme_topic": "Noise Fancy"
+      "fill": [
+        25,
+        30,
+        39
+      ],
+      "fore_color": [
+        244,
+        180,
+        76
+      ],
+      "pattern": 51,
+      "style": "pattern",
+      "theme_topic": "Squeal Explain"
     },
     "type": "background",
     "z_order": 0
@@ -30,138 +41,133 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.3063,
-        "w": 3.6246,
-        "x": -1.0701,
-        "y": 1.9561
+        "h": 3.4197,
+        "w": 4.7564,
+        "x": 6.4944,
+        "y": -0.5636
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
+        "dash": 3,
+        "family": "callouts",
         "fill": [
-          157,
-          204,
-          147
+          85,
+          125,
+          93
         ],
         "focus": false,
         "line": [
-          159,
-          195,
-          155
+          54,
+          201,
+          199
         ],
-        "line_width": 6.836879855581853,
-        "outline_only": true,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Noise Fancy"
+        "line_width": 4.807583039176901,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Squeal Explain"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9732,
-        "w": 8.1026,
-        "x": 2.808,
-        "y": 1.4594
+        "h": 7.5072,
+        "w": 1.1057,
+        "x": -0.0043,
+        "y": 0.0043
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          198,
-          164,
-          128
+          43,
+          51,
+          64
         ],
-        "focus": false,
         "line": [
-          161,
-          216,
-          61
+          43,
+          51,
+          64
         ],
-        "line_width": 4.538962049546424,
+        "line_width": 0.7455526419736482,
         "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Noise Fancy"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Squeal Explain"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.2285,
-        "w": 4.1616,
-        "x": 2.6975,
-        "y": 2.4194
+        "h": 5.5616,
+        "w": 2.8615,
+        "x": 0.6715,
+        "y": 0.7623
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          115,
-          210,
-          53
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          247,
+          249
         ],
-        "focus": false,
-        "line": [
-          56,
-          76,
-          31
-        ],
-        "line_width": 7.125794371999416,
-        "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Noise Fancy"
+        "font_face": "Aptos Display",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Vacuous",
+        "theme_topic": "Squeal Explain",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.7238,
-        "w": 4.5276,
-        "x": 8.1941,
-        "y": 0.6858
+        "h": 1.2798,
+        "w": 2.8813,
+        "x": 3.7612,
+        "y": 0.6612
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          174,
-          156,
-          111
+          43,
+          51,
+          64
         ],
-        "focus": false,
         "line": [
-          156,
-          92,
-          184
+          43,
+          51,
+          64
         ],
-        "line_width": 4.968372054998426,
-        "outline_only": true,
-        "ppt_type": 164,
-        "shape": "minus",
-        "theme_topic": "Noise Fancy"
+        "line_width": 5.201848020752465,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Squeal Explain"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.7866,
-        "w": 3.187,
-        "x": 9.4051,
-        "y": 0.6263
+        "h": 0.4525,
+        "w": 2.3511,
+        "x": 3.9932,
+        "y": 1.5259
       },
       "id": "object_005",
       "properties": {
@@ -169,17 +175,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos Display",
-        "font_size": 22,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Consider Overt Private",
-        "theme_topic": "Noise Fancy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Uncovered",
+        "theme_topic": "Squeal Explain",
         "underline": false
       },
       "type": "text",
@@ -187,39 +193,41 @@
     },
     {
       "bbox": {
-        "h": 1.4284,
-        "w": 4.6204,
-        "x": 2.898,
-        "y": 4.2448
+        "h": 1.4252,
+        "w": 2.8627,
+        "x": 3.7473,
+        "y": 2.1574
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
         ],
-        "font_face": "Aptos Display",
-        "font_size": 27,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Attack Thumb Delirious Love Cause Cruel Pig Dirt Chance",
-        "theme_topic": "Noise Fancy",
-        "underline": false
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 4.178948812210781,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Squeal Explain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4074,
-        "w": 2.5577,
-        "x": 2.8812,
-        "y": 5.9158
+        "h": 0.4281,
+        "w": 2.368,
+        "x": 3.9777,
+        "y": 3.058
       },
       "id": "object_007",
       "properties": {
@@ -227,17 +235,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "REQUEST",
-        "theme_topic": "Noise Fancy",
+        "text": "Join",
+        "theme_topic": "Squeal Explain",
         "underline": false
       },
       "type": "text",
@@ -245,57 +253,59 @@
     },
     {
       "bbox": {
-        "h": 0.4704,
-        "w": 2.1684,
-        "x": 2.3997,
-        "y": 3.6281
+        "h": 1.4333,
+        "w": 2.8584,
+        "x": 3.7451,
+        "y": 3.7505
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          232,
-          163,
-          45
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
         ],
-        "font_face": "Aptos Display",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "519",
-        "theme_topic": "Noise Fancy",
-        "underline": false
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 3.5577754025209973,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Squeal Explain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2632,
-        "w": 2.1607,
-        "x": 2.4093,
-        "y": 4.1197
+        "h": 0.4586,
+        "w": 2.3463,
+        "x": 3.9972,
+        "y": 4.6819
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          28,
-          30,
-          36
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "chemical iron doubt abject act experience drum",
-        "theme_topic": "Noise Fancy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Lunchroom Living",
+        "theme_topic": "Squeal Explain",
         "underline": false
       },
       "type": "text",
@@ -303,39 +313,41 @@
     },
     {
       "bbox": {
-        "h": 0.6187,
-        "w": 1.2457,
-        "x": 5.1754,
-        "y": 1.1636
+        "h": 1.4979,
+        "w": 2.8581,
+        "x": 3.7655,
+        "y": 5.3809
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          232,
-          163,
-          45
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "76%",
-        "theme_topic": "Noise Fancy",
-        "underline": false
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 2.0304797660857656,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Squeal Explain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.673,
-        "w": 1.5041,
-        "x": 3.6991,
-        "y": 2.0066
+        "h": 0.4731,
+        "w": 2.3645,
+        "x": 4.0137,
+        "y": 6.324
       },
       "id": "object_011",
       "properties": {
@@ -343,17 +355,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          232,
-          163,
-          45
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos Display",
-        "font_size": 35,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "9x",
-        "theme_topic": "Noise Fancy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Pest Hypnotic",
+        "theme_topic": "Squeal Explain",
         "underline": false
       },
       "type": "text",
@@ -361,28 +373,28 @@
     },
     {
       "bbox": {
-        "h": 0.4189,
-        "w": 1.4778,
-        "x": 3.7146,
-        "y": 2.6972
+        "h": 0.2634,
+        "w": 2.197,
+        "x": 7.1351,
+        "y": 0.7541
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          28,
-          30,
-          36
+          96,
+          165,
+          250
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pen depressed escape crabby moan tight late verdant observation",
-        "theme_topic": "Noise Fancy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "TYPE MEMORY",
+        "theme_topic": "Squeal Explain",
         "underline": false
       },
       "type": "text",
@@ -390,10 +402,10 @@
     },
     {
       "bbox": {
-        "h": 0.5687,
-        "w": 0.9853,
-        "x": 5.9204,
-        "y": 1.0882
+        "h": 1.0423,
+        "w": 2.1951,
+        "x": 7.1283,
+        "y": 1.2278
       },
       "id": "object_013",
       "properties": {
@@ -401,17 +413,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          64,
-          220,
-          92
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Aptos Display",
+        "font_size": 29,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Tall Offbeat",
-        "theme_topic": "Noise Fancy",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Angry Quaint",
+        "theme_topic": "Squeal Explain",
         "underline": false
       },
       "type": "text",
@@ -419,28 +431,28 @@
     },
     {
       "bbox": {
-        "h": 0.4327,
-        "w": 2.0015,
-        "x": 9.4091,
-        "y": 0.3558
+        "h": 4.2496,
+        "w": 2.1986,
+        "x": 7.1554,
+        "y": 2.5397
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          127,
-          205,
-          199
+          177,
+          185,
+          196
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Precede Giraffe Fasten",
-        "theme_topic": "Noise Fancy",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "squeak six first scissors helpless tramp silk field examine seemly nauseating skin racial extend stocking raspy roomy instrument shelter acidic meaty",
+        "theme_topic": "Squeal Explain",
         "underline": false
       },
       "type": "text",
@@ -448,60 +460,66 @@
     },
     {
       "bbox": {
-        "h": 0.3525,
-        "w": 2.1466,
-        "x": 9.5827,
-        "y": 4.5136
+        "h": 0.8649,
+        "w": 1.3725,
+        "x": 2.8712,
+        "y": 1.4625
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          81,
-          46,
-          54
+        "dash": 4,
+        "family": "callouts",
+        "fill": [
+          199,
+          90,
+          120
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "machine noiseless reproduce carpenter",
-        "theme_topic": "Noise Fancy",
-        "underline": false
+        "focus": false,
+        "line": [
+          95,
+          98,
+          178
+        ],
+        "line_width": 1.908840528615471,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Squeal Explain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.6052,
-        "w": 1.5521,
-        "x": 6.9871,
-        "y": 0.4744
+        "h": 0.5671,
+        "w": 1.2019,
+        "x": 9.953,
+        "y": 0.5812
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          127,
-          75,
-          85
+        "dash": 5,
+        "family": "stars",
+        "fill": [
+          88,
+          34,
+          88
         ],
-        "font_face": "Aptos",
-        "font_size": 16,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Toes Sprout Humdrum",
-        "theme_topic": "Noise Fancy",
-        "underline": false
+        "focus": false,
+        "line": [
+          225,
+          26,
+          70
+        ],
+        "line_width": 5.613364117937819,
+        "outline_only": false,
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Squeal Explain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 16
     }
   ],

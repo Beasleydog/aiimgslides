@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        240,
-        176,
-        54
+      "back_color": [
+        163,
+        96,
+        230
       ],
-      "style": "solid",
-      "theme_topic": "Crib Things"
+      "fill": [
+        61,
+        101,
+        116
+      ],
+      "fore_color": [
+        61,
+        41,
+        148
+      ],
+      "pattern": 16,
+      "style": "pattern",
+      "theme_topic": "Stretch Guide"
     },
     "type": "background",
     "z_order": 0
@@ -30,74 +41,73 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.8091,
-        "w": 8.6533,
-        "x": 1.6513,
-        "y": -0.6376
+        "h": 2.11,
+        "w": 8.8751,
+        "x": 3.8077,
+        "y": 3.9408
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "symbols",
+        "family": "arrows",
         "fill": [
-          146,
-          89,
-          117
+          109,
+          108,
+          180
         ],
         "focus": false,
         "line": [
-          29,
-          225,
-          197
+          168,
+          174,
+          226
         ],
-        "line_width": 6.759576107872438,
-        "outline_only": true,
-        "ppt_type": 13,
-        "shape": "can",
-        "theme_topic": "Crib Things"
+        "line_width": 6.635217289148951,
+        "outline_only": false,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Stretch Guide"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.3007,
-        "w": 3.5886,
-        "x": 8.4465,
-        "y": 1.6445
+        "h": 4.1196,
+        "w": 6.2561,
+        "x": 7.0589,
+        "y": 3.3941
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 4,
+        "family": "panel",
         "fill": [
-          163,
-          206,
-          89
+          119,
+          147,
+          157
         ],
-        "focus": false,
         "line": [
-          208,
-          215,
-          222
+          119,
+          147,
+          157
         ],
-        "line_width": 5.851986622922608,
+        "line_width": 2.4952886015531153,
         "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Crib Things"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Stretch Guide"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.8329,
-        "w": 11.9506,
-        "x": 0.68,
-        "y": 4.7058
+        "h": 5.5525,
+        "w": 2.8651,
+        "x": 0.6703,
+        "y": 0.7685
       },
       "id": "object_003",
       "properties": {
@@ -105,17 +115,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          40,
-          38,
-          28
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 45,
+        "font_face": "Aptos Display",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Trees Agreement Ten Laugh",
-        "theme_topic": "Crib Things",
+        "text": "Anger",
+        "theme_topic": "Stretch Guide",
         "underline": false
       },
       "type": "text",
@@ -123,31 +133,31 @@
     },
     {
       "bbox": {
-        "h": 1.1091,
-        "w": 11.9394,
-        "x": 0.6799,
-        "y": 5.8
+        "h": 2.937,
+        "w": 2.7808,
+        "x": 6.8774,
+        "y": 0.6356
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
+        "crop": [
+          0.08087105060526888,
+          0.03320379776269355,
+          0.10370682930984934,
+          0.2386695621960669
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "trade return hapless combative funny pest addition addition fit donkey subsequent insurance thunder combative wing wood brass",
-        "theme_topic": "Crib Things",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          105,
+          179,
+          154
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Stretch Guide",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 4
     }
   ],

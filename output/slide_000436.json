@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        177,
-        96,
-        161
+      "back_color": [
+        165,
+        40,
+        220
       ],
-      "style": "solid",
-      "theme_topic": "Potato Hands"
+      "fill": [
+        165,
+        40,
+        220
+      ],
+      "fore_color": [
+        36,
+        178,
+        149
+      ],
+      "pattern": 35,
+      "style": "pattern",
+      "theme_topic": "Range"
     },
     "type": "background",
     "z_order": 0
@@ -30,101 +41,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 0.6582,
-        "w": 13.3314,
-        "x": -0.0096,
-        "y": 0.0085
+        "h": 4.9661,
+        "w": 5.0663,
+        "x": 8.8809,
+        "y": 3.4172
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 5,
+        "family": "callouts",
         "fill": [
-          149,
-          81,
-          135
+          167,
+          84,
+          211
         ],
+        "focus": false,
         "line": [
-          149,
-          81,
-          135
+          83,
+          30,
+          125
         ],
-        "line_width": 3.1326797430131226,
+        "line_width": 4.087719414240781,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Potato Hands"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Range"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.8838,
-        "w": 7.9972,
-        "x": 0.7414,
-        "y": 5.8747
+        "h": 3.3673,
+        "w": 4.902,
+        "x": 9.2523,
+        "y": 0.3746
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          130,
+          115,
+          222
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Return Rest Regret Poison",
-        "theme_topic": "Potato Hands",
-        "underline": false
+        "focus": false,
+        "line": [
+          138,
+          191,
+          83
+        ],
+        "line_width": 5.642166792625069,
+        "outline_only": false,
+        "ppt_type": 21,
+        "shape": "heart",
+        "theme_topic": "Range"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.2755,
-        "w": 12.2379,
-        "x": 0.5562,
-        "y": 3.3062
+        "h": 3.2071,
+        "w": 3.7876,
+        "x": 2.4955,
+        "y": 2.5151
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          51,
-          63,
-          101
+          68,
+          174,
+          86
         ],
+        "focus": false,
         "line": [
-          149,
-          81,
-          135
+          154,
+          50,
+          80
         ],
-        "line_width": 1.6481902192338027,
+        "line_width": 5.180756220546927,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Potato Hands"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Range"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.8543,
-        "w": 11.87,
-        "x": 0.7291,
-        "y": 3.778
+        "h": 0.9883,
+        "w": 7.5905,
+        "x": 0.5309,
+        "y": 0.3439
       },
       "id": "object_004",
       "properties": {
@@ -132,17 +148,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          177,
-          96,
-          161
+          28,
+          30,
+          36
         ],
         "font_face": "Trebuchet MS",
-        "font_size": 43,
+        "font_size": 36,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "29%",
-        "theme_topic": "Potato Hands",
+        "text": "Flap Imagine Kaput",
+        "theme_topic": "Range",
         "underline": false
       },
       "type": "text",
@@ -150,10 +166,10 @@
     },
     {
       "bbox": {
-        "h": 0.5474,
-        "w": 11.8921,
-        "x": 0.713,
-        "y": 4.66
+        "h": 3.1124,
+        "w": 1.8959,
+        "x": 10.7529,
+        "y": 3.736
       },
       "id": "object_005",
       "properties": {
@@ -161,17 +177,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          89,
+          34,
+          118
         ],
         "font_face": "Verdana",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "shiver limping dust pedal",
-        "theme_topic": "Potato Hands",
+        "text": "ludicrous depend prepare learned flood abounding exercise idea suggestion disgusting horn fang scarce ludicrous belligerent tiny",
+        "theme_topic": "Range",
         "underline": false
       },
       "type": "text",
@@ -179,68 +195,70 @@
     },
     {
       "bbox": {
-        "h": 0.2669,
-        "w": 11.9483,
-        "x": 0.7245,
-        "y": 0.6815
+        "h": 1.1155,
+        "w": 6.8171,
+        "x": 3.2291,
+        "y": 5.8745
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
+        "crop": [
+          0.027551738702324236,
+          0.16621360485775005,
+          0.0927949548339215,
+          0.04222051427713191
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "SHOCK SILK",
-        "theme_topic": "Potato Hands",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          82,
+          96,
+          214
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Range",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.6809,
-        "w": 11.9359,
-        "x": 0.677,
-        "y": 1.1517
+        "h": 2.8794,
+        "w": 3.1657,
+        "x": 3.2356,
+        "y": 2.7578
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          111,
-          57,
-          103
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          202,
+          162,
+          178
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Actually",
-        "theme_topic": "Potato Hands",
-        "underline": false
+        "line": [
+          186,
+          92,
+          228
+        ],
+        "line_width": 1.4140601157912662,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Range"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.8631,
-        "w": 11.9152,
-        "x": 0.6914,
-        "y": 2.0544
+        "h": 1.8624,
+        "w": 2.7875,
+        "x": 3.4448,
+        "y": 3.7089
       },
       "id": "object_008",
       "properties": {
@@ -248,17 +266,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          95,
-          59,
-          92
+          89,
+          34,
+          118
         ],
         "font_face": "Verdana",
-        "font_size": 13,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "clear instrument hoc imaginary authority material deer hum root entertaining calculate eight wholesale grade truculent fire sip drunk tedious fluttering",
-        "theme_topic": "Potato Hands",
+        "text": "stomach blushing grateful war advice shirt",
+        "theme_topic": "Range",
         "underline": false
       },
       "type": "text",
@@ -266,42 +284,41 @@
     },
     {
       "bbox": {
-        "h": 0.3195,
-        "w": 1.1735,
-        "x": 9.9396,
-        "y": 1.6667
+        "h": 2.8914,
+        "w": 3.4991,
+        "x": 6.5833,
+        "y": 2.7916
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 4,
+        "family": "panel",
         "fill": [
-          107,
-          116,
-          82
+          186,
+          92,
+          228
         ],
-        "focus": false,
         "line": [
-          39,
-          40,
-          164
+          186,
+          92,
+          228
         ],
-        "line_width": 1.2730918690560649,
-        "outline_only": true,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Potato Hands"
+        "line_width": 2.8161291695566355,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Range"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2111,
-        "w": 2.3434,
-        "x": 9.6905,
-        "y": 1.982
+        "h": 1.8419,
+        "w": 3.1403,
+        "x": 6.7818,
+        "y": 3.7025
       },
       "id": "object_010",
       "properties": {
@@ -309,49 +326,43 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          159,
-          79,
-          186
+          89,
+          34,
+          118
         ],
         "font_face": "Verdana",
-        "font_size": 9,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Transport Lighten Satisfy",
-        "theme_topic": "Potato Hands",
-        "underline": true
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "thread earn thoughtless flower dare",
+        "theme_topic": "Range",
+        "underline": false
       },
       "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4637,
-        "w": 1.8588,
-        "x": 4.9234,
-        "y": 0.5788
+        "h": 5.152,
+        "w": 2.2289,
+        "x": 0.5821,
+        "y": 1.8288
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          136,
-          38
+        "clip": "arch",
+        "focus": true,
+        "line": [
+          82,
+          96,
+          214
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "marked throne knot insurance consider",
-        "theme_topic": "Potato Hands",
-        "underline": false
+        "line_width": 17,
+        "theme_topic": "Range"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 11
     }
   ],

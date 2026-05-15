@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 180,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          92,
-          112,
-          152
-        ],
-        [
-          244,
-          180,
-          76
-        ]
+      "back_color": [
+        54,
+        89,
+        217
       ],
       "fill": [
-        92,
-        112,
-        152
+        25,
+        30,
+        39
       ],
-      "focus": "top_left",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Jar Secretive"
+      "fore_color": [
+        244,
+        180,
+        76
+      ],
+      "pattern": 15,
+      "style": "pattern",
+      "theme_topic": "Haunt Irritate"
     },
     "type": "background",
     "z_order": 0
@@ -45,47 +41,31 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.783,
-        "w": 6.8667,
-        "x": 3.2638,
-        "y": 1.457
+        "h": 5.0183,
+        "w": 2.1859,
+        "x": 10.5547,
+        "y": 1.9719
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "slow",
-          "celery",
-          "efficient",
-          "clover",
-          "pat"
+        "crop": [
+          0.09346807676689801,
+          0.019109298555615738,
+          0.22466501817392676,
+          0.2979906608721638
         ],
-        "chart": "doughnut",
         "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              215,
-              158,
-              153
-            ],
-            "name": "suspend",
-            "values": [
-              89,
-              23,
-              91,
-              53,
-              56
-            ]
-          }
+        "mask_line": [
+          170,
+          25,
+          101
         ],
-        "theme_topic": "Jar Secretive",
-        "title": "general scold rifle synonymous object"
+        "mask_overlay": true,
+        "theme_topic": "Haunt Irritate",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 1
     }
   ],

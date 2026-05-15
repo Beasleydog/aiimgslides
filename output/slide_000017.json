@@ -10,12 +10,12 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        247,
-        248,
-        246
+        120,
+        58,
+        170
       ],
       "style": "solid",
-      "theme_topic": "Delicate"
+      "theme_topic": "Billowy"
     },
     "type": "background",
     "z_order": 0
@@ -30,34 +30,25 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.7012,
-        "w": 4.5138,
-        "x": 5.4651,
-        "y": 2.1466
+        "h": 5.1638,
+        "w": 5.336,
+        "x": 7.4281,
+        "y": 1.8545
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          217,
-          230,
-          118
-        ],
-        "focus": false,
+        "clip": "ticket",
+        "focus": true,
         "line": [
-          73,
-          98,
-          117
+          71,
+          221,
+          181
         ],
-        "line_width": 6.641273564020215,
-        "outline_only": false,
-        "ppt_type": 173,
-        "shape": "gear9",
-        "theme_topic": "Delicate"
+        "line_width": 18,
+        "theme_topic": "Billowy"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 1
     }
   ],

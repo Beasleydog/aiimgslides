@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        245,
-        247,
-        252
+      "back_color": [
+        118,
+        225,
+        173
       ],
-      "style": "solid",
-      "theme_topic": "Defiant Simplistic"
+      "fill": [
+        31,
+        87,
+        166
+      ],
+      "fore_color": [
+        51,
+        63,
+        101
+      ],
+      "pattern": 35,
+      "style": "pattern",
+      "theme_topic": "Shaggy Balance"
     },
     "type": "background",
     "z_order": 0
@@ -30,183 +41,187 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.9883,
-        "w": 3.8385,
-        "x": 1.1751,
-        "y": 3.1129
+        "h": 1.5086,
+        "w": 7.7159,
+        "x": 5.2554,
+        "y": 5.1496
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "callouts",
         "fill": [
-          97,
-          98,
-          230
+          91,
+          78,
+          167
         ],
         "focus": false,
         "line": [
-          58,
-          64,
-          180
+          62,
+          89,
+          201
         ],
-        "line_width": 6.075578033374665,
-        "outline_only": true,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Defiant Simplistic"
+        "line_width": 6.850588375455311,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Shaggy Balance"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.2142,
-        "w": 5.1025,
-        "x": -0.015,
-        "y": 4.3099
+        "h": 4.359,
+        "w": 3.78,
+        "x": 10.5461,
+        "y": 1.3122
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          232,
-          237,
-          247
+          109,
+          156,
+          196
         ],
+        "focus": false,
         "line": [
-          232,
-          237,
-          247
+          172,
+          47,
+          56
         ],
-        "line_width": 1.0463491201573007,
+        "line_width": 5.014226676420406,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Defiant Simplistic"
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Shaggy Balance"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.5739,
-        "w": 1.6786,
-        "x": 3.2289,
-        "y": 1.7141
+        "h": 5.0519,
+        "w": 6.0877,
+        "x": 6.151,
+        "y": 3.205
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 3,
+        "family": "arrows",
         "fill": [
-          232,
-          237,
-          247
+          163,
+          80,
+          149
         ],
+        "focus": false,
         "line": [
-          232,
-          237,
-          247
+          84,
+          86,
+          52
         ],
-        "line_width": 3.6312484598130492,
+        "line_width": 5.0131835325546685,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Defiant Simplistic"
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Shaggy Balance"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.5142,
-        "w": 0.577,
-        "x": 3.4985,
-        "y": 1.9267
+        "h": 4.3642,
+        "w": 5.0386,
+        "x": -0.434,
+        "y": 2.0916
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 5,
+        "family": "basic",
         "fill": [
-          40,
-          225,
-          217
+          71,
+          109,
+          87
         ],
         "focus": false,
         "line": [
-          96,
-          100,
-          64
+          51,
+          219,
+          47
         ],
-        "line_width": 2.204510286529599,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Defiant Simplistic"
+        "line_width": 5.164897808354348,
+        "outline_only": true,
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Shaggy Balance"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.4332,
-        "w": 1.1993,
-        "x": 3.4817,
-        "y": 2.5868
+        "h": 7.4837,
+        "w": 0.6187,
+        "x": 12.7405,
+        "y": -0.009
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          88,
+          130,
+          188
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Tremble Stuff",
-        "theme_topic": "Defiant Simplistic",
-        "underline": false
+        "line": [
+          88,
+          130,
+          188
+        ],
+        "line_width": 1.901494678112906,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Shaggy Balance"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.9097,
-        "w": 1.2179,
-        "x": 3.4787,
-        "y": 3.1563
+        "h": 5.7823,
+        "w": 3.2187,
+        "x": 9.3992,
+        "y": 0.6403
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Georgia",
+        "font_size": 25,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "decorate depressed best trouble wacky courageous roomy edge successful",
-        "theme_topic": "Defiant Simplistic",
+        "text": "Yard",
+        "theme_topic": "Shaggy Balance",
         "underline": false
       },
       "type": "text",
@@ -214,91 +229,86 @@
     },
     {
       "bbox": {
-        "h": 3.5989,
-        "w": 1.4342,
-        "x": 5.1698,
-        "y": 1.7116
+        "h": 0.2809,
+        "w": 3.6719,
+        "x": 5.0575,
+        "y": 0.7834
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 2.0218381416727467,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Defiant Simplistic"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.529,
-        "w": 0.53,
-        "x": 5.3472,
-        "y": 1.909
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "focus": false,
-        "line": [
-          74,
-          34,
-          75
-        ],
-        "line_width": 1.6396453119269025,
-        "outline_only": false,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Defiant Simplistic"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4338,
-        "w": 0.9209,
-        "x": 5.3995,
-        "y": 2.5991
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Tacky",
-        "theme_topic": "Defiant Simplistic",
+        "text": "STONE",
+        "theme_topic": "Shaggy Balance",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.8685,
+        "w": 3.6655,
+        "x": 5.0232,
+        "y": 1.2501
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Georgia",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Memorize Cycle",
+        "theme_topic": "Shaggy Balance",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 1.1549,
+        "w": 3.6461,
+        "x": 5.058,
+        "y": 2.3728
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "overrated carve agree admit care march film tangible",
+        "theme_topic": "Shaggy Balance",
         "underline": false
       },
       "type": "text",
@@ -306,28 +316,28 @@
     },
     {
       "bbox": {
-        "h": 1.9514,
-        "w": 0.9544,
-        "x": 5.4226,
-        "y": 3.1536
+        "h": 0.7284,
+        "w": 0.4623,
+        "x": 0.8077,
+        "y": 0.8547
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          51,
+          63,
+          101
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Georgia",
+        "font_size": 19,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "sail mix elfin harass charming tense nonstop hurry abaft damp standing clover throne",
-        "theme_topic": "Defiant Simplistic",
+        "text": "197",
+        "theme_topic": "Shaggy Balance",
         "underline": false
       },
       "type": "text",
@@ -335,41 +345,39 @@
     },
     {
       "bbox": {
-        "h": 3.5991,
-        "w": 1.767,
-        "x": 6.8223,
-        "y": 1.7013
+        "h": 1.9785,
+        "w": 0.5054,
+        "x": 0.8517,
+        "y": 1.5778
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
         ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 4.377262873441747,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Defiant Simplistic"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "complain nasty back air fence short",
+        "theme_topic": "Shaggy Balance",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4743,
-        "w": 1.2823,
-        "x": 7.0794,
-        "y": 2.6242
+        "h": 0.7746,
+        "w": 0.533,
+        "x": 1.8351,
+        "y": 0.8158
       },
       "id": "object_012",
       "properties": {
@@ -377,17 +385,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ],
-        "font_face": "Arial",
-        "font_size": 9,
+        "font_face": "Georgia",
+        "font_size": 21,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Lying",
-        "theme_topic": "Defiant Simplistic",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "3.8x",
+        "theme_topic": "Shaggy Balance",
         "underline": false
       },
       "type": "text",
@@ -395,10 +403,10 @@
     },
     {
       "bbox": {
-        "h": 1.9291,
-        "w": 1.2738,
-        "x": 7.0337,
-        "y": 3.1326
+        "h": 1.9736,
+        "w": 0.5619,
+        "x": 1.8599,
+        "y": 1.5858
       },
       "id": "object_013",
       "properties": {
@@ -406,17 +414,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          103,
-          117,
-          137
+          149,
+          175,
+          213
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "resonant nostalgic snakes apparatus ordinary deer ban count discussion leather",
-        "theme_topic": "Defiant Simplistic",
+        "text": "summer found jumbled festive mate",
+        "theme_topic": "Shaggy Balance",
         "underline": false
       },
       "type": "text",
@@ -424,59 +432,57 @@
     },
     {
       "bbox": {
-        "h": 3.5922,
-        "w": 1.2893,
-        "x": 8.7977,
-        "y": 1.6944
+        "h": 0.7738,
+        "w": 0.5393,
+        "x": 2.93,
+        "y": 0.8255
       },
       "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 4.938575509122069,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Defiant Simplistic"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.475,
-        "w": 0.8258,
-        "x": 9.0578,
-        "y": 2.588
-      },
-      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Fog",
-        "theme_topic": "Defiant Simplistic",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "33",
+        "theme_topic": "Shaggy Balance",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 1.9516,
+        "w": 0.5525,
+        "x": 2.9304,
+        "y": 1.5784
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
+        ],
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "apologise fix guitar zinc sour",
+        "theme_topic": "Shaggy Balance",
         "underline": false
       },
       "type": "text",
@@ -484,39 +490,41 @@
     },
     {
       "bbox": {
-        "h": 1.9468,
-        "w": 0.7874,
-        "x": 9.0508,
-        "y": 3.1688
+        "h": 2.9993,
+        "w": 0.753,
+        "x": 3.8285,
+        "y": 0.6333
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          88,
+          130,
+          188
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "trite pack abortive hum telephone machine elfin stretch ruddy fearless",
-        "theme_topic": "Defiant Simplistic",
-        "underline": false
+        "line": [
+          88,
+          130,
+          188
+        ],
+        "line_width": 4.484120491242586,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Shaggy Balance"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 1.0389,
-        "w": 1.8971,
-        "x": 0.7206,
-        "y": 0.6584
+        "h": 0.7714,
+        "w": 0.4051,
+        "x": 4.0351,
+        "y": 0.821
       },
       "id": "object_017",
       "properties": {
@@ -525,16 +533,16 @@
         "bold": true,
         "color": [
           51,
-          145,
-          180
+          63,
+          101
         ],
-        "font_face": "Arial",
-        "font_size": 22,
+        "font_face": "Georgia",
+        "font_size": 21,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Influence Equal Weary",
-        "theme_topic": "Defiant Simplistic",
+        "text": "198",
+        "theme_topic": "Shaggy Balance",
         "underline": false
       },
       "type": "text",
@@ -542,10 +550,10 @@
     },
     {
       "bbox": {
-        "h": 4.8465,
-        "w": 1.8985,
-        "x": 0.7079,
-        "y": 1.9811
+        "h": 1.9505,
+        "w": 0.39,
+        "x": 4.0314,
+        "y": 1.5617
       },
       "id": "object_018",
       "properties": {
@@ -553,17 +561,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          103,
-          117,
-          137
+          149,
+          175,
+          213
         ],
-        "font_face": "Arial",
-        "font_size": 15,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "bashful trouble possible detail zippy dusty slow plants",
-        "theme_topic": "Defiant Simplistic",
+        "text": "arrest charming subtract open short judicious",
+        "theme_topic": "Shaggy Balance",
         "underline": false
       },
       "type": "text",
@@ -571,117 +579,128 @@
     },
     {
       "bbox": {
-        "h": 0.2561,
-        "w": 1.1299,
-        "x": 6.166,
-        "y": 4.3614
+        "h": 0.7487,
+        "w": 1.094,
+        "x": 9.4861,
+        "y": 2.867
       },
       "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          80,
-          91,
-          35
-        ],
-        "bold": false,
-        "color": [
-          107,
-          150,
-          25
-        ],
-        "font_face": "Arial",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "remove hammer screw",
-        "theme_topic": "Defiant Simplistic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.6544,
-        "w": 1.0145,
-        "x": 3.8745,
-        "y": 6.6345
-      },
-      "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "arrows",
         "fill": [
-          35,
-          139,
-          216
+          255,
+          206,
+          86
         ],
         "focus": false,
         "line": [
-          26,
-          112,
-          78
+          51,
+          63,
+          101
         ],
-        "line_width": 2.6296677979247702,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Defiant Simplistic"
+        "line_width": 7.132548029802118,
+        "outline_only": true,
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Shaggy Balance"
       },
       "type": "shape",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.2296,
+        "w": 1.6503,
+        "x": 2.354,
+        "y": 4.933
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          140,
+          147,
+          153
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Door",
+        "theme_topic": "Shaggy Balance",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.1356,
-        "w": 1.2954,
-        "x": 1.085,
-        "y": 4.65
+        "h": 0.7573,
+        "w": 1.3419,
+        "x": 3.6666,
+        "y": 4.2528
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          28,
-          124,
-          82
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          200,
+          145,
+          66
         ],
-        "connector": "straight",
-        "dash": 5,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Defiant Simplistic",
-        "width": 1.8468295733629465
+        "focus": false,
+        "line": [
+          172,
+          105,
+          147
+        ],
+        "line_width": 5.1425560691500305,
+        "outline_only": true,
+        "ppt_type": 103,
+        "shape": "wave",
+        "theme_topic": "Shaggy Balance"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.3305,
-        "w": 1.6777,
-        "x": 5.9987,
-        "y": 3.7449
+        "h": 0.2668,
+        "w": 0.5771,
+        "x": 6.301,
+        "y": 2.1702
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          121,
-          163,
-          224
+        "bg_color": [
+          65,
+          136,
+          148
         ],
-        "connector": "elbow",
-        "dash": 7,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Defiant Simplistic",
-        "width": 1.704566767270375
+        "bold": false,
+        "color": [
+          70,
+          64,
+          37
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "strap faded",
+        "theme_topic": "Shaggy Balance",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 22
     }
   ],

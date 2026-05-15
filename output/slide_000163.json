@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          43,
-          162,
-          130
-        ],
-        [
-          48,
-          78,
-          140
-        ]
+      "back_color": [
+        202,
+        76,
+        223
       ],
       "fill": [
-        28,
-        143,
-        112
+        161,
+        65,
+        48
       ],
-      "focus": "bottom_left",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Unusual"
+      "fore_color": [
+        64,
+        130,
+        109
+      ],
+      "pattern": 45,
+      "style": "pattern",
+      "theme_topic": "Value Friendly"
     },
     "type": "background",
     "z_order": 0
@@ -45,153 +41,219 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5303,
-        "w": 4.8949,
-        "x": 8.7319,
-        "y": 0.9592
+        "h": 2.8869,
+        "w": 7.198,
+        "x": 2.6289,
+        "y": 3.6777
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 5,
+        "family": "basic",
         "fill": [
-          131,
-          160,
-          105
+          175,
+          154,
+          93
         ],
         "focus": false,
         "line": [
-          89,
-          117,
-          222
+          181,
+          136,
+          100
         ],
-        "line_width": 4.018312505116441,
-        "outline_only": true,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Unusual"
+        "line_width": 4.202233926233791,
+        "outline_only": false,
+        "ppt_type": 103,
+        "shape": "wave",
+        "theme_topic": "Value Friendly"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9904,
-        "w": 6.8121,
-        "x": 5.3601,
-        "y": 0.0575
+        "h": 4.1185,
+        "w": 6.7739,
+        "x": 7.0096,
+        "y": 1.8968
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "stars",
         "fill": [
-          133,
-          92,
-          97
+          79,
+          195,
+          85
         ],
         "focus": false,
         "line": [
-          200,
-          115,
-          162
+          79,
+          220,
+          141
         ],
-        "line_width": 7.091108738222608,
-        "outline_only": true,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Unusual"
+        "line_width": 5.643841402347573,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Value Friendly"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.727,
-        "w": 2.9077,
-        "x": 0.7693,
-        "y": 0.7422
+        "h": 3.5779,
+        "w": 7.6333,
+        "x": 3.9581,
+        "y": -0.1301
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          106,
+          153,
+          32
+        ],
+        "focus": false,
+        "line": [
+          191,
+          130,
+          220
+        ],
+        "line_width": 5.1600179964292945,
+        "outline_only": false,
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Value Friendly"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.6945,
+        "w": 12.1432,
+        "x": 0.574,
+        "y": 3.3331
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          111,
+          207,
+          152
+        ],
+        "band_cols": true,
+        "band_rows": false,
+        "body": [
+          186,
+          116,
+          104
+        ],
+        "border": [
+          84,
+          142,
+          68
+        ],
+        "border_dash": "solid",
+        "border_width": 0.7865400824390034,
+        "cells": [
+          [
+            "abrasive",
+            "night",
+            "few",
+            "unwieldy borrow",
+            "regular arithmetic"
+          ],
+          [
+            "waves lamentable",
+            "carve liquid",
+            "muddled",
+            "four",
+            "forgetful"
+          ],
+          [
+            "aromatic freezing",
+            "school bag",
+            "prepare",
+            "boil",
+            "nasty pushy"
+          ],
+          [
+            "ship",
+            "utter bedroom",
+            "gather",
+            "responsible acrid",
+            "cheat quick"
+          ],
+          [
+            "steadfast fat",
+            "grain",
+            "snotty near",
+            "plain march",
+            "sail"
+          ],
+          [
+            "plastic",
+            "weary",
+            "grouchy upbeat",
+            "muddled",
+            "nondescript shelter"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 5,
+        "has_header": true,
+        "header": [
+          130,
+          214,
+          113
+        ],
+        "rows": 6,
+        "text_color": [
+          228,
+          80,
+          64
+        ],
+        "theme_topic": "Value Friendly"
+      },
+      "type": "table",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.757,
+        "w": 11.8127,
+        "x": 0.7583,
+        "y": 5.5663
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
+          246,
           248,
-          255,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 35,
+        "font_face": "Aptos Display",
+        "font_size": 24,
         "italic": true,
         "kind": "header",
         "margin": 0.04,
-        "text": "Back Wise Assorted Territory Efficient",
-        "theme_topic": "Unusual",
+        "text": "Tent Face Unwieldy Building Zoom Tired Easy Post Ablaze Terrify",
+        "theme_topic": "Value Friendly",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.0363,
-        "w": 1.2061,
-        "x": 7.0131,
-        "y": 0.6302
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.008335709138125242,
-          0.19199465373035404,
-          0.24760687208664955,
-          0.19153593971184685
-        ],
-        "focus": false,
-        "mask_line": [
-          99,
-          61,
-          142
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Unusual",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 6.4325,
-        "w": 4.0919,
-        "x": 8.6892,
-        "y": 0.5381
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.04481755308848817,
-          0.2297039725070082,
-          0.027366236725460864,
-          0.20642761855594285
-        ],
-        "focus": true,
-        "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Unusual",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 5
     }
   ],

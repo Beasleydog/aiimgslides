@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        152,
-        224,
-        83
+        43,
+        116,
+        230
       ],
       "fill": [
-        92,
-        144,
-        129
+        43,
+        116,
+        230
       ],
       "fore_color": [
-        51,
-        63,
-        101
+        149,
+        185,
+        98
       ],
-      "pattern": 32,
+      "pattern": 38,
       "style": "pattern",
-      "theme_topic": "Drown"
+      "theme_topic": "Disastrous"
     },
     "type": "background",
     "z_order": 0
@@ -41,97 +41,133 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.0871,
-        "w": 7.8758,
-        "x": 6.2677,
-        "y": -0.2736
+        "h": 3.5393,
+        "w": 5.0364,
+        "x": 5.8926,
+        "y": 4.4723
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "arrows",
         "fill": [
-          122,
-          193,
-          77
+          102,
+          187,
+          170
         ],
         "focus": false,
         "line": [
-          201,
-          117,
-          145
+          221,
+          35,
+          171
         ],
-        "line_width": 4.379906516597794,
-        "outline_only": true,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Drown"
+        "line_width": 5.102471966348013,
+        "outline_only": false,
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Disastrous"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.9631,
-        "w": 8.0863,
-        "x": 4.5924,
-        "y": 2.4001
+        "h": 1.2667,
+        "w": 6.3425,
+        "x": 0.558,
+        "y": 0.3581
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
-        "fill": [
-          173,
-          153,
-          78
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          126,
-          182,
-          53
-        ],
-        "line_width": 2.3840757172142095,
-        "outline_only": false,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Drown"
+        "font_face": "Trebuchet MS",
+        "font_size": 35,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Feeling Slave Righteous Purple",
+        "theme_topic": "Disastrous",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.0086,
-        "w": 13.3402,
-        "x": -0.0145,
-        "y": -0.0123
+        "h": 2.2981,
+        "w": 4.1595,
+        "x": 8.5436,
+        "y": 1.8844
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          149,
-          183,
-          173
+        "band": [
+          210,
+          114,
+          112
         ],
-        "line": [
-          149,
-          183,
-          173
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          97,
+          151,
+          236
         ],
-        "line_width": 1.637922821022891,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Drown"
+        "border": [
+          154,
+          188,
+          242
+        ],
+        "border_dash": "solid",
+        "border_width": 1.4209093955954295,
+        "cells": [
+          [
+            "lame kitty",
+            "pine",
+            "halting fence"
+          ],
+          [
+            "lie selfish",
+            "vegetable flat",
+            "unknown"
+          ],
+          [
+            "puzzled star",
+            "man alert",
+            "word"
+          ],
+          [
+            "bushes spell",
+            "learn voice",
+            "lamentable"
+          ]
+        ],
+        "cols": 3,
+        "font_size": 12,
+        "has_header": false,
+        "header": [
+          51,
+          63,
+          101
+        ],
+        "rows": 4,
+        "text_color": [
+          205,
+          184,
+          184
+        ],
+        "theme_topic": "Disastrous"
       },
-      "type": "shape",
+      "type": "table",
       "z_order": 3
     }
   ],

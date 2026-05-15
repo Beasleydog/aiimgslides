@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        225,
-        94,
-        113
-      ],
       "fill": [
-        210,
-        72,
-        94
+        120,
+        58,
+        170
       ],
-      "fore_color": [
-        155,
-        200,
-        25
-      ],
-      "pattern": 4,
-      "style": "pattern",
-      "theme_topic": "Sincere Curious"
+      "style": "solid",
+      "theme_topic": "Boring Faded"
     },
     "type": "background",
     "z_order": 0
@@ -41,238 +30,216 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5084,
-        "w": 5.9309,
-        "x": 8.029,
-        "y": 0.9956
+        "h": 4.0959,
+        "w": 5.9413,
+        "x": 1.6649,
+        "y": 0.1976
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          91,
-          136,
-          90
+          161,
+          40,
+          157
         ],
         "focus": false,
         "line": [
-          222,
-          112,
-          29
+          164,
+          86,
+          218
         ],
-        "line_width": 7.281378690445088,
-        "outline_only": true,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Sincere Curious"
+        "line_width": 3.9143515237847017,
+        "outline_only": false,
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Boring Faded"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0238,
-        "w": 6.0897,
-        "x": 0.5439,
-        "y": 0.3576
+        "h": 4.4355,
+        "w": 6.9211,
+        "x": 7.0512,
+        "y": 1.0263
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          87,
+          99,
+          193
+        ],
+        "focus": false,
+        "line": [
+          221,
+          176,
+          89
+        ],
+        "line_width": 2.08558448773429,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Boring Faded"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 4.3203,
+        "w": 6.2189,
+        "x": 6.2244,
+        "y": -0.5636
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          76,
+          120,
+          177
+        ],
+        "focus": false,
+        "line": [
+          75,
+          193,
+          205
+        ],
+        "line_width": 7.043777235222447,
+        "outline_only": true,
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Boring Faded"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.6517,
+        "w": 3.7418,
+        "x": 9.2614,
+        "y": 4.275
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          131,
+          41,
+          118
+        ],
+        "focus": false,
+        "line": [
+          57,
+          167,
+          145
+        ],
+        "line_width": 7.670520861489128,
+        "outline_only": false,
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Boring Faded"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.2811,
+        "w": 7.3534,
+        "x": 0.5414,
+        "y": 0.3574
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           255,
-          252,
-          247
+          250,
+          255
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
+        "font_face": "Arial",
+        "font_size": 33,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Fasten Coil",
-        "theme_topic": "Sincere Curious",
+        "text": "Itchy Coast",
+        "theme_topic": "Boring Faded",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.7739,
-        "w": 12.1093,
-        "x": 0.599,
-        "y": 1.903
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          157,
-          166,
-          159
-        ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          183,
-          30,
-          90
-        ],
-        "border": [
-          255,
-          218,
-          220
-        ],
-        "border_dash": "solid",
-        "border_width": 0.5285677883498542,
-        "cells": [
-          [
-            "quaint oatmeal",
-            "needy",
-            "squash graceful"
-          ],
-          [
-            "ripe",
-            "paste oceanic",
-            "flower feigned"
-          ],
-          [
-            "unique abandoned",
-            "tranquil",
-            "pest"
-          ],
-          [
-            "damp",
-            "devilish person",
-            "stir"
-          ]
-        ],
-        "cols": 3,
-        "font_size": 8,
-        "has_header": true,
-        "header": [
-          51,
-          63,
-          101
-        ],
-        "rows": 4,
-        "text_color": [
-          28,
-          105,
-          56
-        ],
-        "theme_topic": "Sincere Curious"
-      },
-      "type": "table",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.9723,
-        "w": 12.2465,
-        "x": 0.5785,
-        "y": 4.0417
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.13843282098804963,
-          0.14689577174568658,
-          0.06303796319527122,
-          0.1769272270203723
-        ],
-        "focus": true,
-        "mask_line": [
-          51,
-          63,
-          101
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Sincere Curious",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.9508,
-        "w": 0.4942,
-        "x": 1.5766,
-        "y": 2.2482
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          177,
-          170,
-          184
-        ],
-        "connector": "curve",
-        "dash": 3,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Sincere Curious",
-        "width": 1.4392484582040777
-      },
-      "type": "connector",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.9866,
-        "w": 1.2216,
-        "x": 8.8446,
-        "y": 3.8034
+        "h": 2.0878,
+        "w": 3.3253,
+        "x": 6.0664,
+        "y": 1.8609
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          62,
-          60,
-          51
-        ],
-        "connector": "straight",
         "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Sincere Curious",
-        "width": 2.8930759856597117
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
+        ],
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 0.6600287791709003,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Boring Faded"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.2477,
-        "w": 1.0342,
-        "x": 5.7474,
-        "y": 6.8282
+        "h": 0.4493,
+        "w": 2.8399,
+        "x": 6.3135,
+        "y": 2.7723
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          202,
-          118,
-          69
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "change",
-        "theme_topic": "Sincere Curious",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Discussion",
+        "theme_topic": "Boring Faded",
         "underline": false
       },
       "type": "text",
@@ -280,32 +247,28 @@
     },
     {
       "bbox": {
-        "h": 0.3704,
-        "w": 1.1124,
-        "x": 6.6422,
-        "y": 0.5939
+        "h": 0.403,
+        "w": 2.8472,
+        "x": 6.3008,
+        "y": 3.2884
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          111,
-          213,
-          199
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          199,
-          205,
-          103
+          230,
+          210,
+          240
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "offend steel historical thrill company",
-        "theme_topic": "Sincere Curious",
+        "text": "zippy system encourage loose mask carve skin fairies hanging changeable eight waves",
+        "theme_topic": "Boring Faded",
         "underline": false
       },
       "type": "text",
@@ -313,84 +276,91 @@
     },
     {
       "bbox": {
-        "h": 1.1209,
-        "w": 0.4266,
-        "x": 1.839,
-        "y": 3.0197
+        "h": 2.0805,
+        "w": 3.1776,
+        "x": 9.6101,
+        "y": 1.837
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          199,
-          55,
-          131
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Sincere Curious",
-        "width": 1.845354833499266
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 1.409374433069959,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Boring Faded"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.1476,
-        "w": 1.1261,
-        "x": 7.4274,
-        "y": 1.4289
+        "h": 1.237,
+        "w": 2.5043,
+        "x": 0.5709,
+        "y": 4.3693
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          179,
-          112,
-          59
+        "crop": [
+          0.09692126931682743,
+          0.26552121490174263,
+          0.31554985075423836,
+          0.1076794530645101
         ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Sincere Curious",
-        "width": 1.316517663292711
+        "focus": false,
+        "mask_line": [
+          226,
+          71,
+          69
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Boring Faded",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "connector",
+      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7079,
-        "w": 0.3175,
-        "x": 7.4163,
-        "y": 5.878
+        "h": 1.2316,
+        "w": 2.4859,
+        "x": 3.2634,
+        "y": 4.3929
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          59,
-          30,
-          43
+        "crop": [
+          0.10562449914841858,
+          0.03765900885006395,
+          0.2592599923254001,
+          0.31979507811401614
         ],
         "focus": false,
-        "line": [
-          98,
-          113,
-          76
+        "mask_line": [
+          71,
+          221,
+          181
         ],
-        "line_width": 3.106808838622715,
-        "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Sincere Curious"
+        "mask_overlay": false,
+        "theme_topic": "Boring Faded",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 11
     }
   ],

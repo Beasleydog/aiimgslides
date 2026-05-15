@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "back_color": [
-        126,
-        58,
-        173
+      "colors": [
+        [
+          86,
+          186,
+          159
+        ],
+        [
+          99,
+          105,
+          44
+        ]
       ],
       "fill": [
-        126,
-        58,
-        173
+        123,
+        192,
+        90
       ],
-      "fore_color": [
-        180,
-        70,
-        53
-      ],
-      "pattern": 44,
-      "style": "pattern",
-      "theme_topic": "Mouth"
+      "focus": "bottom_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Corn Mute"
     },
     "type": "background",
     "z_order": 0
@@ -41,129 +45,124 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5117,
-        "w": 5.2247,
-        "x": 6.6431,
-        "y": 4.4652
+        "h": 4.1207,
+        "w": 6.2985,
+        "x": 3.2538,
+        "y": 2.7584
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          82,
-          39,
-          163
+          124,
+          162,
+          68
         ],
         "focus": false,
         "line": [
-          106,
-          199,
-          54
+          200,
+          204,
+          100
         ],
-        "line_width": 7.588863157329711,
-        "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Mouth"
+        "line_width": 6.956640062139353,
+        "outline_only": false,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Corn Mute"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.626,
-        "w": 6.4254,
-        "x": 6.3389,
-        "y": 3.1867
+        "h": 3.3637,
+        "w": 6.9635,
+        "x": 7.0521,
+        "y": 0.2276
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "symbols",
         "fill": [
-          76,
-          113,
-          93
+          136,
+          140,
+          166
         ],
         "focus": false,
         "line": [
-          65,
-          170,
-          69
+          87,
+          227,
+          123
         ],
-        "line_width": 7.722473821633312,
+        "line_width": 4.337305252447536,
         "outline_only": false,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Mouth"
+        "ppt_type": 22,
+        "shape": "lightning",
+        "theme_topic": "Corn Mute"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.5716,
-        "w": 3.9288,
-        "x": -1.1539,
-        "y": 1.8779
+        "h": 5.5298,
+        "w": 2.8749,
+        "x": 0.6381,
+        "y": 0.7689
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          175,
-          139,
-          157
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          139,
-          64,
-          48
-        ],
-        "line_width": 5.9905877924476885,
-        "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Mouth"
+        "font_face": "Aptos Display",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Unpack Pancake",
+        "theme_topic": "Corn Mute",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.345,
-        "w": 8.3936,
-        "x": 1.4068,
-        "y": 0.8264
+        "h": 4.2542,
+        "w": 4.1559,
+        "x": 8.4196,
+        "y": 2.5601
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          150,
-          95,
-          187
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          70,
+          102,
+          60
         ],
-        "line": [
-          163,
-          115,
-          196
-        ],
-        "line_width": 1.5334057094814264,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Mouth"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "free mist stocking flower advertisement fat fair like attack gleaming quack blow insurance interrupt womanly vagabond placid shop big",
+        "theme_topic": "Corn Mute",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     }
   ],

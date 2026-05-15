@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "fill": [
-        184,
-        34,
-        31
+      "colors": [
+        [
+          43,
+          51,
+          64
+        ],
+        [
+          96,
+          165,
+          250
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Leg"
+      "fill": [
+        25,
+        30,
+        39
+      ],
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Snow"
     },
     "type": "background",
     "z_order": 0
@@ -30,180 +45,187 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.3424,
-        "w": 7.7872,
-        "x": 1.0915,
-        "y": -0.8202
+        "h": 3.5145,
+        "w": 4.6384,
+        "x": 9.3246,
+        "y": 1.2417
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "math",
+        "dash": 5,
+        "family": "callouts",
         "fill": [
-          131,
-          128,
-          125
+          120,
+          78,
+          167
         ],
         "focus": false,
         "line": [
-          125,
-          67,
-          113
+          89,
+          144,
+          230
         ],
-        "line_width": 4.705889208296726,
+        "line_width": 3.630315364310828,
         "outline_only": false,
-        "ppt_type": 164,
-        "shape": "minus",
-        "theme_topic": "Leg"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Snow"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.6909,
-        "w": 7.2774,
-        "x": 1.2039,
-        "y": 1.336
+        "h": 2.3434,
+        "w": 6.125,
+        "x": 7.5078,
+        "y": 1.9496
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
+        "dash": 5,
+        "family": "arrows",
         "fill": [
-          195,
-          70,
-          68
+          114,
+          135,
+          55
         ],
+        "focus": false,
         "line": [
-          202,
-          90,
-          88
+          195,
+          109,
+          46
         ],
-        "line_width": 3.0990127282772733,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Leg"
+        "line_width": 3.4233444234297385,
+        "outline_only": true,
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Snow"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9055,
-        "w": 3.6528,
-        "x": 2.3338,
-        "y": 0.6623
+        "h": 2.5142,
+        "w": 7.8672,
+        "x": 6.1655,
+        "y": 1.5069
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          80,
+          123,
+          128
         ],
-        "font_face": "Aptos Display",
-        "font_size": 33,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Ritzy Ajar",
-        "theme_topic": "Leg",
-        "underline": false
+        "focus": false,
+        "line": [
+          87,
+          145,
+          199
+        ],
+        "line_width": 3.4393953436648204,
+        "outline_only": true,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Snow"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.2924,
-        "w": 5.7016,
-        "x": 0.5675,
-        "y": 1.463
+        "h": 1.7076,
+        "w": 6.4247,
+        "x": 1.4805,
+        "y": 6.1811
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          202,
-          90,
-          88
+          28,
+          122,
+          72
         ],
+        "focus": false,
         "line": [
-          202,
-          90,
-          88
+          229,
+          147,
+          222
         ],
-        "line_width": 2.2546072498249936,
+        "line_width": 3.763544537679295,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Leg"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Snow"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.4547,
-        "w": 5.2033,
-        "x": 0.8194,
-        "y": 2.3613
+        "h": 3.6682,
+        "w": 6.9548,
+        "x": 1.8102,
+        "y": 0.6324
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          36,
+          43,
+          55
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Kind Bounce",
-        "theme_topic": "Leg",
-        "underline": false
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 0.8325713775065975,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Snow"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.6183,
-        "w": 5.209,
-        "x": 0.8218,
-        "y": 2.8778
+        "h": 0.9856,
+        "w": 5.2083,
+        "x": 0.5417,
+        "y": 0.363
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          218,
-          151,
-          152
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Georgia",
+        "font_size": 27,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "change inform regret mute nondescript steadfast raspy mother macabre incredible return",
-        "theme_topic": "Leg",
+        "text": "Up Barbarous",
+        "theme_topic": "Snow",
         "underline": false
       },
       "type": "text",
@@ -211,177 +233,173 @@
     },
     {
       "bbox": {
-        "h": 3.0767,
-        "w": 5.7269,
-        "x": 0.5563,
-        "y": 3.95
+        "h": 2.078,
+        "w": 1.305,
+        "x": 4.3424,
+        "y": 4.8439
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          202,
-          90,
-          88
+        "crop": [
+          0.19540407239712906,
+          0.014394751360535165,
+          0.06483431084482162,
+          0.07205889022730722
         ],
-        "line": [
-          202,
-          90,
-          88
+        "focus": false,
+        "mask_line": [
+          96,
+          165,
+          250
         ],
-        "line_width": 2.0516200527502164,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Leg"
+        "mask_overlay": false,
+        "theme_topic": "Snow",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4614,
-        "w": 5.2141,
-        "x": 0.795,
-        "y": 4.8275
+        "h": 2.0773,
+        "w": 1.2974,
+        "x": 5.7644,
+        "y": 4.8691
       },
       "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.25487005281228853,
+          0.32239399284384784,
+          0.3257832596559242,
+          0.24415842973000818
+        ],
+        "focus": false,
+        "mask_line": [
+          96,
+          165,
+          250
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Snow",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 2.0903,
+        "w": 1.2968,
+        "x": 7.2458,
+        "y": 4.8436
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.2841253618631409,
+          0.08293327593047636,
+          0.17240710534719514,
+          0.21188102827568486
+        ],
+        "focus": false,
+        "mask_line": [
+          96,
+          165,
+          250
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Snow",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.9125,
+        "w": 11.917,
+        "x": 0.7064,
+        "y": 1.9843
+      },
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          191,
+          103,
+          148
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Georgia",
+        "font_size": 38,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Concentrate",
-        "theme_topic": "Leg",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Blushing Afraid Sin Lip",
+        "theme_topic": "Snow",
         "underline": false
       },
       "type": "text",
-      "z_order": 8
+      "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.4193,
-        "w": 5.1888,
-        "x": 0.7806,
-        "y": 5.3913
+        "h": 1.1967,
+        "w": 11.9241,
+        "x": 0.7237,
+        "y": 3.0967
       },
-      "id": "object_009",
+      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          218,
-          151,
-          152
+          177,
+          185,
+          196
         ],
         "font_face": "Aptos",
         "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "bump puny oatmeal garrulous brick super disapprove tawdry melodic",
-        "theme_topic": "Leg",
+        "text": "sort north clever seat toe high-pitched remove like swift shop moaning vanish land dress disgusting pat abashed judge psychotic boot separate dirty",
+        "theme_topic": "Snow",
         "underline": false
       },
       "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 5.533,
-        "w": 6.2521,
-        "x": 6.5212,
-        "y": 1.4693
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          202,
-          90,
-          88
-        ],
-        "line": [
-          202,
-          90,
-          88
-        ],
-        "line_width": 3.6510345306418692,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Leg"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 5.2395,
-        "w": 5.9686,
-        "x": 6.6404,
-        "y": 1.583
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.007009859251229864,
-          0.057905664051438446,
-          0.09262613027691614,
-          0.14357059796196928
-        ],
-        "focus": true,
-        "mask_line": [
-          132,
-          217,
-          140
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Leg",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5784,
-        "w": 1.8733,
-        "x": 3.1269,
-        "y": 2.2632
+        "h": 0.617,
+        "w": 2.1972,
+        "x": 4.6803,
+        "y": 5.6844
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          116,
-          165,
-          192
+          113,
+          84,
+          226
         ],
         "font_face": "Aptos",
-        "font_size": 15,
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "cure cheer stereotyped",
-        "theme_topic": "Leg",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Quizzical Draconian Flippant",
+        "theme_topic": "Snow",
         "underline": false
       },
       "type": "text",

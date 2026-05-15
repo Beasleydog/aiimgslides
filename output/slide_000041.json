@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        250,
-        250,
-        248
+      "back_color": [
+        131,
+        116,
+        182
       ],
-      "style": "solid",
-      "theme_topic": "Dance"
+      "fill": [
+        60,
+        176,
+        133
+      ],
+      "fore_color": [
+        222,
+        133,
+        62
+      ],
+      "pattern": 1,
+      "style": "pattern",
+      "theme_topic": "Dinner"
     },
     "type": "background",
     "z_order": 0
@@ -30,63 +41,62 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.2578,
-        "w": 4.9227,
-        "x": 3.7534,
-        "y": 1.4364
+        "h": 2.7775,
+        "w": 6.3503,
+        "x": 6.3952,
+        "y": 2.7785
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          223,
-          145,
-          176
+          31,
+          117,
+          161
         ],
-        "focus": false,
         "line": [
-          161,
-          96,
-          98
+          85,
+          186,
+          148
         ],
-        "line_width": 2.892407682417913,
+        "line_width": 3.276880268614084,
         "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Dance"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Dinner"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.1535,
-        "w": 6.2265,
-        "x": 6.5504,
-        "y": 1.8221
+        "h": 1.068,
+        "w": 5.9887,
+        "x": 6.6099,
+        "y": 3.3649
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.08375554494769454,
-          0.15486303783257802,
-          0.18032169369942322,
-          0.005368901996711854
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          60,
+          176,
+          133
         ],
-        "focus": true,
-        "mask_line": [
-          229,
-          140,
-          160
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Dance",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos Display",
+        "font_size": 44,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "631",
+        "theme_topic": "Dinner",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 2
     }
   ],

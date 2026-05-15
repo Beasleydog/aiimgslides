@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "fill": [
-        250,
-        250,
-        248
+      "colors": [
+        [
+          25,
+          30,
+          39
+        ],
+        [
+          244,
+          180,
+          76
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Versed"
+      "fill": [
+        25,
+        30,
+        39
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Camp Step"
     },
     "type": "background",
     "z_order": 0
@@ -30,192 +45,187 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.9855,
-        "w": 7.5738,
-        "x": 0.949,
-        "y": -0.8378
+        "h": 4.6282,
+        "w": 3.311,
+        "x": 0.6571,
+        "y": 1.0436
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "callouts",
         "fill": [
-          218,
-          200,
-          128
+          83,
+          124,
+          87
         ],
         "focus": false,
         "line": [
-          149,
-          38,
-          52
+          104,
+          107,
+          228
         ],
-        "line_width": 2.194186481905524,
+        "line_width": 5.914719466700674,
         "outline_only": true,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Versed"
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Camp Step"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5013,
-        "w": 0.5757,
-        "x": -0.012,
-        "y": 0.0136
+        "h": 3.0385,
+        "w": 4.2055,
+        "x": 7.7886,
+        "y": 2.0943
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          239,
-          239,
-          235
+          116,
+          180,
+          138
         ],
+        "focus": false,
         "line": [
-          239,
-          239,
-          235
+          89,
+          31,
+          191
         ],
-        "line_width": 4.4797341855421715,
+        "line_width": 5.178588819383519,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Versed"
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Camp Step"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9916,
-        "w": 8.2791,
-        "x": 0.5363,
-        "y": 0.3639
+        "h": 1.9974,
+        "w": 6.7761,
+        "x": 5.2317,
+        "y": 2.194
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          28,
-          28
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          75,
+          163,
+          104
         ],
-        "font_face": "Georgia",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Morning Defiant",
-        "theme_topic": "Versed",
-        "underline": false
+        "focus": false,
+        "line": [
+          218,
+          167,
+          201
+        ],
+        "line_width": 4.337810122518205,
+        "outline_only": false,
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Camp Step"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.8663,
-        "w": 6.8564,
-        "x": 3.225,
-        "y": 2.7962
+        "h": 5.0807,
+        "w": 6.548,
+        "x": 7.8082,
+        "y": -0.0574
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          239,
-          239,
-          235
+          83,
+          93,
+          101
         ],
+        "focus": false,
         "line": [
-          239,
-          239,
-          235
+          67,
+          56,
+          213
         ],
-        "line_width": 1.3041854862098519,
+        "line_width": 7.497968553216157,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Versed"
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Camp Step"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.356,
-        "w": 6.3539,
-        "x": 3.4662,
-        "y": 3.0224
+        "h": 2.8489,
+        "w": 4.7178,
+        "x": -0.0062,
+        "y": 4.637
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "powder",
-          "sincere",
-          "throne"
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
         ],
-        "chart": "doughnut",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              203,
-              150,
-              155
-            ],
-            "name": "depend trucks",
-            "values": [
-              29,
-              78,
-              86
-            ]
-          }
+        "line": [
+          43,
+          51,
+          64
         ],
-        "theme_topic": "Versed",
-        "title": "thing dispensable tremendous sad zephyr"
+        "line_width": 1.449662049431404,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Camp Step"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.402,
-        "w": 2.0954,
-        "x": 3.2706,
-        "y": 6.5224
+        "h": 1.21,
+        "w": 7.9373,
+        "x": 0.5638,
+        "y": 0.3479
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          28,
-          28,
-          28
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Aptos Display",
+        "font_size": 38,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "irritate soggy tramp expect decide responsible",
-        "theme_topic": "Versed",
+        "text": "Economic Engine Development",
+        "theme_topic": "Camp Step",
         "underline": false
       },
       "type": "text",
@@ -223,190 +233,190 @@
     },
     {
       "bbox": {
-        "h": 0.4021,
-        "w": 0.4038,
-        "x": 6.7636,
-        "y": 6.2098
+        "h": 1.3676,
+        "w": 12.2611,
+        "x": 0.5434,
+        "y": 5.6659
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          38,
-          132,
-          88
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "line": [
-          239,
-          239,
-          235
+        "focus": true,
+        "mask_line": [
+          96,
+          165,
+          250
         ],
-        "line_width": 1.015012139079361,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Versed"
+        "mask_overlay": false,
+        "theme_topic": "Camp Step",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.3816,
-        "w": 2.1245,
-        "x": 5.7269,
-        "y": 6.5447
+        "h": 0.5159,
+        "w": 0.5133,
+        "x": 1.3696,
+        "y": 2.5013
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          28,
-          28
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "rejoice calculator high amazing doll",
-        "theme_topic": "Versed",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4098,
-        "w": 0.3885,
-        "x": 8.6546,
-        "y": 6.3953
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          38,
-          132,
-          88
+          96,
+          165,
+          250
         ],
         "line": [
-          239,
-          239,
-          235
+          43,
+          51,
+          64
         ],
-        "line_width": 0.9900121927792775,
+        "line_width": 0.720650193253944,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Versed"
+        "theme_topic": "Camp Step"
       },
       "type": "shape",
-      "z_order": 9
+      "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4035,
-        "w": 1.904,
-        "x": 8.1014,
-        "y": 6.512
+        "h": 0.5065,
+        "w": 1.6189,
+        "x": 0.5812,
+        "y": 2.7415
       },
-      "id": "object_010",
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          28,
-          28
+          246,
+          247,
+          249
         ],
         "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "visitor husky brick tasteful decorate twist smoke",
-        "theme_topic": "Versed",
+        "text": "aware pedal snow yawn obsequious calculating",
+        "theme_topic": "Camp Step",
         "underline": false
       },
       "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.5396,
+        "w": 0.5212,
+        "x": 3.5168,
+        "y": 2.2679
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 2.0462164141304484,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Camp Step"
+      },
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.3747,
-        "w": 0.3905,
-        "x": 11.614,
-        "y": 2.2499
+        "h": 0.5074,
+        "w": 2.5324,
+        "x": 2.5459,
+        "y": 2.7559
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          38,
-          132,
-          88
-        ],
-        "line": [
-          239,
-          239,
-          235
-        ],
-        "line_width": 1.900838845391813,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Versed"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.3586,
-        "w": 2.1118,
-        "x": 10.6477,
-        "y": 2.4845
-      },
-      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          28,
-          28
+          246,
+          247,
+          249
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "hospital aware eye fit",
-        "theme_topic": "Versed",
+        "text": "phone example reflective hug fretful greedy",
+        "theme_topic": "Camp Step",
         "underline": false
       },
       "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.5495,
+        "w": 0.5166,
+        "x": 6.5263,
+        "y": 2.3085
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 4.708337814598948,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Camp Step"
+      },
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2164,
-        "w": 2.114,
-        "x": 10.6119,
-        "y": 3.5095
+        "h": 0.5074,
+        "w": 2.406,
+        "x": 5.3919,
+        "y": 2.7375
       },
       "id": "object_013",
       "properties": {
@@ -414,17 +424,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          28,
-          28
+          246,
+          247,
+          249
         ],
         "font_face": "Aptos",
-        "font_size": 8,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "dark strap verse unnatural neat pickle",
-        "theme_topic": "Versed",
+        "text": "better needy neighborly vegetable pinch account",
+        "theme_topic": "Camp Step",
         "underline": false
       },
       "type": "text",
@@ -432,39 +442,41 @@
     },
     {
       "bbox": {
-        "h": 0.3138,
-        "w": 2.0857,
-        "x": 10.6429,
-        "y": 4.5063
+        "h": 0.53,
+        "w": 0.5347,
+        "x": 8.8075,
+        "y": 2.3729
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          28,
-          28
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "smoke stereotyped guitar protest",
-        "theme_topic": "Versed",
-        "underline": false
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 2.0823533451015903,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Camp Step"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.3609,
-        "w": 2.1262,
-        "x": 10.6316,
-        "y": 5.6658
+        "h": 0.5347,
+        "w": 2.7243,
+        "x": 8.0802,
+        "y": 2.7471
       },
       "id": "object_015",
       "properties": {
@@ -472,17 +484,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          28,
-          28
+          246,
+          247,
+          249
         ],
         "font_face": "Aptos",
-        "font_size": 8,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "cracker payment driving interfere warm depressed",
-        "theme_topic": "Versed",
+        "text": "bait lettuce wiggly young bruise tedious",
+        "theme_topic": "Camp Step",
         "underline": false
       },
       "type": "text",
@@ -490,213 +502,203 @@
     },
     {
       "bbox": {
-        "h": 0.2182,
-        "w": 2.0828,
-        "x": 10.6139,
-        "y": 6.7198
+        "h": 0.5368,
+        "w": 0.5146,
+        "x": 11.6866,
+        "y": 2.409
       },
       "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 2.2051656244592,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Camp Step"
+      },
+      "type": "shape",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.5082,
+        "w": 1.5584,
+        "x": 11.1774,
+        "y": 2.7119
+      },
+      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          28,
-          28
+          246,
+          247,
+          249
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "brake full ghost plausible needless deafening",
-        "theme_topic": "Versed",
+        "text": "surround grey meek lunch fork subtract rightful",
+        "theme_topic": "Camp Step",
         "underline": false
       },
       "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 5.156,
-        "w": 2.2097,
-        "x": 0.5436,
-        "y": 1.8519
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          239,
-          239,
-          235
-        ],
-        "line": [
-          239,
-          239,
-          235
-        ],
-        "line_width": 1.3062219736013598,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Versed"
-      },
-      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 4.8168,
-        "w": 1.8709,
-        "x": 0.73,
-        "y": 2.0318
+        "h": 0.4348,
+        "w": 1.5007,
+        "x": 3.8952,
+        "y": 5.9738
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.23397965813211985,
-          0.19757286181222986,
-          0.01540925974636872,
-          0.1121370461629375
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          172,
+          218
         ],
-        "focus": true,
-        "mask_line": [
-          75,
-          41,
-          130
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Versed",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "satisfying sink",
+        "theme_topic": "Camp Step",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.6399,
-        "w": 0.8734,
-        "x": 8.4703,
-        "y": 5.4558
+        "h": 0.774,
+        "w": 0.7949,
+        "x": 6.2998,
+        "y": 5.3325
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          163,
-          96,
-          39
+        "color": [
+          155,
+          227,
+          216
         ],
-        "focus": false,
-        "line": [
-          93,
-          56,
-          178
-        ],
-        "line_width": 1.4904558409817577,
-        "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Versed"
+        "connector": "curve",
+        "dash": 1,
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "Camp Step",
+        "width": 0.9584261935199754
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.673,
-        "w": 1.2472,
-        "x": 8.8207,
-        "y": 4.0201
+        "h": 0.9089,
+        "w": 0.9359,
+        "x": 7.0548,
+        "y": 1.5185
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          38,
-          132,
-          88
+          130,
+          216,
+          79
         ],
         "focus": false,
         "line": [
-          221,
-          76,
-          48
+          215,
+          223,
+          171
         ],
-        "line_width": 0.893952133587852,
+        "line_width": 2.2101733328315496,
         "outline_only": false,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Versed"
+        "ppt_type": 49,
+        "shape": "striped_right_arrow",
+        "theme_topic": "Camp Step"
       },
       "type": "shape",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.7157,
-        "w": 0.706,
-        "x": 3.798,
-        "y": 1.8654
+        "h": 0.3961,
+        "w": 2.387,
+        "x": 9.3537,
+        "y": 1.0745
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          213,
-          42,
-          175
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          106,
+          195,
+          44
         ],
-        "focus": false,
-        "line": [
-          45,
-          139,
-          142
-        ],
-        "line_width": 5.7503391596775595,
-        "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Versed"
+        "font_face": "Aptos",
+        "font_size": 6,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Increase",
+        "theme_topic": "Camp Step",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.6448,
-        "w": 1.5841,
-        "x": 10.5304,
-        "y": 1.4604
+        "h": 0.222,
+        "w": 1.3426,
+        "x": 2.9493,
+        "y": 1.1771
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          155,
-          58,
+          116,
+          49,
           147
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "calculator",
-        "theme_topic": "Versed",
+        "text": "breezy rambunctious fit sweet",
+        "theme_topic": "Camp Step",
         "underline": false
       },
       "type": "text",

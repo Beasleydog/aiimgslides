@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 180,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          64,
-          130,
-          227
-        ],
-        [
-          64,
-          130,
-          109
-        ]
-      ],
       "fill": [
-        64,
-        130,
-        227
+        245,
+        247,
+        252
       ],
-      "focus": "bottom_left",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Coach"
+      "style": "solid",
+      "theme_topic": "Pancake"
     },
     "type": "background",
     "z_order": 0
@@ -45,135 +30,128 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.3497,
-        "w": 4.6228,
-        "x": 4.6104,
-        "y": 1.5285
+        "h": 1.0391,
+        "w": 13.3457,
+        "x": -0.0087,
+        "y": 0.0178
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          103,
-          95,
-          147
+          232,
+          237,
+          247
         ],
-        "focus": false,
         "line": [
-          94,
-          172,
-          126
+          232,
+          237,
+          247
         ],
-        "line_width": 5.899163997924601,
+        "line_width": 1.3396722710822466,
         "outline_only": false,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Coach"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Pancake"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9832,
-        "w": 4.998,
-        "x": 0.324,
-        "y": 2.6393
+        "h": 5.7771,
+        "w": 3.2023,
+        "x": 9.4028,
+        "y": 0.6672
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          50,
-          75,
-          224
-        ],
-        "focus": false,
-        "line": [
-          120,
-          203,
-          166
-        ],
-        "line_width": 2.0883074555182226,
-        "outline_only": true,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Coach"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 4.8241,
-        "w": 8.1518,
-        "x": 3.5883,
-        "y": 0.5129
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          62,
-          102,
-          164
-        ],
-        "focus": false,
-        "line": [
-          116,
-          67,
-          76
-        ],
-        "line_width": 4.8580152934374485,
-        "outline_only": true,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Coach"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.1661,
-        "w": 8.5952,
-        "x": 3.2598,
-        "y": 0.6316
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          27,
+          44,
+          68
         ],
-        "font_face": "Georgia",
-        "font_size": 43,
+        "font_face": "Arial",
+        "font_size": 26,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Robin Welcome",
-        "theme_topic": "Coach",
+        "text": "Needy Flash Dam",
+        "theme_topic": "Pancake",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.6711,
+        "w": 3.9826,
+        "x": 0.6967,
+        "y": 2.9727
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.19830219602236365,
+          0.1469492316681189,
+          0.2014533127743181,
+          0.1865994755695067
+        ],
+        "focus": false,
+        "mask_line": [
+          132,
+          68,
+          81
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Pancake",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.7091,
+        "w": 3.999,
+        "x": 4.8339,
+        "y": 2.9442
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.1414417291183331,
+          0.024288970351612652,
+          0.20080379033848367,
+          0.0864016512950794
+        ],
+        "focus": false,
+        "mask_line": [
+          212,
+          211,
+          79
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Pancake",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.7822,
-        "w": 1.8872,
-        "x": 4.5328,
-        "y": 3.3406
+        "h": 0.6142,
+        "w": 1.138,
+        "x": 0.7192,
+        "y": 6.1508
       },
       "id": "object_005",
       "properties": {
@@ -181,17 +159,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          27,
+          44,
+          68
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "effect cold oranges regret knit",
-        "theme_topic": "Coach",
+        "text": "credit frogs difficult",
+        "theme_topic": "Pancake",
         "underline": false
       },
       "type": "text",
@@ -199,133 +177,89 @@
     },
     {
       "bbox": {
-        "h": 2.332,
-        "w": 5.9358,
-        "x": 6.8254,
-        "y": 2.001
+        "h": 0.5955,
+        "w": 1.3256,
+        "x": 2.1875,
+        "y": 6.1303
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          115,
-          163,
-          234
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          27,
+          44,
+          68
         ],
-        "line": [
-          115,
-          163,
-          234
-        ],
-        "line_width": 2.5686284070612584,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Coach"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wholesale strengthen spiders dramatic",
+        "theme_topic": "Pancake",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.8616,
-        "w": 5.4546,
-        "x": 7.0714,
-        "y": 2.2624
+        "h": 0.6269,
+        "w": 1.6216,
+        "x": 5.2401,
+        "y": 6.1305
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "compare",
-          "bikes",
-          "knit",
-          "foot"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          27,
+          44,
+          68
         ],
-        "chart": "area",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 1,
-        "series": [
-          {
-            "color": [
-              56,
-              113,
-              179
-            ],
-            "name": "invite zipper",
-            "values": [
-              39,
-              77,
-              92,
-              76
-            ]
-          },
-          {
-            "color": [
-              217,
-              218,
-              191
-            ],
-            "name": "frighten doubtful",
-            "values": [
-              51,
-              20,
-              67,
-              64
-            ]
-          },
-          {
-            "color": [
-              53,
-              158,
-              177
-            ],
-            "name": "disillusioned greasy",
-            "values": [
-              10,
-              11,
-              62,
-              10
-            ]
-          }
-        ],
-        "theme_topic": "Coach",
-        "title": "old mice trashy"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "venomous psychotic fast cheat vessel boil itch",
+        "theme_topic": "Pancake",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.2395,
-        "w": 1.8491,
-        "x": 0.6069,
-        "y": 4.7276
+        "h": 0.5916,
+        "w": 1.5794,
+        "x": 7.2113,
+        "y": 6.1479
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.21365067918303426,
-          0.17135870340005321,
-          0.2148453353522987,
-          0.10008922322803304
-        ],
-        "focus": false,
-        "mask_line": [
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          27,
           44,
-          158,
-          40
+          68
         ],
-        "mask_overlay": false,
-        "theme_topic": "Coach",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "gate chalk youthful friend fuel big possess",
+        "theme_topic": "Pancake",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 8
     }
   ],

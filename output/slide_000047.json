@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        76,
-        185,
-        132
+        33,
+        106,
+        114
       ],
       "fill": [
-        252,
-        249,
-        244
+        33,
+        106,
+        114
       ],
       "fore_color": [
-        102,
-        148,
-        80
+        180,
+        70,
+        53
       ],
-      "pattern": 9,
+      "pattern": 4,
       "style": "pattern",
-      "theme_topic": "Loose Mask"
+      "theme_topic": "Bells Fierce"
     },
     "type": "background",
     "z_order": 0
@@ -41,80 +41,66 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.7856,
-        "w": 12.2391,
-        "x": 0.5662,
-        "y": 5.2025
+        "h": 4.6658,
+        "w": 5.6399,
+        "x": 6.3623,
+        "y": 0.894
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "callouts",
         "fill": [
-          242,
-          233,
-          222
+          26,
+          192,
+          82
         ],
+        "focus": false,
         "line": [
-          242,
-          233,
-          222
+          44,
+          41,
+          61
         ],
-        "line_width": 4.60470850825739,
+        "line_width": 6.949198127387208,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Loose Mask"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Bells Fierce"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.2958,
-        "w": 11.7237,
-        "x": 0.8298,
-        "y": 5.4734
+        "h": 3.0025,
+        "w": 8.4772,
+        "x": 1.9477,
+        "y": 2.4761
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "tax",
-          "sharp",
-          "influence",
-          "materialistic",
-          "public",
-          "drag"
+        "dash": 2,
+        "family": "arrows",
+        "fill": [
+          133,
+          148,
+          140
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              150,
-              175,
-              27
-            ],
-            "name": "annoyed stomach",
-            "values": [
-              48,
-              12,
-              93,
-              88,
-              49,
-              84
-            ]
-          }
+        "focus": false,
+        "line": [
+          145,
+          45,
+          80
         ],
-        "theme_topic": "Loose Mask",
-        "title": "famous innocent garrulous puzzled spill"
+        "line_width": 6.269566196223616,
+        "outline_only": false,
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Bells Fierce"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 2
     }
   ],

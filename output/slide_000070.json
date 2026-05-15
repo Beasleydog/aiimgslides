@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "fill": [
-        210,
-        72,
-        94
+      "colors": [
+        [
+          58,
+          194,
+          138
+        ],
+        [
+          255,
+          238,
+          103
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Attend"
+      "fill": [
+        28,
+        143,
+        112
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Arithmetic"
     },
     "type": "background",
     "z_order": 0
@@ -30,63 +45,65 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.1872,
-        "w": 7.6476,
-        "x": -0.176,
-        "y": -0.0812
+        "h": 4.3311,
+        "w": 8.2819,
+        "x": 3.2868,
+        "y": 1.7561
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
+        "dash": 5,
+        "family": "flowchart",
         "fill": [
-          104,
-          64,
-          104
+          110,
+          196,
+          117
         ],
         "focus": false,
         "line": [
-          125,
-          192,
-          42
+          221,
+          150,
+          85
         ],
-        "line_width": 6.606954566566263,
-        "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Attend"
+        "line_width": 6.246728924004682,
+        "outline_only": true,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Arithmetic"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.8784,
-        "w": 9.0158,
-        "x": 3.7421,
-        "y": 2.8632
+        "h": 3.8463,
+        "w": 9.0726,
+        "x": 2.123,
+        "y": 1.4037
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.0648426301144463,
-          0.007486154527490792,
-          0.19043154345429666,
-          0.003914354324440594
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          37,
+          155,
+          123
         ],
-        "focus": true,
-        "mask_line": [
-          51,
-          63,
-          101
+        "line": [
+          43,
+          162,
+          130
         ],
-        "mask_overlay": false,
-        "theme_topic": "Attend",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 5.229391625545365,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Arithmetic"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 2
     }
   ],

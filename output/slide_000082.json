@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        225,
-        94,
-        113
+        134,
+        65,
+        107
       ],
       "fill": [
-        210,
-        72,
-        94
+        134,
+        65,
+        107
       ],
       "fore_color": [
-        106,
-        203,
-        194
+        255,
+        206,
+        86
       ],
-      "pattern": 25,
+      "pattern": 20,
       "style": "pattern",
-      "theme_topic": "Birds"
+      "theme_topic": "Nut Abounding"
     },
     "type": "background",
     "z_order": 0
@@ -41,165 +41,94 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.7644,
-        "w": 6.5788,
-        "x": 1.614,
-        "y": -0.0605
+        "h": 4.0989,
+        "w": 8.9324,
+        "x": -0.4602,
+        "y": 1.1066
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          125,
-          67,
-          78
+          135,
+          104,
+          143
         ],
         "focus": false,
         "line": [
-          171,
-          201,
-          165
+          152,
+          142,
+          169
         ],
-        "line_width": 6.953847228333988,
+        "line_width": 4.320281445765513,
         "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Birds"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Nut Abounding"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.9195,
-        "w": 8.2133,
-        "x": 3.0457,
-        "y": 4.1977
+        "h": 2.5011,
+        "w": 12.2208,
+        "x": 0.5569,
+        "y": 1.8474
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          189,
-          54,
-          106
+          148,
+          88,
+          125
         ],
-        "focus": false,
         "line": [
-          154,
-          223,
-          48
+          148,
+          88,
+          125
         ],
-        "line_width": 4.103561325521281,
+        "line_width": 2.2743974766364667,
         "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Birds"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Nut Abounding"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.5493,
-        "w": 12.1064,
-        "x": 0.5855,
-        "y": 4.4506
+        "h": 2.1974,
+        "w": 11.9169,
+        "x": 0.7217,
+        "y": 2.0333
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          222,
-          37,
-          158
+        "crop": [
+          0.17792687963015008,
+          0.06262965267253724,
+          0.2398780904397344,
+          0.03796257141495726
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          225,
-          94,
-          113
-        ],
-        "border": [
-          163,
-          89,
-          44
-        ],
-        "border_dash": "sysDot",
-        "border_width": 1.4274398636034882,
-        "cells": [
-          [
-            "glow",
-            "next",
-            "closed ceaseless",
-            "rebel war",
-            "exciting scatter"
-          ],
-          [
-            "things",
-            "ablaze snail",
-            "servant premium",
-            "broad",
-            "small blot"
-          ],
-          [
-            "stove",
-            "well-to-do grouchy",
-            "nutritious",
-            "pencil surround",
-            "bumpy feeling"
-          ],
-          [
-            "argument",
-            "experience army",
-            "eggs selfish",
-            "show likeable",
-            "drown"
-          ],
-          [
-            "influence snore",
-            "frogs",
-            "permissible carriage",
-            "remarkable",
-            "trap"
-          ],
-          [
-            "scatter respect",
-            "scary auspicious",
-            "blush",
-            "taste daffy",
-            "modern"
-          ],
-          [
-            "easy",
-            "jelly abortive",
-            "cautious",
-            "general",
-            "disillusioned"
-          ]
-        ],
-        "cols": 5,
-        "font_size": 8,
-        "has_header": true,
-        "header": [
+        "focus": true,
+        "mask_line": [
           51,
           63,
           101
         ],
-        "rows": 7,
-        "text_color": [
-          255,
-          252,
-          247
-        ],
-        "theme_topic": "Birds"
+        "mask_overlay": false,
+        "theme_topic": "Nut Abounding",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "table",
+      "type": "image",
       "z_order": 3
     }
   ],

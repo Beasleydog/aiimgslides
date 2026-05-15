@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 0,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          240,
-          176,
-          54
-        ],
-        [
-          187,
-          82,
-          107
-        ]
-      ],
       "fill": [
-        240,
-        176,
-        54
+        181,
+        195,
+        218
       ],
-      "focus": "top_right",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Twig"
+      "style": "solid",
+      "theme_topic": "Observe"
     },
     "type": "background",
     "z_order": 0
@@ -45,63 +30,89 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.9928,
-        "w": 8.1702,
-        "x": 4.5401,
-        "y": 0.6871
+        "h": 5.8165,
+        "w": 3.2161,
+        "x": 9.3881,
+        "y": 0.6574
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          80,
-          191,
-          182
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          199,
-          174,
-          60
-        ],
-        "line_width": 2.621120395848333,
-        "outline_only": false,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Twig"
+        "font_face": "Trebuchet MS",
+        "font_size": 23,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Price Weary Clear",
+        "theme_topic": "Observe",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.8848,
-        "w": 11.9459,
-        "x": 0.6952,
-        "y": 2.9065
+        "h": 3.3059,
+        "w": 4.9629,
+        "x": 2.9397,
+        "y": 3.2865
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
+        "band": [
+          208,
+          204,
+          228
         ],
-        "font_face": "Verdana",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "rejoice flag unwritten grandmother creature spicy bury tire rose wall mark waste wakeful clam remarkable reign cool distinct skirt",
-        "theme_topic": "Twig",
-        "underline": false
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          211,
+          166,
+          147
+        ],
+        "border": [
+          216,
+          58,
+          66
+        ],
+        "border_dash": "solid",
+        "border_width": 1.1256532452280081,
+        "cells": [
+          [
+            "ring",
+            "house recondite"
+          ],
+          [
+            "include",
+            "night"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 13,
+        "has_header": false,
+        "header": [
+          71,
+          170,
+          196
+        ],
+        "rows": 2,
+        "text_color": [
+          209,
+          217,
+          49
+        ],
+        "theme_topic": "Observe"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 2
     }
   ],

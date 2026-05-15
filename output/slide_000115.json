@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
+      "angle": 270,
       "archetype": "atomic_composition",
       "colors": [
         [
-          67,
-          168,
-          136
+          136,
+          91,
+          208
         ],
         [
-          168,
-          54,
-          94
+          255,
+          211,
+          88
         ]
       ],
       "fill": [
-        29,
-        151,
-        112
+        96,
+        36,
+        193
       ],
-      "focus": "top_left",
-      "gradient_type": "linear",
+      "focus": "bottom_right",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Puffy"
+      "theme_topic": "Tall"
     },
     "type": "background",
     "z_order": 0
@@ -45,92 +45,94 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.1781,
-        "w": 8.0621,
-        "x": -0.4917,
-        "y": 2.7232
+        "h": 5.0947,
+        "w": 8.648,
+        "x": 2.503,
+        "y": 0.3327
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          68,
-          116,
-          177
+          97,
+          66,
+          205
         ],
         "focus": false,
         "line": [
-          55,
-          144,
-          167
+          28,
+          226,
+          115
         ],
-        "line_width": 5.199932606441439,
+        "line_width": 7.849627609968421,
         "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Puffy"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Tall"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.6187,
-        "w": 5.3394,
-        "x": 0.7243,
-        "y": 3.2516
+        "h": 4.4032,
+        "w": 7.4931,
+        "x": 0.0132,
+        "y": 3.1097
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          148,
-          204,
-          189
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          136,
+          91,
+          208
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "kaput nation swing cause disappear wobble mute grain succeed pickle rejoice toe friction skillful squash",
-        "theme_topic": "Puffy",
-        "underline": false
+        "line": [
+          136,
+          91,
+          208
+        ],
+        "line_width": 4.552618928323639,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Tall"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.9304,
-        "w": 5.6811,
-        "x": 6.8981,
-        "y": 2.0564
+        "h": 2.662,
+        "w": 12.2104,
+        "x": 0.521,
+        "y": 4.3861
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 36,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Melodic Pocket Yummy Support Quartz Peel Charge Tart",
-        "theme_topic": "Puffy",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          132,
+          180,
+          59
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Tall",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 3
     }
   ],

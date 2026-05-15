@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
+      "angle": 270,
       "archetype": "atomic_composition",
       "colors": [
         [
-          105,
-          139,
-          192
+          242,
+          233,
+          222
         ],
         [
-          168,
-          54,
-          94
+          76,
+          199,
+          136
         ]
       ],
       "fill": [
-        67,
-        110,
-        176
+        252,
+        249,
+        244
       ],
-      "focus": "top_right",
-      "gradient_type": "rectangular",
+      "focus": "bottom_right",
+      "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Extend Bumpy"
+      "theme_topic": "Yawn"
     },
     "type": "background",
     "z_order": 0
@@ -45,10 +45,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.0716,
-        "w": 6.4875,
-        "x": 7.0419,
-        "y": 3.1599
+        "h": 4.3296,
+        "w": 4.3007,
+        "x": -0.4735,
+        "y": 3.0272
       },
       "id": "object_001",
       "properties": {
@@ -56,144 +56,139 @@
         "dash": 1,
         "family": "basic",
         "fill": [
-          163,
-          68,
-          95
+          141,
+          189,
+          90
         ],
         "focus": false,
         "line": [
-          184,
-          152,
-          218
+          112,
+          123,
+          114
         ],
-        "line_width": 7.005043834361299,
+        "line_width": 7.057662702163921,
         "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Extend Bumpy"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Yawn"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.0548,
-        "w": 8.507,
-        "x": 1.5705,
-        "y": -0.6196
+        "h": 5.217,
+        "w": 8.1532,
+        "x": 1.9149,
+        "y": 1.6584
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          109,
-          203,
-          154
+          213,
+          191,
+          233
         ],
         "focus": false,
         "line": [
-          221,
-          192,
-          46
+          34,
+          162,
+          217
         ],
-        "line_width": 4.16441602055083,
-        "outline_only": true,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Extend Bumpy"
+        "line_width": 6.238665989187894,
+        "outline_only": false,
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Yawn"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.2385,
-        "w": 6.4333,
-        "x": 7.5843,
-        "y": 4.1588
+        "h": 1.2454,
+        "w": 8.2281,
+        "x": 0.5598,
+        "y": 0.3294
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          182,
-          144,
-          70
-        ],
-        "focus": false,
-        "line": [
-          50,
-          164,
-          115
-        ],
-        "line_width": 2.5246935329520825,
-        "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Extend Bumpy"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.6919,
-        "w": 13.3133,
-        "x": 0.0125,
-        "y": -0.0147
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          105,
-          139,
-          192
-        ],
-        "line": [
-          105,
-          139,
-          192
-        ],
-        "line_width": 2.7490168115376044,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Extend Bumpy"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.876,
-        "w": 5.6218,
-        "x": 3.608,
-        "y": 0.9096
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          36,
+          32,
+          29
         ],
-        "font_face": "Georgia",
+        "font_face": "Trebuchet MS",
         "font_size": 41,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Battle Wacky",
-        "theme_topic": "Extend Bumpy",
+        "text": "Sugar Paint",
+        "theme_topic": "Yawn",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.8374,
+        "w": 3.5676,
+        "x": 0.6862,
+        "y": 4.6765
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          104,
+          147,
+          148
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 31,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Earth",
+        "theme_topic": "Yawn",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.1239,
+        "w": 3.5686,
+        "x": 0.7209,
+        "y": 5.7464
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
+        ],
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "position honey puffy terrify insidious tug polish mark sleet mere use heavy needless plucky pastoral picture merciful cooing wound special appliance funny",
+        "theme_topic": "Yawn",
         "underline": false
       },
       "type": "text",
@@ -201,229 +196,233 @@
     },
     {
       "bbox": {
-        "h": 0.9937,
-        "w": 5.9975,
-        "x": 0.6077,
-        "y": 1.4994
+        "h": 2.4245,
+        "w": 3.896,
+        "x": 0.53,
+        "y": 1.8627
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "panel",
         "fill": [
-          105,
-          139,
-          192
+          174,
+          73,
+          92
         ],
         "line": [
-          105,
-          139,
-          192
+          242,
+          233,
+          222
         ],
-        "line_width": 2.0958500440646906,
+        "line_width": 1.5944563823705553,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Extend Bumpy"
+        "theme_topic": "Yawn"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.6805,
-        "w": 5.6755,
-        "x": 0.7546,
-        "y": 1.6823
+        "h": 0.9145,
+        "w": 3.5047,
+        "x": 0.7268,
+        "y": 2.3594
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.2719675012363853,
-          0.20276164359719456,
-          0.26646505853274177,
-          0.2934435248247311
-        ],
-        "focus": false,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Extend Bumpy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 1.0204,
-        "w": 6.01,
-        "x": 6.7616,
-        "y": 1.4701
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.3116918499467003,
-          0.13528826851394668,
-          0.014163186871782748,
-          0.1828831887342634
-        ],
-        "focus": false,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Extend Bumpy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.0194,
-        "w": 5.9726,
-        "x": 0.5834,
-        "y": 2.6473
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.07321842034630917,
-          0.018893688526937603,
-          0.17753709089990372,
-          0.06056369764658912
-        ],
-        "focus": false,
-        "mask_line": [
-          201,
-          201,
-          158
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Extend Bumpy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 1.038,
-        "w": 5.9861,
-        "x": 6.7699,
-        "y": 2.642
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": false,
-        "line": [
-          32,
-          119,
-          149
-        ],
-        "line_width": 11,
-        "theme_topic": "Extend Bumpy"
-      },
-      "type": "svg_image",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 2.8308,
-        "w": 3.6099,
-        "x": 4.0606,
-        "y": 4.1865
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          105,
-          139,
-          192
-        ],
-        "line": [
-          105,
-          139,
-          192
-        ],
-        "line_width": 3.035959245480939,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Extend Bumpy"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 2.5296,
-        "w": 3.327,
-        "x": 4.2009,
-        "y": 4.307
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.22036057286781074,
-          0.06714130679496333,
-          0.20055582659760365,
-          0.03853642314180013
-        ],
-        "focus": true,
-        "mask_line": [
-          32,
-          119,
-          149
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Extend Bumpy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.295,
-        "w": 3.2179,
-        "x": 4.2871,
-        "y": 6.5306
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          252,
+          249,
+          244
         ],
-        "font_face": "Aptos",
+        "font_face": "Trebuchet MS",
+        "font_size": 50,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "326",
+        "theme_topic": "Yawn",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.573,
+        "w": 3.5384,
+        "x": 0.713,
+        "y": 3.2974
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          36,
+          32,
+          29
+        ],
+        "font_face": "Verdana",
         "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "live youthful quarter queen miniature birds look pen bury",
+        "theme_topic": "Yawn",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.7958,
+        "w": 0.5216,
+        "x": 4.979,
+        "y": 6.0259
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "look fierce devilish frail purpose toothsome idea guide",
+        "theme_topic": "Yawn",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.4341,
+        "w": 0.5101,
+        "x": 6.0583,
+        "y": 5.4487
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Boundless Assorted",
-        "theme_topic": "Extend Bumpy",
+        "text": "Capable",
+        "theme_topic": "Yawn",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.7911,
+        "w": 0.495,
+        "x": 6.0737,
+        "y": 6.0313
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "enormous billowy sour visit vest invite sad caption",
+        "theme_topic": "Yawn",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.4608,
+        "w": 0.51,
+        "x": 7.2772,
+        "y": 5.4878
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Handsomely",
+        "theme_topic": "Yawn",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.7664,
+        "w": 0.5015,
+        "x": 7.2726,
+        "y": 6.0201
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "hanging paltry evasive better want adaptable",
+        "theme_topic": "Yawn",
         "underline": false
       },
       "type": "text",
@@ -431,59 +430,57 @@
     },
     {
       "bbox": {
-        "h": 2.8191,
-        "w": 2.7037,
-        "x": 7.9034,
-        "y": 4.1557
+        "h": 0.4749,
+        "w": 0.5184,
+        "x": 8.2449,
+        "y": 5.4833
       },
       "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          57,
-          112,
-          168
-        ],
-        "line": [
-          105,
-          139,
-          192
-        ],
-        "line_width": 3.8535020951400307,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Extend Bumpy"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.7743,
-        "w": 2.3375,
-        "x": 8.0828,
-        "y": 4.3459
-      },
-      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          174,
+          73,
+          92
         ],
-        "font_face": "Georgia",
-        "font_size": 31,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Concentrate Flaky",
+        "theme_topic": "Yawn",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.7877,
+        "w": 0.5222,
+        "x": 8.2395,
+        "y": 6.0342
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          123,
+          113,
+          103
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "47%",
-        "theme_topic": "Extend Bumpy",
+        "text": "utter return match imminent brake rod ski basin sassy",
+        "theme_topic": "Yawn",
         "underline": false
       },
       "type": "text",
@@ -491,117 +488,117 @@
     },
     {
       "bbox": {
-        "h": 1.8202,
-        "w": 2.3509,
-        "x": 8.0658,
-        "y": 5.0683
+        "h": 2.4342,
+        "w": 3.8528,
+        "x": 8.8985,
+        "y": 4.5557
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          165,
-          185,
-          217
+        "crop": [
+          0.010804290675184052,
+          0.19183190782263834,
+          0.16895601025475468,
+          0.08564961868295055
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "zesty receive abaft",
-        "theme_topic": "Extend Bumpy",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          135,
+          224,
+          223
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Yawn",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 2.8142,
-        "w": 2.0083,
-        "x": 10.7774,
-        "y": 4.1645
+        "h": 2.4166,
+        "w": 3.8785,
+        "x": 4.7166,
+        "y": 1.8419
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          64,
-          90,
-          167
+          242,
+          233,
+          222
         ],
         "line": [
-          105,
-          139,
-          192
+          242,
+          233,
+          222
         ],
-        "line_width": 4.486093055666046,
+        "line_width": 0.795913603843244,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Extend Bumpy"
+        "theme_topic": "Yawn"
       },
       "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.7645,
-        "w": 1.6309,
-        "x": 10.9452,
-        "y": 4.3402
+        "h": 2.1402,
+        "w": 3.5769,
+        "x": 4.9067,
+        "y": 1.9859
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
+        "crop": [
+          0.21650668179499685,
+          0.034429260742226055,
+          0.11574446711844757,
+          0.18488934471683854
         ],
-        "font_face": "Georgia",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "12%",
-        "theme_topic": "Extend Bumpy",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          157,
+          160,
+          154
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Yawn",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 1.8003,
-        "w": 1.6473,
-        "x": 10.9699,
-        "y": 5.1126
+        "h": 0.2986,
+        "w": 3.5002,
+        "x": 4.9,
+        "y": 3.8412
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          165,
-          185,
-          217
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "roasted recess coal handsomely low",
-        "theme_topic": "Extend Bumpy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Birthday",
+        "theme_topic": "Yawn",
         "underline": false
       },
       "type": "text",
@@ -609,119 +606,127 @@
     },
     {
       "bbox": {
-        "h": 2.448,
-        "w": 0.6901,
-        "x": 0.7717,
-        "y": 4.3694
+        "h": 0.4656,
+        "w": 1.4714,
+        "x": 4.1027,
+        "y": 0.2694
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "bg_color": [
+          97,
+          54,
+          144
         ],
-        "focus": false,
-        "mask_line": [
-          64,
-          26,
-          108
+        "bold": false,
+        "color": [
+          181,
+          48,
+          86
         ],
-        "mask_overlay": true,
-        "theme_topic": "Extend Bumpy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Windy",
+        "theme_topic": "Yawn",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 2.7008,
-        "w": 0.9798,
-        "x": 1.7266,
-        "y": 4.2337
+        "h": 0.3319,
+        "w": 2.3662,
+        "x": 5.4097,
+        "y": 6.2266
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.05998782823085393,
-          0.01749361516833054,
-          0.04672835127379615,
-          0.12251448511447187
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          219,
+          200,
+          83
         ],
-        "focus": false,
-        "mask_line": [
-          92,
-          189,
-          127
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Extend Bumpy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 6,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "language",
+        "theme_topic": "Yawn",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.377,
-        "w": 2.3799,
-        "x": 8.717,
-        "y": 3.8663
+        "h": 0.409,
+        "w": 0.6463,
+        "x": 10.2927,
+        "y": 0.5488
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": [
-          33,
-          27,
-          152
+          228,
+          31,
+          202
         ],
         "bold": false,
         "color": [
-          167,
-          195,
-          132
+          228,
+          200,
+          42
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Faint",
-        "theme_topic": "Extend Bumpy",
-        "underline": true
+        "text": "Recess Knit Pour",
+        "theme_topic": "Yawn",
+        "underline": false
       },
       "type": "text",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.5008,
-        "w": 1.9218,
-        "x": 10.9646,
-        "y": 0.5543
+        "h": 0.5694,
+        "w": 2.2194,
+        "x": 10.4073,
+        "y": 0.2912
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          137,
-          138,
-          150
+        "bg_color": [
+          223,
+          36,
+          224
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "bold": true,
+        "color": [
+          229,
+          161,
+          162
+        ],
+        "font_face": "Verdana",
+        "font_size": 16,
         "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Sassy",
-        "theme_topic": "Extend Bumpy",
+        "text": "Lunchroom Gate",
+        "theme_topic": "Yawn",
         "underline": false
       },
       "type": "text",

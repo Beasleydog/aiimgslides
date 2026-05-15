@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        107,
-        147,
-        178
+      "colors": [
+        [
+          111,
+          88,
+          201
+        ],
+        [
+          132,
+          192,
+          73
+        ]
       ],
       "fill": [
-        122,
-        168,
-        203
+        111,
+        88,
+        201
       ],
-      "fore_color": [
-        31,
-        117,
-        161
-      ],
-      "pattern": 39,
-      "style": "pattern",
-      "theme_topic": "Slow"
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Beef"
     },
     "type": "background",
     "z_order": 0
@@ -41,171 +45,108 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.4333,
-        "w": 6.1324,
-        "x": -1.143,
-        "y": 3.8066
+        "h": 1.991,
+        "w": 3.5606,
+        "x": -0.9511,
+        "y": 1.9497
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 2,
+        "family": "basic",
         "fill": [
-          204,
-          187,
-          170
+          157,
+          129,
+          110
         ],
         "focus": false,
         "line": [
-          156,
-          83,
-          152
+          195,
+          138,
+          178
         ],
-        "line_width": 2.199534847367736,
+        "line_width": 4.100470248504239,
         "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Slow"
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Beef"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.9815,
-        "w": 8.3436,
-        "x": 6.0022,
-        "y": -0.6243
+        "h": 2.2842,
+        "w": 3.3149,
+        "x": 6.0408,
+        "y": 0.8905
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 2,
         "family": "basic",
         "fill": [
-          168,
-          179,
-          127
+          174,
+          137,
+          165
         ],
         "focus": false,
         "line": [
-          196,
-          118,
-          102
+          203,
+          110,
+          127
         ],
-        "line_width": 6.088151293569302,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Slow"
+        "line_width": 3.7672605715692202,
+        "outline_only": true,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Beef"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.5179,
-        "w": 6.569,
-        "x": -0.181,
-        "y": 2.9902
+        "h": 3.8608,
+        "w": 3.884,
+        "x": 3.3999,
+        "y": 1.5598
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 4,
+        "family": "basic",
         "fill": [
-          57,
+          85,
           188,
-          198
+          163
         ],
         "focus": false,
         "line": [
-          38,
-          75,
-          182
+          217,
+          83,
+          193
         ],
-        "line_width": 5.861916095927445,
-        "outline_only": true,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Slow"
+        "line_width": 2.6609435247147104,
+        "outline_only": false,
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Beef"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.7961,
-        "w": 3.7004,
-        "x": 7.6763,
-        "y": -0.7398
+        "h": 1.1344,
+        "w": 6.1608,
+        "x": 0.5362,
+        "y": 0.3348
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          80,
-          193,
-          148
-        ],
-        "focus": false,
-        "line": [
-          201,
-          37,
-          161
-        ],
-        "line_width": 2.2049545538682693,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Slow"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 4.4442,
-        "w": 4.8072,
-        "x": -0.0032,
-        "y": 0.0189
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          107,
-          147,
-          178
-        ],
-        "line": [
-          107,
-          147,
-          178
-        ],
-        "line_width": 1.780554032970549,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Slow"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.1008,
-        "w": 5.1933,
-        "x": 0.552,
-        "y": 0.3388
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -216,72 +157,179 @@
           36
         ],
         "font_face": "Arial",
-        "font_size": 34,
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Lunch Snobbish Snow",
-        "theme_topic": "Slow",
+        "text": "Shaggy Absent",
+        "theme_topic": "Beef",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.0794,
+        "w": 5.6628,
+        "x": 0.6096,
+        "y": 1.9042
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          133,
+          113,
+          209
+        ],
+        "band_cols": true,
+        "band_rows": false,
+        "body": [
+          133,
+          113,
+          209
+        ],
+        "border": [
+          65,
+          56,
+          110
+        ],
+        "border_dash": "solid",
+        "border_width": 1.9262958389157585,
+        "cells": [
+          [
+            "undesirable park",
+            "table unequal",
+            "swift sable"
+          ],
+          [
+            "collar",
+            "deafening stroke",
+            "tense board"
+          ],
+          [
+            "last helpless",
+            "few",
+            "petite"
+          ],
+          [
+            "separate",
+            "talented",
+            "tramp paper"
+          ],
+          [
+            "flame",
+            "women",
+            "ten joke"
+          ],
+          [
+            "church lace",
+            "oil",
+            "nasty hellish"
+          ]
+        ],
+        "cols": 3,
+        "font_size": 11,
+        "has_header": true,
+        "header": [
+          107,
+          74,
+          212
+        ],
+        "rows": 6,
+        "text_color": [
+          194,
+          183,
+          115
+        ],
+        "theme_topic": "Beef"
+      },
+      "type": "table",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.0294,
+        "w": 6.114,
+        "x": 6.6475,
+        "y": 1.8348
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          133,
+          113,
+          209
+        ],
+        "line": [
+          133,
+          113,
+          209
+        ],
+        "line_width": 3.669646928121885,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Beef"
+      },
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.5174,
-        "w": 3.5017,
-        "x": 6.1075,
-        "y": 4.4902
+        "h": 1.6964,
+        "w": 5.8403,
+        "x": 6.7914,
+        "y": 2.0255
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          107,
-          147,
-          178
-        ],
+        "clip": "arch",
+        "focus": true,
         "line": [
-          107,
-          147,
-          178
+          38,
+          201,
+          160
         ],
-        "line_width": 4.595288265379256,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Slow"
+        "line_width": 11,
+        "theme_topic": "Beef"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.8807,
-        "w": 2.9713,
-        "x": 6.3426,
-        "y": 5.939
+        "h": 0.5674,
+        "w": 1.0309,
+        "x": 0.4039,
+        "y": 5.1824
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
+        "bg_color": [
+          200,
+          213,
+          86
+        ],
+        "bold": true,
         "color": [
-          70,
-          92,
-          111
+          25,
+          157,
+          116
         ],
         "font_face": "Arial",
-        "font_size": 12,
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "sponge loaf recognise border sky round wood amusement squash unaccountable modern cheer righteous protect domineering",
-        "theme_topic": "Slow",
+        "text": "zoo snow",
+        "theme_topic": "Beef",
         "underline": false
       },
       "type": "text",
@@ -289,117 +337,125 @@
     },
     {
       "bbox": {
-        "h": 2.5168,
-        "w": 3.0035,
-        "x": 9.8066,
-        "y": 4.4876
+        "h": 0.34,
+        "w": 0.893,
+        "x": 0.4253,
+        "y": 5.3391
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          107,
-          147,
-          178
+        "bg_color": [
+          123,
+          51,
+          98
         ],
-        "line": [
-          107,
-          147,
-          178
+        "bold": true,
+        "color": [
+          221,
+          76,
+          84
         ],
-        "line_width": 2.2377516929796433,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Slow"
+        "font_face": "Arial",
+        "font_size": 8,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Makeshift Cherries List",
+        "theme_topic": "Beef",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.8469,
-        "w": 2.471,
-        "x": 10.0551,
-        "y": 5.9445
+        "h": 0.8716,
+        "w": 0.8673,
+        "x": 1.9759,
+        "y": 5.2166
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          70,
-          92,
-          111
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          36,
+          195,
+          214
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "welcome consist shelf ashamed respect hoc quickest vegetable nasty icky excuse laborer unarmed orange",
-        "theme_topic": "Slow",
-        "underline": false
+        "focus": false,
+        "line": [
+          202,
+          174,
+          107
+        ],
+        "line_width": 2.1956783668187683,
+        "outline_only": true,
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Beef"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 2.3143,
-        "w": 12.2604,
-        "x": 0.5682,
-        "y": 1.874
+        "h": 1.0206,
+        "w": 1.0435,
+        "x": 1.2415,
+        "y": 3.0436
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.23899164500531853,
-          0.18313877255293054,
-          0.0371047828432414,
-          0.0987329294385941
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          116,
+          165,
+          137
         ],
-        "focus": true,
-        "mask_line": [
-          31,
-          117,
-          161
+        "focus": false,
+        "line": [
+          215,
+          37,
+          65
         ],
-        "mask_overlay": false,
-        "theme_topic": "Slow",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 5.415114290161096,
+        "outline_only": true,
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Beef"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.666,
-        "w": 4.9957,
-        "x": 0.6776,
-        "y": 5.0825
+        "h": 0.2489,
+        "w": 1.5175,
+        "x": 9.2047,
+        "y": 4.8059
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          28,
-          30,
-          36
+          94,
+          62,
+          70
         ],
         "font_face": "Arial",
-        "font_size": 35,
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Magic",
-        "theme_topic": "Slow",
+        "text": "mug stage elated",
+        "theme_topic": "Beef",
         "underline": false
       },
       "type": "text",
@@ -407,31 +463,34 @@
     },
     {
       "bbox": {
-        "h": 0.8489,
-        "w": 4.9917,
-        "x": 0.7144,
-        "y": 6.0331
+        "h": 0.9184,
+        "w": 0.4243,
+        "x": 4.5208,
+        "y": 4.3616
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          70,
-          92,
-          111
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          229,
+          200,
+          32
         ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "bucket receptive understood cooperative normal admire offbeat inject flippant box",
-        "theme_topic": "Slow",
-        "underline": false
+        "focus": false,
+        "line": [
+          97,
+          61,
+          220
+        ],
+        "line_width": 0.5565816120430531,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Beef"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     }
   ],

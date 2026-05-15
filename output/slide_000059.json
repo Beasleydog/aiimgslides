@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 90,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          113,
-          144,
-          25
-        ],
-        [
-          32,
-          119,
-          149
-        ]
-      ],
       "fill": [
-        137,
-        76,
-        186
+        240,
+        176,
+        54
       ],
-      "focus": "bottom_right",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Violet Jeans"
+      "style": "solid",
+      "theme_topic": "Useful"
     },
     "type": "background",
     "z_order": 0
@@ -45,104 +30,60 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.1344,
-        "w": 5.1629,
-        "x": 7.6269,
-        "y": 1.8455
+        "h": 5.5284,
+        "w": 2.8608,
+        "x": 0.6746,
+        "y": 0.7726
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          162,
-          114,
-          200
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          40,
+          38,
+          28
         ],
-        "line": [
-          162,
-          114,
-          200
-        ],
-        "line_width": 2.0780747091686798,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Violet Jeans"
+        "font_face": "Trebuchet MS",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Foolish Distinct Ordinary",
+        "theme_topic": "Useful",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0551,
-        "w": 6.4641,
-        "x": 0.6045,
-        "y": 1.9147
+        "h": 2.3915,
+        "w": 4.5512,
+        "x": 3.7368,
+        "y": 0.6576
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
+        "crop": [
+          0.05223396775423513,
+          0.028680193894029194,
+          0.1448598564138639,
+          0.32310233747264794
+        ],
+        "focus": true,
+        "mask_line": [
           162,
-          114,
-          200
+          141,
+          165
         ],
-        "band_cols": true,
-        "band_rows": true,
-        "body": [
-          162,
-          114,
-          200
-        ],
-        "border": [
-          122,
-          177,
-          211
-        ],
-        "border_dash": "solid",
-        "border_width": 1.927494425810759,
-        "cells": [
-          [
-            "debonair tomatoes",
-            "absorbed",
-            "volleyball",
-            "purple",
-            "spare powerful"
-          ],
-          [
-            "acoustics",
-            "change spicy",
-            "cautious ticket",
-            "beginner",
-            "alcoholic"
-          ],
-          [
-            "fretful",
-            "uptight nasty",
-            "servant",
-            "dull",
-            "obese"
-          ]
-        ],
-        "cols": 5,
-        "font_size": 7,
-        "has_header": false,
-        "header": [
-          98,
-          212,
-          154
-        ],
-        "rows": 3,
-        "text_color": [
-          28,
-          30,
-          36
-        ],
-        "theme_topic": "Violet Jeans"
+        "mask_overlay": true,
+        "theme_topic": "Useful",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "table",
+      "type": "image",
       "z_order": 2
     }
   ],

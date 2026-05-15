@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        210,
-        157,
-        166
+        239,
+        239,
+        235
       ],
       "fill": [
-        210,
-        157,
-        166
+        250,
+        250,
+        248
       ],
       "fore_color": [
-        184,
-        135,
-        51
+        180,
+        70,
+        53
       ],
-      "pattern": 18,
+      "pattern": 11,
       "style": "pattern",
-      "theme_topic": "List Plantation"
+      "theme_topic": "Contain Stiff"
     },
     "type": "background",
     "z_order": 0
@@ -41,150 +41,154 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5108,
-        "w": 7.0165,
-        "x": 0.9447,
-        "y": 3.8875
+        "h": 3.8245,
+        "w": 4.1192,
+        "x": 5.7237,
+        "y": 2.0886
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          115,
-          196,
-          177
+          236,
+          155,
+          225
         ],
         "focus": false,
         "line": [
-          120,
-          103,
-          200
+          218,
+          142,
+          118
         ],
-        "line_width": 3.8198693666534873,
+        "line_width": 3.030642405403369,
         "outline_only": true,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "List Plantation"
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Contain Stiff"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.4563,
-        "w": 8.8455,
-        "x": 4.2766,
-        "y": 1.7963
+        "h": 1.219,
+        "w": 8.0079,
+        "x": 0.5371,
+        "y": 0.3468
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
-        "fill": [
-          164,
-          117,
-          150
-        ],
-        "focus": false,
-        "line": [
-          183,
-          145,
-          128
-        ],
-        "line_width": 7.261918410375048,
-        "outline_only": false,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "List Plantation"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 3.8036,
-        "w": 7.1793,
-        "x": 2.1603,
-        "y": 1.1736
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "callouts",
-        "fill": [
-          176,
-          129,
-          200
-        ],
-        "focus": false,
-        "line": [
-          142,
-          103,
-          209
-        ],
-        "line_width": 7.373625714900729,
-        "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "List Plantation"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.531,
-        "w": 2.8688,
-        "x": 0.6708,
-        "y": 0.757
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           28,
-          30,
-          36
+          28,
+          28
         ],
-        "font_face": "Aptos Display",
-        "font_size": 28,
+        "font_face": "Georgia",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Breakable",
-        "theme_topic": "List Plantation",
+        "text": "Impulse Equal Brief",
+        "theme_topic": "Contain Stiff",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 5.1543,
+        "w": 5.6981,
+        "x": 7.1112,
+        "y": 1.8152
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.003869786544826852,
+          0.07564180120983924,
+          0.11312110133479038,
+          0.12727889418943159
+        ],
+        "focus": true,
+        "mask_line": [
+          38,
+          132,
+          88
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Contain Stiff",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.4548,
+        "w": 6.071,
+        "x": 0.5476,
+        "y": 1.8604
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          239,
+          239,
+          235
+        ],
+        "line": [
+          239,
+          239,
+          235
+        ],
+        "line_width": 0.7063463810675397,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Contain Stiff"
+      },
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 3.1159,
-        "w": 8.9695,
-        "x": 3.7453,
-        "y": 0.6634
+        "h": 2.4855,
+        "w": 6.0736,
+        "x": 0.5597,
+        "y": 4.5043
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": true,
-        "line": [
-          71,
-          221,
-          181
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          239,
+          239,
+          235
         ],
-        "line_width": 14,
-        "theme_topic": "List Plantation"
+        "line": [
+          239,
+          239,
+          235
+        ],
+        "line_width": 1.0283910854230014,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Contain Stiff"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 5
     }
   ],

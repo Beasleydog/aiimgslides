@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 135,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          38,
-          81,
-          188
-        ],
-        [
-          255,
-          238,
-          103
-        ]
+      "back_color": [
+        46,
+        65,
+        111
       ],
       "fill": [
-        28,
-        143,
-        112
+        46,
+        65,
+        111
       ],
-      "focus": "bottom_left",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Energetic Agreement"
+      "fore_color": [
+        222,
+        133,
+        62
+      ],
+      "pattern": 11,
+      "style": "pattern",
+      "theme_topic": "Behave Bridge"
     },
     "type": "background",
     "z_order": 0
@@ -45,25 +41,31 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.3741,
-        "w": 11.9319,
-        "x": 0.7204,
-        "y": 3.6158
+        "h": 4.8806,
+        "w": 2.9229,
+        "x": 6.7601,
+        "y": 0.5999
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          255,
-          238,
-          103
+        "crop": [
+          0.2808669990028533,
+          0.20815536089289374,
+          0.20922837746124925,
+          0.0758658937961405
         ],
-        "line_width": 18,
-        "theme_topic": "Energetic Agreement"
+        "focus": true,
+        "mask_line": [
+          31,
+          117,
+          161
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Behave Bridge",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg_image",
+      "type": "image",
       "z_order": 1
     }
   ],

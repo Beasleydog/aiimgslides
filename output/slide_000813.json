@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 270,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          119,
-          30,
-          203
-        ],
-        [
-          157,
-          208,
-          125
-        ]
+      "back_color": [
+        101,
+        156,
+        57
       ],
       "fill": [
-        119,
-        30,
-        203
+        101,
+        156,
+        57
       ],
-      "focus": "bottom_left",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Money Hose"
+      "fore_color": [
+        114,
+        103,
+        192
+      ],
+      "pattern": 45,
+      "style": "pattern",
+      "theme_topic": "Melodic"
     },
     "type": "background",
     "z_order": 0
@@ -45,107 +41,75 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.241,
-        "w": 4.8045,
-        "x": 2.2589,
-        "y": 1.6323
+        "h": 4.3423,
+        "w": 6.0024,
+        "x": 0.6788,
+        "y": 1.7482
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
+        "dash": 1,
         "family": "symbols",
         "fill": [
-          96,
-          77,
-          155
+          117,
+          195,
+          95
         ],
         "focus": false,
         "line": [
-          228,
-          228,
-          178
+          161,
+          143,
+          217
         ],
-        "line_width": 4.038510983851342,
+        "line_width": 5.540641192404006,
         "outline_only": false,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Money Hose"
+        "ppt_type": 174,
+        "shape": "funnel",
+        "theme_topic": "Melodic"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.3344,
-        "w": 8.3692,
-        "x": 5.0464,
-        "y": 2.0755
+        "h": 0.5722,
+        "w": 13.3495,
+        "x": -0.012,
+        "y": 0.0021
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          165,
-          97,
-          101
+          123,
+          170,
+          86
         ],
-        "focus": false,
         "line": [
-          52,
-          45,
-          143
+          123,
+          170,
+          86
         ],
-        "line_width": 7.268806878385173,
+        "line_width": 1.886487771534387,
         "outline_only": false,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Money Hose"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Melodic"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.5199,
-        "w": 0.8909,
-        "x": 0.0123,
-        "y": -0.0064
+        "h": 0.9914,
+        "w": 7.951,
+        "x": 0.5737,
+        "y": 0.3364
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          138,
-          62,
-          210
-        ],
-        "line": [
-          138,
-          62,
-          210
-        ],
-        "line_width": 5.384245406661689,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Money Hose"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.972,
-        "w": 6.0461,
-        "x": 0.5502,
-        "y": 0.3265
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -155,24 +119,55 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
+        "font_face": "Trebuchet MS",
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Extra-Large Strange Exclusive",
-        "theme_topic": "Money Hose",
+        "text": "Broken Profit",
+        "theme_topic": "Melodic",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.4222,
+        "w": 2.9533,
+        "x": 6.7983,
+        "y": 1.8499
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          123,
+          170,
+          86
+        ],
+        "line": [
+          123,
+          170,
+          86
+        ],
+        "line_width": 2.108783948004966,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Melodic"
+      },
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.9691,
-        "w": 7.0731,
-        "x": 0.7634,
-        "y": 2.07
+        "h": 0.4417,
+        "w": 2.461,
+        "x": 7.0443,
+        "y": 2.7357
       },
       "id": "object_005",
       "properties": {
@@ -180,17 +175,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Pleasant Temporary Escape Year Haunt Bell Unwritten Mark",
-        "theme_topic": "Money Hose",
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Page",
+        "theme_topic": "Melodic",
         "underline": false
       },
       "type": "text",
@@ -198,28 +193,28 @@
     },
     {
       "bbox": {
-        "h": 0.8367,
-        "w": 3.8862,
-        "x": 0.7693,
-        "y": 5.4459
+        "h": 0.7965,
+        "w": 2.4255,
+        "x": 7.0763,
+        "y": 3.2858
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          71,
-          221,
-          181
+          180,
+          206,
+          164
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "PERFECT ENCOURAGE",
-        "theme_topic": "Money Hose",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "dependent skillful shop irritate cabbage dare blade listen jail brave annoying pour",
+        "theme_topic": "Melodic",
         "underline": false
       },
       "type": "text",
@@ -227,10 +222,10 @@
     },
     {
       "bbox": {
-        "h": 2.4478,
-        "w": 1.359,
-        "x": 8.3492,
-        "y": 1.9034
+        "h": 2.4422,
+        "w": 2.8078,
+        "x": 9.9662,
+        "y": 1.8585
       },
       "id": "object_007",
       "properties": {
@@ -238,88 +233,88 @@
         "dash": 3,
         "family": "panel",
         "fill": [
-          138,
-          62,
-          210
+          123,
+          170,
+          86
         ],
         "line": [
-          138,
-          62,
-          210
+          123,
+          170,
+          86
         ],
-        "line_width": 1.4320281599217728,
+        "line_width": 2.24534370075057,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Money Hose"
+        "theme_topic": "Melodic"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.1216,
-        "w": 1.0805,
-        "x": 8.5176,
-        "y": 2.063
+        "h": 0.4646,
+        "w": 2.3036,
+        "x": 10.2058,
+        "y": 2.7686
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.04425959745383085,
-          0.2030895838439651,
-          0.12083255647510252,
-          0.20692297909364524
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
         ],
-        "focus": false,
-        "mask_line": [
-          71,
-          221,
-          181
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Money Hose",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Nine Far-Flung",
+        "theme_topic": "Melodic",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 2.4109,
-        "w": 1.3835,
-        "x": 9.8837,
-        "y": 1.8878
+        "h": 0.8103,
+        "w": 2.3105,
+        "x": 10.2115,
+        "y": 3.286
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.22881934322419858,
-          0.0776345988067347,
-          0.21039899559255068,
-          0.2649554345407658
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          180,
+          206,
+          164
         ],
-        "focus": false,
-        "mask_line": [
-          45,
-          229,
-          101
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Money Hose",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "creator secret bite-sized short verdant concentrate unaccountable mass colossal expert wash bump sense undesirable deceive",
+        "theme_topic": "Melodic",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2605,
-        "w": 0.9604,
-        "x": 10.088,
-        "y": 3.8741
+        "h": 0.2753,
+        "w": 5.6723,
+        "x": 0.6936,
+        "y": 4.6964
       },
       "id": "object_010",
       "properties": {
@@ -327,17 +322,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Annoy Gullible Wing",
-        "theme_topic": "Money Hose",
+        "text": "STAGE",
+        "theme_topic": "Melodic",
         "underline": false
       },
       "type": "text",
@@ -345,246 +340,264 @@
     },
     {
       "bbox": {
-        "h": 2.4392,
-        "w": 1.348,
-        "x": 11.3906,
-        "y": 1.9169
+        "h": 0.6334,
+        "w": 5.6759,
+        "x": 0.69,
+        "y": 5.1476
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          138,
-          62,
-          210
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          138,
-          62,
-          210
-        ],
-        "line_width": 3.188324483738984,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Money Hose"
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Chop Curvy Grieving",
+        "theme_topic": "Melodic",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 2.158,
-        "w": 1.037,
-        "x": 11.5405,
-        "y": 2.0271
+        "h": 0.8107,
+        "w": 5.7059,
+        "x": 0.7226,
+        "y": 6.0479
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": false,
-        "line": [
-          35,
-          173,
-          203
-        ],
-        "line_width": 10,
-        "theme_topic": "Money Hose"
-      },
-      "type": "svg_image",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.2995,
-        "w": 0.941,
-        "x": 11.5625,
-        "y": 3.9067
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Vagabond Range",
-        "theme_topic": "Money Hose",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 2.4275,
-        "w": 1.3728,
-        "x": 8.3834,
-        "y": 4.5357
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": false,
-        "line": [
-          71,
-          221,
-          181
-        ],
-        "line_width": 15,
-        "theme_topic": "Money Hose"
-      },
-      "type": "svg_image",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 2.4182,
-        "w": 1.352,
-        "x": 9.8588,
-        "y": 4.5069
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": false,
-        "line": [
-          71,
-          221,
-          181
-        ],
-        "line_width": 16,
-        "theme_topic": "Money Hose"
-      },
-      "type": "svg_image",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 2.4557,
-        "w": 1.3423,
-        "x": 11.3739,
-        "y": 4.5107
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          138,
-          62,
-          210
-        ],
-        "line": [
-          138,
-          62,
-          210
-        ],
-        "line_width": 0.77837078055894,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Money Hose"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 2.1447,
-        "w": 1.0453,
-        "x": 11.5142,
-        "y": 4.6855
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.17830316718159842,
-          0.14374354712909118,
-          0.03376315260546327,
-          0.17100178232361218
-        ],
-        "focus": false,
-        "mask_line": [
-          109,
-          132,
-          91
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Money Hose",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.2673,
-        "w": 0.9686,
-        "x": 11.6026,
-        "y": 6.4836
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Trains Scratch Arrest",
-        "theme_topic": "Money Hose",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 2.2499,
-        "x": 7.6945,
-        "y": 6.0041
-      },
-      "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          208,
-          73,
-          62
+          180,
+          206,
+          164
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": true,
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "enchanted notebook root earn flimsy disagree support bore activity giraffe",
+        "theme_topic": "Melodic",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 2.448,
+        "w": 2.2113,
+        "x": 0.5432,
+        "y": 1.8507
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          123,
+          170,
+          86
+        ],
+        "line": [
+          123,
+          170,
+          86
+        ],
+        "line_width": 1.526378596790828,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Melodic"
+      },
+      "type": "shape",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.4435,
+        "w": 1.7218,
+        "x": 0.7879,
+        "y": 2.7495
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Reminiscent",
-        "theme_topic": "Money Hose",
+        "text": "Clip",
+        "theme_topic": "Melodic",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.7746,
+        "w": 1.7018,
+        "x": 0.7773,
+        "y": 3.3061
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          180,
+          206,
+          164
+        ],
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wrist profit peep earth cat abortive foregoing passenger unequaled lethal righteous romantic suggestion regret",
+        "theme_topic": "Melodic",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.43,
+        "w": 0.954,
+        "x": 3.207,
+        "y": 2.7593
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Scrape Ritzy",
+        "theme_topic": "Melodic",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.8144,
+        "w": 0.9716,
+        "x": 3.2008,
+        "y": 3.3192
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          180,
+          206,
+          164
+        ],
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "flashy crabby dear garrulous meal zonked cable erect welcome pale night",
+        "theme_topic": "Melodic",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 2.4434,
+        "w": 1.9103,
+        "x": 4.6411,
+        "y": 1.8326
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          123,
+          170,
+          86
+        ],
+        "line": [
+          123,
+          170,
+          86
+        ],
+        "line_width": 1.0660225746458207,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Melodic"
+      },
+      "type": "shape",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.4691,
+        "w": 1.4043,
+        "x": 4.8685,
+        "y": 2.7384
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Quince Pickle",
+        "theme_topic": "Melodic",
         "underline": false
       },
       "type": "text",
@@ -592,63 +605,60 @@
     },
     {
       "bbox": {
-        "h": 0.7086,
-        "w": 1.3217,
-        "x": 4.3974,
-        "y": 5.5538
+        "h": 0.7712,
+        "w": 1.3757,
+        "x": 4.8704,
+        "y": 3.2869
       },
       "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          43,
-          207,
-          205
-        ],
-        "focus": false,
-        "line": [
-          109,
-          153,
-          109
-        ],
-        "line_width": 2.6191800302428034,
-        "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Money Hose"
-      },
-      "type": "shape",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.516,
-        "w": 1.6238,
-        "x": 7.7523,
-        "y": 2.2717
-      },
-      "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          140,
-          74,
-          131
+          180,
+          206,
+          164
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "red",
-        "theme_topic": "Money Hose",
+        "text": "oil understood aspiring books silent fixed compete fit",
+        "theme_topic": "Melodic",
         "underline": false
       },
       "type": "text",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 2.4587,
+        "w": 5.9491,
+        "x": 6.7773,
+        "y": 4.5832
+      },
+      "id": "object_021",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "focus": true,
+        "mask_line": [
+          111,
+          181,
+          205
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Melodic",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 21
     }
   ],

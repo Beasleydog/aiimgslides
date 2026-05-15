@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "fill": [
-        135,
-        92,
-        113
+      "colors": [
+        [
+          179,
+          56,
+          153
+        ],
+        [
+          64,
+          130,
+          109
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Sigh Hang"
+      "fill": [
+        30,
+        121,
+        91
+      ],
+      "focus": "top_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Clover Border"
     },
     "type": "background",
     "z_order": 0
@@ -30,156 +45,142 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.7339,
-        "w": 8.7033,
-        "x": -0.655,
-        "y": 0.2407
+        "h": 0.8781,
+        "w": 5.2052,
+        "x": 2.4157,
+        "y": 0.539
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          132,
-          70,
-          56
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          118,
-          196,
-          122
-        ],
-        "line_width": 7.462449032150591,
-        "outline_only": false,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Sigh Hang"
+        "font_face": "Georgia",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Scintillating Guarded Hammer",
+        "theme_topic": "Clover Border",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.1994,
-        "w": 7.5725,
-        "x": 5.8165,
-        "y": 5.9473
+        "h": 5.5198,
+        "w": 5.5604,
+        "x": 0.5277,
+        "y": 1.4474
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          133,
-          134,
-          184
-        ],
-        "focus": false,
+        "clip": "hex",
+        "focus": true,
         "line": [
-          34,
-          161,
-          30
+          67,
+          46,
+          156
         ],
-        "line_width": 5.454876111148996,
-        "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Sigh Hang"
+        "line_width": 12,
+        "theme_topic": "Clover Border"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.5301,
-        "w": 5.2198,
-        "x": 5.2498,
-        "y": 5.3289
+        "h": 0.2553,
+        "w": 5.144,
+        "x": 0.7505,
+        "y": 6.5399
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          121,
-          166,
-          170
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
         ],
-        "focus": false,
-        "line": [
-          44,
-          169,
-          48
-        ],
-        "line_width": 6.969825232341623,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Sigh Hang"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Bright Meek",
+        "theme_topic": "Clover Border",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 3.4342,
-        "w": 4.3912,
-        "x": 7.9089,
-        "y": -0.1689
+        "h": 0.2958,
+        "w": 6.0831,
+        "x": 6.5929,
+        "y": 1.5523
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          163,
-          143,
-          81
-        ],
-        "focus": false,
-        "line": [
-          107,
-          39,
-          33
-        ],
-        "line_width": 5.702652128599402,
-        "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Sigh Hang"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.9278,
-        "w": 6.8338,
-        "x": 5.7658,
-        "y": 5.9173
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          196,
-          177,
-          189
+          174,
+          73,
+          92
         ],
         "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
-        "kind": "body",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "SECOND-HAND",
+        "theme_topic": "Clover Border",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.0332,
+        "w": 6.0799,
+        "x": 6.5592,
+        "y": 2.0642
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          75,
+          185,
+          94
+        ],
+        "bold": true,
+        "color": [
+          149,
+          98,
+          65
+        ],
+        "font_face": "Georgia",
+        "font_size": 43,
+        "italic": false,
+        "kind": "header",
         "margin": 0.04,
-        "text": "cowardly noisy agonizing dusty oatmeal tour harass lunch",
-        "theme_topic": "Sigh Hang",
+        "text": "List",
+        "theme_topic": "Clover Border",
         "underline": false
       },
       "type": "text",
@@ -187,80 +188,60 @@
     },
     {
       "bbox": {
-        "h": 2.6381,
-        "w": 4.7544,
-        "x": 0.531,
-        "y": 4.3477
+        "h": 3.5115,
+        "w": 6.0431,
+        "x": 6.5503,
+        "y": 3.3514
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          168,
-          138,
-          153
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          148,
+          190,
+          179
         ],
-        "line": [
-          168,
-          138,
-          153
-        ],
-        "line_width": 1.413717712465035,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Sigh Hang"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "key whisper peaceful afterthought zonked grin trucks film decay scrape longing humorous tug neck fold kitty juice rare dispensable trust star cherries",
+        "theme_topic": "Clover Border",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.1471,
-        "w": 4.2346,
-        "x": 0.8039,
-        "y": 4.6205
+        "h": 0.2,
+        "w": 1.4775,
+        "x": 4.8157,
+        "y": 2.5584
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "imported",
-          "quickest",
-          "reaction",
-          "ocean",
-          "potato",
-          "story"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          116,
+          225,
+          42
         ],
-        "chart": "line",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 65,
-        "series": [
-          {
-            "color": [
-              95,
-              122,
-              175
-            ],
-            "name": "regular learned",
-            "values": [
-              14,
-              20,
-              88,
-              67,
-              11,
-              33
-            ]
-          }
-        ],
-        "theme_topic": "Sigh Hang",
-        "title": "cloth kind squeeze"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Plan Imperfect",
+        "theme_topic": "Clover Border",
+        "underline": true
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 7
     }
   ],

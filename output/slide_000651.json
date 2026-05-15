@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "back_color": [
-        215,
-        94,
-        158
+      "colors": [
+        [
+          196,
+          228,
+          78
+        ],
+        [
+          73,
+          156,
+          89
+        ]
       ],
       "fill": [
-        250,
-        250,
-        248
+        120,
+        58,
+        170
       ],
-      "fore_color": [
-        180,
-        70,
-        53
-      ],
-      "pattern": 26,
-      "style": "pattern",
-      "theme_topic": "Elastic"
+      "focus": "bottom_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Mourn"
     },
     "type": "background",
     "z_order": 0
@@ -41,42 +45,39 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.4246,
-        "w": 5.3398,
-        "x": -0.7931,
-        "y": 2.1764
+        "h": 5.7998,
+        "w": 3.2048,
+        "x": 9.3949,
+        "y": 0.6409
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          120,
-          149,
-          148
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          250,
+          255
         ],
-        "focus": false,
-        "line": [
-          36,
-          89,
-          47
-        ],
-        "line_width": 2.0211126372744603,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Elastic"
+        "font_face": "Georgia",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Vessel Believe",
+        "theme_topic": "Mourn",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.2355,
-        "w": 7.2199,
-        "x": 0.5655,
-        "y": 0.3539
+        "h": 0.266,
+        "w": 7.9205,
+        "x": 0.7957,
+        "y": 0.7761
       },
       "id": "object_002",
       "properties": {
@@ -84,17 +85,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          28,
-          28
+          71,
+          221,
+          181
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 41,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Glass Own Error Daily",
-        "theme_topic": "Elastic",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "PUNCH",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",
@@ -102,10 +103,10 @@
     },
     {
       "bbox": {
-        "h": 0.3745,
-        "w": 3.7269,
-        "x": 6.7597,
-        "y": 3.1806
+        "h": 0.3456,
+        "w": 7.8852,
+        "x": 0.8147,
+        "y": 1.2591
       },
       "id": "object_003",
       "properties": {
@@ -113,17 +114,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          28,
-          28
+          217,
+          88,
+          126
         ],
-        "font_face": "Trebuchet MS",
+        "font_face": "Georgia",
         "font_size": 18,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Chance Piquant",
-        "theme_topic": "Elastic",
+        "text": "Sparkle",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",
@@ -131,10 +132,10 @@
     },
     {
       "bbox": {
-        "h": 0.3453,
-        "w": 3.7492,
-        "x": 6.7895,
-        "y": 3.8014
+        "h": 0.3339,
+        "w": 7.894,
+        "x": 0.779,
+        "y": 1.8543
       },
       "id": "object_004",
       "properties": {
@@ -142,17 +143,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          115,
-          115,
-          115
+          230,
+          210,
+          240
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "brass imaginary flesh curved impulse title lie fine jobless creator smoke able basket",
-        "theme_topic": "Elastic",
+        "text": "greedy wacky boot gentle birthday cooperative zonked testy gifted cake",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",
@@ -160,57 +161,59 @@
     },
     {
       "bbox": {
-        "h": 0.392,
-        "w": 3.0234,
-        "x": 7.1469,
-        "y": 2.7391
+        "h": 1.9382,
+        "w": 2.7157,
+        "x": 0.6465,
+        "y": 2.7752
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          136,
-          59,
-          180
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          106,
+          103,
+          173
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 19,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Breezy Join Scarecrow",
-        "theme_topic": "Elastic",
-        "underline": false
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 2.4571453745729195,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Mourn"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.4203,
-        "w": 3.0331,
-        "x": 7.1746,
-        "y": 3.3996
+        "h": 0.7443,
+        "w": 2.3577,
+        "x": 0.8349,
+        "y": 2.9316
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          115,
-          115,
-          115
+          71,
+          221,
+          181
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
+        "font_face": "Georgia",
+        "font_size": 22,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "fierce recondite kitty joyous wandering trouble illustrious industry tawdry squealing abrupt degree guarantee petite note pigs",
-        "theme_topic": "Elastic",
+        "text": "6.4x",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",
@@ -218,28 +221,28 @@
     },
     {
       "bbox": {
-        "h": 0.2813,
-        "w": 1.9302,
-        "x": 8.1152,
-        "y": 5.29
+        "h": 0.9349,
+        "w": 2.3679,
+        "x": 0.8232,
+        "y": 3.6997
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          28,
-          28,
-          28
+          230,
+          210,
+          240
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 18,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Books",
-        "theme_topic": "Elastic",
+        "text": "bikes sneaky functional shelter lumpy zinc",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",
@@ -247,10 +250,10 @@
     },
     {
       "bbox": {
-        "h": 0.7396,
-        "w": 2.0656,
-        "x": 5.6973,
-        "y": 3.812
+        "h": 0.7711,
+        "w": 2.3639,
+        "x": 3.7219,
+        "y": 2.9339
       },
       "id": "object_008",
       "properties": {
@@ -258,17 +261,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          71,
+          221,
+          181
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 26,
+        "font_face": "Georgia",
+        "font_size": 22,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "94%",
-        "theme_topic": "Elastic",
+        "text": "192",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",
@@ -276,10 +279,10 @@
     },
     {
       "bbox": {
-        "h": 1.769,
-        "w": 2.0679,
-        "x": 5.7168,
-        "y": 4.5099
+        "h": 0.9012,
+        "w": 2.3928,
+        "x": 3.7218,
+        "y": 3.6989
       },
       "id": "object_009",
       "properties": {
@@ -287,17 +290,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          115,
-          115,
-          115
+          230,
+          210,
+          240
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "irritate crown trees languid courageous satisfying shelter",
-        "theme_topic": "Elastic",
+        "text": "yawn faulty cracker",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",
@@ -305,41 +308,41 @@
     },
     {
       "bbox": {
-        "h": 2.8179,
-        "w": 1.9857,
-        "x": 8.1546,
-        "y": 3.6041
+        "h": 1.9289,
+        "w": 2.3676,
+        "x": 6.4672,
+        "y": 2.7522
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "panel",
         "fill": [
-          208,
-          230,
-          204
+          143,
+          92,
+          152
         ],
         "line": [
-          239,
-          239,
-          235
+          139,
+          78,
+          190
         ],
-        "line_width": 1.0605602741547369,
+        "line_width": 0.7395812398253615,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Elastic"
+        "theme_topic": "Mourn"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.773,
-        "w": 1.5993,
-        "x": 8.3422,
-        "y": 3.8132
+        "h": 0.7325,
+        "w": 2.0443,
+        "x": 6.6598,
+        "y": 2.9617
       },
       "id": "object_011",
       "properties": {
@@ -347,17 +350,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          71,
+          221,
+          181
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 37,
+        "font_face": "Georgia",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "166",
-        "theme_topic": "Elastic",
+        "text": "7.8x",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",
@@ -365,10 +368,10 @@
     },
     {
       "bbox": {
-        "h": 1.7942,
-        "w": 1.6343,
-        "x": 8.3123,
-        "y": 4.5085
+        "h": 0.8908,
+        "w": 2.0443,
+        "x": 6.6751,
+        "y": 3.677
       },
       "id": "object_012",
       "properties": {
@@ -376,17 +379,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          115,
-          115,
-          115
+          230,
+          210,
+          240
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "bloody combative classy nail ear",
-        "theme_topic": "Elastic",
+        "text": "thick unaccountable godly nut neighborly dull scream",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",
@@ -394,59 +397,61 @@
     },
     {
       "bbox": {
-        "h": 2.7886,
-        "w": 2.1598,
-        "x": 10.282,
-        "y": 3.5958
+        "h": 1.7817,
+        "w": 8.2116,
+        "x": 0.6218,
+        "y": 5.1162
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          181,
-          107,
-          128
+        "crop": [
+          0.04502039089643049,
+          0.1462793358429024,
+          0.27891647165957567,
+          0.15767210580634702
         ],
-        "line": [
-          239,
-          239,
-          235
+        "focus": true,
+        "mask_line": [
+          71,
+          221,
+          181
         ],
-        "line_width": 3.6906715237662207,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Elastic"
+        "mask_overlay": false,
+        "theme_topic": "Mourn",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.7308,
-        "w": 1.8222,
-        "x": 10.4627,
-        "y": 3.8108
+        "h": 0.602,
+        "w": 2.3023,
+        "x": 4.8317,
+        "y": 5.5906
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
+        "bg_color": [
+          148,
+          168,
+          225
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 27,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "224",
-        "theme_topic": "Elastic",
+        "bold": false,
+        "color": [
+          117,
+          116,
+          102
+        ],
+        "font_face": "Aptos",
+        "font_size": 6,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Flash",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",
@@ -454,94 +459,90 @@
     },
     {
       "bbox": {
-        "h": 1.7714,
-        "w": 1.8342,
-        "x": 10.5032,
-        "y": 4.5407
+        "h": 0.4411,
+        "w": 1.0828,
+        "x": 9.3938,
+        "y": 0.4974
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          158,
+          160,
+          180
+        ],
         "bold": false,
         "color": [
-          115,
-          115,
-          115
+          25,
+          36,
+          219
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "foregoing calculator beef nonstop cows receptive",
-        "theme_topic": "Elastic",
-        "underline": false
+        "text": "hand yielding scrape baseball ill-informed",
+        "theme_topic": "Mourn",
+        "underline": true
       },
       "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.6049,
-        "w": 2.3653,
-        "x": 5.517,
-        "y": 4.6024
+        "h": 0.4075,
+        "w": 2.3522,
+        "x": 3.1691,
+        "y": 0.8185
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          225,
-          71,
-          69
-        ],
-        "bold": false,
+        "bg_color": null,
+        "bold": true,
         "color": [
-          122,
-          165,
-          79
+          57,
+          87,
+          90
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "vacuous six",
-        "theme_topic": "Elastic",
-        "underline": true
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Jail",
+        "theme_topic": "Mourn",
+        "underline": false
       },
       "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.4997,
-        "w": 2.1754,
-        "x": 9.5561,
-        "y": 4.7322
+        "h": 0.4852,
+        "w": 2.0825,
+        "x": 10.1235,
+        "y": 4.7979
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          184,
-          166,
-          59
-        ],
-        "bold": true,
+        "bg_color": null,
+        "bold": false,
         "color": [
-          203,
-          67,
-          60
+          73,
+          30,
+          71
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "mass answer slimy",
-        "theme_topic": "Elastic",
+        "text": "correct",
+        "theme_topic": "Mourn",
         "underline": false
       },
       "type": "text",

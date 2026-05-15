@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 180,
       "archetype": "atomic_composition",
-      "fill": [
-        252,
-        249,
-        244
+      "colors": [
+        [
+          145,
+          96,
+          231
+        ],
+        [
+          71,
+          221,
+          181
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Quiet Collar"
+      "fill": [
+        128,
+        70,
+        228
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Stream"
     },
     "type": "background",
     "z_order": 0
@@ -30,10 +45,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.3876,
-        "w": 5.076,
-        "x": 8.0019,
-        "y": -0.312
+        "h": 2.0067,
+        "w": 4.0462,
+        "x": 8.6167,
+        "y": 4.7768
       },
       "id": "object_001",
       "properties": {
@@ -41,95 +56,94 @@
         "dash": 1,
         "family": "basic",
         "fill": [
-          185,
-          144,
-          203
+          88,
+          120,
+          99
         ],
         "focus": false,
         "line": [
-          139,
-          75,
-          148
+          55,
+          187,
+          203
         ],
-        "line_width": 2.449535681200861,
+        "line_width": 6.969713267603222,
         "outline_only": false,
         "ppt_type": 18,
         "shape": "donut",
-        "theme_topic": "Quiet Collar"
+        "theme_topic": "Stream"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9307,
-        "w": 6.9827,
-        "x": -1.1415,
-        "y": 2.7956
+        "h": 2.748,
+        "w": 6.2622,
+        "x": 1.1331,
+        "y": 5.4496
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 2,
+        "family": "basic",
         "fill": [
-          227,
-          200,
-          193
+          92,
+          167,
+          113
         ],
         "focus": false,
         "line": [
-          207,
-          51,
-          46
+          147,
+          119,
+          53
         ],
-        "line_width": 7.969559780076267,
+        "line_width": 7.7879263026993435,
         "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Quiet Collar"
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Stream"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.0583,
-        "w": 5.236,
-        "x": 0.6677,
-        "y": 1.1718
+        "h": 0.9056,
+        "w": 13.3349,
+        "x": -0.0125,
+        "y": -0.0121
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "panel",
         "fill": [
-          176,
-          171,
-          113
+          145,
+          96,
+          231
         ],
-        "focus": false,
         "line": [
-          41,
-          65,
-          112
+          145,
+          96,
+          231
         ],
-        "line_width": 4.625806672613127,
+        "line_width": 3.2375117362678956,
         "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Quiet Collar"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Stream"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.2996,
-        "w": 5.3167,
-        "x": 0.5655,
-        "y": 0.3643
+        "h": 1.1289,
+        "w": 7.6788,
+        "x": 0.5449,
+        "y": 0.3314
       },
       "id": "object_004",
       "properties": {
@@ -137,17 +151,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          36,
-          32,
-          29
+          28,
+          30,
+          36
         ],
-        "font_face": "Arial",
-        "font_size": 36,
+        "font_face": "Georgia",
+        "font_size": 38,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Didactic Belligerent Invent",
-        "theme_topic": "Quiet Collar",
+        "text": "Birthday Devilish",
+        "theme_topic": "Stream",
         "underline": false
       },
       "type": "text",
@@ -155,41 +169,39 @@
     },
     {
       "bbox": {
-        "h": 0.521,
-        "w": 0.5107,
-        "x": 1.8609,
-        "y": 4.389
+        "h": 0.7588,
+        "w": 5.5596,
+        "x": 0.6845,
+        "y": 2.4704
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          174,
-          73,
-          92
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 1.3956274615755697,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Quiet Collar"
+        "font_face": "Georgia",
+        "font_size": 41,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Wealthy Rose",
+        "theme_topic": "Stream",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.5001,
-        "w": 3.6989,
-        "x": 0.624,
-        "y": 4.8251
+        "h": 0.9783,
+        "w": 5.5485,
+        "x": 0.6954,
+        "y": 3.4425
       },
       "id": "object_006",
       "properties": {
@@ -197,17 +209,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          36,
-          32,
-          29
+          73,
+          48,
+          122
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "vegetable error include scrawny tease clam five",
-        "theme_topic": "Quiet Collar",
+        "text": "ready collect credit luxuriant daffy badge shelf joyous protect jealous please distribution scrape arrange guard bead",
+        "theme_topic": "Stream",
         "underline": false
       },
       "type": "text",
@@ -215,10 +227,10 @@
     },
     {
       "bbox": {
-        "h": 0.51,
-        "w": 0.494,
-        "x": 5.615,
-        "y": 4.479
+        "h": 2.128,
+        "w": 7.2947,
+        "x": 0.5451,
+        "y": 4.867
       },
       "id": "object_007",
       "properties": {
@@ -226,48 +238,48 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          174,
-          73,
-          92
+          145,
+          96,
+          231
         ],
         "line": [
-          242,
-          233,
-          222
+          145,
+          96,
+          231
         ],
-        "line_width": 1.6355253851845848,
+        "line_width": 2.1299391358893685,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Quiet Collar"
+        "theme_topic": "Stream"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.471,
-        "w": 3.4903,
-        "x": 4.6248,
-        "y": 4.8176
+        "h": 0.4563,
+        "w": 6.7978,
+        "x": 0.8033,
+        "y": 5.7718
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          36,
-          32,
-          29
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 15,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "spring share box foolish stuff toes",
-        "theme_topic": "Quiet Collar",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Step",
+        "theme_topic": "Stream",
         "underline": false
       },
       "type": "text",
@@ -275,10 +287,10 @@
     },
     {
       "bbox": {
-        "h": 0.5125,
-        "w": 4.3121,
-        "x": 8.3991,
-        "y": 4.8264
+        "h": 0.4843,
+        "w": 6.7943,
+        "x": 0.797,
+        "y": 6.3539
       },
       "id": "object_009",
       "properties": {
@@ -286,17 +298,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          36,
-          32,
-          29
+          73,
+          48,
+          122
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "juggle festive tense grouchy",
-        "theme_topic": "Quiet Collar",
+        "text": "relieved soft jelly female gullible blink grease fence clip insect violet polite existence",
+        "theme_topic": "Stream",
         "underline": false
       },
       "type": "text",
@@ -304,57 +316,59 @@
     },
     {
       "bbox": {
-        "h": 1.1182,
-        "w": 12.2314,
-        "x": 0.5205,
-        "y": 5.8753
+        "h": 2.1335,
+        "w": 4.7248,
+        "x": 8.061,
+        "y": 4.8945
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2958788816522687,
-          0.17775017933444426,
-          0.021816213816992683,
-          0.2177036161954012
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          145,
+          96,
+          231
         ],
-        "focus": true,
-        "mask_line": [
-          57,
-          70,
-          88
+        "line": [
+          145,
+          96,
+          231
         ],
-        "mask_overlay": true,
-        "theme_topic": "Quiet Collar",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.4971557221050724,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stream"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7783,
-        "w": 11.8353,
-        "x": 0.7689,
-        "y": 2.0588
+        "h": 0.477,
+        "w": 4.2238,
+        "x": 8.3096,
+        "y": 6.3125
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          36,
-          32,
-          29
+          73,
+          48,
+          122
         ],
-        "font_face": "Arial",
-        "font_size": 23,
-        "italic": true,
-        "kind": "header",
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "Aloof Defeated Identify Drink Punch Next Fresh Smart Pat",
-        "theme_topic": "Quiet Collar",
+        "text": "foregoing feeble faded overrated books deranged wakeful name produce dark radiate tree giant",
+        "theme_topic": "Stream",
         "underline": false
       },
       "type": "text",
@@ -362,96 +376,101 @@
     },
     {
       "bbox": {
-        "h": 0.2448,
-        "w": 6.5165,
-        "x": 0.748,
-        "y": 2.9614
+        "h": 2.7193,
+        "w": 2.9634,
+        "x": 6.7134,
+        "y": 1.8552
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          145,
+          96,
+          231
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "SHRILL",
-        "theme_topic": "Quiet Collar",
-        "underline": false
+        "line": [
+          145,
+          96,
+          231
+        ],
+        "line_width": 4.715653283234046,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stream"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.4217,
-        "w": 0.6179,
-        "x": 7.0096,
-        "y": 2.575
+        "h": 1.0487,
+        "w": 2.4714,
+        "x": 6.991,
+        "y": 3.3219
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
-        "fill": [
-          44,
-          45,
-          26
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          73,
+          48,
+          122
         ],
-        "focus": false,
-        "line": [
-          131,
-          26,
-          33
-        ],
-        "line_width": 4.695669999582966,
-        "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Quiet Collar"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "sparkle pear bike trust momentous wiry one minor",
+        "theme_topic": "Stream",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.9699,
-        "w": 2.1314,
-        "x": 2.0207,
-        "y": 4.2316
+        "h": 2.7047,
+        "w": 2.8536,
+        "x": 9.9116,
+        "y": 1.8505
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          124,
-          134,
-          53
-        ],
-        "connector": "curve",
         "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Quiet Collar",
-        "width": 2.5033009077784714
+        "family": "panel",
+        "fill": [
+          145,
+          96,
+          231
+        ],
+        "line": [
+          145,
+          96,
+          231
+        ],
+        "line_width": 2.836333509881836,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stream"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.3464,
-        "w": 0.9121,
-        "x": 4.1164,
-        "y": 3.7966
+        "h": 1.0365,
+        "w": 2.39,
+        "x": 10.1747,
+        "y": 3.3212
       },
       "id": "object_015",
       "properties": {
@@ -459,17 +478,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          199,
-          44,
-          160
+          73,
+          48,
+          122
         ],
-        "font_face": "Arial",
-        "font_size": 15,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Rob",
-        "theme_topic": "Quiet Collar",
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "self pass cobweb irritate unequaled bells abundant notice snakes",
+        "theme_topic": "Stream",
         "underline": false
       },
       "type": "text",

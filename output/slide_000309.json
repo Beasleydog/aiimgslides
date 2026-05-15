@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "fill": [
-        139,
-        169,
-        39
+      "colors": [
+        [
+          219,
+          149,
+          71
+        ],
+        [
+          82,
+          227,
+          211
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Pleasure"
+      "fill": [
+        202,
+        168,
+        78
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Vein"
     },
     "type": "background",
     "z_order": 0
@@ -30,101 +45,102 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.5009,
-        "w": 1.2708,
-        "x": -0.0045,
-        "y": -0.0182
+        "h": 1.8931,
+        "w": 4.8635,
+        "x": 0.9213,
+        "y": 1.4165
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          180,
-          199,
-          115
+          137,
+          129,
+          157
         ],
+        "focus": false,
         "line": [
-          180,
-          199,
-          115
+          89,
+          71,
+          149
         ],
-        "line_width": 1.5793973110471138,
+        "line_width": 3.334670703724392,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Pleasure"
+        "ppt_type": 103,
+        "shape": "wave",
+        "theme_topic": "Vein"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0197,
-        "w": 5.101,
-        "x": 0.554,
-        "y": 0.3672
+        "h": 5.342,
+        "w": 8.6645,
+        "x": 1.4159,
+        "y": 0.8661
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          183,
+          153,
+          70
+        ],
+        "line": [
+          174,
+          145,
+          67
+        ],
+        "line_width": 3.070280142028786,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Vein"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.887,
+        "w": 4.4183,
+        "x": 4.4812,
+        "y": 0.9616
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
+        "font_face": "Arial",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Whole Badge",
-        "theme_topic": "Pleasure",
+        "text": "Dysfunctional Weak Ratty",
+        "theme_topic": "Vein",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 5.162,
-        "w": 2.1866,
-        "x": 0.5514,
-        "y": 1.866
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          51,
-          63,
-          101
-        ],
-        "line": [
-          180,
-          199,
-          115
-        ],
-        "line_width": 0.7470659053090327,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Pleasure"
-      },
-      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.1271,
-        "w": 1.8206,
-        "x": 0.7236,
-        "y": 2.8055
+        "h": 0.3525,
+        "w": 2.0476,
+        "x": 7.6465,
+        "y": 4.9653
       },
       "id": "object_004",
       "properties": {
@@ -132,17 +148,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          139,
-          169,
-          39
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 37,
+        "font_face": "Arial",
+        "font_size": 18,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "44%",
-        "theme_topic": "Pleasure",
+        "text": "Join",
+        "theme_topic": "Vein",
         "underline": false
       },
       "type": "text",
@@ -150,28 +166,28 @@
     },
     {
       "bbox": {
-        "h": 0.6999,
-        "w": 1.8607,
-        "x": 0.7424,
-        "y": 5.0011
+        "h": 0.2844,
+        "w": 3.7854,
+        "x": 4.2201,
+        "y": 3.7698
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "cheese steady damaging important memorize window whisper",
-        "theme_topic": "Pleasure",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "GOVERNMENT OBTAIN",
+        "theme_topic": "Vein",
         "underline": false
       },
       "type": "text",
@@ -179,10 +195,10 @@
     },
     {
       "bbox": {
-        "h": 0.2679,
-        "w": 6.5436,
-        "x": 3.4137,
-        "y": 5.9859
+        "h": 0.3394,
+        "w": 3.7838,
+        "x": 4.2364,
+        "y": 4.2816
       },
       "id": "object_006",
       "properties": {
@@ -190,82 +206,72 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 18,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "ERECT PASTORAL",
-        "theme_topic": "Pleasure",
-        "underline": false
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Collect",
+        "theme_topic": "Vein",
+        "underline": true
       },
       "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 6.5462,
-        "x": 3.406,
-        "y": 6.4591
+        "h": 2.7804,
+        "w": 2.8801,
+        "x": 6.1871,
+        "y": 4.1139
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          92,
-          113,
-          192
+        "crop": [
+          0.14523796031083677,
+          0.06540707945971815,
+          0.2479077671521183,
+          0.009716856582715571
         ],
-        "font_face": "Aptos Display",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Things",
-        "theme_topic": "Pleasure",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          96,
+          165,
+          250
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Vein",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.6439,
-        "w": 2.002,
-        "x": 3.3523,
-        "y": 2.5586
+        "h": 2.7828,
+        "w": 2.9112,
+        "x": 9.195,
+        "y": 4.0829
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          223,
-          177,
-          80
+        "clip": "ticket",
+        "focus": true,
+        "line": [
+          145,
+          160,
+          47
         ],
-        "bold": true,
-        "color": [
-          128,
-          58,
-          145
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "cagey",
-        "theme_topic": "Pleasure",
-        "underline": false
+        "line_width": 11,
+        "theme_topic": "Vein"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 8
     }
   ],

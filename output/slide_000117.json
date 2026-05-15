@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 180,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          33,
-          115,
-          169
-        ],
-        [
-          255,
-          117,
-          117
-        ]
+      "back_color": [
+        192,
+        135,
+        37
       ],
       "fill": [
-        33,
-        115,
-        169
+        232,
+        163,
+        45
       ],
-      "focus": "bottom_left",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Trust Tasteful"
+      "fore_color": [
+        255,
+        211,
+        88
+      ],
+      "pattern": 3,
+      "style": "pattern",
+      "theme_topic": "Ahead"
     },
     "type": "background",
     "z_order": 0
@@ -45,97 +41,129 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.2925,
-        "w": 7.2449,
-        "x": 2.5934,
-        "y": -0.8398
+        "h": 4.9626,
+        "w": 8.694,
+        "x": 0.0691,
+        "y": 2.2456
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 5,
+        "family": "arrows",
         "fill": [
-          43,
-          59,
-          211
+          140,
+          129,
+          121
         ],
         "focus": false,
         "line": [
-          178,
-          164,
-          162
+          191,
+          193,
+          42
         ],
-        "line_width": 6.880149218399739,
-        "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Trust Tasteful"
+        "line_width": 7.663165150723054,
+        "outline_only": false,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Ahead"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.7836,
-        "w": 8.4111,
-        "x": -0.6812,
-        "y": 0.7119
+        "h": 3.1087,
+        "w": 6.1058,
+        "x": 6.5471,
+        "y": 3.7326
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
+        "bg_color": null,
+        "bold": false,
+        "color": [
           119,
-          170,
-          202
+          89,
+          40
         ],
-        "focus": false,
-        "line": [
-          77,
-          201,
-          142
-        ],
-        "line_width": 6.820969714011515,
-        "outline_only": true,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Trust Tasteful"
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "astonishing smooth shop stove secretive whip thick shy honey peck polite building sound top truck",
+        "theme_topic": "Ahead",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5562,
-        "w": 7.0232,
-        "x": 0.5598,
-        "y": 1.4375
+        "h": 5.0777,
+        "w": 5.443,
+        "x": 0.6042,
+        "y": 1.9241
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          255,
-          198,
-          74
+        "band": [
+          220,
+          73,
+          62
         ],
-        "line": [
-          47,
+        "band_cols": true,
+        "band_rows": false,
+        "body": [
+          206,
+          159,
+          186
+        ],
+        "border": [
+          144,
+          56,
+          204
+        ],
+        "border_dash": "solid",
+        "border_width": 0.43707281896194206,
+        "cells": [
+          [
+            "pancake",
+            "whistle"
+          ],
+          [
+            "week tongue",
+            "mice shame"
+          ],
+          [
+            "scratch",
+            "smash bedroom"
+          ],
+          [
+            "street",
+            "overt"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 10,
+        "has_header": true,
+        "header": [
           136,
-          190
+          168,
+          82
         ],
-        "line_width": 1.2526643172536345,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Trust Tasteful"
+        "rows": 4,
+        "text_color": [
+          28,
+          30,
+          36
+        ],
+        "theme_topic": "Ahead"
       },
-      "type": "shape",
+      "type": "table",
       "z_order": 3
     }
   ],

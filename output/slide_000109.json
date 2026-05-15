@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        120,
-        58,
-        170
+      "back_color": [
+        217,
+        160,
+        45
       ],
-      "style": "solid",
-      "theme_topic": "Verdant"
+      "fill": [
+        18,
+        129,
+        148
+      ],
+      "fore_color": [
+        36,
+        191,
+        191
+      ],
+      "pattern": 38,
+      "style": "pattern",
+      "theme_topic": "Creature"
     },
     "type": "background",
     "z_order": 0
@@ -30,10 +41,10 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.5824,
-        "w": 3.9486,
-        "x": 9.9557,
-        "y": 2.6675
+        "h": 3.2393,
+        "w": 8.7831,
+        "x": 0.868,
+        "y": -0.2579
       },
       "id": "object_001",
       "properties": {
@@ -41,86 +52,84 @@
         "dash": 1,
         "family": "arrows",
         "fill": [
-          66,
-          121,
-          189
+          50,
+          207,
+          184
         ],
         "focus": false,
         "line": [
-          68,
-          187,
-          203
+          174,
+          148,
+          148
         ],
-        "line_width": 7.944330251882171,
+        "line_width": 3.9538891777446397,
         "outline_only": false,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Verdant"
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Creature"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.0009,
-        "w": 8.583,
-        "x": 2.5132,
-        "y": 3.458
+        "h": 4.6174,
+        "w": 3.0349,
+        "x": 10.5497,
+        "y": 1.7053
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "flowchart",
         "fill": [
-          103,
-          36,
+          143,
+          154,
           196
         ],
         "focus": false,
         "line": [
-          113,
-          80,
-          175
+          165,
+          87,
+          108
         ],
-        "line_width": 7.079125361974346,
-        "outline_only": true,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Verdant"
+        "line_width": 2.198121864354575,
+        "outline_only": false,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Creature"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.8216,
-        "w": 13.3177,
-        "x": -0.0109,
-        "y": -0.0073
+        "h": 1.2153,
+        "w": 7.9065,
+        "x": 0.5671,
+        "y": 0.3638
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          139,
-          78,
-          190
-        ],
-        "line_width": 1.7558049362924562,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Verdant"
+        "font_face": "Trebuchet MS",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Lake Fire Red",
+        "theme_topic": "Creature",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     }
   ],

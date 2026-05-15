@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 270,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          242,
-          233,
-          222
-        ],
-        [
-          174,
-          73,
-          92
-        ]
+      "back_color": [
+        47,
+        230,
+        218
       ],
       "fill": [
-        252,
-        249,
-        244
+        47,
+        230,
+        218
       ],
-      "focus": "top_left",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Size"
+      "fore_color": [
+        82,
+        96,
+        214
+      ],
+      "pattern": 25,
+      "style": "pattern",
+      "theme_topic": "Frightening"
     },
     "type": "background",
     "z_order": 0
@@ -45,97 +41,95 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.2008,
-        "w": 6.9527,
-        "x": 6.2787,
-        "y": -0.3908
+        "h": 4.8486,
+        "w": 3.54,
+        "x": 5.5283,
+        "y": 1.5007
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "basic",
         "fill": [
-          237,
-          128,
-          219
+          78,
+          115,
+          140
         ],
         "focus": false,
         "line": [
-          68,
-          214,
-          229
+          111,
+          137,
+          183
         ],
-        "line_width": 4.319419263829836,
+        "line_width": 4.392283316554762,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Size"
+        "theme_topic": "Frightening"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.4532,
-        "w": 6.7841,
-        "x": 2.1234,
-        "y": 2.3974
+        "h": 3.4599,
+        "w": 5.202,
+        "x": 5.6293,
+        "y": 1.384
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "math",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          222,
-          144,
-          164
+          110,
+          181,
+          174
         ],
         "focus": false,
         "line": [
-          162,
-          229,
-          137
+          59,
+          131,
+          191
         ],
-        "line_width": 3.128608375993946,
-        "outline_only": false,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Size"
+        "line_width": 3.1273338978680503,
+        "outline_only": true,
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Frightening"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.8386,
-        "w": 8.4455,
-        "x": 1.9219,
-        "y": 1.0668
+        "h": 5.5431,
+        "w": 2.8512,
+        "x": 0.6513,
+        "y": 0.7612
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          245,
-          238,
-          229
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          242,
-          233,
-          222
-        ],
-        "line_width": 2.0043550955874356,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Size"
+        "font_face": "Aptos Display",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Vessel Rabbit Rich",
+        "theme_topic": "Frightening",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     }
   ],

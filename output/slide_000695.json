@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        232,
-        237,
-        247
+      "colors": [
+        [
+          208,
+          142,
+          121
+        ],
+        [
+          255,
+          206,
+          86
+        ]
       ],
       "fill": [
-        245,
-        247,
-        252
+        52,
+        97,
+        54
       ],
-      "fore_color": [
-        41,
-        119,
-        40
-      ],
-      "pattern": 28,
-      "style": "pattern",
-      "theme_topic": "Flawless"
+      "focus": "top_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Oafish"
     },
     "type": "background",
     "z_order": 0
@@ -41,193 +45,166 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.5816,
-        "w": 5.1533,
-        "x": 3.9719,
-        "y": -0.6856
+        "h": 1.8061,
+        "w": 7.1384,
+        "x": 4.876,
+        "y": 3.9859
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "symbols",
         "fill": [
-          204,
-          191,
-          94
+          129,
+          136,
+          67
         ],
         "focus": false,
         "line": [
-          98,
-          108,
-          143
+          123,
+          196,
+          115
         ],
-        "line_width": 6.541328628286498,
+        "line_width": 2.3974513444614494,
         "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Flawless"
+        "ppt_type": 174,
+        "shape": "funnel",
+        "theme_topic": "Oafish"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.8566,
-        "w": 8.4371,
-        "x": 0.54,
-        "y": 6.1856
+        "h": 1.6725,
+        "w": 6.5942,
+        "x": 6.3557,
+        "y": 3.6835
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 2,
+        "family": "ribbons",
         "fill": [
-          135,
-          95,
-          170
+          40,
+          128,
+          105
         ],
         "focus": false,
         "line": [
-          226,
-          110,
-          204
+          125,
+          186,
+          144
         ],
-        "line_width": 3.6653082346522905,
-        "outline_only": true,
-        "ppt_type": 22,
-        "shape": "lightning",
-        "theme_topic": "Flawless"
+        "line_width": 7.074937549831131,
+        "outline_only": false,
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Oafish"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.0858,
-        "w": 7.789,
-        "x": 0.5533,
-        "y": 0.3532
+        "h": 3.7562,
+        "w": 4.6916,
+        "x": 4.6741,
+        "y": 2.8197
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "basic",
+        "fill": [
+          165,
+          185,
+          34
+        ],
+        "focus": false,
+        "line": [
+          57,
+          180,
+          211
+        ],
+        "line_width": 7.6790838376753126,
+        "outline_only": true,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Oafish"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.7387,
+        "w": 13.3511,
+        "x": 0.0092,
+        "y": 0.0161
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          114,
+          145,
+          116
+        ],
+        "line": [
+          114,
+          145,
+          116
+        ],
+        "line_width": 5.084605437184101,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Oafish"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.9009,
+        "w": 6.2866,
+        "x": 0.7468,
+        "y": 5.8559
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 32,
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Gate Possess",
-        "theme_topic": "Flawless",
+        "text": "Horrible Ill Scene",
+        "theme_topic": "Oafish",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.8935,
-        "w": 3.7444,
-        "x": 9.0272,
-        "y": 5.0571
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "living",
-          "lighten",
-          "drab"
-        ],
-        "chart": "line",
-        "focus": false,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 65,
-        "series": [
-          {
-            "color": [
-              98,
-              146,
-              182
-            ],
-            "name": "cooing pumped",
-            "values": [
-              47,
-              65,
-              13
-            ]
-          },
-          {
-            "color": [
-              70,
-              162,
-              164
-            ],
-            "name": "moaning lacking",
-            "values": [
-              12,
-              20,
-              70
-            ]
-          },
-          {
-            "color": [
-              120,
-              173,
-              199
-            ],
-            "name": "halting tender",
-            "values": [
-              88,
-              24,
-              22
-            ]
-          }
-        ],
-        "theme_topic": "Flawless",
-        "title": "vagabond filthy identify"
-      },
-      "type": "chart",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.7945,
-        "w": 2.2989,
-        "x": 4.0074,
-        "y": 5.1457
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": false,
-        "line": [
-          82,
-          96,
-          214
-        ],
-        "line_width": 16,
-        "theme_topic": "Flawless"
-      },
-      "type": "svg_image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.8289,
-        "w": 2.3136,
-        "x": 6.4565,
-        "y": 5.1375
+        "h": 2.3055,
+        "w": 0.7247,
+        "x": 0.5308,
+        "y": 0.5417
       },
       "id": "object_006",
       "properties": {
@@ -235,249 +212,255 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          232,
-          237,
-          247
+          114,
+          145,
+          116
         ],
         "line": [
-          232,
-          237,
-          247
+          114,
+          145,
+          116
         ],
-        "line_width": 3.5687197326816382,
+        "line_width": 2.206128089825812,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Flawless"
+        "theme_topic": "Oafish"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.5612,
-        "w": 2.0204,
-        "x": 6.6373,
-        "y": 5.2937
+        "h": 0.4391,
+        "w": 0.4769,
+        "x": 0.8094,
+        "y": 1.4685
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Flawless",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.8177,
-        "w": 2.2967,
-        "x": 3.9975,
-        "y": 6.1075
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 1.2256156586507072,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Flawless"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.5027,
-        "w": 1.9836,
-        "x": 4.1761,
-        "y": 6.3044
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.02867318567801425,
-          0.09664313007955075,
-          0.17810093275883151,
-          0.01736504167586863
-        ],
-        "focus": false,
-        "mask_line": [
-          204,
-          207,
-          27
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Flawless",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.8236,
-        "w": 2.3203,
-        "x": 6.4507,
-        "y": 6.1566
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1504648183226758,
-          0.08046708251986003,
-          0.16509276293528993,
-          0.17891334583267743
-        ],
-        "focus": false,
-        "mask_line": [
-          181,
-          145,
-          99
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Flawless",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 1.9196,
-        "w": 3.2225,
-        "x": 0.5567,
-        "y": 5.0967
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 1.2916736080944413,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Flawless"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 1.5874,
-        "w": 2.9332,
-        "x": 0.7007,
-        "y": 5.2345
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.15182018046997323,
-          0.1880177150394539,
-          0.2791296804066725,
-          0.12116529266218784
-        ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Flawless",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 2.938,
-        "w": 12.2621,
-        "x": 0.5708,
-        "y": 1.8561
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          82,
-          96,
-          214
-        ],
-        "line_width": 10,
-        "theme_topic": "Flawless"
-      },
-      "type": "svg_image",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.2681,
-        "w": 11.8228,
-        "x": 0.7624,
-        "y": 4.3018
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          51,
+          63,
+          101
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Harbor",
-        "theme_topic": "Flawless",
+        "text": "Happen Tongue",
+        "theme_topic": "Oafish",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.6703,
+        "w": 0.4867,
+        "x": 0.8047,
+        "y": 1.9892
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          158,
+          180,
+          162
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "thunder curvy boundary straight wren one",
+        "theme_topic": "Oafish",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 2.2941,
+        "w": 0.7997,
+        "x": 1.4895,
+        "y": 0.5347
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          114,
+          145,
+          116
+        ],
+        "line": [
+          114,
+          145,
+          116
+        ],
+        "line_width": 2.107921693907225,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Oafish"
+      },
+      "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.4428,
+        "w": 0.5228,
+        "x": 1.7538,
+        "y": 1.4321
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          51,
+          63,
+          101
+        ],
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Toothbrush Tan",
+        "theme_topic": "Oafish",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.6427,
+        "w": 0.4803,
+        "x": 1.7628,
+        "y": 2.0189
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          158,
+          180,
+          162
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "mug bead plate stomach dashing rot silly",
+        "theme_topic": "Oafish",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 2.3187,
+        "w": 0.9458,
+        "x": 2.5252,
+        "y": 0.5388
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          114,
+          145,
+          116
+        ],
+        "line": [
+          114,
+          145,
+          116
+        ],
+        "line_width": 5.340530886817021,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Oafish"
+      },
+      "type": "shape",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.4464,
+        "w": 0.5001,
+        "x": 2.8048,
+        "y": 1.4271
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          51,
+          63,
+          101
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Please Achiever",
+        "theme_topic": "Oafish",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.6589,
+        "w": 0.4982,
+        "x": 2.7791,
+        "y": 2.008
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          158,
+          180,
+          162
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "endurable pen nappy unnatural second-hand tender",
+        "theme_topic": "Oafish",
         "underline": false
       },
       "type": "text",
@@ -485,28 +468,28 @@
     },
     {
       "bbox": {
-        "h": 0.3434,
-        "w": 0.8866,
-        "x": 6.9648,
-        "y": 0.155
+        "h": 0.4279,
+        "w": 0.4844,
+        "x": 3.9566,
+        "y": 1.4297
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          151,
-          209,
-          47
+          51,
+          63,
+          101
         ],
-        "font_face": "Aptos",
-        "font_size": 5,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "quirky toothsome chemical",
-        "theme_topic": "Flawless",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Attractive",
+        "theme_topic": "Oafish",
         "underline": false
       },
       "type": "text",
@@ -514,95 +497,89 @@
     },
     {
       "bbox": {
-        "h": 0.3661,
-        "w": 1.5949,
-        "x": 5.8339,
-        "y": 6.6276
+        "h": 0.635,
+        "w": 0.5196,
+        "x": 3.9343,
+        "y": 1.9945
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          94,
-          169,
-          92
+          158,
+          180,
+          162
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Verdana",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "fence verdant quince economic",
-        "theme_topic": "Flawless",
-        "underline": true
+        "text": "silk behavior disgusting form automatic",
+        "theme_topic": "Oafish",
+        "underline": false
       },
       "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.2205,
-        "w": 1.0488,
-        "x": 3.0665,
-        "y": 2.8791
+        "h": 0.8021,
+        "w": 3.5173,
+        "x": 4.914,
+        "y": 3.353
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          60,
-          123,
-          217
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          77,
+          115,
+          69
         ],
-        "focus": false,
-        "line": [
-          228,
-          41,
-          198
-        ],
-        "line_width": 3.046829788505118,
-        "outline_only": true,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Flawless"
+        "font_face": "Trebuchet MS",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Animal Dramatic Chin Bump",
+        "theme_topic": "Oafish",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.289,
-        "x": 9.346,
-        "y": 5.8091
+        "h": 1.0197,
+        "w": 3.5083,
+        "x": 4.8826,
+        "y": 4.3791
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
-        "fill": [
-          153,
-          112,
-          32
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          158,
+          180,
+          162
         ],
-        "focus": false,
-        "line": [
-          210,
-          55,
-          76
-        ],
-        "line_width": 6.235145959476998,
-        "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Flawless"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "trite connection quiet challenge writing stomach chemical burly subdued need splendid arrest enthusiastic broken",
+        "theme_topic": "Oafish",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 18
     }
   ],

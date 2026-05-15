@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        249,
-        203,
-        91
+      "colors": [
+        [
+          165,
+          40,
+          100
+        ],
+        [
+          154,
+          169,
+          97
+        ]
       ],
       "fill": [
-        240,
-        176,
-        54
+        183,
+        163,
+        213
       ],
-      "fore_color": [
-        203,
-        90,
-        94
-      ],
-      "pattern": 22,
-      "style": "pattern",
-      "theme_topic": "Sail"
+      "focus": "top_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Adamant"
     },
     "type": "background",
     "z_order": 0
@@ -41,91 +45,86 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.8339,
-        "w": 7.2471,
-        "x": 0.1844,
-        "y": -0.1724
+        "h": 0.8896,
+        "w": 4.4954,
+        "x": 4.3031,
+        "y": 0.6116
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          198,
-          196,
-          147
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          184,
-          226,
-          225
-        ],
-        "line_width": 7.294868818794531,
-        "outline_only": true,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Sail"
+        "font_face": "Arial",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Mom Bell Standing",
+        "theme_topic": "Adamant",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.1974,
-        "w": 7.6238,
-        "x": 1.0352,
-        "y": 0.831
+        "h": 2.9194,
+        "w": 12.2595,
+        "x": 0.5708,
+        "y": 1.465
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          245,
-          193,
-          78
+        "crop": [
+          0.11830737464520012,
+          0.08268800332367453,
+          0.16982475467779956,
+          0.15416031696638144
         ],
-        "line": [
-          249,
-          203,
-          91
+        "focus": true,
+        "mask_line": [
+          38,
+          132,
+          88
         ],
-        "line_width": 1.4045145926180658,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Sail"
+        "mask_overlay": false,
+        "theme_topic": "Adamant",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.3749,
-        "w": 6.2524,
-        "x": 3.0965,
-        "y": 3.0961
+        "h": 1.8943,
+        "w": 2.2971,
+        "x": 0.6962,
+        "y": 4.9388
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.034390957497485414,
-          0.18191852840044184,
-          0.2638361293472006,
-          0.28032837316759907
+          0.16904634578730846,
+          0.2559741660907795,
+          0.19973197637663992,
+          0.0269660227182071
         ],
-        "focus": true,
+        "focus": false,
         "mask_line": [
-          153,
-          170,
-          108
+          38,
+          132,
+          88
         ],
         "mask_overlay": true,
-        "theme_topic": "Sail",
+        "theme_topic": "Adamant",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",

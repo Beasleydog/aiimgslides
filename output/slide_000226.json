@@ -8,29 +8,29 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 270,
+      "angle": 225,
       "archetype": "atomic_composition",
       "colors": [
         [
-          132,
-          132,
-          200
+          29,
+          151,
+          112
         ],
         [
-          177,
-          68,
-          93
+          31,
+          117,
+          161
         ]
       ],
       "fill": [
-        49,
-        115,
-        46
+        29,
+        151,
+        112
       ],
-      "focus": "center",
-      "gradient_type": "shape",
+      "focus": "bottom_left",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Trouble Combative"
+      "theme_topic": "Domineering Sip"
     },
     "type": "background",
     "z_order": 0
@@ -45,107 +45,76 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.3826,
-        "w": 8.6236,
-        "x": 0.8109,
-        "y": 2.7654
+        "h": 4.2473,
+        "w": 5.2014,
+        "x": 1.629,
+        "y": 3.8837
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
+        "dash": 5,
+        "family": "callouts",
         "fill": [
-          145,
-          189,
-          107
+          28,
+          207,
+          105
         ],
         "focus": false,
         "line": [
-          189,
-          63,
-          207
+          40,
+          218,
+          176
         ],
-        "line_width": 4.3012545956330825,
-        "outline_only": true,
-        "ppt_type": 98,
-        "shape": "down_ribbon",
-        "theme_topic": "Trouble Combative"
+        "line_width": 2.858157310591867,
+        "outline_only": false,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Domineering Sip"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.0432,
-        "w": 3.0499,
-        "x": 4.5542,
-        "y": 1.2857
+        "h": 4.216,
+        "w": 4.8994,
+        "x": 5.4102,
+        "y": 2.3077
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 5,
+        "family": "callouts",
         "fill": [
-          139,
-          153,
-          78
+          149,
+          163,
+          62
         ],
         "focus": false,
         "line": [
-          105,
-          179,
-          41
+          44,
+          188,
+          209
         ],
-        "line_width": 6.959811860162212,
+        "line_width": 4.49211007762398,
         "outline_only": true,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Trouble Combative"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Domineering Sip"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.5035,
-        "w": 5.612,
-        "x": -0.002,
-        "y": 0.0118
+        "h": 5.5371,
+        "w": 2.8287,
+        "x": 0.6489,
+        "y": 0.7336
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          102,
-          151,
-          100
-        ],
-        "line": [
-          102,
-          151,
-          100
-        ],
-        "line_width": 2.1346422402933385,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Trouble Combative"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.5395,
-        "w": 2.8411,
-        "x": 0.6304,
-        "y": 0.7274
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -155,105 +124,166 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 20,
+        "font_face": "Aptos Display",
+        "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Grotesque Form",
-        "theme_topic": "Trouble Combative",
+        "text": "Roof Rare",
+        "theme_topic": "Domineering Sip",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 6.1424,
+        "w": 1.9638,
+        "x": 3.8288,
+        "y": 0.7138
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.20230783960115775,
+          0.11600814366827315,
+          0.1928021162080061,
+          0.1706194704828043
+        ],
+        "focus": true,
+        "mask_line": [
+          31,
+          117,
+          161
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Domineering Sip",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 3.2173,
-        "w": 4.0316,
-        "x": 3.7656,
-        "y": 3.7205
+        "h": 6.1258,
+        "w": 1.9517,
+        "x": 5.9023,
+        "y": 0.6819
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "impossible",
-          "manage",
-          "scarf",
-          "value",
-          "airplane"
+        "crop": [
+          0.11479571671696477,
+          0.1265451497704855,
+          0.14687993992398507,
+          0.1332157207461952
         ],
-        "chart": "line",
         "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 65,
-        "series": [
-          {
-            "color": [
-              204,
-              142,
-              33
-            ],
-            "name": "cake",
-            "values": [
-              49,
-              60,
-              83,
-              38,
-              77
-            ]
-          },
-          {
-            "color": [
-              34,
-              48,
-              36
-            ],
-            "name": "appreciate",
-            "values": [
-              79,
-              72,
-              54,
-              46,
-              90
-            ]
-          }
+        "mask_line": [
+          212,
+          108,
+          205
         ],
-        "theme_topic": "Trouble Combative",
-        "title": "flowery remarkable jar airport pizzas"
+        "mask_overlay": false,
+        "theme_topic": "Domineering Sip",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.461,
-        "w": 2.1032,
-        "x": 7.8473,
-        "y": 4.3141
+        "h": 6.1613,
+        "w": 4.4115,
+        "x": 8.3239,
+        "y": 0.6989
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          39,
-          217,
-          110
+        "band": [
+          158,
+          137,
+          71
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Abnormal",
-        "theme_topic": "Trouble Combative",
-        "underline": false
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          79,
+          174,
+          143
+        ],
+        "border": [
+          154,
+          166,
+          76
+        ],
+        "border_dash": "solid",
+        "border_width": 2.2864100654487323,
+        "cells": [
+          [
+            "ugly edge",
+            "stir obnoxious",
+            "force",
+            "absorbing curved"
+          ],
+          [
+            "madly",
+            "pocket",
+            "spiders flaky",
+            "used basin"
+          ],
+          [
+            "capable welcome",
+            "guard",
+            "receive legs",
+            "terrify"
+          ],
+          [
+            "bumpy sweater",
+            "somber snakes",
+            "sweet",
+            "six"
+          ],
+          [
+            "wrist",
+            "snotty",
+            "military exclusive",
+            "governor yellow"
+          ],
+          [
+            "pizzas",
+            "illustrious sin",
+            "ill obese",
+            "brick side"
+          ],
+          [
+            "tent grubby",
+            "cause reign",
+            "war",
+            "chicken"
+          ]
+        ],
+        "cols": 4,
+        "font_size": 11,
+        "has_header": true,
+        "header": [
+          188,
+          178,
+          95
+        ],
+        "rows": 7,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Domineering Sip"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 6
     }
   ],

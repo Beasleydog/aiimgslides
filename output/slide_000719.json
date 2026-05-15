@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 180,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          245,
-          247,
-          252
-        ],
-        [
-          82,
-          96,
-          214
-        ]
+      "back_color": [
+        81,
+        35,
+        202
       ],
       "fill": [
-        245,
-        247,
-        252
+        81,
+        35,
+        202
       ],
-      "focus": "bottom_left",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Dispensable"
+      "fore_color": [
+        71,
+        221,
+        181
+      ],
+      "pattern": 23,
+      "style": "pattern",
+      "theme_topic": "Dramatic"
     },
     "type": "background",
     "z_order": 0
@@ -45,137 +41,138 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.6864,
-        "w": 4.1782,
-        "x": 5.8196,
-        "y": 3.133
+        "h": 2.2511,
+        "w": 8.7749,
+        "x": 5.006,
+        "y": -0.0922
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 4,
+        "family": "arrows",
         "fill": [
-          162,
+          164,
           194,
-          174
+          129
         ],
         "focus": false,
         "line": [
-          214,
-          226,
-          31
+          44,
+          45,
+          27
         ],
-        "line_width": 3.1667925531501653,
+        "line_width": 5.857833264679146,
         "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Dispensable"
+        "ppt_type": 53,
+        "shape": "right_arrow_callout",
+        "theme_topic": "Dramatic"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.3756,
-        "w": 7.6154,
-        "x": 6.839,
-        "y": 0.0072
+        "h": 4.4638,
+        "w": 8.7416,
+        "x": 2.1096,
+        "y": 0.7169
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "symbols",
         "fill": [
-          230,
-          169,
-          195
+          63,
+          65,
+          205
         ],
         "focus": false,
         "line": [
-          227,
-          43,
-          208
+          141,
+          82,
+          204
         ],
-        "line_width": 4.354819707096026,
-        "outline_only": true,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Dispensable"
+        "line_width": 6.539250754310023,
+        "outline_only": false,
+        "ppt_type": 22,
+        "shape": "lightning",
+        "theme_topic": "Dramatic"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.9647,
-        "w": 7.4728,
-        "x": 4.8737,
-        "y": 2.2187
+        "h": 1.7163,
+        "w": 8.8674,
+        "x": 5.5276,
+        "y": -0.5568
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "ribbons",
+        "family": "basic",
         "fill": [
-          203,
-          207,
-          194
+          94,
+          189,
+          57
         ],
         "focus": false,
         "line": [
-          124,
-          128,
-          116
+          60,
+          39,
+          96
         ],
-        "line_width": 5.659307231307018,
+        "line_width": 3.3024498859000317,
         "outline_only": false,
-        "ppt_type": 98,
-        "shape": "down_ribbon",
-        "theme_topic": "Dispensable"
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Dramatic"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 3.8413,
-        "w": 5.6045,
-        "x": 1.757,
-        "y": 0.5879
+        "h": 3.3964,
+        "w": 8.1233,
+        "x": 5.487,
+        "y": 3.7579
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          236,
-          240,
-          248
+          87,
+          81,
+          94
         ],
+        "focus": false,
         "line": [
-          232,
-          237,
-          247
+          34,
+          68,
+          114
         ],
-        "line_width": 1.394492144854979,
+        "line_width": 3.5862072101624216,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Dispensable"
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Dramatic"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.8878,
-        "w": 8.5348,
-        "x": 0.7435,
-        "y": 5.8359
+        "h": 1.1676,
+        "w": 6.1194,
+        "x": 2.6036,
+        "y": 0.6255
       },
       "id": "object_005",
       "properties": {
@@ -183,17 +180,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 23,
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Upset Wealthy Wreck",
-        "theme_topic": "Dispensable",
+        "text": "Common Pump",
+        "theme_topic": "Dramatic",
         "underline": false
       },
       "type": "text",
@@ -201,10 +198,10 @@
     },
     {
       "bbox": {
-        "h": 0.9621,
-        "w": 5.6866,
-        "x": 0.6855,
-        "y": 0.6589
+        "h": 0.268,
+        "w": 2.5304,
+        "x": 0.6913,
+        "y": 2.126
       },
       "id": "object_006",
       "properties": {
@@ -212,17 +209,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          176,
-          168,
-          35
+          71,
+          221,
+          181
         ],
         "font_face": "Arial",
-        "font_size": 36,
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Nasty Brash",
-        "theme_topic": "Dispensable",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "ENTERTAIN SYNONYMOUS",
+        "theme_topic": "Dramatic",
         "underline": false
       },
       "type": "text",
@@ -230,28 +227,28 @@
     },
     {
       "bbox": {
-        "h": 1.3265,
-        "w": 5.718,
-        "x": 0.6902,
-        "y": 1.902
+        "h": 0.4001,
+        "w": 2.5029,
+        "x": 0.6831,
+        "y": 2.5802
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          101,
+          94,
+          87
         ],
         "font_face": "Arial",
-        "font_size": 12,
+        "font_size": 18,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "search overwrought mass tow knowledgeable noxious tickle tiger romantic pick sisters cagey advise flowery guard sparkle squeak confess keen giraffe",
-        "theme_topic": "Dispensable",
+        "text": "Soda Moon Mass",
+        "theme_topic": "Dramatic",
         "underline": false
       },
       "type": "text",
@@ -259,10 +256,10 @@
     },
     {
       "bbox": {
-        "h": 0.9492,
-        "w": 1.344,
-        "x": 6.9296,
-        "y": 2.1751
+        "h": 0.4296,
+        "w": 2.4976,
+        "x": 0.7166,
+        "y": 3.2973
       },
       "id": "object_008",
       "properties": {
@@ -270,17 +267,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          27,
-          44,
-          68
+          171,
+          152,
+          229
         ],
         "font_face": "Arial",
-        "font_size": 10,
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "side energetic decorous absorbing fence hurry",
-        "theme_topic": "Dispensable",
+        "text": "rod minister experience grandfather waiting faded historical mint noisy ad cool pest ear",
+        "theme_topic": "Dramatic",
         "underline": false
       },
       "type": "text",
@@ -288,28 +285,28 @@
     },
     {
       "bbox": {
-        "h": 0.9567,
-        "w": 2.0913,
-        "x": 8.6165,
-        "y": 2.1643
+        "h": 0.2618,
+        "w": 2.5635,
+        "x": 10.0371,
+        "y": 2.1033
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          27,
-          44,
-          68
+          71,
+          221,
+          181
         ],
         "font_face": "Arial",
-        "font_size": 13,
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "gorgeous berserk territory sparkling connection apologise zesty",
-        "theme_topic": "Dispensable",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "RELEASE",
+        "theme_topic": "Dramatic",
         "underline": false
       },
       "type": "text",
@@ -317,41 +314,39 @@
     },
     {
       "bbox": {
-        "h": 0.6291,
-        "w": 0.6153,
-        "x": 11.8375,
-        "y": 1.6572
+        "h": 0.4032,
+        "w": 2.5789,
+        "x": 10.0601,
+        "y": 2.6151
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          82,
-          96,
-          214
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          55,
+          89,
+          62
         ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 1.7353282639821237,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Dispensable"
+        "font_face": "Arial",
+        "font_size": 20,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Fearless Material",
+        "theme_topic": "Dramatic",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.9723,
-        "w": 1.7201,
-        "x": 11.0182,
-        "y": 2.1614
+        "h": 0.462,
+        "w": 2.561,
+        "x": 10.0697,
+        "y": 3.2502
       },
       "id": "object_011",
       "properties": {
@@ -359,17 +354,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          27,
-          44,
-          68
+          171,
+          152,
+          229
         ],
         "font_face": "Arial",
-        "font_size": 14,
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "icky fire knotty puzzled sable",
-        "theme_topic": "Dispensable",
+        "text": "alcoholic understood cake gentle guide exist pear rightful verdant nerve round mend notice texture cow lighten unfasten attract soft",
+        "theme_topic": "Dramatic",
         "underline": false
       },
       "type": "text",
@@ -377,59 +372,57 @@
     },
     {
       "bbox": {
-        "h": 1.828,
-        "w": 12.2203,
-        "x": 0.5564,
-        "y": 3.7071
+        "h": 0.5862,
+        "w": 2.416,
+        "x": 7.044,
+        "y": 2.1256
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          82,
-          96,
-          214
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 0.888437132512916,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Dispensable"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.6399,
-        "w": 11.8917,
-        "x": 0.708,
-        "y": 4.1582
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          246,
+          248,
+          252
         ],
         "font_face": "Arial",
-        "font_size": 34,
-        "italic": false,
+        "font_size": 20,
+        "italic": true,
         "kind": "header",
         "margin": 0.04,
-        "text": "10x",
-        "theme_topic": "Dispensable",
+        "text": "Certain",
+        "theme_topic": "Dramatic",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.7166,
+        "w": 2.4314,
+        "x": 7.0288,
+        "y": 2.9849
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          171,
+          152,
+          229
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "callous fade shiver naive tedious thoughtful rude evanescent oafish strip self confuse stare",
+        "theme_topic": "Dramatic",
         "underline": false
       },
       "type": "text",
@@ -437,135 +430,131 @@
     },
     {
       "bbox": {
-        "h": 0.3888,
-        "w": 11.8663,
-        "x": 0.7135,
-        "y": 4.819
+        "h": 0.8441,
+        "w": 0.6943,
+        "x": 6.5524,
+        "y": 5.0392
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          27,
-          44,
-          68
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          30,
+          127,
+          55
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "stew caption tired thumb error early kittens",
-        "theme_topic": "Dispensable",
-        "underline": false
+        "focus": false,
+        "line": [
+          114,
+          70,
+          94
+        ],
+        "line_width": 5.153719339534783,
+        "outline_only": false,
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Dramatic"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.7844,
-        "w": 0.8063,
-        "x": 2.4358,
-        "y": 4.537
+        "h": 1.0161,
+        "w": 2.1205,
+        "x": 7.0395,
+        "y": 3.9232
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
+        "color": [
+          190,
+          175,
+          159
+        ],
+        "connector": "elbow",
         "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          163,
-          223,
-          166
-        ],
-        "focus": false,
-        "line": [
-          120,
-          91,
-          211
-        ],
-        "line_width": 4.2324384864872275,
-        "outline_only": false,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Dispensable"
+        "flip": false,
+        "ppt_type": 2,
+        "theme_topic": "Dramatic",
+        "width": 1.6503231446398186
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.9366,
-        "w": 1.0181,
-        "x": 11.8463,
-        "y": 1.2757
+        "h": 0.2064,
+        "w": 1.0282,
+        "x": 9.0058,
+        "y": 1.7718
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "math",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          49,
-          208,
-          102
+          91,
+          195,
+          163
         ],
         "focus": false,
         "line": [
-          118,
-          200,
-          96
+          187,
+          213,
+          94
         ],
-        "line_width": 5.753432674885511,
-        "outline_only": true,
-        "ppt_type": 164,
-        "shape": "minus",
-        "theme_topic": "Dispensable"
+        "line_width": 3.7137694513956583,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Dramatic"
       },
       "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.2294,
-        "w": 0.9595,
-        "x": 6.0234,
-        "y": 5.1606
+        "h": 0.5138,
+        "w": 1.4693,
+        "x": 4.7169,
+        "y": 3.4408
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "flowchart",
         "fill": [
-          91,
-          132,
-          124
+          136,
+          105,
+          219
         ],
         "focus": false,
         "line": [
-          194,
-          179,
-          73
+          125,
+          125,
+          209
         ],
-        "line_width": 4.8883023103935335,
+        "line_width": 1.3064618129415306,
         "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Dispensable"
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Dramatic"
       },
       "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.3931,
-        "w": 2.0504,
-        "x": 10.194,
-        "y": 4.5403
+        "h": 0.4748,
+        "w": 0.8169,
+        "x": 11.5486,
+        "y": 2.7382
       },
       "id": "object_018",
       "properties": {
@@ -573,17 +562,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          213,
-          222,
-          128
+          72,
+          51,
+          227
         ],
         "font_face": "Arial",
-        "font_size": 7,
-        "italic": false,
+        "font_size": 10,
+        "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Example",
-        "theme_topic": "Dispensable",
+        "text": "Yummy Murder",
+        "theme_topic": "Dramatic",
         "underline": false
       },
       "type": "text",

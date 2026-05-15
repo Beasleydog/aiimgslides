@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        141,
-        98,
-        123
+      "colors": [
+        [
+          33,
+          115,
+          157
+        ],
+        [
+          222,
+          126,
+          218
+        ]
       ],
       "fill": [
-        210,
-        72,
-        94
+        33,
+        115,
+        157
       ],
-      "fore_color": [
-        255,
-        206,
-        86
-      ],
-      "pattern": 7,
-      "style": "pattern",
-      "theme_topic": "Terrible Weak"
+      "focus": "bottom_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Lake"
     },
     "type": "background",
     "z_order": 0
@@ -41,117 +45,120 @@
   "objects": [
     {
       "bbox": {
-        "h": 5.5623,
-        "w": 2.8359,
-        "x": 0.6551,
-        "y": 0.7274
+        "h": 2.5372,
+        "w": 6.2248,
+        "x": -0.2339,
+        "y": 2.6146
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          252,
-          247
+        "dash": 5,
+        "family": "arrows",
+        "fill": [
+          78,
+          136,
+          187
         ],
-        "font_face": "Georgia",
-        "font_size": 27,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Offend",
-        "theme_topic": "Terrible Weak",
-        "underline": false
+        "focus": false,
+        "line": [
+          201,
+          96,
+          83
+        ],
+        "line_width": 7.624470739326572,
+        "outline_only": false,
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Lake"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 6.2544,
-        "w": 4.0204,
-        "x": 3.7658,
-        "y": 0.6543
+        "h": 5.5517,
+        "w": 2.8499,
+        "x": 0.6459,
+        "y": 0.7427
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          51,
-          63,
-          101
-        ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 1.3496870226008355,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Terrible Weak"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.1602,
-        "w": 3.6465,
-        "x": 3.9342,
-        "y": 1.783
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          210,
-          72,
-          94
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 53,
+        "font_face": "Arial",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "71%",
-        "theme_topic": "Terrible Weak",
+        "text": "Boundless Box",
+        "theme_topic": "Lake",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 6.2612,
+        "w": 4.6317,
+        "x": 8.125,
+        "y": 0.6527
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          73,
+          140,
+          174
+        ],
+        "line": [
+          73,
+          140,
+          174
+        ],
+        "line_width": 1.3392419357475078,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Lake"
+      },
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.7109,
-        "w": 3.6903,
-        "x": 3.9192,
-        "y": 4.491
+        "h": 1.1708,
+        "w": 4.2586,
+        "x": 8.2959,
+        "y": 1.7706
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          255,
-          252,
-          247
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Arial",
+        "font_size": 46,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "whistle undress injure throat playground",
-        "theme_topic": "Terrible Weak",
+        "text": "76%",
+        "theme_topic": "Lake",
         "underline": false
       },
       "type": "text",
@@ -159,28 +166,28 @@
     },
     {
       "bbox": {
-        "h": 0.7368,
-        "w": 2.013,
-        "x": 8.244,
-        "y": 0.8108
+        "h": 0.6763,
+        "w": 4.2338,
+        "x": 8.3059,
+        "y": 4.4987
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 32,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "51%",
-        "theme_topic": "Terrible Weak",
+        "text": "colour grandiose kiss hissing squeamish acrid flavor finicky knotty",
+        "theme_topic": "Lake",
         "underline": false
       },
       "type": "text",
@@ -188,57 +195,59 @@
     },
     {
       "bbox": {
-        "h": 5.2465,
-        "w": 2.0398,
-        "x": 8.2338,
-        "y": 1.5661
+        "h": 6.2685,
+        "w": 2.0509,
+        "x": 3.7377,
+        "y": 0.6522
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          255,
-          218,
-          220
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          73,
+          140,
+          174
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "parcel gold team bashful receipt maddening",
-        "theme_topic": "Terrible Weak",
-        "underline": false
+        "line": [
+          73,
+          140,
+          174
+        ],
+        "line_width": 2.215581089760258,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Lake"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.7316,
-        "w": 1.749,
-        "x": 10.8159,
-        "y": 0.8169
+        "h": 5.2243,
+        "w": 1.6996,
+        "x": 3.9272,
+        "y": 1.5623
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          150,
+          188,
+          209
         ],
-        "font_face": "Georgia",
-        "font_size": 31,
+        "font_face": "Arial",
+        "font_size": 15,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "27",
-        "theme_topic": "Terrible Weak",
+        "text": "humorous weight sugar half space",
+        "theme_topic": "Lake",
         "underline": false
       },
       "type": "text",
@@ -246,39 +255,41 @@
     },
     {
       "bbox": {
-        "h": 5.2304,
-        "w": 1.7374,
-        "x": 10.8156,
-        "y": 1.5618
+        "h": 6.2461,
+        "w": 1.7527,
+        "x": 6.0045,
+        "y": 0.653
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          255,
-          218,
-          220
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          163,
+          42,
+          213
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "nimble amusement flimsy closed assorted",
-        "theme_topic": "Terrible Weak",
-        "underline": false
+        "line": [
+          73,
+          140,
+          174
+        ],
+        "line_width": 0.8527404907643428,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Lake"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.3544,
-        "w": 1.8792,
-        "x": 4.6733,
-        "y": 3.8413
+        "h": 5.2233,
+        "w": 1.3881,
+        "x": 6.189,
+        "y": 1.5462
       },
       "id": "object_009",
       "properties": {
@@ -286,17 +297,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          138,
-          117,
-          164
+          150,
+          188,
+          209
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Cheerful Imminent Sudden",
-        "theme_topic": "Terrible Weak",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fold rejoice economic",
+        "theme_topic": "Lake",
         "underline": false
       },
       "type": "text",

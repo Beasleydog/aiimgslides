@@ -8,14 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
-      "fill": [
-        198,
-        64,
-        91
+      "colors": [
+        [
+          199,
+          230,
+          34
+        ],
+        [
+          168,
+          54,
+          94
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Hospitable"
+      "fill": [
+        199,
+        230,
+        34
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Quarter"
     },
     "type": "background",
     "z_order": 0
@@ -30,106 +45,106 @@
   "objects": [
     {
       "bbox": {
-        "h": 1.5026,
-        "w": 3.2936,
-        "x": 1.4947,
-        "y": -0.827
+        "h": 3.4858,
+        "w": 3.1322,
+        "x": -0.743,
+        "y": 1.2813
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          187,
-          136,
-          170
+          219,
+          156,
+          44
         ],
         "focus": false,
         "line": [
-          211,
-          132,
-          92
+          196,
+          153,
+          218
         ],
-        "line_width": 2.585614070474281,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Hospitable"
+        "line_width": 5.186274512384184,
+        "outline_only": true,
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Quarter"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.5549,
-        "w": 3.1338,
-        "x": 2.0875,
-        "y": 4.5173
+        "h": 1.7516,
+        "w": 8.0308,
+        "x": 4.2395,
+        "y": 1.0762
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          205,
-          85,
-          136
+          217,
+          66,
+          54
         ],
         "focus": false,
         "line": [
-          149,
-          224,
-          26
+          120,
+          139,
+          37
         ],
-        "line_width": 3.7619998132836203,
+        "line_width": 4.296960194226086,
         "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Hospitable"
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Quarter"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.3188,
-        "w": 5.134,
-        "x": 8.1895,
-        "y": 0.3495
+        "h": 4.7729,
+        "w": 8.4781,
+        "x": 2.4442,
+        "y": 1.9426
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "flowchart",
         "fill": [
-          135,
-          124,
-          59
+          133,
+          111,
+          116
         ],
         "focus": false,
         "line": [
-          169,
-          147,
-          108
+          47,
+          162,
+          195
         ],
-        "line_width": 7.907645153359674,
+        "line_width": 5.890042111408895,
         "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Hospitable"
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Quarter"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.3093,
-        "w": 8.8518,
-        "x": 0.5653,
-        "y": 0.3601
+        "h": 5.7947,
+        "w": 3.1971,
+        "x": 9.4008,
+        "y": 0.6459
       },
       "id": "object_004",
       "properties": {
@@ -137,17 +152,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 42,
+        "font_face": "Arial",
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Dull Fit",
-        "theme_topic": "Hospitable",
+        "text": "Drawer",
+        "theme_topic": "Quarter",
         "underline": false
       },
       "type": "text",
@@ -155,145 +170,109 @@
     },
     {
       "bbox": {
-        "h": 2.4493,
-        "w": 3.8835,
-        "x": 8.9023,
-        "y": 1.8345
+        "h": 1.3599,
+        "w": 1.8397,
+        "x": 4.9276,
+        "y": 3.9712
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "street",
-          "sprout",
-          "approval",
-          "lyrical"
+        "crop": [
+          0.2356366416636948,
+          0.2704936063570629,
+          0.14573084473843143,
+          0.20271585731326677
         ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              81,
-              130,
-              61
-            ],
-            "name": "detailed sigh",
-            "values": [
-              78,
-              65,
-              71,
-              13
-            ]
-          },
-          {
-            "color": [
-              113,
-              153,
-              142
-            ],
-            "name": "numerous",
-            "values": [
-              91,
-              29,
-              61,
-              71
-            ]
-          }
+        "focus": false,
+        "mask_line": [
+          227,
+          147,
+          115
         ],
-        "theme_topic": "Hospitable",
-        "title": "few clip amusing"
+        "mask_overlay": true,
+        "theme_topic": "Quarter",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.0906,
-        "w": 1.1803,
-        "x": 0.607,
-        "y": 4.6067
+        "h": 1.4042,
+        "w": 1.8887,
+        "x": 6.9684,
+        "y": 3.9731
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          211,
-          109,
-          130
+        "crop": [
+          0.03546541583320768,
+          0.07531239860270646,
+          0.13994012101540843,
+          0.21766493739131912
         ],
-        "line": [
-          211,
-          109,
-          130
+        "focus": false,
+        "mask_line": [
+          94,
+          89,
+          189
         ],
-        "line_width": 2.842265113881069,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Hospitable"
+        "mask_overlay": false,
+        "theme_topic": "Quarter",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.8021,
-        "w": 0.8518,
-        "x": 0.7776,
-        "y": 4.7732
+        "h": 1.3867,
+        "w": 1.885,
+        "x": 4.9094,
+        "y": 5.4738
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.21327162961981663,
-          0.21498101684096105,
-          0.009126533229199393,
-          0.11217674913037384
-        ],
+        "clip": "hex",
         "focus": false,
-        "mask_line": [
-          31,
-          117,
-          161
+        "line": [
+          86,
+          118,
+          118
         ],
-        "mask_overlay": false,
-        "theme_topic": "Hospitable",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 16,
+        "theme_topic": "Quarter"
       },
-      "type": "image",
+      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.1251,
-        "w": 1.1347,
-        "x": 1.8881,
-        "y": 4.5888
+        "h": 1.3506,
+        "w": 1.888,
+        "x": 6.9543,
+        "y": 5.4686
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.27601757455368414,
-          0.17856385958998225,
-          0.11881829032748786,
-          0.25197251442235113
+          0.202749739145528,
+          0.019956811491332223,
+          0.1592335949641397,
+          0.32170450271446543
         ],
         "focus": false,
         "mask_line": [
-          31,
-          117,
-          161
+          40,
+          145,
+          186
         ],
         "mask_overlay": false,
-        "theme_topic": "Hospitable",
+        "theme_topic": "Quarter",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -301,57 +280,59 @@
     },
     {
       "bbox": {
-        "h": 0.8237,
-        "w": 3.5978,
-        "x": 9.0181,
-        "y": 4.6709
+        "h": 2.9976,
+        "w": 3.9971,
+        "x": 0.6691,
+        "y": 3.882
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          67,
-          26,
-          85
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          182,
+          211,
+          31
         ],
-        "font_face": "Aptos Display",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Spooky Copper Flagrant",
-        "theme_topic": "Hospitable",
-        "underline": false
+        "line": [
+          182,
+          211,
+          31
+        ],
+        "line_width": 2.9570858642527202,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Quarter"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.1275,
-        "w": 3.587,
-        "x": 9.0103,
-        "y": 5.7517
+        "h": 1.1575,
+        "w": 3.6155,
+        "x": 0.82,
+        "y": 4.5114
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          224,
-          165,
-          179
+          199,
+          230,
+          34
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Arial",
+        "font_size": 43,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "massive flood flap arch likeable uptight want crowd vengeful seashore tart soak club intelligent untidy",
-        "theme_topic": "Hospitable",
+        "text": "8x",
+        "theme_topic": "Quarter",
         "underline": false
       },
       "type": "text",
@@ -359,332 +340,338 @@
     },
     {
       "bbox": {
-        "h": 2.4216,
-        "w": 3.9266,
-        "x": 4.6777,
-        "y": 4.5491
+        "h": 0.7187,
+        "w": 3.5986,
+        "x": 0.8318,
+        "y": 5.6981
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.2574859787692665,
-          0.05856997071761207,
-          0.3114387540962636,
-          0.17956868281103208
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": true,
-        "mask_line": [
-          210,
-          199,
-          64
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Hospitable",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "paltry agree paltry measly",
+        "theme_topic": "Quarter",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 2.318,
-        "w": 3.7947,
-        "x": 0.6103,
-        "y": 1.8902
+        "h": 0.6502,
+        "w": 1.2174,
+        "x": 0.9648,
+        "y": 5.2372
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          35,
-          193,
-          87
+        "fill": [
+          168,
+          54,
+          94
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          211,
-          109,
-          130
+        "line": [
+          72,
+          186,
+          159
         ],
-        "border": [
-          224,
-          165,
-          179
-        ],
-        "border_dash": "solid",
-        "border_width": 1.819083649763242,
-        "cells": [
+        "line_width": 2.209336937568508,
+        "pattern": "wave",
+        "points": [
           [
-            "detect sleepy",
-            "scrawny",
-            "pick shocking"
+            0.02,
+            0.55
           ],
           [
-            "raspy",
-            "weak",
-            "insurance"
+            0.18,
+            0.2
+          ],
+          [
+            0.35,
+            0.5
+          ],
+          [
+            0.52,
+            0.8
+          ],
+          [
+            0.7,
+            0.45
+          ],
+          [
+            0.95,
+            0.58
+          ],
+          [
+            0.95,
+            0.92
+          ],
+          [
+            0.02,
+            0.92
           ]
         ],
-        "cols": 3,
-        "font_size": 8,
-        "has_header": true,
-        "header": [
-          167,
-          183,
-          46
-        ],
-        "rows": 2,
-        "text_color": [
-          111,
-          59,
-          142
-        ],
-        "theme_topic": "Hospitable"
+        "theme_topic": "Quarter"
       },
-      "type": "table",
+      "type": "freeform",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 2.4423,
-        "w": 3.9224,
-        "x": 4.7258,
-        "y": 1.8321
+        "h": 0.6607,
+        "w": 0.7593,
+        "x": 9.0749,
+        "y": 3.4603
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "symbols",
         "fill": [
-          211,
-          109,
-          130
+          172,
+          160,
+          143
         ],
+        "focus": false,
         "line": [
-          211,
-          109,
-          130
+          138,
+          208,
+          85
         ],
-        "line_width": 1.7252251879319496,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Hospitable"
+        "line_width": 3.0662246774257325,
+        "outline_only": true,
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Quarter"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 2.1512,
-        "w": 3.5853,
-        "x": 4.8478,
-        "y": 2.0302
+        "h": 1.0952,
+        "w": 0.4388,
+        "x": 3.6338,
+        "y": 4.7266
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.12241151816924371,
-          0.2875281576991424,
-          0.25274691703517627,
-          0.1455999708942193
+        "pattern": "swoop",
+        "primary": [
+          32,
+          139,
+          35
         ],
-        "focus": false,
-        "mask_line": [
-          61,
-          221,
-          169
+        "secondary": [
+          56,
+          78,
+          52
         ],
-        "mask_overlay": true,
-        "theme_topic": "Hospitable",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#ca9798\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#a6a5ab\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
+        "theme_topic": "Quarter"
       },
-      "type": "image",
+      "type": "svg",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.3036,
-        "w": 3.5295,
-        "x": 4.8948,
-        "y": 3.87
+        "h": 0.8123,
+        "w": 0.8175,
+        "x": 9.8378,
+        "y": 4.2226
       },
       "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Scream Invincible",
-        "theme_topic": "Hospitable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4086,
-        "w": 1.3179,
-        "x": 10.9903,
-        "y": 4.7622
-      },
-      "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "basic",
         "fill": [
-          139,
-          192,
-          54
+          87,
+          171,
+          56
         ],
         "focus": false,
         "line": [
-          154,
-          39,
-          80
+          130,
+          82,
+          176
         ],
-        "line_width": 5.422507862073146,
+        "line_width": 5.715249172802738,
         "outline_only": false,
         "ppt_type": 6,
         "shape": "octagon",
-        "theme_topic": "Hospitable"
+        "theme_topic": "Quarter"
+      },
+      "type": "shape",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.4544,
+        "w": 0.2759,
+        "x": 11.8698,
+        "y": 3.2128
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "basic",
+        "fill": [
+          33,
+          139,
+          82
+        ],
+        "focus": false,
+        "line": [
+          37,
+          77,
+          161
+        ],
+        "line_width": 3.082743435691565,
+        "outline_only": false,
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Quarter"
       },
       "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.2921,
-        "w": 1.2937,
-        "x": 1.9541,
-        "y": 5.161
+        "h": 0.3965,
+        "w": 1.0911,
+        "x": 7.3535,
+        "y": 0.2777
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          206,
-          133,
-          224
+        "dash": 2,
+        "family": "arrows",
+        "fill": [
+          68,
+          101,
+          122
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Reaction",
-        "theme_topic": "Hospitable",
-        "underline": false
+        "focus": false,
+        "line": [
+          155,
+          186,
+          29
+        ],
+        "line_width": 1.5947852010731096,
+        "outline_only": false,
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Quarter"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.5986,
-        "w": 1.9594,
-        "x": 8.3173,
-        "y": 4.9649
+        "h": 0.5433,
+        "w": 0.9736,
+        "x": 8.4542,
+        "y": 3.5068
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          108,
-          77,
-          94
+          118,
+          102,
+          45
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Toothsome",
-        "theme_topic": "Hospitable",
-        "underline": false
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ossified paltry",
+        "theme_topic": "Quarter",
+        "underline": true
       },
       "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.9244,
-        "w": 0.7308,
-        "x": 3.7121,
-        "y": 6.0938
+        "h": 0.7644,
+        "w": 0.339,
+        "x": 1.0881,
+        "y": 4.6144
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "math",
         "fill": [
-          70,
-          125,
-          97
+          209,
+          65,
+          63
         ],
         "focus": false,
         "line": [
-          180,
-          43,
-          126
+          179,
+          189,
+          56
         ],
-        "line_width": 6.015322080760626,
-        "outline_only": true,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Hospitable"
+        "line_width": 4.355483866322777,
+        "outline_only": false,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Quarter"
       },
       "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.7702,
-        "w": 1.2269,
-        "x": 11.2972,
-        "y": 3.4194
+        "h": 0.9417,
+        "w": 0.7224,
+        "x": 11.544,
+        "y": 1.5452
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
+        "dash": 5,
+        "family": "flowchart",
         "fill": [
-          203,
-          40,
-          79
+          50,
+          86,
+          213
         ],
         "focus": false,
         "line": [
-          112,
-          109,
-          91
+          32,
+          119,
+          149
         ],
-        "line_width": 4.371514767893308,
+        "line_width": 1.597398320154584,
         "outline_only": false,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Hospitable"
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Quarter"
       },
       "type": "shape",
       "z_order": 20

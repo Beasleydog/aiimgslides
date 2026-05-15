@@ -9,24 +9,13 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        31,
-        87,
-        166
-      ],
       "fill": [
-        31,
-        87,
-        166
+        124,
+        38,
+        135
       ],
-      "fore_color": [
-        64,
-        130,
-        109
-      ],
-      "pattern": 6,
-      "style": "pattern",
-      "theme_topic": "Buzz"
+      "style": "solid",
+      "theme_topic": "Start Bit"
     },
     "type": "background",
     "z_order": 0
@@ -41,108 +30,140 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.2262,
-        "w": 4.3614,
-        "x": 1.5515,
-        "y": 3.3389
+        "h": 3.9521,
+        "w": 7.9917,
+        "x": 4.2537,
+        "y": 3.8581
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "stars",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          73,
-          44,
-          76
+          164,
+          113,
+          72
         ],
         "focus": false,
         "line": [
-          141,
-          136,
-          141
+          137,
+          187,
+          103
         ],
-        "line_width": 5.2042972193624655,
+        "line_width": 4.047543745782398,
         "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Buzz"
+        "ppt_type": 21,
+        "shape": "heart",
+        "theme_topic": "Start Bit"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.6144,
-        "w": 5.6716,
-        "x": 5.3179,
-        "y": 3.6149
+        "h": 2.8648,
+        "w": 3.406,
+        "x": 5.309,
+        "y": 3.4608
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "symbols",
+        "dash": 1,
+        "family": "math",
         "fill": [
-          50,
-          137,
-          193
+          131,
+          108,
+          164
         ],
         "focus": false,
         "line": [
-          168,
-          68,
-          186
+          229,
+          56,
+          39
         ],
-        "line_width": 6.603938168764341,
+        "line_width": 6.638083295156054,
         "outline_only": false,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Buzz"
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Start Bit"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.1642,
-        "w": 3.5749,
-        "x": 9.9314,
-        "y": -0.7268
+        "h": 3.8861,
+        "w": 4.7423,
+        "x": 2.5628,
+        "y": -0.0242
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 5,
         "family": "arrows",
         "fill": [
-          97,
-          73,
-          172
+          185,
+          123,
+          65
         ],
         "focus": false,
         "line": [
-          167,
-          205,
-          118
+          181,
+          36,
+          225
         ],
-        "line_width": 5.041499545952623,
-        "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Buzz"
+        "line_width": 7.636881750559148,
+        "outline_only": true,
+        "ppt_type": 33,
+        "shape": "right_arrow",
+        "theme_topic": "Start Bit"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.8769,
-        "w": 5.1653,
-        "x": 5.9655,
-        "y": 0.9094
+        "h": 4.7526,
+        "w": 4.742,
+        "x": 8.1644,
+        "y": -0.4796
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          124,
+          111,
+          160
+        ],
+        "focus": false,
+        "line": [
+          226,
+          79,
+          112
+        ],
+        "line_width": 6.209656008923016,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Start Bit"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.221,
+        "w": 8.5704,
+        "x": 0.5392,
+        "y": 0.3714
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -152,100 +173,73 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 27,
+        "font_face": "Arial",
+        "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Melodic Impossible",
-        "theme_topic": "Buzz",
+        "text": "Icky Female",
+        "theme_topic": "Start Bit",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.4493,
-        "w": 6.1542,
-        "x": 6.626,
-        "y": 4.5961
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1822547957897681,
-          0.21373705349035557,
-          0.14332510555933287,
-          0.07444242954519831
-        ],
-        "focus": true,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Buzz",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.0727,
-        "w": 5.391,
-        "x": 0.7169,
-        "y": 1.5941
+        "h": 1.7953,
+        "w": 5.7631,
+        "x": 7.0048,
+        "y": 1.8439
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          58,
-          149,
-          76
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          145,
+          73,
+          154
         ],
-        "font_face": "Georgia",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Protest Suck Changeable",
-        "theme_topic": "Buzz",
-        "underline": false
+        "line": [
+          145,
+          73,
+          154
+        ],
+        "line_width": 1.3403074242462192,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Start Bit"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 4.0171,
-        "w": 5.3987,
-        "x": 0.7112,
-        "y": 2.8533
+        "h": 0.4459,
+        "w": 5.2576,
+        "x": 7.2619,
+        "y": 2.736
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          149,
-          175,
-          213
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "notice woman secret ambiguous chickens summer carry toes stomach vacuous condemned",
-        "theme_topic": "Buzz",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Snow",
+        "theme_topic": "Start Bit",
         "underline": false
       },
       "type": "text",
@@ -253,88 +247,88 @@
     },
     {
       "bbox": {
-        "h": 2.8771,
-        "w": 6.1232,
-        "x": 6.6636,
-        "y": 1.4441
+        "h": 0.2,
+        "w": 5.2728,
+        "x": 7.2573,
+        "y": 3.3155
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          174,
-          73,
-          92
-        ],
-        "line": [
-          104,
-          141,
-          195
-        ],
-        "line_width": 1.625141449676608,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Buzz"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.1362,
-        "w": 5.7745,
-        "x": 6.8193,
-        "y": 2.0529
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          87,
-          166
-        ],
-        "font_face": "Georgia",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "5x",
-        "theme_topic": "Buzz",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.7011,
-        "w": 5.7397,
-        "x": 6.8371,
-        "y": 3.1779
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          191,
+          153,
+          199
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "nappy structure abstracted yoke",
-        "theme_topic": "Buzz",
+        "text": "clean blush abaft frequent cautious beginner rampant needy uptight rake sponge health",
+        "theme_topic": "Start Bit",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 1.5948,
+        "w": 5.7607,
+        "x": 7.0169,
+        "y": 3.8567
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          145,
+          73,
+          154
+        ],
+        "line": [
+          145,
+          73,
+          154
+        ],
+        "line_width": 0.744853500297441,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Start Bit"
+      },
+      "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.4304,
+        "w": 5.2516,
+        "x": 7.2426,
+        "y": 4.7574
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
+        ],
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Tightfisted Supply",
+        "theme_topic": "Start Bit",
         "underline": false
       },
       "type": "text",
@@ -342,164 +336,233 @@
     },
     {
       "bbox": {
-        "h": 0.8967,
-        "w": 0.7718,
-        "x": 4.1423,
-        "y": 2.734
+        "h": 1.3429,
+        "w": 5.7579,
+        "x": 7.0281,
+        "y": 5.6572
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          104,
-          141,
-          195
+          145,
+          73,
+          154
         ],
-        "focus": false,
         "line": [
-          149,
-          175,
-          213
+          145,
+          73,
+          154
         ],
-        "line_width": 3.048893437492152,
-        "outline_only": true,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Buzz"
+        "line_width": 0.7196076342678867,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Start Bit"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.7595,
-        "w": 1.3541,
-        "x": 9.8251,
-        "y": 2.272
+        "h": 0.5344,
+        "w": 0.5726,
+        "x": 7.2202,
+        "y": 5.8935
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          159,
-          54,
-          210
+          82,
+          128,
+          154
         ],
         "focus": false,
         "line": [
-          93,
-          181,
-          126
+          56,
+          90,
+          210
         ],
-        "line_width": 5.019593624897373,
-        "outline_only": true,
-        "ppt_type": 60,
-        "shape": "circular_arrow",
-        "theme_topic": "Buzz"
+        "line_width": 5.109931939069857,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Start Bit"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.3239,
-        "w": 2.3579,
-        "x": 1.4025,
-        "y": 0.7134
+        "h": 0.4609,
+        "w": 5.2628,
+        "x": 7.2647,
+        "y": 6.558
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          213,
-          175,
-          142
+          82,
+          96,
+          214
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Label Ten Fresh",
-        "theme_topic": "Buzz",
-        "underline": true
+        "text": "Paint",
+        "theme_topic": "Start Bit",
+        "underline": false
       },
       "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.3917,
-        "w": 1.1421,
-        "x": 3.852,
-        "y": 5.9128
+        "h": 5.0439,
+        "w": 5.8953,
+        "x": 0.5945,
+        "y": 1.9296
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          180,
-          190,
-          217
+        "band": [
+          40,
+          209,
+          157
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Bizarre Addition",
-        "theme_topic": "Buzz",
-        "underline": true
+        "band_cols": true,
+        "band_rows": false,
+        "body": [
+          145,
+          73,
+          154
+        ],
+        "border": [
+          200,
+          89,
+          153
+        ],
+        "border_dash": "solid",
+        "border_width": 1.276084634409101,
+        "cells": [
+          [
+            "caring tasty",
+            "aromatic rebel",
+            "vigorous",
+            "detailed pumped",
+            "rhyme"
+          ],
+          [
+            "bushes boring",
+            "brick holiday",
+            "gray",
+            "competition collar",
+            "shrill pizzas"
+          ],
+          [
+            "merciful",
+            "squeeze",
+            "mend afraid",
+            "land fancy",
+            "shelf head"
+          ],
+          [
+            "puncture languid",
+            "loutish",
+            "right",
+            "threatening dock",
+            "dance"
+          ],
+          [
+            "bell",
+            "attraction",
+            "breezy",
+            "meal trick",
+            "rice"
+          ],
+          [
+            "education flesh",
+            "answer",
+            "expansion",
+            "wary",
+            "observant"
+          ],
+          [
+            "overwrought",
+            "women",
+            "round",
+            "airport seemly",
+            "pedal ear"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 10,
+        "has_header": false,
+        "header": [
+          82,
+          96,
+          214
+        ],
+        "rows": 7,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Start Bit"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.4623,
-        "w": 1.284,
-        "x": 3.5386,
-        "y": 5.9178
+        "h": 0.3193,
+        "w": 0.7755,
+        "x": 7.8389,
+        "y": 2.818
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          165,
-          165,
-          183
+          97,
+          142,
+          103
         ],
         "focus": false,
         "line": [
-          91,
-          147,
-          74
+          74,
+          122,
+          46
         ],
-        "line_width": 1.497093283540554,
+        "line_width": 2.248584675310924,
         "outline_only": false,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Buzz"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Start Bit"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.5582,
-        "w": 2.187,
-        "x": 2.1849,
-        "y": 3.2191
+        "h": 0.6197,
+        "w": 2.2724,
+        "x": 8.85,
+        "y": 2.4857
       },
       "id": "object_016",
       "properties": {
@@ -507,17 +570,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          223,
-          103,
-          63
+          162,
+          209,
+          110
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 7,
         "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Decorous Scene",
-        "theme_topic": "Buzz",
+        "text": "Ban Efficient",
+        "theme_topic": "Start Bit",
         "underline": true
       },
       "type": "text",
@@ -525,10 +588,10 @@
     },
     {
       "bbox": {
-        "h": 0.4736,
-        "w": 1.371,
-        "x": 9.163,
-        "y": 0.6698
+        "h": 0.3456,
+        "w": 2.1186,
+        "x": 7.8791,
+        "y": 6.1412
       },
       "id": "object_017",
       "properties": {
@@ -536,17 +599,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          199,
-          196,
-          154
+          143,
+          127,
+          79
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "coat spoil two harass shoe",
-        "theme_topic": "Buzz",
+        "text": "agree wheel",
+        "theme_topic": "Start Bit",
         "underline": false
       },
       "type": "text",

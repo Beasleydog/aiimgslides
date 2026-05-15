@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          225,
-          94,
-          113
-        ],
-        [
-          51,
-          63,
-          101
-        ]
+      "back_color": [
+        120,
+        58,
+        170
       ],
       "fill": [
-        210,
-        72,
-        94
+        120,
+        58,
+        170
       ],
-      "focus": "center",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Purpose"
+      "fore_color": [
+        51,
+        25,
+        142
+      ],
+      "pattern": 49,
+      "style": "pattern",
+      "theme_topic": "Land"
     },
     "type": "background",
     "z_order": 0
@@ -45,111 +41,123 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.9148,
-        "w": 5.8512,
-        "x": 2.0526,
-        "y": 0.6104
+        "h": 2.8594,
+        "w": 8.9404,
+        "x": 4.633,
+        "y": 0.2453
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          219,
-          86,
-          106
+          116,
+          78,
+          144
         ],
+        "focus": false,
         "line": [
-          225,
-          94,
-          113
+          99,
+          188,
+          27
         ],
-        "line_width": 1.4622822702338871,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Purpose"
+        "line_width": 7.248462005570093,
+        "outline_only": true,
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Land"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.3011,
-        "w": 7.1554,
-        "x": 0.5492,
-        "y": 0.3485
+        "h": 4.4399,
+        "w": 5.5383,
+        "x": 3.6341,
+        "y": 3.4333
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "arrows",
+        "fill": [
+          170,
+          163,
+          112
+        ],
+        "focus": false,
+        "line": [
+          139,
+          107,
+          53
+        ],
+        "line_width": 7.870027981146495,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Land"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 7.4827,
+        "w": 6.5917,
+        "x": 0.0075,
+        "y": 0.0046
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
+        ],
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 1.2594151536451614,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Land"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.1565,
+        "w": 8.6576,
+        "x": 0.5516,
+        "y": 0.3256
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
           255,
-          252,
-          247
+          250,
+          255
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
+        "font_face": "Georgia",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Drag Scarecrow Familiar Believe",
-        "theme_topic": "Purpose",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 5.1579,
-        "w": 6.8186,
-        "x": 5.9943,
-        "y": 1.8705
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          120,
-          82,
-          193
-        ],
-        "line_width": 14,
-        "theme_topic": "Purpose"
-      },
-      "type": "svg_image",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.3113,
-        "w": 4.9457,
-        "x": 0.5912,
-        "y": 2.4026
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          255,
-          252,
-          247
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wacky innocent sheep",
-        "theme_topic": "Purpose",
+        "text": "Iron Scorch Obsequious",
+        "theme_topic": "Land",
         "underline": false
       },
       "type": "text",
@@ -157,39 +165,43 @@
     },
     {
       "bbox": {
-        "h": 0.4468,
-        "w": 4.9236,
-        "x": 0.6203,
-        "y": 3.7114
+        "h": 0.7721,
+        "w": 11.9137,
+        "x": 0.7241,
+        "y": 1.9718
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
+        "bg_color": [
+          75,
+          140,
+          110
+        ],
+        "bold": true,
         "color": [
           255,
-          252,
-          247
+          250,
+          255
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Georgia",
+        "font_size": 41,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "pail fade unnatural apathetic calculate",
-        "theme_topic": "Purpose",
-        "underline": false
+        "text": "Keen",
+        "theme_topic": "Land",
+        "underline": true
       },
       "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.3698,
-        "w": 4.9363,
-        "x": 0.5764,
-        "y": 5.0927
+        "h": 1.0358,
+        "w": 11.9553,
+        "x": 0.7215,
+        "y": 2.9802
       },
       "id": "object_006",
       "properties": {
@@ -197,17 +209,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          255,
-          252,
-          247
+          230,
+          210,
+          240
         ],
         "font_face": "Aptos",
         "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "bell public snotty grandmother scratch middle",
-        "theme_topic": "Purpose",
+        "text": "analyze cooing delicate loose smart motionless futuristic innocent ruin label panoramic supply",
+        "theme_topic": "Land",
         "underline": false
       },
       "type": "text",
@@ -215,57 +227,110 @@
     },
     {
       "bbox": {
-        "h": 0.4406,
-        "w": 4.903,
-        "x": 0.6,
-        "y": 6.4533
+        "h": 2.4259,
+        "w": 5.889,
+        "x": 0.6129,
+        "y": 4.5274
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          255,
-          252,
-          247
+        "band": [
+          139,
+          78,
+          190
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "internal great mug arrange minor",
-        "theme_topic": "Purpose",
-        "underline": false
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          77,
+          148,
+          189
+        ],
+        "border": [
+          230,
+          210,
+          240
+        ],
+        "border_dash": "solid",
+        "border_width": 0.6754497664617263,
+        "cells": [
+          [
+            "sip potato",
+            "goofy connection"
+          ],
+          [
+            "girls",
+            "peaceful grubby"
+          ],
+          [
+            "cream",
+            "flavor punish"
+          ],
+          [
+            "look authority",
+            "salt"
+          ],
+          [
+            "rightful foolish",
+            "imaginary military"
+          ],
+          [
+            "squeal",
+            "squalid friction"
+          ],
+          [
+            "jaded rescue",
+            "yellow preserve"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 8,
+        "has_header": true,
+        "header": [
+          146,
+          60,
+          41
+        ],
+        "rows": 7,
+        "text_color": [
+          152,
+          36,
+          62
+        ],
+        "theme_topic": "Land"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4842,
-        "w": 0.8887,
-        "x": 0.9372,
-        "y": 2.3895
+        "h": 0.6255,
+        "w": 1.5704,
+        "x": 9.4744,
+        "y": 3.4784
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
+        "bg_color": [
+          152,
+          116,
+          35
+        ],
+        "bold": true,
         "color": [
-          164,
-          53,
-          215
+          230,
+          70,
+          153
         ],
         "font_face": "Aptos",
         "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "puncture follow needle amusing",
-        "theme_topic": "Purpose",
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Ear Railway",
+        "theme_topic": "Land",
         "underline": false
       },
       "type": "text",
@@ -273,28 +338,28 @@
     },
     {
       "bbox": {
-        "h": 0.3635,
-        "w": 1.2357,
-        "x": 5.6501,
-        "y": 6.9437
+        "h": 0.4872,
+        "w": 1.6088,
+        "x": 6.3617,
+        "y": 1.432
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          44,
-          112,
-          177
+          106,
+          85,
+          227
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Cart",
-        "theme_topic": "Purpose",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "slippery offbeat zipper marry physical",
+        "theme_topic": "Land",
         "underline": true
       },
       "type": "text",
@@ -302,163 +367,147 @@
     },
     {
       "bbox": {
-        "h": 0.8303,
-        "w": 1.0552,
-        "x": 6.6479,
-        "y": 2.6604
+        "h": 0.3025,
+        "w": 0.6855,
+        "x": 10.3778,
+        "y": 3.873
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "ribbons",
-        "fill": [
-          44,
-          182,
-          65
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          139,
+          185,
+          193
         ],
-        "focus": false,
-        "line": [
-          127,
-          198,
-          94
-        ],
-        "line_width": 2.5480899341418977,
-        "outline_only": false,
-        "ppt_type": 98,
-        "shape": "down_ribbon",
-        "theme_topic": "Purpose"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "cure spoil",
+        "theme_topic": "Land",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.629,
-        "w": 0.4561,
-        "x": 12.1197,
-        "y": 5.4963
+        "h": 1.0032,
+        "w": 1.0313,
+        "x": 2.4457,
+        "y": 1.8468
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "callouts",
-        "fill": [
-          78,
-          113,
-          191
+        "pattern": "swoop",
+        "primary": [
+          224,
+          205,
+          180
         ],
-        "focus": false,
-        "line": [
-          118,
-          203,
-          60
+        "secondary": [
+          134,
+          89,
+          36
         ],
-        "line_width": 1.3513449212425204,
-        "outline_only": true,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Purpose"
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#d167b6\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#ba719d\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
+        "theme_topic": "Land"
       },
-      "type": "shape",
+      "type": "svg",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4927,
-        "w": 1.2234,
-        "x": 6.9645,
-        "y": 3.9876
+        "h": 0.469,
+        "w": 0.6342,
+        "x": 3.1082,
+        "y": 0.3479
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          134,
-          138,
-          214
+        "dash": 4,
+        "family": "callouts",
+        "fill": [
+          182,
+          109,
+          140
         ],
-        "bold": false,
-        "color": [
-          48,
-          113,
-          132
+        "focus": false,
+        "line": [
+          229,
+          79,
+          41
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "healthy tree",
-        "theme_topic": "Purpose",
-        "underline": false
+        "line_width": 5.803726304234942,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Land"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.6084,
-        "w": 1.2403,
-        "x": 5.0668,
-        "y": 0.3186
+        "h": 0.4122,
+        "w": 0.9203,
+        "x": 10.1252,
+        "y": 4.1143
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 7,
+        "family": "basic",
         "fill": [
-          43,
-          168,
-          197
+          131,
+          166,
+          139
         ],
         "focus": false,
         "line": [
-          255,
-          218,
-          220
+          45,
+          51,
+          82
         ],
-        "line_width": 2.1315153429545224,
+        "line_width": 5.1566165976992435,
         "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Purpose"
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Land"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.3304,
-        "w": 0.2,
-        "x": 8.1764,
-        "y": 1.7411
+        "h": 1.1118,
+        "w": 1.5663,
+        "x": 10.6333,
+        "y": 2.1838
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          28,
-          152,
-          74
-        ],
-        "focus": false,
-        "line": [
-          220,
-          47,
+        "color": [
+          180,
+          63,
           46
         ],
-        "line_width": 2.032023771186161,
-        "outline_only": true,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Purpose"
+        "connector": "elbow",
+        "dash": 7,
+        "flip": false,
+        "ppt_type": 2,
+        "theme_topic": "Land",
+        "width": 2.1619910715339365
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 14
     }
   ],

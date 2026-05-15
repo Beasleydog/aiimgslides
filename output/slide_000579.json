@@ -10,23 +10,23 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        61,
-        64,
-        91
+        130,
+        142,
+        108
       ],
       "fill": [
-        61,
-        64,
-        91
+        130,
+        142,
+        108
       ],
       "fore_color": [
+        82,
         96,
-        165,
-        250
+        214
       ],
-      "pattern": 29,
+      "pattern": 47,
       "style": "pattern",
-      "theme_topic": "Harsh Modern"
+      "theme_topic": "Gray"
     },
     "type": "background",
     "z_order": 0
@@ -41,75 +41,44 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.1904,
-        "w": 5.0567,
-        "x": 0.3608,
-        "y": 5.4801
+        "h": 4.437,
+        "w": 8.454,
+        "x": 2.9261,
+        "y": 1.7227
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 7,
         "family": "flowchart",
         "fill": [
-          66,
-          65,
-          57
+          155,
+          59,
+          138
         ],
         "focus": false,
         "line": [
-          223,
-          122,
-          70
+          211,
+          84,
+          31
         ],
-        "line_width": 3.6053756096447644,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Harsh Modern"
+        "line_width": 7.2621286589866,
+        "outline_only": true,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Gray"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.1336,
-        "w": 7.1171,
-        "x": 6.1921,
-        "y": -0.0013
+        "h": 5.5613,
+        "w": 2.8616,
+        "x": 0.6301,
+        "y": 0.7366
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          118,
-          120,
-          139
-        ],
-        "line": [
-          118,
-          120,
-          139
-        ],
-        "line_width": 2.337540395324628,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Harsh Modern"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.2375,
-        "w": 7.0054,
-        "x": 0.5445,
-        "y": 0.3287
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -119,355 +88,318 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 35,
+        "font_face": "Georgia",
+        "font_size": 19,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Deceive Weather Abject Unite",
-        "theme_topic": "Harsh Modern",
+        "text": "Lying",
+        "theme_topic": "Gray",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 6.2553,
+        "w": 1.5968,
+        "x": 3.7549,
+        "y": 0.666
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.08565830590864124,
+          0.03395860033423172,
+          0.08986556957722942,
+          0.15575381167517302
+        ],
+        "focus": true,
+        "mask_line": [
+          82,
+          96,
+          214
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Gray",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.3944,
-        "w": 3.8451,
-        "x": 0.5407,
-        "y": 1.8395
+        "h": 1.3694,
+        "w": 5.0623,
+        "x": 5.6986,
+        "y": 5.539
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.029453436877993476,
+          0.07216796388321549,
+          0.0063600388110868255,
+          0.15990027659322936
+        ],
+        "focus": false,
+        "mask_line": [
+          82,
+          96,
+          214
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Gray",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.4571,
+        "w": 0.4951,
+        "x": 5.9738,
+        "y": 2.6942
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Fly Love",
+        "theme_topic": "Gray",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.8273,
+        "w": 0.521,
+        "x": 5.9788,
+        "y": 3.2045
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          193,
+          200,
+          187
+        ],
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "digestion murder possible manage range light fix screw prepare pest harsh questionable immense",
+        "theme_topic": "Gray",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 3.487,
+        "w": 1.1328,
+        "x": 6.9714,
+        "y": 1.7866
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          118,
-          120,
-          139
+          161,
+          170,
+          145
         ],
         "line": [
-          118,
-          120,
-          139
+          161,
+          170,
+          145
         ],
-        "line_width": 0.8238464219338,
+        "line_width": 1.2888350178509882,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Harsh Modern"
+        "theme_topic": "Gray"
       },
       "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.8875,
-        "w": 3.3071,
-        "x": 0.801,
-        "y": 2.0854
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "moon",
-          "screw",
-          "love",
-          "dispensable",
-          "wrench"
-        ],
-        "chart": "line",
-        "focus": false,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 65,
-        "series": [
-          {
-            "color": [
-              139,
-              189,
-              86
-            ],
-            "name": "industrious bolt",
-            "values": [
-              34,
-              41,
-              25,
-              59,
-              69
-            ]
-          },
-          {
-            "color": [
-              228,
-              39,
-              73
-            ],
-            "name": "pale planes",
-            "values": [
-              46,
-              10,
-              46,
-              53,
-              60
-            ]
-          },
-          {
-            "color": [
-              132,
-              189,
-              215
-            ],
-            "name": "bashful",
-            "values": [
-              80,
-              23,
-              32,
-              39,
-              43
-            ]
-          }
-        ],
-        "theme_topic": "Harsh Modern",
-        "title": "nostalgic invincible meeting men yoke"
-      },
-      "type": "chart",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.3576,
-        "w": 3.8333,
-        "x": 8.9894,
-        "y": 4.5923
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          96,
-          165,
-          250
-        ],
-        "line_width": 9,
-        "theme_topic": "Harsh Modern"
-      },
-      "type": "svg_image",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.9396,
-        "w": 1.5816,
-        "x": 6.6985,
-        "y": 2.6466
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          35,
-          53,
-          227
-        ],
-        "secondary": [
-          244,
-          180,
-          76
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#cb6c51\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#ca7b90\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Harsh Modern"
-      },
-      "type": "svg",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.5609,
-        "w": 0.7664,
-        "x": 10.7396,
-        "y": 6.4335
+        "h": 0.4536,
+        "w": 0.6172,
+        "x": 7.1836,
+        "y": 2.6886
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "stars",
-        "fill": [
-          180,
-          63,
-          224
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          82,
+          96,
+          214
         ],
-        "focus": false,
-        "line": [
-          159,
-          132,
-          103
-        ],
-        "line_width": 1.9013075078754504,
-        "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Harsh Modern"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Domineering Vagabond",
+        "theme_topic": "Gray",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.7457,
-        "w": 0.6896,
-        "x": 1.9368,
-        "y": 0.7334
+        "h": 1.8502,
+        "w": 0.6042,
+        "x": 7.1934,
+        "y": 3.2259
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          244,
-          180,
-          76
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          193,
+          200,
+          187
         ],
-        "line": [
-          96,
-          165,
-          250
-        ],
-        "line_width": 2.279067240366345,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Harsh Modern"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "thing rings annoyed ten robin elastic roomy lettuce zippy",
+        "theme_topic": "Gray",
+        "underline": false
       },
-      "type": "freeform",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.0232,
-        "w": 0.8194,
-        "x": 7.8365,
-        "y": 1.6173
+        "h": 3.4837,
+        "w": 1.1464,
+        "x": 8.3103,
+        "y": 1.7791
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          181,
-          169,
-          180
-        ],
-        "connector": "curve",
         "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Harsh Modern",
-        "width": 1.1434647904189976
+        "family": "panel",
+        "fill": [
+          161,
+          170,
+          145
+        ],
+        "line": [
+          161,
+          170,
+          145
+        ],
+        "line_width": 3.936842818515882,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Gray"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.216,
-        "w": 2.0458,
-        "x": 0.7045,
-        "y": 3.0273
+        "h": 0.4529,
+        "w": 0.6448,
+        "x": 8.5636,
+        "y": 2.6566
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          210,
-          37,
-          154
+          82,
+          96,
+          214
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Harsh Modern",
-        "width": 1.0816901070531704
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Slow Quixotic",
+        "theme_topic": "Gray",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.8843,
-        "w": 0.34,
-        "x": 10.4676,
-        "y": 2.0536
+        "h": 1.8413,
+        "w": 0.6171,
+        "x": 8.5305,
+        "y": 3.2486
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
-        "fill": [
-          117,
-          44,
-          189
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          193,
+          200,
+          187
         ],
-        "focus": false,
-        "line": [
-          45,
-          211,
-          230
-        ],
-        "line_width": 5.157690570186837,
-        "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Harsh Modern"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "slave late throne shop trousers fish truculent cruel structure",
+        "theme_topic": "Gray",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2975,
-        "w": 1.9548,
-        "x": 8.1822,
-        "y": 2.6949
+        "h": 0.4716,
+        "w": 0.623,
+        "x": 9.8978,
+        "y": 2.6751
       },
       "id": "object_013",
       "properties": {
@@ -475,17 +407,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          142,
-          92,
-          97
+          82,
+          96,
+          214
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "star choke destroy supply",
-        "theme_topic": "Harsh Modern",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Ill Wash",
+        "theme_topic": "Gray",
         "underline": false
       },
       "type": "text",
@@ -493,59 +425,60 @@
     },
     {
       "bbox": {
-        "h": 1.205,
-        "w": 0.9125,
-        "x": 7.2547,
-        "y": 4.8582
+        "h": 1.8338,
+        "w": 0.5895,
+        "x": 9.9193,
+        "y": 3.22
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          25,
-          230,
-          69
+          193,
+          200,
+          187
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Harsh Modern",
-        "width": 0.684409174108302
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "crib edge club closed bow cheap punish battle seemly flawless knot addition",
+        "theme_topic": "Gray",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.6408,
-        "w": 0.5007,
-        "x": 0.8022,
-        "y": 3.1275
+        "h": 0.2813,
+        "w": 0.898,
+        "x": 5.0025,
+        "y": 6.7857
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          94,
-          122,
-          184
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          213,
+          90,
+          47
         ],
-        "focus": false,
-        "line": [
-          46,
-          185,
-          78
-        ],
-        "line_width": 1.0124494732748386,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Harsh Modern"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Slim",
+        "theme_topic": "Gray",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 15
     }
   ],

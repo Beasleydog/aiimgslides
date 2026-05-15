@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        94,
-        218,
-        104
+      "colors": [
+        [
+          131,
+          153,
+          150
+        ],
+        [
+          255,
+          117,
+          117
+        ]
       ],
       "fill": [
-        94,
-        218,
-        104
+        113,
+        138,
+        134
       ],
-      "fore_color": [
-        255,
-        211,
-        88
-      ],
-      "pattern": 45,
-      "style": "pattern",
-      "theme_topic": "Puffy"
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Quince Berserk"
     },
     "type": "background",
     "z_order": 0
@@ -41,256 +45,204 @@
   "objects": [
     {
       "bbox": {
-        "h": 4.8895,
-        "w": 6.8602,
-        "x": 1.5233,
-        "y": 1.6443
+        "h": 1.0721,
+        "w": 4.9863,
+        "x": 0.6942,
+        "y": 0.6727
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          135,
-          211,
-          132
-        ],
-        "focus": false,
-        "line": [
-          51,
-          28,
-          118
-        ],
-        "line_width": 3.07000823798522,
-        "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Puffy"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 4.6691,
-        "w": 8.384,
-        "x": 2.1756,
-        "y": 0.9976
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          73,
-          198,
-          55
-        ],
-        "focus": false,
-        "line": [
-          95,
-          184,
-          115
-        ],
-        "line_width": 5.393392835436094,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Puffy"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 4.361,
-        "w": 8.3569,
-        "x": 2.9529,
-        "y": 0.7733
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          53,
-          165,
-          201
-        ],
-        "focus": false,
-        "line": [
-          92,
-          225,
-          203
-        ],
-        "line_width": 5.489598598806245,
-        "outline_only": true,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Puffy"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 4.63,
-        "w": 7.1489,
-        "x": 1.0949,
-        "y": -0.188
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          132,
-          109,
-          137
-        ],
-        "focus": false,
-        "line": [
-          179,
-          113,
-          224
-        ],
-        "line_width": 3.2923186174245576,
-        "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Puffy"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.5664,
-        "w": 3.5038,
-        "x": 9.2753,
-        "y": 4.394
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "juvenile",
-          "compete",
-          "hammer",
-          "repair"
-        ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              217,
-              118,
-              153
-            ],
-            "name": "punch therapeutic",
-            "values": [
-              63,
-              12,
-              59,
-              45
-            ]
-          },
-          {
-            "color": [
-              167,
-              88,
-              186
-            ],
-            "name": "acidic",
-            "values": [
-              29,
-              54,
-              71,
-              88
-            ]
-          },
-          {
-            "color": [
-              74,
-              93,
-              176
-            ],
-            "name": "balance",
-            "values": [
-              8,
-              92,
-              73,
-              28
-            ]
-          }
-        ],
-        "theme_topic": "Puffy",
-        "title": "end decide sound"
-      },
-      "type": "chart",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.5852,
-        "w": 3.6111,
-        "x": 0.5301,
-        "y": 4.3946
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.25723169783462785,
-          0.017831100199064764,
-          0.06640711516899298,
-          0.006432663121396798
-        ],
-        "focus": true,
-        "mask_line": [
-          71,
-          221,
-          181
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Puffy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.3323,
-        "w": 3.9704,
-        "x": 4.7139,
-        "y": 4.6108
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 29,
+        "font_face": "Aptos Display",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Grade Admire Help Filthy History Aware",
-        "theme_topic": "Puffy",
+        "text": "Fail Possible",
+        "theme_topic": "Quince Berserk",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 4.8468,
+        "w": 4.9538,
+        "x": 0.6795,
+        "y": 1.981
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          186,
+          198,
+          198
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "pear birds scrub enter pleasant paint smooth river incandescent shirt",
+        "theme_topic": "Quince Berserk",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.7421,
+        "w": 2.7238,
+        "x": 6.431,
+        "y": 0.7345
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 23,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "35%",
+        "theme_topic": "Quince Berserk",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 5.3796,
+        "w": 2.716,
+        "x": 6.4038,
+        "y": 1.452
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          186,
+          198,
+          198
+        ],
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "educated wriggle top roomy screeching",
+        "theme_topic": "Quince Berserk",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 6.3989,
+        "w": 3.2956,
+        "x": 9.51,
+        "y": 0.5323
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          152,
+          154,
+          117
+        ],
+        "line": [
+          131,
+          153,
+          150
+        ],
+        "line_width": 4.532936086952594,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Quince Berserk"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.7379,
+        "w": 2.9209,
+        "x": 9.671,
+        "y": 0.7234
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "30%",
+        "theme_topic": "Quince Berserk",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 5.3555,
+        "w": 2.9109,
+        "x": 9.6626,
+        "y": 1.4757
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          186,
+          198,
+          198
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "slave owe jealous",
+        "theme_topic": "Quince Berserk",
         "underline": false
       },
       "type": "text",
@@ -298,28 +250,28 @@
     },
     {
       "bbox": {
-        "h": 0.8869,
-        "w": 11.935,
-        "x": 0.72,
-        "y": 1.5731
+        "h": 0.3189,
+        "w": 1.5662,
+        "x": 2.3355,
+        "y": 1.2312
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          28,
-          30,
-          36
+          49,
+          170,
+          69
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 46,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Print Polite",
-        "theme_topic": "Puffy",
+        "text": "cheer smash stroke",
+        "theme_topic": "Quince Berserk",
         "underline": false
       },
       "type": "text",
@@ -327,10 +279,10 @@
     },
     {
       "bbox": {
-        "h": 1.1856,
-        "w": 11.9563,
-        "x": 0.6831,
-        "y": 2.7091
+        "h": 0.2,
+        "w": 1.2509,
+        "x": 11.4389,
+        "y": 6.9735
       },
       "id": "object_009",
       "properties": {
@@ -338,18 +290,18 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          57,
-          114,
-          66
+          44,
+          190,
+          185
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 5,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "ducks outstanding limping sticky flowery peck shy grate connection hands comb recondite macabre internal cumbersome roasted stream",
-        "theme_topic": "Puffy",
-        "underline": false
+        "text": "maid fuel scare roomy",
+        "theme_topic": "Quince Berserk",
+        "underline": true
       },
       "type": "text",
       "z_order": 9

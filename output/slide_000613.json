@@ -8,29 +8,25 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          160,
-          110,
-          194
-        ],
-        [
-          124,
-          79,
-          113
-        ]
+      "back_color": [
+        207,
+        29,
+        104
       ],
       "fill": [
-        126,
-        58,
-        173
+        207,
+        29,
+        104
       ],
-      "focus": "bottom_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Purring"
+      "fore_color": [
+        114,
+        80,
+        198
+      ],
+      "pattern": 13,
+      "style": "pattern",
+      "theme_topic": "Airplane"
     },
     "type": "background",
     "z_order": 0
@@ -45,108 +41,139 @@
   "objects": [
     {
       "bbox": {
-        "h": 2.5132,
-        "w": 4.2732,
-        "x": 9.205,
-        "y": 4.3932
+        "h": 4.6634,
+        "w": 4.9512,
+        "x": 5.5194,
+        "y": 0.9294
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          65,
-          132,
-          132
+          105,
+          58,
+          109
         ],
         "focus": false,
         "line": [
-          68,
-          199,
-          143
+          162,
+          82,
+          146
         ],
-        "line_width": 7.685362771129387,
+        "line_width": 5.828937608215719,
         "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Purring"
+        "ppt_type": 142,
+        "shape": "pie",
+        "theme_topic": "Airplane"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.6503,
-        "w": 4.9577,
-        "x": 0.7969,
-        "y": 1.0718
+        "h": 2.9753,
+        "w": 3.8768,
+        "x": -0.202,
+        "y": 0.4193
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "basic",
         "fill": [
-          187,
-          94,
-          171
+          163,
+          174,
+          173
         ],
         "focus": false,
         "line": [
-          126,
-          35,
-          61
+          55,
+          43,
+          183
         ],
-        "line_width": 5.031388163054647,
+        "line_width": 6.321930274123716,
         "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Purring"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Airplane"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.0175,
-        "w": 7.8787,
-        "x": 1.5867,
-        "y": 0.9977
+        "h": 4.6571,
+        "w": 4.7946,
+        "x": 2.7019,
+        "y": 1.4673
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          47,
-          77,
-          64
+          136,
+          149,
+          122
         ],
         "focus": false,
         "line": [
-          207,
-          32,
-          58
+          78,
+          76,
+          144
         ],
-        "line_width": 6.973473952962169,
-        "outline_only": true,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Purring"
+        "line_width": 5.231443864200762,
+        "outline_only": false,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Airplane"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.2447,
-        "w": 8.6144,
-        "x": 0.5469,
-        "y": 0.363
+        "h": 3.0052,
+        "w": 5.6626,
+        "x": -0.0162,
+        "y": -0.0115
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          214,
+          62,
+          126
+        ],
+        "line": [
+          214,
+          62,
+          126
+        ],
+        "line_width": 1.74659208033267,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Airplane"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.2455,
+        "w": 8.0081,
+        "x": 0.5282,
+        "y": 0.3635
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -156,104 +183,24 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 35,
+        "font_face": "Georgia",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Caption Nutritious Reduce Opposite",
-        "theme_topic": "Purring",
+        "text": "Toothsome Disastrous Premium",
+        "theme_topic": "Airplane",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.5745,
-        "w": 5.804,
-        "x": 6.9227,
-        "y": 1.9148
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          160,
-          110,
-          194
-        ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          160,
-          110,
-          194
-        ],
-        "border": [
-          192,
-          162,
-          216
-        ],
-        "border_dash": "dash",
-        "border_width": 1.6281749077577874,
-        "cells": [
-          [
-            "grieving",
-            "curve",
-            "mere",
-            "feeble"
-          ],
-          [
-            "fluffy",
-            "jobless",
-            "bizarre",
-            "picture grotesque"
-          ],
-          [
-            "trick cap",
-            "pies",
-            "baseball",
-            "satisfy"
-          ],
-          [
-            "melt",
-            "flowery",
-            "wren",
-            "alert"
-          ],
-          [
-            "smart coherent",
-            "rhetorical",
-            "scratch space",
-            "waste"
-          ]
-        ],
-        "cols": 4,
-        "font_size": 12,
-        "has_header": false,
-        "header": [
-          51,
-          63,
-          101
-        ],
-        "rows": 5,
-        "text_color": [
-          246,
-          248,
-          252
-        ],
-        "theme_topic": "Purring"
-      },
-      "type": "table",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.0291,
-        "w": 5.647,
-        "x": 0.6982,
-        "y": 1.948
+        "h": 0.2686,
+        "w": 1.8891,
+        "x": 10.7137,
+        "y": 1.9532
       },
       "id": "object_006",
       "properties": {
@@ -261,17 +208,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          218,
-          167,
-          212
+          71,
+          221,
+          181
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Stretch Guide Itch Neighborly",
-        "theme_topic": "Purring",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "TOUR",
+        "theme_topic": "Airplane",
         "underline": false
       },
       "type": "text",
@@ -279,28 +226,28 @@
     },
     {
       "bbox": {
-        "h": 3.5921,
-        "w": 5.6705,
-        "x": 0.7126,
-        "y": 3.2803
+        "h": 1.0438,
+        "w": 1.8918,
+        "x": 10.7299,
+        "y": 2.459
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          192,
-          162,
-          216
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Georgia",
+        "font_size": 23,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "seashore nonstop absurd plain hypnotic film whirl harmony amuse contain psychotic melt observation",
-        "theme_topic": "Purring",
+        "text": "Kaput Greasy",
+        "theme_topic": "Airplane",
         "underline": false
       },
       "type": "text",
@@ -308,28 +255,28 @@
     },
     {
       "bbox": {
-        "h": 0.2932,
-        "w": 5.6163,
-        "x": 7.0403,
-        "y": 4.9666
+        "h": 3.1382,
+        "w": 1.9055,
+        "x": 10.7417,
+        "y": 3.7384
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          228,
+          149,
+          185
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "STRENGTHEN",
-        "theme_topic": "Purring",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "kaput cruel fixed hook fair fruit help unequaled nonstop look half utopian great glove jellyfish",
+        "theme_topic": "Airplane",
         "underline": false
       },
       "type": "text",
@@ -337,39 +284,39 @@
     },
     {
       "bbox": {
-        "h": 0.5495,
-        "w": 5.6146,
-        "x": 6.9994,
-        "y": 5.4088
+        "h": 1.1035,
+        "w": 6.8187,
+        "x": 3.2352,
+        "y": 5.8552
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          138,
-          133,
-          163
+        "crop": [
+          0.09246264164527848,
+          0.026475992837698362,
+          0.1042503429306306,
+          0.17179478176816973
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Things Warm",
-        "theme_topic": "Purring",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          79,
+          88,
+          165
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Airplane",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.6738,
-        "w": 5.5904,
-        "x": 7.0321,
-        "y": 6.226
+        "h": 0.3005,
+        "w": 2.0931,
+        "x": 0.5814,
+        "y": 2.3824
       },
       "id": "object_010",
       "properties": {
@@ -377,17 +324,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          192,
-          162,
-          216
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "honey playground fascinated health lively crib shy bubble pale acoustics closed",
-        "theme_topic": "Purring",
+        "text": "anger super crib pick",
+        "theme_topic": "Airplane",
         "underline": false
       },
       "type": "text",
@@ -395,10 +342,10 @@
     },
     {
       "bbox": {
-        "h": 0.6482,
-        "w": 0.944,
-        "x": 9.9598,
-        "y": 6.0888
+        "h": 0.2921,
+        "w": 2.0967,
+        "x": 0.5904,
+        "y": 3.4787
       },
       "id": "object_011",
       "properties": {
@@ -406,17 +353,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          93,
-          194,
-          174
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 6,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Daily",
-        "theme_topic": "Purring",
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "books found crawl abstracted wandering",
+        "theme_topic": "Airplane",
         "underline": false
       },
       "type": "text",
@@ -424,28 +371,28 @@
     },
     {
       "bbox": {
-        "h": 0.3317,
-        "w": 0.9927,
-        "x": 1.7905,
-        "y": 2.3131
+        "h": 0.251,
+        "w": 2.1066,
+        "x": 0.5815,
+        "y": 4.5181
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          217,
-          182,
-          160
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "devilish collar plucky momentous",
-        "theme_topic": "Purring",
+        "text": "weather magical prickly amuse camp breathe",
+        "theme_topic": "Airplane",
         "underline": false
       },
       "type": "text",
@@ -453,42 +400,39 @@
     },
     {
       "bbox": {
-        "h": 0.9975,
-        "w": 0.8223,
-        "x": 10.5692,
-        "y": 3.1448
+        "h": 0.2745,
+        "w": 2.1086,
+        "x": 0.5876,
+        "y": 5.5018
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          212,
-          128,
-          73
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          83,
-          175,
-          70
-        ],
-        "line_width": 4.707711696336356,
-        "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Purring"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "eight swift cart workable taboo",
+        "theme_topic": "Airplane",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.218,
-        "w": 1.0505,
-        "x": 11.0561,
-        "y": 1.7023
+        "h": 0.3242,
+        "w": 2.1126,
+        "x": 0.6039,
+        "y": 6.5719
       },
       "id": "object_014",
       "properties": {
@@ -496,17 +440,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          100,
-          88,
-          161
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Aloof Sparkling",
-        "theme_topic": "Purring",
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "receive clip camp adorable",
+        "theme_topic": "Airplane",
         "underline": false
       },
       "type": "text",
@@ -514,62 +458,61 @@
     },
     {
       "bbox": {
-        "h": 0.2724,
-        "w": 0.922,
-        "x": 9.7463,
-        "y": 1.9656
+        "h": 0.5451,
+        "w": 1.0354,
+        "x": 10.704,
+        "y": 1.4614
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          161,
-          211,
-          128
+        "dash": 2,
+        "family": "stars",
+        "fill": [
+          215,
+          106,
+          149
         ],
-        "bold": true,
-        "color": [
-          73,
-          104,
-          178
+        "focus": false,
+        "line": [
+          140,
+          205,
+          162
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Apathetic Station Second-Hand",
-        "theme_topic": "Purring",
-        "underline": false
+        "line_width": 4.083349141689144,
+        "outline_only": false,
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Airplane"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.3355,
-        "w": 1.6192,
-        "x": 11.4176,
-        "y": 1.7202
+        "h": 0.587,
+        "w": 0.7313,
+        "x": 7.3914,
+        "y": 4.4735
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          82,
-          141,
-          128
+          142,
+          194,
+          74
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 8,
-        "italic": true,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "badge stranger belligerent rob narrow",
-        "theme_topic": "Purring",
-        "underline": true
+        "text": "annoying majestic fairies telephone",
+        "theme_topic": "Airplane",
+        "underline": false
       },
       "type": "text",
       "z_order": 16

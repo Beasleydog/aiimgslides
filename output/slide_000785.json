@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        148,
-        148,
-        193
+      "colors": [
+        [
+          224,
+          194,
+          37
+        ],
+        [
+          255,
+          238,
+          103
+        ]
       ],
       "fill": [
-        174,
-        174,
-        226
+        27,
+        183,
+        39
       ],
-      "fore_color": [
-        31,
-        117,
-        161
-      ],
-      "pattern": 26,
-      "style": "pattern",
-      "theme_topic": "Need Guitar"
+      "focus": "top_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Breakable"
     },
     "type": "background",
     "z_order": 0
@@ -41,395 +45,407 @@
   "objects": [
     {
       "bbox": {
-        "h": 7.4882,
-        "w": 1.2179,
-        "x": -0.006,
-        "y": -0.0045
+        "h": 2.5253,
+        "w": 3.6975,
+        "x": 9.565,
+        "y": -0.6182
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 3,
+        "family": "arrows",
         "fill": [
-          148,
-          148,
-          193
+          169,
+          125,
+          157
         ],
+        "focus": false,
         "line": [
-          148,
-          148,
-          193
+          151,
+          202,
+          76
         ],
-        "line_width": 1.4774311871664914,
+        "line_width": 3.3483373498617652,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Need Guitar"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Breakable"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.5663,
-        "w": 2.8324,
-        "x": 0.6361,
-        "y": 0.7448
+        "h": 4.2061,
+        "w": 4.3019,
+        "x": 1.4823,
+        "y": -0.1908
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          46,
+          92,
+          80
         ],
-        "font_face": "Arial",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Terrify",
-        "theme_topic": "Need Guitar",
-        "underline": false
+        "focus": false,
+        "line": [
+          46,
+          51,
+          173
+        ],
+        "line_width": 6.920547177741296,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Breakable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.2393,
-        "w": 0.2564,
-        "x": 5.2442,
-        "y": 3.8053
+        "h": 2.2021,
+        "w": 6.2075,
+        "x": 4.2984,
+        "y": 4.2387
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          31,
-          117,
-          161
+          50,
+          188,
+          84
         ],
+        "focus": false,
         "line": [
-          148,
-          148,
-          193
+          100,
+          72,
+          198
         ],
-        "line_width": 0.7951968249516911,
+        "line_width": 5.5491694591565,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Need Guitar"
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Breakable"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.2553,
-        "w": 2.9177,
-        "x": 3.805,
-        "y": 4.0157
+        "h": 3.1008,
+        "w": 5.964,
+        "x": -0.1734,
+        "y": 0.1204
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          38,
+          134,
+          58
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "unite radiate hate grubby hose search",
-        "theme_topic": "Need Guitar",
-        "underline": false
+        "focus": false,
+        "line": [
+          63,
+          41,
+          55
+        ],
+        "line_width": 5.299851563115064,
+        "outline_only": false,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Breakable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.3029,
-        "w": 0.2971,
-        "x": 4.8891,
-        "y": 4.7982
+        "h": 0.9222,
+        "w": 5.8581,
+        "x": 0.7694,
+        "y": 5.8717
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          148,
-          148,
-          193
-        ],
-        "line_width": 3.0492449581746532,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Need Guitar"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.2896,
-        "w": 2.9167,
-        "x": 3.8074,
-        "y": 4.9803
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "interfere damaging peel paste swift comparison",
-        "theme_topic": "Need Guitar",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.2035,
-        "w": 0.2086,
-        "x": 5.0912,
-        "y": 5.6865
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          148,
-          148,
-          193
-        ],
-        "line_width": 2.3376156258365697,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Need Guitar"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.2071,
-        "w": 2.8988,
-        "x": 3.8179,
-        "y": 5.8201
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "account able thick learn mundane",
-        "theme_topic": "Need Guitar",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.2202,
-        "w": 0.2176,
-        "x": 5.1013,
-        "y": 6.5191
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          148,
-          148,
-          193
-        ],
-        "line_width": 1.7221266293628836,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Need Guitar"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.2316,
-        "w": 2.9004,
-        "x": 3.8026,
-        "y": 6.6112
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "step crooked belligerent list",
-        "theme_topic": "Need Guitar",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.836,
-        "w": 0.1541,
-        "x": 5.0508,
-        "y": 4.9373
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          93,
-          94,
-          121
-        ],
-        "connector": "curve",
-        "dash": 4,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Need Guitar",
-        "width": 3.309946588058948
-      },
-      "type": "connector",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 3.3237,
-        "w": 3.1851,
-        "x": 7.01,
-        "y": 3.5809
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "line": [
-          148,
-          148,
-          193
-        ],
-        "line_width": 1.7747436346011278,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Need Guitar"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.1488,
-        "w": 2.8186,
-        "x": 7.1984,
-        "y": 4.2195
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          174,
-          226
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 49,
+        "font_face": "Georgia",
+        "font_size": 22,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "5x",
-        "theme_topic": "Need Guitar",
+        "text": "Hospitable Jealous",
+        "theme_topic": "Breakable",
         "underline": false
       },
       "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.4017,
+        "w": 0.4022,
+        "x": 6.969,
+        "y": 4.1913
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          64,
+          194,
+          74
+        ],
+        "line_width": 1.2382814226476702,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Breakable"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.7478,
+        "w": 1.0719,
+        "x": 6.7081,
+        "y": 4.6622
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "drink nosy zinc",
+        "theme_topic": "Breakable",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.3676,
+        "w": 0.3855,
+        "x": 8.3178,
+        "y": 4.0651
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          64,
+          194,
+          74
+        ],
+        "line_width": 0.9458076639098665,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Breakable"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.7488,
+        "w": 0.9542,
+        "x": 8.1148,
+        "y": 4.6237
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "limit bulb rinse envious nifty strong",
+        "theme_topic": "Breakable",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.3316,
+        "w": 0.33,
+        "x": 9.6594,
+        "y": 4.3348
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          64,
+          194,
+          74
+        ],
+        "line_width": 3.764114313132891,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Breakable"
+      },
+      "type": "shape",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.7541,
+        "w": 0.8186,
+        "x": 9.4075,
+        "y": 4.6567
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "divide competition steady reflective",
+        "theme_topic": "Breakable",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.7252,
+        "w": 1.0771,
+        "x": 10.5179,
+        "y": 4.6262
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "unsuitable old-fashioned stupendous north color profuse",
+        "theme_topic": "Breakable",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.3264,
+        "w": 0.3377,
+        "x": 12.1089,
+        "y": 4.0044
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          64,
+          194,
+          74
+        ],
+        "line_width": 1.6960925447764832,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Breakable"
+      },
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.7041,
-        "w": 2.8399,
-        "x": 7.2004,
-        "y": 5.6202
+        "h": 0.7498,
+        "w": 0.8561,
+        "x": 11.8802,
+        "y": 4.6233
       },
       "id": "object_014",
       "properties": {
@@ -437,17 +453,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "combative popcorn lively super fall abandoned prick men use",
-        "theme_topic": "Need Guitar",
+        "text": "meal spark trick",
+        "theme_topic": "Breakable",
         "underline": false
       },
       "type": "text",
@@ -455,211 +471,218 @@
     },
     {
       "bbox": {
-        "h": 2.4756,
-        "w": 8.9012,
-        "x": 3.7857,
-        "y": 0.706
+        "h": 2.1515,
+        "w": 5.7789,
+        "x": 0.5475,
+        "y": 3.3764
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          148,
-          148,
-          193
+        "crop": [
+          0.11351962899226634,
+          0.05407779230142593,
+          0.16785754511547818,
+          0.09950718958972024
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          185,
-          196,
-          79
+        "focus": true,
+        "mask_line": [
+          255,
+          238,
+          103
         ],
-        "border": [
-          80,
-          182,
-          163
-        ],
-        "border_dash": "solid",
-        "border_width": 2.5328941900024344,
-        "cells": [
-          [
-            "object goofy",
-            "hand"
-          ],
-          [
-            "table unequal",
-            "lewd"
-          ],
-          [
-            "debonair grotesque",
-            "arrogant cure"
-          ],
-          [
-            "look dinner",
-            "comparison ski"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 5,
-        "has_header": true,
-        "header": [
-          203,
-          135,
-          132
-        ],
-        "rows": 4,
-        "text_color": [
-          28,
-          30,
-          36
-        ],
-        "theme_topic": "Need Guitar"
+        "mask_overlay": false,
+        "theme_topic": "Breakable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "table",
+      "type": "image",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.3483,
-        "w": 0.853,
-        "x": 3.3008,
-        "y": 0.8755
+        "h": 2.2966,
+        "w": 12.1068,
+        "x": 0.6042,
+        "y": 0.5783
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          51,
-          214,
-          55
+        "band": [
+          64,
+          194,
+          74
         ],
-        "focus": false,
-        "line": [
-          36,
-          153,
-          217
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          63,
+          192,
+          60
         ],
-        "line_width": 2.350163151664179,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Need Guitar"
+        "border": [
+          147,
+          218,
+          156
+        ],
+        "border_dash": "solid",
+        "border_width": 3.265986475474167,
+        "cells": [
+          [
+            "jaded sharp",
+            "decision rampant"
+          ],
+          [
+            "erratic",
+            "tank zephyr"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 9,
+        "has_header": true,
+        "header": [
+          255,
+          238,
+          103
+        ],
+        "rows": 2,
+        "text_color": [
+          188,
+          100,
+          136
+        ],
+        "theme_topic": "Breakable"
       },
-      "type": "shape",
+      "type": "table",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.2905,
-        "w": 2.0907,
-        "x": 8.3151,
-        "y": 5.1036
+        "h": 0.3446,
+        "w": 0.5729,
+        "x": 7.2271,
+        "y": 5.7826
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          106,
-          143,
-          51
+        "dash": 5,
+        "family": "stars",
+        "fill": [
+          64,
+          194,
+          74
         ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Need Guitar",
-        "width": 0.31310260370709364
+        "focus": false,
+        "line": [
+          124,
+          60,
+          99
+        ],
+        "line_width": 4.057113911624986,
+        "outline_only": false,
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Breakable"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.3993,
-        "w": 1.697,
-        "x": 4.2226,
-        "y": 3.9614
+        "h": 0.764,
+        "w": 0.3566,
+        "x": 9.5513,
+        "y": 2.8082
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          182,
-          83,
-          180
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          129,
+          223,
+          140
         ],
-        "connector": "elbow",
-        "dash": 3,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Need Guitar",
-        "width": 2.922436814810779
+        "focus": false,
+        "line": [
+          75,
+          222,
+          47
+        ],
+        "line_width": 3.2944803319255738,
+        "outline_only": false,
+        "ppt_type": 97,
+        "shape": "up_ribbon",
+        "theme_topic": "Breakable"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.3609,
-        "w": 0.5827,
-        "x": 12.4065,
-        "y": 6.1147
+        "h": 0.2067,
+        "w": 0.4601,
+        "x": 7.9341,
+        "y": 0.2939
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          52,
-          230,
-          153
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          177,
+          113,
+          180
         ],
-        "font_face": "Arial",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "theory youthful",
-        "theme_topic": "Need Guitar",
-        "underline": false
+        "focus": false,
+        "line": [
+          68,
+          82,
+          77
+        ],
+        "line_width": 3.48006999300583,
+        "outline_only": false,
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Breakable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.3102,
-        "w": 0.8707,
-        "x": 12.0463,
-        "y": 0.8036
+        "h": 0.5065,
+        "w": 0.8768,
+        "x": 0.9325,
+        "y": 2.9746
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          92,
-          183,
-          201
+        "bg_color": [
+          185,
+          144,
+          26
         ],
-        "focus": false,
-        "line": [
-          55,
-          103,
-          98
+        "bold": false,
+        "color": [
+          81,
+          139,
+          130
         ],
-        "line_width": 3.1921297929582932,
-        "outline_only": true,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Need Guitar"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "stocking skillful",
+        "theme_topic": "Breakable",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 20
     }
   ],

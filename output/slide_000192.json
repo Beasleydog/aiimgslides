@@ -9,13 +9,24 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
+      "back_color": [
+        139,
+        78,
+        190
+      ],
       "fill": [
         120,
         58,
         170
       ],
-      "style": "solid",
-      "theme_topic": "Ad"
+      "fore_color": [
+        255,
+        211,
+        88
+      ],
+      "pattern": 13,
+      "style": "pattern",
+      "theme_topic": "Disgusting"
     },
     "type": "background",
     "z_order": 0
@@ -30,155 +41,144 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.9546,
-        "w": 7.1694,
-        "x": 5.4949,
-        "y": 3.4415
+        "h": 4.3662,
+        "w": 8.5012,
+        "x": 2.4855,
+        "y": 2.1997
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 1,
+        "family": "math",
         "fill": [
-          76,
-          57,
-          83
+          170,
+          70,
+          91
         ],
         "focus": false,
         "line": [
-          230,
           194,
-          35
+          167,
+          158
         ],
-        "line_width": 5.357018977990313,
+        "line_width": 2.42858446981413,
         "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Ad"
+        "ppt_type": 163,
+        "shape": "plus",
+        "theme_topic": "Disgusting"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.6119,
-        "w": 8.897,
-        "x": 2.8228,
-        "y": 1.9686
+        "h": 3.8297,
+        "w": 7.0096,
+        "x": 0.1857,
+        "y": 0.0835
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "stars",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          104,
-          143,
-          84
+          160,
+          81,
+          165
         ],
         "focus": false,
         "line": [
-          116,
-          103,
-          96
+          43,
+          70,
+          88
         ],
-        "line_width": 6.237521242595795,
+        "line_width": 3.934540710932536,
         "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Ad"
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Disgusting"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.7646,
-        "w": 6.7645,
-        "x": 0.0743,
-        "y": 0.395
+        "h": 2.9272,
+        "w": 5.9951,
+        "x": 0.5742,
+        "y": 0.6248
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          106,
-          160,
-          156
-        ],
-        "focus": false,
+        "clip": "arch",
+        "focus": true,
         "line": [
-          212,
-          161,
-          54
+          71,
+          221,
+          181
         ],
-        "line_width": 6.884081351431914,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Ad"
+        "line_width": 8,
+        "theme_topic": "Disgusting"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.0504,
-        "w": 7.4091,
-        "x": 0.0024,
-        "y": 3.4316
+        "h": 2.9331,
+        "w": 5.9924,
+        "x": 6.7518,
+        "y": 0.5787
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          139,
-          78,
-          190
+        "crop": [
+          0.17388917472247545,
+          0.07796583418281273,
+          0.022696487503620643,
+          0.035132508576824595
         ],
-        "line": [
-          139,
-          78,
-          190
+        "focus": true,
+        "mask_line": [
+          71,
+          221,
+          181
         ],
-        "line_width": 1.7042461744628294,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Ad"
+        "mask_overlay": false,
+        "theme_topic": "Disgusting",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1492,
-        "w": 6.0396,
-        "x": 3.257,
-        "y": 0.6326
+        "h": 1.012,
+        "w": 3.3077,
+        "x": 0.6165,
+        "y": 5.6776
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
           255,
           250,
           255
         ],
-        "font_face": "Arial",
-        "font_size": 35,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Need Shop Muddle Purple",
-        "theme_topic": "Ad",
+        "text": "tug flat innocent",
+        "theme_topic": "Disgusting",
         "underline": false
       },
       "type": "text",

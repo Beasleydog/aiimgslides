@@ -8,29 +8,14 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          126,
-          58,
-          173
-        ],
-        [
-          180,
-          70,
-          53
-        ]
-      ],
       "fill": [
-        126,
-        58,
-        173
+        106,
+        29,
+        64
       ],
-      "focus": "center",
-      "gradient_type": "rectangular",
-      "style": "gradient",
-      "theme_topic": "Naive"
+      "style": "solid",
+      "theme_topic": "Woman Likeable"
     },
     "type": "background",
     "z_order": 0
@@ -45,75 +30,171 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.0077,
-        "w": 8.0786,
-        "x": -0.8803,
-        "y": 1.2721
+        "h": 3.4267,
+        "w": 5.9256,
+        "x": 0.4677,
+        "y": 0.3138
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
+        "dash": 5,
+        "family": "callouts",
         "fill": [
-          154,
-          50,
-          191
+          188,
+          55,
+          155
         ],
         "focus": false,
         "line": [
-          183,
-          137,
-          150
+          160,
+          128,
+          214
         ],
-        "line_width": 4.862033237784185,
+        "line_width": 5.323331717416697,
         "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Naive"
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Woman Likeable"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.093,
-        "w": 13.3513,
-        "x": 0.0019,
-        "y": 0.0022
+        "h": 1.611,
+        "w": 5.5091,
+        "x": 4.1314,
+        "y": -0.237
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 5,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          162,
-          113,
-          196
+          148,
+          128,
+          101
         ],
+        "focus": false,
         "line": [
-          162,
-          113,
-          196
+          133,
+          53,
+          187
         ],
-        "line_width": 3.3252928113813014,
+        "line_width": 7.414986924193446,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Naive"
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Woman Likeable"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5566,
-        "w": 2.8498,
-        "x": 0.6622,
-        "y": 0.764
+        "h": 4.1642,
+        "w": 4.4428,
+        "x": 2.57,
+        "y": 3.7771
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          64,
+          75,
+          109
+        ],
+        "focus": false,
+        "line": [
+          141,
+          128,
+          100
+        ],
+        "line_width": 2.0407685100027604,
+        "outline_only": true,
+        "ppt_type": 53,
+        "shape": "right_arrow_callout",
+        "theme_topic": "Woman Likeable"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.8153,
+        "w": 7.5675,
+        "x": 1.9115,
+        "y": 5.4421
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          123,
+          123,
+          149
+        ],
+        "focus": false,
+        "line": [
+          71,
+          108,
+          101
+        ],
+        "line_width": 3.7372557328629292,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Woman Likeable"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 7.4846,
+        "w": 0.7397,
+        "x": 12.606,
+        "y": -0.005
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          135,
+          73,
+          101
+        ],
+        "line": [
+          135,
+          73,
+          101
+        ],
+        "line_width": 1.571864365145821,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Woman Likeable"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.2269,
+        "w": 7.3299,
+        "x": 0.5298,
+        "y": 0.3376
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -123,26 +204,26 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 25,
+        "font_face": "Georgia",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Analyze Earthy",
-        "theme_topic": "Naive",
+        "text": "Abortive Strengthen Utopian Crowded",
+        "theme_topic": "Woman Likeable",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
+      "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.5336,
-        "w": 1.6755,
-        "x": 9.2313,
-        "y": 3.6048
+        "h": 2.3747,
+        "w": 5.9387,
+        "x": 6.8464,
+        "y": 4.5658
       },
-      "id": "object_004",
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
@@ -151,163 +232,74 @@
           0,
           0
         ],
-        "focus": false,
+        "focus": true,
         "mask_line": [
-          26,
-          85,
-          115
+          31,
+          117,
+          161
         ],
-        "mask_overlay": true,
-        "theme_topic": "Naive",
+        "mask_overlay": false,
+        "theme_topic": "Woman Likeable",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.4663,
-        "w": 2.656,
-        "x": 3.7577,
-        "y": 0.6674
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          162,
-          113,
-          196
-        ],
-        "line": [
-          162,
-          113,
-          196
-        ],
-        "line_width": 2.1730504953519625,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Naive"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.8244,
-        "w": 2.1235,
-        "x": 4.0184,
-        "y": 2.098
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          192,
-          162,
-          216
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "ink super waggish boil giddy forgetful influence thunder beneficial opposite childlike governor care undress",
-        "theme_topic": "Naive",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 2.4602,
-        "w": 2.8318,
-        "x": 6.6187,
-        "y": 0.6434
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          162,
-          113,
-          196
-        ],
-        "line": [
-          162,
-          113,
-          196
-        ],
-        "line_width": 1.1089946257536225,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Naive"
-      },
-      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4654,
-        "w": 2.337,
-        "x": 6.8765,
-        "y": 1.5425
+        "h": 2.4132,
+        "w": 5.9243,
+        "x": 6.8522,
+        "y": 1.8549
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          31,
+          117,
+          161
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Flap Destroy",
-        "theme_topic": "Naive",
-        "underline": false
+        "line": [
+          135,
+          73,
+          101
+        ],
+        "line_width": 1.531613364316367,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Woman Likeable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.8129,
-        "w": 2.3675,
-        "x": 6.8617,
-        "y": 2.1161
+        "h": 0.9357,
+        "w": 5.5689,
+        "x": 7.0454,
+        "y": 2.3767
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          192,
-          162,
-          216
+          106,
+          29,
+          64
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Georgia",
+        "font_size": 37,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "partner bikes used wilderness illegal exotic seashore current zippy bump",
-        "theme_topic": "Naive",
+        "text": "4x",
+        "theme_topic": "Woman Likeable",
         "underline": false
       },
       "type": "text",
@@ -315,91 +307,92 @@
     },
     {
       "bbox": {
-        "h": 2.4545,
-        "w": 3.0652,
-        "x": 9.684,
-        "y": 0.6561
+        "h": 0.5514,
+        "w": 5.5633,
+        "x": 7.0184,
+        "y": 3.2717
       },
       "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          162,
-          113,
-          196
-        ],
-        "line": [
-          162,
-          113,
-          196
-        ],
-        "line_width": 4.117788670197646,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Naive"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.4378,
-        "w": 2.5516,
-        "x": 9.9034,
-        "y": 1.5635
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
-        ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Gun",
-        "theme_topic": "Naive",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.8017,
-        "w": 2.5358,
-        "x": 9.9316,
-        "y": 2.1073
-      },
-      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          192,
-          162,
-          216
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "toes paddle clip powder detailed fetch door intelligent test",
-        "theme_topic": "Naive",
+        "text": "tasty huge imaginary wrap tender clam shoe erratic reminiscent",
+        "theme_topic": "Woman Likeable",
         "underline": false
       },
       "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 2.3818,
+        "w": 5.9262,
+        "x": 0.5645,
+        "y": 1.8505
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.18301766047193285,
+          0.05496122387597235,
+          0.00759047166110183,
+          0.19430055055824186
+        ],
+        "focus": true,
+        "mask_line": [
+          136,
+          165,
+          138
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Woman Likeable",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.6072,
+        "w": 1.3093,
+        "x": 3.1072,
+        "y": 3.3634
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "stars",
+        "fill": [
+          166,
+          136,
+          189
+        ],
+        "focus": false,
+        "line": [
+          52,
+          150,
+          167
+        ],
+        "line_width": 4.732953662239729,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Woman Likeable"
+      },
+      "type": "shape",
       "z_order": 12
     }
   ],

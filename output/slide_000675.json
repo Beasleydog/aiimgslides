@@ -8,25 +8,29 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        138,
-        60,
-        154
+      "colors": [
+        [
+          189,
+          96,
+          117
+        ],
+        [
+          96,
+          165,
+          250
+        ]
       ],
       "fill": [
-        176,
-        77,
-        197
+        61,
+        64,
+        91
       ],
-      "fore_color": [
-        51,
-        63,
-        101
-      ],
-      "pattern": 34,
-      "style": "pattern",
-      "theme_topic": "Scrub Windy"
+      "focus": "bottom_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Near"
     },
     "type": "background",
     "z_order": 0
@@ -41,288 +45,264 @@
   "objects": [
     {
       "bbox": {
-        "h": 3.5461,
-        "w": 3.5329,
-        "x": 4.9373,
-        "y": 1.3386
+        "h": 3.3596,
+        "w": 5.0931,
+        "x": 8.2638,
+        "y": 0.0041
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 2,
-        "family": "basic",
+        "family": "panel",
         "fill": [
-          184,
-          157,
-          84
+          88,
+          90,
+          114
         ],
-        "focus": false,
         "line": [
-          221,
-          141,
-          141
+          88,
+          90,
+          114
         ],
-        "line_width": 2.7331730763700577,
+        "line_width": 1.7080430539044757,
         "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Scrub Windy"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Near"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0348,
-        "w": 7.8424,
-        "x": 0.8609,
-        "y": 2.4572
+        "h": 1.2066,
+        "w": 8.7204,
+        "x": 0.5264,
+        "y": 0.3397
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          94,
-          148,
-          110
-        ],
-        "focus": false,
-        "line": [
-          52,
-          143,
-          108
-        ],
-        "line_width": 5.242761612812727,
-        "outline_only": true,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Scrub Windy"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 3.6326,
-        "w": 5.9277,
-        "x": 3.9393,
-        "y": 1.0859
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
-        "fill": [
-          194,
-          60,
-          101
-        ],
-        "focus": false,
-        "line": [
-          225,
-          84,
-          107
-        ],
-        "line_width": 7.69522709682751,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Scrub Windy"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 4.8794,
-        "w": 5.6219,
-        "x": 2.7093,
-        "y": -0.2311
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          96,
-          99,
-          70
-        ],
-        "focus": false,
-        "line": [
-          212,
-          99,
-          203
-        ],
-        "line_width": 4.239463915320929,
-        "outline_only": false,
-        "ppt_type": 174,
-        "shape": "funnel",
-        "theme_topic": "Scrub Windy"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.151,
-        "w": 7.5572,
-        "x": 2.5218,
-        "y": 0.6382
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 34,
+        "font_face": "Georgia",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Spotted Debt Pleasant Knee",
-        "theme_topic": "Scrub Windy",
+        "text": "Maniacal Needless Unlock",
+        "theme_topic": "Near",
         "underline": false
       },
       "type": "text",
-      "z_order": 5
+      "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.0404,
-        "w": 6.2683,
-        "x": 6.5078,
-        "y": 1.987
+        "h": 1.0236,
+        "w": 6.5407,
+        "x": 3.3882,
+        "y": 2.8959
       },
-      "id": "object_006",
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          138,
-          60,
-          154
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          189,
+          176,
+          26
         ],
-        "line": [
-          138,
-          60,
-          154
-        ],
-        "line_width": 0.6998757633023287,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Scrub Windy"
+        "font_face": "Georgia",
+        "font_size": 33,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Hallowed",
+        "theme_topic": "Near",
+        "underline": false
       },
-      "type": "shape",
-      "z_order": 6
+      "type": "text",
+      "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.5401,
-        "w": 5.7469,
-        "x": 6.7796,
-        "y": 2.2453
+        "h": 1.4022,
+        "w": 6.5633,
+        "x": 3.3777,
+        "y": 4.1449
       },
-      "id": "object_007",
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "arithmetic",
-          "robust",
-          "nutty"
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          162,
+          165,
+          179
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              140,
-              105,
-              137
-            ],
-            "name": "broad",
-            "values": [
-              46,
-              10,
-              29
-            ]
-          }
-        ],
-        "theme_topic": "Scrub Windy",
-        "title": "window trashy"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "absorbing reminiscent needless disagree spoil heartbreaking punch resonant carry fluffy work strong dashing truck fluttering kiss naughty gun suit tenuous lumber picture",
+        "theme_topic": "Near",
+        "underline": false
       },
-      "type": "chart",
-      "z_order": 7
+      "type": "text",
+      "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.0301,
-        "w": 3.0816,
-        "x": 0.5629,
-        "y": 2.0156
+        "h": 1.1415,
+        "w": 6.8576,
+        "x": 3.2449,
+        "y": 5.8504
       },
-      "id": "object_008",
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          170,
-          81,
-          183
+          88,
+          90,
+          114
         ],
         "line": [
-          138,
-          60,
-          154
+          88,
+          90,
+          114
         ],
-        "line_width": 4.487039564482064,
+        "line_width": 3.643398536232208,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Scrub Windy"
+        "theme_topic": "Near"
       },
       "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.821,
+        "w": 6.5513,
+        "x": 3.4043,
+        "y": 6.0077
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.003974611539811109,
+          0.31376215332103735,
+          0.1884374840667029,
+          0.1568720588091707
+        ],
+        "focus": false,
+        "mask_line": [
+          96,
+          165,
+          250
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Near",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.2968,
+        "w": 1.9225,
+        "x": 0.7246,
+        "y": 1.947
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          165,
+          250
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "RUIN",
+        "theme_topic": "Near",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 1.03,
+        "w": 1.9014,
+        "x": 0.7108,
+        "y": 2.4253
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Georgia",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Intelligent",
+        "theme_topic": "Near",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.7619,
-        "w": 2.7304,
-        "x": 0.7125,
-        "y": 2.1713
+        "h": 3.1299,
+        "w": 1.9027,
+        "x": 0.6997,
+        "y": 3.7736
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          162,
+          165,
+          179
         ],
-        "font_face": "Arial",
-        "font_size": 24,
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "228",
-        "theme_topic": "Scrub Windy",
+        "text": "shivering rigid thankful happy boring straight brief cow",
+        "theme_topic": "Near",
         "underline": false
       },
       "type": "text",
@@ -330,28 +310,28 @@
     },
     {
       "bbox": {
-        "h": 4.0267,
-        "w": 2.7139,
-        "x": 0.7241,
-        "y": 2.9262
+        "h": 1.0719,
+        "w": 1.8995,
+        "x": 10.755,
+        "y": 1.9831
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          94,
-          51,
-          108
+          176,
+          91,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 15,
+        "font_face": "Georgia",
+        "font_size": 20,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "history gaping taboo divide",
-        "theme_topic": "Scrub Windy",
+        "text": "Art Blue-Eyed Join",
+        "theme_topic": "Near",
         "underline": false
       },
       "type": "text",
@@ -359,28 +339,28 @@
     },
     {
       "bbox": {
-        "h": 0.7554,
-        "w": 1.8745,
-        "x": 3.995,
-        "y": 2.1611
+        "h": 3.6157,
+        "w": 1.9182,
+        "x": 10.7122,
+        "y": 3.2753
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          51,
-          63,
-          101
+          162,
+          165,
+          179
         ],
-        "font_face": "Arial",
-        "font_size": 26,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "62%",
-        "theme_topic": "Scrub Windy",
+        "text": "quiver unusual oil snatch straight safe extra-small large thread narrow",
+        "theme_topic": "Near",
         "underline": false
       },
       "type": "text",
@@ -388,185 +368,186 @@
     },
     {
       "bbox": {
-        "h": 4.0215,
-        "w": 1.8701,
-        "x": 3.9829,
-        "y": 2.9367
+        "h": 0.7573,
+        "w": 0.5581,
+        "x": 7.7187,
+        "y": 1.604
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          51,
-          108
+        "dash": 2,
+        "family": "basic",
+        "fill": [
+          181,
+          61,
+          185
         ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "produce cherry hypnotic rich wing oatmeal",
-        "theme_topic": "Scrub Windy",
-        "underline": false
+        "focus": false,
+        "line": [
+          96,
+          165,
+          250
+        ],
+        "line_width": 1.6199976017562188,
+        "outline_only": false,
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Near"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2031,
-        "w": 0.583,
-        "x": 4.3837,
-        "y": 0.3635
+        "h": 0.8109,
+        "w": 1.1934,
+        "x": 2.1764,
+        "y": 5.7305
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          129,
-          71,
-          26
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          88,
+          153,
+          138
         ],
-        "bold": false,
-        "color": [
-          156,
-          60,
-          44
+        "focus": false,
+        "line": [
+          154,
+          86,
+          220
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Moaning",
-        "theme_topic": "Scrub Windy",
-        "underline": true
+        "line_width": 1.6536793898834945,
+        "outline_only": true,
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Near"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.1143,
-        "x": 0.6501,
-        "y": 4.0136
+        "h": 0.3511,
+        "w": 0.9246,
+        "x": 1.8908,
+        "y": 0.9407
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          102,
-          229,
-          70
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          193,
+          140,
+          65
         ],
-        "font_face": "Arial",
-        "font_size": 5,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Quill Star",
-        "theme_topic": "Scrub Windy",
-        "underline": false
+        "focus": false,
+        "line": [
+          230,
+          228,
+          89
+        ],
+        "line_width": 4.437761443683146,
+        "outline_only": true,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Near"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.4369,
-        "w": 1.4306,
-        "x": 3.2479,
-        "y": 4.1993
+        "h": 0.5614,
+        "w": 1.6896,
+        "x": 8.2199,
+        "y": 1.162
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          219,
+          72,
+          86
+        ],
         "bold": false,
         "color": [
-          187,
-          185,
-          220
+          203,
+          174,
+          164
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Smoggy",
-        "theme_topic": "Scrub Windy",
-        "underline": true
+        "text": "Complete",
+        "theme_topic": "Near",
+        "underline": false
       },
       "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.3355,
-        "w": 1.4533,
-        "x": 5.7105,
-        "y": 4.5093
+        "h": 0.648,
+        "w": 2.0773,
+        "x": 8.9214,
+        "y": 0.5009
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          128,
-          197,
-          33
-        ],
-        "bold": false,
         "color": [
-          227,
-          62,
-          172
+          205,
+          167,
+          88
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "safe majestic unwieldy",
-        "theme_topic": "Scrub Windy",
-        "underline": false
+        "connector": "straight",
+        "dash": 3,
+        "flip": false,
+        "ppt_type": 1,
+        "theme_topic": "Near",
+        "width": 2.001137750721865
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 1.0957,
-        "w": 0.849,
-        "x": 10.9267,
-        "y": 4.2048
+        "h": 0.666,
+        "w": 1.3644,
+        "x": 7.9007,
+        "y": 3.5167
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          51,
-          107,
-          157
+          88,
+          90,
+          114
         ],
         "focus": false,
         "line": [
-          134,
-          177,
-          39
+          96,
+          165,
+          250
         ],
-        "line_width": 5.443292164668235,
-        "outline_only": true,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Scrub Windy"
+        "line_width": 0.5213519196768831,
+        "outline_only": false,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Near"
       },
       "type": "shape",
       "z_order": 17
