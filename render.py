@@ -7,7 +7,6 @@ from pptx import Presentation
 from pptx.util import Inches
 
 import config
-from chart_element import add_chart_to_png, add_chart_to_pptx
 from connector_element import add_connector_to_png, add_connector_to_pptx
 from freeform_element import add_freeform_to_png, add_freeform_to_pptx
 from image_element import add_image_to_png, add_image_to_pptx
@@ -166,8 +165,6 @@ def add_elements_to_slide(slide, elements, image_path):
             add_image_to_pptx(slide, el, image_path)
         elif el.kind == "connector":
             add_connector_to_pptx(slide, el)
-        elif el.kind == "chart":
-            add_chart_to_pptx(slide, el)
         elif el.kind == "freeform":
             add_freeform_to_pptx(slide, el)
         elif el.kind == "svg":
@@ -226,8 +223,6 @@ def add_to_png(elements, image):
             add_image_to_png(canvas, image, box)
         elif el.kind == "connector":
             add_connector_to_png(draw, el, box)
-        elif el.kind == "chart":
-            add_chart_to_png(draw, el, box)
         elif el.kind == "freeform":
             add_freeform_to_png(draw, el, box)
         elif el.kind == "svg":

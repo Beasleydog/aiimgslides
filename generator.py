@@ -4,7 +4,6 @@ import config
 from pptx.enum.dml import MSO_LINE_DASH_STYLE
 from pptx.enum.shapes import MSO_AUTO_SHAPE_TYPE
 
-from chart_element import make_chart
 from connector_element import make_connector
 from design_system import background, body_text, jitter_box, label_text, sample_theme, title_text
 from element_model import Element
@@ -227,13 +226,6 @@ def themed_image(box, theme, svg=False):
     return el
 
 
-def themed_chart(box, theme):
-    x, y, w, h = jitter_box(box, 0.03)
-    el = make_chart(x, y, w, h)
-    el.data["focus"] = area(box) > 8
-    return el
-
-
 def themed_table(box, theme):
     x, y, w, h = jitter_box(box, 0.03)
     el = make_table(x, y, w, h)
@@ -307,20 +299,6 @@ def image_grid_block(box, theme):
     els = []
     for region in regions[: random.randint(2, len(regions))]:
         els.extend(image_block(region, theme, focus=False))
-    return els
-
-
-def chart_block(box, theme):
-    els = []
-    if random.random() < 0.55:
-        els.append(panel_el(box, theme, fill=theme["panel"]))
-        chart_box = inset(box, 0.25, 0.25)
-    else:
-        chart_box = box
-    els.append(themed_chart(chart_box, theme))
-    if random.random() < config.RANDOM_PROPERTY_VARIATION_PROBABILITY:
-        els[-1].data["has_legend"] = random.choice([True, False])
-        els[-1].data["has_title"] = random.choice([True, False])
     return els
 
 
@@ -503,7 +481,6 @@ GROUPS = {
     "text": text_block,
     "image": image_block,
     "image_grid": image_grid_block,
-    "chart": chart_block,
     "table": table_block,
     "stat": stat_block,
     "metrics": metric_row_group,
@@ -606,7 +583,6 @@ def choose_group(region, used):
         "text": 1.4,
         "image": 1.3,
         "image_grid": 0.55 if w > 3.2 and h > 1.8 else 0.0,
-        "chart": 0.8 if w > 2.8 and h > 1.8 else 0.0,
         "table": 0.45 if w > 3.2 and h > 1.8 else 0.0,
         "stat": 0.85 if w > 1.6 and h > 1.2 else 0.0,
         "metrics": 0.6 if w > 3.0 and h > 1.0 else 0.0,
@@ -617,8 +593,6 @@ def choose_group(region, used):
     }
     if used.get("image", 0) >= 2:
         options["image"] = 0.1
-    if used.get("chart", 0) >= 1:
-        options["chart"] = 0.1
     if used.get("table", 0) >= 1:
         options["table"] = 0.05
     names = [name for name, weight in options.items() if weight > 0]
@@ -632,7 +606,6 @@ def element_selection_score(el):
     base += {
         "text": 8.0,
         "image": 7.0,
-        "chart": 6.0,
         "table": 6.0,
         "shape": 3.0,
         "svg_image": 3.0,
@@ -681,7 +654,7 @@ def _make_full_elements():
 
     for idx, region in enumerate(regions[:group_count]):
         if region == largest and area(region) > 7 and random.random() < 0.75:
-            group = random.choices(["image", "image_grid", "chart", "table", "text", "cards", "metrics"], weights=[1.7, 0.7, 1.2, 0.7, 1.0, 0.9, 0.7], k=1)[0]
+            group = random.choices(["image", "image_grid", "table", "text", "cards", "metrics"], weights=[1.7, 0.7, 0.7, 1.0, 0.9, 0.7], k=1)[0]
         else:
             group = choose_group(region, used)
         used[group] = used.get(group, 0) + 1

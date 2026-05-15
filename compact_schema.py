@@ -7,7 +7,6 @@ TYPE_TO_CODE = {
     "table": "tb",
     "image": "im",
     "connector": "cn",
-    "chart": "ch",
     "freeform": "ff",
     "svg": "sv",
     "svg_image": "si",
@@ -75,12 +74,6 @@ def _compact_props(kind, props):
             "c": props.get("color"),
             "w": _round(props.get("width", 1.0), 2),
         }
-    if kind == "chart":
-        return {
-            "ct": props.get("chart"),
-            "cat": props.get("categories"),
-            "ser": props.get("series"),
-        }
     if kind in {"freeform", "svg"}:
         return {
             "p": props.get("pattern"),
@@ -146,15 +139,6 @@ def _expand_props(kind, props):
             "width": float(_round(props.get("w", 1.0), 2) or 1.0),
             "dash": "solid",
             "flip": False,
-        }
-    if kind == "chart":
-        return {
-            "chart": props.get("ct") or "column",
-            "categories": props.get("cat") if isinstance(props.get("cat"), list) else ["A", "B", "C"],
-            "series": props.get("ser") if isinstance(props.get("ser"), list) else [],
-            "has_legend": False,
-            "has_title": False,
-            "title": "",
         }
     if kind == "freeform":
         return {

@@ -44,13 +44,12 @@ Return only compact JSON in this exact shape:
 <json>{"v":1,"s":[13.333,7.5],"bg":["solid",[255,255,255]],"o":[object_rows]}</json>
 
 Each object row MUST be an array: [type,x,y,w,h,props]. Use inches for coordinates.
-Types: tx text, sh shape, tb table, im image, cn connector, ch chart, ff freeform, sv svg, si svg_image.
+Types: tx text, sh shape, tb table, im image, cn connector, ff freeform, sv svg, si svg_image.
 Common props:
 tx {"t":"text","fs":24,"ff":"Arial","c":[0,0,0],"b":1}
 sh {"sh":"rect","f":[230,230,230],"l":[40,40,40],"lw":1}
 tb {"r":3,"c":3,"cells":[["a","b"]],"hd":[0,0,0],"bd":[255,255,255],"tc":[0,0,0],"fs":10}
 im {}
-ch {"ct":"column","cat":["A","B"],"ser":[{"name":"S","values":[1,2]}]}
 Example output: <json>{"v":1,"s":[13.333,7.5],"bg":["solid",[30,80,160]],"o":[["sh",1.2,0.8,5.5,3.2,{"sh":"rect","f":[220,220,255],"l":[0,0,128],"lw":1}],["tx",7.5,1.5,4.5,1.0,{"t":"Title","fs":24,"ff":"Arial","c":[255,255,255],"b":1}]]}</json>
 Do not include markdown or explanatory text."""
 
@@ -412,6 +411,10 @@ def find_latest_stage_checkpoint(output_dir):
     output_dir = Path(output_dir)
     stage_dirs = sorted(output_dir.glob("_stage_level_*"), reverse=True)
     for d in stage_dirs:
+        if (d / "adapter_config.json").exists():
+            return d
+    pretrained_dirs = sorted(output_dir.glob("_pretrained_*"), reverse=True)
+    for d in pretrained_dirs:
         if (d / "adapter_config.json").exists():
             return d
     return None

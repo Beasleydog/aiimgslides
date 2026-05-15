@@ -18,7 +18,6 @@ SHAPE_COUNT = 4
 TABLE_COUNT = 1
 IMAGE_COUNT = 2
 CONNECTOR_COUNT = 2
-CHART_COUNT = 1
 FREEFORM_COUNT = 1
 SVG_COUNT = 1
 SVG_IMAGE_COUNT = 1
@@ -31,7 +30,6 @@ FOCUS_KIND_WEIGHTS = {
     "text": 1.4,
     "image": 1.2,
     "svg_image": 1.2,
-    "chart": 1.0,
     "table": 0.9,
     "shape": 0.9,
     "freeform": 0.6,
@@ -93,7 +91,6 @@ COLLISION_PADDING_BY_KIND = {
     "table": 0.12,
     "image": 0.08,
     "connector": 0.10,
-    "chart": 0.35,
     "freeform": 0.10,
     "svg": 0.10,
     "svg_image": 0.12,
@@ -106,7 +103,6 @@ SHAPE_SIZE_RANGE = (0.35, 2.4, 0.25, 1.8)
 TABLE_SIZE_RANGE = (2.0, 4.8, 1.0, 2.5)
 IMAGE_SIZE_RANGE = (1.0, 3.0, 0.75, 2.1)
 CONNECTOR_SIZE_RANGE = (0.8, 3.4, 0.4, 1.8)
-CHART_SIZE_RANGE = (2.0, 4.5, 1.4, 2.7)
 FREEFORM_SIZE_RANGE = (0.8, 2.5, 0.6, 1.9)
 SVG_SIZE_RANGE = (1.0, 2.8, 0.8, 2.0)
 SVG_IMAGE_SIZE_RANGE = (1.4, 3.0, 1.0, 2.2)

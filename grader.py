@@ -6,15 +6,13 @@ from pathlib import Path
 
 
 IMAGE_TYPES = {"image", "svg_image"}
-GRAPH_TYPES = {"chart"}
-LIGHT_PROPERTY_TYPES = IMAGE_TYPES | GRAPH_TYPES
+LIGHT_PROPERTY_TYPES = IMAGE_TYPES
 VALID_OBJECT_TYPES = {
     "text",
     "shape",
     "table",
     "image",
     "connector",
-    "chart",
     "freeform",
     "svg",
     "svg_image",
