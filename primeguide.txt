@@ -16,13 +16,17 @@ Valid gpu-type values: CPU_NODE, A10_24GB, A100_80GB, A100_40GB, A30_24GB,
   prime pods create --id <ID> --name <name> --disk-size <GB> --image <image> --yes
 
 Supported images (not all work on all providers):
-  ubuntu_22_cuda_12          # works on runpod; base Ubuntu + CUDA, no Python ML stack
+  ubuntu_22_cuda_12          # works on runpod + massedcompute; base Ubuntu + CUDA, no ML stack
   cuda_12_4_pytorch_2_6      # NOT supported on runpod or massedcompute — avoid
-  cuda_12_6_pytorch_2_7      # try for massedcompute/other providers
+  cuda_12_6_pytorch_2_7      # untested on these providers
 
 Provider gotchas:
   - runpod: supports ubuntu_22_cuda_12; does NOT support cuda_12_x_pytorch_x images
-  - massedcompute: does NOT support cuda_12_4_pytorch_2_6 either; try ubuntu_22_cuda_12
+  - massedcompute: same — use ubuntu_22_cuda_12, then pip install what you need
+
+After creating with ubuntu_22_cuda_12, pip install:
+  pip install transformers trl peft datasets accelerate pillow qwen-vl-utils torchvision "jinja2>=3.1.0"
+  (PyTorch + CUDA already present on the image)
 
 ## Managing pods
   prime pods list
@@ -33,19 +37,41 @@ Provider gotchas:
 ## SSH into a pod
   prime pods ssh <pod-id>          # interactive only — no command passthrough
 
-  To run commands non-interactively, use SSH directly (key is at ~/.ssh/id_rsa):
+  SSH details (IP + port) are shown in: prime pods status <pod-id>
+  To run commands non-interactively:
     ssh -o StrictHostKeyChecking=no -p <PORT> root@<IP> '<command>'
+  massedcompute pods use 'ubuntu' user (not root), standard port 22:
+    ssh -o StrictHostKeyChecking=no ubuntu@<IP> '<command>'
 
-  The pod's IP and port are shown in: prime pods status <pod-id>
-  e.g.  SSH: root@157.157.221.29 -p 43589
+## CRITICAL: Run long jobs inside a REMOTE tmux on the pod
+  If you run training directly in the prime pods ssh shell, it DIES when the
+  SSH connection drops (local tmux kill, network blip, closing laptop, etc).
 
-## Using tmux to drive prime pods ssh
-  tmux new-session -d -s <name>
-  tmux send-keys -t <name> 'prime pods ssh <pod-id>' Enter
-  sleep 8   # wait for connection
-  tmux send-keys -t <name> '<command>' Enter
+  CORRECT workflow — always do this for training:
+    # 1. SSH in
+    prime pods ssh <pod-id>
+
+    # 2. On the pod, start a remote tmux and run training inside it
+    tmux new-session -d -s training
+    tmux send-keys -t training "python3 train.py 2>&1 | tee train.log" Enter
+
+    # 3. Disconnect however you want — training keeps running on the pod
+    exit
+
+  To reconnect and check:
+    prime pods ssh <pod-id>
+    tmux attach -t training        # live view
+    # or non-interactively:
+    tmux capture-pane -t training -p | tail -20
+
+## Driving prime pods ssh via local tmux (for scripting)
+  tmux new-session -d -s <local-name>
+  tmux send-keys -t <local-name> 'prime pods ssh <pod-id>' Enter
+  sleep 10   # wait for connection
+  tmux send-keys -t <local-name> '<remote command>' Enter
   sleep <N>
-  tmux capture-pane -t <name> -p   # read output
+  tmux capture-pane -t <local-name> -p   # read output
+  tmux kill-session -t <local-name>      # disconnect when done
 
 ## Cheap GPU options for ML training (as of 2026-05-15)
   Best value for training a 3B VL model quickly:
@@ -55,13 +81,14 @@ Provider gotchas:
     f5f6fe  A100_80GB x1  US  sxm             ~$1.xx/hr  (best perf, costs more)
     e2c2b8  A100_40GB x1  US  lam             ~$1.xx/hr
 
-  Avoid multi-GPU runpod nodes for training (L4 x2 etc.) — single A100/L40 is faster
-  due to no inter-GPU comms overhead for small models.
+  Avoid multi-GPU runpod nodes for small models — single A100/L40 is faster
+  due to no inter-GPU comms overhead.
 
-## Workflow for training
-  1. Repo already has output/ training data committed — just git clone on pod
+## Workflow for this project
+  1. Training data (output/) and code are in git — just git clone on the pod
   2. Create pod, wait for ACTIVE status
-  3. git clone the repo
-  4. pip install deps (transformers, trl, peft, datasets, qwen-vl-utils etc.)
-  5. Run training inside tmux so it survives disconnects
-  6. Watch with: tmux attach -t <session>  or  tmux capture-pane -t <name> -p
+  3. git clone https://github.com/Beasleydog/aiimgslides.git && cd aiimgslides
+  4. pip install deps (see above)
+  5. Start remote tmux, run training inside it
+  6. Disconnect freely — job survives
+  7. Reconnect anytime: prime pods ssh <pod-id> -> tmux attach -t training
