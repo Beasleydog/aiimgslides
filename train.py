@@ -354,6 +354,9 @@ def train_curriculum(args, gpu, examples, model, processor, peft_config):
         model = trainer.model
         first_stage = False
         remaining -= stage_steps
+        model.save_pretrained(stage_output)
+        processor.save_pretrained(stage_output)
+        print(f"curriculum level {level}: checkpoint saved to {stage_output}")
 
         metrics = evaluate_level(model, processor, stage_examples, args)
         print(
@@ -374,9 +377,18 @@ def train_curriculum(args, gpu, examples, model, processor, peft_config):
     processor.save_pretrained(args.output_dir)
 
 
+def find_latest_stage_checkpoint(output_dir):
+    output_dir = Path(output_dir)
+    stage_dirs = sorted(output_dir.glob("_stage_level_*"), reverse=True)
+    for d in stage_dirs:
+        if (d / "adapter_config.json").exists():
+            return d
+    return None
+
+
 def train(args):
     import torch
-    from peft import LoraConfig
+    from peft import LoraConfig, PeftModel
 
     gpu = require_gpu()
     print(f"GPU: {gpu['name']} ({gpu['total_gb']} GB), bf16={gpu['bf16']}")
@@ -392,6 +404,12 @@ def train(args):
         task_type="CAUSAL_LM",
         target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
     )
+
+    checkpoint = find_latest_stage_checkpoint(args.output_dir)
+    if checkpoint:
+        print(f"Resuming from checkpoint: {checkpoint}")
+        model = PeftModel.from_pretrained(model, checkpoint, is_trainable=True)
+        peft_config = None
 
     if args.curriculum:
         train_curriculum(args, gpu, examples, model, processor, peft_config)
