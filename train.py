@@ -315,7 +315,7 @@ def generate_validation_completion(model, processor, image_path, max_new_tokens)
 def evaluate_level(model, processor, examples, args):
     import random
     sample = random.sample(examples, min(len(examples), max(1, args.curriculum_eval_samples)))
-    completions = [generate_validation_completion(model, processor, item["image_path"], args.max_completion_length) for item in sample]
+    completions = [generate_validation_completion(model, processor, item["image_path"], args.max_eval_completion_length) for item in sample]
     rewards = slide_json_reward_func(completions, target_json=[item["target_json"] for item in sample])
     mean_reward = sum(rewards) / max(1, len(rewards))
     return {"reward": mean_reward, "accuracy": (mean_reward + 1.0) / 2.0, "samples": len(sample)}
@@ -411,6 +411,7 @@ def main():
     parser.add_argument("--model-name", default=MODEL_NAME)
     parser.add_argument("--max-steps", type=int, default=MAX_STEPS)
     parser.add_argument("--max-completion-length", type=int, default=MAX_COMPLETION_LENGTH)
+    parser.add_argument("--max-eval-completion-length", type=int, default=512)
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--curriculum", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--curriculum-stage-steps", type=int, default=8)
