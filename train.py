@@ -269,10 +269,13 @@ def grpo_kwargs(args, gpu, max_steps, output_dir):
     }
 
 
-def make_trainer(model, processor, dataset, args, gpu, max_steps, output_dir, peft_config=None):
+def make_trainer(model, processor, dataset, args, gpu, max_steps, output_dir, peft_config=None, max_completion_length=None):
     from trl import GRPOConfig, GRPOTrainer
 
-    grpo_config = make_grpo_config(GRPOConfig, grpo_kwargs(args, gpu, max_steps, output_dir))
+    kwargs = grpo_kwargs(args, gpu, max_steps, output_dir)
+    if max_completion_length is not None:
+        kwargs["max_completion_length"] = max_completion_length
+    grpo_config = make_grpo_config(GRPOConfig, kwargs)
     return GRPOTrainer(
         model=model,
         processing_class=processor,
@@ -281,6 +284,16 @@ def make_trainer(model, processor, dataset, args, gpu, max_steps, output_dir, pe
         train_dataset=dataset,
         peft_config=peft_config,
     )
+
+
+def level_max_completion_tokens(stage_examples):
+    max_chars = 0
+    for e in stage_examples:
+        try:
+            max_chars = max(max_chars, compact_json_len(e["target_json"]))
+        except Exception:
+            pass
+    return max(512, int(max_chars / 3.8 * 1.5) + 50)
 
 
 def generate_validation_completion(model, processor, image_path, max_new_tokens):
@@ -314,10 +327,12 @@ def generate_validation_completion(model, processor, image_path, max_new_tokens)
     return processor.batch_decode(generated, skip_special_tokens=True)[0]
 
 
-def evaluate_level(model, processor, examples, args):
+def evaluate_level(model, processor, examples, args, max_eval_tokens=None):
     import random
+    if max_eval_tokens is None:
+        max_eval_tokens = args.max_eval_completion_length
     sample = random.sample(examples, min(len(examples), max(1, args.curriculum_eval_samples)))
-    completions = [generate_validation_completion(model, processor, item["image_path"], args.max_eval_completion_length) for item in sample]
+    completions = [generate_validation_completion(model, processor, item["image_path"], max_eval_tokens) for item in sample]
     rewards = slide_json_reward_func(completions, target_json=[item["target_json"] for item in sample])
     mean_reward = sum(rewards) / max(1, len(rewards))
     return {"reward": mean_reward, "accuracy": (mean_reward + 1.0) / 2.0, "samples": len(sample)}
@@ -338,7 +353,8 @@ def train_curriculum(args, gpu, examples, model, processor, peft_config):
         level = levels[current_index]
         stage_steps = min(args.curriculum_stage_steps, remaining)
         stage_examples = by_level[level]
-        print(f"curriculum level {level}: {len(stage_examples)} examples, training {stage_steps} steps")
+        stage_max_tokens = level_max_completion_tokens(stage_examples)
+        print(f"curriculum level {level}: {len(stage_examples)} examples, training {stage_steps} steps, max_completion_tokens={stage_max_tokens}")
 
         dataset = examples_to_dataset(stage_examples)
         stage_output = args.output_dir / f"_stage_level_{level:03}"
@@ -351,6 +367,7 @@ def train_curriculum(args, gpu, examples, model, processor, peft_config):
             stage_steps,
             stage_output,
             peft_config=peft_config if first_stage else None,
+            max_completion_length=stage_max_tokens,
         )
         trainer.train()
         model = trainer.model
@@ -360,7 +377,7 @@ def train_curriculum(args, gpu, examples, model, processor, peft_config):
         processor.save_pretrained(stage_output)
         print(f"curriculum level {level}: checkpoint saved to {stage_output}")
 
-        metrics = evaluate_level(model, processor, stage_examples, args)
+        metrics = evaluate_level(model, processor, stage_examples, args, max_eval_tokens=stage_max_tokens)
         print(
             f"curriculum level {level}: eval reward={metrics['reward']:.4f} "
             f"accuracy={metrics['accuracy']:.4f} samples={metrics['samples']}"
