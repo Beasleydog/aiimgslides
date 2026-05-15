@@ -20,22 +20,22 @@ DATA_DIR = Path("output")
 OUTPUT_DIR = Path("model_output/slide_json_grpo")
 MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct"
 
-MAX_STEPS = 50
+MAX_STEPS = 500
 MAX_PROMPT_LENGTH = 2048
-MAX_COMPLETION_LENGTH = 1024
+MAX_COMPLETION_LENGTH = 3072
 PER_DEVICE_BATCH_SIZE = 2
 GRADIENT_ACCUMULATION_STEPS = 4
 NUM_GENERATIONS = 2
 LEARNING_RATE = 1e-5
-LORA_R = 16
-LORA_ALPHA = 32
+LORA_R = 32
+LORA_ALPHA = 64
 WARMUP_RATIO = 0.03
 WEIGHT_DECAY = 0.01
 MAX_GRAD_NORM = 0.3
 SAVE_STEPS = 25
 SAVE_TOTAL_LIMIT = 3
 IMAGE_MIN_PIXELS = 128 * 28 * 28
-IMAGE_MAX_PIXELS = 384 * 384
+IMAGE_MAX_PIXELS = 768 * 768
 
 USER_PROMPT = """Infer the PowerPoint-like scene graph from this slide image.
 
@@ -389,7 +389,7 @@ def train(args):
         lora_dropout=0.0,
         bias="none",
         task_type="CAUSAL_LM",
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
+        target_modules=["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"],
     )
 
     if args.curriculum:
@@ -415,7 +415,7 @@ def main():
     parser.add_argument("--curriculum-stage-steps", type=int, default=8)
     parser.add_argument("--curriculum-eval-samples", type=int, default=2)
     parser.add_argument("--curriculum-accuracy-threshold", type=float, default=0.62)
-    parser.add_argument("--curriculum-max-repeats", type=int, default=2)
+    parser.add_argument("--curriculum-max-repeats", type=int, default=999)
     args = parser.parse_args()
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
