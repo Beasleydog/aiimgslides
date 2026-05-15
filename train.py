@@ -304,7 +304,9 @@ def generate_validation_completion(model, processor, image_path, max_new_tokens)
         output_ids = model.generate(
             **inputs,
             max_new_tokens=max_new_tokens,
-            do_sample=False,
+            do_sample=True,
+            temperature=0.8,
+            top_p=0.95,
             remove_invalid_values=True,
             renormalize_logits=True,
         )
