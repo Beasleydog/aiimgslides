@@ -218,6 +218,12 @@ def slide_json_reward_func(completions, target_json=None, **kwargs):
             length_score = math.exp(-abs(len(text) - target_len) / max(750, target_len * 0.9))
             unit_reward = 0.06 * format_score + 0.10 * structure_score + 0.09 * length_score + 0.75 * task_score
             unit_reward -= completion_bloat_penalty(text, target_len)
+            # Penalize dict-format objects — they should be compact arrays [type,x,y,w,h,props]
+            if isinstance(raw_prediction, dict) and isinstance(raw_prediction.get("o"), list):
+                objects = raw_prediction["o"]
+                if objects:
+                    frac_dict = sum(1 for obj in objects if isinstance(obj, dict)) / len(objects)
+                    unit_reward -= frac_dict * 0.30
             rewards.append(unit_reward * 2.0 - 1.0)
         except Exception:
             rewards.append(-0.90 + 0.15 * format_score)
@@ -294,7 +300,7 @@ def level_max_completion_tokens(stage_examples):
             max_chars = max(max_chars, compact_json_len(e["target_json"]))
         except Exception:
             pass
-    return max(512, int(max_chars / 3.8 * 1.5) + 50)
+    return max(256, int(max_chars / 3.8 * 1.5) + 50)
 
 
 def generate_validation_completion(model, processor, image_path, max_new_tokens):
