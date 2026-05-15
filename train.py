@@ -411,7 +411,7 @@ def main():
     parser.add_argument("--model-name", default=MODEL_NAME)
     parser.add_argument("--max-steps", type=int, default=MAX_STEPS)
     parser.add_argument("--max-completion-length", type=int, default=MAX_COMPLETION_LENGTH)
-    parser.add_argument("--max-eval-completion-length", type=int, default=512)
+    parser.add_argument("--max-eval-completion-length", type=int, default=1024)
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--curriculum", action=argparse.BooleanOptionalAction, default=True)
     parser.add_argument("--curriculum-stage-steps", type=int, default=8)
