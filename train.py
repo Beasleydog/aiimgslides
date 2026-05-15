@@ -331,11 +331,16 @@ def evaluate_level(model, processor, examples, args, max_eval_tokens=None):
     import random
     if max_eval_tokens is None:
         max_eval_tokens = args.max_eval_completion_length
-    sample = random.sample(examples, min(len(examples), max(1, args.curriculum_eval_samples)))
-    completions = [generate_validation_completion(model, processor, item["image_path"], max_eval_tokens) for item in sample]
-    rewards = slide_json_reward_func(completions, target_json=[item["target_json"] for item in sample])
-    mean_reward = sum(rewards) / max(1, len(rewards))
-    return {"reward": mean_reward, "accuracy": (mean_reward + 1.0) / 2.0, "samples": len(sample)}
+    model.eval()
+    try:
+        sample = random.sample(examples, min(len(examples), max(1, args.curriculum_eval_samples)))
+        completions = [generate_validation_completion(model, processor, item["image_path"], max_eval_tokens) for item in sample]
+        print(f"eval sample[0] preview: {repr(completions[0][:300])}")
+        rewards = slide_json_reward_func(completions, target_json=[item["target_json"] for item in sample])
+        mean_reward = sum(rewards) / max(1, len(rewards))
+        return {"reward": mean_reward, "accuracy": (mean_reward + 1.0) / 2.0, "samples": len(sample)}
+    finally:
+        model.train()
 
 
 def train_curriculum(args, gpu, examples, model, processor, peft_config):
