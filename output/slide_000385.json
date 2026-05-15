@@ -8,105 +8,177 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 120,
+      "angle": 225,
       "archetype": "atomic_composition",
       "colors": [
         [
-          91,
-          93,
-          116
+          167,
+          133,
+          42
         ],
         [
-          174,
-          73,
-          92
+          96,
+          165,
+          250
         ]
       ],
       "fill": [
-        61,
-        64,
-        91
+        167,
+        133,
+        42
       ],
-      "focus": "top_left",
-      "gradient_type": "shape",
+      "focus": "top_right",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Imported"
+      "theme_topic": "Bright"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 10,
+    "level": 10,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 10
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.0614,
-        "w": 4.5002,
-        "x": 5.462,
-        "y": 0.1912
+        "h": 3.5098,
+        "w": 5.2449,
+        "x": 1.9997,
+        "y": 0.8776
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "symbols",
         "fill": [
-          56,
-          61,
-          68
+          113,
+          157,
+          50
         ],
         "focus": false,
         "line": [
-          157,
-          190,
-          83
+          29,
+          158,
+          123
         ],
-        "line_width": 4.558527329716014,
-        "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Imported"
+        "line_width": 3.6707842148168406,
+        "outline_only": true,
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Bright"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.5468,
-        "w": 13.3183,
-        "x": 0.0039,
-        "y": -0.002
+        "h": 5.1741,
+        "w": 7.1521,
+        "x": 6.7657,
+        "y": 2.9518
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          91,
-          93,
-          116
+          120,
+          105,
+          48
         ],
+        "focus": false,
         "line": [
-          91,
-          93,
-          116
+          136,
+          210,
+          213
         ],
-        "line_width": 2.1971160560045377,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Imported"
+        "line_width": 4.62687065657531,
+        "outline_only": true,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Bright"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.8052,
-        "w": 3.2239,
-        "x": 9.4149,
-        "y": 0.6253
+        "h": 3.8515,
+        "w": 7.0705,
+        "x": 5.5867,
+        "y": 3.328
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "ribbons",
+        "fill": [
+          113,
+          97,
+          61
+        ],
+        "focus": false,
+        "line": [
+          159,
+          32,
+          229
+        ],
+        "line_width": 7.598500759025805,
+        "outline_only": false,
+        "ppt_type": 97,
+        "shape": "up_ribbon",
+        "theme_topic": "Bright"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 3.2678,
+        "w": 3.5823,
+        "x": 6.7339,
+        "y": 0.1763
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "ribbons",
+        "fill": [
+          157,
+          163,
+          38
+        ],
+        "focus": false,
+        "line": [
+          178,
+          190,
+          45
+        ],
+        "line_width": 3.2376768575988386,
+        "outline_only": false,
+        "ppt_type": 97,
+        "shape": "up_ribbon",
+        "theme_topic": "Bright"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.9007,
+        "w": 6.3739,
+        "x": 0.7551,
+        "y": 5.8652
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -116,484 +188,164 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 23,
+        "font_face": "Georgia",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Splendid",
-        "theme_topic": "Imported",
+        "text": "Invention Astonishing Title",
+        "theme_topic": "Bright",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.0027,
-        "w": 3.1083,
-        "x": 5.7673,
-        "y": 3.8945
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          91,
-          93,
-          116
-        ],
-        "line": [
-          91,
-          93,
-          116
-        ],
-        "line_width": 0.5285051283155745,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Imported"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.6907,
-        "w": 2.7884,
-        "x": 5.9,
-        "y": 4.0212
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.10501296919702016,
-          0.057779964468227606,
-          0.02740296383224516,
-          0.17398090650051376
-        ],
-        "focus": false,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Imported",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.7803,
-        "w": 8.212,
-        "x": 0.6494,
-        "y": 0.6402
+        "h": 1.3459,
+        "w": 5.3414,
+        "x": 0.5463,
+        "y": 2.4889
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 3,
         "family": "panel",
         "fill": [
-          91,
-          93,
-          116
+          174,
+          106,
+          43
         ],
         "line": [
-          91,
-          93,
-          116
+          180,
+          151,
+          74
         ],
-        "line_width": 0.8148132964352969,
+        "line_width": 0.9395972591745013,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Imported"
+        "theme_topic": "Bright"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.316,
-        "w": 7.7167,
-        "x": 0.9128,
-        "y": 0.9242
+        "h": 0.6358,
+        "w": 4.9874,
+        "x": 0.7295,
+        "y": 2.6804
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "clover",
-          "stranger",
-          "harbor"
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          165,
+          250
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              142,
-              47,
-              92
-            ],
-            "name": "pig selective",
-            "values": [
-              93,
-              67,
-              40
-            ]
-          },
-          {
-            "color": [
-              177,
-              63,
-              114
-            ],
-            "name": "accidental",
-            "values": [
-              73,
-              16,
-              80
-            ]
-          },
-          {
-            "color": [
-              166,
-              225,
-              78
-            ],
-            "name": "frightening",
-            "values": [
-              14,
-              45,
-              26
-            ]
-          }
-        ],
-        "theme_topic": "Imported",
-        "title": "desert unused"
+        "font_face": "Georgia",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "150",
+        "theme_topic": "Bright",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.9993,
-        "w": 4.755,
-        "x": 0.6669,
-        "y": 3.8816
+        "h": 0.6136,
+        "w": 6.3555,
+        "x": 6.2575,
+        "y": 2.6692
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          87,
-          137,
-          162
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          165,
+          250
         ],
-        "line_width": 9,
-        "theme_topic": "Imported"
+        "font_face": "Georgia",
+        "font_size": 24,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "50%",
+        "theme_topic": "Bright",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.8505,
-        "w": 0.6784,
-        "x": 3.159,
-        "y": 4.2209
+        "h": 0.3516,
+        "w": 6.3343,
+        "x": 6.2378,
+        "y": 3.3948
       },
       "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          130,
-          158,
-          48
-        ],
-        "focus": false,
-        "line": [
-          174,
-          86,
-          202
-        ],
-        "line_width": 2.379488492915271,
-        "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Imported"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.2825,
-        "w": 0.7212,
-        "x": 0.8154,
-        "y": 3.1419
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          175,
-          58,
-          155
-        ],
-        "focus": false,
-        "line": [
-          147,
-          140,
-          216
-        ],
-        "line_width": 0.4405778879597603,
-        "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Imported"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.6466,
-        "w": 1.0511,
-        "x": 11.5863,
-        "y": 2.3609
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          102,
-          161,
-          152
-        ],
-        "focus": false,
-        "line": [
-          91,
-          121,
-          74
-        ],
-        "line_width": 3.5429036616205503,
-        "outline_only": false,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Imported"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.3496,
-        "w": 0.8233,
-        "x": 7.6167,
-        "y": 0.5621
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "swoop",
-        "primary": [
-          25,
-          148,
-          94
-        ],
-        "secondary": [
-          124,
-          153,
-          167
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#822f85\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#ae2f59\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
-        "theme_topic": "Imported"
-      },
-      "type": "svg",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.43,
-        "w": 1.1921,
-        "x": 7.812,
-        "y": 6.056
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          110,
-          193,
-          84
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Imported",
-        "width": 2.082490624129271
-      },
-      "type": "connector",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.9748,
-        "w": 0.6509,
-        "x": 0.386,
-        "y": 5.6237
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          64,
-          130,
-          109
-        ],
-        "line": [
-          174,
-          73,
-          92
-        ],
-        "line_width": 1.383998868189178,
-        "pattern": "badge",
-        "points": [
-          [
-            0.5,
-            0.0
-          ],
-          [
-            0.62,
-            0.25
-          ],
-          [
-            0.92,
-            0.18
-          ],
-          [
-            0.75,
-            0.5
-          ],
-          [
-            0.98,
-            0.78
-          ],
-          [
-            0.62,
-            0.72
-          ],
-          [
-            0.5,
-            1.0
-          ],
-          [
-            0.38,
-            0.72
-          ],
-          [
-            0.02,
-            0.78
-          ],
-          [
-            0.25,
-            0.5
-          ],
-          [
-            0.08,
-            0.18
-          ],
-          [
-            0.38,
-            0.25
-          ]
-        ],
-        "theme_topic": "Imported"
-      },
-      "type": "freeform",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.4539,
-        "w": 0.8536,
-        "x": 4.2645,
-        "y": 2.2822
-      },
-      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          140,
-          86,
-          114
+          210,
+          196,
+          157
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": true,
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "brass pricey",
-        "theme_topic": "Imported",
+        "text": "greet dare yoke",
+        "theme_topic": "Bright",
         "underline": false
       },
       "type": "text",
-      "z_order": 15
+      "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.5536,
-        "w": 0.3739,
-        "x": 12.6052,
-        "y": 3.3259
+        "h": 1.6626,
+        "w": 12.203,
+        "x": 0.5734,
+        "y": 0.5384
       },
-      "id": "object_016",
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          188,
-          179,
-          67
+        "crop": [
+          0.11415614405534728,
+          0.1293434571801324,
+          0.1609925315662554,
+          0.16374659507509673
         ],
-        "focus": false,
-        "line": [
-          157,
-          67,
-          146
+        "focus": true,
+        "mask_line": [
+          143,
+          162,
+          56
         ],
-        "line_width": 3.0743596872167362,
-        "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Imported"
+        "mask_overlay": true,
+        "theme_topic": "Bright",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
-      "z_order": 16
+      "type": "image",
+      "z_order": 10
     }
   ],
   "slide": {

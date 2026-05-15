@@ -8,332 +8,113 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          43,
-          162,
-          130
-        ],
-        [
-          48,
-          78,
-          140
-        ]
+      "back_color": [
+        191,
+        99,
+        75
       ],
       "fill": [
-        28,
-        143,
-        112
+        33,
+        115,
+        169
       ],
-      "focus": "bottom_left",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Buzz Knowledgeable"
+      "fore_color": [
+        255,
+        117,
+        117
+      ],
+      "pattern": 10,
+      "style": "pattern",
+      "theme_topic": "Bridge"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 2,
+    "level": 2,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 2
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.097,
-        "w": 6.9211,
-        "x": -0.6225,
-        "y": 0.3775
+        "h": 4.8997,
+        "w": 6.9828,
+        "x": 7.4229,
+        "y": 1.9583
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "math",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          52,
-          116,
-          121
+          37,
+          188,
+          189
         ],
         "focus": false,
         "line": [
-          169,
-          122,
-          107
+          144,
+          153,
+          127
         ],
-        "line_width": 2.933464401154296,
-        "outline_only": true,
-        "ppt_type": 165,
-        "shape": "multiply",
-        "theme_topic": "Buzz Knowledgeable"
+        "line_width": 7.871027352800173,
+        "outline_only": false,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Bridge"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.1446,
-        "w": 3.3631,
-        "x": 6.1352,
-        "y": 2.5241
+        "h": 2.556,
+        "w": 3.7954,
+        "x": 0.5566,
+        "y": 4.4081
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          92,
-          138,
-          141
+        "categories": [
+          "meeting",
+          "file",
+          "caring",
+          "fine",
+          "inconclusive"
         ],
-        "focus": false,
-        "line": [
-          161,
-          97,
-          32
-        ],
-        "line_width": 2.3221463750224713,
-        "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Buzz Knowledgeable"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.8827,
-        "w": 7.5812,
-        "x": 3.1597,
-        "y": 4.9371
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          148,
-          130,
-          130
-        ],
-        "focus": false,
-        "line": [
-          202,
-          126,
-          209
-        ],
-        "line_width": 2.243229102194367,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Buzz Knowledgeable"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.1109,
-        "w": 8.5168,
-        "x": 4.0453,
-        "y": -0.3254
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
-        "fill": [
-          62,
-          170,
-          112
-        ],
-        "focus": false,
-        "line": [
-          178,
-          119,
-          131
-        ],
-        "line_width": 5.438599446295101,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Buzz Knowledgeable"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.3472,
-        "w": 5.8607,
-        "x": 0.5531,
-        "y": 0.3554
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          248,
-          255,
-          252
-        ],
-        "font_face": "Georgia",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Keen Daffy",
-        "theme_topic": "Buzz Knowledgeable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.1614,
-        "w": 5.9049,
-        "x": 6.8954,
-        "y": 1.821
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
+        "chart": "bar",
         "focus": true,
-        "mask_line": [
-          193,
-          41,
-          174
+        "has_legend": false,
+        "has_title": true,
+        "ppt_type": 57,
+        "series": [
+          {
+            "color": [
+              189,
+              209,
+              51
+            ],
+            "name": "modern wakeful",
+            "values": [
+              12,
+              34,
+              47,
+              51,
+              45
+            ]
+          }
         ],
-        "mask_overlay": false,
-        "theme_topic": "Buzz Knowledgeable",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "theme_topic": "Bridge",
+        "title": "unwritten wrong hard-to-find"
       },
-      "type": "image",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.4662,
-        "w": 5.8942,
-        "x": 0.5349,
-        "y": 3.692
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "ribbon_path",
-        "primary": [
-          127,
-          121,
-          123
-        ],
-        "secondary": [
-          162,
-          35,
-          71
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#29d698\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#823373\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
-        "theme_topic": "Buzz Knowledgeable"
-      },
-      "type": "svg",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.7793,
-        "w": 1.0364,
-        "x": 3.8815,
-        "y": 0.9822
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          201,
-          135,
-          207
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Buzz Knowledgeable",
-        "width": 2.8207512975356135
-      },
-      "type": "connector",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4253,
-        "w": 0.7585,
-        "x": 4.7545,
-        "y": 2.3804
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          198,
-          182,
-          75
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "disagree creepy",
-        "theme_topic": "Buzz Knowledgeable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.5446,
-        "w": 0.9985,
-        "x": 3.9687,
-        "y": 6.7587
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          153,
-          140,
-          106
-        ],
-        "focus": false,
-        "line": [
-          43,
-          179,
-          49
-        ],
-        "line_width": 2.761094333576026,
-        "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Buzz Knowledgeable"
-      },
-      "type": "shape",
-      "z_order": 10
+      "type": "chart",
+      "z_order": 2
     }
   ],
   "slide": {

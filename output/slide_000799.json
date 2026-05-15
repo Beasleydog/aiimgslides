@@ -8,129 +8,143 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        230,
-        96,
-        36
+      "colors": [
+        [
+          236,
+          240,
+          242
+        ],
+        [
+          222,
+          133,
+          62
+        ]
       ],
       "fill": [
-        142,
-        29,
-        48
+        247,
+        248,
+        246
       ],
-      "fore_color": [
-        189,
-        186,
-        123
-      ],
-      "pattern": 24,
-      "style": "pattern",
-      "theme_topic": "Trains Carve"
+      "focus": "center",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Devilish"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 20,
+    "level": 20,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 20
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.707,
-        "w": 7.518,
-        "x": 4.3524,
-        "y": 6.6796
+        "h": 3.7347,
+        "w": 7.2682,
+        "x": 1.7842,
+        "y": 4.428
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 5,
-        "family": "flowchart",
+        "family": "stars",
         "fill": [
-          182,
-          122,
-          33
+          167,
+          116,
+          125
         ],
         "focus": false,
         "line": [
-          199,
-          33,
-          83
+          97,
+          57,
+          177
         ],
-        "line_width": 2.0068360746423,
+        "line_width": 4.485784223049061,
         "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Trains Carve"
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Devilish"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.7508,
-        "w": 3.6433,
-        "x": -0.7817,
-        "y": 1.3455
+        "h": 4.6759,
+        "w": 7.8092,
+        "x": 3.2854,
+        "y": 3.6126
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          107,
+          121,
           160,
-          129
+          95
         ],
         "focus": false,
         "line": [
-          140,
-          111,
-          120
+          116,
+          118,
+          185
         ],
-        "line_width": 3.4741094714194487,
+        "line_width": 3.486015957237132,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Trains Carve"
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Devilish"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.8145,
-        "w": 3.1859,
-        "x": 9.4056,
-        "y": 0.6453
+        "h": 2.9421,
+        "w": 8.1842,
+        "x": 1.8065,
+        "y": -0.6514
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 3,
+        "family": "math",
+        "fill": [
+          175,
+          107,
+          119
         ],
-        "font_face": "Georgia",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Profuse Fax Zealous",
-        "theme_topic": "Trains Carve",
-        "underline": false
+        "focus": false,
+        "line": [
+          120,
+          29,
+          82
+        ],
+        "line_width": 6.163479414164474,
+        "outline_only": true,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Devilish"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.3049,
-        "w": 2.3191,
-        "x": 1.4632,
-        "y": 3.8362
+        "h": 0.8913,
+        "w": 4.3774,
+        "x": 1.6291,
+        "y": 0.6941
       },
       "id": "object_004",
       "properties": {
@@ -138,17 +152,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          30,
+          35,
+          42
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 25,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "FLOWER ANGRY",
-        "theme_topic": "Trains Carve",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Care Whistle",
+        "theme_topic": "Devilish",
         "underline": false
       },
       "type": "text",
@@ -156,266 +170,466 @@
     },
     {
       "bbox": {
-        "h": 0.2254,
-        "w": 2.309,
-        "x": 1.4811,
-        "y": 4.3138
+        "h": 5.5358,
+        "w": 6.0024,
+        "x": 0.5246,
+        "y": 1.4537
       },
       "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "clip": "hex",
+        "focus": true,
+        "line": [
+          50,
+          62,
+          200
+        ],
+        "line_width": 9,
+        "theme_topic": "Devilish"
+      },
+      "type": "svg_image",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.6186,
+        "w": 1.7913,
+        "x": 7.0433,
+        "y": 1.5145
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "clip": "hex",
+        "focus": false,
+        "line": [
+          31,
+          117,
+          161
+        ],
+        "line_width": 13,
+        "theme_topic": "Devilish"
+      },
+      "type": "svg_image",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.2764,
+        "w": 1.3754,
+        "x": 7.2084,
+        "y": 3.6713
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          31,
+          117,
+          161
         ],
-        "font_face": "Georgia",
-        "font_size": 18,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Pretty",
-        "theme_topic": "Trains Carve",
-        "underline": true
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Plot Examine Sugar",
+        "theme_topic": "Devilish",
+        "underline": false
       },
       "type": "text",
-      "z_order": 5
+      "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.2525,
-        "w": 2.4015,
-        "x": 5.4852,
-        "y": 3.2034
+        "h": 2.6566,
+        "w": 1.7889,
+        "x": 8.955,
+        "y": 1.4672
       },
-      "id": "object_006",
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0,
-          0,
-          0,
-          0
+          0.3076741258301177,
+          0.2538994963534887,
+          0.10193838100940432,
+          0.011795186214375067
         ],
         "focus": false,
         "mask_line": [
-          78,
-          75,
-          150
+          67,
+          200,
+          90
         ],
-        "mask_overlay": true,
-        "theme_topic": "Trains Carve",
+        "mask_overlay": false,
+        "theme_topic": "Devilish",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
-      "z_order": 6
+      "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2579,
-        "w": 1.4075,
-        "x": 1.8562,
-        "y": 0.9177
+        "h": 2.6596,
+        "w": 1.8152,
+        "x": 10.9472,
+        "y": 1.4939
       },
-      "id": "object_007",
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          236,
+          240,
+          242
+        ],
+        "line": [
+          236,
+          240,
+          242
+        ],
+        "line_width": 5.201020312311753,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Devilish"
+      },
+      "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 2.3765,
+        "w": 1.5305,
+        "x": 11.1139,
+        "y": 1.6607
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.09313266891038369,
+          0.19679981785026093,
+          0.21060762972689168,
+          0.12190821722092632
+        ],
+        "focus": false,
+        "mask_line": [
+          31,
+          117,
+          161
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Devilish",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 2.641,
+        "w": 1.7976,
+        "x": 7.0204,
+        "y": 4.3168
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          236,
+          240,
+          242
+        ],
+        "line": [
+          236,
+          240,
+          242
+        ],
+        "line_width": 0.4716731026531571,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Devilish"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 2.3183,
+        "w": 1.5061,
+        "x": 7.1482,
+        "y": 4.4734
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "clip": "ticket",
+        "focus": false,
+        "line": [
+          49,
+          40,
+          198
+        ],
+        "line_width": 13,
+        "theme_topic": "Devilish"
+      },
+      "type": "svg_image",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 2.6787,
+        "w": 1.7923,
+        "x": 8.9575,
+        "y": 4.3171
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.03308178265332441,
+          0.1281923901010558,
+          0.16748218259889402,
+          0.11263763849668697
+        ],
+        "focus": false,
+        "mask_line": [
+          31,
+          117,
+          161
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Devilish",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.2889,
+        "w": 1.4158,
+        "x": 9.1664,
+        "y": 6.4882
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          117,
+          161
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Grouchy",
+        "theme_topic": "Devilish",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 2.6289,
+        "w": 1.78,
+        "x": 10.9676,
+        "y": 4.2731
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.2629465546275217,
+          0.2949664395810964,
+          0.32658771680242776,
+          0.10838700357660327
+        ],
+        "focus": false,
+        "mask_line": [
+          216,
+          127,
+          70
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Devilish",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.2943,
+        "w": 1.399,
+        "x": 11.1357,
+        "y": 6.4825
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          117,
+          161
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Faint Theory",
+        "theme_topic": "Devilish",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.9852,
+        "w": 0.6489,
+        "x": 12.5176,
+        "y": 5.2597
+      },
+      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "stars",
         "fill": [
-          40,
-          132,
-          188
+          75,
+          184,
+          148
         ],
         "focus": false,
         "line": [
-          141,
-          147,
-          72
+          185,
+          150,
+          40
         ],
-        "line_width": 3.264727788971976,
+        "line_width": 2.139267376503053,
         "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Trains Carve"
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Devilish"
       },
       "type": "shape",
-      "z_order": 7
+      "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.9205,
-        "w": 0.3594,
-        "x": 8.9014,
-        "y": 0.2356
+        "h": 0.7889,
+        "w": 1.2184,
+        "x": 11.0876,
+        "y": 1.7543
       },
-      "id": "object_008",
+      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "symbols",
         "fill": [
-          255,
-          206,
-          86
+          31,
+          27,
+          161
         ],
+        "focus": false,
         "line": [
-          230,
-          123,
-          150
+          103,
+          184,
+          188
         ],
-        "line_width": 2.5718634106934886,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Trains Carve"
+        "line_width": 1.2273364336060153,
+        "outline_only": false,
+        "ppt_type": 172,
+        "shape": "gear6",
+        "theme_topic": "Devilish"
       },
-      "type": "freeform",
-      "z_order": 8
+      "type": "shape",
+      "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.2328,
-        "w": 1.7126,
-        "x": 3.1414,
-        "y": 4.2298
+        "h": 0.3687,
+        "w": 0.7567,
+        "x": 4.7864,
+        "y": 0.3399
       },
-      "id": "object_009",
+      "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          142,
-          230,
-          27
+        "bg_color": [
+          140,
+          202,
+          92
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "crazy truculent development",
-        "theme_topic": "Trains Carve",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.6127,
-        "w": 1.1626,
-        "x": 11.1823,
-        "y": 4.6296
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
         "bold": false,
         "color": [
-          116,
-          54,
-          37
+          181,
+          215,
+          139
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
+        "font_face": "Arial",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "use partner uppity",
-        "theme_topic": "Trains Carve",
+        "text": "trucks delicate invincible",
+        "theme_topic": "Devilish",
         "underline": false
       },
       "type": "text",
-      "z_order": 10
+      "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.6378,
-        "w": 2.1647,
-        "x": 8.7135,
-        "y": 6.3782
+        "h": 0.7772,
+        "w": 1.0033,
+        "x": 8.9273,
+        "y": 1.9344
       },
-      "id": "object_011",
+      "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          171,
-          184,
-          151
-        ],
-        "connector": "curve",
         "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Trains Carve",
-        "width": 2.7704349547387066
-      },
-      "type": "connector",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 2.1797,
-        "x": 1.5812,
-        "y": 6.2834
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          145,
-          80,
-          149
+        "family": "math",
+        "fill": [
+          84,
+          199,
+          167
         ],
-        "font_face": "Aptos",
-        "font_size": 5,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "zesty measly",
-        "theme_topic": "Trains Carve",
-        "underline": false
+        "focus": false,
+        "line": [
+          112,
+          163,
+          81
+        ],
+        "line_width": 3.641655824091897,
+        "outline_only": true,
+        "ppt_type": 167,
+        "shape": "equal",
+        "theme_topic": "Devilish"
       },
-      "type": "text",
-      "z_order": 12
+      "type": "shape",
+      "z_order": 20
     }
   ],
   "slide": {

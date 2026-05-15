@@ -8,856 +8,155 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "fill": [
-        29,
-        151,
-        112
+      "colors": [
+        [
+          180,
+          208,
+          77
+        ],
+        [
+          32,
+          119,
+          149
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Erect Borrow"
+      "fill": [
+        43,
+        39,
+        160
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Supply"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 4,
+    "level": 4,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 4
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.5919,
-        "w": 5.0886,
-        "x": -0.2609,
-        "y": 3.2316
+        "h": 4.7649,
+        "w": 8.779,
+        "x": 2.4091,
+        "y": 2.9828
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          127,
-          179,
-          87
+          94,
+          89,
+          184
         ],
         "focus": false,
         "line": [
-          207,
-          154,
-          108
+          187,
+          32,
+          55
         ],
-        "line_width": 7.0339470390571535,
+        "line_width": 6.668904628947365,
         "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Erect Borrow"
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Supply"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.4977,
-        "w": 8.9669,
-        "x": 1.1159,
-        "y": 5.8002
+        "h": 1.2888,
+        "w": 8.5826,
+        "x": 0.525,
+        "y": 0.3744
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          36,
-          68,
-          50
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          89,
-          45,
-          178
-        ],
-        "line_width": 7.8495394555925175,
-        "outline_only": true,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Erect Borrow"
+        "font_face": "Aptos Display",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Delightful Cow",
+        "theme_topic": "Supply",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.38,
-        "w": 0.2,
-        "x": 1.0408,
-        "y": 1.149
+        "h": 2.3035,
+        "w": 12.246,
+        "x": 0.5547,
+        "y": 1.855
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
+        "dash": 2,
         "family": "panel",
         "fill": [
-          82,
-          96,
-          214
+          75,
+          72,
+          174
         ],
         "line": [
-          60,
-          165,
-          131
+          75,
+          72,
+          174
         ],
-        "line_width": 2.1499161492236287,
+        "line_width": 0.8967711663354858,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Erect Borrow"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Supply"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.568,
-        "w": 2.8652,
-        "x": 0.6547,
-        "y": 0.7507
+        "h": 2.0207,
+        "w": 11.9416,
+        "x": 0.7093,
+        "y": 2.0161
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Georgia",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Friction",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.3643,
-        "w": 5.0361,
-        "x": 5.7296,
-        "y": 5.5127
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.22961609461096397,
-          0.11002749150744363,
-          0.17288003634562926,
-          0.3002339534308884
-        ],
-        "focus": false,
-        "mask_line": [
-          28,
-          118,
-          37
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Erect Borrow",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 6.2306,
-        "w": 1.6086,
-        "x": 3.766,
-        "y": 0.6352
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          82,
-          96,
-          214
-        ],
-        "line": [
-          60,
-          165,
-          131
-        ],
-        "line_width": 1.3782199368173236,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Erect Borrow"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.1505,
-        "w": 1.2632,
-        "x": 3.9197,
-        "y": 1.7511
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Georgia",
-        "font_size": 43,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "43%",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.6978,
-        "w": 1.2649,
-        "x": 3.9159,
-        "y": 4.4795
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "dear abortive giants crow bare trains squalid",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 3.4817,
-        "w": 1.3477,
-        "x": 5.7252,
-        "y": 1.7677
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          60,
-          165,
-          131
-        ],
-        "line": [
-          60,
-          165,
-          131
-        ],
-        "line_width": 2.110468648095107,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Erect Borrow"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.4724,
-        "w": 0.8766,
-        "x": 5.9541,
-        "y": 2.6629
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Dark",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 1.873,
-        "w": 0.851,
-        "x": 5.9617,
-        "y": 3.2448
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          148,
-          204,
-          189
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "quiver scrape splendid bird brick sheep spell sedate harbor release short",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 3.4914,
-        "w": 0.9503,
-        "x": 7.313,
-        "y": 1.769
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          60,
-          165,
-          131
-        ],
-        "line": [
-          60,
-          165,
-          131
-        ],
-        "line_width": 3.27556032028215,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Erect Borrow"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.4305,
-        "w": 0.4971,
-        "x": 7.5401,
-        "y": 2.651
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Snobbish Dance",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 1.8336,
-        "w": 0.4908,
-        "x": 7.579,
-        "y": 3.2148
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          148,
-          204,
-          189
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "squash envious abandoned ring neighborly flesh haircut interrupt foamy number",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 3.5193,
-        "w": 0.9854,
-        "x": 8.4792,
-        "y": 1.7616
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          60,
-          165,
-          131
-        ],
-        "line": [
-          60,
-          165,
-          131
-        ],
-        "line_width": 2.2556410717499125,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Erect Borrow"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4657,
-        "w": 0.5014,
-        "x": 8.7345,
-        "y": 2.6805
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Elastic",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 1.8431,
-        "w": 0.4927,
-        "x": 8.7204,
-        "y": 3.203
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          148,
-          204,
-          189
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "hideous overwrought preserve second attraction achiever argument brief foregoing protest mice",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 3.4834,
-        "w": 1.0845,
-        "x": 9.6814,
-        "y": 1.7578
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          60,
-          165,
-          131
-        ],
-        "line": [
-          60,
-          165,
-          131
-        ],
-        "line_width": 0.8141949658220156,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Erect Borrow"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.469,
-        "w": 0.6105,
-        "x": 9.9439,
-        "y": 2.6919
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Fuel Confused",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 1.8649,
-        "w": 0.5728,
-        "x": 9.9398,
-        "y": 3.2181
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          148,
-          204,
-          189
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "whisper cars horn grateful like cheap nappy pigs include cobweb creepy concentrate",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 6.2508,
-        "w": 1.626,
-        "x": 11.122,
-        "y": 0.6715
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.09362398439729089,
-          0.2626146949532771,
-          0.0730293398258253,
-          0.13672961590701516
-        ],
+        "clip": "blob",
         "focus": true,
-        "mask_line": [
-          50,
-          205,
-          210
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Erect Borrow",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.2849,
-        "w": 1.2164,
-        "x": 11.2947,
-        "y": 6.463
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Second Shop Lighten",
-        "theme_topic": "Erect Borrow",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.4527,
-        "w": 0.805,
-        "x": 10.2964,
-        "y": 0.9579
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          55,
-          205,
-          150
-        ],
         "line": [
-          82,
-          96,
-          214
+          202,
+          214,
+          192
         ],
-        "line_width": 1.6896888816643594,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Erect Borrow"
+        "line_width": 13,
+        "theme_topic": "Supply"
       },
-      "type": "freeform",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 0.2267,
-        "w": 0.2445,
-        "x": 11.0455,
-        "y": 0.9417
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "math",
-        "fill": [
-          209,
-          27,
-          143
-        ],
-        "focus": false,
-        "line": [
-          51,
-          165,
-          201
-        ],
-        "line_width": 4.47910991879893,
-        "outline_only": false,
-        "ppt_type": 164,
-        "shape": "minus",
-        "theme_topic": "Erect Borrow"
-      },
-      "type": "shape",
-      "z_order": 24
-    },
-    {
-      "bbox": {
-        "h": 0.4637,
-        "w": 0.7153,
-        "x": 5.0173,
-        "y": 4.7506
-      },
-      "id": "object_025",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          127,
-          181,
-          205
-        ],
-        "focus": false,
-        "line": [
-          186,
-          146,
-          66
-        ],
-        "line_width": 5.479551288055263,
-        "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Erect Borrow"
-      },
-      "type": "shape",
-      "z_order": 25
-    },
-    {
-      "bbox": {
-        "h": 1.016,
-        "w": 0.5734,
-        "x": 1.3928,
-        "y": 0.8377
-      },
-      "id": "object_026",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          222,
-          151,
-          90
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Erect Borrow",
-        "width": 1.0083193811912938
-      },
-      "type": "connector",
-      "z_order": 26
-    },
-    {
-      "bbox": {
-        "h": 0.7754,
-        "w": 0.836,
-        "x": 5.2021,
-        "y": 4.5973
-      },
-      "id": "object_027",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
-        "fill": [
-          57,
-          176,
-          96
-        ],
-        "focus": false,
-        "line": [
-          38,
-          211,
-          217
-        ],
-        "line_width": 1.116386749836197,
-        "outline_only": true,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Erect Borrow"
-      },
-      "type": "shape",
-      "z_order": 27
+      "type": "svg_image",
+      "z_order": 4
     }
   ],
   "slide": {

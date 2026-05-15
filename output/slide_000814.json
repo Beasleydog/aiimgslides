@@ -10,158 +10,168 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        29,
-        175,
-        147
+        55,
+        203,
+        195
       ],
       "fill": [
-        29,
-        175,
-        147
+        202,
+        74,
+        92
       ],
       "fore_color": [
-        219,
-        178,
-        33
+        134,
+        97,
+        111
       ],
-      "pattern": 8,
+      "pattern": 1,
       "style": "pattern",
-      "theme_topic": "Settle"
+      "theme_topic": "Contain"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 21,
+    "level": 21,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 21
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.5106,
-        "w": 6.497,
-        "x": 7.4406,
-        "y": 1.3368
+        "h": 4.9249,
+        "w": 4.3061,
+        "x": 0.583,
+        "y": 0.2678
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 2,
+        "family": "ribbons",
         "fill": [
-          76,
-          108,
-          110
+          115,
+          81,
+          181
         ],
         "focus": false,
         "line": [
-          68,
-          173,
-          172
+          36,
+          133,
+          187
         ],
-        "line_width": 2.3501655203614478,
+        "line_width": 7.130514104285043,
         "outline_only": false,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Settle"
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Contain"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.7539,
-        "w": 4.8778,
-        "x": 5.0806,
-        "y": 0.0433
+        "h": 3.283,
+        "w": 4.1276,
+        "x": 0.9232,
+        "y": -0.8626
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          138,
-          95,
-          187
+          136,
+          160,
+          175
         ],
         "focus": false,
         "line": [
-          39,
-          228,
-          115
+          223,
+          149,
+          40
         ],
-        "line_width": 6.578148259043836,
+        "line_width": 5.047889593499054,
         "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Settle"
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Contain"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.3397,
-        "w": 4.8182,
-        "x": 0.0142,
-        "y": 0.0133
+        "h": 3.5591,
+        "w": 3.9536,
+        "x": 6.1287,
+        "y": -0.6013
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          56,
-          184,
-          160
+          146,
+          136,
+          148
         ],
+        "focus": false,
         "line": [
-          56,
-          184,
-          160
+          60,
+          126,
+          175
         ],
-        "line_width": 2.29064121304733,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Settle"
+        "line_width": 5.044567897000589,
+        "outline_only": true,
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Contain"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5377,
-        "w": 2.8481,
-        "x": 0.6716,
-        "y": 0.7351
+        "h": 1.0329,
+        "w": 0.2,
+        "x": 9.7888,
+        "y": 3.7692
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
         ],
-        "font_face": "Aptos Display",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Rabbits Narrow",
-        "theme_topic": "Settle",
-        "underline": false
+        "line": [
+          209,
+          99,
+          114
+        ],
+        "line_width": 1.9758645639055774,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Contain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 3.0244,
-        "w": 2.85,
-        "x": 6.8352,
-        "y": 0.6407
+        "h": 1.7378,
+        "w": 0.2,
+        "x": 2.2151,
+        "y": 3.8412
       },
       "id": "object_005",
       "properties": {
@@ -169,32 +179,63 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          56,
-          184,
-          160
+          255,
+          238,
+          103
         ],
         "line": [
-          56,
-          184,
-          160
+          209,
+          99,
+          114
         ],
-        "line_width": 3.6286274998915835,
+        "line_width": 1.9297705374051168,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Settle"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Contain"
       },
       "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.139,
-        "w": 2.4774,
-        "x": 7.0048,
-        "y": 1.2622
+        "h": 2.7791,
+        "w": 0.2,
+        "x": 5.74,
+        "y": 1.664
       },
       "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          209,
+          99,
+          114
+        ],
+        "line_width": 1.0822589603215864,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Contain"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.9221,
+        "w": 7.561,
+        "x": 0.7615,
+        "y": 5.8571
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -204,26 +245,109 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 56,
+        "font_face": "Georgia",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "10x",
-        "theme_topic": "Settle",
+        "text": "Anxious Grouchy",
+        "theme_topic": "Contain",
         "underline": false
       },
       "type": "text",
-      "z_order": 6
+      "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.693,
-        "w": 2.4937,
-        "x": 6.9837,
-        "y": 2.4879
+        "h": 1.6604,
+        "w": 12.2461,
+        "x": 0.5474,
+        "y": 2.3134
       },
-      "id": "object_007",
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "clip": "hex",
+        "focus": true,
+        "line": [
+          73,
+          100,
+          108
+        ],
+        "line_width": 8,
+        "theme_topic": "Contain"
+      },
+      "type": "svg_image",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 1.3988,
+        "w": 12.253,
+        "x": 0.5405,
+        "y": 0.5474
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          209,
+          99,
+          114
+        ],
+        "line_width": 1.903166714973823,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Contain"
+      },
+      "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.4924,
+        "w": 11.8877,
+        "x": 0.7219,
+        "y": 0.8778
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Georgia",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "12x",
+        "theme_topic": "Contain",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.2828,
+        "w": 11.8855,
+        "x": 0.7461,
+        "y": 1.3921
+      },
+      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -234,184 +358,52 @@
           252
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "cultured death crowded wobble flavor wink swim screeching",
-        "theme_topic": "Settle",
+        "text": "liquid prickly glove soak trade",
+        "theme_topic": "Contain",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
+      "z_order": 11
     },
     {
       "bbox": {
-        "h": 3.0026,
-        "w": 2.824,
-        "x": 6.8475,
-        "y": 3.8984
+        "h": 0.262,
+        "w": 11.9096,
+        "x": 0.6796,
+        "y": 4.4286
       },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.29025880954830596,
-          0.1523212726080711,
-          0.17838854118292485,
-          0.07948146601121285
-        ],
-        "focus": true,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Settle",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.2892,
-        "w": 2.4259,
-        "x": 7.0267,
-        "y": 6.4356
-      },
-      "id": "object_009",
+      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          255,
+          238,
+          103
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Oranges",
-        "theme_topic": "Settle",
+        "text": "BUBBLE RACIAL",
+        "theme_topic": "Contain",
         "underline": false
       },
       "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 3.0283,
-        "w": 2.8423,
-        "x": 9.8761,
-        "y": 3.8743
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          56,
-          184,
-          160
-        ],
-        "line": [
-          56,
-          184,
-          160
-        ],
-        "line_width": 2.282969648541737,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Settle"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 2.5359,
-        "w": 2.3175,
-        "x": 10.1216,
-        "y": 4.1187
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "wish",
-          "somber",
-          "toothsome",
-          "doubtful"
-        ],
-        "chart": "pie",
-        "focus": false,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              83,
-              207,
-              131
-            ],
-            "name": "sidewalk crown",
-            "values": [
-              91,
-              15,
-              74,
-              78
-            ]
-          }
-        ],
-        "theme_topic": "Settle",
-        "title": "value annoyed provide piquant"
-      },
-      "type": "chart",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 3.0382,
-        "w": 2.8387,
-        "x": 9.8825,
-        "y": 0.6469
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.05959258940779739,
-          0.32355186543435843,
-          0.1456832626518925,
-          0.018367613486398253
-        ],
-        "focus": true,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Settle",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2666,
-        "w": 2.4423,
-        "x": 10.0649,
-        "y": 3.231
+        "h": 0.2,
+        "w": 11.9112,
+        "x": 0.7101,
+        "y": 4.9181
       },
       "id": "object_013",
       "properties": {
@@ -419,17 +411,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          220,
+          210,
+          176
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Georgia",
+        "font_size": 18,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Remember",
-        "theme_topic": "Settle",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Flowery",
+        "theme_topic": "Contain",
         "underline": false
       },
       "type": "text",
@@ -437,89 +429,254 @@
     },
     {
       "bbox": {
-        "h": 0.752,
-        "w": 1.1193,
-        "x": 4.3036,
-        "y": 3.2745
+        "h": 0.726,
+        "w": 0.6911,
+        "x": 9.4268,
+        "y": 1.0589
       },
       "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "pattern": "rings",
+        "primary": [
+          157,
+          201,
+          26
+        ],
+        "secondary": [
+          48,
+          78,
+          140
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#589d5f\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#34437b\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#589d5f\" opacity=\"0.6\"/>\n        </svg>",
+        "theme_topic": "Contain"
+      },
+      "type": "svg",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.7891,
+        "w": 1.3927,
+        "x": 10.9685,
+        "y": 3.369
+      },
+      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "arrows",
         "fill": [
-          179,
-          76,
-          69
+          51,
+          122,
+          168
         ],
         "focus": false,
         "line": [
-          189,
-          213,
-          210
+          135,
+          28,
+          123
         ],
-        "line_width": 4.039298833962015,
-        "outline_only": false,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Settle"
+        "line_width": 1.640257432970222,
+        "outline_only": true,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Contain"
       },
       "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 1.0527,
-        "w": 0.4334,
-        "x": 6.5645,
-        "y": 4.7518
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          220,
-          207,
-          25
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Settle",
-        "width": 1.0167565372533478
-      },
-      "type": "connector",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.2274,
-        "x": 10.6102,
-        "y": 5.9061
+        "h": 0.7206,
+        "w": 0.478,
+        "x": 4.3353,
+        "y": 3.9407
       },
       "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "basic",
+        "fill": [
+          96,
+          155,
+          122
+        ],
+        "focus": false,
+        "line": [
+          86,
+          186,
+          176
+        ],
+        "line_width": 0.5957887899883854,
+        "outline_only": false,
+        "ppt_type": 18,
+        "shape": "donut",
+        "theme_topic": "Contain"
+      },
+      "type": "shape",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.2449,
+        "w": 0.9534,
+        "x": 1.2732,
+        "y": 0.2876
+      },
+      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          133,
-          132,
-          139
+          69,
+          225,
+          137
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "pencil",
+        "theme_topic": "Contain",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.4575,
+        "w": 1.8611,
+        "x": 3.0699,
+        "y": 3.9008
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          177,
+          93,
+          111
+        ],
+        "bold": true,
+        "color": [
+          122,
+          94,
+          174
+        ],
+        "font_face": "Aptos",
+        "font_size": 17,
         "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Caring Fetch Equal",
-        "theme_topic": "Settle",
-        "underline": true
+        "text": "Thing",
+        "theme_topic": "Contain",
+        "underline": false
       },
       "type": "text",
-      "z_order": 16
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.4035,
+        "w": 0.2252,
+        "x": 11.9695,
+        "y": 3.5598
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          147,
+          46,
+          89
+        ],
+        "focus": false,
+        "line": [
+          138,
+          208,
+          31
+        ],
+        "line_width": 2.4920966617573805,
+        "outline_only": false,
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Contain"
+      },
+      "type": "shape",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.5624,
+        "w": 1.8116,
+        "x": 5.0341,
+        "y": 1.4737
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          230,
+          169,
+          54
+        ],
+        "bold": false,
+        "color": [
+          199,
+          38,
+          168
+        ],
+        "font_face": "Aptos",
+        "font_size": 5,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "old close mug acoustics humorous",
+        "theme_topic": "Contain",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 0.2383,
+        "w": 0.5749,
+        "x": 9.0302,
+        "y": 6.9335
+      },
+      "id": "object_021",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          222,
+          81,
+          124
+        ],
+        "bold": false,
+        "color": [
+          25,
+          66,
+          143
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "rake",
+        "theme_topic": "Contain",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 21
     }
   ],
   "slide": {

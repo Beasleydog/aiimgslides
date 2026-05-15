@@ -8,164 +8,168 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        177,
-        37,
-        198
+      "colors": [
+        [
+          220,
+          96,
+          137
+        ],
+        [
+          168,
+          54,
+          94
+        ]
       ],
       "fill": [
-        111,
-        88,
-        201
+        32,
+        102,
+        26
       ],
-      "fore_color": [
-        82,
-        96,
-        214
-      ],
-      "pattern": 28,
-      "style": "pattern",
-      "theme_topic": "Wink Equal"
+      "focus": "top_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Puzzling Itch"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 13,
+    "level": 13,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 13
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.3545,
-        "w": 3.1755,
-        "x": 7.755,
-        "y": -0.7229
+        "h": 3.1882,
+        "w": 7.0338,
+        "x": 3.816,
+        "y": 3.3922
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          82,
-          174,
-          89
+          111,
+          135,
+          187
         ],
         "focus": false,
         "line": [
-          186,
-          86,
-          104
+          66,
+          78,
+          63
         ],
-        "line_width": 3.7623499603962935,
+        "line_width": 6.210748337175065,
         "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Wink Equal"
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Puzzling Itch"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.2357,
-        "w": 8.9635,
-        "x": 0.4815,
-        "y": 0.6884
+        "h": 0.7687,
+        "w": 13.3157,
+        "x": 0.0119,
+        "y": 0.0188
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          102,
-          133,
-          144
+          62,
+          123,
+          57
         ],
-        "focus": false,
         "line": [
-          200,
-          199,
-          48
+          62,
+          123,
+          57
         ],
-        "line_width": 3.261987050674538,
+        "line_width": 1.9871138575450111,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wink Equal"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Puzzling Itch"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.4565,
-        "w": 5.7729,
-        "x": -1.0286,
-        "y": -0.8407
+        "h": 5.7752,
+        "w": 3.1812,
+        "x": 9.3858,
+        "y": 0.661
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          113,
-          65,
-          119
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          174,
-          153,
-          35
-        ],
-        "line_width": 7.18369140433115,
-        "outline_only": true,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Wink Equal"
+        "font_face": "Georgia",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Piquant",
+        "theme_topic": "Puzzling Itch",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.8109,
-        "w": 6.5048,
-        "x": 3.6486,
-        "y": 3.8833
+        "h": 6.226,
+        "w": 4.8493,
+        "x": 0.6193,
+        "y": 0.6579
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
-        "fill": [
-          75,
-          74,
-          191
+        "crop": [
+          0.12216012784616664,
+          0.18141313358729452,
+          0.18525751190323858,
+          0.10933135708394151
         ],
-        "focus": false,
-        "line": [
-          115,
-          142,
-          167
+        "focus": true,
+        "mask_line": [
+          32,
+          119,
+          149
         ],
-        "line_width": 2.398712230862405,
-        "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Wink Equal"
+        "mask_overlay": false,
+        "theme_topic": "Puzzling Itch",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.7849,
-        "w": 3.177,
-        "x": 9.4151,
-        "y": 0.6739
+        "h": 0.2902,
+        "w": 2.6291,
+        "x": 6.0465,
+        "y": 0.7478
       },
       "id": "object_005",
       "properties": {
@@ -173,17 +177,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          32,
+          119,
+          149
         ],
-        "font_face": "Arial",
-        "font_size": 30,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Turn Playground Unpack",
-        "theme_topic": "Wink Equal",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "WANDERING",
+        "theme_topic": "Puzzling Itch",
         "underline": false
       },
       "type": "text",
@@ -191,59 +195,57 @@
     },
     {
       "bbox": {
-        "h": 0.9623,
-        "w": 3.9178,
-        "x": 0.6686,
-        "y": 3.8686
+        "h": 1.0539,
+        "w": 2.6251,
+        "x": 6.0724,
+        "y": 1.2273
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          133,
-          113,
-          209
-        ],
-        "line": [
-          133,
-          113,
-          209
-        ],
-        "line_width": 2.077795931052935,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wink Equal"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.4324,
-        "w": 3.4391,
-        "x": 0.9248,
-        "y": 4.7769
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          225,
+          186,
+          80
         ],
-        "font_face": "Arial",
+        "font_face": "Georgia",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Last Wound",
+        "theme_topic": "Puzzling Itch",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 4.215,
+        "w": 2.6274,
+        "x": 6.0465,
+        "y": 2.5263
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          182,
+          150
+        ],
+        "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Yummy",
-        "theme_topic": "Wink Equal",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "mere smoke unused sky subtract admit tedious arrange thoughtless quirky",
+        "theme_topic": "Puzzling Itch",
         "underline": false
       },
       "type": "text",
@@ -251,59 +253,60 @@
     },
     {
       "bbox": {
-        "h": 0.9873,
-        "w": 3.9506,
-        "x": 0.663,
-        "y": 5.0526
+        "h": 0.3344,
+        "w": 0.3874,
+        "x": 5.7051,
+        "y": 2.3764
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 1,
+        "family": "ribbons",
         "fill": [
-          133,
-          113,
-          209
+          46,
+          52,
+          229
         ],
+        "focus": false,
         "line": [
-          133,
-          113,
-          209
+          71,
+          217,
+          86
         ],
-        "line_width": 4.266423476466956,
+        "line_width": 6.073694023551587,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wink Equal"
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Puzzling Itch"
       },
       "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4264,
-        "w": 3.4159,
-        "x": 0.8933,
-        "y": 5.9518
+        "h": 0.2,
+        "w": 2.3932,
+        "x": 9.9441,
+        "y": 4.2665
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          82,
-          96,
-          214
+          120,
+          61,
+          180
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Subtract Coach",
-        "theme_topic": "Wink Equal",
+        "text": "Juice",
+        "theme_topic": "Puzzling Itch",
         "underline": false
       },
       "type": "text",
@@ -311,478 +314,114 @@
     },
     {
       "bbox": {
-        "h": 0.6555,
-        "w": 3.9561,
-        "x": 0.6466,
-        "y": 6.265
+        "h": 1.1032,
+        "w": 1.6705,
+        "x": 8.2303,
+        "y": 2.7228
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          133,
-          113,
-          209
+        "color": [
+          208,
+          26,
+          172
         ],
-        "line": [
-          133,
-          113,
-          209
-        ],
-        "line_width": 1.6334478086572888,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wink Equal"
+        "connector": "curve",
+        "dash": 5,
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "Puzzling Itch",
+        "width": 1.3036347954305132
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4411,
-        "w": 3.4352,
-        "x": 0.9147,
-        "y": 7.1759
+        "h": 0.7508,
+        "w": 0.8104,
+        "x": 11.0566,
+        "y": 2.9606
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          192,
+          203,
+          128
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Delicate Thought",
-        "theme_topic": "Wink Equal",
-        "underline": false
+        "focus": false,
+        "line": [
+          74,
+          31,
+          83
+        ],
+        "line_width": 0.7036675834932034,
+        "outline_only": false,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Puzzling Itch"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 1.3699,
-        "w": 1.8092,
-        "x": 5.0348,
-        "y": 3.9427
+        "h": 0.4865,
+        "w": 1.8342,
+        "x": 5.6536,
+        "y": 6.3011
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          133,
-          113,
-          209
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          118,
+          225,
+          190
         ],
-        "line": [
-          133,
-          113,
-          209
-        ],
-        "line_width": 0.747404328802661,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wink Equal"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "examine magnificent",
+        "theme_topic": "Puzzling Itch",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.0914,
-        "w": 1.5039,
-        "x": 5.1543,
-        "y": 4.0573
+        "h": 1.2918,
+        "w": 0.829,
+        "x": 0.3251,
+        "y": 4.7779
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.19374544062046556,
-          0.02357337830636352,
-          0.09176468071825435,
-          0.19564972769243208
-        ],
-        "focus": false,
-        "mask_line": [
-          69,
-          223,
-          210
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Wink Equal",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 1.4151,
-        "w": 1.8351,
-        "x": 7.0149,
-        "y": 3.9583
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": false,
-        "mask_line": [
-          199,
-          120,
-          213
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Wink Equal",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 1.3826,
-        "w": 1.8184,
-        "x": 5.0096,
-        "y": 5.4785
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          133,
-          113,
-          209
-        ],
-        "line": [
-          133,
-          113,
-          209
-        ],
-        "line_width": 4.678229277918256,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Wink Equal"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 1.0984,
-        "w": 1.5232,
-        "x": 5.1452,
-        "y": 5.6034
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.060713645360274356,
-          0.05092938743600198,
-          0.0773248358623679,
-          0.07042584548143468
-        ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Wink Equal",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 1.3945,
-        "w": 1.8175,
-        "x": 6.9795,
-        "y": 5.4491
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.0982501352696048,
-          0.13909789311906312,
-          0.08214088964316238,
-          0.10822803398945764
-        ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Wink Equal",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 2.7292,
-        "w": 8.0918,
-        "x": 0.6888,
-        "y": 0.683
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          133,
-          113,
-          209
-        ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          133,
-          113,
-          209
-        ],
-        "border": [
-          158,
-          51,
-          54
-        ],
-        "border_dash": "dash",
-        "border_width": 2.0263668872016782,
-        "cells": [
-          [
-            "true",
-            "uppity",
-            "thank receive",
-            "army"
-          ],
-          [
-            "bake enthusiastic",
-            "color tawdry",
-            "gratis",
-            "nation steep"
-          ],
-          [
-            "fool",
-            "railway",
-            "rainstorm",
-            "pleasure"
-          ],
-          [
-            "caption",
-            "jar",
-            "belligerent stroke",
-            "unique reproduce"
-          ],
-          [
-            "dreary",
-            "giddy general",
-            "island",
-            "innocent sip"
-          ],
-          [
-            "questionable",
-            "squeamish",
-            "sheep",
-            "tank"
-          ]
-        ],
-        "cols": 4,
-        "font_size": 15,
-        "has_header": true,
-        "header": [
-          82,
-          96,
-          214
-        ],
-        "rows": 6,
-        "text_color": [
-          44,
-          59,
-          27
-        ],
-        "theme_topic": "Wink Equal"
-      },
-      "type": "table",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.4943,
-        "w": 0.2857,
-        "x": 2.6926,
-        "y": 3.0941
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
-        "fill": [
-          222,
-          139,
-          215
-        ],
-        "focus": false,
-        "line": [
-          211,
-          119,
-          101
-        ],
-        "line_width": 3.0695067694716283,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Wink Equal"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.7793,
-        "w": 0.5931,
-        "x": 2.3323,
-        "y": 1.7893
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
         "color": [
-          143,
-          150,
-          217
+          193,
+          161,
+          123
         ],
-        "connector": "straight",
-        "dash": 1,
+        "connector": "elbow",
+        "dash": 2,
         "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Wink Equal",
-        "width": 1.7147214317709425
+        "ppt_type": 2,
+        "theme_topic": "Puzzling Itch",
+        "width": 2.2764669889826967
       },
       "type": "connector",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.9449,
-        "w": 1.3158,
-        "x": 4.4039,
-        "y": 4.3032
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          140,
-          194,
-          182
-        ],
-        "focus": false,
-        "line": [
-          32,
-          81,
-          129
-        ],
-        "line_width": 2.5718761699157526,
-        "outline_only": false,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Wink Equal"
-      },
-      "type": "shape",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.584,
-        "w": 0.9176,
-        "x": 7.2688,
-        "y": 2.6059
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          73,
-          189,
-          69
-        ],
-        "bold": true,
-        "color": [
-          164,
-          59,
-          133
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Bear Slave House",
-        "theme_topic": "Wink Equal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.533,
-        "w": 1.2669,
-        "x": 5.0105,
-        "y": 3.3994
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          223,
-          94,
-          110
-        ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Quartz",
-        "theme_topic": "Wink Equal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 23
+      "z_order": 13
     }
   ],
   "slide": {

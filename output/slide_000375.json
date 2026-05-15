@@ -9,181 +9,172 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        161,
-        97,
-        36
-      ],
       "fill": [
-        161,
-        97,
-        36
+        33,
+        115,
+        169
       ],
-      "fore_color": [
-        255,
-        117,
-        117
-      ],
-      "pattern": 10,
-      "style": "pattern",
-      "theme_topic": "Tremble"
+      "style": "solid",
+      "theme_topic": "Turn Seemly"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 10,
+    "level": 10,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 10
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.5252,
-        "w": 6.0874,
-        "x": 1.1748,
-        "y": -0.8932
+        "h": 4.1887,
+        "w": 3.4312,
+        "x": 10.266,
+        "y": 0.8036
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 2,
+        "family": "callouts",
         "fill": [
-          164,
-          49,
-          83
+          125,
+          202,
+          107
         ],
         "focus": false,
         "line": [
-          163,
-          216,
-          193
+          225,
+          130,
+          167
         ],
-        "line_width": 7.6635489507667325,
+        "line_width": 2.361056380478887,
         "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Tremble"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Turn Seemly"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.3736,
-        "w": 5.6896,
-        "x": 0.4242,
-        "y": 3.9574
+        "h": 5.7834,
+        "w": 3.2197,
+        "x": 9.3867,
+        "y": 0.6275
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          151,
-          73,
-          91
-        ],
-        "focus": false,
-        "line": [
-          96,
-          59,
-          164
-        ],
-        "line_width": 3.8014659771045345,
-        "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.427,
-        "w": 3.6792,
-        "x": 2.5873,
-        "y": 0.5431
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          208,
-          181,
-          27
-        ],
-        "focus": false,
-        "line": [
-          84,
-          155,
-          63
-        ],
-        "line_width": 7.136040466176523,
-        "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.5405,
-        "w": 8.805,
-        "x": 1.577,
-        "y": 0.7357
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          127,
-          89,
-          148
-        ],
-        "focus": false,
-        "line": [
-          224,
-          170,
-          34
-        ],
-        "line_width": 5.039260923761386,
-        "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.3143,
-        "w": 8.177,
-        "x": 0.5577,
-        "y": 0.3589
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          250,
+          252,
+          255
         ],
-        "font_face": "Georgia",
-        "font_size": 42,
+        "font_face": "Arial",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Protect Divide Vagabond",
-        "theme_topic": "Tremble",
+        "text": "Big",
+        "theme_topic": "Turn Seemly",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 3.4982,
+        "w": 3.1259,
+        "x": 3.0877,
+        "y": 3.3802
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.012677138852655215,
+          0.07855008421910266,
+          0.16382276001367513,
+          0.09589982656811138
+        ],
+        "focus": true,
+        "mask_line": [
+          30,
+          219,
+          83
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Turn Seemly",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.068,
+        "w": 1.9245,
+        "x": 0.7986,
+        "y": 3.501
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          226,
+          76,
+          145
+        ],
+        "bold": true,
+        "color": [
+          100,
+          82,
+          175
+        ],
+        "font_face": "Arial",
+        "font_size": 20,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Faded Disagree Historical",
+        "theme_topic": "Turn Seemly",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.9942,
+        "w": 1.9536,
+        "x": 0.8124,
+        "y": 4.8012
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          218,
+          235,
+          245
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "drip leg copy donkey ball fold back nostalgic fence toes lopsided instrument full disturbed repeat popcorn bruise spring welcome care rake",
+        "theme_topic": "Turn Seemly",
         "underline": false
       },
       "type": "text",
@@ -191,892 +182,154 @@
     },
     {
       "bbox": {
-        "h": 1.3086,
-        "w": 5.2462,
-        "x": 0.5678,
-        "y": 1.832
+        "h": 0.4201,
+        "w": 2.2556,
+        "x": 9.7785,
+        "y": 2.0624
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          190,
-          147,
-          105
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          91,
+          25,
+          94
         ],
-        "line": [
-          190,
-          147,
-          105
-        ],
-        "line_width": 2.9419848280500585,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tremble"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Deranged Abnormal",
+        "theme_topic": "Turn Seemly",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.5466,
-        "w": 0.5556,
-        "x": 0.775,
-        "y": 2.0683
+        "h": 0.5177,
+        "w": 1.8459,
+        "x": 7.0765,
+        "y": 6.1826
       },
       "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          255,
-          117,
-          117
-        ],
-        "focus": false,
-        "line": [
-          154,
-          40,
-          203
-        ],
-        "line_width": 4.170675403714385,
-        "outline_only": true,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.4448,
-        "w": 4.7355,
-        "x": 0.7937,
-        "y": 2.739
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          208,
+          41,
+          106
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Belligerent",
-        "theme_topic": "Tremble",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "delicious stream milky sink",
+        "theme_topic": "Turn Seemly",
         "underline": false
       },
       "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.3193,
+        "w": 0.4367,
+        "x": 6.1426,
+        "y": 2.621
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          203,
+          137,
+          216
+        ],
+        "focus": false,
+        "line": [
+          191,
+          181,
+          97
+        ],
+        "line_width": 2.2736357901401227,
+        "outline_only": false,
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Turn Seemly"
+      },
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.0842,
-        "w": 5.259,
-        "x": 0.5307,
-        "y": 3.3597
+        "h": 0.674,
+        "w": 1.2945,
+        "x": 2.2593,
+        "y": 3.9269
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 3,
-        "family": "panel",
+        "family": "arrows",
         "fill": [
-          190,
-          147,
-          105
+          174,
+          45,
+          116
         ],
+        "focus": false,
         "line": [
-          190,
-          147,
-          105
+          48,
+          138,
+          60
         ],
-        "line_width": 1.4153116601062488,
+        "line_width": 3.3575297547374436,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tremble"
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Turn Seemly"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4323,
-        "w": 4.7588,
-        "x": 0.8116,
-        "y": 4.245
+        "h": 0.2968,
+        "w": 2.2309,
+        "x": 3.114,
+        "y": 6.7611
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          198,
-          74
+          125,
+          190,
+          29
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Dog",
-        "theme_topic": "Tremble",
+        "text": "Admit Material Business",
+        "theme_topic": "Turn Seemly",
         "underline": false
       },
       "type": "text",
       "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.9279,
-        "w": 5.2634,
-        "x": 0.5595,
-        "y": 4.6349
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          190,
-          147,
-          105
-        ],
-        "line": [
-          190,
-          147,
-          105
-        ],
-        "line_width": 0.7224214724824856,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.4523,
-        "w": 4.7606,
-        "x": 0.8206,
-        "y": 5.5343
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Pleasant",
-        "theme_topic": "Tremble",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.2416,
-        "w": 5.25,
-        "x": 0.5462,
-        "y": 5.7697
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          190,
-          147,
-          105
-        ],
-        "line": [
-          190,
-          147,
-          105
-        ],
-        "line_width": 0.7199126929522929,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.5132,
-        "w": 0.5244,
-        "x": 0.7825,
-        "y": 5.9838
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "math",
-        "fill": [
-          73,
-          130,
-          80
-        ],
-        "focus": false,
-        "line": [
-          255,
-          198,
-          74
-        ],
-        "line_width": 2.8883102424532914,
-        "outline_only": false,
-        "ppt_type": 165,
-        "shape": "multiply",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.4362,
-        "w": 4.7492,
-        "x": 0.7916,
-        "y": 6.6732
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Sun",
-        "theme_topic": "Tremble",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 2.5676,
-        "w": 6.5349,
-        "x": 6.2436,
-        "y": 1.8562
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          190,
-          147,
-          105
-        ],
-        "line": [
-          190,
-          147,
-          105
-        ],
-        "line_width": 1.987611797424317,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.5742,
-        "w": 0.5171,
-        "x": 6.4793,
-        "y": 2.0806
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          255,
-          198,
-          74
-        ],
-        "focus": false,
-        "line": [
-          82,
-          76,
-          203
-        ],
-        "line_width": 2.7708513245080146,
-        "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.4437,
-        "w": 6.0479,
-        "x": 6.4952,
-        "y": 2.7699
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Didactic",
-        "theme_topic": "Tremble",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.8855,
-        "w": 6.0455,
-        "x": 6.4946,
-        "y": 3.2823
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          207,
-          180,
-          154
-        ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wrathful art disgusting complain detailed winter closed narrow",
-        "theme_topic": "Tremble",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 2.3979,
-        "w": 6.5624,
-        "x": 6.2214,
-        "y": 4.5931
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          190,
-          147,
-          105
-        ],
-        "line": [
-          190,
-          147,
-          105
-        ],
-        "line_width": 1.9058798573900608,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.5745,
-        "w": 0.5841,
-        "x": 6.4304,
-        "y": 4.7892
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
-        "fill": [
-          119,
-          104,
-          199
-        ],
-        "focus": false,
-        "line": [
-          133,
-          128,
-          145
-        ],
-        "line_width": 4.7857050816090485,
-        "outline_only": true,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.4735,
-        "w": 6.0772,
-        "x": 6.4768,
-        "y": 5.528
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Babies",
-        "theme_topic": "Tremble",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.7416,
-        "w": 6.0346,
-        "x": 6.4748,
-        "y": 6.0727
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          207,
-          180,
-          154
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "brake tease regular early muddled apparatus bear blade confused truck crabby horn punishment",
-        "theme_topic": "Tremble",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 0.9415,
-        "w": 0.9463,
-        "x": 9.3537,
-        "y": 1.7484
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          28,
-          163,
-          138
-        ],
-        "line": [
-          215,
-          149,
-          151
-        ],
-        "line_width": 0.6938578231498338,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Tremble"
-      },
-      "type": "freeform",
-      "z_order": 24
-    },
-    {
-      "bbox": {
-        "h": 1.0913,
-        "w": 0.6833,
-        "x": 8.4478,
-        "y": 4.061
-      },
-      "id": "object_025",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          168,
-          179,
-          95
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Tremble",
-        "width": 2.1808282922701596
-      },
-      "type": "connector",
-      "z_order": 25
-    },
-    {
-      "bbox": {
-        "h": 0.2515,
-        "w": 1.1258,
-        "x": 4.0224,
-        "y": 4.803
-      },
-      "id": "object_026",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          191,
-          62,
-          80
-        ],
-        "focus": false,
-        "line": [
-          179,
-          171,
-          54
-        ],
-        "line_width": 5.4548834392059975,
-        "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 26
-    },
-    {
-      "bbox": {
-        "h": 0.8612,
-        "w": 1.2638,
-        "x": 6.6073,
-        "y": 2.285
-      },
-      "id": "object_027",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          162,
-          187,
-          153
-        ],
-        "focus": false,
-        "line": [
-          135,
-          131,
-          208
-        ],
-        "line_width": 6.165445548888424,
-        "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 27
-    },
-    {
-      "bbox": {
-        "h": 0.5942,
-        "w": 0.4722,
-        "x": 0.1426,
-        "y": 6.1063
-      },
-      "id": "object_028",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          189,
-          155,
-          80
-        ],
-        "focus": false,
-        "line": [
-          187,
-          104,
-          33
-        ],
-        "line_width": 3.3677199808066973,
-        "outline_only": true,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 28
-    },
-    {
-      "bbox": {
-        "h": 0.2832,
-        "w": 0.3879,
-        "x": 7.64,
-        "y": 1.625
-      },
-      "id": "object_029",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          218,
-          131,
-          136
-        ],
-        "focus": false,
-        "line": [
-          89,
-          158,
-          75
-        ],
-        "line_width": 4.8359356000658655,
-        "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 29
-    },
-    {
-      "bbox": {
-        "h": 0.2015,
-        "w": 1.2374,
-        "x": 11.4609,
-        "y": 0.3015
-      },
-      "id": "object_030",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          64,
-          168,
-          180
-        ],
-        "focus": false,
-        "line": [
-          162,
-          36,
-          169
-        ],
-        "line_width": 5.423855207008042,
-        "outline_only": false,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 30
-    },
-    {
-      "bbox": {
-        "h": 0.7016,
-        "w": 0.8794,
-        "x": 11.1398,
-        "y": 1.8028
-      },
-      "id": "object_031",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "ribbons",
-        "fill": [
-          229,
-          130,
-          159
-        ],
-        "focus": false,
-        "line": [
-          86,
-          191,
-          143
-        ],
-        "line_width": 5.933807252979863,
-        "outline_only": true,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 31
-    },
-    {
-      "bbox": {
-        "h": 0.5723,
-        "w": 0.9252,
-        "x": 6.7596,
-        "y": 2.226
-      },
-      "id": "object_032",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          42,
-          86,
-          30
-        ],
-        "bold": true,
-        "color": [
-          67,
-          229,
-          81
-        ],
-        "font_face": "Aptos",
-        "font_size": 16,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "clammy",
-        "theme_topic": "Tremble",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 32
-    },
-    {
-      "bbox": {
-        "h": 1.0085,
-        "w": 1.403,
-        "x": 6.5393,
-        "y": 1.6215
-      },
-      "id": "object_033",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          255,
-          117,
-          117
-        ],
-        "focus": false,
-        "line": [
-          160,
-          132,
-          28
-        ],
-        "line_width": 3.211473985495068,
-        "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Tremble"
-      },
-      "type": "shape",
-      "z_order": 33
     }
   ],
   "slide": {

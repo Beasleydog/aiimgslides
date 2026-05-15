@@ -8,181 +8,174 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 135,
+      "angle": 60,
       "archetype": "atomic_composition",
       "colors": [
         [
-          232,
-          163,
-          45
+          29,
+          151,
+          112
         ],
         [
-          244,
-          180,
-          76
+          174,
+          73,
+          92
         ]
       ],
       "fill": [
-        232,
-        163,
-        45
+        29,
+        151,
+        112
       ],
-      "focus": "bottom_right",
-      "gradient_type": "rectangular",
+      "focus": "bottom_left",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Radiate"
+      "theme_topic": "Farm"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 13,
+    "level": 13,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 13
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.7684,
-        "w": 4.389,
-        "x": 2.9345,
-        "y": 1.0796
+        "h": 1.9414,
+        "w": 6.3962,
+        "x": 4.5626,
+        "y": -0.0975
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "stars",
+        "dash": 4,
+        "family": "math",
         "fill": [
-          189,
-          114,
-          78
+          44,
+          70,
+          173
         ],
         "focus": false,
         "line": [
-          73,
-          197,
-          123
+          214,
+          55,
+          169
         ],
-        "line_width": 2.595178183786143,
-        "outline_only": true,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Radiate"
+        "line_width": 6.00525636045855,
+        "outline_only": false,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Farm"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.156,
-        "w": 8.4128,
-        "x": 3.3448,
-        "y": 0.6369
+        "h": 5.037,
+        "w": 5.8159,
+        "x": 3.944,
+        "y": -0.4849
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 5,
+        "family": "symbols",
+        "fill": [
+          135,
+          116,
+          94
         ],
-        "font_face": "Arial",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Grateful Ghost Light",
-        "theme_topic": "Radiate",
-        "underline": false
+        "focus": false,
+        "line": [
+          177,
+          51,
+          71
+        ],
+        "line_width": 4.9768200534408,
+        "outline_only": false,
+        "ppt_type": 21,
+        "shape": "heart",
+        "theme_topic": "Farm"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.2075,
-        "w": 2.6541,
-        "x": 0.5661,
-        "y": 2.0093
+        "h": 3.8439,
+        "w": 6.5762,
+        "x": 1.6916,
+        "y": 3.7176
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
+        "dash": 4,
+        "family": "stars",
+        "fill": [
+          32,
+          173,
+          81
+        ],
         "focus": false,
         "line": [
-          173,
-          212,
-          106
+          110,
+          117,
+          41
         ],
-        "line_width": 17,
-        "theme_topic": "Radiate"
+        "line_width": 2.290414848735333,
+        "outline_only": false,
+        "ppt_type": 92,
+        "shape": "star5",
+        "theme_topic": "Farm"
       },
-      "type": "svg_image",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.1984,
-        "w": 2.9312,
-        "x": 9.8482,
-        "y": 2.0033
+        "h": 0.8846,
+        "w": 13.3264,
+        "x": 0.0088,
+        "y": 0.0009
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "children",
-          "encourage",
-          "naughty",
-          "destroy"
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          57,
+          164,
+          130
         ],
-        "chart": "line",
-        "focus": false,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 65,
-        "series": [
-          {
-            "color": [
-              86,
-              28,
-              61
-            ],
-            "name": "sink spurious",
-            "values": [
-              60,
-              38,
-              29,
-              40
-            ]
-          },
-          {
-            "color": [
-              190,
-              26,
-              75
-            ],
-            "name": "square",
-            "values": [
-              73,
-              43,
-              22,
-              13
-            ]
-          }
+        "line": [
+          57,
+          164,
+          130
         ],
-        "theme_topic": "Radiate",
-        "title": "mass bent volatile whistle bead"
+        "line_width": 1.2670932693287147,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Farm"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1025,
-        "w": 3.2497,
-        "x": 6.1321,
-        "y": 2.1996
+        "h": 0.9238,
+        "w": 5.2523,
+        "x": 5.5904,
+        "y": 1.0931
       },
       "id": "object_005",
       "properties": {
@@ -190,17 +183,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 21,
+        "font_face": "Trebuchet MS",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Direful Wheel Befitting Water Placid Rely",
-        "theme_topic": "Radiate",
+        "text": "Battle Drop Parsimonious Salty",
+        "theme_topic": "Farm",
         "underline": false
       },
       "type": "text",
@@ -208,103 +201,142 @@
     },
     {
       "bbox": {
-        "h": 0.3327,
-        "w": 1.8139,
-        "x": 6.1596,
-        "y": 3.5147
+        "h": 2.8983,
+        "w": 3.3928,
+        "x": 9.346,
+        "y": 4.045
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "band": [
+          57,
+          164,
+          130
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "RESCUE ZONKED",
-        "theme_topic": "Radiate",
-        "underline": false
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          67,
+          113,
+          226
+        ],
+        "border": [
+          148,
+          204,
+          189
+        ],
+        "border_dash": "solid",
+        "border_width": 1.5824711690412563,
+        "cells": [
+          [
+            "parcel",
+            "cap",
+            "morning itchy",
+            "please scarce",
+            "color mindless",
+            "godly recess"
+          ],
+          [
+            "cream",
+            "chubby",
+            "theory ray",
+            "overflow",
+            "stream",
+            "accept ratty"
+          ],
+          [
+            "prose sign",
+            "utter",
+            "ordinary twist",
+            "education",
+            "apparel fretful",
+            "yellow"
+          ]
+        ],
+        "cols": 6,
+        "font_size": 8,
+        "has_header": true,
+        "header": [
+          92,
+          54,
+          214
+        ],
+        "rows": 3,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Farm"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.223,
-        "w": 0.5748,
-        "x": 6.2817,
-        "y": 7.1478
+        "h": 1.0081,
+        "w": 0.7084,
+        "x": 0.6023,
+        "y": 5.7273
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          78,
-          91,
-          217
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          92,
-          66,
-          100
-        ],
-        "line_width": 6.16537296507268,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Radiate"
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "print cows earth army",
+        "theme_topic": "Farm",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.6285,
-        "w": 1.0528,
-        "x": 8.091,
-        "y": 0.7373
+        "h": 1.0288,
+        "w": 1.0151,
+        "x": 1.6401,
+        "y": 5.7296
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          140,
-          167,
-          175
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          165,
-          218,
-          55
-        ],
-        "line_width": 0.8649895250085193,
-        "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Radiate"
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fence eight measly tin abaft clear profit",
+        "theme_topic": "Farm",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4686,
-        "w": 0.6144,
-        "x": 10.054,
-        "y": 3.1974
+        "h": 1.0199,
+        "w": 0.8444,
+        "x": 2.9661,
+        "y": 5.7393
       },
       "id": "object_009",
       "properties": {
@@ -312,92 +344,90 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          171,
-          65,
-          179
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": true,
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "crowd pour",
-        "theme_topic": "Radiate",
-        "underline": true
+        "text": "spoil frighten longing swim debonair pass amusing",
+        "theme_topic": "Farm",
+        "underline": false
       },
       "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.8206,
-        "w": 1.2925,
-        "x": 3.0987,
-        "y": 1.5525
+        "h": 1.0447,
+        "w": 1.0221,
+        "x": 4.1255,
+        "y": 5.7512
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          80,
-          57,
-          111
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          143,
-          128,
-          109
-        ],
-        "line_width": 2.142066935241688,
-        "outline_only": false,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Radiate"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "enchanting paltry table rob space",
+        "theme_topic": "Farm",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4427,
-        "w": 1.1397,
-        "x": 8.8182,
-        "y": 2.8481
+        "h": 0.5024,
+        "w": 1.3319,
+        "x": 8.4523,
+        "y": 2.328
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          96,
-          165,
-          250
+        "bg_color": [
+          56,
+          201,
+          161
         ],
-        "focus": false,
-        "line": [
-          119,
-          89,
-          40
+        "bold": false,
+        "color": [
+          62,
+          86,
+          84
         ],
-        "line_width": 2.303752804301758,
-        "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Radiate"
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "realize teeny-tiny",
+        "theme_topic": "Farm",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5128,
-        "w": 1.842,
-        "x": 8.7154,
-        "y": 1.8011
+        "h": 0.5818,
+        "w": 1.6681,
+        "x": 9.0561,
+        "y": 3.4946
       },
       "id": "object_012",
       "properties": {
@@ -405,78 +435,50 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          132,
-          207,
-          169
+          59,
+          188,
+          224
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Bolt Pen",
-        "theme_topic": "Radiate",
-        "underline": false
+        "text": "Cumbersome",
+        "theme_topic": "Farm",
+        "underline": true
       },
       "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.0119,
-        "w": 0.8244,
-        "x": 11.8299,
-        "y": 0.7642
+        "h": 0.5131,
+        "w": 1.6252,
+        "x": 6.5647,
+        "y": 4.5057
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          98,
-          89,
-          77
+          54,
+          146,
+          75
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Radiate",
-        "width": 1.3641165954331682
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Spooky",
+        "theme_topic": "Farm",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.9204,
-        "w": 0.2095,
-        "x": 7.4859,
-        "y": 4.3159
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          114,
-          97,
-          221
-        ],
-        "focus": false,
-        "line": [
-          69,
-          203,
-          143
-        ],
-        "line_width": 1.1713127659760427,
-        "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Radiate"
-      },
-      "type": "shape",
-      "z_order": 14
     }
   ],
   "slide": {

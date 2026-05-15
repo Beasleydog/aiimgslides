@@ -9,100 +9,64 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        105,
-        107,
-        128
-      ],
       "fill": [
-        61,
-        64,
-        91
+        78,
+        83,
+        175
       ],
-      "fore_color": [
-        96,
-        165,
-        250
-      ],
-      "pattern": 48,
-      "style": "pattern",
-      "theme_topic": "Luxuriant"
+      "style": "solid",
+      "theme_topic": "Sleepy Relieved"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 9,
+    "level": 9,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 9
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.8908,
-        "w": 4.6102,
-        "x": 1.1839,
-        "y": 2.261
+        "h": 7.4929,
+        "w": 1.1273,
+        "x": 12.1948,
+        "y": -0.0083
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          162,
-          41,
-          117
+          102,
+          106,
+          185
         ],
-        "focus": false,
         "line": [
-          210,
-          154,
-          219
+          102,
+          106,
+          185
         ],
-        "line_width": 6.3038718372083,
-        "outline_only": true,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Luxuriant"
+        "line_width": 4.332275207623455,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Sleepy Relieved"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.5685,
-        "w": 13.3453,
-        "x": -0.0053,
-        "y": -0.0016
+        "h": 5.7813,
+        "w": 3.1821,
+        "x": 9.4052,
+        "y": 0.6734
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          105,
-          107,
-          128
-        ],
-        "line": [
-          105,
-          107,
-          128
-        ],
-        "line_width": 4.117811647658467,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Luxuriant"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.8825,
-        "w": 5.6526,
-        "x": 0.7745,
-        "y": 5.8642
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -113,79 +77,128 @@
           252
         ],
         "font_face": "Aptos Display",
-        "font_size": 33,
+        "font_size": 21,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Second-Hand Ruin Gamy",
-        "theme_topic": "Luxuriant",
+        "text": "Boot",
+        "theme_topic": "Sleepy Relieved",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 3.0033,
+        "w": 3.974,
+        "x": 4.8876,
+        "y": 0.6436
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          102,
+          106,
+          185
+        ],
+        "line": [
+          102,
+          106,
+          185
+        ],
+        "line_width": 5.091994864546506,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sleepy Relieved"
+      },
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.3343,
-        "w": 6.5633,
-        "x": 3.3756,
-        "y": 4.5476
+        "h": 2.5176,
+        "w": 3.4739,
+        "x": 5.1303,
+        "y": 0.9182
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          196,
-          84,
-          176
+        "categories": [
+          "quickest",
+          "ludicrous",
+          "believe",
+          "egg",
+          "sand"
         ],
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "chart": "doughnut",
+        "focus": true,
+        "has_legend": false,
+        "has_title": true,
+        "ppt_type": -4120,
+        "series": [
+          {
+            "color": [
+              87,
+              102,
+              71
+            ],
+            "name": "grouchy",
+            "values": [
+              64,
+              63,
+              78,
+              43,
+              14
+            ]
+          }
         ],
-        "font_face": "Aptos Display",
-        "font_size": 18,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Sound",
-        "theme_topic": "Luxuriant",
-        "underline": true
+        "theme_topic": "Sleepy Relieved",
+        "title": "auspicious start admire"
       },
-      "type": "text",
+      "type": "chart",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 4.9734,
-        "w": 2.1886,
-        "x": 10.5786,
-        "y": 0.5488
+        "h": 3.004,
+        "w": 3.9647,
+        "x": 0.6462,
+        "y": 0.6684
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          202,
-          228,
-          165
+        "crop": [
+          0.1307992181088254,
+          0.1939975405470861,
+          0.1897828895449884,
+          0.1223217003299615
         ],
-        "line_width": 14,
-        "theme_topic": "Luxuriant"
+        "focus": true,
+        "mask_line": [
+          112,
+          67,
+          221
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Sleepy Relieved",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg_image",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.9631,
-        "w": 6.5386,
-        "x": 3.3726,
-        "y": 1.5496
+        "h": 0.2948,
+        "w": 3.5704,
+        "x": 0.826,
+        "y": 3.179
       },
       "id": "object_006",
       "properties": {
@@ -193,17 +206,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Overrated Summer Things Return",
-        "theme_topic": "Luxuriant",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Morning Therapeutic",
+        "theme_topic": "Sleepy Relieved",
         "underline": false
       },
       "type": "text",
@@ -211,57 +224,57 @@
     },
     {
       "bbox": {
-        "h": 1.3541,
-        "w": 6.5371,
-        "x": 3.3984,
-        "y": 2.7927
+        "h": 2.8907,
+        "w": 1.8525,
+        "x": 4.9535,
+        "y": 3.9628
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          162,
-          165,
-          179
+        "crop": [
+          0.028992940398246167,
+          0.32371910288308153,
+          0.2887957560176217,
+          0.31606448622162914
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "doctor equal soap separate race fine tranquil exist telephone snails frequent event hoc",
-        "theme_topic": "Luxuriant",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          80,
+          59,
+          117
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Sleepy Relieved",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 5.0011,
-        "w": 2.1867,
-        "x": 0.5336,
-        "y": 0.5594
+        "h": 2.9085,
+        "w": 1.8887,
+        "x": 6.967,
+        "y": 3.9541
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.18194913358932052,
-          0.2233483210271673,
-          0.17220087090440028,
-          0.2229069485945678
+          0.3207117996388835,
+          0.2974523707632461,
+          0.26752475237931034,
+          0.030126743824029956
         ],
-        "focus": true,
+        "focus": false,
         "mask_line": [
-          58,
-          188,
-          107
+          71,
+          221,
+          181
         ],
         "mask_overlay": false,
-        "theme_topic": "Luxuriant",
+        "theme_topic": "Sleepy Relieved",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -269,155 +282,36 @@
     },
     {
       "bbox": {
-        "h": 0.4524,
-        "w": 0.5314,
-        "x": 8.2401,
-        "y": 2.1123
+        "h": 0.5382,
+        "w": 1.8666,
+        "x": 1.8667,
+        "y": 3.3484
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          85,
-          140,
-          58
+        "bg_color": [
+          129,
+          59,
+          195
         ],
-        "line": [
-          96,
-          165,
-          250
+        "bold": true,
+        "color": [
+          125,
+          122,
+          185
         ],
-        "line_width": 1.2473205143109813,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Luxuriant"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "route disturbed",
+        "theme_topic": "Sleepy Relieved",
+        "underline": false
       },
-      "type": "freeform",
+      "type": "text",
       "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.724,
-        "w": 1.269,
-        "x": 3.1092,
-        "y": 0.8495
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          228,
-          82,
-          73
-        ],
-        "focus": false,
-        "line": [
-          185,
-          37,
-          140
-        ],
-        "line_width": 0.9463675134054653,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Luxuriant"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.5967,
-        "w": 0.9225,
-        "x": 2.5485,
-        "y": 4.2208
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          216,
-          25,
-          191
-        ],
-        "focus": false,
-        "line": [
-          31,
-          144,
-          154
-        ],
-        "line_width": 3.3334915208071787,
-        "outline_only": true,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Luxuriant"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.8948,
-        "w": 0.7675,
-        "x": 3.5458,
-        "y": 2.7553
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          96,
-          165,
-          250
-        ],
-        "secondary": [
-          244,
-          180,
-          76
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#24de2b\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#a6bc70\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Luxuriant"
-      },
-      "type": "svg",
-      "z_order": 12
     }
   ],
   "slide": {

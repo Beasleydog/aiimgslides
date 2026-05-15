@@ -8,100 +8,108 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "back_color": [
-        48,
-        46,
-        82
+      "colors": [
+        [
+          201,
+          64,
+          52
+        ],
+        [
+          255,
+          206,
+          86
+        ]
       ],
       "fill": [
-        33,
-        115,
-        169
+        210,
+        72,
+        94
       ],
-      "fore_color": [
-        255,
-        198,
-        74
-      ],
-      "pattern": 19,
-      "style": "pattern",
-      "theme_topic": "Desk Melted"
+      "focus": "top_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Calendar Large"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 15,
+    "level": 15,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 15
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.0708,
-        "w": 3.8672,
-        "x": 0.0988,
-        "y": 5.9364
+        "h": 3.7333,
+        "w": 3.172,
+        "x": 4.0683,
+        "y": 2.1293
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 3,
+        "family": "arrows",
         "fill": [
-          69,
-          79,
-          134
+          142,
+          101,
+          57
         ],
         "focus": false,
         "line": [
-          116,
-          205,
-          228
+          162,
+          132,
+          82
         ],
-        "line_width": 5.064636329151797,
-        "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Desk Melted"
+        "line_width": 2.4795061452330556,
+        "outline_only": true,
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Calendar Large"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.0703,
-        "w": 4.3074,
-        "x": 2.7032,
-        "y": 1.1718
+        "h": 5.5636,
+        "w": 2.8608,
+        "x": 0.6548,
+        "y": 0.7314
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          36,
-          78,
-          187
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          252,
+          247
         ],
-        "focus": false,
-        "line": [
-          61,
-          153,
-          214
-        ],
-        "line_width": 7.836769388295454,
-        "outline_only": true,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Desk Melted"
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Lie Abiding Messy",
+        "theme_topic": "Calendar Large",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.7809,
-        "w": 3.1919,
-        "x": 9.4144,
-        "y": 0.6553
+        "h": 0.6869,
+        "w": 3.7672,
+        "x": 8.8271,
+        "y": 4.9885
       },
       "id": "object_003",
       "properties": {
@@ -109,17 +117,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          250,
-          252,
-          255
+          223,
+          229,
+          180
         ],
-        "font_face": "Arial",
-        "font_size": 22,
+        "font_face": "Trebuchet MS",
+        "font_size": 19,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Lighten Thread Way",
-        "theme_topic": "Desk Melted",
+        "text": "Motion Yard Awake Outstanding",
+        "theme_topic": "Calendar Large",
         "underline": false
       },
       "type": "text",
@@ -127,208 +135,179 @@
     },
     {
       "bbox": {
-        "h": 3.5314,
-        "w": 8.218,
-        "x": 0.6654,
-        "y": 3.3713
+        "h": 0.8477,
+        "w": 3.7568,
+        "x": 8.8132,
+        "y": 5.9268
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.0054321435359177064,
-          0.033177128460175426,
-          0.20081326067256922,
-          0.14487698299392837
-        ],
-        "focus": true,
-        "mask_line": [
+        "bg_color": null,
+        "bold": false,
+        "color": [
           255,
-          198,
-          74
+          218,
+          220
         ],
-        "mask_overlay": false,
-        "theme_topic": "Desk Melted",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "border lyrical stay smart stare therapeutic imminent sparkling wilderness present damaging things black-and-white birds forgetful gate",
+        "theme_topic": "Calendar Large",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.2862,
-        "w": 4.3826,
-        "x": 0.709,
-        "y": 0.7123
+        "h": 1.8266,
+        "w": 4.0504,
+        "x": 8.6847,
+        "y": 2.7666
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          56,
-          123,
-          104
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          225,
+          94,
+          113
         ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          47,
-          136,
-          190
+        "line": [
+          225,
+          94,
+          113
         ],
-        "border": [
-          157,
-          219,
-          178
-        ],
-        "border_dash": "solid",
-        "border_width": 1.556862938253431,
-        "cells": [
-          [
-            "collar",
-            "tub",
-            "art reign"
-          ],
-          [
-            "jam",
-            "compete",
-            "walk"
-          ]
-        ],
-        "cols": 3,
-        "font_size": 6,
-        "has_header": true,
-        "header": [
-          185,
-          58,
-          137
-        ],
-        "rows": 2,
-        "text_color": [
-          250,
-          252,
-          255
-        ],
-        "theme_topic": "Desk Melted"
+        "line_width": 2.2646246599342374,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Calendar Large"
       },
-      "type": "table",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.903,
-        "w": 0.2505,
-        "x": 4.5848,
-        "y": 2.81
+        "h": 1.5247,
+        "w": 3.7655,
+        "x": 8.8602,
+        "y": 2.8865
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          53,
-          202,
-          122
+        "crop": [
+          0.19581301299561346,
+          0.2376126266921572,
+          0.3253001815145025,
+          0.06114145321963602
         ],
         "focus": false,
-        "line": [
-          93,
-          230,
-          53
+        "mask_line": [
+          61,
+          61,
+          29
         ],
-        "line_width": 5.406305623261254,
-        "outline_only": false,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Desk Melted"
+        "mask_overlay": false,
+        "theme_topic": "Calendar Large",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.3201,
-        "w": 0.7448,
-        "x": 4.0454,
-        "y": 3.2311
+        "h": 6.2498,
+        "w": 4.3717,
+        "x": 3.7534,
+        "y": 0.644
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "ribbon_path",
-        "primary": [
-          255,
-          198,
-          74
+        "crop": [
+          0.016249763454269303,
+          0.031901364931172446,
+          0.3208402623421429,
+          0.25751718983545535
         ],
-        "secondary": [
-          255,
-          117,
-          117
+        "focus": true,
+        "mask_line": [
+          51,
+          63,
+          101
         ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#d674b8\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#9866d9\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
-        "theme_topic": "Desk Melted"
+        "mask_overlay": false,
+        "theme_topic": "Calendar Large",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.817,
-        "w": 0.3196,
-        "x": 1.2276,
-        "y": 5.1046
+        "h": 0.6281,
+        "w": 3.7532,
+        "x": 8.8238,
+        "y": 0.7841
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          124,
-          153,
-          51
+        "bg_color": [
+          195,
+          83,
+          74
         ],
-        "focus": false,
-        "line": [
-          141,
-          108,
-          146
+        "bold": true,
+        "color": [
+          163,
+          98,
+          176
         ],
-        "line_width": 5.566257655530017,
-        "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Desk Melted"
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Tangible Alleged",
+        "theme_topic": "Calendar Large",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.3139,
-        "w": 1.2241,
-        "x": 11.3388,
-        "y": 2.1891
+        "h": 0.7459,
+        "w": 3.7329,
+        "x": 8.8566,
+        "y": 1.6324
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          120,
-          83,
-          125
+          255,
+          218,
+          220
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "doll",
-        "theme_topic": "Desk Melted",
+        "text": "petite verdant milky next baseball itch vengeful stone grade big coat functional",
+        "theme_topic": "Calendar Large",
         "underline": false
       },
       "type": "text",
@@ -336,35 +315,192 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.8242,
-        "x": 0.4706,
-        "y": 1.1533
+        "h": 0.5492,
+        "w": 0.4198,
+        "x": 9.4612,
+        "y": 1.6549
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          32,
-          165,
-          38
+          140,
+          123,
+          190
         ],
         "focus": false,
         "line": [
-          144,
-          134,
-          26
+          51,
+          63,
+          101
         ],
-        "line_width": 1.671061878258415,
+        "line_width": 1.748968166976459,
         "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Desk Melted"
+        "ppt_type": 179,
+        "shape": "cloud",
+        "theme_topic": "Calendar Large"
       },
       "type": "shape",
       "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.917,
+        "w": 0.3473,
+        "x": 8.4921,
+        "y": 3.2589
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "flowchart",
+        "fill": [
+          98,
+          223,
+          105
+        ],
+        "focus": false,
+        "line": [
+          203,
+          221,
+          33
+        ],
+        "line_width": 4.625173962029785,
+        "outline_only": false,
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Calendar Large"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.2685,
+        "w": 0.4752,
+        "x": 11.2135,
+        "y": 1.9673
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          120,
+          72,
+          158
+        ],
+        "focus": false,
+        "line": [
+          174,
+          88,
+          164
+        ],
+        "line_width": 5.241109723755015,
+        "outline_only": true,
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Calendar Large"
+      },
+      "type": "shape",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.4531,
+        "w": 1.596,
+        "x": 7.1158,
+        "y": 3.9595
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "arrows",
+        "fill": [
+          87,
+          79,
+          174
+        ],
+        "focus": false,
+        "line": [
+          199,
+          219,
+          105
+        ],
+        "line_width": 7.182079009386403,
+        "outline_only": false,
+        "ppt_type": 38,
+        "shape": "up_down_arrow",
+        "theme_topic": "Calendar Large"
+      },
+      "type": "shape",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.8585,
+        "w": 0.8498,
+        "x": 4.9082,
+        "y": 1.8411
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "arrows",
+        "fill": [
+          27,
+          30,
+          155
+        ],
+        "focus": false,
+        "line": [
+          66,
+          190,
+          86
+        ],
+        "line_width": 2.6682420950782264,
+        "outline_only": false,
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Calendar Large"
+      },
+      "type": "shape",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.2627,
+        "w": 2.0848,
+        "x": 8.9364,
+        "y": 0.6285
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          84,
+          138,
+          167
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "attraction dress closed skin",
+        "theme_topic": "Calendar Large",
+        "underline": true
+      },
+      "type": "text",
+      "z_order": 15
     }
   ],
   "slide": {

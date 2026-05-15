@@ -8,88 +8,111 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
-      "fill": [
-        25,
-        30,
-        39
+      "colors": [
+        [
+          153,
+          228,
+          118
+        ],
+        [
+          255,
+          211,
+          88
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Impulse Count"
+      "fill": [
+        108,
+        217,
+        58
+      ],
+      "focus": "top_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Own"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 21,
+    "level": 21,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 21
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.8738,
-        "w": 7.1394,
-        "x": 0.3147,
-        "y": 4.3422
+        "h": 5.0658,
+        "w": 6.1955,
+        "x": 0.972,
+        "y": -0.1279
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "math",
+        "family": "basic",
         "fill": [
-          115,
-          82,
-          141
+          175,
+          203,
+          62
         ],
         "focus": false,
         "line": [
-          191,
-          53,
-          111
+          44,
+          61,
+          125
         ],
-        "line_width": 4.023054070862741,
-        "outline_only": true,
-        "ppt_type": 164,
-        "shape": "minus",
-        "theme_topic": "Impulse Count"
+        "line_width": 6.218782931596646,
+        "outline_only": false,
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Own"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.4912,
-        "w": 0.5725,
-        "x": 0.0038,
-        "y": -0.0039
+        "h": 3.8052,
+        "w": 6.1969,
+        "x": 0.2037,
+        "y": 1.2058
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          43,
-          51,
-          64
+          195,
+          71,
+          181
         ],
+        "focus": false,
         "line": [
-          43,
-          51,
-          64
+          78,
+          71,
+          173
         ],
-        "line_width": 1.2945317605588436,
+        "line_width": 7.833765549415441,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Impulse Count"
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Own"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.8941,
-        "w": 5.6269,
-        "x": 0.7334,
-        "y": 5.8549
+        "h": 5.7807,
+        "w": 3.1956,
+        "x": 9.3922,
+        "y": 0.6652
       },
       "id": "object_003",
       "properties": {
@@ -98,16 +121,16 @@
         "bold": true,
         "color": [
           246,
-          247,
-          249
+          248,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 24,
+        "font_face": "Georgia",
+        "font_size": 20,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Actor Scary",
-        "theme_topic": "Impulse Count",
+        "text": "Hole",
+        "theme_topic": "Own",
         "underline": false
       },
       "type": "text",
@@ -115,57 +138,59 @@
     },
     {
       "bbox": {
-        "h": 2.8381,
-        "w": 5.1384,
-        "x": 7.446,
-        "y": 0.7438
+        "h": 0.5264,
+        "w": 0.5414,
+        "x": 1.2473,
+        "y": 1.726
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          247,
-          249
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 34,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Puny Dislike Confess First Obsequious Chicken Remain Fascinated Governor",
-        "theme_topic": "Impulse Count",
-        "underline": false
+        "line": [
+          153,
+          228,
+          118
+        ],
+        "line_width": 1.1183243468665258,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Own"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.811,
-        "w": 2.8132,
-        "x": 7.457,
-        "y": 4.051
+        "h": 0.976,
+        "w": 1.4081,
+        "x": 0.6953,
+        "y": 2.3103
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          96,
-          165,
-          250
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 13,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "MASK",
-        "theme_topic": "Impulse Count",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "locket pocket return visitor butter existence haircut",
+        "theme_topic": "Own",
         "underline": false
       },
       "type": "text",
@@ -173,39 +198,41 @@
     },
     {
       "bbox": {
-        "h": 1.07,
-        "w": 5.8367,
-        "x": 0.6951,
-        "y": 0.6733
+        "h": 0.5948,
+        "w": 0.584,
+        "x": 3.173,
+        "y": 1.638
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          213,
-          36,
-          101
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Lake",
-        "theme_topic": "Impulse Count",
-        "underline": false
+        "line": [
+          153,
+          228,
+          118
+        ],
+        "line_width": 0.9331082100748466,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Own"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 3.4788,
-        "w": 5.8247,
-        "x": 0.6975,
-        "y": 1.9885
+        "h": 0.9978,
+        "w": 1.5425,
+        "x": 2.4431,
+        "y": 2.3073
       },
       "id": "object_007",
       "properties": {
@@ -213,17 +240,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          177,
-          185,
-          196
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "charge bloody creepy tested angry offbeat zebra flow grate route receipt slap point rifle bushes eatable",
-        "theme_topic": "Impulse Count",
+        "text": "carry jeans quizzical alleged",
+        "theme_topic": "Own",
         "underline": false
       },
       "type": "text",
@@ -231,124 +258,426 @@
     },
     {
       "bbox": {
-        "h": 0.6075,
-        "w": 0.6117,
-        "x": 1.2928,
-        "y": 4.3385
+        "h": 0.4796,
+        "w": 0.4902,
+        "x": 4.7328,
+        "y": 1.5181
       },
       "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          71,
+          221,
+          181
+        ],
+        "line": [
+          153,
+          228,
+          118
+        ],
+        "line_width": 3.0275884255962207,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Own"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.9897,
+        "w": 1.3157,
+        "x": 4.3217,
+        "y": 2.3308
+      },
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          207,
-          127,
-          219
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 13,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Makeshift Scarf Bang",
-        "theme_topic": "Impulse Count",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "efficacious frantic farm thing beautiful use name",
+        "theme_topic": "Own",
         "underline": false
       },
       "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.3412,
-        "w": 0.4936,
-        "x": 4.2035,
-        "y": 1.4633
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          113,
-          89,
-          108
-        ],
-        "focus": false,
-        "line": [
-          152,
-          135,
-          154
-        ],
-        "line_width": 3.7433261153419886,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Impulse Count"
-      },
-      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4939,
-        "w": 1.8911,
-        "x": 10.1989,
-        "y": 2.782
+        "h": 0.3618,
+        "w": 0.3515,
+        "x": 6.2828,
+        "y": 1.783
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          61,
-          133,
-          163
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          71,
+          221,
+          181
         ],
-        "bold": false,
-        "color": [
-          75,
-          52,
-          218
+        "line": [
+          153,
+          228,
+          118
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "spiders purpose",
-        "theme_topic": "Impulse Count",
-        "underline": false
+        "line_width": 2.9059243985872127,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Own"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4746,
-        "w": 1.0119,
-        "x": 1.6748,
-        "y": 5.6584
+        "h": 1.0048,
+        "w": 0.961,
+        "x": 5.9458,
+        "y": 2.33
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "ribbon_path",
-        "primary": [
-          96,
-          165,
-          250
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "secondary": [
-          166,
-          28,
-          29
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#a9d163\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#2c5bba\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
-        "theme_topic": "Impulse Count"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "able squeeze bump slimy abiding puncture sudden",
+        "theme_topic": "Own",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.612,
+        "w": 0.5969,
+        "x": 7.6026,
+        "y": 1.5442
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          71,
+          221,
+          181
+        ],
+        "line": [
+          153,
+          228,
+          118
+        ],
+        "line_width": 2.740739557133152,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Own"
+      },
+      "type": "shape",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.9799,
+        "w": 1.6093,
+        "x": 7.2236,
+        "y": 2.3192
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "spoon comparison testy disillusioned bloody announce wealth",
+        "theme_topic": "Own",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 2.9795,
+        "w": 3.6891,
+        "x": 5.142,
+        "y": 3.9153
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          153,
+          228,
+          118
+        ],
+        "line": [
+          153,
+          228,
+          118
+        ],
+        "line_width": 1.4146918636334154,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Own"
+      },
+      "type": "shape",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 1.1664,
+        "w": 3.3267,
+        "x": 5.3356,
+        "y": 4.5109
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Georgia",
+        "font_size": 55,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "409",
+        "theme_topic": "Own",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.6855,
+        "w": 3.3422,
+        "x": 5.3603,
+        "y": 5.7203
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "possible frame puncture dinner robin",
+        "theme_topic": "Own",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.7499,
+        "w": 1.3796,
+        "x": 2.4574,
+        "y": 1.6212
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "callouts",
+        "fill": [
+          89,
+          218,
+          88
+        ],
+        "focus": false,
+        "line": [
+          82,
+          34,
+          66
+        ],
+        "line_width": 3.564333829227669,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Own"
+      },
+      "type": "shape",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.4921,
+        "w": 2.1923,
+        "x": 8.5454,
+        "y": 5.0474
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          76,
+          31,
+          28
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ray chief acid weather unequal",
+        "theme_topic": "Own",
+        "underline": true
+      },
+      "type": "text",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.7382,
+        "w": 0.9501,
+        "x": 0.9054,
+        "y": 3.3958
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          178,
+          189,
+          141
+        ],
+        "focus": false,
+        "line": [
+          71,
+          221,
+          181
+        ],
+        "line_width": 4.127464892528457,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Own"
+      },
+      "type": "shape",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.5742,
+        "w": 1.7003,
+        "x": 5.614,
+        "y": 5.8161
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          213,
+          169,
+          122
+        ],
+        "font_face": "Aptos",
+        "font_size": 16,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Note",
+        "theme_topic": "Own",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 0.7181,
+        "w": 0.6204,
+        "x": 3.5392,
+        "y": 4.4053
+      },
+      "id": "object_021",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          191,
+          48,
+          127
+        ],
+        "focus": false,
+        "line": [
+          106,
+          224,
+          147
+        ],
+        "line_width": 3.571303996499741,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Own"
+      },
+      "type": "shape",
+      "z_order": 21
     }
   ],
   "slide": {

@@ -10,57 +10,127 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        18,
-        129,
-        148
+        29,
+        151,
+        112
       ],
       "style": "solid",
-      "theme_topic": "Soothe Produce"
+      "theme_topic": "Calculate Top"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 11,
+    "level": 11,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 11
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.6523,
-        "w": 6.7351,
-        "x": 2.8067,
-        "y": 3.4011
+        "h": 3.6028,
+        "w": 8.5645,
+        "x": 0.3998,
+        "y": 0.4744
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "arrows",
         "fill": [
-          51,
-          196,
-          108
+          40,
+          87,
+          63
         ],
         "focus": false,
         "line": [
-          106,
-          94,
-          50
+          48,
+          115,
+          74
         ],
-        "line_width": 4.213897193291015,
-        "outline_only": true,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Soothe Produce"
+        "line_width": 5.294279858157747,
+        "outline_only": false,
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Calculate Top"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.5272,
-        "w": 2.8283,
-        "x": 0.6411,
-        "y": 0.7302
+        "h": 2.2308,
+        "w": 8.3571,
+        "x": -0.4319,
+        "y": 5.1888
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          47,
+          80,
+          54
+        ],
+        "focus": false,
+        "line": [
+          129,
+          86,
+          227
+        ],
+        "line_width": 2.2279174392053513,
+        "outline_only": false,
+        "ppt_type": 165,
+        "shape": "multiply",
+        "theme_topic": "Calculate Top"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 7.4983,
+        "w": 1.2939,
+        "x": 12.0441,
+        "y": 0.0003
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          83,
+          176,
+          146
+        ],
+        "line": [
+          83,
+          176,
+          146
+        ],
+        "line_width": 1.8940696778509103,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Calculate Top"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.919,
+        "w": 3.9894,
+        "x": 4.5528,
+        "y": 0.7476
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -70,197 +140,100 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
+        "font_face": "Trebuchet MS",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Wonder Hellish Value",
-        "theme_topic": "Soothe Produce",
+        "text": "Macabre Need Achiever Arrive",
+        "theme_topic": "Calculate Top",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.8431,
-        "w": 1.6042,
-        "x": 4.5356,
-        "y": 1.2851
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.29326963626805846,
-          0.09471806029667557,
-          0.052476767592172645,
-          0.12828186467643074
-        ],
-        "focus": false,
-        "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Soothe Produce",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.8429,
-        "w": 2.3836,
-        "x": 8.2814,
-        "y": 3.1672
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.28500303959945067,
-          0.06418961977696251,
-          0.08185182279308643,
-          0.2977844735665826
-        ],
-        "focus": false,
-        "mask_line": [
-          80,
-          82,
-          152
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Soothe Produce",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.5645,
-        "w": 5.0127,
-        "x": 5.7677,
-        "y": 1.3367
+        "h": 0.7409,
+        "w": 0.7937,
+        "x": 8.0249,
+        "y": 6.0801
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          101,
-          173,
-          185
-        ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          38,
-          130,
-          155
-        ],
-        "border": [
-          229,
-          212,
-          227
-        ],
-        "border_dash": "solid",
-        "border_width": 3.4171764912402853,
-        "cells": [
-          [
-            "square accidental",
-            "welcome blot",
-            "prefer",
-            "cute",
-            "skirt",
-            "mundane futuristic"
-          ],
-          [
-            "trite",
-            "bad",
-            "groan wriggle",
-            "interest odd",
-            "foregoing",
-            "bawdy nondescript"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 5,
-        "has_header": false,
-        "header": [
-          255,
-          238,
-          103
-        ],
-        "rows": 2,
-        "text_color": [
+        "bg_color": null,
+        "bold": false,
+        "color": [
           246,
           248,
           252
         ],
-        "theme_topic": "Soothe Produce"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "spring scold school unaccountable damaged",
+        "theme_topic": "Calculate Top",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.6707,
-        "w": 2.1828,
-        "x": 5.8773,
-        "y": 2.3506
+        "h": 0.7399,
+        "w": 0.9418,
+        "x": 9.1361,
+        "y": 6.0635
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          101,
-          173,
-          185
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          101,
-          173,
-          185
-        ],
-        "line_width": 2.1324274942920067,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Soothe Produce"
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "squeamish deer dirt",
+        "theme_topic": "Calculate Top",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.6137,
-        "w": 1.8325,
-        "x": 6.0891,
-        "y": 2.7065
+        "h": 0.7436,
+        "w": 0.8883,
+        "x": 10.3718,
+        "y": 6.0679
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
           246,
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "62%",
-        "theme_topic": "Soothe Produce",
+        "text": "snail mindless illegal untidy weigh",
+        "theme_topic": "Calculate Top",
         "underline": false
       },
       "type": "text",
@@ -268,10 +241,10 @@
     },
     {
       "bbox": {
-        "h": 0.3451,
-        "w": 1.8131,
-        "x": 6.0969,
-        "y": 3.3547
+        "h": 0.7384,
+        "w": 1.1102,
+        "x": 11.611,
+        "y": 6.065
       },
       "id": "object_008",
       "properties": {
@@ -283,13 +256,13 @@
           248,
           252
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "cats stare panoramic light wind first ants",
-        "theme_topic": "Soothe Produce",
+        "text": "easy changeable call boy tow noise",
+        "theme_topic": "Calculate Top",
         "underline": false
       },
       "type": "text",
@@ -297,39 +270,33 @@
     },
     {
       "bbox": {
-        "h": 0.273,
-        "w": 2.2386,
-        "x": 7.8359,
-        "y": 4.9958
+        "h": 3.0124,
+        "w": 4.8036,
+        "x": 7.9732,
+        "y": 1.4429
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
+        "clip": "ticket",
+        "focus": true,
+        "line": [
+          142,
+          71,
+          152
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "FLIMSY",
-        "theme_topic": "Soothe Produce",
-        "underline": false
+        "line_width": 11,
+        "theme_topic": "Calculate Top"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.3615,
-        "w": 2.242,
-        "x": 7.8797,
-        "y": 5.5063
+        "h": 0.2912,
+        "w": 4.4022,
+        "x": 8.1694,
+        "y": 4.0295
       },
       "id": "object_010",
       "properties": {
@@ -337,17 +304,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          105,
-          185,
-          63
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos Display",
-        "font_size": 18,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Doubt",
-        "theme_topic": "Soothe Produce",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Snotty",
+        "theme_topic": "Calculate Top",
         "underline": false
       },
       "type": "text",
@@ -355,10 +322,10 @@
     },
     {
       "bbox": {
-        "h": 0.3327,
-        "w": 2.231,
-        "x": 7.8385,
-        "y": 6.0884
+        "h": 0.3284,
+        "w": 2.1996,
+        "x": 0.7052,
+        "y": 1.4709
       },
       "id": "object_011",
       "properties": {
@@ -366,146 +333,21 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          143,
-          194,
-          205
+          211,
+          35,
+          51
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Verdana",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "multiply toad direful cellar birthday psychotic detail close guitar stove standing pig ajar wacky spotless",
-        "theme_topic": "Soothe Produce",
+        "text": "mouth present scattered",
+        "theme_topic": "Calculate Top",
         "underline": false
       },
       "type": "text",
       "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.4749,
-        "w": 0.6948,
-        "x": 10.1639,
-        "y": 4.6795
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          143,
-          97,
-          161
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Soap Argument Slim",
-        "theme_topic": "Soothe Produce",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 1.3692,
-        "x": 7.6166,
-        "y": 6.7346
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          74,
-          108,
-          50
-        ],
-        "focus": false,
-        "line": [
-          156,
-          37,
-          205
-        ],
-        "line_width": 4.727676325761505,
-        "outline_only": true,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Soothe Produce"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.6114,
-        "w": 0.2398,
-        "x": 10.1396,
-        "y": 3.4549
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
-        "fill": [
-          119,
-          54,
-          65
-        ],
-        "focus": false,
-        "line": [
-          194,
-          133,
-          210
-        ],
-        "line_width": 3.23829331907158,
-        "outline_only": true,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Soothe Produce"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.8574,
-        "w": 0.9542,
-        "x": 6.7402,
-        "y": 4.7466
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          167,
-          150,
-          76
-        ],
-        "focus": false,
-        "line": [
-          179,
-          142,
-          60
-        ],
-        "line_width": 1.5613699362418811,
-        "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Soothe Produce"
-      },
-      "type": "shape",
-      "z_order": 15
     }
   ],
   "slide": {

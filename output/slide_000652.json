@@ -8,36 +8,47 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        29,
-        151,
-        112
+      "colors": [
+        [
+          124,
+          200,
+          119
+        ],
+        [
+          127,
+          141,
+          195
+        ]
       ],
       "fill": [
-        29,
-        151,
-        112
+        84,
+        183,
+        78
       ],
-      "fore_color": [
-        36,
-        178,
-        149
-      ],
-      "pattern": 40,
-      "style": "pattern",
-      "theme_topic": "Weak"
+      "focus": "bottom_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Blot Mate"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 17,
+    "level": 17,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 17
+  },
   "objects": [
     {
       "bbox": {
-        "h": 5.0326,
-        "w": 6.9635,
-        "x": 7.3102,
-        "y": 0.9001
+        "h": 2.7855,
+        "w": 4.0075,
+        "x": 0.5746,
+        "y": 1.4455
       },
       "id": "object_001",
       "properties": {
@@ -45,163 +56,97 @@
         "dash": 1,
         "family": "math",
         "fill": [
-          170,
-          207,
-          175
+          49,
+          109,
+          81
         ],
         "focus": false,
         "line": [
-          109,
-          137,
-          91
+          71,
+          31,
+          25
         ],
-        "line_width": 2.4079973210545305,
-        "outline_only": false,
-        "ppt_type": 166,
-        "shape": "divide",
-        "theme_topic": "Weak"
+        "line_width": 6.18121053525825,
+        "outline_only": true,
+        "ppt_type": 164,
+        "shape": "minus",
+        "theme_topic": "Blot Mate"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.5391,
-        "w": 2.8591,
-        "x": 0.6426,
-        "y": 0.7722
+        "h": 1.6942,
+        "w": 4.9417,
+        "x": 8.2221,
+        "y": -0.8661
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 2,
+        "family": "flowchart",
+        "fill": [
+          91,
+          201,
+          93
         ],
-        "font_face": "Arial",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Berserk",
-        "theme_topic": "Weak",
-        "underline": false
+        "focus": false,
+        "line": [
+          205,
+          88,
+          180
+        ],
+        "line_width": 7.591001613282129,
+        "outline_only": true,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Blot Mate"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.973,
-        "w": 4.3186,
-        "x": 8.3985,
-        "y": 0.6329
+        "h": 2.2709,
+        "w": 6.5991,
+        "x": 1.6493,
+        "y": 5.6937
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
+        "dash": 3,
+        "family": "math",
         "fill": [
-          105,
-          186,
-          160
+          195,
+          65,
+          193
         ],
+        "focus": false,
         "line": [
-          105,
-          186,
-          160
+          79,
+          42,
+          90
         ],
-        "line_width": 2.182841115043203,
+        "line_width": 6.368786965951941,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Weak"
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Blot Mate"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.4506,
-        "w": 3.8102,
-        "x": 8.6256,
-        "y": 0.9117
+        "h": 1.1641,
+        "w": 6.8763,
+        "x": 2.9346,
+        "y": 0.651
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "ancient",
-          "middle",
-          "married"
-        ],
-        "chart": "doughnut",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              219,
-              142,
-              110
-            ],
-            "name": "enthusiastic",
-            "values": [
-              46,
-              70,
-              88
-            ]
-          }
-        ],
-        "theme_topic": "Weak",
-        "title": "spiteful tin offbeat reduce"
-      },
-      "type": "chart",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.2626,
-        "w": 4.0414,
-        "x": 3.8807,
-        "y": 4.0568
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "DOOR SNIFF",
-        "theme_topic": "Weak",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.8549,
-        "w": 4.0316,
-        "x": 3.9173,
-        "y": 4.5169
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -211,42 +156,139 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 23,
+        "font_face": "Georgia",
+        "font_size": 43,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Grandfather Abundant Standing",
-        "theme_topic": "Weak",
+        "text": "Great Dare",
+        "theme_topic": "Blot Mate",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 2.2339,
+        "w": 5.8422,
+        "x": 6.8877,
+        "y": 4.7489
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          124,
+          200,
+          119
+        ],
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          103,
+          139,
+          107
+        ],
+        "border": [
+          173,
+          218,
+          173
+        ],
+        "border_dash": "solid",
+        "border_width": 1.4821710017998806,
+        "cells": [
+          [
+            "festive windy",
+            "rightful healthy"
+          ],
+          [
+            "transport sidewalk",
+            "toothsome"
+          ],
+          [
+            "queue return",
+            "teeth believe"
+          ],
+          [
+            "ahead dare",
+            "knowing zoo"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 12,
+        "has_header": true,
+        "header": [
+          82,
+          96,
+          214
+        ],
+        "rows": 4,
+        "text_color": [
+          39,
+          173,
+          170
+        ],
+        "theme_topic": "Blot Mate"
+      },
+      "type": "table",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.3227,
+        "w": 5.9381,
+        "x": 0.5625,
+        "y": 4.7077
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          82,
+          96,
+          214
+        ],
+        "line": [
+          124,
+          200,
+          119
+        ],
+        "line_width": 1.1680792189148852,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Blot Mate"
+      },
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.1561,
-        "w": 4.0524,
-        "x": 3.9053,
-        "y": 5.6352
+        "h": 0.909,
+        "w": 5.5736,
+        "x": 0.7252,
+        "y": 5.2217
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          148,
-          204,
-          189
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Georgia",
+        "font_size": 35,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "cows sour tasty liquid breezy strengthen flowers face reign soothe lame stimulating unused energetic fax dirt mom punishment fire",
-        "theme_topic": "Weak",
+        "text": "5x",
+        "theme_topic": "Blot Mate",
         "underline": false
       },
       "type": "text",
@@ -254,88 +296,88 @@
     },
     {
       "bbox": {
-        "h": 2.9767,
-        "w": 0.7495,
-        "x": 8.3847,
-        "y": 3.9443
+        "h": 0.5761,
+        "w": 5.5837,
+        "x": 0.7179,
+        "y": 6.1175
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          105,
-          186,
-          160
-        ],
-        "line": [
-          105,
-          186,
-          160
-        ],
-        "line_width": 3.1258047074598703,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Weak"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4407,
-        "w": 0.4819,
-        "x": 8.6276,
-        "y": 4.8379
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Flock",
-        "theme_topic": "Weak",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 1.3362,
-        "w": 0.4758,
-        "x": 8.6638,
-        "y": 5.402
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          148,
-          204,
-          189
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 7,
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "abundant achiever didactic command care adaptable daffy meat inconclusive sink attraction",
-        "theme_topic": "Weak",
+        "text": "feeble awesome quartz grieving melt zany stone versed apparatus",
+        "theme_topic": "Blot Mate",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 2.3336,
+        "w": 5.914,
+        "x": 0.5554,
+        "y": 1.9953
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          82,
+          96,
+          214
+        ],
+        "line": [
+          124,
+          200,
+          119
+        ],
+        "line_width": 4.918448707379477,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Blot Mate"
+      },
+      "type": "shape",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.9087,
+        "w": 5.587,
+        "x": 0.728,
+        "y": 2.5008
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Georgia",
+        "font_size": 38,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "8x",
+        "theme_topic": "Blot Mate",
         "underline": false
       },
       "type": "text",
@@ -343,41 +385,39 @@
     },
     {
       "bbox": {
-        "h": 2.9675,
-        "w": 0.8887,
-        "x": 9.3913,
-        "y": 3.9238
+        "h": 0.5511,
+        "w": 5.5554,
+        "x": 0.7436,
+        "y": 3.4242
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          105,
-          186,
-          160
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          105,
-          186,
-          160
-        ],
-        "line_width": 3.165401229642776,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Weak"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "lumpy wealth resonant limping multiply organic meeting plantation precede",
+        "theme_topic": "Blot Mate",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4509,
-        "w": 0.4935,
-        "x": 9.6381,
-        "y": 4.8563
+        "h": 1.2035,
+        "w": 5.5137,
+        "x": 7.0497,
+        "y": 2.199
       },
       "id": "object_012",
       "properties": {
@@ -385,17 +425,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Cheese",
-        "theme_topic": "Weak",
+        "font_face": "Georgia",
+        "font_size": 26,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Thick Regular Belong Hospitable Protective",
+        "theme_topic": "Blot Mate",
         "underline": false
       },
       "type": "text",
@@ -403,28 +443,28 @@
     },
     {
       "bbox": {
-        "h": 1.3082,
-        "w": 0.5146,
-        "x": 9.637,
-        "y": 5.3943
+        "h": 0.3646,
+        "w": 3.0394,
+        "x": 7.0556,
+        "y": 3.574
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          148,
-          204,
-          189
+          82,
+          96,
+          214
         ],
-        "font_face": "Arial",
-        "font_size": 7,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "damp abandoned sincere existence degree rat lamentable simplistic weary military outrageous moaning",
-        "theme_topic": "Weak",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "UNKNOWN BLEACH",
+        "theme_topic": "Blot Mate",
         "underline": false
       },
       "type": "text",
@@ -432,328 +472,126 @@
     },
     {
       "bbox": {
-        "h": 2.9693,
-        "w": 1.1731,
-        "x": 10.5035,
-        "y": 3.9377
+        "h": 0.2593,
+        "w": 0.5929,
+        "x": 7.4489,
+        "y": 5.6651
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "math",
         "fill": [
-          105,
-          186,
-          160
+          225,
+          52,
+          226
         ],
+        "focus": false,
         "line": [
-          105,
-          186,
-          160
+          154,
+          123,
+          62
         ],
-        "line_width": 2.876247619198577,
+        "line_width": 5.2072524512486975,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Weak"
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Blot Mate"
       },
       "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.4376,
-        "w": 0.705,
-        "x": 10.7653,
-        "y": 4.8489
+        "h": 0.6759,
+        "w": 1.1819,
+        "x": 11.7366,
+        "y": 3.6946
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
+        "dash": 2,
+        "family": "ribbons",
+        "fill": [
+          52,
+          164,
+          152
         ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Boundless Yell",
-        "theme_topic": "Weak",
-        "underline": false
+        "focus": false,
+        "line": [
+          71,
+          48,
+          167
+        ],
+        "line_width": 3.859545807975436,
+        "outline_only": false,
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Blot Mate"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 1.3041,
-        "w": 0.6945,
-        "x": 10.7732,
-        "y": 5.3744
+        "h": 1.0832,
+        "w": 1.0721,
+        "x": 2.5498,
+        "y": 5.5871
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          148,
-          204,
-          189
+        "pattern": "rings",
+        "primary": [
+          82,
+          96,
+          214
         ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "oafish dull unequaled reproduce handsome noiseless sink different towering ship sisters",
-        "theme_topic": "Weak",
-        "underline": false
+        "secondary": [
+          35,
+          133,
+          116
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#a41e5f\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#77197e\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#a41e5f\" opacity=\"0.6\"/>\n        </svg>",
+        "theme_topic": "Blot Mate"
       },
-      "type": "text",
+      "type": "svg",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 2.9729,
-        "w": 0.8269,
-        "x": 11.8938,
-        "y": 3.9152
+        "h": 0.501,
+        "w": 0.7945,
+        "x": 3.715,
+        "y": 0.723
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "stars",
         "fill": [
-          105,
-          186,
-          160
+          85,
+          157,
+          107
         ],
+        "focus": false,
         "line": [
-          105,
-          186,
-          160
+          213,
+          38,
+          108
         ],
-        "line_width": 1.2613751599581877,
+        "line_width": 3.9773776113338837,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Weak"
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Blot Mate"
       },
       "type": "shape",
       "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.4482,
-        "w": 0.5005,
-        "x": 12.1841,
-        "y": 4.8305
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Chivalrous Pointless",
-        "theme_topic": "Weak",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 1.3166,
-        "w": 0.4979,
-        "x": 12.1802,
-        "y": 5.3645
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          148,
-          204,
-          189
-        ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "drum cabbage seal prose ugly fly wriggle numberless fish lethal",
-        "theme_topic": "Weak",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 1.0569,
-        "w": 4.013,
-        "x": 3.8886,
-        "y": 0.7949
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          211,
-          151,
-          194
-        ],
-        "font_face": "Arial",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Way Tightfisted Winter",
-        "theme_topic": "Weak",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 1.4263,
-        "w": 4.0161,
-        "x": 3.9141,
-        "y": 2.0636
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          148,
-          204,
-          189
-        ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "spot peck moaning historical leg bucket end grubby strong planes flock agreeable fire sock imperfect ripe",
-        "theme_topic": "Weak",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.2807,
-        "w": 1.0584,
-        "x": 4.2397,
-        "y": 2.052
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          128,
-          150,
-          74
-        ],
-        "focus": false,
-        "line": [
-          207,
-          70,
-          167
-        ],
-        "line_width": 1.9774369811333672,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Weak"
-      },
-      "type": "shape",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.3501,
-        "w": 1.061,
-        "x": 12.1167,
-        "y": 1.3741
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          199,
-          140,
-          62
-        ],
-        "focus": false,
-        "line": [
-          210,
-          70,
-          39
-        ],
-        "line_width": 1.2038437059927438,
-        "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Weak"
-      },
-      "type": "shape",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 0.3814,
-        "w": 1.6002,
-        "x": 11.6189,
-        "y": 5.7695
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          41,
-          83,
-          53
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Weak",
-        "width": 0.45457437303859194
-      },
-      "type": "connector",
-      "z_order": 24
     }
   ],
   "slide": {

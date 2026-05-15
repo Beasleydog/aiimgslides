@@ -8,163 +8,166 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        80,
-        40,
-        179
+      "colors": [
+        [
+          249,
+          203,
+          91
+        ],
+        [
+          32,
+          119,
+          149
+        ]
       ],
       "fill": [
-        57,
-        142,
-        129
+        240,
+        176,
+        54
       ],
-      "fore_color": [
-        96,
-        165,
-        250
-      ],
-      "pattern": 40,
-      "style": "pattern",
-      "theme_topic": "Summer Ahead"
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Fix Current"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 12,
+    "level": 12,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 12
+  },
   "objects": [
     {
       "bbox": {
-        "h": 5.0851,
-        "w": 7.5704,
-        "x": 2.1005,
-        "y": 3.1693
+        "h": 4.7367,
+        "w": 7.0791,
+        "x": 5.1628,
+        "y": 1.6779
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          179,
-          139,
-          175
+          134,
+          194,
+          96
         ],
         "focus": false,
         "line": [
-          37,
-          175,
-          43
+          69,
+          44,
+          32
         ],
-        "line_width": 2.601456431508307,
-        "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Summer Ahead"
+        "line_width": 6.14765884594939,
+        "outline_only": true,
+        "ppt_type": 49,
+        "shape": "striped_right_arrow",
+        "theme_topic": "Fix Current"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.5675,
-        "w": 5.4853,
-        "x": 5.7809,
-        "y": 2.1062
+        "h": 5.8112,
+        "w": 3.1975,
+        "x": 9.4213,
+        "y": 0.6587
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          172,
-          208,
-          144
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          40,
+          38,
+          28
         ],
-        "focus": false,
-        "line": [
-          28,
-          111,
-          176
-        ],
-        "line_width": 3.569172757264342,
-        "outline_only": true,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Summer Ahead"
+        "font_face": "Trebuchet MS",
+        "font_size": 19,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Annoying Numberless",
+        "theme_topic": "Fix Current",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.1998,
-        "w": 8.7484,
-        "x": 1.358,
-        "y": 4.1271
+        "h": 6.1708,
+        "w": 1.1561,
+        "x": 5.0751,
+        "y": 0.6948
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          75,
-          173,
-          130
+        "crop": [
+          0.20191804726698756,
+          0.019971852483717117,
+          0.20152378183092154,
+          0.14508327614481195
         ],
         "focus": false,
-        "line": [
-          72,
-          45,
-          95
+        "mask_line": [
+          49,
+          102,
+          67
         ],
-        "line_width": 2.1425641861491713,
-        "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Summer Ahead"
+        "mask_overlay": false,
+        "theme_topic": "Fix Current",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.7801,
-        "w": 8.3191,
-        "x": 2.1257,
-        "y": 0.9371
+        "h": 6.1803,
+        "w": 1.0926,
+        "x": 6.3949,
+        "y": 0.7004
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          94,
-          163,
-          152
+        "crop": [
+          0.280303427648812,
+          0.2804956708129023,
+          0.11896399368162837,
+          0.2701006958947876
         ],
-        "line": [
-          114,
-          175,
-          165
+        "focus": false,
+        "mask_line": [
+          186,
+          109,
+          221
         ],
-        "line_width": 4.6950765320881125,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Summer Ahead"
+        "mask_overlay": false,
+        "theme_topic": "Fix Current",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.8942,
-        "w": 6.066,
-        "x": 4.3426,
-        "y": 0.6718
+        "h": 0.2588,
+        "w": 0.7038,
+        "x": 6.5806,
+        "y": 6.3815
       },
       "id": "object_005",
       "properties": {
@@ -172,17 +175,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          32,
+          119,
+          149
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
+        "font_face": "Verdana",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Creepy Detailed",
-        "theme_topic": "Summer Ahead",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Snails",
+        "theme_topic": "Fix Current",
         "underline": false
       },
       "type": "text",
@@ -190,113 +193,64 @@
     },
     {
       "bbox": {
-        "h": 2.3019,
-        "w": 5.2103,
-        "x": 0.6177,
-        "y": 1.478
+        "h": 6.1456,
+        "w": 1.1125,
+        "x": 7.6802,
+        "y": 0.6861
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          38,
-          96,
-          69
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          249,
+          203,
+          91
         ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          114,
-          175,
-          165
+        "line": [
+          249,
+          203,
+          91
         ],
-        "border": [
-          155,
-          116,
-          154
-        ],
-        "border_dash": "solid",
-        "border_width": 1.6614434344374012,
-        "cells": [
-          [
-            "collar curve",
-            "invite"
-          ],
-          [
-            "tan",
-            "store"
-          ],
-          [
-            "toe",
-            "drab steadfast"
-          ],
-          [
-            "birds",
-            "truthful jobless"
-          ],
-          [
-            "pen sleet",
-            "mere cure"
-          ],
-          [
-            "vivacious",
-            "adamant"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 6,
-        "has_header": false,
-        "header": [
-          96,
-          165,
-          250
-        ],
-        "rows": 6,
-        "text_color": [
-          228,
-          121,
-          108
-        ],
-        "theme_topic": "Summer Ahead"
+        "line_width": 4.373752362198335,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Fix Current"
       },
-      "type": "table",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.289,
-        "w": 6.3134,
-        "x": 6.3069,
-        "y": 1.5679
+        "h": 5.8262,
+        "w": 0.8348,
+        "x": 7.8171,
+        "y": 0.8804
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "clip": "arch",
+        "focus": false,
+        "line": [
+          129,
+          204,
+          151
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "MIDDLE",
-        "theme_topic": "Summer Ahead",
-        "underline": false
+        "line_width": 15,
+        "theme_topic": "Fix Current"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.6635,
-        "w": 6.3217,
-        "x": 6.3006,
-        "y": 2.0436
+        "h": 0.2938,
+        "w": 0.7028,
+        "x": 7.8788,
+        "y": 6.3907
       },
       "id": "object_008",
       "properties": {
@@ -304,17 +258,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          169,
-          51,
-          159
+          32,
+          119,
+          149
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 35,
+        "font_face": "Verdana",
+        "font_size": 7,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Toy Release",
-        "theme_topic": "Summer Ahead",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Turn Piquant Extend",
+        "theme_topic": "Fix Current",
         "underline": false
       },
       "type": "text",
@@ -322,370 +276,122 @@
     },
     {
       "bbox": {
-        "h": 0.8173,
-        "w": 6.3154,
-        "x": 6.3291,
-        "y": 2.9167
+        "h": 6.2561,
+        "w": 3.8426,
+        "x": 0.6492,
+        "y": 0.6489
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          160,
-          200,
-          196
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          249,
+          203,
+          91
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "safe bump committee welcome remarkable request delight eggnog last rainstorm",
-        "theme_topic": "Summer Ahead",
-        "underline": false
+        "line": [
+          249,
+          203,
+          91
+        ],
+        "line_width": 1.2396458564160586,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Fix Current"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.6001,
-        "w": 1.229,
-        "x": 9.3533,
-        "y": 4.7065
+        "h": 5.9234,
+        "w": 3.4977,
+        "x": 0.7983,
+        "y": 0.8182
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          244,
-          180,
-          76
-        ],
+        "clip": "hex",
+        "focus": true,
         "line": [
-          146,
-          132,
-          197
+          189,
+          28,
+          126
         ],
-        "line_width": 1.401155976642689,
-        "pattern": "badge",
-        "points": [
-          [
-            0.5,
-            0.0
-          ],
-          [
-            0.62,
-            0.25
-          ],
-          [
-            0.92,
-            0.18
-          ],
-          [
-            0.75,
-            0.5
-          ],
-          [
-            0.98,
-            0.78
-          ],
-          [
-            0.62,
-            0.72
-          ],
-          [
-            0.5,
-            1.0
-          ],
-          [
-            0.38,
-            0.72
-          ],
-          [
-            0.02,
-            0.78
-          ],
-          [
-            0.25,
-            0.5
-          ],
-          [
-            0.08,
-            0.18
-          ],
-          [
-            0.38,
-            0.25
-          ]
-        ],
-        "theme_topic": "Summer Ahead"
+        "line_width": 17,
+        "theme_topic": "Fix Current"
       },
-      "type": "freeform",
+      "type": "svg_image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.8113,
-        "w": 0.2,
-        "x": 4.1169,
-        "y": 6.1667
+        "h": 0.9476,
+        "w": 0.6355,
+        "x": 5.8578,
+        "y": 2.866
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "symbols",
+        "dash": 1,
+        "family": "ribbons",
         "fill": [
-          197,
-          94,
-          191
+          41,
+          104,
+          80
         ],
         "focus": false,
         "line": [
-          200,
-          148,
-          83
+          68,
+          88,
+          225
         ],
-        "line_width": 4.618820359801085,
+        "line_width": 3.5064640246258834,
         "outline_only": false,
-        "ppt_type": 23,
-        "shape": "sun",
-        "theme_topic": "Summer Ahead"
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Fix Current"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.486,
-        "w": 2.1753,
-        "x": 6.6906,
-        "y": 2.7688
+        "h": 0.3753,
+        "w": 1.3772,
+        "x": 2.4146,
+        "y": 0.6419
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          106,
+          162,
+          168
+        ],
         "bold": false,
         "color": [
-          25,
-          159,
-          141
+          30,
+          87,
+          109
         ],
         "font_face": "Verdana",
-        "font_size": 9,
+        "font_size": 15,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "bad living unable efficient stimulating",
-        "theme_topic": "Summer Ahead",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Unique",
+        "theme_topic": "Fix Current",
         "underline": false
       },
       "type": "text",
       "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.3864,
-        "w": 1.5557,
-        "x": 4.0375,
-        "y": 0.1473
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          78,
-          52,
-          161
-        ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Summer Ahead",
-        "width": 1.2129531130677793
-      },
-      "type": "connector",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.4139,
-        "w": 1.0722,
-        "x": 4.9465,
-        "y": 6.6028
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          207,
-          82,
-          50
-        ],
-        "focus": false,
-        "line": [
-          207,
-          150,
-          159
-        ],
-        "line_width": 6.128074519240377,
-        "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Summer Ahead"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.4104,
-        "w": 0.8686,
-        "x": 1.9242,
-        "y": 3.0302
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          30,
-          97,
-          134
-        ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "stew",
-        "theme_topic": "Summer Ahead",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 1.0472,
-        "w": 1.3486,
-        "x": 2.9744,
-        "y": 3.7056
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          130,
-          116,
-          190
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Summer Ahead",
-        "width": 0.49182925800281985
-      },
-      "type": "connector",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.5022,
-        "w": 0.4642,
-        "x": 1.2514,
-        "y": 0.5314
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
-        "fill": [
-          27,
-          191,
-          37
-        ],
-        "focus": false,
-        "line": [
-          115,
-          55,
-          34
-        ],
-        "line_width": 1.7383891647457783,
-        "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Summer Ahead"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.2118,
-        "w": 1.4582,
-        "x": 5.3129,
-        "y": 6.5365
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          151,
-          138,
-          83
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Summer Ahead",
-        "width": 1.2295256618345896
-      },
-      "type": "connector",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.5123,
-        "w": 0.6064,
-        "x": 7.2969,
-        "y": 0.9366
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          28,
-          113,
-          137
-        ],
-        "focus": false,
-        "line": [
-          43,
-          183,
-          67
-        ],
-        "line_width": 2.942485016043522,
-        "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Summer Ahead"
-      },
-      "type": "shape",
-      "z_order": 19
     }
   ],
   "slide": {

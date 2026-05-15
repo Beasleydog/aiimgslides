@@ -8,107 +8,127 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "fill": [
-        201,
-        230,
-        147
+      "colors": [
+        [
+          76,
+          57,
+          138
+        ],
+        [
+          96,
+          165,
+          250
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Business Whimsical"
+      "fill": [
+        76,
+        57,
+        138
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Confess Eggs"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 8,
+    "level": 8,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 8
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.8508,
-        "w": 8.5851,
-        "x": 2.6332,
-        "y": 5.665
+        "h": 0.8948,
+        "w": 5.7058,
+        "x": 3.2746,
+        "y": 1.2915
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "stars",
-        "fill": [
-          196,
-          205,
-          192
-        ],
-        "focus": false,
-        "line": [
-          155,
-          221,
-          201
-        ],
-        "line_width": 4.6375940061536,
-        "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Business Whimsical"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 2.6968,
-        "w": 6.103,
-        "x": 8.268,
-        "y": 1.3667
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          136,
-          195,
-          193
-        ],
-        "focus": false,
-        "line": [
-          226,
-          143,
-          108
-        ],
-        "line_width": 3.618159115577148,
-        "outline_only": true,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Business Whimsical"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.2654,
-        "w": 8.2339,
-        "x": 0.5652,
-        "y": 0.3545
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 33,
+        "font_face": "Georgia",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Throne Cellar",
-        "theme_topic": "Business Whimsical",
+        "text": "Wish Agonizing Lunch",
+        "theme_topic": "Confess Eggs",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 0.3628,
+        "w": 6.5523,
+        "x": 3.4001,
+        "y": 5.8751
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          67,
+          200,
+          207
+        ],
+        "bold": true,
+        "color": [
+          66,
+          34,
+          79
+        ],
+        "font_face": "Georgia",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Pray",
+        "theme_topic": "Confess Eggs",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.3462,
+        "w": 6.5591,
+        "x": 3.3755,
+        "y": 6.5388
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          169,
+          162,
+          200
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "glistening circle compare moon tap compete bone delirious aunt aunt view opposite rainstorm copper awake rake",
+        "theme_topic": "Confess Eggs",
         "underline": false
       },
       "type": "text",
@@ -116,68 +136,70 @@
     },
     {
       "bbox": {
-        "h": 1.058,
-        "w": 4.8975,
-        "x": 0.6886,
-        "y": 1.9723
+        "h": 3.1194,
+        "w": 6.8549,
+        "x": 3.208,
+        "y": 2.4577
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "crop": [
+          0.3247267567896135,
+          0.09703232088532265,
+          0.2912341315600892,
+          0.3205553974150677
         ],
-        "font_face": "Arial",
-        "font_size": 43,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Drown",
-        "theme_topic": "Business Whimsical",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          96,
+          165,
+          250
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Confess Eggs",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 3.6263,
-        "w": 4.921,
-        "x": 0.6873,
-        "y": 3.2805
+        "h": 5.5412,
+        "w": 2.2193,
+        "x": 10.5622,
+        "y": 1.465
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          105,
-          120,
-          85
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
         ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "remember nail instinctive waves way lucky wiry sort frighten",
-        "theme_topic": "Business Whimsical",
-        "underline": false
+        "line": [
+          135,
+          123,
+          177
+        ],
+        "line_width": 2.116425981210449,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Confess Eggs"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.7475,
-        "w": 1.1426,
-        "x": 6.24,
-        "y": 2.0112
+        "h": 1.1652,
+        "w": 1.8602,
+        "x": 10.7468,
+        "y": 2.4386
       },
       "id": "object_006",
       "properties": {
@@ -185,17 +207,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 22,
+        "font_face": "Georgia",
+        "font_size": 41,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "198",
-        "theme_topic": "Business Whimsical",
+        "text": "76%",
+        "theme_topic": "Confess Eggs",
         "underline": false
       },
       "type": "text",
@@ -203,10 +225,10 @@
     },
     {
       "bbox": {
-        "h": 4.1369,
-        "w": 1.1477,
-        "x": 6.2052,
-        "y": 2.7829
+        "h": 0.7149,
+        "w": 1.8189,
+        "x": 10.7524,
+        "y": 4.865
       },
       "id": "object_007",
       "properties": {
@@ -214,17 +236,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          105,
-          120,
-          85
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "dock drunk hose mice railway legs hug",
-        "theme_topic": "Business Whimsical",
+        "text": "nine idea engine vacuous cold undress",
+        "theme_topic": "Confess Eggs",
         "underline": false
       },
       "type": "text",
@@ -232,10 +254,10 @@
     },
     {
       "bbox": {
-        "h": 0.7353,
-        "w": 1.0172,
-        "x": 7.9172,
-        "y": 2.0219
+        "h": 0.2993,
+        "w": 1.4181,
+        "x": 5.429,
+        "y": 1.8044
       },
       "id": "object_008",
       "properties": {
@@ -243,446 +265,21 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          87,
+          178,
+          57
         ],
-        "font_face": "Arial",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "153",
-        "theme_topic": "Business Whimsical",
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Uptight Power",
+        "theme_topic": "Confess Eggs",
         "underline": false
       },
       "type": "text",
       "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 4.1372,
-        "w": 0.9905,
-        "x": 7.9274,
-        "y": 2.7523
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          105,
-          120,
-          85
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "impolite digestion bruise tranquil silent acrid",
-        "theme_topic": "Business Whimsical",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.7477,
-        "w": 1.3546,
-        "x": 9.4416,
-        "y": 2.0285
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Arial",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "117",
-        "theme_topic": "Business Whimsical",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 4.1104,
-        "w": 1.3346,
-        "x": 9.4674,
-        "y": 2.7858
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          105,
-          120,
-          85
-        ],
-        "font_face": "Arial",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "roomy trucks ruddy",
-        "theme_topic": "Business Whimsical",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 5.1502,
-        "w": 1.5957,
-        "x": 11.1529,
-        "y": 1.8423
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          167,
-          126,
-          146
-        ],
-        "line": [
-          161,
-          184,
-          118
-        ],
-        "line_width": 1.4862179840571796,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Business Whimsical"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.7614,
-        "w": 1.2688,
-        "x": 11.3588,
-        "y": 2.01
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Arial",
-        "font_size": 33,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "37",
-        "theme_topic": "Business Whimsical",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 4.137,
-        "w": 1.2585,
-        "x": 11.3529,
-        "y": 2.7509
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          105,
-          120,
-          85
-        ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "assorted relation accept board agree wrathful",
-        "theme_topic": "Business Whimsical",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 0.5399,
-        "x": 12.0736,
-        "y": 4.1102
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
-        "fill": [
-          193,
-          103,
-          229
-        ],
-        "focus": false,
-        "line": [
-          164,
-          182,
-          60
-        ],
-        "line_width": 3.5810397886485257,
-        "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Business Whimsical"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.3483,
-        "w": 1.0838,
-        "x": 5.7175,
-        "y": 1.4453
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          62,
-          70,
-          109
-        ],
-        "focus": false,
-        "line": [
-          143,
-          134,
-          91
-        ],
-        "line_width": 1.556410196621691,
-        "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Business Whimsical"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.907,
-        "w": 1.1003,
-        "x": 11.2618,
-        "y": 4.6095
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          65,
-          141,
-          122
-        ],
-        "focus": false,
-        "line": [
-          92,
-          184,
-          229
-        ],
-        "line_width": 1.3069895700665213,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Business Whimsical"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.9026,
-        "w": 0.3899,
-        "x": 0.1093,
-        "y": 3.5677
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          146,
-          32,
-          198
-        ],
-        "focus": false,
-        "line": [
-          203,
-          49,
-          184
-        ],
-        "line_width": 0.9777498053908505,
-        "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Business Whimsical"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.3188,
-        "w": 0.352,
-        "x": 12.7403,
-        "y": 5.4983
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          146,
-          162,
-          36
-        ],
-        "focus": false,
-        "line": [
-          29,
-          154,
-          50
-        ],
-        "line_width": 0.6257847757331478,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Business Whimsical"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.7493,
-        "w": 0.9148,
-        "x": 5.9193,
-        "y": 2.6552
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "stars",
-        "fill": [
-          223,
-          62,
-          100
-        ],
-        "focus": false,
-        "line": [
-          154,
-          83,
-          106
-        ],
-        "line_width": 4.741674546293051,
-        "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Business Whimsical"
-      },
-      "type": "shape",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 1.3509,
-        "w": 2.1659,
-        "x": 0.7466,
-        "y": 4.7854
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          151,
-          46,
-          205
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Business Whimsical",
-        "width": 2.4399931674110102
-      },
-      "type": "connector",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.3645,
-        "w": 1.0873,
-        "x": 7.2112,
-        "y": 3.7918
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          94,
-          170,
-          72
-        ],
-        "focus": false,
-        "line": [
-          180,
-          138,
-          93
-        ],
-        "line_width": 5.5258951357100985,
-        "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Business Whimsical"
-      },
-      "type": "shape",
-      "z_order": 22
     }
   ],
   "slide": {

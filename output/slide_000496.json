@@ -8,36 +8,47 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "back_color": [
-        56,
-        100,
-        191
+      "colors": [
+        [
+          210,
+          140,
+          101
+        ],
+        [
+          48,
+          78,
+          140
+        ]
       ],
       "fill": [
-        124,
-        124,
-        225
+        62,
+        92,
+        142
       ],
-      "fore_color": [
-        255,
-        211,
-        88
-      ],
-      "pattern": 6,
-      "style": "pattern",
-      "theme_topic": "Kiss Inform"
+      "focus": "bottom_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Pine"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 13,
+    "level": 13,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 13
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.9198,
-        "w": 7.4721,
-        "x": 0.9109,
-        "y": 1.7822
+        "h": 5.2861,
+        "w": 8.7365,
+        "x": 1.5672,
+        "y": 1.3605
       },
       "id": "object_001",
       "properties": {
@@ -45,30 +56,30 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          113,
-          113,
-          206
+          98,
+          123,
+          163
         ],
         "line": [
-          108,
-          108,
-          197
+          118,
+          140,
+          175
         ],
-        "line_width": 1.904201901093748,
+        "line_width": 4.764493193588963,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Kiss Inform"
+        "theme_topic": "Pine"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.5448,
-        "w": 2.8605,
-        "x": 0.6383,
-        "y": 0.7678
+        "h": 1.0408,
+        "w": 5.8681,
+        "x": 0.5601,
+        "y": 0.3419
       },
       "id": "object_002",
       "properties": {
@@ -76,17 +87,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 25,
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Amazing",
-        "theme_topic": "Kiss Inform",
+        "text": "Mindless Ambiguous Elfin Toy",
+        "theme_topic": "Pine",
         "underline": false
       },
       "type": "text",
@@ -94,71 +105,33 @@
     },
     {
       "bbox": {
-        "h": 6.2547,
-        "w": 2.3585,
-        "x": 3.7107,
-        "y": 0.6174
+        "h": 2.429,
+        "w": 3.9069,
+        "x": 8.8558,
+        "y": 1.8595
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          255,
-          211,
-          88
-        ],
+        "clip": "arch",
+        "focus": true,
         "line": [
-          35,
-          133,
-          208
+          150,
+          157,
+          123
         ],
-        "line_width": 2.7531518317993853,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Kiss Inform"
+        "line_width": 15,
+        "theme_topic": "Pine"
       },
-      "type": "freeform",
+      "type": "svg_image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.0658,
-        "w": 2.1912,
-        "x": 6.5586,
-        "y": 0.7874
+        "h": 0.8387,
+        "w": 3.6025,
+        "x": 4.8734,
+        "y": 1.9531
       },
       "id": "object_004",
       "properties": {
@@ -166,17 +139,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          170,
-          124,
-          88
+          48,
+          39,
+          185
         ],
-        "font_face": "Aptos Display",
-        "font_size": 19,
+        "font_face": "Trebuchet MS",
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Afterthought Pizzas Grandmother",
-        "theme_topic": "Kiss Inform",
+        "text": "Roomy Gorgeous Upbeat",
+        "theme_topic": "Pine",
         "underline": false
       },
       "type": "text",
@@ -184,10 +157,10 @@
     },
     {
       "bbox": {
-        "h": 4.6913,
-        "w": 2.2132,
-        "x": 6.5577,
-        "y": 2.068
+        "h": 1.1105,
+        "w": 3.6104,
+        "x": 4.8479,
+        "y": 3.0613
       },
       "id": "object_005",
       "properties": {
@@ -195,17 +168,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          71,
-          72,
-          121
+          163,
+          177,
+          202
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Verdana",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "hot truculent romantic snow popcorn grotesque shake weather well-groomed synonymous mate wash aunt permit bent tooth prose screw female",
-        "theme_topic": "Kiss Inform",
+        "text": "sharp leather shiver stroke doubt writing defeated minute capable fry payment hook resolute wrathful",
+        "theme_topic": "Pine",
         "underline": false
       },
       "type": "text",
@@ -213,100 +186,235 @@
     },
     {
       "bbox": {
-        "h": 0.8421,
-        "w": 0.6807,
-        "x": 6.0642,
-        "y": 3.7707
+        "h": 2.4512,
+        "w": 3.9377,
+        "x": 8.8891,
+        "y": 4.5396
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "ribbons",
-        "fill": [
-          71,
-          221,
-          181
-        ],
-        "focus": false,
+        "clip": "blob",
+        "focus": true,
         "line": [
-          71,
-          221,
-          181
+          255,
+          238,
+          103
         ],
-        "line_width": 4.77331964951589,
-        "outline_only": false,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Kiss Inform"
+        "line_width": 12,
+        "theme_topic": "Pine"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.5384,
-        "w": 0.6862,
-        "x": 7.3568,
-        "y": 4.5979
+        "h": 2.4665,
+        "w": 3.9336,
+        "x": 0.539,
+        "y": 1.8614
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          205,
-          107,
-          224
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
         ],
-        "bold": false,
-        "color": [
-          69,
-          148,
-          229
+        "line": [
+          118,
+          140,
+          175
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "degree absorbed soak",
-        "theme_topic": "Kiss Inform",
-        "underline": false
+        "line_width": 0.9068962488706217,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Pine"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.9883,
-        "w": 0.5787,
-        "x": 11.5702,
-        "y": 3.9247
+        "h": 0.9248,
+        "w": 3.5432,
+        "x": 0.7261,
+        "y": 2.373
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "symbols",
-        "fill": [
-          190,
-          108,
-          166
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          184,
-          144,
-          67
-        ],
-        "line_width": 3.6846647887456023,
-        "outline_only": false,
-        "ppt_type": 22,
-        "shape": "lightning",
-        "theme_topic": "Kiss Inform"
+        "font_face": "Trebuchet MS",
+        "font_size": 45,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "43%",
+        "theme_topic": "Pine",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.5645,
+        "w": 3.5313,
+        "x": 0.7135,
+        "y": 3.349
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "jaded like grotesque release wakeful preserve combative",
+        "theme_topic": "Pine",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.8027,
+        "w": 0.7763,
+        "x": 3.4273,
+        "y": 6.0189
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          163,
+          177,
+          202
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "paint tickle digestion flame apathetic machine cent colour lettuce alive pigs",
+        "theme_topic": "Pine",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.5633,
+        "w": 1.746,
+        "x": 1.3961,
+        "y": 3.1592
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          94,
+          173,
+          92
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "marked abstracted wilderness interesting border",
+        "theme_topic": "Pine",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.6425,
+        "w": 1.0284,
+        "x": 2.4606,
+        "y": 2.2375
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          51,
+          49,
+          205
+        ],
+        "bold": false,
+        "color": [
+          136,
+          115,
+          81
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "excuse expansion rub",
+        "theme_topic": "Pine",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.5666,
+        "w": 1.5764,
+        "x": 10.4883,
+        "y": 5.0259
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          134,
+          213,
+          214
+        ],
+        "font_face": "Verdana",
+        "font_size": 5,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Waste Birds",
+        "theme_topic": "Pine",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
     }
   ],
   "slide": {

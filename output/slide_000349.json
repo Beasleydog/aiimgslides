@@ -8,40 +8,47 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 90,
+      "angle": 45,
       "archetype": "atomic_composition",
       "colors": [
         [
-          101,
-          206,
-          29
+          51,
+          191,
+          37
         ],
         [
-          255,
-          117,
+          90,
+          90,
           117
         ]
       ],
       "fill": [
-        101,
-        206,
-        29
+        109,
+        97,
+        36
       ],
       "focus": "bottom_right",
       "gradient_type": "linear",
       "style": "gradient",
-      "theme_topic": "Ad Science"
+      "theme_topic": "Momentous Weather"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 9,
+    "level": 9,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 9
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.0222,
-        "w": 4.2906,
-        "x": 1.3418,
-        "y": 4.9572
+        "h": 1.7426,
+        "w": 5.4092,
+        "x": 8.4168,
+        "y": 3.4729
       },
       "id": "object_001",
       "properties": {
@@ -49,128 +56,64 @@
         "dash": 1,
         "family": "arrows",
         "fill": [
-          46,
-          71,
-          91
+          69,
+          79,
+          112
         ],
         "focus": false,
         "line": [
-          68,
-          162,
-          32
+          52,
+          53,
+          125
         ],
-        "line_width": 2.9689943911080716,
+        "line_width": 6.081150817470958,
         "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Ad Science"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Momentous Weather"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.7375,
-        "w": 5.6602,
-        "x": 1.6524,
-        "y": 3.0376
+        "h": 4.0983,
+        "w": 8.3563,
+        "x": 2.4869,
+        "y": 1.2008
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          106,
-          168,
-          70
+          127,
+          117,
+          63
         ],
-        "focus": false,
         "line": [
-          114,
-          89,
-          53
+          138,
+          128,
+          79
         ],
-        "line_width": 5.181473054526645,
+        "line_width": 5.164302616098576,
         "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Ad Science"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Momentous Weather"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.9177,
-        "w": 7.8569,
-        "x": 0.775,
-        "y": 4.7677
+        "h": 5.5586,
+        "w": 2.8392,
+        "x": 0.6676,
+        "y": 0.7743
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          97,
-          93,
-          74
-        ],
-        "focus": false,
-        "line": [
-          80,
-          220,
-          178
-        ],
-        "line_width": 6.910224832028679,
-        "outline_only": false,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Ad Science"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.5902,
-        "w": 6.1495,
-        "x": 0.8354,
-        "y": 0.7472
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          115,
-          210,
-          50
-        ],
-        "line": [
-          123,
-          213,
-          62
-        ],
-        "line_width": 1.2752769725247528,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Ad Science"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.3075,
-        "w": 7.6121,
-        "x": 0.5564,
-        "y": 0.3714
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -180,13 +123,71 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 39,
+        "font_face": "Georgia",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Grandfather Discussion Jog",
-        "theme_topic": "Ad Science",
+        "text": "March Tricky",
+        "theme_topic": "Momentous Weather",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.0722,
+        "w": 2.2447,
+        "x": 10.3737,
+        "y": 1.2527
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Georgia",
+        "font_size": 21,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Wet Venomous",
+        "theme_topic": "Momentous Weather",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 4.2073,
+        "w": 2.2269,
+        "x": 10.3495,
+        "y": 2.5457
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          184,
+          180,
+          154
+        ],
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "bee frighten hang answer anxious flowery bake hospitable spill introduce military periodic illustrious soap",
+        "theme_topic": "Momentous Weather",
         "underline": false
       },
       "type": "text",
@@ -194,102 +195,86 @@
     },
     {
       "bbox": {
-        "h": 5.1629,
-        "w": 6.304,
-        "x": 0.5359,
-        "y": 1.8407
+        "h": 1.0474,
+        "w": 2.6949,
+        "x": 6.979,
+        "y": 0.7689
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          123,
-          213,
-          62
-        ],
-        "line": [
-          123,
-          213,
-          62
-        ],
-        "line_width": 1.6190223168711764,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Ad Science"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 4.6484,
-        "w": 5.7933,
-        "x": 0.7873,
-        "y": 2.0998
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "substantial",
-          "absorbing",
-          "miniature",
-          "brief"
-        ],
-        "chart": "doughnut",
-        "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              146,
-              163,
-              51
-            ],
-            "name": "pretend",
-            "values": [
-              58,
-              93,
-              62,
-              65
-            ]
-          }
-        ],
-        "theme_topic": "Ad Science",
-        "title": "position injure"
-      },
-      "type": "chart",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.7604,
-        "w": 1.0991,
-        "x": 7.4682,
-        "y": 2.0334
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          198,
-          74
+          183,
+          159,
+          174
         ],
-        "font_face": "Arial",
-        "font_size": 37,
-        "italic": false,
+        "font_face": "Georgia",
+        "font_size": 27,
+        "italic": true,
         "kind": "header",
         "margin": 0.04,
-        "text": "3.3x",
-        "theme_topic": "Ad Science",
+        "text": "Crowded",
+        "theme_topic": "Momentous Weather",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 4.7056,
+        "w": 2.6995,
+        "x": 6.9507,
+        "y": 2.0908
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          184,
+          180,
+          154
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "vest force middle board abstracted riddle surround ice understood bike overrated curious fretful",
+        "theme_topic": "Momentous Weather",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.541,
+        "w": 2.5512,
+        "x": 3.8153,
+        "y": 4.5787
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "yawn clear air group innate",
+        "theme_topic": "Momentous Weather",
         "underline": false
       },
       "type": "text",
@@ -297,10 +282,10 @@
     },
     {
       "bbox": {
-        "h": 4.1306,
-        "w": 1.07,
-        "x": 7.4357,
-        "y": 2.7574
+        "h": 0.4851,
+        "w": 2.5847,
+        "x": 3.7952,
+        "y": 6.2671
       },
       "id": "object_009",
       "properties": {
@@ -308,410 +293,21 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          180,
-          229,
-          151
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 15,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "brass taste materialistic frighten",
-        "theme_topic": "Ad Science",
+        "text": "harass bow insidious north crow wet list",
+        "theme_topic": "Momentous Weather",
         "underline": false
       },
       "type": "text",
       "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.7621,
-        "w": 1.525,
-        "x": 9.0833,
-        "y": 2.0492
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
-        ],
-        "font_face": "Arial",
-        "font_size": 27,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "11%",
-        "theme_topic": "Ad Science",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 4.1326,
-        "w": 1.5465,
-        "x": 9.1068,
-        "y": 2.766
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          180,
-          229,
-          151
-        ],
-        "font_face": "Arial",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "melted crown well-made",
-        "theme_topic": "Ad Science",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.7695,
-        "w": 1.4577,
-        "x": 11.1576,
-        "y": 2.0259
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
-        ],
-        "font_face": "Arial",
-        "font_size": 35,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "72%",
-        "theme_topic": "Ad Science",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 4.1459,
-        "w": 1.4571,
-        "x": 11.1832,
-        "y": 2.7884
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          180,
-          229,
-          151
-        ],
-        "font_face": "Arial",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "spill subdued boast overrated language",
-        "theme_topic": "Ad Science",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.601,
-        "w": 0.4148,
-        "x": 10.2939,
-        "y": 3.8691
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
-        "fill": [
-          150,
-          110,
-          135
-        ],
-        "focus": false,
-        "line": [
-          202,
-          196,
-          129
-        ],
-        "line_width": 2.4837203838725284,
-        "outline_only": true,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Ad Science"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.3281,
-        "w": 1.0283,
-        "x": 1.5358,
-        "y": 0.2441
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          35,
-          225,
-          157
-        ],
-        "bold": true,
-        "color": [
-          39,
-          216,
-          100
-        ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "eight statuesque",
-        "theme_topic": "Ad Science",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.3485,
-        "w": 1.789,
-        "x": 10.5972,
-        "y": 5.1407
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          131,
-          63,
-          131
-        ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "colour swift utter division",
-        "theme_topic": "Ad Science",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 0.4623,
-        "x": 4.3544,
-        "y": 7.0975
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          200,
-          47,
-          143
-        ],
-        "focus": false,
-        "line": [
-          203,
-          221,
-          39
-        ],
-        "line_width": 6.213013510000063,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Ad Science"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.2534,
-        "w": 2.1826,
-        "x": 6.7834,
-        "y": 0.2494
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          152,
-          122,
-          184
-        ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Ad Science",
-        "width": 1.5057377221340764
-      },
-      "type": "connector",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.7364,
-        "w": 0.4965,
-        "x": 11.0136,
-        "y": 3.4554
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "math",
-        "fill": [
-          112,
-          222,
-          48
-        ],
-        "focus": false,
-        "line": [
-          42,
-          128,
-          179
-        ],
-        "line_width": 2.892550779171833,
-        "outline_only": false,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Ad Science"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.6171,
-        "w": 0.605,
-        "x": 3.3293,
-        "y": 5.1968
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          83,
-          52,
-          191
-        ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Shock Frightening",
-        "theme_topic": "Ad Science",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.728,
-        "w": 0.3216,
-        "x": 4.2748,
-        "y": 3.7996
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
-        "fill": [
-          47,
-          135,
-          192
-        ],
-        "focus": false,
-        "line": [
-          101,
-          46,
-          153
-        ],
-        "line_width": 5.42788180105794,
-        "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Ad Science"
-      },
-      "type": "shape",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.2016,
-        "w": 0.573,
-        "x": 5.1541,
-        "y": 1.2716
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          138,
-          211,
-          213
-        ],
-        "font_face": "Arial",
-        "font_size": 7,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "majestic",
-        "theme_topic": "Ad Science",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 22
     }
   ],
   "slide": {

@@ -8,118 +8,143 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "fill": [
-        179,
-        67,
-        191
+      "colors": [
+        [
+          43,
+          26,
+          63
+        ],
+        [
+          68,
+          59,
+          213
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Arithmetic Boy"
+      "fill": [
+        86,
+        102,
+        43
+      ],
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Melted"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 15,
+    "level": 15,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 15
+  },
   "objects": [
     {
       "bbox": {
-        "h": 0.9084,
-        "w": 0.2,
-        "x": 7.2025,
-        "y": 1.5749
+        "h": 4.4874,
+        "w": 4.6248,
+        "x": 4.9272,
+        "y": 0.232
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 4,
+        "family": "stars",
         "fill": [
-          255,
-          238,
-          103
+          168,
+          88,
+          170
         ],
+        "focus": false,
         "line": [
-          156,
-          58,
-          166
+          169,
+          25,
+          120
         ],
-        "line_width": 2.0431376396910053,
+        "line_width": 3.3051968639804876,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Arithmetic Boy"
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Melted"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.064,
-        "w": 0.2,
-        "x": 0.6872,
-        "y": 3.3972
+        "h": 2.7976,
+        "w": 5.2296,
+        "x": 6.6798,
+        "y": 4.3431
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          255,
-          238,
-          103
+          137,
+          62,
+          113
         ],
+        "focus": false,
         "line": [
-          156,
-          58,
-          166
+          90,
+          185,
+          154
         ],
-        "line_width": 2.9435583642122563,
+        "line_width": 2.9300317327639895,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Arithmetic Boy"
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Melted"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.1418,
-        "x": 8.9476,
-        "y": 4.3118
+        "h": 2.114,
+        "w": 3.3189,
+        "x": 0.7084,
+        "y": 6.2823
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "arrows",
         "fill": [
-          255,
-          238,
-          103
-        ],
-        "line": [
-          156,
           58,
-          166
+          91,
+          89
         ],
-        "line_width": 1.6382510107253478,
+        "focus": false,
+        "line": [
+          70,
+          144,
+          174
+        ],
+        "line_width": 5.701704337109202,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Arithmetic Boy"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Melted"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.3201,
-        "w": 6.6413,
-        "x": 0.5587,
-        "y": 0.3607
+        "h": 5.5703,
+        "w": 2.8646,
+        "x": 0.6324,
+        "y": 0.7615
       },
       "id": "object_004",
       "properties": {
@@ -127,17 +152,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 32,
+        "font_face": "Arial",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Woozy Ragged Freezing Offend",
-        "theme_topic": "Arithmetic Boy",
+        "text": "Berry",
+        "theme_topic": "Melted",
         "underline": false
       },
       "type": "text",
@@ -145,39 +170,41 @@
     },
     {
       "bbox": {
-        "h": 0.284,
-        "w": 1.9003,
-        "x": 10.7429,
-        "y": 1.9553
+        "h": 3.6498,
+        "w": 1.7037,
+        "x": 5.2079,
+        "y": 2.3597
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          107,
+          121,
+          70
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "EXTRA-SMALL",
-        "theme_topic": "Arithmetic Boy",
-        "underline": false
+        "line": [
+          107,
+          121,
+          70
+        ],
+        "line_width": 3.4388227699481173,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Melted"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.0343,
-        "w": 1.8773,
-        "x": 10.7103,
-        "y": 2.4298
+        "h": 0.4732,
+        "w": 1.2096,
+        "x": 5.4842,
+        "y": 3.2896
       },
       "id": "object_006",
       "properties": {
@@ -185,17 +212,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          173,
-          66,
-          81
+          255,
+          198,
+          74
         ],
-        "font_face": "Georgia",
-        "font_size": 20,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Dark Unlock",
-        "theme_topic": "Arithmetic Boy",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Imagine Protest",
+        "theme_topic": "Melted",
         "underline": false
       },
       "type": "text",
@@ -203,10 +230,10 @@
     },
     {
       "bbox": {
-        "h": 3.1416,
-        "w": 1.8868,
-        "x": 10.7285,
-        "y": 3.7696
+        "h": 2.0321,
+        "w": 1.2146,
+        "x": 5.4819,
+        "y": 3.8047
       },
       "id": "object_007",
       "properties": {
@@ -214,17 +241,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          95,
-          46,
-          105
+          174,
+          182,
+          157
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "grandfather channel efficient bedroom chickens sordid writer marble twig silent well-to-do guide bore avoid crowded abounding cycle zealous amusement summer",
-        "theme_topic": "Arithmetic Boy",
+        "text": "concentrate repeat past expand handsomely phone bake property safe ticket rainstorm ticket vein wild waiting",
+        "theme_topic": "Melted",
         "underline": false
       },
       "type": "text",
@@ -232,70 +259,70 @@
     },
     {
       "bbox": {
-        "h": 2.8854,
-        "w": 6.833,
-        "x": 3.26,
-        "y": 2.7958
+        "h": 1.9958,
+        "w": 1.048,
+        "x": 7.3628,
+        "y": 3.8346
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          156,
-          58,
-          166
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          174,
+          182,
+          157
         ],
-        "line": [
-          156,
-          58,
-          166
-        ],
-        "line_width": 0.774857987552423,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Arithmetic Boy"
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "exultant lazy floor empty stupid arrest draconian bright repeat science pale scissors next suck",
+        "theme_topic": "Melted",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.1119,
-        "w": 6.4908,
-        "x": 3.4378,
-        "y": 3.3413
+        "h": 3.6582,
+        "w": 1.8528,
+        "x": 8.9178,
+        "y": 2.358
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          107,
+          121,
+          70
         ],
-        "font_face": "Georgia",
-        "font_size": 39,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "65%",
-        "theme_topic": "Arithmetic Boy",
-        "underline": false
+        "line": [
+          107,
+          121,
+          70
+        ],
+        "line_width": 3.7437702090854814,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Melted"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.698,
-        "w": 6.4926,
-        "x": 3.3982,
-        "y": 4.5
+        "h": 2.0361,
+        "w": 1.3371,
+        "x": 9.1567,
+        "y": 3.8091
       },
       "id": "object_010",
       "properties": {
@@ -303,17 +330,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          174,
+          182,
+          157
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "axiomatic black-and-white caption exclusive",
-        "theme_topic": "Arithmetic Boy",
+        "text": "shut lighten work pinch limit bouncy low small",
+        "theme_topic": "Melted",
         "underline": false
       },
       "type": "text",
@@ -321,422 +348,148 @@
     },
     {
       "bbox": {
-        "h": 1.1099,
-        "w": 6.858,
-        "x": 3.2148,
-        "y": 5.897
+        "h": 0.6917,
+        "w": 2.6167,
+        "x": 5.3606,
+        "y": 4.894
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.10874231327265617,
-          0.29094962367901334,
-          0.14613291869090173,
-          0.23934123321347067
-        ],
-        "focus": false,
-        "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Arithmetic Boy",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.5989,
-        "w": 0.7644,
-        "x": 1.0042,
-        "y": 2.6462
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          48,
-          78,
-          140
-        ],
-        "line": [
-          100,
-          125,
-          128
-        ],
-        "line_width": 0.6229181652864579,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Arithmetic Boy"
-      },
-      "type": "freeform",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.3965,
-        "w": 1.0665,
-        "x": 8.3454,
-        "y": 0.9443
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          87,
-          118,
-          215
-        ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Arithmetic Boy",
-        "width": 0.5761485205183728
-      },
-      "type": "connector",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 1.07,
-        "w": 1.3858,
-        "x": 8.1604,
-        "y": 4.704
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "symbols",
-        "fill": [
-          125,
-          96,
-          158
-        ],
-        "focus": false,
-        "line": [
-          86,
-          32,
-          27
-        ],
-        "line_width": 3.477112054253016,
-        "outline_only": false,
-        "ppt_type": 19,
-        "shape": "no_symbol",
-        "theme_topic": "Arithmetic Boy"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.8284,
-        "w": 0.9716,
-        "x": 1.7216,
-        "y": 3.0144
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          48,
-          78,
-          140
-        ],
-        "line": [
-          255,
-          238,
-          103
-        ],
-        "line_width": 1.228468032148517,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Arithmetic Boy"
-      },
-      "type": "freeform",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.5959,
-        "w": 0.4333,
-        "x": 11.7525,
-        "y": 2.4461
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "ribbons",
-        "fill": [
-          114,
-          205,
-          78
-        ],
-        "focus": false,
-        "line": [
-          93,
-          71,
-          218
-        ],
-        "line_width": 1.1236580494207866,
-        "outline_only": false,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Arithmetic Boy"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.9356,
-        "w": 0.8588,
-        "x": 10.884,
-        "y": 4.3439
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
-        "fill": [
-          82,
-          68,
-          124
-        ],
-        "focus": false,
-        "line": [
-          219,
-          34,
-          200
-        ],
-        "line_width": 0.7506805352600637,
-        "outline_only": false,
-        "ppt_type": 173,
-        "shape": "gear9",
-        "theme_topic": "Arithmetic Boy"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.422,
-        "w": 1.6078,
-        "x": 9.5817,
-        "y": 2.9546
-      },
-      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          125,
-          215,
-          66
+          158,
+          226,
+          196
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 21,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Egg Film",
-        "theme_topic": "Arithmetic Boy",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "String Quince Itch",
+        "theme_topic": "Melted",
         "underline": false
       },
       "type": "text",
-      "z_order": 18
+      "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.541,
-        "w": 0.5016,
-        "x": 3.3262,
-        "y": 3.9892
+        "h": 0.8993,
+        "w": 2.5824,
+        "x": 5.3591,
+        "y": 5.8528
       },
-      "id": "object_019",
+      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          197,
-          108,
-          49
+          174,
+          182,
+          157
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Arithmetic Boy",
-        "width": 2.926094387164783
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "satisfying unsuitable love high terrible neighborly broken thought",
+        "theme_topic": "Melted",
+        "underline": false
       },
-      "type": "connector",
-      "z_order": 19
+      "type": "text",
+      "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.4822,
-        "w": 1.1826,
-        "x": 6.8763,
-        "y": 0.8781
+        "h": 0.654,
+        "w": 1.8596,
+        "x": 5.1097,
+        "y": 2.0445
       },
-      "id": "object_020",
+      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
-        "fill": [
-          201,
-          99,
-          125
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Arial",
+        "font_size": 35,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "44%",
+        "theme_topic": "Melted",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 1.7818,
+        "w": 2.8379,
+        "x": 6.5574,
+        "y": 0.8454
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
         "focus": false,
-        "line": [
-          201,
-          161,
-          190
+        "mask_line": [
+          163,
+          36,
+          71
         ],
-        "line_width": 5.824838207664526,
-        "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Arithmetic Boy"
+        "mask_overlay": false,
+        "theme_topic": "Melted",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
-      "z_order": 20
+      "type": "image",
+      "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.5234,
-        "w": 0.5936,
-        "x": 4.7062,
-        "y": 2.401
+        "h": 0.4867,
+        "w": 1.7627,
+        "x": 1.9162,
+        "y": 0.7682
       },
-      "id": "object_021",
+      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          48,
-          78,
-          140
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          136,
+          169,
+          181
         ],
-        "line": [
-          255,
-          238,
-          103
-        ],
-        "line_width": 1.9254471743619361,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Arithmetic Boy"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Ruddy Yielding Amazing",
+        "theme_topic": "Melted",
+        "underline": false
       },
-      "type": "freeform",
-      "z_order": 21
+      "type": "text",
+      "z_order": 15
     }
   ],
   "slide": {

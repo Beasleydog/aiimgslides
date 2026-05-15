@@ -8,68 +8,79 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        232,
-        237,
-        247
+      "colors": [
+        [
+          245,
+          247,
+          252
+        ],
+        [
+          36,
+          178,
+          149
+        ]
       ],
       "fill": [
         245,
         247,
         252
       ],
-      "fore_color": [
-        175,
-        207,
-        225
-      ],
-      "pattern": 29,
-      "style": "pattern",
-      "theme_topic": "Railway"
+      "focus": "top_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Remarkable Spare"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 10,
+    "level": 10,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 10
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.8962,
-        "w": 3.0589,
-        "x": 3.8035,
-        "y": -0.8658
+        "h": 3.1023,
+        "w": 8.0364,
+        "x": 6.1086,
+        "y": 4.6458
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          168,
-          121,
-          84
+          177,
+          101,
+          161
         ],
         "focus": false,
         "line": [
-          161,
-          32,
-          224
+          127,
+          52,
+          223
         ],
-        "line_width": 4.6309936694982845,
+        "line_width": 5.131903798013333,
         "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Railway"
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Remarkable Spare"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.1207,
-        "w": 3.6033,
-        "x": 2.0275,
-        "y": -0.1175
+        "h": 3.3626,
+        "w": 4.3292,
+        "x": 1.8209,
+        "y": 2.0568
       },
       "id": "object_002",
       "properties": {
@@ -77,68 +88,36 @@
         "dash": 1,
         "family": "basic",
         "fill": [
-          163,
-          224,
-          152
+          180,
+          159,
+          220
         ],
         "focus": false,
         "line": [
-          104,
-          67,
-          100
+          27,
+          64,
+          63
         ],
-        "line_width": 5.530546193515943,
-        "outline_only": true,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Railway"
+        "line_width": 4.700733893991144,
+        "outline_only": false,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Remarkable Spare"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.8515,
-        "w": 7.5038,
-        "x": 5.7073,
-        "y": 6.4476
+        "h": 0.9436,
+        "w": 13.34,
+        "x": -0.0152,
+        "y": 0.0084
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          228,
-          139,
-          193
-        ],
-        "focus": false,
-        "line": [
-          88,
-          80,
-          59
-        ],
-        "line_width": 4.812290855682267,
-        "outline_only": true,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Railway"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.9903,
-        "w": 13.3334,
-        "x": -0.0164,
-        "y": -0.0106
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "panel",
         "fill": [
           232,
@@ -150,23 +129,23 @@
           237,
           247
         ],
-        "line_width": 4.5565584184788435,
+        "line_width": 4.19491602899347,
         "outline_only": false,
         "ppt_type": 1,
         "shape": "rect",
-        "theme_topic": "Railway"
+        "theme_topic": "Remarkable Spare"
       },
       "type": "shape",
-      "z_order": 4
+      "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5734,
-        "w": 2.8712,
-        "x": 0.6261,
-        "y": 0.7355
+        "h": 0.9091,
+        "w": 5.6897,
+        "x": 0.7407,
+        "y": 5.8576
       },
-      "id": "object_005",
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -176,13 +155,42 @@
           44,
           68
         ],
-        "font_face": "Arial",
-        "font_size": 23,
+        "font_face": "Aptos Display",
+        "font_size": 33,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Toe Sparkle",
-        "theme_topic": "Railway",
+        "text": "Page Abhorrent Effect",
+        "theme_topic": "Remarkable Spare",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.0333,
+        "w": 0.8469,
+        "x": 6.6739,
+        "y": 2.4914
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          27,
+          44,
+          68
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "waggish repair tiger move seashore ill-informed",
+        "theme_topic": "Remarkable Spare",
         "underline": false
       },
       "type": "text",
@@ -190,102 +198,97 @@
     },
     {
       "bbox": {
-        "h": 3.0329,
-        "w": 8.9878,
-        "x": 3.7186,
-        "y": 3.8207
+        "h": 1.0569,
+        "w": 1.2074,
+        "x": 7.8195,
+        "y": 2.4952
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.008801005129663624,
-          0.09764136832091899,
-          0.02300752112694554,
-          0.05886064599074379
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          27,
+          44,
+          68
         ],
-        "focus": true,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Railway",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "carpenter happen pedal ruin",
+        "theme_topic": "Remarkable Spare",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.9458,
-        "w": 2.3244,
-        "x": 3.7414,
-        "y": 0.6387
+        "h": 1.0389,
+        "w": 1.2191,
+        "x": 9.3304,
+        "y": 2.5069
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          27,
+          44,
+          68
         ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 0.5072483880923863,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Railway"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "omniscient drunk piquant milky faint",
+        "theme_topic": "Remarkable Spare",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.5641,
-        "w": 0.5518,
-        "x": 3.9752,
-        "y": 0.8564
+        "h": 1.0658,
+        "w": 1.2856,
+        "x": 10.8845,
+        "y": 2.4926
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          232,
-          237,
-          247
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          27,
+          44,
+          68
         ],
-        "focus": false,
-        "line": [
-          82,
-          96,
-          214
-        ],
-        "line_width": 1.225994214375044,
-        "outline_only": true,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Railway"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "lopsided card join night",
+        "theme_topic": "Remarkable Spare",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4717,
-        "w": 1.8251,
-        "x": 3.9988,
-        "y": 1.557
+        "h": 0.4435,
+        "w": 1.9068,
+        "x": 10.6251,
+        "y": 3.2447
       },
       "id": "object_009",
       "properties": {
@@ -293,17 +296,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          27,
+          44,
+          68
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Aptos Display",
+        "font_size": 22,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Therapeutic Fretful",
-        "theme_topic": "Railway",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "83%",
+        "theme_topic": "Remarkable Spare",
         "underline": false
       },
       "type": "text",
@@ -311,595 +314,32 @@
     },
     {
       "bbox": {
-        "h": 1.2859,
-        "w": 1.8065,
-        "x": 3.9762,
-        "y": 2.1139
+        "h": 0.7867,
+        "w": 3.543,
+        "x": 1.1813,
+        "y": 1.9743
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          27,
+          44,
+          68
         ],
-        "font_face": "Arial",
-        "font_size": 13,
+        "font_face": "Aptos Display",
+        "font_size": 18,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "melted husky cats fence legal contain rose annoying funny friction gun",
-        "theme_topic": "Railway",
+        "text": "Efficient Sad Dramatic Unable Smart Separate",
+        "theme_topic": "Remarkable Spare",
         "underline": false
       },
       "type": "text",
       "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 2.9445,
-        "w": 2.0951,
-        "x": 6.2874,
-        "y": 0.6327
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 1.7843240280567723,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Railway"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.5165,
-        "w": 0.5864,
-        "x": 6.4968,
-        "y": 0.8635
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "focus": false,
-        "line": [
-          103,
-          117,
-          137
-        ],
-        "line_width": 4.476587811377881,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Railway"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.4738,
-        "w": 1.6241,
-        "x": 6.5412,
-        "y": 1.5638
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Filthy",
-        "theme_topic": "Railway",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 1.3097,
-        "w": 1.6011,
-        "x": 6.5441,
-        "y": 2.0813
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
-        ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "decay point fixed club obnoxious wandering rebel brown mundane name cure detail miniature",
-        "theme_topic": "Railway",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 2.9505,
-        "w": 1.4782,
-        "x": 8.6113,
-        "y": 0.6435
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 2.4652439230955103,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Railway"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.5219,
-        "w": 0.5888,
-        "x": 8.8715,
-        "y": 0.85
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "ribbons",
-        "fill": [
-          125,
-          216,
-          147
-        ],
-        "focus": false,
-        "line": [
-          82,
-          96,
-          214
-        ],
-        "line_width": 3.6325833405420105,
-        "outline_only": false,
-        "ppt_type": 98,
-        "shape": "down_ribbon",
-        "theme_topic": "Railway"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.4385,
-        "w": 0.985,
-        "x": 8.8638,
-        "y": 1.5479
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Stiff",
-        "theme_topic": "Railway",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 1.2743,
-        "w": 0.9798,
-        "x": 8.8759,
-        "y": 2.0986
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "jar zesty remember knowing scare famous sail tax desk press bead invincible",
-        "theme_topic": "Railway",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 2.9365,
-        "w": 2.4314,
-        "x": 10.3072,
-        "y": 0.6616
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 4.304402714414388,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Railway"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.5441,
-        "w": 0.5746,
-        "x": 10.5235,
-        "y": 0.8516
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          206,
-          61,
-          35
-        ],
-        "focus": false,
-        "line": [
-          206,
-          68,
-          54
-        ],
-        "line_width": 4.932135087328388,
-        "outline_only": true,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Railway"
-      },
-      "type": "shape",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.4676,
-        "w": 1.9197,
-        "x": 10.5507,
-        "y": 1.5678
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Illegal",
-        "theme_topic": "Railway",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 1.2866,
-        "w": 1.9184,
-        "x": 10.5393,
-        "y": 2.0819
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
-        ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wander protective madly certain familiar pump panoramic responsible smash organic dad cent dazzling side",
-        "theme_topic": "Railway",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.9461,
-        "w": 0.5547,
-        "x": 8.2816,
-        "y": 3.012
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          91,
-          89,
-          213
-        ],
-        "focus": false,
-        "line": [
-          199,
-          175,
-          59
-        ],
-        "line_width": 5.51872023772253,
-        "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Railway"
-      },
-      "type": "shape",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 0.8074,
-        "w": 0.8803,
-        "x": 7.3031,
-        "y": 5.7817
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "math",
-        "fill": [
-          169,
-          135,
-          41
-        ],
-        "focus": false,
-        "line": [
-          135,
-          84,
-          103
-        ],
-        "line_width": 2.7844532696130453,
-        "outline_only": false,
-        "ppt_type": 166,
-        "shape": "divide",
-        "theme_topic": "Railway"
-      },
-      "type": "shape",
-      "z_order": 24
-    },
-    {
-      "bbox": {
-        "h": 1.0672,
-        "w": 1.3429,
-        "x": 4.2819,
-        "y": 3.6109
-      },
-      "id": "object_025",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          34,
-          75,
-          122
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Railway",
-        "width": 2.767437237608586
-      },
-      "type": "connector",
-      "z_order": 25
-    },
-    {
-      "bbox": {
-        "h": 0.8527,
-        "w": 1.477,
-        "x": 0.9739,
-        "y": 5.3007
-      },
-      "id": "object_026",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "swoop",
-        "primary": [
-          56,
-          96,
-          96
-        ],
-        "secondary": [
-          36,
-          178,
-          149
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#4d8b7e\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#41e4cf\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
-        "theme_topic": "Railway"
-      },
-      "type": "svg",
-      "z_order": 26
-    },
-    {
-      "bbox": {
-        "h": 0.3193,
-        "w": 1.2659,
-        "x": 0.1656,
-        "y": 6.1841
-      },
-      "id": "object_027",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
-        "fill": [
-          190,
-          62,
-          75
-        ],
-        "focus": false,
-        "line": [
-          66,
-          178,
-          221
-        ],
-        "line_width": 0.5044186261628236,
-        "outline_only": false,
-        "ppt_type": 165,
-        "shape": "multiply",
-        "theme_topic": "Railway"
-      },
-      "type": "shape",
-      "z_order": 27
-    },
-    {
-      "bbox": {
-        "h": 0.8715,
-        "w": 1.4072,
-        "x": 11.5718,
-        "y": 6.5194
-      },
-      "id": "object_028",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          106,
-          76,
-          135
-        ],
-        "connector": "curve",
-        "dash": 3,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Railway",
-        "width": 2.935204702651277
-      },
-      "type": "connector",
-      "z_order": 28
-    },
-    {
-      "bbox": {
-        "h": 0.7419,
-        "w": 1.3247,
-        "x": 10.5978,
-        "y": 4.8506
-      },
-      "id": "object_029",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          82,
-          96,
-          214
-        ],
-        "secondary": [
-          36,
-          178,
-          149
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#d263a2\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#ab8b66\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Railway"
-      },
-      "type": "svg",
-      "z_order": 29
     }
   ],
   "slide": {

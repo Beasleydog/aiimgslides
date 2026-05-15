@@ -8,105 +8,144 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 30,
+      "angle": 45,
       "archetype": "atomic_composition",
       "colors": [
         [
-          207,
-          39,
-          61
+          174,
+          130,
+          210
         ],
         [
-          79,
-          110,
-          29
+          64,
+          130,
+          109
         ]
       ],
       "fill": [
-        82,
-        189,
-        219
+        174,
+        130,
+        210
       ],
-      "focus": "bottom_left",
-      "gradient_type": "rectangular",
+      "focus": "top_left",
+      "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Crown Overconfident"
+      "theme_topic": "Wrathful"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 10,
+    "level": 10,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 10
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.4315,
-        "w": 7.2808,
-        "x": 5.5896,
-        "y": 0.006
+        "h": 3.4876,
+        "w": 5.919,
+        "x": 6.9156,
+        "y": -0.2739
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
+        "dash": 5,
+        "family": "symbols",
         "fill": [
-          92,
-          117,
-          173
+          155,
+          81,
+          86
         ],
         "focus": false,
         "line": [
-          68,
-          67,
-          186
+          54,
+          169,
+          189
         ],
-        "line_width": 3.636199454348184,
+        "line_width": 4.621263027333747,
         "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Crown Overconfident"
+        "ppt_type": 24,
+        "shape": "moon",
+        "theme_topic": "Wrathful"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.8256,
-        "w": 13.3284,
-        "x": -0.0103,
-        "y": -0.0108
+        "h": 4.1545,
+        "w": 6.8765,
+        "x": 5.097,
+        "y": 1.6539
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 5,
+        "family": "ribbons",
         "fill": [
-          66,
-          152,
-          176
+          198,
+          100,
+          201
         ],
+        "focus": false,
         "line": [
-          66,
-          152,
-          176
+          191,
+          166,
+          85
         ],
-        "line_width": 4.97140829364155,
+        "line_width": 2.1499698255844186,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Crown Overconfident"
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Wrathful"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.8247,
-        "w": 3.2105,
-        "x": 9.4089,
-        "y": 0.6595
+        "h": 4.5947,
+        "w": 6.4902,
+        "x": 2.0407,
+        "y": 0.7537
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          162,
+          121,
+          196
+        ],
+        "line": [
+          156,
+          117,
+          189
+        ],
+        "line_width": 4.242808508258246,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Wrathful"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.0062,
+        "w": 7.6181,
+        "x": 0.5278,
+        "y": 0.3396
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -116,133 +155,100 @@
           30,
           36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
+        "font_face": "Arial",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hoc Rigid",
-        "theme_topic": "Crown Overconfident",
+        "text": "Eye Cellar",
+        "theme_topic": "Wrathful",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.9517,
-        "w": 3.9978,
-        "x": 4.8446,
-        "y": 0.6301
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          66,
-          152,
-          176
-        ],
-        "line": [
-          66,
-          152,
-          176
-        ],
-        "line_width": 0.6601632002652706,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Crown Overconfident"
-      },
-      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.4305,
-        "w": 3.4962,
-        "x": 5.1062,
-        "y": 1.5626
+        "h": 5.0847,
+        "w": 1.4885,
+        "x": 6.0644,
+        "y": 1.8844
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "crop": [
+          0.24687204538529178,
+          0.10713303645466456,
+          0.10869634569732993,
+          0.32462418263392223
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Flash",
-        "theme_topic": "Crown Overconfident",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          117,
+          54,
+          109
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Wrathful",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.8269,
-        "w": 3.9763,
-        "x": 4.8601,
-        "y": 1.7814
+        "h": 5.0708,
+        "w": 1.4865,
+        "x": 7.7147,
+        "y": 1.8899
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          66,
-          152,
-          176
+        "crop": [
+          0.019031371858913067,
+          0.08156536813358223,
+          0.09417869060992566,
+          0.22302059782134503
         ],
-        "line": [
-          66,
-          152,
-          176
+        "focus": false,
+        "mask_line": [
+          174,
+          73,
+          92
         ],
-        "line_width": 2.8819019193451125,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Crown Overconfident"
+        "mask_overlay": false,
+        "theme_topic": "Wrathful",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4361,
-        "w": 3.4887,
-        "x": 5.1278,
-        "y": 2.7007
+        "h": 0.6169,
+        "w": 3.1381,
+        "x": 9.5965,
+        "y": 2.93
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          198,
-          74
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Dock Compete",
-        "theme_topic": "Crown Overconfident",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "health memory miniature salt honorable",
+        "theme_topic": "Wrathful",
         "underline": false
       },
       "type": "text",
@@ -250,59 +256,57 @@
     },
     {
       "bbox": {
-        "h": 0.8194,
-        "w": 3.9722,
-        "x": 4.8811,
-        "y": 2.8344
+        "h": 0.5125,
+        "w": 3.1195,
+        "x": 9.6132,
+        "y": 4.8
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          66,
-          152,
-          176
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          66,
-          152,
-          176
-        ],
-        "line_width": 3.9058532659114547,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Crown Overconfident"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "plucky cream helpless cats steadfast",
+        "theme_topic": "Wrathful",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.4429,
-        "w": 3.4745,
-        "x": 5.113,
-        "y": 3.7114
+        "h": 0.4774,
+        "w": 3.1243,
+        "x": 9.6208,
+        "y": 6.4167
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          198,
-          74
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 13,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Receptive Badge",
-        "theme_topic": "Crown Overconfident",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "sheep stupid small",
+        "theme_topic": "Wrathful",
         "underline": false
       },
       "type": "text",
@@ -310,10 +314,10 @@
     },
     {
       "bbox": {
-        "h": 1.0458,
-        "w": 3.7115,
-        "x": 5.0134,
-        "y": 3.991
+        "h": 0.4941,
+        "w": 0.8851,
+        "x": 7.2583,
+        "y": 2.3912
       },
       "id": "object_010",
       "properties": {
@@ -321,459 +325,21 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          90,
+          106,
+          103
         ],
-        "font_face": "Aptos Display",
-        "font_size": 37,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Tail",
-        "theme_topic": "Crown Overconfident",
-        "underline": false
+        "text": "majestic",
+        "theme_topic": "Wrathful",
+        "underline": true
       },
       "type": "text",
       "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 1.4836,
-        "w": 3.678,
-        "x": 5.0339,
-        "y": 5.324
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          52,
-          101,
-          118
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "decorous ripe mask pies dirty merciful pick shake dark price shut unruly",
-        "theme_topic": "Crown Overconfident",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 1.4056,
-        "w": 1.1993,
-        "x": 0.6882,
-        "y": 3.956
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1800629672560972,
-          0.007112358321409494,
-          0.2616142862587368,
-          0.03272793622375519
-        ],
-        "focus": false,
-        "mask_line": [
-          89,
-          229,
-          28
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Crown Overconfident",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.384,
-        "w": 1.2144,
-        "x": 2.0596,
-        "y": 3.9709
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": false,
-        "mask_line": [
-          54,
-          97,
-          183
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Crown Overconfident",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 1.3976,
-        "w": 1.1701,
-        "x": 3.4156,
-        "y": 3.916
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": false,
-        "mask_line": [
-          255,
-          198,
-          74
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Crown Overconfident",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 1.3732,
-        "w": 1.1807,
-        "x": 0.7044,
-        "y": 5.4781
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          66,
-          152,
-          176
-        ],
-        "line": [
-          66,
-          152,
-          176
-        ],
-        "line_width": 0.714521770161695,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Crown Overconfident"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 1.0751,
-        "w": 0.867,
-        "x": 0.8779,
-        "y": 5.6183
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.30107614024378054,
-          0.25080114729971836,
-          0.16911426718915912,
-          0.2813298503648115
-        ],
-        "focus": false,
-        "mask_line": [
-          188,
-          217,
-          194
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Crown Overconfident",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 1.3679,
-        "w": 1.1842,
-        "x": 2.0557,
-        "y": 5.4672
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.15544492849835279,
-          0.30892854126470887,
-          0.01213893235063854,
-          0.10252898795399372
-        ],
-        "focus": false,
-        "mask_line": [
-          143,
-          31,
-          107
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Crown Overconfident",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.6406,
-        "w": 0.2901,
-        "x": 8.9836,
-        "y": 0.1179
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          161,
-          124,
-          124
-        ],
-        "focus": false,
-        "line": [
-          156,
-          163,
-          204
-        ],
-        "line_width": 0.5793787020737898,
-        "outline_only": true,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Crown Overconfident"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 1.2723,
-        "w": 1.5513,
-        "x": 6.3257,
-        "y": 2.8419
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          53,
-          83,
-          56
-        ],
-        "connector": "elbow",
-        "dash": 4,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Crown Overconfident",
-        "width": 1.3843826199834228
-      },
-      "type": "connector",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.4657,
-        "w": 0.616,
-        "x": 10.1175,
-        "y": 4.3274
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          222,
-          177,
-          118
-        ],
-        "line": [
-          255,
-          198,
-          74
-        ],
-        "line_width": 1.6711200379756213,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Crown Overconfident"
-      },
-      "type": "freeform",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.2753,
-        "w": 2.1108,
-        "x": 3.3239,
-        "y": 3.9795
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          101,
-          94,
-          85
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Crown Overconfident",
-        "width": 2.1115898432265254
-      },
-      "type": "connector",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 1.3569,
-        "x": 3.5461,
-        "y": 4.3248
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          161,
-          65,
-          72
-        ],
-        "focus": false,
-        "line": [
-          63,
-          129,
-          217
-        ],
-        "line_width": 2.6862872716050306,
-        "outline_only": false,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Crown Overconfident"
-      },
-      "type": "shape",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.2689,
-        "w": 0.6642,
-        "x": 2.9128,
-        "y": 7.0525
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          217,
-          224,
-          53
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "right taste",
-        "theme_topic": "Crown Overconfident",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 0.345,
-        "w": 1.2455,
-        "x": 8.3912,
-        "y": 1.8663
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          162,
-          218
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "cat",
-        "theme_topic": "Crown Overconfident",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 24
     }
   ],
   "slide": {

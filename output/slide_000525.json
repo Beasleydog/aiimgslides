@@ -8,186 +8,182 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          120,
-          58,
-          170
-        ],
-        [
-          71,
-          221,
-          181
-        ]
-      ],
-      "fill": [
-        120,
-        58,
+      "back_color": [
+        68,
+        155,
         170
       ],
-      "focus": "top_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Chop Race"
+      "fill": [
+        18,
+        129,
+        148
+      ],
+      "fore_color": [
+        71,
+        221,
+        181
+      ],
+      "pattern": 9,
+      "style": "pattern",
+      "theme_topic": "Observant Obnoxious"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 14,
+    "level": 14,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 14
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.0369,
-        "w": 7.7024,
-        "x": 3.5803,
-        "y": 0.498
+        "h": 3.3768,
+        "w": 6.4925,
+        "x": 0.2376,
+        "y": 0.5254
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "arrows",
         "fill": [
-          117,
-          130,
-          212
+          33,
+          125,
+          209
         ],
         "focus": false,
         "line": [
-          180,
-          146,
-          161
+          48,
+          67,
+          35
         ],
-        "line_width": 6.600526272591866,
+        "line_width": 4.195552468870864,
         "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Chop Race"
+        "ppt_type": 37,
+        "shape": "left_right_arrow",
+        "theme_topic": "Observant Obnoxious"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.3481,
-        "w": 7.4914,
-        "x": 5.9524,
-        "y": -0.4255
+        "h": 7.5109,
+        "w": 1.2864,
+        "x": 12.0758,
+        "y": 0.0119
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "stars",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          136,
-          93,
-          124
+          68,
+          155,
+          170
         ],
-        "focus": false,
         "line": [
-          227,
-          228,
-          30
+          68,
+          155,
+          170
         ],
-        "line_width": 3.4377260858616396,
-        "outline_only": true,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Chop Race"
+        "line_width": 4.198763642800706,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Observant Obnoxious"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.838,
-        "w": 6.5924,
-        "x": 3.0749,
-        "y": 1.4386
+        "h": 0.9153,
+        "w": 4.8887,
+        "x": 3.4064,
+        "y": 0.734
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          125,
-          119,
-          172
-        ],
-        "focus": false,
-        "line": [
-          81,
-          54,
-          128
-        ],
-        "line_width": 2.635739724728605,
-        "outline_only": false,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Chop Race"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 4.6986,
-        "w": 7.8111,
-        "x": 5.0097,
-        "y": -0.3985
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          147,
-          94,
-          175
-        ],
-        "focus": false,
-        "line": [
-          37,
-          221,
-          35
-        ],
-        "line_width": 3.842621892816397,
-        "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Chop Race"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 5.5654,
-        "w": 2.8671,
-        "x": 0.6611,
-        "y": 0.7514
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          250,
-          255
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 29,
+        "font_face": "Georgia",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Time Crawl Observe",
-        "theme_topic": "Chop Race",
+        "text": "Vase Notebook",
+        "theme_topic": "Observant Obnoxious",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.7098,
+        "w": 5.363,
+        "x": 7.2204,
+        "y": 4.9996
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          179,
+          113,
+          163
+        ],
+        "font_face": "Georgia",
+        "font_size": 34,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Billowy Table Notebook",
+        "theme_topic": "Observant Obnoxious",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.9354,
+        "w": 5.3728,
+        "x": 7.2545,
+        "y": 5.982
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          143,
+          194,
+          205
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "truck trap zip fit post busy makeshift busy",
+        "theme_topic": "Observant Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -195,39 +191,41 @@
     },
     {
       "bbox": {
-        "h": 0.2694,
-        "w": 4.924,
-        "x": 7.6291,
-        "y": 0.7939
+        "h": 5.5416,
+        "w": 6.1967,
+        "x": 0.5505,
+        "y": 1.4487
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          68,
+          155,
+          170
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "CRUEL",
-        "theme_topic": "Chop Race",
-        "underline": false
+        "line": [
+          68,
+          155,
+          170
+        ],
+        "line_width": 1.8364096042476354,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Observant Obnoxious"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.0449,
-        "w": 4.9327,
-        "x": 7.6762,
-        "y": 1.2426
+        "h": 1.1351,
+        "w": 5.8357,
+        "x": 0.7128,
+        "y": 2.4791
       },
       "id": "object_007",
       "properties": {
@@ -235,17 +233,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          100,
-          131,
-          48
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 39,
+        "font_face": "Georgia",
+        "font_size": 41,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Wool Awful Space",
-        "theme_topic": "Chop Race",
+        "text": "9x",
+        "theme_topic": "Observant Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -253,10 +251,10 @@
     },
     {
       "bbox": {
-        "h": 4.2174,
-        "w": 4.9456,
-        "x": 7.6645,
-        "y": 2.5508
+        "h": 0.7003,
+        "w": 5.8026,
+        "x": 0.7137,
+        "y": 4.8591
       },
       "id": "object_008",
       "properties": {
@@ -264,17 +262,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          230,
-          210,
-          240
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "snails agreeable vast careful cent children overwrought broad throne heady highfalutin jar winter refuse rhythm inquisitive orange bucket return",
-        "theme_topic": "Chop Race",
+        "text": "division tranquil fearless care pedal",
+        "theme_topic": "Observant Obnoxious",
         "underline": false
       },
       "type": "text",
@@ -282,398 +280,189 @@
     },
     {
       "bbox": {
-        "h": 6.1306,
-        "w": 0.9635,
-        "x": 3.8035,
-        "y": 0.7248
+        "h": 0.6203,
+        "w": 0.7748,
+        "x": 4.1273,
+        "y": 2.6824
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.06322156189785168,
-          0.011719265334637111,
-          0.19705591434973965,
-          0.22270083278322714
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          151,
+          193,
+          157
         ],
-        "focus": false,
-        "mask_line": [
-          182,
-          163,
-          118
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Chop Race",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "spiteful meat plain",
+        "theme_topic": "Observant Obnoxious",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 6.1181,
-        "w": 0.9594,
-        "x": 4.8972,
-        "y": 0.7274
+        "h": 0.9348,
+        "w": 0.9066,
+        "x": 5.1383,
+        "y": 5.7495
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.03106703979760932,
-          0.01822241388388166,
-          0.11472521143799244,
-          0.047351461466108635
+        "dash": 4,
+        "family": "stars",
+        "fill": [
+          205,
+          192,
+          97
         ],
         "focus": false,
-        "mask_line": [
-          46,
-          216,
-          35
+        "line": [
+          187,
+          149,
+          81
         ],
-        "mask_overlay": false,
-        "theme_topic": "Chop Race",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.692728497088067,
+        "outline_only": false,
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Observant Obnoxious"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 6.1367,
-        "w": 0.9468,
-        "x": 6.0015,
-        "y": 0.6911
+        "h": 0.2679,
+        "w": 2.2594,
+        "x": 3.742,
+        "y": 2.8041
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": false,
-        "line": [
-          71,
-          221,
-          181
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          130,
+          211,
+          128
         ],
-        "line_width": 12,
-        "theme_topic": "Chop Race"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Cautious",
+        "theme_topic": "Observant Obnoxious",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.2828,
-        "w": 0.5461,
-        "x": 6.201,
-        "y": 6.4209
+        "h": 0.8288,
+        "w": 0.801,
+        "x": 10.8619,
+        "y": 6.3938
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
+        "dash": 5,
+        "family": "basic",
+        "fill": [
+          68,
+          154,
+          77
         ],
-        "font_face": "Arial",
-        "font_size": 7,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Trucks Rural",
-        "theme_topic": "Chop Race",
-        "underline": false
+        "focus": false,
+        "line": [
+          216,
+          49,
+          215
+        ],
+        "line_width": 4.182836189661321,
+        "outline_only": false,
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Observant Obnoxious"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.838,
-        "w": 1.3515,
-        "x": 0.7773,
-        "y": 1.3353
+        "h": 0.4917,
+        "w": 0.6299,
+        "x": 1.5874,
+        "y": 2.5206
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "math",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          62,
-          30,
-          136
+          88,
+          27,
+          119
         ],
         "focus": false,
         "line": [
-          178,
-          161,
-          102
+          94,
+          56,
+          162
         ],
-        "line_width": 5.168451584747581,
+        "line_width": 4.5761857531196455,
         "outline_only": false,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Chop Race"
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Observant Obnoxious"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.8418,
-        "w": 0.6176,
-        "x": 1.4901,
-        "y": 1.2232
+        "h": 0.647,
+        "w": 0.8884,
+        "x": 2.8949,
+        "y": 3.1685
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "arrows",
         "fill": [
-          60,
-          129,
-          224
+          154,
+          145,
+          50
         ],
         "focus": false,
         "line": [
-          137,
-          35,
-          61
+          189,
+          128,
+          222
         ],
-        "line_width": 0.6133043414909527,
-        "outline_only": true,
+        "line_width": 2.010611425067359,
+        "outline_only": false,
         "ppt_type": 33,
         "shape": "right_arrow",
-        "theme_topic": "Chop Race"
+        "theme_topic": "Observant Obnoxious"
       },
       "type": "shape",
       "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.7907,
-        "w": 0.9254,
-        "x": 8.8138,
-        "y": 5.8343
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
-        "fill": [
-          82,
-          79,
-          72
-        ],
-        "focus": false,
-        "line": [
-          37,
-          123,
-          123
-        ],
-        "line_width": 0.6244744599792269,
-        "outline_only": false,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Chop Race"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.7304,
-        "w": 0.6127,
-        "x": 10.5794,
-        "y": 4.6241
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          217,
-          80,
-          34
-        ],
-        "focus": false,
-        "line": [
-          58,
-          90,
-          156
-        ],
-        "line_width": 5.005012127068888,
-        "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Chop Race"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.99,
-        "w": 0.5974,
-        "x": 9.8975,
-        "y": 4.0261
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          134,
-          32,
-          46
-        ],
-        "focus": false,
-        "line": [
-          209,
-          148,
-          220
-        ],
-        "line_width": 4.217259999083634,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Chop Race"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.7702,
-        "w": 0.7806,
-        "x": 2.4659,
-        "y": 0.1778
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          107,
-          197,
-          190
-        ],
-        "focus": false,
-        "line": [
-          207,
-          61,
-          96
-        ],
-        "line_width": 1.6673979435809425,
-        "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Chop Race"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.6982,
-        "w": 0.3977,
-        "x": 2.6246,
-        "y": 4.0667
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          158,
-          103,
-          113
-        ],
-        "focus": false,
-        "line": [
-          212,
-          230,
-          172
-        ],
-        "line_width": 1.965656128611893,
-        "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Chop Race"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 1.1015,
-        "w": 1.2592,
-        "x": 1.057,
-        "y": 3.556
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          171,
-          101,
-          226
-        ],
-        "line": [
-          71,
-          221,
-          181
-        ],
-        "line_width": 0.7131329324681261,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Chop Race"
-      },
-      "type": "freeform",
-      "z_order": 20
     }
   ],
   "slide": {

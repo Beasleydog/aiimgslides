@@ -8,163 +8,170 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "back_color": [
-        137,
-        228,
-        86
+      "colors": [
+        [
+          206,
+          36,
+          136
+        ],
+        [
+          25,
+          122,
+          55
+        ]
       ],
       "fill": [
-        137,
-        228,
-        86
-      ],
-      "fore_color": [
-        205,
-        121,
+        120,
+        58,
         170
       ],
-      "pattern": 29,
-      "style": "pattern",
-      "theme_topic": "Brash Sparkling"
+      "focus": "bottom_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Strip"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 19,
+    "level": 19,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 19
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.215,
-        "w": 4.8883,
-        "x": 1.0457,
-        "y": 3.0864
+        "h": 3.7978,
+        "w": 3.719,
+        "x": 2.4513,
+        "y": -0.4953
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
+        "dash": 7,
+        "family": "arrows",
         "fill": [
-          72,
-          148,
-          145
+          194,
+          146,
+          149
         ],
         "focus": false,
         "line": [
-          109,
-          180,
-          224
+          115,
+          139,
+          49
         ],
-        "line_width": 2.453343919170652,
+        "line_width": 5.469453665904016,
         "outline_only": true,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Brash Sparkling"
+        "ppt_type": 33,
+        "shape": "right_arrow",
+        "theme_topic": "Strip"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.7845,
-        "w": 3.8224,
-        "x": -0.1386,
-        "y": -0.5759
+        "h": 3.7082,
+        "w": 4.6244,
+        "x": -0.0161,
+        "y": 3.7853
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          89,
-          204,
-          100
+          139,
+          78,
+          190
         ],
-        "focus": false,
         "line": [
-          220,
-          112,
-          227
+          139,
+          78,
+          190
         ],
-        "line_width": 7.294165691717154,
-        "outline_only": true,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Brash Sparkling"
+        "line_width": 1.2651044343786788,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Strip"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.0234,
-        "w": 3.6911,
-        "x": 5.5575,
-        "y": 4.685
+        "h": 6.4079,
+        "w": 4.4811,
+        "x": 0.5412,
+        "y": 0.5542
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          158,
-          85,
-          73
+          139,
+          78,
+          190
         ],
-        "focus": false,
         "line": [
-          48,
-          89,
-          172
+          139,
+          78,
+          190
         ],
-        "line_width": 3.0618456999824124,
+        "line_width": 0.7224761001482191,
         "outline_only": false,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Brash Sparkling"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Strip"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 7.4904,
-        "w": 13.3141,
-        "x": -0.0142,
-        "y": 3.8341
+        "h": 6.107,
+        "w": 4.2274,
+        "x": 0.7145,
+        "y": 0.7002
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          110,
-          184,
-          69
+        "crop": [
+          0.15262321228839532,
+          0.10932219660062865,
+          0.21777224094952385,
+          0.17658763087753013
         ],
-        "line": [
-          110,
-          184,
-          69
+        "focus": true,
+        "mask_line": [
+          71,
+          221,
+          181
         ],
-        "line_width": 0.7035880724981541,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Brash Sparkling"
+        "mask_overlay": true,
+        "theme_topic": "Strip",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 5.5299,
-        "w": 2.8492,
-        "x": 0.65,
-        "y": 0.7339
+        "h": 0.2697,
+        "w": 4.0812,
+        "x": 0.7331,
+        "y": 6.5236
       },
       "id": "object_005",
       "properties": {
@@ -172,17 +179,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 29,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Unit Adaptable Mask",
-        "theme_topic": "Brash Sparkling",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Wrist Depend Snobbish",
+        "theme_topic": "Strip",
         "underline": false
       },
       "type": "text",
@@ -190,39 +197,41 @@
     },
     {
       "bbox": {
-        "h": 0.2753,
-        "w": 1.3019,
-        "x": 11.2617,
-        "y": 0.7889
+        "h": 2.0739,
+        "w": 7.2893,
+        "x": 5.4971,
+        "y": 0.53
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          198,
-          74
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "MINIATURE DAMAGING",
-        "theme_topic": "Brash Sparkling",
-        "underline": false
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 2.071756438471513,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Strip"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.0367,
-        "w": 1.3302,
-        "x": 11.2824,
-        "y": 1.2604
+        "h": 0.4586,
+        "w": 6.7754,
+        "x": 5.7685,
+        "y": 1.4657
       },
       "id": "object_007",
       "properties": {
@@ -230,17 +239,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 23,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Cheat Lumber",
-        "theme_topic": "Brash Sparkling",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Fang Ink",
+        "theme_topic": "Strip",
         "underline": false
       },
       "type": "text",
@@ -248,10 +257,10 @@
     },
     {
       "bbox": {
-        "h": 4.2123,
-        "w": 1.322,
-        "x": 11.2421,
-        "y": 2.5256
+        "h": 0.4419,
+        "w": 6.7752,
+        "x": 5.7804,
+        "y": 2.0123
       },
       "id": "object_008",
       "properties": {
@@ -259,17 +268,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          77,
-          119,
-          58
+          230,
+          210,
+          240
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "obey upbeat haunt form quartz ratty cracker unknown babies loutish skillful",
-        "theme_topic": "Brash Sparkling",
+        "text": "wiggly mundane rub imminent butter upbeat incredible pastoral door letters lopsided",
+        "theme_topic": "Strip",
         "underline": false
       },
       "type": "text",
@@ -277,10 +286,10 @@
     },
     {
       "bbox": {
-        "h": 6.2557,
-        "w": 1.5973,
-        "x": 3.7508,
-        "y": 0.6448
+        "h": 1.7726,
+        "w": 7.2593,
+        "x": 5.5063,
+        "y": 2.8336
       },
       "id": "object_009",
       "properties": {
@@ -288,77 +297,80 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          255,
-          198,
-          74
+          139,
+          78,
+          190
         ],
         "line": [
-          110,
-          184,
-          69
+          139,
+          78,
+          190
         ],
-        "line_width": 1.6725286550940146,
+        "line_width": 1.4233755518638094,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Brash Sparkling"
+        "theme_topic": "Strip"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.1345,
-        "w": 1.2468,
-        "x": 3.9423,
-        "y": 1.774
+        "h": 0.5688,
+        "w": 0.5629,
+        "x": 5.7237,
+        "y": 3.0691
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 51,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "592",
-        "theme_topic": "Brash Sparkling",
-        "underline": false
+        "focus": false,
+        "line": [
+          80,
+          212,
+          193
+        ],
+        "line_width": 2.658150989149505,
+        "outline_only": false,
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Strip"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.7073,
-        "w": 1.2621,
-        "x": 3.9307,
-        "y": 4.4645
+        "h": 0.4626,
+        "w": 6.7678,
+        "x": 5.7648,
+        "y": 3.7281
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          28,
-          30,
-          36
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "nondescript annoyed print earth",
-        "theme_topic": "Brash Sparkling",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Sticky",
+        "theme_topic": "Strip",
         "underline": false
       },
       "type": "text",
@@ -366,64 +378,59 @@
     },
     {
       "bbox": {
-        "h": 0.5264,
-        "w": 0.8403,
-        "x": 7.9303,
-        "y": 3.5591
+        "h": 2.145,
+        "w": 7.2601,
+        "x": 5.5126,
+        "y": 4.7963
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "panel",
         "fill": [
-          200,
-          153,
-          49
+          139,
+          78,
+          190
         ],
-        "focus": false,
         "line": [
-          142,
-          30,
-          208
+          139,
+          78,
+          190
         ],
-        "line_width": 4.452813086303831,
+        "line_width": 0.8127827182424092,
         "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Brash Sparkling"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Strip"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.301,
-        "w": 1.2541,
-        "x": 1.2114,
-        "y": 2.7412
+        "h": 0.4665,
+        "w": 6.7933,
+        "x": 5.7586,
+        "y": 5.6735
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          227,
-          184,
-          126
-        ],
-        "bold": false,
+        "bg_color": null,
+        "bold": true,
         "color": [
-          28,
-          49,
-          82
+          71,
+          221,
+          181
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "hypnotic sigh",
-        "theme_topic": "Brash Sparkling",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Spiteful Truck",
+        "theme_topic": "Strip",
         "underline": false
       },
       "type": "text",
@@ -431,53 +438,57 @@
     },
     {
       "bbox": {
-        "h": 1.1921,
-        "w": 1.6483,
-        "x": 11.0176,
-        "y": 2.7526
+        "h": 0.5281,
+        "w": 6.7584,
+        "x": 5.7548,
+        "y": 6.2221
       },
       "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          95,
-          198,
-          227
-        ],
-        "connector": "elbow",
-        "dash": 7,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Brash Sparkling",
-        "width": 1.4211754613820764
-      },
-      "type": "connector",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.2153,
-        "w": 0.8159,
-        "x": 12.1645,
-        "y": 2.0185
-      },
-      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          70,
-          82,
-          210
+          230,
+          210,
+          240
         ],
-        "font_face": "Arial",
+        "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Organic",
-        "theme_topic": "Brash Sparkling",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "minute press warlike cows end impartial good eye psychotic learned future",
+        "theme_topic": "Strip",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.5519,
+        "w": 1.5093,
+        "x": 1.4826,
+        "y": 2.8088
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          222,
+          126,
+          142
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "week slim label challenge zoom",
+        "theme_topic": "Strip",
         "underline": false
       },
       "type": "text",
@@ -485,62 +496,128 @@
     },
     {
       "bbox": {
-        "h": 0.9803,
-        "w": 0.6539,
-        "x": 5.7394,
-        "y": 3.0915
+        "h": 0.5506,
+        "w": 1.2737,
+        "x": 11.0612,
+        "y": 2.1461
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          168,
-          108,
-          74
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          215,
+          201,
+          104
         ],
-        "secondary": [
-          255,
-          117,
-          117
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#9cdcc0\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#e2d921\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#9cdcc0\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Brash Sparkling"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Roomy Clam",
+        "theme_topic": "Strip",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.4303,
-        "w": 0.6271,
-        "x": 6.8504,
-        "y": 3.1023
+        "h": 0.8572,
+        "w": 0.3626,
+        "x": 8.363,
+        "y": 0.8984
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
+        "dash": 4,
+        "family": "ribbons",
         "fill": [
-          223,
-          52,
-          122
+          255,
+          211,
+          88
         ],
         "focus": false,
         "line": [
-          171,
-          181,
-          115
+          71,
+          221,
+          181
         ],
-        "line_width": 5.089623725616967,
+        "line_width": 2.470988720831833,
         "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Brash Sparkling"
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Strip"
       },
       "type": "shape",
       "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.4747,
+        "w": 1.1239,
+        "x": 5.0976,
+        "y": 4.5507
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          55,
+          45,
+          70
+        ],
+        "focus": false,
+        "line": [
+          108,
+          115,
+          206
+        ],
+        "line_width": 2.6316713598827683,
+        "outline_only": false,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Strip"
+      },
+      "type": "shape",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.9379,
+        "w": 0.8158,
+        "x": 12.0582,
+        "y": 0.7245
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "symbols",
+        "fill": [
+          149,
+          217,
+          194
+        ],
+        "focus": false,
+        "line": [
+          199,
+          77,
+          99
+        ],
+        "line_width": 6.258021172319276,
+        "outline_only": false,
+        "ppt_type": 23,
+        "shape": "sun",
+        "theme_topic": "Strip"
+      },
+      "type": "shape",
+      "z_order": 19
     }
   ],
   "slide": {

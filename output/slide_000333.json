@@ -8,89 +8,111 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "fill": [
-        210,
-        72,
-        94
+      "colors": [
+        [
+          47,
+          136,
+          190
+        ],
+        [
+          255,
+          198,
+          74
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Flesh"
+      "fill": [
+        33,
+        115,
+        169
+      ],
+      "focus": "center",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Acidic Wing"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 9,
+    "level": 9,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 9
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.8594,
-        "w": 7.218,
-        "x": 5.4715,
-        "y": 3.0463
+        "h": 1.6118,
+        "w": 6.4949,
+        "x": 0.5585,
+        "y": -0.0984
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 5,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          142,
-          158,
-          86
+          82,
+          163,
+          93
         ],
         "focus": false,
         "line": [
-          76,
-          117,
-          41
+          226,
+          199,
+          94
         ],
-        "line_width": 6.279080697143653,
+        "line_width": 7.368188678614894,
         "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Flesh"
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Acidic Wing"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.4562,
-        "w": 7.726,
-        "x": -0.4721,
-        "y": 0.7306
+        "h": 2.3663,
+        "w": 3.2324,
+        "x": 6.6754,
+        "y": -0.552
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          86,
-          166,
-          120
+          131,
+          75,
+          63
         ],
         "focus": false,
         "line": [
-          201,
-          106,
-          80
+          142,
+          71,
+          108
         ],
-        "line_width": 4.61783329143969,
+        "line_width": 5.7819283301617705,
         "outline_only": false,
-        "ppt_type": 45,
-        "shape": "curved_right_arrow",
-        "theme_topic": "Flesh"
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Acidic Wing"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.8374,
-        "x": 4.2318,
-        "y": 2.4957
+        "h": 0.6781,
+        "w": 13.3511,
+        "x": 0.0086,
+        "y": -0.0058
       },
       "id": "object_003",
       "properties": {
@@ -98,61 +120,59 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          51,
-          63,
-          101
+          47,
+          136,
+          190
         ],
         "line": [
-          225,
-          94,
-          113
+          47,
+          136,
+          190
         ],
-        "line_width": 1.2551588334165422,
+        "line_width": 3.7320656481049497,
         "outline_only": false,
         "ppt_type": 1,
         "shape": "rect",
-        "theme_topic": "Flesh"
+        "theme_topic": "Acidic Wing"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.8835,
-        "w": 0.2,
-        "x": 8.177,
-        "y": 1.021
+        "h": 0.8874,
+        "w": 7.4318,
+        "x": 0.7713,
+        "y": 5.8341
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          51,
-          63,
-          101
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          250,
+          252,
+          255
         ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 2.1353960977380755,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Flesh"
+        "font_face": "Trebuchet MS",
+        "font_size": 34,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Tickle Deafening Flawless March",
+        "theme_topic": "Acidic Wing",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1627,
-        "w": 5.3438,
-        "x": 0.5637,
-        "y": 0.3351
+        "h": 0.4419,
+        "w": 5.8422,
+        "x": 0.7831,
+        "y": 1.4522
       },
       "id": "object_005",
       "properties": {
@@ -161,16 +181,16 @@
         "bold": true,
         "color": [
           255,
-          252,
-          247
+          198,
+          74
         ],
-        "font_face": "Arial",
-        "font_size": 34,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Barbarous Announce",
-        "theme_topic": "Flesh",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Scared Wander",
+        "theme_topic": "Acidic Wing",
         "underline": false
       },
       "type": "text",
@@ -178,647 +198,125 @@
     },
     {
       "bbox": {
-        "h": 1.8557,
-        "w": 5.9703,
-        "x": 0.5566,
-        "y": 1.8491
+        "h": 0.4614,
+        "w": 5.8366,
+        "x": 0.7812,
+        "y": 3.9543
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          225,
-          94,
-          113
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
         ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 2.0893671568073264,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Flesh"
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Macabre",
+        "theme_topic": "Acidic Wing",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.5685,
-        "w": 0.5805,
-        "x": 0.7825,
-        "y": 2.0678
+        "h": 1.1536,
+        "w": 6.3365,
+        "x": 0.5511,
+        "y": 4.4115
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          255,
-          206,
-          86
+          47,
+          136,
+          190
         ],
-        "focus": false,
         "line": [
-          51,
-          63,
-          101
+          47,
+          136,
+          190
         ],
-        "line_width": 3.6296421207398244,
+        "line_width": 2.43004692048821,
         "outline_only": false,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Flesh"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Acidic Wing"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4489,
-        "w": 5.49,
-        "x": 0.778,
-        "y": 2.7424
+        "h": 1.6618,
+        "w": 5.3545,
+        "x": 7.4213,
+        "y": 0.5612
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Cold",
-        "theme_topic": "Flesh",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 5.4576,
-        "x": 0.8155,
-        "y": 3.3068
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          255,
-          218,
-          220
-        ],
-        "font_face": "Arial",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "loose friendly top kind madly questionable guard unequal well-groomed unaccountable",
-        "theme_topic": "Flesh",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 1.5196,
-        "w": 5.9579,
-        "x": 0.5568,
-        "y": 3.9127
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          225,
-          94,
-          113
-        ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 1.0024024577148412,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Flesh"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.5728,
-        "w": 0.5482,
-        "x": 0.7412,
-        "y": 4.1582
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
-        "fill": [
-          188,
-          66,
-          171
-        ],
-        "focus": false,
-        "line": [
-          51,
-          63,
-          101
-        ],
-        "line_width": 0.6710494700319259,
-        "outline_only": false,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Flesh"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.4729,
-        "w": 5.4661,
-        "x": 0.791,
-        "y": 4.8051
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
-        ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Fluffy Limping",
-        "theme_topic": "Flesh",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.4014,
-        "w": 5.967,
-        "x": 0.552,
-        "y": 5.6134
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 7,
         "family": "panel",
         "fill": [
-          225,
-          94,
-          113
+          47,
+          136,
+          190
         ],
         "line": [
-          225,
-          94,
-          113
+          47,
+          136,
+          190
         ],
-        "line_width": 0.6973620847180766,
+        "line_width": 5.0779203697617685,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Flesh"
+        "theme_topic": "Acidic Wing"
       },
       "type": "shape",
-      "z_order": 13
+      "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.5382,
-        "w": 0.5696,
-        "x": 0.8027,
-        "y": 5.8547
+        "h": 1.4809,
+        "w": 5.3732,
+        "x": 7.44,
+        "y": 4.072
       },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          51,
-          63,
-          101
-        ],
-        "focus": false,
-        "line": [
-          255,
-          218,
-          220
-        ],
-        "line_width": 4.808630143726172,
-        "outline_only": true,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Flesh"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.4604,
-        "w": 5.4679,
-        "x": 0.7783,
-        "y": 6.4962
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
-        ],
-        "font_face": "Arial",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Tall",
-        "theme_topic": "Flesh",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 5.146,
-        "w": 5.8138,
-        "x": 6.9994,
-        "y": 1.8609
-      },
-      "id": "object_016",
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          225,
-          94,
-          113
+          47,
+          136,
+          190
         ],
         "line": [
-          225,
-          94,
-          113
+          47,
+          136,
+          190
         ],
-        "line_width": 1.5955346918227458,
+        "line_width": 2.077066184203096,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Flesh"
+        "theme_topic": "Acidic Wing"
       },
       "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 1.1478,
-        "w": 5.4376,
-        "x": 7.1447,
-        "y": 2.7719
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          210,
-          72,
-          94
-        ],
-        "font_face": "Arial",
-        "font_size": 36,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "50%",
-        "theme_topic": "Flesh",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.7051,
-        "w": 5.4164,
-        "x": 7.1831,
-        "y": 4.9908
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          255,
-          252,
-          247
-        ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "threatening living marked wound limit trap jellyfish",
-        "theme_topic": "Flesh",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.6167,
-        "w": 0.941,
-        "x": 7.7213,
-        "y": 1.7182
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          255,
-          206,
-          86
-        ],
-        "line": [
-          51,
-          63,
-          101
-        ],
-        "line_width": 2.7984085811416515,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Flesh"
-      },
-      "type": "freeform",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.2964,
-        "w": 1.0332,
-        "x": 11.2097,
-        "y": 2.881
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "math",
-        "fill": [
-          26,
-          148,
-          195
-        ],
-        "focus": false,
-        "line": [
-          30,
-          181,
-          47
-        ],
-        "line_width": 4.466664709620951,
-        "outline_only": false,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Flesh"
-      },
-      "type": "shape",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 0.5909,
-        "x": 2.2392,
-        "y": 2.8116
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          70,
-          111,
-          176
-        ],
-        "focus": false,
-        "line": [
-          45,
-          36,
-          138
-        ],
-        "line_width": 1.998974464653408,
-        "outline_only": true,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Flesh"
-      },
-      "type": "shape",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.8273,
-        "w": 0.6865,
-        "x": 7.9947,
-        "y": 6.0894
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          184,
-          131,
-          108
-        ],
-        "focus": false,
-        "line": [
-          53,
-          160,
-          39
-        ],
-        "line_width": 5.8237759063742125,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Flesh"
-      },
-      "type": "shape",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 1.1854,
-        "w": 0.6064,
-        "x": 3.5809,
-        "y": 1.9667
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          255,
-          206,
-          86
-        ],
-        "focus": false,
-        "line": [
-          255,
-          218,
-          220
-        ],
-        "line_width": 3.762639654359868,
-        "outline_only": false,
-        "ppt_type": 6,
-        "shape": "octagon",
-        "theme_topic": "Flesh"
-      },
-      "type": "shape",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 0.3405,
-        "w": 0.8194,
-        "x": 4.3246,
-        "y": 2.435
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          55,
-          143,
-          75
-        ],
-        "line": [
-          31,
-          225,
-          74
-        ],
-        "line_width": 2.243637197221995,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Flesh"
-      },
-      "type": "freeform",
-      "z_order": 24
+      "z_order": 9
     }
   ],
   "slide": {

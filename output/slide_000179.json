@@ -10,121 +10,63 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        126,
-        58,
-        173
+        181,
+        124,
+        75
       ],
       "style": "solid",
-      "theme_topic": "Thrill Trousers"
+      "theme_topic": "Quickest"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 5,
+    "level": 5,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 5
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.2046,
-        "w": 5.8514,
-        "x": 3.8932,
-        "y": 4.3394
+        "h": 7.4945,
+        "w": 13.3242,
+        "x": -0.0175,
+        "y": 4.1882
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
+        "dash": 3,
+        "family": "panel",
         "fill": [
+          204,
           166,
-          70,
-          143
+          133
         ],
-        "focus": false,
         "line": [
-          131,
-          48,
-          81
+          204,
+          166,
+          133
         ],
-        "line_width": 6.49187589775903,
-        "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Thrill Trousers"
+        "line_width": 1.2449085966679383,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Quickest"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.8756,
-        "w": 7.7842,
-        "x": 2.9523,
-        "y": 5.0546
+        "h": 1.0756,
+        "w": 5.0327,
+        "x": 0.5532,
+        "y": 0.3358
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          136,
-          126,
-          210
-        ],
-        "focus": false,
-        "line": [
-          191,
-          74,
-          31
-        ],
-        "line_width": 5.551118703701967,
-        "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Thrill Trousers"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.8316,
-        "w": 3.6704,
-        "x": 5.4479,
-        "y": 4.1206
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
-        "fill": [
-          194,
-          71,
-          161
-        ],
-        "focus": false,
-        "line": [
-          108,
-          229,
-          154
-        ],
-        "line_width": 5.488981092417893,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Thrill Trousers"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.8897,
-        "w": 6.2196,
-        "x": 1.1475,
-        "y": 0.765
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -134,13 +76,124 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 32,
+        "font_face": "Aptos Display",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Spooky Possessive Price Fry",
-        "theme_topic": "Thrill Trousers",
+        "text": "Rightful Creature",
+        "theme_topic": "Quickest",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 2.5792,
+        "w": 12.142,
+        "x": 0.5933,
+        "y": 4.3343
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          204,
+          166,
+          133
+        ],
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          204,
+          166,
+          133
+        ],
+        "border": [
+          138,
+          202,
+          121
+        ],
+        "border_dash": "solid",
+        "border_width": 0.4494932455877201,
+        "cells": [
+          [
+            "tenuous science",
+            "disillusioned apparatus",
+            "toe",
+            "daffy",
+            "sink",
+            "broken measure"
+          ],
+          [
+            "bucket swing",
+            "wrist auspicious",
+            "fluttering possess",
+            "acoustics bait",
+            "scarce",
+            "rub cultured"
+          ],
+          [
+            "bit square",
+            "dazzling soft",
+            "drab",
+            "tearful",
+            "company snow",
+            "impartial wakeful"
+          ],
+          [
+            "real",
+            "spill",
+            "night",
+            "invite",
+            "compare zany",
+            "merciful"
+          ]
+        ],
+        "cols": 6,
+        "font_size": 9,
+        "has_header": true,
+        "header": [
+          43,
+          104,
+          212
+        ],
+        "rows": 4,
+        "text_color": [
+          202,
+          94,
+          108
+        ],
+        "theme_topic": "Quickest"
+      },
+      "type": "table",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.7098,
+        "w": 2.3947,
+        "x": 0.61,
+        "y": 3.0402
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "present slave inform petite",
+        "theme_topic": "Quickest",
         "underline": false
       },
       "type": "text",
@@ -148,124 +201,12 @@
     },
     {
       "bbox": {
-        "h": 1.2296,
-        "w": 6.8172,
-        "x": 3.2106,
-        "y": 5.7945
+        "h": 0.6967,
+        "w": 2.8283,
+        "x": 3.2985,
+        "y": 3.0166
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.28205632076860976,
-          0.05392004188533628,
-          0.1827600096792152,
-          0.2886706652546084
-        ],
-        "focus": true,
-        "mask_line": [
-          216,
-          65,
-          201
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Thrill Trousers",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.5269,
-        "w": 2.2142,
-        "x": 0.5456,
-        "y": 1.4836
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          51,
-          63,
-          101
-        ],
-        "line_width": 11,
-        "theme_topic": "Thrill Trousers"
-      },
-      "type": "svg_image",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 3.1269,
-        "w": 6.8312,
-        "x": 3.2393,
-        "y": 2.4494
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          160,
-          110,
-          194
-        ],
-        "line": [
-          160,
-          110,
-          194
-        ],
-        "line_width": 1.1824461256906702,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Thrill Trousers"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 1.1283,
-        "w": 6.4975,
-        "x": 3.4427,
-        "y": 3.0714
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          126,
-          58,
-          173
-        ],
-        "font_face": "Georgia",
-        "font_size": 53,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "8x",
-        "theme_topic": "Thrill Trousers",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.6885,
-        "w": 6.4878,
-        "x": 3.4079,
-        "y": 4.3116
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -280,249 +221,12 @@
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "madly swim gate wreck shock rambunctious position shivering",
-        "theme_topic": "Thrill Trousers",
+        "text": "apologise pocket flagrant beautiful",
+        "theme_topic": "Quickest",
         "underline": false
       },
       "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.2728,
-        "w": 1.882,
-        "x": 10.7277,
-        "y": 1.568
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "SCIENCE WET",
-        "theme_topic": "Thrill Trousers",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 1.0738,
-        "w": 1.8879,
-        "x": 10.74,
-        "y": 2.0506
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          107,
-          229,
-          225
-        ],
-        "font_face": "Georgia",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Unaccountable",
-        "theme_topic": "Thrill Trousers",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 3.5302,
-        "w": 1.8871,
-        "x": 10.7135,
-        "y": 3.3507
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          192,
-          162,
-          216
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "leg wry eminent greedy miscreant squeamish desk noxious",
-        "theme_topic": "Thrill Trousers",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.59,
-        "w": 1.1153,
-        "x": 6.3862,
-        "y": 1.9676
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          88,
-          119,
-          197
-        ],
-        "secondary": [
-          131,
-          209,
-          210
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#e0d347\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#51657b\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Thrill Trousers"
-      },
-      "type": "svg",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.2113,
-        "w": 1.1265,
-        "x": 9.3987,
-        "y": 1.9899
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          66,
-          158,
-          124
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Greedy Grin",
-        "theme_topic": "Thrill Trousers",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.2348,
-        "w": 0.5565,
-        "x": 4.5099,
-        "y": 5.0638
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          154,
-          200,
-          54
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "change hoc",
-        "theme_topic": "Thrill Trousers",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.5872,
-        "w": 0.6305,
-        "x": 10.8349,
-        "y": 0.0344
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          69,
-          81,
-          82
-        ],
-        "focus": false,
-        "line": [
-          90,
-          47,
-          179
-        ],
-        "line_width": 2.4252833425105567,
-        "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Thrill Trousers"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.5264,
-        "w": 0.9713,
-        "x": 8.6531,
-        "y": 5.284
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          36,
-          211,
-          149
-        ],
-        "bold": false,
-        "color": [
-          50,
-          150,
-          89
-        ],
-        "font_face": "Aptos",
-        "font_size": 5,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "nutty berserk scattered",
-        "theme_topic": "Thrill Trousers",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
+      "z_order": 5
     }
   ],
   "slide": {

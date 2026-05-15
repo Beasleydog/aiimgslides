@@ -12,99 +12,106 @@
       "archetype": "atomic_composition",
       "colors": [
         [
-          106,
-          79,
-          161
+          71,
+          165,
+          147
         ],
         [
-          255,
-          206,
-          86
+          63,
+          218,
+          153
         ]
       ],
       "fill": [
-        106,
-        79,
-        161
+        45,
+        152,
+        132
       ],
-      "focus": "bottom_right",
+      "focus": "center",
       "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Gray"
+      "theme_topic": "Transport"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 12,
+    "level": 12,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 12
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.24,
-        "w": 6.4174,
-        "x": -0.272,
-        "y": 4.6271
+        "h": 3.9222,
+        "w": 6.9657,
+        "x": 6.2169,
+        "y": 4.4612
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "math",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          80,
-          166,
-          98
+          56,
+          95,
+          158
         ],
         "focus": false,
         "line": [
-          190,
-          190,
-          154
+          156,
+          126,
+          192
         ],
-        "line_width": 7.860616580140617,
-        "outline_only": false,
-        "ppt_type": 166,
-        "shape": "divide",
-        "theme_topic": "Gray"
+        "line_width": 2.085382964532709,
+        "outline_only": true,
+        "ppt_type": 53,
+        "shape": "right_arrow_callout",
+        "theme_topic": "Transport"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.7841,
-        "w": 13.3388,
-        "x": -0.0135,
-        "y": 0.0134
+        "h": 0.2,
+        "w": 1.6494,
+        "x": 9.2508,
+        "y": 0.5479
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 3,
         "family": "panel",
         "fill": [
-          125,
-          102,
-          173
+          51,
+          63,
+          101
         ],
         "line": [
-          125,
-          102,
-          173
+          71,
+          165,
+          147
         ],
-        "line_width": 1.2254050421920721,
+        "line_width": 1.135017111491164,
         "outline_only": false,
         "ppt_type": 1,
         "shape": "rect",
-        "theme_topic": "Gray"
+        "theme_topic": "Transport"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1977,
-        "w": 8.7492,
-        "x": 0.5395,
-        "y": 0.3566
+        "h": 1.1353,
+        "w": 6.6773,
+        "x": 2.5202,
+        "y": 0.6379
       },
       "id": "object_003",
       "properties": {
@@ -117,12 +124,12 @@
           252
         ],
         "font_face": "Trebuchet MS",
-        "font_size": 39,
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Property Glow Fence",
-        "theme_topic": "Gray",
+        "text": "Marble Seemly Ajar",
+        "theme_topic": "Transport",
         "underline": false
       },
       "type": "text",
@@ -130,39 +137,41 @@
     },
     {
       "bbox": {
-        "h": 5.121,
-        "w": 6.4777,
-        "x": 0.5734,
-        "y": 1.8654
+        "h": 5.0589,
+        "w": 4.533,
+        "x": 0.5411,
+        "y": 1.9984
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.278463769740075,
-          0.16025640174686487,
-          0.1450009530414965,
-          0.09000932429472806
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          51,
+          63,
+          101
         ],
-        "focus": true,
-        "mask_line": [
+        "line": [
           71,
-          91,
-          157
+          165,
+          147
         ],
-        "mask_overlay": false,
-        "theme_topic": "Gray",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 0.8124095997593473,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Transport"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.2733,
-        "w": 6.0801,
-        "x": 0.7429,
-        "y": 6.5333
+        "h": 1.1445,
+        "w": 4.2,
+        "x": 0.7448,
+        "y": 2.9288
       },
       "id": "object_005",
       "properties": {
@@ -170,17 +179,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          45,
+          152,
+          132
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Trebuchet MS",
+        "font_size": 52,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Tremendous Friction Charge",
-        "theme_topic": "Gray",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "4x",
+        "theme_topic": "Transport",
         "underline": false
       },
       "type": "text",
@@ -188,231 +197,233 @@
     },
     {
       "bbox": {
-        "h": 5.1512,
-        "w": 5.4622,
-        "x": 7.3262,
-        "y": 1.8316
+        "h": 0.709,
+        "w": 4.1767,
+        "x": 0.7169,
+        "y": 5.0641
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          125,
-          102,
-          173
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          125,
-          102,
-          173
-        ],
-        "line_width": 1.9533695749593365,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Gray"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "secretive soggy grey range believe famous explain authority",
+        "theme_topic": "Transport",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 4.6786,
-        "w": 4.9752,
-        "x": 7.5855,
-        "y": 2.1173
+        "h": 5.0762,
+        "w": 7.1058,
+        "x": 5.6956,
+        "y": 2.0009
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "categories": [
-          "grandmother",
-          "abashed",
-          "scary",
-          "unpack",
-          "rail",
-          "provide"
+          "silent",
+          "mourn",
+          "wry",
+          "icky"
         ],
         "chart": "doughnut",
         "focus": true,
-        "has_legend": false,
+        "has_legend": true,
         "has_title": false,
         "ppt_type": -4120,
         "series": [
           {
             "color": [
-              51,
-              120,
-              186
+              28,
+              95,
+              224
             ],
-            "name": "snobbish charming",
+            "name": "small foregoing",
             "values": [
-              56,
-              46,
-              93,
-              83,
-              70,
-              94
+              42,
+              20,
+              29,
+              25
             ]
           }
         ],
-        "theme_topic": "Gray",
-        "title": "next steadfast sassy sheep hand"
+        "theme_topic": "Transport",
+        "title": "space afternoon festive"
       },
       "type": "chart",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.8457,
-        "w": 0.8405,
-        "x": 10.9133,
-        "y": 3.9845
+        "h": 0.7839,
+        "w": 1.1632,
+        "x": 5.8844,
+        "y": 3.3326
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
           255,
           206,
           86
         ],
+        "focus": false,
         "line": [
-          227,
-          30,
-          70
+          118,
+          73,
+          85
         ],
-        "line_width": 0.7247659241633421,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Gray"
+        "line_width": 1.3317499213361246,
+        "outline_only": true,
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Transport"
       },
-      "type": "freeform",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.7221,
-        "w": 1.953,
-        "x": 3.8712,
-        "y": 0.5759
+        "h": 0.369,
+        "w": 1.5426,
+        "x": 8.0694,
+        "y": 4.9083
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          80,
-          25,
-          71
+        "bg_color": [
+          132,
+          71,
+          212
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Gray",
-        "width": 1.7728411628754723
+        "bold": false,
+        "color": [
+          214,
+          157,
+          112
+        ],
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Material Judicious",
+        "theme_topic": "Transport",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.9332,
-        "w": 0.3926,
-        "x": 3.8961,
-        "y": 4.8027
+        "h": 0.4666,
+        "w": 0.858,
+        "x": 11.0401,
+        "y": 5.3428
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "math",
+        "dash": 7,
+        "family": "symbols",
         "fill": [
-          207,
-          173,
-          74
+          197,
+          74,
+          160
         ],
         "focus": false,
         "line": [
-          130,
-          72,
-          166
+          73,
+          126,
+          149
         ],
-        "line_width": 1.2474055540293891,
+        "line_width": 3.47906443154423,
         "outline_only": false,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Gray"
+        "ppt_type": 24,
+        "shape": "moon",
+        "theme_topic": "Transport"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.8263,
-        "w": 1.2396,
-        "x": 10.7434,
-        "y": 1.3988
+        "h": 0.5169,
+        "w": 1.3523,
+        "x": 2.8253,
+        "y": 2.0203
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          202,
+          48,
+          68
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Snotty Boundary Plot",
+        "theme_topic": "Transport",
+        "underline": true
+      },
+      "type": "text",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.7456,
+        "w": 0.4635,
+        "x": 8.2131,
+        "y": 2.4373
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "ribbons",
         "fill": [
-          53,
-          106,
-          62
+          52,
+          208,
+          67
         ],
         "focus": false,
         "line": [
-          76,
-          54,
-          203
+          48,
+          136,
+          159
         ],
-        "line_width": 2.456814909330135,
-        "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Gray"
+        "line_width": 5.058296895678987,
+        "outline_only": true,
+        "ppt_type": 100,
+        "shape": "curved_down_ribbon",
+        "theme_topic": "Transport"
       },
       "type": "shape",
-      "z_order": 11
+      "z_order": 12
     }
   ],
   "slide": {

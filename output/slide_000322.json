@@ -8,133 +8,176 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        205,
-        89,
-        112
+      "colors": [
+        [
+          94,
+          204,
+          82
+        ],
+        [
+          187,
+          134,
+          194
+        ]
       ],
       "fill": [
-        198,
-        64,
-        91
+        18,
+        129,
+        148
       ],
-      "fore_color": [
-        51,
-        63,
-        101
-      ],
-      "pattern": 13,
-      "style": "pattern",
-      "theme_topic": "Disturbed Window"
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Whistle Heartbreaking"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 9,
+    "level": 9,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 9
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.9633,
-        "w": 4.323,
-        "x": 9.0257,
-        "y": 3.0321
+        "h": 3.179,
+        "w": 3.6423,
+        "x": 9.249,
+        "y": 4.4089
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          204,
-          101,
-          47
+          100,
+          188,
+          171
         ],
         "focus": false,
         "line": [
-          65,
-          88,
-          220
+          93,
+          74,
+          125
         ],
-        "line_width": 5.159800554157079,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Disturbed Window"
+        "line_width": 7.569242351840712,
+        "outline_only": true,
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Whistle Heartbreaking"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.13,
-        "w": 3.7492,
-        "x": 8.4299,
-        "y": 1.992
+        "h": 4.3449,
+        "w": 3.9561,
+        "x": 5.1844,
+        "y": 2.0974
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "math",
         "fill": [
-          164,
-          126,
-          55
+          47,
+          150,
+          173
         ],
         "focus": false,
         "line": [
-          125,
-          98,
-          201
+          188,
+          188,
+          117
         ],
-        "line_width": 5.848831308352368,
-        "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Disturbed Window"
+        "line_width": 5.710472727949448,
+        "outline_only": true,
+        "ppt_type": 164,
+        "shape": "minus",
+        "theme_topic": "Whistle Heartbreaking"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.5073,
-        "w": 5.2145,
-        "x": 0.0078,
-        "y": 0.0165
+        "h": 3.5215,
+        "w": 5.93,
+        "x": 7.71,
+        "y": 4.0841
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 4,
+        "family": "arrows",
         "fill": [
-          205,
-          89,
-          112
+          76,
+          117,
+          119
         ],
+        "focus": false,
         "line": [
-          205,
-          89,
-          112
+          171,
+          187,
+          161
         ],
-        "line_width": 1.6075546263747005,
+        "line_width": 3.6969397668219637,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Disturbed Window"
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Whistle Heartbreaking"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5432,
-        "w": 2.8399,
-        "x": 0.6561,
-        "y": 0.7321
+        "h": 3.1544,
+        "w": 4.2073,
+        "x": 0.0013,
+        "y": 4.3493
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          91,
+          167,
+          181
+        ],
+        "line": [
+          91,
+          167,
+          181
+        ],
+        "line_width": 1.7007887137346516,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Whistle Heartbreaking"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.7927,
+        "w": 3.2066,
+        "x": 9.4126,
+        "y": 0.6599
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -144,383 +187,135 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 23,
+        "font_face": "Arial",
+        "font_size": 22,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Wakeful Demonic Elfin",
-        "theme_topic": "Disturbed Window",
+        "text": "Locket Flaky",
+        "theme_topic": "Whistle Heartbreaking",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.9229,
-        "w": 2.8729,
-        "x": 3.8048,
-        "y": 0.6761
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.2601214865093633,
-          0.1690774088478101,
-          0.13239915840307814,
-          0.15691812953011533
-        ],
-        "focus": true,
-        "mask_line": [
-          212,
-          125,
-          221
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Disturbed Window",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.8757,
-        "w": 2.8378,
-        "x": 6.7913,
-        "y": 0.6687
+        "h": 0.9085,
+        "w": 3.2932,
+        "x": 5.411,
+        "y": 4.3878
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.158821594698874,
-          0.11115987930686973,
-          0.1285479711906762,
-          0.18797111643295472
-        ],
-        "focus": true,
-        "mask_line": [
-          51,
-          63,
-          101
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Disturbed Window",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 2.808,
-        "w": 2.739,
-        "x": 9.9874,
-        "y": 4.0708
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.09912476721894516,
-          0.27016889431525387,
-          0.17742726901190176,
-          0.11208106062428966
-        ],
-        "focus": false,
-        "mask_line": [
-          51,
-          63,
-          101
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Disturbed Window",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.2552,
-        "w": 2.293,
-        "x": 10.1948,
-        "y": 6.4722
-      },
-      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          51,
-          63,
-          101
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 25,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Winter",
-        "theme_topic": "Disturbed Window",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Outrageous Fly Inform Rot",
+        "theme_topic": "Whistle Heartbreaking",
         "underline": false
       },
       "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 1.2153,
+        "w": 3.3287,
+        "x": 5.414,
+        "y": 5.5417
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          143,
+          194,
+          205
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "butter bad feigned limit receipt chilly maddening prickly great happy meaty",
+        "theme_topic": "Whistle Heartbreaking",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 6.2616,
+        "w": 4.134,
+        "x": 0.6678,
+        "y": 0.6554
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          82,
+          96,
+          214
+        ],
+        "line": [
+          91,
+          167,
+          181
+        ],
+        "line_width": 2.336793480157049,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Whistle Heartbreaking"
+      },
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.6229,
-        "w": 0.8779,
-        "x": 7.1543,
-        "y": 3.065
+        "h": 1.1386,
+        "w": 3.804,
+        "x": 0.8157,
+        "y": 1.7946
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          204,
-          77,
-          88
-        ],
-        "focus": false,
-        "line": [
-          90,
-          223,
-          230
-        ],
-        "line_width": 1.8675716150456294,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Disturbed Window"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.4007,
-        "w": 0.8421,
-        "x": 8.7121,
-        "y": 5.5342
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          84,
-          118,
-          101
-        ],
-        "focus": false,
-        "line": [
-          69,
-          193,
-          230
-        ],
-        "line_width": 6.066994559745466,
-        "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Disturbed Window"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.7704,
-        "w": 1.0885,
-        "x": 2.9802,
-        "y": 3.7397
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          110,
-          28,
-          174
-        ],
-        "focus": false,
-        "line": [
-          197,
-          173,
-          219
-        ],
-        "line_width": 3.5251856472052325,
-        "outline_only": false,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Disturbed Window"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.5654,
-        "w": 0.2534,
-        "x": 8.8237,
-        "y": 3.2783
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          133,
-          90,
-          166
-        ],
-        "focus": false,
-        "line": [
-          111,
-          221,
-          161
-        ],
-        "line_width": 1.2608087480279797,
-        "outline_only": true,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Disturbed Window"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.8655,
-        "w": 0.6524,
-        "x": 7.3382,
-        "y": 3.0837
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          165,
-          112,
-          211
+          246,
+          248,
+          252
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Disturbed Window",
-        "width": 0.7420993849845346
-      },
-      "type": "connector",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.3788,
-        "w": 0.609,
-        "x": 5.8474,
-        "y": 3.195
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          65,
-          177,
-          33
-        ],
-        "focus": false,
-        "line": [
-          58,
-          100,
-          51
-        ],
-        "line_width": 2.2510518432229687,
-        "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Disturbed Window"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.59,
-        "w": 2.0422,
-        "x": 1.1828,
-        "y": 5.8668
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          221,
-          62,
-          196
-        ],
-        "bold": false,
-        "color": [
-          141,
-          33,
-          153
-        ],
-        "font_face": "Verdana",
-        "font_size": 16,
+        "font_face": "Arial",
+        "font_size": 56,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "plot suspend jail nosy",
-        "theme_topic": "Disturbed Window",
+        "text": "11x",
+        "theme_topic": "Whistle Heartbreaking",
         "underline": false
       },
       "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.7209,
-        "w": 1.2426,
-        "x": 3.2116,
-        "y": 1.5996
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          150,
-          70,
-          191
-        ],
-        "focus": false,
-        "line": [
-          87,
-          200,
-          84
-        ],
-        "line_width": 6.2789346905455865,
-        "outline_only": true,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Disturbed Window"
-      },
-      "type": "shape",
-      "z_order": 16
+      "z_order": 9
     }
   ],
   "slide": {

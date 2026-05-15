@@ -8,89 +8,111 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 30,
       "archetype": "atomic_composition",
-      "fill": [
-        123,
-        35,
-        30
+      "colors": [
+        [
+          150,
+          94,
+          188
+        ],
+        [
+          255,
+          238,
+          103
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Coach Curvy"
+      "fill": [
+        126,
+        58,
+        173
+      ],
+      "focus": "top_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Cave"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 10,
+    "level": 10,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 10
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.0073,
-        "w": 4.2944,
-        "x": 2.3127,
-        "y": -0.7836
+        "h": 1.7179,
+        "w": 5.4005,
+        "x": 6.3108,
+        "y": -0.1104
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
+        "dash": 1,
+        "family": "ribbons",
         "fill": [
-          172,
-          81,
-          103
+          65,
+          63,
+          177
         ],
         "focus": false,
         "line": [
-          46,
-          182,
-          130
+          62,
+          41,
+          171
         ],
-        "line_width": 2.2881256397383387,
+        "line_width": 6.552978642524241,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Coach Curvy"
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Cave"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0912,
-        "w": 8.4809,
-        "x": 3.2885,
-        "y": 1.1598
+        "h": 2.3872,
+        "w": 4.142,
+        "x": 9.9536,
+        "y": -0.1466
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "symbols",
         "fill": [
-          174,
-          161,
-          141
+          99,
+          41,
+          128
         ],
         "focus": false,
         "line": [
-          218,
-          49,
-          89
+          195,
+          229,
+          115
         ],
-        "line_width": 5.772916416031342,
-        "outline_only": true,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Coach Curvy"
+        "line_width": 4.197911674467777,
+        "outline_only": false,
+        "ppt_type": 173,
+        "shape": "gear9",
+        "theme_topic": "Cave"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.8071,
-        "w": 3.2231,
-        "x": 9.395,
-        "y": 0.6289
+        "h": 1.2234,
+        "w": 8.4128,
+        "x": 0.5688,
+        "y": 0.3286
       },
       "id": "object_003",
       "properties": {
@@ -102,13 +124,13 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 21,
+        "font_face": "Georgia",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Axiomatic",
-        "theme_topic": "Coach Curvy",
+        "text": "Unruly Thank",
+        "theme_topic": "Cave",
         "underline": false
       },
       "type": "text",
@@ -116,130 +138,211 @@
     },
     {
       "bbox": {
-        "h": 2.98,
-        "w": 2.4949,
-        "x": 0.6329,
-        "y": 0.6318
+        "h": 1.1535,
+        "w": 2.5432,
+        "x": 10.077,
+        "y": 3.5784
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          150,
-          37,
-          82
-        ],
-        "line": [
-          144,
-          71,
-          66
-        ],
-        "line_width": 1.362515578810413,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Coach Curvy"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.759,
-        "w": 2.1334,
-        "x": 0.8487,
-        "y": 0.8111
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
-        ],
-        "font_face": "Arial",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "58",
-        "theme_topic": "Coach Curvy",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.9906,
-        "w": 2.1114,
-        "x": 0.8386,
-        "y": 1.5778
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          190,
-          152,
-          152
+          192,
+          162,
+          216
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "distribution female excuse willing plough",
-        "theme_topic": "Coach Curvy",
+        "text": "sticky hoc tiger station scare aunt cheat signal",
+        "theme_topic": "Cave",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 2.9641,
+        "w": 2.9467,
+        "x": 3.397,
+        "y": 1.8383
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          150,
+          94,
+          188
+        ],
+        "line": [
+          150,
+          94,
+          188
+        ],
+        "line_width": 0.9218949607560954,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Cave"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.4881,
+        "w": 2.4638,
+        "x": 3.6679,
+        "y": 2.1001
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "categories": [
+          "soft",
+          "needle",
+          "quill",
+          "flame"
+        ],
+        "chart": "column",
+        "focus": false,
+        "has_legend": true,
+        "has_title": false,
+        "ppt_type": 51,
+        "series": [
+          {
+            "color": [
+              103,
+              159,
+              42
+            ],
+            "name": "mass",
+            "values": [
+              32,
+              88,
+              94,
+              39
+            ]
+          },
+          {
+            "color": [
+              154,
+              196,
+              52
+            ],
+            "name": "ill-fated thoughtless",
+            "values": [
+              77,
+              64,
+              10,
+              54
+            ]
+          },
+          {
+            "color": [
+              57,
+              176,
+              108
+            ],
+            "name": "scarf march",
+            "values": [
+              47,
+              8,
+              12,
+              53
+            ]
+          }
+        ],
+        "theme_topic": "Cave",
+        "title": "protective regular quack futuristic depressed"
+      },
+      "type": "chart",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.9916,
-        "w": 1.6874,
-        "x": 3.2967,
-        "y": 0.6622
+        "h": 1.7938,
+        "w": 12.1157,
+        "x": 0.6016,
+        "y": 5.1721
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          115,
-          71,
-          91
+        "band": [
+          69,
+          55,
+          218
         ],
-        "line": [
-          144,
+        "band_cols": true,
+        "band_rows": true,
+        "body": [
+          49,
+          41,
+          159
+        ],
+        "border": [
+          186,
           71,
           66
         ],
-        "line_width": 1.8050634557035006,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Coach Curvy"
+        "border_dash": "solid",
+        "border_width": 2.46702578741124,
+        "cells": [
+          [
+            "request",
+            "mountain wriggle"
+          ],
+          [
+            "memory applaud",
+            "bite-sized notebook"
+          ],
+          [
+            "summer desire",
+            "happen ring"
+          ],
+          [
+            "nut",
+            "detect red"
+          ],
+          [
+            "cave dinner",
+            "far-flung"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 14,
+        "has_header": true,
+        "header": [
+          255,
+          238,
+          103
+        ],
+        "rows": 5,
+        "text_color": [
+          44,
+          27,
+          77
+        ],
+        "theme_topic": "Cave"
       },
-      "type": "shape",
+      "type": "table",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.7717,
-        "w": 1.3055,
-        "x": 3.5153,
-        "y": 0.8509
+        "h": 1.602,
+        "w": 2.7678,
+        "x": 6.7788,
+        "y": 2.0359
       },
       "id": "object_008",
       "properties": {
@@ -247,17 +350,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 26,
-        "italic": false,
+        "font_face": "Georgia",
+        "font_size": 22,
+        "italic": true,
         "kind": "header",
         "margin": 0.04,
-        "text": "90%",
-        "theme_topic": "Coach Curvy",
+        "text": "Dad Launch House Sand Serious Street Fasten Innate",
+        "theme_topic": "Cave",
         "underline": false
       },
       "type": "text",
@@ -265,414 +368,63 @@
     },
     {
       "bbox": {
-        "h": 1.9757,
-        "w": 1.3105,
-        "x": 3.4771,
-        "y": 1.551
+        "h": 2.977,
+        "w": 2.6408,
+        "x": 0.5427,
+        "y": 1.8444
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          190,
-          152,
-          152
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          150,
+          94,
+          188
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "obeisant agree pine cheese thoughtful secretive sail",
-        "theme_topic": "Coach Curvy",
-        "underline": false
+        "line": [
+          150,
+          94,
+          188
+        ],
+        "line_width": 3.137132203376861,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Cave"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 2.8902,
-        "w": 8.2026,
-        "x": 0.64,
-        "y": 3.992
+        "h": 1.152,
+        "w": 2.277,
+        "x": 0.7195,
+        "y": 2.4507
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          144,
-          71,
-          66
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          144,
-          71,
-          66
-        ],
-        "line_width": 0.7531037338177473,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Coach Curvy"
+        "font_face": "Georgia",
+        "font_size": 49,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "2x",
+        "theme_topic": "Cave",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 2.3982,
-        "w": 7.687,
-        "x": 0.9222,
-        "y": 4.2431
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "demonic",
-          "idea",
-          "puzzled",
-          "sound",
-          "afford"
-        ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              158,
-              31,
-              67
-            ],
-            "name": "whirl club",
-            "values": [
-              23,
-              50,
-              49,
-              40,
-              64
-            ]
-          },
-          {
-            "color": [
-              89,
-              192,
-              39
-            ],
-            "name": "snails",
-            "values": [
-              65,
-              40,
-              93,
-              36,
-              73
-            ]
-          },
-          {
-            "color": [
-              199,
-              218,
-              192
-            ],
-            "name": "face absorbed",
-            "values": [
-              26,
-              84,
-              11,
-              62,
-              45
-            ]
-          }
-        ],
-        "theme_topic": "Coach Curvy",
-        "title": "noisy cynical erratic skillful crazy"
-      },
-      "type": "chart",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 2.8944,
-        "w": 3.5428,
-        "x": 5.2573,
-        "y": 0.6982
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          37,
-          66,
-          28
-        ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          196,
-          45,
-          74
-        ],
-        "border": [
-          61,
-          177,
-          97
-        ],
-        "border_dash": "dash",
-        "border_width": 2.805535987081137,
-        "cells": [
-          [
-            "lyrical",
-            "smooth",
-            "subsequent pop",
-            "eatable allow",
-            "confuse",
-            "beneficial"
-          ],
-          [
-            "meek seashore",
-            "excite abundant",
-            "wiry zip",
-            "rifle reaction",
-            "fairies organic",
-            "trashy"
-          ],
-          [
-            "tug",
-            "entertain",
-            "curvy",
-            "spiffy launch",
-            "testy",
-            "wriggle grotesque"
-          ]
-        ],
-        "cols": 6,
-        "font_size": 15,
-        "has_header": true,
-        "header": [
-          160,
-          123,
-          43
-        ],
-        "rows": 3,
-        "text_color": [
-          140,
-          35,
-          113
-        ],
-        "theme_topic": "Coach Curvy"
-      },
-      "type": "table",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.5772,
-        "w": 0.8627,
-        "x": 9.388,
-        "y": 5.4311
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          244,
-          180,
-          76
-        ],
-        "line": [
-          190,
-          164,
-          183
-        ],
-        "line_width": 0.5368755038225194,
-        "pattern": "badge",
-        "points": [
-          [
-            0.5,
-            0.0
-          ],
-          [
-            0.62,
-            0.25
-          ],
-          [
-            0.92,
-            0.18
-          ],
-          [
-            0.75,
-            0.5
-          ],
-          [
-            0.98,
-            0.78
-          ],
-          [
-            0.62,
-            0.72
-          ],
-          [
-            0.5,
-            1.0
-          ],
-          [
-            0.38,
-            0.72
-          ],
-          [
-            0.02,
-            0.78
-          ],
-          [
-            0.25,
-            0.5
-          ],
-          [
-            0.08,
-            0.18
-          ],
-          [
-            0.38,
-            0.25
-          ]
-        ],
-        "theme_topic": "Coach Curvy"
-      },
-      "type": "freeform",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.4093,
-        "w": 1.2767,
-        "x": 6.2894,
-        "y": 6.8324
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          224,
-          200,
-          41
-        ],
-        "focus": false,
-        "line": [
-          69,
-          213,
-          133
-        ],
-        "line_width": 4.803586168445195,
-        "outline_only": true,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Coach Curvy"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.4394,
-        "w": 0.5644,
-        "x": 1.2698,
-        "y": 2.2723
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          100,
-          92,
-          227
-        ],
-        "focus": false,
-        "line": [
-          220,
-          208,
-          42
-        ],
-        "line_width": 5.040932006313549,
-        "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Coach Curvy"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 1.0658,
-        "w": 1.1942,
-        "x": 2.1321,
-        "y": 1.7372
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          175,
-          67,
-          117
-        ],
-        "line": [
-          96,
-          165,
-          250
-        ],
-        "line_width": 2.4334563666312032,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Coach Curvy"
-      },
-      "type": "freeform",
-      "z_order": 16
     }
   ],
   "slide": {

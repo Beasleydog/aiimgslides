@@ -8,100 +8,111 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
-      "back_color": [
-        77,
-        189,
-        96
+      "colors": [
+        [
+          195,
+          150,
+          101
+        ],
+        [
+          255,
+          117,
+          117
+        ]
       ],
       "fill": [
-        25,
-        30,
-        39
+        157,
+        137,
+        106
       ],
-      "fore_color": [
-        244,
-        180,
-        76
-      ],
-      "pattern": 9,
-      "style": "pattern",
-      "theme_topic": "Bake Bump"
+      "focus": "top_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Half Attraction"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 4,
+    "level": 4,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 4
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.9774,
-        "w": 7.9469,
-        "x": 0.9251,
-        "y": 0.9215
+        "h": 3.7248,
+        "w": 5.5918,
+        "x": 4.0198,
+        "y": 2.3169
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          62,
-          177,
-          168
+          181,
+          167,
+          62
         ],
         "focus": false,
         "line": [
-          220,
-          32,
-          144
+          135,
+          153,
+          226
         ],
-        "line_width": 5.428994617483645,
+        "line_width": 6.787377567969757,
         "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Bake Bump"
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Half Attraction"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.0875,
-        "w": 7.6927,
-        "x": 1.5477,
-        "y": 3.1112
+        "h": 2.761,
+        "w": 5.6525,
+        "x": 4.5189,
+        "y": 0.8647
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
+        "dash": 3,
+        "family": "arrows",
         "fill": [
-          84,
-          71,
-          64
+          176,
+          97,
+          74
         ],
         "focus": false,
         "line": [
-          154,
-          196,
-          171
+          118,
+          91,
+          156
         ],
-        "line_width": 7.570145216752945,
+        "line_width": 5.638726269388437,
         "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Bake Bump"
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Half Attraction"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.4859,
-        "w": 6.0292,
-        "x": 0.0056,
-        "y": -0.006
+        "h": 7.4894,
+        "w": 5.1395,
+        "x": 0.0028,
+        "y": -0.0162
       },
       "id": "object_003",
       "properties": {
@@ -109,567 +120,52 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          43,
-          51,
-          64
+          170,
+          153,
+          127
         ],
         "line": [
-          43,
-          51,
-          64
+          170,
+          153,
+          127
         ],
-        "line_width": 1.490544891961587,
+        "line_width": 4.238713937173913,
         "outline_only": false,
         "ppt_type": 1,
         "shape": "rect",
-        "theme_topic": "Bake Bump"
+        "theme_topic": "Half Attraction"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.7854,
-        "w": 3.1925,
-        "x": 9.3931,
-        "y": 0.6351
+        "h": 6.3783,
+        "w": 2.1887,
+        "x": 0.5731,
+        "y": 0.5778
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          247,
-          249
+        "crop": [
+          0.16579697392068546,
+          0.06600225166384449,
+          0.023813587486900167,
+          0.2770895823034194
         ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Empty Avoid Hoc",
-        "theme_topic": "Bake Bump",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 6.2671,
-        "w": 3.8526,
-        "x": 0.6352,
-        "y": 0.6423
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "grateful",
-          "eminent",
-          "scarf"
-        ],
-        "chart": "doughnut",
         "focus": true,
-        "has_legend": false,
-        "has_title": false,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              27,
-              46,
-              139
-            ],
-            "name": "activity",
-            "values": [
-              57,
-              37,
-              16
-            ]
-          }
-        ],
-        "theme_topic": "Bake Bump",
-        "title": "bridge tire selfish super"
-      },
-      "type": "chart",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.6263,
-        "w": 0.6119,
-        "x": 6.0521,
-        "y": 1.2566
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 3.7778665429904525,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Bake Bump"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.7092,
-        "w": 3.6977,
-        "x": 5.1065,
-        "y": 1.86
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          247,
-          249
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "man entertaining limit",
-        "theme_topic": "Bake Bump",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.6068,
-        "w": 0.6201,
-        "x": 6.5058,
-        "y": 3.6705
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 0.6856075503268315,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Bake Bump"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.6019,
-        "w": 3.6566,
-        "x": 5.1445,
-        "y": 3.9228
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          247,
-          249
-        ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "partner texture resolute basket wash seashore zebra",
-        "theme_topic": "Bake Bump",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.6005,
-        "w": 0.6193,
-        "x": 6.6313,
-        "y": 5.5204
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 5.352455549804495,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Bake Bump"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.7114,
-        "w": 3.6883,
-        "x": 5.1282,
-        "y": 6.059
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          247,
-          249
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "hope helpless mark nail",
-        "theme_topic": "Bake Bump",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 2.4076,
-        "w": 0.4503,
-        "x": 6.3742,
-        "y": 1.5836
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          177,
-          185,
-          196
-        ],
-        "connector": "curve",
-        "dash": 7,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Bake Bump",
-        "width": 0.9892864031067639
-      },
-      "type": "connector",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.8429,
-        "w": 0.1225,
-        "x": 6.8245,
-        "y": 3.9912
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          177,
-          185,
-          196
-        ],
-        "connector": "curve",
-        "dash": 5,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Bake Bump",
-        "width": 1.0055800415910872
-      },
-      "type": "connector",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.4043,
-        "w": 0.9281,
-        "x": 4.9604,
-        "y": 5.0469
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "swoop",
-        "primary": [
-          96,
-          165,
-          250
-        ],
-        "secondary": [
-          244,
-          180,
-          76
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#3b68da\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#5ccabb\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
-        "theme_topic": "Bake Bump"
-      },
-      "type": "svg",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.8876,
-        "w": 0.5203,
-        "x": 8.4477,
-        "y": 0.942
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          199,
-          121,
-          71
-        ],
-        "focus": false,
-        "line": [
-          110,
-          73,
-          59
-        ],
-        "line_width": 3.0227358587034487,
-        "outline_only": true,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Bake Bump"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.376,
-        "w": 0.2467,
-        "x": 2.6646,
-        "y": 2.197
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
-        "fill": [
-          193,
-          101,
-          201
-        ],
-        "focus": false,
-        "line": [
-          39,
-          193,
-          159
-        ],
-        "line_width": 5.307845874399701,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Bake Bump"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.7359,
-        "w": 0.7549,
-        "x": 1.579,
-        "y": 4.807
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          213,
-          168,
-          141
-        ],
-        "focus": false,
-        "line": [
-          63,
-          95,
-          56
-        ],
-        "line_width": 5.679466955544434,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Bake Bump"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.9211,
-        "w": 0.9625,
-        "x": 6.9056,
-        "y": 0.6757
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          55,
-          96,
-          193
-        ],
-        "focus": false,
-        "line": [
-          85,
-          84,
-          217
-        ],
-        "line_width": 5.345960310280567,
-        "outline_only": false,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Bake Bump"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.7117,
-        "w": 1.3486,
-        "x": 2.6289,
-        "y": 3.864
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          184,
-          167,
-          200
-        ],
-        "focus": false,
-        "line": [
-          70,
-          119,
-          213
-        ],
-        "line_width": 5.607123610485121,
-        "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Bake Bump"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 1.119,
-        "w": 1.0015,
-        "x": 4.4005,
-        "y": 0.1477
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          27,
-          80,
+        "mask_line": [
+          255,
+          198,
           74
         ],
-        "connector": "straight",
-        "dash": 4,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Bake Bump",
-        "width": 1.8917626663947398
+        "mask_overlay": true,
+        "theme_topic": "Half Attraction",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "connector",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.9477,
-        "w": 1.5474,
-        "x": 10.9397,
-        "y": 5.6106
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "focus": false,
-        "line": [
-          201,
-          174,
-          74
-        ],
-        "line_width": 1.9543441075165089,
-        "outline_only": true,
-        "ppt_type": 98,
-        "shape": "down_ribbon",
-        "theme_topic": "Bake Bump"
-      },
-      "type": "shape",
-      "z_order": 21
+      "type": "image",
+      "z_order": 4
     }
   ],
   "slide": {

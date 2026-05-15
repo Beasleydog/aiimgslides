@@ -8,197 +8,112 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        51,
-        135,
-        71
+      "colors": [
+        [
+          126,
+          58,
+          173
+        ],
+        [
+          180,
+          70,
+          53
+        ]
       ],
       "fill": [
-        33,
-        102,
-        120
+        126,
+        58,
+        173
       ],
-      "fore_color": [
-        168,
-        54,
-        94
-      ],
-      "pattern": 37,
-      "style": "pattern",
-      "theme_topic": "Rabbits"
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Naive"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 12,
+    "level": 12,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 12
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.3254,
-        "w": 5.1856,
-        "x": 5.2358,
-        "y": 0.0314
+        "h": 3.0077,
+        "w": 8.0786,
+        "x": -0.8803,
+        "y": 1.2721
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          102,
+          154,
           50,
-          89
+          191
         ],
         "focus": false,
         "line": [
-          163,
-          99,
-          169
+          183,
+          137,
+          150
         ],
-        "line_width": 7.966059760214728,
+        "line_width": 4.862033237784185,
         "outline_only": false,
-        "ppt_type": 23,
-        "shape": "sun",
-        "theme_topic": "Rabbits"
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Naive"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.1431,
-        "w": 6.9837,
-        "x": 1.1989,
-        "y": -0.4984
+        "h": 1.093,
+        "w": 13.3513,
+        "x": 0.0019,
+        "y": 0.0022
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 5,
+        "family": "panel",
         "fill": [
-          141,
-          126,
-          160
+          162,
+          113,
+          196
         ],
-        "focus": false,
         "line": [
-          40,
-          91,
-          81
+          162,
+          113,
+          196
         ],
-        "line_width": 4.217773021406678,
-        "outline_only": true,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Rabbits"
+        "line_width": 3.3252928113813014,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Naive"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.7915,
-        "w": 8.5384,
-        "x": 0.6882,
-        "y": 4.1061
+        "h": 5.5566,
+        "w": 2.8498,
+        "x": 0.6622,
+        "y": 0.764
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          83,
-          186,
-          68
-        ],
-        "focus": false,
-        "line": [
-          148,
-          30,
-          122
-        ],
-        "line_width": 6.986733224487444,
-        "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Rabbits"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 4.5001,
-        "w": 3.3328,
-        "x": 9.2238,
-        "y": 3.875
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
-        "fill": [
-          70,
-          120,
-          184
-        ],
-        "focus": false,
-        "line": [
-          120,
-          121,
-          119
-        ],
-        "line_width": 7.489834435895396,
-        "outline_only": true,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Rabbits"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.7727,
-        "w": 13.3495,
-        "x": -0.0177,
-        "y": 0.0118
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          91,
-          142,
-          155
-        ],
-        "line": [
-          91,
-          142,
-          155
-        ],
-        "line_width": 1.3524427963046104,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Rabbits"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.7957,
-        "w": 3.1794,
-        "x": 9.3874,
-        "y": 0.6707
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -208,13 +123,102 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 28,
+        "font_face": "Arial",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Soft Noise",
-        "theme_topic": "Rabbits",
+        "text": "Analyze Earthy",
+        "theme_topic": "Naive",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.5336,
+        "w": 1.6755,
+        "x": 9.2313,
+        "y": 3.6048
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "focus": false,
+        "mask_line": [
+          26,
+          85,
+          115
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Naive",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 2.4663,
+        "w": 2.656,
+        "x": 3.7577,
+        "y": 0.6674
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          162,
+          113,
+          196
+        ],
+        "line": [
+          162,
+          113,
+          196
+        ],
+        "line_width": 2.1730504953519625,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Naive"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.8244,
+        "w": 2.1235,
+        "x": 4.0184,
+        "y": 2.098
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          192,
+          162,
+          216
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ink super waggish boil giddy forgetful influence thunder beneficial opposite childlike governor care undress",
+        "theme_topic": "Naive",
         "underline": false
       },
       "type": "text",
@@ -222,39 +226,41 @@
     },
     {
       "bbox": {
-        "h": 1.6015,
-        "w": 3.5414,
-        "x": 5.1208,
-        "y": 4.1338
+        "h": 2.4602,
+        "w": 2.8318,
+        "x": 6.6187,
+        "y": 0.6434
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          162,
+          113,
+          196
         ],
-        "font_face": "Aptos Display",
-        "font_size": 23,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Sweater Dashing Efficient Cemetery Luxuriant Naive Groovy Wet Obeisant",
-        "theme_topic": "Rabbits",
-        "underline": false
+        "line": [
+          162,
+          113,
+          196
+        ],
+        "line_width": 1.1089946257536225,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Naive"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.4531,
-        "w": 1.9389,
-        "x": 5.1352,
-        "y": 6.01
+        "h": 0.4654,
+        "w": 2.337,
+        "x": 6.8765,
+        "y": 1.5425
       },
       "id": "object_008",
       "properties": {
@@ -262,17 +268,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          32,
-          119,
-          149
+          38,
+          132,
+          88
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "VEST",
-        "theme_topic": "Rabbits",
+        "text": "Flap Destroy",
+        "theme_topic": "Naive",
         "underline": false
       },
       "type": "text",
@@ -280,28 +286,28 @@
     },
     {
       "bbox": {
-        "h": 1.037,
-        "w": 3.6078,
-        "x": 0.7816,
-        "y": 0.7864
+        "h": 0.8129,
+        "w": 2.3675,
+        "x": 6.8617,
+        "y": 2.1161
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          66,
-          204,
-          34
+          192,
+          162,
+          216
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Thrill Dam Large",
-        "theme_topic": "Rabbits",
+        "text": "partner bikes used wilderness illegal exotic seashore current zippy bump",
+        "theme_topic": "Naive",
         "underline": false
       },
       "type": "text",
@@ -309,57 +315,59 @@
     },
     {
       "bbox": {
-        "h": 1.4279,
-        "w": 3.6391,
-        "x": 0.7885,
-        "y": 2.0647
+        "h": 2.4545,
+        "w": 3.0652,
+        "x": 9.684,
+        "y": 0.6561
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          150,
-          182,
-          192
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          162,
+          113,
+          196
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "merciful moon jealous measly afraid act sad eye ill-fated help unsuitable interesting squealing helpless majestic enthusiastic unwieldy nerve queue lamentable cautious lucky",
-        "theme_topic": "Rabbits",
-        "underline": false
+        "line": [
+          162,
+          113,
+          196
+        ],
+        "line_width": 4.117788670197646,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Naive"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5769,
-        "w": 1.3049,
-        "x": 7.6417,
-        "y": 5.1066
+        "h": 0.4378,
+        "w": 2.5516,
+        "x": 9.9034,
+        "y": 1.5635
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          76,
-          123,
-          126
+          38,
+          132,
+          88
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 12,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "back",
-        "theme_topic": "Rabbits",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Gun",
+        "theme_topic": "Naive",
         "underline": false
       },
       "type": "text",
@@ -367,220 +375,32 @@
     },
     {
       "bbox": {
-        "h": 0.8483,
-        "w": 1.1579,
-        "x": 6.2761,
-        "y": 2.9427
+        "h": 0.8017,
+        "w": 2.5358,
+        "x": 9.9316,
+        "y": 2.1073
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          144,
-          154,
-          75
+          192,
+          162,
+          216
         ],
-        "connector": "elbow",
-        "dash": 7,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Rabbits",
-        "width": 1.7270779055297352
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "toes paddle clip powder detailed fetch door intelligent test",
+        "theme_topic": "Naive",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.3081,
-        "w": 0.8296,
-        "x": 4.7958,
-        "y": 2.2752
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          77,
-          178,
-          204
-        ],
-        "focus": false,
-        "line": [
-          38,
-          135,
-          226
-        ],
-        "line_width": 5.43768102165616,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Rabbits"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 1.3389,
-        "x": 10.0861,
-        "y": 3.8703
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          216,
-          188,
-          45
-        ],
-        "focus": false,
-        "line": [
-          227,
-          80,
-          159
-        ],
-        "line_width": 1.9033577976332037,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Rabbits"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.2832,
-        "w": 0.2637,
-        "x": 10.0091,
-        "y": 4.1306
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
-        "fill": [
-          167,
-          64,
-          123
-        ],
-        "focus": false,
-        "line": [
-          82,
-          88,
-          122
-        ],
-        "line_width": 0.5936030290192351,
-        "outline_only": true,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Rabbits"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.2951,
-        "w": 0.3054,
-        "x": 5.5903,
-        "y": 6.5523
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          198,
-          152,
-          137
-        ],
-        "focus": false,
-        "line": [
-          211,
-          91,
-          55
-        ],
-        "line_width": 4.59953927311462,
-        "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Rabbits"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.6241,
-        "w": 0.8453,
-        "x": 5.3291,
-        "y": 3.7797
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          128,
-          104,
-          115
-        ],
-        "focus": false,
-        "line": [
-          35,
-          131,
-          212
-        ],
-        "line_width": 3.697168932576294,
-        "outline_only": true,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Rabbits"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.7362,
-        "w": 1.2111,
-        "x": 8.7206,
-        "y": 4.5561
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
-        "fill": [
-          130,
-          104,
-          85
-        ],
-        "focus": false,
-        "line": [
-          94,
-          136,
-          194
-        ],
-        "line_width": 2.517613719298126,
-        "outline_only": true,
-        "ppt_type": 165,
-        "shape": "multiply",
-        "theme_topic": "Rabbits"
-      },
-      "type": "shape",
-      "z_order": 18
     }
   ],
   "slide": {

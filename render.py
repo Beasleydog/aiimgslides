@@ -60,10 +60,11 @@ def add_background_to_pptx(slide, el, image_path):
         for idx, stop in enumerate(shape.fill.gradient_stops):
             stop.color.rgb = ppt_color(colors[min(idx, len(colors) - 1)])
     elif style == "pattern":
-        shape.fill.patterned()
-        shape.fill.pattern = el.data["pattern"]
-        shape.fill.fore_color.rgb = ppt_color(el.data["fore_color"])
-        shape.fill.back_color.rgb = ppt_color(el.data["back_color"])
+        # Native pattern fills written by python-pptx can produce PPTX files
+        # desktop PowerPoint refuses to open. Use the pattern background color
+        # for the PPTX export path and keep pattern metadata in JSON/PNG.
+        shape.fill.solid()
+        shape.fill.fore_color.rgb = ppt_color(el.data["back_color"])
     else:
         shape.fill.solid()
         shape.fill.fore_color.rgb = ppt_color(el.data["fill"])

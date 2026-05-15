@@ -8,40 +8,47 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 180,
+      "angle": 60,
       "archetype": "atomic_composition",
       "colors": [
         [
-          42,
-          142,
-          89
+          136,
+          103,
+          157
         ],
         [
-          255,
-          117,
-          117
+          64,
+          130,
+          109
         ]
       ],
       "fill": [
-        61,
-        64,
-        91
+        90,
+        44,
+        120
       ],
       "focus": "top_left",
-      "gradient_type": "radial",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Savory Beef"
+      "theme_topic": "Wind"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 16,
+    "level": 16,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 16
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.4627,
-        "w": 6.3832,
-        "x": 1.4497,
-        "y": -0.7975
+        "h": 4.6704,
+        "w": 6.0766,
+        "x": 4.848,
+        "y": 1.6697
       },
       "id": "object_001",
       "properties": {
@@ -49,129 +56,97 @@
         "dash": 1,
         "family": "arrows",
         "fill": [
-          71,
-          55,
-          117
+          118,
+          197,
+          48
         ],
         "focus": false,
         "line": [
-          38,
-          220,
-          123
+          209,
+          100,
+          94
         ],
-        "line_width": 5.769473674732364,
+        "line_width": 2.357485119800373,
         "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Savory Beef"
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Wind"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.675,
-        "w": 6.8878,
-        "x": 1.267,
-        "y": 3.3331
+        "h": 4.0429,
+        "w": 4.1253,
+        "x": 0.4272,
+        "y": 4.3674
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          67,
-          107,
-          136
+          163,
+          176,
+          143
         ],
         "focus": false,
         "line": [
-          33,
-          213,
-          205
+          77,
+          133,
+          38
         ],
-        "line_width": 2.9803099230431465,
-        "outline_only": true,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Savory Beef"
+        "line_width": 2.4176676678814504,
+        "outline_only": false,
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Wind"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.3739,
-        "w": 8.3712,
-        "x": 0.638,
-        "y": 4.6623
+        "h": 3.0498,
+        "w": 5.3226,
+        "x": 0.9768,
+        "y": 1.7193
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "stars",
         "fill": [
-          69,
-          171,
-          77
+          126,
+          81,
+          206
         ],
         "focus": false,
         "line": [
-          167,
-          185,
-          158
+          148,
+          70,
+          225
         ],
-        "line_width": 4.487094340518963,
+        "line_width": 4.649455626268896,
         "outline_only": false,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Savory Beef"
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Wind"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.401,
-        "w": 6.8739,
-        "x": 3.1055,
-        "y": 2.7187
+        "h": 1.2014,
+        "w": 5.9897,
+        "x": 0.5405,
+        "y": 0.3482
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          120,
-          108,
-          100
-        ],
-        "focus": false,
-        "line": [
-          88,
-          86,
-          66
-        ],
-        "line_width": 2.254163380356018,
-        "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Savory Beef"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.1621,
-        "w": 7.8557,
-        "x": 0.5652,
-        "y": 0.3744
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -181,13 +156,42 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
+        "font_face": "Georgia",
+        "font_size": 42,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Fearful Person Scatter",
-        "theme_topic": "Savory Beef",
+        "text": "Paint Health Taboo",
+        "theme_topic": "Wind",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.3639,
+        "w": 2.1198,
+        "x": 0.6081,
+        "y": 2.4528
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "bow curvy offbeat side bleach",
+        "theme_topic": "Wind",
         "underline": false
       },
       "type": "text",
@@ -195,39 +199,39 @@
     },
     {
       "bbox": {
-        "h": 1.0427,
-        "w": 1.9223,
-        "x": 10.7244,
-        "y": 1.9905
+        "h": 0.2977,
+        "w": 2.089,
+        "x": 0.6101,
+        "y": 3.554
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          152,
-          34,
-          30
+          246,
+          248,
+          252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 26,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Land",
-        "theme_topic": "Savory Beef",
-        "underline": true
+        "text": "humdrum lame afternoon fairies",
+        "theme_topic": "Wind",
+        "underline": false
       },
       "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 3.6063,
-        "w": 1.8882,
-        "x": 10.7438,
-        "y": 3.2649
+        "h": 0.3333,
+        "w": 2.1119,
+        "x": 0.6011,
+        "y": 4.6769
       },
       "id": "object_007",
       "properties": {
@@ -235,17 +239,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          162,
-          165,
-          179
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "attach slave slippery lip wealth grease unpack fix",
-        "theme_topic": "Savory Beef",
+        "text": "end property vigorous amusing weigh vest",
+        "theme_topic": "Wind",
         "underline": false
       },
       "type": "text",
@@ -253,28 +257,28 @@
     },
     {
       "bbox": {
-        "h": 1.536,
-        "w": 6.4719,
-        "x": 3.4385,
-        "y": 2.9706
+        "h": 0.259,
+        "w": 2.1247,
+        "x": 0.5751,
+        "y": 5.7073
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
           246,
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 31,
+        "font_face": "Aptos",
+        "font_size": 7,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Kill Godly Ear Reaction Position",
-        "theme_topic": "Savory Beef",
+        "text": "disarm extend short rainstorm seemly amount",
+        "theme_topic": "Wind",
         "underline": false
       },
       "type": "text",
@@ -282,28 +286,28 @@
     },
     {
       "bbox": {
-        "h": 0.4263,
-        "w": 3.5327,
-        "x": 3.4584,
-        "y": 4.773
+        "h": 0.2479,
+        "w": 2.0809,
+        "x": 0.5783,
+        "y": 6.6764
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          198,
-          74
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "DETAIL SHELTER",
-        "theme_topic": "Savory Beef",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "calculator actor intend righteous",
+        "theme_topic": "Wind",
         "underline": false
       },
       "type": "text",
@@ -311,264 +315,223 @@
     },
     {
       "bbox": {
-        "h": 0.3434,
-        "w": 6.5561,
-        "x": 3.4029,
-        "y": 5.995
+        "h": 2.8777,
+        "w": 6.8206,
+        "x": 3.2592,
+        "y": 2.7551
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "categories": [
+          "decorate",
+          "soggy",
+          "work"
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 18,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Kittens",
-        "theme_topic": "Savory Beef",
-        "underline": false
+        "chart": "pie",
+        "focus": true,
+        "has_legend": false,
+        "has_title": true,
+        "ppt_type": 5,
+        "series": [
+          {
+            "color": [
+              110,
+              26,
+              45
+            ],
+            "name": "chunky",
+            "values": [
+              15,
+              28,
+              32
+            ]
+          }
+        ],
+        "theme_topic": "Wind",
+        "title": "axiomatic skip overflow"
       },
-      "type": "text",
+      "type": "chart",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.3025,
-        "w": 6.5492,
-        "x": 3.4099,
-        "y": 6.5987
+        "h": 5.158,
+        "w": 2.2137,
+        "x": 10.5903,
+        "y": 1.8339
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          162,
-          165,
-          179
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          136,
+          103,
+          157
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "educate long range letters dad two auspicious violent last consist chief petite taste ceaseless blue-eyed pretty flavor childlike object",
-        "theme_topic": "Savory Beef",
-        "underline": false
+        "line": [
+          136,
+          103,
+          157
+        ],
+        "line_width": 0.6574060064753287,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Wind"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.2218,
-        "w": 1.6188,
-        "x": 0.6211,
-        "y": 0.2585
+        "h": 4.8339,
+        "w": 1.8972,
+        "x": 10.7284,
+        "y": 1.995
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          171,
-          152,
-          61
+        "crop": [
+          0.2479485220582232,
+          0.32095274939556373,
+          0.22167048876539916,
+          0.06724079275433753
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Savory Beef",
-        "width": 2.6715529508834623
+        "focus": true,
+        "mask_line": [
+          210,
+          101,
+          177
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Wind",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "connector",
+      "type": "image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.8002,
-        "w": 2.1919,
-        "x": 7.3086,
-        "y": 3.6905
+        "h": 1.1043,
+        "w": 6.8242,
+        "x": 3.2557,
+        "y": 5.8833
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          68,
-          134,
-          174
+        "crop": [
+          0.045987632876382495,
+          0.09761997387498919,
+          0.1423921024738167,
+          0.13469645465350738
         ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Savory Beef",
-        "width": 0.5606236837897557
+        "focus": false,
+        "mask_line": [
+          174,
+          73,
+          92
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Wind",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "connector",
+      "type": "image",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.5538,
-        "w": 1.2792,
-        "x": 1.2796,
-        "y": 0.4704
+        "h": 0.7278,
+        "w": 1.0384,
+        "x": 4.4201,
+        "y": 6.0533
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          121,
-          126,
-          87
+        "dash": 7,
+        "family": "flowchart",
+        "fill": [
+          67,
+          46,
+          165
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "trade young wretched secretive",
-        "theme_topic": "Savory Beef",
-        "underline": true
+        "focus": false,
+        "line": [
+          29,
+          25,
+          129
+        ],
+        "line_width": 4.634173301573213,
+        "outline_only": false,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Wind"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.3253,
-        "w": 0.6909,
-        "x": 0.438,
-        "y": 3.4651
+        "h": 0.3226,
+        "w": 2.2313,
+        "x": 8.8764,
+        "y": 4.351
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          255,
-          198,
-          74
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          46,
+          172,
+          214
         ],
-        "secondary": [
-          118,
-          174,
-          205
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#3e8347\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#e5afa1\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#3e8347\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Savory Beef"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Cross Smash",
+        "theme_topic": "Wind",
+        "underline": true
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 1.0888,
-        "w": 1.5405,
-        "x": 0.3102,
-        "y": 0.7406
+        "h": 0.3671,
+        "w": 2.3271,
+        "x": 0.388,
+        "y": 0.2499
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          119,
-          25,
-          220
-        ],
-        "focus": false,
-        "line": [
-          133,
-          68,
-          176
-        ],
-        "line_width": 2.0206443059350176,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Savory Beef"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 0.6998,
-        "x": 1.1759,
-        "y": 3.9394
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          183,
-          137,
-          153
-        ],
-        "focus": false,
-        "line": [
-          158,
-          80,
-          187
-        ],
-        "line_width": 2.0782726551106894,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Savory Beef"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.6141,
-        "w": 1.5072,
-        "x": 0.4336,
-        "y": 1.9438
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          76,
-          48,
-          213
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          161,
-          203,
-          145
+          65,
+          79,
+          31
         ],
-        "font_face": "Verdana",
-        "font_size": 16,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "spell",
-        "theme_topic": "Savory Beef",
+        "text": "greedy clam cuddly foot itchy",
+        "theme_topic": "Wind",
         "underline": false
       },
       "type": "text",
-      "z_order": 18
+      "z_order": 16
     }
   ],
   "slide": {

@@ -8,40 +8,32 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 30,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          122,
-          144,
-          59
-        ],
-        [
-          51,
-          55,
-          188
-        ]
-      ],
       "fill": [
-        41,
-        28,
-        147
+        240,
+        176,
+        54
       ],
-      "focus": "bottom_left",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Rely"
+      "style": "solid",
+      "theme_topic": "Ship"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 15,
+    "level": 15,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 15
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.2987,
-        "w": 3.0132,
-        "x": 6.891,
-        "y": 2.8526
+        "h": 3.257,
+        "w": 5.0318,
+        "x": 5.1857,
+        "y": 5.0826
       },
       "id": "object_001",
       "properties": {
@@ -49,144 +41,144 @@
         "dash": 1,
         "family": "arrows",
         "fill": [
-          135,
-          145,
-          87
+          153,
+          180,
+          152
         ],
         "focus": false,
         "line": [
-          206,
-          77,
-          105
+          193,
+          162,
+          149
         ],
-        "line_width": 2.176782553026764,
+        "line_width": 3.870796111762865,
         "outline_only": false,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Rely"
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Ship"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 3.7376,
-        "x": 10.0573,
-        "y": 3.0552
+        "h": 3.2632,
+        "w": 7.1232,
+        "x": 7.3854,
+        "y": 3.2186
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          38,
-          132,
-          88
+          170,
+          155,
+          94
         ],
+        "focus": false,
         "line": [
-          114,
-          105,
-          183
+          153,
+          183,
+          32
         ],
-        "line_width": 2.1740115695468525,
+        "line_width": 7.315160597363882,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Rely"
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Ship"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.0362,
-        "w": 0.2,
-        "x": 6.2631,
-        "y": 0.7925
+        "h": 2.7861,
+        "w": 7.7159,
+        "x": -0.0762,
+        "y": 3.0303
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "arrows",
         "fill": [
-          38,
-          132,
-          88
+          80,
+          136,
+          199
         ],
+        "focus": false,
         "line": [
-          114,
-          105,
-          183
+          49,
+          88,
+          149
         ],
-        "line_width": 1.1818192588778287,
+        "line_width": 3.231390973557577,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Rely"
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Ship"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5745,
-        "w": 2.8364,
-        "x": 0.6694,
-        "y": 0.7522
+        "h": 4.0111,
+        "w": 8.8278,
+        "x": 0.5698,
+        "y": 1.5945
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          245,
+          193,
+          78
+        ],
+        "line": [
+          249,
+          203,
+          91
+        ],
+        "line_width": 2.0949450794181046,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ship"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 5.5625,
+        "w": 2.8688,
+        "x": 0.6506,
+        "y": 0.7665
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          40,
+          38,
+          28
         ],
         "font_face": "Georgia",
-        "font_size": 25,
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Please Invincible Divide",
-        "theme_topic": "Rely",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.6713,
-        "w": 1.489,
-        "x": 8.5904,
-        "y": 4.3437
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          54,
-          220,
-          31
-        ],
-        "bold": true,
-        "color": [
-          62,
-          143,
-          211
-        ],
-        "font_face": "Georgia",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Playground",
-        "theme_topic": "Rely",
+        "text": "Settle Ambitious Steel",
+        "theme_topic": "Ship",
         "underline": false
       },
       "type": "text",
@@ -194,28 +186,28 @@
     },
     {
       "bbox": {
-        "h": 0.873,
-        "w": 1.5197,
-        "x": 8.6059,
-        "y": 5.278
+        "h": 1.0164,
+        "w": 2.4413,
+        "x": 3.9187,
+        "y": 0.7703
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          153,
-          149,
-          204
+          40,
+          38,
+          28
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "handle position board scratch scorch behavior gather raspy understood first event blot tiresome unarmed bead roof nasty holiday fix dazzling",
-        "theme_topic": "Rely",
+        "text": "Station Prose Shiny",
+        "theme_topic": "Ship",
         "underline": false
       },
       "type": "text",
@@ -223,28 +215,28 @@
     },
     {
       "bbox": {
-        "h": 0.2613,
-        "w": 2.1121,
-        "x": 4.031,
-        "y": 2.3674
+        "h": 1.4469,
+        "w": 2.4724,
+        "x": 3.8849,
+        "y": 2.0488
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          38,
-          132,
-          88
+          94,
+          82,
+          58
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 13,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "TEARFUL EXERCISE",
-        "theme_topic": "Rely",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "acidic spoil squash exist excuse abortive icky borrow adjustment oil graceful breezy zinc idea thoughtful form funny imaginary volatile",
+        "theme_topic": "Ship",
         "underline": false
       },
       "type": "text",
@@ -252,57 +244,59 @@
     },
     {
       "bbox": {
-        "h": 0.3952,
-        "w": 2.0914,
-        "x": 4.0204,
-        "y": 2.8452
+        "h": 2.9485,
+        "w": 2.773,
+        "x": 9.9814,
+        "y": 3.9435
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          249,
+          203,
+          91
         ],
-        "font_face": "Georgia",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Pumped Flowery",
-        "theme_topic": "Rely",
-        "underline": false
+        "line": [
+          249,
+          203,
+          91
+        ],
+        "line_width": 0.9200488089961935,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ship"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.3741,
-        "w": 2.072,
-        "x": 4.0135,
-        "y": 3.4773
+        "h": 1.1744,
+        "w": 2.3727,
+        "x": 10.137,
+        "y": 4.5354
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          153,
-          149,
-          204
+          240,
+          176,
+          54
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Georgia",
+        "font_size": 46,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "rush toothsome jeans camp year abaft melt scattered debt apparel lyrical grate reign railway",
-        "theme_topic": "Rely",
+        "text": "807",
+        "theme_topic": "Ship",
         "underline": false
       },
       "type": "text",
@@ -310,184 +304,146 @@
     },
     {
       "bbox": {
-        "h": 0.8847,
-        "w": 1.3802,
-        "x": 1.872,
-        "y": 4.4174
+        "h": 0.6974,
+        "w": 2.3852,
+        "x": 10.1458,
+        "y": 5.7496
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          180,
-          70,
-          53
-        ],
-        "line": [
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          40,
           38,
-          132,
-          88
+          28
         ],
-        "line_width": 0.714818893522948,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Rely"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "damp mate realize vanish dad shiver design punishment measure",
+        "theme_topic": "Ship",
+        "underline": false
       },
-      "type": "freeform",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.2712,
-        "x": 10.6203,
-        "y": 7.0908
+        "h": 2.9329,
+        "w": 2.7465,
+        "x": 3.7265,
+        "y": 3.9567
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
-        "fill": [
-          137,
-          91,
-          47
+        "crop": [
+          0.12391944332733154,
+          0.2252830345777501,
+          0.11199299208454824,
+          0.11719679921361675
         ],
-        "focus": false,
-        "line": [
-          162,
-          52,
-          221
+        "focus": true,
+        "mask_line": [
+          147,
+          218,
+          224
         ],
-        "line_width": 2.1877617195033237,
-        "outline_only": false,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Rely"
+        "mask_overlay": false,
+        "theme_topic": "Ship",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4742,
-        "w": 0.5384,
-        "x": 9.2207,
-        "y": 2.8397
+        "h": 2.9621,
+        "w": 2.7652,
+        "x": 6.8443,
+        "y": 0.6387
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          162,
-          31,
-          106
+          249,
+          203,
+          91
         ],
-        "focus": false,
         "line": [
-          157,
-          90,
-          215
+          249,
+          203,
+          91
         ],
-        "line_width": 1.1667109555432615,
+        "line_width": 5.383765552227537,
         "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Rely"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ship"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.664,
-        "w": 1.2797,
-        "x": 1.0708,
-        "y": 1.8836
+        "h": 1.1276,
+        "w": 2.4168,
+        "x": 7.0588,
+        "y": 1.2626
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "ribbon_path",
-        "primary": [
-          44,
-          188,
-          193
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          240,
+          176,
+          54
         ],
-        "secondary": [
-          102,
-          164,
-          99
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#8fc457\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#a1c0dc\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
-        "theme_topic": "Rely"
+        "font_face": "Georgia",
+        "font_size": 49,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "2x",
+        "theme_topic": "Ship",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.4924,
-        "x": 8.7481,
-        "y": 2.5566
+        "h": 0.6924,
+        "w": 2.4073,
+        "x": 7.0665,
+        "y": 2.4427
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          217,
-          72,
-          57
-        ],
-        "bold": true,
+        "bg_color": null,
+        "bold": false,
         "color": [
-          142,
-          151,
-          82
+          40,
+          38,
+          28
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Bushes Faded",
-        "theme_topic": "Rely",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "plant lively muddle abrasive muddled blue-eyed hill",
+        "theme_topic": "Ship",
         "underline": false
       },
       "type": "text",
@@ -495,92 +451,26 @@
     },
     {
       "bbox": {
-        "h": 1.0007,
-        "w": 0.306,
-        "x": 2.0127,
-        "y": 5.8884
+        "h": 2.9302,
+        "w": 2.7354,
+        "x": 9.9529,
+        "y": 0.6659
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          153,
-          83,
-          195
-        ],
-        "focus": false,
+        "clip": "arch",
+        "focus": true,
         "line": [
-          58,
-          97,
-          119
+          187,
+          124,
+          48
         ],
-        "line_width": 2.309308958607252,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Rely"
+        "line_width": 12,
+        "theme_topic": "Ship"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 1.1229,
-        "w": 2.1154,
-        "x": 6.2247,
-        "y": 2.0084
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          175,
-          178,
-          201
-        ],
-        "connector": "curve",
-        "dash": 4,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Rely",
-        "width": 1.17596654173933
-      },
-      "type": "connector",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.9648,
-        "w": 1.3185,
-        "x": 4.9121,
-        "y": 6.3772
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "stars",
-        "fill": [
-          96,
-          37,
-          156
-        ],
-        "focus": false,
-        "line": [
-          76,
-          197,
-          217
-        ],
-        "line_width": 3.5338564452084507,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Rely"
-      },
-      "type": "shape",
-      "z_order": 17
     }
   ],
   "slide": {

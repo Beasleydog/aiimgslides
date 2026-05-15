@@ -10,164 +10,138 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        198,
-        64,
-        91
+        31,
+        116,
+        41
       ],
       "fill": [
-        198,
-        64,
-        91
+        51,
+        229,
+        55
       ],
       "fore_color": [
-        142,
-        97,
-        200
+        255,
+        198,
+        74
       ],
-      "pattern": 49,
+      "pattern": 22,
       "style": "pattern",
-      "theme_topic": "Move"
+      "theme_topic": "Spiteful"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 20,
+    "level": 20,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 20
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.5731,
-        "w": 6.5358,
-        "x": 3.2239,
-        "y": 3.0441
+        "h": 5.0486,
+        "w": 4.5747,
+        "x": 0.9866,
+        "y": 1.722
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "ribbons",
+        "family": "arrows",
         "fill": [
-          132,
+          79,
           117,
-          201
+          116
         ],
         "focus": false,
         "line": [
-          91,
-          201,
-          28
+          121,
+          155,
+          220
         ],
-        "line_width": 6.545643614713439,
+        "line_width": 3.762297740125182,
         "outline_only": false,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Move"
+        "ppt_type": 53,
+        "shape": "right_arrow_callout",
+        "theme_topic": "Spiteful"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.5204,
-        "w": 7.9923,
-        "x": 0.9395,
-        "y": -0.1529
+        "h": 4.7206,
+        "w": 4.1312,
+        "x": 7.5019,
+        "y": 1.0235
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "ribbons",
         "fill": [
-          198,
-          135,
-          57
+          51,
+          156,
+          75
         ],
         "focus": false,
         "line": [
-          119,
-          176,
-          142
+          151,
+          96,
+          67
         ],
-        "line_width": 6.684664093999699,
+        "line_width": 5.01162954234046,
         "outline_only": false,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Move"
+        "ppt_type": 97,
+        "shape": "up_ribbon",
+        "theme_topic": "Spiteful"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.0015,
-        "w": 6.1878,
-        "x": -0.1062,
-        "y": 6.2517
+        "h": 0.8806,
+        "w": 13.3215,
+        "x": -0.0155,
+        "y": 0.0068
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          173,
-          95,
-          109
+          115,
+          237,
+          118
         ],
-        "focus": false,
         "line": [
-          89,
-          31,
-          217
+          115,
+          237,
+          118
         ],
-        "line_width": 4.367243090008942,
+        "line_width": 2.4784706878092093,
         "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Move"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Spiteful"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.9523,
-        "w": 4.2608,
-        "x": 0.7017,
-        "y": 3.9624
+        "h": 0.9036,
+        "w": 6.9106,
+        "x": 0.7256,
+        "y": 5.8609
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          167,
-          111,
-          109
-        ],
-        "focus": false,
-        "line": [
-          216,
-          67,
-          39
-        ],
-        "line_width": 7.670531250337643,
-        "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Move"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.8966,
-        "w": 4.3042,
-        "x": 0.773,
-        "y": 0.6908
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -177,73 +151,102 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
+        "font_face": "Arial",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Dime Sleepy Peel",
-        "theme_topic": "Move",
+        "text": "Attend Page",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 2.3783,
+        "w": 12.2202,
+        "x": 0.5662,
+        "y": 0.5616
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          255,
+          198,
+          74
+        ],
+        "line": [
+          115,
+          237,
+          118
+        ],
+        "line_width": 0.4870378212316659,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Spiteful"
+      },
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 2.768,
-        "w": 3.328,
-        "x": 2.3313,
-        "y": 1.6953
+        "h": 0.8943,
+        "w": 11.8789,
+        "x": 0.7153,
+        "y": 1.0301
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          207,
-          95,
-          118
-        ],
-        "line": [
-          207,
-          95,
-          118
-        ],
-        "line_width": 2.198473383853663,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Move"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.4683,
-        "w": 2.8179,
-        "x": 2.6073,
-        "y": 2.6178
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 49,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Gun",
-        "theme_topic": "Move",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "457",
+        "theme_topic": "Spiteful",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.5421,
+        "w": 11.8557,
+        "x": 0.7259,
+        "y": 1.9922
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "person satisfy count crook",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
@@ -251,120 +254,113 @@
     },
     {
       "bbox": {
-        "h": 1.1158,
-        "w": 2.8649,
-        "x": 2.5835,
-        "y": 3.1564
+        "h": 2.2385,
+        "w": 3.9373,
+        "x": 0.5545,
+        "y": 3.26
       },
       "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "pattern": "ribbon_path",
+        "primary": [
+          179,
+          106,
+          94
+        ],
+        "secondary": [
+          255,
+          117,
+          117
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#48b8ad\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#36c18f\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
+        "theme_topic": "Spiteful"
+      },
+      "type": "svg",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 1.2463,
+        "w": 0.4702,
+        "x": 9.9635,
+        "y": 4.1961
+      },
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          158,
+          239,
+          163
         ],
-        "font_face": "Verdana",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "effect unpack shivering rings callous squeamish rich earsplitting calculating chunky funny mountainous ancient spill trap",
-        "theme_topic": "Move",
+        "text": "zoo volatile unusual attractive",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 2.7622,
-        "w": 3.1169,
-        "x": 5.9253,
-        "y": 1.7231
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          207,
-          95,
-          118
-        ],
-        "line": [
-          207,
-          95,
-          118
-        ],
-        "line_width": 1.016745900715054,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Move"
-      },
-      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.5811,
-        "w": 0.5162,
-        "x": 6.1388,
-        "y": 1.9055
+        "h": 0.7299,
+        "w": 0.4014,
+        "x": 10.9374,
+        "y": 3.4551
       },
       "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "symbols",
-        "fill": [
-          110,
-          100,
-          89
-        ],
-        "focus": false,
-        "line": [
-          174,
-          73,
-          92
-        ],
-        "line_width": 1.642476491981118,
-        "outline_only": false,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Move"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.4383,
-        "w": 2.5986,
-        "x": 6.1309,
-        "y": 2.6165
-      },
-      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          255,
+          198,
+          74
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 19,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Friend",
-        "theme_topic": "Move",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "45%",
+        "theme_topic": "Spiteful",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 1.2357,
+        "w": 0.4291,
+        "x": 10.9164,
+        "y": 4.2082
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          158,
+          239,
+          163
+        ],
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "paint turn appear",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
@@ -372,28 +368,28 @@
     },
     {
       "bbox": {
-        "h": 1.1294,
-        "w": 2.5973,
-        "x": 6.1472,
-        "y": 3.1532
+        "h": 0.774,
+        "w": 0.7171,
+        "x": 11.8936,
+        "y": 3.4638
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          224,
-          165,
-          179
+          255,
+          198,
+          74
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 23,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "basket black-and-white boy subsequent up shame donkey shame pale freezing floor wail numerous roof",
-        "theme_topic": "Move",
+        "text": "4.8x",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
@@ -401,28 +397,28 @@
     },
     {
       "bbox": {
-        "h": 0.2879,
-        "w": 2.7256,
-        "x": 1.2805,
-        "y": 4.2376
+        "h": 1.2328,
+        "w": 0.6953,
+        "x": 11.9144,
+        "y": 4.2256
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          174,
-          73,
-          92
+          158,
+          239,
+          163
         ],
-        "font_face": "Verdana",
+        "font_face": "Arial",
         "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "OCEANIC",
-        "theme_topic": "Move",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "tank afternoon normal writing",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
@@ -430,10 +426,10 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.7192,
-        "x": 1.3058,
-        "y": 4.7297
+        "h": 0.4728,
+        "w": 1.1467,
+        "x": 4.911,
+        "y": 4.2054
       },
       "id": "object_014",
       "properties": {
@@ -441,17 +437,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          255,
+          198,
+          74
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 18,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Disgusting",
-        "theme_topic": "Move",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Faulty Pedal",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
@@ -459,105 +455,57 @@
     },
     {
       "bbox": {
-        "h": 0.6015,
-        "w": 1.1155,
-        "x": 6.6054,
-        "y": 2.8142
+        "h": 0.6182,
+        "w": 1.1658,
+        "x": 4.9356,
+        "y": 4.7216
       },
       "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          32,
-          173,
-          210
-        ],
-        "line": [
-          82,
-          64,
-          89
-        ],
-        "line_width": 1.1949350315435288,
-        "pattern": "badge",
-        "points": [
-          [
-            0.5,
-            0.0
-          ],
-          [
-            0.62,
-            0.25
-          ],
-          [
-            0.92,
-            0.18
-          ],
-          [
-            0.75,
-            0.5
-          ],
-          [
-            0.98,
-            0.78
-          ],
-          [
-            0.62,
-            0.72
-          ],
-          [
-            0.5,
-            1.0
-          ],
-          [
-            0.38,
-            0.72
-          ],
-          [
-            0.02,
-            0.78
-          ],
-          [
-            0.25,
-            0.5
-          ],
-          [
-            0.08,
-            0.18
-          ],
-          [
-            0.38,
-            0.25
-          ]
-        ],
-        "theme_topic": "Move"
-      },
-      "type": "freeform",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4487,
-        "w": 0.9831,
-        "x": 1.1992,
-        "y": 4.835
-      },
-      "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          197,
-          67,
-          70
+          158,
+          239,
+          163
         ],
-        "font_face": "Verdana",
-        "font_size": 17,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "tin",
-        "theme_topic": "Move",
+        "text": "pies key entertaining guide pray mourn dog violent switch key badge add spoil roll",
+        "theme_topic": "Spiteful",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.4588,
+        "w": 0.5732,
+        "x": 6.8023,
+        "y": 4.1831
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Stranger",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
@@ -565,32 +513,28 @@
     },
     {
       "bbox": {
-        "h": 0.3724,
-        "w": 0.822,
-        "x": 4.3392,
-        "y": 5.5292
+        "h": 0.6278,
+        "w": 1.1946,
+        "x": 8.146,
+        "y": 4.734
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          219,
-          206,
-          150
-        ],
-        "bold": true,
+        "bg_color": null,
+        "bold": false,
         "color": [
-          163,
-          73,
-          72
+          158,
+          239,
+          163
         ],
-        "font_face": "Verdana",
+        "font_face": "Arial",
         "font_size": 7,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Chief Hope Voracious",
-        "theme_topic": "Move",
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "snails call rampant wriggle toothbrush secret whole mountainous evasive car disillusioned grain cold art force",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
@@ -598,32 +542,28 @@
     },
     {
       "bbox": {
-        "h": 0.5113,
-        "w": 0.8254,
-        "x": 0.3676,
-        "y": 5.9493
+        "h": 0.6165,
+        "w": 0.9531,
+        "x": 0.5655,
+        "y": 4.3441
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          163,
-          78,
-          182
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          68,
-          143,
-          121
+          133,
+          172,
+          154
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 15,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Naive Button Harm",
-        "theme_topic": "Move",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "mindless handy",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
@@ -631,138 +571,61 @@
     },
     {
       "bbox": {
-        "h": 0.7383,
-        "w": 1.266,
-        "x": 11.5787,
-        "y": 6.04
+        "h": 0.4585,
+        "w": 1.2144,
+        "x": 7.9364,
+        "y": 3.6126
       },
       "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          136,
-          68,
-          42
-        ],
-        "line": [
-          45,
-          130,
-          200
-        ],
-        "line_width": 2.4557809634763963,
-        "pattern": "badge",
-        "points": [
-          [
-            0.5,
-            0.0
-          ],
-          [
-            0.62,
-            0.25
-          ],
-          [
-            0.92,
-            0.18
-          ],
-          [
-            0.75,
-            0.5
-          ],
-          [
-            0.98,
-            0.78
-          ],
-          [
-            0.62,
-            0.72
-          ],
-          [
-            0.5,
-            1.0
-          ],
-          [
-            0.38,
-            0.72
-          ],
-          [
-            0.02,
-            0.78
-          ],
-          [
-            0.25,
-            0.5
-          ],
-          [
-            0.08,
-            0.18
-          ],
-          [
-            0.38,
-            0.25
-          ]
-        ],
-        "theme_topic": "Move"
-      },
-      "type": "freeform",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.6281,
-        "w": 1.6957,
-        "x": 2.0814,
-        "y": 3.8297
-      },
-      "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          142,
-          228,
-          82
+          215,
+          177,
+          156
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "man ship brave scarecrow",
-        "theme_topic": "Move",
-        "underline": true
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Shrill",
+        "theme_topic": "Spiteful",
+        "underline": false
       },
       "type": "text",
-      "z_order": 20
+      "z_order": 19
     },
     {
       "bbox": {
-        "h": 0.2655,
-        "w": 1.0151,
-        "x": 5.5803,
-        "y": 4.1833
+        "h": 0.4009,
+        "w": 2.2369,
+        "x": 2.7887,
+        "y": 1.1456
       },
-      "id": "object_021",
+      "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          94,
-          212,
-          98
+          203,
+          50,
+          149
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Arial",
+        "font_size": 7,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Argument",
-        "theme_topic": "Move",
+        "text": "Tumble",
+        "theme_topic": "Spiteful",
         "underline": false
       },
       "type": "text",
-      "z_order": 21
+      "z_order": 20
     }
   ],
   "slide": {

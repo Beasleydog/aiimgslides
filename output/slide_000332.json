@@ -8,131 +8,176 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 0,
       "archetype": "atomic_composition",
-      "back_color": [
-        133,
-        67,
-        114
+      "colors": [
+        [
+          232,
+          163,
+          45
+        ],
+        [
+          255,
+          211,
+          88
+        ]
       ],
       "fill": [
         232,
         163,
         45
       ],
-      "fore_color": [
-        113,
-        155,
-        50
-      ],
-      "pattern": 47,
-      "style": "pattern",
-      "theme_topic": "Throat"
+      "focus": "center",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Doll Omniscient"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 9,
+    "level": 9,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 9
+  },
   "objects": [
     {
       "bbox": {
-        "h": 0.2,
-        "w": 3.3736,
-        "x": 6.0947,
-        "y": 5.6064
+        "h": 1.8599,
+        "w": 6.4298,
+        "x": 3.3732,
+        "y": 0.1018
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 3,
-        "family": "panel",
+        "family": "arrows",
         "fill": [
-          51,
-          63,
-          101
-        ],
-        "line": [
-          196,
+          175,
           138,
-          38
+          174
         ],
-        "line_width": 1.0919198842964926,
+        "focus": false,
+        "line": [
+          87,
+          131,
+          32
+        ],
+        "line_width": 2.4030012577774142,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Throat"
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Doll Omniscient"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9338,
-        "w": 0.2,
-        "x": 2.2308,
-        "y": 3.3388
+        "h": 3.5447,
+        "w": 6.2036,
+        "x": 4.9825,
+        "y": 4.7352
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          51,
-          63,
-          101
+          143,
+          125,
+          55
         ],
+        "focus": false,
         "line": [
-          196,
-          138,
-          38
+          31,
+          57,
+          79
         ],
-        "line_width": 4.630382710494809,
+        "line_width": 3.929731097475803,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Throat"
+        "ppt_type": 3,
+        "shape": "trapezoid",
+        "theme_topic": "Doll Omniscient"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 3.4264,
-        "x": 9.358,
-        "y": 1.8749
+        "h": 4.6285,
+        "w": 3.3337,
+        "x": 11.0454,
+        "y": 2.2487
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          51,
-          63,
-          101
+          191,
+          154,
+          62
         ],
+        "focus": false,
         "line": [
-          196,
-          138,
-          38
+          162,
+          159,
+          95
         ],
-        "line_width": 1.0637767953953179,
+        "line_width": 2.1454628828038738,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Throat"
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Doll Omniscient"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.2238,
-        "w": 5.2274,
-        "x": 0.5654,
-        "y": 0.345
+        "h": 7.4898,
+        "w": 5.7123,
+        "x": -0.0046,
+        "y": -0.0161
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          212,
+          149,
+          41
+        ],
+        "line": [
+          212,
+          149,
+          41
+        ],
+        "line_width": 1.963995185070832,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Doll Omniscient"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.9212,
+        "w": 3.8923,
+        "x": 5.943,
+        "y": 0.9946
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -142,393 +187,123 @@
           30,
           36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 27,
+        "font_face": "Georgia",
+        "font_size": 25,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Nostalgic Doubt Cracker",
-        "theme_topic": "Throat",
+        "text": "Questionable Afternoon Obtain",
+        "theme_topic": "Doll Omniscient",
         "underline": false
       },
       "type": "text",
-      "z_order": 4
+      "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.3063,
-        "w": 2.2079,
-        "x": 3.1572,
-        "y": 5.4782
+        "h": 5.5394,
+        "w": 2.214,
+        "x": 10.5762,
+        "y": 1.4437
       },
-      "id": "object_005",
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "clip": "hex",
+        "focus": true,
+        "line": [
+          71,
+          221,
+          181
+        ],
+        "line_width": 12,
+        "theme_topic": "Doll Omniscient"
+      },
+      "type": "svg_image",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 3.1224,
+        "w": 6.8436,
+        "x": 3.2612,
+        "y": 2.4535
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          196,
-          138,
-          38
+          212,
+          149,
+          41
         ],
         "line": [
-          196,
-          138,
-          38
+          212,
+          149,
+          41
         ],
-        "line_width": 3.5317042454080214,
+        "line_width": 4.508355046584053,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Throat"
+        "theme_topic": "Doll Omniscient"
       },
       "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.0078,
-        "w": 1.9349,
-        "x": 3.3102,
-        "y": 5.6279
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.22328217577454262,
-          0.010354448467916512,
-          0.15631081923172446,
-          0.01620541845314603
-        ],
-        "focus": false,
-        "mask_line": [
-          172,
-          67,
-          194
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Throat",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.2736,
-        "w": 2.0412,
-        "x": 4.2693,
-        "y": 4.7152
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
-        ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "EGGS",
-        "theme_topic": "Throat",
-        "underline": false
-      },
-      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.3053,
-        "w": 2.0555,
-        "x": 4.283,
-        "y": 5.2033
+        "h": 2.778,
+        "w": 6.5266,
+        "x": 3.3689,
+        "y": 2.6263
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          176,
-          43,
-          121
+        "clip": "blob",
+        "focus": true,
+        "line": [
+          71,
+          221,
+          181
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Card",
-        "theme_topic": "Throat",
-        "underline": false
+        "line_width": 10,
+        "theme_topic": "Doll Omniscient"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.6834,
-        "w": 1.4039,
-        "x": 11.297,
-        "y": 2.1101
+        "h": 0.641,
+        "w": 2.1328,
+        "x": 3.2595,
+        "y": 5.3713
       },
       "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          29,
-          187,
-          132
-        ],
-        "focus": false,
-        "line": [
-          184,
-          53,
-          180
-        ],
-        "line_width": 1.6983065925451586,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Throat"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.2212,
-        "w": 0.7628,
-        "x": 1.9183,
-        "y": 1.5276
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          101,
-          224,
-          197
-        ],
-        "font_face": "Verdana",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Hover Seashore",
-        "theme_topic": "Throat",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 1.0805,
-        "w": 1.0691,
-        "x": 0.1365,
-        "y": 5.2465
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          159,
-          52,
-          114
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Throat",
-        "width": 2.8640012684305454
-      },
-      "type": "connector",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.9193,
-        "w": 1.9984,
-        "x": 7.5443,
-        "y": 4.1799
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          112,
-          81,
-          93
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Throat",
-        "width": 2.373321758405529
-      },
-      "type": "connector",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.4971,
-        "w": 1.3949,
-        "x": 9.7998,
-        "y": 3.356
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          203,
-          51,
-          50
-        ],
-        "connector": "straight",
-        "dash": 3,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Throat",
-        "width": 2.1684455569628316
-      },
-      "type": "connector",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.2177,
-        "w": 0.3999,
-        "x": 12.8254,
-        "y": 2.7774
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          175,
-          158,
-          229
-        ],
-        "focus": false,
-        "line": [
-          89,
-          75,
-          141
-        ],
-        "line_width": 1.9147551172873758,
-        "outline_only": false,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Throat"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.2918,
-        "w": 0.3513,
-        "x": 7.2655,
-        "y": 6.7175
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
-        "fill": [
-          91,
-          38,
-          130
-        ],
-        "focus": false,
-        "line": [
-          116,
-          128,
-          126
-        ],
-        "line_width": 1.8356668457095546,
-        "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Throat"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.5706,
-        "w": 2.0112,
-        "x": 1.2022,
-        "y": 4.1434
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          158,
-          114,
-          168
-        ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "spill",
-        "theme_topic": "Throat",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.2636,
-        "w": 1.2922,
-        "x": 7.1502,
-        "y": 5.7785
-      },
-      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          225,
-          213,
-          99
+          94,
+          223,
+          129
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Aptos",
+        "font_size": 5,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Peel Throne Trousers",
-        "theme_topic": "Throat",
+        "text": "Telephone",
+        "theme_topic": "Doll Omniscient",
         "underline": false
       },
       "type": "text",
-      "z_order": 17
+      "z_order": 9
     }
   ],
   "slide": {

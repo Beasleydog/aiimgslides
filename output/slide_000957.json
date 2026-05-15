@@ -8,126 +8,140 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        208,
-        166,
-        128
+      "colors": [
+        [
+          57,
+          211,
+          194
+        ],
+        [
+          255,
+          238,
+          103
+        ]
       ],
       "fill": [
-        25,
-        30,
-        39
+        28,
+        143,
+        112
       ],
-      "fore_color": [
-        244,
-        180,
-        76
-      ],
-      "pattern": 33,
-      "style": "pattern",
-      "theme_topic": "Ink"
+      "focus": "bottom_left",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Thoughtless"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 24,
+    "level": 24,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 24
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.5101,
-        "w": 7.4062,
-        "x": 3.0228,
-        "y": 1.6682
+        "h": 4.3566,
+        "w": 8.068,
+        "x": 0.6532,
+        "y": 2.0839
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "basic",
         "fill": [
-          173,
-          30,
-          70
+          116,
+          102,
+          143
         ],
         "focus": false,
         "line": [
-          76,
-          78,
-          77
+          187,
+          74,
+          97
         ],
-        "line_width": 2.004720047458752,
+        "line_width": 7.24552193380792,
         "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Ink"
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Thoughtless"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.2338,
-        "w": 6.5719,
-        "x": 0.5547,
-        "y": 0.3471
+        "h": 2.3861,
+        "w": 7.9447,
+        "x": 1.3729,
+        "y": 3.9981
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "basic",
+        "fill": [
+          129,
+          121,
+          56
+        ],
+        "focus": false,
+        "line": [
+          152,
+          29,
+          164
+        ],
+        "line_width": 6.228951416462708,
+        "outline_only": false,
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Thoughtless"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.8907,
+        "w": 4.1803,
+        "x": 2.3639,
+        "y": 1.1276
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          247,
-          249
+          248,
+          255,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
+        "font_face": "Georgia",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Physical Extra-Small Phone",
-        "theme_topic": "Ink",
+        "text": "Planes Festive",
+        "theme_topic": "Thoughtless",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.3652,
-        "w": 5.6746,
-        "x": 7.1128,
-        "y": 5.6483
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.15821757288486785,
-          0.004194273705130991,
-          0.2044391118702485,
-          0.30774388301905603
-        ],
-        "focus": false,
-        "mask_line": [
-          96,
-          165,
-          250
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Ink",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.2963,
-        "w": 5.3736,
-        "x": 7.2542,
-        "y": 1.9936
+        "h": 0.3572,
+        "w": 6.5668,
+        "x": 3.399,
+        "y": 5.9067
       },
       "id": "object_004",
       "properties": {
@@ -135,17 +149,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          96,
-          165,
-          250
+          248,
+          255,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Georgia",
+        "font_size": 18,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "WEIGHT",
-        "theme_topic": "Ink",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Scared",
+        "theme_topic": "Thoughtless",
         "underline": false
       },
       "type": "text",
@@ -153,28 +167,28 @@
     },
     {
       "bbox": {
-        "h": 0.4146,
-        "w": 5.413,
-        "x": 7.2214,
-        "y": 2.4541
+        "h": 0.3828,
+        "w": 6.5386,
+        "x": 3.3818,
+        "y": 6.5111
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          86,
-          109,
-          145
+          205,
+          241,
+          230
         ],
-        "font_face": "Aptos Display",
-        "font_size": 20,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Tomatoes Wry Friendly",
-        "theme_topic": "Ink",
+        "text": "mug challenge wriggle correct testy able fry club wise quaint chilly historical pumped day",
+        "theme_topic": "Thoughtless",
         "underline": false
       },
       "type": "text",
@@ -182,88 +196,137 @@
     },
     {
       "bbox": {
-        "h": 0.3673,
-        "w": 5.4222,
-        "x": 7.2181,
-        "y": 3.1006
+        "h": 3.0191,
+        "w": 6.7417,
+        "x": 3.3031,
+        "y": 2.5122
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          177,
-          185,
-          196
+        "band": [
+          43,
+          162,
+          130
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wash strong silk church tug approve crawl produce wrathful overrated park powder object deserted fairies godly visit",
-        "theme_topic": "Ink",
-        "underline": false
+        "band_cols": false,
+        "band_rows": true,
+        "body": [
+          43,
+          162,
+          130
+        ],
+        "border": [
+          205,
+          241,
+          230
+        ],
+        "border_dash": "dashDot",
+        "border_width": 1.0935622203278101,
+        "cells": [
+          [
+            "tawdry match",
+            "spotted"
+          ],
+          [
+            "deserve rude",
+            "agonizing funny"
+          ],
+          [
+            "winter fat",
+            "soup flower"
+          ],
+          [
+            "vessel sink",
+            "spill"
+          ],
+          [
+            "push",
+            "fry trousers"
+          ],
+          [
+            "eggs berserk",
+            "statuesque"
+          ],
+          [
+            "knit",
+            "rabid garrulous"
+          ]
+        ],
+        "cols": 2,
+        "font_size": 7,
+        "has_header": true,
+        "header": [
+          183,
+          195,
+          221
+        ],
+        "rows": 7,
+        "text_color": [
+          248,
+          255,
+          252
+        ],
+        "theme_topic": "Thoughtless"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.4373,
-        "w": 5.6969,
-        "x": 7.0926,
-        "y": 3.8989
+        "h": 0.4095,
+        "w": 0.399,
+        "x": 11.1629,
+        "y": 1.8593
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 2,
         "family": "panel",
         "fill": [
-          43,
-          51,
-          64
+          255,
+          238,
+          103
         ],
         "line": [
           43,
-          51,
-          64
+          162,
+          130
         ],
-        "line_width": 0.7633268332742138,
+        "line_width": 0.9571228855277718,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Ink"
+        "theme_topic": "Thoughtless"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.5029,
-        "w": 5.3227,
-        "x": 7.2797,
-        "y": 4.2476
+        "h": 0.3849,
+        "w": 2.1067,
+        "x": 10.6281,
+        "y": 2.0965
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          246,
-          247,
-          249
+          248,
+          255,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 26,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "18%",
-        "theme_topic": "Ink",
+        "text": "advice ink stocking delicate",
+        "theme_topic": "Thoughtless",
         "underline": false
       },
       "type": "text",
@@ -271,122 +334,119 @@
     },
     {
       "bbox": {
-        "h": 0.2973,
-        "w": 5.352,
-        "x": 7.247,
-        "y": 4.7315
+        "h": 0.4077,
+        "w": 0.3938,
+        "x": 11.4168,
+        "y": 3.1331
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          247,
-          249
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "eatable gaping massive sound egg extend uncovered cloth",
-        "theme_topic": "Ink",
-        "underline": false
+        "line": [
+          43,
+          162,
+          130
+        ],
+        "line_width": 2.1006448790382044,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Thoughtless"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.5727,
-        "w": 0.6846,
-        "x": 0.7647,
-        "y": 2.2888
+        "h": 0.3813,
+        "w": 2.0794,
+        "x": 10.619,
+        "y": 3.427
       },
       "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          38,
-          128,
-          31
-        ],
-        "focus": false,
-        "line": [
-          223,
-          205,
-          67
-        ],
-        "line_width": 5.024897566136124,
-        "outline_only": true,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Ink"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.5418,
-        "w": 2.0048,
-        "x": 9.8806,
-        "y": 1.1448
-      },
-      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          128,
-          174,
-          176
-        ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Scatter",
-        "theme_topic": "Ink",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.379,
-        "w": 1.4424,
-        "x": 10.5857,
-        "y": 1.7555
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          182,
-          33,
-          186
-        ],
-        "bold": false,
-        "color": [
-          207,
-          90,
-          221
+          248,
+          255,
+          252
         ],
         "font_face": "Aptos",
         "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "test understood knock annoyed",
-        "theme_topic": "Ink",
+        "text": "listen avoid ban remember hydrant fit",
+        "theme_topic": "Thoughtless",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.3475,
+        "w": 0.336,
+        "x": 11.4618,
+        "y": 4.4252
+      },
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          43,
+          162,
+          130
+        ],
+        "line_width": 1.5056571363881437,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Thoughtless"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.3126,
+        "w": 2.1025,
+        "x": 10.6485,
+        "y": 4.6471
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          248,
+          255,
+          252
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "approve steel limping advice lying",
+        "theme_topic": "Thoughtless",
         "underline": false
       },
       "type": "text",
@@ -394,156 +454,361 @@
     },
     {
       "bbox": {
-        "h": 0.2692,
-        "w": 1.4321,
-        "x": 4.3265,
-        "y": 2.994
+        "h": 0.2997,
+        "w": 0.3195,
+        "x": 11.3526,
+        "y": 5.4519
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          36,
-          84,
-          89
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wealth hesitant quince irritate",
-        "theme_topic": "Ink",
-        "underline": false
+        "line": [
+          43,
+          162,
+          130
+        ],
+        "line_width": 1.351746259759199,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Thoughtless"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.6277,
-        "w": 0.4714,
-        "x": 3.7817,
-        "y": 6.456
+        "h": 0.2856,
+        "w": 2.1145,
+        "x": 10.6514,
+        "y": 5.7505
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          96,
-          165,
-          250
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          248,
+          255,
+          252
         ],
-        "focus": false,
-        "line": [
-          65,
-          94,
-          185
-        ],
-        "line_width": 3.4787534894143444,
-        "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Ink"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "nonstop male different",
+        "theme_topic": "Thoughtless",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.9768,
-        "w": 0.2,
-        "x": 1.3906,
-        "y": 2.6498
+        "h": 0.2296,
+        "w": 0.2264,
+        "x": 11.5144,
+        "y": 6.5722
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          29,
-          218,
-          166
+          255,
+          238,
+          103
         ],
-        "focus": false,
         "line": [
-          227,
-          155,
-          220
+          43,
+          162,
+          130
         ],
-        "line_width": 3.7307061956867837,
+        "line_width": 1.2117803659080773,
         "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Ink"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Thoughtless"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.908,
-        "w": 1.4456,
-        "x": 1.5305,
-        "y": 1.8648
+        "h": 0.2182,
+        "w": 2.1202,
+        "x": 10.6391,
+        "y": 6.7126
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          91,
-          43,
-          113
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          248,
+          255,
+          252
         ],
-        "secondary": [
-          109,
-          155,
-          101
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#cdde8b\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#649756\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#cdde8b\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Ink"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "squeak vanish color",
+        "theme_topic": "Thoughtless",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.4402,
-        "w": 0.8439,
-        "x": 5.3736,
-        "y": 5.1069
+        "h": 5.5716,
+        "w": 2.2335,
+        "x": 0.5194,
+        "y": 1.4214
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          27,
-          35,
-          137
+        "clip": "ticket",
+        "focus": true,
+        "line": [
+          255,
+          238,
+          103
         ],
-        "bold": false,
+        "line_width": 11,
+        "theme_topic": "Thoughtless"
+      },
+      "type": "svg_image",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.5255,
+        "w": 1.1012,
+        "x": 0.6229,
+        "y": 2.2603
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          43,
-          29,
-          26
+          151,
+          226,
+          41
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 9,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "male profuse jewel needy wash",
-        "theme_topic": "Ink",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Cows",
+        "theme_topic": "Thoughtless",
         "underline": false
       },
       "type": "text",
-      "z_order": 17
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.4505,
+        "w": 1.3204,
+        "x": 1.0499,
+        "y": 1.2972
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          102,
+          213,
+          194
+        ],
+        "focus": false,
+        "line": [
+          177,
+          62,
+          172
+        ],
+        "line_width": 1.8762944623868403,
+        "outline_only": false,
+        "ppt_type": 51,
+        "shape": "pentagon",
+        "theme_topic": "Thoughtless"
+      },
+      "type": "shape",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.6588,
+        "w": 0.3761,
+        "x": 9.4727,
+        "y": 6.2764
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "flowchart",
+        "fill": [
+          151,
+          133,
+          30
+        ],
+        "focus": false,
+        "line": [
+          208,
+          133,
+          49
+        ],
+        "line_width": 1.5336361019720561,
+        "outline_only": false,
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Thoughtless"
+      },
+      "type": "shape",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 0.3246,
+        "w": 2.3196,
+        "x": 1.5439,
+        "y": 0.6169
+      },
+      "id": "object_021",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          183,
+          128,
+          184
+        ],
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "quizzical",
+        "theme_topic": "Thoughtless",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 21
+    },
+    {
+      "bbox": {
+        "h": 0.5033,
+        "w": 0.2537,
+        "x": 9.1956,
+        "y": 1.2734
+      },
+      "id": "object_022",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          111,
+          102,
+          120
+        ],
+        "focus": false,
+        "line": [
+          94,
+          135,
+          35
+        ],
+        "line_width": 3.230971512691235,
+        "outline_only": true,
+        "ppt_type": 53,
+        "shape": "right_arrow_callout",
+        "theme_topic": "Thoughtless"
+      },
+      "type": "shape",
+      "z_order": 22
+    },
+    {
+      "bbox": {
+        "h": 0.3845,
+        "w": 2.258,
+        "x": 8.2611,
+        "y": 1.2649
+      },
+      "id": "object_023",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          58,
+          34,
+          165
+        ],
+        "font_face": "Aptos",
+        "font_size": 5,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Satisfying Burst",
+        "theme_topic": "Thoughtless",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 23
+    },
+    {
+      "bbox": {
+        "h": 0.7735,
+        "w": 0.4987,
+        "x": 6.1276,
+        "y": 3.1168
+      },
+      "id": "object_024",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "basic",
+        "fill": [
+          81,
+          43,
+          174
+        ],
+        "focus": false,
+        "line": [
+          182,
+          77,
+          164
+        ],
+        "line_width": 1.204046099782205,
+        "outline_only": true,
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Thoughtless"
+      },
+      "type": "shape",
+      "z_order": 24
     }
   ],
   "slide": {

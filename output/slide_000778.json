@@ -8,183 +8,165 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 135,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          103,
-          173,
-          160
-        ],
-        [
-          38,
-          132,
-          88
-        ]
+      "back_color": [
+        198,
+        64,
+        91
       ],
       "fill": [
-        120,
-        167,
-        30
+        198,
+        64,
+        91
       ],
-      "focus": "center",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Industry"
+      "fore_color": [
+        96,
+        165,
+        250
+      ],
+      "pattern": 11,
+      "style": "pattern",
+      "theme_topic": "Sign Program"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 20,
+    "level": 20,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 20
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.5581,
-        "w": 7.8691,
-        "x": -0.0349,
-        "y": 2.4102
+        "h": 2.8966,
+        "w": 6.4308,
+        "x": 7.3614,
+        "y": 2.0725
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "callouts",
         "fill": [
-          178,
-          68,
-          39
+          90,
+          44,
+          148
         ],
         "focus": false,
         "line": [
-          124,
-          210,
-          191
+          209,
+          30,
+          128
         ],
-        "line_width": 5.519944873414511,
+        "line_width": 6.266668701719075,
         "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Industry"
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Sign Program"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.2975,
-        "w": 8.7652,
-        "x": 3.7656,
-        "y": 5.8218
+        "h": 2.7832,
+        "w": 4.2779,
+        "x": 9.6271,
+        "y": 3.7401
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          63,
-          200,
-          140
+          208,
+          109,
+          67
         ],
         "focus": false,
         "line": [
-          172,
           158,
-          136
+          194,
+          174
         ],
-        "line_width": 3.189961349320222,
+        "line_width": 6.2639135478037415,
         "outline_only": false,
-        "ppt_type": 179,
-        "shape": "cloud",
-        "theme_topic": "Industry"
+        "ppt_type": 33,
+        "shape": "right_arrow",
+        "theme_topic": "Sign Program"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.7149,
-        "w": 6.754,
-        "x": -0.1081,
-        "y": 1.5902
+        "h": 0.9635,
+        "w": 7.8329,
+        "x": 0.5325,
+        "y": 0.364
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          171,
-          189,
-          89
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          28,
-          168,
-          140
-        ],
-        "line_width": 6.420906246475571,
-        "outline_only": true,
-        "ppt_type": 64,
-        "shape": "flow_data",
-        "theme_topic": "Industry"
+        "font_face": "Trebuchet MS",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Unlock Dreary Nauseating",
+        "theme_topic": "Sign Program",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 2.3793,
-        "w": 7.009,
-        "x": 5.817,
-        "y": 0.5701
+        "h": 2.4335,
+        "w": 3.9466,
+        "x": 4.73,
+        "y": 4.5558
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "doubtful",
-          "rabid",
-          "talented",
-          "cable",
-          "wash",
-          "regular"
+        "crop": [
+          0.11584663418954359,
+          0.2527589535093264,
+          0.09978212301464552,
+          0.01989355640287808
         ],
-        "chart": "doughnut",
         "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              185,
-              107,
-              89
-            ],
-            "name": "spotted provide",
-            "values": [
-              21,
-              86,
-              55,
-              76,
-              81,
-              61
-            ]
-          }
+        "mask_line": [
+          148,
+          145,
+          54
         ],
-        "theme_topic": "Industry",
-        "title": "safe sky defeated wound rose"
+        "mask_overlay": false,
+        "theme_topic": "Sign Program",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.8713,
-        "w": 6.5914,
-        "x": 5.9704,
-        "y": 3.2821
+        "h": 0.2973,
+        "w": 3.5391,
+        "x": 4.8848,
+        "y": 6.5563
       },
       "id": "object_005",
       "properties": {
@@ -192,17 +174,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          96,
+          165,
+          250
         ],
-        "font_face": "Georgia",
-        "font_size": 24,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Meal Tap Request Sparkle Majestic Harmony Self Silly Clean",
-        "theme_topic": "Industry",
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Please Greedy",
+        "theme_topic": "Sign Program",
         "underline": false
       },
       "type": "text",
@@ -210,88 +192,102 @@
     },
     {
       "bbox": {
-        "h": 0.2675,
-        "w": 3.629,
-        "x": 6.0095,
-        "y": 4.3195
+        "h": 2.4255,
+        "w": 3.8915,
+        "x": 0.5214,
+        "y": 4.5755
       },
       "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "categories": [
+          "wink",
+          "plastic",
+          "unused",
+          "frightening",
+          "dapper"
+        ],
+        "chart": "bar",
+        "focus": true,
+        "has_legend": false,
+        "has_title": false,
+        "ppt_type": 57,
+        "series": [
+          {
+            "color": [
+              137,
+              206,
+              205
+            ],
+            "name": "strap billowy",
+            "values": [
+              72,
+              50,
+              94,
+              49,
+              90
+            ]
+          }
+        ],
+        "theme_topic": "Sign Program",
+        "title": "carpenter exclusive apparel care respect"
+      },
+      "type": "chart",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.4657,
+        "w": 1.4158,
+        "x": 9.1311,
+        "y": 5.4617
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 10,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "DISAGREEABLE BUSHES",
-        "theme_topic": "Industry",
+        "text": "Ray Jaded",
+        "theme_topic": "Sign Program",
         "underline": false
       },
       "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.8481,
-        "w": 6.9852,
-        "x": 5.7892,
-        "y": 5.0933
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          145,
-          183,
-          71
-        ],
-        "line": [
-          145,
-          183,
-          71
-        ],
-        "line_width": 0.46555190380582273,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Industry"
-      },
-      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.6856,
-        "w": 6.6346,
-        "x": 5.9879,
-        "y": 5.5056
+        "h": 0.7982,
+        "w": 1.421,
+        "x": 9.0987,
+        "y": 6.0079
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          120,
-          167,
-          30
+          224,
+          165,
+          179
         ],
-        "font_face": "Georgia",
-        "font_size": 37,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "48%",
-        "theme_topic": "Industry",
+        "text": "snow sun sprout bumpy responsible door extra-large symptomatic",
+        "theme_topic": "Sign Program",
         "underline": false
       },
       "type": "text",
@@ -299,28 +295,28 @@
     },
     {
       "bbox": {
-        "h": 0.3952,
-        "w": 6.6515,
-        "x": 5.9729,
-        "y": 6.1908
+        "h": 0.4702,
+        "w": 1.2957,
+        "x": 11.2414,
+        "y": 5.4701
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "familiar overrated playground grain minor astonishing",
-        "theme_topic": "Industry",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Bashful Prose",
+        "theme_topic": "Sign Program",
         "underline": false
       },
       "type": "text",
@@ -328,28 +324,28 @@
     },
     {
       "bbox": {
-        "h": 0.2953,
-        "w": 4.4317,
-        "x": 0.7063,
-        "y": 0.6665
+        "h": 0.8018,
+        "w": 1.2817,
+        "x": 11.2611,
+        "y": 5.9866
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          38,
-          132,
-          88
+          224,
+          165,
+          179
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "GROTESQUE LYRICAL",
-        "theme_topic": "Industry",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "mass serious hoc dam rush apparel committee wonder cherry attach juice announce",
+        "theme_topic": "Sign Program",
         "underline": false
       },
       "type": "text",
@@ -357,196 +353,204 @@
     },
     {
       "bbox": {
-        "h": 1.0717,
-        "w": 4.4284,
-        "x": 0.7028,
-        "y": 1.1563
+        "h": 2.4617,
+        "w": 3.9119,
+        "x": 4.7291,
+        "y": 1.836
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          217,
+          130,
+          147
         ],
-        "font_face": "Georgia",
-        "font_size": 44,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Toothsome",
-        "theme_topic": "Industry",
-        "underline": false
+        "line": [
+          217,
+          130,
+          147
+        ],
+        "line_width": 2.374790309186131,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Sign Program"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 4.3871,
-        "w": 4.442,
-        "x": 0.6911,
-        "y": 2.4384
+        "h": 2.1732,
+        "w": 3.5993,
+        "x": 4.8318,
+        "y": 1.9946
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          189,
-          211,
-          152
+        "crop": [
+          0.312965272707926,
+          0.1914595606451877,
+          0.06197143174262777,
+          0.1613419202383671
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "gather post humdrum huge near mourn unite cooing zesty enthusiastic calendar abortive internal",
-        "theme_topic": "Industry",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          47,
+          228,
+          111
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Sign Program",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.5873,
-        "w": 1.1438,
-        "x": 4.2054,
-        "y": 1.5643
+        "h": 2.3613,
+        "w": 1.1703,
+        "x": 0.6204,
+        "y": 1.9066
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          60,
-          139,
-          227
+        "crop": [
+          0.32218352661620897,
+          0.22627849387962892,
+          0.05147612937333256,
+          0.3273020571525735
         ],
-        "secondary": [
-          100,
-          83,
-          89
+        "focus": false,
+        "mask_line": [
+          96,
+          165,
+          250
         ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#47304c\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#8baaa5\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#47304c\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Industry"
+        "mask_overlay": false,
+        "theme_topic": "Sign Program",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg",
+      "type": "image",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.4565,
-        "w": 2.1627,
-        "x": 7.0722,
-        "y": 0.5015
+        "h": 2.3744,
+        "w": 1.1549,
+        "x": 1.9385,
+        "y": 1.915
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          186,
-          105,
-          27
+        "crop": [
+          0.1946822673852945,
+          0.15166509319902896,
+          0.20910725336316552,
+          0.12343993256668491
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Scatter Friend Decide",
-        "theme_topic": "Industry",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          118,
+          127,
+          164
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Sign Program",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.293,
-        "w": 1.933,
-        "x": 4.0791,
-        "y": 1.5571
+        "h": 0.7865,
+        "w": 1.5467,
+        "x": 9.0779,
+        "y": 2.0158
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          76,
-          142,
-          79
+        "crop": [
+          0.05208340191511288,
+          0.13768121930116797,
+          0.0742934135384426,
+          0.0756369768412819
         ],
-        "connector": "curve",
-        "dash": 2,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Industry",
-        "width": 0.37888253156861407
+        "focus": false,
+        "mask_line": [
+          96,
+          165,
+          250
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Sign Program",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "connector",
+      "type": "image",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.3618,
-        "w": 0.8286,
-        "x": 6.9745,
-        "y": 2.3893
+        "h": 1.095,
+        "w": 1.8281,
+        "x": 10.8955,
+        "y": 1.8738
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          80,
-          178,
-          113
+        "crop": [
+          0.18720912014442037,
+          0.019352878463869218,
+          0.07054515859466047,
+          0.03931874642044292
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Broken Best Dogs",
-        "theme_topic": "Industry",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          124,
+          58,
+          153
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Sign Program",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.4867,
-        "w": 1.6617,
-        "x": 0.1788,
-        "y": 3.3071
+        "h": 0.4291,
+        "w": 1.9729,
+        "x": 7.6474,
+        "y": 5.5613
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          85,
-          73,
-          113
+          159,
+          163,
+          34
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 17,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "pushy smoggy plough hard-to-find absorbing",
-        "theme_topic": "Industry",
+        "text": "macho",
+        "theme_topic": "Sign Program",
         "underline": false
       },
       "type": "text",
@@ -554,91 +558,89 @@
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.2013,
-        "x": 6.8303,
-        "y": 5.9908
+        "h": 0.4064,
+        "w": 1.3591,
+        "x": 4.9003,
+        "y": 1.2741
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
-        "fill": [
-          72,
-          26,
-          53
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          197,
+          141,
+          75
         ],
-        "focus": false,
-        "line": [
-          120,
-          30,
-          101
-        ],
-        "line_width": 5.111574174674989,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Industry"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "marble tiny aromatic bee",
+        "theme_topic": "Sign Program",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.814,
-        "w": 0.5666,
-        "x": 1.9109,
-        "y": 1.8979
+        "h": 0.5558,
+        "w": 1.603,
+        "x": 10.5869,
+        "y": 4.6941
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          58,
-          169,
-          33
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          47,
+          37,
+          47
         ],
-        "focus": false,
-        "line": [
-          85,
-          79,
-          76
-        ],
-        "line_width": 2.1878725507283314,
-        "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Industry"
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wool",
+        "theme_topic": "Sign Program",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 1.2318,
-        "w": 0.9472,
-        "x": 9.1356,
-        "y": 0.3107
+        "h": 0.5138,
+        "w": 0.9212,
+        "x": 10.2004,
+        "y": 1.7009
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          96,
-          80,
-          152
+          90,
+          158,
+          100
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Industry",
-        "width": 2.4982428318164596
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Toothbrush Cabbage",
+        "theme_topic": "Sign Program",
+        "underline": true
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 20
     }
   ],

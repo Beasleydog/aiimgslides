@@ -8,575 +8,151 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "fill": [
-        211,
-        88,
-        31
+      "colors": [
+        [
+          130,
+          122,
+          136
+        ],
+        [
+          255,
+          211,
+          88
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Normal Nifty"
+      "fill": [
+        120,
+        58,
+        170
+      ],
+      "focus": "bottom_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Loaf Nutritious"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 3,
+    "level": 3,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 3
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.9533,
-        "w": 4.8517,
-        "x": 7.346,
-        "y": 4.7355
+        "h": 4.7198,
+        "w": 6.3223,
+        "x": 4.9572,
+        "y": -0.593
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "math",
         "fill": [
-          192,
-          162,
-          107
+          58,
+          61,
+          87
         ],
         "focus": false,
         "line": [
-          25,
-          89,
-          25
+          108,
+          116,
+          210
         ],
-        "line_width": 5.457799112388886,
+        "line_width": 6.916121299312648,
         "outline_only": false,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Normal Nifty"
+        "ppt_type": 163,
+        "shape": "plus",
+        "theme_topic": "Loaf Nutritious"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.5164,
-        "w": 13.3423,
-        "x": 0.0029,
-        "y": 4.3312
+        "h": 4.4079,
+        "w": 8.9233,
+        "x": -0.5812,
+        "y": 2.1568
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "flowchart",
         "fill": [
-          217,
-          112,
-          63
+          65,
+          77,
+          141
         ],
+        "focus": false,
         "line": [
-          217,
-          112,
-          63
+          196,
+          116,
+          37
         ],
-        "line_width": 4.715832473825986,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Normal Nifty"
+        "line_width": 2.702245829839221,
+        "outline_only": true,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Loaf Nutritious"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.2114,
-        "w": 8.7783,
-        "x": 0.5465,
-        "y": 0.3612
+        "h": 2.3123,
+        "w": 5.3978,
+        "x": 7.1386,
+        "y": 4.4791
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "categories": [
+          "egg",
+          "system",
+          "trucks",
+          "bow",
+          "sweet",
+          "sticky"
         ],
-        "font_face": "Georgia",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Place One Alert",
-        "theme_topic": "Normal Nifty",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.2649,
-        "w": 5.4419,
-        "x": 7.3491,
-        "y": 5.7149
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.07877388772659609,
-          0.02275969461413978,
-          0.19294989565754864,
-          0.12057826555106621
-        ],
-        "focus": false,
-        "mask_line": [
-          38,
-          132,
-          88
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Normal Nifty",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.7019,
-        "w": 5.4389,
-        "x": 7.3125,
-        "y": 1.8831
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
+        "chart": "column",
         "focus": true,
-        "mask_line": [
-          204,
-          203,
-          108
+        "has_legend": true,
+        "has_title": true,
+        "ppt_type": 51,
+        "series": [
+          {
+            "color": [
+              156,
+              117,
+              49
+            ],
+            "name": "sordid color",
+            "values": [
+              16,
+              20,
+              21,
+              85,
+              74,
+              13
+            ]
+          }
         ],
-        "mask_overlay": false,
-        "theme_topic": "Normal Nifty",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "theme_topic": "Loaf Nutritious",
+        "title": "contain steadfast"
       },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.4681,
-        "w": 5.1677,
-        "x": 7.4585,
-        "y": 4.0521
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Georgia",
-        "font_size": 24,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Drawer Caring Gabby Stare",
-        "theme_topic": "Normal Nifty",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.5128,
-        "w": 5.1468,
-        "x": 7.4621,
-        "y": 4.7354
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          230,
-          176,
-          152
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "boring slow changeable minute spotted impolite tremendous peck attract",
-        "theme_topic": "Normal Nifty",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.8997,
-        "w": 0.8297,
-        "x": 9.2649,
-        "y": 1.1824
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          175,
-          31,
-          72
-        ],
-        "line": [
-          38,
-          132,
-          88
-        ],
-        "line_width": 2.5599979860874837,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Normal Nifty"
-      },
-      "type": "freeform",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4025,
-        "w": 1.426,
-        "x": 4.7356,
-        "y": 0.1188
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          62,
-          123,
-          224
-        ],
-        "focus": false,
-        "line": [
-          203,
-          208,
-          92
-        ],
-        "line_width": 3.0689859050763246,
-        "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Normal Nifty"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.5361,
-        "w": 1.2571,
-        "x": 3.1581,
-        "y": 4.5543
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          136,
-          207,
-          209
-        ],
-        "connector": "curve",
-        "dash": 3,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Normal Nifty",
-        "width": 0.48091529687291334
-      },
-      "type": "connector",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.5295,
-        "w": 1.108,
-        "x": 2.1802,
-        "y": 5.8723
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          38,
-          132,
-          88
-        ],
-        "secondary": [
-          131,
-          196,
-          194
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#8c9b93\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#c26a35\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Normal Nifty"
-      },
-      "type": "svg",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.2332,
-        "w": 0.9397,
-        "x": 4.4637,
-        "y": 7.1543
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          80,
-          205,
-          188
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Normal Nifty",
-        "width": 0.4782319565188249
-      },
-      "type": "connector",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.9157,
-        "w": 1.0285,
-        "x": 8.3255,
-        "y": 3.5931
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          62,
-          202,
-          219
-        ],
-        "connector": "straight",
-        "dash": 2,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Normal Nifty",
-        "width": 0.4642634614144001
-      },
-      "type": "connector",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.747,
-        "w": 1.3418,
-        "x": 8.0957,
-        "y": 0.5038
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          32,
-          152,
-          220
-        ],
-        "focus": false,
-        "line": [
-          46,
-          157,
-          156
-        ],
-        "line_width": 3.6698999154421608,
-        "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Normal Nifty"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 1.0372,
-        "w": 1.0817,
-        "x": 6.3193,
-        "y": 3.1282
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          179,
-          197,
-          108
-        ],
-        "line": [
-          204,
-          159,
-          210
-        ],
-        "line_width": 2.304653823938776,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Normal Nifty"
-      },
-      "type": "freeform",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 1.5182,
-        "x": 1.4859,
-        "y": 2.2352
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          58,
-          164,
-          83
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Puffy",
-        "theme_topic": "Normal Nifty",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.5217,
-        "w": 0.7402,
-        "x": 6.8203,
-        "y": 5.371
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
-        "fill": [
-          151,
-          152,
-          108
-        ],
-        "focus": false,
-        "line": [
-          48,
-          115,
-          76
-        ],
-        "line_width": 4.316771149307847,
-        "outline_only": false,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Normal Nifty"
-      },
-      "type": "shape",
-      "z_order": 17
+      "type": "chart",
+      "z_order": 3
     }
   ],
   "slide": {

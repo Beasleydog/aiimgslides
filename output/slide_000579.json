@@ -10,98 +10,104 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        143,
-        32,
-        127
+        61,
+        64,
+        91
       ],
       "fill": [
-        28,
-        41,
-        146
+        61,
+        64,
+        91
       ],
       "fore_color": [
-        218,
-        216,
-        74
+        96,
+        165,
+        250
       ],
-      "pattern": 39,
+      "pattern": 29,
       "style": "pattern",
-      "theme_topic": "Well-Groomed"
+      "theme_topic": "Harsh Modern"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 15,
+    "level": 15,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 15
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.4053,
-        "w": 7.1416,
-        "x": 6.4751,
-        "y": 5.012
+        "h": 2.1904,
+        "w": 5.0567,
+        "x": 0.3608,
+        "y": 5.4801
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "ribbons",
+        "family": "flowchart",
         "fill": [
-          62,
-          129,
-          199
+          66,
+          65,
+          57
         ],
         "focus": false,
         "line": [
-          101,
-          69,
-          219
+          223,
+          122,
+          70
         ],
-        "line_width": 7.724957556239797,
+        "line_width": 3.6053756096447644,
         "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Well-Groomed"
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Harsh Modern"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.2231,
-        "w": 6.4852,
-        "x": 6.3149,
-        "y": 1.5646
+        "h": 3.1336,
+        "w": 7.1171,
+        "x": 6.1921,
+        "y": -0.0013
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "symbols",
+        "family": "panel",
         "fill": [
-          95,
           118,
-          184
+          120,
+          139
         ],
-        "focus": false,
         "line": [
-          168,
-          170,
-          110
+          118,
+          120,
+          139
         ],
-        "line_width": 5.523947747815959,
+        "line_width": 2.337540395324628,
         "outline_only": false,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Well-Groomed"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Harsh Modern"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.2717,
-        "w": 8.8609,
-        "x": 0.5581,
-        "y": 0.3559
+        "h": 1.2375,
+        "w": 7.0054,
+        "x": 0.5445,
+        "y": 0.3287
       },
       "id": "object_003",
       "properties": {
@@ -113,13 +119,13 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 42,
+        "font_face": "Aptos Display",
+        "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Icky Crabby",
-        "theme_topic": "Well-Groomed",
+        "text": "Deceive Weather Abject Unite",
+        "theme_topic": "Harsh Modern",
         "underline": false
       },
       "type": "text",
@@ -127,10 +133,10 @@
     },
     {
       "bbox": {
-        "h": 0.3499,
-        "w": 0.369,
-        "x": 1.0806,
-        "y": 2.6607
+        "h": 2.3944,
+        "w": 3.8451,
+        "x": 0.5407,
+        "y": 1.8395
       },
       "id": "object_004",
       "properties": {
@@ -138,288 +144,348 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          31,
-          117,
-          161
+          118,
+          120,
+          139
         ],
         "line": [
-          81,
-          91,
-          171
+          118,
+          120,
+          139
         ],
-        "line_width": 2.3302553172851246,
+        "line_width": 0.8238464219338,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Well-Groomed"
+        "theme_topic": "Harsh Modern"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.8496,
-        "w": 0.9657,
-        "x": 0.6054,
-        "y": 3.2937
+        "h": 1.8875,
+        "w": 3.3071,
+        "x": 0.801,
+        "y": 2.0854
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "categories": [
+          "moon",
+          "screw",
+          "love",
+          "dispensable",
+          "wrench"
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "price copper plastic grubby knit juvenile cable",
-        "theme_topic": "Well-Groomed",
-        "underline": false
+        "chart": "line",
+        "focus": false,
+        "has_legend": false,
+        "has_title": false,
+        "ppt_type": 65,
+        "series": [
+          {
+            "color": [
+              139,
+              189,
+              86
+            ],
+            "name": "industrious bolt",
+            "values": [
+              34,
+              41,
+              25,
+              59,
+              69
+            ]
+          },
+          {
+            "color": [
+              228,
+              39,
+              73
+            ],
+            "name": "pale planes",
+            "values": [
+              46,
+              10,
+              46,
+              53,
+              60
+            ]
+          },
+          {
+            "color": [
+              132,
+              189,
+              215
+            ],
+            "name": "bashful",
+            "values": [
+              80,
+              23,
+              32,
+              39,
+              43
+            ]
+          }
+        ],
+        "theme_topic": "Harsh Modern",
+        "title": "nostalgic invincible meeting men yoke"
       },
-      "type": "text",
+      "type": "chart",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.3467,
-        "w": 0.3739,
-        "x": 2.2737,
-        "y": 2.595
+        "h": 2.3576,
+        "w": 3.8333,
+        "x": 8.9894,
+        "y": 4.5923
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
-        ],
+        "clip": "blob",
+        "focus": true,
         "line": [
-          81,
-          91,
-          171
+          96,
+          165,
+          250
         ],
-        "line_width": 3.4135297021613074,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Well-Groomed"
+        "line_width": 9,
+        "theme_topic": "Harsh Modern"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.8428,
-        "w": 0.9098,
-        "x": 1.8599,
-        "y": 3.2669
+        "h": 0.9396,
+        "w": 1.5816,
+        "x": 6.6985,
+        "y": 2.6466
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "pattern": "burst",
+        "primary": [
+          35,
+          53,
+          227
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "healthy lazy melted energetic discover flower condition",
-        "theme_topic": "Well-Groomed",
-        "underline": false
+        "secondary": [
+          244,
+          180,
+          76
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#cb6c51\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#ca7b90\" opacity=\"0.72\"/>\n        </svg>",
+        "theme_topic": "Harsh Modern"
       },
-      "type": "text",
+      "type": "svg",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.3516,
-        "w": 0.3577,
-        "x": 3.5609,
-        "y": 2.6766
+        "h": 0.5609,
+        "w": 0.7664,
+        "x": 10.7396,
+        "y": 6.4335
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 3,
-        "family": "panel",
+        "family": "stars",
         "fill": [
-          31,
-          117,
-          161
+          180,
+          63,
+          224
         ],
+        "focus": false,
         "line": [
-          81,
-          91,
-          171
+          159,
+          132,
+          103
         ],
-        "line_width": 1.5491219844864093,
+        "line_width": 1.9013075078754504,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Well-Groomed"
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Harsh Modern"
       },
       "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.8602,
-        "w": 0.8765,
-        "x": 3.1148,
-        "y": 3.2844
+        "h": 0.7457,
+        "w": 0.6896,
+        "x": 1.9368,
+        "y": 0.7334
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "fill": [
+          244,
+          180,
+          76
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "bee noiseless lean automatic stain afternoon",
-        "theme_topic": "Well-Groomed",
-        "underline": false
+        "line": [
+          96,
+          165,
+          250
+        ],
+        "line_width": 2.279067240366345,
+        "pattern": "zigzag",
+        "points": [
+          [
+            0.02,
+            0.25
+          ],
+          [
+            0.22,
+            0.05
+          ],
+          [
+            0.42,
+            0.32
+          ],
+          [
+            0.62,
+            0.08
+          ],
+          [
+            0.95,
+            0.75
+          ],
+          [
+            0.72,
+            0.95
+          ],
+          [
+            0.5,
+            0.65
+          ],
+          [
+            0.25,
+            0.92
+          ]
+        ],
+        "theme_topic": "Harsh Modern"
       },
-      "type": "text",
+      "type": "freeform",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2876,
-        "w": 0.2865,
-        "x": 4.5316,
-        "y": 2.7062
+        "h": 1.0232,
+        "w": 0.8194,
+        "x": 7.8365,
+        "y": 1.6173
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          31,
-          117,
-          161
+        "color": [
+          181,
+          169,
+          180
         ],
-        "line": [
-          81,
-          91,
-          171
-        ],
-        "line_width": 4.066694110387875,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Well-Groomed"
+        "connector": "curve",
+        "dash": 1,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Harsh Modern",
+        "width": 1.1434647904189976
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.8349,
-        "w": 0.6958,
-        "x": 4.3114,
-        "y": 3.3051
+        "h": 0.216,
+        "w": 2.0458,
+        "x": 0.7045,
+        "y": 3.0273
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          246,
-          248,
-          252
+          210,
+          37,
+          154
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "peep planes crow order general cruel",
-        "theme_topic": "Well-Groomed",
-        "underline": false
+        "connector": "curve",
+        "dash": 1,
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "Harsh Modern",
+        "width": 1.0816901070531704
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.258,
-        "w": 0.2234,
-        "x": 5.4596,
-        "y": 2.8149
+        "h": 0.8843,
+        "w": 0.34,
+        "x": 10.4676,
+        "y": 2.0536
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 7,
+        "family": "basic",
         "fill": [
-          31,
           117,
-          161
+          44,
+          189
         ],
+        "focus": false,
         "line": [
-          81,
-          91,
-          171
+          45,
+          211,
+          230
         ],
-        "line_width": 1.0401622403631166,
+        "line_width": 5.157690570186837,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Well-Groomed"
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Harsh Modern"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.861,
-        "w": 0.5664,
-        "x": 5.3177,
-        "y": 3.3133
+        "h": 0.2975,
+        "w": 1.9548,
+        "x": 8.1822,
+        "y": 2.6949
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          142,
+          92,
+          97
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "charming glistening afterthought incredible limping hellish sand",
-        "theme_topic": "Well-Groomed",
+        "text": "star choke destroy supply",
+        "theme_topic": "Harsh Modern",
         "underline": false
       },
       "type": "text",
@@ -427,363 +493,60 @@
     },
     {
       "bbox": {
-        "h": 0.1,
-        "w": 1.1957,
-        "x": 1.246,
-        "y": 2.8585
+        "h": 1.205,
+        "w": 0.9125,
+        "x": 7.2547,
+        "y": 4.8582
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "color": [
-          147,
-          154,
-          204
+          25,
+          230,
+          69
         ],
-        "connector": "elbow",
-        "dash": 7,
+        "connector": "straight",
+        "dash": 1,
         "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Well-Groomed",
-        "width": 2.379926576886312
+        "ppt_type": 1,
+        "theme_topic": "Harsh Modern",
+        "width": 0.684409174108302
       },
       "type": "connector",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.1,
-        "w": 1.2803,
-        "x": 2.4417,
-        "y": 2.7896
+        "h": 0.6408,
+        "w": 0.5007,
+        "x": 0.8022,
+        "y": 3.1275
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          147,
-          154,
-          204
-        ],
-        "connector": "straight",
-        "dash": 5,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Well-Groomed",
-        "width": 1.2919485530676174
-      },
-      "type": "connector",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.1,
-        "w": 0.9475,
-        "x": 3.7221,
-        "y": 2.8355
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          147,
-          154,
-          204
-        ],
-        "connector": "curve",
-        "dash": 7,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Well-Groomed",
-        "width": 2.6890087358213415
-      },
-      "type": "connector",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.1,
-        "w": 0.9224,
-        "x": 4.6695,
-        "y": 2.8538
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          147,
-          154,
-          204
-        ],
-        "connector": "straight",
-        "dash": 4,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Well-Groomed",
-        "width": 0.9740277653602457
-      },
-      "type": "connector",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 2.4783,
-        "w": 6.5193,
-        "x": 6.3196,
-        "y": 1.8605
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": true,
-        "mask_line": [
-          111,
-          47,
-          179
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Well-Groomed",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 2.348,
-        "w": 12.2046,
-        "x": 0.5165,
-        "y": 4.5979
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          68,
-          171,
-          91
-        ],
-        "line_width": 15,
-        "theme_topic": "Well-Groomed"
-      },
-      "type": "svg_image",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.481,
-        "w": 0.4373,
-        "x": 3.0828,
-        "y": 5.0133
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          222,
-          133,
-          62
-        ],
-        "line": [
-          218,
-          229,
-          45
-        ],
-        "line_width": 1.641161880057755,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Well-Groomed"
-      },
-      "type": "freeform",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.2594,
-        "w": 1.0957,
-        "x": 9.4165,
-        "y": 0.4709
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          148,
-          154,
-          175
-        ],
-        "connector": "elbow",
         "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Well-Groomed",
-        "width": 1.4800365051212003
-      },
-      "type": "connector",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.5058,
-        "w": 0.7219,
-        "x": 10.8907,
-        "y": 3.7064
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          129,
-          81,
-          170
-        ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Gleaming",
-        "theme_topic": "Well-Groomed",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.4065,
-        "w": 0.7348,
-        "x": 7.23,
-        "y": 4.0706
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "family": "callouts",
         "fill": [
-          90,
-          47,
-          191
+          94,
+          122,
+          184
         ],
         "focus": false,
         "line": [
-          55,
+          46,
           185,
-          86
+          78
         ],
-        "line_width": 2.279178614647877,
+        "line_width": 1.0124494732748386,
         "outline_only": false,
-        "ppt_type": 103,
-        "shape": "wave",
-        "theme_topic": "Well-Groomed"
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Harsh Modern"
       },
       "type": "shape",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 1.0849,
-        "x": 2.2418,
-        "y": 6.8079
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
-        "fill": [
-          57,
-          98,
-          105
-        ],
-        "focus": false,
-        "line": [
-          193,
-          177,
-          121
-        ],
-        "line_width": 3.2862819933132017,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Well-Groomed"
-      },
-      "type": "shape",
-      "z_order": 24
-    },
-    {
-      "bbox": {
-        "h": 0.589,
-        "w": 0.6734,
-        "x": 5.6011,
-        "y": 0.3698
-      },
-      "id": "object_025",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          75,
-          34,
-          195
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Swim Pancake",
-        "theme_topic": "Well-Groomed",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 25
+      "z_order": 15
     }
   ],
   "slide": {

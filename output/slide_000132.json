@@ -8,102 +8,81 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        98,
-        42,
-        150
+      "colors": [
+        [
+          195,
+          137,
+          37
+        ],
+        [
+          255,
+          206,
+          86
+        ]
       ],
       "fill": [
         232,
         163,
         45
       ],
-      "fore_color": [
-        71,
-        221,
-        181
-      ],
-      "pattern": 13,
-      "style": "pattern",
-      "theme_topic": "Magic"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Terrify Bear"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 4,
+    "level": 4,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 4
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.965,
-        "w": 8.573,
-        "x": 3.2953,
-        "y": 2.9775
+        "h": 3.9765,
+        "w": 8.8126,
+        "x": -0.3181,
+        "y": 4.4078
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          130,
-          168,
-          44
+          218,
+          205,
+          90
         ],
         "focus": false,
         "line": [
-          42,
-          119,
-          221
+          178,
+          82,
+          94
         ],
-        "line_width": 3.0874225740886923,
-        "outline_only": true,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Magic"
+        "line_width": 6.100253241500621,
+        "outline_only": false,
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Terrify Bear"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.9864,
-        "w": 7.7858,
-        "x": 1.9499,
-        "y": 2.129
+        "h": 1.1521,
+        "w": 7.4949,
+        "x": 3.0076,
+        "y": 0.6467
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          142,
-          100,
-          57
-        ],
-        "focus": false,
-        "line": [
-          27,
-          189,
-          102
-        ],
-        "line_width": 3.8247268054262893,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Magic"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.1392,
-        "w": 7.0074,
-        "x": 2.3637,
-        "y": 0.6586
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -113,652 +92,75 @@
           30,
           36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 39,
+        "font_face": "Georgia",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Robust Healthy",
-        "theme_topic": "Magic",
+        "text": "Chemical Uptight Servant Embarrass Pencil",
+        "theme_topic": "Terrify Bear",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 2.58,
+        "w": 12.2006,
+        "x": 0.5597,
+        "y": 4.5303
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.09606525172728127,
+          0.013047110286195387,
+          0.0020098508819258766,
+          0.003946663369087851
+        ],
+        "focus": true,
+        "mask_line": [
+          51,
+          63,
+          101
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Terrify Bear",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.35,
-        "w": 11.95,
-        "x": 0.6767,
-        "y": 5.9776
+        "h": 1.0383,
+        "w": 6.0299,
+        "x": 0.7529,
+        "y": 2.9303
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Immense",
-        "theme_topic": "Magic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.3579,
-        "w": 11.9556,
-        "x": 0.7047,
-        "y": 6.5802
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
         "bold": false,
         "color": [
           119,
           89,
           40
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "expand cherry tightfisted list radiate pretend lame bruise hideous mist warlike drink",
-        "theme_topic": "Magic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.413,
-        "w": 12.242,
-        "x": 0.5328,
-        "y": 4.0562
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          195,
-          137,
-          37
-        ],
-        "line": [
-          195,
-          137,
-          37
-        ],
-        "line_width": 1.80657873426792,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Magic"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.0765,
-        "w": 11.9248,
-        "x": 0.6964,
-        "y": 4.2026
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.019751422274148927,
-          0.1282215732678611,
-          0.23560913431126007,
-          0.2890607516334246
-        ],
-        "focus": true,
-        "mask_line": [
-          77,
-          151,
-          57
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Magic",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 1.6443,
-        "w": 7.0227,
-        "x": 0.5527,
-        "y": 1.9858
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          186,
-          179,
-          83
-        ],
-        "line": [
-          195,
-          137,
-          37
-        ],
-        "line_width": 3.4939938064907956,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Magic"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.7457,
-        "w": 6.6986,
-        "x": 0.7422,
-        "y": 2.2023
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "61",
-        "theme_topic": "Magic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.6376,
-        "w": 6.6812,
-        "x": 0.722,
-        "y": 2.9171
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          119,
-          89,
-          40
-        ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "frighten awake destroy downtown six suspect",
-        "theme_topic": "Magic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 1.6386,
-        "w": 5.0034,
-        "x": 7.7616,
-        "y": 1.9921
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          186,
-          179,
-          83
-        ],
-        "line": [
-          195,
-          137,
-          37
-        ],
-        "line_width": 4.470350569712288,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Magic"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.7649,
-        "w": 4.6645,
-        "x": 7.9664,
-        "y": 2.1764
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          71,
-          221,
-          181
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "73%",
-        "theme_topic": "Magic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.6433,
-        "w": 4.6417,
-        "x": 7.929,
-        "y": 2.8963
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          119,
-          89,
-          40
-        ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "recess crib interfere",
-        "theme_topic": "Magic",
+        "text": "cub easy insidious",
+        "theme_topic": "Terrify Bear",
         "underline": false
       },
       "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.4741,
-        "w": 0.7642,
-        "x": 8.0553,
-        "y": 0.8217
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          255,
-          211,
-          88
-        ],
-        "line": [
-          209,
-          205,
-          101
-        ],
-        "line_width": 0.848554400981244,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Magic"
-      },
-      "type": "freeform",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.6094,
-        "w": 1.1258,
-        "x": 0.941,
-        "y": 3.816
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          213,
-          150,
-          92
-        ],
-        "focus": false,
-        "line": [
-          40,
-          75,
-          193
-        ],
-        "line_width": 2.1745848725629613,
-        "outline_only": true,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Magic"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4232,
-        "w": 1.52,
-        "x": 6.8458,
-        "y": 4.449
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          179,
-          33,
-          63
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Fluffy Caption Known",
-        "theme_topic": "Magic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.5681,
-        "w": 2.3171,
-        "x": 2.9643,
-        "y": 5.6894
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          183,
-          145,
-          114
-        ],
-        "bold": true,
-        "color": [
-          230,
-          119,
-          75
-        ],
-        "font_face": "Verdana",
-        "font_size": 9,
-        "italic": true,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Air Order Shaggy",
-        "theme_topic": "Magic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.8129,
-        "w": 1.3199,
-        "x": 5.3065,
-        "y": 5.8666
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          195,
-          137,
-          37
-        ],
-        "focus": false,
-        "line": [
-          119,
-          89,
-          40
-        ],
-        "line_width": 5.7173343714475475,
-        "outline_only": true,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Magic"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.4042,
-        "w": 0.8032,
-        "x": 7.5647,
-        "y": 2.4329
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          53,
-          60,
-          140
-        ],
-        "font_face": "Verdana",
-        "font_size": 16,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Listen",
-        "theme_topic": "Magic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 1.1672,
-        "w": 0.6688,
-        "x": 8.2772,
-        "y": 1.2863
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          255,
-          211,
-          88
-        ],
-        "line": [
-          58,
-          203,
-          185
-        ],
-        "line_width": 1.38919338796928,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Magic"
-      },
-      "type": "freeform",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.5638,
-        "w": 1.0859,
-        "x": 0.3895,
-        "y": 1.1922
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          183,
-          127,
-          191
-        ],
-        "bold": true,
-        "color": [
-          157,
-          137,
-          211
-        ],
-        "font_face": "Verdana",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wry decorous",
-        "theme_topic": "Magic",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.2024,
-        "w": 1.8022,
-        "x": 2.344,
-        "y": 1.2616
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          170,
-          88,
-          193
-        ],
-        "font_face": "Verdana",
-        "font_size": 8,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "abject adaptable baseball",
-        "theme_topic": "Magic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 22
+      "z_order": 4
     }
   ],
   "slide": {

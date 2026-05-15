@@ -8,132 +8,143 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        131,
-        77,
-        195
+      "colors": [
+        [
+          160,
+          110,
+          194
+        ],
+        [
+          124,
+          79,
+          113
+        ]
       ],
       "fill": [
-        99,
-        31,
-        180
+        126,
+        58,
+        173
       ],
-      "fore_color": [
-        51,
-        63,
-        101
-      ],
-      "pattern": 22,
-      "style": "pattern",
-      "theme_topic": "Typical Nonstop"
+      "focus": "bottom_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Purring"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 16,
+    "level": 16,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 16
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.3201,
-        "w": 8.5088,
-        "x": 0.162,
-        "y": 1.3244
+        "h": 2.5132,
+        "w": 4.2732,
+        "x": 9.205,
+        "y": 4.3932
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
+        "dash": 2,
+        "family": "stars",
         "fill": [
-          55,
-          73,
-          153
+          65,
+          132,
+          132
         ],
         "focus": false,
         "line": [
-          33,
-          230,
-          144
+          68,
+          199,
+          143
         ],
-        "line_width": 3.137947769236705,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Typical Nonstop"
+        "line_width": 7.685362771129387,
+        "outline_only": false,
+        "ppt_type": 90,
+        "shape": "explosion2",
+        "theme_topic": "Purring"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.6433,
-        "w": 6.7377,
-        "x": 3.5627,
-        "y": -0.4585
+        "h": 1.6503,
+        "w": 4.9577,
+        "x": 0.7969,
+        "y": 1.0718
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          55,
-          57,
-          115
+          187,
+          94,
+          171
         ],
         "focus": false,
         "line": [
-          83,
-          160,
-          91
+          126,
+          35,
+          61
         ],
-        "line_width": 3.1789957657082546,
+        "line_width": 5.031388163054647,
         "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Typical Nonstop"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Purring"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.4254,
-        "w": 8.117,
-        "x": 2.5152,
-        "y": 1.9799
+        "h": 4.0175,
+        "w": 7.8787,
+        "x": 1.5867,
+        "y": 0.9977
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          131,
-          149,
-          178
+          47,
+          77,
+          64
         ],
         "focus": false,
         "line": [
-          222,
-          38,
-          74
+          207,
+          32,
+          58
         ],
-        "line_width": 6.423472352631849,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Typical Nonstop"
+        "line_width": 6.973473952962169,
+        "outline_only": true,
+        "ppt_type": 67,
+        "shape": "flow_document",
+        "theme_topic": "Purring"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.0573,
-        "w": 8.7825,
-        "x": 0.5709,
-        "y": 0.3267
+        "h": 1.2447,
+        "w": 8.6144,
+        "x": 0.5469,
+        "y": 0.363
       },
       "id": "object_004",
       "properties": {
@@ -145,13 +156,13 @@
           248,
           252
         ],
-        "font_face": "Arial",
+        "font_face": "Trebuchet MS",
         "font_size": 35,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Macho Obeisant",
-        "theme_topic": "Typical Nonstop",
+        "text": "Caption Nutritious Reduce Opposite",
+        "theme_topic": "Purring",
         "underline": false
       },
       "type": "text",
@@ -159,39 +170,90 @@
     },
     {
       "bbox": {
-        "h": 0.2626,
-        "w": 6.1092,
-        "x": 6.5219,
-        "y": 1.9864
+        "h": 2.5745,
+        "w": 5.804,
+        "x": 6.9227,
+        "y": 1.9148
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
+        "band": [
+          160,
+          110,
+          194
+        ],
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          160,
+          110,
+          194
+        ],
+        "border": [
+          192,
+          162,
+          216
+        ],
+        "border_dash": "dash",
+        "border_width": 1.6281749077577874,
+        "cells": [
+          [
+            "grieving",
+            "curve",
+            "mere",
+            "feeble"
+          ],
+          [
+            "fluffy",
+            "jobless",
+            "bizarre",
+            "picture grotesque"
+          ],
+          [
+            "trick cap",
+            "pies",
+            "baseball",
+            "satisfy"
+          ],
+          [
+            "melt",
+            "flowery",
+            "wren",
+            "alert"
+          ],
+          [
+            "smart coherent",
+            "rhetorical",
+            "scratch space",
+            "waste"
+          ]
+        ],
+        "cols": 4,
+        "font_size": 12,
+        "has_header": false,
+        "header": [
           51,
           63,
           101
         ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "NUTTY",
-        "theme_topic": "Typical Nonstop",
-        "underline": false
+        "rows": 5,
+        "text_color": [
+          246,
+          248,
+          252
+        ],
+        "theme_topic": "Purring"
       },
-      "type": "text",
+      "type": "table",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.8074,
-        "w": 6.1363,
-        "x": 6.518,
-        "y": 2.4628
+        "h": 1.0291,
+        "w": 5.647,
+        "x": 0.6982,
+        "y": 1.948
       },
       "id": "object_006",
       "properties": {
@@ -199,17 +261,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          53,
-          36,
-          55
+          218,
+          167,
+          212
         ],
-        "font_face": "Arial",
-        "font_size": 26,
-        "italic": true,
+        "font_face": "Trebuchet MS",
+        "font_size": 28,
+        "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Rambunctious Neat Good",
-        "theme_topic": "Typical Nonstop",
+        "text": "Stretch Guide Itch Neighborly",
+        "theme_topic": "Purring",
         "underline": false
       },
       "type": "text",
@@ -217,10 +279,10 @@
     },
     {
       "bbox": {
-        "h": 1.1016,
-        "w": 6.1255,
-        "x": 6.5164,
-        "y": 3.4989
+        "h": 3.5921,
+        "w": 5.6705,
+        "x": 0.7126,
+        "y": 3.2803
       },
       "id": "object_007",
       "properties": {
@@ -228,17 +290,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          179,
-          150,
-          219
+          192,
+          162,
+          216
         ],
-        "font_face": "Arial",
-        "font_size": 15,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "bang uptight guttural melted calendar plausible didactic confess early crooked applaud half wise subsequent",
-        "theme_topic": "Typical Nonstop",
+        "text": "seashore nonstop absurd plain hypnotic film whirl harmony amuse contain psychotic melt observation",
+        "theme_topic": "Purring",
         "underline": false
       },
       "type": "text",
@@ -246,107 +308,97 @@
     },
     {
       "bbox": {
-        "h": 1.9431,
-        "w": 6.4241,
-        "x": 6.3564,
-        "y": 5.0666
+        "h": 0.2932,
+        "w": 5.6163,
+        "x": 7.0403,
+        "y": 4.9666
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          131,
-          77,
-          195
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          51,
+          63,
+          101
         ],
-        "line": [
-          131,
-          77,
-          195
-        ],
-        "line_width": 0.8236218480315318,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Typical Nonstop"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "STRENGTHEN",
+        "theme_topic": "Purring",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.4323,
-        "w": 5.9004,
-        "x": 6.5773,
-        "y": 5.2747
+        "h": 0.5495,
+        "w": 5.6146,
+        "x": 6.9994,
+        "y": 5.4088
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "fry",
-          "remove",
-          "macho"
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          138,
+          133,
+          163
         ],
-        "chart": "bar",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 57,
-        "series": [
-          {
-            "color": [
-              88,
-              81,
-              84
-            ],
-            "name": "sink",
-            "values": [
-              71,
-              33,
-              89
-            ]
-          }
-        ],
-        "theme_topic": "Typical Nonstop",
-        "title": "recondite hysterical truck"
+        "font_face": "Trebuchet MS",
+        "font_size": 28,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Things Warm",
+        "theme_topic": "Purring",
+        "underline": false
       },
-      "type": "chart",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.1358,
-        "w": 1.3289,
-        "x": 8.7741,
-        "y": 1.3621
+        "h": 0.6738,
+        "w": 5.5904,
+        "x": 7.0321,
+        "y": 6.226
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          136,
-          225,
-          78
+          192,
+          162,
+          216
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Typical Nonstop",
-        "width": 1.960596138009937
+        "font_face": "Verdana",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "honey playground fascinated health lively crib shy bubble pale acoustics closed",
+        "theme_topic": "Purring",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5958,
-        "w": 1.0339,
-        "x": 1.9835,
-        "y": 0.6551
+        "h": 0.6482,
+        "w": 0.944,
+        "x": 9.9598,
+        "y": 6.0888
       },
       "id": "object_011",
       "properties": {
@@ -354,17 +406,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          141,
-          33,
-          31
+          93,
+          194,
+          174
         ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "snatch young shut tooth",
-        "theme_topic": "Typical Nonstop",
+        "font_face": "Verdana",
+        "font_size": 6,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Daily",
+        "theme_topic": "Purring",
         "underline": false
       },
       "type": "text",
@@ -372,99 +424,155 @@
     },
     {
       "bbox": {
-        "h": 0.8282,
-        "w": 0.6392,
-        "x": 9.8567,
-        "y": 1.4619
+        "h": 0.3317,
+        "w": 0.9927,
+        "x": 1.7905,
+        "y": 2.3131
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          166,
-          115,
-          133
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          217,
+          182,
+          160
         ],
-        "focus": false,
-        "line": [
-          167,
-          194,
-          133
-        ],
-        "line_width": 5.166736571353027,
-        "outline_only": false,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Typical Nonstop"
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "devilish collar plucky momentous",
+        "theme_topic": "Purring",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.5747,
-        "w": 1.2333,
-        "x": 6.0525,
-        "y": 1.8764
+        "h": 0.9975,
+        "w": 0.8223,
+        "x": 10.5692,
+        "y": 3.1448
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 2,
         "family": "arrows",
         "fill": [
-          208,
-          97,
-          111
+          212,
+          128,
+          73
         ],
         "focus": false,
         "line": [
-          51,
-          63,
-          101
+          83,
+          175,
+          70
         ],
-        "line_width": 1.1337447206799696,
+        "line_width": 4.707711696336356,
         "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Typical Nonstop"
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Purring"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.2579,
-        "w": 0.6069,
-        "x": 4.1124,
-        "y": 2.9598
+        "h": 0.218,
+        "w": 1.0505,
+        "x": 11.0561,
+        "y": 1.7023
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
-        "fill": [
-          69,
-          222,
-          219
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          100,
+          88,
+          161
         ],
-        "focus": false,
-        "line": [
-          51,
-          63,
-          101
-        ],
-        "line_width": 2.807229769064414,
-        "outline_only": false,
-        "ppt_type": 21,
-        "shape": "heart",
-        "theme_topic": "Typical Nonstop"
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Aloof Sparkling",
+        "theme_topic": "Purring",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.2724,
+        "w": 0.922,
+        "x": 9.7463,
+        "y": 1.9656
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          161,
+          211,
+          128
+        ],
+        "bold": true,
+        "color": [
+          73,
+          104,
+          178
+        ],
+        "font_face": "Verdana",
+        "font_size": 7,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Apathetic Station Second-Hand",
+        "theme_topic": "Purring",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.3355,
+        "w": 1.6192,
+        "x": 11.4176,
+        "y": 1.7202
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          82,
+          141,
+          128
+        ],
+        "font_face": "Verdana",
+        "font_size": 8,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "badge stranger belligerent rob narrow",
+        "theme_topic": "Purring",
+        "underline": true
+      },
+      "type": "text",
+      "z_order": 16
     }
   ],
   "slide": {

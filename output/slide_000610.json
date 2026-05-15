@@ -8,68 +8,79 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        122,
-        187,
-        110
+      "colors": [
+        [
+          28,
+          143,
+          112
+        ],
+        [
+          167,
+          51,
+          138
+        ]
       ],
       "fill": [
-        67,
-        159,
-        50
+        28,
+        143,
+        112
       ],
-      "fore_color": [
-        168,
-        84,
-        67
-      ],
-      "pattern": 39,
-      "style": "pattern",
-      "theme_topic": "Soggy Cherry"
+      "focus": "bottom_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Scream Frequent"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 16,
+    "level": 16,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 16
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.4196,
-        "w": 5.9154,
-        "x": 8.1717,
-        "y": 0.3531
+        "h": 2.73,
+        "w": 5.8696,
+        "x": 0.8101,
+        "y": 2.7661
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "ribbons",
+        "dash": 5,
+        "family": "basic",
         "fill": [
-          80,
-          175,
-          84
+          115,
+          138,
+          159
         ],
         "focus": false,
         "line": [
-          96,
-          87,
-          168
+          138,
+          36,
+          206
         ],
-        "line_width": 7.879148932192543,
+        "line_width": 6.013761671121326,
         "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Soggy Cherry"
+        "ppt_type": 2,
+        "shape": "parallelogram",
+        "theme_topic": "Scream Frequent"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.4556,
-        "w": 4.3696,
-        "x": 2.6698,
-        "y": 6.5086
+        "h": 5.1085,
+        "w": 8.3459,
+        "x": 1.2735,
+        "y": 0.0587
       },
       "id": "object_002",
       "properties": {
@@ -77,142 +88,154 @@
         "dash": 1,
         "family": "arrows",
         "fill": [
-          41,
-          54,
-          66
+          71,
+          99,
+          120
         ],
         "focus": false,
         "line": [
-          58,
-          127,
-          201
+          139,
+          68,
+          151
         ],
-        "line_width": 5.381814168072,
-        "outline_only": true,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Soggy Cherry"
+        "line_width": 2.0757402364737025,
+        "outline_only": false,
+        "ppt_type": 45,
+        "shape": "curved_right_arrow",
+        "theme_topic": "Scream Frequent"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.1089,
-        "w": 8.397,
-        "x": 4.4312,
-        "y": 3.8295
+        "h": 2.0079,
+        "w": 0.2,
+        "x": 11.4647,
+        "y": 3.7388
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "math",
+        "family": "panel",
         "fill": [
-          61,
-          156,
-          182
+          255,
+          238,
+          103
         ],
-        "focus": false,
         "line": [
-          92,
-          160,
-          113
+          43,
+          162,
+          130
         ],
-        "line_width": 7.848673331716354,
-        "outline_only": true,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Soggy Cherry"
+        "line_width": 4.557877221659533,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Scream Frequent"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 4.5459,
-        "w": 4.6209,
-        "x": 4.0091,
-        "y": 2.5396
+        "h": 6.3845,
+        "w": 6.3696,
+        "x": 0.5309,
+        "y": 0.55
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          132,
-          81,
-          85
+        "categories": [
+          "moon",
+          "purpose",
+          "lunch",
+          "insidious",
+          "military"
         ],
-        "focus": false,
-        "line": [
-          70,
-          204,
-          216
+        "chart": "doughnut",
+        "focus": true,
+        "has_legend": true,
+        "has_title": false,
+        "ppt_type": -4120,
+        "series": [
+          {
+            "color": [
+              82,
+              126,
+              73
+            ],
+            "name": "prick wonder",
+            "values": [
+              71,
+              46,
+              8,
+              37,
+              87
+            ]
+          }
         ],
-        "line_width": 3.3566243194864267,
-        "outline_only": false,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Soggy Cherry"
+        "theme_topic": "Scream Frequent",
+        "title": "reign near big happen"
       },
-      "type": "shape",
+      "type": "chart",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.8993,
-        "w": 5.4248,
-        "x": 1.5542,
-        "y": 1.1556
+        "h": 3.0559,
+        "w": 1.5859,
+        "x": 7.5812,
+        "y": 0.5776
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "crop": [
+          0.002138524474332151,
+          0.00708354073067258,
+          0.012541332424421282,
+          0.0648108388363015
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 39,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Meat Thumb Switch",
-        "theme_topic": "Soggy Cherry",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          91,
+          138,
+          127
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Scream Frequent",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 5.4239,
-        "w": 2.3406,
-        "x": 7.8179,
-        "y": 1.4662
+        "h": 3.085,
+        "w": 1.6415,
+        "x": 9.3166,
+        "y": 0.619
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0,
-          0,
-          0,
-          0
+          0.16990723225718246,
+          0.0309307081891819,
+          0.12692077541835367,
+          0.008439731490687233
         ],
-        "focus": true,
+        "focus": false,
         "mask_line": [
-          174,
-          52,
-          139
+          255,
+          238,
+          103
         ],
         "mask_overlay": false,
-        "theme_topic": "Soggy Cherry",
+        "theme_topic": "Scream Frequent",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -220,254 +243,299 @@
     },
     {
       "bbox": {
-        "h": 0.2883,
-        "w": 1.9665,
-        "x": 8.054,
-        "y": 6.4951
+        "h": 3.0856,
+        "w": 1.5908,
+        "x": 11.1156,
+        "y": 0.6128
       },
       "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.2690726005598236,
+          0.22100781679663786,
+          0.18613538069297522,
+          0.16882113545891728
+        ],
+        "focus": false,
+        "mask_line": [
+          154,
+          83,
+          206
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Scream Frequent",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 3.0624,
+        "w": 1.6268,
+        "x": 7.5473,
+        "y": 3.8159
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.045784556934442125,
+          0.10442853505552653,
+          0.04803331495855954,
+          0.30391318677550166
+        ],
+        "focus": false,
+        "mask_line": [
+          64,
+          215,
+          28
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Scream Frequent",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.2577,
+        "w": 1.2333,
+        "x": 7.7652,
+        "y": 6.4269
+      },
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          255,
+          238,
+          103
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Governor",
-        "theme_topic": "Soggy Cherry",
+        "text": "Money",
+        "theme_topic": "Scream Frequent",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 5.4297,
-        "w": 2.3542,
-        "x": 10.3481,
-        "y": 1.53
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          71,
-          221,
-          181
-        ],
-        "line_width": 11,
-        "theme_topic": "Soggy Cherry"
-      },
-      "type": "svg_image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 5.4645,
-        "w": 6.6718,
-        "x": 0.5906,
-        "y": 1.4994
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          36,
-          139,
-          95
-        ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          122,
-          187,
-          110
-        ],
-        "border": [
-          165,
-          207,
-          161
-        ],
-        "border_dash": "lgDash",
-        "border_width": 2.687736170671998,
-        "cells": [
-          [
-            "donkey",
-            "change vivacious",
-            "woman point"
-          ],
-          [
-            "demonic",
-            "plan stretch",
-            "wilderness"
-          ],
-          [
-            "fluttering teeny-tiny",
-            "creepy",
-            "public coat"
-          ],
-          [
-            "empty",
-            "torpid",
-            "advise fallacious"
-          ],
-          [
-            "excite snotty",
-            "writer",
-            "measure"
-          ],
-          [
-            "stretch actually",
-            "exultant pine",
-            "undesirable rice"
-          ],
-          [
-            "inconclusive form",
-            "offend anger",
-            "scratch"
-          ]
-        ],
-        "cols": 3,
-        "font_size": 6,
-        "has_header": true,
-        "header": [
-          61,
-          86,
-          48
-        ],
-        "rows": 7,
-        "text_color": [
-          53,
-          101,
-          160
-        ],
-        "theme_topic": "Soggy Cherry"
-      },
-      "type": "table",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.8958,
-        "w": 1.345,
-        "x": 1.5803,
-        "y": 1.795
+        "h": 3.0562,
+        "w": 1.6392,
+        "x": 9.3615,
+        "y": 3.8102
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          102,
-          57,
-          134
+        "crop": [
+          0.173383076255728,
+          0.2125952328535769,
+          0.08103974339729385,
+          0.19050946456994425
         ],
         "focus": false,
-        "line": [
-          175,
-          27,
-          229
+        "mask_line": [
+          160,
+          98,
+          37
         ],
-        "line_width": 3.116924483981418,
-        "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Soggy Cherry"
+        "mask_overlay": false,
+        "theme_topic": "Scream Frequent",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.764,
-        "w": 0.7948,
-        "x": 3.3091,
-        "y": 5.5307
+        "h": 3.1043,
+        "w": 1.5831,
+        "x": 11.0892,
+        "y": 3.8395
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          84,
-          80,
-          32
+        "crop": [
+          0.3062744306791586,
+          0.25942603443855067,
+          0.32527193202265164,
+          0.3179420537970416
         ],
         "focus": false,
-        "line": [
-          138,
-          143,
-          99
+        "mask_line": [
+          255,
+          238,
+          103
         ],
-        "line_width": 3.535189662576484,
-        "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Soggy Cherry"
+        "mask_overlay": true,
+        "theme_topic": "Scream Frequent",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.4807,
-        "w": 1.8002,
-        "x": 0.9566,
-        "y": 6.446
+        "h": 0.2842,
+        "w": 1.2414,
+        "x": 11.3346,
+        "y": 6.4266
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          129,
-          174,
-          124
+          255,
+          238,
+          103
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Soggy Cherry",
-        "width": 1.1455790693271037
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Memorize Strengthen Connection",
+        "theme_topic": "Scream Frequent",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2107,
-        "w": 0.9423,
-        "x": 10.6822,
-        "y": 5.9327
+        "h": 0.5515,
+        "w": 0.872,
+        "x": 7.5209,
+        "y": 4.7847
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          176,
-          81,
-          170
+        "dash": 2,
+        "family": "math",
+        "fill": [
+          119,
+          116,
+          177
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Soggy Cherry",
-        "width": 2.1128138325563235
+        "focus": false,
+        "line": [
+          167,
+          103,
+          191
+        ],
+        "line_width": 3.3321637598640055,
+        "outline_only": true,
+        "ppt_type": 164,
+        "shape": "minus",
+        "theme_topic": "Scream Frequent"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.8493,
+        "w": 1.212,
+        "x": 8.897,
+        "y": 6.3845
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "stars",
+        "fill": [
+          174,
+          59,
+          230
+        ],
+        "focus": false,
+        "line": [
+          51,
+          44,
+          121
+        ],
+        "line_width": 3.367262274783607,
+        "outline_only": false,
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Scream Frequent"
+      },
+      "type": "shape",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.5011,
+        "w": 2.3478,
+        "x": 6.1224,
+        "y": 4.877
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          151,
+          98,
+          104
+        ],
+        "font_face": "Aptos",
+        "font_size": 5,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "knit",
+        "theme_topic": "Scream Frequent",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.638,
+        "w": 0.8366,
+        "x": 10.3728,
+        "y": 5.6976
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          159,
+          44,
+          54
+        ],
+        "font_face": "Aptos",
+        "font_size": 5,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Dependent Clever",
+        "theme_topic": "Scream Frequent",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
     }
   ],
   "slide": {

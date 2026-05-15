@@ -8,155 +8,112 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "fill": [
-        31,
-        87,
-        166
+      "colors": [
+        [
+          130,
+          38,
+          162
+        ],
+        [
+          48,
+          78,
+          140
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Actor"
+      "fill": [
+        198,
+        64,
+        91
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Pretty"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 7,
+    "level": 7,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 7
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.9179,
-        "w": 8.6945,
-        "x": 1.3159,
-        "y": 0.7657
+        "h": 2.5588,
+        "w": 8.061,
+        "x": 0.4686,
+        "y": 0.166
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "flowchart",
         "fill": [
-          82,
-          162,
-          204
+          122,
+          70,
+          140
         ],
         "focus": false,
         "line": [
-          191,
-          221,
-          142
+          217,
+          163,
+          226
         ],
-        "line_width": 7.095778001208728,
-        "outline_only": false,
-        "ppt_type": 18,
-        "shape": "donut",
-        "theme_topic": "Actor"
+        "line_width": 4.02296661440933,
+        "outline_only": true,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Pretty"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.4676,
-        "w": 6.3234,
-        "x": 6.7697,
-        "y": 2.1449
+        "h": 7.5174,
+        "w": 13.3418,
+        "x": 0.0189,
+        "y": 3.2642
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          109,
-          63,
-          114
+          207,
+          97,
+          119
         ],
-        "focus": false,
         "line": [
-          95,
-          202,
-          178
+          207,
+          97,
+          119
         ],
-        "line_width": 5.161314521036285,
-        "outline_only": true,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Actor"
+        "line_width": 1.7433326016416153,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Pretty"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.1012,
-        "w": 5.2488,
-        "x": -0.2476,
-        "y": -0.4589
+        "h": 1.2205,
+        "w": 5.0858,
+        "x": 0.545,
+        "y": 0.3254
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          77,
-          160,
-          99
-        ],
-        "focus": false,
-        "line": [
-          42,
-          151,
-          151
-        ],
-        "line_width": 3.6441470985231317,
-        "outline_only": false,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Actor"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 4.1952,
-        "w": 3.4758,
-        "x": 6.1257,
-        "y": -0.3509
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          59,
-          167,
-          76
-        ],
-        "focus": false,
-        "line": [
-          143,
-          99,
-          105
-        ],
-        "line_width": 2.60940677097956,
-        "outline_only": false,
-        "ppt_type": 3,
-        "shape": "trapezoid",
-        "theme_topic": "Actor"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.1473,
-        "w": 7.1901,
-        "x": 3.376,
-        "y": 0.6655
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -166,392 +123,149 @@
           248,
           252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 35,
+        "font_face": "Arial",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Sniff Forgetful",
-        "theme_topic": "Actor",
+        "text": "Tricky Cheerful Innate Nutty",
+        "theme_topic": "Pretty",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.426,
+        "w": 3.1362,
+        "x": 8.9029,
+        "y": 5.8094
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Arial",
+        "font_size": 22,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "31%",
+        "theme_topic": "Pretty",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 3.4393,
+        "w": 6.8561,
+        "x": 5.403,
+        "y": 3.0875
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "categories": [
+          "offbeat",
+          "squeal",
+          "aromatic",
+          "call",
+          "telephone"
+        ],
+        "chart": "bar",
+        "focus": true,
+        "has_legend": true,
+        "has_title": true,
+        "ppt_type": 57,
+        "series": [
+          {
+            "color": [
+              47,
+              196,
+              215
+            ],
+            "name": "push",
+            "values": [
+              26,
+              18,
+              95,
+              25,
+              28
+            ]
+          }
+        ],
+        "theme_topic": "Pretty",
+        "title": "rural gaping knot"
+      },
+      "type": "chart",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.436,
-        "w": 5.9782,
-        "x": 6.7904,
-        "y": 1.9964
+        "h": 0.2998,
+        "w": 2.6692,
+        "x": 5.722,
+        "y": 5.8651
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          88,
+        "bg_color": null,
+        "bold": true,
+        "color": [
           129,
-          188
+          173,
+          75
         ],
-        "line": [
-          88,
-          129,
-          188
-        ],
-        "line_width": 1.7560548345995446,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Actor"
+        "font_face": "Arial",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Frantic",
+        "theme_topic": "Pretty",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.5115,
-        "w": 0.5746,
-        "x": 7.0323,
-        "y": 2.2096
+        "h": 1.2227,
+        "w": 2.562,
+        "x": 5.1576,
+        "y": 5.5353
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
-        "fill": [
-          88,
-          129,
-          188
+        "crop": [
+          0.13356255531866423,
+          0.05300614962415588,
+          0.15144778414061308,
+          0.16141552821435032
         ],
         "focus": false,
-        "line": [
-          169,
-          159,
-          60
-        ],
-        "line_width": 3.905797745157582,
-        "outline_only": false,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Actor"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.4553,
-        "w": 5.4738,
-        "x": 7.0488,
-        "y": 2.8877
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Kindly Flagrant",
-        "theme_topic": "Actor",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.4708,
-        "w": 6.0043,
-        "x": 6.7999,
-        "y": 3.6533
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          88,
-          129,
-          188
-        ],
-        "line": [
-          88,
-          129,
-          188
-        ],
-        "line_width": 1.6585641626193794,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Actor"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.428,
-        "w": 5.4702,
-        "x": 7.0545,
-        "y": 4.5308
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Collect Ceaseless",
-        "theme_topic": "Actor",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 1.7355,
-        "w": 5.9992,
-        "x": 6.7706,
-        "y": 5.296
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          88,
-          129,
-          188
-        ],
-        "line": [
-          88,
-          129,
-          188
-        ],
-        "line_width": 0.8942051467838683,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Actor"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.4493,
-        "w": 5.4897,
-        "x": 7.0209,
-        "y": 6.1823
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Lumpy",
-        "theme_topic": "Actor",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 5.0599,
-        "w": 5.8461,
-        "x": 0.5454,
-        "y": 1.996
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          88,
-          129,
-          188
-        ],
-        "line": [
-          88,
-          129,
-          188
-        ],
-        "line_width": 1.996705553915064,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Actor"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 4.5588,
-        "w": 5.3432,
-        "x": 0.7986,
-        "y": 2.2206
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "doctor",
-          "frame",
-          "riddle",
-          "longing",
-          "adorable"
-        ],
-        "chart": "doughnut",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              222,
-              84,
-              110
-            ],
-            "name": "needle charming",
-            "values": [
-              84,
-              91,
-              56,
-              52,
-              32
-            ]
-          }
-        ],
-        "theme_topic": "Actor",
-        "title": "rabbits jobless plantation hapless coat"
-      },
-      "type": "chart",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.4184,
-        "w": 1.2098,
-        "x": 8.0553,
-        "y": 0.7749
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          131,
-          72,
+        "mask_line": [
+          101,
+          84,
           108
         ],
-        "connector": "curve",
-        "dash": 7,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Actor",
-        "width": 1.4675090207246329
+        "mask_overlay": false,
+        "theme_topic": "Pretty",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "connector",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.5192,
-        "w": 1.7824,
-        "x": 7.9259,
-        "y": 6.3053
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          44,
-          66,
-          157
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Berserk Pushy Vigorous",
-        "theme_topic": "Actor",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.4912,
-        "w": 1.1016,
-        "x": 10.2025,
-        "y": 5.9655
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          184,
-          98,
-          137
-        ],
-        "bold": true,
-        "color": [
-          228,
-          183,
-          86
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "far moon",
-        "theme_topic": "Actor",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 17
+      "type": "image",
+      "z_order": 7
     }
   ],
   "slide": {

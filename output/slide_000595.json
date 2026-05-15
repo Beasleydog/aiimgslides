@@ -10,118 +10,123 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        59,
-        110,
-        42
+        120,
+        58,
+        170
       ],
       "style": "solid",
-      "theme_topic": "Happen"
+      "theme_topic": "Busy"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 15,
+    "level": 15,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 15
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.8302,
-        "w": 4.9674,
-        "x": 8.5318,
-        "y": 2.3245
+        "h": 2.3751,
+        "w": 3.7215,
+        "x": 4.1806,
+        "y": 1.437
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          117,
-          145,
-          39
+          122,
+          88,
+          113
         ],
         "focus": false,
         "line": [
-          119,
-          190,
-          181
+          112,
+          46,
+          58
         ],
-        "line_width": 7.407816138942576,
-        "outline_only": true,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Happen"
+        "line_width": 5.532357608763441,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Busy"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.1568,
-        "w": 6.9956,
-        "x": 1.9861,
-        "y": 2.6658
+        "h": 3.1671,
+        "w": 7.6142,
+        "x": -0.475,
+        "y": -0.2975
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 7,
+        "family": "stars",
         "fill": [
-          156,
-          70,
-          148
+          106,
+          46,
+          171
         ],
         "focus": false,
         "line": [
-          77,
-          157,
-          57
+          216,
+          128,
+          65
         ],
-        "line_width": 2.5349830976445356,
+        "line_width": 2.9092809212732202,
         "outline_only": false,
-        "ppt_type": 8,
-        "shape": "right_triangle",
-        "theme_topic": "Happen"
+        "ppt_type": 89,
+        "shape": "explosion1",
+        "theme_topic": "Busy"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.5186,
-        "w": 13.3396,
-        "x": -0.012,
-        "y": 4.0285
+        "h": 0.9108,
+        "w": 4.2037,
+        "x": 5.7289,
+        "y": 1.1475
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          127,
-          160,
-          116
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          250,
+          255
         ],
-        "line": [
-          127,
-          160,
-          116
-        ],
-        "line_width": 0.5096570175766247,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Happen"
+        "font_face": "Georgia",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Cloth Burly Sniff",
+        "theme_topic": "Busy",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.8135,
-        "w": 3.2141,
-        "x": 9.3849,
-        "y": 0.6476
+        "h": 0.2976,
+        "w": 2.0719,
+        "x": 5.0614,
+        "y": 4.4132
       },
       "id": "object_004",
       "properties": {
@@ -129,17 +134,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 30,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Early",
-        "theme_topic": "Happen",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "BIKE",
+        "theme_topic": "Busy",
         "underline": false
       },
       "type": "text",
@@ -147,181 +152,93 @@
     },
     {
       "bbox": {
-        "h": 1.758,
-        "w": 4.728,
-        "x": 4.0164,
-        "y": 2.7258
+        "h": 0.2386,
+        "w": 2.0918,
+        "x": 5.0705,
+        "y": 4.9026
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          127,
-          160,
-          116
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          250,
+          255
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          127,
-          160,
-          116
-        ],
-        "border": [
-          161,
-          185,
-          157
-        ],
-        "border_dash": "solid",
-        "border_width": 0.5385301860125484,
-        "cells": [
-          [
-            "stew rabbits",
-            "attract butter"
-          ],
-          [
-            "drawer",
-            "acrid boring"
-          ],
-          [
-            "wriggle park",
-            "boot"
-          ],
-          [
-            "rock attraction",
-            "damaged form"
-          ],
-          [
-            "rightful fold",
-            "observant"
-          ],
-          [
-            "alarm curious",
-            "playground"
-          ],
-          [
-            "vest",
-            "hand"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 12,
-        "has_header": false,
-        "header": [
-          230,
-          109,
-          191
-        ],
-        "rows": 7,
-        "text_color": [
-          246,
-          248,
-          252
-        ],
-        "theme_topic": "Happen"
+        "font_face": "Georgia",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Farm",
+        "theme_topic": "Busy",
+        "underline": false
       },
-      "type": "table",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 6.1378,
-        "w": 2.8227,
-        "x": 0.7246,
-        "y": 0.6757
+        "h": 1.5504,
+        "w": 3.8166,
+        "x": 0.9016,
+        "y": 3.663
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          170,
-          145,
-          150
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          127,
-          160,
-          116
+        "line": [
+          139,
+          78,
+          190
         ],
-        "border": [
-          161,
-          185,
-          157
-        ],
-        "border_dash": "lgDash",
-        "border_width": 1.8345372563968319,
-        "cells": [
-          [
-            "defeated float",
-            "sedate"
-          ],
-          [
-            "hate",
-            "animal"
-          ],
-          [
-            "achiever",
-            "magnificent"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 10,
-        "has_header": true,
-        "header": [
-          196,
-          45,
-          53
-        ],
-        "rows": 3,
-        "text_color": [
-          171,
-          156,
-          100
-        ],
-        "theme_topic": "Happen"
+        "line_width": 1.5390223492832698,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Busy"
       },
-      "type": "table",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.7788,
-        "w": 4.8701,
-        "x": 3.9733,
-        "y": 0.6452
+        "h": 1.2676,
+        "w": 3.5204,
+        "x": 1.0525,
+        "y": 3.825
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
+        "clip": "hex",
+        "focus": false,
+        "line": [
           71,
           221,
           181
         ],
-        "line": [
-          127,
-          160,
-          116
-        ],
-        "line_width": 3.337207209423954,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Happen"
+        "line_width": 8,
+        "theme_topic": "Busy"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.6083,
-        "w": 4.5011,
-        "x": 4.1616,
-        "y": 1.0575
+        "h": 0.2987,
+        "w": 2.0322,
+        "x": 7.2364,
+        "y": 4.4082
       },
       "id": "object_008",
       "properties": {
@@ -329,17 +246,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "8x",
-        "theme_topic": "Happen",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "LEATHER PARTNER",
+        "theme_topic": "Busy",
         "underline": false
       },
       "type": "text",
@@ -347,28 +264,28 @@
     },
     {
       "bbox": {
-        "h": 0.4016,
-        "w": 4.5061,
-        "x": 4.1473,
-        "y": 1.683
+        "h": 0.2,
+        "w": 2.0546,
+        "x": 7.257,
+        "y": 4.9125
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          203,
+          207,
+          77
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Georgia",
+        "font_size": 18,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "mend sudden apathetic pleasure",
-        "theme_topic": "Happen",
+        "text": "History",
+        "theme_topic": "Busy",
         "underline": false
       },
       "type": "text",
@@ -376,141 +293,148 @@
     },
     {
       "bbox": {
-        "h": 1.0811,
-        "w": 2.0693,
-        "x": 9.3627,
-        "y": 4.1237
+        "h": 3.1094,
+        "w": 3.9674,
+        "x": 1.1511,
+        "y": 2.7089
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          194,
-          159,
-          151
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "connector": "curve",
-        "dash": 2,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Happen",
-        "width": 0.9688566155482532
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 1.3393788845235104,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Busy"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4028,
-        "w": 0.4075,
-        "x": 0.8822,
-        "y": 3.2844
+        "h": 0.4654,
+        "w": 3.4895,
+        "x": 1.4112,
+        "y": 3.6179
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          255,
-          211,
-          88
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "focus": false,
-        "line": [
-          29,
-          200,
-          140
-        ],
-        "line_width": 3.4170783022220075,
-        "outline_only": false,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Happen"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Detect",
+        "theme_topic": "Busy",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 1.0038,
-        "w": 1.235,
-        "x": 6.7058,
-        "y": 1.2531
+        "h": 1.43,
+        "w": 3.4777,
+        "x": 1.3939,
+        "y": 4.1506
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "swoop",
-        "primary": [
-          125,
-          202,
-          32
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
         ],
-        "secondary": [
-          211,
-          176,
-          91
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#bfe364\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#1d884c\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
-        "theme_topic": "Happen"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "count influence develop measure jog delicate secretive bake hapless magical delay zesty",
+        "theme_topic": "Busy",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.1822,
-        "w": 2.0811,
-        "x": 1.7513,
-        "y": 2.1016
+        "h": 3.117,
+        "w": 3.9495,
+        "x": 5.3347,
+        "y": 2.7009
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          33,
-          92,
-          86
-        ],
-        "connector": "straight",
         "dash": 2,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Happen",
-        "width": 2.40157396623434
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
+        ],
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 3.6365740717572432,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Busy"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.6454,
-        "x": 4.5597,
-        "y": 3.2238
+        "h": 0.4532,
+        "w": 3.4677,
+        "x": 5.5953,
+        "y": 3.6154
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          104,
-          213,
-          104
-        ],
-        "bold": false,
+        "bg_color": null,
+        "bold": true,
         "color": [
-          165,
-          35,
-          215
+          71,
+          221,
+          181
         ],
         "font_face": "Aptos",
-        "font_size": 5,
+        "font_size": 12,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Boat",
-        "theme_topic": "Happen",
+        "text": "Queue",
+        "theme_topic": "Busy",
         "underline": false
       },
       "type": "text",
@@ -518,99 +442,32 @@
     },
     {
       "bbox": {
-        "h": 0.2042,
-        "w": 0.8108,
-        "x": 4.7248,
-        "y": 5.9526
+        "h": 1.473,
+        "w": 3.4578,
+        "x": 5.5856,
+        "y": 4.1397
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          221,
-          25,
-          118
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          230,
+          210,
+          240
         ],
-        "focus": false,
-        "line": [
-          63,
-          71,
-          99
-        ],
-        "line_width": 0.7306589184610783,
-        "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Happen"
+        "font_face": "Aptos",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "ultra cowardly dust erect regret weight overwrought follow car verdant",
+        "theme_topic": "Busy",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.2247,
-        "w": 0.3742,
-        "x": 8.5856,
-        "y": 7.1296
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
-        "fill": [
-          215,
-          201,
-          82
-        ],
-        "focus": false,
-        "line": [
-          142,
-          61,
-          102
-        ],
-        "line_width": 5.610703619922999,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Happen"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.5547,
-        "w": 1.0792,
-        "x": 5.5051,
-        "y": 2.7121
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          78,
-          159,
-          197
-        ],
-        "focus": false,
-        "line": [
-          147,
-          59,
-          203
-        ],
-        "line_width": 4.4856645415766625,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Happen"
-      },
-      "type": "shape",
-      "z_order": 17
     }
   ],
   "slide": {

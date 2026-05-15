@@ -8,117 +8,136 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "fill": [
-        245,
-        247,
-        252
+      "colors": [
+        [
+          164,
+          170,
+          36
+        ],
+        [
+          205,
+          86,
+          172
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Quarter"
+      "fill": [
+        201,
+        208,
+        45
+      ],
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Stay"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 11,
+    "level": 11,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 11
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.0519,
-        "w": 7.2114,
-        "x": -0.1161,
-        "y": -0.6431
+        "h": 5.5578,
+        "w": 2.8727,
+        "x": 0.6353,
+        "y": 0.7727
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          156,
-          119,
-          202
-        ],
-        "focus": false,
-        "line": [
-          30,
-          71,
-          109
-        ],
-        "line_width": 6.3279745549657616,
-        "outline_only": true,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Quarter"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 1.2967,
-        "w": 6.4598,
-        "x": 0.5278,
-        "y": 0.3602
-      },
-      "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 27,
+        "font_face": "Arial",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Cabbage Wilderness Wet",
-        "theme_topic": "Quarter",
+        "text": "Abundant Envious Swanky",
+        "theme_topic": "Stay",
         "underline": false
       },
       "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 2.9984,
+        "w": 2.9173,
+        "x": 7.2393,
+        "y": 3.8749
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          164,
+          170,
+          36
+        ],
+        "line": [
+          164,
+          170,
+          36
+        ],
+        "line_width": 5.101323189735798,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stay"
+      },
+      "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.1698,
-        "w": 3.9941,
-        "x": 0.5397,
-        "y": 1.8446
+        "h": 2.7393,
+        "w": 2.6408,
+        "x": 7.4133,
+        "y": 4.0313
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "line": [
-          232,
-          237,
-          247
+        "focus": false,
+        "mask_line": [
+          219,
+          33,
+          173
         ],
-        "line_width": 1.1168944051371659,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Quarter"
+        "mask_overlay": false,
+        "theme_topic": "Stay",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.73,
-        "w": 3.6463,
-        "x": 0.7445,
-        "y": 2.0171
+        "h": 0.9732,
+        "w": 8.68,
+        "x": 3.8879,
+        "y": 0.7757
       },
       "id": "object_004",
       "properties": {
@@ -126,17 +145,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
+        "font_face": "Arial",
+        "font_size": 41,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "77%",
-        "theme_topic": "Quarter",
+        "text": "Company",
+        "theme_topic": "Stay",
         "underline": false
       },
       "type": "text",
@@ -144,10 +163,10 @@
     },
     {
       "bbox": {
-        "h": 1.1573,
-        "w": 3.6694,
-        "x": 0.7055,
-        "y": 2.7534
+        "h": 1.321,
+        "w": 8.6935,
+        "x": 3.8771,
+        "y": 1.9993
       },
       "id": "object_005",
       "properties": {
@@ -155,17 +174,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          103,
-          117,
-          137
+          105,
+          110,
+          40
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "joyous show crown surround celery snow",
-        "theme_topic": "Quarter",
+        "text": "groan money yielding zephyr bucket special fuel switch thing unfasten true coal vigorous cold pray absurd milky scream rebel pleasure classy sudden",
+        "theme_topic": "Stay",
         "underline": false
       },
       "type": "text",
@@ -173,59 +192,61 @@
     },
     {
       "bbox": {
-        "h": 2.1379,
-        "w": 3.9465,
-        "x": 4.757,
-        "y": 1.848
+        "h": 0.3793,
+        "w": 0.5509,
+        "x": 2.0496,
+        "y": 0.2425
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 2.136627230112923,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Quarter"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.7576,
-        "w": 3.6074,
-        "x": 4.9136,
-        "y": 2.0384
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          138,
+          171,
+          188
         ],
-        "font_face": "Aptos Display",
-        "font_size": 34,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "75%",
-        "theme_topic": "Quarter",
+        "text": "irritate",
+        "theme_topic": "Stay",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.5347,
+        "w": 0.6913,
+        "x": 12.4468,
+        "y": 6.3393
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          29,
+          139,
+          65
+        ],
+        "bold": false,
+        "color": [
+          112,
+          209,
+          211
+        ],
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "clever plot letters cent",
+        "theme_topic": "Stay",
         "underline": false
       },
       "type": "text",
@@ -233,28 +254,28 @@
     },
     {
       "bbox": {
-        "h": 1.1385,
-        "w": 3.5931,
-        "x": 4.9058,
-        "y": 2.7544
+        "h": 0.226,
+        "w": 1.8583,
+        "x": 5.0439,
+        "y": 1.4402
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          119,
+          97,
+          159
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 6,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "act half attractive stomach hang handsome stamp",
-        "theme_topic": "Quarter",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Interesting Permit Snotty",
+        "theme_topic": "Stay",
         "underline": false
       },
       "type": "text",
@@ -262,41 +283,39 @@
     },
     {
       "bbox": {
-        "h": 2.1582,
-        "w": 3.9204,
-        "x": 8.8965,
-        "y": 1.8504
+        "h": 0.5274,
+        "w": 1.1521,
+        "x": 9.3945,
+        "y": 3.7236
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          217,
-          138,
-          67
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          143,
+          122,
+          130
         ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 1.4416742493285855,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Quarter"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Questionable Prepare",
+        "theme_topic": "Stay",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.7526,
-        "w": 3.5542,
-        "x": 9.0819,
-        "y": 2.0325
+        "h": 0.4097,
+        "w": 0.5575,
+        "x": 0.2675,
+        "y": 1.5474
       },
       "id": "object_010",
       "properties": {
@@ -304,325 +323,53 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          181,
+          187,
+          146
         ],
-        "font_face": "Aptos Display",
-        "font_size": 25,
+        "font_face": "Arial",
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "6.9x",
-        "theme_topic": "Quarter",
-        "underline": false
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Card Clip Abortive",
+        "theme_topic": "Stay",
+        "underline": true
       },
       "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.1187,
-        "w": 3.5514,
-        "x": 9.0615,
-        "y": 2.784
+        "h": 0.8205,
+        "w": 0.763,
+        "x": 8.663,
+        "y": 1.969
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
-        ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "loaf afterthought pocket",
-        "theme_topic": "Quarter",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.2647,
-        "w": 3.3698,
-        "x": 5.8349,
-        "y": 4.5537
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "TRANSPORT",
-        "theme_topic": "Quarter",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.6788,
-        "w": 3.366,
-        "x": 5.844,
-        "y": 5.0321
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          230,
-          224,
-          97
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 36,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Butter Hands",
-        "theme_topic": "Quarter",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.8994,
-        "w": 3.353,
-        "x": 5.8235,
-        "y": 5.973
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "hapless fearful educate end small limit rule grate camp multiply judicious snow cakes whispering tin abject productive boil loaf",
-        "theme_topic": "Quarter",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 2.5651,
-        "w": 3.1182,
-        "x": 9.6875,
-        "y": 4.4169
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
         "dash": 3,
-        "family": "panel",
+        "family": "basic",
         "fill": [
-          232,
-          237,
-          247
+          187,
+          34,
+          128
         ],
+        "focus": false,
         "line": [
-          232,
-          237,
-          247
+          82,
+          220,
+          158
         ],
-        "line_width": 1.802936833031906,
+        "line_width": 4.754498340184117,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Quarter"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 2.0764,
-        "w": 2.5911,
-        "x": 9.9274,
-        "y": 4.6854
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "year",
-          "window",
-          "hat",
-          "weary"
-        ],
-        "chart": "column",
-        "focus": false,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              156,
-              49,
-              40
-            ],
-            "name": "disappear",
-            "values": [
-              31,
-              48,
-              61,
-              42
-            ]
-          }
-        ],
-        "theme_topic": "Quarter",
-        "title": "trucks crowd second bruise"
-      },
-      "type": "chart",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.2273,
-        "w": 1.3052,
-        "x": 4.1224,
-        "y": 5.2227
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          185,
-          194,
-          90
-        ],
-        "connector": "elbow",
-        "dash": 7,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Quarter",
-        "width": 2.4572067458214133
-      },
-      "type": "connector",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 1.0155,
-        "w": 1.3838,
-        "x": 5.7031,
-        "y": 1.9439
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          184,
-          127,
-          163
-        ],
-        "focus": false,
-        "line": [
-          131,
-          136,
-          214
-        ],
-        "line_width": 3.9777121763325027,
-        "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Quarter"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.9042,
-        "w": 0.4586,
-        "x": 4.9197,
-        "y": 4.7188
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "ribbons",
-        "fill": [
-          88,
-          75,
-          191
-        ],
-        "focus": false,
-        "line": [
-          39,
-          215,
-          165
-        ],
-        "line_width": 1.2390694016766282,
-        "outline_only": true,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Quarter"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 1.1821,
-        "w": 0.6809,
-        "x": 1.4374,
-        "y": 1.283
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          45,
-          49,
-          124
-        ],
-        "connector": "curve",
-        "dash": 4,
-        "flip": true,
         "ppt_type": 3,
-        "theme_topic": "Quarter",
-        "width": 0.9704650718667795
+        "shape": "trapezoid",
+        "theme_topic": "Stay"
       },
-      "type": "connector",
-      "z_order": 20
+      "type": "shape",
+      "z_order": 11
     }
   ],
   "slide": {

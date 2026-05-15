@@ -8,103 +8,107 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 45,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          87,
-          184,
-          94
-        ],
-        [
-          96,
-          165,
-          250
-        ]
+      "back_color": [
+        232,
+        237,
+        247
       ],
       "fill": [
-        29,
-        160,
-        38
+        245,
+        247,
+        252
       ],
-      "focus": "top_right",
-      "gradient_type": "shape",
-      "style": "gradient",
-      "theme_topic": "Trashy Whip"
+      "fore_color": [
+        41,
+        119,
+        40
+      ],
+      "pattern": 28,
+      "style": "pattern",
+      "theme_topic": "Flawless"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 18,
+    "level": 18,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 18
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.0738,
-        "w": 3.836,
-        "x": 9.9319,
-        "y": 0.7882
+        "h": 4.5816,
+        "w": 5.1533,
+        "x": 3.9719,
+        "y": -0.6856
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "stars",
         "fill": [
-          130,
-          110,
-          147
+          204,
+          191,
+          94
         ],
         "focus": false,
         "line": [
-          160,
-          205,
-          102
+          98,
+          108,
+          143
         ],
-        "line_width": 2.2819969502746655,
+        "line_width": 6.541328628286498,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Trashy Whip"
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Flawless"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.4914,
-        "w": 5.9456,
-        "x": 0.0166,
-        "y": 0.0071
+        "h": 1.8566,
+        "w": 8.4371,
+        "x": 0.54,
+        "y": 6.1856
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "symbols",
         "fill": [
-          87,
-          184,
-          94
+          135,
+          95,
+          170
         ],
+        "focus": false,
         "line": [
-          87,
-          184,
-          94
+          226,
+          110,
+          204
         ],
-        "line_width": 0.8112963112144449,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Trashy Whip"
+        "line_width": 3.6653082346522905,
+        "outline_only": true,
+        "ppt_type": 22,
+        "shape": "lightning",
+        "theme_topic": "Flawless"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9109,
-        "w": 3.6136,
-        "x": 2.8009,
-        "y": 0.5853
+        "h": 1.0858,
+        "w": 7.789,
+        "x": 0.5533,
+        "y": 0.3532
       },
       "id": "object_003",
       "properties": {
@@ -112,17 +116,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          27,
+          44,
+          68
         ],
         "font_face": "Georgia",
-        "font_size": 25,
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Talented Ducks Pastoral Act",
-        "theme_topic": "Trashy Whip",
+        "text": "Gate Possess",
+        "theme_topic": "Flawless",
         "underline": false
       },
       "type": "text",
@@ -130,312 +134,350 @@
     },
     {
       "bbox": {
-        "h": 2.6261,
-        "w": 3.1776,
-        "x": 0.6127,
-        "y": 1.5063
+        "h": 1.8935,
+        "w": 3.7444,
+        "x": 9.0272,
+        "y": 5.0571
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          87,
-          184,
-          94
+        "categories": [
+          "living",
+          "lighten",
+          "drab"
         ],
-        "line": [
-          87,
-          184,
-          94
+        "chart": "line",
+        "focus": false,
+        "has_legend": false,
+        "has_title": true,
+        "ppt_type": 65,
+        "series": [
+          {
+            "color": [
+              98,
+              146,
+              182
+            ],
+            "name": "cooing pumped",
+            "values": [
+              47,
+              65,
+              13
+            ]
+          },
+          {
+            "color": [
+              70,
+              162,
+              164
+            ],
+            "name": "moaning lacking",
+            "values": [
+              12,
+              20,
+              70
+            ]
+          },
+          {
+            "color": [
+              120,
+              173,
+              199
+            ],
+            "name": "halting tender",
+            "values": [
+              88,
+              24,
+              22
+            ]
+          }
         ],
-        "line_width": 2.2111273062082706,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Trashy Whip"
+        "theme_topic": "Flawless",
+        "title": "vagabond filthy identify"
       },
-      "type": "shape",
+      "type": "chart",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.3462,
-        "w": 2.8448,
-        "x": 0.742,
-        "y": 1.6335
+        "h": 0.7945,
+        "w": 2.2989,
+        "x": 4.0074,
+        "y": 5.1457
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.06635563242950787,
-          0.2689216934890168,
-          0.1958461171807698,
-          0.11312869614523624
-        ],
+        "clip": "ticket",
         "focus": false,
-        "mask_line": [
-          157,
-          216,
-          49
+        "line": [
+          82,
+          96,
+          214
         ],
-        "mask_overlay": false,
-        "theme_topic": "Trashy Whip",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 16,
+        "theme_topic": "Flawless"
       },
-      "type": "image",
+      "type": "svg_image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.2639,
-        "w": 2.7906,
-        "x": 0.8108,
-        "y": 3.7146
+        "h": 0.8289,
+        "w": 2.3136,
+        "x": 6.4565,
+        "y": 5.1375
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          232,
+          237,
+          247
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Truck",
-        "theme_topic": "Trashy Whip",
-        "underline": false
+        "line": [
+          232,
+          237,
+          247
+        ],
+        "line_width": 3.5687197326816382,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Flawless"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.6421,
-        "w": 3.1456,
-        "x": 3.9246,
-        "y": 1.485
+        "h": 0.5612,
+        "w": 2.0204,
+        "x": 6.6373,
+        "y": 5.2937
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": true,
-        "line": [
-          96,
-          165,
-          250
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "line_width": 17,
-        "theme_topic": "Trashy Whip"
+        "focus": false,
+        "mask_line": [
+          82,
+          96,
+          214
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Flawless",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "svg_image",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.6676,
-        "w": 3.2062,
-        "x": 0.5866,
-        "y": 4.2803
+        "h": 0.8177,
+        "w": 2.2967,
+        "x": 3.9975,
+        "y": 6.1075
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.016496807223007035,
-          0.06261828405875287,
-          0.21899691622390835,
-          0.18188136107902617
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          232,
+          237,
+          247
         ],
-        "focus": true,
-        "mask_line": [
-          26,
-          145,
-          78
+        "line": [
+          232,
+          237,
+          247
         ],
-        "mask_overlay": false,
-        "theme_topic": "Trashy Whip",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 1.2256156586507072,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Flawless"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2985,
-        "w": 2.796,
-        "x": 0.8249,
-        "y": 6.4902
+        "h": 0.5027,
+        "w": 1.9836,
+        "x": 4.1761,
+        "y": 6.3044
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
+        "crop": [
+          0.02867318567801425,
+          0.09664313007955075,
+          0.17810093275883151,
+          0.01736504167586863
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Distinct Afternoon Prefer",
-        "theme_topic": "Trashy Whip",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          204,
+          207,
+          27
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Flawless",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 2.6308,
-        "w": 3.1616,
-        "x": 3.9205,
-        "y": 4.3045
+        "h": 0.8236,
+        "w": 2.3203,
+        "x": 6.4507,
+        "y": 6.1566
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          87,
-          184,
-          94
+        "crop": [
+          0.1504648183226758,
+          0.08046708251986003,
+          0.16509276293528993,
+          0.17891334583267743
         ],
-        "line": [
-          87,
-          184,
-          94
+        "focus": false,
+        "mask_line": [
+          181,
+          145,
+          99
         ],
-        "line_width": 3.6398155886350696,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Trashy Whip"
+        "mask_overlay": false,
+        "theme_topic": "Flawless",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 2.3729,
-        "w": 2.898,
-        "x": 4.0703,
-        "y": 4.4727
+        "h": 1.9196,
+        "w": 3.2225,
+        "x": 0.5567,
+        "y": 5.0967
       },
       "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": false,
-        "line": [
-          96,
-          165,
-          250
-        ],
-        "line_width": 18,
-        "theme_topic": "Trashy Whip"
-      },
-      "type": "svg_image",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 5.5392,
-        "w": 5.2117,
-        "x": 7.586,
-        "y": 1.4428
-      },
-      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          96,
-          165,
-          250
+          232,
+          237,
+          247
         ],
         "line": [
-          87,
-          184,
-          94
+          232,
+          237,
+          247
         ],
-        "line_width": 0.8593669246902332,
+        "line_width": 1.2916736080944413,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Trashy Whip"
+        "theme_topic": "Flawless"
       },
       "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 1.5874,
+        "w": 2.9332,
+        "x": 0.7007,
+        "y": 5.2345
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.15182018046997323,
+          0.1880177150394539,
+          0.2791296804066725,
+          0.12116529266218784
+        ],
+        "focus": false,
+        "mask_line": [
+          82,
+          96,
+          214
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Flawless",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.1652,
-        "w": 4.8547,
-        "x": 7.739,
-        "y": 2.4597
+        "h": 2.938,
+        "w": 12.2621,
+        "x": 0.5708,
+        "y": 1.8561
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "clip": "hex",
+        "focus": true,
+        "line": [
+          82,
+          96,
+          214
         ],
-        "font_face": "Georgia",
-        "font_size": 55,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "6x",
-        "theme_topic": "Trashy Whip",
-        "underline": false
+        "line_width": 10,
+        "theme_topic": "Flawless"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.7248,
-        "w": 4.8299,
-        "x": 7.7815,
-        "y": 4.8579
+        "h": 0.2681,
+        "w": 11.8228,
+        "x": 0.7624,
+        "y": 4.3018
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          246,
-          248,
-          252
+          82,
+          96,
+          214
         ],
         "font_face": "Aptos",
         "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "rhythm impossible volleyball self order unnatural entertaining grade",
-        "theme_topic": "Trashy Whip",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Harbor",
+        "theme_topic": "Flawless",
         "underline": false
       },
       "type": "text",
@@ -443,185 +485,125 @@
     },
     {
       "bbox": {
-        "h": 0.6878,
-        "w": 0.7685,
-        "x": 8.0137,
-        "y": 2.1438
+        "h": 0.3434,
+        "w": 0.8866,
+        "x": 6.9648,
+        "y": 0.155
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          244,
-          180,
-          76
-        ],
-        "focus": false,
-        "line": [
-          120,
-          166,
-          220
-        ],
-        "line_width": 4.091850205220018,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Trashy Whip"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.6508,
-        "w": 0.6941,
-        "x": 6.8475,
-        "y": 5.1952
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          192,
-          95,
-          136
-        ],
-        "secondary": [
-          244,
-          180,
-          76
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#34bdb7\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#355e90\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#34bdb7\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Trashy Whip"
-      },
-      "type": "svg",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 0.6405,
-        "x": 2.8875,
-        "y": 7.0846
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          36,
-          136,
-          73
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "swing",
-        "theme_topic": "Trashy Whip",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.5149,
-        "w": 1.2449,
-        "x": 1.0773,
-        "y": 3.9084
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          156,
-          96,
-          111
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Synonymous",
-        "theme_topic": "Trashy Whip",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.8136,
-        "w": 0.7289,
-        "x": 10.1245,
-        "y": 2.2966
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "focus": false,
-        "line": [
-          96,
-          165,
-          250
-        ],
-        "line_width": 4.020215585690244,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Trashy Whip"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.3192,
-        "w": 0.6689,
-        "x": 3.2797,
-        "y": 6.6673
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          200,
+          151,
           209,
-          146
-        ],
-        "bold": false,
-        "color": [
-          136,
-          198,
-          196
+          47
         ],
         "font_face": "Aptos",
         "font_size": 5,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "unusual error",
-        "theme_topic": "Trashy Whip",
+        "text": "quirky toothsome chemical",
+        "theme_topic": "Flawless",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.3661,
+        "w": 1.5949,
+        "x": 5.8339,
+        "y": 6.6276
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          94,
+          169,
+          92
+        ],
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fence verdant quince economic",
+        "theme_topic": "Flawless",
         "underline": true
       },
       "type": "text",
-      "z_order": 20
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.2205,
+        "w": 1.0488,
+        "x": 3.0665,
+        "y": 2.8791
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          60,
+          123,
+          217
+        ],
+        "focus": false,
+        "line": [
+          228,
+          41,
+          198
+        ],
+        "line_width": 3.046829788505118,
+        "outline_only": true,
+        "ppt_type": 10,
+        "shape": "hexagon",
+        "theme_topic": "Flawless"
+      },
+      "type": "shape",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 1.289,
+        "x": 9.346,
+        "y": 5.8091
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          153,
+          112,
+          32
+        ],
+        "focus": false,
+        "line": [
+          210,
+          55,
+          76
+        ],
+        "line_width": 6.235145959476998,
+        "outline_only": false,
+        "ppt_type": 103,
+        "shape": "wave",
+        "theme_topic": "Flawless"
+      },
+      "type": "shape",
+      "z_order": 18
     }
   ],
   "slide": {

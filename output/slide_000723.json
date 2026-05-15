@@ -8,345 +8,331 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        204,
-        79,
-        53
+      "colors": [
+        [
+          247,
+          248,
+          246
+        ],
+        [
+          120,
+          133,
+          70
+        ]
       ],
       "fill": [
-        32,
-        194,
-        55
+        247,
+        248,
+        246
       ],
-      "fore_color": [
-        96,
-        165,
-        250
-      ],
-      "pattern": 5,
-      "style": "pattern",
-      "theme_topic": "Fool"
+      "focus": "top_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Stream Identify"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 19,
+    "level": 19,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 19
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.1343,
-        "w": 8.567,
-        "x": 1.8809,
-        "y": -0.0888
+        "h": 4.7089,
+        "w": 5.4601,
+        "x": 0.0415,
+        "y": 1.6659
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "symbols",
         "fill": [
-          87,
-          109,
-          129
+          119,
+          169,
+          116
         ],
         "focus": false,
         "line": [
-          112,
-          114,
-          202
+          111,
+          57,
+          65
         ],
-        "line_width": 3.288705554967089,
-        "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Fool"
+        "line_width": 6.521662992717903,
+        "outline_only": true,
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Stream Identify"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.7219,
-        "w": 5.7463,
-        "x": 0.3365,
-        "y": 1.2581
+        "h": 0.9024,
+        "w": 6.2328,
+        "x": 4.0751,
+        "y": 0.8949
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          62,
-          141,
-          199
-        ],
-        "focus": false,
-        "line": [
-          54,
-          49,
-          57
-        ],
-        "line_width": 4.568763804261499,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Fool"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 4.4624,
-        "w": 3.7443,
-        "x": 10.3334,
-        "y": 3.6854
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
-        "fill": [
-          149,
-          121,
-          152
-        ],
-        "focus": false,
-        "line": [
-          69,
-          49,
-          75
-        ],
-        "line_width": 7.65088846967781,
-        "outline_only": true,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Fool"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.329,
-        "w": 5.0803,
-        "x": 6.3245,
-        "y": 4.1303
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "ribbons",
-        "fill": [
-          157,
-          208,
-          170
-        ],
-        "focus": false,
-        "line": [
-          35,
-          118,
-          123
-        ],
-        "line_width": 5.523349863090532,
-        "outline_only": false,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Fool"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.3986,
-        "w": 5.1419,
-        "x": 8.1902,
-        "y": 0.0064
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          98,
-          212,
-          114
-        ],
-        "line": [
-          98,
-          212,
-          114
-        ],
-        "line_width": 3.226209952484384,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Fool"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.7816,
-        "w": 3.185,
-        "x": 9.4019,
-        "y": 0.6559
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          30,
+          35,
+          42
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 28,
+        "font_face": "Arial",
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Reaction",
-        "theme_topic": "Fool",
+        "text": "Inconclusive Quizzical Offend",
+        "theme_topic": "Stream Identify",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.9019,
+        "w": 5.6741,
+        "x": 0.6976,
+        "y": 4.4866
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          141,
+          164,
+          132
+        ],
+        "font_face": "Arial",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Marble Apparatus Zealous Nimble",
+        "theme_topic": "Stream Identify",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.2447,
+        "w": 5.6878,
+        "x": 0.6921,
+        "y": 5.6604
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          115,
+          124,
+          135
+        ],
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "curve ice yawn wonder bizarre guarded grade wail authority one rainstorm argument repeat tent short screeching nauseating broad general throne verdant flowers",
+        "theme_topic": "Stream Identify",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 2.5374,
+        "w": 1.8504,
+        "x": 0.6164,
+        "y": 1.5047
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.11559255478589776,
+          0.02995951247043803,
+          0.19039686428990196,
+          0.11035044709535198
+        ],
+        "focus": false,
+        "mask_line": [
+          31,
+          117,
+          161
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Stream Identify",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.5284,
+        "w": 1.8553,
+        "x": 2.6023,
+        "y": 1.4815
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          236,
+          240,
+          242
+        ],
+        "line": [
+          236,
+          240,
+          242
+        ],
+        "line_width": 2.0556244780140562,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stream Identify"
+      },
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.9744,
-        "w": 2.5278,
-        "x": 6.3229,
-        "y": 3.9227
+        "h": 2.2346,
+        "w": 1.5699,
+        "x": 2.7682,
+        "y": 1.634
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          98,
-          212,
-          114
+        "crop": [
+          0.10191359685683285,
+          0.2348799782347615,
+          0.28488796844724357,
+          0.30594278551650694
         ],
-        "line": [
-          98,
-          212,
-          114
+        "focus": false,
+        "mask_line": [
+          31,
+          117,
+          161
         ],
-        "line_width": 4.0321179276602805,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Fool"
+        "mask_overlay": false,
+        "theme_topic": "Stream Identify",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.4619,
-        "w": 2.0284,
-        "x": 6.5642,
-        "y": 4.1865
+        "h": 2.5132,
+        "w": 1.8718,
+        "x": 4.5883,
+        "y": 1.5294
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "expensive",
-          "disturbed",
-          "nimble"
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "chart": "pie",
         "focus": false,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              156,
-              159,
-              63
-            ],
-            "name": "destroy return",
-            "values": [
-              88,
-              85,
-              88
-            ]
-          }
+        "mask_line": [
+          31,
+          117,
+          161
         ],
-        "theme_topic": "Fool",
-        "title": "frame spiffy"
+        "mask_overlay": true,
+        "theme_topic": "Stream Identify",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "chart",
+      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 2.9806,
-        "w": 2.5575,
-        "x": 3.4797,
-        "y": 0.6562
+        "h": 0.8814,
+        "w": 2.3355,
+        "x": 6.8717,
+        "y": 5.921
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          98,
-          212,
-          114
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          30,
+          35,
+          42
         ],
-        "line": [
-          98,
-          212,
-          114
-        ],
-        "line_width": 1.483983160853175,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Fool"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "robin absurd rinse strong materialistic salty chilly",
+        "theme_topic": "Stream Identify",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 1.1416,
-        "w": 2.1682,
-        "x": 3.6472,
-        "y": 1.2544
+        "h": 0.8701,
+        "w": 1.4817,
+        "x": 9.4977,
+        "y": 5.8844
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          246,
-          248,
-          252
+          30,
+          35,
+          42
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 46,
+        "font_face": "Arial",
+        "font_size": 14,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "4x",
-        "theme_topic": "Fool",
+        "text": "design field card chemical rifle petite odd",
+        "theme_topic": "Stream Identify",
         "underline": false
       },
       "type": "text",
@@ -354,10 +340,10 @@
     },
     {
       "bbox": {
-        "h": 0.6976,
-        "w": 2.1955,
-        "x": 3.6412,
-        "y": 2.4779
+        "h": 0.9087,
+        "w": 1.4253,
+        "x": 11.2689,
+        "y": 5.9115
       },
       "id": "object_011",
       "properties": {
@@ -365,17 +351,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          30,
+          35,
+          42
         ],
-        "font_face": "Verdana",
+        "font_face": "Arial",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "pathetic bath position bore shoe miniature colorful fold depressed",
-        "theme_topic": "Fool",
+        "text": "loose omniscient responsible liquid squeak spurious top",
+        "theme_topic": "Stream Identify",
         "underline": false
       },
       "type": "text",
@@ -383,41 +369,41 @@
     },
     {
       "bbox": {
-        "h": 2.9752,
-        "w": 2.5482,
-        "x": 3.4948,
-        "y": 3.9317
+        "h": 2.645,
+        "w": 2.4574,
+        "x": 6.8161,
+        "y": 1.4336
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 4,
         "family": "panel",
         "fill": [
-          98,
-          212,
-          114
+          236,
+          240,
+          242
         ],
         "line": [
-          98,
-          212,
-          114
+          236,
+          240,
+          242
         ],
-        "line_width": 1.9171252177402618,
+        "line_width": 0.8576090677203809,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Fool"
+        "theme_topic": "Stream Identify"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.1653,
-        "w": 2.197,
-        "x": 3.6816,
-        "y": 4.5267
+        "h": 0.7275,
+        "w": 2.1042,
+        "x": 7.0055,
+        "y": 1.6294
       },
       "id": "object_013",
       "properties": {
@@ -425,17 +411,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          31,
+          117,
+          161
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 56,
+        "font_face": "Arial",
+        "font_size": 36,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "21%",
-        "theme_topic": "Fool",
+        "text": "4.4x",
+        "theme_topic": "Stream Identify",
         "underline": false
       },
       "type": "text",
@@ -443,10 +429,10 @@
     },
     {
       "bbox": {
-        "h": 0.6856,
-        "w": 2.1809,
-        "x": 3.6588,
-        "y": 5.7033
+        "h": 1.608,
+        "w": 2.1053,
+        "x": 7.0157,
+        "y": 2.3835
       },
       "id": "object_014",
       "properties": {
@@ -454,17 +440,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          246,
-          248,
-          252
+          115,
+          124,
+          135
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "tongue flat quince bolt honey sidewalk throat",
-        "theme_topic": "Fool",
+        "text": "grieving squeamish limping",
+        "theme_topic": "Stream Identify",
         "underline": false
       },
       "type": "text",
@@ -472,67 +458,70 @@
     },
     {
       "bbox": {
-        "h": 0.5474,
-        "w": 1.0956,
-        "x": 8.5552,
-        "y": 2.4164
+        "h": 2.6118,
+        "w": 3.3302,
+        "x": 9.4513,
+        "y": 1.4499
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          132,
-          189,
-          26
+          186,
+          211,
+          222
         ],
-        "focus": false,
         "line": [
-          81,
-          189,
-          173
+          236,
+          240,
+          242
         ],
-        "line_width": 2.9545754029688656,
-        "outline_only": true,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Fool"
+        "line_width": 1.2480759188655703,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stream Identify"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 1.3682,
-        "w": 1.751,
-        "x": 6.1351,
-        "y": 1.6517
+        "h": 0.7749,
+        "w": 3.0032,
+        "x": 9.5919,
+        "y": 1.6282
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          107,
-          99,
-          149
+          31,
+          117,
+          161
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Fool",
-        "width": 1.8365672778314488
+        "font_face": "Arial",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "4.9x",
+        "theme_topic": "Stream Identify",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.3015,
-        "w": 0.5815,
-        "x": 11.3416,
-        "y": 4.3604
+        "h": 1.6251,
+        "w": 2.964,
+        "x": 9.5986,
+        "y": 2.3605
       },
       "id": "object_017",
       "properties": {
@@ -540,17 +529,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          142,
-          55,
-          185
+          115,
+          124,
+          135
         ],
-        "font_face": "Verdana",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Harsh",
-        "theme_topic": "Fool",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "awesome foregoing tin interrupt",
+        "theme_topic": "Stream Identify",
         "underline": false
       },
       "type": "text",
@@ -558,84 +547,64 @@
     },
     {
       "bbox": {
-        "h": 0.2374,
-        "w": 0.778,
-        "x": 2.622,
-        "y": 2.2667
+        "h": 0.5507,
+        "w": 1.05,
+        "x": 10.432,
+        "y": 3.1848
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          205,
-          26,
-          123
+          148,
+          171,
+          114
         ],
-        "font_face": "Verdana",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "pushy mere",
-        "theme_topic": "Fool",
-        "underline": true
+        "text": "upbeat",
+        "theme_topic": "Stream Identify",
+        "underline": false
       },
       "type": "text",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 1.1377,
-        "w": 0.5393,
-        "x": 6.4232,
-        "y": 4.5819
+        "h": 0.8131,
+        "w": 0.5933,
+        "x": 4.2003,
+        "y": 4.5431
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          96,
-          165,
-          250
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          197,
+          214,
+          107
         ],
-        "secondary": [
-          244,
-          180,
-          76
+        "focus": false,
+        "line": [
+          125,
+          78,
+          83
         ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#6f36e1\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#b8dd69\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#6f36e1\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Fool"
+        "line_width": 5.600680621592804,
+        "outline_only": false,
+        "ppt_type": 64,
+        "shape": "flow_data",
+        "theme_topic": "Stream Identify"
       },
-      "type": "svg",
+      "type": "shape",
       "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 1.0715,
-        "w": 2.1142,
-        "x": 7.5956,
-        "y": 1.8941
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          227,
-          45,
-          49
-        ],
-        "connector": "straight",
-        "dash": 4,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Fool",
-        "width": 1.5238293235008704
-      },
-      "type": "connector",
-      "z_order": 20
     }
   ],
   "slide": {

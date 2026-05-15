@@ -8,571 +8,72 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "fill": [
-        25,
-        30,
-        39
+      "colors": [
+        [
+          120,
+          58,
+          170
+        ],
+        [
+          135,
+          159,
+          86
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Lamentable"
+      "fill": [
+        120,
+        58,
+        170
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Plantation Red"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 1,
+    "level": 1,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 1
+  },
   "objects": [
     {
       "bbox": {
-        "h": 5.1072,
-        "w": 5.7656,
-        "x": 4.3694,
-        "y": 2.6008
+        "h": 4.9258,
+        "w": 6.9424,
+        "x": 5.0713,
+        "y": -0.7031
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          41,
-          149,
-          111
+          125,
+          66,
+          112
         ],
         "focus": false,
         "line": [
-          79,
-          168,
-          63
+          74,
+          69,
+          27
         ],
-        "line_width": 4.296476748934331,
-        "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Lamentable"
+        "line_width": 7.4112439815280915,
+        "outline_only": true,
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Plantation Red"
       },
       "type": "shape",
       "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 2.2351,
-        "w": 8.7117,
-        "x": 5.5884,
-        "y": 4.7831
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "callouts",
-        "fill": [
-          181,
-          141,
-          81
-        ],
-        "focus": false,
-        "line": [
-          105,
-          123,
-          101
-        ],
-        "line_width": 7.614912344624564,
-        "outline_only": false,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Lamentable"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 7.5032,
-        "w": 0.6003,
-        "x": 12.7464,
-        "y": 0.0197
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          43,
-          51,
-          64
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 2.5300043973719135,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Lamentable"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.1742,
-        "w": 8.3944,
-        "x": 2.8309,
-        "y": 0.6678
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          247,
-          249
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Annoyed Stone Snails Shy",
-        "theme_topic": "Lamentable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 4.9677,
-        "w": 4.407,
-        "x": 0.6204,
-        "y": 2.0366
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          43,
-          51,
-          64
-        ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          108,
-          148,
-          45
-        ],
-        "border": [
-          46,
-          43,
-          72
-        ],
-        "border_dash": "solid",
-        "border_width": 1.2771704094107306,
-        "cells": [
-          [
-            "letters land",
-            "sturdy efficient"
-          ],
-          [
-            "wind rub",
-            "impolite"
-          ],
-          [
-            "health",
-            "giants reach"
-          ],
-          [
-            "tawdry high-pitched",
-            "toe economic"
-          ],
-          [
-            "seal nose",
-            "spare"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 10,
-        "has_header": false,
-        "header": [
-          96,
-          165,
-          250
-        ],
-        "rows": 5,
-        "text_color": [
-          90,
-          155,
-          52
-        ],
-        "theme_topic": "Lamentable"
-      },
-      "type": "table",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.0489,
-        "w": 1.7382,
-        "x": 5.3448,
-        "y": 1.9964
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          44,
-          67,
-          98
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 3.8179805632276986,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Lamentable"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.7504,
-        "w": 1.4152,
-        "x": 5.5453,
-        "y": 2.167
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 37,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "67%",
-        "theme_topic": "Lamentable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 4.0496,
-        "w": 1.4151,
-        "x": 5.532,
-        "y": 2.929
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          177,
-          185,
-          196
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "save fluttering capable",
-        "theme_topic": "Lamentable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 5.0414,
-        "w": 1.5837,
-        "x": 7.2811,
-        "y": 1.9862
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          36,
-          218,
-          177
-        ],
-        "line": [
-          43,
-          51,
-          64
-        ],
-        "line_width": 1.4561749265885406,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Lamentable"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.7665,
-        "w": 1.226,
-        "x": 7.4507,
-        "y": 2.1739
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "5.2x",
-        "theme_topic": "Lamentable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 4.048,
-        "w": 1.1883,
-        "x": 7.4627,
-        "y": 2.929
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          177,
-          185,
-          196
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "education boundary wound",
-        "theme_topic": "Lamentable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.8528,
-        "w": 0.8161,
-        "x": 6.2822,
-        "y": 3.2564
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          43,
-          51,
-          64
-        ],
-        "focus": false,
-        "line": [
-          180,
-          185,
-          207
-        ],
-        "line_width": 3.0575761426188013,
-        "outline_only": false,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Lamentable"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.6504,
-        "w": 1.5386,
-        "x": 5.0452,
-        "y": 2.1599
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          96,
-          165,
-          250
-        ],
-        "secondary": [
-          102,
-          113,
-          222
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#9e7628\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#c920a6\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Lamentable"
-      },
-      "type": "svg",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.8051,
-        "w": 1.0708,
-        "x": 4.8032,
-        "y": 4.7471
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "ribbons",
-        "fill": [
-          108,
-          132,
-          101
-        ],
-        "focus": false,
-        "line": [
-          162,
-          202,
-          57
-        ],
-        "line_width": 4.680357782620093,
-        "outline_only": false,
-        "ppt_type": 140,
-        "shape": "left_right_ribbon",
-        "theme_topic": "Lamentable"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.5348,
-        "w": 2.2699,
-        "x": 3.8564,
-        "y": 1.3834
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          195,
-          176,
-          218
-        ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "committee flood dad breath",
-        "theme_topic": "Lamentable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 1.0245,
-        "w": 1.267,
-        "x": 8.5353,
-        "y": 3.8951
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "focus": false,
-        "line": [
-          153,
-          136,
-          226
-        ],
-        "line_width": 1.060466663147881,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Lamentable"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.5552,
-        "w": 1.3707,
-        "x": 11.4254,
-        "y": 6.5454
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          150,
-          51,
-          205
-        ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tin",
-        "theme_topic": "Lamentable",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
     }
   ],
   "slide": {

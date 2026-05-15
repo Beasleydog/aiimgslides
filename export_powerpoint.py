@@ -65,7 +65,7 @@ def export_slides_with_svg_with_app(
     output_path.mkdir(parents=True, exist_ok=True)
 
     presentation = None
-    with tempfile.TemporaryDirectory() as tmp:
+    with tempfile.TemporaryDirectory(ignore_cleanup_errors=True) as tmp:
         try:
             presentation = app.Presentations.Open(os.path.abspath(pptx_path), WithWindow=False)
             if config.INSERT_SVG_WITH_POWERPOINT:

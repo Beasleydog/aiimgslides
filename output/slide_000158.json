@@ -8,541 +8,162 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 120,
+      "angle": 0,
       "archetype": "atomic_composition",
       "colors": [
         [
-          100,
-          70,
-          216
+          139,
+          78,
+          190
         ],
         [
-          114,
-          170,
-          209
+          184,
+          192,
+          163
         ]
       ],
       "fill": [
-        25,
-        30,
-        39
+        120,
+        58,
+        170
       ],
-      "focus": "top_right",
-      "gradient_type": "linear",
+      "focus": "center",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Guiltless"
+      "theme_topic": "War"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 4,
+    "level": 4,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 4
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.6792,
-        "w": 3.3048,
-        "x": -0.5979,
-        "y": 2.5986
+        "h": 3.9522,
+        "w": 5.515,
+        "x": 0.0083,
+        "y": -0.0023
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "stars",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          127,
-          111,
-          177
+          139,
+          78,
+          190
         ],
-        "focus": false,
         "line": [
-          45,
-          144,
-          200
+          139,
+          78,
+          190
         ],
-        "line_width": 6.207853415988678,
+        "line_width": 1.9125750608699024,
         "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Guiltless"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "War"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.2343,
-        "w": 6.8588,
-        "x": 1.7156,
-        "y": 4.5412
+        "h": 5.5689,
+        "w": 2.8513,
+        "x": 0.653,
+        "y": 0.7274
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
-        "fill": [
-          78,
-          93,
-          143
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          250,
+          255
         ],
-        "focus": false,
-        "line": [
-          122,
-          28,
-          212
-        ],
-        "line_width": 4.35126374830736,
-        "outline_only": false,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Guiltless"
+        "font_face": "Aptos Display",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Argument Downtown",
+        "theme_topic": "War",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.3052,
-        "w": 5.0044,
-        "x": 5.1044,
-        "y": 4.5152
+        "h": 2.3689,
+        "w": 4.6779,
+        "x": 3.7525,
+        "y": 2.4371
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
+        "dash": 4,
+        "family": "panel",
         "fill": [
-          104,
-          31,
-          139
+          139,
+          78,
+          190
         ],
-        "focus": false,
         "line": [
-          175,
-          104,
-          90
+          139,
+          78,
+          190
         ],
-        "line_width": 4.198961873911104,
-        "outline_only": true,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Guiltless"
+        "line_width": 1.8377350051317964,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "War"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.1291,
-        "w": 8.0331,
-        "x": 0.5266,
-        "y": 0.3272
+        "h": 1.8637,
+        "w": 4.6827,
+        "x": 3.7398,
+        "y": 5.0355
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          247,
-          249
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          139,
+          78,
+          190
         ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Friend Handsome",
-        "theme_topic": "Guiltless",
-        "underline": false
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 1.5515929999907685,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "War"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.0505,
-        "w": 5.657,
-        "x": 6.9834,
-        "y": 1.9906
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          247,
-          249
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 46,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Pumped Large",
-        "theme_topic": "Guiltless",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 3.6151,
-        "w": 5.6357,
-        "x": 6.9852,
-        "y": 3.2528
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          177,
-          185,
-          196
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "straight reply ski wobble advice round scary push upbeat suck damaging move quarrelsome uptight satisfying instrument calculating roomy true airplane shop",
-        "theme_topic": "Guiltless",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.847,
-        "w": 5.6442,
-        "x": 0.705,
-        "y": 4.5946
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          136,
-          145,
-          192
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Hurry",
-        "theme_topic": "Guiltless",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 1.1385,
-        "w": 5.6258,
-        "x": 0.6998,
-        "y": 5.7403
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          177,
-          185,
-          196
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "example forgetful provide uptight evasive bake sharp sparkle noiseless lively demonic selective kill",
-        "theme_topic": "Guiltless",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.269,
-        "w": 5.5429,
-        "x": 0.772,
-        "y": 2.052
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          247,
-          249
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 23,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Reflect Bikes Languid Memorize Jumbled Rare Roomy March",
-        "theme_topic": "Guiltless",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.389,
-        "w": 3.0332,
-        "x": 0.7555,
-        "y": 3.5432
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          96,
-          165,
-          250
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "SCATTERED OUTSTANDING",
-        "theme_topic": "Guiltless",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.7921,
-        "w": 0.6893,
-        "x": 0.4957,
-        "y": 4.0887
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          73,
-          94,
-          170
-        ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Guiltless",
-        "width": 0.6829961705936881
-      },
-      "type": "connector",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.8332,
-        "w": 1.1019,
-        "x": 9.285,
-        "y": 6.2241
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          105,
-          143,
-          41
-        ],
-        "focus": false,
-        "line": [
-          41,
-          48,
-          113
-        ],
-        "line_width": 5.819806526892232,
-        "outline_only": true,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Guiltless"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.5537,
-        "w": 1.5874,
-        "x": 0.3341,
-        "y": 4.9192
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "swoop",
-        "primary": [
-          165,
-          64,
-          179
-        ],
-        "secondary": [
-          107,
-          172,
-          184
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#566785\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#9f3355\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
-        "theme_topic": "Guiltless"
-      },
-      "type": "svg",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 1.1459,
-        "x": 5.823,
-        "y": 4.8146
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "stars",
-        "fill": [
-          142,
-          214,
-          182
-        ],
-        "focus": false,
-        "line": [
-          191,
-          170,
-          203
-        ],
-        "line_width": 2.847687794875937,
-        "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Guiltless"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 1.1996,
-        "w": 1.0037,
-        "x": 9.5241,
-        "y": 4.8983
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          189,
-          89,
-          29
-        ],
-        "focus": false,
-        "line": [
-          96,
-          165,
-          250
-        ],
-        "line_width": 4.118965460921644,
-        "outline_only": false,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Guiltless"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 1.1569,
-        "w": 0.7221,
-        "x": 8.9812,
-        "y": 1.5462
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          206,
-          162,
-          203
-        ],
-        "focus": false,
-        "line": [
-          177,
-          185,
-          196
-        ],
-        "line_width": 6.654141953484163,
-        "outline_only": true,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Guiltless"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.3613,
-        "w": 2.0514,
-        "x": 3.1372,
-        "y": 2.466
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          66,
-          50,
-          117
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "careful",
-        "theme_topic": "Guiltless",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
     }
   ],
   "slide": {

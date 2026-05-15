@@ -8,1062 +8,407 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          236,
-          240,
-          242
-        ],
-        [
-          222,
-          133,
-          62
-        ]
-      ],
       "fill": [
-        247,
-        248,
-        246
+        69,
+        220,
+        164
       ],
-      "focus": "bottom_left",
-      "gradient_type": "linear",
-      "style": "gradient",
-      "theme_topic": "Letters"
+      "style": "solid",
+      "theme_topic": "Flow Learned"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 12,
+    "level": 12,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 12
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.9343,
-        "w": 8.2873,
-        "x": 2.3225,
-        "y": 0.7282
+        "h": 1.9685,
+        "w": 4.0651,
+        "x": 1.7033,
+        "y": 3.181
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          103,
-          195,
-          111
+          137,
+          178,
+          160
         ],
         "focus": false,
         "line": [
-          73,
-          113,
-          57
+          100,
+          41,
+          146
         ],
-        "line_width": 7.475935340908346,
+        "line_width": 3.016561650450938,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Letters"
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Flow Learned"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.2696,
-        "w": 6.2003,
-        "x": -1.1107,
-        "y": 2.2878
+        "h": 3.767,
+        "w": 5.6105,
+        "x": 2.6749,
+        "y": 3.321
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
+        "dash": 4,
+        "family": "callouts",
         "fill": [
-          158,
-          113,
-          118
+          49,
+          185,
+          134
         ],
         "focus": false,
         "line": [
-          107,
-          116,
-          65
+          229,
+          184,
+          226
         ],
-        "line_width": 2.215131322089121,
-        "outline_only": true,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Letters"
+        "line_width": 5.559271545959228,
+        "outline_only": false,
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Flow Learned"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.61,
-        "w": 6.1528,
-        "x": -0.2192,
-        "y": -0.66
+        "h": 1.3274,
+        "w": 7.2861,
+        "x": 0.5453,
+        "y": 0.3261
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          226,
-          145,
-          191
-        ],
-        "focus": false,
-        "line": [
-          32,
-          185,
-          145
-        ],
-        "line_width": 4.1829009821376975,
-        "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.0587,
-        "w": 3.3506,
-        "x": -0.9183,
-        "y": 2.0795
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          119,
-          122,
-          122
-        ],
-        "focus": false,
-        "line": [
-          226,
-          212,
-          137
-        ],
-        "line_width": 6.094525147458869,
-        "outline_only": false,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 7.4803,
-        "w": 1.0836,
-        "x": 0.0054,
-        "y": 0.0062
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          236,
-          240,
-          242
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 1.4976661940655391,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.175,
-        "w": 6.0188,
-        "x": 0.5681,
-        "y": 0.337
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
+          28,
           30,
-          35,
-          42
+          36
         ],
-        "font_face": "Georgia",
-        "font_size": 34,
+        "font_face": "Aptos Display",
+        "font_size": 33,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hellish Ordinary Bird",
-        "theme_topic": "Letters",
+        "text": "Tank Floor Shame Romantic",
+        "theme_topic": "Flow Learned",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.8241,
+        "w": 6.9963,
+        "x": 3.1302,
+        "y": 2.0739
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 35,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Kindhearted Joyous Giraffe Lowly Unequal Gray Secret Enormous Attract Strong",
+        "theme_topic": "Flow Learned",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.5181,
+        "w": 3.8754,
+        "x": 3.1277,
+        "y": 4.1482
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          117,
+          161
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "SCREECHING",
+        "theme_topic": "Flow Learned",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.4479,
+        "w": 3.3554,
+        "x": 3.7495,
+        "y": 3.6007
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.14342809489002237,
+          0.10962904421827668,
+          0.25415999717980853,
+          0.07557012704881211
+        ],
+        "focus": false,
+        "mask_line": [
+          132,
+          56,
+          157
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Flow Learned",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 2.1995,
-        "w": 0.8452,
-        "x": 8.1881,
-        "y": 1.8529
+        "h": 0.4938,
+        "w": 0.953,
+        "x": 10.0353,
+        "y": 0.9387
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          236,
-          240,
-          242
+          35,
+          208,
+          88
         ],
+        "focus": false,
         "line": [
-          236,
-          240,
-          242
+          119,
+          187,
+          133
         ],
-        "line_width": 1.5411704243586704,
+        "line_width": 6.012674187362712,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Letters"
+        "ppt_type": 22,
+        "shape": "lightning",
+        "theme_topic": "Flow Learned"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.471,
-        "w": 0.5202,
-        "x": 8.4218,
-        "y": 2.769
+        "h": 0.7473,
+        "w": 1.5311,
+        "x": 6.7818,
+        "y": 2.984
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
+        "fill": [
+          130,
+          168,
+          190
+        ],
+        "line": [
           31,
           117,
           161
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Interfere",
-        "theme_topic": "Letters",
-        "underline": false
+        "line_width": 0.9135455448150678,
+        "pattern": "blob",
+        "points": [
+          [
+            0.12,
+            0.2
+          ],
+          [
+            0.35,
+            0.04
+          ],
+          [
+            0.7,
+            0.12
+          ],
+          [
+            0.95,
+            0.42
+          ],
+          [
+            0.82,
+            0.82
+          ],
+          [
+            0.45,
+            0.98
+          ],
+          [
+            0.08,
+            0.72
+          ],
+          [
+            0.02,
+            0.38
+          ]
+        ],
+        "theme_topic": "Flow Learned"
       },
-      "type": "text",
+      "type": "freeform",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.5715,
-        "w": 0.4952,
-        "x": 8.4323,
-        "y": 3.2864
+        "h": 1.1782,
+        "w": 1.1241,
+        "x": 4.3591,
+        "y": 6.1735
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          115,
-          124,
-          135
+          140,
+          223,
+          41
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "fax successful cat promise",
-        "theme_topic": "Letters",
-        "underline": false
+        "connector": "curve",
+        "dash": 1,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Flow Learned",
+        "width": 2.0981045073576343
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 2.2242,
-        "w": 1.0823,
-        "x": 9.2661,
-        "y": 1.8464
+        "h": 0.1539,
+        "w": 1.3364,
+        "x": 1.0534,
+        "y": 5.9643
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
+        "color": [
+          191,
+          84,
+          103
+        ],
+        "connector": "curve",
         "dash": 1,
-        "family": "panel",
-        "fill": [
-          236,
-          240,
-          242
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 1.6566463378056964,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Letters"
+        "flip": true,
+        "ppt_type": 3,
+        "theme_topic": "Flow Learned",
+        "width": 2.174095804043567
       },
-      "type": "shape",
+      "type": "connector",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.4282,
-        "w": 0.5554,
-        "x": 9.493,
-        "y": 2.7581
+        "h": 0.7354,
+        "w": 1.1342,
+        "x": 10.8778,
+        "y": 1.9565
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
+        "pattern": "burst",
+        "primary": [
+          122,
+          98,
+          211
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Harass",
-        "theme_topic": "Letters",
-        "underline": false
+        "secondary": [
+          222,
+          133,
+          62
+        ],
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#1f899b\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#867fb3\" opacity=\"0.72\"/>\n        </svg>",
+        "theme_topic": "Flow Learned"
       },
-      "type": "text",
+      "type": "svg",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.5374,
-        "w": 0.5714,
-        "x": 9.5193,
-        "y": 3.2954
+        "h": 0.8803,
+        "w": 1.1012,
+        "x": 3.5829,
+        "y": 5.0942
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          115,
-          124,
-          135
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "breathe pumped machine shock",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 2.2129,
-        "w": 1.0156,
-        "x": 10.5526,
-        "y": 1.8694
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          236,
-          240,
-          242
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 0.7670988903335427,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.46,
-        "w": 0.5425,
-        "x": 10.7886,
-        "y": 2.7654
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Sad Nose",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.5514,
-        "w": 0.5347,
-        "x": 10.7757,
-        "y": 3.2948
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          115,
-          124,
-          135
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "pigs tearful merciful name humorous",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 2.2196,
-        "w": 1.0113,
-        "x": 11.796,
-        "y": 1.8339
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "stars",
         "fill": [
-          236,
-          240,
-          242
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 1.5750350359088865,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.4467,
-        "w": 0.5116,
-        "x": 12.0509,
-        "y": 2.7742
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Maddening",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.5317,
-        "w": 0.5135,
-        "x": 12.0489,
-        "y": 3.2826
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          115,
-          124,
-          135
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "poison push thread ladybug",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 2.6041,
-        "w": 3.8816,
-        "x": 0.5411,
-        "y": 4.4178
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          236,
-          240,
-          242
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 1.1615949486381985,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.5777,
-        "w": 0.5386,
-        "x": 0.7518,
-        "y": 4.6307
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "focus": false,
-        "line": [
-          210,
-          77,
-          188
-        ],
-        "line_width": 1.2591048231674151,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.4505,
-        "w": 3.3747,
-        "x": 0.8115,
-        "y": 5.3261
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Anxious Tremendous",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.9456,
-        "w": 3.4153,
-        "x": 0.7769,
-        "y": 5.8729
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          115,
-          124,
-          135
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "look elegant whimsical interfere raspy stiff thoughtless spot salty squealing",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 2.6139,
-        "w": 4.0689,
-        "x": 4.6606,
-        "y": 4.4018
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          236,
-          240,
-          242
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 5.144419534355818,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 0.54,
-        "w": 0.572,
-        "x": 4.8733,
-        "y": 4.5972
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          236,
-          240,
-          242
-        ],
-        "focus": false,
-        "line": [
-          31,
-          117,
-          161
-        ],
-        "line_width": 2.5736332170799026,
-        "outline_only": true,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 24
-    },
-    {
-      "bbox": {
-        "h": 0.449,
-        "w": 3.5742,
-        "x": 4.9277,
-        "y": 5.3059
-      },
-      "id": "object_025",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Knit",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 25
-    },
-    {
-      "bbox": {
-        "h": 0.9463,
-        "w": 3.5605,
-        "x": 4.9134,
-        "y": 5.8467
-      },
-      "id": "object_026",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          115,
-          124,
-          135
-        ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "discover heavy motionless motionless needle bubble smell glass yummy lamentable polite smart expensive summer",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 26
-    },
-    {
-      "bbox": {
-        "h": 2.6077,
-        "w": 3.8521,
-        "x": 8.9296,
-        "y": 4.389
-      },
-      "id": "object_027",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          236,
-          240,
-          242
-        ],
-        "line": [
-          236,
-          240,
-          242
-        ],
-        "line_width": 1.2562909655708214,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 27
-    },
-    {
-      "bbox": {
-        "h": 0.5221,
-        "w": 0.513,
-        "x": 9.161,
-        "y": 4.6017
-      },
-      "id": "object_028",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          122,
-          140,
-          28
-        ],
-        "focus": false,
-        "line": [
-          206,
-          140,
-          129
-        ],
-        "line_width": 5.745849946958833,
-        "outline_only": true,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 28
-    },
-    {
-      "bbox": {
-        "h": 0.47,
-        "w": 3.3545,
-        "x": 9.1936,
-        "y": 5.3114
-      },
-      "id": "object_029",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Vengeful Celery",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 29
-    },
-    {
-      "bbox": {
-        "h": 0.9568,
-        "w": 3.3583,
-        "x": 9.1815,
-        "y": 5.8372
-      },
-      "id": "object_030",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          115,
-          124,
-          135
-        ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wriggle sleepy normal toad activity peaceful low vivacious ear",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 30
-    },
-    {
-      "bbox": {
-        "h": 0.7927,
-        "w": 0.7405,
-        "x": 4.5838,
-        "y": 4.0303
-      },
-      "id": "object_031",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
-        "fill": [
-          198,
-          183,
-          132
-        ],
-        "focus": false,
-        "line": [
-          153,
-          206,
-          228
-        ],
-        "line_width": 2.980357914547959,
-        "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Letters"
-      },
-      "type": "shape",
-      "z_order": 31
-    },
-    {
-      "bbox": {
-        "h": 0.2391,
-        "w": 1.5627,
-        "x": 8.8276,
-        "y": 5.6247
-      },
-      "id": "object_032",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          163,
-          169,
-          119
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "earsplitting encourage glass hammer",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 32
-    },
-    {
-      "bbox": {
-        "h": 0.3604,
-        "w": 1.112,
-        "x": 5.9758,
-        "y": 2.6595
-      },
-      "id": "object_033",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
           215,
-          85,
-          140
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Protect Loud Pumped",
-        "theme_topic": "Letters",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 33
-    },
-    {
-      "bbox": {
-        "h": 0.3317,
-        "w": 1.1117,
-        "x": 10.6043,
-        "y": 6.1365
-      },
-      "id": "object_034",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          163,
-          125,
-          112
+          82,
+          85
         ],
         "focus": false,
         "line": [
-          120,
-          129,
-          97
+          31,
+          117,
+          161
         ],
-        "line_width": 0.4238967012581778,
+        "line_width": 1.2377622280716805,
         "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Letters"
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Flow Learned"
       },
       "type": "shape",
-      "z_order": 34
+      "z_order": 12
     }
   ],
   "slide": {

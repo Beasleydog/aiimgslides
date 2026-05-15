@@ -10,65 +10,73 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        66,
-        212,
-        181
+        48,
+        141,
+        211
       ],
       "fill": [
-        198,
-        217,
-        199
+        29,
+        151,
+        112
       ],
       "fore_color": [
-        138,
-        79,
-        152
+        132,
+        119,
+        146
       ],
-      "pattern": 24,
+      "pattern": 51,
       "style": "pattern",
-      "theme_topic": "Grateful"
+      "theme_topic": "Wail"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 2,
+    "level": 2,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 2
+  },
   "objects": [
     {
       "bbox": {
-        "h": 0.9305,
-        "w": 13.3138,
-        "x": -0.0173,
-        "y": -0.0123
+        "h": 1.5287,
+        "w": 7.7224,
+        "x": 4.1005,
+        "y": 0.5655
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          159,
-          174,
-          160
+          135,
+          203,
+          173
         ],
+        "focus": false,
         "line": [
-          159,
-          174,
-          160
+          70,
+          196,
+          94
         ],
-        "line_width": 4.198969739316987,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Grateful"
+        "line_width": 4.373354557667998,
+        "outline_only": true,
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Wail"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.2923,
-        "w": 7.9357,
-        "x": 0.5456,
-        "y": 0.3399
+        "h": 1.1507,
+        "w": 8.4673,
+        "x": 3.0963,
+        "y": 0.6435
       },
       "id": "object_002",
       "properties": {
@@ -76,456 +84,21 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Georgia",
-        "font_size": 26,
+        "font_face": "Aptos Display",
+        "font_size": 39,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Dear School",
-        "theme_topic": "Grateful",
+        "text": "Health Pumped",
+        "theme_topic": "Wail",
         "underline": false
       },
       "type": "text",
       "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.4465,
-        "w": 3.8881,
-        "x": 8.8614,
-        "y": 1.8238
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "ill-fated",
-          "scene",
-          "cable",
-          "cook",
-          "apparel"
-        ],
-        "chart": "column",
-        "focus": true,
-        "has_legend": false,
-        "has_title": true,
-        "ppt_type": 51,
-        "series": [
-          {
-            "color": [
-              106,
-              178,
-              145
-            ],
-            "name": "finicky",
-            "values": [
-              20,
-              84,
-              93,
-              84,
-              65
-            ]
-          },
-          {
-            "color": [
-              40,
-              119,
-              221
-            ],
-            "name": "airplane discover",
-            "values": [
-              42,
-              46,
-              38,
-              36,
-              72
-            ]
-          }
-        ],
-        "theme_topic": "Grateful",
-        "title": "fit paddle paint stroke"
-      },
-      "type": "chart",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 2.3158,
-        "w": 3.7733,
-        "x": 0.5939,
-        "y": 1.89
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          159,
-          174,
-          160
-        ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          159,
-          174,
-          160
-        ],
-        "border": [
-          89,
-          52,
-          195
-        ],
-        "border_dash": "solid",
-        "border_width": 3.736022707299881,
-        "cells": [
-          [
-            "disagreeable wretched",
-            "handsome trap",
-            "secretary",
-            "float middle"
-          ],
-          [
-            "road",
-            "sock",
-            "massive",
-            "attend delirious"
-          ],
-          [
-            "deer",
-            "glass eight",
-            "screw",
-            "delicious teaching"
-          ],
-          [
-            "suggestion",
-            "tax bump",
-            "peep",
-            "spare trust"
-          ]
-        ],
-        "cols": 4,
-        "font_size": 8,
-        "has_header": true,
-        "header": [
-          82,
-          96,
-          214
-        ],
-        "rows": 4,
-        "text_color": [
-          119,
-          122,
-          213
-        ],
-        "theme_topic": "Grateful"
-      },
-      "type": "table",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.7663,
-        "w": 1.9097,
-        "x": 0.7206,
-        "y": 4.7484
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Georgia",
-        "font_size": 36,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "31%",
-        "theme_topic": "Grateful",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.4201,
-        "w": 1.895,
-        "x": 0.7509,
-        "y": 5.4776
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          104,
-          114,
-          109
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "entertain remarkable force",
-        "theme_topic": "Grateful",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 2.4226,
-        "w": 1.4867,
-        "x": 2.9585,
-        "y": 4.5478
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          218,
-          135,
-          89
-        ],
-        "line": [
-          159,
-          174,
-          160
-        ],
-        "line_width": 1.435205902402682,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Grateful"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.7704,
-        "w": 1.1089,
-        "x": 3.1455,
-        "y": 4.7503
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Georgia",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "7.7x",
-        "theme_topic": "Grateful",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 1.408,
-        "w": 1.1033,
-        "x": 3.1732,
-        "y": 5.4946
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          104,
-          114,
-          109
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "offend squash outrageous handsome peck offend science",
-        "theme_topic": "Grateful",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 2.3659,
-        "w": 1.7922,
-        "x": 8.9462,
-        "y": 4.6301
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.18444432613216907,
-          0.18285961931342515,
-          0.20779606459844793,
-          0.13494927123588846
-        ],
-        "focus": false,
-        "mask_line": [
-          75,
-          225,
-          165
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Grateful",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 2.3185,
-        "w": 1.8469,
-        "x": 10.8947,
-        "y": 4.5794
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.023796133333018978,
-          0.27947348206690525,
-          0.15606472489722634,
-          0.24675044717450118
-        ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Grateful",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.8569,
-        "w": 1.3345,
-        "x": 3.2868,
-        "y": 3.3447
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          124,
-          39,
-          82
-        ],
-        "focus": false,
-        "line": [
-          75,
-          100,
-          133
-        ],
-        "line_width": 2.0993783624550546,
-        "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Grateful"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.8189,
-        "w": 0.7711,
-        "x": 9.2274,
-        "y": 3.111
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
-        "fill": [
-          189,
-          206,
-          187
-        ],
-        "focus": false,
-        "line": [
-          205,
-          191,
-          111
-        ],
-        "line_width": 3.6587945854970467,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Grateful"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.534,
-        "w": 1.3661,
-        "x": 2.6457,
-        "y": 4.776
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          139,
-          193,
-          210
-        ],
-        "focus": false,
-        "line": [
-          110,
-          229,
-          121
-        ],
-        "line_width": 6.147310647202094,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Grateful"
-      },
-      "type": "shape",
-      "z_order": 14
     }
   ],
   "slide": {

@@ -8,70 +8,112 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 120,
       "archetype": "atomic_composition",
-      "back_color": [
-        78,
-        173,
-        143
+      "colors": [
+        [
+          208,
+          97,
+          120
+        ],
+        [
+          79,
+          216,
+          177
+        ]
       ],
       "fill": [
-        29,
-        151,
-        112
+        198,
+        64,
+        91
       ],
-      "fore_color": [
-        100,
-        69,
-        41
-      ],
-      "pattern": 27,
-      "style": "pattern",
-      "theme_topic": "Laborer Halting"
+      "focus": "center",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Jobless"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 5,
+    "level": 5,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 5
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.5648,
-        "w": 7.0516,
-        "x": 1.2518,
-        "y": -0.0264
+        "h": 3.4934,
+        "w": 5.3788,
+        "x": 7.723,
+        "y": -0.7072
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "math",
+        "family": "arrows",
         "fill": [
-          28,
-          97,
-          80
+          103,
+          95,
+          134
         ],
         "focus": false,
         "line": [
-          107,
-          199,
-          206
+          157,
+          190,
+          75
         ],
-        "line_width": 6.084859023217998,
-        "outline_only": true,
-        "ppt_type": 164,
-        "shape": "minus",
-        "theme_topic": "Laborer Halting"
+        "line_width": 5.627224198292213,
+        "outline_only": false,
+        "ppt_type": 49,
+        "shape": "striped_right_arrow",
+        "theme_topic": "Jobless"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0976,
-        "w": 8.7561,
-        "x": 0.5409,
-        "y": 0.3526
+        "h": 2.5307,
+        "w": 4.5503,
+        "x": 0.004,
+        "y": 4.9762
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          208,
+          97,
+          120
+        ],
+        "line": [
+          208,
+          97,
+          120
+        ],
+        "line_width": 1.6544595161985884,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Jobless"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 5.8121,
+        "w": 3.2059,
+        "x": 9.4127,
+        "y": 0.6663
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -82,233 +124,76 @@
           252
         ],
         "font_face": "Arial",
-        "font_size": 42,
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Roof Tranquil Useful Snore",
-        "theme_topic": "Laborer Halting",
+        "text": "Ski Sigh",
+        "theme_topic": "Jobless",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 5.1671,
-        "w": 6.2603,
-        "x": 0.5275,
-        "y": 1.8748
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.19206232412311094,
-          0.1481467566892629,
-          0.17704111329318054,
-          0.07317745706304746
-        ],
-        "focus": true,
-        "mask_line": [
-          48,
-          189,
-          148
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Laborer Halting",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.1776,
-        "w": 5.5613,
-        "x": 7.2363,
-        "y": 1.8534
+        "h": 6.2519,
+        "w": 3.5566,
+        "x": 0.6435,
+        "y": 0.6685
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "categories": [
-          "calculate",
-          "ripe",
-          "rifle",
-          "income",
-          "icky"
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          198,
+          74
         ],
-        "chart": "pie",
-        "focus": true,
-        "has_legend": true,
-        "has_title": false,
+        "line": [
+          208,
+          97,
+          120
+        ],
+        "line_width": 1.3267755337306426,
+        "outline_only": false,
         "ppt_type": 5,
-        "series": [
-          {
-            "color": [
-              53,
-              189,
-              182
-            ],
-            "name": "colossal",
-            "values": [
-              13,
-              54,
-              11,
-              47,
-              25
-            ]
-          }
-        ],
-        "theme_topic": "Laborer Halting",
-        "title": "rhythm peel"
+        "shape": "round_rect",
+        "theme_topic": "Jobless"
       },
-      "type": "chart",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.8589,
-        "w": 0.6867,
-        "x": 8.4682,
-        "y": 3.0331
+        "h": 5.2092,
+        "w": 1.1034,
+        "x": 6.4643,
+        "y": 1.5502
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          78,
-          173,
-          143
-        ],
-        "focus": false,
-        "line": [
-          148,
-          204,
-          189
-        ],
-        "line_width": 3.023631604909048,
-        "outline_only": true,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Laborer Halting"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.2537,
-        "w": 1.9989,
-        "x": 2.1253,
-        "y": 6.0821
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          100,
-          204,
-          205
-        ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Laborer Halting",
-        "width": 1.5758461072162087
-      },
-      "type": "connector",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.2393,
-        "w": 2.0606,
-        "x": 4.2681,
-        "y": 5.3389
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          195,
-          143,
-          101
+          224,
+          165,
+          179
         ],
         "font_face": "Arial",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "clam penitent long deceive",
-        "theme_topic": "Laborer Halting",
+        "text": "rabbits boast print",
+        "theme_topic": "Jobless",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.2812,
-        "w": 1.2613,
-        "x": 7.0365,
-        "y": 6.1566
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "stars",
-        "fill": [
-          168,
-          42,
-          112
-        ],
-        "focus": false,
-        "line": [
-          192,
-          60,
-          38
-        ],
-        "line_width": 4.5110784770127434,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Laborer Halting"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.8702,
-        "w": 1.1737,
-        "x": 4.1075,
-        "y": 5.9671
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          220,
-          82,
-          138
-        ],
-        "connector": "straight",
-        "dash": 7,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Laborer Halting",
-        "width": 2.9884517875242085
-      },
-      "type": "connector",
-      "z_order": 9
+      "z_order": 5
     }
   ],
   "slide": {

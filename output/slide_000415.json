@@ -8,194 +8,203 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "back_color": [
-        232,
-        237,
-        247
+      "colors": [
+        [
+          196,
+          107,
+          70
+        ],
+        [
+          48,
+          78,
+          140
+        ]
       ],
       "fill": [
-        245,
-        247,
-        252
+        196,
+        107,
+        70
       ],
-      "fore_color": [
-        36,
-        178,
-        149
-      ],
-      "pattern": 53,
-      "style": "pattern",
-      "theme_topic": "Rigid"
+      "focus": "top_right",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Punch"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 11,
+    "level": 11,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 11
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.1773,
-        "w": 4.7035,
-        "x": 4.4891,
-        "y": 0.2219
+        "h": 2.9726,
+        "w": 7.7099,
+        "x": 6.6674,
+        "y": 4.9923
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "ribbons",
         "fill": [
-          148,
-          175,
-          200
+          142,
+          182,
+          67
         ],
         "focus": false,
         "line": [
-          94,
-          216,
-          97
+          147,
+          218,
+          84
         ],
-        "line_width": 3.1638237542046177,
-        "outline_only": true,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Rigid"
+        "line_width": 5.823596238038443,
+        "outline_only": false,
+        "ppt_type": 140,
+        "shape": "left_right_ribbon",
+        "theme_topic": "Punch"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.0532,
-        "w": 5.9192,
-        "x": 7.7047,
-        "y": 4.3149
+        "h": 2.2263,
+        "w": 8.025,
+        "x": 5.4224,
+        "y": 1.2312
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "basic",
         "fill": [
-          201,
-          176,
-          173
+          84,
+          161,
+          123
         ],
         "focus": false,
         "line": [
-          83,
-          89,
-          29
+          28,
+          142,
+          77
         ],
-        "line_width": 3.487993801005376,
-        "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Rigid"
+        "line_width": 2.18957959868039,
+        "outline_only": true,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Punch"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.046,
-        "w": 6.3783,
-        "x": 6.4633,
-        "y": 4.5858
+        "h": 3.8782,
+        "w": 6.3976,
+        "x": 3.0685,
+        "y": 1.9584
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "callouts",
         "fill": [
-          235,
-          124,
-          203
+          95,
+          149,
+          133
         ],
         "focus": false,
         "line": [
-          92,
-          41,
-          30
+          170,
+          190,
+          56
         ],
-        "line_width": 6.822567810126819,
+        "line_width": 4.827042792558071,
         "outline_only": false,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Rigid"
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Punch"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 2.0906,
-        "x": 7.714,
-        "y": 4.8101
+        "h": 2.5241,
+        "w": 4.7797,
+        "x": 0.0198,
+        "y": 4.9714
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          82,
-          96,
-          214
+          214,
+          153,
+          128
         ],
         "line": [
-          232,
-          237,
-          247
+          214,
+          153,
+          128
         ],
-        "line_width": 0.9417988613480833,
+        "line_width": 3.546870403474082,
         "outline_only": false,
         "ppt_type": 1,
         "shape": "rect",
-        "theme_topic": "Rigid"
+        "theme_topic": "Punch"
       },
       "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.3754,
-        "w": 0.2,
-        "x": 11.6054,
-        "y": 2.7773
+        "h": 0.8899,
+        "w": 8.3867,
+        "x": 0.7592,
+        "y": 5.8545
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          82,
-          96,
-          214
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 1.7339547608100343,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Rigid"
+        "font_face": "Georgia",
+        "font_size": 36,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Memory Toy Friction",
+        "theme_topic": "Punch",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.1914,
-        "w": 8.0438,
-        "x": 0.5657,
-        "y": 0.3397
+        "h": 0.2773,
+        "w": 5.5482,
+        "x": 7.0899,
+        "y": 0.6664
       },
       "id": "object_006",
       "properties": {
@@ -203,17 +212,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          255,
+          238,
+          103
         ],
-        "font_face": "Aptos Display",
-        "font_size": 39,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Live Breath Fearless Historical",
-        "theme_topic": "Rigid",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "MONEY",
+        "theme_topic": "Punch",
         "underline": false
       },
       "type": "text",
@@ -221,10 +230,10 @@
     },
     {
       "bbox": {
-        "h": 1.0529,
-        "w": 2.8697,
-        "x": 0.6984,
-        "y": 1.9644
+        "h": 1.0701,
+        "w": 5.5408,
+        "x": 7.0629,
+        "y": 1.1572
       },
       "id": "object_007",
       "properties": {
@@ -232,17 +241,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          155,
-          138,
-          156
+          103,
+          158,
+          134
         ],
-        "font_face": "Aptos Display",
+        "font_face": "Georgia",
         "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Strengthen",
-        "theme_topic": "Rigid",
+        "text": "Compete Count Cautious",
+        "theme_topic": "Punch",
         "underline": false
       },
       "type": "text",
@@ -250,10 +259,10 @@
     },
     {
       "bbox": {
-        "h": 3.5922,
-        "w": 2.8827,
-        "x": 0.6888,
-        "y": 3.2652
+        "h": 2.9725,
+        "w": 5.5745,
+        "x": 7.0819,
+        "y": 2.4315
       },
       "id": "object_008",
       "properties": {
@@ -261,17 +270,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          103,
-          117,
-          137
+          223,
+          184,
+          170
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "famous label cheer crime quartz spring bounce meaty push sad detect different melt gather forgetful alarm auspicious promise roll",
-        "theme_topic": "Rigid",
+        "text": "guide temper unequaled scrawny pest scold mute illegal tasteful",
+        "theme_topic": "Punch",
         "underline": false
       },
       "type": "text",
@@ -279,68 +288,68 @@
     },
     {
       "bbox": {
-        "h": 5.1616,
-        "w": 4.7241,
-        "x": 8.0639,
-        "y": 1.8561
+        "h": 1.0503,
+        "w": 5.5386,
+        "x": 0.7181,
+        "y": 0.6567
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1315400207650256,
-          0.2059931240593591,
-          0.2362528473965161,
-          0.11029558776559353
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          162,
+          76,
+          133
         ],
-        "focus": true,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Rigid",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Georgia",
+        "font_size": 31,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Hideous Actor Expert",
+        "theme_topic": "Punch",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 5.1608,
-        "w": 3.7135,
-        "x": 4.0652,
-        "y": 1.8521
+        "h": 3.4639,
+        "w": 5.5685,
+        "x": 0.6996,
+        "y": 1.9784
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.17013502301629835,
-          0.20709450226274465,
-          0.12419486476057852,
-          0.0106150687042416
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          223,
+          184,
+          170
         ],
-        "focus": true,
-        "mask_line": [
-          132,
-          180,
-          173
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Rigid",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "better nifty long hands successful men rabid sordid scissors allow recess cure",
+        "theme_topic": "Punch",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.2677,
-        "w": 3.2789,
-        "x": 4.2332,
-        "y": 6.573
+        "h": 0.2658,
+        "w": 1.4058,
+        "x": 4.029,
+        "y": 4.8175
       },
       "id": "object_011",
       "properties": {
@@ -348,219 +357,21 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          160,
+          192,
+          144
         ],
         "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
+        "font_size": 8,
+        "italic": true,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Legal Reign",
-        "theme_topic": "Rigid",
+        "text": "Damaging Wood Quack",
+        "theme_topic": "Punch",
         "underline": false
       },
       "type": "text",
       "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.4272,
-        "w": 0.4949,
-        "x": 8.2183,
-        "y": 4.2896
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          219,
-          32,
-          140
-        ],
-        "line": [
-          156,
-          197,
-          60
-        ],
-        "line_width": 0.8970578049417808,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Rigid"
-      },
-      "type": "freeform",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.4291,
-        "w": 1.4707,
-        "x": 3.4491,
-        "y": 0.2321
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          229,
-          196,
-          38
-        ],
-        "font_face": "Aptos",
-        "font_size": 5,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Skillful Secret Easy",
-        "theme_topic": "Rigid",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 1.1364,
-        "w": 0.7516,
-        "x": 2.4099,
-        "y": 2.6877
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          141,
-          91,
-          210
-        ],
-        "connector": "curve",
-        "dash": 3,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Rigid",
-        "width": 0.7143720310997381
-      },
-      "type": "connector",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.3353,
-        "w": 1.5809,
-        "x": 8.0796,
-        "y": 1.6965
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          103,
-          168,
-          46
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Penitent Babies",
-        "theme_topic": "Rigid",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.3743,
-        "w": 2.034,
-        "x": 5.0806,
-        "y": 6.2581
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          205,
-          124
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Skirt Tawdry",
-        "theme_topic": "Rigid",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.1289,
-        "w": 2.1869,
-        "x": 5.1348,
-        "y": 4.8685
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          73,
-          150,
-          180
-        ],
-        "connector": "straight",
-        "dash": 7,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Rigid",
-        "width": 2.888325860940014
-      },
-      "type": "connector",
-      "z_order": 17
     }
   ],
   "slide": {

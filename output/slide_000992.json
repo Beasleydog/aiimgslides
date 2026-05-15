@@ -8,137 +8,112 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 315,
+      "angle": 270,
       "archetype": "atomic_composition",
       "colors": [
         [
-          202,
-          65,
-          208
+          111,
+          88,
+          201
         ],
         [
-          47,
-          106,
-          79
+          211,
+          228,
+          190
         ]
       ],
       "fill": [
-        202,
-        65,
-        208
+        111,
+        88,
+        201
       ],
       "focus": "center",
-      "gradient_type": "linear",
+      "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Pale"
+      "theme_topic": "Ghost"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 25,
+    "level": 25,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 25
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.725,
-        "w": 4.7871,
-        "x": 5.5634,
-        "y": 0.6424
+        "h": 1.7882,
+        "w": 5.6032,
+        "x": 0.9915,
+        "y": 3.0959
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          152,
-          73,
-          119
+          53,
+          121,
+          167
         ],
         "focus": false,
         "line": [
-          115,
-          168,
-          56
+          74,
+          61,
+          80
         ],
-        "line_width": 4.74069509691413,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Pale"
+        "line_width": 3.330767381036347,
+        "outline_only": true,
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Ghost"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.1742,
-        "w": 5.0472,
-        "x": 6.8336,
-        "y": 1.4784
+        "h": 7.5125,
+        "w": 1.3136,
+        "x": -0.0067,
+        "y": 0.0113
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 5,
+        "family": "panel",
         "fill": [
-          134,
-          111,
-          172
+          139,
+          120,
+          211
         ],
-        "focus": false,
         "line": [
-          189,
-          55,
-          54
+          139,
+          120,
+          211
         ],
-        "line_width": 6.903529011356136,
+        "line_width": 1.136130708136316,
         "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Pale"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Ghost"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.4674,
-        "w": 6.7105,
-        "x": 1.3125,
-        "y": 1.3803
+        "h": 1.2142,
+        "w": 5.123,
+        "x": 0.5438,
+        "y": 0.3697
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          180,
-          57,
-          185
-        ],
-        "line": [
-          169,
-          54,
-          174
-        ],
-        "line_width": 1.1555828274236055,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Pale"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.9125,
-        "w": 5.9914,
-        "x": 4.6446,
-        "y": 1.1341
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -148,102 +123,134 @@
           30,
           36
         ],
-        "font_face": "Georgia",
-        "font_size": 37,
+        "font_face": "Arial",
+        "font_size": 27,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Steep Condition",
-        "theme_topic": "Pale",
+        "text": "Hook Unite",
+        "theme_topic": "Ghost",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.1751,
+        "w": 1.5141,
+        "x": 0.5679,
+        "y": 1.8613
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          139,
+          120,
+          211
+        ],
+        "line": [
+          139,
+          120,
+          211
+        ],
+        "line_width": 1.544577614390185,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ghost"
+      },
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.651,
-        "w": 6.1515,
-        "x": 6.6241,
-        "y": 1.4568
+        "h": 0.556,
+        "w": 0.58,
+        "x": 0.7333,
+        "y": 2.0423
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          159,
+          124,
+          151
         ],
-        "focus": true,
-        "mask_line": [
-          68,
-          165,
-          134
+        "focus": false,
+        "line": [
+          201,
+          38,
+          162
         ],
-        "mask_overlay": false,
-        "theme_topic": "Pale",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 4.970354492868672,
+        "outline_only": false,
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Ghost"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 5.5477,
-        "w": 3.1012,
-        "x": 0.5514,
-        "y": 1.4682
+        "h": 0.4537,
+        "w": 1.0297,
+        "x": 0.802,
+        "y": 2.7397
       },
       "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          169,
-          54,
-          174
-        ],
-        "line": [
-          169,
-          54,
-          174
-        ],
-        "line_width": 3.6802443560606144,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Pale"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.7415,
-        "w": 2.7333,
-        "x": 0.7155,
-        "y": 1.6363
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          32,
+          119,
+          149
         ],
-        "font_face": "Georgia",
-        "font_size": 30,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Baseball",
+        "theme_topic": "Ghost",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.5516,
+        "w": 0.991,
+        "x": 0.7767,
+        "y": 3.3198
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          65,
+          56,
+          110
+        ],
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
         "margin": 0.04,
-        "text": "85%",
-        "theme_topic": "Pale",
+        "text": "certain cracker cooing memory impartial afternoon bump possessive stretch",
+        "theme_topic": "Ghost",
         "underline": false
       },
       "type": "text",
@@ -251,70 +258,73 @@
     },
     {
       "bbox": {
-        "h": 4.5481,
-        "w": 2.7571,
-        "x": 0.7525,
-        "y": 2.3455
+        "h": 2.1969,
+        "w": 1.4579,
+        "x": 2.2745,
+        "y": 1.8355
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          106,
-          45,
-          113
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "spiders adorable rebel sprout gaping week",
-        "theme_topic": "Pale",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 5.5428,
-        "w": 2.2671,
-        "x": 3.8421,
-        "y": 1.4654
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          199,
-          85,
-          171
+          139,
+          120,
+          211
         ],
         "line": [
-          169,
-          54,
-          174
+          139,
+          120,
+          211
         ],
-        "line_width": 1.4353081203399722,
+        "line_width": 2.6668631610635454,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Pale"
+        "theme_topic": "Ghost"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.5865,
+        "w": 0.5542,
+        "x": 2.4696,
+        "y": 2.0789
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          164,
+          150,
+          204
+        ],
+        "focus": false,
+        "line": [
+          65,
+          56,
+          110
+        ],
+        "line_width": 2.8713443668939544,
+        "outline_only": false,
+        "ppt_type": 50,
+        "shape": "notched_right_arrow",
+        "theme_topic": "Ghost"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.7551,
-        "w": 1.8735,
-        "x": 4.0145,
-        "y": 1.6367
+        "h": 0.4718,
+        "w": 0.988,
+        "x": 2.5342,
+        "y": 2.7662
       },
       "id": "object_010",
       "properties": {
@@ -322,17 +332,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          96,
-          214
+          32,
+          119,
+          149
         ],
-        "font_face": "Georgia",
-        "font_size": 28,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "46%",
-        "theme_topic": "Pale",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Whisper",
+        "theme_topic": "Ghost",
         "underline": false
       },
       "type": "text",
@@ -340,10 +350,10 @@
     },
     {
       "bbox": {
-        "h": 4.5202,
-        "w": 1.9008,
-        "x": 4.0217,
-        "y": 2.371
+        "h": 0.5156,
+        "w": 0.9474,
+        "x": 2.5229,
+        "y": 3.3073
       },
       "id": "object_011",
       "properties": {
@@ -351,17 +361,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          106,
-          45,
-          113
+          65,
+          56,
+          110
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "collar fruit week pan",
-        "theme_topic": "Pale",
+        "text": "hanging writer want wry female scandalous quince deafening efficacious",
+        "theme_topic": "Ghost",
         "underline": false
       },
       "type": "text",
@@ -369,57 +379,59 @@
     },
     {
       "bbox": {
-        "h": 0.5422,
-        "w": 5.8305,
-        "x": 6.7762,
-        "y": 5.4819
+        "h": 2.1866,
+        "w": 1.0884,
+        "x": 3.9566,
+        "y": 1.8465
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          26,
-          138,
-          78
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          139,
+          120,
+          211
         ],
-        "font_face": "Georgia",
-        "font_size": 28,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Burly",
-        "theme_topic": "Pale",
-        "underline": false
+        "line": [
+          139,
+          120,
+          211
+        ],
+        "line_width": 3.3762857197254394,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ghost"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.6282,
-        "w": 5.8696,
-        "x": 6.7717,
-        "y": 6.2811
+        "h": 0.4427,
+        "w": 0.5698,
+        "x": 4.226,
+        "y": 2.7703
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          106,
-          45,
-          113
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 10,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "fluffy inform vessel agreement grandmother fuel spoil introduce wriggle big",
-        "theme_topic": "Pale",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Unused",
+        "theme_topic": "Ghost",
         "underline": false
       },
       "type": "text",
@@ -427,135 +439,131 @@
     },
     {
       "bbox": {
-        "h": 0.6867,
-        "w": 1.3444,
-        "x": 7.2252,
-        "y": 4.1297
+        "h": 0.5079,
+        "w": 0.5595,
+        "x": 4.2145,
+        "y": 3.3219
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          188,
-          95,
-          57
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          65,
+          56,
+          110
         ],
-        "focus": false,
-        "line": [
-          188,
-          177,
-          199
-        ],
-        "line_width": 6.0034838287257255,
-        "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Pale"
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "strip collar kindly ill well-to-do unwieldy",
+        "theme_topic": "Ghost",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.2132,
-        "w": 1.4265,
-        "x": 3.9902,
-        "y": 3.8937
+        "h": 2.1844,
+        "w": 1.5369,
+        "x": 5.243,
+        "y": 1.841
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          66,
-          40,
-          188
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          139,
+          120,
+          211
         ],
-        "bold": true,
-        "color": [
-          146,
-          60,
-          121
+        "line": [
+          139,
+          120,
+          211
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "ten bag arrive",
-        "theme_topic": "Pale",
-        "underline": false
+        "line_width": 1.9335498875830075,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Ghost"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.4002,
-        "w": 1.1984,
-        "x": 9.2179,
-        "y": 3.4949
+        "h": 0.5342,
+        "w": 0.5596,
+        "x": 5.4612,
+        "y": 2.0852
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          131,
-          175,
-          25
+        "dash": 1,
+        "family": "basic",
+        "fill": [
+          139,
+          120,
+          211
         ],
-        "bold": false,
-        "color": [
-          202,
-          105,
-          85
+        "focus": false,
+        "line": [
+          65,
+          56,
+          110
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "acrid married",
-        "theme_topic": "Pale",
-        "underline": false
+        "line_width": 2.7429817125980547,
+        "outline_only": false,
+        "ppt_type": 142,
+        "shape": "pie",
+        "theme_topic": "Ghost"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.4251,
-        "w": 0.4072,
-        "x": 0.1888,
-        "y": 2.8403
+        "h": 0.4574,
+        "w": 1.0116,
+        "x": 5.5277,
+        "y": 2.7596
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "ribbon_path",
-        "primary": [
-          120,
-          186,
-          81
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
         ],
-        "secondary": [
-          56,
-          69,
-          164
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#a8bd4d\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#2d218f\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
-        "theme_topic": "Pale"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Scary",
+        "theme_topic": "Ghost",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.3082,
-        "w": 1.9924,
-        "x": 10.2254,
-        "y": 1.0836
+        "h": 0.539,
+        "w": 1.0296,
+        "x": 5.4965,
+        "y": 3.2808
       },
       "id": "object_018",
       "properties": {
@@ -563,17 +571,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          158,
-          49,
-          146
+          65,
+          56,
+          110
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
+        "font_face": "Arial",
+        "font_size": 7,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Secretive Fearful",
-        "theme_topic": "Pale",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "bait pathetic meat shrill recognise trail irritate jobless knot object tap",
+        "theme_topic": "Ghost",
         "underline": false
       },
       "type": "text",
@@ -581,85 +589,86 @@
     },
     {
       "bbox": {
-        "h": 0.4161,
-        "w": 0.5834,
-        "x": 3.4984,
-        "y": 4.97
+        "h": 0.2728,
+        "w": 5.3111,
+        "x": 7.311,
+        "y": 1.9804
       },
       "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "ribbons",
-        "fill": [
-          78,
-          214,
-          179
-        ],
-        "focus": false,
-        "line": [
-          103,
-          181,
-          71
-        ],
-        "line_width": 2.319057109071841,
-        "outline_only": true,
-        "ppt_type": 98,
-        "shape": "down_ribbon",
-        "theme_topic": "Pale"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.1608,
-        "w": 0.5728,
-        "x": 7.4534,
-        "y": 6.9707
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          211,
-          101,
-          193
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Pale",
-        "width": 0.8856211926839583
-      },
-      "type": "connector",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.5149,
-        "w": 0.6598,
-        "x": 4.1825,
-        "y": 5.2804
-      },
-      "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          123,
-          121,
-          227
+          32,
+          119,
+          149
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "PEACE",
+        "theme_topic": "Ghost",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 1.0373,
+        "w": 5.3279,
+        "x": 7.3032,
+        "y": 2.4599
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Arial",
+        "font_size": 46,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Irritate Feeble",
+        "theme_topic": "Ghost",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 3.1485,
+        "w": 5.3297,
+        "x": 7.3272,
+        "y": 3.7416
+      },
+      "id": "object_021",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          65,
+          56,
+          110
+        ],
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "surround value bead",
-        "theme_topic": "Pale",
+        "text": "abject erratic coil fence coach cow pleasure hang",
+        "theme_topic": "Ghost",
         "underline": false
       },
       "type": "text",
@@ -667,32 +676,121 @@
     },
     {
       "bbox": {
-        "h": 0.5479,
-        "w": 2.1645,
-        "x": 0.2529,
-        "y": 2.1488
+        "h": 0.3774,
+        "w": 1.9202,
+        "x": 3.9354,
+        "y": 3.3713
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
         "color": [
-          37,
-          172,
-          191
+          186,
+          50,
+          30
         ],
-        "font_face": "Aptos",
-        "font_size": 17,
+        "connector": "straight",
+        "dash": 1,
+        "flip": false,
+        "ppt_type": 1,
+        "theme_topic": "Ghost",
+        "width": 1.4197737690887362
+      },
+      "type": "connector",
+      "z_order": 22
+    },
+    {
+      "bbox": {
+        "h": 0.561,
+        "w": 0.7675,
+        "x": 1.4576,
+        "y": 6.298
+      },
+      "id": "object_023",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          201,
+          202,
+          47
+        ],
+        "font_face": "Arial",
+        "font_size": 13,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Statuesque",
-        "theme_topic": "Pale",
+        "text": "Bashful Scandalous",
+        "theme_topic": "Ghost",
         "underline": false
       },
       "type": "text",
-      "z_order": 22
+      "z_order": 23
+    },
+    {
+      "bbox": {
+        "h": 0.4736,
+        "w": 0.5835,
+        "x": 1.3922,
+        "y": 5.4584
+      },
+      "id": "object_024",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "math",
+        "fill": [
+          78,
+          197,
+          208
+        ],
+        "focus": false,
+        "line": [
+          32,
+          119,
+          149
+        ],
+        "line_width": 6.854288157517826,
+        "outline_only": true,
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Ghost"
+      },
+      "type": "shape",
+      "z_order": 24
+    },
+    {
+      "bbox": {
+        "h": 0.8663,
+        "w": 0.2099,
+        "x": 8.0895,
+        "y": 2.9905
+      },
+      "id": "object_025",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          27,
+          222,
+          189
+        ],
+        "focus": false,
+        "line": [
+          211,
+          56,
+          215
+        ],
+        "line_width": 6.035374826239447,
+        "outline_only": true,
+        "ppt_type": 166,
+        "shape": "divide",
+        "theme_topic": "Ghost"
+      },
+      "type": "shape",
+      "z_order": 25
     }
   ],
   "slide": {

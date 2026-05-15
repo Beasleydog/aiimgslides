@@ -8,226 +8,237 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "back_color": [
-        147,
-        143,
-        38
+      "colors": [
+        [
+          156,
+          215,
+          150
+        ],
+        [
+          255,
+          211,
+          88
+        ]
       ],
       "fill": [
-        147,
-        143,
-        38
+        232,
+        163,
+        45
       ],
-      "fore_color": [
-        150,
-        30,
-        215
-      ],
-      "pattern": 23,
-      "style": "pattern",
-      "theme_topic": "Chicken"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Writing Rod"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 16,
+    "level": 16,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 16
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.6883,
-        "w": 4.2666,
-        "x": 3.7728,
-        "y": 5.9532
+        "h": 7.5,
+        "w": 1.1796,
+        "x": -0.0026,
+        "y": -0.0163
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "panel",
         "fill": [
-          159,
-          136,
-          137
+          181,
+          127,
+          35
         ],
-        "focus": false,
         "line": [
-          43,
-          112,
-          172
+          181,
+          127,
+          35
         ],
-        "line_width": 6.403450252928113,
-        "outline_only": true,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Chicken"
+        "line_width": 1.043520310356068,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Writing Rod"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.9448,
-        "w": 3.6083,
-        "x": 1.0142,
-        "y": 1.2251
+        "h": 0.9949,
+        "w": 6.3712,
+        "x": 0.5726,
+        "y": 0.3498
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          194,
-          159,
-          57
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          44,
-          88,
-          173
-        ],
-        "line_width": 3.281731741711333,
-        "outline_only": true,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Chicken"
+        "font_face": "Georgia",
+        "font_size": 42,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Awake Spark Ocean",
+        "theme_topic": "Writing Rod",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.2011,
-        "w": 6.262,
-        "x": 2.4647,
-        "y": 4.1355
+        "h": 2.878,
+        "w": 3.5735,
+        "x": 3.6909,
+        "y": 1.8628
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          96,
-          153,
-          119
+          181,
+          127,
+          35
         ],
-        "focus": false,
         "line": [
-          157,
-          152,
-          46
+          181,
+          127,
+          35
         ],
-        "line_width": 2.92936031354402,
-        "outline_only": true,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Chicken"
+        "line_width": 1.193238783768495,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Writing Rod"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.0423,
-        "w": 8.035,
-        "x": 1.9384,
-        "y": 2.1159
+        "h": 2.365,
+        "w": 3.0502,
+        "x": 3.9259,
+        "y": 2.0901
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
-        "fill": [
-          114,
-          133,
-          120
+        "categories": [
+          "hallowed",
+          "threatening",
+          "burn"
         ],
+        "chart": "bar",
         "focus": false,
-        "line": [
-          117,
-          114,
-          68
+        "has_legend": true,
+        "has_title": false,
+        "ppt_type": 57,
+        "series": [
+          {
+            "color": [
+              141,
+              130,
+              169
+            ],
+            "name": "foregoing",
+            "values": [
+              28,
+              88,
+              40
+            ]
+          }
         ],
-        "line_width": 6.851517153647458,
-        "outline_only": true,
-        "ppt_type": 105,
-        "shape": "rect_callout",
-        "theme_topic": "Chicken"
+        "theme_topic": "Writing Rod",
+        "title": "unknown wrap"
       },
-      "type": "shape",
+      "type": "chart",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.7737,
-        "w": 0.2,
-        "x": 9.4888,
-        "y": 3.4322
+        "h": 2.8649,
+        "w": 2.5617,
+        "x": 7.5663,
+        "y": 1.854
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          174,
-          73,
-          92
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
-        "line": [
-          179,
-          176,
-          103
+        "focus": false,
+        "mask_line": [
+          38,
+          196,
+          138
         ],
-        "line_width": 2.695254026234004,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Chicken"
+        "mask_overlay": false,
+        "theme_topic": "Writing Rod",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 3.2903,
-        "x": 0.5957,
-        "y": 5.4507
+        "h": 0.2761,
+        "w": 2.1881,
+        "x": 7.7912,
+        "y": 4.3034
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          174,
-          73,
-          92
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
         ],
-        "line": [
-          179,
-          176,
-          103
-        ],
-        "line_width": 4.361987303165296,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Chicken"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Guttural",
+        "theme_topic": "Writing Rod",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 1.1351,
-        "w": 6.6581,
-        "x": 2.211,
-        "y": 0.6677
+        "h": 0.2812,
+        "w": 11.9149,
+        "x": 0.701,
+        "y": 5.2457
       },
       "id": "object_007",
       "properties": {
@@ -235,17 +246,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          71,
+          221,
+          181
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 35,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Pour Scarecrow",
-        "theme_topic": "Chicken",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "ELECTRIC",
+        "theme_topic": "Writing Rod",
         "underline": false
       },
       "type": "text",
@@ -253,223 +264,222 @@
     },
     {
       "bbox": {
-        "h": 2.762,
-        "w": 1.3676,
-        "x": 1.5039,
-        "y": 2.4996
+        "h": 0.4234,
+        "w": 11.9116,
+        "x": 0.7008,
+        "y": 5.7314
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          179,
-          176,
-          103
-        ],
-        "line": [
-          179,
-          176,
-          103
-        ],
-        "line_width": 5.009552430664263,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Chicken"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.568,
-        "w": 0.5397,
-        "x": 1.7718,
-        "y": 2.6813
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          110,
-          81,
-          55
-        ],
-        "focus": false,
-        "line": [
-          201,
-          200,
-          155
-        ],
-        "line_width": 0.828603101084016,
-        "outline_only": true,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Chicken"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.4645,
-        "w": 0.8612,
-        "x": 1.7758,
-        "y": 3.3777
-      },
-      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          76,
+          175,
+          226
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Books",
-        "theme_topic": "Chicken",
+        "font_face": "Georgia",
+        "font_size": 21,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Existence Scrawny Way Discussion",
+        "theme_topic": "Writing Rod",
         "underline": false
       },
       "type": "text",
-      "z_order": 10
+      "z_order": 8
     },
     {
       "bbox": {
-        "h": 1.1134,
-        "w": 0.8542,
-        "x": 1.7508,
-        "y": 3.9215
+        "h": 0.4368,
+        "w": 11.9121,
+        "x": 0.6925,
+        "y": 6.4264
       },
-      "id": "object_011",
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          201,
-          200,
-          155
+          119,
+          89,
+          40
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "eye airport behavior snails pathetic receipt straight hose",
-        "theme_topic": "Chicken",
+        "text": "earthy scream sparkling butter magical nifty sidewalk swing",
+        "theme_topic": "Writing Rod",
         "underline": false
       },
       "type": "text",
-      "z_order": 11
+      "z_order": 9
     },
     {
       "bbox": {
-        "h": 2.7708,
-        "w": 2.0317,
-        "x": 3.1313,
-        "y": 2.4785
+        "h": 2.8922,
+        "w": 2.3214,
+        "x": 10.4802,
+        "y": 1.8626
       },
-      "id": "object_012",
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          179,
-          176,
-          103
+          181,
+          127,
+          35
         ],
         "line": [
-          179,
-          176,
-          103
+          181,
+          127,
+          35
         ],
-        "line_width": 1.1199296137817008,
+        "line_width": 1.1073578216596582,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Chicken"
+        "theme_topic": "Writing Rod"
       },
       "type": "shape",
-      "z_order": 12
+      "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5455,
-        "w": 0.5243,
-        "x": 3.3432,
-        "y": 2.6991
+        "h": 2.5969,
+        "w": 2.0077,
+        "x": 10.624,
+        "y": 2.0046
       },
-      "id": "object_013",
+      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          26,
-          84,
-          149
+        "crop": [
+          0.17221085152907967,
+          0.23809168459121818,
+          0.3056555661031258,
+          0.3217796508880088
         ],
         "focus": false,
-        "line": [
-          88,
-          72,
-          90
+        "mask_line": [
+          71,
+          221,
+          181
         ],
-        "line_width": 5.254143465123201,
-        "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Chicken"
+        "mask_overlay": false,
+        "theme_topic": "Writing Rod",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
-      "z_order": 13
+      "type": "image",
+      "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.445,
-        "w": 1.5556,
-        "x": 3.381,
-        "y": 3.375
+        "h": 0.2557,
+        "w": 1.9386,
+        "x": 10.6606,
+        "y": 4.2808
       },
-      "id": "object_014",
+      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          71,
+          221,
+          181
         ],
-        "font_face": "Verdana",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Worry",
-        "theme_topic": "Chicken",
+        "text": "Achiever Zephyr Haunt",
+        "theme_topic": "Writing Rod",
         "underline": false
       },
       "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.274,
+        "w": 2.3292,
+        "x": 9.4611,
+        "y": 3.3726
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          164,
+          37,
+          209
+        ],
+        "bold": false,
+        "color": [
+          53,
+          52,
+          45
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "prefer",
+        "theme_topic": "Writing Rod",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.2325,
+        "w": 0.5079,
+        "x": 7.7318,
+        "y": 3.1464
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "callouts",
+        "fill": [
+          102,
+          207,
+          176
+        ],
+        "focus": false,
+        "line": [
+          141,
+          189,
+          188
+        ],
+        "line_width": 2.977691621476278,
+        "outline_only": false,
+        "ppt_type": 106,
+        "shape": "round_callout",
+        "theme_topic": "Writing Rod"
+      },
+      "type": "shape",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 1.1409,
-        "w": 1.5667,
-        "x": 3.3883,
-        "y": 3.9543
+        "h": 0.4847,
+        "w": 2.3594,
+        "x": 6.9824,
+        "y": 1.3891
       },
       "id": "object_015",
       "properties": {
@@ -477,548 +487,54 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          201,
-          200,
-          155
+          97,
+          188,
+          72
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
+        "font_face": "Aptos",
+        "font_size": 5,
+        "italic": true,
         "kind": "body",
         "margin": 0.04,
-        "text": "flat teaching air stale dysfunctional division groan suggestion one intend unequaled far teeny-tiny dock alive",
-        "theme_topic": "Chicken",
-        "underline": false
+        "text": "queen ajar table",
+        "theme_topic": "Writing Rod",
+        "underline": true
       },
       "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 2.7597,
-        "w": 1.9109,
-        "x": 5.3862,
-        "y": 2.4716
+        "h": 0.3357,
+        "w": 1.8582,
+        "x": 0.7429,
+        "y": 0.4997
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          179,
-          176,
-          103
+        "bg_color": [
+          200,
+          141,
+          218
         ],
-        "line": [
-          179,
-          176,
-          103
-        ],
-        "line_width": 0.7770512768108467,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Chicken"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.5604,
-        "w": 0.5704,
-        "x": 5.5794,
-        "y": 2.6982
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          163,
-          185,
-          123
-        ],
-        "focus": false,
-        "line": [
-          186,
-          70,
-          194
-        ],
-        "line_width": 1.353773460590415,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Chicken"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.4495,
-        "w": 1.439,
-        "x": 5.6216,
-        "y": 3.3802
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
         "bold": true,
         "color": [
-          174,
-          73,
-          92
+          141,
+          171,
+          57
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Friendly Huge",
-        "theme_topic": "Chicken",
+        "text": "Rhetorical Empty Ball",
+        "theme_topic": "Writing Rod",
         "underline": false
       },
       "type": "text",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 1.1103,
-        "w": 1.434,
-        "x": 5.6278,
-        "y": 3.9204
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          201,
-          200,
-          155
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "flowery hand puny true mouth pizzas manage useful rightful animal snow cook fire wing",
-        "theme_topic": "Chicken",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 2.773,
-        "w": 1.9519,
-        "x": 7.5474,
-        "y": 2.5008
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          179,
-          176,
-          103
-        ],
-        "line": [
-          179,
-          176,
-          103
-        ],
-        "line_width": 0.6898410103255026,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Chicken"
-      },
-      "type": "shape",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.5603,
-        "w": 0.5367,
-        "x": 7.7183,
-        "y": 2.6901
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          179,
-          176,
-          103
-        ],
-        "focus": false,
-        "line": [
-          179,
-          111,
-          177
-        ],
-        "line_width": 6.049599801475576,
-        "outline_only": false,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Chicken"
-      },
-      "type": "shape",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.4618,
-        "w": 1.4501,
-        "x": 7.7869,
-        "y": 3.3958
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          174,
-          73,
-          92
-        ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Grouchy",
-        "theme_topic": "Chicken",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 1.13,
-        "w": 1.4366,
-        "x": 7.7964,
-        "y": 3.9359
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          201,
-          200,
-          155
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "nation plan pack bit club needless tan reflect brief cloistered",
-        "theme_topic": "Chicken",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 0.9984,
-        "w": 2.891,
-        "x": 2.1498,
-        "y": 3.5565
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          65,
-          65,
-          59
-        ],
-        "focus": false,
-        "line": [
-          174,
-          73,
-          92
-        ],
-        "line_width": 2.8756811459103626,
-        "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Chicken"
-      },
-      "type": "shape",
-      "z_order": 24
-    },
-    {
-      "bbox": {
-        "h": 1.4039,
-        "w": 2.4616,
-        "x": 9.9071,
-        "y": 2.3929
-      },
-      "id": "object_025",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "ribbon_path",
-        "primary": [
-          174,
-          73,
-          92
-        ],
-        "secondary": [
-          64,
-          130,
-          109
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#9f4c9d\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#7c7f7f\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
-        "theme_topic": "Chicken"
-      },
-      "type": "svg",
-      "z_order": 25
-    },
-    {
-      "bbox": {
-        "h": 0.8063,
-        "w": 1.2724,
-        "x": 2.141,
-        "y": 5.2618
-      },
-      "id": "object_026",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          160,
-          116,
-          153
-        ],
-        "secondary": [
-          135,
-          105,
-          124
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#9c7d80\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#4aaa92\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Chicken"
-      },
-      "type": "svg",
-      "z_order": 26
-    },
-    {
-      "bbox": {
-        "h": 0.5098,
-        "w": 0.299,
-        "x": 11.94,
-        "y": 2.3277
-      },
-      "id": "object_027",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          37,
-          25,
-          175
-        ],
-        "focus": false,
-        "line": [
-          197,
-          43,
-          113
-        ],
-        "line_width": 1.683144720685923,
-        "outline_only": false,
-        "ppt_type": 91,
-        "shape": "star4",
-        "theme_topic": "Chicken"
-      },
-      "type": "shape",
-      "z_order": 27
-    },
-    {
-      "bbox": {
-        "h": 0.3506,
-        "w": 1.5596,
-        "x": 1.8674,
-        "y": 5.3731
-      },
-      "id": "object_028",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          172,
-          99,
-          221
-        ],
-        "font_face": "Verdana",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Childlike Polite Anxious",
-        "theme_topic": "Chicken",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 28
-    },
-    {
-      "bbox": {
-        "h": 0.62,
-        "w": 1.9938,
-        "x": 6.9658,
-        "y": 3.1532
-      },
-      "id": "object_029",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          230,
-          63,
-          57
-        ],
-        "font_face": "Verdana",
-        "font_size": 15,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Foolish Cracker Thick",
-        "theme_topic": "Chicken",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 29
-    },
-    {
-      "bbox": {
-        "h": 0.7163,
-        "w": 0.7432,
-        "x": 3.1601,
-        "y": 2.5845
-      },
-      "id": "object_030",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          127,
-          207,
-          156
-        ],
-        "line": [
-          60,
-          126,
-          47
-        ],
-        "line_width": 2.1173871633559207,
-        "pattern": "badge",
-        "points": [
-          [
-            0.5,
-            0.0
-          ],
-          [
-            0.62,
-            0.25
-          ],
-          [
-            0.92,
-            0.18
-          ],
-          [
-            0.75,
-            0.5
-          ],
-          [
-            0.98,
-            0.78
-          ],
-          [
-            0.62,
-            0.72
-          ],
-          [
-            0.5,
-            1.0
-          ],
-          [
-            0.38,
-            0.72
-          ],
-          [
-            0.02,
-            0.78
-          ],
-          [
-            0.25,
-            0.5
-          ],
-          [
-            0.08,
-            0.18
-          ],
-          [
-            0.38,
-            0.25
-          ]
-        ],
-        "theme_topic": "Chicken"
-      },
-      "type": "freeform",
-      "z_order": 30
-    },
-    {
-      "bbox": {
-        "h": 0.5222,
-        "w": 0.7329,
-        "x": 2.7247,
-        "y": 3.1153
-      },
-      "id": "object_031",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
-        "fill": [
-          64,
-          130,
-          109
-        ],
-        "focus": false,
-        "line": [
-          151,
-          221,
-          114
-        ],
-        "line_width": 6.243238437937155,
-        "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Chicken"
-      },
-      "type": "shape",
-      "z_order": 31
+      "z_order": 16
     }
   ],
   "slide": {

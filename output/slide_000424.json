@@ -9,100 +9,192 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        232,
-        163,
-        45
-      ],
       "fill": [
-        232,
-        163,
-        45
+        149,
+        197,
+        87
       ],
-      "fore_color": [
-        222,
-        133,
-        62
-      ],
-      "pattern": 27,
-      "style": "pattern",
-      "theme_topic": "Grubby"
+      "style": "solid",
+      "theme_topic": "Collect Cave"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 11,
+    "level": 11,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 11
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.9298,
-        "w": 3.8692,
-        "x": 8.4561,
-        "y": 1.1274
+        "h": 3.1719,
+        "w": 7.4052,
+        "x": 3.1999,
+        "y": 4.7951
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
+        "dash": 1,
+        "family": "basic",
         "fill": [
-          127,
-          185,
-          159
+          59,
+          75,
+          118
         ],
         "focus": false,
         "line": [
-          168,
-          37,
-          76
+          60,
+          96,
+          204
         ],
-        "line_width": 7.546665135158146,
-        "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Grubby"
+        "line_width": 6.5040733550189245,
+        "outline_only": true,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Collect Cave"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.4907,
-        "w": 6.5035,
-        "x": 0.0123,
-        "y": 0.0082
+        "h": 4.0561,
+        "w": 7.3444,
+        "x": 1.4699,
+        "y": -0.1061
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "panel",
+        "family": "symbols",
         "fill": [
-          195,
-          137,
-          37
+          92,
+          123,
+          129
         ],
+        "focus": false,
         "line": [
-          195,
-          137,
-          37
+          75,
+          102,
+          96
         ],
-        "line_width": 2.4030864412106085,
+        "line_width": 6.562225054763965,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Grubby"
+        "ppt_type": 172,
+        "shape": "gear6",
+        "theme_topic": "Collect Cave"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5601,
-        "w": 2.8285,
-        "x": 0.6398,
-        "y": 0.728
+        "h": 3.6205,
+        "w": 6.9429,
+        "x": 0.1882,
+        "y": 3.765
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          137,
+          179,
+          83
+        ],
+        "focus": false,
+        "line": [
+          148,
+          63,
+          131
+        ],
+        "line_width": 4.882975043465306,
+        "outline_only": false,
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Collect Cave"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 2.4927,
+        "w": 4.5931,
+        "x": 9.4739,
+        "y": -0.1709
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "arrows",
+        "fill": [
+          96,
+          116,
+          114
+        ],
+        "focus": false,
+        "line": [
+          92,
+          42,
+          58
+        ],
+        "line_width": 3.6314012650526752,
+        "outline_only": false,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Collect Cave"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 4.4223,
+        "w": 4.6988,
+        "x": 8.6147,
+        "y": 3.0915
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          135,
+          179,
+          79
+        ],
+        "line": [
+          135,
+          179,
+          79
+        ],
+        "line_width": 2.7020392155796418,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Collect Cave"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.1353,
+        "w": 7.7906,
+        "x": 3.4864,
+        "y": 0.6628
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -113,101 +205,12 @@
           36
         ],
         "font_face": "Trebuchet MS",
-        "font_size": 28,
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Unruly",
-        "theme_topic": "Grubby",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 6.274,
-        "w": 3.6443,
-        "x": 3.7682,
-        "y": 0.6304
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.10742179576692228,
-          0.04396561859573071,
-          0.11035383874484932,
-          0.0549789227421075
-        ],
-        "focus": true,
-        "mask_line": [
-          31,
-          117,
-          161
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Grubby",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 6.2395,
-        "w": 1.4549,
-        "x": 7.8773,
-        "y": 0.6621
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          179,
-          138,
-          74
-        ],
-        "line": [
-          195,
-          137,
-          37
-        ],
-        "line_width": 4.3947649119730015,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Grubby"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.7416,
-        "w": 1.1045,
-        "x": 8.0457,
-        "y": 0.8287
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 35,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "45%",
-        "theme_topic": "Grubby",
+        "text": "Farm Creepy Cuddly Truck Event",
+        "theme_topic": "Collect Cave",
         "underline": false
       },
       "type": "text",
@@ -215,10 +218,10 @@
     },
     {
       "bbox": {
-        "h": 5.2361,
-        "w": 1.0772,
-        "x": 8.0456,
-        "y": 1.5797
+        "h": 0.8707,
+        "w": 0.9446,
+        "x": 0.6192,
+        "y": 5.9805
       },
       "id": "object_007",
       "properties": {
@@ -226,17 +229,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          119,
-          89,
-          40
+          28,
+          30,
+          36
         ],
         "font_face": "Verdana",
-        "font_size": 15,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "chance thirsty scold limit",
-        "theme_topic": "Grubby",
+        "text": "provide grumpy zinc truthful",
+        "theme_topic": "Collect Cave",
         "underline": false
       },
       "type": "text",
@@ -244,59 +247,57 @@
     },
     {
       "bbox": {
-        "h": 6.2378,
-        "w": 1.6044,
-        "x": 9.5081,
-        "y": 0.652
+        "h": 0.8799,
+        "w": 0.8272,
+        "x": 1.8539,
+        "y": 5.9771
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          195,
-          137,
-          37
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          195,
-          137,
-          37
-        ],
-        "line_width": 3.9447230769531907,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Grubby"
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "psychotic purpose smoke erratic woozy",
+        "theme_topic": "Collect Cave",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.75,
-        "w": 1.2678,
-        "x": 9.7135,
-        "y": 0.831
+        "h": 0.8867,
+        "w": 0.9483,
+        "x": 3.9983,
+        "y": 5.9689
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          31,
-          117,
-          161
+          28,
+          30,
+          36
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 22,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "58%",
-        "theme_topic": "Grubby",
+        "text": "lunchroom brief appreciate harsh vase ripe zippy",
+        "theme_topic": "Collect Cave",
         "underline": false
       },
       "type": "text",
@@ -304,10 +305,10 @@
     },
     {
       "bbox": {
-        "h": 5.2398,
-        "w": 1.2477,
-        "x": 9.688,
-        "y": 1.5609
+        "h": 0.8777,
+        "w": 0.9782,
+        "x": 5.2641,
+        "y": 5.9647
       },
       "id": "object_010",
       "properties": {
@@ -315,17 +316,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          119,
-          89,
-          40
+          28,
+          30,
+          36
         ],
         "font_face": "Verdana",
-        "font_size": 10,
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "decide fly addicted twig",
-        "theme_topic": "Grubby",
+        "text": "bell bang dry familiar educate",
+        "theme_topic": "Collect Cave",
         "underline": false
       },
       "type": "text",
@@ -333,425 +334,81 @@
     },
     {
       "bbox": {
-        "h": 6.2496,
-        "w": 1.438,
-        "x": 11.2955,
-        "y": 0.649
+        "h": 1.9315,
+        "w": 12.1614,
+        "x": 0.5949,
+        "y": 2.0457
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          188,
-          180,
-          40
-        ],
-        "line": [
-          195,
-          137,
-          37
-        ],
-        "line_width": 2.278848600141597,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Grubby"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.7325,
-        "w": 1.0774,
-        "x": 11.5107,
-        "y": 0.8147
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 25,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "6.0x",
-        "theme_topic": "Grubby",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 5.2346,
-        "w": 1.0551,
-        "x": 11.5099,
-        "y": 1.5697
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          119,
-          89,
-          40
-        ],
-        "font_face": "Verdana",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "park illustrious squealing cooperative hole trick",
-        "theme_topic": "Grubby",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.6253,
-        "w": 0.6972,
-        "x": 1.6861,
-        "y": 3.3385
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          85,
-          143,
-          40
-        ],
-        "line": [
-          31,
-          117,
-          161
-        ],
-        "line_width": 2.244690956190626,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Grubby"
-      },
-      "type": "freeform",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.598,
-        "w": 0.3054,
-        "x": 2.7991,
-        "y": 2.0061
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
-        "fill": [
-          193,
-          132,
-          163
-        ],
-        "focus": false,
-        "line": [
-          144,
-          197,
-          38
-        ],
-        "line_width": 4.167894538276134,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Grubby"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.3442,
-        "w": 0.8466,
-        "x": 4.5432,
-        "y": 3.3632
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          196,
-          145,
-          93
-        ],
-        "font_face": "Verdana",
-        "font_size": 7,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Undesirable",
-        "theme_topic": "Grubby",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.7637,
-        "w": 1.4056,
-        "x": 6.8334,
-        "y": 6.1464
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          189,
-          101,
-          175
-        ],
-        "focus": false,
-        "line": [
-          176,
-          212,
-          43
-        ],
-        "line_width": 2.063640467613481,
-        "outline_only": true,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Grubby"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.9506,
-        "w": 0.6348,
-        "x": 12.0338,
-        "y": 6.1167
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          74,
-          64,
-          32
-        ],
-        "line": [
-          44,
-          62,
-          149
-        ],
-        "line_width": 0.6208730534499919,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Grubby"
-      },
-      "type": "freeform",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.8119,
-        "w": 0.6803,
-        "x": 8.3232,
-        "y": 1.6259
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          77,
+        "band": [
+          135,
           179,
-          52
+          79
         ],
-        "focus": false,
-        "line": [
-          81,
-          162,
-          190
+        "band_cols": true,
+        "band_rows": false,
+        "body": [
+          128,
+          43,
+          48
         ],
-        "line_width": 6.186840819281829,
-        "outline_only": false,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Grubby"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 1.2907,
-        "w": 0.7072,
-        "x": 6.5447,
-        "y": 2.3376
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          184,
-          103,
-          64
+        "border": [
+          181,
+          219,
+          31
         ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Grubby",
-        "width": 0.5004188220027358
-      },
-      "type": "connector",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.731,
-        "w": 1.5097,
-        "x": 6.0447,
-        "y": 4.9732
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          68,
-          162,
-          191
-        ],
-        "line": [
-          31,
-          117,
-          161
-        ],
-        "line_width": 1.618916149857359,
-        "pattern": "blob",
-        "points": [
+        "border_dash": "dash",
+        "border_width": 3.268336730385521,
+        "cells": [
           [
-            0.12,
-            0.2
+            "puny",
+            "teaching"
           ],
           [
-            0.35,
-            0.04
+            "loutish busy",
+            "calculating"
           ],
           [
-            0.7,
-            0.12
+            "drip",
+            "soup"
           ],
           [
-            0.95,
-            0.42
+            "wail afraid",
+            "bag"
           ],
           [
-            0.82,
-            0.82
+            "soda rush",
+            "amusement"
           ],
           [
-            0.45,
-            0.98
+            "synonymous limping",
+            "earsplitting"
           ],
           [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
+            "answer",
+            "rinse protective"
           ]
         ],
-        "theme_topic": "Grubby"
+        "cols": 2,
+        "font_size": 14,
+        "has_header": true,
+        "header": [
+          50,
+          149,
+          169
+        ],
+        "rows": 7,
+        "text_color": [
+          193,
+          174,
+          35
+        ],
+        "theme_topic": "Collect Cave"
       },
-      "type": "freeform",
-      "z_order": 21
+      "type": "table",
+      "z_order": 11
     }
   ],
   "slide": {

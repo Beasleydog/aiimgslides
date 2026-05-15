@@ -8,513 +8,92 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
+      "angle": 30,
       "archetype": "atomic_composition",
       "colors": [
         [
-          82,
-          192,
-          144
+          181,
+          43,
+          223
         ],
         [
-          158,
-          131,
-          209
+          38,
+          132,
+          88
         ]
       ],
       "fill": [
-        88,
-        103,
-        146
+        181,
+        43,
+        223
       ],
-      "focus": "top_left",
-      "gradient_type": "rectangular",
+      "focus": "center",
+      "gradient_type": "shape",
       "style": "gradient",
-      "theme_topic": "Animal"
+      "theme_topic": "Bow"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 2,
+    "level": 2,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 2
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.8253,
-        "w": 7.531,
-        "x": 3.5487,
-        "y": 2.76
+        "h": 1.1277,
+        "w": 8.6059,
+        "x": 2.4172,
+        "y": 0.6392
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          66,
-          175,
-          158
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          205,
-          185,
-          110
-        ],
-        "line_width": 3.6811570209882,
-        "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Animal"
+        "font_face": "Aptos Display",
+        "font_size": 41,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Spill Zoom Ugly War Yummy",
+        "theme_topic": "Bow",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.3918,
-        "w": 5.7772,
-        "x": 7.5905,
-        "y": 4.5207
+        "h": 2.8018,
+        "w": 6.8322,
+        "x": 3.2394,
+        "y": 2.8997
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          153,
-          63,
-          92
-        ],
-        "focus": false,
+        "clip": "arch",
+        "focus": true,
         "line": [
-          49,
-          168,
-          195
+          38,
+          132,
+          88
         ],
-        "line_width": 3.8767983388461107,
-        "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Animal"
+        "line_width": 16,
+        "theme_topic": "Bow"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 4.7061,
-        "w": 8.961,
-        "x": 1.5647,
-        "y": 0.6928
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          111,
-          124,
-          161
-        ],
-        "line": [
-          124,
-          136,
-          170
-        ],
-        "line_width": 0.9909793357855179,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Animal"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.9139,
-        "w": 5.2224,
-        "x": 1.9706,
-        "y": 1.3151
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Georgia",
-        "font_size": 31,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Poison Prickly Wool",
-        "theme_topic": "Animal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.7573,
-        "w": 2.5453,
-        "x": 6.584,
-        "y": 1.6331
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Georgia",
-        "font_size": 30,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "19%",
-        "theme_topic": "Animal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 4.5467,
-        "w": 2.5334,
-        "x": 6.6078,
-        "y": 2.3628
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          174,
-          182,
-          204
-        ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "maddening vengeful bath fasten aromatic silent letters",
-        "theme_topic": "Animal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 5.5316,
-        "w": 3.2738,
-        "x": 9.4916,
-        "y": 1.4453
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          185,
-          225,
-          61
-        ],
-        "line": [
-          124,
-          136,
-          170
-        ],
-        "line_width": 3.11647584538649,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Animal"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.7549,
-        "w": 2.9338,
-        "x": 9.6749,
-        "y": 1.6308
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Georgia",
-        "font_size": 23,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "151",
-        "theme_topic": "Animal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 4.5326,
-        "w": 2.9302,
-        "x": 9.6664,
-        "y": 2.3808
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          174,
-          182,
-          204
-        ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "depressed weather swing tremble bedroom",
-        "theme_topic": "Animal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 1.0302,
-        "w": 5.1631,
-        "x": 0.6984,
-        "y": 1.5943
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Georgia",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Miniature Pleasure",
-        "theme_topic": "Animal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 4.0006,
-        "w": 5.1897,
-        "x": 0.7073,
-        "y": 2.8636
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          174,
-          182,
-          204
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "repair energetic shock peaceful descriptive badge deep disillusioned delightful jelly pretend public shiny bawdy drunk bird",
-        "theme_topic": "Animal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.5236,
-        "w": 1.8121,
-        "x": 8.9452,
-        "y": 5.6708
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          212,
-          145,
-          115
-        ],
-        "bold": true,
-        "color": [
-          60,
-          91,
-          210
-        ],
-        "font_face": "Aptos",
-        "font_size": 5,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "hypnotic introduce bells",
-        "theme_topic": "Animal",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.5004,
-        "w": 2.2738,
-        "x": 3.7156,
-        "y": 1.8489
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          86,
-          33,
-          177
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Good Burly",
-        "theme_topic": "Animal",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.3979,
-        "w": 1.9386,
-        "x": 5.872,
-        "y": 6.3366
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          127,
-          166,
-          203
-        ],
-        "connector": "elbow",
-        "dash": 4,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Animal",
-        "width": 0.6996691551836861
-      },
-      "type": "connector",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.9602,
-        "w": 0.3257,
-        "x": 3.7552,
-        "y": 6.2937
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          228,
-          154,
-          157
-        ],
-        "focus": false,
-        "line": [
-          146,
-          152,
-          178
-        ],
-        "line_width": 0.8761481296065182,
-        "outline_only": true,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Animal"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4033,
-        "w": 1.5633,
-        "x": 4.2713,
-        "y": 2.3035
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "stars",
-        "fill": [
-          168,
-          123,
-          165
-        ],
-        "focus": false,
-        "line": [
-          92,
-          162,
-          168
-        ],
-        "line_width": 1.1442235382280705,
-        "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Animal"
-      },
-      "type": "shape",
-      "z_order": 16
     }
   ],
   "slide": {

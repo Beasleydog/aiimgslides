@@ -8,642 +8,161 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 60,
       "archetype": "atomic_composition",
-      "fill": [
-        28,
-        143,
-        112
+      "colors": [
+        [
+          18,
+          129,
+          148
+        ],
+        [
+          51,
+          63,
+          101
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Disillusioned Oafish"
+      "fill": [
+        18,
+        129,
+        148
+      ],
+      "focus": "bottom_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Idea Horn"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 4,
+    "level": 4,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 4
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.8036,
-        "w": 5.3516,
-        "x": 6.6226,
-        "y": 2.7117
+        "h": 4.8743,
+        "w": 7.5261,
+        "x": 5.7417,
+        "y": 1.9613
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          41,
-          147,
-          63
+          63,
+          85,
+          174
         ],
         "focus": false,
         "line": [
-          25,
-          163,
-          103
+          230,
+          130,
+          166
         ],
-        "line_width": 3.836647029655123,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Disillusioned Oafish"
+        "line_width": 5.251142122039428,
+        "outline_only": true,
+        "ppt_type": 19,
+        "shape": "no_symbol",
+        "theme_topic": "Idea Horn"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.156,
-        "w": 3.6837,
-        "x": 2.3117,
-        "y": 2.8198
+        "h": 7.5092,
+        "w": 13.3255,
+        "x": -0.0027,
+        "y": 4.3118
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
+        "dash": 7,
+        "family": "panel",
         "fill": [
-          31,
-          162,
-          82
+          46,
+          144,
+          161
         ],
-        "focus": false,
         "line": [
-          192,
-          75,
-          182
+          46,
+          144,
+          161
         ],
-        "line_width": 4.725186412646073,
+        "line_width": 0.6689437803881073,
         "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Disillusioned Oafish"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Idea Horn"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.371,
-        "w": 6.5072,
-        "x": 2.5617,
-        "y": 1.3586
+        "h": 2.8595,
+        "w": 2.8696,
+        "x": 6.8341,
+        "y": 1.8945
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          154,
-          97,
-          147
+        "crop": [
+          0.07326527465646938,
+          0.13214407442468837,
+          0.018769839788622178,
+          0.08344246300691847
         ],
-        "focus": false,
-        "line": [
-          33,
-          49,
-          165
+        "focus": true,
+        "mask_line": [
+          51,
+          63,
+          101
         ],
-        "line_width": 7.5217084178668685,
-        "outline_only": false,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Disillusioned Oafish"
+        "mask_overlay": true,
+        "theme_topic": "Idea Horn",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.0978,
-        "w": 6.7909,
-        "x": 0.5741,
-        "y": 0.3397
+        "h": 1.713,
+        "w": 5.7168,
+        "x": 6.9594,
+        "y": 5.1511
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          248,
-          255,
-          252
-        ],
-        "font_face": "Georgia",
-        "font_size": 41,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Whistle Cellar Spooky",
-        "theme_topic": "Disillusioned Oafish",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.0402,
-        "w": 4.7514,
-        "x": 0.6781,
-        "y": 1.9576
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          102,
-          40,
-          104
-        ],
-        "font_face": "Georgia",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Actually Knot Uncovered",
-        "theme_topic": "Disillusioned Oafish",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 3.5887,
-        "w": 4.7436,
-        "x": 0.706,
-        "y": 3.2532
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          205,
-          241,
-          230
-        ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "tiger symptomatic plain volleyball cats ratty ice rod",
-        "theme_topic": "Disillusioned Oafish",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 2.4483,
-        "w": 3.3097,
-        "x": 6.0323,
-        "y": 1.8824
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
         "crop": [
-          0.06949971987729646,
-          0.17203112542426274,
-          0.13445671677227583,
-          0.025644473628055914
+          0.27187350271766153,
+          0.13374627274735723,
+          0.02099876226994592,
+          0.1969915513279796
         ],
         "focus": true,
         "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Disillusioned Oafish",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 2.4268,
-        "w": 3.2455,
-        "x": 9.4493,
-        "y": 1.9207
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.3090915096218657,
-          0.3248444047553861,
-          0.23047035556731846,
-          0.19247370268741937
-        ],
-        "focus": true,
-        "mask_line": [
-          255,
-          238,
-          103
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Disillusioned Oafish",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 2.4307,
-        "w": 3.2607,
-        "x": 6.0401,
-        "y": 4.5273
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.12063055421275727,
-          0.16330900145671437,
-          0.029137119965188935,
-          0.051559620891824254
-        ],
-        "focus": true,
-        "mask_line": [
-          106,
-          65,
-          207
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Disillusioned Oafish",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.3459,
-        "w": 0.7046,
-        "x": 5.7367,
-        "y": 6.3451
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
-        "fill": [
-          131,
-          206,
-          152
-        ],
-        "focus": false,
-        "line": [
-          68,
-          82,
-          179
-        ],
-        "line_width": 1.7453685181601926,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Disillusioned Oafish"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.9803,
-        "w": 0.4251,
-        "x": 9.6349,
-        "y": 2.8404
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          48,
+          148,
           78,
-          140
-        ],
-        "line": [
-          165,
-          29,
-          202
-        ],
-        "line_width": 1.1722385946632992,
-        "pattern": "badge",
-        "points": [
-          [
-            0.5,
-            0.0
-          ],
-          [
-            0.62,
-            0.25
-          ],
-          [
-            0.92,
-            0.18
-          ],
-          [
-            0.75,
-            0.5
-          ],
-          [
-            0.98,
-            0.78
-          ],
-          [
-            0.62,
-            0.72
-          ],
-          [
-            0.5,
-            1.0
-          ],
-          [
-            0.38,
-            0.72
-          ],
-          [
-            0.02,
-            0.78
-          ],
-          [
-            0.25,
-            0.5
-          ],
-          [
-            0.08,
-            0.18
-          ],
-          [
-            0.38,
-            0.25
-          ]
-        ],
-        "theme_topic": "Disillusioned Oafish"
-      },
-      "type": "freeform",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.5528,
-        "w": 0.968,
-        "x": 9.7097,
-        "y": 2.4607
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          48,
-          78,
-          140
-        ],
-        "line": [
-          184,
-          40,
-          161
-        ],
-        "line_width": 1.1076938603278075,
-        "pattern": "zigzag",
-        "points": [
-          [
-            0.02,
-            0.25
-          ],
-          [
-            0.22,
-            0.05
-          ],
-          [
-            0.42,
-            0.32
-          ],
-          [
-            0.62,
-            0.08
-          ],
-          [
-            0.95,
-            0.75
-          ],
-          [
-            0.72,
-            0.95
-          ],
-          [
-            0.5,
-            0.65
-          ],
-          [
-            0.25,
-            0.92
-          ]
-        ],
-        "theme_topic": "Disillusioned Oafish"
-      },
-      "type": "freeform",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.3105,
-        "w": 0.4537,
-        "x": 1.5448,
-        "y": 5.3222
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          47,
-          129,
-          183
-        ],
-        "focus": false,
-        "line": [
-          86,
-          77,
-          227
-        ],
-        "line_width": 4.407023204000486,
-        "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Disillusioned Oafish"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.4115,
-        "w": 2.1655,
-        "x": 10.1881,
-        "y": 5.7165
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          144,
-          130,
           34
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Effect Childlike Trains",
-        "theme_topic": "Disillusioned Oafish",
-        "underline": false
+        "mask_overlay": true,
+        "theme_topic": "Idea Horn",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.7556,
-        "w": 0.3009,
-        "x": 4.3366,
-        "y": 1.1503
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          48,
-          63,
-          49
-        ],
-        "focus": false,
-        "line": [
-          68,
-          164,
-          100
-        ],
-        "line_width": 2.3950342220077463,
-        "outline_only": false,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Disillusioned Oafish"
-      },
-      "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.6145,
-        "w": 0.7648,
-        "x": 7.1566,
-        "y": 6.2045
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "math",
-        "fill": [
-          144,
-          196,
-          58
-        ],
-        "focus": false,
-        "line": [
-          147,
-          136,
-          52
-        ],
-        "line_width": 0.672522962085291,
-        "outline_only": false,
-        "ppt_type": 167,
-        "shape": "equal",
-        "theme_topic": "Disillusioned Oafish"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.3976,
-        "w": 0.8779,
-        "x": 8.2944,
-        "y": 6.1817
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          43,
-          162,
-          130
-        ],
-        "focus": false,
-        "line": [
-          33,
-          208,
-          157
-        ],
-        "line_width": 4.2801073040861235,
-        "outline_only": true,
-        "ppt_type": 93,
-        "shape": "star8",
-        "theme_topic": "Disillusioned Oafish"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.8715,
-        "w": 1.2587,
-        "x": 1.8102,
-        "y": 5.7447
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          75,
-          162,
-          128
-        ],
-        "secondary": [
-          53,
-          161,
-          37
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#b58798\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#6d8b3c\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#b58798\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Disillusioned Oafish"
-      },
-      "type": "svg",
-      "z_order": 18
+      "type": "image",
+      "z_order": 4
     }
   ],
   "slide": {

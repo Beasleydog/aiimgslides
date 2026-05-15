@@ -625,7 +625,47 @@ def choose_group(region, used):
     return random.choices(names, weights=[options[name] for name in names], k=1)[0]
 
 
-def make_elements():
+def element_selection_score(el):
+    base = el.w * el.h
+    if el.data.get("focus"):
+        base += 100.0
+    base += {
+        "text": 8.0,
+        "image": 7.0,
+        "chart": 6.0,
+        "table": 6.0,
+        "shape": 3.0,
+        "svg_image": 3.0,
+        "connector": 1.5,
+        "freeform": 1.0,
+        "svg": 1.0,
+    }.get(el.kind, 0.0)
+    return base + random.random() * 0.5
+
+
+def limit_content_elements(elements, target_count):
+    if target_count is None:
+        return elements
+    target_count = max(1, int(target_count))
+    backgrounds = [el for el in elements if el.kind == "background"]
+    content = [(index, el) for index, el in enumerate(elements) if el.kind != "background"]
+    if len(content) <= target_count:
+        return elements
+    selected = sorted(content, key=lambda item: element_selection_score(item[1]), reverse=True)[:target_count]
+    selected_indexes = {index for index, _ in selected}
+    return backgrounds + [el for index, el in content if index in selected_indexes]
+
+
+def make_elements(target_content_count=None, minimum_content_count=None, max_attempts=30):
+    for _ in range(max_attempts):
+        elements = _make_full_elements()
+        content_count = sum(1 for el in elements if el.kind != "background")
+        if minimum_content_count is None or content_count >= minimum_content_count:
+            return limit_content_elements(elements, target_content_count)
+    return limit_content_elements(elements, target_content_count)
+
+
+def _make_full_elements():
     theme = maybe_colorful_theme(sample_theme())
     elements = [background(theme)]
     add_large_background_shapes(elements, theme)

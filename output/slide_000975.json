@@ -8,212 +8,207 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 225,
+      "angle": 45,
       "archetype": "atomic_composition",
       "colors": [
         [
-          171,
-          126,
-          201
+          130,
+          78,
+          88
         ],
         [
-          197,
-          202,
-          132
+          83,
+          177,
+          180
         ]
       ],
       "fill": [
-        126,
-        58,
-        173
+        105,
+        213,
+        143
       ],
-      "focus": "top_right",
-      "gradient_type": "radial",
+      "focus": "top_left",
+      "gradient_type": "rectangular",
       "style": "gradient",
-      "theme_topic": "Tank Spare"
+      "theme_topic": "Poke Jaded"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 25,
+    "level": 25,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 25
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.5418,
-        "w": 4.7145,
-        "x": 6.7678,
-        "y": 0.8904
+        "h": 2.6483,
+        "w": 3.7796,
+        "x": 3.9715,
+        "y": 0.2842
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "stars",
         "fill": [
-          83,
-          78,
-          96
+          61,
+          187,
+          75
         ],
         "focus": false,
         "line": [
-          182,
-          32,
-          177
+          155,
+          62,
+          45
         ],
-        "line_width": 2.3845115772717005,
+        "line_width": 2.643791088672333,
         "outline_only": false,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Tank Spare"
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Poke Jaded"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.3828,
-        "w": 6.4251,
-        "x": 1.9177,
-        "y": -0.071
+        "h": 0.985,
+        "w": 6.2284,
+        "x": 0.5414,
+        "y": 0.3351
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          109,
-          116,
-          209
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          168,
-          132,
-          214
-        ],
-        "line_width": 6.091579987915972,
-        "outline_only": true,
-        "ppt_type": 20,
-        "shape": "arc",
-        "theme_topic": "Tank Spare"
+        "font_face": "Georgia",
+        "font_size": 37,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Nasty Stain",
+        "theme_topic": "Poke Jaded",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.4416,
-        "w": 7.827,
-        "x": 3.8851,
-        "y": 1.3825
+        "h": 2.4395,
+        "w": 1.2915,
+        "x": 8.5159,
+        "y": 1.8892
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          186,
-          102,
-          167
+        "crop": [
+          0,
+          0,
+          0,
+          0
         ],
         "focus": false,
-        "line": [
-          31,
-          47,
-          180
+        "mask_line": [
+          71,
+          221,
+          181
         ],
-        "line_width": 5.467892979649072,
-        "outline_only": false,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Tank Spare"
+        "mask_overlay": false,
+        "theme_topic": "Poke Jaded",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.1385,
-        "w": 7.8391,
-        "x": 3.1597,
-        "y": 0.6326
+        "h": 2.4586,
+        "w": 1.3263,
+        "x": 9.9621,
+        "y": 1.921
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "clip": "hex",
+        "focus": false,
+        "line": [
+          67,
+          91,
+          158
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Charming Race Star Rake Questionable",
-        "theme_topic": "Tank Spare",
-        "underline": false
+        "line_width": 11,
+        "theme_topic": "Poke Jaded"
       },
-      "type": "text",
+      "type": "svg_image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.593,
-        "w": 5.5054,
-        "x": 0.6928,
-        "y": 5.3518
+        "h": 2.4238,
+        "w": 1.2931,
+        "x": 11.4198,
+        "y": 1.9324
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
+        "crop": [
+          0.03717366672312329,
+          0.27025457650851714,
+          0.0535495251498949,
+          0.14553344126078563
         ],
-        "font_face": "Aptos Display",
-        "font_size": 29,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Permissible",
-        "theme_topic": "Tank Spare",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          124,
+          125,
+          61
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Poke Jaded",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.7299,
-        "w": 5.4978,
-        "x": 0.6772,
-        "y": 6.1911
+        "h": 0.2862,
+        "w": 0.8989,
+        "x": 11.6063,
+        "y": 3.9132
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          192,
-          162,
-          216
+          71,
+          221,
+          181
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 7,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "ad theory ill-fated neat macabre attack club hypnotic suspend rest quilt",
-        "theme_topic": "Tank Spare",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Torpid Unsightly",
+        "theme_topic": "Poke Jaded",
         "underline": false
       },
       "type": "text",
@@ -221,243 +216,573 @@
     },
     {
       "bbox": {
-        "h": 0.4893,
-        "w": 5.5277,
-        "x": 0.7067,
-        "y": 3.6515
+        "h": 2.4213,
+        "w": 1.2872,
+        "x": 8.4613,
+        "y": 4.4763
       },
       "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.11406674355673653,
+          0.1467750615182265,
+          0.2720334465322791,
+          0.2964958836849477
+        ],
+        "focus": false,
+        "mask_line": [
+          71,
+          221,
+          181
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Poke Jaded",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 2.4283,
+        "w": 1.3169,
+        "x": 9.9695,
+        "y": 4.5033
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          84,
+          171,
+          114
+        ],
+        "line": [
+          84,
+          171,
+          114
+        ],
+        "line_width": 2.4093436879966355,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Poke Jaded"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 2.1513,
+        "w": 1.0408,
+        "x": 10.0766,
+        "y": 4.6366
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.08697919726418177,
+          0.2108417774293465,
+          0.08668408774606136,
+          0.20592605426992924
+        ],
+        "focus": false,
+        "mask_line": [
+          71,
+          221,
+          181
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Poke Jaded",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.2969,
+        "w": 0.9109,
+        "x": 10.1693,
+        "y": 6.5194
+      },
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          25,
-          141,
-          114
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 25,
+        "font_face": "Aptos",
+        "font_size": 8,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Penitent Recess Rich",
-        "theme_topic": "Tank Spare",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Rampant Regret",
+        "theme_topic": "Poke Jaded",
         "underline": false
       },
       "type": "text",
-      "z_order": 7
+      "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5463,
-        "w": 5.532,
-        "x": 0.6972,
-        "y": 4.3718
+        "h": 2.4329,
+        "w": 1.3034,
+        "x": 11.4305,
+        "y": 4.523
       },
-      "id": "object_008",
+      "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.03814694900761074,
+          0.2657597115349386,
+          0.19601227491340859,
+          0.21460352797792043
+        ],
+        "focus": false,
+        "mask_line": [
+          71,
+          221,
+          181
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Poke Jaded",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.279,
+        "w": 0.9254,
+        "x": 11.6381,
+        "y": 6.5157
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Complain",
+        "theme_topic": "Poke Jaded",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 5.1458,
+        "w": 2.2971,
+        "x": 0.5597,
+        "y": 1.8539
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          84,
+          171,
+          114
+        ],
+        "line": [
+          84,
+          171,
+          114
+        ],
+        "line_width": 0.8197645713064035,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Poke Jaded"
+      },
+      "type": "shape",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.4718,
+        "w": 1.8035,
+        "x": 0.8199,
+        "y": 2.7637
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Scientific Stroke",
+        "theme_topic": "Poke Jaded",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 3.5088,
+        "w": 1.8016,
+        "x": 0.7913,
+        "y": 3.2947
+      },
+      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          192,
-          162,
-          216
+          62,
+          112,
+          84
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "zonked freezing weight injure handy cheat rule upbeat apathetic",
+        "theme_topic": "Poke Jaded",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 5.1379,
+        "w": 2.3102,
+        "x": 3.0843,
+        "y": 1.8494
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          84,
+          171,
+          114
+        ],
+        "line": [
+          84,
+          171,
+          114
+        ],
+        "line_width": 1.6840294072534165,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Poke Jaded"
+      },
+      "type": "shape",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.4446,
+        "w": 1.8192,
+        "x": 3.3286,
+        "y": 2.7328
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Extend",
+        "theme_topic": "Poke Jaded",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 3.495,
+        "w": 1.7752,
+        "x": 3.3404,
+        "y": 3.2826
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          62,
+          112,
+          84
         ],
         "font_face": "Aptos",
         "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "magic fascinated surround nauseating kaput brass demonic old-fashioned vacation place damp beds pan allow found",
-        "theme_topic": "Tank Spare",
+        "text": "cloth gamy rescue unusual blushing brown greedy force true ill donkey zealous wet",
+        "theme_topic": "Poke Jaded",
         "underline": false
       },
       "type": "text",
-      "z_order": 8
+      "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.3619,
-        "w": 1.2015,
-        "x": 1.0343,
-        "y": 5.3588
+        "h": 5.1618,
+        "w": 2.3893,
+        "x": 5.6075,
+        "y": 1.8369
       },
-      "id": "object_009",
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          84,
+          171,
+          114
+        ],
+        "line": [
+          84,
+          171,
+          114
+        ],
+        "line_width": 4.611754516422979,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Poke Jaded"
+      },
+      "type": "shape",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.4542,
+        "w": 1.8754,
+        "x": 5.8279,
+        "y": 2.7436
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Bounce",
+        "theme_topic": "Poke Jaded",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 3.4944,
+        "w": 1.8692,
+        "x": 5.8601,
+        "y": 3.2979
+      },
+      "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          179,
-          148,
-          125
+          62,
+          112,
+          84
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "naughty impress squeak aspiring bath yummy woozy shave want quaint house groovy",
+        "theme_topic": "Poke Jaded",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 21
+    },
+    {
+      "bbox": {
+        "h": 0.3625,
+        "w": 0.6579,
+        "x": 9.1197,
+        "y": 1.1042
+      },
+      "id": "object_022",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          201,
+          164,
+          106
         ],
         "font_face": "Aptos",
         "font_size": 6,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Earn",
-        "theme_topic": "Tank Spare",
+        "text": "Flippant Whole Voracious",
+        "theme_topic": "Poke Jaded",
         "underline": false
       },
       "type": "text",
-      "z_order": 9
+      "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.7323,
-        "w": 1.2759,
-        "x": 2.3544,
-        "y": 3.3153
+        "h": 0.4135,
+        "w": 1.6462,
+        "x": 4.2119,
+        "y": 0.3074
       },
-      "id": "object_010",
+      "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          136,
-          106,
-          200
+        "bg_color": [
+          27,
+          227,
+          60
         ],
-        "focus": false,
-        "line": [
-          43,
-          174,
-          159
+        "bold": false,
+        "color": [
+          105,
+          127,
+          78
         ],
-        "line_width": 3.892362876893959,
-        "outline_only": true,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Tank Spare"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Cruel Unable",
+        "theme_topic": "Poke Jaded",
+        "underline": false
       },
-      "type": "shape",
-      "z_order": 10
+      "type": "text",
+      "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.5267,
-        "w": 0.6892,
-        "x": 2.954,
-        "y": 4.0669
+        "h": 0.7937,
+        "w": 0.962,
+        "x": 11.9104,
+        "y": 1.6324
       },
-      "id": "object_011",
+      "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          195,
-          228,
-          120
-        ],
-        "focus": false,
-        "line": [
-          157,
-          97,
-          137
-        ],
-        "line_width": 3.284929213617646,
-        "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Tank Spare"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.259,
-        "w": 1.2731,
-        "x": 4.7667,
-        "y": 7.0846
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 4,
         "family": "symbols",
         "fill": [
-          43,
-          185,
-          95
+          73,
+          197,
+          209
         ],
         "focus": false,
         "line": [
-          61,
-          54,
-          49
+          184,
+          180,
+          217
         ],
-        "line_width": 3.2956726103031055,
+        "line_width": 4.739234356280687,
         "outline_only": false,
         "ppt_type": 173,
         "shape": "gear9",
-        "theme_topic": "Tank Spare"
+        "theme_topic": "Poke Jaded"
       },
       "type": "shape",
-      "z_order": 12
+      "z_order": 24
     },
     {
       "bbox": {
-        "h": 1.2535,
-        "w": 1.767,
-        "x": 7.6858,
-        "y": 3.7624
+        "h": 0.2136,
+        "w": 0.8171,
+        "x": 1.3682,
+        "y": 6.7529
       },
-      "id": "object_013",
+      "id": "object_025",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": [
+          188,
+          42,
+          126
+        ],
+        "bold": false,
         "color": [
-          38,
-          184,
-          31
+          47,
+          90,
+          220
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Tank Spare",
-        "width": 0.2824872671164797
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "energetic",
+        "theme_topic": "Poke Jaded",
+        "underline": false
       },
-      "type": "connector",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.8798,
-        "w": 0.8776,
-        "x": 10.972,
-        "y": 3.0555
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          171,
-          126,
-          201
-        ],
-        "focus": false,
-        "line": [
-          113,
-          103,
-          114
-        ],
-        "line_width": 1.9827488583424098,
-        "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Tank Spare"
-      },
-      "type": "shape",
-      "z_order": 14
+      "type": "text",
+      "z_order": 25
     }
   ],
   "slide": {

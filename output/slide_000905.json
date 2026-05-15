@@ -9,69 +9,308 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        156,
-        92,
-        126
-      ],
       "fill": [
-        129,
-        47,
-        90
+        29,
+        151,
+        112
       ],
-      "fore_color": [
-        48,
-        78,
-        140
-      ],
-      "pattern": 17,
-      "style": "pattern",
-      "theme_topic": "Carpenter Eggnog"
+      "style": "solid",
+      "theme_topic": "Tangible Shake"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 23,
+    "level": 23,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 23
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.5822,
-        "w": 8.8462,
-        "x": 3.505,
-        "y": 3.3762
+        "h": 1.5438,
+        "w": 3.4251,
+        "x": 1.5839,
+        "y": 1.0695
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "math",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          72,
-          111,
-          118
+          123,
+          85,
+          147
         ],
         "focus": false,
         "line": [
-          130,
-          93,
-          118
+          169,
+          161,
+          140
         ],
-        "line_width": 3.2956473034668496,
+        "line_width": 6.166036266109012,
         "outline_only": false,
-        "ppt_type": 166,
-        "shape": "divide",
-        "theme_topic": "Carpenter Eggnog"
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Tangible Shake"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.92,
-        "w": 5.8931,
-        "x": 0.7383,
-        "y": 5.8711
+        "h": 1.6653,
+        "w": 5.4845,
+        "x": -0.4738,
+        "y": 0.8737
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "symbols",
+        "fill": [
+          67,
+          168,
+          162
+        ],
+        "focus": false,
+        "line": [
+          130,
+          93,
+          146
+        ],
+        "line_width": 4.365948741239492,
+        "outline_only": true,
+        "ppt_type": 19,
+        "shape": "no_symbol",
+        "theme_topic": "Tangible Shake"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.9774,
+        "w": 13.3367,
+        "x": 0.0085,
+        "y": 0.0136
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          63,
+          166,
+          133
+        ],
+        "line": [
+          63,
+          166,
+          133
+        ],
+        "line_width": 2.798863673841481,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Tangible Shake"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.8268,
+        "w": 3.8429,
+        "x": 0.534,
+        "y": 0.5322
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          63,
+          166,
+          133
+        ],
+        "line": [
+          63,
+          166,
+          133
+        ],
+        "line_width": 3.5936159278538167,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Tangible Shake"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.4586,
+        "w": 3.3476,
+        "x": 0.7902,
+        "y": 1.4647
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Verdana",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Hat",
+        "theme_topic": "Tangible Shake",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.85,
+        "w": 3.8522,
+        "x": 0.5614,
+        "y": 1.5821
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          63,
+          166,
+          133
+        ],
+        "line": [
+          63,
+          166,
+          133
+        ],
+        "line_width": 2.2141162075953584,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Tangible Shake"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.4703,
+        "w": 3.344,
+        "x": 0.7883,
+        "y": 2.5035
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Inject",
+        "theme_topic": "Tangible Shake",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.9757,
+        "w": 3.8773,
+        "x": 0.5562,
+        "y": 2.6273
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          63,
+          166,
+          133
+        ],
+        "line": [
+          63,
+          166,
+          133
+        ],
+        "line_width": 0.847151617012568,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Tangible Shake"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.4334,
+        "w": 3.3453,
+        "x": 0.8096,
+        "y": 3.5367
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Famous Example",
+        "theme_topic": "Tangible Shake",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 1.6508,
+        "w": 3.4467,
+        "x": 4.9201,
+        "y": 0.7657
+      },
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -81,251 +320,13 @@
           248,
           252
         ],
-        "font_face": "Arial",
-        "font_size": 27,
+        "font_face": "Trebuchet MS",
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Shave Star Recondite Secretive",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.1282,
-        "w": 1.8549,
-        "x": 5.762,
-        "y": 0.5638
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          156,
-          92,
-          126
-        ],
-        "line": [
-          156,
-          92,
-          126
-        ],
-        "line_width": 1.3460712872733123,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.7568,
-        "w": 1.465,
-        "x": 5.9644,
-        "y": 0.714
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
-        ],
-        "font_face": "Arial",
-        "font_size": 27,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "6.4x",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.0876,
-        "w": 1.485,
-        "x": 5.9675,
-        "y": 1.4923
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          193,
-          157,
-          179
-        ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "cow lumber arrogant",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.1329,
-        "w": 1.7556,
-        "x": 7.7894,
-        "y": 0.5613
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          156,
-          92,
-          126
-        ],
-        "line": [
-          156,
-          92,
-          126
-        ],
-        "line_width": 1.4027255556164384,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.765,
-        "w": 1.4265,
-        "x": 7.9786,
-        "y": 0.7303
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
-        ],
-        "font_face": "Arial",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "4.4x",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 1.0949,
-        "w": 1.4291,
-        "x": 7.9586,
-        "y": 1.4773
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          193,
-          157,
-          179
-        ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "ajar knot squealing demonic peck learn enormous",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 2.1132,
-        "w": 1.3135,
-        "x": 9.7218,
-        "y": 0.5573
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          164,
-          100,
-          93
-        ],
-        "line": [
-          156,
-          92,
-          126
-        ],
-        "line_width": 1.159376549802874,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.735,
-        "w": 0.9476,
-        "x": 9.9142,
-        "y": 0.7127
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
-        ],
-        "font_face": "Arial",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "5.9x",
-        "theme_topic": "Carpenter Eggnog",
+        "text": "Ripe Vein Roasted Puny Lace Brash Ruddy Agonizing Observe Materialistic",
+        "theme_topic": "Tangible Shake",
         "underline": false
       },
       "type": "text",
@@ -333,28 +334,28 @@
     },
     {
       "bbox": {
-        "h": 1.1025,
-        "w": 0.9448,
-        "x": 9.9443,
-        "y": 1.4889
+        "h": 0.4927,
+        "w": 1.9247,
+        "x": 4.9565,
+        "y": 2.6439
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          193,
-          157,
-          179
+          255,
+          198,
+          74
         ],
-        "font_face": "Arial",
-        "font_size": 12,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "eatable degree escape fetch",
-        "theme_topic": "Carpenter Eggnog",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "USEFUL COAST",
+        "theme_topic": "Tangible Shake",
         "underline": false
       },
       "type": "text",
@@ -362,59 +363,57 @@
     },
     {
       "bbox": {
-        "h": 2.1149,
-        "w": 1.5234,
-        "x": 11.2213,
-        "y": 0.5565
+        "h": 1.0628,
+        "w": 3.5534,
+        "x": 9.0638,
+        "y": 4.0467
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          103,
-          141,
-          182
-        ],
-        "line": [
-          156,
-          92,
-          126
-        ],
-        "line_width": 1.6690607546471712,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.7468,
-        "w": 1.2053,
-        "x": 11.3977,
-        "y": 0.7202
-      },
-      "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 22,
-        "italic": false,
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
+        "italic": true,
         "kind": "header",
         "margin": 0.04,
-        "text": "48%",
-        "theme_topic": "Carpenter Eggnog",
+        "text": "Books Substantial",
+        "theme_topic": "Tangible Shake",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 1.5024,
+        "w": 3.5766,
+        "x": 9.072,
+        "y": 5.3159
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          148,
+          204,
+          189
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "balance daffy furtive cowardly waiting quiver scarf disarm utter magenta tiger wiry cent",
+        "theme_topic": "Tangible Shake",
         "underline": false
       },
       "type": "text",
@@ -422,88 +421,88 @@
     },
     {
       "bbox": {
-        "h": 1.0974,
-        "w": 1.1714,
-        "x": 11.412,
-        "y": 1.4571
+        "h": 0.3006,
+        "w": 0.2886,
+        "x": 9.1433,
+        "y": 1.5123
       },
       "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          255,
+          198,
+          74
+        ],
+        "line": [
+          63,
+          166,
+          133
+        ],
+        "line_width": 1.2128745697061571,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Tangible Shake"
+      },
+      "type": "shape",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 1.011,
+        "w": 0.743,
+        "x": 8.9897,
+        "y": 2.3108
+      },
+      "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          193,
-          157,
-          179
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "damaged cheer squirrel",
-        "theme_topic": "Carpenter Eggnog",
+        "text": "powerful ban fry close whole fancy",
+        "theme_topic": "Tangible Shake",
         "underline": false
       },
       "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 2.4657,
-        "w": 2.8578,
-        "x": 0.5312,
-        "y": 3.0775
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          156,
-          92,
-          126
-        ],
-        "line": [
-          156,
-          92,
-          126
-        ],
-        "line_width": 1.103216702558175,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.7628,
-        "w": 2.5138,
-        "x": 0.7283,
-        "y": 3.2738
+        "h": 1.0515,
+        "w": 0.7007,
+        "x": 10.0429,
+        "y": 2.3287
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          238,
-          103
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 23,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "226",
-        "theme_topic": "Carpenter Eggnog",
+        "text": "wood true fair",
+        "theme_topic": "Tangible Shake",
         "underline": false
       },
       "type": "text",
@@ -511,10 +510,10 @@
     },
     {
       "bbox": {
-        "h": 1.4366,
-        "w": 2.5136,
-        "x": 0.7324,
-        "y": 4.006
+        "h": 1.0076,
+        "w": 0.7056,
+        "x": 11.0625,
+        "y": 2.3122
       },
       "id": "object_017",
       "properties": {
@@ -522,17 +521,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          193,
-          157,
-          179
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 14,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "receptive clever ambitious",
-        "theme_topic": "Carpenter Eggnog",
+        "text": "cracker lumber plantation horrible quill",
+        "theme_topic": "Tangible Shake",
         "underline": false
       },
       "type": "text",
@@ -540,28 +539,28 @@
     },
     {
       "bbox": {
-        "h": 0.7367,
-        "w": 4.1095,
-        "x": 3.7416,
-        "y": 3.2686
+        "h": 1.0528,
+        "w": 0.6525,
+        "x": 12.1079,
+        "y": 2.3177
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          255,
-          238,
-          103
+          246,
+          248,
+          252
         ],
-        "font_face": "Arial",
-        "font_size": 28,
+        "font_face": "Verdana",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "2.1x",
-        "theme_topic": "Carpenter Eggnog",
+        "text": "sea salt wren parcel squeamish",
+        "theme_topic": "Tangible Shake",
         "underline": false
       },
       "type": "text",
@@ -569,70 +568,70 @@
     },
     {
       "bbox": {
-        "h": 1.4612,
-        "w": 4.1542,
-        "x": 3.7832,
-        "y": 4.0119
+        "h": 3.0513,
+        "w": 3.8466,
+        "x": 0.5509,
+        "y": 3.9107
       },
       "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          193,
-          157,
-          179
-        ],
-        "font_face": "Arial",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "applaud ritzy vacation nut minute list",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 2.466,
-        "w": 4.5347,
-        "x": 8.269,
-        "y": 3.0728
-      },
-      "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          164,
-          100,
-          93
+          63,
+          166,
+          133
         ],
         "line": [
-          156,
-          92,
-          126
+          63,
+          166,
+          133
         ],
-        "line_width": 0.7292875885131643,
+        "line_width": 4.738139763278483,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Carpenter Eggnog"
+        "theme_topic": "Tangible Shake"
       },
       "type": "shape",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 2.7657,
+        "w": 3.5765,
+        "x": 0.6791,
+        "y": 4.0842
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "focus": true,
+        "mask_line": [
+          57,
+          89,
+          109
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Tangible Shake",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 0.7655,
-        "w": 4.1547,
-        "x": 8.4381,
-        "y": 3.2503
+        "h": 0.2,
+        "w": 1.3485,
+        "x": 2.0717,
+        "y": 1.0326
       },
       "id": "object_021",
       "properties": {
@@ -640,433 +639,86 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          171,
+          159,
+          105
         ],
-        "font_face": "Arial",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "3.3x",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
+        "font_face": "Verdana",
+        "font_size": 6,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Title Insect Ants",
+        "theme_topic": "Tangible Shake",
+        "underline": true
       },
       "type": "text",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 1.4384,
-        "w": 4.1642,
-        "x": 8.4353,
-        "y": 3.9973
+        "h": 0.4915,
+        "w": 1.109,
+        "x": 1.085,
+        "y": 6.2449
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          193,
-          157,
-          179
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          195,
+          82,
+          148
         ],
-        "font_face": "Arial",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "imminent grease panoramic accept scene",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
+        "focus": false,
+        "line": [
+          76,
+          58,
+          138
+        ],
+        "line_width": 0.45862534014137574,
+        "outline_only": false,
+        "ppt_type": 179,
+        "shape": "cloud",
+        "theme_topic": "Tangible Shake"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.2807,
-        "w": 4.6118,
-        "x": 0.6774,
-        "y": 0.6456
+        "h": 0.2,
+        "w": 2.0637,
+        "x": 4.1022,
+        "y": 2.0224
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          159,
+          31,
+          44
+        ],
         "bold": true,
         "color": [
-          255,
-          238,
-          103
+          46,
+          218,
+          33
         ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "FOLLOW HOOK",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 0.5139,
-        "w": 4.5851,
-        "x": 0.6845,
-        "y": 1.1675
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          171,
-          104,
-          83
-        ],
-        "font_face": "Arial",
-        "font_size": 26,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Thirsty",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 24
-    },
-    {
-      "bbox": {
-        "h": 0.6258,
-        "w": 4.5896,
-        "x": 0.7089,
-        "y": 1.955
-      },
-      "id": "object_025",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          193,
-          157,
-          179
-        ],
-        "font_face": "Arial",
-        "font_size": 11,
+        "font_face": "Verdana",
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "evanescent flow twist ajar death lazy obese edge",
-        "theme_topic": "Carpenter Eggnog",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 25
-    },
-    {
-      "bbox": {
-        "h": 0.7911,
-        "w": 0.6476,
-        "x": 6.8728,
-        "y": 3.1712
-      },
-      "id": "object_026",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "symbols",
-        "fill": [
-          97,
-          208,
-          218
-        ],
-        "focus": false,
-        "line": [
-          96,
-          166,
-          146
-        ],
-        "line_width": 2.3832635379217746,
-        "outline_only": false,
-        "ppt_type": 13,
-        "shape": "can",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
-      "z_order": 26
-    },
-    {
-      "bbox": {
-        "h": 0.1615,
-        "w": 0.4383,
-        "x": 9.5161,
-        "y": 4.3031
-      },
-      "id": "object_027",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          185,
-          197,
-          159
-        ],
-        "connector": "elbow",
-        "dash": 5,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Carpenter Eggnog",
-        "width": 1.2877337243262759
-      },
-      "type": "connector",
-      "z_order": 27
-    },
-    {
-      "bbox": {
-        "h": 0.9308,
-        "w": 0.4916,
-        "x": 11.8555,
-        "y": 4.0264
-      },
-      "id": "object_028",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          156,
-          104,
-          212
-        ],
-        "focus": false,
-        "line": [
-          44,
-          195,
-          227
-        ],
-        "line_width": 1.8385311805046562,
-        "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
-      "z_order": 28
-    },
-    {
-      "bbox": {
-        "h": 0.8023,
-        "w": 1.2425,
-        "x": 2.8388,
-        "y": 3.3979
-      },
-      "id": "object_029",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          104,
-          140,
-          26
-        ],
-        "focus": false,
-        "line": [
-          79,
-          110,
-          110
-        ],
-        "line_width": 4.413327866080104,
-        "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
-      "z_order": 29
-    },
-    {
-      "bbox": {
-        "h": 0.2736,
-        "w": 2.0193,
-        "x": 0.6146,
-        "y": 4.6428
-      },
-      "id": "object_030",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          95,
-          152,
-          221
-        ],
-        "font_face": "Arial",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "match joyous cakes careful",
-        "theme_topic": "Carpenter Eggnog",
+        "text": "answer scattered knot nine",
+        "theme_topic": "Tangible Shake",
         "underline": true
       },
       "type": "text",
-      "z_order": 30
-    },
-    {
-      "bbox": {
-        "h": 0.6293,
-        "w": 0.5817,
-        "x": 4.66,
-        "y": 4.8166
-      },
-      "id": "object_031",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          150,
-          47,
-          171
-        ],
-        "focus": false,
-        "line": [
-          140,
-          195,
-          87
-        ],
-        "line_width": 6.274282526958933,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
-      "z_order": 31
-    },
-    {
-      "bbox": {
-        "h": 0.8823,
-        "w": 1.0866,
-        "x": 3.9738,
-        "y": 0.5599
-      },
-      "id": "object_032",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          56,
-          78,
-          162
-        ],
-        "focus": false,
-        "line": [
-          215,
-          193,
-          219
-        ],
-        "line_width": 5.9939232766360675,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
-      "z_order": 32
-    },
-    {
-      "bbox": {
-        "h": 0.9166,
-        "w": 0.9918,
-        "x": 9.2762,
-        "y": 1.9546
-      },
-      "id": "object_033",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          183,
-          169,
-          139
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Carpenter Eggnog",
-        "width": 2.1576861803823135
-      },
-      "type": "connector",
-      "z_order": 33
-    },
-    {
-      "bbox": {
-        "h": 0.113,
-        "w": 1.6819,
-        "x": 1.9674,
-        "y": 3.4597
-      },
-      "id": "object_034",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          52,
-          45,
-          98
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Carpenter Eggnog",
-        "width": 2.5543638831545623
-      },
-      "type": "connector",
-      "z_order": 34
-    },
-    {
-      "bbox": {
-        "h": 1.0309,
-        "w": 1.4394,
-        "x": 9.2696,
-        "y": 5.7221
-      },
-      "id": "object_035",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          100,
-          32,
-          138
-        ],
-        "focus": false,
-        "line": [
-          179,
-          166,
-          129
-        ],
-        "line_width": 4.436927725729339,
-        "outline_only": true,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Carpenter Eggnog"
-      },
-      "type": "shape",
-      "z_order": 35
+      "z_order": 23
     }
   ],
   "slide": {

@@ -10,165 +10,176 @@
     "properties": {
       "archetype": "atomic_composition",
       "fill": [
-        245,
-        247,
-        252
+        25,
+        30,
+        39
       ],
       "style": "solid",
-      "theme_topic": "Resolute"
+      "theme_topic": "Elfin"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 6,
+    "level": 6,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 6
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.0677,
-        "w": 7.8423,
-        "x": 3.3897,
-        "y": 1.6717
+        "h": 3.3795,
+        "w": 5.7474,
+        "x": 3.8711,
+        "y": 2.7755
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "arrows",
         "fill": [
-          127,
-          233,
-          202
+          180,
+          148,
+          173
         ],
         "focus": false,
         "line": [
-          65,
-          38,
-          45
+          103,
+          161,
+          193
         ],
-        "line_width": 4.100138756187281,
-        "outline_only": true,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Resolute"
+        "line_width": 7.186910159125235,
+        "outline_only": false,
+        "ppt_type": 36,
+        "shape": "down_arrow",
+        "theme_topic": "Elfin"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.3513,
-        "w": 3.9724,
-        "x": 9.9327,
-        "y": 2.3547
+        "h": 3.4394,
+        "w": 7.6082,
+        "x": 3.189,
+        "y": 1.6419
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
+        "dash": 2,
+        "family": "basic",
         "fill": [
-          116,
-          169,
-          99
+          99,
+          55,
+          130
         ],
         "focus": false,
         "line": [
-          219,
-          190,
-          55
+          208,
+          198,
+          33
         ],
-        "line_width": 2.87380003294017,
+        "line_width": 7.538820874886582,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Resolute"
+        "ppt_type": 4,
+        "shape": "diamond",
+        "theme_topic": "Elfin"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.5411,
-        "w": 13.3479,
-        "x": -0.0123,
-        "y": -0.012
+        "h": 1.4296,
+        "w": 4.7007,
+        "x": 5.6024,
+        "y": 4.1405
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          232,
-          237,
-          247
+          120,
+          134,
+          116
         ],
+        "focus": false,
         "line": [
-          232,
-          237,
-          247
+          202,
+          36,
+          216
         ],
-        "line_width": 2.8391210427862683,
+        "line_width": 6.965050998890654,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Resolute"
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Elfin"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.7513,
-        "w": 6.8638,
-        "x": 0.7123,
-        "y": 4.0938
+        "h": 1.4323,
+        "w": 4.7982,
+        "x": 3.1413,
+        "y": 3.1048
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
+        "dash": 5,
+        "family": "math",
+        "fill": [
+          92,
+          49,
+          113
         ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "94%",
-        "theme_topic": "Resolute",
-        "underline": false
+        "focus": false,
+        "line": [
+          61,
+          51,
+          230
+        ],
+        "line_width": 4.581898534540732,
+        "outline_only": false,
+        "ppt_type": 163,
+        "shape": "plus",
+        "theme_topic": "Elfin"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 2.0397,
-        "w": 6.8717,
-        "x": 0.7516,
-        "y": 4.8182
+        "h": 5.5426,
+        "w": 2.8269,
+        "x": 0.645,
+        "y": 0.7266
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          103,
-          117,
-          137
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
+        "font_face": "Aptos Display",
+        "font_size": 26,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "shivering piquant guarantee minor delightful sedate mourn",
-        "theme_topic": "Resolute",
+        "text": "Addicted Discover",
+        "theme_topic": "Elfin",
         "underline": false
       },
       "type": "text",
@@ -176,336 +187,32 @@
     },
     {
       "bbox": {
-        "h": 3.0658,
-        "w": 4.8405,
-        "x": 7.959,
-        "y": 3.8992
+        "h": 0.7768,
+        "w": 1.5345,
+        "x": 3.8172,
+        "y": 4.1547
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          247,
+          249
         ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 4.773805651477722,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Resolute"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fat label reach nonstop jealous pot fruit",
+        "theme_topic": "Elfin",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.7657,
-        "w": 4.4931,
-        "x": 8.1199,
-        "y": 4.0794
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "7.0x",
-        "theme_topic": "Resolute",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 2.0483,
-        "w": 4.4838,
-        "x": 8.1342,
-        "y": 4.8175
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "provide chin youthful cakes circle",
-        "theme_topic": "Resolute",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.2963,
-        "w": 6.6809,
-        "x": 5.9602,
-        "y": 0.6667
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "SHUT SCREW",
-        "theme_topic": "Resolute",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.8709,
-        "w": 6.6697,
-        "x": 5.9483,
-        "y": 1.128
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          133,
-          189,
-          223
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 27,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Ship",
-        "theme_topic": "Resolute",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 1.127,
-        "w": 6.672,
-        "x": 5.9575,
-        "y": 2.2716
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "festive ten space tramp brash cheat amuse lucky skip dull spring inquisitive spoon",
-        "theme_topic": "Resolute",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.6446,
-        "w": 1.0132,
-        "x": 7.3941,
-        "y": 3.4049
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          103,
-          31,
-          30
-        ],
-        "line": [
-          224,
-          221,
-          152
-        ],
-        "line_width": 2.0897003402795344,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Resolute"
-      },
-      "type": "freeform",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.2088,
-        "w": 0.8289,
-        "x": 10.5346,
-        "y": 1.8506
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          44,
-          72,
-          175
-        ],
-        "focus": false,
-        "line": [
-          200,
-          183,
-          33
-        ],
-        "line_width": 0.7475863753929163,
-        "outline_only": false,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Resolute"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.2381,
-        "w": 0.8295,
-        "x": 0.2897,
-        "y": 5.733
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "symbols",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "focus": false,
-        "line": [
-          82,
-          96,
-          214
-        ],
-        "line_width": 4.009952212976169,
-        "outline_only": false,
-        "ppt_type": 22,
-        "shape": "lightning",
-        "theme_topic": "Resolute"
-      },
-      "type": "shape",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.661,
-        "w": 1.2557,
-        "x": 4.3598,
-        "y": 2.4926
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          74,
-          217,
-          137
-        ],
-        "focus": false,
-        "line": [
-          99,
-          92,
-          208
-        ],
-        "line_width": 4.590600546886995,
-        "outline_only": true,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Resolute"
-      },
-      "type": "shape",
-      "z_order": 15
     }
   ],
   "slide": {

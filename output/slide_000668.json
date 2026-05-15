@@ -8,161 +8,168 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        130,
-        219,
-        158
+      "colors": [
+        [
+          120,
+          58,
+          170
+        ],
+        [
+          74,
+          73,
+          188
+        ]
       ],
       "fill": [
-        39,
-        208,
-        223
+        120,
+        58,
+        170
       ],
-      "fore_color": [
-        154,
-        146,
-        198
-      ],
-      "pattern": 25,
-      "style": "pattern",
-      "theme_topic": "Lame Tiny"
+      "focus": "center",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Wakeful Stain"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 17,
+    "level": 17,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 17
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.7205,
-        "w": 4.0917,
-        "x": 5.7141,
-        "y": 3.8369
+        "h": 5.0348,
+        "w": 8.4,
+        "x": -1.1311,
+        "y": 0.4192
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "math",
         "fill": [
-          168,
-          212,
-          98
+          70,
+          43,
+          175
         ],
         "focus": false,
         "line": [
-          25,
-          143,
-          38
+          220,
+          93,
+          152
         ],
-        "line_width": 7.138555825134999,
+        "line_width": 7.079549224358971,
         "outline_only": false,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Lame Tiny"
+        "ppt_type": 163,
+        "shape": "plus",
+        "theme_topic": "Wakeful Stain"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.4973,
-        "w": 8.164,
-        "x": -0.9309,
-        "y": -0.0494
+        "h": 7.491,
+        "w": 0.7232,
+        "x": -0.0099,
+        "y": 0.0196
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 3,
+        "family": "panel",
         "fill": [
-          105,
-          207,
-          194
+          139,
+          78,
+          190
         ],
-        "focus": false,
         "line": [
-          28,
-          177,
-          33
+          139,
+          78,
+          190
         ],
-        "line_width": 5.847988708667385,
+        "line_width": 0.6985215237522313,
         "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Lame Tiny"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Wakeful Stain"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.9309,
-        "w": 7.5217,
-        "x": 5.9635,
-        "y": 4.2655
+        "h": 0.8805,
+        "w": 6.1247,
+        "x": 5.5912,
+        "y": 1.0546
       },
       "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          98,
-          213,
-          181
-        ],
-        "focus": false,
-        "line": [
-          182,
-          228,
-          197
-        ],
-        "line_width": 7.0335059289726525,
-        "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Lame Tiny"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.1297,
-        "w": 6.5074,
-        "x": 3.3055,
-        "y": 0.6338
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          255,
+          250,
+          255
         ],
-        "font_face": "Aptos Display",
-        "font_size": 27,
+        "font_face": "Georgia",
+        "font_size": 24,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Abhorrent Strap Place",
-        "theme_topic": "Lame Tiny",
+        "text": "Cook Simplistic Digestion Funny",
+        "theme_topic": "Wakeful Stain",
         "underline": false
       },
       "type": "text",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 1.4018,
+        "w": 12.2172,
+        "x": 0.5333,
+        "y": 1.4599
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.12325113143877359,
+          0.29500061637458946,
+          0.062414751601538705,
+          0.28247231151735275
+        ],
+        "focus": true,
+        "mask_line": [
+          71,
+          221,
+          181
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Wakeful Stain",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.6122,
-        "w": 0.6325,
-        "x": 4.0346,
-        "y": 4.0925
+        "h": 0.5875,
+        "w": 0.6131,
+        "x": 1.2235,
+        "y": 5.7362
       },
       "id": "object_005",
       "properties": {
@@ -170,30 +177,30 @@
         "dash": 4,
         "family": "panel",
         "fill": [
-          174,
-          73,
-          92
+          71,
+          221,
+          181
         ],
         "line": [
-          30,
-          163,
-          175
+          139,
+          78,
+          190
         ],
-        "line_width": 1.5482996297623641,
+        "line_width": 2.8836801477992733,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Lame Tiny"
+        "theme_topic": "Wakeful Stain"
       },
       "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.9935,
-        "w": 1.9268,
-        "x": 3.484,
-        "y": 4.8955
+        "h": 0.602,
+        "w": 2.5995,
+        "x": 0.5788,
+        "y": 6.2872
       },
       "id": "object_006",
       "properties": {
@@ -201,17 +208,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          255,
+          250,
+          255
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "daily park thoughtful twig hum count famous",
-        "theme_topic": "Lame Tiny",
+        "text": "bath cat grandmother grouchy fair merciful",
+        "theme_topic": "Wakeful Stain",
         "underline": false
       },
       "type": "text",
@@ -219,41 +226,41 @@
     },
     {
       "bbox": {
-        "h": 0.6097,
-        "w": 0.6188,
-        "x": 6.4354,
-        "y": 4.015
+        "h": 0.6176,
+        "w": 0.6201,
+        "x": 4.7779,
+        "y": 5.9021
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          174,
-          73,
-          92
+          71,
+          221,
+          181
         ],
         "line": [
-          30,
-          163,
-          175
+          139,
+          78,
+          190
         ],
-        "line_width": 1.0469887849148636,
+        "line_width": 1.5491185702478603,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Lame Tiny"
+        "theme_topic": "Wakeful Stain"
       },
       "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.9852,
-        "w": 1.8544,
-        "x": 5.7083,
-        "y": 4.8667
+        "h": 0.5994,
+        "w": 2.4444,
+        "x": 3.5245,
+        "y": 6.2792
       },
       "id": "object_008",
       "properties": {
@@ -261,17 +268,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          255,
+          250,
+          255
         ],
         "font_face": "Aptos",
-        "font_size": 15,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "womanly sip rat object",
-        "theme_topic": "Lame Tiny",
+        "text": "wretched soup chickens maddening sidewalk",
+        "theme_topic": "Wakeful Stain",
         "underline": false
       },
       "type": "text",
@@ -279,10 +286,10 @@
     },
     {
       "bbox": {
-        "h": 0.6139,
-        "w": 0.633,
-        "x": 8.8201,
-        "y": 4.1278
+        "h": 0.604,
+        "w": 0.5901,
+        "x": 7.1851,
+        "y": 5.8049
       },
       "id": "object_009",
       "properties": {
@@ -290,30 +297,30 @@
         "dash": 2,
         "family": "panel",
         "fill": [
-          174,
-          73,
-          92
+          71,
+          221,
+          181
         ],
         "line": [
-          30,
-          163,
-          175
+          139,
+          78,
+          190
         ],
-        "line_width": 0.8906913955045954,
+        "line_width": 1.8104920179201773,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Lame Tiny"
+        "theme_topic": "Wakeful Stain"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.999,
-        "w": 2.4583,
-        "x": 7.9123,
-        "y": 4.8644
+        "h": 0.588,
+        "w": 1.9402,
+        "x": 6.331,
+        "y": 6.2796
       },
       "id": "object_010",
       "properties": {
@@ -321,17 +328,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          255,
+          250,
+          255
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 15,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "aunt vacuous flower known cure writing",
-        "theme_topic": "Lame Tiny",
+        "text": "eggnog uncovered calendar",
+        "theme_topic": "Wakeful Stain",
         "underline": false
       },
       "type": "text",
@@ -339,89 +346,101 @@
     },
     {
       "bbox": {
-        "h": 0.1,
-        "w": 2.3911,
-        "x": 4.3422,
-        "y": 4.4175
+        "h": 0.5973,
+        "w": 0.6116,
+        "x": 9.2394,
+        "y": 5.9038
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          32,
-          110,
-          120
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          71,
+          221,
+          181
         ],
-        "connector": "elbow",
-        "dash": 4,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Lame Tiny",
-        "width": 1.9056439009379602
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 1.8309450443802884,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Wakeful Stain"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.1072,
-        "w": 2.4164,
-        "x": 6.7333,
-        "y": 4.3289
+        "h": 0.603,
+        "w": 1.8035,
+        "x": 8.5725,
+        "y": 6.2502
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          32,
-          110,
-          120
+          255,
+          250,
+          255
         ],
-        "connector": "elbow",
-        "dash": 5,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Lame Tiny",
-        "width": 3.710208981745498
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "worry versed agree",
+        "theme_topic": "Wakeful Stain",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.516,
-        "w": 2.0751,
-        "x": 6.9598,
-        "y": 4.1422
+        "h": 0.6143,
+        "w": 0.6033,
+        "x": 11.2139,
+        "y": 5.8978
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          71,
+          221,
+          181
         ],
-        "font_face": "Aptos Display",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Cemetery Mourn",
-        "theme_topic": "Lame Tiny",
-        "underline": false
+        "line": [
+          139,
+          78,
+          190
+        ],
+        "line_width": 3.4224154210228206,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Wakeful Stain"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.6086,
-        "w": 2.0715,
-        "x": 6.9497,
-        "y": 4.9272
+        "h": 0.5937,
+        "w": 2.0427,
+        "x": 10.6645,
+        "y": 6.2543
       },
       "id": "object_014",
       "properties": {
@@ -429,17 +448,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          32,
-          110,
-          120
+          255,
+          250,
+          255
         ],
         "font_face": "Aptos",
-        "font_size": 7,
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "sparkle male cut mother cannon car fairies cultured sharp dolls hideous jam lethal yawn tight competition advertisement encourage talented way pancake",
-        "theme_topic": "Lame Tiny",
+        "text": "shoe push side fetch protest",
+        "theme_topic": "Wakeful Stain",
         "underline": false
       },
       "type": "text",
@@ -447,263 +466,87 @@
     },
     {
       "bbox": {
-        "h": 0.9374,
-        "w": 3.2754,
-        "x": 7.8618,
-        "y": 5.4887
+        "h": 1.7889,
+        "w": 12.2046,
+        "x": 0.5241,
+        "y": 3.1556
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.049430360454606796,
-          0.10468493696183123,
-          0.11094675461883936,
-          0.18291882304022963
+        "clip": "ticket",
+        "focus": true,
+        "line": [
+          79,
+          55,
+          30
         ],
-        "focus": false,
-        "mask_line": [
-          174,
-          73,
-          92
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Lame Tiny",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 10,
+        "theme_topic": "Wakeful Stain"
       },
-      "type": "image",
+      "type": "svg_image",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 1.2442,
-        "w": 2.6466,
-        "x": 1.7815,
-        "y": 5.014
+        "h": 0.5865,
+        "w": 1.679,
+        "x": 9.038,
+        "y": 0.8335
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.12724944444695382,
-          0.08714751247335746,
-          0.24102465269215792,
-          0.14736481324247422
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          211,
+          173,
+          161
         ],
-        "focus": false,
-        "mask_line": [
-          166,
-          207,
-          32
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Lame Tiny",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "eatable",
+        "theme_topic": "Wakeful Stain",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.718,
-        "w": 0.7575,
-        "x": 5.1999,
-        "y": 5.2801
+        "h": 0.9916,
+        "w": 0.694,
+        "x": 8.4775,
+        "y": 1.7086
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "swoop",
-        "primary": [
-          174,
-          73,
-          92
-        ],
-        "secondary": [
-          208,
-          112,
-          133
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M22 196 C96 26 198 270 286 70 S372 92 386 204\"\n              fill=\"none\" stroke=\"#62c441\" stroke-width=\"28\" stroke-linecap=\"round\"/>\n        <path d=\"M42 226 C124 112 214 288 360 126\"\n              fill=\"none\" stroke=\"#7fdf91\" stroke-width=\"12\" stroke-linecap=\"round\" opacity=\"0.85\"/>\n        </svg>",
-        "theme_topic": "Lame Tiny"
-      },
-      "type": "svg",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 1.0843,
-        "w": 0.4443,
-        "x": 2.0047,
-        "y": 1.6114
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          160,
-          131,
-          49
-        ],
-        "connector": "curve",
-        "dash": 5,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Lame Tiny",
-        "width": 1.5083366406716154
-      },
-      "type": "connector",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.4607,
-        "w": 1.0783,
-        "x": 6.4788,
-        "y": 6.3533
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          66,
-          139,
-          175
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "bridge bushes buzz",
-        "theme_topic": "Lame Tiny",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.6023,
-        "w": 0.7222,
-        "x": 4.5351,
-        "y": 5.3092
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          179,
-          217,
-          197
-        ],
-        "focus": false,
-        "line": [
-          71,
-          64,
-          182
-        ],
-        "line_width": 3.6149911547156153,
-        "outline_only": true,
-        "ppt_type": 10,
-        "shape": "hexagon",
-        "theme_topic": "Lame Tiny"
-      },
-      "type": "shape",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.3702,
-        "w": 0.4885,
-        "x": 12.1269,
-        "y": 3.909
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          118,
-          152,
-          62
-        ],
-        "focus": false,
-        "line": [
-          87,
-          120,
-          198
-        ],
-        "line_width": 6.163909396507056,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Lame Tiny"
-      },
-      "type": "shape",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 0.7551,
-        "w": 2.0422,
-        "x": 10.3974,
-        "y": 4.513
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          106,
-          67,
-          165
-        ],
-        "connector": "curve",
         "dash": 4,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Lame Tiny",
-        "width": 1.0681100041840854
-      },
-      "type": "connector",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.4762,
-        "w": 0.2388,
-        "x": 9.5066,
-        "y": 3.2387
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "family": "callouts",
         "fill": [
-          174,
-          179,
-          151
+          56,
+          173,
+          119
         ],
         "focus": false,
         "line": [
-          174,
-          154,
-          63
+          126,
+          62,
+          82
         ],
-        "line_width": 1.7246188446471205,
+        "line_width": 1.3950181814491884,
         "outline_only": false,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Lame Tiny"
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Wakeful Stain"
       },
       "type": "shape",
-      "z_order": 23
+      "z_order": 17
     }
   ],
   "slide": {

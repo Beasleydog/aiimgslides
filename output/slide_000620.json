@@ -8,65 +8,78 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 45,
       "archetype": "atomic_composition",
-      "back_color": [
-        236,
-        240,
-        242
+      "colors": [
+        [
+          215,
+          75,
+          154
+        ],
+        [
+          255,
+          198,
+          74
+        ]
       ],
       "fill": [
-        247,
-        248,
-        246
+        116,
+        156,
+        193
       ],
-      "fore_color": [
-        111,
-        168,
-        217
-      ],
-      "pattern": 35,
-      "style": "pattern",
-      "theme_topic": "Mountain"
+      "focus": "top_left",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Real Offbeat"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 16,
+    "level": 16,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 16
+  },
   "objects": [
     {
       "bbox": {
-        "h": 0.9129,
-        "w": 3.559,
-        "x": 1.0739,
-        "y": 1.2178
+        "h": 0.565,
+        "w": 13.3353,
+        "x": 0.0082,
+        "y": 0.0138
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          30,
-          35,
-          42
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          104,
+          140,
+          173
         ],
-        "font_face": "Aptos Display",
-        "font_size": 23,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Impress Spotted Peace Icky",
-        "theme_topic": "Mountain",
-        "underline": false
+        "line": [
+          104,
+          140,
+          173
+        ],
+        "line_width": 2.168540977948277,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Real Offbeat"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.0364,
-        "w": 5.9007,
-        "x": 0.6932,
-        "y": 1.5641
+        "h": 0.9111,
+        "w": 5.5066,
+        "x": 0.7069,
+        "y": 0.7865
       },
       "id": "object_002",
       "properties": {
@@ -74,17 +87,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
+          28,
           30,
-          35,
-          42
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 46,
+        "font_face": "Arial",
+        "font_size": 26,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Chickens Humor",
-        "theme_topic": "Mountain",
+        "text": "Polish Secretary Scattered Ear",
+        "theme_topic": "Real Offbeat",
         "underline": false
       },
       "type": "text",
@@ -92,251 +105,206 @@
     },
     {
       "bbox": {
-        "h": 4.0331,
-        "w": 5.9103,
-        "x": 0.6864,
-        "y": 2.8842
+        "h": 2.7843,
+        "w": 6.7496,
+        "x": 6.0158,
+        "y": 4.2155
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          115,
-          124,
-          135
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          104,
+          140,
+          173
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "return bomb flowery clover fire idea electric billowy spiky beds haunt mere talented rely announce calculate addicted wry voice piquant boring",
-        "theme_topic": "Mountain",
-        "underline": false
+        "line": [
+          104,
+          140,
+          173
+        ],
+        "line_width": 3.1229297031195764,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Real Offbeat"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.4679,
-        "w": 5.3349,
-        "x": 7.3687,
-        "y": 1.5154
+        "h": 2.2762,
+        "w": 6.2564,
+        "x": 6.255,
+        "y": 4.4265
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          236,
-          240,
-          242
+        "categories": [
+          "acid",
+          "cooperative",
+          "itch",
+          "fence",
+          "sassy"
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          110,
-          197,
-          218
+        "chart": "area",
+        "focus": true,
+        "has_legend": true,
+        "has_title": true,
+        "ppt_type": 1,
+        "series": [
+          {
+            "color": [
+              210,
+              113,
+              121
+            ],
+            "name": "grandfather wool",
+            "values": [
+              37,
+              14,
+              15,
+              89,
+              22
+            ]
+          }
         ],
-        "border": [
-          115,
-          124,
-          135
-        ],
-        "border_dash": "solid",
-        "border_width": 0.9506528652576353,
-        "cells": [
-          [
-            "page",
-            "hate",
-            "smooth"
-          ],
-          [
-            "self fold",
-            "shocking disappear",
-            "bawdy command"
-          ],
-          [
-            "pop",
-            "one pot",
-            "concern object"
-          ],
-          [
-            "curved",
-            "grieving necessary",
-            "eggs"
-          ]
-        ],
-        "cols": 3,
-        "font_size": 9,
-        "has_header": true,
-        "header": [
-          158,
-          173,
-          157
-        ],
-        "rows": 4,
-        "text_color": [
-          30,
-          35,
-          42
-        ],
-        "theme_topic": "Mountain"
+        "theme_topic": "Real Offbeat",
+        "title": "quarter scissors soft"
       },
-      "type": "table",
+      "type": "chart",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.918,
-        "w": 0.8126,
-        "x": 11.012,
-        "y": 3.2088
+        "h": 2.4057,
+        "w": 6.3309,
+        "x": 0.5456,
+        "y": 1.4438
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          84,
-          192,
-          144
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          104,
+          140,
+          173
         ],
-        "secondary": [
-          220,
-          190,
-          40
+        "line": [
+          104,
+          140,
+          173
         ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#813158\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#7cb571\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#813158\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Mountain"
+        "line_width": 0.9991771630745677,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Real Offbeat"
       },
-      "type": "svg",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.4868,
-        "w": 1.805,
-        "x": 7.5615,
-        "y": 4.4378
+        "h": 0.4692,
+        "w": 5.8429,
+        "x": 0.7893,
+        "y": 2.3706
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          119,
-          120,
-          162
+          255,
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": true,
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Caring",
-        "theme_topic": "Mountain",
-        "underline": true
+        "text": "Nine",
+        "theme_topic": "Real Offbeat",
+        "underline": false
       },
       "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4883,
-        "w": 1.4634,
-        "x": 10.1299,
-        "y": 1.8435
+        "h": 0.7733,
+        "w": 5.8488,
+        "x": 0.8249,
+        "y": 2.9018
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          222,
-          133,
-          62
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          67,
+          86,
+          106
         ],
-        "line": [
-          31,
-          117,
-          161
-        ],
-        "line_width": 1.9214950832362272,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Mountain"
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "windy funny lake spiders obeisant lively land owe",
+        "theme_topic": "Real Offbeat",
+        "underline": false
       },
-      "type": "freeform",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.7622,
-        "w": 1.2318,
-        "x": 0.7511,
-        "y": 4.9365
+        "h": 2.3957,
+        "w": 5.7015,
+        "x": 7.1066,
+        "y": 1.435
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          106,
-          96,
-          80
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          104,
+          140,
+          173
         ],
-        "connector": "curve",
-        "dash": 5,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Mountain",
-        "width": 0.5631238387640888
+        "line": [
+          104,
+          140,
+          173
+        ],
+        "line_width": 1.4133706850810706,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Real Offbeat"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.3136,
-        "w": 1.5358,
-        "x": 11.6192,
-        "y": 1.2496
+        "h": 0.4581,
+        "w": 5.1607,
+        "x": 7.3659,
+        "y": 2.3282
       },
       "id": "object_009",
       "properties": {
@@ -344,17 +312,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          82,
-          224,
-          43
+          255,
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 5,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "blushing safe wash exercise",
-        "theme_topic": "Mountain",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Remind",
+        "theme_topic": "Real Offbeat",
         "underline": false
       },
       "type": "text",
@@ -362,32 +330,28 @@
     },
     {
       "bbox": {
-        "h": 0.2315,
-        "w": 2.3458,
-        "x": 1.4163,
-        "y": 6.5546
+        "h": 0.7459,
+        "w": 5.1695,
+        "x": 7.3673,
+        "y": 2.89
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          109,
-          171,
-          64
-        ],
-        "bold": true,
+        "bg_color": null,
+        "bold": false,
         "color": [
-          131,
-          181,
-          48
+          67,
+          86,
+          106
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": true,
+        "font_face": "Arial",
+        "font_size": 15,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "contain gabby truck knowing wealthy",
-        "theme_topic": "Mountain",
+        "text": "tour common birds flowers concern death flavor cub sink wobble mountainous dispensable boil",
+        "theme_topic": "Real Offbeat",
         "underline": false
       },
       "type": "text",
@@ -395,36 +359,181 @@
     },
     {
       "bbox": {
-        "h": 0.2664,
-        "w": 1.9304,
-        "x": 10.4542,
-        "y": 6.3868
+        "h": 2.7941,
+        "w": 2.5855,
+        "x": 0.5505,
+        "y": 4.1957
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          185,
-          39,
-          47
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          154,
+          167,
+          159
         ],
+        "line": [
+          104,
+          140,
+          173
+        ],
+        "line_width": 1.3657588516631964,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Real Offbeat"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 0.7402,
+        "w": 2.2483,
+        "x": 0.7101,
+        "y": 4.3719
+      },
+      "id": "object_012",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
         "bold": true,
         "color": [
-          151,
-          151,
-          156
+          255,
+          198,
+          74
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 31,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Yielding Shy Illustrious",
-        "theme_topic": "Mountain",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "8.1x",
+        "theme_topic": "Real Offbeat",
         "underline": false
       },
       "type": "text",
-      "z_order": 11
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 1.8074,
+        "w": 2.2526,
+        "x": 0.7487,
+        "y": 5.1272
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          67,
+          86,
+          106
+        ],
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "super high-pitched minister",
+        "theme_topic": "Real Offbeat",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 2.7886,
+        "w": 2.435,
+        "x": 3.345,
+        "y": 4.1966
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          104,
+          140,
+          173
+        ],
+        "line": [
+          104,
+          140,
+          173
+        ],
+        "line_width": 0.6366704167816066,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Real Offbeat"
+      },
+      "type": "shape",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.7683,
+        "w": 2.0683,
+        "x": 3.5177,
+        "y": 4.3829
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Arial",
+        "font_size": 26,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "29",
+        "theme_topic": "Real Offbeat",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 1.7826,
+        "w": 2.0647,
+        "x": 3.507,
+        "y": 5.1123
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          67,
+          86,
+          106
+        ],
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "jam umbrella shiver reproduce",
+        "theme_topic": "Real Offbeat",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
     }
   ],
   "slide": {

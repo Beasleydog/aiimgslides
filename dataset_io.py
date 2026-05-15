@@ -35,10 +35,10 @@ def element_to_dict(el, index):
     }
 
 
-def slide_to_dict(elements, image_file=None):
+def slide_to_dict(elements, image_file=None, curriculum=None):
     background = next((el for el in elements if el.kind == "background"), None)
     objects = [el for el in elements if el.kind != "background"]
-    return {
+    data = {
         "version": 1,
         "slide": {
             "width": config.SLIDE_W,
@@ -48,8 +48,11 @@ def slide_to_dict(elements, image_file=None):
         "background": element_to_dict(background, 0) if background is not None else None,
         "objects": [element_to_dict(el, index) for index, el in enumerate(objects, start=1)],
     }
+    if curriculum is not None:
+        data["curriculum"] = curriculum
+    return data
 
 
-def save_slide_json(path, elements, image_file=None):
-    data = slide_to_dict(elements, image_file=image_file)
+def save_slide_json(path, elements, image_file=None, curriculum=None):
+    data = slide_to_dict(elements, image_file=image_file, curriculum=curriculum)
     Path(path).write_text(json.dumps(data, indent=2, sort_keys=True), encoding="utf-8")

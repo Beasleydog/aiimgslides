@@ -9,90 +9,171 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        198,
-        72,
-        133
+      "back_color": [
+        137,
+        229,
+        116
       ],
-      "style": "solid",
-      "theme_topic": "Sour Memorize"
+      "fill": [
+        103,
+        222,
+        76
+      ],
+      "fore_color": [
+        93,
+        112,
+        27
+      ],
+      "pattern": 16,
+      "style": "pattern",
+      "theme_topic": "Rescue"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 23,
+    "level": 23,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 23
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.6813,
-        "w": 3.1106,
-        "x": 9.8907,
-        "y": 2.9018
+        "h": 2.6306,
+        "w": 6.2265,
+        "x": 1.1608,
+        "y": 0.5102
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          167,
-          106,
-          149
+          100,
+          135,
+          157
         ],
         "focus": false,
         "line": [
-          221,
-          108,
-          203
+          106,
+          156,
+          34
         ],
-        "line_width": 2.564108372561371,
-        "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Sour Memorize"
+        "line_width": 3.219667016341948,
+        "outline_only": true,
+        "ppt_type": 39,
+        "shape": "quad_arrow",
+        "theme_topic": "Rescue"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.9422,
-        "w": 8.3029,
-        "x": 0.5282,
-        "y": 1.894
+        "h": 1.4378,
+        "w": 4.7043,
+        "x": 8.5438,
+        "y": -0.5244
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "math",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          72,
-          200,
-          60
+          108,
+          91,
+          104
         ],
         "focus": false,
         "line": [
-          34,
-          54,
-          122
+          96,
+          95,
+          128
         ],
-        "line_width": 5.4751973238472855,
-        "outline_only": false,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Sour Memorize"
+        "line_width": 7.059719281804101,
+        "outline_only": true,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Rescue"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 5.5717,
-        "w": 2.8452,
-        "x": 0.6464,
-        "y": 0.7384
+        "h": 2.4256,
+        "w": 3.6581,
+        "x": 8.6145,
+        "y": -0.2892
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "flowchart",
+        "fill": [
+          130,
+          85,
+          179
+        ],
+        "focus": false,
+        "line": [
+          35,
+          47,
+          55
+        ],
+        "line_width": 5.559911284866866,
+        "outline_only": false,
+        "ppt_type": 69,
+        "shape": "flow_terminator",
+        "theme_topic": "Rescue"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 7.4927,
+        "w": 1.0675,
+        "x": 12.2777,
+        "y": 0.0031
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          137,
+          229,
+          116
+        ],
+        "line": [
+          137,
+          229,
+          116
+        ],
+        "line_width": 1.4036476540896905,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Rescue"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.0612,
+        "w": 7.6059,
+        "x": 0.5513,
+        "y": 0.3719
+      },
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -103,139 +184,101 @@
           36
         ],
         "font_face": "Aptos Display",
-        "font_size": 30,
+        "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Pushy Square",
-        "theme_topic": "Sour Memorize",
+        "text": "Righteous Live Bike Donkey",
+        "theme_topic": "Rescue",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 3.1229,
-        "w": 8.9818,
-        "x": 3.7347,
-        "y": 3.8001
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          217,
-          135,
-          175
-        ],
-        "line": [
-          217,
-          135,
-          175
-        ],
-        "line_width": 1.0640855473987865,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Sour Memorize"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.8407,
-        "w": 8.6542,
-        "x": 3.9305,
-        "y": 3.9165
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "hex",
-        "focus": true,
-        "line": [
-          82,
-          96,
-          214
-        ],
-        "line_width": 10,
-        "theme_topic": "Sour Memorize"
-      },
-      "type": "svg_image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.2587,
-        "w": 8.6066,
-        "x": 3.9498,
-        "y": 6.4506
+        "h": 5.1696,
+        "w": 5.619,
+        "x": 7.1679,
+        "y": 1.837
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          82,
-          96,
-          214
+        "categories": [
+          "acoustics",
+          "person",
+          "adorable",
+          "temporary",
+          "electric",
+          "rot"
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Eatable Gratis Cub",
-        "theme_topic": "Sour Memorize",
-        "underline": false
+        "chart": "doughnut",
+        "focus": true,
+        "has_legend": false,
+        "has_title": false,
+        "ppt_type": -4120,
+        "series": [
+          {
+            "color": [
+              165,
+              165,
+              79
+            ],
+            "name": "few ocean",
+            "values": [
+              49,
+              63,
+              78,
+              14,
+              14,
+              35
+            ]
+          }
+        ],
+        "theme_topic": "Rescue",
+        "title": "deceive jealous dirty"
       },
-      "type": "text",
+      "type": "chart",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.9843,
-        "w": 3.8439,
-        "x": 3.9035,
-        "y": 0.7509
+        "h": 0.605,
+        "w": 0.6034,
+        "x": 1.1538,
+        "y": 4.1606
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          82,
+          96,
+          214
+        ],
+        "line": [
           137,
-          28,
-          37
+          229,
+          116
         ],
-        "bold": true,
-        "color": [
-          65,
-          98,
-          98
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
-        "italic": true,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Slimy Squeeze",
-        "theme_topic": "Sour Memorize",
-        "underline": true
+        "line_width": 0.7230968894867468,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Rescue"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 1.3346,
-        "w": 3.8524,
-        "x": 3.8864,
-        "y": 1.9857
+        "h": 1.7596,
+        "w": 1.7378,
+        "x": 0.5783,
+        "y": 4.8303
       },
       "id": "object_008",
       "properties": {
@@ -243,17 +286,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          104,
-          48,
-          79
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos",
-        "font_size": 15,
+        "font_size": 14,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "delay discussion honey combative weak animal husky wave rub remember enthusiastic error page beef peck swift work calculator orange jog hat",
-        "theme_topic": "Sour Memorize",
+        "text": "bump aware expand enter time pencil scarf",
+        "theme_topic": "Rescue",
         "underline": false
       },
       "type": "text",
@@ -261,57 +304,59 @@
     },
     {
       "bbox": {
-        "h": 0.3021,
-        "w": 4.2022,
-        "x": 8.3542,
-        "y": 0.7704
+        "h": 0.6217,
+        "w": 0.6241,
+        "x": 3.171,
+        "y": 3.6839
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
+        "dash": 7,
+        "family": "panel",
+        "fill": [
           82,
           96,
           214
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "BOX TAWDRY",
-        "theme_topic": "Sour Memorize",
-        "underline": false
+        "line": [
+          137,
+          229,
+          116
+        ],
+        "line_width": 0.7536339068938982,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Rescue"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.8198,
-        "w": 4.2112,
-        "x": 8.3654,
-        "y": 1.2596
+        "h": 1.7755,
+        "w": 2.0953,
+        "x": 2.6387,
+        "y": 4.8344
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          120,
-          87,
-          176
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 41,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Pest Cheat",
-        "theme_topic": "Sour Memorize",
+        "text": "rot cheese entertain square fall start utter",
+        "theme_topic": "Rescue",
         "underline": false
       },
       "type": "text",
@@ -319,206 +364,377 @@
     },
     {
       "bbox": {
-        "h": 1.0602,
-        "w": 4.188,
-        "x": 8.3714,
-        "y": 2.2978
+        "h": 0.6011,
+        "w": 0.6033,
+        "x": 5.5266,
+        "y": 3.7263
       },
       "id": "object_011",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          82,
+          96,
+          214
+        ],
+        "line": [
+          137,
+          229,
+          116
+        ],
+        "line_width": 0.916800449883371,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Rescue"
+      },
+      "type": "shape",
+      "z_order": 11
+    },
+    {
+      "bbox": {
+        "h": 1.7514,
+        "w": 1.6138,
+        "x": 5.0559,
+        "y": 4.8539
+      },
+      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          104,
-          48,
-          79
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "current film interfere overflow army hat group machine wild writer honey vegetable slow auspicious cynical superb throat alleged meek",
-        "theme_topic": "Sour Memorize",
+        "text": "physical loaf man erratic scary acid slippery",
+        "theme_topic": "Rescue",
         "underline": false
       },
       "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.7886,
-        "w": 0.6812,
-        "x": 8.0754,
-        "y": 5.8983
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          43,
-          41,
-          171
-        ],
-        "line": [
-          211,
-          91,
-          105
-        ],
-        "line_width": 1.1642345447456015,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Sour Memorize"
-      },
-      "type": "freeform",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.0646,
-        "w": 0.4746,
-        "x": 9.4064,
-        "y": 0.6283
+        "h": 0.1,
+        "w": 2.023,
+        "x": 1.4762,
+        "y": 4.4587
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "color": [
-          70,
-          85,
-          139
+          61,
+          116,
+          54
         ],
-        "connector": "straight",
-        "dash": 2,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Sour Memorize",
-        "width": 0.4493155109491131
+        "connector": "curve",
+        "dash": 5,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Rescue",
+        "width": 3.719026024323483
       },
       "type": "connector",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.6373,
-        "w": 2.3863,
-        "x": 2.2112,
-        "y": 1.7053
+        "h": 0.1,
+        "w": 2.3193,
+        "x": 3.4992,
+        "y": 4.0128
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
         "color": [
-          193,
-          114,
-          60
+          61,
+          116,
+          54
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Dramatic Sip",
-        "theme_topic": "Sour Memorize",
-        "underline": false
+        "connector": "straight",
+        "dash": 3,
+        "flip": true,
+        "ppt_type": 1,
+        "theme_topic": "Rescue",
+        "width": 1.691327818843077
       },
-      "type": "text",
+      "type": "connector",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.9418,
-        "w": 0.964,
-        "x": 7.3148,
-        "y": 0.5058
+        "h": 0.3055,
+        "w": 1.2337,
+        "x": 7.6226,
+        "y": 2.8976
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          82,
-          96,
-          214
+        "dash": 2,
+        "family": "flowchart",
+        "fill": [
+          142,
+          191,
+          110
         ],
-        "secondary": [
-          162,
-          171,
-          140
+        "focus": false,
+        "line": [
+          179,
+          64,
+          144
         ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#30b936\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#dd1d8d\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Sour Memorize"
+        "line_width": 0.7694751210389076,
+        "outline_only": false,
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Rescue"
       },
-      "type": "svg",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.5864,
-        "w": 1.1512,
-        "x": 8.6463,
-        "y": 2.9171
+        "h": 0.4338,
+        "w": 1.8272,
+        "x": 3.1457,
+        "y": 1.0685
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          137,
-          185,
+        "color": [
+          60,
+          164,
+          228
+        ],
+        "connector": "elbow",
+        "dash": 3,
+        "flip": false,
+        "ppt_type": 2,
+        "theme_topic": "Rescue",
+        "width": 1.6235852014235008
+      },
+      "type": "connector",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.2851,
+        "w": 0.4071,
+        "x": 1.3238,
+        "y": 0.5324
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "color": [
+          142,
+          220,
           139
+        ],
+        "connector": "curve",
+        "dash": 1,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Rescue",
+        "width": 0.39604739364954966
+      },
+      "type": "connector",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.6863,
+        "w": 0.7369,
+        "x": 9.2044,
+        "y": 6.3033
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "ribbons",
+        "fill": [
+          99,
+          201,
+          26
         ],
         "focus": false,
         "line": [
-          163,
-          135,
-          61
+          203,
+          84,
+          66
         ],
-        "line_width": 4.834015924357176,
+        "line_width": 3.6214292162901285,
         "outline_only": false,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Sour Memorize"
+        "ppt_type": 97,
+        "shape": "up_ribbon",
+        "theme_topic": "Rescue"
       },
       "type": "shape",
-      "z_order": 16
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 1.2243,
+        "w": 1.1219,
+        "x": 4.9933,
+        "y": 3.9855
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "color": [
+          120,
+          160,
+          134
+        ],
+        "connector": "curve",
+        "dash": 5,
+        "flip": false,
+        "ppt_type": 3,
+        "theme_topic": "Rescue",
+        "width": 0.5403055735281076
+      },
+      "type": "connector",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.6472,
+        "w": 1.1364,
+        "x": 1.007,
+        "y": 5.9076
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          83,
+          169,
+          215
+        ],
+        "focus": false,
+        "line": [
+          33,
+          197,
+          128
+        ],
+        "line_width": 4.803118764341223,
+        "outline_only": false,
+        "ppt_type": 173,
+        "shape": "gear9",
+        "theme_topic": "Rescue"
+      },
+      "type": "shape",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 0.9655,
+        "x": 9.6813,
+        "y": 4.7669
+      },
+      "id": "object_021",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "symbols",
+        "fill": [
+          66,
+          49,
+          67
+        ],
+        "focus": false,
+        "line": [
+          154,
+          103,
+          145
+        ],
+        "line_width": 5.359066324213852,
+        "outline_only": false,
+        "ppt_type": 13,
+        "shape": "can",
+        "theme_topic": "Rescue"
+      },
+      "type": "shape",
+      "z_order": 21
+    },
+    {
+      "bbox": {
+        "h": 0.4236,
+        "w": 2.2416,
+        "x": 7.658,
+        "y": 1.8512
+      },
+      "id": "object_022",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          122,
+          166,
+          128
+        ],
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "uncovered payment itchy",
+        "theme_topic": "Rescue",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 22
+    },
+    {
+      "bbox": {
+        "h": 0.8689,
+        "w": 0.5445,
+        "x": 7.3217,
+        "y": 1.1159
+      },
+      "id": "object_023",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          72,
+          39,
+          196
+        ],
+        "focus": false,
+        "line": [
+          134,
+          203,
+          171
+        ],
+        "line_width": 0.6091579931059921,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Rescue"
+      },
+      "type": "shape",
+      "z_order": 23
     }
   ],
   "slide": {

@@ -9,121 +9,265 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        111,
-        88,
-        201
+      "back_color": [
+        155,
+        53,
+        177
       ],
-      "style": "solid",
-      "theme_topic": "Trains Learn"
+      "fill": [
+        177,
+        61,
+        202
+      ],
+      "fore_color": [
+        48,
+        78,
+        140
+      ],
+      "pattern": 24,
+      "style": "pattern",
+      "theme_topic": "Remind End"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 24,
+    "level": 24,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 24
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.9834,
-        "w": 6.4467,
-        "x": 6.6056,
-        "y": 1.3041
+        "h": 1.8259,
+        "w": 4.3574,
+        "x": 4.8204,
+        "y": 5.6411
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 3,
-        "family": "stars",
+        "family": "flowchart",
         "fill": [
-          107,
-          39,
-          204
+          133,
+          163,
+          182
         ],
         "focus": false,
         "line": [
-          38,
-          70,
-          223
+          25,
+          180,
+          121
         ],
-        "line_width": 4.169704103603769,
+        "line_width": 2.558352598363469,
         "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Trains Learn"
+        "ppt_type": 61,
+        "shape": "flow_process",
+        "theme_topic": "Remind End"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.1091,
-        "w": 6.8862,
-        "x": 2.2647,
-        "y": 2.7032
+        "h": 5.0363,
+        "w": 3.3088,
+        "x": 0.9477,
+        "y": -0.26
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
+        "dash": 3,
         "family": "basic",
         "fill": [
-          58,
-          204,
-          92
+          117,
+          83,
+          156
         ],
         "focus": false,
         "line": [
-          184,
-          211,
-          162
+          62,
+          191,
+          101
         ],
-        "line_width": 2.210450641422237,
+        "line_width": 5.561952637852114,
         "outline_only": false,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Trains Learn"
+        "ppt_type": 9,
+        "shape": "ellipse",
+        "theme_topic": "Remind End"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 2.3351,
-        "w": 6.7521,
-        "x": 6.5508,
-        "y": 0.0092
+        "h": 3.5187,
+        "w": 7.6509,
+        "x": -0.773,
+        "y": 1.5079
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
+        "dash": 4,
+        "family": "arrows",
         "fill": [
-          155,
-          139,
-          217
+          76,
+          148,
+          112
         ],
+        "focus": false,
         "line": [
-          155,
-          139,
-          217
+          60,
+          154,
+          162
         ],
-        "line_width": 1.0318302836744446,
+        "line_width": 2.5422284727130586,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Trains Learn"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Remind End"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.539,
-        "w": 2.8412,
-        "x": 0.6743,
-        "y": 0.7614
+        "h": 4.4561,
+        "w": 4.8527,
+        "x": 8.5435,
+        "y": 0.8455
       },
       "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          186,
+          59,
+          211
+        ],
+        "focus": false,
+        "line": [
+          182,
+          123,
+          215
+        ],
+        "line_width": 5.7357763118067515,
+        "outline_only": true,
+        "ppt_type": 178,
+        "shape": "swoosh_arrow",
+        "theme_topic": "Remind End"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 1.4728,
+        "w": 0.2,
+        "x": 2.0981,
+        "y": 1.8696
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          155,
+          53,
+          177
+        ],
+        "line_width": 0.794370368511925,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Remind End"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.5412,
+        "w": 0.2,
+        "x": 8.8841,
+        "y": 1.2028
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          155,
+          53,
+          177
+        ],
+        "line_width": 1.9793253333069543,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Remind End"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 2.5379,
+        "w": 0.2,
+        "x": 10.3338,
+        "y": 0.7351
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
+        ],
+        "line": [
+          155,
+          53,
+          177
+        ],
+        "line_width": 2.0153081893118276,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Remind End"
+      },
+      "type": "shape",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 5.805,
+        "w": 3.1836,
+        "x": 9.3868,
+        "y": 0.6431
+      },
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -134,184 +278,12 @@
           36
         ],
         "font_face": "Aptos Display",
-        "font_size": 24,
+        "font_size": 20,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Prose Rate Wry",
-        "theme_topic": "Trains Learn",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 2.8799,
-        "w": 4.206,
-        "x": 3.7752,
-        "y": 0.6923
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          155,
-          139,
-          217
-        ],
-        "band_cols": true,
-        "band_rows": false,
-        "body": [
-          155,
-          139,
-          217
-        ],
-        "border": [
-          175,
-          88,
-          129
-        ],
-        "border_dash": "solid",
-        "border_width": 1.8982475548490236,
-        "cells": [
-          [
-            "yielding",
-            "disagreeable",
-            "creature doubt"
-          ],
-          [
-            "visit",
-            "haunt",
-            "frame"
-          ],
-          [
-            "versed",
-            "wave bumpy",
-            "coal ink"
-          ],
-          [
-            "separate house",
-            "burly bare",
-            "roasted"
-          ],
-          [
-            "pretend",
-            "magical",
-            "drink trust"
-          ],
-          [
-            "skirt",
-            "bare",
-            "certain"
-          ]
-        ],
-        "cols": 3,
-        "font_size": 13,
-        "has_header": true,
-        "header": [
-          127,
-          63,
-          162
-        ],
-        "rows": 6,
-        "text_color": [
-          213,
-          121,
-          141
-        ],
-        "theme_topic": "Trains Learn"
-      },
-      "type": "table",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.9597,
-        "w": 2.0294,
-        "x": 8.3805,
-        "y": 0.6362
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          155,
-          139,
-          217
-        ],
-        "line": [
-          155,
-          139,
-          217
-        ],
-        "line_width": 4.487608209791636,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Trains Learn"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.5154,
-        "w": 0.5655,
-        "x": 8.6523,
-        "y": 0.8761
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "stars",
-        "fill": [
-          31,
-          117,
-          161
-        ],
-        "focus": false,
-        "line": [
-          172,
-          110,
-          66
-        ],
-        "line_width": 2.9339158546885464,
-        "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Trains Learn"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.4691,
-        "w": 1.533,
-        "x": 8.6578,
-        "y": 1.5267
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Instrument Books",
-        "theme_topic": "Trains Learn",
+        "text": "Puzzled Fruit Zephyr",
+        "theme_topic": "Remind End",
         "underline": false
       },
       "type": "text",
@@ -319,10 +291,10 @@
     },
     {
       "bbox": {
-        "h": 1.3311,
-        "w": 1.5611,
-        "x": 8.6355,
-        "y": 2.1239
+        "h": 0.2369,
+        "w": 2.6387,
+        "x": 0.7223,
+        "y": 4.1506
       },
       "id": "object_009",
       "properties": {
@@ -330,17 +302,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          65,
-          56,
-          110
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "mass stitch cap gratis messy meat torpid connection behavior female",
-        "theme_topic": "Trains Learn",
+        "text": "absorbed awful riddle work position wind luxuriant",
+        "theme_topic": "Remind End",
         "underline": false
       },
       "type": "text",
@@ -348,102 +320,99 @@
     },
     {
       "bbox": {
-        "h": 2.9788,
-        "w": 2.0668,
-        "x": 10.6477,
-        "y": 0.6679
+        "h": 0.2577,
+        "w": 2.6414,
+        "x": 0.7227,
+        "y": 5.0939
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          155,
-          139,
-          217
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          155,
-          139,
-          217
-        ],
-        "line_width": 1.777899800723261,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Trains Learn"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "immense value bounce",
+        "theme_topic": "Remind End",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.5332,
-        "w": 0.535,
-        "x": 10.9226,
-        "y": 0.8571
+        "h": 0.2359,
+        "w": 2.6104,
+        "x": 0.6994,
+        "y": 5.9181
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          222,
-          133,
-          62
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          31,
-          117,
-          161
-        ],
-        "line_width": 4.831483407363434,
-        "outline_only": true,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Trains Learn"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "mice capricious ray",
+        "theme_topic": "Remind End",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.425,
-        "w": 1.5444,
-        "x": 10.9365,
-        "y": 1.5258
+        "h": 0.2,
+        "w": 0.2,
+        "x": 1.4521,
+        "y": 6.5652
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          255,
+          238,
+          103
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Nifty",
-        "theme_topic": "Trains Learn",
-        "underline": false
+        "line": [
+          155,
+          53,
+          177
+        ],
+        "line_width": 1.953008355174944,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Remind End"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 1.3341,
-        "w": 1.5711,
-        "x": 10.9142,
-        "y": 2.0799
+        "h": 0.2,
+        "w": 2.6441,
+        "x": 0.6986,
+        "y": 6.6822
       },
       "id": "object_013",
       "properties": {
@@ -451,17 +420,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          65,
-          56,
-          110
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "tired friends different mend start dreary hover healthy endurable influence deserve",
-        "theme_topic": "Trains Learn",
+        "text": "elegant black-and-white dapper year",
+        "theme_topic": "Remind End",
         "underline": false
       },
       "type": "text",
@@ -469,41 +438,39 @@
     },
     {
       "bbox": {
-        "h": 2.9594,
-        "w": 1.2047,
-        "x": 8.3954,
-        "y": 3.941
+        "h": 3.1443,
+        "w": 2.0913,
+        "x": 6.7525,
+        "y": 3.7281
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          116,
-          101,
-          173
+        "crop": [
+          0.053737578962985255,
+          0.12325349530096658,
+          0.11760258436956927,
+          0.06100760475770752
         ],
-        "line": [
-          155,
-          139,
-          217
+        "focus": false,
+        "mask_line": [
+          189,
+          80,
+          172
         ],
-        "line_width": 3.262224431365126,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Trains Learn"
+        "mask_overlay": true,
+        "theme_topic": "Remind End",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.7607,
-        "w": 0.8279,
-        "x": 8.5772,
-        "y": 4.1087
+        "h": 0.2691,
+        "w": 1.6722,
+        "x": 6.9565,
+        "y": 6.4317
       },
       "id": "object_015",
       "properties": {
@@ -511,17 +478,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          255,
+          238,
+          103
         ],
-        "font_face": "Aptos Display",
-        "font_size": 28,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "7.5x",
-        "theme_topic": "Trains Learn",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Grab Calculating Polish",
+        "theme_topic": "Remind End",
         "underline": false
       },
       "type": "text",
@@ -529,88 +496,131 @@
     },
     {
       "bbox": {
-        "h": 1.9372,
-        "w": 0.8487,
-        "x": 8.6034,
-        "y": 4.8667
+        "h": 2.6097,
+        "w": 8.1094,
+        "x": 0.6704,
+        "y": 0.7269
       },
       "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "band": [
+          155,
+          53,
+          177
+        ],
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          183,
+          60,
+          37
+        ],
+        "border": [
+          138,
+          211,
+          118
+        ],
+        "border_dash": "sysDot",
+        "border_width": 2.4627276956963087,
+        "cells": [
+          [
+            "toes",
+            "paste",
+            "trousers",
+            "squealing scare",
+            "melodic",
+            "selective"
+          ],
+          [
+            "snail material",
+            "testy wail",
+            "government",
+            "cuddly mountain",
+            "odd",
+            "ski waggish"
+          ],
+          [
+            "grin chicken",
+            "coast tax",
+            "afternoon",
+            "public",
+            "earsplitting float",
+            "dependent"
+          ]
+        ],
+        "cols": 6,
+        "font_size": 9,
+        "has_header": true,
+        "header": [
+          63,
+          83,
+          127
+        ],
+        "rows": 3,
+        "text_color": [
+          28,
+          30,
+          36
+        ],
+        "theme_topic": "Remind End"
+      },
+      "type": "table",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 2.7848,
+        "x": 3.7178,
+        "y": 4.0919
+      },
+      "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          65,
-          56,
-          110
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "imagine zesty icky cats",
-        "theme_topic": "Trains Learn",
+        "text": "page hug giddy quarter",
+        "theme_topic": "Remind End",
         "underline": false
       },
       "type": "text",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 2.9791,
-        "w": 1.6439,
-        "x": 9.7724,
-        "y": 3.9216
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          101,
-          125,
-          162
-        ],
-        "line": [
-          155,
-          139,
-          217
-        ],
-        "line_width": 5.130808582235489,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Trains Learn"
-      },
-      "type": "shape",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.7511,
-        "w": 1.3069,
-        "x": 9.9521,
-        "y": 4.1282
+        "h": 0.257,
+        "w": 2.783,
+        "x": 3.7017,
+        "y": 4.8994
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          31,
-          117,
-          161
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 33,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "129",
-        "theme_topic": "Trains Learn",
+        "text": "dance doll attractive nimble object",
+        "theme_topic": "Remind End",
         "underline": false
       },
       "type": "text",
@@ -618,10 +628,10 @@
     },
     {
       "bbox": {
-        "h": 1.9604,
-        "w": 1.2918,
-        "x": 9.9294,
-        "y": 4.8651
+        "h": 0.2,
+        "w": 2.7637,
+        "x": 3.7084,
+        "y": 5.7579
       },
       "id": "object_019",
       "properties": {
@@ -629,17 +639,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          65,
-          56,
-          110
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos",
-        "font_size": 13,
+        "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "stew memory join station automatic vegetable girl",
-        "theme_topic": "Trains Learn",
+        "text": "drunk sleet curved sticks vast",
+        "theme_topic": "Remind End",
         "underline": false
       },
       "type": "text",
@@ -647,28 +657,28 @@
     },
     {
       "bbox": {
-        "h": 0.7571,
-        "w": 0.7696,
-        "x": 11.781,
-        "y": 4.1201
+        "h": 0.2588,
+        "w": 2.7584,
+        "x": 3.6985,
+        "y": 6.5676
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          31,
-          117,
-          161
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 23,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "5.7x",
-        "theme_topic": "Trains Learn",
+        "text": "program substantial idea messy burn",
+        "theme_topic": "Remind End",
         "underline": false
       },
       "type": "text",
@@ -676,10 +686,10 @@
     },
     {
       "bbox": {
-        "h": 1.9609,
-        "w": 0.7738,
-        "x": 11.7964,
-        "y": 4.841
+        "h": 0.5323,
+        "w": 1.6653,
+        "x": 4.386,
+        "y": 1.1342
       },
       "id": "object_021",
       "properties": {
@@ -687,17 +697,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          65,
-          56,
-          110
+          216,
+          213,
+          168
         ],
         "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "daughter delightful rat toad crazy kindhearted",
-        "theme_topic": "Trains Learn",
+        "font_size": 14,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Scatter Sneaky Basin",
+        "theme_topic": "Remind End",
         "underline": false
       },
       "type": "text",
@@ -705,244 +715,96 @@
     },
     {
       "bbox": {
-        "h": 0.2395,
-        "w": 1.0823,
-        "x": 8.1252,
-        "y": 5.786
+        "h": 0.8065,
+        "w": 0.8463,
+        "x": 5.2145,
+        "y": 0.622
       },
       "id": "object_022",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "basic",
+        "fill": [
+          114,
+          40,
+          57
+        ],
+        "focus": false,
+        "line": [
+          196,
+          194,
+          47
+        ],
+        "line_width": 5.084255884442072,
+        "outline_only": false,
+        "ppt_type": 20,
+        "shape": "arc",
+        "theme_topic": "Remind End"
+      },
+      "type": "shape",
+      "z_order": 22
+    },
+    {
+      "bbox": {
+        "h": 0.4169,
+        "w": 2.2321,
+        "x": 5.931,
+        "y": 6.5393
+      },
+      "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          212,
-          42,
-          31
+          102,
+          202,
+          125
         ],
         "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Giant",
-        "theme_topic": "Trains Learn",
+        "font_size": 7,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "careful",
+        "theme_topic": "Remind End",
         "underline": false
       },
       "type": "text",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.3852,
-        "w": 2.0441,
-        "x": 0.9043,
-        "y": 1.3563
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          221,
-          29,
-          112
-        ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Trains Learn",
-        "width": 1.7671778929815452
-      },
-      "type": "connector",
       "z_order": 23
     },
     {
       "bbox": {
-        "h": 0.2675,
-        "w": 2.3725,
-        "x": 5.2322,
-        "y": 5.9725
+        "h": 0.7219,
+        "w": 1.5437,
+        "x": 0.6118,
+        "y": 6.2242
       },
       "id": "object_024",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          83,
-          179,
-          82
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "roomy unique loutish fall",
-        "theme_topic": "Trains Learn",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 24
-    },
-    {
-      "bbox": {
-        "h": 0.5894,
-        "w": 0.9724,
-        "x": 3.5525,
-        "y": 4.2187
-      },
-      "id": "object_025",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
+        "dash": 1,
         "family": "symbols",
         "fill": [
-          39,
-          195,
-          187
+          127,
+          33,
+          193
         ],
         "focus": false,
         "line": [
-          116,
-          36,
-          79
+          145,
+          104,
+          26
         ],
-        "line_width": 2.2429146689619346,
-        "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Trains Learn"
+        "line_width": 5.215325195894452,
+        "outline_only": true,
+        "ppt_type": 24,
+        "shape": "moon",
+        "theme_topic": "Remind End"
       },
       "type": "shape",
-      "z_order": 25
-    },
-    {
-      "bbox": {
-        "h": 0.3864,
-        "w": 1.0821,
-        "x": 2.0677,
-        "y": 4.3056
-      },
-      "id": "object_026",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          142,
-          92,
-          189
-        ],
-        "bold": true,
-        "color": [
-          97,
-          154,
-          147
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "female skip grass",
-        "theme_topic": "Trains Learn",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 26
-    },
-    {
-      "bbox": {
-        "h": 0.3259,
-        "w": 0.4996,
-        "x": 10.0783,
-        "y": 0.7245
-      },
-      "id": "object_027",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          58,
-          128,
-          87
-        ],
-        "focus": false,
-        "line": [
-          210,
-          162,
-          86
-        ],
-        "line_width": 3.9197704728280054,
-        "outline_only": false,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Trains Learn"
-      },
-      "type": "shape",
-      "z_order": 27
-    },
-    {
-      "bbox": {
-        "h": 0.4306,
-        "w": 1.1734,
-        "x": 9.672,
-        "y": 4.0458
-      },
-      "id": "object_028",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          110,
-          195,
-          149
-        ],
-        "line": [
-          31,
-          117,
-          161
-        ],
-        "line_width": 2.4990061523321403,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Trains Learn"
-      },
-      "type": "freeform",
-      "z_order": 28
+      "z_order": 24
     }
   ],
   "slide": {

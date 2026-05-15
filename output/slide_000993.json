@@ -8,133 +8,49 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
-      "back_color": [
-        198,
-        64,
-        91
+      "colors": [
+        [
+          156,
+          216,
+          127
+        ],
+        [
+          63,
+          152,
+          206
+        ]
       ],
       "fill": [
-        198,
-        64,
-        91
+        146,
+        58,
+        162
       ],
-      "fore_color": [
-        38,
-        132,
-        88
-      ],
-      "pattern": 29,
-      "style": "pattern",
-      "theme_topic": "Square Outstanding"
+      "focus": "top_right",
+      "gradient_type": "rectangular",
+      "style": "gradient",
+      "theme_topic": "Snobbish"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 25,
+    "level": 25,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 25
+  },
   "objects": [
     {
       "bbox": {
-        "h": 5.069,
-        "w": 8.35,
-        "x": 3.9387,
-        "y": 1.4676
+        "h": 5.5745,
+        "w": 2.8319,
+        "x": 0.6507,
+        "y": 0.7434
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
-        "fill": [
-          145,
-          131,
-          97
-        ],
-        "focus": false,
-        "line": [
-          30,
-          36,
-          34
-        ],
-        "line_width": 2.24643863203712,
-        "outline_only": false,
-        "ppt_type": 23,
-        "shape": "sun",
-        "theme_topic": "Square Outstanding"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 2.115,
-        "w": 5.0655,
-        "x": 3.4151,
-        "y": 4.617
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          113,
-          141,
-          71
-        ],
-        "focus": false,
-        "line": [
-          123,
-          44,
-          36
-        ],
-        "line_width": 7.707210132739687,
-        "outline_only": false,
-        "ppt_type": 108,
-        "shape": "cloud_callout",
-        "theme_topic": "Square Outstanding"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 3.6851,
-        "w": 4.431,
-        "x": 0.0107,
-        "y": 3.8101
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          211,
-          109,
-          130
-        ],
-        "line": [
-          211,
-          109,
-          130
-        ],
-        "line_width": 3.405782961497178,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Square Outstanding"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 1.2296,
-        "w": 5.0109,
-        "x": 0.5659,
-        "y": 0.3631
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -144,13 +60,105 @@
           248,
           252
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 41,
+        "font_face": "Aptos Display",
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Bridge Meat",
-        "theme_topic": "Square Outstanding",
+        "text": "Depressed High-Pitched",
+        "theme_topic": "Snobbish",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 2.0071,
+        "w": 3.1614,
+        "x": 9.5556,
+        "y": 0.6643
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          172,
+          106,
+          184
+        ],
+        "line": [
+          172,
+          106,
+          184
+        ],
+        "line_width": 1.7330423084624917,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Snobbish"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.5779,
+        "w": 0.5729,
+        "x": 9.8152,
+        "y": 0.8405
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "callouts",
+        "fill": [
+          28,
+          225,
+          158
+        ],
+        "focus": false,
+        "line": [
+          115,
+          120,
+          49
+        ],
+        "line_width": 4.62972243601686,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Snobbish"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.4462,
+        "w": 2.6605,
+        "x": 9.8242,
+        "y": 1.5552
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          71,
+          221,
+          181
+        ],
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Milky Dull",
+        "theme_topic": "Snobbish",
         "underline": false
       },
       "type": "text",
@@ -158,73 +166,70 @@
     },
     {
       "bbox": {
-        "h": 5.1402,
-        "w": 1.3677,
-        "x": 0.5309,
-        "y": 1.8454
+        "h": 0.3498,
+        "w": 2.6446,
+        "x": 9.8098,
+        "y": 2.1144
       },
       "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          201,
+          162,
+          211
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "hesitant smoggy political alert scattered repeat difficult bomb railway point dashing yielding calculating",
+        "theme_topic": "Snobbish",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.4795,
+        "w": 3.1443,
+        "x": 9.5504,
+        "y": 2.8359
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          211,
-          109,
-          130
+          172,
+          106,
+          184
         ],
         "line": [
-          211,
-          109,
-          130
+          172,
+          106,
+          184
         ],
-        "line_width": 2.9093288764954903,
+        "line_width": 2.1746328600087677,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Square Outstanding"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.5677,
-        "w": 0.5193,
-        "x": 0.768,
-        "y": 2.0883
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "flowchart",
-        "fill": [
-          38,
-          132,
-          88
-        ],
-        "focus": false,
-        "line": [
-          76,
-          25,
-          85
-        ],
-        "line_width": 2.825464387628825,
-        "outline_only": false,
-        "ppt_type": 67,
-        "shape": "flow_document",
-        "theme_topic": "Square Outstanding"
+        "theme_topic": "Snobbish"
       },
       "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4334,
-        "w": 0.8553,
-        "x": 0.7794,
-        "y": 2.7362
+        "h": 0.459,
+        "w": 2.6825,
+        "x": 9.8079,
+        "y": 3.7516
       },
       "id": "object_007",
       "properties": {
@@ -232,17 +237,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          71,
+          221,
+          181
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 9,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Pedal Slim",
-        "theme_topic": "Square Outstanding",
+        "text": "Thankful",
+        "theme_topic": "Snobbish",
         "underline": false
       },
       "type": "text",
@@ -250,70 +255,73 @@
     },
     {
       "bbox": {
-        "h": 3.5015,
-        "w": 0.8684,
-        "x": 0.7954,
-        "y": 3.3198
+        "h": 2.3794,
+        "w": 3.1442,
+        "x": 9.5746,
+        "y": 4.5188
       },
       "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          224,
-          165,
-          179
-        ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "skirt unusual jaded bucket limping structure partner small well-made wool wild perfect desire seashore dry",
-        "theme_topic": "Square Outstanding",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 5.1514,
-        "w": 1.5767,
-        "x": 2.1505,
-        "y": 1.867
-      },
-      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 5,
         "family": "panel",
         "fill": [
-          211,
-          109,
-          130
+          172,
+          106,
+          184
         ],
         "line": [
-          211,
-          109,
-          130
+          172,
+          106,
+          184
         ],
-        "line_width": 1.2394679356733798,
+        "line_width": 0.4978832317856063,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Square Outstanding"
+        "theme_topic": "Snobbish"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.5553,
+        "w": 0.5669,
+        "x": 9.7504,
+        "y": 4.7596
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 4,
+        "family": "callouts",
+        "fill": [
+          56,
+          120,
+          93
+        ],
+        "focus": false,
+        "line": [
+          71,
+          221,
+          181
+        ],
+        "line_width": 1.979423483353084,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Snobbish"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4376,
-        "w": 1.0932,
-        "x": 2.3894,
-        "y": 2.7586
+        "h": 0.4607,
+        "w": 2.6476,
+        "x": 9.7961,
+        "y": 5.4136
       },
       "id": "object_010",
       "properties": {
@@ -321,17 +329,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          71,
+          221,
+          181
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Aptos",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "Encourage Honey",
-        "theme_topic": "Square Outstanding",
+        "text": "Lethal",
+        "theme_topic": "Snobbish",
         "underline": false
       },
       "type": "text",
@@ -339,10 +347,10 @@
     },
     {
       "bbox": {
-        "h": 3.4772,
-        "w": 1.0988,
-        "x": 2.3878,
-        "y": 3.2814
+        "h": 0.7417,
+        "w": 2.6774,
+        "x": 9.816,
+        "y": 5.9384
       },
       "id": "object_011",
       "properties": {
@@ -350,17 +358,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          201,
+          162,
+          211
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Aptos",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "develop statuesque discover suck wild mess bad strap",
-        "theme_topic": "Square Outstanding",
+        "text": "spill possible memory reproduce fruit imaginary dangerous angry death brass honorable pale clever",
+        "theme_topic": "Snobbish",
         "underline": false
       },
       "type": "text",
@@ -368,10 +376,10 @@
     },
     {
       "bbox": {
-        "h": 5.1655,
-        "w": 1.651,
-        "x": 3.9286,
-        "y": 1.8353
+        "h": 6.2404,
+        "w": 2.2584,
+        "x": 3.7641,
+        "y": 0.6565
       },
       "id": "object_012",
       "properties": {
@@ -379,30 +387,30 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          211,
-          109,
-          130
+          172,
+          106,
+          184
         ],
         "line": [
-          211,
-          109,
-          130
+          172,
+          106,
+          184
         ],
-        "line_width": 5.165525985422755,
+        "line_width": 2.1175756822569274,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Square Outstanding"
+        "theme_topic": "Snobbish"
       },
       "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.4584,
-        "w": 1.1515,
-        "x": 4.2044,
-        "y": 2.7672
+        "h": 1.142,
+        "w": 1.9004,
+        "x": 3.9236,
+        "y": 1.7927
       },
       "id": "object_013",
       "properties": {
@@ -410,17 +418,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          38,
-          132,
-          88
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Aptos Display",
+        "font_size": 38,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Deep Vast",
-        "theme_topic": "Square Outstanding",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "231",
+        "theme_topic": "Snobbish",
         "underline": false
       },
       "type": "text",
@@ -428,10 +436,10 @@
     },
     {
       "bbox": {
-        "h": 3.4895,
-        "w": 1.1635,
-        "x": 4.1877,
-        "y": 3.3203
+        "h": 0.6966,
+        "w": 1.9012,
+        "x": 3.9101,
+        "y": 4.5031
       },
       "id": "object_014",
       "properties": {
@@ -439,17 +447,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "one unnatural wing discussion rejoice burst cheerful tasteful disarm cub identify sisters miscreant stare assorted",
-        "theme_topic": "Square Outstanding",
+        "text": "noise magnificent sink impulse calculator tent collar",
+        "theme_topic": "Snobbish",
         "underline": false
       },
       "type": "text",
@@ -457,59 +465,59 @@
     },
     {
       "bbox": {
-        "h": 5.1459,
-        "w": 1.7875,
-        "x": 5.8162,
-        "y": 1.8565
+        "h": 0.6251,
+        "w": 0.6155,
+        "x": 7.2208,
+        "y": 1.3173
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          211,
-          109,
-          130
+          71,
+          221,
+          181
         ],
         "line": [
-          211,
-          109,
-          130
+          172,
+          106,
+          184
         ],
-        "line_width": 1.4692980429827258,
+        "line_width": 1.0370874725388852,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Square Outstanding"
+        "theme_topic": "Snobbish"
       },
       "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.4472,
-        "w": 1.2596,
-        "x": 6.068,
-        "y": 2.7656
+        "h": 0.7384,
+        "w": 2.6132,
+        "x": 6.4456,
+        "y": 1.9104
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          38,
-          132,
-          88
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Aptos",
+        "font_size": 14,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Adamant",
-        "theme_topic": "Square Outstanding",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "barbarous bubble feeling unkempt",
+        "theme_topic": "Snobbish",
         "underline": false
       },
       "type": "text",
@@ -517,195 +525,276 @@
     },
     {
       "bbox": {
-        "h": 3.5222,
-        "w": 1.3035,
-        "x": 6.0479,
-        "y": 3.2914
+        "h": 0.6291,
+        "w": 0.6044,
+        "x": 7.135,
+        "y": 3.9388
       },
       "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          71,
+          221,
+          181
+        ],
+        "line": [
+          172,
+          106,
+          184
+        ],
+        "line_width": 5.067489464847,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Snobbish"
+      },
+      "type": "shape",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.7767,
+        "w": 2.6137,
+        "x": 6.4718,
+        "y": 4.2895
+      },
+      "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          224,
-          165,
-          179
+          246,
+          248,
+          252
         ],
-        "font_face": "Verdana",
+        "font_face": "Aptos",
         "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "sneaky annoyed believe switch nauseating towering puny wiry earth",
-        "theme_topic": "Square Outstanding",
+        "text": "political snails cracker rescue satisfy stupendous arrive",
+        "theme_topic": "Snobbish",
         "underline": false
       },
       "type": "text",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 2.4585,
-        "w": 2.1628,
-        "x": 8.1704,
-        "y": 1.9136
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.07166515051793985,
-          0.18433637744322717,
-          0.07725742667340958,
-          0.16891834519361257
-        ],
-        "focus": false,
-        "mask_line": [
-          38,
-          132,
-          88
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Square Outstanding",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 18
     },
     {
       "bbox": {
-        "h": 0.2718,
-        "w": 1.789,
-        "x": 8.406,
-        "y": 3.9064
+        "h": 0.5053,
+        "w": 0.5197,
+        "x": 7.5219,
+        "y": 5.871
       },
       "id": "object_019",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          38,
-          132,
-          88
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          71,
+          221,
+          181
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Grandiose Dime Rate",
-        "theme_topic": "Square Outstanding",
-        "underline": false
+        "line": [
+          172,
+          106,
+          184
+        ],
+        "line_width": 1.532290173606313,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Snobbish"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 19
     },
     {
       "bbox": {
-        "h": 2.4377,
-        "w": 2.1535,
-        "x": 10.5684,
-        "y": 1.8848
+        "h": 0.5062,
+        "w": 2.6358,
+        "x": 6.4605,
+        "y": 6.2761
       },
       "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": false,
-        "line": [
-          114,
-          133,
-          86
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line_width": 8,
-        "theme_topic": "Square Outstanding"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "responsible relation thank name colour",
+        "theme_topic": "Snobbish",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 20
     },
     {
       "bbox": {
-        "h": 1.1642,
-        "w": 1.3464,
-        "x": 9.3781,
-        "y": 0.1867
+        "h": 0.8263,
+        "w": 1.2573,
+        "x": 6.5035,
+        "y": 5.0328
       },
       "id": "object_021",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          141,
-          109,
-          74
+        "dash": 4,
+        "family": "basic",
+        "fill": [
+          132,
+          215,
+          126
         ],
-        "connector": "straight",
-        "dash": 2,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Square Outstanding",
-        "width": 2.406138858127274
+        "focus": false,
+        "line": [
+          52,
+          192,
+          220
+        ],
+        "line_width": 3.0835469547483036,
+        "outline_only": false,
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Snobbish"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 21
     },
     {
       "bbox": {
-        "h": 0.3609,
-        "w": 1.0782,
-        "x": 8.2809,
-        "y": 1.8399
+        "h": 0.873,
+        "w": 1.0937,
+        "x": 2.8855,
+        "y": 0.2956
       },
       "id": "object_022",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          115,
-          122,
-          207
+          176,
+          46,
+          122
         ],
         "focus": false,
         "line": [
-          135,
-          69,
-          25
+          125,
+          228,
+          82
         ],
-        "line_width": 2.687910937485304,
+        "line_width": 1.5544634554688876,
         "outline_only": false,
-        "ppt_type": 36,
-        "shape": "down_arrow",
-        "theme_topic": "Square Outstanding"
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Snobbish"
       },
       "type": "shape",
       "z_order": 22
     },
     {
       "bbox": {
-        "h": 0.4873,
-        "w": 0.4803,
-        "x": 8.83,
-        "y": 3.997
+        "h": 0.9094,
+        "w": 0.8427,
+        "x": 3.8092,
+        "y": 2.3225
       },
       "id": "object_023",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          79,
-          130,
-          96
+        "dash": 5,
+        "family": "math",
+        "fill": [
+          36,
+          177,
+          198
         ],
-        "connector": "curve",
-        "dash": 4,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Square Outstanding",
-        "width": 2.8185448288096406
+        "focus": false,
+        "line": [
+          168,
+          190,
+          131
+        ],
+        "line_width": 2.9881925042054913,
+        "outline_only": false,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Snobbish"
+      },
+      "type": "shape",
+      "z_order": 23
+    },
+    {
+      "bbox": {
+        "h": 0.5887,
+        "w": 2.0597,
+        "x": 6.3368,
+        "y": 1.3044
+      },
+      "id": "object_024",
+      "properties": {
+        "archetype": "atomic_composition",
+        "color": [
+          207,
+          142,
+          54
+        ],
+        "connector": "straight",
+        "dash": 1,
+        "flip": false,
+        "ppt_type": 1,
+        "theme_topic": "Snobbish",
+        "width": 1.2215984201320877
       },
       "type": "connector",
-      "z_order": 23
+      "z_order": 24
+    },
+    {
+      "bbox": {
+        "h": 0.9234,
+        "w": 1.2147,
+        "x": 7.8018,
+        "y": 5.1154
+      },
+      "id": "object_025",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "math",
+        "fill": [
+          163,
+          208,
+          85
+        ],
+        "focus": false,
+        "line": [
+          183,
+          55,
+          57
+        ],
+        "line_width": 3.9319816823475398,
+        "outline_only": true,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Snobbish"
+      },
+      "type": "shape",
+      "z_order": 25
     }
   ],
   "slide": {

@@ -9,87 +9,106 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        25,
-        30,
-        39
+      "back_color": [
+        88,
+        178,
+        149
       ],
-      "style": "solid",
-      "theme_topic": "Fold"
+      "fill": [
+        29,
+        151,
+        112
+      ],
+      "fore_color": [
+        48,
+        78,
+        140
+      ],
+      "pattern": 4,
+      "style": "pattern",
+      "theme_topic": "Consist Place"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 18,
+    "level": 18,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 18
+  },
   "objects": [
     {
       "bbox": {
-        "h": 5.1472,
-        "w": 3.9006,
-        "x": 5.7291,
-        "y": 2.3656
+        "h": 3.7681,
+        "w": 8.1478,
+        "x": 5.535,
+        "y": 3.479
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 7,
+        "family": "callouts",
         "fill": [
-          84,
-          122,
-          81
+          67,
+          100,
+          51
         ],
         "focus": false,
         "line": [
-          170,
-          95,
-          72
+          130,
+          51,
+          187
         ],
-        "line_width": 2.926742020168566,
+        "line_width": 7.557370918893838,
         "outline_only": false,
-        "ppt_type": 39,
-        "shape": "quad_arrow",
-        "theme_topic": "Fold"
+        "ppt_type": 105,
+        "shape": "rect_callout",
+        "theme_topic": "Consist Place"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.513,
-        "w": 0.565,
-        "x": 12.7591,
-        "y": 0.001
+        "h": 4.7397,
+        "w": 4.1603,
+        "x": 1.9253,
+        "y": 2.2801
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
+        "dash": 3,
+        "family": "basic",
         "fill": [
-          43,
-          51,
-          64
+          60,
+          202,
+          154
         ],
+        "focus": false,
         "line": [
-          43,
-          51,
-          64
+          44,
+          199,
+          150
         ],
-        "line_width": 2.1115757621255615,
+        "line_width": 5.380533792580771,
         "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Fold"
+        "ppt_type": 8,
+        "shape": "right_triangle",
+        "theme_topic": "Consist Place"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.1356,
-        "w": 7.9438,
-        "x": 2.726,
-        "y": 0.6407
+        "h": 1.2346,
+        "w": 5.0875,
+        "x": 0.5335,
+        "y": 0.3547
       },
       "id": "object_003",
       "properties": {
@@ -98,16 +117,16 @@
         "bold": true,
         "color": [
           246,
-          247,
-          249
+          248,
+          252
         ],
         "font_face": "Trebuchet MS",
-        "font_size": 44,
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Workable Popcorn Ratty",
-        "theme_topic": "Fold",
+        "text": "Eatable Driving Exotic Increase",
+        "theme_topic": "Consist Place",
         "underline": false
       },
       "type": "text",
@@ -115,221 +134,169 @@
     },
     {
       "bbox": {
-        "h": 1.249,
-        "w": 2.8768,
-        "x": 3.3609,
-        "y": 5.631
+        "h": 5.1799,
+        "w": 6.1245,
+        "x": 0.5782,
+        "y": 1.8483
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          43,
-          51,
-          64
-        ],
+        "clip": "arch",
+        "focus": true,
         "line": [
-          43,
-          51,
-          64
+          62,
+          32,
+          26
         ],
-        "line_width": 0.840548534616028,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Fold"
+        "line_width": 18,
+        "theme_topic": "Consist Place"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.9134,
-        "w": 2.5712,
-        "x": 3.5025,
-        "y": 5.7892
+        "h": 1.6424,
+        "w": 5.7957,
+        "x": 6.9719,
+        "y": 1.8459
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.08222747415732139,
-          0.017572917040775186,
-          0.060894072373891016,
-          0.2184985189876867
-        ],
-        "focus": false,
-        "mask_line": [
-          183,
-          37,
-          191
-        ],
-        "mask_overlay": false,
-        "theme_topic": "Fold",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 2.2014,
-        "w": 7.8711,
-        "x": 3.3781,
-        "y": 3.4411
-      },
-      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          43,
-          51,
-          64
+          255,
+          238,
+          103
         ],
         "line": [
-          43,
-          51,
-          64
+          88,
+          178,
+          149
         ],
-        "line_width": 2.914422238553778,
+        "line_width": 1.3593116591358942,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Fold"
+        "theme_topic": "Consist Place"
       },
       "type": "shape",
-      "z_order": 6
+      "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.7328,
-        "w": 7.3948,
-        "x": 3.6711,
-        "y": 3.6808
+        "h": 0.5783,
+        "w": 5.4143,
+        "x": 7.177,
+        "y": 2.2563
       },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "productive",
-          "sound",
-          "hysterical"
-        ],
-        "chart": "area",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 1,
-        "series": [
-          {
-            "color": [
-              99,
-              97,
-              58
-            ],
-            "name": "fresh",
-            "values": [
-              28,
-              26,
-              87
-            ]
-          }
-        ],
-        "theme_topic": "Fold",
-        "title": "instrument plain"
-      },
-      "type": "chart",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.7423,
-        "w": 0.5642,
-        "x": 2.0905,
-        "y": 3.0837
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          102,
-          164,
-          184
-        ],
-        "line": [
-          96,
-          165,
-          250
-        ],
-        "line_width": 2.075236694616783,
-        "pattern": "wave",
-        "points": [
-          [
-            0.02,
-            0.55
-          ],
-          [
-            0.18,
-            0.2
-          ],
-          [
-            0.35,
-            0.5
-          ],
-          [
-            0.52,
-            0.8
-          ],
-          [
-            0.7,
-            0.45
-          ],
-          [
-            0.95,
-            0.58
-          ],
-          [
-            0.95,
-            0.92
-          ],
-          [
-            0.02,
-            0.92
-          ]
-        ],
-        "theme_topic": "Fold"
-      },
-      "type": "freeform",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.6129,
-        "w": 2.0512,
-        "x": 10.7377,
-        "y": 3.5219
-      },
-      "id": "object_009",
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          172,
-          221,
-          126
+          246,
+          248,
+          252
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "715",
+        "theme_topic": "Consist Place",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.3491,
+        "w": 5.4425,
+        "x": 7.1872,
+        "y": 2.8341
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
         "font_face": "Verdana",
-        "font_size": 6,
-        "italic": true,
+        "font_size": 10,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "remember structure contain",
-        "theme_topic": "Fold",
+        "text": "fix charge motion worm tall",
+        "theme_topic": "Consist Place",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 0.6187,
+        "w": 1.9363,
+        "x": 7.1729,
+        "y": 5.8464
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "93",
+        "theme_topic": "Consist Place",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.3073,
+        "w": 1.9184,
+        "x": 7.1512,
+        "y": 6.6005
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          148,
+          204,
+          189
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "disturbed compete regret use",
+        "theme_topic": "Consist Place",
         "underline": false
       },
       "type": "text",
@@ -337,170 +304,155 @@
     },
     {
       "bbox": {
-        "h": 0.4503,
-        "w": 1.2463,
-        "x": 8.0513,
-        "y": 6.2626
+        "h": 0.6038,
+        "w": 1.3227,
+        "x": 9.598,
+        "y": 5.8588
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
-        "fill": [
-          205,
-          219,
-          97
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
         ],
-        "focus": false,
-        "line": [
-          227,
-          191,
-          34
-        ],
-        "line_width": 3.3538422692010426,
-        "outline_only": true,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Fold"
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "71%",
+        "theme_topic": "Consist Place",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.8644,
-        "w": 0.7451,
-        "x": 12.3366,
-        "y": 4.6783
+        "h": 0.313,
+        "w": 1.3462,
+        "x": 9.6111,
+        "y": 6.5875
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          228,
-          223,
-          79
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          148,
+          204,
+          189
         ],
-        "focus": false,
-        "line": [
-          220,
-          167,
-          40
-        ],
-        "line_width": 1.4397819627468138,
-        "outline_only": false,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Fold"
+        "font_face": "Verdana",
+        "font_size": 9,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "common plantation one",
+        "theme_topic": "Consist Place",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.3054,
-        "w": 0.4436,
-        "x": 9.9895,
-        "y": 1.8127
+        "h": 0.6164,
+        "w": 1.11,
+        "x": 11.5203,
+        "y": 5.8462
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
-        "fill": [
-          203,
-          129,
-          148
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
         ],
-        "focus": false,
-        "line": [
-          230,
-          47,
-          178
-        ],
-        "line_width": 4.707798567694038,
-        "outline_only": false,
-        "ppt_type": 4,
-        "shape": "diamond",
-        "theme_topic": "Fold"
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "49%",
+        "theme_topic": "Consist Place",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.7665,
-        "w": 1.0729,
-        "x": 6.5162,
-        "y": 5.7863
+        "h": 0.755,
+        "w": 1.1243,
+        "x": 7.1533,
+        "y": 3.9277
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          108,
-          190,
-          181
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
         ],
-        "focus": false,
-        "line": [
-          223,
-          110,
-          182
-        ],
-        "line_width": 1.3833365914992386,
-        "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Fold"
+        "font_face": "Trebuchet MS",
+        "font_size": 35,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "5.7x",
+        "theme_topic": "Consist Place",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.5181,
-        "w": 1.1974,
-        "x": 10.9448,
-        "y": 1.7548
+        "h": 0.7671,
+        "w": 1.2191,
+        "x": 8.8031,
+        "y": 3.9246
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          227,
-          128,
-          87
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
         ],
-        "focus": false,
-        "line": [
-          174,
-          57,
-          77
-        ],
-        "line_width": 0.879069053809578,
-        "outline_only": false,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Fold"
+        "font_face": "Trebuchet MS",
+        "font_size": 38,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "191",
+        "theme_topic": "Consist Place",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.459,
-        "w": 1.1362,
-        "x": 11.6291,
-        "y": 2.7001
+        "h": 0.6561,
+        "w": 1.1928,
+        "x": 8.8184,
+        "y": 4.6805
       },
       "id": "object_015",
       "properties": {
@@ -508,21 +460,108 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          176,
-          97,
-          30
+          148,
+          204,
+          189
         ],
         "font_face": "Verdana",
-        "font_size": 7,
+        "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "water",
-        "theme_topic": "Fold",
+        "text": "top orange pizzas ad payment",
+        "theme_topic": "Consist Place",
         "underline": false
       },
       "type": "text",
       "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.7542,
+        "w": 2.052,
+        "x": 10.5612,
+        "y": 3.9088
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          238,
+          103
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 36,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "11%",
+        "theme_topic": "Consist Place",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.6607,
+        "w": 2.0492,
+        "x": 10.5689,
+        "y": 4.6716
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          148,
+          204,
+          189
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "haircut discussion voracious angry thoughtless fairies",
+        "theme_topic": "Consist Place",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.5707,
+        "w": 2.2411,
+        "x": 9.7081,
+        "y": 1.2525
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          202,
+          33,
+          159
+        ],
+        "font_face": "Verdana",
+        "font_size": 16,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "secretary repeat trust",
+        "theme_topic": "Consist Place",
+        "underline": true
+      },
+      "type": "text",
+      "z_order": 18
     }
   ],
   "slide": {

@@ -52,7 +52,11 @@ def download_image():
 
 def add_image_to_pptx(slide, el, image_path):
     pic = slide.shapes.add_picture(str(image_path), Inches(el.x), Inches(el.y), Inches(el.w), Inches(el.h))
-    pic.crop_left, pic.crop_top, pic.crop_right, pic.crop_bottom = el.data["crop"]
+    left, top, right, bottom = el.data.get("crop", (0, 0, 0, 0))
+    pic.crop_left = left
+    pic.crop_top = top
+    pic.crop_right = right
+    pic.crop_bottom = bottom
     if el.data["mask_overlay"]:
         shape = slide.shapes.add_shape(
             MSO_AUTO_SHAPE_TYPE.ROUNDED_RECTANGLE,

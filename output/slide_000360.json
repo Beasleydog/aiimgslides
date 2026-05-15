@@ -8,131 +8,139 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 270,
       "archetype": "atomic_composition",
-      "back_color": [
-        216,
-        129,
-        184
+      "colors": [
+        [
+          97,
+          208,
+          198
+        ],
+        [
+          255,
+          117,
+          117
+        ]
       ],
       "fill": [
-        28,
-        143,
-        112
+        61,
+        64,
+        91
       ],
-      "fore_color": [
-        255,
-        238,
-        103
-      ],
-      "pattern": 24,
-      "style": "pattern",
-      "theme_topic": "Ear"
+      "focus": "bottom_left",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Smell"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 9,
+    "level": 9,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 9
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.1988,
-        "w": 4.5437,
-        "x": 8.7866,
-        "y": 3.08
+        "h": 4.741,
+        "w": 7.7451,
+        "x": -0.9457,
+        "y": 0.0081
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "stars",
+        "family": "callouts",
         "fill": [
-          28,
-          192,
-          141
+          56,
+          110,
+          92
         ],
         "focus": false,
         "line": [
-          217,
-          192,
-          208
+          210,
+          58,
+          82
         ],
-        "line_width": 2.7608657471911666,
-        "outline_only": true,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Ear"
+        "line_width": 4.888361765901469,
+        "outline_only": false,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Smell"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.8185,
-        "w": 5.9343,
-        "x": 7.2104,
-        "y": 1.8445
+        "h": 2.409,
+        "w": 7.3148,
+        "x": 6.0116,
+        "y": 5.091
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "flowchart",
+        "family": "panel",
         "fill": [
-          121,
-          122,
-          155
+          112,
+          115,
+          134
         ],
-        "focus": false,
         "line": [
-          30,
-          105,
-          214
+          112,
+          115,
+          134
         ],
-        "line_width": 5.952191491269855,
+        "line_width": 2.0694277921962816,
         "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Ear"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Smell"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.5157,
-        "w": 6.1592,
-        "x": -0.0059,
-        "y": -0.0077
+        "h": 0.9805,
+        "w": 6.0014,
+        "x": 0.5741,
+        "y": 0.3727
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          43,
-          162,
-          130
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          43,
-          162,
-          130
-        ],
-        "line_width": 1.3798318402303313,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Ear"
+        "font_face": "Georgia",
+        "font_size": 36,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Late Button Moan Queue",
+        "theme_topic": "Smell",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.1351,
-        "w": 6.8369,
-        "x": 3.2777,
-        "y": 0.6499
+        "h": 0.763,
+        "w": 1.1176,
+        "x": 7.0032,
+        "y": 3.1956
       },
       "id": "object_004",
       "properties": {
@@ -140,17 +148,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          248,
           255,
-          252
+          198,
+          74
         ],
-        "font_face": "Arial",
-        "font_size": 44,
+        "font_face": "Georgia",
+        "font_size": 31,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Men Silly Picayune",
-        "theme_topic": "Ear",
+        "text": "197",
+        "theme_topic": "Smell",
         "underline": false
       },
       "type": "text",
@@ -158,41 +166,39 @@
     },
     {
       "bbox": {
-        "h": 2.3011,
-        "w": 2.7536,
-        "x": 0.5638,
-        "y": 1.9969
+        "h": 1.4018,
+        "w": 1.1255,
+        "x": 7.011,
+        "y": 3.9395
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          43,
+        "bg_color": null,
+        "bold": false,
+        "color": [
           162,
-          130
+          165,
+          179
         ],
-        "line": [
-          43,
-          162,
-          130
-        ],
-        "line_width": 4.124769055374556,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Ear"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "rail building muddled sponge",
+        "theme_topic": "Smell",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.883,
-        "w": 2.378,
-        "x": 0.7507,
-        "y": 2.4814
+        "h": 0.7285,
+        "w": 1.6106,
+        "x": 8.6724,
+        "y": 3.1712
       },
       "id": "object_006",
       "properties": {
@@ -200,17 +206,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          248,
           255,
-          252
+          198,
+          74
         ],
-        "font_face": "Arial",
-        "font_size": 47,
+        "font_face": "Georgia",
+        "font_size": 29,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "3x",
-        "theme_topic": "Ear",
+        "text": "120",
+        "theme_topic": "Smell",
         "underline": false
       },
       "type": "text",
@@ -218,10 +224,10 @@
     },
     {
       "bbox": {
-        "h": 0.5335,
-        "w": 2.4147,
-        "x": 0.7172,
-        "y": 3.3983
+        "h": 1.4126,
+        "w": 1.6064,
+        "x": 8.6825,
+        "y": 3.9437
       },
       "id": "object_007",
       "properties": {
@@ -229,17 +235,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          248,
-          255,
-          252
+          162,
+          165,
+          179
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "bump tested cautious exultant",
-        "theme_topic": "Ear",
+        "text": "grateful telephone rely entertaining",
+        "theme_topic": "Smell",
         "underline": false
       },
       "type": "text",
@@ -247,377 +253,61 @@
     },
     {
       "bbox": {
-        "h": 2.3423,
-        "w": 12.25,
-        "x": 0.5382,
-        "y": 4.7265
+        "h": 0.7566,
+        "w": 1.4066,
+        "x": 10.8207,
+        "y": 3.1609
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          43,
-          162,
-          130
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
         ],
-        "line": [
-          43,
-          162,
-          130
-        ],
-        "line_width": 2.1873739311405527,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Ear"
+        "font_face": "Georgia",
+        "font_size": 32,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "85",
+        "theme_topic": "Smell",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 2.0358,
-        "w": 11.9189,
-        "x": 0.6731,
-        "y": 4.8721
+        "h": 1.3932,
+        "w": 1.4182,
+        "x": 10.8169,
+        "y": 3.903
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "blob",
-        "focus": true,
-        "line": [
-          159,
-          132,
-          220
-        ],
-        "line_width": 16,
-        "theme_topic": "Ear"
-      },
-      "type": "svg_image",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.302,
-        "w": 11.8248,
-        "x": 0.735,
-        "y": 6.5922
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
-        ],
-        "font_face": "Arial",
-        "font_size": 12,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Pocket Division",
-        "theme_topic": "Ear",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.2902,
-        "w": 2.374,
-        "x": 6.7257,
-        "y": 2.1091
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          255,
-          238,
-          103
-        ],
-        "font_face": "Arial",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "KNOTTY EXOTIC",
-        "theme_topic": "Ear",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.6203,
-        "w": 2.3882,
-        "x": 6.7106,
-        "y": 2.601
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          221,
-          29,
-          165
-        ],
-        "font_face": "Arial",
-        "font_size": 28,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Transport",
-        "theme_topic": "Ear",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.7341,
-        "w": 2.3875,
-        "x": 6.7221,
-        "y": 3.4427
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          205,
-          241,
-          230
+          162,
+          165,
+          179
         ],
-        "font_face": "Arial",
-        "font_size": 10,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "plate second-hand adorable wrench reign upbeat grotesque yoke flimsy zinc analyze keen value",
-        "theme_topic": "Ear",
+        "text": "spurious language bloody scintillating mix shut",
+        "theme_topic": "Smell",
         "underline": false
       },
       "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.6978,
-        "w": 0.8823,
-        "x": 9.9507,
-        "y": 3.9976
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "fill": [
-          114,
-          114,
-          84
-        ],
-        "line": [
-          255,
-          238,
-          103
-        ],
-        "line_width": 1.86707575637823,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Ear"
-      },
-      "type": "freeform",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.4817,
-        "w": 1.9102,
-        "x": 2.5973,
-        "y": 1.0755
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          230,
-          194,
-          54
-        ],
-        "font_face": "Arial",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Interfere Women Square",
-        "theme_topic": "Ear",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.4856,
-        "w": 0.2389,
-        "x": 8.588,
-        "y": 2.6373
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "flowchart",
-        "fill": [
-          190,
-          161,
-          224
-        ],
-        "focus": false,
-        "line": [
-          70,
-          139,
-          213
-        ],
-        "line_width": 6.203143061049826,
-        "outline_only": true,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Ear"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.6036,
-        "w": 0.9758,
-        "x": 0.8452,
-        "y": 4.5636
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
-        "fill": [
-          166,
-          53,
-          194
-        ],
-        "focus": false,
-        "line": [
-          119,
-          219,
-          27
-        ],
-        "line_width": 2.0477483378926915,
-        "outline_only": true,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Ear"
-      },
-      "type": "shape",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 1.0546,
-        "w": 2.1768,
-        "x": 8.9577,
-        "y": 2.7395
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          222,
-          147,
-          219
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Ear",
-        "width": 0.32032226765741034
-      },
-      "type": "connector",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.3872,
-        "w": 1.1133,
-        "x": 6.8984,
-        "y": 5.3736
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          151,
-          183,
-          44
-        ],
-        "connector": "elbow",
-        "dash": 2,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Ear",
-        "width": 1.7359495676698624
-      },
-      "type": "connector",
-      "z_order": 19
+      "z_order": 9
     }
   ],
   "slide": {

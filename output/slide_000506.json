@@ -9,101 +9,33 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "back_color": [
-        92,
-        133,
-        190
-      ],
       "fill": [
-        31,
-        87,
-        166
+        29,
+        151,
+        112
       ],
-      "fore_color": [
-        36,
-        178,
-        149
-      ],
-      "pattern": 10,
-      "style": "pattern",
-      "theme_topic": "Humorous"
+      "style": "solid",
+      "theme_topic": "Dependent"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 13,
+    "level": 13,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 13
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.3729,
-        "w": 5.113,
-        "x": 9.2382,
-        "y": 0.0007
+        "h": 0.9025,
+        "w": 4.4881,
+        "x": 1.5417,
+        "y": 0.7897
       },
       "id": "object_001",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          168,
-          119,
-          95
-        ],
-        "focus": false,
-        "line": [
-          204,
-          50,
-          26
-        ],
-        "line_width": 4.904645938919496,
-        "outline_only": false,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Humorous"
-      },
-      "type": "shape",
-      "z_order": 1
-    },
-    {
-      "bbox": {
-        "h": 5.1241,
-        "w": 6.2846,
-        "x": 1.4697,
-        "y": -0.0689
-      },
-      "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          77,
-          200,
-          176
-        ],
-        "focus": false,
-        "line": [
-          50,
-          65,
-          99
-        ],
-        "line_width": 4.630672235717587,
-        "outline_only": true,
-        "ppt_type": 7,
-        "shape": "triangle",
-        "theme_topic": "Humorous"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.2169,
-        "w": 7.7179,
-        "x": 0.5577,
-        "y": 0.3347
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -113,55 +45,113 @@
           248,
           252
         ],
-        "font_face": "Georgia",
-        "font_size": 31,
+        "font_face": "Trebuchet MS",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Taboo Camp Pickle",
-        "theme_topic": "Humorous",
+        "text": "Giraffe Root",
+        "theme_topic": "Dependent",
         "underline": false
       },
       "type": "text",
+      "z_order": 1
+    },
+    {
+      "bbox": {
+        "h": 1.2906,
+        "w": 3.081,
+        "x": 3.8996,
+        "y": 3.7006
+      },
+      "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          81,
+          175,
+          145
+        ],
+        "line": [
+          81,
+          175,
+          145
+        ],
+        "line_width": 5.1919512440702205,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Dependent"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 0.9911,
+        "w": 2.7355,
+        "x": 4.1015,
+        "y": 3.8215
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.25879791977778094,
+          0.2717597029741597,
+          0.07139227267491485,
+          0.3273957365332697
+        ],
+        "focus": false,
+        "mask_line": [
+          38,
+          132,
+          88
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Dependent",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 3.0417,
-        "w": 6.0814,
-        "x": 2.8858,
-        "y": 2.8021
+        "h": 2.9027,
+        "w": 2.0078,
+        "x": 1.676,
+        "y": 3.5291
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          82,
-          96,
-          214
+        "crop": [
+          0.023253647903098328,
+          0.0032717306644320598,
+          0.026453682463277693,
+          0.05633483009973793
         ],
-        "line": [
-          92,
-          133,
-          190
+        "focus": false,
+        "mask_line": [
+          198,
+          143,
+          36
         ],
-        "line_width": 1.2732187625533458,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Humorous"
+        "mask_overlay": true,
+        "theme_topic": "Dependent",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.1271,
-        "w": 5.7279,
-        "x": 3.0574,
-        "y": 3.3941
+        "h": 0.2881,
+        "w": 1.5877,
+        "x": 1.8931,
+        "y": 5.967
       },
       "id": "object_005",
       "properties": {
@@ -169,17 +159,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          38,
+          132,
+          88
         ],
-        "font_face": "Georgia",
-        "font_size": 50,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "25%",
-        "theme_topic": "Humorous",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Prose Accidental Pickle",
+        "theme_topic": "Dependent",
         "underline": false
       },
       "type": "text",
@@ -187,117 +177,119 @@
     },
     {
       "bbox": {
-        "h": 0.686,
-        "w": 5.752,
-        "x": 3.0845,
-        "y": 4.6404
+        "h": 2.8737,
+        "w": 1.9644,
+        "x": 3.8258,
+        "y": 3.5617
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          81,
+          175,
+          145
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "person print trail advertisement violet suggestion",
-        "theme_topic": "Humorous",
-        "underline": false
+        "line": [
+          81,
+          175,
+          145
+        ],
+        "line_width": 1.6808844057167103,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Dependent"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.9459,
-        "w": 2.3125,
-        "x": 1.3503,
-        "y": 2.4462
+        "h": 2.55,
+        "w": 1.6877,
+        "x": 3.9531,
+        "y": 3.722
       },
       "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0.04847785577278914,
+          0.1254108696459046,
+          0.22880554738109354,
+          0.2745278717530944
+        ],
+        "focus": false,
+        "mask_line": [
+          38,
+          132,
+          88
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Dependent",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 2.87,
+        "w": 1.9724,
+        "x": 5.9603,
+        "y": 3.5343
+      },
+      "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          92,
-          133,
-          190
+          81,
+          175,
+          145
         ],
         "line": [
-          92,
-          133,
-          190
+          81,
+          175,
+          145
         ],
-        "line_width": 2.243174080048577,
+        "line_width": 1.1633125401492095,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Humorous"
+        "theme_topic": "Dependent"
       },
       "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.6279,
-        "w": 2.0017,
-        "x": 1.5221,
-        "y": 2.5983
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "focus": false,
-        "mask_line": [
-          82,
-          96,
-          214
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Humorous",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.9188,
-        "w": 2.8415,
-        "x": 6.9878,
-        "y": 3.6028
+        "h": 2.5494,
+        "w": 1.6516,
+        "x": 6.1299,
+        "y": 3.6891
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "crop": [
-          0.1439825772627508,
-          0.016658877612366584,
-          0.09263465182085188,
-          0.16155442895619773
+          0.21453400825146188,
+          0.1890354043171783,
+          0.17700650310942637,
+          0.04464025711132325
         ],
         "focus": false,
         "mask_line": [
-          101,
-          121,
-          84
+          92,
+          114,
+          72
         ],
         "mask_overlay": true,
-        "theme_topic": "Humorous",
+        "theme_topic": "Dependent",
         "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
       "type": "image",
@@ -305,60 +297,61 @@
     },
     {
       "bbox": {
-        "h": 0.4099,
-        "w": 1.0539,
-        "x": 1.1716,
-        "y": 2.5063
+        "h": 0.5741,
+        "w": 1.073,
+        "x": 2.2932,
+        "y": 1.8399
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          120,
-          29,
-          197
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          197,
+          180,
+          28
         ],
-        "focus": false,
-        "line": [
-          226,
-          201,
-          113
-        ],
-        "line_width": 4.372948182960161,
-        "outline_only": false,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Humorous"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Plucky Stuff Whole",
+        "theme_topic": "Dependent",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.2025,
-        "w": 1.4279,
-        "x": 6.7395,
-        "y": 4.8317
+        "h": 0.4998,
+        "w": 1.0323,
+        "x": 9.2547,
+        "y": 6.3043
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
+        "bg_color": [
+          224,
+          161,
+          146
+        ],
         "bold": false,
         "color": [
-          143,
-          38,
-          26
+          54,
+          217,
+          136
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Verdana",
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Flow Interfere",
-        "theme_topic": "Humorous",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fretful hope lean",
+        "theme_topic": "Dependent",
         "underline": false
       },
       "type": "text",
@@ -366,35 +359,69 @@
     },
     {
       "bbox": {
-        "h": 0.3354,
-        "w": 0.5856,
-        "x": 5.2809,
-        "y": 0.7505
+        "h": 0.2875,
+        "w": 1.7173,
+        "x": 7.2646,
+        "y": 5.7631
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "arrows",
-        "fill": [
-          39,
-          210,
-          121
+        "bg_color": [
+          221,
+          100,
+          113
         ],
-        "focus": false,
-        "line": [
-          105,
-          162,
-          121
+        "bold": false,
+        "color": [
+          202,
+          173,
+          168
         ],
-        "line_width": 1.6461089894892065,
-        "outline_only": true,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Humorous"
+        "font_face": "Verdana",
+        "font_size": 12,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Furniture Wrench",
+        "theme_topic": "Dependent",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.5582,
+        "w": 0.8022,
+        "x": 7.5461,
+        "y": 6.2352
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          102,
+          138,
+          58
+        ],
+        "bold": false,
+        "color": [
+          138,
+          148,
+          139
+        ],
+        "font_face": "Verdana",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Wakeful Condemned Recondite",
+        "theme_topic": "Dependent",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
     }
   ],
   "slide": {

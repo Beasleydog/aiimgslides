@@ -8,407 +8,363 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 180,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          65,
-          161,
-          153
-        ],
-        [
-          51,
-          63,
-          101
-        ]
+      "back_color": [
+        31,
+        87,
+        166
       ],
       "fill": [
-        84,
-        174,
-        224
+        31,
+        87,
+        166
       ],
-      "focus": "center",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Mountain"
+      "fore_color": [
+        106,
+        221,
+        63
+      ],
+      "pattern": 44,
+      "style": "pattern",
+      "theme_topic": "Tramp Tap"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 15,
+    "level": 15,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 15
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.5636,
-        "w": 4.9467,
-        "x": 2.5086,
-        "y": -0.0443
+        "h": 2.4609,
+        "w": 3.7574,
+        "x": 4.0763,
+        "y": 1.3138
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          199,
-          115,
-          68
+          131,
+          99,
+          196
         ],
         "focus": false,
         "line": [
-          120,
-          103,
-          105
+          229,
+          179,
+          108
         ],
-        "line_width": 5.939999192828007,
-        "outline_only": true,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Mountain"
+        "line_width": 7.0362237985374225,
+        "outline_only": false,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Tramp Tap"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9867,
-        "w": 13.3234,
-        "x": 0.0109,
-        "y": -0.0018
+        "h": 2.521,
+        "w": 5.26,
+        "x": 9.0399,
+        "y": 5.2722
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
+        "dash": 2,
+        "family": "arrows",
         "fill": [
-          71,
-          148,
-          190
+          139,
+          43,
+          209
         ],
+        "focus": false,
         "line": [
-          71,
-          148,
-          190
+          47,
+          220,
+          100
         ],
-        "line_width": 3.8301052940369416,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Mountain"
+        "line_width": 6.115860135120559,
+        "outline_only": true,
+        "ppt_type": 41,
+        "shape": "bent_arrow",
+        "theme_topic": "Tramp Tap"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.9007,
-        "w": 7.9409,
-        "x": 0.7365,
-        "y": 5.8571
+        "h": 2.6657,
+        "w": 4.9862,
+        "x": 8.3393,
+        "y": -0.0003
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          62,
+          110,
+          178
+        ],
+        "line": [
+          62,
+          110,
+          178
+        ],
+        "line_width": 2.336926655613796,
+        "outline_only": false,
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Tramp Tap"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 5.5562,
+        "w": 2.8386,
+        "x": 0.667,
+        "y": 0.7666
+      },
+      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
+        "font_face": "Georgia",
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Seemly Disturbed",
-        "theme_topic": "Mountain",
+        "text": "Gamy Downtown",
+        "theme_topic": "Tramp Tap",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 5.026,
-        "w": 6.3988,
-        "x": 6.3385,
-        "y": 0.5329
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "wiry",
-          "brown",
-          "piquant",
-          "married"
-        ],
-        "chart": "area",
-        "focus": true,
-        "has_legend": true,
-        "has_title": true,
-        "ppt_type": 1,
-        "series": [
-          {
-            "color": [
-              132,
-              141,
-              36
-            ],
-            "name": "pies jittery",
-            "values": [
-              23,
-              25,
-              11,
-              74
-            ]
-          },
-          {
-            "color": [
-              200,
-              35,
-              227
-            ],
-            "name": "sassy clover",
-            "values": [
-              28,
-              10,
-              44,
-              59
-            ]
-          },
-          {
-            "color": [
-              123,
-              76,
-              199
-            ],
-            "name": "things guitar",
-            "values": [
-              12,
-              35,
-              21,
-              43
-            ]
-          }
-        ],
-        "theme_topic": "Mountain",
-        "title": "general cooing"
-      },
-      "type": "chart",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 4.98,
-        "w": 5.3896,
-        "x": 0.5201,
-        "y": 0.5315
+        "h": 6.2441,
+        "w": 1.6011,
+        "x": 11.1326,
+        "y": 0.6504
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.1130426115254809,
-          0.12104258480553425,
-          0.016322434916877265,
-          0.1737209677087556
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          174,
+          73,
+          92
         ],
-        "focus": true,
-        "mask_line": [
-          51,
-          63,
-          101
+        "line": [
+          62,
+          110,
+          178
         ],
-        "mask_overlay": true,
-        "theme_topic": "Mountain",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "line_width": 3.0046384183908526,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Tramp Tap"
       },
-      "type": "image",
+      "type": "shape",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 0.9317,
-        "w": 1.1222,
-        "x": 3.7887,
-        "y": 1.0332
+        "h": 1.1618,
+        "w": 1.2464,
+        "x": 11.2852,
+        "y": 1.7964
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
-        "fill": [
-          55,
-          204,
-          133
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          87,
+          166
         ],
-        "focus": false,
-        "line": [
-          154,
-          92,
-          57
-        ],
-        "line_width": 2.5826405480644072,
-        "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Mountain"
+        "font_face": "Georgia",
+        "font_size": 43,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "59%",
+        "theme_topic": "Tramp Tap",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.8714,
-        "w": 0.56,
-        "x": 0.6311,
-        "y": 2.9812
+        "h": 0.681,
+        "w": 1.2374,
+        "x": 11.2723,
+        "y": 4.4826
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
         "color": [
-          188,
-          220,
-          39
+          246,
+          248,
+          252
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Mountain",
-        "width": 1.3320953455353086
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "boot oil hug pencil compete elegant lacking",
+        "theme_topic": "Tramp Tap",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2809,
-        "w": 0.7069,
-        "x": 3.5256,
-        "y": 3.2424
+        "h": 1.3608,
+        "w": 5.0115,
+        "x": 5.7247,
+        "y": 5.5224
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "math",
+        "dash": 3,
+        "family": "panel",
         "fill": [
-          197,
-          83,
-          218
+          174,
+          73,
+          92
         ],
-        "focus": false,
         "line": [
-          228,
-          134,
-          156
+          62,
+          110,
+          178
         ],
-        "line_width": 3.585144402288075,
-        "outline_only": true,
-        "ppt_type": 166,
-        "shape": "divide",
-        "theme_topic": "Mountain"
+        "line_width": 1.187868228826269,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Tramp Tap"
       },
       "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.5558,
-        "x": 3.6253,
-        "y": 5.0636
+        "h": 0.4739,
+        "w": 4.656,
+        "x": 5.9056,
+        "y": 5.8595
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "symbols",
-        "fill": [
-          111,
-          217,
-          77
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          31,
+          87,
+          166
         ],
-        "focus": false,
-        "line": [
-          102,
-          59,
-          84
-        ],
-        "line_width": 3.296875621351733,
-        "outline_only": false,
-        "ppt_type": 14,
-        "shape": "cube",
-        "theme_topic": "Mountain"
+        "font_face": "Georgia",
+        "font_size": 24,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "4x",
+        "theme_topic": "Tramp Tap",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2003,
-        "w": 1.3732,
-        "x": 1.3656,
-        "y": 6.5398
+        "h": 0.3078,
+        "w": 4.6508,
+        "x": 5.9271,
+        "y": 6.3589
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
-        "fill": [
-          210,
-          199,
-          81
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "focus": false,
-        "line": [
-          126,
-          154,
-          115
-        ],
-        "line_width": 4.1730475179396915,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Mountain"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "yard mindless agreement unique",
+        "theme_topic": "Tramp Tap",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.9493,
-        "x": 2.5919,
-        "y": 5.7279
+        "h": 1.0413,
+        "w": 1.315,
+        "x": 3.9107,
+        "y": 0.753
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          198,
-          191,
-          65
-        ],
-        "bold": false,
+        "bg_color": null,
+        "bold": true,
         "color": [
-          44,
-          141,
-          102
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 5,
+        "font_face": "Georgia",
+        "font_size": 22,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "bustling lean person possible",
-        "theme_topic": "Mountain",
+        "text": "Undress Person",
+        "theme_topic": "Tramp Tap",
         "underline": false
       },
       "type": "text",
@@ -416,35 +372,119 @@
     },
     {
       "bbox": {
-        "h": 0.4473,
-        "w": 0.7552,
-        "x": 9.9983,
-        "y": 5.6437
+        "h": 4.6969,
+        "w": 1.3027,
+        "x": 3.913,
+        "y": 2.0497
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          60,
-          92,
-          190
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
         ],
-        "focus": false,
-        "line": [
-          99,
-          129,
-          89
-        ],
-        "line_width": 5.3394004570080735,
-        "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Mountain"
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "disarm stroke therapeutic righteous dashing toys same floor awful stereotyped guide",
+        "theme_topic": "Tramp Tap",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 0.2688,
+        "w": 4.7083,
+        "x": 5.8679,
+        "y": 1.9182
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          174,
+          73,
+          92
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "ORANGES",
+        "theme_topic": "Tramp Tap",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 1.0658,
+        "w": 4.7555,
+        "x": 5.891,
+        "y": 2.3921
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
+        ],
+        "font_face": "Georgia",
+        "font_size": 42,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Thing Modern",
+        "theme_topic": "Tramp Tap",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 1.472,
+        "w": 4.7481,
+        "x": 5.8821,
+        "y": 3.6654
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          149,
+          175,
+          213
+        ],
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "boast act physical chalk winter bells racial shop roll recognise route puncture productive basin brick",
+        "theme_topic": "Tramp Tap",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
     }
   ],
   "slide": {

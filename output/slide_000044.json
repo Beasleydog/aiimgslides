@@ -10,423 +10,142 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        18,
-        129,
-        148
+        166,
+        229,
+        74
       ],
       "fill": [
-        18,
-        129,
-        148
+        75,
+        183,
+        60
       ],
       "fore_color": [
-        96,
-        165,
-        250
+        255,
+        117,
+        117
       ],
-      "pattern": 48,
+      "pattern": 42,
       "style": "pattern",
-      "theme_topic": "Modern"
+      "theme_topic": "Unlock"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 2,
+    "level": 2,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 2
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.5158,
-        "w": 6.6558,
-        "x": -0.8962,
-        "y": 3.1029
+        "h": 1.3759,
+        "w": 11.944,
+        "x": 0.7151,
+        "y": 3.6938
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          136,
-          95,
-          191
+        "crop": [
+          0.08832327867351643,
+          0.014907940837694757,
+          0.02907570219016699,
+          0.15501190147340663
         ],
-        "focus": false,
-        "line": [
-          176,
-          31,
-          25
+        "focus": true,
+        "mask_line": [
+          223,
+          97,
+          123
         ],
-        "line_width": 7.3872629944637795,
-        "outline_only": false,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Modern"
+        "mask_overlay": false,
+        "theme_topic": "Unlock",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 6.3959,
-        "w": 5.8262,
-        "x": 0.5469,
-        "y": 0.5638
+        "h": 1.8449,
+        "w": 12.2143,
+        "x": 0.5775,
+        "y": 1.433
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "panel",
-        "fill": [
-          96,
-          165,
-          250
-        ],
-        "line": [
-          68,
-          156,
-          170
-        ],
-        "line_width": 3.2329044701082346,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Modern"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 1.1258,
-        "w": 5.4786,
-        "x": 0.7401,
-        "y": 1.7029
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 39,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "50%",
-        "theme_topic": "Modern",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.7018,
-        "w": 5.5011,
-        "x": 0.7304,
-        "y": 4.4828
-      },
-      "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          246,
-          248,
-          252
-        ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "knee volleyball entertaining glow squeak cagey crazy difficult",
-        "theme_topic": "Modern",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 6.4049,
-        "w": 6.0264,
-        "x": 6.7823,
-        "y": 0.5508
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          68,
-          156,
-          170
-        ],
-        "line": [
-          68,
-          156,
-          170
-        ],
-        "line_width": 1.9096226279227453,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Modern"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.8789,
-        "w": 5.5072,
-        "x": 7.0482,
-        "y": 0.8134
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
         "categories": [
-          "rest",
-          "astonishing",
-          "shop"
+          "listen",
+          "door",
+          "key",
+          "pot",
+          "tramp",
+          "fretful"
         ],
-        "chart": "doughnut",
+        "chart": "column",
         "focus": true,
         "has_legend": true,
-        "has_title": true,
-        "ppt_type": -4120,
+        "has_title": false,
+        "ppt_type": 51,
         "series": [
           {
             "color": [
-              228,
-              183,
-              165
+              126,
+              47,
+              127
             ],
-            "name": "pray",
+            "name": "friction ludicrous",
             "values": [
-              14,
-              51,
-              38
+              79,
+              32,
+              24,
+              85,
+              69,
+              76
+            ]
+          },
+          {
+            "color": [
+              88,
+              152,
+              129
+            ],
+            "name": "run",
+            "values": [
+              89,
+              74,
+              23,
+              41,
+              61,
+              87
+            ]
+          },
+          {
+            "color": [
+              143,
+              190,
+              76
+            ],
+            "name": "sponge old-fashioned",
+            "values": [
+              80,
+              35,
+              30,
+              71,
+              39,
+              87
             ]
           }
         ],
-        "theme_topic": "Modern",
-        "title": "fat trap keen"
+        "theme_topic": "Unlock",
+        "title": "tricky grate"
       },
       "type": "chart",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.7445,
-        "w": 1.7733,
-        "x": 8.5858,
-        "y": 0.8643
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          141,
-          118,
-          93
-        ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Modern",
-        "width": 2.9287990812309115
-      },
-      "type": "connector",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.2,
-        "w": 0.6423,
-        "x": 12.1793,
-        "y": 5.148
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "callouts",
-        "fill": [
-          213,
-          38,
-          96
-        ],
-        "focus": false,
-        "line": [
-          183,
-          140,
-          139
-        ],
-        "line_width": 4.998336801877225,
-        "outline_only": true,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Modern"
-      },
-      "type": "shape",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4149,
-        "w": 1.0958,
-        "x": 5.3613,
-        "y": 4.0974
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          196,
-          65,
-          216
-        ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "wild toad zipper",
-        "theme_topic": "Modern",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.3547,
-        "w": 2.004,
-        "x": 9.2783,
-        "y": 5.1735
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          151,
-          56,
-          212
-        ],
-        "font_face": "Aptos",
-        "font_size": 10,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Evasive Fearful",
-        "theme_topic": "Modern",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.3239,
-        "w": 2.3404,
-        "x": 0.7277,
-        "y": 3.0608
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          134,
-          102,
-          71
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Clammy",
-        "theme_topic": "Modern",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.8188,
-        "w": 0.5283,
-        "x": 12.3861,
-        "y": 1.7984
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
-        "fill": [
-          116,
-          80,
-          131
-        ],
-        "focus": false,
-        "line": [
-          75,
-          206,
-          229
-        ],
-        "line_width": 1.6809424490025102,
-        "outline_only": false,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Modern"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.368,
-        "w": 0.8585,
-        "x": 8.2529,
-        "y": 4.3157
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "ribbon_path",
-        "primary": [
-          96,
-          165,
-          250
-        ],
-        "secondary": [
-          244,
-          180,
-          76
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#92ba83\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#dd2870\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
-        "theme_topic": "Modern"
-      },
-      "type": "svg",
-      "z_order": 13
+      "z_order": 2
     }
   ],
   "slide": {

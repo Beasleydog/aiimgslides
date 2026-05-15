@@ -8,99 +8,107 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "back_color": [
-        240,
-        176,
-        54
+      "colors": [
+        [
+          233,
+          130,
+          84
+        ],
+        [
+          255,
+          198,
+          74
+        ]
       ],
       "fill": [
-        240,
-        176,
-        54
+        228,
+        95,
+        36
       ],
-      "fore_color": [
-        32,
-        119,
-        149
-      ],
-      "pattern": 41,
-      "style": "pattern",
-      "theme_topic": "Night"
+      "focus": "top_right",
+      "gradient_type": "shape",
+      "style": "gradient",
+      "theme_topic": "Evasive Stage"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 12,
+    "level": 12,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 12
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.3393,
-        "w": 4.3726,
-        "x": 7.1617,
-        "y": 1.7069
+        "h": 7.4924,
+        "w": 0.851,
+        "x": -0.0078,
+        "y": 0.0123
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "math",
+        "dash": 1,
+        "family": "panel",
         "fill": [
-          105,
-          181,
-          83
+          233,
+          130,
+          84
         ],
-        "focus": false,
         "line": [
-          161,
-          156,
-          137
+          233,
+          130,
+          84
         ],
-        "line_width": 2.5785166490568088,
+        "line_width": 2.318128537194048,
         "outline_only": false,
-        "ppt_type": 166,
-        "shape": "divide",
-        "theme_topic": "Night"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Evasive Stage"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.4815,
-        "w": 7.4679,
-        "x": 5.8421,
-        "y": 0.0181
+        "h": 5.5573,
+        "w": 2.8352,
+        "x": 0.6713,
+        "y": 0.7668
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          249,
-          203,
-          91
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          248,
+          252
         ],
-        "line": [
-          249,
-          203,
-          91
-        ],
-        "line_width": 1.6371009771524312,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Night"
+        "font_face": "Trebuchet MS",
+        "font_size": 30,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Repair",
+        "theme_topic": "Evasive Stage",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.3515,
-        "w": 8.0379,
-        "x": 0.5684,
-        "y": 0.3352
+        "h": 0.7585,
+        "w": 1.2595,
+        "x": 8.5418,
+        "y": 0.8201
       },
       "id": "object_003",
       "properties": {
@@ -108,17 +116,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          40,
-          38,
-          28
+          255,
+          198,
+          74
         ],
-        "font_face": "Georgia",
-        "font_size": 39,
+        "font_face": "Trebuchet MS",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Bed Structure Snow",
-        "theme_topic": "Night",
+        "text": "29",
+        "theme_topic": "Evasive Stage",
         "underline": false
       },
       "type": "text",
@@ -126,101 +134,99 @@
     },
     {
       "bbox": {
-        "h": 0.3654,
-        "w": 0.3602,
-        "x": 1.2569,
-        "y": 2.1356
+        "h": 2.0064,
+        "w": 1.2798,
+        "x": 8.5105,
+        "y": 1.5941
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          32,
-          119,
-          149
-        ],
-        "line": [
-          249,
-          203,
-          91
-        ],
-        "line_width": 4.0160165662447165,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Night"
-      },
-      "type": "shape",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.3169,
-        "w": 2.1183,
-        "x": 0.6044,
-        "y": 2.4162
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          40,
-          38,
-          28
+          237,
+          179,
+          154
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Verdana",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "deer adorable melodic sharp power",
-        "theme_topic": "Night",
+        "text": "protective ruddy wander",
+        "theme_topic": "Evasive Stage",
         "underline": false
       },
       "type": "text",
-      "z_order": 5
+      "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.3401,
-        "w": 0.3381,
-        "x": 1.2317,
-        "y": 3.3031
+        "h": 3.0243,
+        "w": 2.5614,
+        "x": 10.1524,
+        "y": 0.6585
       },
-      "id": "object_006",
+      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 5,
         "family": "panel",
         "fill": [
-          32,
-          119,
-          149
+          235,
+          123,
+          46
         ],
         "line": [
-          249,
-          203,
-          91
+          233,
+          130,
+          84
         ],
-        "line_width": 1.6703262041366895,
+        "line_width": 1.6947245562008089,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Night"
+        "theme_topic": "Evasive Stage"
       },
       "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.747,
+        "w": 2.2251,
+        "x": 10.3474,
+        "y": 0.8185
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          255,
+          198,
+          74
+        ],
+        "font_face": "Trebuchet MS",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "69%",
+        "theme_topic": "Evasive Stage",
+        "underline": false
+      },
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.3372,
-        "w": 2.0835,
-        "x": 0.6214,
-        "y": 3.6077
+        "h": 1.9775,
+        "w": 2.2185,
+        "x": 10.3634,
+        "y": 1.5842
       },
       "id": "object_007",
       "properties": {
@@ -228,17 +234,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          40,
-          38,
-          28
+          237,
+          179,
+          154
         ],
-        "font_face": "Aptos",
-        "font_size": 12,
+        "font_face": "Verdana",
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "rush cook wish relieved live",
-        "theme_topic": "Night",
+        "text": "plough befitting cows",
+        "theme_topic": "Evasive Stage",
         "underline": false
       },
       "type": "text",
@@ -246,10 +252,10 @@
     },
     {
       "bbox": {
-        "h": 0.346,
-        "w": 0.327,
-        "x": 1.2212,
-        "y": 4.5524
+        "h": 2.9986,
+        "w": 4.3986,
+        "x": 3.7363,
+        "y": 0.6408
       },
       "id": "object_008",
       "properties": {
@@ -257,48 +263,48 @@
         "dash": 1,
         "family": "panel",
         "fill": [
-          32,
-          119,
-          149
+          255,
+          198,
+          74
         ],
         "line": [
-          249,
-          203,
-          91
+          233,
+          130,
+          84
         ],
-        "line_width": 1.763483256908056,
+        "line_width": 1.3564717714685883,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Night"
+        "theme_topic": "Evasive Stage"
       },
       "type": "shape",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.3504,
-        "w": 2.1138,
-        "x": 0.6205,
-        "y": 4.7659
+        "h": 1.1308,
+        "w": 4.0039,
+        "x": 3.942,
+        "y": 1.2556
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          40,
-          38,
-          28
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 10,
+        "font_face": "Trebuchet MS",
+        "font_size": 56,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "command oval breezy",
-        "theme_topic": "Night",
+        "text": "6x",
+        "theme_topic": "Evasive Stage",
         "underline": false
       },
       "type": "text",
@@ -306,540 +312,118 @@
     },
     {
       "bbox": {
-        "h": 0.2966,
-        "w": 0.2668,
-        "x": 1.3043,
-        "y": 5.5837
+        "h": 0.723,
+        "w": 4.0069,
+        "x": 3.9502,
+        "y": 2.4702
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          32,
-          119,
-          149
-        ],
-        "line": [
-          249,
-          203,
-          91
-        ],
-        "line_width": 0.5456886385043166,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Night"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.2876,
-        "w": 2.0796,
-        "x": 0.5942,
-        "y": 5.8519
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          40,
-          38,
-          28
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "recess rigid pastoral spring past tree",
-        "theme_topic": "Night",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.225,
-        "w": 0.2374,
-        "x": 1.6291,
-        "y": 6.6188
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          32,
-          119,
-          149
-        ],
-        "line": [
-          249,
-          203,
-          91
-        ],
-        "line_width": 0.9495851696548728,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Night"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.2425,
-        "w": 2.0956,
-        "x": 0.6128,
-        "y": 6.7425
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          40,
-          38,
-          28
-        ],
-        "font_face": "Aptos",
+        "font_face": "Verdana",
         "font_size": 11,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "clean right brass hook",
-        "theme_topic": "Night",
+        "text": "invent eight woman land delay nauseating abaft invite",
+        "theme_topic": "Evasive Stage",
         "underline": false
       },
       "type": "text",
-      "z_order": 13
+      "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.1443,
-        "w": 0.1,
-        "x": 1.414,
-        "y": 2.3178
+        "h": 2.991,
+        "w": 4.402,
+        "x": 3.7593,
+        "y": 3.9166
       },
-      "id": "object_014",
+      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          94,
-          82,
-          58
+        "categories": [
+          "driving",
+          "roll",
+          "magnificent",
+          "money"
         ],
-        "connector": "curve",
-        "dash": 3,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Night",
-        "width": 1.6459383972942825
-      },
-      "type": "connector",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 1.2423,
-        "w": 0.1,
-        "x": 1.4167,
-        "y": 3.4621
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          94,
-          82,
-          58
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Night",
-        "width": 1.2487149530049635
-      },
-      "type": "connector",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 1.0106,
-        "w": 0.1,
-        "x": 1.4038,
-        "y": 4.7045
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          94,
-          82,
-          58
-        ],
-        "connector": "curve",
-        "dash": 7,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Night",
-        "width": 3.5236386183570367
-      },
-      "type": "connector",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.9981,
-        "w": 0.2965,
-        "x": 1.4498,
-        "y": 5.7151
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          94,
-          82,
-          58
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Night",
-        "width": 1.038884730593277
-      },
-      "type": "connector",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 2.8895,
-        "w": 2.028,
-        "x": 3.2477,
-        "y": 2.7921
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "panel",
-        "fill": [
-          249,
-          203,
-          91
-        ],
-        "line": [
-          249,
-          203,
-          91
-        ],
-        "line_width": 1.239190773032191,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Night"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.7487,
-        "w": 1.6568,
-        "x": 3.4239,
-        "y": 2.9666
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
-        ],
-        "font_face": "Georgia",
-        "font_size": 38,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "9.3x",
-        "theme_topic": "Night",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 1.8877,
-        "w": 1.6742,
-        "x": 3.3967,
-        "y": 3.7024
-      },
-      "id": "object_020",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "surround return arrange identify four",
-        "theme_topic": "Night",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 20
-    },
-    {
-      "bbox": {
-        "h": 0.7529,
-        "w": 1.9347,
-        "x": 5.6394,
-        "y": 2.9533
-      },
-      "id": "object_021",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
-        ],
-        "font_face": "Georgia",
-        "font_size": 24,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "6.4x",
-        "theme_topic": "Night",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 21
-    },
-    {
-      "bbox": {
-        "h": 1.8756,
-        "w": 1.8921,
-        "x": 5.6036,
-        "y": 3.6941
-      },
-      "id": "object_022",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
-        ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "demonic tongue kindhearted quarter kitty",
-        "theme_topic": "Night",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 22
-    },
-    {
-      "bbox": {
-        "h": 0.7459,
-        "w": 1.8141,
-        "x": 8.0796,
-        "y": 2.9655
-      },
-      "id": "object_023",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          32,
-          119,
-          149
-        ],
-        "font_face": "Georgia",
-        "font_size": 34,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "76%",
-        "theme_topic": "Night",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 23
-    },
-    {
-      "bbox": {
-        "h": 1.8745,
-        "w": 1.8547,
-        "x": 8.0773,
-        "y": 3.6801
-      },
-      "id": "object_024",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          94,
-          82,
-          58
-        ],
-        "font_face": "Aptos",
-        "font_size": 12,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "uttermost penitent skin",
-        "theme_topic": "Night",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 24
-    },
-    {
-      "bbox": {
-        "h": 5.1778,
-        "w": 2.1934,
-        "x": 10.5538,
-        "y": 1.8743
-      },
-      "id": "object_025",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.1348649588554496,
-          0.0784485527156186,
-          0.01836527913312656,
-          0.1880880033471269
-        ],
+        "chart": "line",
         "focus": true,
-        "mask_line": [
-          212,
-          74,
-          203
+        "has_legend": false,
+        "has_title": true,
+        "ppt_type": 65,
+        "series": [
+          {
+            "color": [
+              227,
+              219,
+              134
+            ],
+            "name": "airplane burst",
+            "values": [
+              34,
+              85,
+              52,
+              67
+            ]
+          },
+          {
+            "color": [
+              223,
+              212,
+              184
+            ],
+            "name": "violet burn",
+            "values": [
+              39,
+              30,
+              29,
+              13
+            ]
+          }
         ],
-        "mask_overlay": true,
-        "theme_topic": "Night",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "theme_topic": "Evasive Stage",
+        "title": "babies naive size nine husky"
       },
-      "type": "image",
-      "z_order": 25
+      "type": "chart",
+      "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.3138,
-        "w": 0.6947,
-        "x": 7.8826,
-        "y": 4.85
+        "h": 1.6093,
+        "w": 3.9734,
+        "x": 8.5334,
+        "y": 4.1106
       },
-      "id": "object_026",
+      "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          163,
-          222,
-          189
-        ],
-        "bold": false,
+        "bg_color": null,
+        "bold": true,
         "color": [
-          201,
-          75,
-          193
+          246,
+          248,
+          252
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Trebuchet MS",
+        "font_size": 26,
         "italic": true,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "known pig seemly",
-        "theme_topic": "Night",
+        "text": "Space Electric Girls Count Shallow Internal Effect End Meek Use",
+        "theme_topic": "Evasive Stage",
         "underline": false
       },
       "type": "text",
-      "z_order": 26
-    },
-    {
-      "bbox": {
-        "h": 0.2096,
-        "w": 1.5937,
-        "x": 8.7606,
-        "y": 2.4923
-      },
-      "id": "object_027",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          134,
-          220,
-          155
-        ],
-        "connector": "curve",
-        "dash": 5,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Night",
-        "width": 1.3767781663147416
-      },
-      "type": "connector",
-      "z_order": 27
-    },
-    {
-      "bbox": {
-        "h": 0.7424,
-        "w": 1.2655,
-        "x": 7.8704,
-        "y": 3.0958
-      },
-      "id": "object_028",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          212,
-          100,
-          186
-        ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Night",
-        "width": 2.8870012493556545
-      },
-      "type": "connector",
-      "z_order": 28
+      "z_order": 12
     }
   ],
   "slide": {

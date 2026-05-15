@@ -8,151 +8,148 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 60,
+      "angle": 225,
       "archetype": "atomic_composition",
       "colors": [
         [
-          140,
-          61,
-          97
+          225,
+          94,
+          113
         ],
         [
-          58,
-          150,
-          58
+          51,
+          63,
+          101
         ]
       ],
       "fill": [
-        140,
-        61,
-        97
+        210,
+        72,
+        94
       ],
-      "focus": "top_left",
+      "focus": "center",
       "gradient_type": "radial",
       "style": "gradient",
-      "theme_topic": "Receptive"
+      "theme_topic": "Purpose"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 14,
+    "level": 14,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 14
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.6753,
-        "w": 5.3043,
-        "x": 1.623,
-        "y": 1.2534
+        "h": 4.9148,
+        "w": 5.8512,
+        "x": 2.0526,
+        "y": 0.6104
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          191,
-          147,
-          172
+          219,
+          86,
+          106
         ],
-        "focus": false,
         "line": [
-          30,
-          29,
-          55
+          225,
+          94,
+          113
         ],
-        "line_width": 7.887934526904467,
+        "line_width": 1.4622822702338871,
         "outline_only": false,
-        "ppt_type": 34,
-        "shape": "left_arrow",
-        "theme_topic": "Receptive"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Purpose"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.4991,
-        "w": 8.5882,
-        "x": 5.5382,
-        "y": -0.7279
+        "h": 1.3011,
+        "w": 7.1554,
+        "x": 0.5492,
+        "y": 0.3485
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          204,
-          130,
-          125
-        ],
-        "focus": false,
-        "line": [
-          35,
-          41,
-          225
-        ],
-        "line_width": 7.760109457317549,
-        "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Receptive"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.9818,
-        "w": 8.1568,
-        "x": 0.5747,
-        "y": 0.3589
-      },
-      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          246,
-          248,
-          252
+          255,
+          252,
+          247
         ],
-        "font_face": "Georgia",
-        "font_size": 27,
+        "font_face": "Aptos Display",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Jail Five Oval Purple",
-        "theme_topic": "Receptive",
+        "text": "Drag Scarecrow Familiar Believe",
+        "theme_topic": "Purpose",
         "underline": false
       },
       "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 5.1579,
+        "w": 6.8186,
+        "x": 5.9943,
+        "y": 1.8705
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "clip": "blob",
+        "focus": true,
+        "line": [
+          120,
+          82,
+          193
+        ],
+        "line_width": 14,
+        "theme_topic": "Purpose"
+      },
+      "type": "svg_image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.293,
-        "w": 2.5063,
-        "x": 10.123,
-        "y": 1.9935
+        "h": 0.3113,
+        "w": 4.9457,
+        "x": 0.5912,
+        "y": 2.4026
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          31,
-          117,
-          161
+          255,
+          252,
+          247
         ],
         "font_face": "Aptos",
-        "font_size": 11,
+        "font_size": 14,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "CURVE SPELL",
-        "theme_topic": "Receptive",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "wacky innocent sheep",
+        "theme_topic": "Purpose",
         "underline": false
       },
       "type": "text",
@@ -160,28 +157,28 @@
     },
     {
       "bbox": {
-        "h": 1.0678,
-        "w": 2.5024,
-        "x": 10.1637,
-        "y": 2.4739
+        "h": 0.4468,
+        "w": 4.9236,
+        "x": 0.6203,
+        "y": 3.7114
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          189,
-          45,
-          83
+          255,
+          252,
+          247
         ],
-        "font_face": "Georgia",
-        "font_size": 26,
+        "font_face": "Aptos",
+        "font_size": 13,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Suspect",
-        "theme_topic": "Receptive",
+        "text": "pail fade unnatural apathetic calculate",
+        "theme_topic": "Purpose",
         "underline": false
       },
       "type": "text",
@@ -189,10 +186,10 @@
     },
     {
       "bbox": {
-        "h": 3.1241,
-        "w": 2.504,
-        "x": 10.1542,
-        "y": 3.7656
+        "h": 0.3698,
+        "w": 4.9363,
+        "x": 0.5764,
+        "y": 5.0927
       },
       "id": "object_006",
       "properties": {
@@ -200,17 +197,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          198,
-          163,
-          182
+          255,
+          252,
+          247
         ],
         "font_face": "Aptos",
-        "font_size": 10,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "scrub red engine picayune spurious dazzling mist shrill blink turn hospitable reign simplistic bouncy bounce neat leg toothsome fireman useful mass kiss",
-        "theme_topic": "Receptive",
+        "text": "bell public snotty grandmother scratch middle",
+        "theme_topic": "Purpose",
         "underline": false
       },
       "type": "text",
@@ -218,334 +215,251 @@
     },
     {
       "bbox": {
-        "h": 5.1369,
-        "w": 4.1926,
-        "x": 5.4182,
-        "y": 1.8574
+        "h": 0.4406,
+        "w": 4.903,
+        "x": 0.6,
+        "y": 6.4533
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          169,
-          111,
-          137
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          255,
+          252,
+          247
         ],
-        "line": [
-          169,
-          111,
-          137
-        ],
-        "line_width": 1.2489049796479323,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Receptive"
+        "font_face": "Aptos",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "internal great mug arrange minor",
+        "theme_topic": "Purpose",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 4.8686,
-        "w": 3.8751,
-        "x": 5.535,
-        "y": 2.02
+        "h": 0.4842,
+        "w": 0.8887,
+        "x": 0.9372,
+        "y": 2.3895
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "crop": [
-          0.17281450638158333,
-          0.0811915226533064,
-          0.11750382341655281,
-          0.02966800126603638
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          164,
+          53,
+          215
         ],
-        "focus": true,
-        "mask_line": [
-          207,
-          48,
-          176
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Receptive",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+        "font_face": "Aptos",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "puncture follow needle amusing",
+        "theme_topic": "Purpose",
+        "underline": false
       },
-      "type": "image",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.5753,
-        "w": 0.8435,
-        "x": 1.9473,
-        "y": 2.5376
+        "h": 0.3635,
+        "w": 1.2357,
+        "x": 5.6501,
+        "y": 6.9437
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          169,
-          111,
-          137
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          44,
+          112,
+          177
         ],
-        "focus": false,
-        "line": [
-          31,
-          117,
-          161
-        ],
-        "line_width": 3.78934349960871,
-        "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Receptive"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Cart",
+        "theme_topic": "Purpose",
+        "underline": true
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2357,
-        "w": 0.4503,
-        "x": 12.2644,
-        "y": 6.5382
+        "h": 0.8303,
+        "w": 1.0552,
+        "x": 6.6479,
+        "y": 2.6604
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 2,
+        "family": "ribbons",
         "fill": [
-          72,
-          128,
-          83
+          44,
+          182,
+          65
         ],
         "focus": false,
         "line": [
-          44,
-          154,
-          36
+          127,
+          198,
+          94
         ],
-        "line_width": 4.202648223534621,
+        "line_width": 2.5480899341418977,
         "outline_only": false,
-        "ppt_type": 61,
-        "shape": "flow_process",
-        "theme_topic": "Receptive"
+        "ppt_type": 98,
+        "shape": "down_ribbon",
+        "theme_topic": "Purpose"
       },
       "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.3115,
-        "w": 1.3351,
-        "x": 2.4559,
-        "y": 5.3118
+        "h": 0.629,
+        "w": 0.4561,
+        "x": 12.1197,
+        "y": 5.4963
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
+        "dash": 7,
+        "family": "callouts",
         "fill": [
-          92,
-          81,
-          201
+          78,
+          113,
+          191
         ],
         "focus": false,
         "line": [
-          130,
-          81,
-          177
+          118,
+          203,
+          60
         ],
-        "line_width": 4.527631032235198,
-        "outline_only": false,
-        "ppt_type": 84,
-        "shape": "flow_delay",
-        "theme_topic": "Receptive"
+        "line_width": 1.3513449212425204,
+        "outline_only": true,
+        "ppt_type": 110,
+        "shape": "line_callout",
+        "theme_topic": "Purpose"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.8357,
-        "w": 1.5331,
-        "x": 5.7725,
-        "y": 2.9207
+        "h": 0.4927,
+        "w": 1.2234,
+        "x": 6.9645,
+        "y": 3.9876
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          215,
-          187,
-          61
+        "bg_color": [
+          134,
+          138,
+          214
         ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Receptive",
-        "width": 0.7793982151920158
+        "bold": false,
+        "color": [
+          48,
+          113,
+          132
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "healthy tree",
+        "theme_topic": "Purpose",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 0.5243,
-        "x": 2.1146,
-        "y": 6.569
+        "h": 0.6084,
+        "w": 1.2403,
+        "x": 5.0668,
+        "y": 0.3186
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "dash": 1,
+        "family": "stars",
         "fill": [
-          66,
-          100,
-          220
+          43,
+          168,
+          197
         ],
         "focus": false,
         "line": [
-          152,
-          139,
-          199
+          255,
+          218,
+          220
         ],
-        "line_width": 2.4965059888052217,
+        "line_width": 2.1315153429545224,
         "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Receptive"
+        "ppt_type": 94,
+        "shape": "star16",
+        "theme_topic": "Purpose"
       },
       "type": "shape",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.4699,
-        "w": 1.0152,
-        "x": 9.1943,
-        "y": 1.733
+        "h": 0.3304,
+        "w": 0.2,
+        "x": 8.1764,
+        "y": 1.7411
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          191,
-          217,
-          172
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "decay ball shop mountainous prefer",
-        "theme_topic": "Receptive",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 14
-    },
-    {
-      "bbox": {
-        "h": 0.6359,
-        "w": 1.0434,
-        "x": 2.8921,
-        "y": 0.3422
-      },
-      "id": "object_015",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "ribbons",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          211,
-          121,
+          28,
+          152,
           74
         ],
         "focus": false,
         "line": [
-          31,
-          117,
-          161
+          220,
+          47,
+          46
         ],
-        "line_width": 0.5330437764456295,
+        "line_width": 2.032023771186161,
         "outline_only": true,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Receptive"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Purpose"
       },
       "type": "shape",
-      "z_order": 15
-    },
-    {
-      "bbox": {
-        "h": 0.2408,
-        "w": 1.7996,
-        "x": 9.6769,
-        "y": 2.8937
-      },
-      "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          209,
-          187,
-          198
-        ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 2,
-        "theme_topic": "Receptive",
-        "width": 1.0120780103934122
-      },
-      "type": "connector",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 0.3194,
-        "w": 1.0022,
-        "x": 3.3833,
-        "y": 5.8242
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
-        "fill": [
-          108,
-          203,
-          169
-        ],
-        "focus": false,
-        "line": [
-          169,
-          154,
-          52
-        ],
-        "line_width": 5.461562602940538,
-        "outline_only": false,
-        "ppt_type": 24,
-        "shape": "moon",
-        "theme_topic": "Receptive"
-      },
-      "type": "shape",
-      "z_order": 17
+      "z_order": 14
     }
   ],
   "slide": {

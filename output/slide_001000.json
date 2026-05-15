@@ -8,121 +8,142 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 90,
       "archetype": "atomic_composition",
-      "fill": [
-        245,
-        247,
-        252
+      "colors": [
+        [
+          25,
+          30,
+          39
+        ],
+        [
+          244,
+          180,
+          76
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Last"
+      "fill": [
+        25,
+        30,
+        39
+      ],
+      "focus": "center",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Stream Gullible"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 25,
+    "level": 25,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 25
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.7872,
-        "w": 3.2918,
-        "x": 4.3335,
-        "y": 0.1121
+        "h": 4.7566,
+        "w": 5.726,
+        "x": 5.0911,
+        "y": 2.2262
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "callouts",
+        "family": "flowchart",
         "fill": [
-          126,
-          221,
-          100
+          39,
+          70,
+          127
         ],
         "focus": false,
         "line": [
-          65,
-          111,
-          157
+          185,
+          41,
+          111
         ],
-        "line_width": 3.5540844533557494,
+        "line_width": 4.1624546225366,
         "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Last"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Stream Gullible"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 5.0639,
-        "w": 3.1455,
-        "x": 6.8495,
-        "y": 2.8073
+        "h": 3.8426,
+        "w": 5.9476,
+        "x": 1.5059,
+        "y": -0.5144
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 5,
+        "family": "callouts",
         "fill": [
-          156,
-          170,
-          145
+          101,
+          54,
+          74
         ],
         "focus": false,
         "line": [
-          226,
-          171,
-          66
+          154,
+          163,
+          87
         ],
-        "line_width": 5.446839389581484,
-        "outline_only": true,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Last"
+        "line_width": 5.74715567223916,
+        "outline_only": false,
+        "ppt_type": 108,
+        "shape": "cloud_callout",
+        "theme_topic": "Stream Gullible"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 4.6776,
-        "w": 3.371,
-        "x": 9.2524,
-        "y": 0.9925
+        "h": 7.5071,
+        "w": 6.9165,
+        "x": 0.0156,
+        "y": 0.0013
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "callouts",
+        "dash": 2,
+        "family": "panel",
         "fill": [
-          120,
-          129,
-          185
+          43,
+          51,
+          64
         ],
-        "focus": false,
         "line": [
-          210,
-          44,
-          159
+          43,
+          51,
+          64
         ],
-        "line_width": 5.7944791345153925,
+        "line_width": 3.628168568437546,
         "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Last"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Stream Gullible"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.1782,
-        "w": 6.2603,
-        "x": 0.5416,
-        "y": 0.352
+        "h": 1.1337,
+        "w": 6.8903,
+        "x": 2.6661,
+        "y": 0.656
       },
       "id": "object_004",
       "properties": {
@@ -130,17 +151,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          246,
+          247,
+          249
         ],
-        "font_face": "Georgia",
-        "font_size": 39,
+        "font_face": "Arial",
+        "font_size": 40,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Sassy Dress Anxious",
-        "theme_topic": "Last",
+        "text": "Itchy Annoy",
+        "theme_topic": "Stream Gullible",
         "underline": false
       },
       "type": "text",
@@ -148,82 +169,86 @@
     },
     {
       "bbox": {
-        "h": 5.1805,
-        "w": 6.025,
-        "x": 0.5632,
-        "y": 1.8453
+        "h": 0.2593,
+        "w": 1.9222,
+        "x": 10.7173,
+        "y": 2.128
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "clip": "arch",
-        "focus": true,
-        "line": [
-          82,
-          96,
-          214
-        ],
-        "line_width": 9,
-        "theme_topic": "Last"
-      },
-      "type": "svg_image",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 5.1551,
-        "w": 5.8315,
-        "x": 6.9601,
-        "y": 1.8512
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
-        ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 1.8456705377244054,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Last"
-      },
-      "type": "shape",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.1648,
-        "w": 5.469,
-        "x": 7.147,
-        "y": 2.8081
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          96,
+          165,
+          250
         ],
-        "font_face": "Georgia",
-        "font_size": 37,
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "CLAM AXIOMATIC",
+        "theme_topic": "Stream Gullible",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 1.0288,
+        "w": 1.8949,
+        "x": 10.711,
+        "y": 2.6016
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          53,
+          79,
+          30
+        ],
+        "font_face": "Arial",
+        "font_size": 21,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "10x",
-        "theme_topic": "Last",
+        "text": "Hang",
+        "theme_topic": "Stream Gullible",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 3.0337,
+        "w": 1.9123,
+        "x": 10.723,
+        "y": 3.882
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
+        ],
+        "font_face": "Arial",
+        "font_size": 14,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "dull sticky cool expect untidy deep capable badge effect station typical ice drag married",
+        "theme_topic": "Stream Gullible",
         "underline": false
       },
       "type": "text",
@@ -231,211 +256,208 @@
     },
     {
       "bbox": {
-        "h": 0.7043,
-        "w": 5.4698,
-        "x": 7.1374,
-        "y": 4.9755
+        "h": 1.104,
+        "w": 6.867,
+        "x": 3.2597,
+        "y": 5.9402
       },
       "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 1.4975198563387948,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stream Gullible"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.7928,
+        "w": 6.5572,
+        "x": 3.4196,
+        "y": 6.0612
+      },
+      "id": "object_009",
+      "properties": {
+        "archetype": "atomic_composition",
+        "crop": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "focus": false,
+        "mask_line": [
+          191,
+          128,
+          37
+        ],
+        "mask_overlay": true,
+        "theme_topic": "Stream Gullible",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
+      },
+      "type": "image",
+      "z_order": 9
+    },
+    {
+      "bbox": {
+        "h": 0.3534,
+        "w": 0.3723,
+        "x": 1.6358,
+        "y": 2.4614
+      },
+      "id": "object_010",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 1.3717727075341477,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stream Gullible"
+      },
+      "type": "shape",
+      "z_order": 10
+    },
+    {
+      "bbox": {
+        "h": 0.345,
+        "w": 2.0903,
+        "x": 0.5826,
+        "y": 2.5909
+      },
+      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          27,
-          44,
-          68
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "sweater truculent mountainous righteous",
-        "theme_topic": "Last",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4655,
-        "w": 0.9936,
-        "x": 6.7755,
-        "y": 3.0317
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          82,
-          96,
-          214
-        ],
-        "focus": false,
-        "line": [
-          82,
-          96,
-          214
-        ],
-        "line_width": 3.8630252428298038,
-        "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Last"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.3986,
-        "w": 1.3586,
-        "x": 6.4993,
-        "y": 5.2709
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          49,
-          146,
-          82
-        ],
-        "font_face": "Aptos",
+        "font_face": "Arial",
         "font_size": 8,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "pan slap lucky harm lopsided",
-        "theme_topic": "Last",
+        "text": "fascinated voice obnoxious flimsy nose",
+        "theme_topic": "Stream Gullible",
         "underline": false
       },
       "type": "text",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.2134,
-        "w": 0.5907,
-        "x": 5.6877,
-        "y": 0.7365
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "basic",
-        "fill": [
-          166,
-          125,
-          77
-        ],
-        "focus": false,
-        "line": [
-          117,
-          41,
-          33
-        ],
-        "line_width": 1.0533566202997384,
-        "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Last"
-      },
-      "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.2462,
-        "w": 2.037,
-        "x": 8.9731,
-        "y": 6.8353
+        "h": 0.3189,
+        "w": 0.3198,
+        "x": 1.3973,
+        "y": 3.4826
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          226,
-          175,
-          65
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "lucky gray productive damaged recess",
-        "theme_topic": "Last",
-        "underline": false
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 4.488910405167163,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stream Gullible"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.6743,
-        "w": 0.2789,
-        "x": 12.3381,
-        "y": 1.3152
+        "h": 0.3116,
+        "w": 2.0876,
+        "x": 0.5942,
+        "y": 3.7304
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          130,
-          164,
-          154
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          247,
+          249
         ],
-        "focus": false,
-        "line": [
-          59,
-          69,
-          228
-        ],
-        "line_width": 4.313200507030861,
-        "outline_only": true,
-        "ppt_type": 49,
-        "shape": "striped_right_arrow",
-        "theme_topic": "Last"
+        "font_face": "Arial",
+        "font_size": 11,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "enchanted bright fork plot",
+        "theme_topic": "Stream Gullible",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 13
     },
     {
       "bbox": {
-        "h": 0.2785,
-        "w": 0.5608,
-        "x": 2.0162,
-        "y": 6.2917
+        "h": 0.2671,
+        "w": 2.095,
+        "x": 0.6076,
+        "y": 4.7093
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          151,
-          105,
-          212
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "neighborly",
-        "theme_topic": "Last",
+        "text": "goofy separate measly",
+        "theme_topic": "Stream Gullible",
         "underline": false
       },
       "type": "text",
@@ -443,61 +465,344 @@
     },
     {
       "bbox": {
-        "h": 0.5788,
-        "w": 1.4255,
-        "x": 5.8653,
-        "y": 2.9054
+        "h": 0.3458,
+        "w": 0.3208,
+        "x": 1.1759,
+        "y": 5.57
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "color": [
-          207,
-          76,
-          170
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 3,
-        "theme_topic": "Last",
-        "width": 2.4712713006799616
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 2.744610174018365,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stream Gullible"
       },
-      "type": "connector",
+      "type": "shape",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.3368,
-        "w": 1.1938,
-        "x": 10.7357,
-        "y": 2.8203
+        "h": 0.3201,
+        "w": 2.1082,
+        "x": 0.586,
+        "y": 5.7018
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          198,
-          227,
-          208
-        ],
+        "bg_color": null,
         "bold": false,
         "color": [
-          218,
-          46,
-          104
+          246,
+          247,
+          249
         ],
-        "font_face": "Aptos",
-        "font_size": 14,
-        "italic": true,
+        "font_face": "Arial",
+        "font_size": 8,
+        "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "dock",
-        "theme_topic": "Last",
+        "text": "up erratic transport beginner spring disturbed",
+        "theme_topic": "Stream Gullible",
         "underline": false
       },
       "type": "text",
       "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.2782,
+        "w": 0.279,
+        "x": 1.1464,
+        "y": 6.5252
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 4.3217038924464894,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Stream Gullible"
+      },
+      "type": "shape",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.2843,
+        "w": 2.1069,
+        "x": 0.6162,
+        "y": 6.7474
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          246,
+          247,
+          249
+        ],
+        "font_face": "Arial",
+        "font_size": 8,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "splendid drag frighten zoom ultra analyze",
+        "theme_topic": "Stream Gullible",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.2228,
+        "w": 1.1545,
+        "x": 9.8546,
+        "y": 1.8708
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          54,
+          64,
+          60
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Close",
+        "theme_topic": "Stream Gullible",
+        "underline": true
+      },
+      "type": "text",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.9662,
+        "w": 1.1769,
+        "x": 7.0414,
+        "y": 3.4043
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "arrows",
+        "fill": [
+          193,
+          172,
+          222
+        ],
+        "focus": false,
+        "line": [
+          226,
+          174,
+          26
+        ],
+        "line_width": 4.295917943696324,
+        "outline_only": false,
+        "ppt_type": 57,
+        "shape": "left_right_arrow_callout",
+        "theme_topic": "Stream Gullible"
+      },
+      "type": "shape",
+      "z_order": 20
+    },
+    {
+      "bbox": {
+        "h": 1.0045,
+        "w": 0.807,
+        "x": 6.4863,
+        "y": 3.0037
+      },
+      "id": "object_021",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "basic",
+        "fill": [
+          161,
+          44,
+          124
+        ],
+        "focus": false,
+        "line": [
+          41,
+          44,
+          83
+        ],
+        "line_width": 4.8110556554100485,
+        "outline_only": true,
+        "ppt_type": 6,
+        "shape": "octagon",
+        "theme_topic": "Stream Gullible"
+      },
+      "type": "shape",
+      "z_order": 21
+    },
+    {
+      "bbox": {
+        "h": 0.6426,
+        "w": 0.4552,
+        "x": 3.5698,
+        "y": 2.1777
+      },
+      "id": "object_022",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 7,
+        "family": "arrows",
+        "fill": [
+          69,
+          58,
+          116
+        ],
+        "focus": false,
+        "line": [
+          107,
+          25,
+          220
+        ],
+        "line_width": 2.1104336750507224,
+        "outline_only": false,
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Stream Gullible"
+      },
+      "type": "shape",
+      "z_order": 22
+    },
+    {
+      "bbox": {
+        "h": 0.7625,
+        "w": 0.6191,
+        "x": 7.745,
+        "y": 4.5346
+      },
+      "id": "object_023",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "math",
+        "fill": [
+          124,
+          59,
+          192
+        ],
+        "focus": false,
+        "line": [
+          146,
+          37,
+          126
+        ],
+        "line_width": 2.7904798194795832,
+        "outline_only": false,
+        "ppt_type": 168,
+        "shape": "not_equal",
+        "theme_topic": "Stream Gullible"
+      },
+      "type": "shape",
+      "z_order": 23
+    },
+    {
+      "bbox": {
+        "h": 0.8328,
+        "w": 1.3472,
+        "x": 0.087,
+        "y": 6.1947
+      },
+      "id": "object_024",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "arrows",
+        "fill": [
+          35,
+          223,
+          171
+        ],
+        "focus": false,
+        "line": [
+          55,
+          132,
+          183
+        ],
+        "line_width": 1.2866294701553949,
+        "outline_only": false,
+        "ppt_type": 34,
+        "shape": "left_arrow",
+        "theme_topic": "Stream Gullible"
+      },
+      "type": "shape",
+      "z_order": 24
+    },
+    {
+      "bbox": {
+        "h": 0.5965,
+        "w": 0.8388,
+        "x": 7.5507,
+        "y": 6.0156
+      },
+      "id": "object_025",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "symbols",
+        "fill": [
+          107,
+          31,
+          132
+        ],
+        "focus": false,
+        "line": [
+          38,
+          191,
+          225
+        ],
+        "line_width": 4.865936818343393,
+        "outline_only": false,
+        "ppt_type": 172,
+        "shape": "gear6",
+        "theme_topic": "Stream Gullible"
+      },
+      "type": "shape",
+      "z_order": 25
     }
   ],
   "slide": {

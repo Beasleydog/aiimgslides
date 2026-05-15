@@ -8,99 +8,108 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 225,
       "archetype": "atomic_composition",
-      "back_color": [
-        245,
-        247,
-        252
+      "colors": [
+        [
+          99,
+          208,
+          209
+        ],
+        [
+          51,
+          227,
+          84
+        ]
       ],
       "fill": [
-        245,
-        247,
-        252
+        33,
+        189,
+        190
       ],
-      "fore_color": [
-        82,
-        96,
-        214
-      ],
-      "pattern": 25,
-      "style": "pattern",
-      "theme_topic": "Answer Weigh"
+      "focus": "center",
+      "gradient_type": "linear",
+      "style": "gradient",
+      "theme_topic": "Attract"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 8,
+    "level": 8,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 8
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.5911,
-        "w": 8.7445,
-        "x": 1.5801,
-        "y": 1.9539
+        "h": 2.0767,
+        "w": 5.8143,
+        "x": 6.3302,
+        "y": 1.7412
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "math",
+        "family": "arrows",
         "fill": [
-          141,
-          182,
-          229
+          34,
+          202,
+          97
         ],
         "focus": false,
         "line": [
-          92,
-          61,
-          167
+          130,
+          39,
+          172
         ],
-        "line_width": 6.582418829138738,
-        "outline_only": false,
-        "ppt_type": 168,
-        "shape": "not_equal",
-        "theme_topic": "Answer Weigh"
+        "line_width": 3.668551010287728,
+        "outline_only": true,
+        "ppt_type": 35,
+        "shape": "up_arrow",
+        "theme_topic": "Attract"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 7.4821,
-        "w": 1.2164,
-        "x": 12.109,
-        "y": -0.0103
+        "h": 1.0235,
+        "w": 6.3923,
+        "x": 0.5708,
+        "y": 0.3676
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          232,
-          237,
-          247
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          232,
-          237,
-          247
-        ],
-        "line_width": 1.1625931688236013,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Answer Weigh"
+        "font_face": "Trebuchet MS",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Debonair Pointless Careful Pack",
+        "theme_topic": "Attract",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 0.993,
-        "w": 8.7501,
-        "x": 0.5288,
-        "y": 0.3384
+        "h": 0.2933,
+        "w": 11.9412,
+        "x": 0.7125,
+        "y": 4.7288
       },
       "id": "object_003",
       "properties": {
@@ -108,17 +117,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          51,
+          63,
+          101
         ],
-        "font_face": "Aptos Display",
-        "font_size": 38,
+        "font_face": "Verdana",
+        "font_size": 9,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Example Dramatic Pocket Unequal",
-        "theme_topic": "Answer Weigh",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "HABITUAL FLASH",
+        "theme_topic": "Attract",
         "underline": false
       },
       "type": "text",
@@ -126,57 +135,57 @@
     },
     {
       "bbox": {
-        "h": 5.1417,
-        "w": 4.8,
-        "x": 0.5617,
-        "y": 1.8752
+        "h": 0.6463,
+        "w": 11.9398,
+        "x": 0.715,
+        "y": 5.2321
       },
       "id": "object_004",
-      "properties": {
-        "archetype": "atomic_composition",
-        "crop": [
-          0.15328558885913715,
-          0.26288240731824597,
-          0.30943167871526966,
-          0.04507005819052532
-        ],
-        "focus": true,
-        "mask_line": [
-          190,
-          41,
-          168
-        ],
-        "mask_overlay": true,
-        "theme_topic": "Answer Weigh",
-        "url": "https://picsum.photos/seed/aiimgslides/900/600"
-      },
-      "type": "image",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 1.0512,
-        "w": 6.68,
-        "x": 5.9234,
-        "y": 1.9492
-      },
-      "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          27,
-          44,
-          68
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 31,
+        "font_face": "Trebuchet MS",
+        "font_size": 34,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Delight Found Chunky Thick",
-        "theme_topic": "Answer Weigh",
+        "text": "Numerous Whistle Thankful",
+        "theme_topic": "Attract",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 0.7831,
+        "w": 11.9502,
+        "x": 0.6902,
+        "y": 6.084
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          30,
+          101,
+          105
+        ],
+        "font_face": "Verdana",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "form anxious seat steep empty close festive materialistic nondescript existence print gentle tender suck full physical gleaming safe men",
+        "theme_topic": "Attract",
         "underline": false
       },
       "type": "text",
@@ -184,248 +193,96 @@
     },
     {
       "bbox": {
-        "h": 3.6128,
-        "w": 6.6881,
-        "x": 5.9499,
-        "y": 3.286
+        "h": 2.5396,
+        "w": 12.2197,
+        "x": 0.5821,
+        "y": 1.8496
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          103,
-          117,
-          137
+        "crop": [
+          0.07204086947744455,
+          0.14738346892231075,
+          0.2525048812347992,
+          0.024188164043800194
         ],
-        "font_face": "Aptos",
-        "font_size": 15,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "soak recondite open fancy wink oil nerve receptive stereotyped rail miniature large compete mindless nail shelter tired look wobble stimulating fire taboo",
-        "theme_topic": "Answer Weigh",
-        "underline": false
+        "focus": true,
+        "mask_line": [
+          51,
+          63,
+          101
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Attract",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.8306,
-        "w": 0.5242,
-        "x": 6.8139,
-        "y": 5.7346
+        "h": 0.7184,
+        "w": 1.0716,
+        "x": 0.68,
+        "y": 5.0869
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "ribbon_path",
-        "primary": [
-          112,
-          190,
-          59
+        "dash": 7,
+        "family": "flowchart",
+        "fill": [
+          114,
+          227,
+          170
         ],
-        "secondary": [
-          36,
-          178,
-          149
+        "focus": false,
+        "line": [
+          130,
+          114,
+          95
         ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z\"\n              fill=\"#b63297\" opacity=\"0.82\"/>\n        <path d=\"M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104\"\n              fill=\"none\" stroke=\"#cedc69\" stroke-width=\"18\" stroke-linecap=\"round\"/>\n        </svg>",
-        "theme_topic": "Answer Weigh"
+        "line_width": 2.9630409680432144,
+        "outline_only": false,
+        "ppt_type": 63,
+        "shape": "flow_decision",
+        "theme_topic": "Attract"
       },
-      "type": "svg",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2706,
-        "w": 0.9316,
-        "x": 3.491,
-        "y": 0.4038
+        "h": 0.6369,
+        "w": 0.817,
+        "x": 6.2148,
+        "y": 1.7704
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "basic",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          186,
-          84,
-          124
+          85,
+          226,
+          69
         ],
         "focus": false,
         "line": [
-          85,
-          171,
-          44
+          205,
+          73,
+          50
         ],
-        "line_width": 2.2234256299764756,
+        "line_width": 2.4626840627492212,
         "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Answer Weigh"
+        "ppt_type": 88,
+        "shape": "flow_display",
+        "theme_topic": "Attract"
       },
       "type": "shape",
       "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4758,
-        "w": 0.3177,
-        "x": 12.8281,
-        "y": 4.7775
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
-        "fill": [
-          61,
-          118,
-          189
-        ],
-        "focus": false,
-        "line": [
-          45,
-          177,
-          73
-        ],
-        "line_width": 1.2953902961689585,
-        "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Answer Weigh"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.3625,
-        "w": 0.739,
-        "x": 0.1836,
-        "y": 0.9216
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          131,
-          141,
-          218
-        ],
-        "focus": false,
-        "line": [
-          28,
-          174,
-          230
-        ],
-        "line_width": 1.178765463407884,
-        "outline_only": true,
-        "ppt_type": 41,
-        "shape": "bent_arrow",
-        "theme_topic": "Answer Weigh"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.9039,
-        "w": 0.5148,
-        "x": 7.8549,
-        "y": 2.9518
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "ribbons",
-        "fill": [
-          142,
-          74,
-          113
-        ],
-        "focus": false,
-        "line": [
-          80,
-          182,
-          36
-        ],
-        "line_width": 3.8269207517078168,
-        "outline_only": false,
-        "ppt_type": 100,
-        "shape": "curved_down_ribbon",
-        "theme_topic": "Answer Weigh"
-      },
-      "type": "shape",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 0.5556,
-        "w": 0.5935,
-        "x": 4.6984,
-        "y": 2.3519
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          80,
-          105,
-          137
-        ],
-        "focus": false,
-        "line": [
-          67,
-          68,
-          27
-        ],
-        "line_width": 1.0292841534660264,
-        "outline_only": false,
-        "ppt_type": 38,
-        "shape": "up_down_arrow",
-        "theme_topic": "Answer Weigh"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.4284,
-        "w": 1.7102,
-        "x": 9.8811,
-        "y": 1.3678
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          45,
-          105,
-          82
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": true,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "moan vagabond intend polish",
-        "theme_topic": "Answer Weigh",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 13
     }
   ],
   "slide": {

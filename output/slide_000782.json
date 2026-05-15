@@ -10,129 +10,125 @@
     "properties": {
       "archetype": "atomic_composition",
       "back_color": [
-        179,
-        141,
-        147
+        118,
+        84,
+        86
       ],
       "fill": [
-        43,
-        156,
-        218
+        25,
+        30,
+        39
       ],
       "fore_color": [
-        71,
-        221,
-        181
+        244,
+        180,
+        76
       ],
-      "pattern": 21,
+      "pattern": 49,
       "style": "pattern",
-      "theme_topic": "Lip"
+      "theme_topic": "Choke"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 20,
+    "level": 20,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 20
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.859,
-        "w": 3.2893,
-        "x": 7.5578,
-        "y": 0.0112
+        "h": 3.4066,
+        "w": 8.9109,
+        "x": 2.6535,
+        "y": 2.5217
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "basic",
+        "family": "math",
         "fill": [
-          160,
-          146,
-          198
+          58,
+          92,
+          58
         ],
         "focus": false,
         "line": [
-          189,
-          218,
-          61
+          120,
+          105,
+          62
         ],
-        "line_width": 2.6452787862765863,
+        "line_width": 4.368558452979223,
         "outline_only": false,
-        "ppt_type": 2,
-        "shape": "parallelogram",
-        "theme_topic": "Lip"
+        "ppt_type": 164,
+        "shape": "minus",
+        "theme_topic": "Choke"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 3.7084,
-        "w": 6.3428,
-        "x": 5.6813,
-        "y": -0.2734
+        "h": 0.9082,
+        "w": 6.8298,
+        "x": 0.7278,
+        "y": 5.8285
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
-        "fill": [
-          130,
-          81,
-          186
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          246,
+          247,
+          249
         ],
-        "focus": false,
-        "line": [
-          228,
-          33,
-          216
-        ],
-        "line_width": 5.15167515672178,
-        "outline_only": false,
-        "ppt_type": 90,
-        "shape": "explosion2",
-        "theme_topic": "Lip"
+        "font_face": "Arial",
+        "font_size": 25,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Closed Moaning",
+        "theme_topic": "Choke",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 7.5145,
-        "w": 13.3447,
-        "x": -0.0102,
-        "y": 4.2355
+        "h": 2.1757,
+        "w": 3.9237,
+        "x": 0.5747,
+        "y": 3.3474
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          113,
-          188,
-          230
-        ],
+        "clip": "blob",
+        "focus": true,
         "line": [
-          113,
-          188,
-          230
+          197,
+          90,
+          106
         ],
-        "line_width": 5.263001198469976,
-        "outline_only": false,
-        "ppt_type": 1,
-        "shape": "rect",
-        "theme_topic": "Lip"
+        "line_width": 17,
+        "theme_topic": "Choke"
       },
-      "type": "shape",
+      "type": "svg_image",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 5.5326,
-        "w": 2.8689,
-        "x": 0.659,
-        "y": 0.7334
+        "h": 0.27,
+        "w": 3.521,
+        "x": 0.782,
+        "y": 5.0728
       },
       "id": "object_004",
       "properties": {
@@ -140,17 +136,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          96,
+          165,
+          250
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 30,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Surround Versed",
-        "theme_topic": "Lip",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Include",
+        "theme_topic": "Choke",
         "underline": false
       },
       "type": "text",
@@ -158,41 +154,39 @@
     },
     {
       "bbox": {
-        "h": 3.3969,
-        "w": 3.2773,
-        "x": 6.8308,
-        "y": 0.6618
+        "h": 2.2036,
+        "w": 3.9471,
+        "x": 4.7319,
+        "y": 3.342
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "panel",
-        "fill": [
-          71,
-          221,
-          181
+        "crop": [
+          0.27921114819197784,
+          0.11208388934967832,
+          0.10347672710701614,
+          0.29629175571488997
         ],
-        "line": [
-          113,
-          188,
-          230
+        "focus": true,
+        "mask_line": [
+          96,
+          165,
+          250
         ],
-        "line_width": 0.4860631878865633,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Lip"
+        "mask_overlay": true,
+        "theme_topic": "Choke",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "shape",
+      "type": "image",
       "z_order": 5
     },
     {
       "bbox": {
-        "h": 1.1441,
-        "w": 2.922,
-        "x": 7.0075,
-        "y": 1.2964
+        "h": 0.276,
+        "w": 3.5468,
+        "x": 4.8806,
+        "y": 5.0691
       },
       "id": "object_006",
       "properties": {
@@ -200,17 +194,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          28,
-          30,
-          36
+          96,
+          165,
+          250
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 44,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "367",
-        "theme_topic": "Lip",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Industry",
+        "theme_topic": "Choke",
         "underline": false
       },
       "type": "text",
@@ -218,117 +212,70 @@
     },
     {
       "bbox": {
-        "h": 0.6939,
-        "w": 2.9249,
-        "x": 7.0195,
-        "y": 2.7159
+        "h": 2.2024,
+        "w": 3.9322,
+        "x": 8.782,
+        "y": 3.3274
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          28,
-          30,
-          36
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
         ],
-        "font_face": "Verdana",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "writer famous creature bag yellow",
-        "theme_topic": "Lip",
-        "underline": false
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 1.896072263333535,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Choke"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.4309,
-        "w": 8.8889,
-        "x": 3.8106,
-        "y": 4.4309
+        "h": 1.875,
+        "w": 3.6594,
+        "x": 8.9332,
+        "y": 3.4642
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          79,
-          106,
-          159
+        "crop": [
+          0.31419907439536904,
+          0.15741356471386603,
+          0.06008412120293783,
+          0.1465027645265651
         ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          113,
-          188,
-          230
+        "focus": false,
+        "mask_line": [
+          96,
+          165,
+          250
         ],
-        "border": [
-          34,
-          86,
-          117
-        ],
-        "border_dash": "solid",
-        "border_width": 1.4004286051114838,
-        "cells": [
-          [
-            "prepare",
-            "bustling"
-          ],
-          [
-            "helpless seemly",
-            "deserve"
-          ],
-          [
-            "abortive",
-            "land"
-          ],
-          [
-            "utopian",
-            "engine"
-          ],
-          [
-            "language dark",
-            "stimulating"
-          ],
-          [
-            "money skip",
-            "idea"
-          ],
-          [
-            "assorted elated",
-            "cloistered potato"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 13,
-        "has_header": true,
-        "header": [
-          29,
-          56,
-          91
-        ],
-        "rows": 7,
-        "text_color": [
-          139,
-          125,
-          73
-        ],
-        "theme_topic": "Lip"
+        "mask_overlay": false,
+        "theme_topic": "Choke",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "table",
+      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.2642,
-        "w": 2.456,
-        "x": 3.9108,
-        "y": 0.7842
+        "h": 0.4426,
+        "w": 0.5895,
+        "x": 6.473,
+        "y": 1.4345
       },
       "id": "object_009",
       "properties": {
@@ -336,17 +283,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          71,
-          221,
-          181
+          96,
+          165,
+          250
         ],
-        "font_face": "Verdana",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 11,
         "italic": false,
         "kind": "caption",
         "margin": 0.03,
-        "text": "AMUSING",
-        "theme_topic": "Lip",
+        "text": "Evasive",
+        "theme_topic": "Choke",
         "underline": false
       },
       "type": "text",
@@ -354,28 +301,28 @@
     },
     {
       "bbox": {
-        "h": 1.0247,
-        "w": 2.4498,
-        "x": 3.911,
-        "y": 1.2702
+        "h": 0.6877,
+        "w": 0.6337,
+        "x": 6.4934,
+        "y": 2.0207
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          77,
-          56,
-          124
+          177,
+          185,
+          196
         ],
-        "font_face": "Trebuchet MS",
-        "font_size": 20,
+        "font_face": "Arial",
+        "font_size": 7,
         "italic": false,
-        "kind": "header",
+        "kind": "body",
         "margin": 0.04,
-        "text": "Abandoned Repeat Fix Tramp",
-        "theme_topic": "Lip",
+        "text": "deceive strong crime handle peel cause dam channel",
+        "theme_topic": "Choke",
         "underline": false
       },
       "type": "text",
@@ -383,28 +330,28 @@
     },
     {
       "bbox": {
-        "h": 1.408,
-        "w": 2.434,
-        "x": 3.9201,
-        "y": 2.5451
+        "h": 0.4716,
+        "w": 1.0339,
+        "x": 7.8149,
+        "y": 1.4424
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": false,
+        "bold": true,
         "color": [
-          34,
-          86,
-          117
+          96,
+          165,
+          250
         ],
-        "font_face": "Verdana",
+        "font_face": "Arial",
         "font_size": 11,
         "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "rake seemly expand naughty wooden spotless toothsome fallacious lie hand",
-        "theme_topic": "Lip",
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Powder Big",
+        "theme_topic": "Choke",
         "underline": false
       },
       "type": "text",
@@ -412,88 +359,88 @@
     },
     {
       "bbox": {
-        "h": 3.3909,
-        "w": 2.2562,
-        "x": 10.4576,
-        "y": 0.6482
+        "h": 0.6707,
+        "w": 1.0532,
+        "x": 7.8193,
+        "y": 2.0224
       },
       "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "panel",
-        "fill": [
-          113,
-          188,
-          230
-        ],
-        "line": [
-          113,
-          188,
-          230
-        ],
-        "line_width": 2.890204942192097,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Lip"
-      },
-      "type": "shape",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.1362,
-        "w": 1.9158,
-        "x": 10.632,
-        "y": 1.3239
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          28,
-          30,
-          36
-        ],
-        "font_face": "Trebuchet MS",
-        "font_size": 50,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "2x",
-        "theme_topic": "Lip",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.6815,
-        "w": 1.8941,
-        "x": 10.6221,
-        "y": 2.7392
-      },
-      "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          28,
-          30,
-          36
+          177,
+          185,
+          196
         ],
-        "font_face": "Verdana",
-        "font_size": 12,
+        "font_face": "Arial",
+        "font_size": 9,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "twist crabby stage cat groan whistle distinct seat",
-        "theme_topic": "Lip",
+        "text": "calculate dinner abandoned yoke foamy annoying save gentle park",
+        "theme_topic": "Choke",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 12
+    },
+    {
+      "bbox": {
+        "h": 2.3289,
+        "w": 1.6856,
+        "x": 9.3184,
+        "y": 0.5591
+      },
+      "id": "object_013",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          43,
+          51,
+          64
+        ],
+        "line": [
+          43,
+          51,
+          64
+        ],
+        "line_width": 0.7488919924774587,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Choke"
+      },
+      "type": "shape",
+      "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.4602,
+        "w": 1.2248,
+        "x": 9.5644,
+        "y": 1.4533
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          96,
+          165,
+          250
+        ],
+        "font_face": "Arial",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Hideous",
+        "theme_topic": "Choke",
         "underline": false
       },
       "type": "text",
@@ -501,28 +448,28 @@
     },
     {
       "bbox": {
-        "h": 0.6335,
-        "w": 1.4347,
-        "x": 0.2976,
-        "y": 3.6887
+        "h": 0.6871,
+        "w": 1.2148,
+        "x": 9.5661,
+        "y": 1.993
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          71,
-          93,
-          74
+          177,
+          185,
+          196
         ],
-        "font_face": "Verdana",
+        "font_face": "Arial",
         "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "gather",
-        "theme_topic": "Lip",
+        "text": "alcoholic oranges scarecrow nonstop harass abnormal end degree baseball entertain",
+        "theme_topic": "Choke",
         "underline": false
       },
       "type": "text",
@@ -530,149 +477,148 @@
     },
     {
       "bbox": {
-        "h": 0.3571,
-        "w": 0.9837,
-        "x": 12.0548,
-        "y": 1.0459
+        "h": 0.4563,
+        "w": 1.0508,
+        "x": 11.4962,
+        "y": 1.4277
       },
       "id": "object_016",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "arrows",
-        "fill": [
-          92,
-          31,
-          75
-        ],
-        "focus": false,
-        "line": [
-          156,
-          123,
-          97
-        ],
-        "line_width": 4.708669753901764,
-        "outline_only": true,
-        "ppt_type": 53,
-        "shape": "right_arrow_callout",
-        "theme_topic": "Lip"
-      },
-      "type": "shape",
-      "z_order": 16
-    },
-    {
-      "bbox": {
-        "h": 1.2279,
-        "w": 0.757,
-        "x": 4.1337,
-        "y": 1.1414
-      },
-      "id": "object_017",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          211,
-          84,
-          215
-        ],
-        "connector": "elbow",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Lip",
-        "width": 2.7090544605125166
-      },
-      "type": "connector",
-      "z_order": 17
-    },
-    {
-      "bbox": {
-        "h": 0.433,
-        "w": 1.3424,
-        "x": 4.1741,
-        "y": 2.0092
-      },
-      "id": "object_018",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "callouts",
-        "fill": [
-          30,
-          30,
-          207
-        ],
-        "focus": false,
-        "line": [
-          198,
-          182,
-          43
-        ],
-        "line_width": 5.07964378222068,
-        "outline_only": true,
-        "ppt_type": 110,
-        "shape": "line_callout",
-        "theme_topic": "Lip"
-      },
-      "type": "shape",
-      "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.7698,
-        "w": 0.735,
-        "x": 3.1182,
-        "y": 2.8092
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          155,
-          149,
-          137
-        ],
-        "focus": false,
-        "line": [
-          189,
-          139,
-          86
-        ],
-        "line_width": 6.154713547469012,
-        "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Lip"
-      },
-      "type": "shape",
-      "z_order": 19
-    },
-    {
-      "bbox": {
-        "h": 0.4894,
-        "w": 2.1644,
-        "x": 4.1663,
-        "y": 0.2735
-      },
-      "id": "object_020",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          115,
-          153,
-          92
+          96,
+          165,
+          250
         ],
-        "font_face": "Verdana",
-        "font_size": 14,
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Far-Flung Plot",
+        "theme_topic": "Choke",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.6469,
+        "w": 1.0674,
+        "x": 11.5044,
+        "y": 2.0002
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          177,
+          185,
+          196
+        ],
+        "font_face": "Arial",
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "bell",
-        "theme_topic": "Lip",
+        "text": "depend paltry spiky absorbed attack rob coil machine abandoned strong relieved frighten whirl",
+        "theme_topic": "Choke",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.4849,
+        "w": 0.7106,
+        "x": 10.6108,
+        "y": 0.6022
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": [
+          94,
+          168,
+          69
+        ],
+        "bold": false,
+        "color": [
+          225,
+          99,
+          68
+        ],
+        "font_face": "Arial",
+        "font_size": 7,
+        "italic": true,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "helpless whisper wriggle colour towering",
+        "theme_topic": "Choke",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.2,
+        "w": 2.2494,
+        "x": 2.0942,
+        "y": 4.2417
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          159,
+          110,
+          175
+        ],
+        "font_face": "Arial",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Letters",
+        "theme_topic": "Choke",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 19
+    },
+    {
+      "bbox": {
+        "h": 0.2428,
+        "w": 0.6083,
+        "x": 3.3057,
+        "y": 2.9425
+      },
+      "id": "object_020",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          56,
+          172,
+          196
+        ],
+        "font_face": "Arial",
+        "font_size": 5,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Knowledgeable Wiggly",
+        "theme_topic": "Choke",
         "underline": false
       },
       "type": "text",

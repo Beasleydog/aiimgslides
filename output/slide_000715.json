@@ -9,122 +9,76 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        168,
-        126,
-        111
+      "back_color": [
+        114,
+        130,
+        166
       ],
-      "style": "solid",
-      "theme_topic": "Erratic Scream"
+      "fill": [
+        139,
+        158,
+        201
+      ],
+      "fore_color": [
+        32,
+        119,
+        149
+      ],
+      "pattern": 36,
+      "style": "pattern",
+      "theme_topic": "Rabbits"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 18,
+    "level": 18,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 18
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.6924,
-        "w": 5.4917,
-        "x": 1.6533,
-        "y": 2.287
+        "h": 2.6818,
+        "w": 3.8098,
+        "x": 7.7303,
+        "y": 5.6376
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "callouts",
+        "dash": 5,
+        "family": "flowchart",
         "fill": [
-          178,
-          82,
-          92
+          163,
+          123,
+          111
         ],
         "focus": false,
         "line": [
-          190,
-          161,
-          159
+          47,
+          114,
+          191
         ],
-        "line_width": 4.347264105262915,
+        "line_width": 4.5997426535387484,
         "outline_only": false,
-        "ppt_type": 106,
-        "shape": "round_callout",
-        "theme_topic": "Erratic Scream"
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Rabbits"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 4.2409,
-        "w": 6.841,
-        "x": 0.998,
-        "y": 1.1065
+        "h": 1.1596,
+        "w": 6.9357,
+        "x": 3.0873,
+        "y": 0.6503
       },
       "id": "object_002",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "math",
-        "fill": [
-          92,
-          137,
-          155
-        ],
-        "focus": false,
-        "line": [
-          146,
-          218,
-          53
-        ],
-        "line_width": 4.577112305740342,
-        "outline_only": false,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Erratic Scream"
-      },
-      "type": "shape",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 2.931,
-        "w": 3.7038,
-        "x": 10.2536,
-        "y": -0.439
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "stars",
-        "fill": [
-          139,
-          98,
-          103
-        ],
-        "focus": false,
-        "line": [
-          141,
-          224,
-          105
-        ],
-        "line_width": 4.717233609816588,
-        "outline_only": true,
-        "ppt_type": 89,
-        "shape": "explosion1",
-        "theme_topic": "Erratic Scream"
-      },
-      "type": "shape",
-      "z_order": 3
-    },
-    {
-      "bbox": {
-        "h": 0.9145,
-        "w": 7.7554,
-        "x": 0.7726,
-        "y": 5.8588
-      },
-      "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -134,13 +88,89 @@
           30,
           36
         ],
-        "font_face": "Georgia",
-        "font_size": 36,
+        "font_face": "Aptos Display",
+        "font_size": 32,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Request Useful",
-        "theme_topic": "Erratic Scream",
+        "text": "Hospitable Fruit Husky Entertain",
+        "theme_topic": "Rabbits",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 2.3424,
+        "w": 3.8359,
+        "x": 0.5648,
+        "y": 1.9771
+      },
+      "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "categories": [
+          "tease",
+          "greet",
+          "pies",
+          "stone",
+          "drown",
+          "capricious"
+        ],
+        "chart": "doughnut",
+        "focus": true,
+        "has_legend": false,
+        "has_title": false,
+        "ppt_type": -4120,
+        "series": [
+          {
+            "color": [
+              103,
+              77,
+              40
+            ],
+            "name": "sponge uptight",
+            "values": [
+              35,
+              46,
+              40,
+              27,
+              15,
+              49
+            ]
+          }
+        ],
+        "theme_topic": "Rabbits",
+        "title": "puzzled arrogant capable"
+      },
+      "type": "chart",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 0.7156,
+        "w": 0.7484,
+        "x": 9.1917,
+        "y": 3.4511
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          77,
+          87,
+          110
+        ],
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "incandescent abrupt nine whip violet hammer collect grey downtown",
+        "theme_topic": "Rabbits",
         "underline": false
       },
       "type": "text",
@@ -148,88 +178,88 @@
     },
     {
       "bbox": {
-        "h": 2.3406,
-        "w": 3.0334,
-        "x": 6.8371,
-        "y": 3.2118
+        "h": 0.7004,
+        "w": 0.5282,
+        "x": 10.6682,
+        "y": 3.4422
       },
       "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          184,
-          151,
-          139
-        ],
-        "line": [
-          184,
-          151,
-          139
-        ],
-        "line_width": 1.976484707779851,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Erratic Scream"
-      },
-      "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 0.4435,
-        "w": 2.5489,
-        "x": 7.0637,
-        "y": 4.0829
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          31,
-          117,
-          161
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Berserk",
-        "theme_topic": "Erratic Scream",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 0.7043,
-        "w": 2.5522,
-        "x": 7.069,
-        "y": 4.6582
-      },
-      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": false,
         "color": [
-          91,
-          73,
-          69
+          77,
+          87,
+          110
         ],
         "font_face": "Aptos",
-        "font_size": 12,
+        "font_size": 7,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "important macabre ugly energetic friend mere lace wiry gamy interesting mundane thoughtful",
-        "theme_topic": "Erratic Scream",
+        "text": "knock wound cobweb ray scorch cracker",
+        "theme_topic": "Rabbits",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 2.3482,
+        "w": 3.8654,
+        "x": 4.7337,
+        "y": 4.7082
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 5,
+        "family": "panel",
+        "fill": [
+          32,
+          119,
+          149
+        ],
+        "line": [
+          114,
+          130,
+          166
+        ],
+        "line_width": 2.1492480577051603,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Rabbits"
+      },
+      "type": "shape",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 0.9088,
+        "w": 3.5086,
+        "x": 4.9273,
+        "y": 5.2073
+      },
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          139,
+          158,
+          201
+        ],
+        "font_face": "Aptos Display",
+        "font_size": 50,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "23%",
+        "theme_topic": "Rabbits",
         "underline": false
       },
       "type": "text",
@@ -237,73 +267,70 @@
     },
     {
       "bbox": {
-        "h": 2.3328,
-        "w": 2.6911,
-        "x": 10.067,
-        "y": 3.1948
+        "h": 0.5623,
+        "w": 3.4951,
+        "x": 4.9401,
+        "y": 6.112
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          184,
-          151,
-          139
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "line": [
-          184,
-          151,
-          139
-        ],
-        "line_width": 5.368897776626858,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Erratic Scream"
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "forgetful dog erect scene",
+        "theme_topic": "Rabbits",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.5779,
-        "w": 0.5518,
-        "x": 10.2782,
-        "y": 3.4654
+        "h": 2.3466,
+        "w": 3.8536,
+        "x": 0.5692,
+        "y": 4.7087
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "stars",
+        "dash": 5,
+        "family": "panel",
         "fill": [
-          31,
-          117,
-          161
+          114,
+          130,
+          166
         ],
-        "focus": false,
         "line": [
-          110,
-          188,
-          32
+          114,
+          130,
+          166
         ],
-        "line_width": 2.7771787139103936,
+        "line_width": 1.5011012627473812,
         "outline_only": false,
-        "ppt_type": 94,
-        "shape": "star16",
-        "theme_topic": "Erratic Scream"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Rabbits"
       },
       "type": "shape",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.4438,
-        "w": 2.1741,
-        "x": 10.347,
-        "y": 4.1315
+        "h": 0.9183,
+        "w": 3.4771,
+        "x": 0.7391,
+        "y": 5.1871
       },
       "id": "object_010",
       "properties": {
@@ -311,17 +338,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          31,
-          117,
-          161
+          139,
+          158,
+          201
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Aptos Display",
+        "font_size": 50,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "End River",
-        "theme_topic": "Erratic Scream",
+        "kind": "header",
+        "margin": 0.04,
+        "text": "615",
+        "theme_topic": "Rabbits",
         "underline": false
       },
       "type": "text",
@@ -329,10 +356,10 @@
     },
     {
       "bbox": {
-        "h": 0.6716,
-        "w": 2.2077,
-        "x": 10.3531,
-        "y": 4.6369
+        "h": 0.5606,
+        "w": 3.5061,
+        "x": 0.7342,
+        "y": 6.1239
       },
       "id": "object_011",
       "properties": {
@@ -340,17 +367,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          91,
-          73,
-          69
+          28,
+          30,
+          36
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 12,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "concentrate powder sign sharp spiders carriage example cloistered fearless steadfast strap dry damp nation",
-        "theme_topic": "Erratic Scream",
+        "text": "string old-fashioned grandfather brief slap few",
+        "theme_topic": "Rabbits",
         "underline": false
       },
       "type": "text",
@@ -358,10 +385,10 @@
     },
     {
       "bbox": {
-        "h": 1.2081,
-        "w": 5.5649,
-        "x": 0.7711,
-        "y": 0.726
+        "h": 0.7873,
+        "w": 3.5578,
+        "x": 9.083,
+        "y": 4.7953
       },
       "id": "object_012",
       "properties": {
@@ -373,42 +400,42 @@
           30,
           36
         ],
-        "font_face": "Georgia",
-        "font_size": 24,
+        "font_face": "Aptos Display",
+        "font_size": 22,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Dirt Damaged Simplistic Wacky Great Creator House",
-        "theme_topic": "Erratic Scream",
-        "underline": false
+        "text": "Eight Title Awake Puzzled",
+        "theme_topic": "Rabbits",
+        "underline": true
       },
       "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.3592,
-        "w": 3.0758,
-        "x": 0.7544,
-        "y": 2.153
+        "h": 1.0747,
+        "w": 3.5532,
+        "x": 9.0606,
+        "y": 5.8892
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
-        "bold": true,
+        "bold": false,
         "color": [
-          31,
-          117,
-          161
+          77,
+          87,
+          110
         ],
         "font_face": "Aptos",
-        "font_size": 9,
+        "font_size": 11,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "SILK",
-        "theme_topic": "Erratic Scream",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "awake burly unruly efficacious old honorable hill dreary wry",
+        "theme_topic": "Rabbits",
         "underline": false
       },
       "type": "text",
@@ -416,224 +443,148 @@
     },
     {
       "bbox": {
-        "h": 0.5643,
-        "w": 0.8347,
-        "x": 1.5088,
-        "y": 2.2394
+        "h": 0.4319,
+        "w": 0.4819,
+        "x": 5.0123,
+        "y": 2.9137
       },
       "id": "object_014",
       "properties": {
         "archetype": "atomic_composition",
-        "fill": [
-          161,
-          173,
-          88
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          32,
+          119,
+          149
         ],
-        "line": [
-          178,
-          139,
-          26
-        ],
-        "line_width": 1.9280382716218212,
-        "pattern": "blob",
-        "points": [
-          [
-            0.12,
-            0.2
-          ],
-          [
-            0.35,
-            0.04
-          ],
-          [
-            0.7,
-            0.12
-          ],
-          [
-            0.95,
-            0.42
-          ],
-          [
-            0.82,
-            0.82
-          ],
-          [
-            0.45,
-            0.98
-          ],
-          [
-            0.08,
-            0.72
-          ],
-          [
-            0.02,
-            0.38
-          ]
-        ],
-        "theme_topic": "Erratic Scream"
+        "font_face": "Aptos",
+        "font_size": 9,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Arrive",
+        "theme_topic": "Rabbits",
+        "underline": false
       },
-      "type": "freeform",
+      "type": "text",
       "z_order": 14
     },
     {
       "bbox": {
-        "h": 0.3922,
-        "w": 0.6918,
-        "x": 7.5128,
-        "y": 3.0731
+        "h": 0.7172,
+        "w": 0.5175,
+        "x": 4.9772,
+        "y": 3.4443
       },
       "id": "object_015",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "flowchart",
-        "fill": [
-          210,
-          90,
-          191
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          77,
+          87,
+          110
         ],
-        "focus": false,
-        "line": [
-          176,
-          157,
-          225
-        ],
-        "line_width": 2.1700209100128847,
-        "outline_only": false,
-        "ppt_type": 65,
-        "shape": "flow_predefined",
-        "theme_topic": "Erratic Scream"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "robust experience middle trees voracious current",
+        "theme_topic": "Rabbits",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 15
     },
     {
       "bbox": {
-        "h": 0.7333,
-        "w": 0.7758,
-        "x": 10.7281,
-        "y": 6.1567
+        "h": 0.7184,
+        "w": 0.5101,
+        "x": 6.173,
+        "y": 3.4336
       },
       "id": "object_016",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          105,
-          39,
-          154
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          77,
+          87,
+          110
         ],
-        "focus": false,
-        "line": [
-          107,
-          142,
-          223
-        ],
-        "line_width": 5.7764214761034385,
-        "outline_only": false,
-        "ppt_type": 37,
-        "shape": "left_right_arrow",
-        "theme_topic": "Erratic Scream"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "fish spurious profit applaud cat shallow",
+        "theme_topic": "Rabbits",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 16
     },
     {
       "bbox": {
-        "h": 0.8757,
-        "w": 1.1016,
-        "x": 4.1426,
-        "y": 3.3899
+        "h": 0.6863,
+        "w": 0.5221,
+        "x": 7.2299,
+        "y": 3.4688
       },
       "id": "object_017",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "basic",
-        "fill": [
-          155,
-          34,
-          212
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          77,
+          87,
+          110
         ],
-        "focus": false,
-        "line": [
-          89,
-          29,
-          71
-        ],
-        "line_width": 3.541384127969472,
-        "outline_only": false,
-        "ppt_type": 142,
-        "shape": "pie",
-        "theme_topic": "Erratic Scream"
+        "font_face": "Aptos",
+        "font_size": 7,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "enormous soda camp shame plant door exclusive",
+        "theme_topic": "Rabbits",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 17
     },
     {
       "bbox": {
-        "h": 0.7842,
-        "w": 0.4624,
-        "x": 5.7103,
-        "y": 6.0341
+        "h": 0.5078,
+        "w": 1.086,
+        "x": 11.4765,
+        "y": 4.9336
       },
       "id": "object_018",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 4,
-        "family": "arrows",
-        "fill": [
-          26,
-          149,
-          83
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          224,
+          100,
+          197
         ],
-        "focus": false,
-        "line": [
-          67,
-          35,
-          147
-        ],
-        "line_width": 2.049290882902395,
-        "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Erratic Scream"
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Grubby Oceanic Sharp",
+        "theme_topic": "Rabbits",
+        "underline": true
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 18
-    },
-    {
-      "bbox": {
-        "h": 0.2634,
-        "w": 1.3393,
-        "x": 8.0344,
-        "y": 3.0456
-      },
-      "id": "object_019",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "flowchart",
-        "fill": [
-          91,
-          214,
-          82
-        ],
-        "focus": false,
-        "line": [
-          62,
-          130,
-          73
-        ],
-        "line_width": 4.234826223022348,
-        "outline_only": false,
-        "ppt_type": 69,
-        "shape": "flow_terminator",
-        "theme_topic": "Erratic Scream"
-      },
-      "type": "shape",
-      "z_order": 19
     }
   ],
   "slide": {

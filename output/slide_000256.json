@@ -8,74 +8,97 @@
     },
     "id": "object_000",
     "properties": {
-      "angle": 270,
       "archetype": "atomic_composition",
-      "colors": [
-        [
-          125,
-          165,
-          210
-        ],
-        [
-          51,
-          63,
-          101
-        ]
-      ],
       "fill": [
-        63,
-        122,
-        189
+        201,
+        43,
+        56
       ],
-      "focus": "top_right",
-      "gradient_type": "radial",
-      "style": "gradient",
-      "theme_topic": "Wrist"
+      "style": "solid",
+      "theme_topic": "Screw Remarkable"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 7,
+    "level": 7,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 7
+  },
   "objects": [
     {
       "bbox": {
-        "h": 1.4141,
-        "w": 6.8622,
-        "x": 1.1935,
-        "y": 3.3752
+        "h": 4.9668,
+        "w": 7.0538,
+        "x": 6.5527,
+        "y": -0.3451
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
+        "dash": 3,
+        "family": "flowchart",
         "fill": [
-          83,
-          118,
-          172
+          117,
+          112,
+          107
         ],
         "focus": false,
         "line": [
-          50,
-          72,
-          89
+          125,
+          214,
+          81
         ],
-        "line_width": 7.343386090999514,
-        "outline_only": true,
-        "ppt_type": 50,
-        "shape": "notched_right_arrow",
-        "theme_topic": "Wrist"
+        "line_width": 5.283867029095351,
+        "outline_only": false,
+        "ppt_type": 65,
+        "shape": "flow_predefined",
+        "theme_topic": "Screw Remarkable"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 0.9511,
-        "w": 8.0899,
-        "x": 0.5679,
-        "y": 0.3394
+        "h": 3.7893,
+        "w": 7.9212,
+        "x": 1.3149,
+        "y": 1.0248
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 3,
+        "family": "panel",
+        "fill": [
+          204,
+          59,
+          71
+        ],
+        "line": [
+          207,
+          68,
+          80
+        ],
+        "line_width": 2.6073085303195325,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Screw Remarkable"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.1688,
+        "w": 6.7997,
+        "x": 2.9885,
+        "y": 0.6693
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -86,110 +109,54 @@
           252
         ],
         "font_face": "Aptos Display",
-        "font_size": 37,
+        "font_size": 28,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Educated Afford",
-        "theme_topic": "Wrist",
+        "text": "Helpless Payment Contain",
+        "theme_topic": "Screw Remarkable",
         "underline": false
       },
       "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 5.0394,
-        "w": 6.3152,
-        "x": 0.5752,
-        "y": 1.9076
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          230,
-          171,
-          71
-        ],
-        "band_cols": false,
-        "band_rows": false,
-        "body": [
-          145,
-          212,
-          183
-        ],
-        "border": [
-          196,
-          211,
-          55
-        ],
-        "border_dash": "solid",
-        "border_width": 1.899005399686672,
-        "cells": [
-          [
-            "disagreeable",
-            "descriptive sun"
-          ],
-          [
-            "cow satisfying",
-            "insidious"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 14,
-        "has_header": true,
-        "header": [
-          212,
-          30,
-          111
-        ],
-        "rows": 2,
-        "text_color": [
-          182,
-          122,
-          30
-        ],
-        "theme_topic": "Wrist"
-      },
-      "type": "table",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 0.274,
-        "w": 5.0825,
-        "x": 7.5563,
-        "y": 1.97
+        "h": 5.0451,
+        "w": 2.1973,
+        "x": 10.5836,
+        "y": 1.9897
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          51,
-          63,
-          101
+        "dash": 2,
+        "family": "panel",
+        "fill": [
+          96,
+          165,
+          250
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "HANDLE",
-        "theme_topic": "Wrist",
-        "underline": false
+        "line": [
+          207,
+          68,
+          80
+        ],
+        "line_width": 1.5628124986831944,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Screw Remarkable"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 1.0303,
-        "w": 5.0594,
-        "x": 7.5468,
-        "y": 2.4362
+        "h": 1.1487,
+        "w": 1.8359,
+        "x": 10.7815,
+        "y": 2.9265
       },
       "id": "object_005",
       "properties": {
@@ -197,17 +164,17 @@
         "bg_color": null,
         "bold": true,
         "color": [
-          203,
-          223,
-          145
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos Display",
-        "font_size": 30,
+        "font_size": 52,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Imminent March Oatmeal",
-        "theme_topic": "Wrist",
+        "text": "203",
+        "theme_topic": "Screw Remarkable",
         "underline": false
       },
       "type": "text",
@@ -215,10 +182,10 @@
     },
     {
       "bbox": {
-        "h": 3.1365,
-        "w": 5.0713,
-        "x": 7.5298,
-        "y": 3.7276
+        "h": 0.7034,
+        "w": 1.8335,
+        "x": 10.7805,
+        "y": 5.0882
       },
       "id": "object_006",
       "properties": {
@@ -226,17 +193,17 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          163,
-          191,
-          223
+          246,
+          248,
+          252
         ],
         "font_face": "Aptos",
-        "font_size": 14,
+        "font_size": 13,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "settle rampant wave button maniacal intend accessible worm refuse invention cemetery soak towering shelf downtown tap rabbit kaput purpose roll best race",
-        "theme_topic": "Wrist",
+        "text": "unique boy ready cumbersome gleaming big",
+        "theme_topic": "Screw Remarkable",
         "underline": false
       },
       "type": "text",
@@ -244,233 +211,26 @@
     },
     {
       "bbox": {
-        "h": 0.4468,
-        "w": 0.5504,
-        "x": 2.7524,
-        "y": 2.9604
+        "h": 5.0662,
+        "w": 2.2262,
+        "x": 0.5192,
+        "y": 1.9812
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
-          52,
-          80,
-          62
+        "clip": "hex",
+        "focus": true,
+        "line": [
+          96,
+          165,
+          250
         ],
-        "secondary": [
-          255,
-          206,
-          86
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#27956f\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#3b8592\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#27956f\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Wrist"
+        "line_width": 8,
+        "theme_topic": "Screw Remarkable"
       },
-      "type": "svg",
+      "type": "svg_image",
       "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.378,
-        "w": 2.3906,
-        "x": 3.2375,
-        "y": 0.2
-      },
-      "id": "object_008",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          174,
-          100,
-          62
-        ],
-        "font_face": "Aptos",
-        "font_size": 13,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "back fixed magenta resonant",
-        "theme_topic": "Wrist",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.4033,
-        "w": 0.6063,
-        "x": 2.8662,
-        "y": 0.829
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          204,
-          72,
-          100
-        ],
-        "focus": false,
-        "line": [
-          221,
-          86,
-          57
-        ],
-        "line_width": 4.200162983990814,
-        "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Wrist"
-      },
-      "type": "shape",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.2705,
-        "w": 2.0125,
-        "x": 3.1484,
-        "y": 1.863
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          109,
-          221,
-          83
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": false,
-        "ppt_type": 1,
-        "theme_topic": "Wrist",
-        "width": 2.559298724499159
-      },
-      "type": "connector",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.2571,
-        "w": 2.0161,
-        "x": 2.893,
-        "y": 3.4221
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          82,
-          58,
-          204
-        ],
-        "bold": false,
-        "color": [
-          54,
-          28,
-          87
-        ],
-        "font_face": "Aptos",
-        "font_size": 8,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "shirt innate sail",
-        "theme_topic": "Wrist",
-        "underline": true
-      },
-      "type": "text",
-      "z_order": 11
-    },
-    {
-      "bbox": {
-        "h": 1.1712,
-        "w": 1.5355,
-        "x": 2.8578,
-        "y": 2.754
-      },
-      "id": "object_012",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "burst",
-        "primary": [
-          76,
-          92,
-          31
-        ],
-        "secondary": [
-          141,
-          69,
-          114
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <path d=\"M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z\"\n              fill=\"#adb488\" opacity=\"0.78\"/>\n        <path d=\"M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z\"\n              fill=\"#64933b\" opacity=\"0.72\"/>\n        </svg>",
-        "theme_topic": "Wrist"
-      },
-      "type": "svg",
-      "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 1.3378,
-        "w": 0.9222,
-        "x": 3.6204,
-        "y": 5.724
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          187,
-          156,
-          26
-        ],
-        "connector": "straight",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 1,
-        "theme_topic": "Wrist",
-        "width": 2.53415072797691
-      },
-      "type": "connector",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.2652,
-        "w": 0.23,
-        "x": 10.1145,
-        "y": 6.6655
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "arrows",
-        "fill": [
-          138,
-          161,
-          52
-        ],
-        "focus": false,
-        "line": [
-          184,
-          79,
-          205
-        ],
-        "line_width": 3.090672768065119,
-        "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Wrist"
-      },
-      "type": "shape",
-      "z_order": 14
     }
   ],
   "slide": {

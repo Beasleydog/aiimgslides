@@ -12,7 +12,17 @@ SVG_IMAGE_CLIPS = ["blob", "ticket", "arch", "hex"]
 
 
 def svg_color(rgb):
-    return "#%02x%02x%02x" % rgb[:3]
+    values = []
+
+    def collect(value):
+        if isinstance(value, (list, tuple)):
+            for item in value:
+                collect(item)
+        else:
+            values.append(value)
+
+    collect(rgb)
+    return "#%02x%02x%02x" % tuple(int(v) for v in values[:3])
 
 
 def make_svg(x, y, w, h):

@@ -8,102 +8,208 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 315,
       "archetype": "atomic_composition",
-      "back_color": [
-        210,
-        72,
-        94
+      "colors": [
+        [
+          225,
+          94,
+          113
+        ],
+        [
+          51,
+          63,
+          101
+        ]
       ],
       "fill": [
         210,
         72,
         94
       ],
-      "fore_color": [
-        51,
-        63,
-        101
-      ],
-      "pattern": 16,
-      "style": "pattern",
-      "theme_topic": "Erratic"
+      "focus": "bottom_right",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Soda Pocket"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 12,
+    "level": 12,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 12
+  },
   "objects": [
     {
       "bbox": {
-        "h": 2.1515,
-        "w": 6.1266,
-        "x": 1.3521,
-        "y": 5.7701
+        "h": 4.2764,
+        "w": 4.7372,
+        "x": 2.9292,
+        "y": 2.2873
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "symbols",
+        "dash": 1,
+        "family": "callouts",
         "fill": [
-          208,
-          134,
-          94
+          62,
+          93,
+          107
         ],
         "focus": false,
         "line": [
-          84,
-          145,
-          140
+          85,
+          78,
+          48
         ],
-        "line_width": 3.4348596893862977,
-        "outline_only": false,
-        "ppt_type": 172,
-        "shape": "gear6",
-        "theme_topic": "Erratic"
+        "line_width": 4.161870969977475,
+        "outline_only": true,
+        "ppt_type": 107,
+        "shape": "oval_callout",
+        "theme_topic": "Soda Pocket"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.5841,
-        "w": 8.9407,
-        "x": 1.2022,
-        "y": 3.5022
+        "h": 1.8198,
+        "w": 7.1031,
+        "x": 2.6225,
+        "y": 3.8754
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
-        "family": "arrows",
+        "family": "symbols",
         "fill": [
-          155,
-          73,
-          125
+          172,
+          189,
+          56
         ],
         "focus": false,
         "line": [
-          112,
           111,
-          54
+          187,
+          72
         ],
-        "line_width": 5.1757811225291785,
+        "line_width": 6.827464245641601,
         "outline_only": false,
-        "ppt_type": 57,
-        "shape": "left_right_arrow_callout",
-        "theme_topic": "Erratic"
+        "ppt_type": 22,
+        "shape": "lightning",
+        "theme_topic": "Soda Pocket"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 1.0246,
-        "w": 7.3937,
-        "x": 0.5744,
-        "y": 0.3253
+        "h": 4.6054,
+        "w": 6.6242,
+        "x": 0.4369,
+        "y": 2.7999
       },
       "id": "object_003",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          130,
+          97,
+          66
+        ],
+        "focus": false,
+        "line": [
+          60,
+          90,
+          65
+        ],
+        "line_width": 6.23214960331957,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Soda Pocket"
+      },
+      "type": "shape",
+      "z_order": 3
+    },
+    {
+      "bbox": {
+        "h": 3.9609,
+        "w": 4.1828,
+        "x": 10.281,
+        "y": 0.5896
+      },
+      "id": "object_004",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 2,
+        "family": "stars",
+        "fill": [
+          87,
+          112,
+          49
+        ],
+        "focus": false,
+        "line": [
+          97,
+          162,
+          69
+        ],
+        "line_width": 2.5551100488987886,
+        "outline_only": false,
+        "ppt_type": 91,
+        "shape": "star4",
+        "theme_topic": "Soda Pocket"
+      },
+      "type": "shape",
+      "z_order": 4
+    },
+    {
+      "bbox": {
+        "h": 4.2974,
+        "w": 9.1725,
+        "x": 0.7162,
+        "y": 0.6893
+      },
+      "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          219,
+          86,
+          106
+        ],
+        "line": [
+          225,
+          94,
+          113
+        ],
+        "line_width": 2.671732825500241,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Soda Pocket"
+      },
+      "type": "shape",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 5.5298,
+        "w": 2.8451,
+        "x": 0.6272,
+        "y": 0.7311
+      },
+      "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -113,26 +219,102 @@
           252,
           247
         ],
-        "font_face": "Aptos Display",
-        "font_size": 35,
+        "font_face": "Arial",
+        "font_size": 30,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Hate Request Imminent Powder",
-        "theme_topic": "Erratic",
+        "text": "Real Choke",
+        "theme_topic": "Soda Pocket",
         "underline": false
       },
       "type": "text",
-      "z_order": 3
+      "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.2603,
-        "w": 2.9324,
-        "x": 7.8345,
-        "y": 2.4412
+        "h": 6.2496,
+        "w": 3.5097,
+        "x": 9.2464,
+        "y": 0.6349
       },
-      "id": "object_004",
+      "id": "object_007",
+      "properties": {
+        "archetype": "atomic_composition",
+        "categories": [
+          "men",
+          "comb",
+          "joyous",
+          "liquid",
+          "overjoyed"
+        ],
+        "chart": "doughnut",
+        "focus": true,
+        "has_legend": false,
+        "has_title": true,
+        "ppt_type": -4120,
+        "series": [
+          {
+            "color": [
+              138,
+              73,
+              80
+            ],
+            "name": "pleasure",
+            "values": [
+              41,
+              47,
+              52,
+              80,
+              48
+            ]
+          }
+        ],
+        "theme_topic": "Soda Pocket",
+        "title": "limit spring"
+      },
+      "type": "chart",
+      "z_order": 7
+    },
+    {
+      "bbox": {
+        "h": 6.2402,
+        "w": 2.6179,
+        "x": 3.7662,
+        "y": 0.6485
+      },
+      "id": "object_008",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          165,
+          69,
+          95
+        ],
+        "line": [
+          225,
+          94,
+          113
+        ],
+        "line_width": 4.834360610693125,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Soda Pocket"
+      },
+      "type": "shape",
+      "z_order": 8
+    },
+    {
+      "bbox": {
+        "h": 0.7433,
+        "w": 2.2569,
+        "x": 3.9393,
+        "y": 0.8174
+      },
+      "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -142,55 +324,26 @@
           63,
           101
         ],
-        "font_face": "Aptos",
-        "font_size": 9,
+        "font_face": "Arial",
+        "font_size": 37,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "COPY SHELF",
-        "theme_topic": "Erratic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 4
-    },
-    {
-      "bbox": {
-        "h": 0.3612,
-        "w": 2.9094,
-        "x": 7.8309,
-        "y": 2.9314
-      },
-      "id": "object_005",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": true,
-        "color": [
-          183,
-          58,
-          44
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 18,
-        "italic": true,
         "kind": "header",
         "margin": 0.04,
-        "text": "Rush",
-        "theme_topic": "Erratic",
+        "text": "92%",
+        "theme_topic": "Soda Pocket",
         "underline": false
       },
       "type": "text",
-      "z_order": 5
+      "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2871,
-        "w": 2.9239,
-        "x": 7.8719,
-        "y": 3.5214
+        "h": 5.2371,
+        "w": 2.2482,
+        "x": 3.9109,
+        "y": 1.5912
       },
-      "id": "object_006",
+      "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
@@ -200,172 +353,53 @@
           218,
           220
         ],
-        "font_face": "Aptos",
-        "font_size": 7,
+        "font_face": "Arial",
+        "font_size": 10,
         "italic": false,
         "kind": "body",
         "margin": 0.04,
-        "text": "glass available rhyme chalk view pleasant lacking volleyball frequent enchanting",
-        "theme_topic": "Erratic",
+        "text": "bolt substantial tired include open back order",
+        "theme_topic": "Soda Pocket",
         "underline": false
       },
       "type": "text",
-      "z_order": 6
+      "z_order": 10
     },
     {
       "bbox": {
-        "h": 1.3441,
-        "w": 3.6144,
-        "x": 3.4893,
-        "y": 4.416
+        "h": 0.7687,
+        "w": 1.9426,
+        "x": 6.718,
+        "y": 0.8084
       },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "panel",
-        "fill": [
-          51,
-          63,
-          101
-        ],
-        "line": [
-          225,
-          94,
-          113
-        ],
-        "line_width": 1.5824984582905586,
-        "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Erratic"
-      },
-      "type": "shape",
-      "z_order": 7
-    },
-    {
-      "bbox": {
-        "h": 0.4293,
-        "w": 3.2756,
-        "x": 3.6414,
-        "y": 4.7943
-      },
-      "id": "object_008",
+      "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          210,
-          72,
-          94
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 22,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "15%",
-        "theme_topic": "Erratic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 8
-    },
-    {
-      "bbox": {
-        "h": 0.257,
-        "w": 3.2673,
-        "x": 3.6596,
-        "y": 5.246
-      },
-      "id": "object_009",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          255,
-          252,
-          247
-        ],
-        "font_face": "Aptos",
-        "font_size": 11,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "daffy mess stretch dolls",
-        "theme_topic": "Erratic",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 9
-    },
-    {
-      "bbox": {
-        "h": 0.807,
-        "w": 1.0328,
-        "x": 0.6272,
-        "y": 2.8962
-      },
-      "id": "object_010",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          225,
-          94,
-          113
-        ],
-        "focus": false,
-        "line": [
-          69,
-          109,
-          143
-        ],
-        "line_width": 4.749163892555364,
-        "outline_only": false,
-        "ppt_type": 42,
-        "shape": "uturn_arrow",
-        "theme_topic": "Erratic"
-      },
-      "type": "shape",
-      "z_order": 10
-    },
-    {
-      "bbox": {
-        "h": 0.5798,
-        "w": 0.4814,
-        "x": 10.7883,
-        "y": 5.7973
-      },
-      "id": "object_011",
-      "properties": {
-        "archetype": "atomic_composition",
-        "pattern": "rings",
-        "primary": [
           51,
           63,
           101
         ],
-        "secondary": [
-          255,
-          206,
-          86
-        ],
-        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"400\" height=\"300\" viewBox=\"0 0 400 300\">\n        <circle cx=\"145\" cy=\"110\" r=\"74\" fill=\"none\" stroke=\"#e2404a\" stroke-width=\"22\"/>\n        <circle cx=\"245\" cy=\"118\" r=\"62\" fill=\"none\" stroke=\"#d2ac6f\" stroke-width=\"18\" opacity=\"0.82\"/>\n        <circle cx=\"196\" cy=\"72\" r=\"28\" fill=\"#e2404a\" opacity=\"0.6\"/>\n        </svg>",
-        "theme_topic": "Erratic"
+        "font_face": "Arial",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "38",
+        "theme_topic": "Soda Pocket",
+        "underline": false
       },
-      "type": "svg",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.2964,
-        "w": 1.1082,
-        "x": 9.3067,
-        "y": 5.4438
+        "h": 5.2221,
+        "w": 1.9209,
+        "x": 6.7127,
+        "y": 1.5491
       },
       "id": "object_012",
       "properties": {
@@ -373,78 +407,21 @@
         "bg_color": null,
         "bold": false,
         "color": [
-          67,
-          107,
-          33
+          255,
+          218,
+          220
         ],
-        "font_face": "Aptos",
-        "font_size": 11,
+        "font_face": "Arial",
+        "font_size": 12,
         "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Silk Zoom",
-        "theme_topic": "Erratic",
+        "kind": "body",
+        "margin": 0.04,
+        "text": "plastic dad love",
+        "theme_topic": "Soda Pocket",
         "underline": false
       },
       "type": "text",
       "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.9331,
-        "w": 0.4709,
-        "x": 7.3719,
-        "y": 0.8102
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "basic",
-        "fill": [
-          43,
-          158,
-          31
-        ],
-        "focus": false,
-        "line": [
-          217,
-          43,
-          83
-        ],
-        "line_width": 4.820441579365786,
-        "outline_only": false,
-        "ppt_type": 9,
-        "shape": "ellipse",
-        "theme_topic": "Erratic"
-      },
-      "type": "shape",
-      "z_order": 13
-    },
-    {
-      "bbox": {
-        "h": 0.477,
-        "w": 0.4143,
-        "x": 12.6709,
-        "y": 5.2629
-      },
-      "id": "object_014",
-      "properties": {
-        "archetype": "atomic_composition",
-        "color": [
-          106,
-          162,
-          114
-        ],
-        "connector": "elbow",
-        "dash": 3,
-        "flip": false,
-        "ppt_type": 2,
-        "theme_topic": "Erratic",
-        "width": 2.7788671987912275
-      },
-      "type": "connector",
-      "z_order": 14
     }
   ],
   "slide": {

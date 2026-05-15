@@ -8,108 +8,128 @@
     },
     "id": "object_000",
     "properties": {
+      "angle": 135,
       "archetype": "atomic_composition",
-      "fill": [
-        252,
-        249,
-        244
+      "colors": [
+        [
+          77,
+          190,
+          106
+        ],
+        [
+          174,
+          73,
+          92
+        ]
       ],
-      "style": "solid",
-      "theme_topic": "Dashing"
+      "fill": [
+        91,
+        224,
+        126
+      ],
+      "focus": "center",
+      "gradient_type": "radial",
+      "style": "gradient",
+      "theme_topic": "Cake Pack"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 12,
+    "level": 12,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 12
+  },
   "objects": [
     {
       "bbox": {
-        "h": 4.4439,
-        "w": 6.7169,
-        "x": 4.116,
-        "y": 2.1601
+        "h": 4.3577,
+        "w": 4.481,
+        "x": 0.0852,
+        "y": -0.0849
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 1,
-        "family": "stars",
+        "dash": 3,
+        "family": "symbols",
         "fill": [
-          108,
-          106,
-          134
+          66,
+          204,
+          107
         ],
         "focus": false,
         "line": [
-          161,
-          227,
-          190
+          108,
+          120,
+          53
         ],
-        "line_width": 2.228784517912212,
+        "line_width": 3.666082011834921,
         "outline_only": false,
-        "ppt_type": 92,
-        "shape": "star5",
-        "theme_topic": "Dashing"
+        "ppt_type": 174,
+        "shape": "funnel",
+        "theme_topic": "Cake Pack"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 1.1836,
-        "w": 6.2723,
-        "x": 0.5518,
-        "y": 0.367
+        "h": 3.6532,
+        "w": 7.5955,
+        "x": 1.5971,
+        "y": 1.3164
       },
       "id": "object_002",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "panel",
+        "fill": [
+          81,
+          201,
+          113
+        ],
+        "line": [
+          77,
+          190,
+          106
+        ],
+        "line_width": 2.480795069931021,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Cake Pack"
+      },
+      "type": "shape",
+      "z_order": 2
+    },
+    {
+      "bbox": {
+        "h": 1.1798,
+        "w": 8.2244,
+        "x": 0.5622,
+        "y": 0.3496
+      },
+      "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
         "bg_color": null,
         "bold": true,
         "color": [
-          36,
-          32,
-          29
+          28,
+          30,
+          36
         ],
-        "font_face": "Aptos Display",
+        "font_face": "Arial",
         "font_size": 39,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Uptight Oranges Fairies",
-        "theme_topic": "Dashing",
-        "underline": false
-      },
-      "type": "text",
-      "z_order": 2
-    },
-    {
-      "bbox": {
-        "h": 0.251,
-        "w": 2.1794,
-        "x": 0.7516,
-        "y": 2.0385
-      },
-      "id": "object_003",
-      "properties": {
-        "archetype": "atomic_composition",
-        "bg_color": [
-          162,
-          132,
-          73
-        ],
-        "bold": true,
-        "color": [
-          36,
-          32,
-          29
-        ],
-        "font_face": "Aptos Display",
-        "font_size": 18,
-        "italic": false,
-        "kind": "header",
-        "margin": 0.04,
-        "text": "Mere",
-        "theme_topic": "Dashing",
+        "text": "Dependent Wet Drown Oranges",
+        "theme_topic": "Cake Pack",
         "underline": false
       },
       "type": "text",
@@ -117,90 +137,59 @@
     },
     {
       "bbox": {
-        "h": 3.2965,
-        "w": 7.6717,
-        "x": 4.4903,
-        "y": 2.3171
+        "h": 5.1491,
+        "w": 2.1976,
+        "x": 0.5503,
+        "y": 1.8314
       },
       "id": "object_004",
       "properties": {
         "archetype": "atomic_composition",
-        "band": [
-          242,
-          233,
-          222
+        "dash": 4,
+        "family": "panel",
+        "fill": [
+          77,
+          190,
+          106
         ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          242,
-          233,
-          222
+        "line": [
+          77,
+          190,
+          106
         ],
-        "border": [
-          35,
-          133,
-          59
-        ],
-        "border_dash": "solid",
-        "border_width": 2.924759546948321,
-        "cells": [
-          [
-            "tin",
-            "lettuce scratch"
-          ],
-          [
-            "melted",
-            "wail"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 13,
-        "has_header": false,
-        "header": [
-          174,
-          73,
-          92
-        ],
-        "rows": 2,
-        "text_color": [
-          36,
-          32,
-          29
-        ],
-        "theme_topic": "Dashing"
+        "line_width": 1.1209370595851116,
+        "outline_only": false,
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Cake Pack"
       },
-      "type": "table",
+      "type": "shape",
       "z_order": 4
     },
     {
       "bbox": {
-        "h": 0.3419,
-        "w": 1.325,
-        "x": 9.8688,
-        "y": 4.6396
+        "h": 1.1494,
+        "w": 1.8543,
+        "x": 0.7052,
+        "y": 2.794
       },
       "id": "object_005",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          67,
-          123,
-          32
-        ],
+        "bg_color": null,
         "bold": true,
         "color": [
-          164,
-          74,
-          180
+          91,
+          224,
+          126
         ],
-        "font_face": "Aptos",
-        "font_size": 8,
+        "font_face": "Arial",
+        "font_size": 48,
         "italic": false,
-        "kind": "body",
+        "kind": "header",
         "margin": 0.04,
-        "text": "peep challenge didactic stir",
-        "theme_topic": "Dashing",
+        "text": "6x",
+        "theme_topic": "Cake Pack",
         "underline": false
       },
       "type": "text",
@@ -208,247 +197,282 @@
     },
     {
       "bbox": {
-        "h": 0.4832,
-        "w": 1.0134,
-        "x": 7.9348,
-        "y": 6.8722
+        "h": 0.7053,
+        "w": 1.848,
+        "x": 0.7152,
+        "y": 5.0158
       },
       "id": "object_006",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "flowchart",
-        "fill": [
-          145,
-          114,
-          26
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          210,
-          61,
-          87
-        ],
-        "line_width": 2.8295888648232346,
-        "outline_only": false,
-        "ppt_type": 63,
-        "shape": "flow_decision",
-        "theme_topic": "Dashing"
+        "font_face": "Arial",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "brainy advertisement fasten unkempt",
+        "theme_topic": "Cake Pack",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 6
     },
     {
       "bbox": {
-        "h": 0.4414,
-        "w": 1.684,
-        "x": 8.6465,
-        "y": 6.8634
+        "h": 5.1333,
+        "w": 2.1962,
+        "x": 10.5759,
+        "y": 1.8556
       },
       "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": [
-          47,
-          60,
-          164
+        "crop": [
+          0.3185136700854043,
+          0.07918764439332804,
+          0.10921545818893072,
+          0.004471273400375489
         ],
-        "bold": true,
-        "color": [
-          120,
-          151,
-          47
+        "focus": true,
+        "mask_line": [
+          174,
+          73,
+          92
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "grey",
-        "theme_topic": "Dashing",
-        "underline": true
+        "mask_overlay": false,
+        "theme_topic": "Cake Pack",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 0.2,
-        "w": 1.1151,
-        "x": 10.1674,
-        "y": 6.6779
+        "h": 1.1484,
+        "w": 6.8197,
+        "x": 3.2191,
+        "y": 5.8525
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          165,
-          211,
-          200
+        "crop": [
+          0.04649964624682232,
+          0.04779061278428074,
+          0.19026997529428913,
+          0.19527669740885525
         ],
-        "font_face": "Aptos",
-        "font_size": 5,
-        "italic": false,
-        "kind": "body",
-        "margin": 0.04,
-        "text": "toes",
-        "theme_topic": "Dashing",
-        "underline": false
+        "focus": false,
+        "mask_line": [
+          174,
+          73,
+          92
+        ],
+        "mask_overlay": false,
+        "theme_topic": "Cake Pack",
+        "url": "https://picsum.photos/seed/aiimgslides/900/600"
       },
-      "type": "text",
+      "type": "image",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.9743,
-        "w": 1.29,
-        "x": 9.2888,
-        "y": 3.799
+        "h": 2.7698,
+        "w": 6.7495,
+        "x": 3.2877,
+        "y": 2.8527
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 2,
-        "family": "arrows",
-        "fill": [
-          68,
-          214,
-          147
+        "band": [
+          77,
+          190,
+          106
         ],
-        "focus": false,
-        "line": [
-          172,
-          33,
-          160
+        "band_cols": false,
+        "band_rows": false,
+        "body": [
+          77,
+          190,
+          106
         ],
-        "line_width": 5.168913240657657,
-        "outline_only": true,
-        "ppt_type": 35,
-        "shape": "up_arrow",
-        "theme_topic": "Dashing"
+        "border": [
+          51,
+          192,
+          157
+        ],
+        "border_dash": "solid",
+        "border_width": 1.8346456087400005,
+        "cells": [
+          [
+            "murder",
+            "station therapeutic",
+            "stage identify",
+            "challenge tall",
+            "plastic hysterical"
+          ],
+          [
+            "fence wink",
+            "doll fry",
+            "knowing wish",
+            "moon",
+            "star magical"
+          ],
+          [
+            "sudden",
+            "lewd crow",
+            "better",
+            "enormous",
+            "obsequious"
+          ],
+          [
+            "roomy",
+            "deserted learned",
+            "madly",
+            "crown",
+            "pump punch"
+          ],
+          [
+            "blue-eyed unused",
+            "limping",
+            "thin",
+            "innocent imminent",
+            "birds"
+          ],
+          [
+            "watch",
+            "string wandering",
+            "overrated abhorrent",
+            "kind powder",
+            "substantial"
+          ],
+          [
+            "disappear shivering",
+            "party",
+            "stir",
+            "jog",
+            "twist ill-fated"
+          ]
+        ],
+        "cols": 5,
+        "font_size": 11,
+        "has_header": false,
+        "header": [
+          134,
+          159,
+          199
+        ],
+        "rows": 7,
+        "text_color": [
+          25,
+          57,
+          214
+        ],
+        "theme_topic": "Cake Pack"
       },
-      "type": "shape",
+      "type": "table",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.2034,
-        "w": 0.6446,
-        "x": 2.0802,
-        "y": 1.2104
+        "h": 0.2111,
+        "w": 0.6441,
+        "x": 4.3643,
+        "y": 1.1056
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
-        "bg_color": null,
-        "bold": false,
-        "color": [
-          108,
-          224,
-          31
+        "dash": 7,
+        "family": "arrows",
+        "fill": [
+          214,
+          95,
+          168
         ],
-        "font_face": "Aptos",
-        "font_size": 6,
-        "italic": false,
-        "kind": "caption",
-        "margin": 0.03,
-        "text": "Inconclusive",
-        "theme_topic": "Dashing",
-        "underline": false
+        "focus": false,
+        "line": [
+          230,
+          158,
+          203
+        ],
+        "line_width": 3.332736053802669,
+        "outline_only": false,
+        "ppt_type": 42,
+        "shape": "uturn_arrow",
+        "theme_topic": "Cake Pack"
       },
-      "type": "text",
+      "type": "shape",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.6751,
-        "w": 1.0787,
-        "x": 6.1415,
-        "y": 6.3274
+        "h": 0.2,
+        "w": 0.3589,
+        "x": 6.315,
+        "y": 5.5428
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "basic",
+        "dash": 1,
+        "family": "flowchart",
         "fill": [
-          127,
-          31,
-          86
+          131,
+          72,
+          132
         ],
         "focus": false,
         "line": [
-          168,
-          116,
-          144
+          117,
+          73,
+          131
         ],
-        "line_width": 0.6195519226037867,
+        "line_width": 4.238972547185328,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Dashing"
+        "ppt_type": 84,
+        "shape": "flow_delay",
+        "theme_topic": "Cake Pack"
       },
       "type": "shape",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 1.2427,
-        "w": 1.4862,
-        "x": 9.779,
-        "y": 3.3135
+        "h": 0.3427,
+        "w": 1.8916,
+        "x": 7.0263,
+        "y": 6.0532
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          200,
-          208,
-          90
+          140,
+          168,
+          203
         ],
-        "connector": "curve",
-        "dash": 2,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Dashing",
-        "width": 2.778275176031361
+        "font_face": "Arial",
+        "font_size": 12,
+        "italic": true,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Expect Soft Beneficial",
+        "theme_topic": "Cake Pack",
+        "underline": true
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 12
-    },
-    {
-      "bbox": {
-        "h": 0.2999,
-        "w": 0.7502,
-        "x": 9.7172,
-        "y": 5.0625
-      },
-      "id": "object_013",
-      "properties": {
-        "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "ribbons",
-        "fill": [
-          209,
-          91,
-          217
-        ],
-        "focus": false,
-        "line": [
-          115,
-          108,
-          63
-        ],
-        "line_width": 2.2655753368824443,
-        "outline_only": false,
-        "ppt_type": 97,
-        "shape": "up_ribbon",
-        "theme_topic": "Dashing"
-      },
-      "type": "shape",
-      "z_order": 13
     }
   ],
   "slide": {

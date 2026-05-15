@@ -9,119 +9,137 @@
     "id": "object_000",
     "properties": {
       "archetype": "atomic_composition",
-      "fill": [
-        130,
-        53,
-        212
+      "back_color": [
+        139,
+        185,
+        139
       ],
-      "style": "solid",
-      "theme_topic": "Subdued Threatening"
+      "fill": [
+        163,
+        217,
+        163
+      ],
+      "fore_color": [
+        51,
+        63,
+        101
+      ],
+      "pattern": 33,
+      "style": "pattern",
+      "theme_topic": "Cheer"
     },
     "type": "background",
     "z_order": 0
   },
+  "curriculum": {
+    "actual_content_count": 19,
+    "level": 19,
+    "max_level": 25,
+    "slides_per_level": 40,
+    "target_content_count": 19
+  },
   "objects": [
     {
       "bbox": {
-        "h": 3.4311,
-        "w": 7.3782,
-        "x": 6.3109,
-        "y": -0.5378
+        "h": 4.9737,
+        "w": 8.0835,
+        "x": 1.0827,
+        "y": 0.0647
       },
       "id": "object_001",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "basic",
+        "dash": 1,
+        "family": "symbols",
         "fill": [
-          190,
-          111,
-          169
+          169,
+          203,
+          84
         ],
         "focus": false,
         "line": [
-          25,
-          90,
-          225
+          94,
+          92,
+          100
         ],
-        "line_width": 6.308931807028356,
+        "line_width": 3.5012131476225545,
         "outline_only": false,
-        "ppt_type": 51,
-        "shape": "pentagon",
-        "theme_topic": "Subdued Threatening"
+        "ppt_type": 19,
+        "shape": "no_symbol",
+        "theme_topic": "Cheer"
       },
       "type": "shape",
       "z_order": 1
     },
     {
       "bbox": {
-        "h": 2.2059,
-        "w": 3.1865,
-        "x": 8.4638,
-        "y": -0.1739
+        "h": 1.5746,
+        "w": 7.5639,
+        "x": 1.6193,
+        "y": 2.6274
       },
       "id": "object_002",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "callouts",
+        "dash": 1,
+        "family": "arrows",
         "fill": [
-          118,
-          87,
-          64
+          108,
+          92,
+          138
         ],
         "focus": false,
         "line": [
-          184,
-          41,
-          130
+          87,
+          173,
+          117
         ],
-        "line_width": 4.325220604932266,
+        "line_width": 3.7436092572367228,
         "outline_only": false,
-        "ppt_type": 107,
-        "shape": "oval_callout",
-        "theme_topic": "Subdued Threatening"
+        "ppt_type": 60,
+        "shape": "circular_arrow",
+        "theme_topic": "Cheer"
       },
       "type": "shape",
       "z_order": 2
     },
     {
       "bbox": {
-        "h": 3.6687,
-        "w": 6.5504,
-        "x": 1.0535,
-        "y": 0.7628
+        "h": 2.5653,
+        "w": 5.1856,
+        "x": 8.1246,
+        "y": 4.9441
       },
       "id": "object_003",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
+        "dash": 1,
         "family": "panel",
         "fill": [
-          157,
-          98,
-          221
+          139,
+          185,
+          139
         ],
         "line": [
-          173,
-          123,
-          227
+          139,
+          185,
+          139
         ],
-        "line_width": 1.5475763477460145,
+        "line_width": 4.01230149548496,
         "outline_only": false,
-        "ppt_type": 5,
-        "shape": "round_rect",
-        "theme_topic": "Subdued Threatening"
+        "ppt_type": 1,
+        "shape": "rect",
+        "theme_topic": "Cheer"
       },
       "type": "shape",
       "z_order": 3
     },
     {
       "bbox": {
-        "h": 1.1528,
-        "w": 6.5931,
-        "x": 3.191,
-        "y": 0.651
+        "h": 5.5564,
+        "w": 2.8631,
+        "x": 0.6742,
+        "y": 0.7275
       },
       "id": "object_004",
       "properties": {
@@ -133,13 +151,13 @@
           30,
           36
         ],
-        "font_face": "Aptos Display",
-        "font_size": 32,
+        "font_face": "Georgia",
+        "font_size": 23,
         "italic": false,
         "kind": "header",
         "margin": 0.04,
-        "text": "Overt Invention Hook Abrupt",
-        "theme_topic": "Subdued Threatening",
+        "text": "Quaint Invite",
+        "theme_topic": "Cheer",
         "underline": false
       },
       "type": "text",
@@ -147,309 +165,445 @@
     },
     {
       "bbox": {
-        "h": 1.9851,
-        "w": 3.4258,
-        "x": 9.351,
-        "y": 1.9824
+        "h": 0.6987,
+        "w": 1.7575,
+        "x": 4.3429,
+        "y": 1.5441
       },
       "id": "object_005",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Georgia",
+        "font_size": 19,
+        "italic": true,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Nasty Murder",
+        "theme_topic": "Cheer",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 5
+    },
+    {
+      "bbox": {
+        "h": 0.9003,
+        "w": 1.7577,
+        "x": 4.319,
+        "y": 2.5044
+      },
+      "id": "object_006",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          88,
+          114,
+          93
+        ],
+        "font_face": "Aptos",
+        "font_size": 12,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "weight save lovely pigs prick industry lame pen breezy hesitant dolls",
+        "theme_topic": "Cheer",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 6
+    },
+    {
+      "bbox": {
+        "h": 2.0588,
+        "w": 3.0583,
+        "x": 3.8219,
+        "y": 0.9279
+      },
+      "id": "object_007",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 1,
         "family": "panel",
         "fill": [
-          173,
-          123,
-          227
+          51,
+          63,
+          101
         ],
         "line": [
-          173,
-          123,
-          227
+          139,
+          185,
+          139
         ],
-        "line_width": 1.5705034131368523,
+        "line_width": 3.7082029678961583,
         "outline_only": false,
         "ppt_type": 5,
         "shape": "round_rect",
-        "theme_topic": "Subdued Threatening"
+        "theme_topic": "Cheer"
       },
       "type": "shape",
-      "z_order": 5
-    },
-    {
-      "bbox": {
-        "h": 1.5026,
-        "w": 2.9218,
-        "x": 9.5956,
-        "y": 2.2289
-      },
-      "id": "object_006",
-      "properties": {
-        "archetype": "atomic_composition",
-        "categories": [
-          "shy",
-          "beneficial",
-          "soak"
-        ],
-        "chart": "doughnut",
-        "focus": false,
-        "has_legend": true,
-        "has_title": false,
-        "ppt_type": -4120,
-        "series": [
-          {
-            "color": [
-              217,
-              80,
-              121
-            ],
-            "name": "key",
-            "values": [
-              69,
-              84,
-              83
-            ]
-          }
-        ],
-        "theme_topic": "Subdued Threatening",
-        "title": "balance important pine tomatoes"
-      },
-      "type": "chart",
-      "z_order": 6
-    },
-    {
-      "bbox": {
-        "h": 1.8991,
-        "w": 4.7196,
-        "x": 4.1746,
-        "y": 2.041
-      },
-      "id": "object_007",
-      "properties": {
-        "archetype": "atomic_composition",
-        "band": [
-          173,
-          123,
-          227
-        ],
-        "band_cols": false,
-        "band_rows": true,
-        "body": [
-          220,
-          140,
-          226
-        ],
-        "border": [
-          73,
-          40,
-          115
-        ],
-        "border_dash": "solid",
-        "border_width": 2.6668215696524324,
-        "cells": [
-          [
-            "shame quartz",
-            "didactic grumpy"
-          ],
-          [
-            "bulb",
-            "grandmother tawdry"
-          ]
-        ],
-        "cols": 2,
-        "font_size": 5,
-        "has_header": true,
-        "header": [
-          197,
-          36,
-          59
-        ],
-        "rows": 2,
-        "text_color": [
-          26,
-          121,
-          96
-        ],
-        "theme_topic": "Subdued Threatening"
-      },
-      "type": "table",
       "z_order": 7
     },
     {
       "bbox": {
-        "h": 2.703,
-        "w": 12.1993,
-        "x": 0.5465,
-        "y": 4.3534
+        "h": 0.7775,
+        "w": 2.6925,
+        "x": 4.0458,
+        "y": 1.3878
       },
       "id": "object_008",
       "properties": {
         "archetype": "atomic_composition",
-        "clip": "ticket",
-        "focus": true,
-        "line": [
-          174,
-          73,
-          92
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          163,
+          217,
+          163
         ],
-        "line_width": 9,
-        "theme_topic": "Subdued Threatening"
+        "font_face": "Georgia",
+        "font_size": 42,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "558",
+        "theme_topic": "Cheer",
+        "underline": false
       },
-      "type": "svg_image",
+      "type": "text",
       "z_order": 8
     },
     {
       "bbox": {
-        "h": 0.5029,
-        "w": 1.3654,
-        "x": 7.4918,
-        "y": 4.7977
+        "h": 0.4852,
+        "w": 2.675,
+        "x": 4.0337,
+        "y": 2.1807
       },
       "id": "object_009",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 7,
-        "family": "arrows",
-        "fill": [
-          225,
-          119,
-          106
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          163,
-          73,
-          32
-        ],
-        "line_width": 0.9653509769223397,
-        "outline_only": true,
-        "ppt_type": 33,
-        "shape": "right_arrow",
-        "theme_topic": "Subdued Threatening"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "mess multiply chalk overjoyed chin post",
+        "theme_topic": "Cheer",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 9
     },
     {
       "bbox": {
-        "h": 0.7476,
-        "w": 1.6597,
-        "x": 7.6222,
-        "y": 1.1271
+        "h": 0.2744,
+        "w": 5.2482,
+        "x": 3.9161,
+        "y": 1.1251
       },
       "id": "object_010",
       "properties": {
         "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
         "color": [
-          30,
-          221,
-          95
+          51,
+          63,
+          101
         ],
-        "connector": "curve",
-        "dash": 1,
-        "flip": true,
-        "ppt_type": 3,
-        "theme_topic": "Subdued Threatening",
-        "width": 1.9614625311550071
+        "font_face": "Aptos",
+        "font_size": 11,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "SMELL",
+        "theme_topic": "Cheer",
+        "underline": false
       },
-      "type": "connector",
+      "type": "text",
       "z_order": 10
     },
     {
       "bbox": {
-        "h": 0.3957,
-        "w": 1.0018,
-        "x": 5.9892,
-        "y": 3.9183
+        "h": 1.0615,
+        "w": 5.2127,
+        "x": 3.9419,
+        "y": 1.624
       },
       "id": "object_011",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 3,
-        "family": "flowchart",
-        "fill": [
-          147,
-          194,
-          191
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
         ],
-        "focus": false,
-        "line": [
-          174,
-          73,
-          92
-        ],
-        "line_width": 3.028672282442012,
-        "outline_only": true,
-        "ppt_type": 88,
-        "shape": "flow_display",
-        "theme_topic": "Subdued Threatening"
+        "font_face": "Georgia",
+        "font_size": 29,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Chess Sound Hard-To-Find Woman",
+        "theme_topic": "Cheer",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 11
     },
     {
       "bbox": {
-        "h": 0.8747,
-        "w": 0.6371,
-        "x": 9.8766,
-        "y": 6.1499
+        "h": 1.7936,
+        "w": 5.2132,
+        "x": 3.9281,
+        "y": 2.9099
       },
       "id": "object_012",
       "properties": {
         "archetype": "atomic_composition",
-        "dash": 5,
-        "family": "math",
-        "fill": [
-          30,
-          96,
-          163
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          88,
+          114,
+          93
         ],
-        "focus": false,
-        "line": [
-          153,
-          93,
-          139
-        ],
-        "line_width": 5.300847812577536,
-        "outline_only": true,
-        "ppt_type": 163,
-        "shape": "plus",
-        "theme_topic": "Subdued Threatening"
+        "font_face": "Aptos",
+        "font_size": 13,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "beginner wish tire phone gray unpack mere sassy",
+        "theme_topic": "Cheer",
+        "underline": false
       },
-      "type": "shape",
+      "type": "text",
       "z_order": 12
     },
     {
       "bbox": {
-        "h": 0.7428,
-        "w": 0.9731,
-        "x": 9.2403,
-        "y": 1.6886
+        "h": 1.863,
+        "w": 2.0518,
+        "x": 8.1837,
+        "y": 2.7428
       },
       "id": "object_013",
       "properties": {
         "archetype": "atomic_composition",
         "dash": 7,
-        "family": "arrows",
+        "family": "panel",
         "fill": [
-          144,
-          225,
-          223
+          139,
+          185,
+          139
         ],
-        "focus": false,
         "line": [
-          156,
-          182,
-          80
+          139,
+          185,
+          139
         ],
-        "line_width": 5.990474068203974,
+        "line_width": 5.10561278722448,
         "outline_only": false,
-        "ppt_type": 178,
-        "shape": "swoosh_arrow",
-        "theme_topic": "Subdued Threatening"
+        "ppt_type": 5,
+        "shape": "round_rect",
+        "theme_topic": "Cheer"
       },
       "type": "shape",
       "z_order": 13
+    },
+    {
+      "bbox": {
+        "h": 0.6531,
+        "w": 1.7005,
+        "x": 8.4023,
+        "y": 3.1448
+      },
+      "id": "object_014",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          163,
+          217,
+          163
+        ],
+        "font_face": "Georgia",
+        "font_size": 35,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "6x",
+        "theme_topic": "Cheer",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 14
+    },
+    {
+      "bbox": {
+        "h": 0.4349,
+        "w": 1.6773,
+        "x": 8.3999,
+        "y": 3.8512
+      },
+      "id": "object_015",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "chubby late report upset hands post willing rural",
+        "theme_topic": "Cheer",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 15
+    },
+    {
+      "bbox": {
+        "h": 0.5873,
+        "w": 2.4785,
+        "x": 7.9827,
+        "y": 4.4817
+      },
+      "id": "object_016",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": true,
+        "color": [
+          28,
+          30,
+          36
+        ],
+        "font_face": "Georgia",
+        "font_size": 18,
+        "italic": false,
+        "kind": "header",
+        "margin": 0.04,
+        "text": "Woman Delight",
+        "theme_topic": "Cheer",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 16
+    },
+    {
+      "bbox": {
+        "h": 0.7506,
+        "w": 2.5101,
+        "x": 8.0065,
+        "y": 5.3426
+      },
+      "id": "object_017",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          88,
+          114,
+          93
+        ],
+        "font_face": "Aptos",
+        "font_size": 10,
+        "italic": false,
+        "kind": "body",
+        "margin": 0.04,
+        "text": "thrill lazy eggs toothsome drown exotic sassy jewel interfere keen flag friendly tricky clip car dull fallacious breathe",
+        "theme_topic": "Cheer",
+        "underline": false
+      },
+      "type": "text",
+      "z_order": 17
+    },
+    {
+      "bbox": {
+        "h": 0.7248,
+        "w": 0.934,
+        "x": 6.4177,
+        "y": 6.5106
+      },
+      "id": "object_018",
+      "properties": {
+        "archetype": "atomic_composition",
+        "dash": 1,
+        "family": "stars",
+        "fill": [
+          192,
+          68,
+          189
+        ],
+        "focus": false,
+        "line": [
+          159,
+          118,
+          159
+        ],
+        "line_width": 5.653032810428672,
+        "outline_only": true,
+        "ppt_type": 93,
+        "shape": "star8",
+        "theme_topic": "Cheer"
+      },
+      "type": "shape",
+      "z_order": 18
+    },
+    {
+      "bbox": {
+        "h": 0.2078,
+        "w": 0.617,
+        "x": 7.3615,
+        "y": 4.3122
+      },
+      "id": "object_019",
+      "properties": {
+        "archetype": "atomic_composition",
+        "bg_color": null,
+        "bold": false,
+        "color": [
+          30,
+          126,
+          215
+        ],
+        "font_face": "Aptos",
+        "font_size": 6,
+        "italic": false,
+        "kind": "caption",
+        "margin": 0.03,
+        "text": "Rambunctious",
+        "theme_topic": "Cheer",
+        "underline": true
+      },
+      "type": "text",
+      "z_order": 19
     }
   ],
   "slide": {
