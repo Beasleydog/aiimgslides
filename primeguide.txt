@@ -73,6 +73,29 @@ After creating with ubuntu_22_cuda_12, pip install:
   tmux capture-pane -t <local-name> -p   # read output
   tmux kill-session -t <local-name>      # disconnect when done
 
+## Double-tmux pattern (ALWAYS use this for this project)
+  Keep a persistent local tmux session named "prime" that holds the
+  prime pods ssh connection. Never use direct SSH. Drive everything by
+  sending keys into the "prime" session, which forwards to the remote
+  "training" session on the pod.
+
+  # Check remote training output non-interactively:
+  wsl bash -lc "tmux send-keys -t prime 'tmux capture-pane -t training -p | tail -25' Enter && sleep 4 && tmux capture-pane -t prime -p 2>&1 | tail -25"
+
+  # Send a command to the remote training session (e.g. stop training):
+  wsl bash -lc "tmux send-keys -t prime 'tmux send-keys -t training C-c' Enter"
+
+  # Start training inside remote tmux (from scratch or after git pull):
+  wsl bash -lc "tmux send-keys -t prime 'tmux send-keys -t training \"git pull && python3 train.py 2>&1 | tee train.log\" Enter' Enter"
+
+  # If local "prime" session died or SSH dropped, reconnect:
+  wsl bash -lc "tmux new-session -d -s prime 2>/dev/null; tmux send-keys -t prime 'prime pods ssh <pod-id>' Enter"
+  # then sleep 10 before checking
+
+  Key rule: NEVER send commands directly to the pod's shell prompt in the
+  prime session — always target the remote "training" tmux session with
+  tmux send-keys -t training. The pod shell is just a passthrough.
+
 ## Cheap GPU options for ML training (as of 2026-05-15)
   Best value for training a 3B VL model quickly:
     a121b4  L40_48GB  x1  US  massedcompute  ~$0.xx/hr   (Ada Lovelace, fast tensor cores)
