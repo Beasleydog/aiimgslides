@@ -22,7 +22,7 @@ OUTPUT_DIR = Path("model_output/slide_json_grpo")
 MODEL_NAME = "Qwen/Qwen2.5-VL-3B-Instruct"
 
 MAX_STEPS = 500
-MAX_PROMPT_LENGTH = 2048
+MAX_PROMPT_LENGTH = 3072
 MAX_COMPLETION_LENGTH = 768
 PER_DEVICE_BATCH_SIZE = 2
 GRADIENT_ACCUMULATION_STEPS = 4
@@ -40,17 +40,39 @@ IMAGE_MAX_PIXELS = 768 * 768
 
 USER_PROMPT = """Infer the PowerPoint-like scene graph from this slide image.
 
-Return only compact JSON in this exact shape:
+Return only compact JSON wrapped in <json> tags:
 <json>{"v":1,"s":[13.333,7.5],"bg":["solid",[255,255,255]],"o":[object_rows]}</json>
 
-Each object row MUST be an array: [type,x,y,w,h,props]. Use inches for coordinates.
-Types: tx text, sh shape, tb table, im image, cn connector, ff freeform, sv svg, si svg_image.
-Common props:
-tx {"t":"text","fs":24,"ff":"Arial","c":[0,0,0],"b":1}
-sh {"sh":"rect","f":[230,230,230],"l":[40,40,40],"lw":1}
-tb {"r":3,"c":3,"cells":[["a","b"]],"hd":[0,0,0],"bd":[255,255,255],"tc":[0,0,0],"fs":10}
-im {}
-Example output: <json>{"v":1,"s":[13.333,7.5],"bg":["solid",[30,80,160]],"o":[["sh",1.2,0.8,5.5,3.2,{"sh":"rect","f":[220,220,255],"l":[0,0,128],"lw":1}],["tx",7.5,1.5,4.5,1.0,{"t":"Title","fs":24,"ff":"Arial","c":[255,255,255],"b":1}]]}</json>
+Each object row MUST be [type,x,y,w,h,props]. Coordinates are inches on a 13.333 x 7.5 slide.
+Use RGB arrays [r,g,b]. Omit unknown objects; do not invent text that is not visible.
+
+Types and compact props:
+tx text: {"t":"Visible text","fs":24,"ff":"Arial","c":[20,20,20],"b":1,"i":0,"u":0,"bg":null,"k":"header"}
+  k examples: kicker, header, subhead, body, caption. ff examples: Aptos, Calibri, Arial, Georgia, Trebuchet MS, Verdana.
+sh PowerPoint shape: {"sh":"round_rect","f":[230,230,230],"l":[40,40,40],"lw":1.2,"ol":0}
+  sh examples: rect, round_rect, ellipse, triangle, right_triangle, diamond, parallelogram, trapezoid, pentagon, hexagon, octagon, donut, arc, pie, wave,
+  right_arrow, left_arrow, up_arrow, down_arrow, left_right_arrow, up_down_arrow, quad_arrow, bent_arrow, uturn_arrow, circular_arrow, curved_right_arrow,
+  striped_right_arrow, notched_right_arrow, swoosh_arrow, right_arrow_callout, left_right_arrow_callout,
+  flow_process, flow_decision, flow_data, flow_document, flow_predefined, flow_terminator, flow_delay, flow_display,
+  rect_callout, round_callout, oval_callout, cloud_callout, line_callout,
+  cloud, heart, lightning, sun, moon, gear6, gear9, cube, can, funnel, no_symbol,
+  star4, star5, star8, star16, explosion1, explosion2, plus, minus, multiply, divide, equal, not_equal,
+  down_ribbon, up_ribbon, curved_down_ribbon, left_right_ribbon.
+tb table: {"r":3,"c":3,"cells":[["A","B","C"],["1","2","3"],["4","5","6"]],"hd":[30,80,160],"bd":[245,245,245],"tc":[20,20,20],"fs":10}
+im image/photo: {"cr":[0,0,0,0]}
+cn connector/line: {"ct":"straight","c":[40,40,40],"w":2.0}
+  ct examples: straight, elbow, curve.
+ff freeform drawn shape: {"p":"blob","f":[230,230,230],"l":[40,40,40],"lw":1.5}
+  p examples: blob, zigzag, badge, wave.
+sv custom dynamic SVG shape: {"p":"loop_rings","f":[120,180,220],"l":[40,40,40],"lw":12}
+  p categories: organic_blob, layered_wave, radial_burst, loop_rings, corner_ribbon, dotted_cluster, contour_lines, bracket_frame.
+  Use sv for abstract vector decorations that are not PowerPoint auto-shapes: blobs, waves, bursts, rings, ribbons, dot clusters, contour strokes, and frames.
+si clipped SVG image/photo: {"cl":"hex","l":[40,40,40],"lw":12,"cr":[0,0,0,0]}
+  cl examples: blob, ticket, arch, hex. Use si when a photo/image is clipped by a non-rectangular SVG mask.
+
+Example output:
+<json>{"v":1,"s":[13.333,7.5],"bg":["solid",[30,80,160]],"o":[["sh",0.7,0.6,2.1,1.0,{"sh":"left_arrow","f":[220,220,255],"l":[0,0,128],"lw":1.1,"ol":0}],["sv",3.2,0.8,1.4,1.1,{"p":"loop_rings","f":[120,180,220],"l":[255,180,80],"lw":14}],["cn",2.8,1.2,2.5,0.5,{"ct":"curve","c":[255,255,255],"w":2.2}],["tx",6.1,1.0,5.0,0.8,{"t":"Quarterly Growth","fs":28,"ff":"Arial","c":[255,255,255],"b":1,"i":0,"u":0,"bg":null,"k":"header"}]]}</json>
+
 Do not include markdown or explanatory text."""
 
 

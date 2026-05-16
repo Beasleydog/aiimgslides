@@ -82,6 +82,7 @@ PROPERTY_WEIGHTS = {
         "pattern": 1.0,
         "primary": 1.0,
         "secondary": 1.0,
+        "line_width": 0.5,
     },
     "background": {
         "style": 1.5,
@@ -94,6 +95,13 @@ PROPERTY_WEIGHTS = {
         "fore_color": 1.0,
         "back_color": 1.0,
     },
+}
+
+SVG_PATTERN_ALIASES = {
+    "ribbon_path": "organic_blob",
+    "swoop": "layered_wave",
+    "burst": "radial_burst",
+    "rings": "loop_rings",
 }
 
 
@@ -178,6 +186,8 @@ def text_reward(target, actual):
 def categorical_reward(target, actual):
     target = enum_name(target)
     actual = enum_name(actual)
+    target = SVG_PATTERN_ALIASES.get(target, target)
+    actual = SVG_PATTERN_ALIASES.get(actual, actual)
     if target == actual:
         return 1.0
     if str(target).lower() == str(actual).lower():

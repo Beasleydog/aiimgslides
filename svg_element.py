@@ -1,4 +1,5 @@
 import base64
+import math
 import random
 import tempfile
 from pathlib import Path
@@ -7,7 +8,16 @@ from element_model import Element
 from utils import rand_color
 
 
-SVG_PATTERNS = ["ribbon_path", "rings", "burst", "swoop"]
+SVG_PATTERNS = [
+    "organic_blob",
+    "layered_wave",
+    "radial_burst",
+    "loop_rings",
+    "corner_ribbon",
+    "dotted_cluster",
+    "contour_lines",
+    "bracket_frame",
+]
 SVG_IMAGE_CLIPS = ["blob", "ticket", "arch", "hex"]
 
 
@@ -29,6 +39,7 @@ def make_svg(x, y, w, h):
     pattern = random.choice(SVG_PATTERNS)
     primary = rand_color()
     secondary = rand_color()
+    params = svg_params(pattern)
     return Element(
         "svg",
         x,
@@ -39,7 +50,9 @@ def make_svg(x, y, w, h):
             "pattern": pattern,
             "primary": primary,
             "secondary": secondary,
-            "svg": svg_markup(pattern, primary, secondary),
+            "line_width": params.get("line_width", 1.0),
+            "params": params,
+            "svg": svg_markup(pattern, primary, secondary, params),
         },
     )
 
@@ -59,35 +72,164 @@ def make_svg_image(x, y, w, h):
     )
 
 
-def svg_markup(pattern, primary, secondary):
+def svg_params(pattern):
+    if pattern == "organic_blob":
+        return {
+            "bulge": random.uniform(0.10, 0.24),
+            "pinch": random.uniform(0.08, 0.20),
+            "tilt": random.uniform(-0.08, 0.08),
+            "line_width": random.uniform(5, 18),
+        }
+    if pattern == "layered_wave":
+        return {
+            "waves": random.randint(2, 4),
+            "amplitude": random.uniform(24, 58),
+            "phase": random.uniform(-35, 35),
+            "line_width": random.uniform(10, 24),
+        }
+    if pattern == "radial_burst":
+        return {
+            "points": random.choice([10, 12, 14, 16, 18]),
+            "inner": random.uniform(52, 92),
+            "outer": random.uniform(118, 145),
+            "line_width": random.uniform(4, 11),
+        }
+    if pattern == "loop_rings":
+        return {
+            "rings": random.randint(2, 4),
+            "offset": random.uniform(28, 52),
+            "line_width": random.uniform(10, 24),
+        }
+    if pattern == "corner_ribbon":
+        return {
+            "fold": random.uniform(42, 82),
+            "depth": random.uniform(42, 92),
+            "line_width": random.uniform(3, 9),
+        }
+    if pattern == "dotted_cluster":
+        return {
+            "dots": random.randint(9, 18),
+            "spread": random.uniform(0.52, 0.78),
+            "line_width": random.uniform(1, 4),
+        }
+    if pattern == "contour_lines":
+        return {
+            "lines": random.randint(3, 6),
+            "amplitude": random.uniform(16, 42),
+            "line_width": random.uniform(4, 10),
+        }
+    return {
+        "inset": random.uniform(26, 54),
+        "notch": random.uniform(22, 48),
+        "line_width": random.uniform(5, 14),
+    }
+
+
+def _blob_path(cx, cy, rx, ry, bulge, pinch, tilt):
+    left = cx - rx
+    right = cx + rx
+    top = cy - ry
+    bottom = cy + ry
+    return (
+        f"M{left + rx * 0.14:.1f} {cy - ry * (0.20 + tilt):.1f} "
+        f"C{left + rx * bulge:.1f} {top + ry * 0.08:.1f} {cx - rx * pinch:.1f} {top - ry * 0.02:.1f} {cx + rx * 0.22:.1f} {top + ry * 0.10:.1f} "
+        f"C{right + rx * 0.12:.1f} {top + ry * 0.28:.1f} {right - rx * 0.02:.1f} {cy + ry * 0.18:.1f} {right - rx * 0.16:.1f} {cy + ry * 0.40:.1f} "
+        f"C{right - rx * 0.32:.1f} {bottom + ry * 0.04:.1f} {cx + rx * 0.08:.1f} {bottom - ry * 0.02:.1f} {cx - rx * 0.30:.1f} {bottom - ry * 0.10:.1f} "
+        f"C{left - rx * 0.06:.1f} {bottom - ry * 0.26:.1f} {left + rx * 0.04:.1f} {cy + ry * 0.08:.1f} {left + rx * 0.14:.1f} {cy - ry * (0.20 + tilt):.1f} Z"
+    )
+
+
+def _star_points(cx, cy, inner, outer, count):
+    pts = []
+    for index in range(count * 2):
+        angle = -1.5708 + index * 3.14159 / count
+        radius = outer if index % 2 == 0 else inner
+        pts.append((cx + radius * math.cos(angle), cy + radius * math.sin(angle)))
+    return " ".join(f"{x:.1f},{y:.1f}" for x, y in pts)
+
+
+def svg_markup(pattern, primary, secondary, params=None):
+    params = params or svg_params(pattern)
     p = svg_color(primary)
     s = svg_color(secondary)
-    if pattern == "rings":
+    lw = params.get("line_width", 1.0)
+    if pattern == "organic_blob":
+        path1 = _blob_path(190, 150, 145, 92, params["bulge"], params["pinch"], params["tilt"])
+        path2 = _blob_path(220, 144, 92, 54, params["pinch"], params["bulge"], -params["tilt"])
         body = f"""
-        <circle cx="145" cy="110" r="74" fill="none" stroke="{p}" stroke-width="22"/>
-        <circle cx="245" cy="118" r="62" fill="none" stroke="{s}" stroke-width="18" opacity="0.82"/>
-        <circle cx="196" cy="72" r="28" fill="{p}" opacity="0.6"/>
+        <path d="{path1}" fill="{p}" opacity="0.78"/>
+        <path d="{path2}" fill="{s}" opacity="0.46"/>
+        <path d="{path1}" fill="none" stroke="{s}" stroke-width="{lw:.1f}" opacity="0.68"/>
         """
-    elif pattern == "burst":
+    elif pattern == "radial_burst":
+        points = _star_points(200, 150, params["inner"], params["outer"], params["points"])
         body = f"""
-        <path d="M200 10 L226 86 L306 52 L268 126 L386 132 L278 168 L332 240 L236 194 L200 290 L166 196 L70 240 L124 168 L14 132 L132 126 L94 52 L174 86 Z"
-              fill="{p}" opacity="0.78"/>
-        <path d="M200 82 L226 145 L294 146 L238 184 L258 252 L200 212 L142 252 L162 184 L106 146 L174 145 Z"
-              fill="{s}" opacity="0.72"/>
+        <polygon points="{points}" fill="{p}" opacity="0.72"/>
+        <circle cx="200" cy="150" r="{params['inner'] * 0.52:.1f}" fill="{s}" opacity="0.64"/>
+        <polygon points="{points}" fill="none" stroke="{s}" stroke-width="{lw:.1f}" opacity="0.62"/>
         """
-    elif pattern == "swoop":
+    elif pattern == "layered_wave":
+        lines = []
+        for index in range(params["waves"]):
+            y = 72 + index * (160 / max(1, params["waves"] - 1))
+            amp = params["amplitude"] * (0.72 + index * 0.12)
+            phase = params["phase"] + index * 18
+            color = p if index % 2 == 0 else s
+            opacity = 0.82 - index * 0.08
+            lines.append(
+                f'<path d="M24 {y:.1f} C96 {y - amp + phase:.1f} 164 {y + amp:.1f} 234 {y:.1f} S330 {y - amp:.1f} 376 {y + phase:.1f}" '
+                f'fill="none" stroke="{color}" stroke-width="{lw:.1f}" stroke-linecap="round" opacity="{opacity:.2f}"/>'
+            )
+        body = "\n        ".join(lines)
+    elif pattern == "loop_rings":
+        rings = []
+        for index in range(params["rings"]):
+            cx = 150 + index * params["offset"]
+            cy = 130 + (index % 2) * 34
+            rx = 72 - index * 7
+            ry = 58 - index * 4
+            color = p if index % 2 == 0 else s
+            rings.append(
+                f'<ellipse cx="{cx:.1f}" cy="{cy:.1f}" rx="{rx:.1f}" ry="{ry:.1f}" fill="none" stroke="{color}" stroke-width="{lw:.1f}" opacity="{0.86 - index * 0.09:.2f}"/>'
+            )
+        body = "\n        ".join(rings)
+    elif pattern == "corner_ribbon":
+        fold = params["fold"]
+        depth = params["depth"]
         body = f"""
-        <path d="M22 196 C96 26 198 270 286 70 S372 92 386 204"
-              fill="none" stroke="{p}" stroke-width="28" stroke-linecap="round"/>
-        <path d="M42 226 C124 112 214 288 360 126"
-              fill="none" stroke="{s}" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+        <path d="M28 28 H372 V{depth:.1f} C292 {depth + fold:.1f} 226 {depth - fold * 0.28:.1f} 154 {depth + fold * 0.46:.1f} C98 {depth + fold * 0.82:.1f} 58 {depth + fold * 0.18:.1f} 28 {depth + fold * 0.52:.1f} Z" fill="{p}" opacity="0.76"/>
+        <path d="M372 28 L{372 - fold:.1f} {28 + fold:.1f} H372 Z" fill="{s}" opacity="0.68"/>
+        <path d="M44 {depth + fold * 0.36:.1f} C122 {depth - fold * 0.12:.1f} 178 {depth + fold * 0.76:.1f} 254 {depth + fold * 0.26:.1f} S344 {depth + fold * 0.08:.1f} 374 {depth + fold * 0.5:.1f}" fill="none" stroke="{s}" stroke-width="{lw:.1f}" stroke-linecap="round"/>
         """
+    elif pattern == "dotted_cluster":
+        dots = []
+        spread = params["spread"]
+        for index in range(params["dots"]):
+            col = index % 6
+            row = index // 6
+            x = 92 + col * 42 * spread + random.uniform(-8, 8)
+            y = 70 + row * 54 * spread + random.uniform(-8, 8)
+            r = random.uniform(8, 22)
+            color = p if index % 3 else s
+            dots.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r:.1f}" fill="{color}" opacity="{random.uniform(0.48, 0.86):.2f}"/>')
+        body = "\n        ".join(dots)
+    elif pattern == "contour_lines":
+        lines = []
+        for index in range(params["lines"]):
+            inset = 28 + index * 22
+            amp = params["amplitude"] - index * 2
+            color = p if index % 2 == 0 else s
+            lines.append(
+                f'<path d="M{inset:.1f} {158 - index * 11:.1f} C{92 + index * 10:.1f} {86 - amp:.1f} {176 + index * 7:.1f} {222 + amp:.1f} {252 - index * 4:.1f} {144 + index * 8:.1f} S{344 - index * 12:.1f} {84 + amp:.1f} {376 - inset * 0.28:.1f} {154 + index * 10:.1f}" fill="none" stroke="{color}" stroke-width="{lw:.1f}" stroke-linecap="round" opacity="{0.82 - index * 0.08:.2f}"/>'
+            )
+        body = "\n        ".join(lines)
     else:
+        inset = params["inset"]
+        notch = params["notch"]
         body = f"""
-        <path d="M24 84 C94 16 172 18 224 78 C278 142 334 96 376 42 L376 210 C304 260 230 244 178 190 C116 128 74 168 24 226 Z"
-              fill="{p}" opacity="0.82"/>
-        <path d="M54 118 C120 54 178 66 226 118 C270 166 318 142 354 104"
-              fill="none" stroke="{s}" stroke-width="18" stroke-linecap="round"/>
+        <path d="M{inset:.1f} {inset:.1f} H{400 - inset:.1f} V{inset + notch:.1f} H{400 - inset - notch:.1f} V{300 - inset - notch:.1f} H{400 - inset:.1f} V{300 - inset:.1f} H{inset:.1f} V{300 - inset - notch:.1f} H{inset + notch:.1f} V{inset + notch:.1f} H{inset:.1f} Z" fill="{p}" opacity="0.34"/>
+        <path d="M{inset:.1f} {inset:.1f} H{400 - inset:.1f} M{400 - inset:.1f} {300 - inset:.1f} H{inset:.1f}" fill="none" stroke="{s}" stroke-width="{lw:.1f}" stroke-linecap="round"/>
+        <path d="M{inset:.1f} {300 - inset:.1f} V{inset:.1f} M{400 - inset:.1f} {inset:.1f} V{300 - inset:.1f}" fill="none" stroke="{s}" stroke-width="{lw * 0.72:.1f}" stroke-linecap="round" opacity="0.72"/>
         """
     return f'<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">{body}</svg>'
 
@@ -123,13 +265,23 @@ def add_svg_to_png(draw, el, box):
     x1, y1, x2, y2 = box
     p = (*el.data["primary"], 165)
     s = (*el.data["secondary"], 210)
-    if el.data["pattern"] == "rings":
+    if el.data["pattern"] == "loop_rings":
         draw.ellipse((x1, y1, x1 + (x2 - x1) * 0.72, y2), outline=p, width=12)
         draw.ellipse((x1 + (x2 - x1) * 0.28, y1 + 8, x2, y2 - 8), outline=s, width=10)
-    elif el.data["pattern"] == "burst":
+    elif el.data["pattern"] == "radial_burst":
         cx, cy = (x1 + x2) // 2, (y1 + y2) // 2
         pts = [(cx, y1), (x2, cy), (cx, y2), (x1, cy)]
         draw.polygon(pts, fill=p, outline=s)
+    elif el.data["pattern"] in {"layered_wave", "contour_lines"}:
+        for offset in (0.32, 0.50, 0.68):
+            y = int(y1 + (y2 - y1) * offset)
+            draw.arc((x1, y - 28, x2, y + 28), 180, 360, fill=p, width=8)
+    elif el.data["pattern"] == "dotted_cluster":
+        for index in range(12):
+            cx = int(x1 + (x2 - x1) * (0.18 + (index % 4) * 0.2))
+            cy = int(y1 + (y2 - y1) * (0.22 + (index // 4) * 0.24))
+            r = max(3, int(min(x2 - x1, y2 - y1) * 0.055))
+            draw.ellipse((cx - r, cy - r, cx + r, cy + r), fill=p if index % 2 else s)
     else:
         draw.rounded_rectangle(box, radius=18, fill=p, outline=s, width=5)
 

@@ -14,12 +14,23 @@ TYPE_TO_CODE = {
 
 CODE_TO_TYPE = {value: key for key, value in TYPE_TO_CODE.items()}
 
+SVG_PATTERN_ALIASES = {
+    "ribbon_path": "organic_blob",
+    "swoop": "layered_wave",
+    "burst": "radial_burst",
+    "rings": "loop_rings",
+}
+
 
 def _round(value, digits=3):
     try:
         return round(float(value), digits)
     except Exception:
         return value
+
+
+def _svg_pattern(value):
+    return SVG_PATTERN_ALIASES.get(value, value)
 
 
 def _bbox_list(obj):
@@ -76,13 +87,18 @@ def _compact_props(kind, props):
         }
     if kind in {"freeform", "svg"}:
         return {
-            "p": props.get("pattern"),
+            "p": _svg_pattern(props.get("pattern")) if kind == "svg" else props.get("pattern"),
             "f": props.get("fill") or props.get("primary"),
             "l": props.get("line") or props.get("secondary"),
             "lw": _round(props.get("line_width", 1.0), 2),
         }
     if kind == "svg_image":
-        return {"cr": props.get("crop")}
+        return {
+            "cl": props.get("clip"),
+            "l": props.get("line"),
+            "lw": _round(props.get("line_width", 1.0), 2),
+            "cr": props.get("crop"),
+        }
     return {}
 
 
@@ -152,9 +168,15 @@ def _expand_props(kind, props):
             "pattern": props.get("p") or "icon",
             "primary": props.get("f") or [230, 230, 230],
             "secondary": props.get("l") or [40, 40, 40],
+            "line_width": float(_round(props.get("lw", 1.0), 2) or 1.0),
         }
     if kind == "svg_image":
-        return {"crop": props.get("cr") or [0, 0, 0, 0], "mask_overlay": False, "mask_line": [0, 0, 0]}
+        return {
+            "clip": props.get("cl") or "blob",
+            "line": props.get("l") or [40, 40, 40],
+            "line_width": float(_round(props.get("lw", 10.0), 2) or 10.0),
+            "crop": props.get("cr") or [0, 0, 0, 0],
+        }
     return props
 
 
